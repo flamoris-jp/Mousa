@@ -1,0 +1,53 @@
+{
+  "schema_version": "mousa.trial001.sources.v1",
+  "works": [
+    {
+      "work_id": "mutopia-376",
+      "title": "Flee As A Bird",
+      "composer": "(Traditional)",
+      "inputter": "Stan Sanderson",
+      "edition_source": "O. Ditson & Co., 277 Washington St., Boston, Mass.",
+      "license": "Public Domain",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=376",
+      "midi_url": "https://www.mutopiaproject.org/ftp/Traditional/fleebird/fleebird.mid",
+      "sha256": "b02e65def39bab988838d3d2e82ad9763f1b5b6b71b5a4c70e8f7b6d12eece8c",
+      "track_index": 1,
+      "expected_transposition_semitones": 3,
+      "selection_note": "First independent vocal melody staff (MEL); preserves its full-bar introductory rest. Accompaniment excluded.",
+      "license_reviewed_on": "2026-11-11",
+      "license_evidence": "Publisher per-work Copyright field says Public Domain; rechecked for this exact edition. Not a blanket clearance for other MIDI."
+    },
+    {
+      "work_id": "mutopia-2247",
+      "title": "Vocalise № 1",
+      "composer": "by F. Abt (1819–1885)",
+      "inputter": "Anonymous",
+      "edition_source": "Practical Singing Tutor for All Voices, G.Schirmer, 1892. Ed: Max Spicker",
+      "license": "Public Domain",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2247",
+      "midi_url": "https://www.mutopiaproject.org/ftp/AbtF/Vocalise1/Vocalise1.mid",
+      "sha256": "bd6524f98752dd9190376e29dd0bce82d5bd5e57dcdbd549687e7836629434ff",
+      "track_index": 1,
+      "expected_transposition_semitones": 0,
+      "selection_note": "First voice staff. The octave-lower duplicate voice in track3 is excluded and never assigned to another split.",
+      "license_reviewed_on": "2026-11-11",
+      "license_evidence": "Publisher per-work Copyright field says Public Domain; rechecked for this exact edition. Not a blanket clearance for other MIDI."
+    },
+    {
+      "work_id": "mutopia-2245",
+      "title": "Lesson I, The Diatonic Scale",
+      "composer": "by Nicola Vaccai (1790–1848)",
+      "inputter": "Anonymous",
+      "edition_source": "Practical Vocal Method for Alto, Baritone / New York: G. Schirmer, 1894. (IMSLP38823-PMLP85474)",
+      "license": "Public Domain",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2245",
+      "midi_url": "https://www.mutopiaproject.org/ftp/VaccaiN/LessonI/LessonI.mid",
+      "sha256": "f4d0789f098b122d48789f80382d4eacbc577f1a4c058a14921b3c0f96466d3d",
+      "track_index": 1,
+      "expected_transposition_semitones": 3,
+      "selection_note": "Independent voice staff. Piano accompaniment excluded.",
+      "license_reviewed_on": "2026-11-11",
+      "license_evidence": "Publisher per-work Copyright field says Public Domain; rechecked for this exact edition. Not a blanket clearance for other MIDI."
+    }
+  ]
+}
