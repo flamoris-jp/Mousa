@@ -1,0 +1,43 @@
+{
+  "schema_version": "mousa.ci-reproduction.v1",
+  "observed_on": "2026-11-11",
+  "repository": "flamoris-jp/Mousa",
+  "source_commit": "c92766bb44b23b66a2de5ef72336a90c24881c9e",
+  "tested_pr_merge_commit": "6487522bb357b3900459ae96f0c7e5b198949401",
+  "maidionis_commit": "a987eeeea11e3971d3b9708bfff6b3545cdb601f",
+  "workflow_run_id": 43006693911,
+  "workflow_url": "https://github.com/flamoris-jp/Mousa/actions/runs/43006693911",
+  "workflow_conclusion": "success",
+  "artifact_id": 13848647277,
+  "artifact_sha256": "e792419454f41fecd576440205689fedad6d43501688d8cd676df77223d8758d",
+  "artifact_download_verified": true,
+  "artifact_retention_days_actual": 3,
+  "unit_tests": {"music_ir_passed": 9, "music_passed": 22, "failed": 0},
+  "training": {"epochs": 30, "seed": 42, "parameters": 16667, "train_windows": 648, "dev_windows": 248, "test_windows": 248},
+  "native_checks": {
+    "parameters_updated": true,
+    "parameter_count": true,
+    "work_separated_counts": true,
+    "repeat_seed_generation": true,
+    "reject_wrong_export_pin": true,
+    "reject_tampered_weights": true,
+    "resume_final_weights": true,
+    "resume_best_weights": true,
+    "resume_full_state": true
+  },
+  "build_digest": "3d672908ea5af4233f43e36549d6d889179b37baa324fbb078f7f0c50e24ad03",
+  "dataset_digest": "8a052472c0f0bf81bceb62f0ca7d2dd2f1cb93f41472039eb50c627580f1c938",
+  "export_digest": "e160c528271fc670c7cece45fe5edb78582f76a0a7bdb74e6a13d92f3576463b",
+  "environment": {"platform": "linux.x86_64", "python": "3.12.16", "compiler": "13.3.0", "libtorch": "2.5.1", "dtype": "float32", "threads": 1, "abi": 0, "deterministic": true},
+  "test_metrics": {
+    "maidionis_dense": {"samples": 248, "correct_tokens": 184, "cross_entropy_nats": 1.1936701507349925, "note_onset_samples": 45, "note_onset_correct": 1},
+    "train_previous_token_and_position": {"samples": 248, "correct_tokens": 193, "cross_entropy_nats": 1.4429554736290355, "note_onset_samples": 45, "note_onset_correct": 2},
+    "train_unigram": {"samples": 248, "correct_tokens": 171, "cross_entropy_nats": 1.5950185135007848, "note_onset_samples": 45, "note_onset_correct": 0}
+  },
+  "candidates": [
+    {"file": "candidate-01.mid", "sha256": "8eb2eeca1a0b0e40e026b9663dcc9c0ba5b957adb864c91864f64986c8b54bf6", "notes": 19, "bars": 8, "bpm": 120, "seconds": 16},
+    {"file": "candidate-02.mid", "sha256": "9bcbb954a6e57d095d22ab9a5cb2db2475f1554b3b057c8ce0f3473c5c945c0b", "notes": 31, "bars": 8, "bpm": 120, "seconds": 16}
+  ],
+  "interpretation": "Fresh execution successfully reproduced the prior task and its weak onset performance. Overall accuracy does not beat the conditional baseline. These already-inspected public works are not a sealed benchmark. No musical appeal, originality guarantee, Critic, Runtime serving, GPU acceptance or Cantabile editing is established.",
+  "weight_distribution": "No model weights or raw corpus are committed or included in the CI preview artifact. Reproduction rebuilds and trains from reviewed source inputs."
+}

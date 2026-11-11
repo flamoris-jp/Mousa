@@ -1,48 +1,51 @@
 # Mousa roadmap
 
-Current stage: **bootstrap / research**. Phases below are intended work, not shipped features.
+Current stage: **offline Melody research implementation**, not production music AI. Source completion, measured acceptance and deployment are distinct.
 
-## M0 — Repository boundaries and testable seed
+## M0: Repository boundaries
 
 - [x] README, AGENTS, contribution/security guidance and data policy
-- [x] One-repository six-specialization layout with documented ownership
-- [x] Experimental bounded note-only MusicIR with fast unit tests
-- [ ] Verify CI checks on the PR and merge after review
+- [x] One repository with six specialist boundaries
+- [x] Experimental note-only MusicIR and 9 unit tests
+- [x] Bootstrap CI passed and PR #1 merged
 
-## M1 — Reproduce the first MIDI learning trial
+## M1: Recover and reproduce Trial 001 (Issue #2)
 
-- [ ] Locate and verify the original experiment source, licenses, model weights, exact dataset IDs, commands and hashes before migration
-- [ ] Reproduce its train/selection/held-out split and next-note baseline
-- [ ] Preserve observed failures and distinguish continuation from new-onset accuracy
-- [ ] Link experiment output/metrics rather than committing unreviewed MIDI or weights
+- [x] Recover original source archive and verify all 429 inventoried members
+- [x] Record source hashes, historical metrics and limitations separately from new runs
+- [x] Recheck exact three-work source declarations and add a hash-pinned intake catalog
+- [x] Migrate music-only source against an external pinned Maidionis checkout
+- [x] Add 22 music tests and fresh native CI for training, reload, generation and resume/tamper checks
+- [x] Fresh native CI run 43006693911 passed; exact evidence and weak-quality results recorded
+- [ ] Review and merge PR #6
 
-## M2 — MIDI ingestion and musical representation
+See [experiment evidence](../experiments/README.md). The recovered trial uses a narrow next-token task; this does not imply musical quality.
 
-- [ ] Source crawler/ingester limited to approved sources, with per-work and arrangement provenance
-- [ ] MIDI event extraction preserving beat-time, tempo/meter and meaningful durations
-- [ ] Derive melodic intervals, rests, phrase/motif repetitions, rhythmic accents
-- [ ] Duplicate/family detection before train/validation/test split
-- [ ] Design a versioned interchange with Cantabile without claiming losslessness prematurely
+## M2: Broader MIDI ingestion and musical representation (Issue #3)
 
-## M3 — First specialists
+- [x] Initial three-source allowlist, hash checks and explicit mono-track preprocessing
+- [ ] Broader source admission and composition/arrangement-family provenance
+- [ ] Event/phrase representation with rests, durations and note onsets, rather than mainly HOLD targets
+- [ ] Near-duplicate/family detection beyond exact normalized melodies
+- [ ] Versioned interchange with Cantabile, explicit supported events and losslessness tests
 
-- [ ] Mousa Melody: reproducible bounded candidate training and generation versus statistical baseline
-- [ ] Mousa Critic: validity + structural features + A/B preference as separate outputs
-- [ ] Later: Drums, Harmony, Bass, Arrangement in bounded tests
-- [ ] Exact Maidionis specialization descriptor/codec/objective components and checkpoint load acceptance
+## M3: Useful music specialists (Issue #4)
 
-## M4 — Music workflow
+- [ ] Melody: improved representation, broader whole-work-held-out evaluation and stronger baselines
+- [ ] Critic: separate validity, structural features, human A/B/tie/neither preference and similarity tasks
+- [ ] Drums, Harmony, Bass and Arrangement, added with independent bounded contracts
+- [ ] Specialization artifact acceptance and qualified model-serving interfaces
 
-- [ ] Runtime-controlled composition sections and selective regeneration
-- [ ] Cantabile handoff for editable projects and human review
-- [ ] Store preference and revisions with consent, provenance and separate rights
-- [ ] Test song quality with blinded pairwise human comparisons and held-out work families
+## M4: Music workflow (Issue #5)
 
-## M5 — Release qualification
+- [ ] Runtime-owned musical state, section plans and selective regeneration
+- [ ] Cantabile handoff with explicit permissions and editable project history
+- [ ] Consented human preference/revision records
+- [ ] Blinded listening comparisons on independent work families
 
-- [ ] Evaluation thresholds, model cards, clear licensing and third-party notices
-- [ ] GPU/ROCm compatibility and resource admission measured explicitly
-- [ ] Auditable model artifacts, similarity safeguards and reliable versioned interfaces
-- [ ] Distribution/Updater/Hub integration only after passing acceptance
+## M5: Release qualification
 
-See [DATA_POLICY](DATA_POLICY.md) and [ARCHITECTURE](ARCHITECTURE.md).
+- [ ] Model cards, third-party notices, dataset/weight/media rights and honest quality thresholds
+- [ ] Measured GPU/ROCm/resource qualification in a separate deployment environment
+- [ ] Auditable artifacts and reliable versioned interfaces
+- [ ] Distribution/Updater/Hub only after appropriate acceptance

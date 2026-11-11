@@ -2,85 +2,88 @@
 
 **Music is learned. Creativity emerges.**
 
-Mousa is FLAMORIS's music-intelligence research project built on [Maidionis](https://github.com/flamoris-jp/Maidionis). It develops several small, separately educated musical specializations in **one repository**, with the long-term goal of proposing, evaluating, revising, and exporting original MIDI compositions.
+Mousa is FLAMORIS's music-intelligence research project built on [Maidionis](https://github.com/flamoris-jp/Maidionis). Several small musical specializations share **one repository**, with the long-term goal of proposing, evaluating and revising editable MIDI compositions.
 
-**Mousa（ムーサ）** は、Maidionis を学習基盤として音楽特化の小さなAIを育て、協力してMIDIを作曲する FLAMORIS の研究プロジェクトです。旋律・和声・ベース・ドラム・編曲・評価を同じリポジトリで管理します。
+**Mousa（ムーサ）** は、Maidionisを学習基盤として音楽特化の小さなAIを育てるFLAMORISの研究プロジェクトです。旋律・和声・ベース・ドラム・編曲・評価を同じリポジトリで管理します。
 
-**Status: early development / research bootstrap.** This repository currently contains project boundaries, specialization plans, and a small experimental Python MusicIR value representation with unit tests. **It does not yet ship** a trained Mousa model, MIDI importer/exporter, dataset crawler, preference-learning system, model-serving API, or Cantabile integration. An earlier local music trial is not included until its source, licensing, and measured evidence are verified for migration.
+**Status: early development / offline research.** The first [Mousa Melody experiment](specializations/melody/grid_v1/README.md) now has a curated three-work MIDI intake, a native Maidionis training composition, checkpoint reload, next-token evaluation, and MIDI/neutral WAV generation code. [Recovery evidence](experiments/trial001-recovery.json) distinguishes the earlier verified archive from new execution; the [native CI workflow](.github/workflows/melody-grid-v1.yml) performs fresh training and resume/tamper checks. This is not a production-trained music model or evidence of musical appeal.
+
+**現在：Mousa Melodyのオフライン学習実験。** 前回の実験ソースを復元し、出典とハッシュを確認した3曲を教材として、学習・保存・再読込・MIDI生成を再実行する経路を実装しています。魅力の自動判定、好みの学習、他の専門モデル、Runtime常駐、Cantabile連携は未実装です。
 
 ## 🧭 Repository identity
 
 ### What Mousa owns / 主な責任範囲
 
-- Music-specific curricula, feature representation, MIDI analysis/ingestion rules, and provenance of teaching materials.
-- Six music-specialized model families: **Melody**, **Harmony**, **Bass**, **Drums**, **Arrangement**, **Critic**.
-- Music-specific evaluation: structure, variety, novelty, meaningful phrase development, and preference feedback, each reported separately.
-- Reproducible music experiments, measured results, known failures, and model-specific artifacts and contracts.
+- Music-specific tasks, curricula, symbolic representations, source provenance and model compositions.
+- **Melody, Harmony, Bass, Drums, Arrangement and Critic** within one repository.
+- Music-specific evaluation, preference examples and reproducible experiments, including failures.
 
 ### What Mousa does not own / 持たない責任
 
-- **Maidionis Core** owns generic training, checkpointing, evaluation infrastructure, artifact and inference-envelope mechanisms. Do not vendor or fork its general-purpose Core into Mousa.
-- **FLAMORIS AI Runtime** owns Workflow execution, resource scheduling, retries, shared execution state, and calls to tools. Mousa models return bounded music proposals, not actions.
-- **Cantabile** owns editable MIDI projects, note/event editing, rendering, and MIDI/WAV export. Mousa is not a second MIDI editor.
-- **Suno/DAWs** own their separate arrangements, instruments, and vocals; Mousa does not claim those abilities.
+- **Maidionis Core** owns generic numerical training, checkpointing, evaluation infrastructure and artifact/inference contracts. Core remains an external pinned dependency; it is not copied into Mousa.
+- **FLAMORIS AI Runtime** owns execution, scheduling, retries, shared workflow state and tool authority. Models return proposals, not actions.
+- **Cantabile** owns editable MIDI projects, event editing, instrument rendering and production export. A standalone research MIDI writer does not replace its project authority.
+- External DAWs and vocal/arrangement services own their respective instruments and vocals.
 
-See [architecture](docs/ARCHITECTURE.md), [roadmap](docs/ROADMAP.md), and [data policy](docs/DATA_POLICY.md).
+See [architecture](docs/ARCHITECTURE.md), [roadmap](docs/ROADMAP.md), [data policy](docs/DATA_POLICY.md), and [research evidence](experiments/README.md).
 
 ## Musical specializations
 
-| Model | Intended role |
-| --- | --- |
-| [Mousa Melody](specializations/melody/README.md) | Motifs, phrases, melody continuation and transformation |
-| [Mousa Harmony](specializations/harmony/README.md) | Harmonic suggestions and progression |
-| [Mousa Bass](specializations/bass/README.md) | Bass movement, harmony and groove relationships |
-| [Mousa Drums](specializations/drums/README.md) | Beats, accents, swing and rhythmic variation |
-| [Mousa Arrangement](specializations/arrangement/README.md) | Sections, contrast, transitions and energy |
-| [Mousa Critic](specializations/critic/README.md) | Structural analysis, candidate comparisons and learned preferences |
+| Specialization | Intended role | Current scope |
+| --- | --- | --- |
+| [Mousa Melody](specializations/melody/README.md) | Motifs, phrases and melody development | Recovered bounded next-token experiment |
+| [Mousa Harmony](specializations/harmony/README.md) | Chords and harmonic relationships | Planned |
+| [Mousa Bass](specializations/bass/README.md) | Bass movement and groove | Planned |
+| [Mousa Drums](specializations/drums/README.md) | Beats, accents and rhythmic variation | Planned |
+| [Mousa Arrangement](specializations/arrangement/README.md) | Sections, contrast and transitions | Planned |
+| [Mousa Critic](specializations/critic/README.md) | Features, comparisons and preferences | Planned |
 
-These are **planned specialization boundaries**, not claims of six working trained models. Melody and Critic are natural first experiments; Drums is also a useful bounded creative proof for Maidionis.
+A next-token predictor is not the Critic. No aesthetic labels or human preference learning are included in Trial 001.
 
-## Proposed workflow
-
-```text
-MIDI sources with verified rights and provenance
-  -> validation / de-duplication / piece-level split
-  -> analysis + musical representations
-  -> Maidionis-based specialization training
-  -> bounded candidate notes/arrangements
-  -> Runtime-controlled collaboration and review
-  -> Cantabile editable project / MIDI / WAV
-  -> human comparison and revisions -> preference examples
-```
-
-Musical correctness, musical features, human preference, and music similarity/copying risk must be measured separately. The Critic is **not** an objective judge of artistic value. Dataset licenses, source hashes, rights, rejection reasons and held-out evaluation must be retained.
-
-## Repository layout
+## Implemented research path
 
 ```text
-src/mousa/            Experimental MusicIR Python representation
-specializations/      Melody / Harmony / Bass / Drums / Arrangement / Critic plans
-docs/                 Architecture, roadmap and dataset policy
-datasets/             Dataset manifests and policies only; no unapproved corpus
-training/             Future music-specialization education compositions
-evaluation/           Evaluation rubrics and baselines
-experiments/          Reproducible music experiments (not generated assets)
-tests/                Fast local tests
+Three reviewed source identities + exact MIDI hashes
+  -> chosen monophonic track / exact sixteenth grid / explicit transposition
+  -> separate works for train, development selection and test diagnostics
+  -> external pinned Maidionis native model and training engine
+  -> checksum-bound offline research export / fresh-process load
+  -> next-token metrics + simple baselines + note-onset metrics
+  -> two 8-bar MIDI candidates and neutral synthesized previews
 ```
+
+This deliberately small task uses the previous eight grid steps and a position within the bar. It does not learn whole-song form. Source selection is based on recorded terms and representation compatibility, **not musical attractiveness**. The three already-public works are reproduction diagnostics, not a sealed benchmark. Similarity checks are diagnostic, not a legal or originality guarantee.
+
+Future Runtime-controlled collaboration and Cantabile handoff remain distinct work.
 
 ## Development / 開発
 
-For the current **MusicIR-only** bootstrap, Python 3.11+ is sufficient; no Maidionis native build, MIDI dependency or GPU is required to run these tests.
+The original MusicIR value-object tests need only Python 3.11+:
 
 ```bash
 PYTHONPATH=src python -m unittest discover -s tests -v
 ```
 
-This command validates the experimental MusicIR value object only; it does **not** test training, parsing a real MIDI file, or audio quality. Do not reuse Maidionis build commands without checking its current repository and qualification profile.
+These tests do not test native training. For the tested-profile setup, curated MIDI preparation, 22 music regression tests, 30-epoch experiment and fresh-process verification, use the [Melody experiment guide](specializations/melody/grid_v1/README.md). The native profile requires Linux x86_64, Python 3.12 and LibTorch 2.5.1+cpu. GPU and deployment acceptance are not implied.
 
-Next work is tracked in [GitHub Issues](https://github.com/flamoris-jp/Mousa/issues). See [Maidionis](https://github.com/flamoris-jp/Maidionis), [Cantabile](https://github.com/flamoris-jp/flamoris-cantabile), [AI ecosystem](https://github.com/flamoris-jp/flamoris-ai/blob/main/docs/ai-ecosystem.md), and [FLAMORIS organization map](https://github.com/flamoris-jp/.github).
+## Repository layout
+
+```text
+src/mousa/                       Experimental note-only MusicIR values
+specializations/melody/grid_v1/  Recovered melody research composition
+specializations/                 All six specialist task boundaries
+datasets/                        Reviewed source catalog and policies, no raw MIDI
+tools/                           Explicit corpus preparation and native verification
+evaluation/                      Evaluation boundaries and future specialist rubrics
+experiments/                     Source lineage and evidence, not model checkpoints
+docs/                            Architecture, roadmap and dataset policy
+tests/                           Fast MusicIR tests
+```
+
+Next work is tracked in [Issues](https://github.com/flamoris-jp/Mousa/issues). Related projects: [Maidionis](https://github.com/flamoris-jp/Maidionis), [Cantabile](https://github.com/flamoris-jp/flamoris-cantabile), [AI ecosystem](https://github.com/flamoris-jp/flamoris-ai/blob/main/docs/ai-ecosystem.md), [FLAMORIS organization map](https://github.com/flamoris-jp/.github).
 
 ## Licensing and contribution
 
-Code is licensed under [Apache License 2.0](LICENSE) unless otherwise stated. **Code licensing does not grant rights to MIDI compositions, arrangements, soundfonts, recordings, source datasets, or trained weights.** Record their provenance and license separately. Never commit private source material, credentials or unreviewed third-party MIDI. See [CONTRIBUTING.md](CONTRIBUTING.md), [SECURITY.md](SECURITY.md), [AGENTS.md](AGENTS.md).
+Code is [Apache-2.0](LICENSE) unless stated otherwise. Code licensing does not grant rights to compositions, arrangements, MIDI encodings, SoundFonts, recordings, datasets or model weights. Review and record those independently. Trial 001 records publisher Public Domain declarations for three exact works; this is not blanket authorization for other MIDI.
 
-FLAMORIS is open-source creative software. Use it, modify it, and make something interesting. Support is community/self-directed and provided as-is. 🌱
+Read [CONTRIBUTING.md](CONTRIBUTING.md), [SECURITY.md](SECURITY.md) and [AGENTS.md](AGENTS.md). FLAMORIS is open-source creative software, provided as-is without guaranteed individual support. 🌱

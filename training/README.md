@@ -1,3 +1,7 @@
 # Training
 
-Future Mousa music-specific task codecs, dataset adapters and Maidionis specialization compositions belong here. Generic training loops, artifact handling and checkpoint mechanics belong upstream in [Maidionis](https://github.com/flamoris-jp/Maidionis). No training entrypoint is currently claimed.
+The first music-specific composition lives in [Mousa Melody/grid_v1](../specializations/melody/grid_v1/README.md), alongside its native model codec, objective, source-label verification and experiment driver.
+
+Generic training loops, numerical models, checkpoint/resume and contract mechanics remain in external [Maidionis](https://github.com/flamoris-jp/Maidionis). The music CLI calls that engine; it does not copy or reimplement Core here.
+
+This is offline research. No autonomous teacher, human preference trainer or production serving path is included.
