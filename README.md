@@ -1,121 +1,86 @@
-# FLAMORIS Repository Template
+# Mousa 🎼
 
-Standard repository template for FLAMORIS projects.
+**Music is learned. Creativity emerges.**
 
-Use this repository as the starting point for new FLAMORIS repositories. After creating a repository from this template, replace the placeholders in this README with project-specific information and add only the language, runtime, build, and deployment files the project actually needs.
+Mousa is FLAMORIS's music-intelligence research project built on [Maidionis](https://github.com/flamoris-jp/Maidionis). It develops several small, separately educated musical specializations in **one repository**, with the long-term goal of proposing, evaluating, revising, and exporting original MIDI compositions.
 
-## Project
+**Mousa（ムーサ）** は、Maidionis を学習基盤として音楽特化の小さなAIを育て、協力してMIDIを作曲する FLAMORIS の研究プロジェクトです。旋律・和声・ベース・ドラム・編曲・評価を同じリポジトリで管理します。
 
-**Name:** `<PROJECT_NAME>`
+**Status: early development / research bootstrap.** This repository currently contains project boundaries, specialization plans, and a small experimental Python MusicIR value representation with unit tests. **It does not yet ship** a trained Mousa model, MIDI importer/exporter, dataset crawler, preference-learning system, model-serving API, or Cantabile integration. An earlier local music trial is not included until its source, licensing, and measured evidence are verified for migration.
 
-**Description:** `<PROJECT_DESCRIPTION>`
+## 🧭 Repository identity
 
-**Status:** `<planned | development | stable | meta>`
+### What Mousa owns / 主な責任範囲
 
-For repositories in `flamoris-jp`, keep this wording aligned with the organization `development_status` custom property. State implemented behavior separately from planned work. Do not leave a repository looking like a future design after its runtime or product slice has already shipped.
+- Music-specific curricula, feature representation, MIDI analysis/ingestion rules, and provenance of teaching materials.
+- Six music-specialized model families: **Melody**, **Harmony**, **Bass**, **Drums**, **Arrangement**, **Critic**.
+- Music-specific evaluation: structure, variety, novelty, meaningful phrase development, and preference feedback, each reported separately.
+- Reproducible music experiments, measured results, known failures, and model-specific artifacts and contracts.
 
-## 🧭 Repository identity / このRepositoryは何者？
+### What Mousa does not own / 持たない責任
 
-Replace the placeholders below with short, project-specific statements. Keep them near the top so a human or AI assistant can understand the repository before digging through Issues or source code.
+- **Maidionis Core** owns generic training, checkpointing, evaluation infrastructure, artifact and inference-envelope mechanisms. Do not vendor or fork its general-purpose Core into Mousa.
+- **FLAMORIS AI Runtime** owns Workflow execution, resource scheduling, retries, shared execution state, and calls to tools. Mousa models return bounded music proposals, not actions.
+- **Cantabile** owns editable MIDI projects, note/event editing, rendering, and MIDI/WAV export. Mousa is not a second MIDI editor.
+- **Suno/DAWs** own their separate arrangements, instruments, and vocals; Mousa does not claim those abilities.
 
-### What it is / 何者か
+See [architecture](docs/ARCHITECTURE.md), [roadmap](docs/ROADMAP.md), and [data policy](docs/DATA_POLICY.md).
 
-`<ONE_OR_TWO_SENTENCE_PROJECT_IDENTITY>`
+## Musical specializations
 
-### What it owns / 主な責任範囲
+| Model | Intended role |
+| --- | --- |
+| [Mousa Melody](specializations/melody/README.md) | Motifs, phrases, melody continuation and transformation |
+| [Mousa Harmony](specializations/harmony/README.md) | Harmonic suggestions and progression |
+| [Mousa Bass](specializations/bass/README.md) | Bass movement, harmony and groove relationships |
+| [Mousa Drums](specializations/drums/README.md) | Beats, accents, swing and rhythmic variation |
+| [Mousa Arrangement](specializations/arrangement/README.md) | Sections, contrast, transitions and energy |
+| [Mousa Critic](specializations/critic/README.md) | Structural analysis, candidate comparisons and learned preferences |
 
-- `<PRIMARY_RESPONSIBILITY_OR_AUTHORITY>`
-- `<SECONDARY_RESPONSIBILITY_IF_NEEDED>`
+These are **planned specialization boundaries**, not claims of six working trained models. Melody and Critic are natural first experiments; Drums is also a useful bounded creative proof for Maidionis.
 
-### What it does not own / 持たない責任
+## Proposed workflow
 
-- `<IMPORTANT_NEIGHBORING_RESPONSIBILITY_OWNED_ELSEWHERE>`
+```text
+MIDI sources with verified rights and provenance
+  -> validation / de-duplication / piece-level split
+  -> analysis + musical representations
+  -> Maidionis-based specialization training
+  -> bounded candidate notes/arrangements
+  -> Runtime-controlled collaboration and review
+  -> Cantabile editable project / MIDI / WAV
+  -> human comparison and revisions -> preference examples
+```
 
-Delete this subsection only when there is genuinely no likely ownership confusion.
+Musical correctness, musical features, human preference, and music similarity/copying risk must be measured separately. The Critic is **not** an objective judge of artistic value. Dataset licenses, source hashes, rights, rejection reasons and held-out evaluation must be retained.
 
-### Current status / 現在の状態
+## Repository layout
 
-`<WHAT_IS_IMPLEMENTED_NOW_AND_WHAT_IS_STILL_PLANNED_OR_UNACCEPTED>`
+```text
+src/mousa/            Experimental MusicIR Python representation
+specializations/      Melody / Harmony / Bass / Drums / Arrangement / Critic plans
+docs/                 Architecture, roadmap and dataset policy
+datasets/             Dataset manifests and policies only; no unapproved corpus
+training/             Future music-specialization education compositions
+evaluation/           Evaluation rubrics and baselines
+experiments/          Reproducible music experiments (not generated assets)
+tests/                Fast local tests
+```
 
-Do not describe planned behavior as shipped, or implemented behavior as merely future design.
+## Development / 開発
 
-### Where it fits / FLAMORISのどこに属する？
+For the current **MusicIR-only** bootstrap, Python 3.11+ is sufficient; no Maidionis native build, MIDI dependency or GPU is required to run these tests.
 
-Start from the [FLAMORIS organization map](https://github.com/flamoris-jp/.github).
+```bash
+PYTHONPATH=src python -m unittest discover -s tests -v
+```
 
-When relevant, also link the appropriate family map:
+This command validates the experimental MusicIR value object only; it does **not** test training, parsing a real MIDI file, or audio quality. Do not reuse Maidionis build commands without checking its current repository and qualification profile.
 
-- 🎨 Windows / Desktop: [FLAMORIS Desktop Ecosystem](https://github.com/flamoris-jp/flamoris-commons/blob/main/docs/desktop-ecosystem.md)
-- 🤖 AI / MCP services: [FLAMORIS AI Ecosystem](https://github.com/flamoris-jp/flamoris-ai/blob/main/docs/ai-ecosystem.md)
+Next work is tracked in [GitHub Issues](https://github.com/flamoris-jp/Mousa/issues). See [Maidionis](https://github.com/flamoris-jp/Maidionis), [Cantabile](https://github.com/flamoris-jp/flamoris-cantabile), [AI ecosystem](https://github.com/flamoris-jp/flamoris-ai/blob/main/docs/ai-ecosystem.md), and [FLAMORIS organization map](https://github.com/flamoris-jp/.github).
 
-The shared repository documentation policy lives in [FLAMORIS Commons](https://github.com/flamoris-jp/flamoris-commons/blob/main/docs/repository-policy.md).
+## Licensing and contribution
 
-## 🏷️ GitHub metadata checklist / GitHub表示設定
+Code is licensed under [Apache License 2.0](LICENSE) unless otherwise stated. **Code licensing does not grant rights to MIDI compositions, arrangements, soundfonts, recordings, source datasets, or trained weights.** Record their provenance and license separately. Never commit private source material, credentials or unreviewed third-party MIDI. See [CONTRIBUTING.md](CONTRIBUTING.md), [SECURITY.md](SECURITY.md), [AGENTS.md](AGENTS.md).
 
-After creating a repository from this template, configure the GitHub repository metadata as well as the files.
-
-- **Description:** one concise sentence describing the repository's current role.
-- **Topics:** include `flamoris`, then add a small set of useful project/domain/technology topics. Prefer roughly 4–7 intentional topics over filling every slot.
-- **Development status:** set the organization `development_status` custom property and keep it aligned with this README.
-- **Visibility:** choose intentionally; do not expose deployment secrets, private topology, credentials, or private assets by making a repository public.
-
-Do not use obsolete or speculative Topics to advertise responsibilities the repository does not actually own.
-
-> GitHub repository metadata is not repository file content. When creating from a template, verify these settings explicitly rather than assuming every template setting was inherited. 🐾
-
-## Getting started
-
-Document the real setup, build, test, and run commands for this repository here.
-
-Do not copy commands from another FLAMORIS project unless they have been verified against the current implementation.
-
-## Repository principles
-
-- Keep the repository focused on one clear responsibility.
-- Treat current code, tests, documentation, and repository configuration as the source of truth.
-- Keep public documentation portable: describe product/runtime contracts without publishing private hostnames, credentials, deployment topology, or machine-specific paths.
-- Prefer explicit boundaries over speculative abstractions.
-- Keep secrets, credentials, tokens, and private data out of source control and logs.
-- Add tests where practical and document externally visible behavior.
-- Inspect existing FLAMORIS shared packages before introducing duplicate infrastructure.
-- AI-assisted development is welcome; submitted changes still require human review and responsibility.
-
-## FLAMORIS
-
-FLAMORIS is open-source software for creative work and AI-native production.
-
-Use it however you like.
-
-Commercial use is welcome and does not require permission. If you'd like, we'd be happy to hear what you used FLAMORIS for. This is completely optional.
-
-FLAMORIS software is provided as-is. We do not provide individual support or guaranteed assistance.
-
-If you run into trouble, let your AI assistant read the repository, documentation, Issues, tests, logs, and source code and help you solve it.
-
-If FLAMORIS helps you or you find it interesting, your support helps fund development and keeps the project growing. 🌱
-
-<sub>Mostly GPU bills.</sub>
-
----
-
-## FLAMORISについて
-
-FLAMORISは、クリエイティブ制作とAIネイティブな制作環境のためのオープンソースソフトウェアです。
-
-勝手に使ってください。改造しても、組み込んでも、面白いものや変なものを作ってもOKです。
-
-商用作品や製品で使う場合も許可は不要です。もしよければ「こんなのに使ったよ」と教えてもらえるとうれしいです。もちろん強制ではありません。
-
-FLAMORISのソフトウェアは現状のまま提供されます。個別サポートや動作保証はありません。
-
-困ったときは、README、ドキュメント、Issue、テスト、ログ、ソースコードをあなたのAIに読ませて、自己サポートしてもらってください。
-
-もしお役に立てたり、面白いと思っていただけたなら、開発費用をご支援いただけるとうれしいです。FLAMORISは元気になって育ちます。🌱
-
-<sub>主にGPU代とか。</sub>
-
-## License
-
-Code in this repository is licensed under the [Apache License 2.0](LICENSE), unless otherwise noted.
-
-AI models, model weights, datasets, media, and other non-code assets may use separate licenses. State their applicable licenses alongside those assets.
+FLAMORIS is open-source creative software. Use it, modify it, and make something interesting. Support is community/self-directed and provided as-is. 🌱

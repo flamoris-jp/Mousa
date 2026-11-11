@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flamoris-mousa"
+version = "0.0.1"
+description = "Experimental music-specialization research contracts for FLAMORIS Mousa"
+requires-python = ">=3.11"
+license = {text = "Apache-2.0"}
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]
