@@ -1,0 +1,2 @@
+# Maidionis's pinned tools/dependencies.txt supplies the tested native stack.
+mido==1.3.3

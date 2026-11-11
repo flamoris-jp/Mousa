@@ -23,6 +23,8 @@ venv/
 *.egg-info/
 dist/
 build/
+# External pinned source checkouts; not vendored
+.deps/
 # Research material: add only provenance-reviewed fixtures intentionally
 datasets/raw/
 datasets/processed/

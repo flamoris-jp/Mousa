@@ -1,0 +1,32 @@
+{
+  "schema_version": "mousa.recovery.v1",
+  "source_archive_sha256": "0f2ecd18c4def851c4bb8c4405176280c940fabbe4348cbb79ce3597c305be8d",
+  "archive_inventory_verified": 429,
+  "archive_files_failed": 0,
+  "maidionis_commit": "a987eeeea11e3971d3b9708bfff6b3545cdb601f",
+  "original_code_license": "Apache-2.0",
+  "original_files": {
+    "specializations/music/descriptor.py": "cd72a0906885a402eb879e8c44fae2f255e5e7bb3b9ee30eb8f60aaae091950b",
+    "specializations/music/experiment.py": "3d7d1e67a15bfeaf35fcf086fc0804f1aedb425a07e7b66a09cc313069d31ac9",
+    "specializations/music/midi_io.py": "eaef9f3f915d3b928789d141e7ebf36f04fe12de8f82d7e352189670911fa30d",
+    "specializations/music/native/CMakeLists.txt": "8e38c9790275c713b5eed30a7864024c05ef7d3d114144e881032286759b00f0",
+    "specializations/music/native/composition.cpp": "ea677acf628ba6a646955153f095a52a829c70302fc66b17481c11344c27e8bf",
+    "specializations/music/native/composition.h": "2bd2e686aed1c563085ae5f9eb5ff88a2eebab35e4a89c5746561a1cb6d179e9",
+    "specializations/music/native/driver.cpp": "3b2b74eea23b39660ef627e6886dbda4bf204589bf1a7bfefa10a3abeeb2cd60",
+    "specializations/music/requirements.txt": "8ac2521c74bfe35e2f9f9e4d172729ede349f742c837814c571ee3732828ef78",
+    "specializations/music/tests/test_music.py": "c62a693b4bc464b9dc89faf93d929b18c38e0f4d96631ee3939eec864b491de2"
+  },
+  "migration": "Original music-only source under specializations/melody/grid_v1, with an external pinned Maidionis dependency and explicit caller-owned corpus/build paths. Generic Core, old checkpoints and raw MIDI are not copied into Git.",
+  "historical_observations": {
+    "parameters": 16667,
+    "training_windows": 648,
+    "dev_windows": 248,
+    "test_windows": 248,
+    "best_epoch": 4,
+    "test_correct_tokens": 184,
+    "test_new_onsets_correct": 1,
+    "test_new_onsets_total": 45,
+    "baseline_correct_tokens": 193
+  },
+  "historical_observations_are_not_new_execution": true
+}
