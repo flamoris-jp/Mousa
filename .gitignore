@@ -1,27 +1,37 @@
-# Operating systems
+# Operating systems and editors
 .DS_Store
 Thumbs.db
 Desktop.ini
-
-# Editors and IDEs
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
-
-# Local environment and secrets
+# Local credentials / machine settings
 .env
 .env.*
 !.env.example
 *.local
-
-# Logs
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+# Research material: add only provenance-reviewed fixtures intentionally
+datasets/raw/
+datasets/processed/
+artifacts/
+checkpoints/
+runs/
+outputs/
+# Logs, cache, temporary
 *.log
-
-# Temporary files
+.cache/
 tmp/
 temp/
-.cache/
-
-# Language- and runtime-specific ignores belong in each generated repository.

@@ -1,69 +1,33 @@
-# AGENTS.md
+# AGENTS.md — Mousa
 
-This repository is part of the FLAMORIS ecosystem.
+Mousa is the FLAMORIS music-specialization repository. Inspect current code, README and related Issues before modifying it. The [FLAMORIS repository policy](https://github.com/flamoris-jp/flamoris-commons/blob/main/docs/repository-policy.md) applies.
 
-AI agents and human contributors should inspect the current repository before making substantial changes. Do not assume that setup, build, deployment, service names, paths, configuration, or architecture match another FLAMORIS repository.
+## Ownership boundary
 
-## Core principles
+- **Mousa:** music-specific tasks, symbolic MusicIR proposals, training curricula, rights/provenance, model compositions, music evaluation, research failures, and held-out measurements.
+- **Maidionis:** specialization-neutral numerical models, education, checkpoint/restart, artifact and bounded inference contracts. Reuse it rather than copying its Core into Mousa.
+- **AI Runtime:** job scheduling, execution, retry/fallback, tool authority, shared workflow state, resource/host lifecycle.
+- **Cantabile:** source-of-truth for editable MIDI project/event state, import/export and rendering. Mousa must not silently mutate Cantabile projects.
+- No model obtains authority to download files, operate services, trigger actions, or write music projects merely from its output.
 
-1. **Current implementation is authoritative**
-   - Read the repository documentation, configuration, tests, and relevant source before changing behavior.
-   - Do not invent repository-specific commands, paths, services, or configuration.
+## Non-negotiable research rules
 
-2. **Keep responsibility clear**
-   - Keep this repository focused on its documented purpose.
-   - Preserve application and service ownership boundaries.
-   - Do not create a second source of truth for state owned elsewhere.
+1. Do not infer that public availability means a MIDI file is permitted for training or redistribution; record each source's terms and underlying arrangement/composition provenance.
+2. No raw external MIDI, weights, large datasets, synthesized WAV, or private assets in commits without explicit licensing review. Use manifests and digests for local material.
+3. Split by composition/arrangement family before tokenization or transposition. No transformed sibling may cross train/selection/test boundaries.
+4. Never call fit-to-train, note-continuation accuracy, or a model's Critic score proof of musical quality or held-out generalization.
+5. Keep negative preferences, failed experiments, sample counts, metric denominators, seeds, environment, dataset/source hashes, and duplicate checks.
+6. Separate deterministic invalid MIDI checks, structural/music features, human preferences, and similarity/reproduction risk; no universal 'good music' score.
+7. MusicIR here is experimental, not a replacement for Cantabile's format or a frozen Maidionis v1 specialization contract.
+8. Protect privacy and credentials. Do not put machine-specific topology, hostnames, personal identifiers, or secrets in public source.
+9. Avoid speculative service/runtime deployments, GPU claims and build commands. Only describe tested behavior as implemented.
 
-3. **Reuse deliberately**
-   - Check existing FLAMORIS shared packages and repositories before duplicating common infrastructure.
-   - Reuse code only when the dependency direction and ownership boundary remain clear.
-   - Avoid speculative abstractions for requirements that do not yet exist.
+## Before substantial changes
 
-4. **Security and privacy are architectural requirements**
-   - Never commit or log secrets, credentials, tokens, private keys, or sensitive user data.
-   - Prefer least-privilege access and bounded resource use.
-   - Treat external input and remote responses as untrusted.
+Read README, architecture, data policy, roadmap, existing code and tests; check Maidionis current specialization contract and Cantabile import/export boundaries. Use a branch and PR, and update tests and docs together. Each specialization owns its music semantics; keep generic Maidionis logic outside Mousa.
 
-5. **Stable behavior over cleverness**
-   - Prefer explicit, testable contracts and straightforward implementations.
-   - Preserve existing public behavior unless a change intentionally modifies it.
-   - Document externally visible behavior and compatibility impact.
+## Verification
 
-6. **Documentation must track reality**
-   - Mark the current implementation/status explicitly when a repository has both shipped behavior and future phases.
-   - Do not describe implemented behavior as merely planned, and do not describe planned behavior as already shipped.
-   - Keep public architecture portable. Machine names, private topology, credentials, and deployment-only paths belong in private deployment documentation rather than public repository defaults.
+Current bootstrap command: `PYTHONPATH=src python -m unittest discover -s tests -v`. No training or GPU acceptance is claimed.
 
-7. **AI-native, human-authoritative**
-   - AI-assisted development is welcome.
-   - Humans remain responsible for reviewing behavior, security, licensing, and compatibility.
-
-## Before implementing a substantial change
-
-- read this file and README.md;
-- identify **what this repository is, what it owns, what it does not own, its current status, and where it fits in FLAMORIS**;
-- read the [organization map](https://github.com/flamoris-jp/.github) and the relevant family map when cross-repository context matters;
-- read relevant docs, Issues, and Pull Requests;
-- inspect current implementation and tests;
-- identify the source of truth and dependency direction;
-- check whether reusable FLAMORIS infrastructure already exists;
-- verify repository-specific setup and deployment details instead of guessing.
-
-## Testing
-
-Add or update tests where practical.
-
-Prefer deterministic tests and explicit contracts. When behavior differs by platform, runtime, provider, or environment, document the supported boundary and test the relevant cases.
-
-## Licensing
-
-Unless stated otherwise, code in this repository is licensed under Apache License 2.0.
-
-Do not add third-party code, models, model weights, datasets, fonts, media, or generated assets unless their licenses are compatible and clearly documented.
-
-## Support
-
-FLAMORIS does not provide guaranteed individual support.
-
-Use the repository documentation, Issues, tests, logs, and source code as primary references when diagnosing problems.
+Code: Apache-2.0 unless stated otherwise. Dataset/weight/media rights are separate. AI assistance is welcome, with human review responsible for licenses, quality and security.
