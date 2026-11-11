@@ -1,0 +1,42 @@
+name: Mousa stem intake
+on:
+  pull_request:
+    paths:
+      - 'src/mousa/stem_intake.py'
+      - 'tests/test_stem_intake.py'
+      - '.github/workflows/stem-intake.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'src/mousa/stem_intake.py'
+      - 'tests/test_stem_intake.py'
+      - '.github/workflows/stem-intake.yml'
+permissions:
+  contents: read
+jobs:
+  intake-integration:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    env:
+      PYTHONPATH: src
+      MOUSA_STEM_EXPORTER: ${{ github.workspace }}/.deps/studio-client/product/audio-worker/stem_export.py
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/checkout@v4
+        with:
+          repository: flamoris-jp/flamoris-studio-client
+          ref: ff142fe5527f5df02a28ab4ad9df190d15b9e762
+          path: .deps/studio-client
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Optional producer test dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+          python -m pip install -r .deps/studio-client/product/audio-worker/requirements-stems.txt
+      - name: Existing tests and actual WAV-to-review integration
+        run: python -m unittest discover -s tests -v
