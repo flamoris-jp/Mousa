@@ -70,3 +70,14 @@ python -m unittest discover -s specializations/melody/grid_v1/tests -v
 
 Set the two environment variables to the chosen dependency/corpus locations
 first. This tests Python mechanisms only and is not the native CPU build recipe.
+
+## Immediate follow-through
+Preparation did not wait for the next calendar day. The separate publisher
+contribution/MIDI licensing review was subsequently completed for these three
+historical diagnostic sources, and the audit now records that limited approval.
+The new event-baseline comparison and its failures are in
+[the experiment report](2026-11-12-event-baselines.md). This supersedes the earlier
+in-session quarantine status for diagnostic training only; it does not create a
+new sealed benchmark. New generated candidates remain quarantined for similarity
+and listening review. New-branch tests now discover 50: 49 pass, the same optional
+AudioAnalyzer integration remains skipped.
