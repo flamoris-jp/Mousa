@@ -86,7 +86,7 @@ def main():
             one_correlated_family_work_mean_nll=sum(m['nll_per_event'] for m in metrics.values())/len(metrics))
     result=dict(plan=plan,intake=intake,duplicate_checks=duplicates,models=models,
         status='These works are now observed. No new training or parameter tuning performed.',
-        scope='One new correlated Schubert/edition/typesetter family, not broad generalization or musical attractiveness.')
+        scope=manifest.get('evaluation_scope','One new correlated Schubert/edition/typesetter family, not broad generalization or musical attractiveness.'))
     (a.output/'report.json').write_text(json.dumps(result,indent=2,default=str)+'\n')
     print(json.dumps({n:m['one_correlated_family_work_mean_nll'] for n,m in models.items()}))
 
