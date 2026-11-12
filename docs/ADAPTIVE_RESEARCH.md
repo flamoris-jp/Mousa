@@ -92,3 +92,11 @@ not calendar checkboxes. Include completed work, measurements, generated MIDI
 (or explicitly none), problems, next experiments and PR links. Keep mid/final
 observations even when the original tasks finish early. Final contents depend on
 what the research discovers; do not promise musical success in advance.
+
+## Implemented research iterations
+The dated experiment records are observations, not a schedule. Three cycles ran
+on November 12: preparation/event baselines, factorization/timing correction,
+and duration-prior/relative-pitch/6/8 transfer ablations. The later records correct
+false alarms and preserve tradeoffs. `meter_midi.py` is an explicit narrow
+constant-meter profile; never infer general MIDI or learned musical quality from
+its successful I/O tests.

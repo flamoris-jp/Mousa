@@ -1,0 +1,491 @@
+{
+  "config": {
+    "models": [
+      "absolute-uniform",
+      "absolute-empirical",
+      "relative-empirical"
+    ],
+    "order": 1,
+    "prior_mass": 1.0,
+    "seeds": [
+      7,
+      17,
+      29
+    ],
+    "generation_meter": [
+      6,
+      8
+    ],
+    "generation_steps": 96,
+    "selection": "relative-empirical selected by lowest prior-cycle dev NLL before new work evaluation; controls retained",
+    "limitation": "event model has no bar-position features; exact meter-aware IO is not learned 6/8 phrasing",
+    "manifest_sha256": "3cae498ec95c39d3f7e61aff52bc1633f788f929463fe41fac2114a8ba9e081a",
+    "source_hashes": {
+      "src/mousa/meter_midi.py": "163239e5a12676b5e6160092a93d6c669eb00f8373fb0848426cdbc0a37135e1",
+      "src/mousa/melodic_event_model.py": "a6b42a7d3d426b9cf9dfff2c1c13d11db98b81dd1907e7e095250eccf19e7483",
+      "src/mousa/factorized_baseline.py": "874bc5718a90576ab9a4761cada17181776fdc228ff4697cea5030bc5ddfd17d",
+      "tools/probe_meter_transfer.py": "15e20d7dede0874b1b173dc53118855ae5b32dd03c7e07f9ae89b4afbbc68ca2"
+    }
+  },
+  "inputs": {
+    "mutopia-376": {
+      "meter": [
+        4,
+        4
+      ],
+      "steps": 652,
+      "bars": "163/4",
+      "notes": 159,
+      "explicit_transposition": 3,
+      "split": "train",
+      "role": "historical_diagnostic"
+    },
+    "mutopia-2247": {
+      "meter": [
+        4,
+        4
+      ],
+      "steps": 256,
+      "bars": "16",
+      "notes": 33,
+      "explicit_transposition": 0,
+      "split": "dev",
+      "role": "historical_diagnostic"
+    },
+    "mutopia-2245": {
+      "meter": [
+        4,
+        4
+      ],
+      "steps": 248,
+      "bars": "31/2",
+      "notes": 46,
+      "explicit_transposition": 3,
+      "split": "test",
+      "role": "historical_diagnostic"
+    },
+    "mutopia-888": {
+      "meter": [
+        6,
+        8
+      ],
+      "steps": 120,
+      "bars": "10",
+      "notes": 38,
+      "explicit_transposition": 0,
+      "split": "test",
+      "role": "new_work_transfer_probe"
+    },
+    "mutopia-889": {
+      "meter": [
+        6,
+        8
+      ],
+      "steps": 120,
+      "bars": "10",
+      "notes": 47,
+      "explicit_transposition": -2,
+      "split": "test",
+      "role": "new_work_transfer_probe"
+    },
+    "mutopia-789": {
+      "meter": [
+        6,
+        8
+      ],
+      "steps": 394,
+      "bars": "197/6",
+      "notes": 120,
+      "explicit_transposition": 1,
+      "split": "test",
+      "role": "new_work_transfer_probe"
+    }
+  },
+  "duplicate_checks": [
+    {
+      "a": "mutopia-2247",
+      "b": "mutopia-376",
+      "full_normalized_equal": false,
+      "shared_8_note_phrases": 0
+    },
+    {
+      "a": "mutopia-2245",
+      "b": "mutopia-376",
+      "full_normalized_equal": false,
+      "shared_8_note_phrases": 0
+    },
+    {
+      "a": "mutopia-2245",
+      "b": "mutopia-2247",
+      "full_normalized_equal": false,
+      "shared_8_note_phrases": 0
+    },
+    {
+      "a": "mutopia-888",
+      "b": "mutopia-376",
+      "full_normalized_equal": false,
+      "shared_8_note_phrases": 0
+    },
+    {
+      "a": "mutopia-888",
+      "b": "mutopia-2247",
+      "full_normalized_equal": false,
+      "shared_8_note_phrases": 0
+    },
+    {
+      "a": "mutopia-888",
+      "b": "mutopia-2245",
+      "full_normalized_equal": false,
+      "shared_8_note_phrases": 0
+    },
+    {
+      "a": "mutopia-889",
+      "b": "mutopia-376",
+      "full_normalized_equal": false,
+      "shared_8_note_phrases": 0
+    },
+    {
+      "a": "mutopia-889",
+      "b": "mutopia-2247",
+      "full_normalized_equal": false,
+      "shared_8_note_phrases": 0
+    },
+    {
+      "a": "mutopia-889",
+      "b": "mutopia-2245",
+      "full_normalized_equal": false,
+      "shared_8_note_phrases": 0
+    },
+    {
+      "a": "mutopia-889",
+      "b": "mutopia-888",
+      "full_normalized_equal": false,
+      "shared_8_note_phrases": 0
+    },
+    {
+      "a": "mutopia-789",
+      "b": "mutopia-376",
+      "full_normalized_equal": false,
+      "shared_8_note_phrases": 0
+    },
+    {
+      "a": "mutopia-789",
+      "b": "mutopia-2247",
+      "full_normalized_equal": false,
+      "shared_8_note_phrases": 0
+    },
+    {
+      "a": "mutopia-789",
+      "b": "mutopia-2245",
+      "full_normalized_equal": false,
+      "shared_8_note_phrases": 0
+    },
+    {
+      "a": "mutopia-789",
+      "b": "mutopia-888",
+      "full_normalized_equal": false,
+      "shared_8_note_phrases": 0
+    },
+    {
+      "a": "mutopia-789",
+      "b": "mutopia-889",
+      "full_normalized_equal": false,
+      "shared_8_note_phrases": 0
+    }
+  ],
+  "models": {
+    "absolute-uniform": {
+      "metrics": {
+        "mutopia-376": {
+          "split": "train",
+          "events": 173,
+          "correct_events": 120,
+          "correct_pitch_marginal": 134,
+          "correct_duration_marginal": 148,
+          "nll_per_event": 1.182731977969935,
+          "support_size": 3328
+        },
+        "mutopia-2247": {
+          "split": "dev",
+          "events": 36,
+          "correct_events": 0,
+          "correct_pitch_marginal": 2,
+          "correct_duration_marginal": 14,
+          "nll_per_event": 7.859436656665924,
+          "support_size": 3328
+        },
+        "mutopia-2245": {
+          "split": "test",
+          "events": 51,
+          "correct_events": 2,
+          "correct_pitch_marginal": 4,
+          "correct_duration_marginal": 27,
+          "nll_per_event": 8.174895413550095,
+          "support_size": 3328
+        },
+        "mutopia-888": {
+          "split": "test",
+          "events": 38,
+          "correct_events": 2,
+          "correct_pitch_marginal": 2,
+          "correct_duration_marginal": 13,
+          "nll_per_event": 7.587844744017197,
+          "support_size": 3328
+        },
+        "mutopia-889": {
+          "split": "test",
+          "events": 48,
+          "correct_events": 0,
+          "correct_pitch_marginal": 3,
+          "correct_duration_marginal": 7,
+          "nll_per_event": 7.989262950790426,
+          "support_size": 3328
+        },
+        "mutopia-789": {
+          "split": "test",
+          "events": 130,
+          "correct_events": 16,
+          "correct_pitch_marginal": 37,
+          "correct_duration_marginal": 40,
+          "nll_per_event": 6.619599662774591,
+          "support_size": 3328
+        }
+      },
+      "candidates": [
+        {
+          "seed": 7,
+          "status": "complete",
+          "rejections": 0,
+          "sha256": "ecc5fd57f190651657e2988f42f28814b30bc6f2536aff9e1eb447993152fe95",
+          "file": "absolute-uniform-seed-7-6-8.mid",
+          "exact_roundtrip": true,
+          "steps": 96,
+          "note_onsets": 10,
+          "human_quality_review": "not performed",
+          "originality": "not cleared"
+        },
+        {
+          "seed": 17,
+          "status": "complete",
+          "rejections": 0,
+          "sha256": "69e91b388be0de6b73904e731907d86ddf58a70859c5ab35c97225fa318c5773",
+          "file": "absolute-uniform-seed-17-6-8.mid",
+          "exact_roundtrip": true,
+          "steps": 96,
+          "note_onsets": 9,
+          "human_quality_review": "not performed",
+          "originality": "not cleared"
+        },
+        {
+          "seed": 29,
+          "status": "complete",
+          "rejections": 0,
+          "sha256": "9e9b85f42cfa63ab9a3533fdc19aec445883b674fd60d25c5168cdc565ff6f68",
+          "file": "absolute-uniform-seed-29-6-8.mid",
+          "exact_roundtrip": true,
+          "steps": 96,
+          "note_onsets": 4,
+          "human_quality_review": "not performed",
+          "originality": "not cleared"
+        }
+      ],
+      "wall_seconds": 0.2406644249999772
+    },
+    "absolute-empirical": {
+      "metrics": {
+        "mutopia-376": {
+          "split": "train",
+          "events": 173,
+          "correct_events": 122,
+          "correct_pitch_marginal": 134,
+          "correct_duration_marginal": 148,
+          "nll_per_event": 1.132274921745447,
+          "support_size": 3328
+        },
+        "mutopia-2247": {
+          "split": "dev",
+          "events": 36,
+          "correct_events": 0,
+          "correct_pitch_marginal": 2,
+          "correct_duration_marginal": 14,
+          "nll_per_event": 7.532606665065883,
+          "support_size": 3328
+        },
+        "mutopia-2245": {
+          "split": "test",
+          "events": 51,
+          "correct_events": 3,
+          "correct_pitch_marginal": 4,
+          "correct_duration_marginal": 29,
+          "nll_per_event": 7.421944323819717,
+          "support_size": 3328
+        },
+        "mutopia-888": {
+          "split": "test",
+          "events": 38,
+          "correct_events": 2,
+          "correct_pitch_marginal": 2,
+          "correct_duration_marginal": 13,
+          "nll_per_event": 7.287774969026276,
+          "support_size": 3328
+        },
+        "mutopia-889": {
+          "split": "test",
+          "events": 48,
+          "correct_events": 0,
+          "correct_pitch_marginal": 3,
+          "correct_duration_marginal": 7,
+          "nll_per_event": 7.537501151938791,
+          "support_size": 3328
+        },
+        "mutopia-789": {
+          "split": "test",
+          "events": 130,
+          "correct_events": 16,
+          "correct_pitch_marginal": 37,
+          "correct_duration_marginal": 40,
+          "nll_per_event": 5.681484235096615,
+          "support_size": 3328
+        }
+      },
+      "candidates": [
+        {
+          "seed": 7,
+          "status": "complete",
+          "rejections": 0,
+          "sha256": "83ccc13e29e6bf88a88e9ad92274acd3b803936b0338a54f499c13cb7787cd33",
+          "file": "absolute-empirical-seed-7-6-8.mid",
+          "exact_roundtrip": true,
+          "steps": 96,
+          "note_onsets": 27,
+          "human_quality_review": "not performed",
+          "originality": "not cleared"
+        },
+        {
+          "seed": 17,
+          "status": "complete",
+          "rejections": 0,
+          "sha256": "b8ca39a8941c7a6375086e479db1013c23d8aabe3e6954103af1c3d074207874",
+          "file": "absolute-empirical-seed-17-6-8.mid",
+          "exact_roundtrip": true,
+          "steps": 96,
+          "note_onsets": 23,
+          "human_quality_review": "not performed",
+          "originality": "not cleared"
+        },
+        {
+          "seed": 29,
+          "status": "complete",
+          "rejections": 0,
+          "sha256": "78b8c0e4d875cf8cbdb051d894c4799918193ddb9724b91f5d26c1b9bb4c8a8a",
+          "file": "absolute-empirical-seed-29-6-8.mid",
+          "exact_roundtrip": true,
+          "steps": 96,
+          "note_onsets": 27,
+          "human_quality_review": "not performed",
+          "originality": "not cleared"
+        }
+      ],
+      "wall_seconds": 0.27309868700012885
+    },
+    "relative-empirical": {
+      "metrics": {
+        "mutopia-376": {
+          "split": "train",
+          "events": 173,
+          "correct_events": 109,
+          "correct_pitch_marginal": 119,
+          "correct_duration_marginal": 140,
+          "nll_per_event": 1.3538290615774318,
+          "support_size": 3328
+        },
+        "mutopia-2247": {
+          "split": "dev",
+          "events": 36,
+          "correct_events": 1,
+          "correct_pitch_marginal": 5,
+          "correct_duration_marginal": 6,
+          "nll_per_event": 6.432466477104848,
+          "support_size": 3328
+        },
+        "mutopia-2245": {
+          "split": "test",
+          "events": 51,
+          "correct_events": 3,
+          "correct_pitch_marginal": 5,
+          "correct_duration_marginal": 9,
+          "nll_per_event": 6.441339396219962,
+          "support_size": 3328
+        },
+        "mutopia-888": {
+          "split": "test",
+          "events": 38,
+          "correct_events": 4,
+          "correct_pitch_marginal": 8,
+          "correct_duration_marginal": 15,
+          "nll_per_event": 5.917337729069872,
+          "support_size": 3328
+        },
+        "mutopia-889": {
+          "split": "test",
+          "events": 48,
+          "correct_events": 5,
+          "correct_pitch_marginal": 9,
+          "correct_duration_marginal": 11,
+          "nll_per_event": 5.697682409279094,
+          "support_size": 3328
+        },
+        "mutopia-789": {
+          "split": "test",
+          "events": 130,
+          "correct_events": 13,
+          "correct_pitch_marginal": 33,
+          "correct_duration_marginal": 37,
+          "nll_per_event": 5.851173161261422,
+          "support_size": 3328
+        }
+      },
+      "candidates": [
+        {
+          "seed": 7,
+          "status": "complete",
+          "rejections": 0,
+          "sha256": "f30619db89898f4a38ad3d91b78b6565c55c628e841aa35609d4ebe0a78a2707",
+          "file": "relative-empirical-seed-7-6-8.mid",
+          "exact_roundtrip": true,
+          "steps": 96,
+          "note_onsets": 31,
+          "human_quality_review": "not performed",
+          "originality": "not cleared"
+        },
+        {
+          "seed": 17,
+          "status": "complete",
+          "rejections": 0,
+          "sha256": "dfc7dd85c10e9bfcf8ee5d918712ee9875bd739dcdb976a8315d2ee9efd36b78",
+          "file": "relative-empirical-seed-17-6-8.mid",
+          "exact_roundtrip": true,
+          "steps": 96,
+          "note_onsets": 10,
+          "human_quality_review": "not performed",
+          "originality": "not cleared"
+        },
+        {
+          "seed": 29,
+          "status": "complete",
+          "rejections": 0,
+          "sha256": "5335269689705bb5e54854c5d6da9cdc641eb53cb849d18188396e185da5b802",
+          "file": "relative-empirical-seed-29-6-8.mid",
+          "exact_roundtrip": true,
+          "steps": 96,
+          "note_onsets": 29,
+          "human_quality_review": "not performed",
+          "originality": "not cleared"
+        }
+      ],
+      "wall_seconds": 0.28696196700002474
+    }
+  },
+  "peak_rss_kib": 17280,
+  "python": "3.12.14"
+}
