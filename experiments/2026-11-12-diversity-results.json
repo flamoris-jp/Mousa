@@ -1,0 +1,1099 @@
+{
+  "groups": [
+    {
+      "group": 0,
+      "status": "complete",
+      "eligible_count": 1,
+      "control": {
+        "seed": 0,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "0",
+          "mean_abs_interval": "73/27",
+          "unique_pitches": 9,
+          "onsets": 28,
+          "rest_steps": 10,
+          "zero_interval_fraction": "1/9"
+        },
+        "midi_sha256": "a82e1a436cfef67a240857595c9dc4ff4c72d153e62d07bcaba0d76597496538",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      },
+      "unconstrained": {
+        "seed": 0,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "0",
+          "mean_abs_interval": "73/27",
+          "unique_pitches": 9,
+          "onsets": 28,
+          "rest_steps": 10,
+          "zero_interval_fraction": "1/9"
+        },
+        "midi_sha256": "a82e1a436cfef67a240857595c9dc4ff4c72d153e62d07bcaba0d76597496538",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      },
+      "constrained": {
+        "seed": 0,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "0",
+          "mean_abs_interval": "73/27",
+          "unique_pitches": 9,
+          "onsets": 28,
+          "rest_steps": 10,
+          "zero_interval_fraction": "1/9"
+        },
+        "midi_sha256": "a82e1a436cfef67a240857595c9dc4ff4c72d153e62d07bcaba0d76597496538",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      }
+    },
+    {
+      "group": 1,
+      "status": "complete",
+      "eligible_count": 1,
+      "control": {
+        "seed": 4,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "1/36",
+          "mean_abs_interval": "3",
+          "unique_pitches": 16,
+          "onsets": 37,
+          "rest_steps": 2,
+          "zero_interval_fraction": "7/36"
+        },
+        "midi_sha256": "12f9b0672f28ef6a1067525cf5eba9477b6da7bd4890f128336f6138ecbb37be",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      },
+      "unconstrained": {
+        "seed": 6,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "0",
+          "mean_abs_interval": "91/34",
+          "unique_pitches": 12,
+          "onsets": 35,
+          "rest_steps": 2,
+          "zero_interval_fraction": "4/17"
+        },
+        "midi_sha256": "2d3e52428591ac73d5cdb00a88e5d1927d1156cdd3ce72ca55713d358d42f25e",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      },
+      "constrained": {
+        "seed": 4,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "1/36",
+          "mean_abs_interval": "3",
+          "unique_pitches": 16,
+          "onsets": 37,
+          "rest_steps": 2,
+          "zero_interval_fraction": "7/36"
+        },
+        "midi_sha256": "12f9b0672f28ef6a1067525cf5eba9477b6da7bd4890f128336f6138ecbb37be",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      }
+    },
+    {
+      "group": 2,
+      "status": "complete",
+      "eligible_count": 2,
+      "control": {
+        "seed": 8,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "1/13",
+          "mean_abs_interval": "109/26",
+          "unique_pitches": 17,
+          "onsets": 27,
+          "rest_steps": 14,
+          "zero_interval_fraction": "7/26"
+        },
+        "midi_sha256": "ec1539f12d81c5ed37ec7e76b6c10e18237a54a50b39d631365e1da8fc78256a",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      },
+      "unconstrained": {
+        "seed": 9,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "0",
+          "mean_abs_interval": "21/10",
+          "unique_pitches": 7,
+          "onsets": 31,
+          "rest_steps": 6,
+          "zero_interval_fraction": "1/3"
+        },
+        "midi_sha256": "61ba38e6772ed8838f39bdf2fc4c8e4dc283551acee0b9a1399734b9c7853d28",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      },
+      "constrained": {
+        "seed": 10,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "1/36",
+          "mean_abs_interval": "3",
+          "unique_pitches": 20,
+          "onsets": 37,
+          "rest_steps": 0,
+          "zero_interval_fraction": "2/9"
+        },
+        "midi_sha256": "0a30b91ca38f4b0038a12a08ef1f687db55d02fb200e0445fbf4153acf431543",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      }
+    },
+    {
+      "group": 3,
+      "status": "complete",
+      "eligible_count": 1,
+      "control": {
+        "seed": 12,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "2/29",
+          "mean_abs_interval": "91/29",
+          "unique_pitches": 17,
+          "onsets": 30,
+          "rest_steps": 9,
+          "zero_interval_fraction": "6/29"
+        },
+        "midi_sha256": "65e24f10889db73bc8f0a2dc0dcacb1be307d760184da541a81bc3a11f9f3a7d",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      },
+      "unconstrained": {
+        "seed": 15,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "0",
+          "mean_abs_interval": "29/16",
+          "unique_pitches": 9,
+          "onsets": 17,
+          "rest_steps": 0,
+          "zero_interval_fraction": "3/8"
+        },
+        "midi_sha256": "1c092aa56805021785505bda5037eab9167c5225501ee2e05b6baf47fdff9a89",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      },
+      "constrained": {
+        "seed": 12,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "2/29",
+          "mean_abs_interval": "91/29",
+          "unique_pitches": 17,
+          "onsets": 30,
+          "rest_steps": 9,
+          "zero_interval_fraction": "6/29"
+        },
+        "midi_sha256": "65e24f10889db73bc8f0a2dc0dcacb1be307d760184da541a81bc3a11f9f3a7d",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      }
+    },
+    {
+      "group": 4,
+      "status": "complete",
+      "eligible_count": 1,
+      "control": {
+        "seed": 16,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "1/34",
+          "mean_abs_interval": "123/34",
+          "unique_pitches": 17,
+          "onsets": 35,
+          "rest_steps": 8,
+          "zero_interval_fraction": "5/34"
+        },
+        "midi_sha256": "c6cf741463bacb9cad1eeff98a5674a415d61fda8b87b2c0b8bac3d8f65879ef",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      },
+      "unconstrained": {
+        "seed": 18,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "0",
+          "mean_abs_interval": "5/2",
+          "unique_pitches": 11,
+          "onsets": 27,
+          "rest_steps": 8,
+          "zero_interval_fraction": "5/26"
+        },
+        "midi_sha256": "59412b860bb7ba51f054a34ebd0191f70f768cc4544bf7ed5e579043c9894162",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      },
+      "constrained": {
+        "seed": 16,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "1/34",
+          "mean_abs_interval": "123/34",
+          "unique_pitches": 17,
+          "onsets": 35,
+          "rest_steps": 8,
+          "zero_interval_fraction": "5/34"
+        },
+        "midi_sha256": "c6cf741463bacb9cad1eeff98a5674a415d61fda8b87b2c0b8bac3d8f65879ef",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      }
+    },
+    {
+      "group": 5,
+      "status": "complete",
+      "eligible_count": 1,
+      "control": {
+        "seed": 20,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "0",
+          "mean_abs_interval": "90/31",
+          "unique_pitches": 14,
+          "onsets": 32,
+          "rest_steps": 6,
+          "zero_interval_fraction": "5/31"
+        },
+        "midi_sha256": "90b2b49d93cd42d3f79437cc0d16b922c3abcc35dc3a2d23bd1ddeac60f146ac",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      },
+      "unconstrained": {
+        "seed": 20,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "0",
+          "mean_abs_interval": "90/31",
+          "unique_pitches": 14,
+          "onsets": 32,
+          "rest_steps": 6,
+          "zero_interval_fraction": "5/31"
+        },
+        "midi_sha256": "90b2b49d93cd42d3f79437cc0d16b922c3abcc35dc3a2d23bd1ddeac60f146ac",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      },
+      "constrained": {
+        "seed": 20,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "0",
+          "mean_abs_interval": "90/31",
+          "unique_pitches": 14,
+          "onsets": 32,
+          "rest_steps": 6,
+          "zero_interval_fraction": "5/31"
+        },
+        "midi_sha256": "90b2b49d93cd42d3f79437cc0d16b922c3abcc35dc3a2d23bd1ddeac60f146ac",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      }
+    },
+    {
+      "group": 6,
+      "status": "complete",
+      "eligible_count": 2,
+      "control": {
+        "seed": 24,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "1/14",
+          "mean_abs_interval": "31/7",
+          "unique_pitches": 11,
+          "onsets": 15,
+          "rest_steps": 5,
+          "zero_interval_fraction": "1/7"
+        },
+        "midi_sha256": "40df340771ea81f78fd07d723b3710a3854b8a6378828de3588cbc6562cd1a3a",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      },
+      "unconstrained": {
+        "seed": 25,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "0",
+          "mean_abs_interval": "73/36",
+          "unique_pitches": 14,
+          "onsets": 37,
+          "rest_steps": 4,
+          "zero_interval_fraction": "2/9"
+        },
+        "midi_sha256": "fdba4859e966f58960aeacce992cfd99dffd5b6b6f38feda56a7ce27cdbc7c96",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      },
+      "constrained": {
+        "seed": 27,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "0",
+          "mean_abs_interval": "103/38",
+          "unique_pitches": 21,
+          "onsets": 39,
+          "rest_steps": 0,
+          "zero_interval_fraction": "5/38"
+        },
+        "midi_sha256": "0bab4bae79aeb456f8ad30784dd7b94272350b94e627eaacabe774cef82573ef",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      }
+    },
+    {
+      "group": 7,
+      "status": "complete",
+      "eligible_count": 2,
+      "control": {
+        "seed": 28,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "0",
+          "mean_abs_interval": "68/31",
+          "unique_pitches": 15,
+          "onsets": 32,
+          "rest_steps": 6,
+          "zero_interval_fraction": "9/31"
+        },
+        "midi_sha256": "641ab5ac0ccaf2a3ebd630c70fa850cbe9c1109be74edcd4796a415bb7d5e854",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      },
+      "unconstrained": {
+        "seed": 28,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "0",
+          "mean_abs_interval": "68/31",
+          "unique_pitches": 15,
+          "onsets": 32,
+          "rest_steps": 6,
+          "zero_interval_fraction": "9/31"
+        },
+        "midi_sha256": "641ab5ac0ccaf2a3ebd630c70fa850cbe9c1109be74edcd4796a415bb7d5e854",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      },
+      "constrained": {
+        "seed": 28,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "0",
+          "mean_abs_interval": "68/31",
+          "unique_pitches": 15,
+          "onsets": 32,
+          "rest_steps": 6,
+          "zero_interval_fraction": "9/31"
+        },
+        "midi_sha256": "641ab5ac0ccaf2a3ebd630c70fa850cbe9c1109be74edcd4796a415bb7d5e854",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      }
+    },
+    {
+      "group": 8,
+      "status": "complete",
+      "eligible_count": 1,
+      "control": {
+        "seed": 32,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "2/27",
+          "mean_abs_interval": "121/27",
+          "unique_pitches": 14,
+          "onsets": 28,
+          "rest_steps": 4,
+          "zero_interval_fraction": "0"
+        },
+        "midi_sha256": "51badf11bd9bd59ba56a2368dae0ea102bd147f7cf6a40fb8cff994ea783b93d",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      },
+      "unconstrained": {
+        "seed": 33,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "0",
+          "mean_abs_interval": "43/19",
+          "unique_pitches": 14,
+          "onsets": 39,
+          "rest_steps": 3,
+          "zero_interval_fraction": "7/19"
+        },
+        "midi_sha256": "da4fbe70013d8fa55e66cb7fc51e0a392c2380f8ff69e7379ac076ad3b6e3b64",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      },
+      "constrained": {
+        "seed": 32,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "2/27",
+          "mean_abs_interval": "121/27",
+          "unique_pitches": 14,
+          "onsets": 28,
+          "rest_steps": 4,
+          "zero_interval_fraction": "0"
+        },
+        "midi_sha256": "51badf11bd9bd59ba56a2368dae0ea102bd147f7cf6a40fb8cff994ea783b93d",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      }
+    },
+    {
+      "group": 9,
+      "status": "complete",
+      "eligible_count": 1,
+      "control": {
+        "seed": 36,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "0",
+          "mean_abs_interval": "3",
+          "unique_pitches": 9,
+          "onsets": 19,
+          "rest_steps": 4,
+          "zero_interval_fraction": "1/6"
+        },
+        "midi_sha256": "95e7f2b171e64687c375636f39ac5ab7d2eee29313d8d50721011ef4830b035a",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      },
+      "unconstrained": {
+        "seed": 36,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "0",
+          "mean_abs_interval": "3",
+          "unique_pitches": 9,
+          "onsets": 19,
+          "rest_steps": 4,
+          "zero_interval_fraction": "1/6"
+        },
+        "midi_sha256": "95e7f2b171e64687c375636f39ac5ab7d2eee29313d8d50721011ef4830b035a",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      },
+      "constrained": {
+        "seed": 36,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "0",
+          "mean_abs_interval": "3",
+          "unique_pitches": 9,
+          "onsets": 19,
+          "rest_steps": 4,
+          "zero_interval_fraction": "1/6"
+        },
+        "midi_sha256": "95e7f2b171e64687c375636f39ac5ab7d2eee29313d8d50721011ef4830b035a",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      }
+    },
+    {
+      "group": 10,
+      "status": "complete",
+      "eligible_count": 2,
+      "control": {
+        "seed": 40,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "3/28",
+          "mean_abs_interval": "127/28",
+          "unique_pitches": 13,
+          "onsets": 29,
+          "rest_steps": 6,
+          "zero_interval_fraction": "3/14"
+        },
+        "midi_sha256": "9a899f52db8f24b072700693a492d54768a2005e516f824fcacfe8c4543331aa",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      },
+      "unconstrained": {
+        "seed": 42,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "1/33",
+          "mean_abs_interval": "103/33",
+          "unique_pitches": 17,
+          "onsets": 34,
+          "rest_steps": 4,
+          "zero_interval_fraction": "2/11"
+        },
+        "midi_sha256": "fe7fc494210f279c19d242080df0e61a6473b2bc3ba7270248c181684fe17cfd",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      },
+      "constrained": {
+        "seed": 42,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "1/33",
+          "mean_abs_interval": "103/33",
+          "unique_pitches": 17,
+          "onsets": 34,
+          "rest_steps": 4,
+          "zero_interval_fraction": "2/11"
+        },
+        "midi_sha256": "fe7fc494210f279c19d242080df0e61a6473b2bc3ba7270248c181684fe17cfd",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      }
+    },
+    {
+      "group": 11,
+      "status": "complete",
+      "eligible_count": 1,
+      "control": {
+        "seed": 44,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "3/37",
+          "mean_abs_interval": "137/37",
+          "unique_pitches": 15,
+          "onsets": 38,
+          "rest_steps": 5,
+          "zero_interval_fraction": "8/37"
+        },
+        "midi_sha256": "eb35834e56a4e3ce06b1244c60ee76baa99902f16d274816778932f574edd1df",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      },
+      "unconstrained": {
+        "seed": 45,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "0",
+          "mean_abs_interval": "45/16",
+          "unique_pitches": 13,
+          "onsets": 33,
+          "rest_steps": 0,
+          "zero_interval_fraction": "5/32"
+        },
+        "midi_sha256": "856e0af9717786ff0ef0b68a136e01d0f1609caa4a529818ac22a4ad6bb2825d",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      },
+      "constrained": {
+        "seed": 44,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "3/37",
+          "mean_abs_interval": "137/37",
+          "unique_pitches": 15,
+          "onsets": 38,
+          "rest_steps": 5,
+          "zero_interval_fraction": "8/37"
+        },
+        "midi_sha256": "eb35834e56a4e3ce06b1244c60ee76baa99902f16d274816778932f574edd1df",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      }
+    },
+    {
+      "group": 12,
+      "status": "complete",
+      "eligible_count": 1,
+      "control": {
+        "seed": 48,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "0",
+          "mean_abs_interval": "88/39",
+          "unique_pitches": 17,
+          "onsets": 40,
+          "rest_steps": 4,
+          "zero_interval_fraction": "1/3"
+        },
+        "midi_sha256": "7e6697bab3cbd31e8495b99a09259a48d94dc296a841fd4a47a7124ccacdec51",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      },
+      "unconstrained": {
+        "seed": 48,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "0",
+          "mean_abs_interval": "88/39",
+          "unique_pitches": 17,
+          "onsets": 40,
+          "rest_steps": 4,
+          "zero_interval_fraction": "1/3"
+        },
+        "midi_sha256": "7e6697bab3cbd31e8495b99a09259a48d94dc296a841fd4a47a7124ccacdec51",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      },
+      "constrained": {
+        "seed": 48,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "0",
+          "mean_abs_interval": "88/39",
+          "unique_pitches": 17,
+          "onsets": 40,
+          "rest_steps": 4,
+          "zero_interval_fraction": "1/3"
+        },
+        "midi_sha256": "7e6697bab3cbd31e8495b99a09259a48d94dc296a841fd4a47a7124ccacdec51",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      }
+    },
+    {
+      "group": 13,
+      "status": "complete",
+      "eligible_count": 2,
+      "control": {
+        "seed": 52,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "1/35",
+          "mean_abs_interval": "97/35",
+          "unique_pitches": 14,
+          "onsets": 36,
+          "rest_steps": 0,
+          "zero_interval_fraction": "12/35"
+        },
+        "midi_sha256": "2d4bec2e0c2190d3b19480878c623d29f40ee5649e4238402defb3c658982d6e",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      },
+      "unconstrained": {
+        "seed": 53,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "0",
+          "mean_abs_interval": "8/3",
+          "unique_pitches": 17,
+          "onsets": 34,
+          "rest_steps": 2,
+          "zero_interval_fraction": "2/11"
+        },
+        "midi_sha256": "9ac4d6eaca454ee1f0dba3b938bcaff52243d76303faec457e8243162daab330",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      },
+      "constrained": {
+        "seed": 53,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "0",
+          "mean_abs_interval": "8/3",
+          "unique_pitches": 17,
+          "onsets": 34,
+          "rest_steps": 2,
+          "zero_interval_fraction": "2/11"
+        },
+        "midi_sha256": "9ac4d6eaca454ee1f0dba3b938bcaff52243d76303faec457e8243162daab330",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      }
+    },
+    {
+      "group": 14,
+      "status": "complete",
+      "eligible_count": 2,
+      "control": {
+        "seed": 56,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "0",
+          "mean_abs_interval": "17/7",
+          "unique_pitches": 18,
+          "onsets": 36,
+          "rest_steps": 12,
+          "zero_interval_fraction": "13/35"
+        },
+        "midi_sha256": "2b7f736e90118a2ccbf2ac6c1657cfaa8844a7e7a7cce8837d49733c41c0fea2",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      },
+      "unconstrained": {
+        "seed": 56,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "0",
+          "mean_abs_interval": "17/7",
+          "unique_pitches": 18,
+          "onsets": 36,
+          "rest_steps": 12,
+          "zero_interval_fraction": "13/35"
+        },
+        "midi_sha256": "2b7f736e90118a2ccbf2ac6c1657cfaa8844a7e7a7cce8837d49733c41c0fea2",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      },
+      "constrained": {
+        "seed": 56,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "0",
+          "mean_abs_interval": "17/7",
+          "unique_pitches": 18,
+          "onsets": 36,
+          "rest_steps": 12,
+          "zero_interval_fraction": "13/35"
+        },
+        "midi_sha256": "2b7f736e90118a2ccbf2ac6c1657cfaa8844a7e7a7cce8837d49733c41c0fea2",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      }
+    },
+    {
+      "group": 15,
+      "status": "complete",
+      "eligible_count": 3,
+      "control": {
+        "seed": 60,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "1/34",
+          "mean_abs_interval": "49/17",
+          "unique_pitches": 15,
+          "onsets": 35,
+          "rest_steps": 4,
+          "zero_interval_fraction": "9/34"
+        },
+        "midi_sha256": "bd1c2913dec5231dc454da567012bd11af944bbbfc4d3b114e64b0210dce8538",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      },
+      "unconstrained": {
+        "seed": 61,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "0",
+          "mean_abs_interval": "19/9",
+          "unique_pitches": 8,
+          "onsets": 19,
+          "rest_steps": 0,
+          "zero_interval_fraction": "2/9"
+        },
+        "midi_sha256": "53a01249ab4319fe4a32dca0b94947307ef94db1d74068e694b46fa719c68c2f",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      },
+      "constrained": {
+        "seed": 63,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "0",
+          "mean_abs_interval": "53/19",
+          "unique_pitches": 19,
+          "onsets": 39,
+          "rest_steps": 2,
+          "zero_interval_fraction": "3/38"
+        },
+        "midi_sha256": "2319b26c5ddebe790b191771902a31c0eae6e30005009c1875f265872f53f85a",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      }
+    },
+    {
+      "group": 16,
+      "status": "complete",
+      "eligible_count": 1,
+      "control": {
+        "seed": 64,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "1/29",
+          "mean_abs_interval": "83/29",
+          "unique_pitches": 15,
+          "onsets": 30,
+          "rest_steps": 12,
+          "zero_interval_fraction": "5/29"
+        },
+        "midi_sha256": "8f225827d10a6e1cdc554fc037e4d86e666168c0c5865608c464efcc270a67a5",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      },
+      "unconstrained": {
+        "seed": 66,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "1/34",
+          "mean_abs_interval": "54/17",
+          "unique_pitches": 17,
+          "onsets": 35,
+          "rest_steps": 0,
+          "zero_interval_fraction": "11/34"
+        },
+        "midi_sha256": "449edb72650cef1a55a369caf7de9a3fb52e853f4095cf9d7aecb8c92b4ab33f",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      },
+      "constrained": {
+        "seed": 64,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "1/29",
+          "mean_abs_interval": "83/29",
+          "unique_pitches": 15,
+          "onsets": 30,
+          "rest_steps": 12,
+          "zero_interval_fraction": "5/29"
+        },
+        "midi_sha256": "8f225827d10a6e1cdc554fc037e4d86e666168c0c5865608c464efcc270a67a5",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      }
+    },
+    {
+      "group": 17,
+      "status": "complete",
+      "eligible_count": 3,
+      "control": {
+        "seed": 68,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "0",
+          "mean_abs_interval": "73/33",
+          "unique_pitches": 12,
+          "onsets": 34,
+          "rest_steps": 4,
+          "zero_interval_fraction": "4/11"
+        },
+        "midi_sha256": "6209fbe20e7645dc6e2d1f516049170c2aee5f421f8847d7613d59e6f1742d7f",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      },
+      "unconstrained": {
+        "seed": 68,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "0",
+          "mean_abs_interval": "73/33",
+          "unique_pitches": 12,
+          "onsets": 34,
+          "rest_steps": 4,
+          "zero_interval_fraction": "4/11"
+        },
+        "midi_sha256": "6209fbe20e7645dc6e2d1f516049170c2aee5f421f8847d7613d59e6f1742d7f",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      },
+      "constrained": {
+        "seed": 68,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "0",
+          "mean_abs_interval": "73/33",
+          "unique_pitches": 12,
+          "onsets": 34,
+          "rest_steps": 4,
+          "zero_interval_fraction": "4/11"
+        },
+        "midi_sha256": "6209fbe20e7645dc6e2d1f516049170c2aee5f421f8847d7613d59e6f1742d7f",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      }
+    },
+    {
+      "group": 18,
+      "status": "complete",
+      "eligible_count": 2,
+      "control": {
+        "seed": 72,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "3/32",
+          "mean_abs_interval": "123/32",
+          "unique_pitches": 14,
+          "onsets": 33,
+          "rest_steps": 2,
+          "zero_interval_fraction": "1/4"
+        },
+        "midi_sha256": "5f31dc007669b467b48a367e33e3ffc0c742b78c5ac336ff1acf1436170e8846",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      },
+      "unconstrained": {
+        "seed": 73,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "0",
+          "mean_abs_interval": "86/35",
+          "unique_pitches": 14,
+          "onsets": 36,
+          "rest_steps": 6,
+          "zero_interval_fraction": "1/7"
+        },
+        "midi_sha256": "d7c2e03b5a8d90abb073249ee0d4ff32d4ddc6eb047d1b1bd84ae06cb1b0b444",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      },
+      "constrained": {
+        "seed": 73,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "0",
+          "mean_abs_interval": "86/35",
+          "unique_pitches": 14,
+          "onsets": 36,
+          "rest_steps": 6,
+          "zero_interval_fraction": "1/7"
+        },
+        "midi_sha256": "d7c2e03b5a8d90abb073249ee0d4ff32d4ddc6eb047d1b1bd84ae06cb1b0b444",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      }
+    },
+    {
+      "group": 19,
+      "status": "complete",
+      "eligible_count": 3,
+      "control": {
+        "seed": 76,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "0",
+          "mean_abs_interval": "76/27",
+          "unique_pitches": 12,
+          "onsets": 28,
+          "rest_steps": 4,
+          "zero_interval_fraction": "2/9"
+        },
+        "midi_sha256": "c05d4c890f09f99e94b77ac3bf7f0656fb8edb48ab26d02dbe0ce3ea1c4e6fda",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      },
+      "unconstrained": {
+        "seed": 76,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "0",
+          "mean_abs_interval": "76/27",
+          "unique_pitches": 12,
+          "onsets": 28,
+          "rest_steps": 4,
+          "zero_interval_fraction": "2/9"
+        },
+        "midi_sha256": "c05d4c890f09f99e94b77ac3bf7f0656fb8edb48ab26d02dbe0ce3ea1c4e6fda",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      },
+      "constrained": {
+        "seed": 76,
+        "status": "complete",
+        "rejections": 0,
+        "features": {
+          "leap_fraction": "0",
+          "mean_abs_interval": "76/27",
+          "unique_pitches": 12,
+          "onsets": 28,
+          "rest_steps": 4,
+          "zero_interval_fraction": "2/9"
+        },
+        "midi_sha256": "c05d4c890f09f99e94b77ac3bf7f0656fb8edb48ab26d02dbe0ce3ea1c4e6fda",
+        "copy_matches": 0,
+        "exact_roundtrip": true
+      }
+    }
+  ],
+  "summary": {
+    "control": {
+      "leap_fraction": 0.03615103361363503,
+      "mean_abs_interval": 3.198417588568798,
+      "unique_pitches": 14.2,
+      "onsets": 31.1,
+      "rest_steps": 6.05,
+      "zero_interval_fraction": 0.2220488826112722
+    },
+    "unconstrained": {
+      "leap_fraction": 0.002985739750445633,
+      "mean_abs_interval": 2.5118702607143883,
+      "unique_pitches": 12.95,
+      "onsets": 31.3,
+      "rest_steps": 4.25,
+      "zero_interval_fraction": 0.24775423651231976
+    },
+    "constrained": {
+      "leap_fraction": 0.018693689079084617,
+      "mean_abs_interval": 2.902962424859958,
+      "unique_pitches": 15.4,
+      "onsets": 33.3,
+      "rest_steps": 5.2,
+      "zero_interval_fraction": 0.1948141522573468
+    }
+  },
+  "complete_groups": 20,
+  "only_control_eligible": 10,
+  "constrained_changes_from_control": 6,
+  "scope": "Observed cycle10 exploratory reanalysis; diversity proxies are constraints, not appeal labels",
+  "source_sha256": "71de03683808a7c5eb2ffffac7231b531cb77f6ff22eb459da88a9b96f21c02d",
+  "code_sha256": {
+    "tools/compare_diversity_selection.py": "2b873996c0848fc0bb5b273683a24dbb88f126e32ad543b2255a5edbadfd2425",
+    "experiments/2026-11-12-diversity-plan.json": "364e7d4706fef703701f26bad0beee3698d82a8790660601efc1584fd3ba53fc"
+  }
+}

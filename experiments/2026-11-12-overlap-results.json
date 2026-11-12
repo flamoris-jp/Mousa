@@ -1,0 +1,99 @@
+{
+  "scope": "Rights-reviewed representation intake only; no fitting or predictive evaluation",
+  "source_sha256": "dcd5efac22b5e91b7c87685058784396adb9ec5d69915764265ad68158dbb6e1",
+  "original_unchanged": true,
+  "notes": 92,
+  "meter_map": [
+    {
+      "tick": 0,
+      "numerator": 2,
+      "denominator": 2,
+      "clocks_per_click": 18,
+      "notated_32nd_notes_per_beat": 8
+    },
+    {
+      "tick": 12288,
+      "numerator": 3,
+      "denominator": 2,
+      "clocks_per_click": 18,
+      "notated_32nd_notes_per_beat": 8
+    },
+    {
+      "tick": 14592,
+      "numerator": 2,
+      "denominator": 2,
+      "clocks_per_click": 18,
+      "notated_32nd_notes_per_beat": 8
+    },
+    {
+      "tick": 16128,
+      "numerator": 3,
+      "denominator": 2,
+      "clocks_per_click": 18,
+      "notated_32nd_notes_per_beat": 8
+    },
+    {
+      "tick": 18432,
+      "numerator": 2,
+      "denominator": 2,
+      "clocks_per_click": 18,
+      "notated_32nd_notes_per_beat": 8
+    },
+    {
+      "tick": 36864,
+      "numerator": 3,
+      "denominator": 2,
+      "clocks_per_click": 18,
+      "notated_32nd_notes_per_beat": 8
+    },
+    {
+      "tick": 39168,
+      "numerator": 2,
+      "denominator": 2,
+      "clocks_per_click": 18,
+      "notated_32nd_notes_per_beat": 8
+    },
+    {
+      "tick": 40704,
+      "numerator": 3,
+      "denominator": 2,
+      "clocks_per_click": 18,
+      "notated_32nd_notes_per_beat": 8
+    },
+    {
+      "tick": 43008,
+      "numerator": 2,
+      "denominator": 2,
+      "clocks_per_click": 18,
+      "notated_32nd_notes_per_beat": 8
+    }
+  ],
+  "total_ticks": 44928,
+  "ppq": 384,
+  "exact_modeled_roundtrip": true,
+  "independent_channel_signature_equal": true,
+  "onset_gate_note_roundtrip": true,
+  "max_simultaneous_notes": 3,
+  "overlap_timeline_ticks": 242,
+  "hypothetical_monophonic_clipping": {
+    "affected_notes": 4,
+    "sum_gate_ticks_removed": 334,
+    "performed": false
+  },
+  "onset_gate_fields": "Exact rational onset delta (zero allowed), positive rational sounding gate, pitch and velocities. Source channel stream resolves same-tick event ordering.",
+  "tail_ticks": 0,
+  "selected_midi_sha256": "a5bb45090f1c6f424041494d29efe262b17313480c1a9469c8ea2f444a63fdd9",
+  "code_sha256": {
+    "src/mousa/overlap_midi.py": "1afc11bf6b6985a2eb22ebe5302b707d39378291e27b6299fde82564c167c867",
+    "tools/probe_overlap_representation.py": "adb8fdb6631e8607804ce41127b444c8a8563e4ce19d1cfcc62f384ab9ed107e",
+    "datasets/research-brahms580-rights-20261112.json": "dd25cb5023eb13a634d981fe0fd8bc3c5c02f302c1b8fe4404157e74ec4dd994"
+  },
+  "model_policy": [
+    "Never feed these overlapping gates into the old monophonic REST/HOLD model.",
+    "A future model must distinguish onset delta (including zero) from gate duration and track active pitches.",
+    "Mask same-pitch retriggers while active; bound polyphony and remaining endpoints; do not repair by truncation.",
+    "Fix joint outcome support and compare like tasks before any predictive evaluation.",
+    "Metadata/maps/EOT remain sidecar state; onset/gate rows alone are not complete MIDI preservation."
+  ],
+  "source_state": "Inspected and representation-tested, untrained and predictive-unscored; not untouched data. Independent family screening required before future held-out scoring."
+}

@@ -1,0 +1,11 @@
+{
+  "scope": "Exploratory reanalysis of already observed cycle10 candidates, not a fresh evaluation",
+  "candidate_set": "All fixed20 groups of4 cycle10 candidates, no regeneration or selection of seeds",
+  "hypothesis": "Constrain selection to preserve at least the control's distinct-pitch count and at most its repeated-pitch fraction, then minimize above-octave leaps; expect less leap reduction but less collapse in these two diversity proxies.",
+  "control": "cycle10 first successful candidate",
+  "unconstrained": "cycle10 minimum leap fraction, earliest tie",
+  "constrained": "filter relative to same-group control on both diversity proxies, then minimum leap fraction, earliest tie",
+  "fallback": "Control is always eligible; report groups with no alternative eligible candidate. No synthetic repair.",
+  "nonclaims": ["musical quality", "human preference", "fresh generalization", "universal diversity metric", "new generation model"],
+  "cost": "Reuse4 candidates pergroup; constraints add selection work, not another training run"
+}
