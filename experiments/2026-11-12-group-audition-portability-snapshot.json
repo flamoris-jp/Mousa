@@ -1,0 +1,23 @@
+{
+  "kind": "supplemental-metadata-only-no-media-resend",
+  "files": [
+    {
+      "filename": "2026-11-12-group-audition-portability-plan.json",
+      "sha256": "8ab74aeba771479b8856b18008965d56ae8452fe867416d14349cbd7c34f8567",
+      "bytes": 6018
+    },
+    {
+      "filename": "2026-11-12-group-audition-portability-verification.json",
+      "sha256": "086e4a88437a0ca14faa43143f77564e95bdf4e584a919b86416e6afeb0ab019",
+      "bytes": 2001
+    },
+    {
+      "filename": "2026-11-12-group-audition-portability-correction.json",
+      "sha256": "fc48d199b4b19d1192b47256ff391efe8d9a23a8419366c964db3124400f9abe",
+      "bytes": 1740
+    }
+  ],
+  "private_historical_test_not_for_transfer": true,
+  "private_label_key_included": false,
+  "previous_snapshot_unchanged": true
+}

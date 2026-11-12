@@ -1,0 +1,100 @@
+{
+  "cycle": 38,
+  "status": "approved-direction-code-bound-final-before-render",
+  "created_at_utc": "2026-11-12T15:35:51.978917+00:00",
+  "selection": "Exactlyseed0ofeacharm,deterministically fixed after existing experimentresults,not preregistered before generation or chosen by score/listening.",
+  "sources": [
+    {
+      "arm": "global",
+      "seed": 0,
+      "source_sha256": "4c5733c9d3c9f3de532d2af8927eff75f19d849ad9788a3eebed7870546fcdb4",
+      "source_bytes": 5494,
+      "notes": 35,
+      "source_role": "ExistingCycle37privatecandidate;nottrainingmaterial"
+    },
+    {
+      "arm": "cardinality",
+      "seed": 0,
+      "source_sha256": "33a8c72b36607326cf0242aa606d7004021ee3e160ba499239ab3c9d86fe8fbc",
+      "source_bytes": 3340,
+      "notes": 22,
+      "source_role": "ExistingCycle37privatecandidate;nottrainingmaterial"
+    },
+    {
+      "arm": "previous_max_gate_binned",
+      "seed": 0,
+      "source_sha256": "4a07c7aa42458fdec91693ad31fe4dcb12804f6ae1e5e5104532c6a6d6303761",
+      "source_bytes": 5734,
+      "notes": 38,
+      "source_role": "ExistingCycle37privatecandidate;nottrainingmaterial"
+    },
+    {
+      "arm": "active_horizon_binned",
+      "seed": 0,
+      "source_sha256": "ea38fbb84bbf9298650b68e671bbeefc7e24dd3cdfe25c5ce1d431b423700483",
+      "source_bytes": 5734,
+      "notes": 38,
+      "source_role": "ExistingCycle37privatecandidate;nottrainingmaterial"
+    }
+  ],
+  "private_label_key_sha256": "a5ffdb02d4c46ff96b224ffe4e39e5e2674a7731228379183d849e056647d190",
+  "labeling": "OpaqueA/B/C/D;fixedseedshuffle and mapping retained privately,not in repository/listener packet. No automated preferred label.",
+  "source_result_sha256": "4629c88963e86c1381c989a8295748ca690bf70f5c30d8b0902af94a19acb433",
+  "old_export_limit": "Existingexport_private_notes_preview accepts onlystart/end/pitch and insertsvelocity80/release0;existingrendererignoresvelocity. Do not reuse silently for these5fieldnotes.",
+  "new_files": [
+    "tools/export_group_audition.py",
+    "tests/test_group_audition_export.py"
+  ],
+  "midi": {
+    "ppq": 384,
+    "total_ticks": 9216,
+    "meter": [
+      6,
+      8
+    ],
+    "bars": 8,
+    "tempo_microseconds_per_quarter": 500000,
+    "program": 0,
+    "channel": 0,
+    "note_fields": [
+      "start",
+      "end",
+      "pitch",
+      "velocity",
+      "release_velocity"
+    ],
+    "event_order": "Preserve source within-onset sequence by source index;note-offs before note-ons at same tick. Canonical note parse multiset and modeled stream roundtrip checked;original JSON remains unchanged.",
+    "meaning": "6/8eightbars/120BPM is export convention,not learned source meter or phrasing."
+  },
+  "audio": {
+    "renderer": "Own analytic0.8sinefundamental+0.2sinesecondharmonic,noSoundFont/recordings/externalassets.",
+    "sample_rate": 22050,
+    "channels": 1,
+    "pcm_bits": 16,
+    "duration_seconds": 12,
+    "gain": "Common0.18gainpernote timesvelocity/127. No per-file peak/RMS normalization.",
+    "envelope": "5msattack;release ramp within originalgate =5ms+30ms*(release_velocity/127),capped at half note samplelength;no post-gate audio extension. Analyticmapping is declared,not instrument-realism claim.",
+    "timing": "Round each originaltickendpoint to sampleindex identically for all4;report maximum rounding bound0.5sample. MIDI retains exactticks.",
+    "validation": "Reject Nyquist violation,clipping,nonfinite audio;report peak,RMS,dBFS,nonzero samplecount/clipcount,commongain;repeat WAV bytecheck. Unequal source velocities/polyphony affect loudness transparently."
+  },
+  "cantabile": {
+    "mode": "IsolatedexistingCLI fileimport/export only;no liveproject/UI actions.",
+    "checks": "Per-note5fields,tempo,meter,PPQ/EOT,eventcounts after roundtrip;report unsupportedfield/loss rather than repair original. No claim of actual Cantabile audio rendering."
+  },
+  "safety": "Verify all4originalhashes/copyflags0 from frozenCycle37 report;do not modify sources or fit anymodel. Raw MIDI/WAV/labelkey remain outsideGit andLIMEtrainingmaterials.",
+  "storage": "Parent authorized separate private-auditions-cycle38 MIDI/audio/metadata directories onLIME;transfer delegated,not trainingmaterials. Private label key excluded.",
+  "human_evaluation": "Unrated;no invented human scores. Equal volume control recommendation may be offered but no hidden normalization.",
+  "budget": "4twelvesecondclips;CPU60total;noGPU/paidrender/deployment.",
+  "frozen_hashes": {
+    "tools/export_group_audition.py": "9945209d890a52f65b1813b86a76276d6a7fbff1602f1ab031f3342bdcc05141",
+    "tests/test_group_audition_export.py": "95ccea6dc847daba764693bfaebe7353dcbc9a9e83cf5bb1511b1b9bb0e49fdc",
+    "src/mousa/overlap_midi.py": "1afc11bf6b6985a2eb22ebe5302b707d39378291e27b6299fde82564c167c867",
+    "src/mousa/tick_midi.py": "7272d6c6f4b9f565d0861c32be0f2aa178246932f1a52e749a5d1cb9bcee930b",
+    "src/mousa/variable_meter_midi.py": "c838a03c5f2b56fefc4179cc3a1e43231551301d44a982efc137c25c3299ed3d",
+    "src/mousa/meter_midi.py": "163239e5a12676b5e6160092a93d6c669eb00f8373fb0848426cdbc0a37135e1",
+    "experiments/2026-11-12-gate-context-results.json": "4629c88963e86c1381c989a8295748ca690bf70f5c30d8b0902af94a19acb433",
+    "experiments/2026-11-12-group-audition-preparation-plan.json": "814eedc3d9eeb12c9cfa45719b6cbee8a0d491f0b17a350f0f865a3fbaf1df48"
+  },
+  "cantabile_executable_sha256": "384205abc782f532dfeeb437985fab0b42dadee3d8e6d21a4af0c876c4af34de",
+  "synthetic_tests": "3focused passed:5field+orderroundtrip,velocity/releasemapping,repeat,invalidfields/overlap/Nyquistrejection"
+}
