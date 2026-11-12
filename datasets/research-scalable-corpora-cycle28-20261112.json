@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "cycle": 28,
+  "reviewed_at_utc": "2026-11-12T12:41:23.756446+00:00",
+  "scope": "Read-onlyscalablecorpusresearch. No media downloaded, no training, no gate accepted, no payments. Counts are publisher snapshots not locallyverifiedfileinventories.",
+  "candidates": [
+    {
+      "id": "groove",
+      "status": "priority_pilot_pending_file_intake",
+      "reported_scale": "1,150 MIDI;13.6h;22,000+bars;10drummers;18stylelabels",
+      "formats": "MIDI + synthesized audio + CSV metadata",
+      "rights_evidence": "Official Google release CC BY4.0. Performances created for dataset; professionals hired and asked to improvise toclick. Attribution/license notice/change indications required. Release explicitly supports modeling research; no NC clause.",
+      "limitations": "Drums only, not melodic teaching. Do not count all slices as independent works or all genres as independent cultures. Same drummer/session and repeated10beat evaluation patterns need grouped splits. Audio samplebank rights separate; prefer MIDI only.",
+      "next_safe_step": "Inspect metadata for license/version, drummer/session/beatgroups; prepare <=50record stratified pilot, no downloads until intake plan. Design separate drum semantics; do not pass percussionpitches as melody.",
+      "urls": [
+        "https://magenta.withgoogle.com/datasets/groove"
+      ],
+      "admitted_files": 0,
+      "bulk_download": false,
+      "training": false
+    },
+    {
+      "id": "imslp_cc0",
+      "status": "priority_metadata_screen_pending_individual_rights",
+      "reported_scale": "1,113entries;406composers per card;mostlyRomantic/Baroque;Modern231era entries",
+      "formats": "HuggingFace table raw MIDIbytes plus sourceURLs/metadata",
+      "rights_evidence": "Card labels CC0 and claims filteredPD/CC0 sources. Original midi_source and metadata_source URLs available. Compiler is not proof of authority over every composition, arrangement or edition.",
+      "limitations": "Modern pieces and customlicenses especially require originalauthor permission. A publicdomainmark is not a rightsowner CC0dedication. Claimed406composers is not verified406eligiblefamilies. No automatic blanketadmission.",
+      "next_safe_step": "Metadata-only <=100records stratified by composer/era/instrument; verify10original sourcepages spanning10composer/contributor cohorts, retain allfailures. No MIDIbytecolumn retrieval in firstpass.",
+      "urls": [
+        "https://huggingface.co/datasets/TiMauzi/imslp-midi-cc0-1.0",
+        "https://huggingface.co/datasets/TiMauzi/imslp-midi-cc0-1.0/raw/main/README.md"
+      ],
+      "admitted_files": 0,
+      "bulk_download": false,
+      "training": false
+    },
+    {
+      "id": "pdmx_v9",
+      "status": "priority_large_scale_metadata_screen_pending_individual_rights",
+      "reported_scale": "250K+scores;31,221 licenseconflicts;222,856 no_license_conflict per v9",
+      "formats": "NativeMusicRenderJSON/metadata; MXL compressedMusicXML; PDF and MID derivatives whenavailable.42corruptscores lackassociatedformats. Not250KMIDI filesverified.",
+      "rights_evidence": "Authors present publicdomain scorecollection; eachrow original license andlicenseURL. v9 discloses publicwebsite/internalfile conflicts affecting12.29%. Metadata offers is_original, composer/publisher andduplicategroups.",
+      "limitations": "no_license_conflict and is_original are metadata signals, not legalclearance of borrowed melody/arrangement. Need sameowner authority and exactfile evidence; MuseScorePDlabel alone insufficient. SharedMIDI/scoreeditions crossdatasets can leak.",
+      "next_safe_step": "Metadata-only filter no_license_conflict AND availableMID/all_valid AND documentedlicense; stratify100candidate rows acrossauthors/instruments/eras then audit10original sources. Prefer namedhistorical originaledition or verifiableauthorownedoriginal. ExistingMID avoidsconversion; MXL-only withheldpendingseparateauditedconversion.",
+      "urls": [
+        "https://github.com/pnlong/PDMX",
+        "https://raw.githubusercontent.com/pnlong/PDMX/main/README.md",
+        "https://zenodo.org/records/15571083"
+      ],
+      "admitted_files": 0,
+      "bulk_download": false,
+      "training": false
+    },
+    {
+      "id": "keynata_commons",
+      "status": "pending_generated_provenance_and_actual_inventory",
+      "reported_scale": "Dynamictrackcount notverified; no numericalscaleclaimed",
+      "formats": "Generated MIDI+JSON+audio",
+      "rights_evidence": "Creator dedicates outputsCC0; describes rule/statisticsengine with PDMXoriginalscores andGrooveCCBYinputs, seeds andsimilarityscreen.",
+      "limitations": "Selfasserted inputrights not independentlyaudited. Generatedoutputs not independenthumanteaching or independentqualitytest. PDMXprovenance issues can propagate; outputCC0cannotresolve upstreamcopying.",
+      "next_safe_step": "Readgeneration/inputledger andversionedmanifest only; verifyupstreamlicenses andnoveltycontrols before anyintake. Do not mix with humanheldout.",
+      "urls": [
+        "https://carf-coder.github.io/keynata-commons/"
+      ],
+      "admitted_files": 0,
+      "bulk_download": false,
+      "training": false
+    },
+    {
+      "id": "maestro_v3",
+      "status": "excluded_from_current_general_product_corpus_pending_scope_approval",
+      "reported_scale": "1,276performances;198.7hours",
+      "formats": "PerformanceMIDI+audio+composer/titlemetadata",
+      "rights_evidence": "GoogleCC BY-NC-SA4.0; explicitly developed for musicmodeling. NC/SA does NOT itself prohibit AItraining.",
+      "limitations": "Noncommercial/sharealike compatibility with FLAMORISproduct/commercialuse unresolved. Individualcomposition/editionterms stillneedreview; performancesnotindependentcompositions. Do not assert all repertoirePD or modelweightsautomaticallySA.",
+      "next_safe_step": "Only consider separatelyscoped noncommercial research ifownerchooses andrightsreviewconfirms; no admissionto producttraining.",
+      "urls": [
+        "https://magenta.withgoogle.com/datasets/maestro"
+      ],
+      "admitted_files": 0,
+      "bulk_download": false,
+      "training": false
+    },
+    {
+      "id": "lakh",
+      "status": "excluded_from_current_training_rights_unresolved",
+      "reported_scale": "176,581MD5uniqueMIDI;45,129matched",
+      "formats": "ScrapedMIDI",
+      "rights_evidence": "Official collectionCCBY4.0; curator says they didnottranscribe files and perfileauthors cannot feasiblybeattributed consistently.",
+      "limitations": "Collectionlicense insufficient for composition/arrangement/MIDIownership. DedupbyMD5notmusicalfamily; no broadclearancefrom MIRusage.",
+      "next_safe_step": "Do notbulkdownload/train. Only independentlyrightsverifiedoriginalfiles couldenterseparateledger, notblanketLakhadmission.",
+      "urls": [
+        "https://colinraffel.com/projects/lmd/"
+      ],
+      "admitted_files": 0,
+      "bulk_download": false,
+      "training": false
+    },
+    {
+      "id": "gigamidi_v2",
+      "status": "excluded_from_current_training_scope_and_underlying_rights",
+      "reported_scale": "2.1million+uniqueMIDI reportedv2; nottheolder1.43millionv1count",
+      "formats": "ParquetMIDI+metadata;fullarchive",
+      "rights_evidence": "OfficialcardCCBY-NC4.0; gate additionallyresearch underCanadianfairdealingONLY andnoncommercialterms. IncludesLakh/MetaMIDI andothercollections.",
+      "limitations": "AIresearchis intended, notintrinsicallyforbidden. Thoseconditionsdo notauthorizeFLAMORIScommercialproductuse or establishitemrights. Fairdealingclaim not substitutedfor userrequiredpermission. No gateaccepted/personalformsubmitted.",
+      "next_safe_step": "Excludecurrentcorpus; donotuseits syntheticloop derivative as automaticallyclean. Scope/licenseclarification wouldrequireseparatepermission.",
+      "urls": [
+        "https://huggingface.co/datasets/Metacreation/GigaMIDI/blob/main/README.md"
+      ],
+      "admitted_files": 0,
+      "bulk_download": false,
+      "training": false
+    },
+    {
+      "id": "mutopia_batch",
+      "status": "parallel_curated_batch_not_blanket_admission",
+      "reported_scale": "Thousandscatalogued; currentexacteligiblecount notmeasured",
+      "formats": "LilyPond+oftenMIDI/PDF",
+      "rights_evidence": "PerpiecelegacyPD orCClicense; sourceedition/contributor fields permit structuredreview. Already demonstratedsomeexacthistoricalsourcechecks.",
+      "limitations": "Currentmanualonepieceworkflowbottleneck; allPDlabelsnot equivalent verifiedrights. Currentblockedworks stayblocked; no newindependencefromothermovements.",
+      "next_safe_step": "Usemetadataindex to assemble100candidate rows acrossnewcomposers/contributors, audit10edition/contributorcohorts before MIDIintake; amortize editionproof withoutassumingallmemberscorrect.",
+      "urls": [
+        "https://www.mutopiaproject.org/",
+        "https://github.com/MutopiaProject/MutopiaProject"
+      ],
+      "admitted_files": 0,
+      "bulk_download": false,
+      "training": false
+    }
+  ],
+  "downloaded_primary_evidence": [
+    {
+      "id": "groove",
+      "url": "https://magenta.withgoogle.com/datasets/groove",
+      "sha256": "74714eee417f51ea6c4e6198050d6e46c76f20a7ae3e91104e2dc348cac648b1",
+      "bytes": 40253
+    },
+    {
+      "id": "maestro",
+      "url": "https://magenta.withgoogle.com/datasets/maestro",
+      "sha256": "a6c8cb83208a7f5d64547f6e4e9fd0a44895e3e182a5a2aca190ee871bd2f378",
+      "bytes": 36160
+    },
+    {
+      "id": "lakh",
+      "url": "https://colinraffel.com/projects/lmd/",
+      "error": "HTTP Error 406: Not Acceptable"
+    },
+    {
+      "id": "pdmx",
+      "url": "https://raw.githubusercontent.com/pnlong/PDMX/main/README.md",
+      "sha256": "82ddbe0140317574a1d7ccf6b36344a4fcb9dfc7f690c44fb7c1de4a67eed208",
+      "bytes": 7316
+    },
+    {
+      "id": "imslp",
+      "url": "https://huggingface.co/datasets/TiMauzi/imslp-midi-cc0-1.0/raw/main/README.md",
+      "sha256": "1a2c6cfba0b8f9afe9f1a0708121df1b462791730c3aebeb841841246aca1ffa",
+      "bytes": 5718
+    },
+    {
+      "id": "giga",
+      "url": "https://huggingface.co/datasets/Metacreation/GigaMIDI/raw/main/README.md",
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "id": "mutopia",
+      "url": "https://www.mutopiaproject.org/legal.html",
+      "error": "HTTP Error 503: Service Unavailable"
+    }
+  ],
+  "web_tool_primary_evidence_without_local_file_hash": [
+    "https://colinraffel.com/projects/lmd/",
+    "https://huggingface.co/datasets/Metacreation/GigaMIDI/blob/main/README.md",
+    "https://zenodo.org/records/15571083",
+    "https://carf-coder.github.io/keynata-commons/"
+  ],
+  "no_new_corpus_admissions": true,
+  "standing_constraints": [
+    "Composition,arrangement/edition,encoding/performance separated.",
+    "Existingfrozen splits and eightonset/.80gate unchanged;blocked1692/804/1741 stayblocked.",
+    "Currenttrain5 is5works4conservativefamilies444notes; increasingfilecount isnotincreasingindependentfamilycount.",
+    "Keeporiginalbytes privately;futureacquisition requiresperfileURL/date/hash/licenseevidence.",
+    "NewAudioAnalyzerlabels requirehumanapproval. NoGPU,paidcompute,publicationor deployment."
+  ]
+}
