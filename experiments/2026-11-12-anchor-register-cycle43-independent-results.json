@@ -1,0 +1,18 @@
+{
+  "scope": "Independent saved-output old-arm parity, legal-octave minimum, temporal preservation and all-pair overlap audit; no source fitting or generation.",
+  "result_sha256": "fec642305803e9097cd09163228072a927d3ad1afdef3a22ccb90d3e655e69a7",
+  "repeat_equal_except_cpu": true,
+  "old_two_arms_parity_all_seeds": 5,
+  "common_complete_seeds": [
+    1,
+    3,
+    4
+  ],
+  "checks": 3000,
+  "independent_greedy_octave_decisions": 28,
+  "temporal_fields_templates_timeline_unchanged": true,
+  "status": "PASS",
+  "limits": [
+    "Local proxy minimization is by construction, not evidence of human preference or inferred voice leading."
+  ]
+}

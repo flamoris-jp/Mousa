@@ -1,0 +1,197 @@
+{
+  "scope": "Independent direct mido event pairing and exhaustive seven-interval window audit; supplemental rhythm scaling analysis, no threshold/role change or model use.",
+  "evidence_sha256": "37b7406d140d0c4eb28bf02e81dad15d98018ecc4d2751e7d2c8cda1d561b859",
+  "checks": 68,
+  "occurrence_pairs": 7,
+  "all_reported_windows_and_union_coverages_exact": true,
+  "rhythm_scaling": [
+    {
+      "reference": "mutopia-98-legacy",
+      "lully_start_index": 14,
+      "reference_start_index": 94,
+      "uniform_ioi_scaling": false,
+      "uniform_gate_scaling": false,
+      "ioi_ratios": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "4/3"
+      ],
+      "gate_ratios": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "1"
+      ]
+    },
+    {
+      "reference": "mutopia-2243",
+      "lully_start_index": 79,
+      "reference_start_index": 52,
+      "uniform_ioi_scaling": false,
+      "uniform_gate_scaling": false,
+      "ioi_ratios": [
+        "2",
+        "1/9",
+        "2",
+        "3",
+        "1",
+        "5",
+        "1"
+      ],
+      "gate_ratios": [
+        "2",
+        "1",
+        "2",
+        "3",
+        "1",
+        "4",
+        "1",
+        "1"
+      ]
+    },
+    {
+      "reference": "mutopia-2243",
+      "lully_start_index": 125,
+      "reference_start_index": 52,
+      "uniform_ioi_scaling": false,
+      "uniform_gate_scaling": false,
+      "ioi_ratios": [
+        "2",
+        "1/9",
+        "2",
+        "2",
+        "2",
+        "5",
+        "1"
+      ],
+      "gate_ratios": [
+        "2",
+        "1",
+        "2",
+        "2",
+        "2",
+        "4",
+        "1",
+        "1"
+      ]
+    },
+    {
+      "reference": "mutopia-2243",
+      "lully_start_index": 145,
+      "reference_start_index": 52,
+      "uniform_ioi_scaling": false,
+      "uniform_gate_scaling": false,
+      "ioi_ratios": [
+        "2",
+        "1/9",
+        "2",
+        "2",
+        "2",
+        "5",
+        "1"
+      ],
+      "gate_ratios": [
+        "2",
+        "1",
+        "2",
+        "2",
+        "2",
+        "4",
+        "1",
+        "1"
+      ]
+    },
+    {
+      "reference": "mutopia-2243",
+      "lully_start_index": 124,
+      "reference_start_index": 93,
+      "uniform_ioi_scaling": false,
+      "uniform_gate_scaling": false,
+      "ioi_ratios": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2/11",
+        "2",
+        "5"
+      ],
+      "gate_ratios": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "4",
+        "1"
+      ]
+    },
+    {
+      "reference": "mutopia-2243",
+      "lully_start_index": 144,
+      "reference_start_index": 93,
+      "uniform_ioi_scaling": false,
+      "uniform_gate_scaling": false,
+      "ioi_ratios": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2/11",
+        "2",
+        "5"
+      ],
+      "gate_ratios": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "4",
+        "1"
+      ]
+    },
+    {
+      "reference": "21",
+      "lully_start_index": 46,
+      "reference_start_index": 0,
+      "uniform_ioi_scaling": false,
+      "uniform_gate_scaling": false,
+      "ioi_ratios": [
+        "1/4",
+        "1/2",
+        "1/2",
+        "1/10",
+        "1/4",
+        "1/4",
+        "1/2"
+      ],
+      "gate_ratios": [
+        "1/4",
+        "1/2",
+        "1/2",
+        "1/8",
+        "1/4",
+        "1/4",
+        "1/2",
+        "2/3"
+      ]
+    }
+  ],
+  "interpretation": [
+    "No full matched eight-note window has uniformly scaled IOIs or uniformly scaled gates. This is descriptive and does not clear the source.",
+    "The first six Handel/Lully onset intervals have a common factor2; the final interval differs. Partial rhythmic resemblance must not be hidden by the full-window result.",
+    "Matched notes/intervals are small review excerpts, not proof of copying or proof of independent composition."
+  ],
+  "status": "PASS"
+}
