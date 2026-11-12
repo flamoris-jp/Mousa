@@ -1,0 +1,9 @@
+{
+  "private_candidates": 30,
+  "exact_template_reconstruction": true,
+  "independent_active_note_sweep_pass": true,
+  "bounds_and_repeat_bytes_pass": true,
+  "real_sources_refitted": false,
+  "report_sha256": "da089e80bce65013698111a86b8ad49d396e4834a396074bb317d6e9c5764e7f",
+  "scope": "Independent candidate-field reconstruction and simultaneous-active-note sweep; not audition, semantic or copyright clearance."
+}

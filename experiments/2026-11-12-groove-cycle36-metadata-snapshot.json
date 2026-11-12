@@ -1,0 +1,124 @@
+{
+  "scope": "Cycle36 Groove nested12-versus-deduplicated35 exact-tick predictions. Metadata/code/journal only; no original MIDI/audio, fitted count arrays or old snapshot changes. Existing archived original ZIP must not be retransmitted.",
+  "files": [
+    {
+      "relative_path": "src/mousa/drum_ioi_35work_profile.py",
+      "bytes": 2261,
+      "sha256": "55776f32739a3d7434a387325b1fa83cb5c6f3ccf2095a3ad85a0349541389b4"
+    },
+    {
+      "relative_path": "tools/groove_cycle36_prepare.py",
+      "bytes": 9898,
+      "sha256": "19f0ecd7ecf9d644dc1ec0b5d721adc27765951eb82043ada56559865989baf4"
+    },
+    {
+      "relative_path": "tools/groove_cycle36_fit.py",
+      "bytes": 10707,
+      "sha256": "372e5e20d89469844d726875a696d7826707541218f7a89c5b877db204309b1d"
+    },
+    {
+      "relative_path": "tests/test_groove_cycle36_prepare.py",
+      "bytes": 1123,
+      "sha256": "0768e3a75e24c766a45f6415f3e1f4506bbb1bcc5d9415e0defe453007a3ad10"
+    },
+    {
+      "relative_path": "tests/test_groove_cycle36_profile.py",
+      "bytes": 2050,
+      "sha256": "332cbdeac61f8ad8ef4530190c63c597cf96f2d4e79e0dc986d27a7788105a8f"
+    },
+    {
+      "relative_path": "tests/test_groove_cycle36_fit.py",
+      "bytes": 2336,
+      "sha256": "ad00ad275fdfc35a722fca496214d98e069ba5381ee7abe5ebea65f476606bbe"
+    },
+    {
+      "relative_path": "datasets/research-groove-rights-cycle32-20261112.json",
+      "bytes": 5043,
+      "sha256": "de6f14f3b6f38398f1d419e7a5b3fcf0f0d943adcadd914826629641fa4f0bbc"
+    },
+    {
+      "relative_path": "datasets/research-groove-usage-cycle36-20261112.json",
+      "bytes": 13860,
+      "sha256": "72894b08c8d508d21c8229584f3f0915d5e5b6fa8b12d14f71280d4df5b4f42d"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-cycle36-before-fit.json",
+      "bytes": 246,
+      "sha256": "feed0ada627ccac0e0480946c4b3372e1805379df9ddac63d07423394cc920b1"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-cycle36-compatible-clearance.json",
+      "bytes": 938,
+      "sha256": "61e8fa528ee4facfd1e96649b1c7baea6238d54444524d0bf66d9c06d429afec"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-cycle36-coverage-results.md",
+      "bytes": 4340,
+      "sha256": "54956baff3a84fb798fcea3971fc699dc612974e68fc351b352d6ab479bf0be9"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-cycle36-fit-clearance.json",
+      "bytes": 610,
+      "sha256": "95ee0ab07551a97376fae7298918ba33556dd0bc2774204d6d1b0a48d48c3cff"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-cycle36-fit-final-plan.json",
+      "bytes": 26032,
+      "sha256": "2a202a6eb4730a4c97a5505a45e07d08eded19d25dd59df85b53bc877c9fe79d"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-cycle36-fit-journal.json",
+      "bytes": 12299,
+      "sha256": "42fa0d3e56c87da993ae165c4e31f8244ccdcd408ffbcc46990bd1e95e2e1a1f"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-cycle36-fit-plan.json",
+      "bytes": 25861,
+      "sha256": "22e4ecebf5c4fab68273cf8ec663e27a0cdb494f4b3783c79f8ab5f0e78e17e8"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-cycle36-fit-verification.json",
+      "bytes": 886,
+      "sha256": "7b724842865e69d9958685afc775b5dccce2df13c6c6a4b6b7c9e2acb5beec8c"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-cycle36-pattern-evidence.json",
+      "bytes": 71708,
+      "sha256": "8b4a47d3ed27ad9bad9ae0fdce39dcefaef2b7b3a1a65170f23783bed0ad1892"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-cycle36-prefit-rejection.json",
+      "bytes": 394,
+      "sha256": "c887126ffa9bd8bfb2b86fcdf08ede17026fc6db8a56de7d547503f0c6948bf8"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-cycle36-preparation.md",
+      "bytes": 2668,
+      "sha256": "b9ff8c2e00b9a1f9f932809b503ac70d438df00a1856e18e2bb3f7220e0abb1c"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-cycle36-prepare-plan.json",
+      "bytes": 24534,
+      "sha256": "3f3ad71266c8f43731b33eebb86d62ca9742fbce27c9d5373b173803b2d328f0"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-cycle36-prepare-verification.json",
+      "bytes": 758,
+      "sha256": "647b0b5f9b0d4c1f8256f3e475fe7095e6ed489d5c6d59d39bd345adae9b92e0"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-cycle36-results.json",
+      "bytes": 55019,
+      "sha256": "a4a1945dae98434b38bc814fd23a6be2fe86129b457aac515bd0f337099edf77"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-cycle36-screen.json",
+      "bytes": 2726,
+      "sha256": "840ccb8ae190fa3c248ddc530bbcbfcd4eeffb6e4a77eb75d56b3177ddf61b5d"
+    }
+  ],
+  "file_count": 23,
+  "total_bytes": 276297,
+  "uploaded": false,
+  "manifest_sha256": "e849058bf547eddce036e3fcc7597c94a8add4ed1c7d03403165fb137f8d24a8"
+}

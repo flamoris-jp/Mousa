@@ -1,0 +1,22 @@
+{
+  "repeat_equal_excluding_only_cpu": true,
+  "journal_and_beforefit_byte_identical": true,
+  "construction_stages_completed_each_run": 12,
+  "historical_baseline_exact_NLL_checks": 48,
+  "report_aggregation_checks": 24,
+  "initial_cpu_seconds": 1.1747118349999999,
+  "repeat_cpu_seconds": 1.034097387,
+  "initial_report_sha256": "a4a1945dae98434b38bc814fd23a6be2fe86129b457aac515bd0f337099edf77",
+  "repeat_report_sha256": "6b3b161f31647d8c39196b0956f5f563fd37186565785d276d94c9b8f0e5bf72",
+  "fit_journal_sha256": "42fa0d3e56c87da993ae165c4e31f8244ccdcd408ffbcc46990bd1e95e2e1a1f",
+  "sources_unchanged": true,
+  "duplicate_alias_excluded_from_all_train_ID_sets": true,
+  "newly_train_used": 23,
+  "new_independent_validation": false,
+  "full_suite": {
+    "tests": 346,
+    "passed": 345,
+    "skipped": 1,
+    "command": "PYTHONPATH=src python -m unittest discover -s tests"
+  }
+}

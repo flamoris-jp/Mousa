@@ -1,0 +1,2624 @@
+[
+  {
+    "a": "drummer1/session1/3",
+    "b": "drummer7/session3/1",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 2,
+    "a_unique_windows": 1026,
+    "b_unique_windows": 295,
+    "union_unique_windows": 1319,
+    "jaccard": 0.001516300227445034,
+    "containment_a": 0.001949317738791423,
+    "containment_b": 0.006779661016949152,
+    "first_matching_event_indices": [
+      559,
+      299
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer1/session1/3",
+    "b": "drummer7/session3/10",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 1026,
+    "b_unique_windows": 555,
+    "union_unique_windows": 1580,
+    "jaccard": 0.0006329113924050633,
+    "containment_a": 0.0009746588693957114,
+    "containment_b": 0.0018018018018018018,
+    "first_matching_event_indices": [
+      594,
+      329
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer1/session1/3",
+    "b": "drummer8/session1/18",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 1026,
+    "b_unique_windows": 1652,
+    "union_unique_windows": 2677,
+    "jaccard": 0.00037355248412401944,
+    "containment_a": 0.0009746588693957114,
+    "containment_b": 0.0006053268765133172,
+    "first_matching_event_indices": [
+      36,
+      1317
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer1/session1/3",
+    "b": "drummer8/session2/11",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 1026,
+    "b_unique_windows": 1398,
+    "union_unique_windows": 2423,
+    "jaccard": 0.0004127115146512588,
+    "containment_a": 0.0009746588693957114,
+    "containment_b": 0.000715307582260372,
+    "first_matching_event_indices": [
+      1044,
+      349
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer1/session1/3",
+    "b": "drummer8/session2/12",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 1026,
+    "b_unique_windows": 1305,
+    "union_unique_windows": 2330,
+    "jaccard": 0.00042918454935622315,
+    "containment_a": 0.0009746588693957114,
+    "containment_b": 0.0007662835249042146,
+    "first_matching_event_indices": [
+      1044,
+      90
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer1/session1/3",
+    "b": "drummer8/session2/5",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 2,
+    "a_unique_windows": 1026,
+    "b_unique_windows": 1715,
+    "union_unique_windows": 2739,
+    "jaccard": 0.0007301935012778386,
+    "containment_a": 0.001949317738791423,
+    "containment_b": 0.0011661807580174927,
+    "first_matching_event_indices": [
+      21,
+      1218
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer1/session1/108",
+    "b": "drummer7/session2/37",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 9,
+    "b_unique_windows": 921,
+    "union_unique_windows": 929,
+    "jaccard": 0.001076426264800861,
+    "containment_a": 0.1111111111111111,
+    "containment_b": 0.0010857763300760044,
+    "first_matching_event_indices": [
+      2,
+      236
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer1/session1/108",
+    "b": "drummer7/session2/69",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 2,
+    "a_unique_windows": 9,
+    "b_unique_windows": 18,
+    "union_unique_windows": 25,
+    "jaccard": 0.08,
+    "containment_a": 0.2222222222222222,
+    "containment_b": 0.1111111111111111,
+    "first_matching_event_indices": [
+      1,
+      1
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer2/session3/1",
+    "b": "drummer7/session3/67",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 915,
+    "b_unique_windows": 1263,
+    "union_unique_windows": 2177,
+    "jaccard": 0.00045934772622875517,
+    "containment_a": 0.001092896174863388,
+    "containment_b": 0.000791765637371338,
+    "first_matching_event_indices": [
+      819,
+      80
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer2/session3/1",
+    "b": "drummer8/session2/20",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 915,
+    "b_unique_windows": 1525,
+    "union_unique_windows": 2439,
+    "jaccard": 0.0004100041000410004,
+    "containment_a": 0.001092896174863388,
+    "containment_b": 0.0006557377049180328,
+    "first_matching_event_indices": [
+      718,
+      769
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer2/session3/1",
+    "b": "drummer8/session2/35",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 3,
+    "a_unique_windows": 915,
+    "b_unique_windows": 1558,
+    "union_unique_windows": 2470,
+    "jaccard": 0.0012145748987854252,
+    "containment_a": 0.003278688524590164,
+    "containment_b": 0.0019255455712451862,
+    "first_matching_event_indices": [
+      62,
+      1424
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer2/session3/1",
+    "b": "drummer8/session2/41",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 915,
+    "b_unique_windows": 2174,
+    "union_unique_windows": 3088,
+    "jaccard": 0.0003238341968911917,
+    "containment_a": 0.001092896174863388,
+    "containment_b": 0.00045998160073597056,
+    "first_matching_event_indices": [
+      2430,
+      1237
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer2/session2/7",
+    "b": "drummer8/session2/21",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 2,
+    "a_unique_windows": 289,
+    "b_unique_windows": 2344,
+    "union_unique_windows": 2631,
+    "jaccard": 0.0007601672367920942,
+    "containment_a": 0.006920415224913495,
+    "containment_b": 0.0008532423208191126,
+    "first_matching_event_indices": [
+      98,
+      309
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer2/session2/8",
+    "b": "drummer8/session2/21",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 2,
+    "a_unique_windows": 289,
+    "b_unique_windows": 2344,
+    "union_unique_windows": 2631,
+    "jaccard": 0.0007601672367920942,
+    "containment_a": 0.006920415224913495,
+    "containment_b": 0.0008532423208191126,
+    "first_matching_event_indices": [
+      98,
+      309
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer3/session2/36",
+    "b": "drummer7/session1/17",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 3,
+    "a_unique_windows": 28,
+    "b_unique_windows": 629,
+    "union_unique_windows": 654,
+    "jaccard": 0.0045871559633027525,
+    "containment_a": 0.10714285714285714,
+    "containment_b": 0.0047694753577106515,
+    "first_matching_event_indices": [
+      24,
+      587
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer3/session2/36",
+    "b": "drummer7/session2/6",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 4,
+    "a_unique_windows": 28,
+    "b_unique_windows": 339,
+    "union_unique_windows": 363,
+    "jaccard": 0.011019283746556474,
+    "containment_a": 0.14285714285714285,
+    "containment_b": 0.011799410029498525,
+    "first_matching_event_indices": [
+      24,
+      87
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer3/session2/36",
+    "b": "drummer8/session1/14",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 2,
+    "a_unique_windows": 28,
+    "b_unique_windows": 897,
+    "union_unique_windows": 923,
+    "jaccard": 0.0021668472372697724,
+    "containment_a": 0.07142857142857142,
+    "containment_b": 0.002229654403567447,
+    "first_matching_event_indices": [
+      1,
+      794
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer3/session2/36",
+    "b": "drummer9/session1/14",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 28,
+    "b_unique_windows": 865,
+    "union_unique_windows": 892,
+    "jaccard": 0.0011210762331838565,
+    "containment_a": 0.03571428571428571,
+    "containment_b": 0.0011560693641618498,
+    "first_matching_event_indices": [
+      3,
+      586
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer3/session2/13",
+    "b": "drummer8/session1/22",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 87,
+    "b_unique_windows": 2388,
+    "union_unique_windows": 2474,
+    "jaccard": 0.0004042037186742118,
+    "containment_a": 0.011494252873563218,
+    "containment_b": 0.0004187604690117253,
+    "first_matching_event_indices": [
+      23,
+      164
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer3/session2/13",
+    "b": "drummer9/session1/14",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 87,
+    "b_unique_windows": 865,
+    "union_unique_windows": 951,
+    "jaccard": 0.0010515247108307045,
+    "containment_a": 0.011494252873563218,
+    "containment_b": 0.0011560693641618498,
+    "first_matching_event_indices": [
+      61,
+      594
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer3/session2/46",
+    "b": "drummer10/session1/5",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 40,
+    "b_unique_windows": 617,
+    "union_unique_windows": 656,
+    "jaccard": 0.001524390243902439,
+    "containment_a": 0.025,
+    "containment_b": 0.0016207455429497568,
+    "first_matching_event_indices": [
+      16,
+      597
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer3/session2/46",
+    "b": "drummer7/session1/34",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 40,
+    "b_unique_windows": 15,
+    "union_unique_windows": 54,
+    "jaccard": 0.018518518518518517,
+    "containment_a": 0.025,
+    "containment_b": 0.06666666666666667,
+    "first_matching_event_indices": [
+      72,
+      14
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer3/session2/46",
+    "b": "drummer7/session3/62",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 40,
+    "b_unique_windows": 34,
+    "union_unique_windows": 73,
+    "jaccard": 0.0136986301369863,
+    "containment_a": 0.025,
+    "containment_b": 0.029411764705882353,
+    "first_matching_event_indices": [
+      70,
+      16
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer3/session2/46",
+    "b": "drummer7/session3/90",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 2,
+    "a_unique_windows": 40,
+    "b_unique_windows": 40,
+    "union_unique_windows": 78,
+    "jaccard": 0.02564102564102564,
+    "containment_a": 0.05,
+    "containment_b": 0.05,
+    "first_matching_event_indices": [
+      71,
+      7
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer3/session1/30",
+    "b": "drummer7/session2/10",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 2,
+    "a_unique_windows": 9,
+    "b_unique_windows": 14,
+    "union_unique_windows": 21,
+    "jaccard": 0.09523809523809523,
+    "containment_a": 0.2222222222222222,
+    "containment_b": 0.14285714285714285,
+    "first_matching_event_indices": [
+      1,
+      3
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer3/session1/30",
+    "b": "drummer7/session2/50",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 9,
+    "b_unique_windows": 5,
+    "union_unique_windows": 13,
+    "jaccard": 0.07692307692307693,
+    "containment_a": 0.1111111111111111,
+    "containment_b": 0.2,
+    "first_matching_event_indices": [
+      4,
+      4
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer3/session1/30",
+    "b": "drummer7/session2/58",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 2,
+    "a_unique_windows": 9,
+    "b_unique_windows": 34,
+    "union_unique_windows": 41,
+    "jaccard": 0.04878048780487805,
+    "containment_a": 0.2222222222222222,
+    "containment_b": 0.058823529411764705,
+    "first_matching_event_indices": [
+      4,
+      18
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer3/session1/30",
+    "b": "drummer9/session1/18",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 3,
+    "a_unique_windows": 9,
+    "b_unique_windows": 175,
+    "union_unique_windows": 181,
+    "jaccard": 0.016574585635359115,
+    "containment_a": 0.3333333333333333,
+    "containment_b": 0.017142857142857144,
+    "first_matching_event_indices": [
+      6,
+      136
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer3/session1/30",
+    "b": "drummer9/session1/24",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 4,
+    "a_unique_windows": 9,
+    "b_unique_windows": 459,
+    "union_unique_windows": 464,
+    "jaccard": 0.008620689655172414,
+    "containment_a": 0.4444444444444444,
+    "containment_b": 0.008714596949891068,
+    "first_matching_event_indices": [
+      3,
+      146
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer3/session1/30",
+    "b": "drummer9/session1/3",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 9,
+    "b_unique_windows": 376,
+    "union_unique_windows": 384,
+    "jaccard": 0.0026041666666666665,
+    "containment_a": 0.1111111111111111,
+    "containment_b": 0.0026595744680851063,
+    "first_matching_event_indices": [
+      4,
+      62
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer3/session2/10",
+    "b": "drummer7/session2/64",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 104,
+    "b_unique_windows": 765,
+    "union_unique_windows": 868,
+    "jaccard": 0.001152073732718894,
+    "containment_a": 0.009615384615384616,
+    "containment_b": 0.00130718954248366,
+    "first_matching_event_indices": [
+      66,
+      20
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer3/session2/10",
+    "b": "drummer8/session1/1",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 104,
+    "b_unique_windows": 1131,
+    "union_unique_windows": 1234,
+    "jaccard": 0.0008103727714748784,
+    "containment_a": 0.009615384615384616,
+    "containment_b": 0.0008841732979664014,
+    "first_matching_event_indices": [
+      93,
+      303
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer4/session1/3",
+    "b": "drummer7/session3/28",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 2,
+    "a_unique_windows": 366,
+    "b_unique_windows": 13,
+    "union_unique_windows": 377,
+    "jaccard": 0.005305039787798408,
+    "containment_a": 0.00546448087431694,
+    "containment_b": 0.15384615384615385,
+    "first_matching_event_indices": [
+      148,
+      9
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer4/session1/3",
+    "b": "drummer7/session3/84",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 366,
+    "b_unique_windows": 25,
+    "union_unique_windows": 390,
+    "jaccard": 0.002564102564102564,
+    "containment_a": 0.00273224043715847,
+    "containment_b": 0.04,
+    "first_matching_event_indices": [
+      104,
+      1
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer4/session1/3",
+    "b": "drummer8/session1/25",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 366,
+    "b_unique_windows": 962,
+    "union_unique_windows": 1327,
+    "jaccard": 0.0007535795026375283,
+    "containment_a": 0.00273224043715847,
+    "containment_b": 0.0010395010395010396,
+    "first_matching_event_indices": [
+      103,
+      440
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer4/session1/3",
+    "b": "drummer8/session2/19",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 366,
+    "b_unique_windows": 1612,
+    "union_unique_windows": 1977,
+    "jaccard": 0.0005058168942842691,
+    "containment_a": 0.00273224043715847,
+    "containment_b": 0.0006203473945409429,
+    "first_matching_event_indices": [
+      159,
+      1311
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer4/session1/3",
+    "b": "drummer8/session2/31",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 2,
+    "a_unique_windows": 366,
+    "b_unique_windows": 975,
+    "union_unique_windows": 1339,
+    "jaccard": 0.0014936519790888724,
+    "containment_a": 0.00546448087431694,
+    "containment_b": 0.0020512820512820513,
+    "first_matching_event_indices": [
+      103,
+      1164
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer4/session1/6",
+    "b": "drummer7/session3/10",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 76,
+    "b_unique_windows": 555,
+    "union_unique_windows": 630,
+    "jaccard": 0.0015873015873015873,
+    "containment_a": 0.013157894736842105,
+    "containment_b": 0.0018018018018018018,
+    "first_matching_event_indices": [
+      12,
+      404
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer5/session2/12",
+    "b": "drummer7/session1/13",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 1330,
+    "b_unique_windows": 880,
+    "union_unique_windows": 2209,
+    "jaccard": 0.0004526935264825713,
+    "containment_a": 0.0007518796992481203,
+    "containment_b": 0.0011363636363636363,
+    "first_matching_event_indices": [
+      458,
+      196
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer5/session2/12",
+    "b": "drummer8/session1/15",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 1330,
+    "b_unique_windows": 946,
+    "union_unique_windows": 2275,
+    "jaccard": 0.00043956043956043956,
+    "containment_a": 0.0007518796992481203,
+    "containment_b": 0.0010570824524312897,
+    "first_matching_event_indices": [
+      38,
+      736
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer5/session2/12",
+    "b": "drummer9/session1/1",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 2,
+    "a_unique_windows": 1330,
+    "b_unique_windows": 314,
+    "union_unique_windows": 1642,
+    "jaccard": 0.001218026796589525,
+    "containment_a": 0.0015037593984962407,
+    "containment_b": 0.006369426751592357,
+    "first_matching_event_indices": [
+      485,
+      88
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer5/session2/12",
+    "b": "drummer9/session1/14",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 1330,
+    "b_unique_windows": 865,
+    "union_unique_windows": 2194,
+    "jaccard": 0.00045578851412944393,
+    "containment_a": 0.0007518796992481203,
+    "containment_b": 0.0011560693641618498,
+    "first_matching_event_indices": [
+      471,
+      803
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer5/session2/21",
+    "b": "drummer8/session2/2",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 2,
+    "a_unique_windows": 839,
+    "b_unique_windows": 3325,
+    "union_unique_windows": 4162,
+    "jaccard": 0.0004805382027871216,
+    "containment_a": 0.0023837902264600714,
+    "containment_b": 0.0006015037593984962,
+    "first_matching_event_indices": [
+      40,
+      775
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer5/session2/2",
+    "b": "drummer8/session2/2",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 656,
+    "b_unique_windows": 3325,
+    "union_unique_windows": 3980,
+    "jaccard": 0.0002512562814070352,
+    "containment_a": 0.001524390243902439,
+    "containment_b": 0.0003007518796992481,
+    "first_matching_event_indices": [
+      151,
+      776
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer5/session1/4",
+    "b": "drummer10/session1/2",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 1411,
+    "b_unique_windows": 869,
+    "union_unique_windows": 2279,
+    "jaccard": 0.00043878894251864854,
+    "containment_a": 0.0007087172218284905,
+    "containment_b": 0.0011507479861910242,
+    "first_matching_event_indices": [
+      1830,
+      740
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer5/session1/4",
+    "b": "drummer7/session2/15",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 2,
+    "a_unique_windows": 1411,
+    "b_unique_windows": 991,
+    "union_unique_windows": 2400,
+    "jaccard": 0.0008333333333333334,
+    "containment_a": 0.001417434443656981,
+    "containment_b": 0.0020181634712411706,
+    "first_matching_event_indices": [
+      1219,
+      832
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer5/session1/4",
+    "b": "drummer7/session2/80",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 1411,
+    "b_unique_windows": 630,
+    "union_unique_windows": 2040,
+    "jaccard": 0.0004901960784313725,
+    "containment_a": 0.0007087172218284905,
+    "containment_b": 0.0015873015873015873,
+    "first_matching_event_indices": [
+      2082,
+      188
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer5/session1/4",
+    "b": "drummer7/session3/106",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 1411,
+    "b_unique_windows": 484,
+    "union_unique_windows": 1894,
+    "jaccard": 0.0005279831045406547,
+    "containment_a": 0.0007087172218284905,
+    "containment_b": 0.002066115702479339,
+    "first_matching_event_indices": [
+      2082,
+      428
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer5/session1/4",
+    "b": "drummer7/session3/127",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 2,
+    "a_unique_windows": 1411,
+    "b_unique_windows": 28,
+    "union_unique_windows": 1437,
+    "jaccard": 0.0013917884481558804,
+    "containment_a": 0.001417434443656981,
+    "containment_b": 0.07142857142857142,
+    "first_matching_event_indices": [
+      750,
+      23
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer5/session1/4",
+    "b": "drummer7/session3/67",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 6,
+    "a_unique_windows": 1411,
+    "b_unique_windows": 1263,
+    "union_unique_windows": 2668,
+    "jaccard": 0.0022488755622188904,
+    "containment_a": 0.004252303330970942,
+    "containment_b": 0.004750593824228029,
+    "first_matching_event_indices": [
+      831,
+      324
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer5/session1/4",
+    "b": "drummer7/session3/91",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 1411,
+    "b_unique_windows": 406,
+    "union_unique_windows": 1816,
+    "jaccard": 0.0005506607929515419,
+    "containment_a": 0.0007087172218284905,
+    "containment_b": 0.0024630541871921183,
+    "first_matching_event_indices": [
+      1123,
+      136
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer5/session1/4",
+    "b": "drummer8/session1/16",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 1411,
+    "b_unique_windows": 1347,
+    "union_unique_windows": 2757,
+    "jaccard": 0.0003627130939426913,
+    "containment_a": 0.0007087172218284905,
+    "containment_b": 0.0007423904974016332,
+    "first_matching_event_indices": [
+      748,
+      469
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer5/session1/4",
+    "b": "drummer8/session1/19",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 5,
+    "a_unique_windows": 1411,
+    "b_unique_windows": 2002,
+    "union_unique_windows": 3408,
+    "jaccard": 0.0014671361502347417,
+    "containment_a": 0.003543586109142452,
+    "containment_b": 0.0024975024975024975,
+    "first_matching_event_indices": [
+      494,
+      1538
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer5/session1/4",
+    "b": "drummer8/session1/21",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 1411,
+    "b_unique_windows": 926,
+    "union_unique_windows": 2336,
+    "jaccard": 0.0004280821917808219,
+    "containment_a": 0.0007087172218284905,
+    "containment_b": 0.0010799136069114472,
+    "first_matching_event_indices": [
+      2082,
+      851
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer5/session1/4",
+    "b": "drummer8/session1/25",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 1411,
+    "b_unique_windows": 962,
+    "union_unique_windows": 2372,
+    "jaccard": 0.00042158516020236085,
+    "containment_a": 0.0007087172218284905,
+    "containment_b": 0.0010395010395010396,
+    "first_matching_event_indices": [
+      2082,
+      428
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer5/session1/4",
+    "b": "drummer8/session2/16",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 2,
+    "a_unique_windows": 1411,
+    "b_unique_windows": 655,
+    "union_unique_windows": 2064,
+    "jaccard": 0.0009689922480620155,
+    "containment_a": 0.001417434443656981,
+    "containment_b": 0.0030534351145038168,
+    "first_matching_event_indices": [
+      1920,
+      714
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer5/session1/4",
+    "b": "drummer8/session2/19",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 4,
+    "a_unique_windows": 1411,
+    "b_unique_windows": 1612,
+    "union_unique_windows": 3019,
+    "jaccard": 0.001324942033786022,
+    "containment_a": 0.002834868887313962,
+    "containment_b": 0.0024813895781637717,
+    "first_matching_event_indices": [
+      782,
+      1040
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer5/session1/4",
+    "b": "drummer8/session2/2",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 3,
+    "a_unique_windows": 1411,
+    "b_unique_windows": 3325,
+    "union_unique_windows": 4733,
+    "jaccard": 0.0006338474540460595,
+    "containment_a": 0.002126151665485471,
+    "containment_b": 0.0009022556390977444,
+    "first_matching_event_indices": [
+      494,
+      389
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer5/session1/4",
+    "b": "drummer8/session2/20",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 11,
+    "a_unique_windows": 1411,
+    "b_unique_windows": 1525,
+    "union_unique_windows": 2925,
+    "jaccard": 0.0037606837606837607,
+    "containment_a": 0.007795889440113395,
+    "containment_b": 0.007213114754098361,
+    "first_matching_event_indices": [
+      148,
+      1158
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer5/session1/4",
+    "b": "drummer8/session2/28",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 1411,
+    "b_unique_windows": 1915,
+    "union_unique_windows": 3325,
+    "jaccard": 0.0003007518796992481,
+    "containment_a": 0.0007087172218284905,
+    "containment_b": 0.0005221932114882506,
+    "first_matching_event_indices": [
+      2082,
+      23
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer5/session1/4",
+    "b": "drummer8/session2/4",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 1411,
+    "b_unique_windows": 2102,
+    "union_unique_windows": 3512,
+    "jaccard": 0.0002847380410022779,
+    "containment_a": 0.0007087172218284905,
+    "containment_b": 0.0004757373929590866,
+    "first_matching_event_indices": [
+      2082,
+      895
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer5/session1/4",
+    "b": "drummer8/session2/7",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 1411,
+    "b_unique_windows": 1333,
+    "union_unique_windows": 2743,
+    "jaccard": 0.0003645643456069996,
+    "containment_a": 0.0007087172218284905,
+    "containment_b": 0.0007501875468867217,
+    "first_matching_event_indices": [
+      2082,
+      1713
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer5/session2/13",
+    "b": "drummer7/session1/17",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 2,
+    "a_unique_windows": 426,
+    "b_unique_windows": 629,
+    "union_unique_windows": 1053,
+    "jaccard": 0.001899335232668566,
+    "containment_a": 0.004694835680751174,
+    "containment_b": 0.003179650238473768,
+    "first_matching_event_indices": [
+      143,
+      75
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer5/session2/13",
+    "b": "drummer7/session1/8",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 426,
+    "b_unique_windows": 1145,
+    "union_unique_windows": 1570,
+    "jaccard": 0.0006369426751592356,
+    "containment_a": 0.002347417840375587,
+    "containment_b": 0.0008733624454148472,
+    "first_matching_event_indices": [
+      320,
+      973
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer5/session2/13",
+    "b": "drummer8/session2/32",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 2,
+    "a_unique_windows": 426,
+    "b_unique_windows": 1287,
+    "union_unique_windows": 1711,
+    "jaccard": 0.0011689070718877848,
+    "containment_a": 0.004694835680751174,
+    "containment_b": 0.001554001554001554,
+    "first_matching_event_indices": [
+      109,
+      965
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer5/session2/13",
+    "b": "drummer8/session2/33",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 2,
+    "a_unique_windows": 426,
+    "b_unique_windows": 719,
+    "union_unique_windows": 1143,
+    "jaccard": 0.0017497812773403325,
+    "containment_a": 0.004694835680751174,
+    "containment_b": 0.0027816411682892906,
+    "first_matching_event_indices": [
+      113,
+      31
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer5/session2/13",
+    "b": "drummer9/session1/4",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 3,
+    "a_unique_windows": 426,
+    "b_unique_windows": 65,
+    "union_unique_windows": 488,
+    "jaccard": 0.006147540983606557,
+    "containment_a": 0.007042253521126761,
+    "containment_b": 0.046153846153846156,
+    "first_matching_event_indices": [
+      114,
+      63
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer6/session1/2",
+    "b": "drummer8/session1/10",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 4,
+    "a_unique_windows": 469,
+    "b_unique_windows": 1152,
+    "union_unique_windows": 1617,
+    "jaccard": 0.0024737167594310453,
+    "containment_a": 0.008528784648187633,
+    "containment_b": 0.003472222222222222,
+    "first_matching_event_indices": [
+      156,
+      804
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer6/session1/2",
+    "b": "drummer9/session1/5",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 3,
+    "a_unique_windows": 469,
+    "b_unique_windows": 530,
+    "union_unique_windows": 996,
+    "jaccard": 0.0030120481927710845,
+    "containment_a": 0.006396588486140725,
+    "containment_b": 0.005660377358490566,
+    "first_matching_event_indices": [
+      206,
+      441
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer6/session3/7",
+    "b": "drummer8/session1/15",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 721,
+    "b_unique_windows": 946,
+    "union_unique_windows": 1666,
+    "jaccard": 0.0006002400960384153,
+    "containment_a": 0.0013869625520110957,
+    "containment_b": 0.0010570824524312897,
+    "first_matching_event_indices": [
+      361,
+      436
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer6/session3/7",
+    "b": "drummer8/session2/1",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 4,
+    "a_unique_windows": 721,
+    "b_unique_windows": 1569,
+    "union_unique_windows": 2286,
+    "jaccard": 0.0017497812773403325,
+    "containment_a": 0.005547850208044383,
+    "containment_b": 0.0025493945188017845,
+    "first_matching_event_indices": [
+      135,
+      29
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer6/session3/7",
+    "b": "drummer8/session2/13",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 721,
+    "b_unique_windows": 1073,
+    "union_unique_windows": 1793,
+    "jaccard": 0.0005577244841048522,
+    "containment_a": 0.0013869625520110957,
+    "containment_b": 0.0009319664492078285,
+    "first_matching_event_indices": [
+      443,
+      286
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer6/session3/7",
+    "b": "drummer8/session2/2",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 6,
+    "a_unique_windows": 721,
+    "b_unique_windows": 3325,
+    "union_unique_windows": 4040,
+    "jaccard": 0.0014851485148514852,
+    "containment_a": 0.008321775312066574,
+    "containment_b": 0.0018045112781954887,
+    "first_matching_event_indices": [
+      111,
+      1753
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer6/session3/1",
+    "b": "drummer8/session2/25",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 430,
+    "b_unique_windows": 1079,
+    "union_unique_windows": 1508,
+    "jaccard": 0.000663129973474801,
+    "containment_a": 0.002325581395348837,
+    "containment_b": 0.0009267840593141798,
+    "first_matching_event_indices": [
+      70,
+      258
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer6/session2/1",
+    "b": "drummer7/session3/130",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 1413,
+    "b_unique_windows": 210,
+    "union_unique_windows": 1622,
+    "jaccard": 0.0006165228113440197,
+    "containment_a": 0.0007077140835102619,
+    "containment_b": 0.004761904761904762,
+    "first_matching_event_indices": [
+      1193,
+      10
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer6/session2/1",
+    "b": "drummer8/session1/16",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 1413,
+    "b_unique_windows": 1347,
+    "union_unique_windows": 2759,
+    "jaccard": 0.0003624501631025734,
+    "containment_a": 0.0007077140835102619,
+    "containment_b": 0.0007423904974016332,
+    "first_matching_event_indices": [
+      1204,
+      905
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer6/session2/1",
+    "b": "drummer8/session1/22",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 3,
+    "a_unique_windows": 1413,
+    "b_unique_windows": 2388,
+    "union_unique_windows": 3798,
+    "jaccard": 0.0007898894154818325,
+    "containment_a": 0.0021231422505307855,
+    "containment_b": 0.001256281407035176,
+    "first_matching_event_indices": [
+      1191,
+      295
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer6/session2/1",
+    "b": "drummer8/session2/4",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 1413,
+    "b_unique_windows": 2102,
+    "union_unique_windows": 3514,
+    "jaccard": 0.0002845759817871372,
+    "containment_a": 0.0007077140835102619,
+    "containment_b": 0.0004757373929590866,
+    "first_matching_event_indices": [
+      23,
+      723
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer6/session2/1",
+    "b": "drummer8/session2/41",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 1413,
+    "b_unique_windows": 2174,
+    "union_unique_windows": 3586,
+    "jaccard": 0.0002788622420524261,
+    "containment_a": 0.0007077140835102619,
+    "containment_b": 0.00045998160073597056,
+    "first_matching_event_indices": [
+      983,
+      1668
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer6/session2/1",
+    "b": "drummer8/session2/42",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 1413,
+    "b_unique_windows": 1206,
+    "union_unique_windows": 2618,
+    "jaccard": 0.0003819709702062643,
+    "containment_a": 0.0007077140835102619,
+    "containment_b": 0.0008291873963515755,
+    "first_matching_event_indices": [
+      983,
+      77
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer6/session1/5",
+    "b": "drummer7/session3/46",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 401,
+    "b_unique_windows": 452,
+    "union_unique_windows": 852,
+    "jaccard": 0.0011737089201877935,
+    "containment_a": 0.0024937655860349127,
+    "containment_b": 0.0022123893805309734,
+    "first_matching_event_indices": [
+      309,
+      200
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer6/session1/5",
+    "b": "drummer8/session1/6",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 401,
+    "b_unique_windows": 969,
+    "union_unique_windows": 1369,
+    "jaccard": 0.0007304601899196494,
+    "containment_a": 0.0024937655860349127,
+    "containment_b": 0.0010319917440660474,
+    "first_matching_event_indices": [
+      155,
+      650
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer6/session1/5",
+    "b": "drummer8/session2/11",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 401,
+    "b_unique_windows": 1398,
+    "union_unique_windows": 1798,
+    "jaccard": 0.0005561735261401557,
+    "containment_a": 0.0024937655860349127,
+    "containment_b": 0.000715307582260372,
+    "first_matching_event_indices": [
+      369,
+      548
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer6/session1/5",
+    "b": "drummer8/session2/12",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 2,
+    "a_unique_windows": 401,
+    "b_unique_windows": 1305,
+    "union_unique_windows": 1704,
+    "jaccard": 0.0011737089201877935,
+    "containment_a": 0.004987531172069825,
+    "containment_b": 0.0015325670498084292,
+    "first_matching_event_indices": [
+      369,
+      387
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer6/session1/5",
+    "b": "drummer8/session2/22",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 401,
+    "b_unique_windows": 929,
+    "union_unique_windows": 1329,
+    "jaccard": 0.0007524454477050414,
+    "containment_a": 0.0024937655860349127,
+    "containment_b": 0.001076426264800861,
+    "first_matching_event_indices": [
+      223,
+      1219
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer6/session1/5",
+    "b": "drummer9/session1/20",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 401,
+    "b_unique_windows": 1055,
+    "union_unique_windows": 1455,
+    "jaccard": 0.0006872852233676976,
+    "containment_a": 0.0024937655860349127,
+    "containment_b": 0.0009478672985781991,
+    "first_matching_event_indices": [
+      221,
+      791
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer6/session1/1",
+    "b": "drummer8/session1/10",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 2,
+    "a_unique_windows": 213,
+    "b_unique_windows": 1152,
+    "union_unique_windows": 1363,
+    "jaccard": 0.001467351430667645,
+    "containment_a": 0.009389671361502348,
+    "containment_b": 0.001736111111111111,
+    "first_matching_event_indices": [
+      107,
+      555
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer10/session1/10",
+    "b": "drummer1/session2/7",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 1218,
+    "b_unique_windows": 1565,
+    "union_unique_windows": 2782,
+    "jaccard": 0.0003594536304816679,
+    "containment_a": 0.0008210180623973727,
+    "containment_b": 0.0006389776357827476,
+    "first_matching_event_indices": [
+      433,
+      1800
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer10/session1/10",
+    "b": "drummer5/session2/7",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 1218,
+    "b_unique_windows": 1233,
+    "union_unique_windows": 2450,
+    "jaccard": 0.00040816326530612246,
+    "containment_a": 0.0008210180623973727,
+    "containment_b": 0.0008110300081103001,
+    "first_matching_event_indices": [
+      434,
+      1214
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer10/session1/10",
+    "b": "drummer7/session2/37",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 2,
+    "a_unique_windows": 1218,
+    "b_unique_windows": 921,
+    "union_unique_windows": 2137,
+    "jaccard": 0.0009358914365933552,
+    "containment_a": 0.0016420361247947454,
+    "containment_b": 0.002171552660152009,
+    "first_matching_event_indices": [
+      113,
+      288
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer10/session1/10",
+    "b": "drummer7/session2/72",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 2,
+    "a_unique_windows": 1218,
+    "b_unique_windows": 561,
+    "union_unique_windows": 1777,
+    "jaccard": 0.0011254924029262803,
+    "containment_a": 0.0016420361247947454,
+    "containment_b": 0.0035650623885918,
+    "first_matching_event_indices": [
+      114,
+      615
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer10/session1/10",
+    "b": "drummer7/session2/79",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 2,
+    "a_unique_windows": 1218,
+    "b_unique_windows": 204,
+    "union_unique_windows": 1420,
+    "jaccard": 0.0014084507042253522,
+    "containment_a": 0.0016420361247947454,
+    "containment_b": 0.00980392156862745,
+    "first_matching_event_indices": [
+      114,
+      137
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer10/session1/10",
+    "b": "drummer8/session1/18",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 1218,
+    "b_unique_windows": 1652,
+    "union_unique_windows": 2869,
+    "jaccard": 0.0003485535029627048,
+    "containment_a": 0.0008210180623973727,
+    "containment_b": 0.0006053268765133172,
+    "first_matching_event_indices": [
+      722,
+      255
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer10/session1/9",
+    "b": "drummer1/session1/41",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 705,
+    "b_unique_windows": 21,
+    "union_unique_windows": 725,
+    "jaccard": 0.001379310344827586,
+    "containment_a": 0.0014184397163120568,
+    "containment_b": 0.047619047619047616,
+    "first_matching_event_indices": [
+      3,
+      7
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer10/session1/9",
+    "b": "drummer1/session1/47",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 2,
+    "a_unique_windows": 705,
+    "b_unique_windows": 1039,
+    "union_unique_windows": 1742,
+    "jaccard": 0.001148105625717566,
+    "containment_a": 0.0028368794326241137,
+    "containment_b": 0.0019249278152069298,
+    "first_matching_event_indices": [
+      3,
+      603
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer10/session1/9",
+    "b": "drummer1/session3/10",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 3,
+    "a_unique_windows": 705,
+    "b_unique_windows": 1876,
+    "union_unique_windows": 2578,
+    "jaccard": 0.0011636927851047323,
+    "containment_a": 0.00425531914893617,
+    "containment_b": 0.0015991471215351812,
+    "first_matching_event_indices": [
+      3,
+      460
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer10/session1/9",
+    "b": "drummer1/session3/6",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 2,
+    "a_unique_windows": 705,
+    "b_unique_windows": 2057,
+    "union_unique_windows": 2760,
+    "jaccard": 0.0007246376811594203,
+    "containment_a": 0.0028368794326241137,
+    "containment_b": 0.0009722897423432182,
+    "first_matching_event_indices": [
+      619,
+      853
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer10/session1/9",
+    "b": "drummer4/session1/1",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 705,
+    "b_unique_windows": 368,
+    "union_unique_windows": 1072,
+    "jaccard": 0.0009328358208955224,
+    "containment_a": 0.0014184397163120568,
+    "containment_b": 0.002717391304347826,
+    "first_matching_event_indices": [
+      4,
+      205
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer10/session1/9",
+    "b": "drummer5/session1/2",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 3,
+    "a_unique_windows": 705,
+    "b_unique_windows": 6640,
+    "union_unique_windows": 7342,
+    "jaccard": 0.00040860800871697086,
+    "containment_a": 0.00425531914893617,
+    "containment_b": 0.00045180722891566266,
+    "first_matching_event_indices": [
+      3,
+      6702
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer10/session1/9",
+    "b": "drummer5/session1/5",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 3,
+    "a_unique_windows": 705,
+    "b_unique_windows": 2066,
+    "union_unique_windows": 2768,
+    "jaccard": 0.001083815028901734,
+    "containment_a": 0.00425531914893617,
+    "containment_b": 0.001452081316553727,
+    "first_matching_event_indices": [
+      3,
+      1358
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer10/session1/9",
+    "b": "drummer5/session1/6",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 2,
+    "a_unique_windows": 705,
+    "b_unique_windows": 1833,
+    "union_unique_windows": 2536,
+    "jaccard": 0.0007886435331230284,
+    "containment_a": 0.0028368794326241137,
+    "containment_b": 0.0010911074740861974,
+    "first_matching_event_indices": [
+      3,
+      698
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer10/session1/9",
+    "b": "drummer5/session1/7",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 4,
+    "a_unique_windows": 705,
+    "b_unique_windows": 2858,
+    "union_unique_windows": 3559,
+    "jaccard": 0.00112391121101433,
+    "containment_a": 0.005673758865248227,
+    "containment_b": 0.0013995801259622112,
+    "first_matching_event_indices": [
+      3,
+      930
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer10/session1/9",
+    "b": "drummer5/session2/7",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 3,
+    "a_unique_windows": 705,
+    "b_unique_windows": 1233,
+    "union_unique_windows": 1935,
+    "jaccard": 0.0015503875968992248,
+    "containment_a": 0.00425531914893617,
+    "containment_b": 0.0024330900243309003,
+    "first_matching_event_indices": [
+      3,
+      54
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer10/session1/9",
+    "b": "drummer7/session2/80",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 3,
+    "a_unique_windows": 705,
+    "b_unique_windows": 630,
+    "union_unique_windows": 1332,
+    "jaccard": 0.0022522522522522522,
+    "containment_a": 0.00425531914893617,
+    "containment_b": 0.004761904761904762,
+    "first_matching_event_indices": [
+      37,
+      32
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer10/session1/9",
+    "b": "drummer7/session2/94",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 705,
+    "b_unique_windows": 79,
+    "union_unique_windows": 783,
+    "jaccard": 0.001277139208173691,
+    "containment_a": 0.0014184397163120568,
+    "containment_b": 0.012658227848101266,
+    "first_matching_event_indices": [
+      10,
+      78
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer10/session1/9",
+    "b": "drummer7/session3/27",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 705,
+    "b_unique_windows": 16,
+    "union_unique_windows": 720,
+    "jaccard": 0.001388888888888889,
+    "containment_a": 0.0014184397163120568,
+    "containment_b": 0.0625,
+    "first_matching_event_indices": [
+      3,
+      2
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer10/session1/9",
+    "b": "drummer7/session3/35",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 705,
+    "b_unique_windows": 21,
+    "union_unique_windows": 725,
+    "jaccard": 0.001379310344827586,
+    "containment_a": 0.0014184397163120568,
+    "containment_b": 0.047619047619047616,
+    "first_matching_event_indices": [
+      4,
+      2
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer10/session1/9",
+    "b": "drummer7/session3/39",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 2,
+    "a_unique_windows": 705,
+    "b_unique_windows": 786,
+    "union_unique_windows": 1489,
+    "jaccard": 0.001343183344526528,
+    "containment_a": 0.0028368794326241137,
+    "containment_b": 0.002544529262086514,
+    "first_matching_event_indices": [
+      3,
+      458
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer10/session1/9",
+    "b": "drummer7/session3/47",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 705,
+    "b_unique_windows": 570,
+    "union_unique_windows": 1274,
+    "jaccard": 0.0007849293563579278,
+    "containment_a": 0.0014184397163120568,
+    "containment_b": 0.0017543859649122807,
+    "first_matching_event_indices": [
+      181,
+      595
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer10/session1/9",
+    "b": "drummer7/session3/67",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 2,
+    "a_unique_windows": 705,
+    "b_unique_windows": 1263,
+    "union_unique_windows": 1966,
+    "jaccard": 0.001017293997965412,
+    "containment_a": 0.0028368794326241137,
+    "containment_b": 0.001583531274742676,
+    "first_matching_event_indices": [
+      4,
+      928
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer10/session1/9",
+    "b": "drummer7/session3/90",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 705,
+    "b_unique_windows": 40,
+    "union_unique_windows": 744,
+    "jaccard": 0.0013440860215053765,
+    "containment_a": 0.0014184397163120568,
+    "containment_b": 0.025,
+    "first_matching_event_indices": [
+      3,
+      26
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer10/session1/9",
+    "b": "drummer8/session1/18",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 2,
+    "a_unique_windows": 705,
+    "b_unique_windows": 1652,
+    "union_unique_windows": 2355,
+    "jaccard": 0.0008492569002123143,
+    "containment_a": 0.0028368794326241137,
+    "containment_b": 0.0012106537530266344,
+    "first_matching_event_indices": [
+      295,
+      94
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer10/session1/9",
+    "b": "drummer8/session1/21",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 3,
+    "a_unique_windows": 705,
+    "b_unique_windows": 926,
+    "union_unique_windows": 1628,
+    "jaccard": 0.0018427518427518428,
+    "containment_a": 0.00425531914893617,
+    "containment_b": 0.0032397408207343412,
+    "first_matching_event_indices": [
+      3,
+      795
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer10/session1/9",
+    "b": "drummer8/session1/24",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 2,
+    "a_unique_windows": 705,
+    "b_unique_windows": 1557,
+    "union_unique_windows": 2260,
+    "jaccard": 0.0008849557522123894,
+    "containment_a": 0.0028368794326241137,
+    "containment_b": 0.0012845215157353885,
+    "first_matching_event_indices": [
+      4,
+      1281
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer10/session1/9",
+    "b": "drummer8/session1/25",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 2,
+    "a_unique_windows": 705,
+    "b_unique_windows": 962,
+    "union_unique_windows": 1665,
+    "jaccard": 0.0012012012012012011,
+    "containment_a": 0.0028368794326241137,
+    "containment_b": 0.002079002079002079,
+    "first_matching_event_indices": [
+      4,
+      432
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer10/session1/9",
+    "b": "drummer8/session2/19",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 2,
+    "a_unique_windows": 705,
+    "b_unique_windows": 1612,
+    "union_unique_windows": 2315,
+    "jaccard": 0.0008639308855291577,
+    "containment_a": 0.0028368794326241137,
+    "containment_b": 0.0012406947890818859,
+    "first_matching_event_indices": [
+      4,
+      1
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer10/session1/9",
+    "b": "drummer8/session2/2",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 3,
+    "a_unique_windows": 705,
+    "b_unique_windows": 3325,
+    "union_unique_windows": 4027,
+    "jaccard": 0.0007449714427613609,
+    "containment_a": 0.00425531914893617,
+    "containment_b": 0.0009022556390977444,
+    "first_matching_event_indices": [
+      4,
+      385
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer10/session1/9",
+    "b": "drummer8/session2/41",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 705,
+    "b_unique_windows": 2174,
+    "union_unique_windows": 2878,
+    "jaccard": 0.00034746351633078526,
+    "containment_a": 0.0014184397163120568,
+    "containment_b": 0.00045998160073597056,
+    "first_matching_event_indices": [
+      4,
+      1149
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer10/session1/9",
+    "b": "drummer8/session2/7",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 705,
+    "b_unique_windows": 1333,
+    "union_unique_windows": 2037,
+    "jaccard": 0.0004909180166912126,
+    "containment_a": 0.0014184397163120568,
+    "containment_b": 0.0007501875468867217,
+    "first_matching_event_indices": [
+      9,
+      1717
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer8/session2/40",
+    "b": "drummer1/session1/100",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 823,
+    "b_unique_windows": 1240,
+    "union_unique_windows": 2062,
+    "jaccard": 0.00048496605237633366,
+    "containment_a": 0.001215066828675577,
+    "containment_b": 0.0008064516129032258,
+    "first_matching_event_indices": [
+      392,
+      901
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer8/session2/40",
+    "b": "drummer1/session1/102",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 2,
+    "a_unique_windows": 823,
+    "b_unique_windows": 1806,
+    "union_unique_windows": 2627,
+    "jaccard": 0.0007613247049866769,
+    "containment_a": 0.002430133657351154,
+    "containment_b": 0.0011074197120708748,
+    "first_matching_event_indices": [
+      707,
+      1775
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer8/session2/40",
+    "b": "drummer1/session1/176",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 2,
+    "a_unique_windows": 823,
+    "b_unique_windows": 1831,
+    "union_unique_windows": 2652,
+    "jaccard": 0.0007541478129713424,
+    "containment_a": 0.002430133657351154,
+    "containment_b": 0.0010922992900054614,
+    "first_matching_event_indices": [
+      547,
+      937
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer8/session2/40",
+    "b": "drummer1/session1/183",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 4,
+    "a_unique_windows": 823,
+    "b_unique_windows": 1259,
+    "union_unique_windows": 2078,
+    "jaccard": 0.0019249278152069298,
+    "containment_a": 0.004860267314702308,
+    "containment_b": 0.003177124702144559,
+    "first_matching_event_indices": [
+      650,
+      679
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer8/session2/40",
+    "b": "drummer1/session1/202",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 2,
+    "a_unique_windows": 823,
+    "b_unique_windows": 1186,
+    "union_unique_windows": 2007,
+    "jaccard": 0.000996512207274539,
+    "containment_a": 0.002430133657351154,
+    "containment_b": 0.0016863406408094434,
+    "first_matching_event_indices": [
+      292,
+      444
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer8/session2/40",
+    "b": "drummer1/session1/80",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 823,
+    "b_unique_windows": 1164,
+    "union_unique_windows": 1986,
+    "jaccard": 0.0005035246727089627,
+    "containment_a": 0.001215066828675577,
+    "containment_b": 0.000859106529209622,
+    "first_matching_event_indices": [
+      294,
+      976
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer8/session2/40",
+    "b": "drummer1/session2/6",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 823,
+    "b_unique_windows": 2011,
+    "union_unique_windows": 2833,
+    "jaccard": 0.00035298270384751147,
+    "containment_a": 0.001215066828675577,
+    "containment_b": 0.0004972650422675286,
+    "first_matching_event_indices": [
+      547,
+      1663
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer8/session2/40",
+    "b": "drummer1/session3/5",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 823,
+    "b_unique_windows": 2690,
+    "union_unique_windows": 3512,
+    "jaccard": 0.0002847380410022779,
+    "containment_a": 0.001215066828675577,
+    "containment_b": 0.0003717472118959108,
+    "first_matching_event_indices": [
+      814,
+      321
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer8/session2/40",
+    "b": "drummer5/session1/16",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 823,
+    "b_unique_windows": 3796,
+    "union_unique_windows": 4618,
+    "jaccard": 0.00021654395842355997,
+    "containment_a": 0.001215066828675577,
+    "containment_b": 0.00026343519494204424,
+    "first_matching_event_indices": [
+      818,
+      218
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer8/session2/40",
+    "b": "drummer5/session1/19",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 2,
+    "a_unique_windows": 823,
+    "b_unique_windows": 2238,
+    "union_unique_windows": 3059,
+    "jaccard": 0.0006538084341288003,
+    "containment_a": 0.002430133657351154,
+    "containment_b": 0.0008936550491510277,
+    "first_matching_event_indices": [
+      296,
+      2299
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer8/session2/40",
+    "b": "drummer5/session2/3",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 2,
+    "a_unique_windows": 823,
+    "b_unique_windows": 1234,
+    "union_unique_windows": 2055,
+    "jaccard": 0.0009732360097323601,
+    "containment_a": 0.002430133657351154,
+    "containment_b": 0.0016207455429497568,
+    "first_matching_event_indices": [
+      430,
+      109
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer8/session2/40",
+    "b": "drummer9/session1/3",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 823,
+    "b_unique_windows": 376,
+    "union_unique_windows": 1198,
+    "jaccard": 0.0008347245409015025,
+    "containment_a": 0.001215066828675577,
+    "containment_b": 0.0026595744680851063,
+    "first_matching_event_indices": [
+      467,
+      219
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer8/session2/13",
+    "b": "drummer1/session3/8",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 1073,
+    "b_unique_windows": 264,
+    "union_unique_windows": 1336,
+    "jaccard": 0.0007485029940119761,
+    "containment_a": 0.0009319664492078285,
+    "containment_b": 0.003787878787878788,
+    "first_matching_event_indices": [
+      957,
+      23
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer8/session2/13",
+    "b": "drummer1/session3/9",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 1073,
+    "b_unique_windows": 1864,
+    "union_unique_windows": 2936,
+    "jaccard": 0.0003405994550408719,
+    "containment_a": 0.0009319664492078285,
+    "containment_b": 0.000536480686695279,
+    "first_matching_event_indices": [
+      967,
+      306
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer8/session2/13",
+    "b": "drummer6/session3/7",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 1073,
+    "b_unique_windows": 721,
+    "union_unique_windows": 1793,
+    "jaccard": 0.0005577244841048522,
+    "containment_a": 0.0009319664492078285,
+    "containment_b": 0.0013869625520110957,
+    "first_matching_event_indices": [
+      286,
+      443
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer9/session1/20",
+    "b": "drummer1/session1/51",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 1055,
+    "b_unique_windows": 1339,
+    "union_unique_windows": 2393,
+    "jaccard": 0.0004178854993731718,
+    "containment_a": 0.0009478672985781991,
+    "containment_b": 0.0007468259895444362,
+    "first_matching_event_indices": [
+      165,
+      328
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer9/session1/20",
+    "b": "drummer1/session2/5",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 1055,
+    "b_unique_windows": 1216,
+    "union_unique_windows": 2270,
+    "jaccard": 0.0004405286343612335,
+    "containment_a": 0.0009478672985781991,
+    "containment_b": 0.0008223684210526315,
+    "first_matching_event_indices": [
+      546,
+      886
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer9/session1/20",
+    "b": "drummer1/session3/5",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 1055,
+    "b_unique_windows": 2690,
+    "union_unique_windows": 3744,
+    "jaccard": 0.0002670940170940171,
+    "containment_a": 0.0009478672985781991,
+    "containment_b": 0.0003717472118959108,
+    "first_matching_event_indices": [
+      546,
+      705
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  },
+  {
+    "a": "drummer9/session1/20",
+    "b": "drummer6/session1/5",
+    "exact_onset_key": false,
+    "tempo_offset_normalized": false,
+    "shared_unique_windows": 1,
+    "a_unique_windows": 1055,
+    "b_unique_windows": 401,
+    "union_unique_windows": 1455,
+    "jaccard": 0.0006872852233676976,
+    "containment_a": 0.0009478672985781991,
+    "containment_b": 0.0024937655860349127,
+    "first_matching_event_indices": [
+      791,
+      221
+    ],
+    "matching_window_events": 8,
+    "strong_unresolved": false
+  }
+]

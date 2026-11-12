@@ -1,0 +1,59 @@
+{
+  "cycle": 36,
+  "created_at_utc": "2026-11-12T14:59:31.266861+00:00",
+  "status": "synthetic-tested-proposal-no-real-fit-or-score",
+  "files": {
+    "src/mousa/initial_rest_group_model.py": "349b4cc62644dd4cf95e5662231626494457d8ddae7c3818ccd3b2579e7f0b24",
+    "tests/test_initial_rest_group_model.py": "b50d9b7065aaac757c52f0f0641cd03f058dce115de2d09ee026596d99c60cb5",
+    "src/mousa/group_onset_model.py": "3eea5e539012741a9ef1e5f5ad6bdd871b7e6dcef5731e30f0765dc137e45b54",
+    "src/mousa/onset_groups.py": "428a2ae3afb7bd75cc067c67188df02b94626d41dd19c1496e3e6ff4f866737d"
+  },
+  "first_limit": {
+    "old_control": 12288,
+    "proposed_experiment": 65536,
+    "api_max": 16777216,
+    "unknown": "Within declared finite support positive uniform prior; outside fail closed, not infinite unknown handling."
+  },
+  "later_ioi_support": [
+    1,
+    12288
+  ],
+  "gate_support": [
+    1,
+    12288
+  ],
+  "first_support": "0..first_limit inclusive",
+  "formula": "First distribution: (count(delta)+1/(first_limit+1))/(number_of_works+1). Later global and previous-cardinality k4 formulas unchanged from frozen group model.",
+  "generation": "Same frozen generator, <=9216 target, <=384 trailing rest, <=256 notes/groups,64attempts/group, whole-template feasibility. New sampler conditions timing on0<=initialdelta<remaining or1<=laterdelta<remaining. Sparse mass sum, at most9216 enumerated output values. Longer training silence is retained, not clipped to target.",
+  "source_preservation": "Original notes, onset gaps, templates, timeline and EOT unchanged. Validation-only surrogate initial0 verifies original template/later fields; it is never fitted, scored or emitted.",
+  "proposed_conditions": [
+    "16 training works old initial cap12288",
+    "16 training works new initial cap65536",
+    "17 works including Purcell2243 new initial cap65536 ONLY after fixed screen clearance"
+  ],
+  "diagnostics": "640 and921 previously observed, untrained; no fresh test claim. NLL group timing only.",
+  "candidate_role": "Purcell2243 rights-reviewed prospective additional training, not heldout; no assignment adoption until parent fixed similarity/split gate passes.",
+  "synthetic_verification": {
+    "focused_tests": 6,
+    "passed": 6,
+    "real_sources_fitted": 0,
+    "real_sources_scored": 0,
+    "old_seed_parity": 20,
+    "coverage": [
+      "First12672,65536 and2^24 counts retained",
+      "Sparse normalization including unseen values",
+      "Exhaustive normalization on old support and later support",
+      "Both context arms old probability/evaluation/seed parity",
+      "Exact integer draw boundaries",
+      "Finite target and shared CPU deadline",
+      "Zero later delta/overflow/type rejection"
+    ]
+  },
+  "budget": "CPU60 for later approved experiment; this proposal authorizes no fit. Real plan must bind source,assignment,screen,code hashes.",
+  "limitations": [
+    "Increasing first support changes first probabilities even inside old range;16old/new control is necessary.",
+    "Raw note NLL and group timing NLL are different outcomes.",
+    "Finite-target generation discards out-of-target first mass by conditioning; not full unconditioned sequence law.",
+    "No musical quality claim."
+  ]
+}

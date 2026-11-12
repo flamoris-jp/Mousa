@@ -1,0 +1,9 @@
+{
+  "attempts": 2,
+  "stage": "check_clearance before source access and before output creation",
+  "reason": "Parent status-form clearance lacked approved:true required by frozen driver",
+  "plan_unchanged": true,
+  "constructors_started": 0,
+  "source_roles_changed": false,
+  "resolution": "New compatible clearance binding same plan and parent authorization; original clearance retained."
+}

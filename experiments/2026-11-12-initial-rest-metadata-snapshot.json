@@ -1,0 +1,60 @@
+{
+  "cycle": 36,
+  "kind": "metadata-only-existing-original-already-stored",
+  "files": [
+    {
+      "filename": "2026-11-12-initial-rest-comparison-plan.json",
+      "sha256": "362b37be07143d863d962e1e9de1a11a6d709a627f1bb48d40f6706334fd395d",
+      "bytes": 10984
+    },
+    {
+      "filename": "2026-11-12-initial-rest-comparison-clearance.json",
+      "sha256": "730187b87badbece49efbd9c301c36674c06082cb5010afbb049f91bbc0e081b",
+      "bytes": 695
+    },
+    {
+      "filename": "2026-11-12-initial-rest-independent-profile-check.json",
+      "sha256": "13f43d37466dc072a2cc2f4bd48a980207acba85da8417ce2f648105104ffd22",
+      "bytes": 370
+    },
+    {
+      "filename": "2026-11-12-initial-rest-intake-plan.json",
+      "sha256": "1e34f1d605d4680c47fa9242b417ecb2b9ca3f767205a4dcf7773524e370f6d0",
+      "bytes": 5286
+    },
+    {
+      "filename": "2026-11-12-initial-rest-intake-screen.json",
+      "sha256": "a9eab8604e206eef55b8e4fe51a53e594d6ee418d342f074ff60d1b96e4ee90e",
+      "bytes": 26553
+    },
+    {
+      "filename": "2026-11-12-initial-rest-comparison-results.json",
+      "sha256": "da089e80bce65013698111a86b8ad49d396e4834a396074bb317d6e9c5764e7f",
+      "bytes": 56135
+    },
+    {
+      "filename": "2026-11-12-initial-rest-repeat-verification.json",
+      "sha256": "182daf730d11ca38318dc7bca8c1860885c898b024ebfd1bb527d5604ae1a8a4",
+      "bytes": 8074
+    },
+    {
+      "filename": "research-purcell-training-use-cycle36.json",
+      "sha256": "3ec39f71f4f8e4fdba1fd127ec6d63ff7f84cf6a9fa0404fd7ca21a690b9361d",
+      "bytes": 1721
+    },
+    {
+      "filename": "research-cycle36-seventeen-work-assignment.json",
+      "sha256": "4812808f5b333e813de315e41ba595e451a8c512e7c54b46f96e40ce6d323b3b",
+      "bytes": 16637
+    },
+    {
+      "filename": "research-new-cohorts-cycle35-20261112.json",
+      "sha256": "dc3f8c935e2a29b87b7f362bd9b5c8ac5d756b26f1eeda25314b88e7646693dd",
+      "bytes": 11888
+    }
+  ],
+  "raw_originals_included": false,
+  "generated_notes_included": false,
+  "source_storage": "Original2243already stored in Cycle35;do not duplicate or replace.",
+  "upload_performed": false
+}
