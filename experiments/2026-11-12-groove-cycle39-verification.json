@@ -1,0 +1,29 @@
+{
+  "repeat_equal_excluding_only_cpu": true,
+  "journal_and_beforefit_byte_identical": true,
+  "constructors_completed_each_run": 12,
+  "historical_baseline35_exact_NLL_checks": 96,
+  "saved12_reference_not_refitted": true,
+  "independent_report_aggregation_checks": 24,
+  "initial_cpu_seconds": 2.032017815,
+  "repeat_cpu_seconds": 2.0472522790000003,
+  "initial_report_sha256": "c3269bdb580b1cd5160c06a0c27b70687ebb7e59311268bcd24a5e6de0bfd00f",
+  "repeat_report_sha256": "482016ba77f2aed4b207e7f034a3e4f04ee86b8b252a9a8baf496399d9b55df5",
+  "journal_sha256": "e9588e20f2dcdee2c4e3998541909e878ea2a43aecac7e8808bf9b8e66f5d659",
+  "source_hashes_unchanged": true,
+  "alias_excluded_all_train_ID_sets": true,
+  "new_training_recordings": 23,
+  "new_predictive_observation_ids": 0,
+  "targeted_tests_passed": 6,
+  "full_suite": {
+    "tests": 370,
+    "passed": 369,
+    "skipped": 1,
+    "command": "PYTHONPATH=src python -m unittest discover -s tests"
+  },
+  "independent_coordinator_reviews": [
+    "experiments/2026-11-12-groove-cycle39-independent-selection.json",
+    "experiments/2026-11-12-groove-cycle39-independent-profile.json",
+    "experiments/2026-11-12-groove-cycle39-independent-results.json"
+  ]
+}
