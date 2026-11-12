@@ -1,0 +1,56 @@
+{
+  "id": 580,
+  "title": "Sapphische Ode, Op94 No4",
+  "composer": "Johannes Brahms1833-1897",
+  "composition_date": "1884 per source; independent bibliographic sources give1883-84, publishedSimrock1884",
+  "contributor": "Daniel Johnson",
+  "cohort": "Brahms-DanielJohnson-UniversitySociety1904; different composer/contributor from previouslyusedcorpus",
+  "composition_rights": {
+    "status": "PD-supported",
+    "basis": "Named19th-century Brahms composition; author died1897; historical1904 printednotation independently inspected."
+  },
+  "arrangement_rights": {
+    "status": "HistoricalF-majorvoice-pianoeditioncorroborated",
+    "basis": "Source states UniversitySociety1904, no modernarranger credited. Downloadedscan PDFpage85/printed369 matches title,composer,Op94No4,Fmajorkey,cuttimeand vocalincipit. Originalwork may be Dmajor; do not call Fmajor originalkey. Moderncontribution is typesetting of historicalvoice+piano edition, not presumed newadaptation.",
+    "visual_match": "Fullbarrest; a4 f4 c4 a4; c5quarter f4eighth g4eighth a4quarter f4quarter; nextc4quarter\u2192g4quarter\u2192f4dottedquarter theneighthrest. Matches Mutopia sopNotes. Scanpage85 ends3/2 change, matching mixedmeter."
+  },
+  "encoding_rights": {
+    "status": "PD-dedication-supported",
+    "basis": "Exactworkpage PublicDomain directly links reviewedMIDI andLilyPond; sourcecopyright PublicDomain and explicit typesetterdedication byDanielJohnson.",
+    "exact_dedication": "This sheet music has been placed in the public domain by the typesetter",
+    "license": "LegacyPublicDomain dedication; notCC0",
+    "terms_url": "https://www.mutopiaproject.org/legal.html#publicdomain"
+  },
+  "recommendation": "Rights supported for local research; NOT admitted to current monophonic corpus. No fitting or scoring. Need a separately validated overlap-capable representation, not a forced cleanup.",
+  "technical": "Variable-meter profile still rejects overlapping notes on all three note tracks. Vocal track1: note64 starts19200; note65 starts19534 before64 ends19655; note62 starts19584 before either ends. Preserve these events; no deletion/truncation. Rights eligibility is not technical admission.",
+  "limitations": [
+    "Onlyincipit andeditioncredit independently visuallycollated, not every note.",
+    "ScanEnglish translation creditsGeorgeCooper; no lyrics/text used in MIDIresearch.",
+    "No publisher legalwarranty; this is evidence-basedresearchreview, not universallegalopinion."
+  ],
+  "files": [
+    {
+      "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=580",
+      "sha256": "7188e5dc6fef3021526f78da68e4106351088a76661b4122c7ecd43fb50baa82",
+      "bytes": 5990
+    },
+    {
+      "url": "https://www.mutopiaproject.org/ftp/BrahmsJ/O94/brahms-sapphische-ode/brahms-sapphische-ode.ly",
+      "sha256": "f189cd3a2b6e6ac7af3c10935c928d02d27d0e9d989c9c22313306e33d0c9f0c",
+      "bytes": 8144
+    },
+    {
+      "url": "https://www.mutopiaproject.org/ftp/BrahmsJ/O94/brahms-sapphische-ode/brahms-sapphische-ode.mid",
+      "sha256": "dcd5efac22b5e91b7c87685058784396adb9ec5d69915764265ad68158dbb6e1",
+      "bytes": 6797
+    },
+    {
+      "url": "https://s9.imslp.org/files/imglnks/usimg/7/7c/IMSLP271720-PMLP440654-worldsbestmusic07herb_bw.pdf",
+      "sha256": "c8fa55fafce82f31b95395d8a38a27b5f141c8b7034d18cf402dfb6bd623d37f",
+      "bytes": 14987841
+    }
+  ],
+  "reviewed_at_utc": "2026-11-12T10:28:04.327274+00:00",
+  "external_publication": false,
+  "state": "rights_reviewed_technical_quarantine"
+}

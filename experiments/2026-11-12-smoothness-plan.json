@@ -1,0 +1,14 @@
+{
+  "scope": "Exploratory generation-only candidate selection, no held-out predictive evaluation",
+  "hypothesis": "Choosing the lowest fraction of adjacent onset leaps above an octave from four fixed candidates reduces abrupt leaps but may reduce melodic variety.",
+  "groups": 20,
+  "candidate_seeds": "group*4 + offset, group=0..19, offset=0..3",
+  "control": "first successful candidate in each group",
+  "selection": "lowest fraction abs adjacent onset pitch interval >12 semitones, ties earliest offset",
+  "missing": "report all blocked candidates and empty groups; never silently regenerate",
+  "generator": "unchanged cycle6 frozen selected position model",
+  "constraints": "8bars 6/8, rest cap12sixteenths, existing source-copy guard",
+  "secondary": ["mean absolute interval", "unique onset pitches", "onset count", "rest steps", "zero-interval fraction"],
+  "interpretation": "Reduced selected objective is expected by construction. Inspect diversity tradeoffs; neither this objective nor other structural features establish musical appeal.",
+  "human_evaluation": "Not performed; opt-in existing listening protocol remains separate"
+}
