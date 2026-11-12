@@ -1,0 +1,291 @@
+{
+  "schema": "mousa-cycle49-observed-weighting-diagnostic-v1",
+  "source_report_sha256": "dc4ba78e6d1e5146a7c6fa0275c77383f982b49f1da6832348d125f1253abed8",
+  "source_plan_sha256": "882a6d62ec19c3400a5d2dabf9a7028f1919182b5872749168e032ab3b42864d",
+  "private_output_sha256": {
+    "18_raw-45000-private.json": "1baca2c51d598e3f59ba8b26a8fe012981cd84751e691f039cad8efeeec2ea44",
+    "18_raw-45001-private.json": "bb48699688ffe1886ea882ff8ceb3cd929ff674699cc2167bc35ccd94590c2ae",
+    "18_raw-45002-private.json": "2ef3143210d34b6b0403adfd19c6eda11e01639705c6a19b98c839aa1c8da05b",
+    "18_equal_work-45000-private.json": "c01dedaff14697673184e1a2a57c2adde4acdde5c54c72d58cc2e5d6d5b571fb",
+    "18_equal_work-45001-private.json": "10fd4aa7bf656bc93bdc3abda96a34ef95002027e76616574750cc681f79844c",
+    "18_equal_work-45002-private.json": "a0fc7c50817e5ab4543d00677b77002c5b8d046fb584808ec2058eebe04a7189",
+    "18_equal_family-45000-private.json": "607e7500db2a0a807f3176af5f812662575e7064414f91b6f6960253acf1fbb0",
+    "18_equal_family-45001-private.json": "563e62f600b0a94cae6c7424282f7b543bf35d0e48c9f03be1347c3891627d1d",
+    "18_equal_family-45002-private.json": "80a92e83ad4e8f2d1aba8318a242768d389f0941be0d744795f16c369956681e"
+  },
+  "conditions": {
+    "raw": {
+      "summary": {
+        "notes": {
+          "n": 3,
+          "mean": 39.666666666666664,
+          "median": 37,
+          "minimum": 35,
+          "maximum": 47
+        },
+        "distinct_pitches": {
+          "n": 3,
+          "mean": 21.333333333333332,
+          "median": 22,
+          "minimum": 19,
+          "maximum": 23
+        },
+        "mean_abs_event_pitch_interval": {
+          "n": 3,
+          "mean": 9.149592687316472,
+          "median": 7.882352941176471,
+          "minimum": 7.760869565217392,
+          "maximum": 11.805555555555555
+        },
+        "above_octave_fraction": {
+          "n": 3,
+          "mean": 0.22414038078999715,
+          "median": 0.14705882352941177,
+          "minimum": 0.10869565217391304,
+          "maximum": 0.4166666666666667
+        },
+        "silence_ticks": {
+          "n": 3,
+          "mean": 3428,
+          "median": 3232,
+          "minimum": 2752,
+          "maximum": 4300
+        },
+        "leading_silence_ticks": {
+          "n": 3,
+          "mean": 768,
+          "median": 576,
+          "minimum": 0,
+          "maximum": 1728
+        },
+        "attempts": {
+          "n": 3,
+          "mean": 38.333333333333336,
+          "median": 39,
+          "minimum": 36,
+          "maximum": 40
+        }
+      },
+      "outputs": [
+        {
+          "seed": 45000,
+          "status": "complete",
+          "notes": 37,
+          "distinct_pitches": 22,
+          "leading_silence_ticks": 1728,
+          "silence_ticks": 4300,
+          "mean_abs_event_pitch_interval": 11.805555555555555,
+          "above_octave_fraction": 0.4166666666666667,
+          "historical_22ref_copy_matches": 0
+        },
+        {
+          "seed": 45001,
+          "status": "complete",
+          "notes": 47,
+          "distinct_pitches": 23,
+          "leading_silence_ticks": 0,
+          "silence_ticks": 3232,
+          "mean_abs_event_pitch_interval": 7.760869565217392,
+          "above_octave_fraction": 0.10869565217391304,
+          "historical_22ref_copy_matches": 0
+        },
+        {
+          "seed": 45002,
+          "status": "complete",
+          "notes": 35,
+          "distinct_pitches": 19,
+          "leading_silence_ticks": 576,
+          "silence_ticks": 2752,
+          "mean_abs_event_pitch_interval": 7.882352941176471,
+          "above_octave_fraction": 0.14705882352941177,
+          "historical_22ref_copy_matches": 0
+        }
+      ]
+    },
+    "equal_work": {
+      "summary": {
+        "notes": {
+          "n": 3,
+          "mean": 37.666666666666664,
+          "median": 38,
+          "minimum": 32,
+          "maximum": 43
+        },
+        "distinct_pitches": {
+          "n": 3,
+          "mean": 18.333333333333332,
+          "median": 18,
+          "minimum": 17,
+          "maximum": 20
+        },
+        "mean_abs_event_pitch_interval": {
+          "n": 3,
+          "mean": 6.938133986521083,
+          "median": 6.621621621621622,
+          "minimum": 6.5476190476190474,
+          "maximum": 7.645161290322581
+        },
+        "above_octave_fraction": {
+          "n": 3,
+          "mean": 0.15487607423091293,
+          "median": 0.13513513513513514,
+          "minimum": 0.07142857142857142,
+          "maximum": 0.25806451612903225
+        },
+        "silence_ticks": {
+          "n": 3,
+          "mean": 3552,
+          "median": 3520,
+          "minimum": 2816,
+          "maximum": 4320
+        },
+        "leading_silence_ticks": {
+          "n": 3,
+          "mean": 768,
+          "median": 576,
+          "minimum": 0,
+          "maximum": 1728
+        },
+        "attempts": {
+          "n": 3,
+          "mean": 36.333333333333336,
+          "median": 39,
+          "minimum": 28,
+          "maximum": 42
+        }
+      },
+      "outputs": [
+        {
+          "seed": 45000,
+          "status": "complete",
+          "notes": 32,
+          "distinct_pitches": 18,
+          "leading_silence_ticks": 1728,
+          "silence_ticks": 4320,
+          "mean_abs_event_pitch_interval": 7.645161290322581,
+          "above_octave_fraction": 0.25806451612903225,
+          "historical_22ref_copy_matches": 0
+        },
+        {
+          "seed": 45001,
+          "status": "complete",
+          "notes": 43,
+          "distinct_pitches": 20,
+          "leading_silence_ticks": 0,
+          "silence_ticks": 2816,
+          "mean_abs_event_pitch_interval": 6.5476190476190474,
+          "above_octave_fraction": 0.07142857142857142,
+          "historical_22ref_copy_matches": 0
+        },
+        {
+          "seed": 45002,
+          "status": "complete",
+          "notes": 38,
+          "distinct_pitches": 17,
+          "leading_silence_ticks": 576,
+          "silence_ticks": 3520,
+          "mean_abs_event_pitch_interval": 6.621621621621622,
+          "above_octave_fraction": 0.13513513513513514,
+          "historical_22ref_copy_matches": 0
+        }
+      ]
+    },
+    "equal_family": {
+      "summary": {
+        "notes": {
+          "n": 3,
+          "mean": 25,
+          "median": 33,
+          "minimum": 6,
+          "maximum": 36
+        },
+        "distinct_pitches": {
+          "n": 3,
+          "mean": 16.333333333333332,
+          "median": 22,
+          "minimum": 4,
+          "maximum": 23
+        },
+        "mean_abs_event_pitch_interval": {
+          "n": 3,
+          "mean": 8.192261904761905,
+          "median": 8.714285714285714,
+          "minimum": 5.8,
+          "maximum": 10.0625
+        },
+        "above_octave_fraction": {
+          "n": 3,
+          "mean": 0.1699404761904762,
+          "median": 0.22857142857142856,
+          "minimum": 0.0,
+          "maximum": 0.28125
+        },
+        "silence_ticks": {
+          "n": 3,
+          "mean": 4698.666666666667,
+          "median": 2896,
+          "minimum": 2784,
+          "maximum": 8416
+        },
+        "leading_silence_ticks": {
+          "n": 3,
+          "mean": 2624,
+          "median": 0,
+          "minimum": 0,
+          "maximum": 7872
+        },
+        "attempts": {
+          "n": 3,
+          "mean": 27.666666666666668,
+          "median": 36,
+          "minimum": 6,
+          "maximum": 41
+        }
+      },
+      "outputs": [
+        {
+          "seed": 45000,
+          "status": "complete",
+          "notes": 36,
+          "distinct_pitches": 22,
+          "leading_silence_ticks": 0,
+          "silence_ticks": 2896,
+          "mean_abs_event_pitch_interval": 8.714285714285714,
+          "above_octave_fraction": 0.22857142857142856,
+          "historical_22ref_copy_matches": 0
+        },
+        {
+          "seed": 45001,
+          "status": "complete",
+          "notes": 6,
+          "distinct_pitches": 4,
+          "leading_silence_ticks": 7872,
+          "silence_ticks": 8416,
+          "mean_abs_event_pitch_interval": 5.8,
+          "above_octave_fraction": 0.0,
+          "historical_22ref_copy_matches": 0
+        },
+        {
+          "seed": 45002,
+          "status": "complete",
+          "notes": 33,
+          "distinct_pitches": 23,
+          "leading_silence_ticks": 0,
+          "silence_ticks": 2784,
+          "mean_abs_event_pitch_interval": 10.0625,
+          "above_octave_fraction": 0.28125,
+          "historical_22ref_copy_matches": 0
+        }
+      ]
+    }
+  },
+  "role": "Exploratory reanalysis: nine condition-output instances, three previously observed seeds, same18work corpus. Not nine independent music samples. No new fit/generation/prediction.",
+  "copy": "Historical22refs only; Dvorak became observed later and has NOT been screened against these outputs here. Do not claim current23ref clearance.",
+  "limits": [
+    "No causal paired-draw interpretation: integer scaling alters RNG consumption across weights.",
+    "Leading silence alone changes available output horizon and can depress counts; never trim source or drop sparse output.",
+    "Global event pitch intervals include polyphonic ordering, not inferred melodic voice.",
+    "NLL on Dvorak is timing-only and cannot rank these outputs for musical charm.",
+    "A-D human feedback unanswered."
+  ]
+}

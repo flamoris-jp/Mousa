@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "checks": 2672,
+  "outputs": 36,
+  "pairs": 630,
+  "method": "Independent per-tick occupancy and pairwise same-key collision checks, source interval-window reconstruction, complete note-event signatures and anchor-window set overlap. Parsing inputs reused, no model fitting or generation.",
+  "limits": "Not independent audio/phrase/music-appeal evaluation; 36 draws are not independent corpora."
+}
