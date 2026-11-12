@@ -1,0 +1,88 @@
+{
+  "acquired_at_utc": "2026-11-12T11:39:59.750148+00:00",
+  "scope": "Bounded two-candidate rights research, no model training or scoring; previous quarantines unchanged",
+  "candidates": [
+    {
+      "mutopia_id": 202,
+      "title": "La Candeur",
+      "composer": "Johann Friedrich Franz Burgmüller (1806-1874)",
+      "contributor": "Bas Wassink",
+      "page_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=202",
+      "midi_url": "https://www.mutopiaproject.org/ftp/BurgmullerJFF/O100/25EF-01/25EF-01.mid",
+      "lilypond_url": "https://www.mutopiaproject.org/ftp/BurgmullerJFF/O100/25EF-01/25EF-01.ly",
+      "source_claim": "Collection Litolff, 19th Century",
+      "composition_rights": "Historical PD supported by composer death1874 and independent ca1851 publication scan; not inferred from free availability.",
+      "encoding_rights": "Direct Mutopia header Public Domain plus explicit typesetter public-domain dedication. Legacy PD, not CC0. Applies exact linked contribution.",
+      "arrangement_edition_status": "pending exact Litolff edition identification/collation; no modern arranger named, but contribution dedication alone does not prove upstream edition rights.",
+      "historical_incipit": "Verified PDF page3 printed2 La Candeur Cmajor common-time, G5 E5 D5 C5 eighth-note figure twice, then C6 A5 G5 F5 twice, matches original .ly opening. This is Benoît edition, NOT independently verified exact Litolff source.",
+      "technical": {
+        "track": 1,
+        "status": "existing-overlap-reader-accepted",
+        "notes": 144,
+        "ppq": 384,
+        "meter": [
+          4,
+          4
+        ],
+        "first_onset": 0,
+        "total_ticks": 35328,
+        "polyphonic": "Right-hand staff includes chords; not isolated single voice. No extraction/repair performed."
+      },
+      "sha256": {
+        "midi": "ad185dbf3cb7e3e187cbe6e38c5ead706cf375b9d441f7191429027436b2a8e4",
+        "lilypond": "d1720877ca1b813148cb3c09cc0f26ca5e88c63aab321d2765efde0dd91ec6d6",
+        "page": "348c7e0987542a5e810cc943d6ae8b7e69bdbd864f6a4fa670af2ef41fa93bae"
+      },
+      "admission": "reserved-pending-edition-review; no fit, score, similarity screen or training clearance"
+    },
+    {
+      "mutopia_id": 214,
+      "title": "Innocence",
+      "composer": "Johann Friedrich Franz Burgmüller (1806-1874)",
+      "contributor": "Bas Wassink",
+      "page_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=214",
+      "midi_url": "https://www.mutopiaproject.org/ftp/BurgmullerJFF/O100/25EF-05/25EF-05.mid",
+      "lilypond_url": "https://www.mutopiaproject.org/ftp/BurgmullerJFF/O100/25EF-05/25EF-05.ly",
+      "source_claim": "Collection Litolff, 19th Century",
+      "composition_rights": "Historical PD supported by composer death1874 and independent ca1851 publication scan; not inferred from free availability.",
+      "encoding_rights": "Direct Mutopia header Public Domain plus explicit typesetter public-domain dedication. Legacy PD, not CC0. Applies exact linked contribution.",
+      "arrangement_edition_status": "pending exact Litolff edition identification/collation; no modern arranger named, but contribution dedication alone does not prove upstream edition rights.",
+      "historical_incipit": "Not visually compared this bounded pass; composition anthology exists but no claim of exact incipit verification for214.",
+      "technical": {
+        "track": 1,
+        "status": "existing-overlap-reader-accepted",
+        "notes": 128,
+        "ppq": 384,
+        "meter": [
+          3,
+          4
+        ],
+        "first_onset": 0,
+        "total_ticks": 19200,
+        "polyphonic": "Right-hand staff includes chords; not isolated single voice. No extraction/repair performed."
+      },
+      "sha256": {
+        "midi": "39768b50abb623d24986b0e3993518ca92a6f1340d6154fc092f218cb6b97fee",
+        "lilypond": "f19c5f5986cfc75d56263a4cab98eac7d3927c10bce75917766e49351280286a",
+        "page": "3f853318a12ee663cdd69a350f6524734750b1a4172bdf38cbe616bd694e50ae"
+      },
+      "admission": "reserved-pending-edition-review; no fit, score, similarity screen or training clearance"
+    }
+  ],
+  "historical_source": {
+    "url": "https://s9.imslp.org/files/imglnks/usimg/3/3f/IMSLP888592-PMLP7983-burgmuller_25_etudes_op.100.pdf",
+    "sha256": "253d9fdf707ca543804c1575b9c0d51544c9ff8fe2e34d78dabc08d5f0a68515",
+    "catalog_url": "https://imslp.org/wiki/25_%C3%89tudes_faciles_et_progressives,_Op.100_(Burgm%C3%BCller,_Friedrich)",
+    "catalog_sha256": "406f158ba89b9ba67971cd71f7cdcc5a1f624a3ccd0a01d3cd7820652138bdbf",
+    "edition": "Paris Benoît aîné, undated ca1851, plate410B; catalog says First edition (?) with uncertainty. Cover and page3 visually inspected.",
+    "not_same_edition": "Mutopia cites Litolff; matching composition incipit does not establish exact edition identity."
+  },
+  "failure_and_uncertainty": [
+    "No independent exact Litolff scan identified within bounded pass.",
+    "IMSLP includes a separate typeset La Candeur item5176 tagged CC BY3.0 citing Litolff; not assumed identical to exact Mutopia2013 PD source. Only directly downloaded Mutopia MIDI contribution reviewed; no borrowed MIDI from IMSLP.",
+    "214 incipit remains unchecked.",
+    "No benchmark claim or threshold relaxation.1692 remains similarity-blocked."
+  ],
+  "family_split": "Both are Burgmüller Op100 / Bas Wassink / Litolff cohort: one new family, not two independent families. Group other same-composer/contributor works before any future quantity comparison.",
+  "volume_claim": "More works/notes do not imply more independent families. Neither candidate adds approved training data yet."
+}
