@@ -1,0 +1,70 @@
+{
+  "normalized_repeat_equal": true,
+  "excluded_fields": [
+    "cpu_seconds"
+  ],
+  "cpu_seconds": [
+    0.61886818,
+    0.35398300299999996
+  ],
+  "initial_sha256": "11f21001e0c18a2dd5ec89dbeebec83fd551dbb78ee61d21e0c3f7d93bcb589d",
+  "repeat_sha256": "d6d6573c9013dd459a9827d761343abf6e6ecc269a3191850e2b6bed836aa6f4",
+  "all5_private_bytes_equal": true,
+  "source_reference_count": 21,
+  "copy_recomputed_both_orders": true,
+  "checks": [
+    {
+      "seed": 0,
+      "old_notes_groups_equal": true,
+      "control_unchanged": true,
+      "status": "empty_A_blocked",
+      "private_sha256": "08f6a18be2bdddf39402cc441637e98af8fb978a90e861b668da03d70be1f4d8"
+    },
+    {
+      "seed": 1,
+      "old_notes_groups_equal": true,
+      "control_unchanged": true,
+      "status": "complete",
+      "private_sha256": "be0d22b5e475d4bf8cc326dab8f9bf3436bcd56508fc8a60ae85f23f4b8a1dfd",
+      "all_nonpitch_fields_equal": true,
+      "all_nonanchor_group_fields_equal": true,
+      "all_timeline_metrics_equal": true
+    },
+    {
+      "seed": 2,
+      "old_notes_groups_equal": true,
+      "control_unchanged": true,
+      "status": "empty_A_blocked",
+      "private_sha256": "7579e08618df1ddb230be46898241c53cdfcbf127798576fc372f61dd608f2b1"
+    },
+    {
+      "seed": 3,
+      "old_notes_groups_equal": true,
+      "control_unchanged": true,
+      "status": "complete",
+      "private_sha256": "0cb8b02e0d5c99fbb1df2efe3ece02c6464b740916de80901429fd2f47bd57d0",
+      "all_nonpitch_fields_equal": true,
+      "all_nonanchor_group_fields_equal": true,
+      "all_timeline_metrics_equal": true
+    },
+    {
+      "seed": 4,
+      "old_notes_groups_equal": true,
+      "control_unchanged": true,
+      "status": "complete",
+      "private_sha256": "9678bdf372ddbd67e333fc8c87534c2c49de5384b91b897c043f7e6d8b88e818",
+      "all_nonpitch_fields_equal": true,
+      "all_nonanchor_group_fields_equal": true,
+      "all_timeline_metrics_equal": true
+    }
+  ],
+  "all_sources_unchanged": true,
+  "old_roles_unchanged": true,
+  "failures": 2,
+  "common_complete_seeds": [
+    1,
+    3,
+    4
+  ],
+  "targeted_tests_passed": 4
+}
