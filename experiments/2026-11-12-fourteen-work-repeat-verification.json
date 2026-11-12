@@ -1,0 +1,71 @@
+{
+  "normalized_repeat_equal": true,
+  "excluded_field": "cpu_seconds",
+  "initial_report_sha256": "3a4669208bc587b5f76a938270a98785a381c4416b5c9e1877dbf5c2d23188ab",
+  "repeat_report_sha256": "892e28d059c595414369183c3cfa8b614153c7358f3eaf090ee119e6cdd1bc52",
+  "private_notes_byte_equal": true,
+  "notes": [
+    {
+      "file": "base5-0-notes.json",
+      "sha256": "89e8d384b8d32d52598c358ad03ea088ef560411e930b7500b0a66f609f37dfa",
+      "notes": 28,
+      "bounds_polyphony_same_pitch_tail_verified": true
+    },
+    {
+      "file": "base5-1-notes.json",
+      "sha256": "1846df226268c4ef70cf7b6fc548179496fa7326af1aceb748ea54c891ed7d1d",
+      "notes": 23,
+      "bounds_polyphony_same_pitch_tail_verified": true
+    },
+    {
+      "file": "base5-2-notes.json",
+      "sha256": "85cb8d1d5c6d7ab76bed01c529ea14e89104805ba9608cc0abfe3999f4f00e2d",
+      "notes": 6,
+      "bounds_polyphony_same_pitch_tail_verified": true
+    },
+    {
+      "file": "base5-3-notes.json",
+      "sha256": "88501a070c643ddc21de65481e50f73e19477f54ac093c4eb3b32eef1c24af76",
+      "notes": 26,
+      "bounds_polyphony_same_pitch_tail_verified": true
+    },
+    {
+      "file": "base5-4-notes.json",
+      "sha256": "bed033df3fdc048885ba9f4a268b577de6e5718ff4c8545d2bd56a2ca05455d9",
+      "notes": 33,
+      "bounds_polyphony_same_pitch_tail_verified": true
+    },
+    {
+      "file": "expanded-0-notes.json",
+      "sha256": "a409047c1e22ca00e59156d1dad937e49ed098298f9d69c563fe7fa3b6b5cb31",
+      "notes": 47,
+      "bounds_polyphony_same_pitch_tail_verified": true
+    },
+    {
+      "file": "expanded-1-notes.json",
+      "sha256": "eaf8fb50014f77d155c9bfa7cf4c21eb111a768cb472638a8844e5f23d955ad5",
+      "notes": 35,
+      "bounds_polyphony_same_pitch_tail_verified": true
+    },
+    {
+      "file": "expanded-2-notes.json",
+      "sha256": "2d2581b13fb75a2580600c86f3c86b60e77efc972e2be9a277038888a1fa26b8",
+      "notes": 42,
+      "bounds_polyphony_same_pitch_tail_verified": true
+    },
+    {
+      "file": "expanded-3-notes.json",
+      "sha256": "e960002996ab4a35ec9f9b718d5bed347eb8d6b833e8854e672b4b18a343a619",
+      "notes": 48,
+      "bounds_polyphony_same_pitch_tail_verified": true
+    },
+    {
+      "file": "expanded-4-notes.json",
+      "sha256": "7d4f893fdbf797133627d5564163a1cc0b1c51c251384e85e4a89ca6852fc769",
+      "notes": 50,
+      "bounds_polyphony_same_pitch_tail_verified": true
+    }
+  ],
+  "originals_unchanged": true,
+  "limits": "Observed640/921 only; copy0 is not originality. Old12 comparison has a different copy-reference pool; fixed comparison is base5versus14."
+}

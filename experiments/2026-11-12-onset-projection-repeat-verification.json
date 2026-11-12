@@ -1,0 +1,198 @@
+{
+  "normalized_repeat_equal": true,
+  "excluded_field": "cpu_seconds",
+  "initial_report_sha256": "540c253abf6e58e30232515c7812c03d1a34fb79189bcfcf17de53e1097c6bc3",
+  "repeat_report_sha256": "298ce542d6864b258f1fadc47aa388e39086cdc1e73ccc33283ee0efbbca06d5",
+  "two_fullstaff_conditions_exact_cycle31_parity": true,
+  "original_selected_note_values_preserved": true,
+  "copy_reference_count": 14,
+  "safety": [
+    {
+      "condition": "fullstaff_event_proportional",
+      "seed": 0,
+      "notes": 53,
+      "max_polyphony": 3,
+      "tail_ticks": 224,
+      "copy_matches": 0,
+      "sha256": "e15abf85fe1ef601816f1b83cf822c6fa3e8ea84b87194f5ac94bae120cd74f5"
+    },
+    {
+      "condition": "fullstaff_event_proportional",
+      "seed": 1,
+      "notes": 47,
+      "max_polyphony": 3,
+      "tail_ticks": 96,
+      "copy_matches": 0,
+      "sha256": "978666e3d0c01031e2d1c52148b71a9d1a4d4565ebb2df87b7b229569cb9006b"
+    },
+    {
+      "condition": "fullstaff_event_proportional",
+      "seed": 2,
+      "notes": 44,
+      "max_polyphony": 3,
+      "tail_ticks": 96,
+      "copy_matches": 0,
+      "sha256": "0533740480261fab58fe3a5f50bd0e904a001acee8921ee72a3d6de37d2fa83e"
+    },
+    {
+      "condition": "fullstaff_event_proportional",
+      "seed": 3,
+      "notes": 45,
+      "max_polyphony": 3,
+      "tail_ticks": 384,
+      "copy_matches": 0,
+      "sha256": "4c08bd8be0a70d8bb276c35909d8bf009e2bf774aa77482dc3fc6adbefa2590a"
+    },
+    {
+      "condition": "fullstaff_event_proportional",
+      "seed": 4,
+      "notes": 61,
+      "max_polyphony": 3,
+      "tail_ticks": 192,
+      "copy_matches": 0,
+      "sha256": "e9c2c4eff98c92fd53a4285b4a46fc21f6f89e70800b5653d42b5b5ea12ea211"
+    },
+    {
+      "condition": "fullstaff_equal_work",
+      "seed": 0,
+      "notes": 32,
+      "max_polyphony": 2,
+      "tail_ticks": 384,
+      "copy_matches": 0,
+      "sha256": "2910320733a46e86cd9c5bca1042157ee94dfcb2c11022b6b518ff9e5827ac8d"
+    },
+    {
+      "condition": "fullstaff_equal_work",
+      "seed": 1,
+      "notes": 36,
+      "max_polyphony": 3,
+      "tail_ticks": 384,
+      "copy_matches": 0,
+      "sha256": "1faed94babeebeede36b36b985381150363616cf6898686dd5ed847f17d1ff01"
+    },
+    {
+      "condition": "fullstaff_equal_work",
+      "seed": 2,
+      "notes": 36,
+      "max_polyphony": 2,
+      "tail_ticks": 192,
+      "copy_matches": 0,
+      "sha256": "1dc248bcceca41b29ac0b063a4632dd795b472b364bc80cdb7b988417324bb49"
+    },
+    {
+      "condition": "fullstaff_equal_work",
+      "seed": 3,
+      "notes": 39,
+      "max_polyphony": 3,
+      "tail_ticks": 384,
+      "copy_matches": 0,
+      "sha256": "09f8b6d6a958c3ac65f0f73be6fde37e44bacb0ef82a35d4f46cbaf6b62f2a3d"
+    },
+    {
+      "condition": "fullstaff_equal_work",
+      "seed": 4,
+      "notes": 29,
+      "max_polyphony": 2,
+      "tail_ticks": 192,
+      "copy_matches": 0,
+      "sha256": "5580fc1020e2b81bb66423ea5d2855e3ffbf03b969e6cdd7ff866bdb85dde71a"
+    },
+    {
+      "condition": "onset_upper_event_proportional",
+      "seed": 0,
+      "notes": 32,
+      "max_polyphony": 2,
+      "tail_ticks": 96,
+      "copy_matches": 0,
+      "sha256": "e0827b85e28f8a9a48569819de27c3b9b5d062898d42b6379f74342fa04dec4b"
+    },
+    {
+      "condition": "onset_upper_event_proportional",
+      "seed": 1,
+      "notes": 41,
+      "max_polyphony": 2,
+      "tail_ticks": 192,
+      "copy_matches": 0,
+      "sha256": "0e91b6b910a458d14fc472a0eeab4d1d67b0ed1116ded96b0dbe9bf109c08783"
+    },
+    {
+      "condition": "onset_upper_event_proportional",
+      "seed": 2,
+      "notes": 35,
+      "max_polyphony": 2,
+      "tail_ticks": 0,
+      "copy_matches": 0,
+      "sha256": "f92ab0df57d2f691e5f937a0132f6f1445b4070849131747ce23f469135f0d20"
+    },
+    {
+      "condition": "onset_upper_event_proportional",
+      "seed": 3,
+      "notes": 34,
+      "max_polyphony": 2,
+      "tail_ticks": 384,
+      "copy_matches": 0,
+      "sha256": "c4a4074fba8b0d66e195c09fd5f4f9e6a9467785649f68c8020b90d90855eb4a"
+    },
+    {
+      "condition": "onset_upper_event_proportional",
+      "seed": 4,
+      "notes": 35,
+      "max_polyphony": 1,
+      "tail_ticks": 128,
+      "copy_matches": 0,
+      "sha256": "31a61460774bf6cdbdda8c67915cbbb58c6d3eb8bb0764bed0db3691ebf003e6"
+    },
+    {
+      "condition": "onset_upper_equal_work",
+      "seed": 0,
+      "notes": 35,
+      "max_polyphony": 2,
+      "tail_ticks": 192,
+      "copy_matches": 0,
+      "sha256": "a62f9cff77d985e67103fcf1e374bb21b73df15215f2df5c5a2e8d1210b69fba"
+    },
+    {
+      "condition": "onset_upper_equal_work",
+      "seed": 1,
+      "notes": 31,
+      "max_polyphony": 2,
+      "tail_ticks": 288,
+      "copy_matches": 0,
+      "sha256": "edca72aaaa2dda50d1f4e49252d111522099e1e4353936739896ca473ed33ce2"
+    },
+    {
+      "condition": "onset_upper_equal_work",
+      "seed": 2,
+      "notes": 30,
+      "max_polyphony": 2,
+      "tail_ticks": 192,
+      "copy_matches": 0,
+      "sha256": "53d983c422db7bc2244c3be54123cfcd0368cd4acb1526f175208d723a763732"
+    },
+    {
+      "condition": "onset_upper_equal_work",
+      "seed": 3,
+      "notes": 34,
+      "max_polyphony": 2,
+      "tail_ticks": 0,
+      "copy_matches": 0,
+      "sha256": "9571c55f7de0ae45a2ab19fbc2a691668bb0f613f96112a354b3c2eb541b70aa"
+    },
+    {
+      "condition": "onset_upper_equal_work",
+      "seed": 4,
+      "notes": 39,
+      "max_polyphony": 2,
+      "tail_ticks": 288,
+      "copy_matches": 0,
+      "sha256": "470aba1558e7c0159392f8376878d217bb355b293c44b0abb32c7b64abf58efc"
+    }
+  ],
+  "originals_unchanged": true,
+  "losses_summed_ticks_across_sources": {
+    "dropped_notes": 842,
+    "dropped_summed_gate_ticks": 208320,
+    "lost_sounding_union_ticks": 384
+  },
+  "limits": "Synthetic projection rule not annotated melody. Counts/tick losses across works not human ratings. No source replacement or modified MIDI produced."
+}

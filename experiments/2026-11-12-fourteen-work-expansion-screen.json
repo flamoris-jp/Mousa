@@ -1,0 +1,927 @@
+{
+  "plan_sha256": "33fb39802333d66aa17d87b529b86700c4e8db139d4ac561161ee4aecae63c4c",
+  "coverage": {
+    "mutopia-376": {
+      "total_events": 159,
+      "supported_events": 159,
+      "unsupported_events": []
+    },
+    "mutopia-888": {
+      "total_events": 38,
+      "supported_events": 38,
+      "unsupported_events": []
+    },
+    "mutopia-889": {
+      "total_events": 47,
+      "supported_events": 47,
+      "unsupported_events": []
+    },
+    "mutopia-789": {
+      "total_events": 120,
+      "supported_events": 120,
+      "unsupported_events": []
+    },
+    "mutopia-583": {
+      "total_events": 80,
+      "supported_events": 80,
+      "unsupported_events": []
+    },
+    "mutopia-1578": {
+      "total_events": 170,
+      "supported_events": 170,
+      "unsupported_events": []
+    },
+    "mutopia-1558": {
+      "total_events": 289,
+      "supported_events": 289,
+      "unsupported_events": []
+    },
+    "mutopia-370": {
+      "total_events": 108,
+      "supported_events": 108,
+      "unsupported_events": []
+    },
+    "mutopia-98-legacy": {
+      "total_events": 131,
+      "supported_events": 131,
+      "unsupported_events": []
+    },
+    "mutopia-263-legacy": {
+      "total_events": 1394,
+      "supported_events": 1394,
+      "unsupported_events": []
+    },
+    "mutopia-904": {
+      "total_events": 628,
+      "supported_events": 628,
+      "unsupported_events": []
+    },
+    "mutopia-2080": {
+      "total_events": 99,
+      "supported_events": 99,
+      "unsupported_events": []
+    },
+    "mutopia-2060": {
+      "total_events": 121,
+      "supported_events": 121,
+      "unsupported_events": []
+    },
+    "mutopia-2061": {
+      "total_events": 70,
+      "supported_events": 70,
+      "unsupported_events": []
+    },
+    "640": {
+      "total_events": 98,
+      "supported_events": 98,
+      "unsupported_events": []
+    },
+    "921": {
+      "total_events": 92,
+      "supported_events": 92,
+      "unsupported_events": []
+    }
+  },
+  "crosssplit": [
+    {
+      "exact8": 0,
+      "global_similarity": 0.2784810126582279,
+      "complete": true,
+      "source": "mutopia-376",
+      "diagnostic": "640"
+    },
+    {
+      "exact8": 0,
+      "global_similarity": 0.2721518987341772,
+      "complete": true,
+      "source": "mutopia-376",
+      "diagnostic": "921"
+    },
+    {
+      "exact8": 0,
+      "global_similarity": 0.24742268041237114,
+      "complete": true,
+      "source": "mutopia-888",
+      "diagnostic": "640"
+    },
+    {
+      "exact8": 0,
+      "global_similarity": 0.20879120879120883,
+      "complete": true,
+      "source": "mutopia-888",
+      "diagnostic": "921"
+    },
+    {
+      "exact8": 0,
+      "global_similarity": 0.2989690721649485,
+      "complete": true,
+      "source": "mutopia-889",
+      "diagnostic": "640"
+    },
+    {
+      "exact8": 0,
+      "global_similarity": 0.20879120879120883,
+      "complete": true,
+      "source": "mutopia-889",
+      "diagnostic": "921"
+    },
+    {
+      "exact8": 0,
+      "global_similarity": 0.2773109243697479,
+      "complete": true,
+      "source": "mutopia-789",
+      "diagnostic": "640"
+    },
+    {
+      "exact8": 0,
+      "global_similarity": 0.2100840336134454,
+      "complete": true,
+      "source": "mutopia-789",
+      "diagnostic": "921"
+    },
+    {
+      "exact8": 0,
+      "global_similarity": 0.20618556701030932,
+      "complete": true,
+      "source": "mutopia-583",
+      "diagnostic": "640"
+    },
+    {
+      "exact8": 0,
+      "global_similarity": 0.07692307692307687,
+      "complete": true,
+      "source": "mutopia-583",
+      "diagnostic": "921"
+    },
+    {
+      "exact8": 0,
+      "global_similarity": 0.2781065088757396,
+      "complete": true,
+      "source": "mutopia-1578",
+      "diagnostic": "640"
+    },
+    {
+      "exact8": 0,
+      "global_similarity": 0.21893491124260356,
+      "complete": true,
+      "source": "mutopia-1578",
+      "diagnostic": "921"
+    },
+    {
+      "exact8": 0,
+      "global_similarity": 0.23263888888888884,
+      "complete": true,
+      "source": "mutopia-1558",
+      "diagnostic": "640"
+    },
+    {
+      "exact8": 0,
+      "global_similarity": 0.18055555555555558,
+      "complete": true,
+      "source": "mutopia-1558",
+      "diagnostic": "921"
+    },
+    {
+      "exact8": 0,
+      "global_similarity": 0.28037383177570097,
+      "complete": true,
+      "source": "mutopia-370",
+      "diagnostic": "640"
+    },
+    {
+      "exact8": 0,
+      "global_similarity": 0.2149532710280374,
+      "complete": true,
+      "source": "mutopia-370",
+      "diagnostic": "921"
+    },
+    {
+      "exact8": 0,
+      "global_similarity": 0.2153846153846154,
+      "complete": true,
+      "source": "mutopia-98-legacy",
+      "diagnostic": "640"
+    },
+    {
+      "exact8": 0,
+      "global_similarity": 0.18461538461538463,
+      "complete": true,
+      "source": "mutopia-98-legacy",
+      "diagnostic": "921"
+    },
+    {
+      "exact8": 0,
+      "global_similarity": 0.05671213208901649,
+      "complete": true,
+      "source": "mutopia-263-legacy",
+      "diagnostic": "640"
+    },
+    {
+      "exact8": 0,
+      "global_similarity": 0.053840631730078914,
+      "complete": true,
+      "source": "mutopia-263-legacy",
+      "diagnostic": "921"
+    },
+    {
+      "exact8": 0,
+      "global_similarity": 0.11802232854864436,
+      "complete": true,
+      "source": "mutopia-904",
+      "diagnostic": "640"
+    },
+    {
+      "exact8": 0,
+      "global_similarity": 0.0861244019138756,
+      "complete": true,
+      "source": "mutopia-904",
+      "diagnostic": "921"
+    },
+    {
+      "exact8": 0,
+      "global_similarity": 0.20408163265306123,
+      "complete": true,
+      "source": "mutopia-2080",
+      "diagnostic": "640"
+    },
+    {
+      "exact8": 0,
+      "global_similarity": 0.23469387755102045,
+      "complete": true,
+      "source": "mutopia-2080",
+      "diagnostic": "921"
+    },
+    {
+      "exact8": 0,
+      "global_similarity": 0.2666666666666667,
+      "complete": true,
+      "source": "mutopia-2060",
+      "diagnostic": "640"
+    },
+    {
+      "exact8": 0,
+      "global_similarity": 0.2833333333333333,
+      "complete": true,
+      "source": "mutopia-2060",
+      "diagnostic": "921"
+    },
+    {
+      "exact8": 0,
+      "global_similarity": 0.23711340206185572,
+      "complete": true,
+      "source": "mutopia-2061",
+      "diagnostic": "640"
+    },
+    {
+      "exact8": 0,
+      "global_similarity": 0.25274725274725274,
+      "complete": true,
+      "source": "mutopia-2061",
+      "diagnostic": "921"
+    }
+  ],
+  "withintrain": [
+    {
+      "source": "mutopia-376",
+      "reference": "mutopia-888",
+      "exact8": 0,
+      "global_similarity": 0.17721518987341767,
+      "complete": true
+    },
+    {
+      "source": "mutopia-376",
+      "reference": "mutopia-889",
+      "exact8": 0,
+      "global_similarity": 0.19620253164556967,
+      "complete": true
+    },
+    {
+      "source": "mutopia-376",
+      "reference": "mutopia-789",
+      "exact8": 0,
+      "global_similarity": 0.32278481012658233,
+      "complete": true
+    },
+    {
+      "source": "mutopia-376",
+      "reference": "mutopia-583",
+      "exact8": 0,
+      "global_similarity": 0.21518987341772156,
+      "complete": true
+    },
+    {
+      "source": "mutopia-376",
+      "reference": "mutopia-1578",
+      "exact8": 0,
+      "global_similarity": 0.3076923076923077,
+      "complete": true
+    },
+    {
+      "source": "mutopia-376",
+      "reference": "mutopia-1558",
+      "exact8": 0,
+      "global_similarity": 0.30208333333333337,
+      "complete": true
+    },
+    {
+      "source": "mutopia-376",
+      "reference": "mutopia-370",
+      "exact8": 0,
+      "global_similarity": 0.31645569620253167,
+      "complete": true
+    },
+    {
+      "source": "mutopia-376",
+      "reference": "mutopia-98-legacy",
+      "exact8": 0,
+      "global_similarity": 0.19620253164556967,
+      "complete": true
+    },
+    {
+      "source": "mutopia-376",
+      "reference": "mutopia-263-legacy",
+      "exact8": 0,
+      "global_similarity": 0.07250538406317297,
+      "complete": true
+    },
+    {
+      "source": "mutopia-376",
+      "reference": "mutopia-904",
+      "exact8": 0,
+      "global_similarity": 0.13875598086124397,
+      "complete": true
+    },
+    {
+      "source": "mutopia-376",
+      "reference": "mutopia-2080",
+      "exact8": 0,
+      "global_similarity": 0.2974683544303798,
+      "complete": true
+    },
+    {
+      "source": "mutopia-376",
+      "reference": "mutopia-2060",
+      "exact8": 0,
+      "global_similarity": 0.25316455696202533,
+      "complete": true
+    },
+    {
+      "source": "mutopia-376",
+      "reference": "mutopia-2061",
+      "exact8": 0,
+      "global_similarity": 0.19620253164556967,
+      "complete": true
+    },
+    {
+      "source": "mutopia-888",
+      "reference": "mutopia-889",
+      "exact8": 0,
+      "global_similarity": 0.32608695652173914,
+      "complete": true
+    },
+    {
+      "source": "mutopia-888",
+      "reference": "mutopia-789",
+      "exact8": 0,
+      "global_similarity": 0.2016806722689075,
+      "complete": true
+    },
+    {
+      "source": "mutopia-888",
+      "reference": "mutopia-583",
+      "exact8": 0,
+      "global_similarity": 0.17721518987341767,
+      "complete": true
+    },
+    {
+      "source": "mutopia-888",
+      "reference": "mutopia-1578",
+      "exact8": 0,
+      "global_similarity": 0.18343195266272194,
+      "complete": true
+    },
+    {
+      "source": "mutopia-888",
+      "reference": "mutopia-1558",
+      "exact8": 0,
+      "global_similarity": 0.12152777777777779,
+      "complete": true
+    },
+    {
+      "source": "mutopia-888",
+      "reference": "mutopia-370",
+      "exact8": 0,
+      "global_similarity": 0.20560747663551404,
+      "complete": true
+    },
+    {
+      "source": "mutopia-888",
+      "reference": "mutopia-98-legacy",
+      "exact8": 0,
+      "global_similarity": 0.15384615384615385,
+      "complete": true
+    },
+    {
+      "source": "mutopia-888",
+      "reference": "mutopia-263-legacy",
+      "exact8": 0,
+      "global_similarity": 0.025125628140703515,
+      "complete": true
+    },
+    {
+      "source": "mutopia-888",
+      "reference": "mutopia-904",
+      "exact8": 0,
+      "global_similarity": 0.054226475279106845,
+      "complete": true
+    },
+    {
+      "source": "mutopia-888",
+      "reference": "mutopia-2080",
+      "exact8": 0,
+      "global_similarity": 0.20408163265306123,
+      "complete": true
+    },
+    {
+      "source": "mutopia-888",
+      "reference": "mutopia-2060",
+      "exact8": 0,
+      "global_similarity": 0.15833333333333333,
+      "complete": true
+    },
+    {
+      "source": "mutopia-888",
+      "reference": "mutopia-2061",
+      "exact8": 0,
+      "global_similarity": 0.10144927536231885,
+      "complete": true
+    },
+    {
+      "source": "mutopia-889",
+      "reference": "mutopia-789",
+      "exact8": 0,
+      "global_similarity": 0.26890756302521013,
+      "complete": true
+    },
+    {
+      "source": "mutopia-889",
+      "reference": "mutopia-583",
+      "exact8": 0,
+      "global_similarity": 0.189873417721519,
+      "complete": true
+    },
+    {
+      "source": "mutopia-889",
+      "reference": "mutopia-1578",
+      "exact8": 0,
+      "global_similarity": 0.20710059171597628,
+      "complete": true
+    },
+    {
+      "source": "mutopia-889",
+      "reference": "mutopia-1558",
+      "exact8": 0,
+      "global_similarity": 0.1527777777777778,
+      "complete": true
+    },
+    {
+      "source": "mutopia-889",
+      "reference": "mutopia-370",
+      "exact8": 0,
+      "global_similarity": 0.2149532710280374,
+      "complete": true
+    },
+    {
+      "source": "mutopia-889",
+      "reference": "mutopia-98-legacy",
+      "exact8": 0,
+      "global_similarity": 0.16923076923076918,
+      "complete": true
+    },
+    {
+      "source": "mutopia-889",
+      "reference": "mutopia-263-legacy",
+      "exact8": 0,
+      "global_similarity": 0.03015075376884424,
+      "complete": true
+    },
+    {
+      "source": "mutopia-889",
+      "reference": "mutopia-904",
+      "exact8": 0,
+      "global_similarity": 0.06539074960127589,
+      "complete": true
+    },
+    {
+      "source": "mutopia-889",
+      "reference": "mutopia-2080",
+      "exact8": 0,
+      "global_similarity": 0.30612244897959184,
+      "complete": true
+    },
+    {
+      "source": "mutopia-889",
+      "reference": "mutopia-2060",
+      "exact8": 0,
+      "global_similarity": 0.17500000000000004,
+      "complete": true
+    },
+    {
+      "source": "mutopia-889",
+      "reference": "mutopia-2061",
+      "exact8": 0,
+      "global_similarity": 0.17391304347826086,
+      "complete": true
+    },
+    {
+      "source": "mutopia-789",
+      "reference": "mutopia-583",
+      "exact8": 0,
+      "global_similarity": 0.2100840336134454,
+      "complete": true
+    },
+    {
+      "source": "mutopia-789",
+      "reference": "mutopia-1578",
+      "exact8": 0,
+      "global_similarity": 0.28402366863905326,
+      "complete": true
+    },
+    {
+      "source": "mutopia-789",
+      "reference": "mutopia-1558",
+      "exact8": 0,
+      "global_similarity": 0.23958333333333337,
+      "complete": true
+    },
+    {
+      "source": "mutopia-789",
+      "reference": "mutopia-370",
+      "exact8": 0,
+      "global_similarity": 0.2857142857142857,
+      "complete": true
+    },
+    {
+      "source": "mutopia-789",
+      "reference": "mutopia-98-legacy",
+      "exact8": 0,
+      "global_similarity": 0.15384615384615385,
+      "complete": true
+    },
+    {
+      "source": "mutopia-789",
+      "reference": "mutopia-263-legacy",
+      "exact8": 0,
+      "global_similarity": 0.06030150753768848,
+      "complete": true
+    },
+    {
+      "source": "mutopia-789",
+      "reference": "mutopia-904",
+      "exact8": 0,
+      "global_similarity": 0.12759170653907492,
+      "complete": true
+    },
+    {
+      "source": "mutopia-789",
+      "reference": "mutopia-2080",
+      "exact8": 0,
+      "global_similarity": 0.25210084033613445,
+      "complete": true
+    },
+    {
+      "source": "mutopia-789",
+      "reference": "mutopia-2060",
+      "exact8": 0,
+      "global_similarity": 0.15000000000000002,
+      "complete": true
+    },
+    {
+      "source": "mutopia-789",
+      "reference": "mutopia-2061",
+      "exact8": 0,
+      "global_similarity": 0.18487394957983194,
+      "complete": true
+    },
+    {
+      "source": "mutopia-583",
+      "reference": "mutopia-1578",
+      "exact8": 0,
+      "global_similarity": 0.3372781065088757,
+      "complete": true
+    },
+    {
+      "source": "mutopia-583",
+      "reference": "mutopia-1558",
+      "exact8": 0,
+      "global_similarity": 0.2534722222222222,
+      "complete": true
+    },
+    {
+      "source": "mutopia-583",
+      "reference": "mutopia-370",
+      "exact8": 0,
+      "global_similarity": 0.09345794392523366,
+      "complete": true
+    },
+    {
+      "source": "mutopia-583",
+      "reference": "mutopia-98-legacy",
+      "exact8": 0,
+      "global_similarity": 0.0461538461538461,
+      "complete": true
+    },
+    {
+      "source": "mutopia-583",
+      "reference": "mutopia-263-legacy",
+      "exact8": 0,
+      "global_similarity": 0.013639626704953334,
+      "complete": true
+    },
+    {
+      "source": "mutopia-583",
+      "reference": "mutopia-904",
+      "exact8": 0,
+      "global_similarity": 0.06539074960127589,
+      "complete": true
+    },
+    {
+      "source": "mutopia-583",
+      "reference": "mutopia-2080",
+      "exact8": 0,
+      "global_similarity": 0.1428571428571429,
+      "complete": true
+    },
+    {
+      "source": "mutopia-583",
+      "reference": "mutopia-2060",
+      "exact8": 0,
+      "global_similarity": 0.0,
+      "complete": true
+    },
+    {
+      "source": "mutopia-583",
+      "reference": "mutopia-2061",
+      "exact8": 0,
+      "global_similarity": 0.0,
+      "complete": true
+    },
+    {
+      "source": "mutopia-1578",
+      "reference": "mutopia-1558",
+      "exact8": 0,
+      "global_similarity": 0.29513888888888884,
+      "complete": true
+    },
+    {
+      "source": "mutopia-1578",
+      "reference": "mutopia-370",
+      "exact8": 0,
+      "global_similarity": 0.23668639053254437,
+      "complete": true
+    },
+    {
+      "source": "mutopia-1578",
+      "reference": "mutopia-98-legacy",
+      "exact8": 0,
+      "global_similarity": 0.18343195266272194,
+      "complete": true
+    },
+    {
+      "source": "mutopia-1578",
+      "reference": "mutopia-263-legacy",
+      "exact8": 0,
+      "global_similarity": 0.07465900933237613,
+      "complete": true
+    },
+    {
+      "source": "mutopia-1578",
+      "reference": "mutopia-904",
+      "exact8": 0,
+      "global_similarity": 0.14194577352472093,
+      "complete": true
+    },
+    {
+      "source": "mutopia-1578",
+      "reference": "mutopia-2080",
+      "exact8": 0,
+      "global_similarity": 0.2603550295857988,
+      "complete": true
+    },
+    {
+      "source": "mutopia-1578",
+      "reference": "mutopia-2060",
+      "exact8": 0,
+      "global_similarity": 0.1952662721893491,
+      "complete": true
+    },
+    {
+      "source": "mutopia-1578",
+      "reference": "mutopia-2061",
+      "exact8": 0,
+      "global_similarity": 0.15384615384615385,
+      "complete": true
+    },
+    {
+      "source": "mutopia-1558",
+      "reference": "mutopia-370",
+      "exact8": 0,
+      "global_similarity": 0.24305555555555558,
+      "complete": true
+    },
+    {
+      "source": "mutopia-1558",
+      "reference": "mutopia-98-legacy",
+      "exact8": 0,
+      "global_similarity": 0.19791666666666663,
+      "complete": true
+    },
+    {
+      "source": "mutopia-1558",
+      "reference": "mutopia-263-legacy",
+      "exact8": 0,
+      "global_similarity": 0.10337401292175163,
+      "complete": true
+    },
+    {
+      "source": "mutopia-1558",
+      "reference": "mutopia-904",
+      "exact8": 0,
+      "global_similarity": 0.18500797448165873,
+      "complete": true
+    },
+    {
+      "source": "mutopia-1558",
+      "reference": "mutopia-2080",
+      "exact8": 0,
+      "global_similarity": 0.23958333333333337,
+      "complete": true
+    },
+    {
+      "source": "mutopia-1558",
+      "reference": "mutopia-2060",
+      "exact8": 0,
+      "global_similarity": 0.2222222222222222,
+      "complete": true
+    },
+    {
+      "source": "mutopia-1558",
+      "reference": "mutopia-2061",
+      "exact8": 0,
+      "global_similarity": 0.18055555555555558,
+      "complete": true
+    },
+    {
+      "source": "mutopia-370",
+      "reference": "mutopia-98-legacy",
+      "exact8": 0,
+      "global_similarity": 0.1923076923076923,
+      "complete": true
+    },
+    {
+      "source": "mutopia-370",
+      "reference": "mutopia-263-legacy",
+      "exact8": 0,
+      "global_similarity": 0.06389088298636036,
+      "complete": true
+    },
+    {
+      "source": "mutopia-370",
+      "reference": "mutopia-904",
+      "exact8": 0,
+      "global_similarity": 0.11164274322169054,
+      "complete": true
+    },
+    {
+      "source": "mutopia-370",
+      "reference": "mutopia-2080",
+      "exact8": 0,
+      "global_similarity": 0.23364485981308414,
+      "complete": true
+    },
+    {
+      "source": "mutopia-370",
+      "reference": "mutopia-2060",
+      "exact8": 0,
+      "global_similarity": 0.2583333333333333,
+      "complete": true
+    },
+    {
+      "source": "mutopia-370",
+      "reference": "mutopia-2061",
+      "exact8": 0,
+      "global_similarity": 0.2710280373831776,
+      "complete": true
+    },
+    {
+      "source": "mutopia-98-legacy",
+      "reference": "mutopia-263-legacy",
+      "exact8": 0,
+      "global_similarity": 0.06963388370423551,
+      "complete": true
+    },
+    {
+      "source": "mutopia-98-legacy",
+      "reference": "mutopia-904",
+      "exact8": 0,
+      "global_similarity": 0.12440191387559807,
+      "complete": true
+    },
+    {
+      "source": "mutopia-98-legacy",
+      "reference": "mutopia-2080",
+      "exact8": 0,
+      "global_similarity": 0.2692307692307693,
+      "complete": true
+    },
+    {
+      "source": "mutopia-98-legacy",
+      "reference": "mutopia-2060",
+      "exact8": 0,
+      "global_similarity": 0.23076923076923073,
+      "complete": true
+    },
+    {
+      "source": "mutopia-98-legacy",
+      "reference": "mutopia-2061",
+      "exact8": 0,
+      "global_similarity": 0.2692307692307693,
+      "complete": true
+    },
+    {
+      "source": "mutopia-263-legacy",
+      "reference": "mutopia-904",
+      "exact8": 0,
+      "global_similarity": 0.17875089734386218,
+      "complete": true
+    },
+    {
+      "source": "mutopia-263-legacy",
+      "reference": "mutopia-2080",
+      "exact8": 0,
+      "global_similarity": 0.05743000717875091,
+      "complete": true
+    },
+    {
+      "source": "mutopia-263-legacy",
+      "reference": "mutopia-2060",
+      "exact8": 0,
+      "global_similarity": 0.06963388370423551,
+      "complete": true
+    },
+    {
+      "source": "mutopia-263-legacy",
+      "reference": "mutopia-2061",
+      "exact8": 0,
+      "global_similarity": 0.04737975592246946,
+      "complete": true
+    },
+    {
+      "source": "mutopia-904",
+      "reference": "mutopia-2080",
+      "exact8": 0,
+      "global_similarity": 0.10366826156299835,
+      "complete": true
+    },
+    {
+      "source": "mutopia-904",
+      "reference": "mutopia-2060",
+      "exact8": 0,
+      "global_similarity": 0.12440191387559807,
+      "complete": true
+    },
+    {
+      "source": "mutopia-904",
+      "reference": "mutopia-2061",
+      "exact8": 3,
+      "global_similarity": 0.08771929824561409,
+      "complete": true
+    },
+    {
+      "source": "mutopia-2080",
+      "reference": "mutopia-2060",
+      "exact8": 0,
+      "global_similarity": 0.30833333333333335,
+      "complete": true
+    },
+    {
+      "source": "mutopia-2080",
+      "reference": "mutopia-2061",
+      "exact8": 0,
+      "global_similarity": 0.37755102040816324,
+      "complete": true
+    },
+    {
+      "source": "mutopia-2060",
+      "reference": "mutopia-2061",
+      "exact8": 4,
+      "global_similarity": 0.3583333333333333,
+      "complete": true
+    }
+  ],
+  "augmented_events": 3454,
+  "blocked": false,
+  "status": "awaiting actual parent review and bound clearance",
+  "withintrain_interpretation": "Includes common motifs; no automatic legal-copy allegation or rejection. Review family declarations in assignment.",
+  "comparison_profile": "exact2048; same .80 and exact8 gate"
+}

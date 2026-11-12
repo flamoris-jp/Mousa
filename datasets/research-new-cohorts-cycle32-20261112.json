@@ -1,0 +1,1015 @@
+{
+  "created_at_utc": "2026-11-12T13:40:58.814114+00:00",
+  "scope": "Cycle32 bounded acquisition of four original MIDI candidates across three composers. Two rights-reviewed Czerny exercises are one composition/editorial cohort; two other composers remain pending. No corpus growth claimed until screen/assignment/fit.",
+  "no_fit": true,
+  "no_model_score": true,
+  "no_external_storage": true,
+  "no_source_execution": true,
+  "raw_media_in_git": false,
+  "prior_blocked_and_observed_roles_unchanged": true,
+  "candidates": [
+    {
+      "work_id": "mutopia-2060",
+      "title": "160 Eight-Measure Exercises, Op.821 No.1",
+      "composer": "Carl Czerny (1791–1857)",
+      "encoding_contributor": "Manuel Castejon Limas",
+      "source_page": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2060",
+      "files": [
+        {
+          "id": "2060",
+          "url": "https://www.mutopiaproject.org/ftp/CzernyC/Op_821/Czerny_Op_821_No_001/Czerny_Op_821_No_001.ly",
+          "file": "2060.ly",
+          "bytes": 3431,
+          "sha256": "7f41660da75dd7a81f2eb5ff7c8b2abb9c173fc111684d883366394712819d85",
+          "date": "2026-11-12T13:38:48.892777+00:00"
+        },
+        {
+          "id": "2060",
+          "url": "https://www.mutopiaproject.org/ftp/CzernyC/Op_821/Czerny_Op_821_No_001/Czerny_Op_821_No_001.mid",
+          "file": "2060.mid",
+          "bytes": 1591,
+          "sha256": "4592e80dbc7e4bb76c9f8009e488774ccd751f08bf9f09cb3da83665471d345d",
+          "date": "2026-11-12T13:38:55.275557+00:00"
+        }
+      ],
+      "technical": [
+        {
+          "id": "2060",
+          "track": 1,
+          "notes": 121,
+          "first_notes": [
+            {
+              "start": 0,
+              "end": 96,
+              "pitch": 76,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 96,
+              "end": 192,
+              "pitch": 79,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 192,
+              "end": 288,
+              "pitch": 77,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 288,
+              "end": 384,
+              "pitch": 79,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 384,
+              "end": 480,
+              "pitch": 76,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 480,
+              "end": 576,
+              "pitch": 77,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 576,
+              "end": 672,
+              "pitch": 74,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 672,
+              "end": 768,
+              "pitch": 76,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 768,
+              "end": 864,
+              "pitch": 72,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 864,
+              "end": 960,
+              "pitch": 84,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 960,
+              "end": 1056,
+              "pitch": 83,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 1056,
+              "end": 1152,
+              "pitch": 84,
+              "velocity": 90,
+              "release_velocity": 0
+            }
+          ],
+          "other": {
+            "total_ticks": "11712",
+            "meter": "(4, 4)",
+            "ppq": "384",
+            "tempo_map": "((0, 545454),)",
+            "channel": "0",
+            "program": "0",
+            "tempo_defaulted": "False",
+            "volume_map": "((0, 100), (3072, 100), (3168, 100), (3264, 100), (3360, 100), (3456, 100), (3552, 100), (3648, 100), (3744, 100), (3840, 100), (3936, 100), (4032, 100), (4128, 100), (4224, 100), (4320, 100), (4416, 100), (4512, 100), (4608, 100), (4704, 100), (4800",
+            "source_total_ticks": "11712",
+            "program_map": "((0, 0),)",
+            "program_defaulted": "False",
+            "channel_events": "((0, 'program', 0, 0), (0, 'program', 0, 0), (0, 'volume', 100, 0), (0, 'note_on', 76, 90), (96, 'note_off', 76, 0), (96, 'note_on', 79, 90), (192, 'note_off', 79, 0), (192, 'note_on', 77, 90), (288, 'note_off', 77, 0), (288, 'note_on', 79, 90), (384",
+            "meter_map": "({'tick': 0, 'numerator': 4, 'denominator': 4, 'clocks_per_click': 18, 'notated_32nd_notes_per_beat': 8},)"
+          },
+          "max_polyphony": 1
+        },
+        {
+          "id": "2060",
+          "track": 2,
+          "notes": 31,
+          "first_notes": [
+            {
+              "start": 0,
+              "end": 384,
+              "pitch": 60,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 0,
+              "end": 384,
+              "pitch": 67,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 768,
+              "end": 1152,
+              "pitch": 64,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 768,
+              "end": 1152,
+              "pitch": 67,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 1536,
+              "end": 1920,
+              "pitch": 62,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 1536,
+              "end": 1920,
+              "pitch": 69,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 2304,
+              "end": 2688,
+              "pitch": 53,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 2304,
+              "end": 2688,
+              "pitch": 57,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 3072,
+              "end": 3456,
+              "pitch": 55,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 3072,
+              "end": 3456,
+              "pitch": 62,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 3840,
+              "end": 4224,
+              "pitch": 47,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 3840,
+              "end": 4224,
+              "pitch": 50,
+              "velocity": 90,
+              "release_velocity": 0
+            }
+          ],
+          "other": {
+            "total_ticks": "11136",
+            "meter": "(4, 4)",
+            "ppq": "384",
+            "tempo_map": "((0, 545454),)",
+            "channel": "1",
+            "program": "0",
+            "tempo_defaulted": "False",
+            "volume_map": "((0, 100),)",
+            "source_total_ticks": "11712",
+            "program_map": "((0, 0),)",
+            "program_defaulted": "False",
+            "channel_events": "((0, 'program', 0, 0), (0, 'program', 0, 0), (0, 'volume', 100, 0), (0, 'note_on', 60, 90), (0, 'note_on', 67, 90), (384, 'note_off', 60, 0), (384, 'note_off', 67, 0), (768, 'note_on', 67, 90), (768, 'note_on', 64, 90), (1152, 'note_off', 67, 0), (11",
+            "meter_map": "({'tick': 0, 'numerator': 4, 'denominator': 4, 'clocks_per_click': 18, 'notated_32nd_notes_per_beat': 8},)"
+          },
+          "max_polyphony": 3
+        }
+      ],
+      "composition_rights": "Historical named composer, deceased more than 100 years; no contemporary composition rights claimed.",
+      "encoding_rights": {
+        "declaration": "Public Domain",
+        "evidence": "Exact downloaded LilyPond header plus explicit typesetter dedication: placed in the public domain; free to distribute, modify and perform. Linked original MIDI from same official piece.",
+        "license_url": "http://creativecommons.org/licenses/publicdomain",
+        "limits": "Legacy PD dedication, not described as CC0; not an explicit AI-specific license. Permission basis is rights-reviewed PD composition/edition and contributed encoding."
+      },
+      "role": "reserved_only_no_fit_no_model_score_no_assignment",
+      "duplicate_screen": "not_run",
+      "rights_status": "rights_reviewed_reserved_pending_screen_and_assignment",
+      "family": "Czerny Op821 / Ruthardt-Peters / Manuel Castejon Limas; all exercises, both hands, editions and transforms grouped",
+      "independence": "New composer and encoding contributor versus trained12. NOT new independent editorial cohort: Adolf Ruthardt also edits trained Tchaikovsky2080. Peters publisher overlaps observed Chopin921 and others. No independent-test clearance claimed.",
+      "edition_rights": {
+        "publisher": "Edition Peters, Leipzig",
+        "date": "catalogued n.d.[1888], plate6990-6993",
+        "editor": "Adolf Ruthardt (1849–1934)",
+        "arrangement": "Original piano exercise, no separate arranger identified; historical editorial changes attributed to Ruthardt.",
+        "catalogue_url": "https://imslp.org/wiki/160_Kurze_%C3%9Cbungen,_Op.821_(Czerny,_Carl)",
+        "plate_crosscheck_url": "https://imslp.org/wiki/Edition_Peters/Plate_Numbers",
+        "scan_url": "https://s9.imslp.org/files/imglnks/usimg/a/ad/IMSLP242438-PMLP27118-Czerny%2C_Carl-160_Kurze_Uebungen_Op_821_Peters_6990-93_scan.pdf",
+        "scan_sha256": "f202eb0345d2442eeee9a2b851d9019d3966071a41d6311c5b59314629eeecd2",
+        "scan_limit": "Catalogued post-1950 Frankfurt reprint of1888 edition, not an1888 physical scan. Title says Neu revidierte Ausgabe without a new named editor; plate6990 shown. Page3 bears1920 copyright and1948 renewal, both historical. Catalogue identifies Ruthardt and PD. No rights inferred over later cover branding/layout; incipit check is not full-score collation."
+      },
+      "meter_origin_ticks": 0,
+      "pickup": false,
+      "incipit": "Visually inspected scan PDFpage3 exercise1: Allegro, common time, E5 G5 F5 G5 E5 F5 D5 E5 C5 C6 B5 C6 sixteenths. LY and original track1 pitches76,79,77,79,76,77,74,76,72,84,83,84 match. Accompaniment C4/G4 quarter chord, quarter rest, E4/G4 chord matches.",
+      "recommended_track": 1,
+      "recommended_notes": 121,
+      "selection_basis": "Upper staff monophonic running exercise; chosen by score role before any similarity/model result.",
+      "timing_caveat": "Eight notated4/4 bars=12288 ticks, original selected EOT11712. Preserve source bytes/EOT; do not invent missing score-ending rests in reader or train data."
+    },
+    {
+      "work_id": "mutopia-2061",
+      "title": "160 Eight-Measure Exercises, Op.821 No.2",
+      "composer": "Carl Czerny (1791–1857)",
+      "encoding_contributor": "Manuel Castejon Limas",
+      "source_page": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2061",
+      "files": [
+        {
+          "id": "2061",
+          "url": "https://www.mutopiaproject.org/ftp/CzernyC/Op_821/Czerny_Op_821_No_002/Czerny_Op_821_No_002.ly",
+          "file": "2061.ly",
+          "bytes": 3124,
+          "sha256": "ef1f207164f439e0b5efb62db0bad5ba3418496b2816ba716d9268e73aea1dd4",
+          "date": "2026-11-12T13:38:57.578690+00:00"
+        },
+        {
+          "id": "2061",
+          "url": "https://www.mutopiaproject.org/ftp/CzernyC/Op_821/Czerny_Op_821_No_002/Czerny_Op_821_No_002.mid",
+          "file": "2061.mid",
+          "bytes": 1187,
+          "sha256": "2e1c2f560c5fecf1646a9435f03f1efe377fc63ca1b1137a8f6192ae1dc921f9",
+          "date": "2026-11-12T13:38:59.597647+00:00"
+        }
+      ],
+      "technical": [
+        {
+          "id": "2061",
+          "track": 1,
+          "notes": 42,
+          "first_notes": [
+            {
+              "start": 0,
+              "end": 768,
+              "pitch": 76,
+              "velocity": 95,
+              "release_velocity": 0
+            },
+            {
+              "start": 0,
+              "end": 768,
+              "pitch": 79,
+              "velocity": 95,
+              "release_velocity": 0
+            },
+            {
+              "start": 960,
+              "end": 1152,
+              "pitch": 72,
+              "velocity": 95,
+              "release_velocity": 0
+            },
+            {
+              "start": 960,
+              "end": 1152,
+              "pitch": 76,
+              "velocity": 95,
+              "release_velocity": 0
+            },
+            {
+              "start": 1152,
+              "end": 1920,
+              "pitch": 74,
+              "velocity": 95,
+              "release_velocity": 0
+            },
+            {
+              "start": 1152,
+              "end": 1920,
+              "pitch": 77,
+              "velocity": 95,
+              "release_velocity": 0
+            },
+            {
+              "start": 2112,
+              "end": 2304,
+              "pitch": 71,
+              "velocity": 95,
+              "release_velocity": 0
+            },
+            {
+              "start": 2112,
+              "end": 2304,
+              "pitch": 74,
+              "velocity": 95,
+              "release_velocity": 0
+            },
+            {
+              "start": 2304,
+              "end": 3072,
+              "pitch": 72,
+              "velocity": 95,
+              "release_velocity": 0
+            },
+            {
+              "start": 2304,
+              "end": 3072,
+              "pitch": 76,
+              "velocity": 95,
+              "release_velocity": 0
+            },
+            {
+              "start": 3264,
+              "end": 3456,
+              "pitch": 67,
+              "velocity": 95,
+              "release_velocity": 0
+            },
+            {
+              "start": 3264,
+              "end": 3456,
+              "pitch": 76,
+              "velocity": 95,
+              "release_velocity": 0
+            }
+          ],
+          "other": {
+            "total_ticks": "8640",
+            "meter": "(3, 4)",
+            "ppq": "384",
+            "tempo_map": "((0, 545454),)",
+            "channel": "0",
+            "program": "0",
+            "tempo_defaulted": "False",
+            "volume_map": "((0, 100), (7104, 100), (7200, 100), (7296, 100), (7392, 100), (7488, 100), (7584, 100), (7680, 100), (7776, 100), (7872, 100), (7968, 100), (8064, 100))",
+            "source_total_ticks": "8640",
+            "program_map": "((0, 0),)",
+            "program_defaulted": "False",
+            "channel_events": "((0, 'program', 0, 0), (0, 'program', 0, 0), (0, 'volume', 100, 0), (0, 'note_on', 76, 95), (0, 'note_on', 79, 95), (768, 'note_off', 76, 0), (768, 'note_off', 79, 0), (960, 'note_on', 72, 95), (960, 'note_on', 76, 95), (1152, 'note_off', 72, 0), (11",
+            "meter_map": "({'tick': 0, 'numerator': 3, 'denominator': 4, 'clocks_per_click': 18, 'notated_32nd_notes_per_beat': 8},)"
+          },
+          "max_polyphony": 4
+        },
+        {
+          "id": "2061",
+          "track": 2,
+          "notes": 70,
+          "first_notes": [
+            {
+              "start": 96,
+              "end": 192,
+              "pitch": 48,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 192,
+              "end": 288,
+              "pitch": 50,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 288,
+              "end": 384,
+              "pitch": 52,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 384,
+              "end": 480,
+              "pitch": 53,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 480,
+              "end": 576,
+              "pitch": 55,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 576,
+              "end": 672,
+              "pitch": 57,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 672,
+              "end": 768,
+              "pitch": 59,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 768,
+              "end": 960,
+              "pitch": 60,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 1248,
+              "end": 1344,
+              "pitch": 43,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 1344,
+              "end": 1440,
+              "pitch": 45,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 1440,
+              "end": 1536,
+              "pitch": 47,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 1536,
+              "end": 1632,
+              "pitch": 48,
+              "velocity": 90,
+              "release_velocity": 0
+            }
+          ],
+          "other": {
+            "total_ticks": "8640",
+            "meter": "(3, 4)",
+            "ppq": "384",
+            "tempo_map": "((0, 545454),)",
+            "channel": "1",
+            "program": "0",
+            "tempo_defaulted": "False",
+            "volume_map": "((0, 100),)",
+            "source_total_ticks": "8640",
+            "program_map": "((0, 0),)",
+            "program_defaulted": "False",
+            "channel_events": "((0, 'program', 0, 0), (0, 'program', 0, 0), (0, 'volume', 100, 0), (96, 'note_on', 48, 90), (192, 'note_off', 48, 0), (192, 'note_on', 50, 90), (288, 'note_off', 50, 0), (288, 'note_on', 52, 90), (384, 'note_off', 52, 0), (384, 'note_on', 53, 90), (",
+            "meter_map": "({'tick': 0, 'numerator': 3, 'denominator': 4, 'clocks_per_click': 18, 'notated_32nd_notes_per_beat': 8},)"
+          },
+          "max_polyphony": 3
+        }
+      ],
+      "composition_rights": "Historical named composer, deceased more than 100 years; no contemporary composition rights claimed.",
+      "encoding_rights": {
+        "declaration": "Public Domain",
+        "evidence": "Exact downloaded LilyPond header plus explicit typesetter dedication: placed in the public domain; free to distribute, modify and perform. Linked original MIDI from same official piece.",
+        "license_url": "http://creativecommons.org/licenses/publicdomain",
+        "limits": "Legacy PD dedication, not described as CC0; not an explicit AI-specific license. Permission basis is rights-reviewed PD composition/edition and contributed encoding."
+      },
+      "role": "reserved_only_no_fit_no_model_score_no_assignment",
+      "duplicate_screen": "not_run",
+      "rights_status": "rights_reviewed_reserved_pending_screen_and_assignment",
+      "family": "Czerny Op821 / Ruthardt-Peters / Manuel Castejon Limas; all exercises, both hands, editions and transforms grouped",
+      "independence": "New composer and encoding contributor versus trained12. NOT new independent editorial cohort: Adolf Ruthardt also edits trained Tchaikovsky2080. Peters publisher overlaps observed Chopin921 and others. No independent-test clearance claimed.",
+      "edition_rights": {
+        "publisher": "Edition Peters, Leipzig",
+        "date": "catalogued n.d.[1888], plate6990-6993",
+        "editor": "Adolf Ruthardt (1849–1934)",
+        "arrangement": "Original piano exercise, no separate arranger identified; historical editorial changes attributed to Ruthardt.",
+        "catalogue_url": "https://imslp.org/wiki/160_Kurze_%C3%9Cbungen,_Op.821_(Czerny,_Carl)",
+        "plate_crosscheck_url": "https://imslp.org/wiki/Edition_Peters/Plate_Numbers",
+        "scan_url": "https://s9.imslp.org/files/imglnks/usimg/a/ad/IMSLP242438-PMLP27118-Czerny%2C_Carl-160_Kurze_Uebungen_Op_821_Peters_6990-93_scan.pdf",
+        "scan_sha256": "f202eb0345d2442eeee9a2b851d9019d3966071a41d6311c5b59314629eeecd2",
+        "scan_limit": "Catalogued post-1950 Frankfurt reprint of1888 edition, not an1888 physical scan. Title says Neu revidierte Ausgabe without a new named editor; plate6990 shown. Page3 bears1920 copyright and1948 renewal, both historical. Catalogue identifies Ruthardt and PD. No rights inferred over later cover branding/layout; incipit check is not full-score collation."
+      },
+      "meter_origin_ticks": 0,
+      "pickup": false,
+      "incipit": "Visually inspected scan PDFpage3 exercise2: Allegro3/4, upper E5/G5 half chord then eighth rest and C5/E5 eighth; lower sixteenth rest then C3 D3 E3 F3 G3 A3 B3 sixteenths and C4 eighth. LY and original tracks agree.",
+      "recommended_track": 2,
+      "recommended_notes": 70,
+      "selection_basis": "Lower staff carries scalar exercise, upper chiefly sustained chords; chosen by score role before similarity/model result. Upper track1 is also technically readable42events/maxpoly4, not silently substituted or quantized.",
+      "first_note_tick": 96,
+      "timing_caveat": "Full-bar start with lower sixteenth rest, not anacrusis. Eight3/4 bars=9216 ticks, original EOT8640. Preserve original endpoint; no inferred padding."
+    },
+    {
+      "work_id": "mutopia-1888",
+      "title": "In the Hall of the Mountain King, Op.46 No.4",
+      "composer": "Edvard Grieg (1843–1907)",
+      "encoding_contributor": "Coyau",
+      "source_page": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1888",
+      "files": [
+        {
+          "id": "1888",
+          "url": "https://www.mutopiaproject.org/ftp/GriegE/O46/Dans_l_antre_du_roi_de_la_montagne/Dans_l_antre_du_roi_de_la_montagne.ly",
+          "file": "1888.ly",
+          "bytes": 14420,
+          "sha256": "5ce52c65f3a019062baa72d8c85313274d2542dbf68a759d8712df4bea827b95",
+          "date": "2026-11-12T13:37:17.941641+00:00"
+        },
+        {
+          "id": "1888",
+          "url": "https://www.mutopiaproject.org/ftp/GriegE/O46/Dans_l_antre_du_roi_de_la_montagne/Dans_l_antre_du_roi_de_la_montagne.mid",
+          "file": "1888.mid",
+          "bytes": 15156,
+          "sha256": "0c256a809b5af1faef81b6aad6106088a71d76b12435d5f0775d4ceee60c917e",
+          "date": "2026-11-12T13:37:20.574373+00:00"
+        }
+      ],
+      "technical": [
+        {
+          "id": "1888",
+          "track": 1,
+          "notes": 726,
+          "first_notes": [
+            {
+              "start": 0,
+              "end": 1344,
+              "pitch": 54,
+              "velocity": 69,
+              "release_velocity": 0
+            },
+            {
+              "start": 0,
+              "end": 1344,
+              "pitch": 66,
+              "velocity": 69,
+              "release_velocity": 0
+            },
+            {
+              "start": 1536,
+              "end": 1632,
+              "pitch": 35,
+              "velocity": 62,
+              "release_velocity": 0
+            },
+            {
+              "start": 1728,
+              "end": 1824,
+              "pitch": 37,
+              "velocity": 62,
+              "release_velocity": 0
+            },
+            {
+              "start": 1920,
+              "end": 2016,
+              "pitch": 38,
+              "velocity": 62,
+              "release_velocity": 0
+            },
+            {
+              "start": 2112,
+              "end": 2208,
+              "pitch": 40,
+              "velocity": 62,
+              "release_velocity": 0
+            },
+            {
+              "start": 2304,
+              "end": 2400,
+              "pitch": 42,
+              "velocity": 62,
+              "release_velocity": 0
+            },
+            {
+              "start": 2496,
+              "end": 2592,
+              "pitch": 38,
+              "velocity": 62,
+              "release_velocity": 0
+            },
+            {
+              "start": 2688,
+              "end": 2880,
+              "pitch": 42,
+              "velocity": 62,
+              "release_velocity": 0
+            },
+            {
+              "start": 3072,
+              "end": 3168,
+              "pitch": 41,
+              "velocity": 62,
+              "release_velocity": 0
+            },
+            {
+              "start": 3264,
+              "end": 3360,
+              "pitch": 37,
+              "velocity": 62,
+              "release_velocity": 0
+            },
+            {
+              "start": 3456,
+              "end": 3648,
+              "pitch": 41,
+              "velocity": 62,
+              "release_velocity": 0
+            }
+          ],
+          "other": {
+            "total_ticks": "134412",
+            "meter": "(4, 4)",
+            "ppq": "384",
+            "tempo_map": "((0, 434782), (75264, 389610))",
+            "channel": "0",
+            "program": "0",
+            "tempo_defaulted": "False",
+            "volume_map": "((0, 100), (1536, 100), (26112, 100), (50688, 100), (50784, 100), (50880, 100), (50976, 100), (51072, 100), (51168, 100), (51264, 100), (51360, 100), (51408, 100), (51432, 100), (51456, 100), (51552, 100), (51648, 100), (51744, 100), (51840, 100), (5",
+            "source_total_ticks": "134412",
+            "program_map": "((0, 0),)",
+            "program_defaulted": "True",
+            "channel_events": "((0, 'volume', 100, 0), (0, 'note_on', 54, 69), (0, 'note_on', 66, 69), (1344, 'note_off', 54, 0), (1344, 'note_off', 66, 0), (1536, 'volume', 100, 0), (1536, 'note_on', 35, 62), (1632, 'note_off', 35, 0), (1728, 'note_on', 37, 62), (1824, 'note_off'",
+            "meter_map": "({'tick': 0, 'numerator': 4, 'denominator': 4, 'clocks_per_click': 18, 'notated_32nd_notes_per_beat': 8},)"
+          },
+          "max_polyphony": 3
+        },
+        {
+          "id": "1888",
+          "track": 2,
+          "error": "only selected-channel CC7 volume is supported"
+        }
+      ],
+      "composition_rights": "Historical named composer, deceased more than 100 years; no contemporary composition rights claimed.",
+      "encoding_rights": {
+        "declaration": "Public Domain",
+        "evidence": "Exact downloaded LilyPond header plus explicit typesetter dedication: placed in the public domain; free to distribute, modify and perform. Linked original MIDI from same official piece.",
+        "license_url": "http://creativecommons.org/licenses/publicdomain",
+        "limits": "Legacy PD dedication, not described as CC0; not an explicit AI-specific license. Permission basis is rights-reviewed PD composition/edition and contributed encoding."
+      },
+      "role": "reserved_only_no_fit_no_model_score_no_assignment",
+      "duplicate_screen": "not_run",
+      "rights_status": "pending_do_not_train",
+      "family": "Grieg PeerGynt Op46 / UniversitySociety1918 / Coyau",
+      "edition_rights": {
+        "source": "The University Society1918 plate1136-4-CB; Mutopia names composer Grieg as arranger.",
+        "historical_catalogue": "https://imslp.org/wiki/Peer_Gynt_Suite_No.1,_Op.46_(Grieg,_Edvard)#IMSLP00581",
+        "editor": "Alexander Pero, only fl.1918–28 verified",
+        "editor_url": "https://imslp.org/wiki/Category:Pero,_Alexander",
+        "unresolved": "Unknown deathdate and exact editorial contribution; catalogue PD alone does not settle worldwide rights. Previously inspected Grieg586/DanielJohnson is a different work but composer overlap exists.",
+        "scan_url": "https://s9.imslp.org/files/imglnks/usimg/3/3b/IMSLP00581-Grieg_-_In_the_Hall_of_the_Mountain_King.pdf",
+        "scan_sha256": "e9b11d763ed1da553fadf3a743d77161ed763e77cfd21eae6a07d31fd185f6a0"
+      },
+      "incipit": "Visually inspected historical scan PDFpage1 printed650: Edited by A.Pero, plate1136-4-CB, copyright1918 UniversitySociety, Bminor common time, bass-clef F#3/F#4 whole chord then B1 C#2 D2 E2 F#2 D2 F#2. Matches LY and MIDI54/66 then35,37,38,40,42,38,42. Scan includes SheetMusicArchive branding; not redistributed. Incipit match does NOT resolve Pero editorial rights."
+    },
+    {
+      "work_id": "mutopia-354",
+      "title": "Kinderscenen, Op.15 No.1",
+      "composer": "Robert Schumann (1810–1856)",
+      "encoding_contributor": "Ying-Chun Liu",
+      "source_page": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=354",
+      "files": [
+        {
+          "id": "354",
+          "url": "https://www.mutopiaproject.org/ftp/SchumannR/O15/SchumannOp15No01/SchumannOp15No01.ly",
+          "file": "354.ly",
+          "bytes": 9336,
+          "sha256": "b8f84c1b53f5aa150c54cd685f6f38fbbe3f76796f22add412620498adf2ac0a",
+          "date": "2026-11-12T13:37:23.325057+00:00"
+        },
+        {
+          "id": "354",
+          "url": "https://www.mutopiaproject.org/ftp/SchumannR/O15/SchumannOp15No01/SchumannOp15No01.mid",
+          "file": "354.mid",
+          "bytes": 2303,
+          "sha256": "e58e708afe8b31c634a0e9f3354a4ed94670e929d82926f7ff49dea3ebe146c2",
+          "date": "2026-11-12T13:37:25.392665+00:00"
+        }
+      ],
+      "technical": [
+        {
+          "id": "354",
+          "track": 1,
+          "notes": 102,
+          "first_notes": [
+            {
+              "start": 0,
+              "end": 384,
+              "pitch": 71,
+              "velocity": 127,
+              "release_velocity": 64
+            },
+            {
+              "start": 256,
+              "end": 384,
+              "pitch": 67,
+              "velocity": 127,
+              "release_velocity": 64
+            },
+            {
+              "start": 384,
+              "end": 768,
+              "pitch": 79,
+              "velocity": 127,
+              "release_velocity": 64
+            },
+            {
+              "start": 640,
+              "end": 768,
+              "pitch": 67,
+              "velocity": 127,
+              "release_velocity": 64
+            },
+            {
+              "start": 768,
+              "end": 1056,
+              "pitch": 78,
+              "velocity": 127,
+              "release_velocity": 64
+            },
+            {
+              "start": 1024,
+              "end": 1152,
+              "pitch": 66,
+              "velocity": 127,
+              "release_velocity": 64
+            },
+            {
+              "start": 1056,
+              "end": 1152,
+              "pitch": 76,
+              "velocity": 127,
+              "release_velocity": 64
+            },
+            {
+              "start": 1152,
+              "end": 1536,
+              "pitch": 74,
+              "velocity": 127,
+              "release_velocity": 64
+            },
+            {
+              "start": 1408,
+              "end": 1536,
+              "pitch": 69,
+              "velocity": 127,
+              "release_velocity": 64
+            },
+            {
+              "start": 1536,
+              "end": 1920,
+              "pitch": 71,
+              "velocity": 127,
+              "release_velocity": 64
+            },
+            {
+              "start": 1792,
+              "end": 1920,
+              "pitch": 67,
+              "velocity": 127,
+              "release_velocity": 64
+            },
+            {
+              "start": 1920,
+              "end": 2304,
+              "pitch": 79,
+              "velocity": 127,
+              "release_velocity": 64
+            }
+          ],
+          "other": {
+            "total_ticks": "16896",
+            "meter": "(2, 4)",
+            "ppq": "384",
+            "tempo_map": "((0, 833333),)",
+            "channel": "0",
+            "program": "0",
+            "tempo_defaulted": "False",
+            "volume_map": "()",
+            "source_total_ticks": "16896",
+            "program_map": "((0, 0),)",
+            "program_defaulted": "True",
+            "channel_events": "((0, 'note_on', 71, 127), (256, 'note_on', 67, 127), (384, 'note_off', 71, 64), (384, 'note_off', 67, 64), (384, 'note_on', 79, 127), (640, 'note_on', 67, 127), (768, 'note_off', 79, 64), (768, 'note_off', 67, 64), (768, 'note_on', 78, 127), (1024, '",
+            "meter_map": "({'tick': 0, 'numerator': 2, 'denominator': 4, 'clocks_per_click': 18, 'notated_32nd_notes_per_beat': 8},)"
+          },
+          "max_polyphony": 3
+        },
+        {
+          "id": "354",
+          "track": 2,
+          "notes": 120,
+          "first_notes": [
+            {
+              "start": 0,
+              "end": 128,
+              "pitch": 59,
+              "velocity": 127,
+              "release_velocity": 64
+            },
+            {
+              "start": 0,
+              "end": 192,
+              "pitch": 55,
+              "velocity": 127,
+              "release_velocity": 64
+            },
+            {
+              "start": 128,
+              "end": 256,
+              "pitch": 62,
+              "velocity": 127,
+              "release_velocity": 64
+            },
+            {
+              "start": 384,
+              "end": 512,
+              "pitch": 58,
+              "velocity": 127,
+              "release_velocity": 64
+            },
+            {
+              "start": 384,
+              "end": 576,
+              "pitch": 49,
+              "velocity": 127,
+              "release_velocity": 64
+            },
+            {
+              "start": 512,
+              "end": 640,
+              "pitch": 64,
+              "velocity": 127,
+              "release_velocity": 64
+            },
+            {
+              "start": 768,
+              "end": 896,
+              "pitch": 57,
+              "velocity": 127,
+              "release_velocity": 64
+            },
+            {
+              "start": 768,
+              "end": 960,
+              "pitch": 50,
+              "velocity": 127,
+              "release_velocity": 64
+            },
+            {
+              "start": 896,
+              "end": 1024,
+              "pitch": 62,
+              "velocity": 127,
+              "release_velocity": 64
+            },
+            {
+              "start": 1152,
+              "end": 1280,
+              "pitch": 60,
+              "velocity": 127,
+              "release_velocity": 64
+            },
+            {
+              "start": 1152,
+              "end": 1344,
+              "pitch": 54,
+              "velocity": 127,
+              "release_velocity": 64
+            },
+            {
+              "start": 1280,
+              "end": 1408,
+              "pitch": 62,
+              "velocity": 127,
+              "release_velocity": 64
+            }
+          ],
+          "other": {
+            "total_ticks": "16896",
+            "meter": "(2, 4)",
+            "ppq": "384",
+            "tempo_map": "((0, 833333),)",
+            "channel": "1",
+            "program": "0",
+            "tempo_defaulted": "False",
+            "volume_map": "()",
+            "source_total_ticks": "16896",
+            "program_map": "((0, 0),)",
+            "program_defaulted": "True",
+            "channel_events": "((0, 'note_on', 55, 127), (0, 'note_on', 59, 127), (128, 'note_off', 59, 64), (128, 'note_on', 62, 127), (192, 'note_off', 55, 64), (256, 'note_off', 62, 64), (384, 'note_on', 49, 127), (384, 'note_on', 58, 127), (512, 'note_off', 58, 64), (512, 'not",
+            "meter_map": "({'tick': 0, 'numerator': 2, 'denominator': 4, 'clocks_per_click': 18, 'notated_32nd_notes_per_beat': 8},)"
+          },
+          "max_polyphony": 3
+        }
+      ],
+      "composition_rights": "Historical named composer, deceased more than 100 years; no contemporary composition rights claimed.",
+      "encoding_rights": {
+        "declaration": "Public Domain",
+        "evidence": "Exact downloaded LilyPond header plus explicit typesetter dedication: placed in the public domain; free to distribute, modify and perform. Linked original MIDI from same official piece.",
+        "license_url": "http://creativecommons.org/licenses/publicdomain",
+        "limits": "Legacy PD dedication, not described as CC0; not an explicit AI-specific license. Permission basis is rights-reviewed PD composition/edition and contributed encoding."
+      },
+      "role": "reserved_only_no_fit_no_model_score_no_assignment",
+      "duplicate_screen": "not_run",
+      "rights_status": "pending_do_not_train",
+      "family": "Schumann Kinderscenen Op15 / unidentified LeichteStucke1900 / YingChunLiu",
+      "edition_rights": {
+        "source": "Leichte Stucke,1900",
+        "unresolved": "Exact publisher/editor and edition scan unidentified. Source date field incorrectly says18thC, not relied on. Schumann588 already representation-inspected but no same-work claim."
+      },
+      "incipit": "Exact source melody B4 G5 F#5 E5 D5 with embedded inner voice. Historical edition/incipit not independently corroborated."
+    }
+  ],
+  "private_evidence_manifest": [
+    {
+      "file": "downloads.json",
+      "sha256": "2c966db6d5ffe12c8e280a69796751f860695f39a997097764748d30f99cfa4c",
+      "bytes": 1262
+    },
+    {
+      "file": "downloads-czerny.json",
+      "sha256": "d4f5e5a14b4ef5c1fc0f1c6eff77630c0c346b5743301cc61320c2eb0d1db9db",
+      "bytes": 1234
+    },
+    {
+      "file": "technical.json",
+      "sha256": "b81e3ac4ee69dcacd3a105724e3a98307320862f4fd062fa3f16980760e11990",
+      "bytes": 18183
+    },
+    {
+      "file": "czerny.html",
+      "sha256": "61ff3b224292a4bf783dcffc6b41a8354f03c38f3e1c10d23a8074424cc30794",
+      "bytes": 45523
+    },
+    {
+      "file": "czerny1888.pdf",
+      "sha256": "f202eb0345d2442eeee9a2b851d9019d3966071a41d6311c5b59314629eeecd2",
+      "bytes": 12311890
+    },
+    {
+      "file": "grieg.html",
+      "sha256": "b611ca9fd9102ecb4ba355000217c49cdca1163056f8e5377e91be7f1e545c38",
+      "bytes": 946011
+    },
+    {
+      "file": "grieg1918.pdf",
+      "sha256": "e9b11d763ed1da553fadf3a743d77161ed763e77cfd21eae6a07d31fd185f6a0",
+      "bytes": 238712
+    }
+  ],
+  "failures": [
+    {
+      "url": "https://s9.imslp.org/files/imglnks/usimg/3/3b/Grieg_-_In_the_Hall_of_the_Mountain_King.pdf",
+      "result": "HTTP404; alternate filename checked separately"
+    }
+  ]
+}

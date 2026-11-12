@@ -1,0 +1,9 @@
+{
+  "previous_failure": "experiments/2026-11-12-fourteen-work-initial-failure.json",
+  "cause": "Intake validator work-count cap was extended but model constructor capability was not checked before real inputs. Expanded factorized counts were constructed before the12-work context cap rejected14.",
+  "correction": "New bounded14 subclass; existing12-work model unchanged. Synthetic14-work factorized/context/generator preflight now runs before original input access during prepare.",
+  "corrected_plan_sha256": "3efd1e84369d0fbf708c03e769f0b55645712e1fe0c0e768e3e372ebe6470f2f",
+  "screen_blocked": false,
+  "partial_fit_status_preserved": true,
+  "corrected_real_run_performed": false
+}

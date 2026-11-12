@@ -1,0 +1,7 @@
+{
+  "status": "approved-for-local-experiment",
+  "plan_sha256": "7037388e94f36b4248288d2253c732ea5e0536dcdbcbda28741f8580103076aa",
+  "assignment_sha256": "59988983a063e5355dd17a519fb25e3259baa348263a64c939a06f7a5fd3fbaa",
+  "screen_sha256": "78df41b0f58efb11c6b4faf915041950e1962bdac54be3cbc1e3888015337393",
+  "review_reference": "Cycle32 parent explicitly approved final2 SHA7037388e94f36b4248288d2253c732ea5e0536dcdbcbda28741f8580103076aa after independent1800probability/240generation audit and standalone/fullsuite test checks. Previous partialfactorizedfit preserved; same observed diagnostics and original endpoints; withintrain motif links retained."
+}
