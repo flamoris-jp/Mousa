@@ -90,3 +90,10 @@ Output includes preregistration, all measurements and nine local MIDI files.
 No MIDI, weights or audio files are committed. Output paths above are illustrative,
 not server locations or service defaults. Tests for new event conversion,
 context boundaries, determinism and exact matching accompany the implementation.
+
+## Subsequent correction
+The [second research cycle](2026-11-12-factorization.md) established that the
+70-step warning consisted of 68 REST and 2 HOLD tokens, with zero note onsets.
+It is not evidence of a copied melody. Keep the raw measurement, but use the
+corrected interpretation and new onset-aware diagnostic rather than presenting
+this warning as proven plagiarism.

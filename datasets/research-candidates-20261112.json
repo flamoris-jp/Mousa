@@ -1,0 +1,146 @@
+{
+  "schema_version": "mousa.research-intake.v1",
+  "works": [
+    {
+      "work_id": "mutopia-888",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=888",
+      "midi_url": "https://www.mutopiaproject.org/ftp/Traditional/oatsandbeans/oatsandbeans.mid",
+      "lilypond_url": "https://www.mutopiaproject.org/ftp/Traditional/oatsandbeans/oatsandbeans.ly",
+      "acquired_at": "2026-11-12T09:08:10.806553+00:00",
+      "sha256": "6e097cb82d30524335a19a2adb1cbf79cf6b070f7059182f0dc9d34ca3fc3848",
+      "source_page_sha256": "f7b5ab78b246eab674bc80ae2c4d70536143749821e91972dc4d755ef0884891",
+      "lilypond_sha256": "3a9e932c3137714caa8f4d7fabb2eb3dc1470be3f333b16ee1e07d8470246f8f",
+      "meters": [
+        [
+          6,
+          8
+        ]
+      ],
+      "title": "Oats and Beans",
+      "author": "Traditional",
+      "arranger": "L. E. Broadwood (1858–1929)",
+      "edition": "English County Songs, 1893",
+      "typesetter": "Nigel Holmes",
+      "license": "Public Domain",
+      "terms": "Individual contribution marked Public Domain in page and LilyPond source; contributor dedication described at https://www.mutopiaproject.org/legal.html#publicdomain. Candidate only; not admitted for training.",
+      "review_state": "pending",
+      "training_allowed": false,
+      "split": null,
+      "family_id": "mutopia-888",
+      "duplicate_group": "mutopia-888",
+      "reason": "6/8 unsupported by current strict 4/4 frontend; family/near-duplicate review incomplete. Do not convert meter silently.",
+      "melody_track": {
+        "track": 1,
+        "note_onsets": 38,
+        "range": [
+          60,
+          72
+        ],
+        "name": ""
+      },
+      "rights_evidence": {
+        "composition": "Traditional work identified by historical source edition; per-work PD statement.",
+        "arrangement": "Historical arranger and edition identified separately; source and per-work PD statement.",
+        "midi_encoding": "Exact MIDI linked as LilyPond-generated contribution; source includes typesetter PD dedication."
+      }
+    },
+    {
+      "work_id": "mutopia-889",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=889",
+      "midi_url": "https://www.mutopiaproject.org/ftp/Traditional/wateroftyne/wateroftyne.mid",
+      "lilypond_url": "https://www.mutopiaproject.org/ftp/Traditional/wateroftyne/wateroftyne.ly",
+      "acquired_at": "2026-11-12T09:08:17.293743+00:00",
+      "sha256": "cc45d10d7c21e858f37d4096979d4706bcfcaec400ef89abc1ac66378d51faa1",
+      "source_page_sha256": "33decc5043a49c4654b4dc7e75f45b0c4b561dd43eff968468d3ee3bd7a8dd9a",
+      "lilypond_sha256": "5fd7e2b1ad9301a31ec418fbc1ad26493cb7937893334767b597e3e0e2c99aa4",
+      "meters": [
+        [
+          6,
+          8
+        ]
+      ],
+      "title": "The Water of Tyne",
+      "author": "Traditional",
+      "arranger": "J. A. Fuller-Maitland (1856–1936)",
+      "edition": "English County Songs, 1893",
+      "typesetter": "Nigel Holmes",
+      "license": "Public Domain",
+      "terms": "Individual contribution marked Public Domain in page and LilyPond source; contributor dedication described at https://www.mutopiaproject.org/legal.html#publicdomain. Candidate only; not admitted for training.",
+      "review_state": "pending",
+      "training_allowed": false,
+      "split": null,
+      "family_id": "mutopia-889",
+      "duplicate_group": "mutopia-889",
+      "reason": "6/8 unsupported by current strict 4/4 frontend; family/near-duplicate review incomplete. Do not convert meter silently.",
+      "melody_track": {
+        "track": 1,
+        "note_onsets": 47,
+        "range": [
+          62,
+          78
+        ],
+        "name": ""
+      },
+      "rights_evidence": {
+        "composition": "Traditional work identified by historical source edition; per-work PD statement.",
+        "arrangement": "Historical arranger and edition identified separately; source and per-work PD statement.",
+        "midi_encoding": "Exact MIDI linked as LilyPond-generated contribution; source includes typesetter PD dedication."
+      }
+    },
+    {
+      "work_id": "mutopia-789",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=789",
+      "midi_url": "https://www.mutopiaproject.org/ftp/Traditional/SingIvy/SingIvy.mid",
+      "lilypond_url": "https://www.mutopiaproject.org/ftp/Traditional/SingIvy/SingIvy.ly",
+      "acquired_at": "2026-11-12T09:08:24.009432+00:00",
+      "sha256": "f849eace28acf450e306803203499aed4830cfba1a5cb8fe0953f594be15ffb9",
+      "source_page_sha256": "55dc6f77b05b0215e546d034697ea275f8e1565a7c0ef73e9ec5f66595de8233",
+      "lilypond_sha256": "634c519d812741410572cdb76066a25af68c9c554c87ea21231460cee3d150e6",
+      "meters": [
+        [
+          6,
+          8
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          6,
+          8
+        ]
+      ],
+      "title": "Sing Ivy",
+      "author": "Traditional",
+      "arranger": "Gustav von Holst (1874–1934)",
+      "edition": "Folk Songs from Hampshire, 1909",
+      "typesetter": "Nigel Holmes",
+      "license": "Public Domain",
+      "terms": "Individual contribution marked Public Domain in page and LilyPond source; contributor dedication described at https://www.mutopiaproject.org/legal.html#publicdomain. Candidate only; not admitted for training.",
+      "review_state": "pending",
+      "training_allowed": false,
+      "split": null,
+      "family_id": "mutopia-789",
+      "duplicate_group": "mutopia-789",
+      "reason": "6/8 unsupported by current strict 4/4 frontend; family/near-duplicate review incomplete. Do not convert meter silently.",
+      "melody_track": {
+        "track": 1,
+        "note_onsets": 120,
+        "range": [
+          59,
+          76
+        ],
+        "name": ""
+      },
+      "rights_evidence": {
+        "composition": "Traditional work identified by historical source edition; per-work PD statement.",
+        "arrangement": "Historical arranger and edition identified separately; source and per-work PD statement.",
+        "midi_encoding": "Exact MIDI linked as LilyPond-generated contribution; source includes typesetter PD dedication."
+      }
+    }
+  ]
+}
