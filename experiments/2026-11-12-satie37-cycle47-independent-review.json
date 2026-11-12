@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "method": "Independent binary SMF/VLQ/running-status decoder, no mido or transform code reused. Compare every retained absolute event including raw channel/meta payloads and unchanged header; global unique-active-key trace.",
+  "source_sha256": "09ce7337b4bf42ba12e1aa64b4c7dc7fcfa6455f1070cb12f8880a755df97384",
+  "derived_sha256": "e6e0bc5e23c16ec55aedb0e5f1e5e521201df2552851342f90ca92628b1fe3ea",
+  "original_events": 653,
+  "derived_events": 651,
+  "removed": [
+    {
+      "track": 1,
+      "index": 106,
+      "event": [
+        13824,
+        144,
+        "4200"
+      ]
+    },
+    {
+      "track": 1,
+      "index": 109,
+      "event": [
+        13824,
+        144,
+        "4200"
+      ]
+    }
+  ],
+  "retained_events_exact": true,
+  "global_active_key_transitions_exact": true,
+  "limitations": [
+    "Trace uses one active key per channel/pitch. It does not recover notation voices, overlapping same-key envelope semantics or the original tied voice.",
+    "No audio rendering equivalence established; derived is a separate unadmitted/unscreened candidate, not a corrected musical ground truth."
+  ]
+}
