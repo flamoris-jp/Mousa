@@ -1,0 +1,101 @@
+{
+  "reviewed_at": "2026-11-12T10:23:15.555845+00:00",
+  "training": false,
+  "model_scoring": false,
+  "decisions": [
+    {
+      "id": 1534,
+      "status": "pending-adaptation-authorship",
+      "finding": "No explicit primary adaptation-author attribution was found; typesetter attribution alone does not settle authorship of the new flute/guitar adaptation. Remains pending.",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1534"
+    },
+    {
+      "id": 645,
+      "status": "technical-reject",
+      "finding": "Sourcearchive now retrieved; header creditsUrsMetzger, Autograph, explicitPDtypesetterdedication. score.mid andscore-1.mid allnotetracks rejectpolyphony;score-2.mid rejectsmeter. No cleaning.",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=645"
+    },
+    {
+      "id": 252,
+      "status": "rights-pending-territorial-warning",
+      "finding": "Mozart1791,DeborahLowrey,19th-century namededitions,PDdedication; header.ly explicitly warns Germanusers because consultedDover/C.F.Peters urtext prohibitedoffer/sale inGermany/WestBerlin. Pending legalinterpretation, not admitted despite technicalacceptance.",
+      "technical": "pamina.mid track1 (or fullscoretrack9):225notes6/8,PPQ384,EOT43008; keptunscored.",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=252"
+    },
+    {
+      "id": 260,
+      "status": "rights-pending-and-technical-reject",
+      "finding": "Samecomposer/contributor/series as252;meterunsupported.",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=260"
+    },
+    {
+      "id": 580,
+      "status": "technical-reject",
+      "finding": "Brahms1833-1897,1884 work,UniversitySociety1904,DanielJohnsonPDdedication. Score alternates2/2and3/2;allnotetracksrejectmeter.",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=580"
+    }
+  ],
+  "files": [
+    {
+      "evidence_member": "header.ly",
+      "sha256": "9c354f3961a0fd778af845d8c174fc9839ea3783dd65a0ac9b383ea41d8e076f"
+    },
+    {
+      "evidence_member": "score-2.mid",
+      "sha256": "a2f5908f53b5e4da47e6248c686a90be6d30d9c9e9a6cef27b57956ee31c0efe"
+    },
+    {
+      "evidence_member": "score.mid",
+      "sha256": "353f305d5811e977257dd056817d0cd0f92b05241cded84f2f057a0cd8305359"
+    },
+    {
+      "evidence_member": "bwv1030-lys.zip",
+      "sha256": "89ca303f225da4bbb9895a2ef588e58fb33a166068c97cdf6c76ecc148429636"
+    },
+    {
+      "evidence_member": "score-1.mid",
+      "sha256": "7591c0156fd636bbd4b926162e2919528ca8747b438b083763667cb8350a1e2e"
+    },
+    {
+      "evidence_member": "260/header.ly",
+      "sha256": "d068ba0ce7d0b113f95272b0251a5b3575884d8459563ed3a26ff4ceba962098"
+    },
+    {
+      "evidence_member": "260/magicflute-09-march-lys.zip",
+      "sha256": "6ae536c4d78f5bd932d84fef15b2dd599ae9ae5dc859369089735142eee16021"
+    },
+    {
+      "evidence_member": "252/header.ly",
+      "sha256": "fd0bf0eba25fa09e0050e831f6d59bc9b11344246b12a03d78a27506d671c442"
+    },
+    {
+      "evidence_member": "252/pamina.mid",
+      "sha256": "fc9128836bba01a31d93f153dc504739b8f3037c68dd7f8e89da1c51d045b3d8"
+    },
+    {
+      "evidence_member": "252/magicflute-17-aria-lys.zip",
+      "sha256": "4df45b5419b5135d5dc58dbe4b4b8bea561a487535ffa0d3644e1f5e0276a598"
+    },
+    {
+      "evidence_member": "252/magicflute-17-aria-mids.zip",
+      "sha256": "d764cc19849eb8474d91b1376a0ae7a8c91c8e90946d580f493f22adc53531a3"
+    },
+    {
+      "evidence_member": "580/brahms-sapphische-ode.ly",
+      "sha256": "f189cd3a2b6e6ac7af3c10935c928d02d27d0e9d989c9c22313306e33d0c9f0c"
+    },
+    {
+      "evidence_member": "580/brahms-sapphische-ode.mid",
+      "sha256": "dcd5efac22b5e91b7c87685058784396adb9ec5d69915764265ad68158dbb6e1"
+    }
+  ],
+  "urls": {
+    "645_lys": "https://www.mutopiaproject.org/ftp/BachJS/BWV1030/bwv1030/bwv1030-lys.zip",
+    "645_mids": "https://www.mutopiaproject.org/ftp/BachJS/BWV1030/bwv1030/bwv1030-mids.zip",
+    "580_page": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=580",
+    "580_ly": "https://www.mutopiaproject.org/ftp/BrahmsJ/O94/brahms-sapphische-ode/brahms-sapphische-ode.ly",
+    "580_mid": "https://www.mutopiaproject.org/ftp/BrahmsJ/O94/brahms-sapphische-ode/brahms-sapphische-ode.mid",
+    "mozart": "ExactarchiveURLs andmemberhashes inmozart-review.json"
+  },
+  "note": "Pending/unsupported sources remain excluded from fitting and model scoring. Hashes are evidence references, not redistributed source assets. No legal clearance inferred from a PD label alone."
+}
