@@ -1,0 +1,23 @@
+{
+  "scope": "Repeated exploratory analysis ofsame20existingMIDI, no newgeneration",
+  "initial_report_sha256": "8eb8622aaf3b578bb216d252c73b3e0f892883c598873c77ad40dbae0d446bbf",
+  "repeat_report_sha256": "6948ac4c0c3c47873c53f35c2a6337ccf29b1273a84b53cc5ed796f303514822",
+  "initial_plan_sha256": "df6d4bd3c5b5ebd050de4c744f118bd42f0e117053a4b896d020c07b30f022dc",
+  "repeat_plan_sha256": "94e4e8298082f3f5bbd14076a16c170cb0a6b6b41be67136e8dbff7c9ef18e64",
+  "compared_exactly": [
+    "conditions",
+    "paired_seed_differences",
+    "pooled_descriptive_correlation",
+    "source_report_unchanged"
+  ],
+  "all_equal": true,
+  "plan_difference": "creation timestamp only",
+  "source_artifact_count": 20,
+  "source_hashes_verified_against_cycle18_report": true,
+  "tests": {
+    "total": 215,
+    "passed": 214,
+    "skipped": 1,
+    "compileall": "passed"
+  }
+}
