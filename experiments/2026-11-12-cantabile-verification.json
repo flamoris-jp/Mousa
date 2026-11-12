@@ -1,0 +1,29 @@
+{
+  "ok": true,
+  "backend": "fluidsynth",
+  "sample_rate": 48000,
+  "channels": 2,
+  "sample_format": "pcm_s16le",
+  "frames": 672000,
+  "duration_seconds": 14,
+  "music_seconds": 12,
+  "peak": 0.0265870187432,
+  "clipped_samples": 0,
+  "native_source_commit": "420f395f187d46072e86912c51bae5a2527a00f1",
+  "exact_reimport_equal": true,
+  "soundfont_license": "Installed TimGM6mb GPL-2; private render only, no redistribution clearance claimed",
+  "artifacts": {
+    "B-export.mid": "f30619db89898f4a38ad3d91b78b6565c55c628e841aa35609d4ebe0a78a2707",
+    "B-cantabile.wav": "d2706180daf2ac0eef4f6b75d404ef5327d2a17a040586c4a7dffcb85c96b17e"
+  },
+  "soundfont_sha256": "c5378b62028c920cb11e4803327983fee2f2cdff5dc89c708e39da417e51c854",
+  "live_workspace": "read-only inspection only, no import/save/render/change",
+  "human_listening": "not performed",
+  "cycle5_batch": {
+    "candidates": 30,
+    "exact_native_roundtrips": 30,
+    "byte_identical_exports": 30,
+    "rendered": 0,
+    "verification_manifest_sha256": "e0e4c21b6cbbd4abf3f67653b891db0e6e670146b772d59c1df3184148ad18c2"
+  }
+}

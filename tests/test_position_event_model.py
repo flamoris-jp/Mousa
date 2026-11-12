@@ -107,6 +107,73 @@ class PositionEventTests(unittest.TestCase):
         self.assertEqual(result['tokens'], [14] * 7)
         self.assertEqual(result['rejections'], 4)
 
+    def test_origins_reset_and_wrap(self):
+        songs = [((6, 8), [(14, 3), (16, 2)], 9),
+                 ((6, 8), [(20, 4)], 6)]
+        model = PositionEventModel(songs, meter_position=True, phrase_position=True)
+        self.assertEqual(model.position_key((6, 8), 3, origin_steps=9), ((6, 8), 0, 1))
+        self.assertEqual(model.context([], meter=(6, 8), origin_steps=9)[0], {(14, 3): 1})
+        self.assertEqual(model.context([], meter=(6, 8), origin_steps=6)[0], {(20, 4): 1})
+        self.assertEqual(model.context([(14, 3)], meter=(6, 8), origin_steps=9)[0], {(16, 2): 1})
+        self.assertFalse(any(previous == (16, 2) for _, previous in model.transition_counts))
+
+    def test_zero_origin_and_strength_preserve_defaults(self):
+        original = PositionEventModel(self.songs, meter_position=True)
+        explicit = PositionEventModel([(m, s, 0) for m, s in self.songs],
+                                      meter_position=True, position_strength=0)
+        for meter, sequence in self.songs:
+            self.assertEqual(original.evaluate(sequence, meter=meter),
+                             explicit.evaluate(sequence, meter=meter, origin_steps=0))
+        self.assertEqual(original.generate(42, meter=(6, 8)), explicit.generate(42, meter=(6, 8)))
+
+    def test_count_shrinkage_and_control_limit(self):
+        model = PositionEventModel(self.songs, meter_position=True, position_strength=7)
+        counts, _ = model.context([], meter=(6, 8))
+        local = model.position_counts[model.position_key((6, 8), 0)]
+        fallback, _ = model.control.context([])
+        weight = sum(local.values()) / (sum(local.values()) + 7)
+        for event in local.keys() | fallback.keys():
+            self.assertAlmostEqual(counts[event], weight * local[event] + (1-weight) * fallback[event])
+        limit = PositionEventModel(self.songs, meter_position=True, position_strength=1e15)
+        ps, ds = limit.distributions([], meter=(6, 8))
+        cps, cds = limit.control.distributions([])
+        for p in PITCHES:
+            self.assertAlmostEqual(ps[p], cps[p], places=12)
+        for rest in (False, True):
+            for d in DURATIONS:
+                self.assertAlmostEqual(ds[rest][d], cds[rest][d], places=12)
+        # Even an unseen clock retains unchanged control, regardless of k.
+        self.assertEqual(model.distributions([(2, 5)], meter=(6, 8)),
+                         model.control.distributions([(2, 5)]))
+
+    def test_shifted_shrinkage_normalized_and_reproducible(self):
+        model = PositionEventModel([((6, 8), [(14, 3), (-1, 6), (16, 3)], 9)],
+                                   meter_position=True, phrase_position=True,
+                                   position_strength=5, relative=True)
+        ps, ds = model.distributions([], meter=(6, 8), origin_steps=9)
+        self.assertAlmostEqual(sum(ps.values()), 1.)
+        self.assertTrue(all(p > 0 for p in ps.values()))
+        for rest in (False, True):
+            self.assertAlmostEqual(sum(ds[rest].values()), 1.)
+            self.assertTrue(all(p > 0 for p in ds[rest].values()))
+        args = dict(meter=(6, 8), origin_steps=9, max_rest_run=3, steps=96)
+        self.assertEqual(model.generate(42, **args), model.generate(42, **args))
+        self.assertEqual(model.evaluate([(14, 3)], meter=(6, 8), origin_steps=9)['support_size'], 3328)
+
+    def test_invalid_origin_and_strength(self):
+        for strength in (-1, float('inf'), float('nan'), True, '1'):
+            with self.assertRaises(ValueError):
+                PositionEventModel(self.songs, position_strength=strength)
+        model = PositionEventModel(self.songs)
+        for origin in (-1, 12, True, 1.5):
+            with self.assertRaises(ValueError):
+                PositionEventModel([((6, 8), [(14, 3)], origin)])
+            for call in (lambda: model.generate(1, meter=(6, 8), origin_steps=origin),
+                         lambda: model.evaluate([(14, 3)], meter=(6, 8), origin_steps=origin),
+                         lambda: model.distributions([], meter=(6, 8), origin_steps=origin)):
+                with self.assertRaises(ValueError):
+                    call()
+
     def test_settings_reject(self):
         for settings in ({'phrase_bars': 0}, {'meter_position': 1}, {'phrase_position': None}):
             with self.assertRaises(ValueError):
