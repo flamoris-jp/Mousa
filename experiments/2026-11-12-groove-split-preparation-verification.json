@@ -1,0 +1,18 @@
+{
+  "repeat_equal_excluding_cpu": true,
+  "pair_evidence_byte_identical": true,
+  "initial_cpu_seconds": 9.132311136,
+  "repeat_cpu_seconds": 8.206962343999999,
+  "targeted_tests": {
+    "total": 4,
+    "passed": 4
+  },
+  "implementation_hashes_at_verification": {
+    "tools/prepare_groove_split.py": "430e561781a676d63ffbeae4a322b52052ed453d8f14280a82bb84d9275b3aa8",
+    "tests/test_groove_split.py": "67d5e5c8f80870ec8b9e44ff3691adafcdc02320f4327293a21d7c4b8c1ee04e",
+    "experiments/2026-11-12-groove-split-baseline-final-plan.json": "79988c195f5ac3a6507730520ce1252b45b6bdd6609674add8b9b5141af92779"
+  },
+  "fit_performed": false,
+  "predictive_scores_observed": false,
+  "status": "awaiting parent review; no model fit authorized by this artifact"
+}

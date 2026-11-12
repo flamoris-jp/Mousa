@@ -1,0 +1,71 @@
+{
+  "normalized_repeat_equal": true,
+  "excluded_field": "cpu_seconds",
+  "initial_report_sha256": "d0166a081467f3dbe3e7c1f4b7ec851c5264a8592407340e6aebeefe7e296776",
+  "repeat_report_sha256": "97b4b3d52267c84dfca310a230dd368938e1c5370b3aafaa6fd7213805f19e5b",
+  "private_notes_byte_equal": true,
+  "notes": [
+    {
+      "file": "base5-0-notes.json",
+      "sha256": "89e8d384b8d32d52598c358ad03ea088ef560411e930b7500b0a66f609f37dfa",
+      "notes": 28,
+      "bounds_polyphony_same_pitch_tail_verified": true
+    },
+    {
+      "file": "base5-1-notes.json",
+      "sha256": "1846df226268c4ef70cf7b6fc548179496fa7326af1aceb748ea54c891ed7d1d",
+      "notes": 23,
+      "bounds_polyphony_same_pitch_tail_verified": true
+    },
+    {
+      "file": "base5-2-notes.json",
+      "sha256": "85cb8d1d5c6d7ab76bed01c529ea14e89104805ba9608cc0abfe3999f4f00e2d",
+      "notes": 6,
+      "bounds_polyphony_same_pitch_tail_verified": true
+    },
+    {
+      "file": "base5-3-notes.json",
+      "sha256": "88501a070c643ddc21de65481e50f73e19477f54ac093c4eb3b32eef1c24af76",
+      "notes": 26,
+      "bounds_polyphony_same_pitch_tail_verified": true
+    },
+    {
+      "file": "base5-4-notes.json",
+      "sha256": "bed033df3fdc048885ba9f4a268b577de6e5718ff4c8545d2bd56a2ca05455d9",
+      "notes": 33,
+      "bounds_polyphony_same_pitch_tail_verified": true
+    },
+    {
+      "file": "expanded-0-notes.json",
+      "sha256": "1ec6709efbd3ce79becc0028c6be55f553120b340fcd3194a79c7a9cae082036",
+      "notes": 51,
+      "bounds_polyphony_same_pitch_tail_verified": true
+    },
+    {
+      "file": "expanded-1-notes.json",
+      "sha256": "3bc5898a8370ee36e87d2d0c8f662a37d9a3baa52279492c064c6f24b6b9361b",
+      "notes": 46,
+      "bounds_polyphony_same_pitch_tail_verified": true
+    },
+    {
+      "file": "expanded-2-notes.json",
+      "sha256": "08bd6f5b4a532cbf87143acac8527c96018351b811651d180abcc3d1d14006ee",
+      "notes": 45,
+      "bounds_polyphony_same_pitch_tail_verified": true
+    },
+    {
+      "file": "expanded-3-notes.json",
+      "sha256": "3d7b789f7212e0ede6261d9d3f531a43db6fae780d4a13546289fe85cae72516",
+      "notes": 39,
+      "bounds_polyphony_same_pitch_tail_verified": true
+    },
+    {
+      "file": "expanded-4-notes.json",
+      "sha256": "e7b2cf8f8ba68eb4921edf357fb5744f0c7502708847d64b3cad395bc00cbbc9",
+      "notes": 52,
+      "bounds_polyphony_same_pitch_tail_verified": true
+    }
+  ],
+  "originals_unchanged": true,
+  "limits": "Only observed640/921 diagnostics. Copy0 does not establish originality. Fixed base5vs16 comparison uses same18training/diagnostic references; earlier comparisons have different copyguard pools."
+}
