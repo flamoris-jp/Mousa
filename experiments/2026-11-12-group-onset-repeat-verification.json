@@ -1,0 +1,129 @@
+{
+  "status": "pass",
+  "normalized_reports_equal_excluding_cpu": true,
+  "initial_cpu_seconds": 0.21833786499999996,
+  "repeat_cpu_seconds": 0.17010668700000003,
+  "private_candidate_byte_parity_count": 10,
+  "checks": [
+    {
+      "candidate": "global-0-private.json",
+      "sha256": "609bc9a507126a20b6141b3c6bd93dd4b141fbff36c48d329d66cecb9c94b6ac",
+      "notes": 41,
+      "groups": 31,
+      "group_size_histogram": {
+        "1": 25,
+        "3": 4,
+        "2": 2
+      },
+      "reconstruction_all_five_note_fields_exact": true
+    },
+    {
+      "candidate": "global-1-private.json",
+      "sha256": "92e767fde5cbf448ee5b7c62afeb883ad0ea03f70e60ef18b1af7e9e1c4325a6",
+      "notes": 28,
+      "groups": 27,
+      "group_size_histogram": {
+        "1": 26,
+        "2": 1
+      },
+      "reconstruction_all_five_note_fields_exact": true
+    },
+    {
+      "candidate": "global-2-private.json",
+      "sha256": "a912eac1f8f8fcedc015b26ab2592b8a119c256fef6afc96b7ba8df347499666",
+      "notes": 36,
+      "groups": 29,
+      "group_size_histogram": {
+        "1": 23,
+        "2": 5,
+        "3": 1
+      },
+      "reconstruction_all_five_note_fields_exact": true
+    },
+    {
+      "candidate": "global-3-private.json",
+      "sha256": "dcdda94663b2dfdf0af20420ca03ac825d5ec2ba4b779995d377308037f4aa9a",
+      "notes": 31,
+      "groups": 26,
+      "group_size_histogram": {
+        "1": 22,
+        "2": 3,
+        "3": 1
+      },
+      "reconstruction_all_five_note_fields_exact": true
+    },
+    {
+      "candidate": "global-4-private.json",
+      "sha256": "3465457ffb14ccdc09592cfc0fef2b5091205ca77d68c359a29546aaf30bf916",
+      "notes": 44,
+      "groups": 35,
+      "group_size_histogram": {
+        "1": 29,
+        "3": 3,
+        "2": 3
+      },
+      "reconstruction_all_five_note_fields_exact": true
+    },
+    {
+      "candidate": "previous_cardinality_k4-0-private.json",
+      "sha256": "ff2e2b762c9994fc10263230f3cefad9c9036d63de56c06baa289d70b540055e",
+      "notes": 45,
+      "groups": 37,
+      "group_size_histogram": {
+        "1": 31,
+        "2": 4,
+        "3": 2
+      },
+      "reconstruction_all_five_note_fields_exact": true
+    },
+    {
+      "candidate": "previous_cardinality_k4-1-private.json",
+      "sha256": "f02ee9a6a9c7b79cfba29b507f1db368e5ba869e1a777e8ee32f6601ecf1568a",
+      "notes": 35,
+      "groups": 30,
+      "group_size_histogram": {
+        "1": 26,
+        "3": 1,
+        "2": 3
+      },
+      "reconstruction_all_five_note_fields_exact": true
+    },
+    {
+      "candidate": "previous_cardinality_k4-2-private.json",
+      "sha256": "b1c023ed6d16764d0f7050cf45f8d3fb6bd6ada950aa77d4f5ad230e17798c5a",
+      "notes": 41,
+      "groups": 33,
+      "group_size_histogram": {
+        "1": 27,
+        "2": 4,
+        "3": 2
+      },
+      "reconstruction_all_five_note_fields_exact": true
+    },
+    {
+      "candidate": "previous_cardinality_k4-3-private.json",
+      "sha256": "0b2f2c371a551bbd2e77684fe65c9e821cc2f4e7c21ca5a3dd0e72b316d80d0e",
+      "notes": 28,
+      "groups": 27,
+      "group_size_histogram": {
+        "1": 26,
+        "2": 1
+      },
+      "reconstruction_all_five_note_fields_exact": true
+    },
+    {
+      "candidate": "previous_cardinality_k4-4-private.json",
+      "sha256": "5b2ad831659e1b4ba3e11024c94b963b8e1db08187d9f123afc75586bae14518",
+      "notes": 37,
+      "groups": 33,
+      "group_size_histogram": {
+        "1": 30,
+        "3": 1,
+        "2": 2
+      },
+      "reconstruction_all_five_note_fields_exact": true
+    }
+  ],
+  "source_hashes_unchanged_both": true,
+  "note": "Generated notes remain private; manifest hashes are not public-release clearance."
+}

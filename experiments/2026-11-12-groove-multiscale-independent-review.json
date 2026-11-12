@@ -1,0 +1,16 @@
+{
+  "synthetic_only": true,
+  "independent_exact_probability_checks": 216,
+  "conditions": [
+    "unigram",
+    "exact_k4",
+    "exact_k32",
+    "exact_k256",
+    "quotient_residual",
+    "quotient_context_k4_residual"
+  ],
+  "input_has_endpoint30720": true,
+  "source_order_boundary_reset_reconstructed": true,
+  "model_sha256": "e2e9e15e7334265d25a9f8b7aec73c50d00a5bfbe55727d0a86eefec567bf265",
+  "interpretation": "Exact coarse IOI/remainder joint, not inferred beat phase. Full-support normalization additionally covered by model tests; no real scores used for review."
+}
