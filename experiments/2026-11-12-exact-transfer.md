@@ -121,9 +121,14 @@ new MIDIs **byte-identically**, and the new tick reader independently agrees
 before/after. No audio rendering or live-project mutation for these sources.
 Originals, extracted MIDI and projects remain outside Git.
 
-Full suite130 discovered:129 passed, one existing actual AudioAnalyzer integration
-skip. New tick tests13, approximate screen tests4; compileall/diff checks pass.
-Frozen old-reader/model hashes match, repeated reports match, no source file
+Full suite131 discovered:130 passed, one existing actual AudioAnalyzer integration
+skip. New tick tests14, approximate screen tests4; compileall/diff checks pass.
+Independent code review caught an aggregate event-bound mismatch and a test
+that failed on stale event state rather than reaching its off-grid assertion.
+Both were fixed with targeted regression checks before finalization. The
+bound-only reader correction changes its code hash, not any admitted-source
+intake, duplicate screen or frozen model result; full result payloads agree.
+Frozen old-reader/model hashes match, repeated metrics match, no source file
 changes. No GPU, paid operation, deployment, main merge or media publication.
 
 ## Next

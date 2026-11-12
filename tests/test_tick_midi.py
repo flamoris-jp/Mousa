@@ -13,10 +13,17 @@ class TickValueTests(unittest.TestCase):
         self.assertEqual(m.seconds_at_tick(240),Fraction(1,4))
         self.assertEqual(m.seconds_at_tick(960),Fraction(3,2))
 
+    def test_aggregate_serialized_limit(self):
+        m=TickMelody((TickNote(0,120,60),),50000,(4,4),
+                    tempo_map=tuple((i,500000) for i in range(50000)),
+                    volume_map=tuple((i,70) for i in range(50000)))
+        with self.assertRaisesRegex(ValueError,'aggregate serialized'):
+            validate(m)
+
     def test_projection_exact_no_quantization(self):
         m=TickMelody((TickNote(0,120,60),),480,(4,4),tempo_map=((0,500000),(17,600000)))
         self.assertEqual(to_tokens(m),[2,0,0,0])
-        with self.assertRaises(ValueError):to_tokens(replace(m,notes=(TickNote(1,120,60),)))
+        with self.assertRaisesRegex(ValueError,'off-grid'):to_tokens(replace(m,notes=(TickNote(1,120,60),),channel_events=None))
         with self.assertRaises(ValueError):to_tokens(replace(m,total_ticks=481))
         self.assertEqual(m.tempo_map[1][0],17)
 

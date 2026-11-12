@@ -130,6 +130,11 @@ def validate(melody):
         if note.start<previous or note.end<=note.start:raise ValueError('overlap or nonpositive duration')
         previous=note.end
     _validate_channel_events(melody)
+    # Writer emits time signature + two EOTs, explicit tempos, and the channel
+    # stream. Match the reader's aggregate limit, not just per-map limits.
+    serialized_events = 3 + len(melody.tempo_map) - int(melody.tempo_defaulted) + len(melody.channel_events)
+    if serialized_events > 100000:
+        raise ValueError('aggregate serialized MIDI event limit')
     return melody
 
 
