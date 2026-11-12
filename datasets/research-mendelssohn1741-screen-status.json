@@ -1,0 +1,13 @@
+{
+  "work_id": "mutopia-1741",
+  "source_sha256": "3de7c0dae2206d5bdd2ddb5f49c3e2851df0d218472c868c0212d0f98b19ccaf",
+  "state": "independent-evaluation-blocked-before-scoring",
+  "model_fit": false,
+  "model_score": false,
+  "rights_snapshot": "datasets/research-mendelssohn-candidates-20261112.json",
+  "independent_screen": "experiments/2026-11-12-mendelssohn1741-independent-screen.json",
+  "plan": "experiments/2026-11-12-mendelssohn1741-plan.json",
+  "blocking_reason": "Fixed eight-onset interval screen flags previously observed580 and blocked804, despite no matches against currenttrain5. Local training-screen pass cannot override the frozen allknown gate.",
+  "interpretation": "Source rights remain reviewed. Short pattern matches are not a copyright or musical-meaning verdict. No predictive result exists.",
+  "family_policy": "1744and1042are unused same-composer cohort references, not separate independent test samples. Shared Breitkopf ancestry remains a broader confound."
+}

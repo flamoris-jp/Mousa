@@ -1,0 +1,596 @@
+{
+  "created_at_utc": "2026-11-12T12:25:24.921194+00:00",
+  "status": "blocked",
+  "source_sha256": "3de7c0dae2206d5bdd2ddb5f49c3e2851df0d218472c868c0212d0f98b19ccaf",
+  "flagged": true,
+  "screen_threshold": 0.8,
+  "candidate": {
+    "id": 1741,
+    "track": 1,
+    "notes": 161
+  },
+  "train_ids": [
+    376,
+    888,
+    889,
+    789,
+    583
+  ],
+  "comparisons": [
+    {
+      "reference": "376",
+      "sha256": "b02e65def39bab988838d3d2e82ad9763f1b5b6b71b5a4c70e8f7b6d12eece8c",
+      "track": 1,
+      "same_unobserved_composer_family": false,
+      "notes": 159,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "patterns": [],
+      "whole_interval_similarity": 0.24375000000000002,
+      "flagged": false
+    },
+    {
+      "reference": "888",
+      "sha256": "6e097cb82d30524335a19a2adb1cbf79cf6b070f7059182f0dc9d34ca3fc3848",
+      "track": 1,
+      "same_unobserved_composer_family": false,
+      "notes": 38,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "patterns": [],
+      "whole_interval_similarity": 0.13749999999999996,
+      "flagged": false
+    },
+    {
+      "reference": "889",
+      "sha256": "cc45d10d7c21e858f37d4096979d4706bcfcaec400ef89abc1ac66378d51faa1",
+      "track": 1,
+      "same_unobserved_composer_family": false,
+      "notes": 47,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "patterns": [],
+      "whole_interval_similarity": 0.15000000000000002,
+      "flagged": false
+    },
+    {
+      "reference": "789",
+      "sha256": "f849eace28acf450e306803203499aed4830cfba1a5cb8fe0953f594be15ffb9",
+      "track": 1,
+      "same_unobserved_composer_family": false,
+      "notes": 120,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "patterns": [],
+      "whole_interval_similarity": 0.21250000000000002,
+      "flagged": false
+    },
+    {
+      "reference": "2247",
+      "sha256": "bd6524f98752dd9190376e29dd0bce82d5bd5e57dcdbd549687e7836629434ff",
+      "track": 1,
+      "same_unobserved_composer_family": false,
+      "notes": 33,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "patterns": [],
+      "whole_interval_similarity": 0.16874999999999996,
+      "flagged": false
+    },
+    {
+      "reference": "2245",
+      "sha256": "f4d0789f098b122d48789f80382d4eacbc577f1a4c058a14921b3c0f96466d3d",
+      "track": 1,
+      "same_unobserved_composer_family": false,
+      "notes": 46,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "patterns": [],
+      "whole_interval_similarity": 0.19374999999999998,
+      "flagged": false
+    },
+    {
+      "reference": "1578",
+      "sha256": "6cf3c60882c186ec642383caf4c5b265778d53159225b56dc121c4b595cdaf9d",
+      "track": 1,
+      "same_unobserved_composer_family": false,
+      "notes": 170,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "patterns": [],
+      "whole_interval_similarity": 0.16568047337278102,
+      "flagged": false
+    },
+    {
+      "reference": "1558",
+      "sha256": "50a29ba4579b984c24b2e13ec4fafb08c468c6c5db6bd9313d9134b00cf8e8c9",
+      "track": 1,
+      "same_unobserved_composer_family": false,
+      "notes": 289,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "patterns": [],
+      "whole_interval_similarity": 0.2465277777777778,
+      "flagged": false
+    },
+    {
+      "reference": "1585",
+      "sha256": "b0f8bb73e26ceaf153ce333468f4f41e3279760a3f9d3c551fda7ea496f3590f",
+      "track": 1,
+      "same_unobserved_composer_family": false,
+      "notes": 100,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "patterns": [],
+      "whole_interval_similarity": 0.18125000000000002,
+      "flagged": false
+    },
+    {
+      "reference": "1587",
+      "sha256": "ead79c2eaca7f75bc6cfbc7a141c62d873cd7a4fca217fc31c056945fde1c46e",
+      "track": 1,
+      "same_unobserved_composer_family": false,
+      "notes": 108,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "patterns": [],
+      "whole_interval_similarity": 0.24375000000000002,
+      "flagged": false
+    },
+    {
+      "reference": "370",
+      "sha256": "3235864dce0f7a59f1eb348bda55065263c0366267e32f27ce6240c9dde3f6b5",
+      "track": 1,
+      "same_unobserved_composer_family": false,
+      "notes": 108,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "patterns": [],
+      "whole_interval_similarity": 0.2875,
+      "flagged": false
+    },
+    {
+      "reference": "580",
+      "sha256": "dcd5efac22b5e91b7c87685058784396adb9ec5d69915764265ad68158dbb6e1",
+      "track": 1,
+      "same_unobserved_composer_family": false,
+      "notes": 92,
+      "exact8_interval_matches": 1,
+      "exact8_interval_rational_onset_matches": 0,
+      "patterns": [
+        [
+          5,
+          -2,
+          -2,
+          -1,
+          -1,
+          1,
+          -4
+        ]
+      ],
+      "whole_interval_similarity": 0.25625,
+      "flagged": true
+    },
+    {
+      "reference": "583",
+      "sha256": "631bcd481e09c1493191959ec3264c3513c4a93177ffc6d833dea4f4952b659b",
+      "track": 1,
+      "same_unobserved_composer_family": false,
+      "notes": 80,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "patterns": [],
+      "whole_interval_similarity": 0.08125000000000004,
+      "flagged": false
+    },
+    {
+      "reference": "640",
+      "sha256": "13ec851eb00ca9aba345cad50f03bdb3b189f566f38d094a1e6b839765b3d678",
+      "track": 2,
+      "same_unobserved_composer_family": false,
+      "notes": 98,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "patterns": [],
+      "whole_interval_similarity": 0.21875,
+      "flagged": false
+    },
+    {
+      "reference": "1019",
+      "sha256": "66e827779d0f289f43d2b8bdfaeba85cc5701919cfdc9326527ac9c3b9e0cf13",
+      "track": 2,
+      "same_unobserved_composer_family": false,
+      "notes": 41,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "patterns": [],
+      "whole_interval_similarity": 0.17500000000000004,
+      "flagged": false
+    },
+    {
+      "reference": "1020",
+      "sha256": "cced946d103b67871daa4edc79a46dc68da96434b88ea9971790368e22880265",
+      "track": 2,
+      "same_unobserved_composer_family": false,
+      "notes": 44,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "patterns": [],
+      "whole_interval_similarity": 0.16249999999999998,
+      "flagged": false
+    },
+    {
+      "reference": "1534",
+      "sha256": "5f7763dd4d29f309cac6d670c22aa029aca23c8c97743a0511d4b9c6d3435f1c",
+      "track": 1,
+      "same_unobserved_composer_family": false,
+      "notes": 149,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "patterns": [],
+      "whole_interval_similarity": 0.21250000000000002,
+      "flagged": false
+    },
+    {
+      "reference": "252",
+      "sha256": "fc9128836bba01a31d93f153dc504739b8f3037c68dd7f8e89da1c51d045b3d8",
+      "track": 1,
+      "same_unobserved_composer_family": false,
+      "notes": 225,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "patterns": [],
+      "whole_interval_similarity": 0.2455357142857143,
+      "flagged": false
+    },
+    {
+      "reference": "1040",
+      "sha256": "c23c9ad4a9604cc0cdd502689c37c95a194c5b1d0bd21dd75ad6e6832bf0d692",
+      "track": 1,
+      "same_unobserved_composer_family": false,
+      "notes": 49,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "patterns": [],
+      "whole_interval_similarity": 0.17500000000000004,
+      "flagged": false
+    },
+    {
+      "reference": "268",
+      "sha256": "6846ff8e8ecaf7d5b5a3234e3a0261e4bf77935de14298bf8d6ab3f7e481ee39",
+      "track": 1,
+      "same_unobserved_composer_family": false,
+      "notes": 94,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "patterns": [],
+      "whole_interval_similarity": 0.21250000000000002,
+      "flagged": false
+    },
+    {
+      "reference": "586",
+      "sha256": "dc758a0b481832f2f883e9b5d278046f3f21bccdb9ec92ce147ceed588143e65",
+      "track": 1,
+      "same_unobserved_composer_family": false,
+      "full_reader_rejection": "conflicting same-tick volume declarations",
+      "projection": "Original paired-note-only diagnostic; controllers ignored only for pitch/onset screen, not repaired or admitted.",
+      "notes": 63,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "patterns": [],
+      "whole_interval_similarity": 0.1875,
+      "flagged": false
+    },
+    {
+      "reference": "1361",
+      "sha256": "24c6c4c8deaf179571186cc71cf15186ef097174f6fcb769644d3f30701afc07",
+      "track": 1,
+      "same_unobserved_composer_family": false,
+      "notes": 144,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "patterns": [],
+      "whole_interval_similarity": 0.24375000000000002,
+      "flagged": false
+    },
+    {
+      "reference": "885-Sonata_1-2",
+      "sha256": "023a579d2449386377a30ffde1c6e8f9e0b02b6a6fb0da11321c53b0011221ff",
+      "track": 1,
+      "same_unobserved_composer_family": false,
+      "notes": 137,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "patterns": [],
+      "whole_interval_similarity": 0.23750000000000004,
+      "flagged": false
+    },
+    {
+      "reference": "885-Sonata_1-3",
+      "sha256": "00de0e13aef487666d06f202cb4c6b685569f54a820934d0ca5598e6616efa31",
+      "track": 1,
+      "same_unobserved_composer_family": false,
+      "notes": 346,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "patterns": [],
+      "whole_interval_similarity": 0.22608695652173916,
+      "flagged": false
+    },
+    {
+      "reference": "885-Sonata_1-1",
+      "sha256": "127762afbcdbd7b34fa2b1fca97cf17de7890c687589e601a3cfc5cbc74ebadf",
+      "track": 1,
+      "same_unobserved_composer_family": false,
+      "notes": 427,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "patterns": [],
+      "whole_interval_similarity": 0.16666666666666663,
+      "flagged": false
+    },
+    {
+      "reference": "885-Sonata_1",
+      "sha256": "af210d48e2192ccaad8244b2054c78493800754640f37b998eeb19cd54bb79e2",
+      "track": 1,
+      "same_unobserved_composer_family": false,
+      "notes": 318,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "patterns": [],
+      "whole_interval_similarity": 0.20504731861198733,
+      "flagged": false
+    },
+    {
+      "reference": "1692",
+      "sha256": "1e874885b369855fa948121e0635921a2debc6199a6fc251d85347f6678e26af",
+      "track": 1,
+      "same_unobserved_composer_family": false,
+      "notes": 192,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "patterns": [],
+      "whole_interval_similarity": 0.24083769633507857,
+      "flagged": false
+    },
+    {
+      "reference": "202",
+      "sha256": "ad185dbf3cb7e3e187cbe6e38c5ead706cf375b9d441f7191429027436b2a8e4",
+      "track": 1,
+      "same_unobserved_composer_family": false,
+      "notes": 144,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "patterns": [],
+      "whole_interval_similarity": 0.23124999999999996,
+      "flagged": false
+    },
+    {
+      "reference": "214",
+      "sha256": "39768b50abb623d24986b0e3993518ca92a6f1340d6154fc092f218cb6b97fee",
+      "track": 1,
+      "same_unobserved_composer_family": false,
+      "notes": 128,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "patterns": [],
+      "whole_interval_similarity": 0.23750000000000004,
+      "flagged": false
+    },
+    {
+      "reference": "921",
+      "sha256": "b19f8e0d783915e80e33cc4f622ef9623994ab89f114a53983c3f628265b798b",
+      "track": 1,
+      "same_unobserved_composer_family": false,
+      "notes": 92,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "patterns": [],
+      "whole_interval_similarity": 0.25,
+      "flagged": false
+    },
+    {
+      "reference": "804",
+      "sha256": "365dc51f22f89c005d71343df592d9b08fdc314042027989557f1eebcd8bc107",
+      "track": 1,
+      "same_unobserved_composer_family": false,
+      "notes": 227,
+      "exact8_interval_matches": 1,
+      "exact8_interval_rational_onset_matches": 1,
+      "patterns": [
+        [
+          -1,
+          -2,
+          -2,
+          -1,
+          -2,
+          -2,
+          2
+        ]
+      ],
+      "whole_interval_similarity": 0.2168141592920354,
+      "flagged": true
+    },
+    {
+      "reference": "1744",
+      "sha256": "8787c94a71a6a0d847a724249ebe37e35522425d0bfe2fa6f1193ea8201c8a3b",
+      "track": 1,
+      "same_unobserved_composer_family": true,
+      "notes": 373,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "patterns": [],
+      "whole_interval_similarity": 0.17741935483870963,
+      "flagged": false
+    },
+    {
+      "reference": "1042",
+      "sha256": "30c6c1102b165a0a2da2be03c051cb71f5c332a06ffb784d6a8e3391af201ad6",
+      "track": 1,
+      "same_unobserved_composer_family": true,
+      "notes": 879,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "patterns": [],
+      "whole_interval_similarity": 0.13211845102505693,
+      "flagged": false,
+      "global_interval_resource_bound": 1024
+    }
+  ],
+  "unavailable_complete_comparisons": [],
+  "rule": "Any exact8 pitchinterval OR normalized whole-interval edit similarity>=.80 blocks. Original helper bound512 retained; independent diagnostic1024 bound recorded before full1042 comparison. Rhythm not a waiver.",
+  "family_review": {
+    "candidate": "Mendelssohn/RyanPrince new relative to train5 and observed sources.",
+    "reserved_siblings": [
+      "1744 samecomposer+contributor",
+      "1042 samecomposer, UrsMetzger contributor also pendingBach645"
+    ],
+    "split": "All Mendelssohn compositions grouped for composer-family claims; all1741 parts/editions/transpositions inseparable. Reserved siblings must remain unused and cannot later be called independent fresh tests.",
+    "confounds": "Breitkopf publisher shared Schubert; common Mutopia/LilyPond encoding; anonymous contributor identity not conclusively excluded.",
+    "reserved_sibling_interpretation": "1744/1042 are unused same-composer cohort, not overlap with a fitted or scored family; must remain heldout together, never independent tests."
+  },
+  "rights_ledger_sha256": "a2f6aeedecb0e2aec5e32be2b8bc5e72166ac7e445d6ac0f9dc5a25313d6decd",
+  "rights_recheck": {
+    "artifacts": [
+      {
+        "file": "1741-LiederOhneWorte_-_Op30_No6.ly",
+        "expected_sha256": "473e170a12e5654982a7288afcd6835d206106871b51dd8815c74f662ca22be7",
+        "actual_sha256": "473e170a12e5654982a7288afcd6835d206106871b51dd8815c74f662ca22be7"
+      },
+      {
+        "file": "1741-LiederOhneWorte_-_Op30_No6.mid",
+        "expected_sha256": "3de7c0dae2206d5bdd2ddb5f49c3e2851df0d218472c868c0212d0f98b19ccaf",
+        "actual_sha256": "3de7c0dae2206d5bdd2ddb5f49c3e2851df0d218472c868c0212d0f98b19ccaf"
+      }
+    ],
+    "unchanged": true,
+    "basis": "Explicit typesetterPD; historical Rietz1812\u20131877 BreitkopfM.B.76 incipit visually verified in documented1968Gregg reprint, no modern editorial intervention identified. Selectedtrack only; othertrack unsupportedCC remains rejected.",
+    "historical_scan": {
+      "expected_sha256": "c9eddbd1b33154f8dacf95db139f9f0b6d22a1864ee7910a2c05e2f4a286aca3",
+      "actual_sha256": "c9eddbd1b33154f8dacf95db139f9f0b6d22a1864ee7910a2c05e2f4a286aca3",
+      "unchanged": true
+    }
+  },
+  "scope": "Read-only nofit/noscore; no MIDI rewriting or controls removed. All reference names refer to original selected-track diagnostic, not entire-source rights approval.",
+  "match_diagnostics": [
+    {
+      "reference": "580",
+      "pattern": [
+        5,
+        -2,
+        -2,
+        -1,
+        -1,
+        1,
+        -4
+      ],
+      "candidate_locations": [
+        {
+          "zero_based_onset_index": 34,
+          "start_tick": 19776,
+          "last_onset_tick": 21120,
+          "quarter_onset_deltas": [
+            "1/2",
+            "1/2",
+            "1/2",
+            "1/2",
+            "1/2",
+            "1/2",
+            "1/2"
+          ]
+        },
+        {
+          "zero_based_onset_index": 106,
+          "start_tick": 45120,
+          "last_onset_tick": 46464,
+          "quarter_onset_deltas": [
+            "1/2",
+            "1/2",
+            "1/2",
+            "1/2",
+            "1/2",
+            "1/2",
+            "1/2"
+          ]
+        }
+      ],
+      "reference_locations": [
+        {
+          "zero_based_onset_index": 68,
+          "start_tick": 34560,
+          "last_onset_tick": 38208,
+          "quarter_onset_deltas": [
+            "4",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1/2"
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "804",
+      "pattern": [
+        -1,
+        -2,
+        -2,
+        -1,
+        -2,
+        -2,
+        2
+      ],
+      "candidate_locations": [
+        {
+          "zero_based_onset_index": 87,
+          "start_tick": 40128,
+          "last_onset_tick": 41472,
+          "quarter_onset_deltas": [
+            "1/2",
+            "1/2",
+            "1/2",
+            "1/2",
+            "1/2",
+            "1/2",
+            "1/2"
+          ]
+        }
+      ],
+      "reference_locations": [
+        {
+          "zero_based_onset_index": 212,
+          "start_tick": 54144,
+          "last_onset_tick": 55488,
+          "quarter_onset_deltas": [
+            "1/2",
+            "1/2",
+            "1/2",
+            "1/2",
+            "1/2",
+            "1/2",
+            "1/2"
+          ]
+        }
+      ]
+    }
+  ],
+  "reference_scope_limit": "33 selected-note-track references explicitly enumerated, plus catalogue family checks; not an exhaustive scan of all parts, every previously rejected intake file, or all music. Candidate is already blocked by two available matches, so no completeness-based clearance claimed.",
+  "decision": "Blocked: exact8 match against observed580 and blocked804. Different rhythm cannot waive fixed interval-only rule; no predictive score authorized.1042 full878interval diagnostic completed without flag.",
+  "expanded_resource_bound_diagnostic": {
+    "plan_sha256": "f4724573b3be7d30686bb68ecc47a1d1ee92c2fb7528b0f866372afd91fe9cb2",
+    "interval_bound": 1024,
+    "full_lengths": [
+      160,
+      878
+    ],
+    "metric_and_threshold_unchanged": true,
+    "old_helper_parity_cases": 31,
+    "old_helper_parity_all_exact": true,
+    "elapsed_seconds": 0.051876980000088224,
+    "global_similarity": 0.13211845102505693,
+    "no_model_calls": true,
+    "original_helper_unchanged": true
+  }
+}

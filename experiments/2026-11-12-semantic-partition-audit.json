@@ -1,0 +1,188 @@
+{
+  "scope": "Fictional semantic data/evaluation partition audit; no actualcomments, roles or training",
+  "cases": {
+    "separate_families": {
+      "rows": [
+        {
+          "item_id": "1",
+          "family_id": "a",
+          "source_sha256": "1111111111111111111111111111111111111111111111111111111111111111",
+          "artifact_sha256": "2222222222222222222222222222222222222222222222222222222222222222",
+          "split": "train",
+          "synthetic": true
+        },
+        {
+          "item_id": "2",
+          "family_id": "b",
+          "source_sha256": "3333333333333333333333333333333333333333333333333333333333333333",
+          "artifact_sha256": "4444444444444444444444444444444444444444444444444444444444444444",
+          "split": "test",
+          "synthetic": true
+        }
+      ],
+      "result": {
+        "schema_rows": 2,
+        "partition_consistent": true,
+        "violations": [],
+        "row_counts": {
+          "train": 1,
+          "test": 1
+        },
+        "family_counts": {
+          "train": 1,
+          "test": 1
+        },
+        "artifact_counts": {
+          "train": 1,
+          "test": 1
+        },
+        "training_authorized": false,
+        "actual_human_reports": 0,
+        "limitation": "Declared synthetic groups only; no verified family labels, identities, real feedback or permissions."
+      }
+    },
+    "transformed_sibling": {
+      "rows": [
+        {
+          "item_id": "1",
+          "family_id": "a",
+          "source_sha256": "1111111111111111111111111111111111111111111111111111111111111111",
+          "artifact_sha256": "2222222222222222222222222222222222222222222222222222222222222222",
+          "split": "train",
+          "synthetic": true
+        },
+        {
+          "item_id": "2",
+          "family_id": "a",
+          "source_sha256": "3333333333333333333333333333333333333333333333333333333333333333",
+          "artifact_sha256": "4444444444444444444444444444444444444444444444444444444444444444",
+          "split": "test",
+          "synthetic": true
+        }
+      ],
+      "result": {
+        "schema_rows": 2,
+        "partition_consistent": false,
+        "violations": [
+          {
+            "reason": "cross_split_family_id",
+            "key": "a",
+            "splits": [
+              "test",
+              "train"
+            ]
+          }
+        ],
+        "row_counts": {
+          "train": 1,
+          "test": 1
+        },
+        "family_counts": {
+          "train": 1,
+          "test": 1
+        },
+        "artifact_counts": {
+          "train": 1,
+          "test": 1
+        },
+        "training_authorized": false,
+        "actual_human_reports": 0,
+        "limitation": "Declared synthetic groups only; no verified family labels, identities, real feedback or permissions."
+      }
+    },
+    "renamed_family_same_source": {
+      "rows": [
+        {
+          "item_id": "1",
+          "family_id": "a",
+          "source_sha256": "1111111111111111111111111111111111111111111111111111111111111111",
+          "artifact_sha256": "2222222222222222222222222222222222222222222222222222222222222222",
+          "split": "train",
+          "synthetic": true
+        },
+        {
+          "item_id": "2",
+          "family_id": "b",
+          "source_sha256": "1111111111111111111111111111111111111111111111111111111111111111",
+          "artifact_sha256": "3333333333333333333333333333333333333333333333333333333333333333",
+          "split": "test",
+          "synthetic": true
+        }
+      ],
+      "result": {
+        "schema_rows": 2,
+        "partition_consistent": false,
+        "violations": [
+          {
+            "reason": "cross_split_source_sha256",
+            "key": "1111111111111111111111111111111111111111111111111111111111111111",
+            "splits": [
+              "test",
+              "train"
+            ]
+          },
+          {
+            "reason": "conflicting_source_family",
+            "key": "1111111111111111111111111111111111111111111111111111111111111111"
+          }
+        ],
+        "row_counts": {
+          "train": 1,
+          "test": 1
+        },
+        "family_counts": {
+          "train": 1,
+          "test": 1
+        },
+        "artifact_counts": {
+          "train": 1,
+          "test": 1
+        },
+        "training_authorized": false,
+        "actual_human_reports": 0,
+        "limitation": "Declared synthetic groups only; no verified family labels, identities, real feedback or permissions."
+      }
+    },
+    "two_comments_one_clip": {
+      "rows": [
+        {
+          "item_id": "1",
+          "family_id": "a",
+          "source_sha256": "1111111111111111111111111111111111111111111111111111111111111111",
+          "artifact_sha256": "2222222222222222222222222222222222222222222222222222222222222222",
+          "split": "test",
+          "synthetic": true
+        },
+        {
+          "item_id": "2",
+          "family_id": "a",
+          "source_sha256": "1111111111111111111111111111111111111111111111111111111111111111",
+          "artifact_sha256": "2222222222222222222222222222222222222222222222222222222222222222",
+          "split": "test",
+          "synthetic": true
+        }
+      ],
+      "result": {
+        "schema_rows": 2,
+        "partition_consistent": true,
+        "violations": [],
+        "row_counts": {
+          "test": 2
+        },
+        "family_counts": {
+          "test": 1
+        },
+        "artifact_counts": {
+          "test": 1
+        },
+        "training_authorized": false,
+        "actual_human_reports": 0,
+        "limitation": "Declared synthetic groups only; no verified family labels, identities, real feedback or permissions."
+      }
+    }
+  },
+  "code_sha256": {
+    "src/mousa/semantic_split_guard.py": "5fa8ac255ddae9ce3052704c78fcf35142000dba36aa7c7c960aa5948618c67d",
+    "tests/test_semantic_split_guard.py": "ebf83df2129a65ba359daf9eb933c2530b815611058f140ae4a579adb5e0e816"
+  }
+}
