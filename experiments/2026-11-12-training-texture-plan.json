@@ -1,0 +1,22 @@
+{
+  "created_at_utc": "2026-11-12T13:14:09.679913+00:00",
+  "scope": "Post-hoc descriptive audit motivated by observed leap/overlap increase; not unseen hypothesis test",
+  "assignment_sha256": "61134a4032926252df4243fc5cea4229a1fd4cd6561b74df92f5325f9867f47f",
+  "source_sha256": {
+    "mutopia-376": "b02e65def39bab988838d3d2e82ad9763f1b5b6b71b5a4c70e8f7b6d12eece8c",
+    "mutopia-888": "6e097cb82d30524335a19a2adb1cbf79cf6b070f7059182f0dc9d34ca3fc3848",
+    "mutopia-889": "cc45d10d7c21e858f37d4096979d4706bcfcaec400ef89abc1ac66378d51faa1",
+    "mutopia-789": "f849eace28acf450e306803203499aed4830cfba1a5cb8fe0953f594be15ffb9",
+    "mutopia-583": "631bcd481e09c1493191959ec3264c3513c4a93177ffc6d833dea4f4952b659b",
+    "mutopia-1578": "6cf3c60882c186ec642383caf4c5b265778d53159225b56dc121c4b595cdaf9d",
+    "mutopia-1558": "50a29ba4579b984c24b2e13ec4fafb08c468c6c5db6bd9313d9134b00cf8e8c9",
+    "mutopia-370": "3235864dce0f7a59f1eb348bda55065263c0366267e32f27ce6240c9dde3f6b5",
+    "mutopia-98-legacy": "556a50d0f00433f6973076704677eeb2b44c8dc81b1763b3b6d1dc0b716d3d5b",
+    "mutopia-263-legacy": "80f94141dff97aabb3cf37e1ccc3f6ac41563dd4421d0a648786a8f8e36efc68",
+    "mutopia-904": "64cf1e5040bb857a7aba4b733fbd04c888b128998fce325fedea259c095e94fb",
+    "mutopia-2080": "112c3b61dab55f58bc44d9f3522ef21b3479ffa1953097783ff8c4f10e40175d"
+  },
+  "code_sha256": "7a29476c526ea5ca354a7fbba6a2793cc42944d487b8e73212f7d0c66dc022ba",
+  "metric": "Absolute adjacent-event pitch interval, grouped by equal versus later onset; source reader order unchanged",
+  "limits": "Same-onset events are not melodic succession; later-onset event order is not identified voice-leading. No aesthetic or causal conclusion."
+}

@@ -1,0 +1,30 @@
+{
+  "scope": "Independent synthetic review before real fitting; not human musical evaluation",
+  "final_plan_sha256": "03bafe327beea4761881cb8e8e134070d5300326abcd8dcb481241cc4a5d598c",
+  "module_sha256": "1eea245d0eb943ef5added76b4c2dc75af0824fe398fdd1d18d71f5e991a44f6",
+  "unit_tests_passed": 5,
+  "legacy_fraction_sampler_counterexample": "Rejected after standaloneclass correction; external oldgenerators rejecttype.",
+  "exhaustive_gate_draws": {
+    "fixture_weight": "1/100",
+    "caps": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "draw_positions": [
+      12388,
+      24776,
+      24876,
+      24976
+    ],
+    "total_positions": 87016,
+    "result": "Each observedgate excess plus100uniformprior positions exactly; allfallbackboundaries checked."
+  },
+  "pitch_draw_boundaries": "Zero-bin and cumulative-boundary handling verified for integerdraw.",
+  "limits": [
+    "No realmusic fit/scoring in thisreview.",
+    "Shared120CPUbudget can leave laterconditionsmissing; incomplete runs cannot establishfairranking.",
+    "Probability correctness isnotmusicappeal or legaloriginality."
+  ]
+}

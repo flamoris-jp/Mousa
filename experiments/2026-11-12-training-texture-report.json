@@ -1,0 +1,336 @@
+{
+  "plan_sha256": "4b700e32ea20f7000eedbc0cf2dbdd5e78d6dfe7cc4123281cc17a8653c2fe54",
+  "rows": [
+    {
+      "work_id": "mutopia-376",
+      "source_sha256": "b02e65def39bab988838d3d2e82ad9763f1b5b6b71b5a4c70e8f7b6d12eece8c",
+      "track": 1,
+      "notes": 159,
+      "pitch_transitions": 158,
+      "distinct_onsets": 159,
+      "max_notes_sharing_onset": 1,
+      "initial_delta_zero": false,
+      "strata": {
+        "simultaneous_onset": {
+          "transitions": 0,
+          "absolute_interval_sum": 0,
+          "repeated_pitch": 0,
+          "above_octave": 0,
+          "mean_absolute_interval": null
+        },
+        "later_onset": {
+          "transitions": 158,
+          "absolute_interval_sum": 344,
+          "repeated_pitch": 34,
+          "above_octave": 0,
+          "mean_absolute_interval": 2.1772151898734178
+        }
+      }
+    },
+    {
+      "work_id": "mutopia-888",
+      "source_sha256": "6e097cb82d30524335a19a2adb1cbf79cf6b070f7059182f0dc9d34ca3fc3848",
+      "track": 1,
+      "notes": 38,
+      "pitch_transitions": 37,
+      "distinct_onsets": 38,
+      "max_notes_sharing_onset": 1,
+      "initial_delta_zero": true,
+      "strata": {
+        "simultaneous_onset": {
+          "transitions": 0,
+          "absolute_interval_sum": 0,
+          "repeated_pitch": 0,
+          "above_octave": 0,
+          "mean_absolute_interval": null
+        },
+        "later_onset": {
+          "transitions": 37,
+          "absolute_interval_sum": 71,
+          "repeated_pitch": 14,
+          "above_octave": 0,
+          "mean_absolute_interval": 1.9189189189189189
+        }
+      }
+    },
+    {
+      "work_id": "mutopia-889",
+      "source_sha256": "cc45d10d7c21e858f37d4096979d4706bcfcaec400ef89abc1ac66378d51faa1",
+      "track": 1,
+      "notes": 47,
+      "pitch_transitions": 46,
+      "distinct_onsets": 47,
+      "max_notes_sharing_onset": 1,
+      "initial_delta_zero": false,
+      "strata": {
+        "simultaneous_onset": {
+          "transitions": 0,
+          "absolute_interval_sum": 0,
+          "repeated_pitch": 0,
+          "above_octave": 0,
+          "mean_absolute_interval": null
+        },
+        "later_onset": {
+          "transitions": 46,
+          "absolute_interval_sum": 85,
+          "repeated_pitch": 15,
+          "above_octave": 0,
+          "mean_absolute_interval": 1.8478260869565217
+        }
+      }
+    },
+    {
+      "work_id": "mutopia-789",
+      "source_sha256": "f849eace28acf450e306803203499aed4830cfba1a5cb8fe0953f594be15ffb9",
+      "track": 1,
+      "notes": 120,
+      "pitch_transitions": 119,
+      "distinct_onsets": 120,
+      "max_notes_sharing_onset": 1,
+      "initial_delta_zero": false,
+      "strata": {
+        "simultaneous_onset": {
+          "transitions": 0,
+          "absolute_interval_sum": 0,
+          "repeated_pitch": 0,
+          "above_octave": 0,
+          "mean_absolute_interval": null
+        },
+        "later_onset": {
+          "transitions": 119,
+          "absolute_interval_sum": 329,
+          "repeated_pitch": 25,
+          "above_octave": 0,
+          "mean_absolute_interval": 2.764705882352941
+        }
+      }
+    },
+    {
+      "work_id": "mutopia-583",
+      "source_sha256": "631bcd481e09c1493191959ec3264c3513c4a93177ffc6d833dea4f4952b659b",
+      "track": 1,
+      "notes": 80,
+      "pitch_transitions": 79,
+      "distinct_onsets": 80,
+      "max_notes_sharing_onset": 1,
+      "initial_delta_zero": false,
+      "strata": {
+        "simultaneous_onset": {
+          "transitions": 0,
+          "absolute_interval_sum": 0,
+          "repeated_pitch": 0,
+          "above_octave": 0,
+          "mean_absolute_interval": null
+        },
+        "later_onset": {
+          "transitions": 79,
+          "absolute_interval_sum": 0,
+          "repeated_pitch": 79,
+          "above_octave": 0,
+          "mean_absolute_interval": 0.0
+        }
+      }
+    },
+    {
+      "work_id": "mutopia-1578",
+      "source_sha256": "6cf3c60882c186ec642383caf4c5b265778d53159225b56dc121c4b595cdaf9d",
+      "track": 1,
+      "notes": 170,
+      "pitch_transitions": 169,
+      "distinct_onsets": 170,
+      "max_notes_sharing_onset": 1,
+      "initial_delta_zero": false,
+      "strata": {
+        "simultaneous_onset": {
+          "transitions": 0,
+          "absolute_interval_sum": 0,
+          "repeated_pitch": 0,
+          "above_octave": 0,
+          "mean_absolute_interval": null
+        },
+        "later_onset": {
+          "transitions": 169,
+          "absolute_interval_sum": 380,
+          "repeated_pitch": 57,
+          "above_octave": 0,
+          "mean_absolute_interval": 2.2485207100591715
+        }
+      }
+    },
+    {
+      "work_id": "mutopia-1558",
+      "source_sha256": "50a29ba4579b984c24b2e13ec4fafb08c468c6c5db6bd9313d9134b00cf8e8c9",
+      "track": 1,
+      "notes": 289,
+      "pitch_transitions": 288,
+      "distinct_onsets": 289,
+      "max_notes_sharing_onset": 1,
+      "initial_delta_zero": false,
+      "strata": {
+        "simultaneous_onset": {
+          "transitions": 0,
+          "absolute_interval_sum": 0,
+          "repeated_pitch": 0,
+          "above_octave": 0,
+          "mean_absolute_interval": null
+        },
+        "later_onset": {
+          "transitions": 288,
+          "absolute_interval_sum": 626,
+          "repeated_pitch": 73,
+          "above_octave": 0,
+          "mean_absolute_interval": 2.173611111111111
+        }
+      }
+    },
+    {
+      "work_id": "mutopia-370",
+      "source_sha256": "3235864dce0f7a59f1eb348bda55065263c0366267e32f27ce6240c9dde3f6b5",
+      "track": 1,
+      "notes": 108,
+      "pitch_transitions": 107,
+      "distinct_onsets": 108,
+      "max_notes_sharing_onset": 1,
+      "initial_delta_zero": false,
+      "strata": {
+        "simultaneous_onset": {
+          "transitions": 0,
+          "absolute_interval_sum": 0,
+          "repeated_pitch": 0,
+          "above_octave": 0,
+          "mean_absolute_interval": null
+        },
+        "later_onset": {
+          "transitions": 107,
+          "absolute_interval_sum": 268,
+          "repeated_pitch": 10,
+          "above_octave": 0,
+          "mean_absolute_interval": 2.5046728971962615
+        }
+      }
+    },
+    {
+      "work_id": "mutopia-98-legacy",
+      "source_sha256": "556a50d0f00433f6973076704677eeb2b44c8dc81b1763b3b6d1dc0b716d3d5b",
+      "track": 1,
+      "notes": 131,
+      "pitch_transitions": 130,
+      "distinct_onsets": 127,
+      "max_notes_sharing_onset": 3,
+      "initial_delta_zero": false,
+      "strata": {
+        "simultaneous_onset": {
+          "transitions": 4,
+          "absolute_interval_sum": 44,
+          "repeated_pitch": 0,
+          "above_octave": 2,
+          "mean_absolute_interval": 11.0
+        },
+        "later_onset": {
+          "transitions": 126,
+          "absolute_interval_sum": 535,
+          "repeated_pitch": 6,
+          "above_octave": 3,
+          "mean_absolute_interval": 4.246031746031746
+        }
+      }
+    },
+    {
+      "work_id": "mutopia-263-legacy",
+      "source_sha256": "80f94141dff97aabb3cf37e1ccc3f6ac41563dd4421d0a648786a8f8e36efc68",
+      "track": 1,
+      "notes": 1394,
+      "pitch_transitions": 1393,
+      "distinct_onsets": 789,
+      "max_notes_sharing_onset": 4,
+      "initial_delta_zero": true,
+      "strata": {
+        "simultaneous_onset": {
+          "transitions": 605,
+          "absolute_interval_sum": 3839,
+          "repeated_pitch": 0,
+          "above_octave": 0,
+          "mean_absolute_interval": 6.345454545454546
+        },
+        "later_onset": {
+          "transitions": 788,
+          "absolute_interval_sum": 5139,
+          "repeated_pitch": 19,
+          "above_octave": 105,
+          "mean_absolute_interval": 6.521573604060913
+        }
+      }
+    },
+    {
+      "work_id": "mutopia-904",
+      "source_sha256": "64cf1e5040bb857a7aba4b733fbd04c888b128998fce325fedea259c095e94fb",
+      "track": 1,
+      "notes": 628,
+      "pitch_transitions": 627,
+      "distinct_onsets": 398,
+      "max_notes_sharing_onset": 4,
+      "initial_delta_zero": true,
+      "strata": {
+        "simultaneous_onset": {
+          "transitions": 230,
+          "absolute_interval_sum": 1360,
+          "repeated_pitch": 0,
+          "above_octave": 0,
+          "mean_absolute_interval": 5.913043478260869
+        },
+        "later_onset": {
+          "transitions": 397,
+          "absolute_interval_sum": 2154,
+          "repeated_pitch": 41,
+          "above_octave": 39,
+          "mean_absolute_interval": 5.425692695214106
+        }
+      }
+    },
+    {
+      "work_id": "mutopia-2080",
+      "source_sha256": "112c3b61dab55f58bc44d9f3522ef21b3479ffa1953097783ff8c4f10e40175d",
+      "track": 1,
+      "notes": 99,
+      "pitch_transitions": 98,
+      "distinct_onsets": 96,
+      "max_notes_sharing_onset": 2,
+      "initial_delta_zero": true,
+      "strata": {
+        "simultaneous_onset": {
+          "transitions": 3,
+          "absolute_interval_sum": 18,
+          "repeated_pitch": 0,
+          "above_octave": 0,
+          "mean_absolute_interval": 6.0
+        },
+        "later_onset": {
+          "transitions": 95,
+          "absolute_interval_sum": 187,
+          "repeated_pitch": 14,
+          "above_octave": 0,
+          "mean_absolute_interval": 1.9684210526315788
+        }
+      }
+    }
+  ],
+  "totals": {
+    "simultaneous_onset": {
+      "transitions": 842,
+      "absolute_interval_sum": 5261,
+      "repeated_pitch": 0,
+      "above_octave": 2
+    },
+    "later_onset": {
+      "transitions": 2409,
+      "absolute_interval_sum": 10118,
+      "repeated_pitch": 387,
+      "above_octave": 147
+    }
+  },
+  "total_notes": 3263,
+  "total_transitions": 3251,
+  "originals_unchanged": true,
+  "no_model_fit_or_score": true,
+  "no_new_labels": true
+}
