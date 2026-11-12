@@ -1,0 +1,67 @@
+{
+  "created_at_utc": "2026-11-12T10:54:57.907275+00:00",
+  "scope": "Cycle14 exploratory generation only,580 already observed and583 reserved",
+  "train_ids": [
+    "mutopia-376",
+    "mutopia-888",
+    "mutopia-889",
+    "mutopia-789"
+  ],
+  "never_load": [
+    583
+  ],
+  "model": "Frozen cycle13 timing_context=True,pitch_continuity=True,strength4",
+  "factorial": "exact_joint_feasibility off/on x whole-vocabulary uniform_probability_mixture alpha0/0.25",
+  "feasibility": "delta mass times conditional gate mass times total legal pitch weight; polyphony3 delta mass0; sampledelta then gate then legalpitch",
+  "distribution": "Same next-accepted-event law as joint rejection at fixed alpha/state, NOT same RNG path or finite64retryfailurelaw. Pitch-only mask rejected before experiment.",
+  "pitch_mixture": "(1-alpha)*normalized continuity distribution+alpha/|trainvocabulary| BEFORE feasible conditioning",
+  "constraints": {
+    "target_ticks": 9216,
+    "max_notes": 256,
+    "max_attempts": 64,
+    "max_polyphony": 3,
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "completion": "exact gate end at target; no clipping, implicit timeadvance, fallback or winner selection",
+  "copy_guard": "train plus580 exact8onset pitchintervals, both canonical and generatedorder; no retry on guardfailure",
+  "baseline": "maskoff alpha0 must exactly reproduce original context generator notes/status/rejections perseed",
+  "metrics": [
+    "completion/block/copyguard status",
+    "rejectionreason",
+    "lastacceptedstate andlastproposal",
+    "timingdraws,pitchdraws",
+    "repeat/unique/leap descriptors",
+    "overlap/restcoverage",
+    "exactMIDIroundtrip"
+  ],
+  "aggregation": "all10 statuses; complete-only means with denominators; commonacceptedseed subset remains success-conditioned",
+  "nonclaims": [
+    "musical appeal",
+    "fresh evaluation",
+    "same finite-failure distribution",
+    "neural efficiency or training gain"
+  ],
+  "source_screen": "exact8interval or wholeinterval similarity>=0.80 blocks aspreviousactualscreen",
+  "code_sha256": {
+    "src/mousa/feasible_context_generation.py": "57ff1dabc40a05af14f585701a9852dc6e699ba508cdadd00b8754ff1b24d783",
+    "src/mousa/context_onset_gate.py": "32ff6404caf451e18649c85462f32c1bcca8389b434a23d9c4ec1d6d09f8af0c",
+    "src/mousa/onset_gate_model.py": "6cfafbcb5f7cdcb9d3279b460b66bdf88b1f4a3f918312639cdb69cc0a89c92d",
+    "src/mousa/overlap_midi.py": "1afc11bf6b6985a2eb22ebe5302b707d39378291e27b6299fde82564c167c867",
+    "tools/compare_feasible_context_generation.py": "ea9ee9d8db3e08faa0c511def25cc86c92b58b9ea517334794ca615a01561740",
+    "tools/compare_context_onset_gate.py": "a4838f8c1e38b591e9366269ecabaabcc0a66bffab1031b68beddc942980f78a",
+    "tools/compare_onset_gate_models.py": "07a2bfaf79bc8e3b37c0982657056e34d8e6bd117ba03c5fa913bfaad17c4784",
+    "datasets/research-exploratory-multifamily-20261112.json": "bfcb2777ca6af1fbf41e957809a0fd35c6291e9bb3ae14182fd7ba1c9a86f6d7",
+    "datasets/research-brahms580-rights-20261112.json": "dd25cb5023eb13a634d981fe0fd8bc3c5c02f302c1b8fe4404157e74ec4dd994"
+  }
+}
