@@ -1,0 +1,56 @@
+{
+  "byte_identical_repeat": true,
+  "initial_report_sha256": "d69bcf93d10dffcea759e9d3cd28dd5dd59b68e7a5f0d03207fef784c0e67777",
+  "repeat_report_sha256": "d69bcf93d10dffcea759e9d3cd28dd5dd59b68e7a5f0d03207fef784c0e67777",
+  "plan_sha256": "417512e549ec16761af90fb80fc7f8ff16d9a5c995c6362274549f771fa73ec6",
+  "frozen_hashes_match": true,
+  "unit_tests": 4,
+  "stratum_dependence": {
+    "transposition": {
+      "cases": 8,
+      "distinct_reference_interval_contours": 8
+    },
+    "time_scale": {
+      "cases": 8,
+      "distinct_reference_interval_contours": 8
+    },
+    "timing_jitter": {
+      "cases": 8,
+      "distinct_reference_interval_contours": 8
+    },
+    "insertions": {
+      "cases": 8,
+      "distinct_reference_interval_contours": 8
+    },
+    "deletions": {
+      "cases": 8,
+      "distinct_reference_interval_contours": 8
+    },
+    "seven_note_excerpt": {
+      "cases": 8,
+      "distinct_reference_interval_contours": 8
+    },
+    "independent_scale": {
+      "cases": 8,
+      "distinct_reference_interval_contours": 1
+    },
+    "independent_repeat": {
+      "cases": 8,
+      "distinct_reference_interval_contours": 1
+    },
+    "independent_alternation": {
+      "cases": 8,
+      "distinct_reference_interval_contours": 1
+    },
+    "independent_random": {
+      "cases": 8,
+      "distinct_reference_interval_contours": 8
+    }
+  },
+  "caveats": [
+    "Common pattern strata each have only ONE distinct interval contour despite8offset variants; not8independentmusicalpatterns.",
+    "Seeds are construction identifiers; repeated templates cannot estimate population false-alarm rate.",
+    "Construction independence deliberately differs from observable similarity: common recipes can create mathematically transformed sequences.",
+    "No legal copying or music meaning ground truth, no threshold tuning or real candidate release."
+  ]
+}
