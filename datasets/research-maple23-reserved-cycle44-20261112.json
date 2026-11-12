@@ -1,0 +1,93 @@
+{
+  "reviewed_utc": "2026-11-12T17:22:02.235119+00:00",
+  "id": "mutopia-23",
+  "title": "Maple Leaf Rag",
+  "composer": "Scott Joplin1868-1917",
+  "contributor": "Chris Sawer",
+  "status": "rights-reviewed-reserved-fixed-screen-clear-not-admitted-not-fit-not-scored",
+  "composition_rights": "1899Joplin composition; composer1917death and printed1899copyright corroborated.",
+  "edition_rights": "Mutopia source reproduction of original1899edition. GaylordMusicLibrary WashingtonUniversity StLouis scan b89641127, source itself markedPublicDomainMark1.0. Printedmusic page2 (PDFpage3) bears Copyright1899byJohnStark&Son and plate1-3. Catalogue distinguishes physical printing1910or later from1899composition/edition; exactphysicalimpression usedbytranscriber notproved. No moderneditor named.",
+  "incipit": "Visually confirmed PDFpage3: A-flatmajor fourflats,2/4, Tempo di marcia, pickup eighthrest inRH withE-flat octave bass, then sixteenthrest A-flat4 E-flat4/E-flat5octave A-flat4 C5 E-flat octave etc. MatchesLYtop and MIDItrack1. Originalpickup+firstsixteenthrest=288ticks beforeRHfirstnote. LH sounding fromtick0 retained. Notclaim exhaustivecollation.",
+  "encoding_rights": "ExactLY copyrightPublicDomain withexplicitplacedinpublicdomainbytypesetterfooter. ChrisSawer individuallyidentified. Officialpiecepage links exactMIDIandLY under samePDcontribution. LegacyPDdedicationnotCC0; underlyingeditionreviewseparate.",
+  "family": "SameJoplin/ChrisSawer/Stark cohort astrained263; do notsplit or claimnewindependentcomposer. This is a new work, not a new composer.",
+  "technical": [
+    {
+      "track": 1,
+      "notes": 1193,
+      "first_onset": 288,
+      "eot": 110592,
+      "ppq": 384,
+      "meter_map": [
+        {
+          "tick": 0,
+          "numerator": 2,
+          "denominator": 4,
+          "clocks_per_click": 18,
+          "notated_32nd_notes_per_beat": 8
+        }
+      ]
+    },
+    {
+      "track": 2,
+      "notes": 1373,
+      "first_onset": 0,
+      "eot": 110592,
+      "ppq": 384,
+      "meter_map": [
+        {
+          "tick": 0,
+          "numerator": 2,
+          "denominator": 4,
+          "clocks_per_click": 18,
+          "notated_32nd_notes_per_beat": 8
+        }
+      ]
+    }
+  ],
+  "selected_track": 1,
+  "projection_limit": "Polyphonic upperstaff noteevents, not inferredmonophonicmelody. CompletebothstafforiginalMIDI retained, noquantization, cropping orvoiceremoval.",
+  "evidence": [
+    {
+      "filename": "23.ly",
+      "url": "https://www.mutopiaproject.org/ftp/JoplinS/maple/maple.ly",
+      "sha256": "043e9d9207b771658a9afa51e2aa2537c448ecfd602e78ae50110cf3b12209fd",
+      "bytes": 10361,
+      "local_write_mtime_utc": "2026-11-12T17:20:33.377418+00:00",
+      "date_note": "Writecompletiontimestamp,notexactHTTPtimestamp;UTCcalendardate2026-11-12."
+    },
+    {
+      "filename": "23.mid",
+      "url": "https://www.mutopiaproject.org/ftp/JoplinS/maple/maple.mid",
+      "sha256": "3dd712a85fabd267f5a2cee5cb23af4683408c2f29b8814721844498f1ee4f66",
+      "bytes": 21518,
+      "local_write_mtime_utc": "2026-11-12T17:20:37.854544+00:00",
+      "date_note": "Writecompletiontimestamp,notexactHTTPtimestamp;UTCcalendardate2026-11-12."
+    },
+    {
+      "filename": "maple-archive-metadata.json",
+      "url": "https://archive.org/metadata/b89641127",
+      "sha256": "85a13ec100a092feff661e03bd7f1175fe7f733befb546b14a30a751e0d22088",
+      "bytes": 7935,
+      "local_write_mtime_utc": "2026-11-12T17:20:41.133426+00:00",
+      "date_note": "Writecompletiontimestamp,notexactHTTPtimestamp;UTCcalendardate2026-11-12."
+    },
+    {
+      "filename": "maple-original.pdf",
+      "url": "https://archive.org/download/b89641127/b89641127.pdf",
+      "sha256": "ff79c724dc3b96b9771f30a795c21edd372974f4939f5eda36189df7357048fa",
+      "bytes": 1028745,
+      "local_write_mtime_utc": "2026-11-12T17:20:45.760470+00:00",
+      "date_note": "Writecompletiontimestamp,notexactHTTPtimestamp;UTCcalendardate2026-11-12."
+    }
+  ],
+  "screen": {
+    "report": "experiments/2026-11-12-maple-cycle44-screen.json",
+    "plan": "experiments/2026-11-12-maple-cycle44-screen-plan.json",
+    "references": 25,
+    "threshold": "unchangedexact8 OR global>=.80",
+    "flagged": false,
+    "scope": "17train+4observed+4blocked1692/804/1741/532, uniquecountasserted. Noadmissionwithoutseparatefixedassignment."
+  },
+  "fit": false,
+  "score": false
+}
