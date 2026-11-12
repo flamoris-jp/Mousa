@@ -1,0 +1,19 @@
+{
+  "schema": "mousa.research-source-observations.v1",
+  "authority": "These observation records supersede historical reserved/predictive-unscored labels in immutable provenance snapshots. They do not change underlying rights or grant new training permission.",
+  "observations": [
+    {
+      "work_id": "mutopia-640",
+      "state": "predictive-observed",
+      "training_used": false,
+      "first_evaluation_cycle": 17,
+      "first_result_saved_at_utc": "2026-11-12T11:16:12.242517+00:00",
+      "source_sha256": "13ec851eb00ca9aba345cad50f03bdb3b189f566f38d094a1e6b839765b3d678",
+      "rights_snapshot": "datasets/research-adam640-reserved-20261112.json",
+      "frozen_plan": "experiments/2026-11-12-adam640-frozen-plan.json",
+      "result": "experiments/2026-11-12-adam640-results.json",
+      "result_sha256": "a6e08324a25301206500e1c408b807f06030ceca5c97820ccdd617faa08d9d37",
+      "future_use": "Observed diagnostic only unless explicitly reassigned to exploratory training with a new split ledger. Never call it fresh again. Retained rights snapshot is historical, not current evaluation status."
+    }
+  ]
+}
