@@ -1,0 +1,73 @@
+{
+  "recorded_utc": "2026-11-12T17:39:35.865983+00:00",
+  "status": "actual-training-use-confirmed",
+  "assignment": "research-maple-training-assignment-cycle45-20261112.json",
+  "assignment_sha256": "9643b23a6385b47284f3d1a5a305a8d24f51838406a246875d341a6c69c0e12b",
+  "plan_sha256": "882a6d62ec19c3400a5d2dabf9a7028f1919182b5872749168e032ab3b42864d",
+  "initial_fit_journal_sha256": "650f8177761ea593af88ce9b8f80e55a4ac230f4110e0f82f7f00aeb97285e59",
+  "initial_report_sha256": "dc4ba78e6d1e5146a7c6fa0275c77383f982b49f1da6832348d125f1253abed8",
+  "transition": {
+    "work_id": "mutopia-23",
+    "previous": "rights-reviewed-reserved-untrained-unscored",
+    "now": "training-used-cycle45",
+    "first_confirmed_conditions": [
+      "18_raw",
+      "18_equal_work",
+      "18_equal_family",
+      "18_natural_raw"
+    ],
+    "no_future_unobserved_role": true
+  },
+  "training_ids": [
+    "mutopia-376",
+    "mutopia-888",
+    "mutopia-889",
+    "mutopia-789",
+    "mutopia-583",
+    "mutopia-1578",
+    "mutopia-1558",
+    "mutopia-370",
+    "mutopia-98-legacy",
+    "mutopia-263-legacy",
+    "mutopia-904",
+    "mutopia-2080",
+    "mutopia-2060",
+    "mutopia-2061",
+    "mutopia-186",
+    "mutopia-487",
+    "mutopia-2243",
+    "mutopia-23"
+  ],
+  "counts": {
+    "training_works": 18,
+    "selected_notes": 5512,
+    "onset_groups": 4190,
+    "linked_source_series": 11
+  },
+  "archived_originals": {
+    "midi_files": 21,
+    "bytes": 167262,
+    "roles": {
+      "train": 18,
+      "observed_untrained_Dowland": 2,
+      "screen_blocked_Lully": 1,
+      "unused_Maple_reserve": 0
+    }
+  },
+  "observed_untrained": [
+    "640",
+    "921",
+    "21",
+    "1691"
+  ],
+  "pending_and_blocked_unchanged": true,
+  "groove": {
+    "train": 58,
+    "observed_untrained": 16,
+    "unscored_untrained": 1076
+  },
+  "prediction_evaluation_performed": false,
+  "human_ratings": "A-D unanswered; none fabricated",
+  "history": "Old reserve and17-work assignments remain immutable historical records; this use record supersedes latest role only. SameJoplin/Sawer/Stark family never crosses evaluation boundary. New fixed random seeds are not new independent evaluation music.",
+  "time_limit": "Recorded timestamp is ledger creation, not exact first fit time; completed bound-plan journal proves actual use."
+}

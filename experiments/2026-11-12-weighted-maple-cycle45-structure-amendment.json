@@ -1,0 +1,9 @@
+{
+  "reason": "Pre-fit review identified missing phrase structure/repetition descriptors beyond immediate pitch repeats.",
+  "old_unrun_plan_sha256": "156d2a29de9140f25b34f2a6025bcef63cc2b3ca5f0c63ec91d4bd05b074c6f8",
+  "new_plan_sha256": "07e0d775fb2c26c6b41aa9fb8767afe08cea625931e7bd2789da8c0eda5fa313",
+  "change": "Added fixed2bar occupancy/onsetcounts, exact signed anchorinterval equality with missing states and denominators, global3interval overlapping-window repetition. Measurement-only clipping, originals/generation unchanged.",
+  "real_fit": false,
+  "real_generation": false,
+  "tests_passed": 9
+}
