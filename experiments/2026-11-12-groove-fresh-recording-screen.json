@@ -1,0 +1,1851 @@
+{
+  "plan_sha256": "ddfb1daf77813e44a875fcc70def9e65367ce50aee1b18304f6535d3e199ea87",
+  "blocked": false,
+  "strong": [],
+  "hits": [
+    {
+      "a": "drummer7/session3/63",
+      "b": "drummer5/session1/16",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 6,
+      "a_unique_windows": 28,
+      "b_unique_windows": 3796,
+      "union_unique_windows": 3818,
+      "jaccard": 0.001571503404924044,
+      "containment_a": 0.21428571428571427,
+      "containment_b": 0.0015806111696522655,
+      "first_matching_event_indices": [
+        9,
+        2743
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer7/session3/63",
+      "b": "drummer5/session1/5",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 2,
+      "a_unique_windows": 28,
+      "b_unique_windows": 2066,
+      "union_unique_windows": 2092,
+      "jaccard": 0.0009560229445506692,
+      "containment_a": 0.07142857142857142,
+      "containment_b": 0.000968054211035818,
+      "first_matching_event_indices": [
+        9,
+        1952
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer7/session3/63",
+      "b": "drummer7/session1/17",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 1,
+      "a_unique_windows": 28,
+      "b_unique_windows": 629,
+      "union_unique_windows": 656,
+      "jaccard": 0.001524390243902439,
+      "containment_a": 0.03571428571428571,
+      "containment_b": 0.001589825119236884,
+      "first_matching_event_indices": [
+        9,
+        514
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer7/session3/63",
+      "b": "drummer7/session3/64",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 3,
+      "a_unique_windows": 28,
+      "b_unique_windows": 203,
+      "union_unique_windows": 228,
+      "jaccard": 0.013157894736842105,
+      "containment_a": 0.10714285714285714,
+      "containment_b": 0.014778325123152709,
+      "first_matching_event_indices": [
+        4,
+        125
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer7/session3/63",
+      "b": "drummer7/session3/81",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 4,
+      "a_unique_windows": 28,
+      "b_unique_windows": 18,
+      "union_unique_windows": 42,
+      "jaccard": 0.09523809523809523,
+      "containment_a": 0.14285714285714285,
+      "containment_b": 0.2222222222222222,
+      "first_matching_event_indices": [
+        9,
+        8
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer7/session3/63",
+      "b": "drummer9/session1/5",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 2,
+      "a_unique_windows": 28,
+      "b_unique_windows": 530,
+      "union_unique_windows": 556,
+      "jaccard": 0.0035971223021582736,
+      "containment_a": 0.07142857142857142,
+      "containment_b": 0.0037735849056603774,
+      "first_matching_event_indices": [
+        11,
+        325
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/5",
+      "b": "drummer1/session2/6",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 2,
+      "a_unique_windows": 585,
+      "b_unique_windows": 2011,
+      "union_unique_windows": 2594,
+      "jaccard": 0.0007710100231303007,
+      "containment_a": 0.003418803418803419,
+      "containment_b": 0.000994530084535057,
+      "first_matching_event_indices": [
+        265,
+        737
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/5",
+      "b": "drummer7/session1/13",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 1,
+      "a_unique_windows": 585,
+      "b_unique_windows": 880,
+      "union_unique_windows": 1464,
+      "jaccard": 0.0006830601092896175,
+      "containment_a": 0.0017094017094017094,
+      "containment_b": 0.0011363636363636363,
+      "first_matching_event_indices": [
+        935,
+        424
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/5",
+      "b": "drummer8/session1/3",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 56,
+      "a_unique_windows": 585,
+      "b_unique_windows": 265,
+      "union_unique_windows": 794,
+      "jaccard": 0.07052896725440806,
+      "containment_a": 0.09572649572649573,
+      "containment_b": 0.21132075471698114,
+      "first_matching_event_indices": [
+        42,
+        18
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/5",
+      "b": "drummer8/session1/4",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 116,
+      "a_unique_windows": 585,
+      "b_unique_windows": 585,
+      "union_unique_windows": 1054,
+      "jaccard": 0.11005692599620494,
+      "containment_a": 0.19829059829059828,
+      "containment_b": 0.19829059829059828,
+      "first_matching_event_indices": [
+        12,
+        832
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/5",
+      "b": "drummer8/session2/3",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 1,
+      "a_unique_windows": 585,
+      "b_unique_windows": 1848,
+      "union_unique_windows": 2432,
+      "jaccard": 0.00041118421052631577,
+      "containment_a": 0.0017094017094017094,
+      "containment_b": 0.0005411255411255411,
+      "first_matching_event_indices": [
+        638,
+        2146
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/5",
+      "b": "drummer8/session2/5",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 3,
+      "a_unique_windows": 585,
+      "b_unique_windows": 1715,
+      "union_unique_windows": 2297,
+      "jaccard": 0.00130605137135394,
+      "containment_a": 0.005128205128205128,
+      "containment_b": 0.001749271137026239,
+      "first_matching_event_indices": [
+        224,
+        304
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/5",
+      "b": "drummer8/session2/6",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 2,
+      "a_unique_windows": 585,
+      "b_unique_windows": 1792,
+      "union_unique_windows": 2375,
+      "jaccard": 0.0008421052631578948,
+      "containment_a": 0.003418803418803419,
+      "containment_b": 0.0011160714285714285,
+      "first_matching_event_indices": [
+        42,
+        314
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/19",
+      "b": "drummer1/session1/47",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 6,
+      "a_unique_windows": 2002,
+      "b_unique_windows": 1039,
+      "union_unique_windows": 3035,
+      "jaccard": 0.0019769357495881385,
+      "containment_a": 0.002997002997002997,
+      "containment_b": 0.005774783445620789,
+      "first_matching_event_indices": [
+        1532,
+        619
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/19",
+      "b": "drummer1/session3/10",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 5,
+      "a_unique_windows": 2002,
+      "b_unique_windows": 1876,
+      "union_unique_windows": 3873,
+      "jaccard": 0.0012909888974954814,
+      "containment_a": 0.0024975024975024975,
+      "containment_b": 0.0026652452025586353,
+      "first_matching_event_indices": [
+        1532,
+        423
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/19",
+      "b": "drummer5/session1/11",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 1,
+      "a_unique_windows": 2002,
+      "b_unique_windows": 1054,
+      "union_unique_windows": 3055,
+      "jaccard": 0.0003273322422258593,
+      "containment_a": 0.0004995004995004995,
+      "containment_b": 0.0009487666034155598,
+      "first_matching_event_indices": [
+        777,
+        1632
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/19",
+      "b": "drummer5/session1/14",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 1,
+      "a_unique_windows": 2002,
+      "b_unique_windows": 4240,
+      "union_unique_windows": 6241,
+      "jaccard": 0.0001602307322544464,
+      "containment_a": 0.0004995004995004995,
+      "containment_b": 0.0002358490566037736,
+      "first_matching_event_indices": [
+        546,
+        3660
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/19",
+      "b": "drummer5/session1/19",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 1,
+      "a_unique_windows": 2002,
+      "b_unique_windows": 2238,
+      "union_unique_windows": 4239,
+      "jaccard": 0.00023590469450342062,
+      "containment_a": 0.0004995004995004995,
+      "containment_b": 0.00044682752457551384,
+      "first_matching_event_indices": [
+        38,
+        1190
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/19",
+      "b": "drummer5/session1/2",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 21,
+      "a_unique_windows": 2002,
+      "b_unique_windows": 6640,
+      "union_unique_windows": 8621,
+      "jaccard": 0.0024359123071569424,
+      "containment_a": 0.01048951048951049,
+      "containment_b": 0.0031626506024096386,
+      "first_matching_event_indices": [
+        518,
+        5795
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/19",
+      "b": "drummer5/session1/3",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 5,
+      "a_unique_windows": 2002,
+      "b_unique_windows": 1546,
+      "union_unique_windows": 3543,
+      "jaccard": 0.0014112334180073384,
+      "containment_a": 0.0024975024975024975,
+      "containment_b": 0.003234152652005175,
+      "first_matching_event_indices": [
+        546,
+        436
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/19",
+      "b": "drummer5/session1/4",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 5,
+      "a_unique_windows": 2002,
+      "b_unique_windows": 1411,
+      "union_unique_windows": 3408,
+      "jaccard": 0.0014671361502347417,
+      "containment_a": 0.0024975024975024975,
+      "containment_b": 0.003543586109142452,
+      "first_matching_event_indices": [
+        546,
+        2082
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/19",
+      "b": "drummer5/session1/5",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 8,
+      "a_unique_windows": 2002,
+      "b_unique_windows": 2066,
+      "union_unique_windows": 4060,
+      "jaccard": 0.0019704433497536944,
+      "containment_a": 0.003996003996003996,
+      "containment_b": 0.003872216844143272,
+      "first_matching_event_indices": [
+        545,
+        506
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/19",
+      "b": "drummer5/session1/6",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 5,
+      "a_unique_windows": 2002,
+      "b_unique_windows": 1833,
+      "union_unique_windows": 3830,
+      "jaccard": 0.0013054830287206266,
+      "containment_a": 0.0024975024975024975,
+      "containment_b": 0.002727768685215494,
+      "first_matching_event_indices": [
+        1532,
+        777
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/19",
+      "b": "drummer5/session1/7",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 9,
+      "a_unique_windows": 2002,
+      "b_unique_windows": 2858,
+      "union_unique_windows": 4851,
+      "jaccard": 0.0018552875695732839,
+      "containment_a": 0.004495504495504496,
+      "containment_b": 0.0031490552834149755,
+      "first_matching_event_indices": [
+        525,
+        2406
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/19",
+      "b": "drummer5/session2/17",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 3,
+      "a_unique_windows": 2002,
+      "b_unique_windows": 1557,
+      "union_unique_windows": 3556,
+      "jaccard": 0.000843644544431946,
+      "containment_a": 0.0014985014985014985,
+      "containment_b": 0.0019267822736030828,
+      "first_matching_event_indices": [
+        556,
+        1000
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/19",
+      "b": "drummer5/session2/22",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 3,
+      "a_unique_windows": 2002,
+      "b_unique_windows": 1886,
+      "union_unique_windows": 3885,
+      "jaccard": 0.0007722007722007722,
+      "containment_a": 0.0014985014985014985,
+      "containment_b": 0.0015906680805938495,
+      "first_matching_event_indices": [
+        1534,
+        1359
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/19",
+      "b": "drummer5/session2/23",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 8,
+      "a_unique_windows": 2002,
+      "b_unique_windows": 1328,
+      "union_unique_windows": 3322,
+      "jaccard": 0.002408187838651415,
+      "containment_a": 0.003996003996003996,
+      "containment_b": 0.006024096385542169,
+      "first_matching_event_indices": [
+        545,
+        206
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/19",
+      "b": "drummer5/session2/6",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 4,
+      "a_unique_windows": 2002,
+      "b_unique_windows": 2560,
+      "union_unique_windows": 4558,
+      "jaccard": 0.0008775778850372971,
+      "containment_a": 0.001998001998001998,
+      "containment_b": 0.0015625,
+      "first_matching_event_indices": [
+        1531,
+        605
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/19",
+      "b": "drummer5/session2/7",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 10,
+      "a_unique_windows": 2002,
+      "b_unique_windows": 1233,
+      "union_unique_windows": 3225,
+      "jaccard": 0.0031007751937984496,
+      "containment_a": 0.004995004995004995,
+      "containment_b": 0.008110300081103,
+      "first_matching_event_indices": [
+        524,
+        218
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/19",
+      "b": "drummer5/session2/9",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 1,
+      "a_unique_windows": 2002,
+      "b_unique_windows": 1267,
+      "union_unique_windows": 3268,
+      "jaccard": 0.0003059975520195838,
+      "containment_a": 0.0004995004995004995,
+      "containment_b": 0.0007892659826361484,
+      "first_matching_event_indices": [
+        518,
+        1090
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/19",
+      "b": "drummer7/session1/12",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 2,
+      "a_unique_windows": 2002,
+      "b_unique_windows": 487,
+      "union_unique_windows": 2487,
+      "jaccard": 0.0008041817450743868,
+      "containment_a": 0.000999000999000999,
+      "containment_b": 0.004106776180698152,
+      "first_matching_event_indices": [
+        416,
+        39
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/19",
+      "b": "drummer7/session1/13",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 1,
+      "a_unique_windows": 2002,
+      "b_unique_windows": 880,
+      "union_unique_windows": 2881,
+      "jaccard": 0.0003471017007983339,
+      "containment_a": 0.0004995004995004995,
+      "containment_b": 0.0011363636363636363,
+      "first_matching_event_indices": [
+        416,
+        559
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/19",
+      "b": "drummer7/session2/15",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 2,
+      "a_unique_windows": 2002,
+      "b_unique_windows": 991,
+      "union_unique_windows": 2991,
+      "jaccard": 0.0006686726847208291,
+      "containment_a": 0.000999000999000999,
+      "containment_b": 0.0020181634712411706,
+      "first_matching_event_indices": [
+        557,
+        534
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/19",
+      "b": "drummer7/session2/26",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 1,
+      "a_unique_windows": 2002,
+      "b_unique_windows": 367,
+      "union_unique_windows": 2368,
+      "jaccard": 0.0004222972972972973,
+      "containment_a": 0.0004995004995004995,
+      "containment_b": 0.0027247956403269754,
+      "first_matching_event_indices": [
+        1536,
+        19
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/19",
+      "b": "drummer7/session2/72",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 7,
+      "a_unique_windows": 2002,
+      "b_unique_windows": 561,
+      "union_unique_windows": 2556,
+      "jaccard": 0.0027386541471048514,
+      "containment_a": 0.0034965034965034965,
+      "containment_b": 0.012477718360071301,
+      "first_matching_event_indices": [
+        121,
+        1
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/19",
+      "b": "drummer7/session2/79",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 3,
+      "a_unique_windows": 2002,
+      "b_unique_windows": 204,
+      "union_unique_windows": 2203,
+      "jaccard": 0.0013617793917385383,
+      "containment_a": 0.0014985014985014985,
+      "containment_b": 0.014705882352941176,
+      "first_matching_event_indices": [
+        121,
+        210
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/19",
+      "b": "drummer7/session2/80",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 3,
+      "a_unique_windows": 2002,
+      "b_unique_windows": 630,
+      "union_unique_windows": 2629,
+      "jaccard": 0.0011411182959300114,
+      "containment_a": 0.0014985014985014985,
+      "containment_b": 0.004761904761904762,
+      "first_matching_event_indices": [
+        545,
+        261
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/19",
+      "b": "drummer7/session3/106",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 3,
+      "a_unique_windows": 2002,
+      "b_unique_windows": 484,
+      "union_unique_windows": 2483,
+      "jaccard": 0.0012082158679017317,
+      "containment_a": 0.0014985014985014985,
+      "containment_b": 0.006198347107438017,
+      "first_matching_event_indices": [
+        545,
+        427
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/19",
+      "b": "drummer7/session3/127",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 3,
+      "a_unique_windows": 2002,
+      "b_unique_windows": 28,
+      "union_unique_windows": 2027,
+      "jaccard": 0.0014800197335964479,
+      "containment_a": 0.0014985014985014985,
+      "containment_b": 0.10714285714285714,
+      "first_matching_event_indices": [
+        1531,
+        23
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/19",
+      "b": "drummer7/session3/130",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 1,
+      "a_unique_windows": 2002,
+      "b_unique_windows": 210,
+      "union_unique_windows": 2211,
+      "jaccard": 0.0004522840343735866,
+      "containment_a": 0.0004995004995004995,
+      "containment_b": 0.004761904761904762,
+      "first_matching_event_indices": [
+        186,
+        123
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/19",
+      "b": "drummer7/session3/33",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 1,
+      "a_unique_windows": 2002,
+      "b_unique_windows": 28,
+      "union_unique_windows": 2029,
+      "jaccard": 0.0004928536224741252,
+      "containment_a": 0.0004995004995004995,
+      "containment_b": 0.03571428571428571,
+      "first_matching_event_indices": [
+        550,
+        7
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/19",
+      "b": "drummer7/session3/67",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 10,
+      "a_unique_windows": 2002,
+      "b_unique_windows": 1263,
+      "union_unique_windows": 3255,
+      "jaccard": 0.0030721966205837174,
+      "containment_a": 0.004995004995004995,
+      "containment_b": 0.00791765637371338,
+      "first_matching_event_indices": [
+        245,
+        903
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/19",
+      "b": "drummer8/session1/11",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 1,
+      "a_unique_windows": 2002,
+      "b_unique_windows": 1252,
+      "union_unique_windows": 3253,
+      "jaccard": 0.0003074085459575776,
+      "containment_a": 0.0004995004995004995,
+      "containment_b": 0.0007987220447284345,
+      "first_matching_event_indices": [
+        1512,
+        83
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/19",
+      "b": "drummer8/session1/18",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 33,
+      "a_unique_windows": 2002,
+      "b_unique_windows": 1652,
+      "union_unique_windows": 3621,
+      "jaccard": 0.009113504556752278,
+      "containment_a": 0.016483516483516484,
+      "containment_b": 0.019975786924939468,
+      "first_matching_event_indices": [
+        28,
+        553
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/19",
+      "b": "drummer8/session1/21",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 7,
+      "a_unique_windows": 2002,
+      "b_unique_windows": 926,
+      "union_unique_windows": 2921,
+      "jaccard": 0.002396439575487847,
+      "containment_a": 0.0034965034965034965,
+      "containment_b": 0.00755939524838013,
+      "first_matching_event_indices": [
+        545,
+        857
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/19",
+      "b": "drummer8/session1/22",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 4,
+      "a_unique_windows": 2002,
+      "b_unique_windows": 2388,
+      "union_unique_windows": 4386,
+      "jaccard": 0.0009119927040583675,
+      "containment_a": 0.001998001998001998,
+      "containment_b": 0.0016750418760469012,
+      "first_matching_event_indices": [
+        114,
+        2146
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/19",
+      "b": "drummer8/session1/24",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 6,
+      "a_unique_windows": 2002,
+      "b_unique_windows": 1557,
+      "union_unique_windows": 3553,
+      "jaccard": 0.0016887137630171687,
+      "containment_a": 0.002997002997002997,
+      "containment_b": 0.0038535645472061657,
+      "first_matching_event_indices": [
+        53,
+        1166
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/19",
+      "b": "drummer8/session1/25",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 12,
+      "a_unique_windows": 2002,
+      "b_unique_windows": 962,
+      "union_unique_windows": 2952,
+      "jaccard": 0.0040650406504065045,
+      "containment_a": 0.005994005994005994,
+      "containment_b": 0.012474012474012475,
+      "first_matching_event_indices": [
+        117,
+        902
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/19",
+      "b": "drummer8/session1/26",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 1,
+      "a_unique_windows": 2002,
+      "b_unique_windows": 2176,
+      "union_unique_windows": 4177,
+      "jaccard": 0.00023940627244433804,
+      "containment_a": 0.0004995004995004995,
+      "containment_b": 0.00045955882352941176,
+      "first_matching_event_indices": [
+        592,
+        868
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/19",
+      "b": "drummer8/session2/1",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 14,
+      "a_unique_windows": 2002,
+      "b_unique_windows": 1569,
+      "union_unique_windows": 3557,
+      "jaccard": 0.003935901040202418,
+      "containment_a": 0.006993006993006993,
+      "containment_b": 0.008922880815806247,
+      "first_matching_event_indices": [
+        26,
+        250
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/19",
+      "b": "drummer8/session2/10",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 3,
+      "a_unique_windows": 2002,
+      "b_unique_windows": 941,
+      "union_unique_windows": 2940,
+      "jaccard": 0.0010204081632653062,
+      "containment_a": 0.0014985014985014985,
+      "containment_b": 0.003188097768331562,
+      "first_matching_event_indices": [
+        536,
+        948
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/19",
+      "b": "drummer8/session2/16",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 4,
+      "a_unique_windows": 2002,
+      "b_unique_windows": 655,
+      "union_unique_windows": 2653,
+      "jaccard": 0.0015077271013946476,
+      "containment_a": 0.001998001998001998,
+      "containment_b": 0.0061068702290076335,
+      "first_matching_event_indices": [
+        545,
+        713
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/19",
+      "b": "drummer8/session2/19",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 4,
+      "a_unique_windows": 2002,
+      "b_unique_windows": 1612,
+      "union_unique_windows": 3610,
+      "jaccard": 0.00110803324099723,
+      "containment_a": 0.001998001998001998,
+      "containment_b": 0.0024813895781637717,
+      "first_matching_event_indices": [
+        529,
+        1427
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/19",
+      "b": "drummer8/session2/2",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 14,
+      "a_unique_windows": 2002,
+      "b_unique_windows": 3325,
+      "union_unique_windows": 5313,
+      "jaccard": 0.002635046113306983,
+      "containment_a": 0.006993006993006993,
+      "containment_b": 0.004210526315789474,
+      "first_matching_event_indices": [
+        545,
+        2150
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/19",
+      "b": "drummer8/session2/25",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 1,
+      "a_unique_windows": 2002,
+      "b_unique_windows": 1079,
+      "union_unique_windows": 3080,
+      "jaccard": 0.0003246753246753247,
+      "containment_a": 0.0004995004995004995,
+      "containment_b": 0.0009267840593141798,
+      "first_matching_event_indices": [
+        29,
+        298
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/19",
+      "b": "drummer8/session2/28",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 6,
+      "a_unique_windows": 2002,
+      "b_unique_windows": 1915,
+      "union_unique_windows": 3911,
+      "jaccard": 0.001534134492457172,
+      "containment_a": 0.002997002997002997,
+      "containment_b": 0.003133159268929504,
+      "first_matching_event_indices": [
+        539,
+        1885
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/19",
+      "b": "drummer8/session2/3",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 3,
+      "a_unique_windows": 2002,
+      "b_unique_windows": 1848,
+      "union_unique_windows": 3847,
+      "jaccard": 0.0007798284377436964,
+      "containment_a": 0.0014985014985014985,
+      "containment_b": 0.0016233766233766235,
+      "first_matching_event_indices": [
+        1407,
+        1492
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/19",
+      "b": "drummer8/session2/31",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 2,
+      "a_unique_windows": 2002,
+      "b_unique_windows": 975,
+      "union_unique_windows": 2975,
+      "jaccard": 0.0006722689075630252,
+      "containment_a": 0.000999000999000999,
+      "containment_b": 0.0020512820512820513,
+      "first_matching_event_indices": [
+        519,
+        897
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/19",
+      "b": "drummer8/session2/34",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 5,
+      "a_unique_windows": 2002,
+      "b_unique_windows": 1610,
+      "union_unique_windows": 3607,
+      "jaccard": 0.0013861935126143609,
+      "containment_a": 0.0024975024975024975,
+      "containment_b": 0.003105590062111801,
+      "first_matching_event_indices": [
+        85,
+        1171
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/19",
+      "b": "drummer8/session2/35",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 2,
+      "a_unique_windows": 2002,
+      "b_unique_windows": 1558,
+      "union_unique_windows": 3558,
+      "jaccard": 0.0005621135469364812,
+      "containment_a": 0.000999000999000999,
+      "containment_b": 0.0012836970474967907,
+      "first_matching_event_indices": [
+        525,
+        724
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/19",
+      "b": "drummer8/session2/38",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 1,
+      "a_unique_windows": 2002,
+      "b_unique_windows": 1008,
+      "union_unique_windows": 3009,
+      "jaccard": 0.00033233632436025255,
+      "containment_a": 0.0004995004995004995,
+      "containment_b": 0.000992063492063492,
+      "first_matching_event_indices": [
+        250,
+        562
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/19",
+      "b": "drummer8/session2/4",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 13,
+      "a_unique_windows": 2002,
+      "b_unique_windows": 2102,
+      "union_unique_windows": 4091,
+      "jaccard": 0.0031777071620630653,
+      "containment_a": 0.006493506493506494,
+      "containment_b": 0.006184586108468126,
+      "first_matching_event_indices": [
+        308,
+        1355
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/19",
+      "b": "drummer8/session2/42",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 2,
+      "a_unique_windows": 2002,
+      "b_unique_windows": 1206,
+      "union_unique_windows": 3206,
+      "jaccard": 0.0006238303181534623,
+      "containment_a": 0.000999000999000999,
+      "containment_b": 0.001658374792703151,
+      "first_matching_event_indices": [
+        261,
+        872
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/19",
+      "b": "drummer8/session2/6",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 1,
+      "a_unique_windows": 2002,
+      "b_unique_windows": 1792,
+      "union_unique_windows": 3793,
+      "jaccard": 0.0002636435539151068,
+      "containment_a": 0.0004995004995004995,
+      "containment_b": 0.0005580357142857143,
+      "first_matching_event_indices": [
+        541,
+        249
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/19",
+      "b": "drummer8/session2/7",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 6,
+      "a_unique_windows": 2002,
+      "b_unique_windows": 1333,
+      "union_unique_windows": 3329,
+      "jaccard": 0.0018023430459597476,
+      "containment_a": 0.002997002997002997,
+      "containment_b": 0.00450112528132033,
+      "first_matching_event_indices": [
+        545,
+        1720
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer8/session1/19",
+      "b": "drummer8/session2/8",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 1,
+      "a_unique_windows": 2002,
+      "b_unique_windows": 1230,
+      "union_unique_windows": 3231,
+      "jaccard": 0.00030950170225936243,
+      "containment_a": 0.0004995004995004995,
+      "containment_b": 0.0008130081300813008,
+      "first_matching_event_indices": [
+        549,
+        1169
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer9/session1/6",
+      "b": "drummer5/session1/20",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 1,
+      "a_unique_windows": 31,
+      "b_unique_windows": 2840,
+      "union_unique_windows": 2870,
+      "jaccard": 0.0003484320557491289,
+      "containment_a": 0.03225806451612903,
+      "containment_b": 0.00035211267605633805,
+      "first_matching_event_indices": [
+        24,
+        414
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer9/session1/2",
+      "b": "drummer1/session1/129",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 1,
+      "a_unique_windows": 308,
+      "b_unique_windows": 14,
+      "union_unique_windows": 321,
+      "jaccard": 0.003115264797507788,
+      "containment_a": 0.003246753246753247,
+      "containment_b": 0.07142857142857142,
+      "first_matching_event_indices": [
+        242,
+        2
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer9/session1/2",
+      "b": "drummer1/session1/163",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 1,
+      "a_unique_windows": 308,
+      "b_unique_windows": 19,
+      "union_unique_windows": 326,
+      "jaccard": 0.003067484662576687,
+      "containment_a": 0.003246753246753247,
+      "containment_b": 0.05263157894736842,
+      "first_matching_event_indices": [
+        242,
+        8
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer9/session1/2",
+      "b": "drummer1/session1/74",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 4,
+      "a_unique_windows": 308,
+      "b_unique_windows": 10,
+      "union_unique_windows": 314,
+      "jaccard": 0.012738853503184714,
+      "containment_a": 0.012987012987012988,
+      "containment_b": 0.4,
+      "first_matching_event_indices": [
+        236,
+        4
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer9/session1/2",
+      "b": "drummer1/session3/18",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 1,
+      "a_unique_windows": 308,
+      "b_unique_windows": 946,
+      "union_unique_windows": 1253,
+      "jaccard": 0.0007980845969672786,
+      "containment_a": 0.003246753246753247,
+      "containment_b": 0.0010570824524312897,
+      "first_matching_event_indices": [
+        40,
+        489
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer9/session1/2",
+      "b": "drummer5/session1/19",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 2,
+      "a_unique_windows": 308,
+      "b_unique_windows": 2238,
+      "union_unique_windows": 2544,
+      "jaccard": 0.0007861635220125787,
+      "containment_a": 0.006493506493506494,
+      "containment_b": 0.0008936550491510277,
+      "first_matching_event_indices": [
+        31,
+        38
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer9/session1/2",
+      "b": "drummer7/session2/115",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 1,
+      "a_unique_windows": 308,
+      "b_unique_windows": 452,
+      "union_unique_windows": 759,
+      "jaccard": 0.0013175230566534915,
+      "containment_a": 0.003246753246753247,
+      "containment_b": 0.0022123893805309734,
+      "first_matching_event_indices": [
+        180,
+        48
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer9/session1/2",
+      "b": "drummer8/session2/24",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 1,
+      "a_unique_windows": 308,
+      "b_unique_windows": 1534,
+      "union_unique_windows": 1841,
+      "jaccard": 0.0005431830526887561,
+      "containment_a": 0.003246753246753247,
+      "containment_b": 0.000651890482398957,
+      "first_matching_event_indices": [
+        201,
+        227
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer9/session1/2",
+      "b": "drummer9/session1/1",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 4,
+      "a_unique_windows": 308,
+      "b_unique_windows": 314,
+      "union_unique_windows": 618,
+      "jaccard": 0.006472491909385114,
+      "containment_a": 0.012987012987012988,
+      "containment_b": 0.012738853503184714,
+      "first_matching_event_indices": [
+        58,
+        47
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer9/session1/2",
+      "b": "drummer9/session1/24",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 3,
+      "a_unique_windows": 308,
+      "b_unique_windows": 459,
+      "union_unique_windows": 764,
+      "jaccard": 0.003926701570680628,
+      "containment_a": 0.00974025974025974,
+      "containment_b": 0.006535947712418301,
+      "first_matching_event_indices": [
+        25,
+        133
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer9/session1/2",
+      "b": "drummer9/session1/25",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 4,
+      "a_unique_windows": 308,
+      "b_unique_windows": 236,
+      "union_unique_windows": 540,
+      "jaccard": 0.007407407407407408,
+      "containment_a": 0.012987012987012988,
+      "containment_b": 0.01694915254237288,
+      "first_matching_event_indices": [
+        55,
+        25
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer9/session1/2",
+      "b": "drummer9/session1/3",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 3,
+      "a_unique_windows": 308,
+      "b_unique_windows": 376,
+      "union_unique_windows": 681,
+      "jaccard": 0.004405286343612335,
+      "containment_a": 0.00974025974025974,
+      "containment_b": 0.007978723404255319,
+      "first_matching_event_indices": [
+        25,
+        178
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer9/session1/2",
+      "b": "drummer9/session1/5",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 3,
+      "a_unique_windows": 308,
+      "b_unique_windows": 530,
+      "union_unique_windows": 835,
+      "jaccard": 0.003592814371257485,
+      "containment_a": 0.00974025974025974,
+      "containment_b": 0.005660377358490566,
+      "first_matching_event_indices": [
+        156,
+        357
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer9/session1/2",
+      "b": "drummer9/session1/9",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 2,
+      "a_unique_windows": 308,
+      "b_unique_windows": 55,
+      "union_unique_windows": 361,
+      "jaccard": 0.00554016620498615,
+      "containment_a": 0.006493506493506494,
+      "containment_b": 0.03636363636363636,
+      "first_matching_event_indices": [
+        46,
+        42
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer10/session1/1",
+      "b": "drummer1/session1/47",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 4,
+      "a_unique_windows": 1026,
+      "b_unique_windows": 1039,
+      "union_unique_windows": 2061,
+      "jaccard": 0.0019408054342552159,
+      "containment_a": 0.003898635477582846,
+      "containment_b": 0.0038498556304138597,
+      "first_matching_event_indices": [
+        744,
+        15
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer10/session1/1",
+      "b": "drummer1/session1/48",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 4,
+      "a_unique_windows": 1026,
+      "b_unique_windows": 441,
+      "union_unique_windows": 1463,
+      "jaccard": 0.002734107997265892,
+      "containment_a": 0.003898635477582846,
+      "containment_b": 0.009070294784580499,
+      "first_matching_event_indices": [
+        744,
+        13
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer10/session1/1",
+      "b": "drummer1/session1/49",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 4,
+      "a_unique_windows": 1026,
+      "b_unique_windows": 766,
+      "union_unique_windows": 1788,
+      "jaccard": 0.0022371364653243847,
+      "containment_a": 0.003898635477582846,
+      "containment_b": 0.005221932114882507,
+      "first_matching_event_indices": [
+        744,
+        37
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer10/session1/1",
+      "b": "drummer1/session1/51",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 4,
+      "a_unique_windows": 1026,
+      "b_unique_windows": 1339,
+      "union_unique_windows": 2361,
+      "jaccard": 0.0016941973739940702,
+      "containment_a": 0.003898635477582846,
+      "containment_b": 0.002987303958177745,
+      "first_matching_event_indices": [
+        162,
+        357
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer10/session1/1",
+      "b": "drummer1/session1/52",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 5,
+      "a_unique_windows": 1026,
+      "b_unique_windows": 728,
+      "union_unique_windows": 1749,
+      "jaccard": 0.002858776443682104,
+      "containment_a": 0.004873294346978557,
+      "containment_b": 0.006868131868131868,
+      "first_matching_event_indices": [
+        743,
+        2
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer10/session1/1",
+      "b": "drummer1/session1/77",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 7,
+      "a_unique_windows": 1026,
+      "b_unique_windows": 1246,
+      "union_unique_windows": 2265,
+      "jaccard": 0.0030905077262693157,
+      "containment_a": 0.00682261208576998,
+      "containment_b": 0.0056179775280898875,
+      "first_matching_event_indices": [
+        744,
+        32
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer10/session1/1",
+      "b": "drummer1/session3/4",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 2,
+      "a_unique_windows": 1026,
+      "b_unique_windows": 2648,
+      "union_unique_windows": 3672,
+      "jaccard": 0.0005446623093681918,
+      "containment_a": 0.001949317738791423,
+      "containment_b": 0.0007552870090634441,
+      "first_matching_event_indices": [
+        744,
+        15
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer10/session1/1",
+      "b": "drummer1/session3/9",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 1,
+      "a_unique_windows": 1026,
+      "b_unique_windows": 1864,
+      "union_unique_windows": 2889,
+      "jaccard": 0.00034614053305642093,
+      "containment_a": 0.0009746588693957114,
+      "containment_b": 0.000536480686695279,
+      "first_matching_event_indices": [
+        993,
+        1208
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer10/session1/1",
+      "b": "drummer10/session1/2",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 1,
+      "a_unique_windows": 1026,
+      "b_unique_windows": 869,
+      "union_unique_windows": 1894,
+      "jaccard": 0.0005279831045406547,
+      "containment_a": 0.0009746588693957114,
+      "containment_b": 0.0011507479861910242,
+      "first_matching_event_indices": [
+        414,
+        651
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer10/session1/1",
+      "b": "drummer10/session1/3",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 10,
+      "a_unique_windows": 1026,
+      "b_unique_windows": 347,
+      "union_unique_windows": 1363,
+      "jaccard": 0.007336757153338224,
+      "containment_a": 0.009746588693957114,
+      "containment_b": 0.02881844380403458,
+      "first_matching_event_indices": [
+        744,
+        4
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer10/session1/1",
+      "b": "drummer10/session1/5",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 1,
+      "a_unique_windows": 1026,
+      "b_unique_windows": 617,
+      "union_unique_windows": 1642,
+      "jaccard": 0.0006090133982947625,
+      "containment_a": 0.0009746588693957114,
+      "containment_b": 0.0016207455429497568,
+      "first_matching_event_indices": [
+        551,
+        264
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    },
+    {
+      "a": "drummer10/session1/1",
+      "b": "drummer9/session1/20",
+      "exact_bytes": false,
+      "exact_onset_key": false,
+      "tempo_offset_normalized": false,
+      "shared_unique_windows": 2,
+      "a_unique_windows": 1026,
+      "b_unique_windows": 1055,
+      "union_unique_windows": 2079,
+      "jaccard": 0.000962000962000962,
+      "containment_a": 0.001949317738791423,
+      "containment_b": 0.0018957345971563982,
+      "first_matching_event_indices": [
+        134,
+        152
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": false
+    }
+  ],
+  "comparisons": 8872,
+  "source_hashes_verified": true,
+  "cpu_seconds": 8.911871746,
+  "prediction_performed": false
+}

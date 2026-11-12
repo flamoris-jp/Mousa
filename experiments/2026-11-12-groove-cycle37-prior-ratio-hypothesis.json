@@ -1,0 +1,17 @@
+{
+  "created_at_utc": "2026-11-12T15:20:30.445565+00:00",
+  "status": "Optional prospective hypothesis only; not implemented or scored; defer pending parent judgment.",
+  "evidence": "experiments/2026-11-12-groove-cycle37-results.json",
+  "evidence_sha256": "6fd3c34470fd1a18e3251f3fd787f0539757a0871c8048f5155fc33ddc197879",
+  "question": "How much of the exact-unigram still-unseen penalty follows solely from reduced effective prior weight rather than the empirical distribution change?",
+  "limited_design": "Predictive-only exact-unigram ablation on unchanged12/35 train sets. Compare fixed prior mass1 versus prior mass N/5034 (ratio anchored to the original training event count). At baseline these coincide; at expanded size the latter preserves prior mixture weight1/5035. All30721 exact tick outcomes remain positive.",
+  "formula": "P(dt)=(count(dt)+(N/5034)/30721)/(N+N/5034). No outcome-dependent adaptation, diagnostic-chosen k, or new source selection.",
+  "controls": "Reproduce fixed-prior12/35 historical unigram first. Freeze formula/code/sources and normalization tests before any new scoring. Report per-recording/drummer and pooled results even when worse.",
+  "limits": [
+    "This hypothesis was motivated by these already observed diagnostics, not an independent validation result.",
+    "It changes smoothing allocation deliberately and cannot establish musical quality or a generally optimal prior.",
+    "Do not apply it to any new reserved recording without a separate explicit pre-score plan and authorization.",
+    "Do not extend the formula to contextual or quotient/residual models without separately specifying their component priors."
+  ],
+  "action": "No implementation or run in Cycle37; frozen-model evaluation on separately screened unscored recordings remains a distinct parent task."
+}

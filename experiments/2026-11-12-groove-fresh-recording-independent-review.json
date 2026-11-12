@@ -1,0 +1,45 @@
+{
+  "status": "pass-for-bound-predictive-probe",
+  "review_scope": "Independent code/plan/screen/role review only; no model fit or predictive call by reviewer.",
+  "checked_hashes": {
+    "tools/groove_fresh_recording_probe.py": "af8425fa2ec749ea71c44409d7df322c719661f7ea3733f011ddc7378af77929",
+    "tests/test_groove_fresh_probe.py": "f99dc094bfa0fca2ee978400475118c2b0a1504939cac3240c5bab8d75260f1f",
+    "experiments/2026-11-12-groove-fresh-recording-plan.json": "ddfb1daf77813e44a875fcc70def9e65367ce50aee1b18304f6535d3e199ea87",
+    "tools/groove_cycle36_fit.py": "372e5e20d89469844d726875a696d7826707541218f7a89c5b877db204309b1d",
+    "tools/prepare_groove_split.py": "430e561781a676d63ffbeae4a322b52052ed453d8f14280a82bb84d9275b3aa8",
+    "datasets/research-groove-usage-cycle36-20261112.json": "72894b08c8d508d21c8229584f3f0915d5e5b6fa8b12d14f71280d4df5b4f42d"
+  },
+  "screen_sha256": "bc5dc4aae9d315bbee5846923b1fa77712185233991d8a2fe995feacc403823b",
+  "checks": {
+    "all_frozen_hashes_match": true,
+    "inventory_hash_match": true,
+    "selection_recomputed_from_full_inventory": true,
+    "ids_and_bytes_disjoint_prior_train_observed_aliases": true,
+    "ids_and_bytes_disjoint_actual_usage": true,
+    "selected_unique_hashes": 8,
+    "recordings": 8,
+    "events": 4779,
+    "per_drummer_records": 2,
+    "whole_recordings_no_truncation": true,
+    "screen_comparisons": 8872,
+    "strong_flags": 0,
+    "weak_hit_records": 92,
+    "standalone_tests_pass": 2
+  },
+  "code_review": [
+    "prepare selects by immutable hash then ID before scores and excludes all eval_session rows. No score-guided replacement.",
+    "Screen checks actual bytes/counts for inventory, allselected versus allnon-eval including mutualselected comparisons;stronganyblockswholecohort. Unsupported selected IOIs block.",
+    "Run requires exactplan+screen clearance, freezes alloldmodels/rights/usage;baseline12 and35fitonlyexistingtrainIDs. Freshrecordings enter evaluate only.",
+    "construct_journaled appends fitstages beforeconstruction;prediction-progress retains cumulative started/completed stages across all12condition/model combinations. An evaluation failure leaves started entry, not falsely completed.",
+    "Every evaluated record produces per-recording and per-drummer summaries plus pooled and macro recording means;no skipped record denominator hidden on success."
+  ],
+  "limitations": [
+    "Fresh recordings, not fresh performers; prior models were developed against other recordings of the same heldout performers.",
+    "Hash order is deterministic but not a representative genre sample: selected validation recordings have12/36/1016/2116events; pooled and macro means weight these very differently.",
+    "92weak pattern-hit records remain,screen is not proof of full musical independence.",
+    "RuntimeCPUbudget checks bound operations,not hardpreemption inside evaluate/construct. Partial evaluation status must be retained and any started fresh recording markedobserved even if runfails.",
+    "Current frozen known-role snapshot is appropriate for this probe;future probes must rebuild exclusions from appended usage rather than reuse this oldfresh plan."
+  ],
+  "required_code_changes": [],
+  "prediction_performed": false
+}

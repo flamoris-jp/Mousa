@@ -1,0 +1,209 @@
+{
+  "recorded_at_utc": "2026-11-12T15:23:54.656354+00:00",
+  "scope": "Actual successful fresh-recording prediction only; original training35unchanged, no newly fitted source.",
+  "prior_usage": "datasets/research-groove-usage-cycle36-20261112.json",
+  "prior_usage_sha256": "72894b08c8d508d21c8229584f3f0915d5e5b6fa8b12d14f71280d4df5b4f42d",
+  "plan_sha256": "ddfb1daf77813e44a875fcc70def9e65367ce50aee1b18304f6535d3e199ea87",
+  "results_sha256": "bfc6ddaae95c32ebbcf6f38de07fc1a3f76657abc9f40a76c6818d30b3edcd72",
+  "training_records": 35,
+  "training_events": 19409,
+  "previous_observed_records": 8,
+  "newly_observed_records": 8,
+  "total_observed_untrained_records": 16,
+  "total_observed_untrained_events": 11387,
+  "remaining_unscored_untrained_records": 1099,
+  "remaining_breakdown": {
+    "reserved_eval_session": 40,
+    "excluded_duplicate_alias": 1,
+    "other": 1058
+  },
+  "newly_observed_sources": [
+    {
+      "id": "drummer7/session2/44",
+      "sha256": "03c9b0f40bfce8ef03fab7fcccb79f5b537e702378a04ed4d6b14b2e3dd006c9",
+      "relative_path": "originals/groove/drummer7/session2/44_rock_112_fill_4-4.mid",
+      "drummer": "drummer7",
+      "session": "drummer7/session2",
+      "proposed_split": "validation",
+      "event_count": 12
+    },
+    {
+      "id": "drummer7/session3/63",
+      "sha256": "0473c95a7be8af5c050e2825f5a33c2f356f8a22e4af9f99ff8cb0ccd0089d5a",
+      "relative_path": "originals/groove/drummer7/session3/63_funk_112_fill_4-4.mid",
+      "drummer": "drummer7",
+      "session": "drummer7/session3",
+      "proposed_split": "validation",
+      "event_count": 36
+    },
+    {
+      "id": "drummer8/session1/5",
+      "sha256": "08af18ea6594789bdb86b5a70fe2e24bd020ad1d24bfe5072e108a5a0a0db91f",
+      "relative_path": "originals/groove/drummer8/session1/5_hiphop_90_beat_4-4.mid",
+      "drummer": "drummer8",
+      "session": "drummer8/session1",
+      "proposed_split": "validation",
+      "event_count": 1016
+    },
+    {
+      "id": "drummer8/session1/19",
+      "sha256": "15d8f4d9a9165698581ee1e09c055c5c4a40824a1216505520fbcbfb64151f5a",
+      "relative_path": "originals/groove/drummer8/session1/19_funk_108_beat_4-4.mid",
+      "drummer": "drummer8",
+      "session": "drummer8/session1",
+      "proposed_split": "validation",
+      "event_count": 2116
+    },
+    {
+      "id": "drummer9/session1/6",
+      "sha256": "16e34c539cca6318bfc9b89a86d43d54a7282be1adeb266ac6018ac8f1a51c0b",
+      "relative_path": "originals/groove/drummer9/session1/6_rock_100_beat_4-4.mid",
+      "drummer": "drummer9",
+      "session": "drummer9/session1",
+      "proposed_split": "test",
+      "event_count": 38
+    },
+    {
+      "id": "drummer9/session1/2",
+      "sha256": "1eff9e74d80bc8eaa3c3ae69101dc41100fd72dd8f8c055bcd7cdc5a0c12fd3b",
+      "relative_path": "originals/groove/drummer9/session1/2_rock_100_beat_4-4.mid",
+      "drummer": "drummer9",
+      "session": "drummer9/session1",
+      "proposed_split": "test",
+      "event_count": 316
+    },
+    {
+      "id": "drummer10/session1/1",
+      "sha256": "2d300ae2ea6f26a2858fe7efcf40bd0eb997ada9d5c1b517a0575f29f2eb55eb",
+      "relative_path": "originals/groove/drummer10/session1/1_jazz-swing_124_beat_4-4.mid",
+      "drummer": "drummer10",
+      "session": "drummer10/session1",
+      "proposed_split": "test",
+      "event_count": 1115
+    },
+    {
+      "id": "drummer10/session1/7",
+      "sha256": "54ac859918e3fa41edf0420c8d9ab5d73022d828fab1ec4bf8727a6166977aff",
+      "relative_path": "originals/groove/drummer10/session1/7_jazz-swing_215_beat_4-4.mid",
+      "drummer": "drummer10",
+      "session": "drummer10/session1",
+      "proposed_split": "test",
+      "event_count": 130
+    }
+  ],
+  "previously_observed_sources": [
+    {
+      "id": "drummer10/session1/10",
+      "drummer": "drummer10",
+      "session": "drummer10/session1",
+      "proposed_split": "test",
+      "original_split": "train",
+      "sha256": "22534c40c80f20ee19685a56ad0d1f5c726858dbb31284c9e4f7577741c7786e",
+      "event_count": 1413,
+      "status": "eligible_pending_parent_review",
+      "unsupported_ioi_count": 0,
+      "relative_path": "originals/groove/drummer10/session1/10_jazz-swing_110_beat_4-4.mid"
+    },
+    {
+      "id": "drummer10/session1/9",
+      "drummer": "drummer10",
+      "session": "drummer10/session1",
+      "proposed_split": "test",
+      "original_split": "train",
+      "sha256": "27da7b94b20617f73e65253e464d4e87236d2f6df67aa65cccf9e2024bee23bb",
+      "event_count": 1229,
+      "status": "eligible_pending_parent_review",
+      "unsupported_ioi_count": 0,
+      "relative_path": "originals/groove/drummer10/session1/9_jazz-swing_110_beat_4-4.mid"
+    },
+    {
+      "id": "drummer7/session3/23",
+      "drummer": "drummer7",
+      "session": "drummer7/session3",
+      "proposed_split": "validation",
+      "original_split": "train",
+      "sha256": "01c418db0852e392fa7c91f41feeca7a80494218df6c0da214545898655f8c3e",
+      "event_count": 144,
+      "status": "eligible_pending_parent_review",
+      "unsupported_ioi_count": 0,
+      "relative_path": "originals/groove/drummer7/session3/23_pop-soft_83_beat_4-4.mid"
+    },
+    {
+      "id": "drummer7/session3/26",
+      "drummer": "drummer7",
+      "session": "drummer7/session3",
+      "proposed_split": "validation",
+      "original_split": "train",
+      "sha256": "02a3d706dd1fa0289cb25486b2a50aa89aa13829edbcae377fc4e18feeedd11b",
+      "event_count": 16,
+      "status": "eligible_pending_parent_review",
+      "unsupported_ioi_count": 0,
+      "relative_path": "originals/groove/drummer7/session3/26_hiphop_67_fill_4-4.mid"
+    },
+    {
+      "id": "drummer8/session2/40",
+      "drummer": "drummer8",
+      "session": "drummer8/session2",
+      "proposed_split": "validation",
+      "original_split": "test",
+      "sha256": "0474c862ae618571738e69566c8ac22d5f945d67e41c01ff46cb3a4099514168",
+      "event_count": 1061,
+      "status": "eligible_pending_parent_review",
+      "unsupported_ioi_count": 0,
+      "relative_path": "originals/groove/drummer8/session2/40_rock-indie_104_beat_4-4.mid"
+    },
+    {
+      "id": "drummer8/session2/13",
+      "drummer": "drummer8",
+      "session": "drummer8/session2",
+      "proposed_split": "validation",
+      "original_split": "train",
+      "sha256": "05a1f07916656a9d527989cc737a9c2523a1a1b0df9784c195924442db6aa18a",
+      "event_count": 1537,
+      "status": "eligible_pending_parent_review",
+      "unsupported_ioi_count": 0,
+      "relative_path": "originals/groove/drummer8/session2/13_afrobeat_103_beat_4-4.mid"
+    },
+    {
+      "id": "drummer9/session1/20",
+      "drummer": "drummer9",
+      "session": "drummer9/session1",
+      "proposed_split": "test",
+      "original_split": "train",
+      "sha256": "01f6ff2ae664d13ac0c319ed09c687185eb1f4834b770b1bc042683b9dca487d",
+      "event_count": 1154,
+      "status": "eligible_pending_parent_review",
+      "unsupported_ioi_count": 0,
+      "relative_path": "originals/groove/drummer9/session1/20_rock_120_beat_4-4.mid"
+    },
+    {
+      "id": "drummer9/session1/16",
+      "drummer": "drummer9",
+      "session": "drummer9/session1",
+      "proposed_split": "test",
+      "original_split": "train",
+      "sha256": "15ea59f2475197b5299df592efbf095d8bc4bcaf4f4f52345a6eeea901b6f56a",
+      "event_count": 54,
+      "status": "eligible_pending_parent_review",
+      "unsupported_ioi_count": 0,
+      "relative_path": "originals/groove/drummer9/session1/16_rock_120_beat_4-4.mid"
+    }
+  ],
+  "role_rule": "Every listed new source is now predictively observed and never fresh again. Same heldout performers7\u201310; not new independent people. Keep all their recordings out of training under this performer split.",
+  "fixed_conditions": [
+    "unigram",
+    "exact_k4",
+    "exact_k32",
+    "exact_k256",
+    "quotient_residual",
+    "quotient_context_k4_residual"
+  ],
+  "no_model_selection": true,
+  "original_bytes_unchanged": true,
+  "limitations": [
+    "New recordings from previously observed heldout performers, NOT new independent performers.",
+    "Selection is by predetermined hash order, not representative genre sampling.",
+    "Previously developed models have seen other recordings from these performers only as diagnostics, never training.",
+    "Screen cannot prove all musical independence; no human quality or causal genre claim."
+  ]
+}
