@@ -4,11 +4,11 @@ from fractions import Fraction
 import hashlib
 import json
 from pathlib import Path
-import mido
 from mousa.overlap_midi import read_midi,write_midi
 
 
 def signature(path,index):
+    import mido  # optional, needed only for actual MIDI signature checks
     now=0;out=[]
     for e in mido.MidiFile(path).tracks[index]:
         now+=e.time

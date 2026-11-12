@@ -87,3 +87,9 @@ raw corpus, weights, GPU/payment, merge or deployment.
 Run `tools/probe_overlap_representation.py --source REVIEWED_580_MIDI --output
 NEW_DIRECTORY` and `tools/compare_diversity_selection.py --output NEW/report.json`.
 Reports record source/code/plan hashes. Raw selected MIDI stays outside Git.
+
+CI correction: initial bootstrap failed because the new diagnostic helper
+imported optional `mido` eagerly when dependency-free projection tests imported
+it. Moved that import into the actual MIDI-signature function; did not skip the
+projection tests. Reran full suite and dependency-free bootstrap locally. The
+source probe was rerun and its code digest updated; musical results unchanged.
