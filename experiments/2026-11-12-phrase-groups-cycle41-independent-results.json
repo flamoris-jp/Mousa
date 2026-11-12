@@ -1,0 +1,16 @@
+{
+  "scope": "Independent saved-output audit. No new source fitting or generation.",
+  "result_sha256": "5a84503520c20d421d826661ee2d2d6eab94469cb6aa271b3d2c9f0bb0b6af7f",
+  "repeat_equal_except_cpu": true,
+  "all_five_old_candidate_note_and_group_parity": 5,
+  "all_control_outputs_unchanged": true,
+  "independently_reconstructed_boundary_crossings": 14,
+  "control_complete": 5,
+  "intervention_complete": 0,
+  "intervention_boundary_blocked": 5,
+  "common_complete_seeds": [],
+  "status": "PASS",
+  "limitations": [
+    "Zero edited outputs means no completed-output musical comparison; fixed known seeds are not independent samples."
+  ]
+}
