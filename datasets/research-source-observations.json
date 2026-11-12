@@ -18,35 +18,83 @@
     {
       "work_id": "mutopia-1578",
       "state": "predictive-observed",
-      "training_used": false,
+      "training_used": true,
       "first_evaluation_cycle": 7,
       "source_sha256": "6cf3c60882c186ec642383caf4c5b265778d53159225b56dc121c4b595cdaf9d",
       "result": "experiments/2026-11-12-frozen-transfer-results.json",
       "result_sha256": "a2e5a4b20ccc62b842ad32fba433e637f20f402efb7e918d9a2268f5a2bf2a27",
       "record_note": "Backfilled in cycle 18 from immutable historical result, not a new evaluation or timestamp claim.",
-      "future_use": "Observed diagnostic only; never fresh again. No reassignment to training in this cycle."
+      "future_use": "Previously observed and now explicitly fitted in cycle29 exploratory expansion. Never use as independent evaluation of this augmented model; never fresh again.",
+      "training_reassignment": {
+        "cycle": 29,
+        "assignment": "datasets/research-cycle29-eight-work-assignment.json",
+        "assignment_sha256": "0637b2e26cf9cdffcf5930f0a516fc6d8f214f5f603340b58f874482be5ddbb4",
+        "clearance": "experiments/2026-11-12-eight-work-expansion-clearance.json",
+        "result": "experiments/2026-11-12-eight-work-expansion-results.json",
+        "result_sha256": "1a473495a2109f18430dd363cea12b28020fed6e4c2933c3f42abb7eb6e3a1c3",
+        "use": "Actual selected-track exploratory model fit; original historical evaluation result and source hash retained"
+      },
+      "subsequent_training_use": {
+        "cycle": 29,
+        "assignment": "datasets/research-cycle29-nine-work-assignment.json",
+        "result": "experiments/2026-11-12-nine-work-expansion-results.json",
+        "result_sha256": "9efe947a1b33fbdb370bf3398280a7e42aa4726bf565bbb2eba25a357c9a23b3",
+        "interpretation": "Also fitted in9work exploratory condition; immutable historical tests are not evaluation of this trained model."
+      }
     },
     {
       "work_id": "mutopia-1558",
       "state": "predictive-observed",
-      "training_used": false,
+      "training_used": true,
       "first_evaluation_cycle": 7,
       "source_sha256": "50a29ba4579b984c24b2e13ec4fafb08c468c6c5db6bd9313d9134b00cf8e8c9",
       "result": "experiments/2026-11-12-frozen-transfer-results.json",
       "result_sha256": "a2e5a4b20ccc62b842ad32fba433e637f20f402efb7e918d9a2268f5a2bf2a27",
       "record_note": "Backfilled in cycle 18 from immutable historical result, not a new evaluation or timestamp claim.",
-      "future_use": "Observed diagnostic only; never fresh again. No reassignment to training in this cycle."
+      "future_use": "Previously observed and now explicitly fitted in cycle29 exploratory expansion. Never use as independent evaluation of this augmented model; never fresh again.",
+      "training_reassignment": {
+        "cycle": 29,
+        "assignment": "datasets/research-cycle29-eight-work-assignment.json",
+        "assignment_sha256": "0637b2e26cf9cdffcf5930f0a516fc6d8f214f5f603340b58f874482be5ddbb4",
+        "clearance": "experiments/2026-11-12-eight-work-expansion-clearance.json",
+        "result": "experiments/2026-11-12-eight-work-expansion-results.json",
+        "result_sha256": "1a473495a2109f18430dd363cea12b28020fed6e4c2933c3f42abb7eb6e3a1c3",
+        "use": "Actual selected-track exploratory model fit; original historical evaluation result and source hash retained"
+      },
+      "subsequent_training_use": {
+        "cycle": 29,
+        "assignment": "datasets/research-cycle29-nine-work-assignment.json",
+        "result": "experiments/2026-11-12-nine-work-expansion-results.json",
+        "result_sha256": "9efe947a1b33fbdb370bf3398280a7e42aa4726bf565bbb2eba25a357c9a23b3",
+        "interpretation": "Also fitted in9work exploratory condition; immutable historical tests are not evaluation of this trained model."
+      }
     },
     {
       "work_id": "mutopia-370",
       "state": "predictive-observed",
-      "training_used": false,
+      "training_used": true,
       "first_evaluation_cycle": 8,
       "source_sha256": "3235864dce0f7a59f1eb348bda55065263c0366267e32f27ce6240c9dde3f6b5",
       "result": "experiments/2026-11-12-foster-transfer-results.json",
       "result_sha256": "54ef1d6f4c406e70eefd62507dcb067ca12b5a245240bef98f28c645402f8fe5",
       "record_note": "Backfilled in cycle 18 from immutable historical result, not a new evaluation or timestamp claim.",
-      "future_use": "Observed diagnostic only; never fresh again. No reassignment to training in this cycle."
+      "future_use": "Previously observed and now explicitly fitted in cycle29 exploratory expansion. Never use as independent evaluation of this augmented model; never fresh again.",
+      "training_reassignment": {
+        "cycle": 29,
+        "assignment": "datasets/research-cycle29-eight-work-assignment.json",
+        "assignment_sha256": "0637b2e26cf9cdffcf5930f0a516fc6d8f214f5f603340b58f874482be5ddbb4",
+        "clearance": "experiments/2026-11-12-eight-work-expansion-clearance.json",
+        "result": "experiments/2026-11-12-eight-work-expansion-results.json",
+        "result_sha256": "1a473495a2109f18430dd363cea12b28020fed6e4c2933c3f42abb7eb6e3a1c3",
+        "use": "Actual selected-track exploratory model fit; original historical evaluation result and source hash retained"
+      },
+      "subsequent_training_use": {
+        "cycle": 29,
+        "assignment": "datasets/research-cycle29-nine-work-assignment.json",
+        "result": "experiments/2026-11-12-nine-work-expansion-results.json",
+        "result_sha256": "9efe947a1b33fbdb370bf3398280a7e42aa4726bf565bbb2eba25a357c9a23b3",
+        "interpretation": "Also fitted in9work exploratory condition; immutable historical tests are not evaluation of this trained model."
+      }
     },
     {
       "work_id": "mutopia-580",

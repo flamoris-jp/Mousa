@@ -19,7 +19,23 @@ class SourceObservationLedgerTests(unittest.TestCase):
         train = {row['work_id'] for row in manifest['works'] if row['split'] == 'train'}
         for row in rows:
             self.assertEqual(row['state'], 'predictive-observed')
-            self.assertFalse(row['training_used'])
+            reassigned = row['work_id'] in {'mutopia-1578', 'mutopia-1558', 'mutopia-370'}
+            self.assertEqual(row['training_used'], reassigned)
+            if reassigned:
+                change = row['training_reassignment']
+                self.assertEqual(change['cycle'], 29)
+                for key in ('assignment', 'result'):
+                    self.assertEqual(hashlib.sha256((ROOT/change[key]).read_bytes()).hexdigest(),
+                                     change[key+'_sha256'])
+                assignment = json.loads((ROOT/change['assignment']).read_text())
+                admitted = {w['work_id']: w for w in assignment['additions']}
+                self.assertEqual(admitted[row['work_id']]['sha256'], row['source_sha256'])
+                result = json.loads((ROOT/change['result']).read_text())
+                self.assertEqual(result['conditions']['expanded']['training_events'], 1011)
+                clearance = json.loads((ROOT/change['clearance']).read_text())
+                self.assertEqual(clearance['status'], 'approved-for-local-experiment')
+                self.assertEqual(clearance['assignment_sha256'], change['assignment_sha256'])
+                self.assertEqual(clearance['plan_sha256'], result['plan_sha256'])
             self.assertNotIn(row['work_id'], train)
             self.assertEqual(len(row['source_sha256']), 64)
             result = ROOT / row['result']

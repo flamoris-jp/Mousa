@@ -1,0 +1,91 @@
+{
+  "normalized_repeat_equal": true,
+  "excluded_field": "cpu_seconds",
+  "initial_report_sha256": "1a473495a2109f18430dd363cea12b28020fed6e4c2933c3f42abb7eb6e3a1c3",
+  "repeat_report_sha256": "5e624497a7192c537dd22bad7adc9694039172b2944250279461c837c6bc54e6",
+  "base5_prediction_and_notes_match_cycle23": true,
+  "originals_unchanged": true,
+  "safety": [
+    {
+      "condition": "base5",
+      "seed": 0,
+      "max_polyphony": 2,
+      "tail_ticks": 288,
+      "copy_matches": 0,
+      "sha256": "89e8d384b8d32d52598c358ad03ea088ef560411e930b7500b0a66f609f37dfa"
+    },
+    {
+      "condition": "base5",
+      "seed": 1,
+      "max_polyphony": 2,
+      "tail_ticks": 285,
+      "copy_matches": 0,
+      "sha256": "1846df226268c4ef70cf7b6fc548179496fa7326af1aceb748ea54c891ed7d1d"
+    },
+    {
+      "condition": "base5",
+      "seed": 2,
+      "max_polyphony": 1,
+      "tail_ticks": 242,
+      "copy_matches": 0,
+      "sha256": "85cb8d1d5c6d7ab76bed01c529ea14e89104805ba9608cc0abfe3999f4f00e2d"
+    },
+    {
+      "condition": "base5",
+      "seed": 3,
+      "max_polyphony": 2,
+      "tail_ticks": 0,
+      "copy_matches": 0,
+      "sha256": "88501a070c643ddc21de65481e50f73e19477f54ac093c4eb3b32eef1c24af76"
+    },
+    {
+      "condition": "base5",
+      "seed": 4,
+      "max_polyphony": 3,
+      "tail_ticks": 288,
+      "copy_matches": 0,
+      "sha256": "bed033df3fdc048885ba9f4a268b577de6e5718ff4c8545d2bd56a2ca05455d9"
+    },
+    {
+      "condition": "expanded",
+      "seed": 0,
+      "max_polyphony": 2,
+      "tail_ticks": 384,
+      "copy_matches": 0,
+      "sha256": "5ec7269fa4c0d8dcf1de59eab97a27a975a1009d7280395d77225fc0fe85538e"
+    },
+    {
+      "condition": "expanded",
+      "seed": 1,
+      "max_polyphony": 3,
+      "tail_ticks": 288,
+      "copy_matches": 0,
+      "sha256": "7d75779268e80cd5497ba145984c4483a11dce9b68a47f8c29eadfc56d641d03"
+    },
+    {
+      "condition": "expanded",
+      "seed": 2,
+      "max_polyphony": 3,
+      "tail_ticks": 192,
+      "copy_matches": 0,
+      "sha256": "d44a9961a6bc8d76a2f2157a186ea444b26ac8cb563d036f8d19cb8d590faa26"
+    },
+    {
+      "condition": "expanded",
+      "seed": 3,
+      "max_polyphony": 1,
+      "tail_ticks": 384,
+      "copy_matches": 0,
+      "sha256": "46889d669515853048b02a8fdbda3104286d701b5a5c36f8a853f7495ac2f980"
+    },
+    {
+      "condition": "expanded",
+      "seed": 4,
+      "max_polyphony": 2,
+      "tail_ticks": 384,
+      "copy_matches": 0,
+      "sha256": "3d8aeaca05092145e30c1263e72bb2561d4ed44d40fda5df93b130e24742473a"
+    }
+  ],
+  "limits": "Observed exploratory reassignment only; no independent heldout/genre/appeal claim. Notes JSON horizon not MIDI EOT."
+}
