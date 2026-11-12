@@ -1,0 +1,18 @@
+{
+  "reviewed_at_utc": "2026-11-12T14:49:03.040260+00:00",
+  "decision": "PASS for current fixed ten-candidate descriptive audit",
+  "files": {
+    "src/mousa/group_structure.py": "a41cb5a4f6fdb4d7e5383c2eba5f4b7f0bee022d1df4a008cd116a18bd5af65c",
+    "tools/diagnose_group_structure.py": "132b107b3814ea82a293dd2f8b516c665204803804d8c3b042c9a4965c1a3341"
+  },
+  "independent_random_fixture_seed": 3541,
+  "independent_tick_occupancy_gap_and_segment_checks": 200,
+  "targeted_tests_passed": 3,
+  "checks": [
+    "Silence uses all earlier note endpoints, so sustained earlier groups do not create false silent boundaries.",
+    "Anchor/span/segment counts preserve original notes and do not imply true voices or phrase labels.",
+    "Candidate hashes bind source private outputs; PPQ384 matches this experiment."
+  ],
+  "nonblocking_limit": "Driver assumes every condition/output has saved private candidate fields. Future CPU-skipped outputs would fail closed rather than yield a partial descriptive report; current fixed completed-output audit is unaffected.",
+  "real_fit_or_generation": false
+}

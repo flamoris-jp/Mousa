@@ -1,0 +1,290 @@
+{
+  "cycle": 35,
+  "reviewed_at_utc": "2026-11-12T14:50:28.395613+00:00",
+  "state": "source-rights-review-only",
+  "new_training_uses": 0,
+  "rights_reviewed_reserved": [
+    {
+      "id": "mutopia-2243",
+      "title": "What power art thou (King Arthur, Z.628)",
+      "status": "rights-reviewed-reserved-not-fitted",
+      "composer": "Henry Purcell (1659–1695)",
+      "poet": "John Dryden (1631–1700)",
+      "arranger": "George Alexander Macfarren (1813–1887)",
+      "contributor": "Anonymous",
+      "composition_rights": "1691 work; identified composer and lyricist long deceased. Historical edition corroborates attribution; no modern composition claimed.",
+      "arrangement_rights": "Macfarren piano reduction, London Chappell [1843], plate6706. Named arranger died1887. Source title page and edition directly inspected; not inferred from composer PD alone.",
+      "encoding_rights": {
+        "declaration": "Placed in the Public Domain by the typesetter — free to distribute, modify, and perform",
+        "license_field": "Public Domain",
+        "license_url": "http://creativecommons.org/licenses/publicdomain",
+        "scope": "Exact Mutopia LilyPond source and linked LilyPond-generated MIDI contribution; legacy public-domain dedication, not mislabeled CC0. Anonymous identity limits contributor independence, not the explicit dedication evidence."
+      },
+      "historical_evidence": {
+        "catalogue_url": "https://imslp.org/wiki/King_Arthur,_Z.628_(Purcell,_Henry)",
+        "archive_url": "https://archive.org/details/drydensoperaofki00purc",
+        "catalogue": "IMSLP82155, Macfarren, Chappell [1843], plate6706; linked UNC scan and Archive1843 metadata agree.",
+        "scan": {
+          "filename": "purcell1843.pdf",
+          "url": "https://archive.org/download/drydensoperaofki00purc/drydensoperaofki00purc_bw.pdf",
+          "sha256": "89aa9e11e7ae57c266c334bed3f8df07f9df0c8e0fb23e0dff5823bb6bb53d79",
+          "bytes": 5773068
+        },
+        "title_page": 11,
+        "incipit_page": 42,
+        "printed_page": 30,
+        "visual_checks": [
+          "PDFpage11 exact Chappell50NewBondStreet/Purcell/Macfarren title matches source header.",
+          "PDFpage42 plate6706, Slow, Cminor cuttime; eight whole-bar vocal rests then quarter rest and six C3 eighths followed by eight D3 eighths.",
+          "Source voice R1*5 + R1*3 + r4 c8...; first MIDI note at8*1536+384=12672, first6pitches48 then8pitches50. Piano first chord Cminor matches score."
+        ],
+        "scope": "Incipit and edition corroboration, not full note-by-note proof. Scan is direct source-library version, not asserted byte-identical IMSLP derivative."
+      },
+      "technical": {
+        "reader": "src/mousa/overlap_midi.py",
+        "reader_sha256": "1afc11bf6b6985a2eb22ebe5302b707d39378291e27b6299fde82564c167c867",
+        "track": 1,
+        "notes": 169,
+        "first_onset": 12672,
+        "last_note_end": 52992,
+        "selected_track_eot": 53760,
+        "original_file_eot": 54528,
+        "ppq": 384,
+        "max_polyphony": 1,
+        "meter_map": [
+          {
+            "tick": 0,
+            "numerator": 2,
+            "denominator": 2,
+            "clocks_per_click": 18,
+            "notated_32nd_notes_per_beat": 8
+          },
+          {
+            "tick": 53760,
+            "numerator": 3,
+            "denominator": 4,
+            "clocks_per_click": 18,
+            "notated_32nd_notes_per_beat": 8
+          }
+        ],
+        "tempo_map": [
+          [
+            0,
+            1333333
+          ]
+        ],
+        "program_map": [
+          [
+            0,
+            53
+          ]
+        ],
+        "volume_map": []
+      },
+      "meter_origin": {
+        "ticks": 0,
+        "evidence": "Full-bar accompaniment start, no partial; retain all eight bars plus quarter vocal silence."
+      },
+      "limits": [
+        "Initial delta12672 exceeds existing group/context support12288; exact MIDI reader acceptance is NOT current model admission. Do not trim silence or change frozen support.",
+        "Selected vocal EOT53760 versus whole MIDI54528 preserved; 3/4 change at selected EOT and extra accompaniment retained in original.",
+        "No fit, model score, cross-split similarity screen or training assignment change.",
+        "Anonymous contributor cannot establish person-level independence from earlier contributors.",
+        "All KingArthur movements/arrangements, selected hands/voices, same Macfarren edition and sibling encodings must remain linked for future split.",
+        "No authorization to redistribute raw original or generated media."
+      ],
+      "family": {
+        "composition": "Purcell-Z628-KingArthur",
+        "edition": "Macfarren-Chappell1843-6706",
+        "contributor": "anonymous-identity-unknown",
+        "existing_overlap": "New named composer/arranger/edition versus current16; anonymous contributor independence unproven."
+      },
+      "artifacts": [
+        {
+          "file": "2243.ly",
+          "url": "https://www.mutopiaproject.org/ftp/PurcellH/Z628/WhatPowerArtThou/WhatPowerArtThou.ly",
+          "sha256": "79ab4ad4c8daaf170432629653cbd8b1d3b840a8ecf5cbf6369b2a700953e8b4",
+          "bytes": 10441,
+          "date": "2026-11-12T14:46:21.201229+00:00"
+        },
+        {
+          "file": "2243.mid",
+          "url": "https://www.mutopiaproject.org/ftp/PurcellH/Z628/WhatPowerArtThou/WhatPowerArtThou.mid",
+          "sha256": "cbcb7f97c501d0e1e7eb4694cd7fe3f132870e187a2374dd0023ffe31f836706",
+          "bytes": 13006,
+          "date": "2026-11-12T14:46:21.281392+00:00"
+        },
+        {
+          "file": "2243.html",
+          "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2243",
+          "sha256": "751b19cc5cfb90f5dc68eee0071b3902257c9079dafb7df7fe5d2c0eb08dcab0",
+          "bytes": 6316,
+          "date": "2026-11-12T14:46:21.182946+00:00"
+        }
+      ]
+    }
+  ],
+  "pending": [
+    {
+      "id": "mutopia-141",
+      "title": "Sonata XI K11",
+      "status": "pending-quarantined-no-training",
+      "composer": "Domenico Scarlatti (1685–1757)",
+      "contributor": "Bas Wassink",
+      "declared_edition": "P.J.Tonger19thcentury",
+      "encoding": "Explicit legacy PD typesetter dedication in originalLY; does not clear unidentified edition independently.",
+      "unresolved": "Header retains Kuhnau attribution while Mutopia metadata corrects toScarlattiK11; exact historical edition/editor and incipit not corroborated.",
+      "family_links": [
+        "BasWassink shared with trainedHaydn186 and pendingBurgmuller202/214",
+        "Keep both Scarlatti works/contributor linked; not independent contributor cohorts"
+      ],
+      "technical": {
+        "reader": "src/mousa/overlap_midi.py",
+        "reader_sha256": "1afc11bf6b6985a2eb22ebe5302b707d39378291e27b6299fde82564c167c867",
+        "track": 1,
+        "notes": 363,
+        "first_onset": 0,
+        "last_note_end": 44160,
+        "selected_track_eot": 44160,
+        "original_file_eot": 44160,
+        "ppq": 384,
+        "max_polyphony": 4,
+        "meter_map": [
+          {
+            "tick": 0,
+            "numerator": 8,
+            "denominator": 8,
+            "clocks_per_click": 18,
+            "notated_32nd_notes_per_beat": 8
+          }
+        ],
+        "tempo_map": [
+          [
+            0,
+            500000
+          ]
+        ],
+        "program_map": [
+          [
+            0,
+            6
+          ]
+        ],
+        "volume_map": []
+      },
+      "artifacts": [
+        {
+          "file": "141.html",
+          "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=141",
+          "sha256": "1319d4071099aa07d44f1b3ef18bf9006ef795a7f3cfcb5dab749d42de2bfc32",
+          "bytes": 6055,
+          "date": "2026-11-12T14:45:35.399821+00:00"
+        },
+        {
+          "file": "141.mid",
+          "url": "https://www.mutopiaproject.org/ftp/ScarlattiD/K11/sonatensatz/sonatensatz.mid",
+          "sha256": "47d90a716ef613368609db391df9b0bb2086ea5f8ab530013848d4b9a0609b8c",
+          "bytes": 4882,
+          "date": "2026-11-12T14:45:35.291104+00:00"
+        },
+        {
+          "file": "141.ly",
+          "url": "https://www.mutopiaproject.org/ftp/ScarlattiD/K11/sonatensatz/sonatensatz.ly",
+          "sha256": "1f4b3bd87ae975d6ce675ffdf509a240cfab5eec88700c1bd80134c54ecdc0d7",
+          "bytes": 5031,
+          "date": "2026-11-12T14:45:35.277399+00:00"
+        }
+      ]
+    },
+    {
+      "id": "mutopia-139",
+      "title": "Sonata in Cmajor",
+      "status": "pending-quarantined-no-training",
+      "composer": "Domenico Scarlatti (1685–1757)",
+      "contributor": "Bas Wassink",
+      "declared_edition": "BartholfSenff1880s",
+      "encoding": "Explicit legacy PD typesetter dedication in originalLY; does not clear unidentified edition independently.",
+      "unresolved": "No catalogue identifier in header; exact edition/editor and historical incipit unverified.",
+      "family_links": [
+        "BasWassink shared with trainedHaydn186 and pendingBurgmuller202/214",
+        "Keep both Scarlatti works/contributor linked; not independent contributor cohorts"
+      ],
+      "technical": {
+        "reader": "src/mousa/overlap_midi.py",
+        "reader_sha256": "1afc11bf6b6985a2eb22ebe5302b707d39378291e27b6299fde82564c167c867",
+        "track": 1,
+        "notes": 392,
+        "first_onset": 0,
+        "last_note_end": 105984,
+        "selected_track_eot": 105984,
+        "original_file_eot": 105984,
+        "ppq": 384,
+        "max_polyphony": 2,
+        "meter_map": [
+          {
+            "tick": 0,
+            "numerator": 12,
+            "denominator": 8,
+            "clocks_per_click": 18,
+            "notated_32nd_notes_per_beat": 8
+          }
+        ],
+        "tempo_map": [
+          [
+            0,
+            500000
+          ]
+        ],
+        "program_map": [
+          [
+            0,
+            6
+          ]
+        ],
+        "volume_map": []
+      },
+      "artifacts": [
+        {
+          "file": "139.html",
+          "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=139",
+          "sha256": "e09a150700f0ea789b0d03a9624676929703822bcb440c66da7ef19379a0432a",
+          "bytes": 5806,
+          "date": "2026-11-12T14:45:35.400100+00:00"
+        },
+        {
+          "file": "139.mid",
+          "url": "https://www.mutopiaproject.org/ftp/ScarlattiD/ds_sonate_c/ds_sonate_c.mid",
+          "sha256": "2f24654d937178f9fe42a0cd6833e23c99313df7c6a1e91723a074330ab07835",
+          "bytes": 7278,
+          "date": "2026-11-12T14:45:37.647222+00:00"
+        },
+        {
+          "file": "139.ly",
+          "url": "https://www.mutopiaproject.org/ftp/ScarlattiD/ds_sonate_c/ds_sonate_c.ly",
+          "sha256": "71022252ed9da6f89836f14e07dc90a788aa11a2964e0a8856fb02761b445f5d",
+          "bytes": 6198,
+          "date": "2026-11-12T14:45:37.643189+00:00"
+        }
+      ]
+    }
+  ],
+  "failures": [
+    "IMSLP82155 direct file route returned JavaScript friendly redirect. Used the source-library Archive link actually published by IMSLP instead; no security bypass.",
+    "Scarlatti141/139 downloaded but exactedition not established; no admission based only on PD label."
+  ],
+  "evidence_files": [
+    {
+      "filename": "archive-metadata.json",
+      "url": "https://archive.org/metadata/drydensoperaofki00purc",
+      "sha256": "9a1ce60612dcf7c60dbd38db236d1c73a64a5fc10c2843d0d09043558d82ea58",
+      "bytes": 26333
+    },
+    {
+      "filename": "king-arthur-imslp.html",
+      "url": "https://imslp.org/wiki/King_Arthur,_Z.628_(Purcell,_Henry)",
+      "sha256": "e1caaba9906c22a7a50bb062f3fd6fdee3df4c7aa8d93b8176d075df3dd5f0ae",
+      "bytes": 463886
+    }
+  ],
+  "unchanged_policy": "Blocked1692/804/1741 remain blocked;640/921 diagnostic-only;580 excluded. No thresholds changed."
+}

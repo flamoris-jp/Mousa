@@ -1,0 +1,15 @@
+{
+  "kind": "Independent brute-force synthetic occupancy oracle, not human validation",
+  "fixtures": 1000,
+  "seed": 35,
+  "all_exact": true,
+  "private_initial_repeat_diagnostics_identical": true,
+  "hashes": {
+    "src/mousa/group_structure.py": "a41cb5a4f6fdb4d7e5383c2eba5f4b7f0bee022d1df4a008cd116a18bd5af65c",
+    "tools/diagnose_group_structure.py": "132b107b3814ea82a293dd2f8b516c665204803804d8c3b042c9a4965c1a3341",
+    "tests/test_group_structure.py": "2818b23c8cb21c84f12cba60f00722927607349ebf2f891e6999154215a9cfdd",
+    "tests/test_group_structure_driver.py": "5b38caae3885433edae99994ff903e7b31110f3728ea950e454f1a1eae3b5373",
+    "experiments/2026-11-12-group-structure-cycle35-results.json": "a8131804ae527bc2d319548eec4f11db936eb5714e7eaaf00af9f88d3410acdb"
+  },
+  "limits": "Only synthetic timelines up to200ticks; earlier sustained occupancy oracle differs from running-max implementation; no semantic ground truth."
+}
