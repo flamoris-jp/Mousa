@@ -1,0 +1,3022 @@
+{
+  "plan": {
+    "created_at_utc": "2026-11-12T11:01:38.072828+00:00",
+    "scope": "Cycle15 exact sampler optimization and bounded trailing-rest policy",
+    "train_ids": [
+      "mutopia-376",
+      "mutopia-888",
+      "mutopia-889",
+      "mutopia-789"
+    ],
+    "never_load": [
+      583
+    ],
+    "model": "Frozen cycle13 timing_context=True,pitch_continuity=True,strength4",
+    "optimization": "legal pitch total minus occupied dictionary weights, cached between release ticks; same integer masses and RNG order",
+    "benchmark": "exact-end20paired generations: alpha0/.25,seeds0..9; alternate original-first/optimized-first byseedparity; CPUandwall measured generationonly, paritychecked",
+    "endpoint_policy": "After eachacceptednote stop if maxexistingend>=target-384; EOTremains9216. Noemptyoutput or modifiedgate. Separate changedstoprule, NOTdistribution-equivalent toexactend.",
+    "factorial": "exact-end versus trailingrest<=384 x uniformprobabilitymix alpha0/0.25",
+    "constraints": {
+      "target_ticks": 9216,
+      "max_notes": 256,
+      "max_attempts": 64,
+      "max_polyphony": 3,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "copy_guard": "train plus580 exact8onset pitchintervals, canonical andgeneratedorders, no retries",
+    "source_screen": "exact8interval or wholeinterval similarity>=0.80 blocks",
+    "metrics": [
+      "statuses/rejections",
+      "drawcounts",
+      "pairedCPU/wall",
+      "gates<24tick",
+      "onsets>=target-384",
+      "actualsilenttail",
+      "notes",
+      "repeat/unique/leap/overlap/rest descriptors",
+      "MIDIroundtrip"
+    ],
+    "diagnostic_thresholds": "24ticks is arbitrary1/16quarter; tail384 is1quarter, not learnedcadence",
+    "aggregation": "completeonly means withdenominators pluscommonacceptedseed subset; keepallfailedstates",
+    "nonclaims": [
+      "musicalquality",
+      "fresh580evaluation",
+      "learnedcadence",
+      "tailpolicy distributionequivalence"
+    ],
+    "code_sha256": {
+      "src/mousa/optimized_feasible_generation.py": "fb1a5298b344c375e49f0abf6bdd39b400178a0b869624cce3c6ceb94f4ea121",
+      "src/mousa/feasible_context_generation.py": "57ff1dabc40a05af14f585701a9852dc6e699ba508cdadd00b8754ff1b24d783",
+      "src/mousa/context_onset_gate.py": "32ff6404caf451e18649c85462f32c1bcca8389b434a23d9c4ec1d6d09f8af0c",
+      "src/mousa/onset_gate_model.py": "6cfafbcb5f7cdcb9d3279b460b66bdf88b1f4a3f918312639cdb69cc0a89c92d",
+      "src/mousa/overlap_midi.py": "1afc11bf6b6985a2eb22ebe5302b707d39378291e27b6299fde82564c167c867",
+      "tools/compare_optimized_endpoint.py": "b2b681889925cea6a4a852941c45293a9a27bb67bd0a47f4ef158e18bfe6b2f9",
+      "tools/compare_context_onset_gate.py": "a4838f8c1e38b591e9366269ecabaabcc0a66bffab1031b68beddc942980f78a",
+      "tools/compare_onset_gate_models.py": "07a2bfaf79bc8e3b37c0982657056e34d8e6bd117ba03c5fa913bfaad17c4784",
+      "datasets/research-exploratory-multifamily-20261112.json": "bfcb2777ca6af1fbf41e957809a0fd35c6291e9bb3ae14182fd7ba1c9a86f6d7",
+      "datasets/research-brahms580-rights-20261112.json": "dd25cb5023eb13a634d981fe0fd8bc3c5c02f302c1b8fe4404157e74ec4dd994"
+    }
+  },
+  "before_generation": {
+    "plan_sha256": "c07a55a5a3373a8088205e139c1271d8fb7b793b5a1f97938371fe5554ca52b1",
+    "train_hashes": {
+      "mutopia-376": "b02e65def39bab988838d3d2e82ad9763f1b5b6b71b5a4c70e8f7b6d12eece8c",
+      "mutopia-888": "6e097cb82d30524335a19a2adb1cbf79cf6b070f7059182f0dc9d34ca3fc3848",
+      "mutopia-889": "cc45d10d7c21e858f37d4096979d4706bcfcaec400ef89abc1ac66378d51faa1",
+      "mutopia-789": "f849eace28acf450e306803203499aed4830cfba1a5cb8fe0953f594be15ffb9"
+    },
+    "test_sha256": "dcd5efac22b5e91b7c87685058784396adb9ec5d69915764265ad68158dbb6e1",
+    "training_events": 364,
+    "screens": [
+      {
+        "matches": 0,
+        "similarity": 0.25316455696202533
+      },
+      {
+        "matches": 0,
+        "similarity": 0.17582417582417587
+      },
+      {
+        "matches": 0,
+        "similarity": 0.20879120879120883
+      },
+      {
+        "matches": 0,
+        "similarity": 0.2184873949579832
+      }
+    ]
+  },
+  "conditions": {
+    "tail0_mix0": {
+      "outputs": [
+        {
+          "status": "complete",
+          "rejections": 0,
+          "rejection_reasons": {
+            "active_pitch": 0,
+            "polyphony": 0,
+            "no_legal_pitch": 0
+          },
+          "timing_draws": 39,
+          "pitch_draws": 39,
+          "target_ticks": 9216,
+          "last_accepted_state": {
+            "onset": 9024,
+            "gate": 192,
+            "pitch": 60,
+            "remaining_ticks": 192
+          },
+          "last_proposal": {
+            "start": 9024,
+            "end": 9216,
+            "active_pitches": [],
+            "pitch": 60
+          },
+          "endpoint_policy": {
+            "max_trailing_rest_ticks": 0,
+            "actual_silent_tail_ticks": 0
+          },
+          "seed": 0,
+          "metrics": {
+            "notes": 39,
+            "overlap_onset_fraction": 0.15384615384615385,
+            "mean_active_voices": 1.0208333333333333,
+            "max_active_voices": 2,
+            "mean_abs_pitch_interval": 2.210526315789474,
+            "above_octave_fraction": 0.0,
+            "distinct_pitches": 11,
+            "repeated_pitch_fraction": 0.3157894736842105,
+            "rest_ticks": 768,
+            "rest_fraction": 0.08333333333333333,
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 2,
+            "last_quarter_short_gate_count": 0,
+            "actual_silent_tail_ticks": 0
+          },
+          "generation_seconds": 0.05772533500021382,
+          "benchmarks": {
+            "original": {
+              "wall_seconds": 0.35452014399925247,
+              "cpu_seconds": 0.354265103
+            },
+            "optimized": {
+              "wall_seconds": 0.05772533500021382,
+              "cpu_seconds": 0.057591367999999976
+            }
+          },
+          "artifact_diagnostics": {
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 2,
+            "last_quarter_short_gate_count": 0,
+            "thresholds": "predeclared gate<24ticks; onset>=target-384ticks, not quality labels"
+          },
+          "source_copy_matches": 0,
+          "midi_sha256": "a843667676ebda5f4e7f12ff17fd7f5a1e995acf135a58f2e82047360d22d3e3",
+          "exact_roundtrip": true
+        },
+        {
+          "status": "complete",
+          "rejections": 0,
+          "rejection_reasons": {
+            "active_pitch": 0,
+            "polyphony": 0,
+            "no_legal_pitch": 0
+          },
+          "timing_draws": 46,
+          "pitch_draws": 46,
+          "target_ticks": 9216,
+          "last_accepted_state": {
+            "onset": 9212,
+            "gate": 4,
+            "pitch": 64,
+            "remaining_ticks": 4
+          },
+          "last_proposal": {
+            "start": 9212,
+            "end": 9216,
+            "active_pitches": [
+              66
+            ],
+            "pitch": 64
+          },
+          "endpoint_policy": {
+            "max_trailing_rest_ticks": 0,
+            "actual_silent_tail_ticks": 0
+          },
+          "seed": 1,
+          "metrics": {
+            "notes": 46,
+            "overlap_onset_fraction": 0.41304347826086957,
+            "mean_active_voices": 1.1179470486111112,
+            "max_active_voices": 3,
+            "mean_abs_pitch_interval": 1.7777777777777777,
+            "above_octave_fraction": 0.0,
+            "distinct_pitches": 11,
+            "repeated_pitch_fraction": 0.28888888888888886,
+            "rest_ticks": 1197,
+            "rest_fraction": 0.1298828125,
+            "short_gate_count": 6,
+            "last_quarter_onset_count": 11,
+            "last_quarter_short_gate_count": 6,
+            "actual_silent_tail_ticks": 0
+          },
+          "generation_seconds": 0.05894890200033842,
+          "benchmarks": {
+            "optimized": {
+              "wall_seconds": 0.05894890200033842,
+              "cpu_seconds": 0.05895195399999997
+            },
+            "original": {
+              "wall_seconds": 0.3343179240000609,
+              "cpu_seconds": 0.334166113
+            }
+          },
+          "artifact_diagnostics": {
+            "short_gate_count": 6,
+            "last_quarter_onset_count": 11,
+            "last_quarter_short_gate_count": 6,
+            "thresholds": "predeclared gate<24ticks; onset>=target-384ticks, not quality labels"
+          },
+          "source_copy_matches": 0,
+          "midi_sha256": "8898c76e3a385ae5c80e1e5afdeb00c8281f25cb9311a512621ba0c569d9f021",
+          "exact_roundtrip": true
+        },
+        {
+          "status": "complete",
+          "rejections": 0,
+          "rejection_reasons": {
+            "active_pitch": 0,
+            "polyphony": 0,
+            "no_legal_pitch": 0
+          },
+          "timing_draws": 5,
+          "pitch_draws": 5,
+          "target_ticks": 9216,
+          "last_accepted_state": {
+            "onset": 9024,
+            "gate": 192,
+            "pitch": 65,
+            "remaining_ticks": 192
+          },
+          "last_proposal": {
+            "start": 9024,
+            "end": 9216,
+            "active_pitches": [],
+            "pitch": 65
+          },
+          "endpoint_policy": {
+            "max_trailing_rest_ticks": 0,
+            "actual_silent_tail_ticks": 0
+          },
+          "seed": 2,
+          "metrics": {
+            "notes": 5,
+            "overlap_onset_fraction": 0.0,
+            "mean_active_voices": 0.09375,
+            "max_active_voices": 1,
+            "mean_abs_pitch_interval": 1.75,
+            "above_octave_fraction": 0.0,
+            "distinct_pitches": 3,
+            "repeated_pitch_fraction": 0.5,
+            "rest_ticks": 8352,
+            "rest_fraction": 0.90625,
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 2,
+            "last_quarter_short_gate_count": 0,
+            "actual_silent_tail_ticks": 0
+          },
+          "generation_seconds": 0.006632655000430532,
+          "benchmarks": {
+            "original": {
+              "wall_seconds": 0.02404530200146837,
+              "cpu_seconds": 0.02404815199999999
+            },
+            "optimized": {
+              "wall_seconds": 0.006632655000430532,
+              "cpu_seconds": 0.006636363000000145
+            }
+          },
+          "artifact_diagnostics": {
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 2,
+            "last_quarter_short_gate_count": 0,
+            "thresholds": "predeclared gate<24ticks; onset>=target-384ticks, not quality labels"
+          },
+          "source_copy_matches": 0,
+          "midi_sha256": "10b39d8b61a6e358a0d87621768b1eaaf557a720fc4b747f49bac6fc515c0123",
+          "exact_roundtrip": true
+        },
+        {
+          "status": "complete",
+          "rejections": 0,
+          "rejection_reasons": {
+            "active_pitch": 0,
+            "polyphony": 0,
+            "no_legal_pitch": 0
+          },
+          "timing_draws": 36,
+          "pitch_draws": 36,
+          "target_ticks": 9216,
+          "last_accepted_state": {
+            "onset": 8928,
+            "gate": 288,
+            "pitch": 67,
+            "remaining_ticks": 288
+          },
+          "last_proposal": {
+            "start": 8928,
+            "end": 9216,
+            "active_pitches": [],
+            "pitch": 67
+          },
+          "endpoint_policy": {
+            "max_trailing_rest_ticks": 0,
+            "actual_silent_tail_ticks": 0
+          },
+          "seed": 3,
+          "metrics": {
+            "notes": 36,
+            "overlap_onset_fraction": 0.16666666666666666,
+            "mean_active_voices": 0.9375,
+            "max_active_voices": 2,
+            "mean_abs_pitch_interval": 1.7428571428571429,
+            "above_octave_fraction": 0.0,
+            "distinct_pitches": 12,
+            "repeated_pitch_fraction": 0.34285714285714286,
+            "rest_ticks": 1440,
+            "rest_fraction": 0.15625,
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 1,
+            "last_quarter_short_gate_count": 0,
+            "actual_silent_tail_ticks": 0
+          },
+          "generation_seconds": 0.06020273899957829,
+          "benchmarks": {
+            "optimized": {
+              "wall_seconds": 0.06020273899957829,
+              "cpu_seconds": 0.060060465999999924
+            },
+            "original": {
+              "wall_seconds": 0.3498581380008545,
+              "cpu_seconds": 0.34880835500000007
+            }
+          },
+          "artifact_diagnostics": {
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 1,
+            "last_quarter_short_gate_count": 0,
+            "thresholds": "predeclared gate<24ticks; onset>=target-384ticks, not quality labels"
+          },
+          "source_copy_matches": 0,
+          "midi_sha256": "b936819944dba09bec3d5c58cc58628a1931bbfd331bf7ae18bfc629c2412bb4",
+          "exact_roundtrip": true
+        },
+        {
+          "status": "complete",
+          "rejections": 0,
+          "rejection_reasons": {
+            "active_pitch": 0,
+            "polyphony": 0,
+            "no_legal_pitch": 0
+          },
+          "timing_draws": 37,
+          "pitch_draws": 37,
+          "target_ticks": 9216,
+          "last_accepted_state": {
+            "onset": 9120,
+            "gate": 96,
+            "pitch": 72,
+            "remaining_ticks": 96
+          },
+          "last_proposal": {
+            "start": 9120,
+            "end": 9216,
+            "active_pitches": [],
+            "pitch": 72
+          },
+          "endpoint_policy": {
+            "max_trailing_rest_ticks": 0,
+            "actual_silent_tail_ticks": 0
+          },
+          "seed": 4,
+          "metrics": {
+            "notes": 37,
+            "overlap_onset_fraction": 0.05405405405405406,
+            "mean_active_voices": 0.9375,
+            "max_active_voices": 2,
+            "mean_abs_pitch_interval": 2.25,
+            "above_octave_fraction": 0.0,
+            "distinct_pitches": 12,
+            "repeated_pitch_fraction": 0.3611111111111111,
+            "rest_ticks": 864,
+            "rest_fraction": 0.09375,
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 2,
+            "last_quarter_short_gate_count": 0,
+            "actual_silent_tail_ticks": 0
+          },
+          "generation_seconds": 0.06674913700044272,
+          "benchmarks": {
+            "original": {
+              "wall_seconds": 0.33142733099884936,
+              "cpu_seconds": 0.33122551499999986
+            },
+            "optimized": {
+              "wall_seconds": 0.06674913700044272,
+              "cpu_seconds": 0.06642022700000005
+            }
+          },
+          "artifact_diagnostics": {
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 2,
+            "last_quarter_short_gate_count": 0,
+            "thresholds": "predeclared gate<24ticks; onset>=target-384ticks, not quality labels"
+          },
+          "source_copy_matches": 0,
+          "midi_sha256": "d8683cec7b3b51629942927f8563bb0b47519572c0e3fb6a64c0381f02a1d3f8",
+          "exact_roundtrip": true
+        },
+        {
+          "status": "complete",
+          "rejections": 0,
+          "rejection_reasons": {
+            "active_pitch": 0,
+            "polyphony": 0,
+            "no_legal_pitch": 0
+          },
+          "timing_draws": 34,
+          "pitch_draws": 34,
+          "target_ticks": 9216,
+          "last_accepted_state": {
+            "onset": 9120,
+            "gate": 96,
+            "pitch": 74,
+            "remaining_ticks": 96
+          },
+          "last_proposal": {
+            "start": 9120,
+            "end": 9216,
+            "active_pitches": [],
+            "pitch": 74
+          },
+          "endpoint_policy": {
+            "max_trailing_rest_ticks": 0,
+            "actual_silent_tail_ticks": 0
+          },
+          "seed": 5,
+          "metrics": {
+            "notes": 34,
+            "overlap_onset_fraction": 0.14705882352941177,
+            "mean_active_voices": 0.9375,
+            "max_active_voices": 2,
+            "mean_abs_pitch_interval": 2.606060606060606,
+            "above_octave_fraction": 0.0,
+            "distinct_pitches": 15,
+            "repeated_pitch_fraction": 0.21212121212121213,
+            "rest_ticks": 1536,
+            "rest_fraction": 0.16666666666666666,
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 3,
+            "last_quarter_short_gate_count": 0,
+            "actual_silent_tail_ticks": 0
+          },
+          "generation_seconds": 0.054826170999149326,
+          "benchmarks": {
+            "optimized": {
+              "wall_seconds": 0.054826170999149326,
+              "cpu_seconds": 0.054828104000000044
+            },
+            "original": {
+              "wall_seconds": 0.3096248209985788,
+              "cpu_seconds": 0.3093930140000001
+            }
+          },
+          "artifact_diagnostics": {
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 3,
+            "last_quarter_short_gate_count": 0,
+            "thresholds": "predeclared gate<24ticks; onset>=target-384ticks, not quality labels"
+          },
+          "source_copy_matches": 0,
+          "midi_sha256": "4747a27ed4f4514ec09561685aacc85711bfc04a40b352e59b8ac2776609cedc",
+          "exact_roundtrip": true
+        },
+        {
+          "status": "complete",
+          "rejections": 0,
+          "rejection_reasons": {
+            "active_pitch": 0,
+            "polyphony": 0,
+            "no_legal_pitch": 0
+          },
+          "timing_draws": 31,
+          "pitch_draws": 31,
+          "target_ticks": 9216,
+          "last_accepted_state": {
+            "onset": 9024,
+            "gate": 192,
+            "pitch": 68,
+            "remaining_ticks": 192
+          },
+          "last_proposal": {
+            "start": 9024,
+            "end": 9216,
+            "active_pitches": [
+              72
+            ],
+            "pitch": 68
+          },
+          "endpoint_policy": {
+            "max_trailing_rest_ticks": 0,
+            "actual_silent_tail_ticks": 0
+          },
+          "seed": 6,
+          "metrics": {
+            "notes": 31,
+            "overlap_onset_fraction": 0.25806451612903225,
+            "mean_active_voices": 0.9583333333333334,
+            "max_active_voices": 3,
+            "mean_abs_pitch_interval": 2.1,
+            "above_octave_fraction": 0.0,
+            "distinct_pitches": 9,
+            "repeated_pitch_fraction": 0.2,
+            "rest_ticks": 2112,
+            "rest_fraction": 0.22916666666666666,
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 3,
+            "last_quarter_short_gate_count": 0,
+            "actual_silent_tail_ticks": 0
+          },
+          "generation_seconds": 0.04811929300012707,
+          "benchmarks": {
+            "original": {
+              "wall_seconds": 0.2774344139997993,
+              "cpu_seconds": 0.27639574999999983
+            },
+            "optimized": {
+              "wall_seconds": 0.04811929300012707,
+              "cpu_seconds": 0.04814472700000039
+            }
+          },
+          "artifact_diagnostics": {
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 3,
+            "last_quarter_short_gate_count": 0,
+            "thresholds": "predeclared gate<24ticks; onset>=target-384ticks, not quality labels"
+          },
+          "source_copy_matches": 0,
+          "midi_sha256": "dd4f7b6899249a8f7456df89fdf17ed94fe321a7d60f117a635fc20a694f75d6",
+          "exact_roundtrip": true
+        },
+        {
+          "status": "complete",
+          "rejections": 0,
+          "rejection_reasons": {
+            "active_pitch": 0,
+            "polyphony": 0,
+            "no_legal_pitch": 0
+          },
+          "timing_draws": 37,
+          "pitch_draws": 37,
+          "target_ticks": 9216,
+          "last_accepted_state": {
+            "onset": 8928,
+            "gate": 288,
+            "pitch": 71,
+            "remaining_ticks": 288
+          },
+          "last_proposal": {
+            "start": 8928,
+            "end": 9216,
+            "active_pitches": [],
+            "pitch": 71
+          },
+          "endpoint_policy": {
+            "max_trailing_rest_ticks": 0,
+            "actual_silent_tail_ticks": 0
+          },
+          "seed": 7,
+          "metrics": {
+            "notes": 37,
+            "overlap_onset_fraction": 0.16216216216216217,
+            "mean_active_voices": 0.96875,
+            "max_active_voices": 2,
+            "mean_abs_pitch_interval": 2.25,
+            "above_octave_fraction": 0.0,
+            "distinct_pitches": 13,
+            "repeated_pitch_fraction": 0.3611111111111111,
+            "rest_ticks": 1056,
+            "rest_fraction": 0.11458333333333333,
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 1,
+            "last_quarter_short_gate_count": 0,
+            "actual_silent_tail_ticks": 0
+          },
+          "generation_seconds": 0.06267200600086653,
+          "benchmarks": {
+            "optimized": {
+              "wall_seconds": 0.06267200600086653,
+              "cpu_seconds": 0.062473188000000235
+            },
+            "original": {
+              "wall_seconds": 0.34801045099993644,
+              "cpu_seconds": 0.3478384170000002
+            }
+          },
+          "artifact_diagnostics": {
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 1,
+            "last_quarter_short_gate_count": 0,
+            "thresholds": "predeclared gate<24ticks; onset>=target-384ticks, not quality labels"
+          },
+          "source_copy_matches": 0,
+          "midi_sha256": "ac141b1a0f872a7b30149829ad9a9af83c941ff3c2f9608c5f0bad2d72512a53",
+          "exact_roundtrip": true
+        },
+        {
+          "status": "complete",
+          "rejections": 0,
+          "rejection_reasons": {
+            "active_pitch": 0,
+            "polyphony": 0,
+            "no_legal_pitch": 0
+          },
+          "timing_draws": 14,
+          "pitch_draws": 14,
+          "target_ticks": 9216,
+          "last_accepted_state": {
+            "onset": 9185,
+            "gate": 31,
+            "pitch": 76,
+            "remaining_ticks": 31
+          },
+          "last_proposal": {
+            "start": 9185,
+            "end": 9216,
+            "active_pitches": [
+              67,
+              71
+            ],
+            "pitch": 76
+          },
+          "endpoint_policy": {
+            "max_trailing_rest_ticks": 0,
+            "actual_silent_tail_ticks": 0
+          },
+          "seed": 8,
+          "metrics": {
+            "notes": 14,
+            "overlap_onset_fraction": 0.5714285714285714,
+            "mean_active_voices": 0.23697916666666666,
+            "max_active_voices": 3,
+            "mean_abs_pitch_interval": 2,
+            "above_octave_fraction": 0.0,
+            "distinct_pitches": 9,
+            "repeated_pitch_fraction": 0.3076923076923077,
+            "rest_ticks": 7451,
+            "rest_fraction": 0.8084852430555556,
+            "short_gate_count": 4,
+            "last_quarter_onset_count": 9,
+            "last_quarter_short_gate_count": 4,
+            "actual_silent_tail_ticks": 0
+          },
+          "generation_seconds": 0.019160304000251926,
+          "benchmarks": {
+            "original": {
+              "wall_seconds": 0.10581586199987214,
+              "cpu_seconds": 0.10580870200000003
+            },
+            "optimized": {
+              "wall_seconds": 0.019160304000251926,
+              "cpu_seconds": 0.019021415000000097
+            }
+          },
+          "artifact_diagnostics": {
+            "short_gate_count": 4,
+            "last_quarter_onset_count": 9,
+            "last_quarter_short_gate_count": 4,
+            "thresholds": "predeclared gate<24ticks; onset>=target-384ticks, not quality labels"
+          },
+          "source_copy_matches": 0,
+          "midi_sha256": "e22444cc800d94c839932ed6da82297682acb952352ac83298f77d2425e76c94",
+          "exact_roundtrip": true
+        },
+        {
+          "status": "complete",
+          "rejections": 0,
+          "rejection_reasons": {
+            "active_pitch": 0,
+            "polyphony": 0,
+            "no_legal_pitch": 0
+          },
+          "timing_draws": 35,
+          "pitch_draws": 35,
+          "target_ticks": 9216,
+          "last_accepted_state": {
+            "onset": 9024,
+            "gate": 192,
+            "pitch": 74,
+            "remaining_ticks": 192
+          },
+          "last_proposal": {
+            "start": 9024,
+            "end": 9216,
+            "active_pitches": [
+              62
+            ],
+            "pitch": 74
+          },
+          "endpoint_policy": {
+            "max_trailing_rest_ticks": 0,
+            "actual_silent_tail_ticks": 0
+          },
+          "seed": 9,
+          "metrics": {
+            "notes": 35,
+            "overlap_onset_fraction": 0.11428571428571428,
+            "mean_active_voices": 0.9166666666666666,
+            "max_active_voices": 2,
+            "mean_abs_pitch_interval": 2.2941176470588234,
+            "above_octave_fraction": 0.0,
+            "distinct_pitches": 14,
+            "repeated_pitch_fraction": 0.29411764705882354,
+            "rest_ticks": 1440,
+            "rest_fraction": 0.15625,
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 3,
+            "last_quarter_short_gate_count": 0,
+            "actual_silent_tail_ticks": 0
+          },
+          "generation_seconds": 0.052366190999237006,
+          "benchmarks": {
+            "optimized": {
+              "wall_seconds": 0.052366190999237006,
+              "cpu_seconds": 0.05236056599999994
+            },
+            "original": {
+              "wall_seconds": 0.3193363540012797,
+              "cpu_seconds": 0.31886196
+            }
+          },
+          "artifact_diagnostics": {
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 3,
+            "last_quarter_short_gate_count": 0,
+            "thresholds": "predeclared gate<24ticks; onset>=target-384ticks, not quality labels"
+          },
+          "source_copy_matches": 0,
+          "midi_sha256": "b790025ca32af75e733b07da4b6c657fdd72966f6d243560ab357457def574f3",
+          "exact_roundtrip": true
+        }
+      ],
+      "benchmark_totals": {
+        "original": {
+          "wall_seconds": 2.754390740999952,
+          "cpu_seconds": 2.750811081
+        },
+        "optimized": {
+          "wall_seconds": 0.48740273300063564,
+          "cpu_seconds": 0.4864883780000008
+        }
+      },
+      "statuses": {
+        "complete": 10
+      },
+      "total_rejections": 0,
+      "generation_seconds": 0.48740273300063564,
+      "rejection_reasons": {
+        "active_pitch": 0,
+        "polyphony": 0,
+        "no_legal_pitch": 0
+      },
+      "timing_draws": 314,
+      "pitch_draws": 314,
+      "complete_only_means": {
+        "notes": 31.4,
+        "overlap_onset_fraction": 0.2040610140362636,
+        "mean_active_voices": 0.8125759548611111,
+        "max_active_voices": 2.2,
+        "mean_abs_pitch_interval": 2.0981339489543824,
+        "above_octave_fraction": 0.0,
+        "distinct_pitches": 10.9,
+        "repeated_pitch_fraction": 0.31836888945248076,
+        "rest_ticks": 2621.6,
+        "rest_fraction": 0.28446180555555556,
+        "short_gate_count": 1,
+        "last_quarter_onset_count": 3.7,
+        "last_quarter_short_gate_count": 1,
+        "actual_silent_tail_ticks": 0
+      },
+      "metric_denominators": {
+        "notes": 10,
+        "overlap_onset_fraction": 10,
+        "mean_active_voices": 10,
+        "max_active_voices": 10,
+        "mean_abs_pitch_interval": 10,
+        "above_octave_fraction": 10,
+        "distinct_pitches": 10,
+        "repeated_pitch_fraction": 10,
+        "rest_ticks": 10,
+        "rest_fraction": 10,
+        "short_gate_count": 10,
+        "last_quarter_onset_count": 10,
+        "last_quarter_short_gate_count": 10,
+        "actual_silent_tail_ticks": 10
+      }
+    },
+    "tail0_mix1": {
+      "outputs": [
+        {
+          "status": "complete",
+          "rejections": 0,
+          "rejection_reasons": {
+            "active_pitch": 0,
+            "polyphony": 0,
+            "no_legal_pitch": 0
+          },
+          "timing_draws": 32,
+          "pitch_draws": 32,
+          "target_ticks": 9216,
+          "last_accepted_state": {
+            "onset": 8832,
+            "gate": 384,
+            "pitch": 64,
+            "remaining_ticks": 384
+          },
+          "last_proposal": {
+            "start": 8832,
+            "end": 9216,
+            "active_pitches": [],
+            "pitch": 64
+          },
+          "endpoint_policy": {
+            "max_trailing_rest_ticks": 0,
+            "actual_silent_tail_ticks": 0
+          },
+          "seed": 0,
+          "metrics": {
+            "notes": 32,
+            "overlap_onset_fraction": 0.03125,
+            "mean_active_voices": 0.8125,
+            "max_active_voices": 2,
+            "mean_abs_pitch_interval": 3.161290322580645,
+            "above_octave_fraction": 0.0,
+            "distinct_pitches": 13,
+            "repeated_pitch_fraction": 0.25806451612903225,
+            "rest_ticks": 2112,
+            "rest_fraction": 0.22916666666666666,
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 1,
+            "last_quarter_short_gate_count": 0,
+            "actual_silent_tail_ticks": 0
+          },
+          "generation_seconds": 0.04412355000022217,
+          "benchmarks": {
+            "original": {
+              "wall_seconds": 0.24713379900094878,
+              "cpu_seconds": 0.24697932300000014
+            },
+            "optimized": {
+              "wall_seconds": 0.04412355000022217,
+              "cpu_seconds": 0.044127107
+            }
+          },
+          "artifact_diagnostics": {
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 1,
+            "last_quarter_short_gate_count": 0,
+            "thresholds": "predeclared gate<24ticks; onset>=target-384ticks, not quality labels"
+          },
+          "source_copy_matches": 0,
+          "midi_sha256": "40dcb3baad8916ef986bb204783d77e6d4edf7974e613907f5f914e71ec95eb4",
+          "exact_roundtrip": true
+        },
+        {
+          "status": "complete",
+          "rejections": 0,
+          "rejection_reasons": {
+            "active_pitch": 0,
+            "polyphony": 0,
+            "no_legal_pitch": 0
+          },
+          "timing_draws": 29,
+          "pitch_draws": 29,
+          "target_ticks": 9216,
+          "last_accepted_state": {
+            "onset": 9120,
+            "gate": 96,
+            "pitch": 72,
+            "remaining_ticks": 96
+          },
+          "last_proposal": {
+            "start": 9120,
+            "end": 9216,
+            "active_pitches": [],
+            "pitch": 72
+          },
+          "endpoint_policy": {
+            "max_trailing_rest_ticks": 0,
+            "actual_silent_tail_ticks": 0
+          },
+          "seed": 1,
+          "metrics": {
+            "notes": 29,
+            "overlap_onset_fraction": 0.2413793103448276,
+            "mean_active_voices": 1.0208333333333333,
+            "max_active_voices": 3,
+            "mean_abs_pitch_interval": 2.5,
+            "above_octave_fraction": 0.0,
+            "distinct_pitches": 12,
+            "repeated_pitch_fraction": 0.2857142857142857,
+            "rest_ticks": 1152,
+            "rest_fraction": 0.125,
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 2,
+            "last_quarter_short_gate_count": 0,
+            "actual_silent_tail_ticks": 0
+          },
+          "generation_seconds": 0.04442172000017308,
+          "benchmarks": {
+            "optimized": {
+              "wall_seconds": 0.04442172000017308,
+              "cpu_seconds": 0.044423689999999905
+            },
+            "original": {
+              "wall_seconds": 0.24621838799976103,
+              "cpu_seconds": 0.2459665430000002
+            }
+          },
+          "artifact_diagnostics": {
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 2,
+            "last_quarter_short_gate_count": 0,
+            "thresholds": "predeclared gate<24ticks; onset>=target-384ticks, not quality labels"
+          },
+          "source_copy_matches": 0,
+          "midi_sha256": "903b75934756cd2d93b7405a17f406a423917cbbc47a41588f6fb4ddf7360339",
+          "exact_roundtrip": true
+        },
+        {
+          "status": "complete",
+          "rejections": 0,
+          "rejection_reasons": {
+            "active_pitch": 0,
+            "polyphony": 0,
+            "no_legal_pitch": 0
+          },
+          "timing_draws": 33,
+          "pitch_draws": 33,
+          "target_ticks": 9216,
+          "last_accepted_state": {
+            "onset": 9024,
+            "gate": 192,
+            "pitch": 74,
+            "remaining_ticks": 192
+          },
+          "last_proposal": {
+            "start": 9024,
+            "end": 9216,
+            "active_pitches": [],
+            "pitch": 74
+          },
+          "endpoint_policy": {
+            "max_trailing_rest_ticks": 0,
+            "actual_silent_tail_ticks": 0
+          },
+          "seed": 2,
+          "metrics": {
+            "notes": 33,
+            "overlap_onset_fraction": 0.15151515151515152,
+            "mean_active_voices": 0.96875,
+            "max_active_voices": 3,
+            "mean_abs_pitch_interval": 3.875,
+            "above_octave_fraction": 0.09375,
+            "distinct_pitches": 15,
+            "repeated_pitch_fraction": 0.21875,
+            "rest_ticks": 1632,
+            "rest_fraction": 0.17708333333333334,
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 2,
+            "last_quarter_short_gate_count": 0,
+            "actual_silent_tail_ticks": 0
+          },
+          "generation_seconds": 0.0530987649999588,
+          "benchmarks": {
+            "original": {
+              "wall_seconds": 0.3049862039988511,
+              "cpu_seconds": 0.3046897260000003
+            },
+            "optimized": {
+              "wall_seconds": 0.0530987649999588,
+              "cpu_seconds": 0.0531027850000001
+            }
+          },
+          "artifact_diagnostics": {
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 2,
+            "last_quarter_short_gate_count": 0,
+            "thresholds": "predeclared gate<24ticks; onset>=target-384ticks, not quality labels"
+          },
+          "source_copy_matches": 0,
+          "midi_sha256": "da9dc240a48b6ea2f58fe66443e1e0bb9c82c02f9849a2d90a599238b8ce2b0f",
+          "exact_roundtrip": true
+        },
+        {
+          "status": "complete",
+          "rejections": 0,
+          "rejection_reasons": {
+            "active_pitch": 0,
+            "polyphony": 0,
+            "no_legal_pitch": 0
+          },
+          "timing_draws": 34,
+          "pitch_draws": 34,
+          "target_ticks": 9216,
+          "last_accepted_state": {
+            "onset": 9024,
+            "gate": 192,
+            "pitch": 67,
+            "remaining_ticks": 192
+          },
+          "last_proposal": {
+            "start": 9024,
+            "end": 9216,
+            "active_pitches": [],
+            "pitch": 67
+          },
+          "endpoint_policy": {
+            "max_trailing_rest_ticks": 0,
+            "actual_silent_tail_ticks": 0
+          },
+          "seed": 3,
+          "metrics": {
+            "notes": 34,
+            "overlap_onset_fraction": 0.14705882352941177,
+            "mean_active_voices": 0.9583333333333334,
+            "max_active_voices": 2,
+            "mean_abs_pitch_interval": 3.1818181818181817,
+            "above_octave_fraction": 0.030303030303030304,
+            "distinct_pitches": 13,
+            "repeated_pitch_fraction": 0.30303030303030304,
+            "rest_ticks": 1152,
+            "rest_fraction": 0.125,
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 2,
+            "last_quarter_short_gate_count": 0,
+            "actual_silent_tail_ticks": 0
+          },
+          "generation_seconds": 0.05489792900152679,
+          "benchmarks": {
+            "optimized": {
+              "wall_seconds": 0.05489792900152679,
+              "cpu_seconds": 0.054901679000000314
+            },
+            "original": {
+              "wall_seconds": 0.29449906699846906,
+              "cpu_seconds": 0.29413132699999966
+            }
+          },
+          "artifact_diagnostics": {
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 2,
+            "last_quarter_short_gate_count": 0,
+            "thresholds": "predeclared gate<24ticks; onset>=target-384ticks, not quality labels"
+          },
+          "source_copy_matches": 0,
+          "midi_sha256": "bba2234a0f3d9c28b3b0bb59c81c1181a35d588c76d93f514720b0521d97ccfd",
+          "exact_roundtrip": true
+        },
+        {
+          "status": "complete",
+          "rejections": 0,
+          "rejection_reasons": {
+            "active_pitch": 0,
+            "polyphony": 0,
+            "no_legal_pitch": 0
+          },
+          "timing_draws": 35,
+          "pitch_draws": 35,
+          "target_ticks": 9216,
+          "last_accepted_state": {
+            "onset": 9024,
+            "gate": 192,
+            "pitch": 69,
+            "remaining_ticks": 192
+          },
+          "last_proposal": {
+            "start": 9024,
+            "end": 9216,
+            "active_pitches": [],
+            "pitch": 69
+          },
+          "endpoint_policy": {
+            "max_trailing_rest_ticks": 0,
+            "actual_silent_tail_ticks": 0
+          },
+          "seed": 4,
+          "metrics": {
+            "notes": 35,
+            "overlap_onset_fraction": 0.17142857142857143,
+            "mean_active_voices": 0.9270833333333334,
+            "max_active_voices": 2,
+            "mean_abs_pitch_interval": 4.235294117647059,
+            "above_octave_fraction": 0.029411764705882353,
+            "distinct_pitches": 11,
+            "repeated_pitch_fraction": 0.17647058823529413,
+            "rest_ticks": 2016,
+            "rest_fraction": 0.21875,
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 2,
+            "last_quarter_short_gate_count": 0,
+            "actual_silent_tail_ticks": 0
+          },
+          "generation_seconds": 0.062396412999078166,
+          "benchmarks": {
+            "original": {
+              "wall_seconds": 0.3324550880006427,
+              "cpu_seconds": 0.3320854649999996
+            },
+            "optimized": {
+              "wall_seconds": 0.062396412999078166,
+              "cpu_seconds": 0.062393056000000335
+            }
+          },
+          "artifact_diagnostics": {
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 2,
+            "last_quarter_short_gate_count": 0,
+            "thresholds": "predeclared gate<24ticks; onset>=target-384ticks, not quality labels"
+          },
+          "source_copy_matches": 0,
+          "midi_sha256": "acb5763c46a92838c3804126f59197f19f95b1fc3753503cc2892eb2e5f05f87",
+          "exact_roundtrip": true
+        },
+        {
+          "status": "complete",
+          "rejections": 0,
+          "rejection_reasons": {
+            "active_pitch": 0,
+            "polyphony": 0,
+            "no_legal_pitch": 0
+          },
+          "timing_draws": 33,
+          "pitch_draws": 33,
+          "target_ticks": 9216,
+          "last_accepted_state": {
+            "onset": 9024,
+            "gate": 192,
+            "pitch": 70,
+            "remaining_ticks": 192
+          },
+          "last_proposal": {
+            "start": 9024,
+            "end": 9216,
+            "active_pitches": [],
+            "pitch": 70
+          },
+          "endpoint_policy": {
+            "max_trailing_rest_ticks": 0,
+            "actual_silent_tail_ticks": 0
+          },
+          "seed": 5,
+          "metrics": {
+            "notes": 33,
+            "overlap_onset_fraction": 0.24242424242424243,
+            "mean_active_voices": 1.1041666666666667,
+            "max_active_voices": 2,
+            "mean_abs_pitch_interval": 4.15625,
+            "above_octave_fraction": 0.0625,
+            "distinct_pitches": 14,
+            "repeated_pitch_fraction": 0.1875,
+            "rest_ticks": 768,
+            "rest_fraction": 0.08333333333333333,
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 2,
+            "last_quarter_short_gate_count": 0,
+            "actual_silent_tail_ticks": 0
+          },
+          "generation_seconds": 0.04984782699830248,
+          "benchmarks": {
+            "optimized": {
+              "wall_seconds": 0.04984782699830248,
+              "cpu_seconds": 0.04985023299999991
+            },
+            "original": {
+              "wall_seconds": 0.29497441300009086,
+              "cpu_seconds": 0.29475174400000004
+            }
+          },
+          "artifact_diagnostics": {
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 2,
+            "last_quarter_short_gate_count": 0,
+            "thresholds": "predeclared gate<24ticks; onset>=target-384ticks, not quality labels"
+          },
+          "source_copy_matches": 0,
+          "midi_sha256": "ac35f9bda1bf2e12104b6394e00c855d5da1ba5fff462a4b6b04d260275902c4",
+          "exact_roundtrip": true
+        },
+        {
+          "status": "complete",
+          "rejections": 0,
+          "rejection_reasons": {
+            "active_pitch": 0,
+            "polyphony": 0,
+            "no_legal_pitch": 0
+          },
+          "timing_draws": 31,
+          "pitch_draws": 31,
+          "target_ticks": 9216,
+          "last_accepted_state": {
+            "onset": 9024,
+            "gate": 192,
+            "pitch": 66,
+            "remaining_ticks": 192
+          },
+          "last_proposal": {
+            "start": 9024,
+            "end": 9216,
+            "active_pitches": [],
+            "pitch": 66
+          },
+          "endpoint_policy": {
+            "max_trailing_rest_ticks": 0,
+            "actual_silent_tail_ticks": 0
+          },
+          "seed": 6,
+          "metrics": {
+            "notes": 31,
+            "overlap_onset_fraction": 0.22580645161290322,
+            "mean_active_voices": 1.0416666666666667,
+            "max_active_voices": 2,
+            "mean_abs_pitch_interval": 2.1666666666666665,
+            "above_octave_fraction": 0.0,
+            "distinct_pitches": 13,
+            "repeated_pitch_fraction": 0.26666666666666666,
+            "rest_ticks": 1056,
+            "rest_fraction": 0.11458333333333333,
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 1,
+            "last_quarter_short_gate_count": 0,
+            "actual_silent_tail_ticks": 0
+          },
+          "generation_seconds": 0.054498707000675495,
+          "benchmarks": {
+            "original": {
+              "wall_seconds": 0.31932143199992424,
+              "cpu_seconds": 0.3191341450000005
+            },
+            "optimized": {
+              "wall_seconds": 0.054498707000675495,
+              "cpu_seconds": 0.05447654600000007
+            }
+          },
+          "artifact_diagnostics": {
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 1,
+            "last_quarter_short_gate_count": 0,
+            "thresholds": "predeclared gate<24ticks; onset>=target-384ticks, not quality labels"
+          },
+          "source_copy_matches": 0,
+          "midi_sha256": "56689a7d9fbba3a9f2b5437272388dbcfeb56878c0e792a799deeb5ec2a3ad4f",
+          "exact_roundtrip": true
+        },
+        {
+          "status": "complete",
+          "rejections": 0,
+          "rejection_reasons": {
+            "active_pitch": 0,
+            "polyphony": 0,
+            "no_legal_pitch": 0
+          },
+          "timing_draws": 34,
+          "pitch_draws": 34,
+          "target_ticks": 9216,
+          "last_accepted_state": {
+            "onset": 9024,
+            "gate": 192,
+            "pitch": 57,
+            "remaining_ticks": 192
+          },
+          "last_proposal": {
+            "start": 9024,
+            "end": 9216,
+            "active_pitches": [],
+            "pitch": 57
+          },
+          "endpoint_policy": {
+            "max_trailing_rest_ticks": 0,
+            "actual_silent_tail_ticks": 0
+          },
+          "seed": 7,
+          "metrics": {
+            "notes": 34,
+            "overlap_onset_fraction": 0.08823529411764706,
+            "mean_active_voices": 0.9791666666666666,
+            "max_active_voices": 2,
+            "mean_abs_pitch_interval": 3.484848484848485,
+            "above_octave_fraction": 0.030303030303030304,
+            "distinct_pitches": 14,
+            "repeated_pitch_fraction": 0.24242424242424243,
+            "rest_ticks": 768,
+            "rest_fraction": 0.08333333333333333,
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 1,
+            "last_quarter_short_gate_count": 0,
+            "actual_silent_tail_ticks": 0
+          },
+          "generation_seconds": 0.05210797600011574,
+          "benchmarks": {
+            "optimized": {
+              "wall_seconds": 0.05210797600011574,
+              "cpu_seconds": 0.0520650370000002
+            },
+            "original": {
+              "wall_seconds": 0.3038433410001744,
+              "cpu_seconds": 0.3038084080000001
+            }
+          },
+          "artifact_diagnostics": {
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 1,
+            "last_quarter_short_gate_count": 0,
+            "thresholds": "predeclared gate<24ticks; onset>=target-384ticks, not quality labels"
+          },
+          "source_copy_matches": 0,
+          "midi_sha256": "6311542f514fbe06338ef30bbefa178320fa76c1fcd7692a76f7c01f6f4f25bc",
+          "exact_roundtrip": true
+        },
+        {
+          "status": "complete",
+          "rejections": 0,
+          "rejection_reasons": {
+            "active_pitch": 0,
+            "polyphony": 0,
+            "no_legal_pitch": 0
+          },
+          "timing_draws": 36,
+          "pitch_draws": 36,
+          "target_ticks": 9216,
+          "last_accepted_state": {
+            "onset": 8832,
+            "gate": 384,
+            "pitch": 67,
+            "remaining_ticks": 384
+          },
+          "last_proposal": {
+            "start": 8832,
+            "end": 9216,
+            "active_pitches": [
+              69
+            ],
+            "pitch": 67
+          },
+          "endpoint_policy": {
+            "max_trailing_rest_ticks": 0,
+            "actual_silent_tail_ticks": 0
+          },
+          "seed": 8,
+          "metrics": {
+            "notes": 36,
+            "overlap_onset_fraction": 0.3888888888888889,
+            "mean_active_voices": 1.2083333333333333,
+            "max_active_voices": 2,
+            "mean_abs_pitch_interval": 3.057142857142857,
+            "above_octave_fraction": 0.0,
+            "distinct_pitches": 16,
+            "repeated_pitch_fraction": 0.11428571428571428,
+            "rest_ticks": 960,
+            "rest_fraction": 0.10416666666666667,
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 1,
+            "last_quarter_short_gate_count": 0,
+            "actual_silent_tail_ticks": 0
+          },
+          "generation_seconds": 0.05920778800100379,
+          "benchmarks": {
+            "original": {
+              "wall_seconds": 0.3450399040011689,
+              "cpu_seconds": 0.34495875299999934
+            },
+            "optimized": {
+              "wall_seconds": 0.05920778800100379,
+              "cpu_seconds": 0.059212270999999816
+            }
+          },
+          "artifact_diagnostics": {
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 1,
+            "last_quarter_short_gate_count": 0,
+            "thresholds": "predeclared gate<24ticks; onset>=target-384ticks, not quality labels"
+          },
+          "source_copy_matches": 0,
+          "midi_sha256": "852cea27cb60303b6df91f0a909f26a0ff7c41f596b37f91c94490cf4ef9581e",
+          "exact_roundtrip": true
+        },
+        {
+          "status": "complete",
+          "rejections": 0,
+          "rejection_reasons": {
+            "active_pitch": 0,
+            "polyphony": 0,
+            "no_legal_pitch": 0
+          },
+          "timing_draws": 35,
+          "pitch_draws": 35,
+          "target_ticks": 9216,
+          "last_accepted_state": {
+            "onset": 8832,
+            "gate": 384,
+            "pitch": 57,
+            "remaining_ticks": 384
+          },
+          "last_proposal": {
+            "start": 8832,
+            "end": 9216,
+            "active_pitches": [],
+            "pitch": 57
+          },
+          "endpoint_policy": {
+            "max_trailing_rest_ticks": 0,
+            "actual_silent_tail_ticks": 0
+          },
+          "seed": 9,
+          "metrics": {
+            "notes": 35,
+            "overlap_onset_fraction": 0.05714285714285714,
+            "mean_active_voices": 0.8229166666666666,
+            "max_active_voices": 2,
+            "mean_abs_pitch_interval": 3.9705882352941178,
+            "above_octave_fraction": 0.029411764705882353,
+            "distinct_pitches": 16,
+            "repeated_pitch_fraction": 0.14705882352941177,
+            "rest_ticks": 1824,
+            "rest_fraction": 0.19791666666666666,
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 1,
+            "last_quarter_short_gate_count": 0,
+            "actual_silent_tail_ticks": 0
+          },
+          "generation_seconds": 0.06325006199949712,
+          "benchmarks": {
+            "optimized": {
+              "wall_seconds": 0.06325006199949712,
+              "cpu_seconds": 0.06325146699999973
+            },
+            "original": {
+              "wall_seconds": 0.30854751599872543,
+              "cpu_seconds": 0.3084894870000001
+            }
+          },
+          "artifact_diagnostics": {
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 1,
+            "last_quarter_short_gate_count": 0,
+            "thresholds": "predeclared gate<24ticks; onset>=target-384ticks, not quality labels"
+          },
+          "source_copy_matches": 0,
+          "midi_sha256": "1b67ba123f18bb63293ae509a0a39f3f7673a70d367e7f959f432185a074028a",
+          "exact_roundtrip": true
+        }
+      ],
+      "benchmark_totals": {
+        "original": {
+          "wall_seconds": 2.9970191519987566,
+          "cpu_seconds": 2.994994921
+        },
+        "optimized": {
+          "wall_seconds": 0.5378507370005536,
+          "cpu_seconds": 0.5378038710000004
+        }
+      },
+      "statuses": {
+        "complete": 10
+      },
+      "total_rejections": 0,
+      "generation_seconds": 0.5378507370005536,
+      "rejection_reasons": {
+        "active_pitch": 0,
+        "polyphony": 0,
+        "no_legal_pitch": 0
+      },
+      "timing_draws": 332,
+      "pitch_draws": 332,
+      "complete_only_means": {
+        "notes": 33.2,
+        "overlap_onset_fraction": 0.17451295910045012,
+        "mean_active_voices": 0.984375,
+        "max_active_voices": 2.2,
+        "mean_abs_pitch_interval": 3.378889886599801,
+        "above_octave_fraction": 0.027567959001782532,
+        "distinct_pitches": 13.7,
+        "repeated_pitch_fraction": 0.21999651400149503,
+        "rest_ticks": 1344,
+        "rest_fraction": 0.14583333333333334,
+        "short_gate_count": 0,
+        "last_quarter_onset_count": 1.5,
+        "last_quarter_short_gate_count": 0,
+        "actual_silent_tail_ticks": 0
+      },
+      "metric_denominators": {
+        "notes": 10,
+        "overlap_onset_fraction": 10,
+        "mean_active_voices": 10,
+        "max_active_voices": 10,
+        "mean_abs_pitch_interval": 10,
+        "above_octave_fraction": 10,
+        "distinct_pitches": 10,
+        "repeated_pitch_fraction": 10,
+        "rest_ticks": 10,
+        "rest_fraction": 10,
+        "short_gate_count": 10,
+        "last_quarter_onset_count": 10,
+        "last_quarter_short_gate_count": 10,
+        "actual_silent_tail_ticks": 10
+      }
+    },
+    "tail384_mix0": {
+      "outputs": [
+        {
+          "status": "complete",
+          "rejections": 0,
+          "rejection_reasons": {
+            "active_pitch": 0,
+            "polyphony": 0,
+            "no_legal_pitch": 0
+          },
+          "timing_draws": 37,
+          "pitch_draws": 37,
+          "target_ticks": 9216,
+          "last_accepted_state": {
+            "onset": 8736,
+            "gate": 96,
+            "pitch": 65,
+            "remaining_ticks": 480
+          },
+          "last_proposal": {
+            "start": 8736,
+            "end": 8832,
+            "active_pitches": [],
+            "pitch": 65
+          },
+          "endpoint_policy": {
+            "max_trailing_rest_ticks": 384,
+            "actual_silent_tail_ticks": 384
+          },
+          "seed": 0,
+          "metrics": {
+            "notes": 37,
+            "overlap_onset_fraction": 0.16216216216216217,
+            "mean_active_voices": 0.9791666666666666,
+            "max_active_voices": 2,
+            "mean_abs_pitch_interval": 2.1944444444444446,
+            "above_octave_fraction": 0.0,
+            "distinct_pitches": 11,
+            "repeated_pitch_fraction": 0.3055555555555556,
+            "rest_ticks": 1152,
+            "rest_fraction": 0.125,
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 0,
+            "last_quarter_short_gate_count": 0,
+            "actual_silent_tail_ticks": 384
+          },
+          "generation_seconds": 0.05853034000028856,
+          "benchmarks": {
+            "optimized": {
+              "wall_seconds": 0.05853034000028856,
+              "cpu_seconds": 0.0585330260000001
+            }
+          },
+          "artifact_diagnostics": {
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 0,
+            "last_quarter_short_gate_count": 0,
+            "thresholds": "predeclared gate<24ticks; onset>=target-384ticks, not quality labels"
+          },
+          "source_copy_matches": 0,
+          "midi_sha256": "1b2b9715c26355e230053731fa76ba54894d28be92966bba838d03851728fc82",
+          "exact_roundtrip": true
+        },
+        {
+          "status": "complete",
+          "rejections": 0,
+          "rejection_reasons": {
+            "active_pitch": 0,
+            "polyphony": 0,
+            "no_legal_pitch": 0
+          },
+          "timing_draws": 35,
+          "pitch_draws": 35,
+          "target_ticks": 9216,
+          "last_accepted_state": {
+            "onset": 8781,
+            "gate": 192,
+            "pitch": 68,
+            "remaining_ticks": 435
+          },
+          "last_proposal": {
+            "start": 8781,
+            "end": 8973,
+            "active_pitches": [],
+            "pitch": 68
+          },
+          "endpoint_policy": {
+            "max_trailing_rest_ticks": 384,
+            "actual_silent_tail_ticks": 243
+          },
+          "seed": 1,
+          "metrics": {
+            "notes": 35,
+            "overlap_onset_fraction": 0.2857142857142857,
+            "mean_active_voices": 1.0625,
+            "max_active_voices": 3,
+            "mean_abs_pitch_interval": 1.411764705882353,
+            "above_octave_fraction": 0.0,
+            "distinct_pitches": 9,
+            "repeated_pitch_fraction": 0.3235294117647059,
+            "rest_ticks": 1440,
+            "rest_fraction": 0.15625,
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 0,
+            "last_quarter_short_gate_count": 0,
+            "actual_silent_tail_ticks": 243
+          },
+          "generation_seconds": 0.0684112399994774,
+          "benchmarks": {
+            "optimized": {
+              "wall_seconds": 0.0684112399994774,
+              "cpu_seconds": 0.06840515000000025
+            }
+          },
+          "artifact_diagnostics": {
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 0,
+            "last_quarter_short_gate_count": 0,
+            "thresholds": "predeclared gate<24ticks; onset>=target-384ticks, not quality labels"
+          },
+          "source_copy_matches": 0,
+          "midi_sha256": "c8db5c67ac7e3a7244756c171b722618f4963d099c2799bda6f917126e7d862b",
+          "exact_roundtrip": true
+        },
+        {
+          "status": "complete",
+          "rejections": 0,
+          "rejection_reasons": {
+            "active_pitch": 0,
+            "polyphony": 0,
+            "no_legal_pitch": 0
+          },
+          "timing_draws": 3,
+          "pitch_draws": 3,
+          "target_ticks": 9216,
+          "last_accepted_state": {
+            "onset": 8736,
+            "gate": 96,
+            "pitch": 60,
+            "remaining_ticks": 480
+          },
+          "last_proposal": {
+            "start": 8736,
+            "end": 8832,
+            "active_pitches": [],
+            "pitch": 60
+          },
+          "endpoint_policy": {
+            "max_trailing_rest_ticks": 384,
+            "actual_silent_tail_ticks": 384
+          },
+          "seed": 2,
+          "metrics": {
+            "notes": 3,
+            "overlap_onset_fraction": 0.0,
+            "mean_active_voices": 0.052083333333333336,
+            "max_active_voices": 1,
+            "mean_abs_pitch_interval": 1,
+            "above_octave_fraction": 0.0,
+            "distinct_pitches": 2,
+            "repeated_pitch_fraction": 0.5,
+            "rest_ticks": 8736,
+            "rest_fraction": 0.9479166666666666,
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 0,
+            "last_quarter_short_gate_count": 0,
+            "actual_silent_tail_ticks": 384
+          },
+          "generation_seconds": 0.0043539850012166426,
+          "benchmarks": {
+            "optimized": {
+              "wall_seconds": 0.0043539850012166426,
+              "cpu_seconds": 0.004354771000000035
+            }
+          },
+          "artifact_diagnostics": {
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 0,
+            "last_quarter_short_gate_count": 0,
+            "thresholds": "predeclared gate<24ticks; onset>=target-384ticks, not quality labels"
+          },
+          "source_copy_matches": 0,
+          "midi_sha256": "e7c8aaface795ef35a1887aa30a8c9cf1c689362aa0ecbfebc820bf8273b309e",
+          "exact_roundtrip": true
+        },
+        {
+          "status": "complete",
+          "rejections": 0,
+          "rejection_reasons": {
+            "active_pitch": 0,
+            "polyphony": 0,
+            "no_legal_pitch": 0
+          },
+          "timing_draws": 35,
+          "pitch_draws": 35,
+          "target_ticks": 9216,
+          "last_accepted_state": {
+            "onset": 8544,
+            "gate": 384,
+            "pitch": 65,
+            "remaining_ticks": 672
+          },
+          "last_proposal": {
+            "start": 8544,
+            "end": 8928,
+            "active_pitches": [],
+            "pitch": 65
+          },
+          "endpoint_policy": {
+            "max_trailing_rest_ticks": 384,
+            "actual_silent_tail_ticks": 288
+          },
+          "seed": 3,
+          "metrics": {
+            "notes": 35,
+            "overlap_onset_fraction": 0.17142857142857143,
+            "mean_active_voices": 0.90625,
+            "max_active_voices": 2,
+            "mean_abs_pitch_interval": 1.7352941176470589,
+            "above_octave_fraction": 0.0,
+            "distinct_pitches": 12,
+            "repeated_pitch_fraction": 0.35294117647058826,
+            "rest_ticks": 1728,
+            "rest_fraction": 0.1875,
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 0,
+            "last_quarter_short_gate_count": 0,
+            "actual_silent_tail_ticks": 288
+          },
+          "generation_seconds": 0.054778952999186004,
+          "benchmarks": {
+            "optimized": {
+              "wall_seconds": 0.054778952999186004,
+              "cpu_seconds": 0.0547720690000002
+            }
+          },
+          "artifact_diagnostics": {
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 0,
+            "last_quarter_short_gate_count": 0,
+            "thresholds": "predeclared gate<24ticks; onset>=target-384ticks, not quality labels"
+          },
+          "source_copy_matches": 0,
+          "midi_sha256": "ccc13525eb2708f012291cc4af97a466a1341b446f55dd108c03d5136fa6f721",
+          "exact_roundtrip": true
+        },
+        {
+          "status": "complete",
+          "rejections": 0,
+          "rejection_reasons": {
+            "active_pitch": 0,
+            "polyphony": 0,
+            "no_legal_pitch": 0
+          },
+          "timing_draws": 35,
+          "pitch_draws": 35,
+          "target_ticks": 9216,
+          "last_accepted_state": {
+            "onset": 8736,
+            "gate": 192,
+            "pitch": 74,
+            "remaining_ticks": 480
+          },
+          "last_proposal": {
+            "start": 8736,
+            "end": 8928,
+            "active_pitches": [],
+            "pitch": 74
+          },
+          "endpoint_policy": {
+            "max_trailing_rest_ticks": 384,
+            "actual_silent_tail_ticks": 288
+          },
+          "seed": 4,
+          "metrics": {
+            "notes": 35,
+            "overlap_onset_fraction": 0.05714285714285714,
+            "mean_active_voices": 0.90625,
+            "max_active_voices": 2,
+            "mean_abs_pitch_interval": 2.323529411764706,
+            "above_octave_fraction": 0.0,
+            "distinct_pitches": 11,
+            "repeated_pitch_fraction": 0.35294117647058826,
+            "rest_ticks": 1152,
+            "rest_fraction": 0.125,
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 0,
+            "last_quarter_short_gate_count": 0,
+            "actual_silent_tail_ticks": 288
+          },
+          "generation_seconds": 0.05457220800053619,
+          "benchmarks": {
+            "optimized": {
+              "wall_seconds": 0.05457220800053619,
+              "cpu_seconds": 0.05458797999999998
+            }
+          },
+          "artifact_diagnostics": {
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 0,
+            "last_quarter_short_gate_count": 0,
+            "thresholds": "predeclared gate<24ticks; onset>=target-384ticks, not quality labels"
+          },
+          "source_copy_matches": 0,
+          "midi_sha256": "8e98d498bda6ba265dc51b5b553a4d1380afce9ba83885c2bcb8376c0584a95e",
+          "exact_roundtrip": true
+        },
+        {
+          "status": "complete",
+          "rejections": 0,
+          "rejection_reasons": {
+            "active_pitch": 0,
+            "polyphony": 0,
+            "no_legal_pitch": 0
+          },
+          "timing_draws": 31,
+          "pitch_draws": 31,
+          "target_ticks": 9216,
+          "last_accepted_state": {
+            "onset": 8736,
+            "gate": 96,
+            "pitch": 73,
+            "remaining_ticks": 480
+          },
+          "last_proposal": {
+            "start": 8736,
+            "end": 8832,
+            "active_pitches": [],
+            "pitch": 73
+          },
+          "endpoint_policy": {
+            "max_trailing_rest_ticks": 384,
+            "actual_silent_tail_ticks": 384
+          },
+          "seed": 5,
+          "metrics": {
+            "notes": 31,
+            "overlap_onset_fraction": 0.16129032258064516,
+            "mean_active_voices": 0.8958333333333334,
+            "max_active_voices": 2,
+            "mean_abs_pitch_interval": 2.6333333333333333,
+            "above_octave_fraction": 0.0,
+            "distinct_pitches": 15,
+            "repeated_pitch_fraction": 0.23333333333333334,
+            "rest_ticks": 1920,
+            "rest_fraction": 0.20833333333333334,
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 0,
+            "last_quarter_short_gate_count": 0,
+            "actual_silent_tail_ticks": 384
+          },
+          "generation_seconds": 0.05134123799871304,
+          "benchmarks": {
+            "optimized": {
+              "wall_seconds": 0.05134123799871304,
+              "cpu_seconds": 0.051344403999999955
+            }
+          },
+          "artifact_diagnostics": {
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 0,
+            "last_quarter_short_gate_count": 0,
+            "thresholds": "predeclared gate<24ticks; onset>=target-384ticks, not quality labels"
+          },
+          "source_copy_matches": 0,
+          "midi_sha256": "911bcde5cde1a16990c0d6a8fd35d99c28ece5294f0c94df74624695076839d8",
+          "exact_roundtrip": true
+        },
+        {
+          "status": "complete",
+          "rejections": 0,
+          "rejection_reasons": {
+            "active_pitch": 0,
+            "polyphony": 0,
+            "no_legal_pitch": 0
+          },
+          "timing_draws": 29,
+          "pitch_draws": 29,
+          "target_ticks": 9216,
+          "last_accepted_state": {
+            "onset": 8832,
+            "gate": 288,
+            "pitch": 72,
+            "remaining_ticks": 384
+          },
+          "last_proposal": {
+            "start": 8832,
+            "end": 9120,
+            "active_pitches": [],
+            "pitch": 72
+          },
+          "endpoint_policy": {
+            "max_trailing_rest_ticks": 384,
+            "actual_silent_tail_ticks": 96
+          },
+          "seed": 6,
+          "metrics": {
+            "notes": 29,
+            "overlap_onset_fraction": 0.20689655172413793,
+            "mean_active_voices": 0.9270833333333334,
+            "max_active_voices": 3,
+            "mean_abs_pitch_interval": 2.107142857142857,
+            "above_octave_fraction": 0.0,
+            "distinct_pitches": 9,
+            "repeated_pitch_fraction": 0.21428571428571427,
+            "rest_ticks": 2208,
+            "rest_fraction": 0.23958333333333334,
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 1,
+            "last_quarter_short_gate_count": 0,
+            "actual_silent_tail_ticks": 96
+          },
+          "generation_seconds": 0.04471105199991143,
+          "benchmarks": {
+            "optimized": {
+              "wall_seconds": 0.04471105199991143,
+              "cpu_seconds": 0.04471249699999991
+            }
+          },
+          "artifact_diagnostics": {
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 1,
+            "last_quarter_short_gate_count": 0,
+            "thresholds": "predeclared gate<24ticks; onset>=target-384ticks, not quality labels"
+          },
+          "source_copy_matches": 0,
+          "midi_sha256": "55d1da7c83322637734d0ceaf47a7aa2e4cb6ef3ea5938400094a55c19ce11dc",
+          "exact_roundtrip": true
+        },
+        {
+          "status": "complete",
+          "rejections": 0,
+          "rejection_reasons": {
+            "active_pitch": 0,
+            "polyphony": 0,
+            "no_legal_pitch": 0
+          },
+          "timing_draws": 36,
+          "pitch_draws": 36,
+          "target_ticks": 9216,
+          "last_accepted_state": {
+            "onset": 8544,
+            "gate": 384,
+            "pitch": 71,
+            "remaining_ticks": 672
+          },
+          "last_proposal": {
+            "start": 8544,
+            "end": 8928,
+            "active_pitches": [],
+            "pitch": 71
+          },
+          "endpoint_policy": {
+            "max_trailing_rest_ticks": 384,
+            "actual_silent_tail_ticks": 288
+          },
+          "seed": 7,
+          "metrics": {
+            "notes": 36,
+            "overlap_onset_fraction": 0.16666666666666666,
+            "mean_active_voices": 0.9375,
+            "max_active_voices": 2,
+            "mean_abs_pitch_interval": 2.3142857142857145,
+            "above_octave_fraction": 0.0,
+            "distinct_pitches": 13,
+            "repeated_pitch_fraction": 0.34285714285714286,
+            "rest_ticks": 1344,
+            "rest_fraction": 0.14583333333333334,
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 0,
+            "last_quarter_short_gate_count": 0,
+            "actual_silent_tail_ticks": 288
+          },
+          "generation_seconds": 0.05835981400014134,
+          "benchmarks": {
+            "optimized": {
+              "wall_seconds": 0.05835981400014134,
+              "cpu_seconds": 0.05835585899999973
+            }
+          },
+          "artifact_diagnostics": {
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 0,
+            "last_quarter_short_gate_count": 0,
+            "thresholds": "predeclared gate<24ticks; onset>=target-384ticks, not quality labels"
+          },
+          "source_copy_matches": 0,
+          "midi_sha256": "c6a1347c6ae6d9d456275c3e03a623f42a4cd525233198b31e2c63a25abac820",
+          "exact_roundtrip": true
+        },
+        {
+          "status": "complete",
+          "rejections": 0,
+          "rejection_reasons": {
+            "active_pitch": 0,
+            "polyphony": 0,
+            "no_legal_pitch": 0
+          },
+          "timing_draws": 6,
+          "pitch_draws": 6,
+          "target_ticks": 9216,
+          "last_accepted_state": {
+            "onset": 8891,
+            "gate": 192,
+            "pitch": 59,
+            "remaining_ticks": 325
+          },
+          "last_proposal": {
+            "start": 8891,
+            "end": 9083,
+            "active_pitches": [],
+            "pitch": 59
+          },
+          "endpoint_policy": {
+            "max_trailing_rest_ticks": 384,
+            "actual_silent_tail_ticks": 133
+          },
+          "seed": 8,
+          "metrics": {
+            "notes": 6,
+            "overlap_onset_fraction": 0.3333333333333333,
+            "mean_active_voices": 0.19791666666666666,
+            "max_active_voices": 2,
+            "mean_abs_pitch_interval": 1,
+            "above_octave_fraction": 0.0,
+            "distinct_pitches": 3,
+            "repeated_pitch_fraction": 0.6,
+            "rest_ticks": 7584,
+            "rest_fraction": 0.8229166666666666,
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 1,
+            "last_quarter_short_gate_count": 0,
+            "actual_silent_tail_ticks": 133
+          },
+          "generation_seconds": 0.019375699999727658,
+          "benchmarks": {
+            "optimized": {
+              "wall_seconds": 0.019375699999727658,
+              "cpu_seconds": 0.019377661000000046
+            }
+          },
+          "artifact_diagnostics": {
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 1,
+            "last_quarter_short_gate_count": 0,
+            "thresholds": "predeclared gate<24ticks; onset>=target-384ticks, not quality labels"
+          },
+          "source_copy_matches": 0,
+          "midi_sha256": "0b8eb3fc4d9e22503601e53022d2a1a25b0b4b5fc11ccc847328fb0f17ff72b1",
+          "exact_roundtrip": true
+        },
+        {
+          "status": "complete",
+          "rejections": 0,
+          "rejection_reasons": {
+            "active_pitch": 0,
+            "polyphony": 0,
+            "no_legal_pitch": 0
+          },
+          "timing_draws": 32,
+          "pitch_draws": 32,
+          "target_ticks": 9216,
+          "last_accepted_state": {
+            "onset": 8448,
+            "gate": 384,
+            "pitch": 57,
+            "remaining_ticks": 768
+          },
+          "last_proposal": {
+            "start": 8448,
+            "end": 8832,
+            "active_pitches": [],
+            "pitch": 57
+          },
+          "endpoint_policy": {
+            "max_trailing_rest_ticks": 384,
+            "actual_silent_tail_ticks": 384
+          },
+          "seed": 9,
+          "metrics": {
+            "notes": 32,
+            "overlap_onset_fraction": 0.0625,
+            "mean_active_voices": 0.8541666666666666,
+            "max_active_voices": 2,
+            "mean_abs_pitch_interval": 1.967741935483871,
+            "above_octave_fraction": 0.0,
+            "distinct_pitches": 13,
+            "repeated_pitch_fraction": 0.3225806451612903,
+            "rest_ticks": 1824,
+            "rest_fraction": 0.19791666666666666,
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 0,
+            "last_quarter_short_gate_count": 0,
+            "actual_silent_tail_ticks": 384
+          },
+          "generation_seconds": 0.05242989600083092,
+          "benchmarks": {
+            "optimized": {
+              "wall_seconds": 0.05242989600083092,
+              "cpu_seconds": 0.05243163000000006
+            }
+          },
+          "artifact_diagnostics": {
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 0,
+            "last_quarter_short_gate_count": 0,
+            "thresholds": "predeclared gate<24ticks; onset>=target-384ticks, not quality labels"
+          },
+          "source_copy_matches": 0,
+          "midi_sha256": "da273b454f20da60b74691d341fa7e25fcb16ae51f626ae77ff06308961e7a13",
+          "exact_roundtrip": true
+        }
+      ],
+      "benchmark_totals": {
+        "optimized": {
+          "wall_seconds": 0.4668644260000292,
+          "cpu_seconds": 0.46687504700000027
+        }
+      },
+      "statuses": {
+        "complete": 10
+      },
+      "total_rejections": 0,
+      "generation_seconds": 0.4668644260000292,
+      "rejection_reasons": {
+        "active_pitch": 0,
+        "polyphony": 0,
+        "no_legal_pitch": 0
+      },
+      "timing_draws": 279,
+      "pitch_draws": 279,
+      "complete_only_means": {
+        "notes": 27.9,
+        "overlap_onset_fraction": 0.16071347507526595,
+        "mean_active_voices": 0.771875,
+        "max_active_voices": 2.1,
+        "mean_abs_pitch_interval": 1.8687536519984338,
+        "above_octave_fraction": 0.0,
+        "distinct_pitches": 9.8,
+        "repeated_pitch_fraction": 0.3548024155898919,
+        "rest_ticks": 2908.8,
+        "rest_fraction": 0.315625,
+        "short_gate_count": 0,
+        "last_quarter_onset_count": 0.2,
+        "last_quarter_short_gate_count": 0,
+        "actual_silent_tail_ticks": 287.2
+      },
+      "metric_denominators": {
+        "notes": 10,
+        "overlap_onset_fraction": 10,
+        "mean_active_voices": 10,
+        "max_active_voices": 10,
+        "mean_abs_pitch_interval": 10,
+        "above_octave_fraction": 10,
+        "distinct_pitches": 10,
+        "repeated_pitch_fraction": 10,
+        "rest_ticks": 10,
+        "rest_fraction": 10,
+        "short_gate_count": 10,
+        "last_quarter_onset_count": 10,
+        "last_quarter_short_gate_count": 10,
+        "actual_silent_tail_ticks": 10
+      }
+    },
+    "tail384_mix1": {
+      "outputs": [
+        {
+          "status": "complete",
+          "rejections": 0,
+          "rejection_reasons": {
+            "active_pitch": 0,
+            "polyphony": 0,
+            "no_legal_pitch": 0
+          },
+          "timing_draws": 31,
+          "pitch_draws": 31,
+          "target_ticks": 9216,
+          "last_accepted_state": {
+            "onset": 8736,
+            "gate": 96,
+            "pitch": 59,
+            "remaining_ticks": 480
+          },
+          "last_proposal": {
+            "start": 8736,
+            "end": 8832,
+            "active_pitches": [],
+            "pitch": 59
+          },
+          "endpoint_policy": {
+            "max_trailing_rest_ticks": 384,
+            "actual_silent_tail_ticks": 384
+          },
+          "seed": 0,
+          "metrics": {
+            "notes": 31,
+            "overlap_onset_fraction": 0.03225806451612903,
+            "mean_active_voices": 0.7708333333333334,
+            "max_active_voices": 2,
+            "mean_abs_pitch_interval": 3.1,
+            "above_octave_fraction": 0.0,
+            "distinct_pitches": 12,
+            "repeated_pitch_fraction": 0.26666666666666666,
+            "rest_ticks": 2496,
+            "rest_fraction": 0.2708333333333333,
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 0,
+            "last_quarter_short_gate_count": 0,
+            "actual_silent_tail_ticks": 384
+          },
+          "generation_seconds": 0.049005872999259736,
+          "benchmarks": {
+            "optimized": {
+              "wall_seconds": 0.049005872999259736,
+              "cpu_seconds": 0.049007345999999785
+            }
+          },
+          "artifact_diagnostics": {
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 0,
+            "last_quarter_short_gate_count": 0,
+            "thresholds": "predeclared gate<24ticks; onset>=target-384ticks, not quality labels"
+          },
+          "source_copy_matches": 0,
+          "midi_sha256": "6ccab2e4ce90f4db44175ceed97d4dbad234c7ac39d1649af838218a6bb76f6b",
+          "exact_roundtrip": true
+        },
+        {
+          "status": "complete",
+          "rejections": 0,
+          "rejection_reasons": {
+            "active_pitch": 0,
+            "polyphony": 0,
+            "no_legal_pitch": 0
+          },
+          "timing_draws": 25,
+          "pitch_draws": 25,
+          "target_ticks": 9216,
+          "last_accepted_state": {
+            "onset": 8064,
+            "gate": 768,
+            "pitch": 70,
+            "remaining_ticks": 1152
+          },
+          "last_proposal": {
+            "start": 8064,
+            "end": 8832,
+            "active_pitches": [
+              67
+            ],
+            "pitch": 70
+          },
+          "endpoint_policy": {
+            "max_trailing_rest_ticks": 384,
+            "actual_silent_tail_ticks": 384
+          },
+          "seed": 1,
+          "metrics": {
+            "notes": 25,
+            "overlap_onset_fraction": 0.2,
+            "mean_active_voices": 0.9583333333333334,
+            "max_active_voices": 3,
+            "mean_abs_pitch_interval": 2.5,
+            "above_octave_fraction": 0.0,
+            "distinct_pitches": 11,
+            "repeated_pitch_fraction": 0.2916666666666667,
+            "rest_ticks": 1536,
+            "rest_fraction": 0.16666666666666666,
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 0,
+            "last_quarter_short_gate_count": 0,
+            "actual_silent_tail_ticks": 384
+          },
+          "generation_seconds": 0.042251942000802956,
+          "benchmarks": {
+            "optimized": {
+              "wall_seconds": 0.042251942000802956,
+              "cpu_seconds": 0.042272843000000115
+            }
+          },
+          "artifact_diagnostics": {
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 0,
+            "last_quarter_short_gate_count": 0,
+            "thresholds": "predeclared gate<24ticks; onset>=target-384ticks, not quality labels"
+          },
+          "source_copy_matches": 0,
+          "midi_sha256": "01debf0bc1ce94d721b5eabae22e29bb47cba9033d31aec9177c517217f63874",
+          "exact_roundtrip": true
+        },
+        {
+          "status": "complete",
+          "rejections": 0,
+          "rejection_reasons": {
+            "active_pitch": 0,
+            "polyphony": 0,
+            "no_legal_pitch": 0
+          },
+          "timing_draws": 30,
+          "pitch_draws": 30,
+          "target_ticks": 9216,
+          "last_accepted_state": {
+            "onset": 8256,
+            "gate": 768,
+            "pitch": 71,
+            "remaining_ticks": 960
+          },
+          "last_proposal": {
+            "start": 8256,
+            "end": 9024,
+            "active_pitches": [],
+            "pitch": 71
+          },
+          "endpoint_policy": {
+            "max_trailing_rest_ticks": 384,
+            "actual_silent_tail_ticks": 192
+          },
+          "seed": 2,
+          "metrics": {
+            "notes": 30,
+            "overlap_onset_fraction": 0.1,
+            "mean_active_voices": 0.8958333333333334,
+            "max_active_voices": 2,
+            "mean_abs_pitch_interval": 3.8275862068965516,
+            "above_octave_fraction": 0.10344827586206896,
+            "distinct_pitches": 14,
+            "repeated_pitch_fraction": 0.2413793103448276,
+            "rest_ticks": 1824,
+            "rest_fraction": 0.19791666666666666,
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 0,
+            "last_quarter_short_gate_count": 0,
+            "actual_silent_tail_ticks": 192
+          },
+          "generation_seconds": 0.051898879999498604,
+          "benchmarks": {
+            "optimized": {
+              "wall_seconds": 0.051898879999498604,
+              "cpu_seconds": 0.051901834999999785
+            }
+          },
+          "artifact_diagnostics": {
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 0,
+            "last_quarter_short_gate_count": 0,
+            "thresholds": "predeclared gate<24ticks; onset>=target-384ticks, not quality labels"
+          },
+          "source_copy_matches": 0,
+          "midi_sha256": "cce949645720f74f2d79081761c1793692aed89e1b0668a613c2791d932a0f8f",
+          "exact_roundtrip": true
+        },
+        {
+          "status": "complete",
+          "rejections": 0,
+          "rejection_reasons": {
+            "active_pitch": 0,
+            "polyphony": 0,
+            "no_legal_pitch": 0
+          },
+          "timing_draws": 31,
+          "pitch_draws": 31,
+          "target_ticks": 9216,
+          "last_accepted_state": {
+            "onset": 8544,
+            "gate": 288,
+            "pitch": 57,
+            "remaining_ticks": 672
+          },
+          "last_proposal": {
+            "start": 8544,
+            "end": 8832,
+            "active_pitches": [],
+            "pitch": 57
+          },
+          "endpoint_policy": {
+            "max_trailing_rest_ticks": 384,
+            "actual_silent_tail_ticks": 384
+          },
+          "seed": 3,
+          "metrics": {
+            "notes": 31,
+            "overlap_onset_fraction": 0.12903225806451613,
+            "mean_active_voices": 0.8958333333333334,
+            "max_active_voices": 2,
+            "mean_abs_pitch_interval": 3.1666666666666665,
+            "above_octave_fraction": 0.03333333333333333,
+            "distinct_pitches": 13,
+            "repeated_pitch_fraction": 0.3333333333333333,
+            "rest_ticks": 1536,
+            "rest_fraction": 0.16666666666666666,
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 0,
+            "last_quarter_short_gate_count": 0,
+            "actual_silent_tail_ticks": 384
+          },
+          "generation_seconds": 0.05468851699879451,
+          "benchmarks": {
+            "optimized": {
+              "wall_seconds": 0.05468851699879451,
+              "cpu_seconds": 0.05466441499999952
+            }
+          },
+          "artifact_diagnostics": {
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 0,
+            "last_quarter_short_gate_count": 0,
+            "thresholds": "predeclared gate<24ticks; onset>=target-384ticks, not quality labels"
+          },
+          "source_copy_matches": 0,
+          "midi_sha256": "5c3043c77f8d5cd518aa21a1216af3f5366f10bbab46a7d36ca4f77d49d1aadc",
+          "exact_roundtrip": true
+        },
+        {
+          "status": "complete",
+          "rejections": 0,
+          "rejection_reasons": {
+            "active_pitch": 0,
+            "polyphony": 0,
+            "no_legal_pitch": 0
+          },
+          "timing_draws": 32,
+          "pitch_draws": 32,
+          "target_ticks": 9216,
+          "last_accepted_state": {
+            "onset": 8448,
+            "gate": 576,
+            "pitch": 62,
+            "remaining_ticks": 768
+          },
+          "last_proposal": {
+            "start": 8448,
+            "end": 9024,
+            "active_pitches": [],
+            "pitch": 62
+          },
+          "endpoint_policy": {
+            "max_trailing_rest_ticks": 384,
+            "actual_silent_tail_ticks": 192
+          },
+          "seed": 4,
+          "metrics": {
+            "notes": 32,
+            "overlap_onset_fraction": 0.125,
+            "mean_active_voices": 0.8645833333333334,
+            "max_active_voices": 2,
+            "mean_abs_pitch_interval": 4.290322580645161,
+            "above_octave_fraction": 0.03225806451612903,
+            "distinct_pitches": 11,
+            "repeated_pitch_fraction": 0.16129032258064516,
+            "rest_ticks": 2208,
+            "rest_fraction": 0.23958333333333334,
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 0,
+            "last_quarter_short_gate_count": 0,
+            "actual_silent_tail_ticks": 192
+          },
+          "generation_seconds": 0.05721593300040695,
+          "benchmarks": {
+            "optimized": {
+              "wall_seconds": 0.05721593300040695,
+              "cpu_seconds": 0.057172229999999935
+            }
+          },
+          "artifact_diagnostics": {
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 0,
+            "last_quarter_short_gate_count": 0,
+            "thresholds": "predeclared gate<24ticks; onset>=target-384ticks, not quality labels"
+          },
+          "source_copy_matches": 0,
+          "midi_sha256": "165b3c82186d656c08ef945be7e4d320cb001cec011229ed3368b69b9744bbe7",
+          "exact_roundtrip": true
+        },
+        {
+          "status": "complete",
+          "rejections": 0,
+          "rejection_reasons": {
+            "active_pitch": 0,
+            "polyphony": 0,
+            "no_legal_pitch": 0
+          },
+          "timing_draws": 29,
+          "pitch_draws": 29,
+          "target_ticks": 9216,
+          "last_accepted_state": {
+            "onset": 8256,
+            "gate": 576,
+            "pitch": 60,
+            "remaining_ticks": 960
+          },
+          "last_proposal": {
+            "start": 8256,
+            "end": 8832,
+            "active_pitches": [],
+            "pitch": 60
+          },
+          "endpoint_policy": {
+            "max_trailing_rest_ticks": 384,
+            "actual_silent_tail_ticks": 384
+          },
+          "seed": 5,
+          "metrics": {
+            "notes": 29,
+            "overlap_onset_fraction": 0.20689655172413793,
+            "mean_active_voices": 1.0208333333333333,
+            "max_active_voices": 2,
+            "mean_abs_pitch_interval": 4.25,
+            "above_octave_fraction": 0.07142857142857142,
+            "distinct_pitches": 14,
+            "repeated_pitch_fraction": 0.17857142857142858,
+            "rest_ticks": 1152,
+            "rest_fraction": 0.125,
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 0,
+            "last_quarter_short_gate_count": 0,
+            "actual_silent_tail_ticks": 384
+          },
+          "generation_seconds": 0.04678914199939754,
+          "benchmarks": {
+            "optimized": {
+              "wall_seconds": 0.04678914199939754,
+              "cpu_seconds": 0.0467922810000001
+            }
+          },
+          "artifact_diagnostics": {
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 0,
+            "last_quarter_short_gate_count": 0,
+            "thresholds": "predeclared gate<24ticks; onset>=target-384ticks, not quality labels"
+          },
+          "source_copy_matches": 0,
+          "midi_sha256": "48ba7815352772308555132fe797e526c31ee59d7b425bac69b33c62da2bc34c",
+          "exact_roundtrip": true
+        },
+        {
+          "status": "complete",
+          "rejections": 0,
+          "rejection_reasons": {
+            "active_pitch": 0,
+            "polyphony": 0,
+            "no_legal_pitch": 0
+          },
+          "timing_draws": 30,
+          "pitch_draws": 30,
+          "target_ticks": 9216,
+          "last_accepted_state": {
+            "onset": 8448,
+            "gate": 576,
+            "pitch": 68,
+            "remaining_ticks": 768
+          },
+          "last_proposal": {
+            "start": 8448,
+            "end": 9024,
+            "active_pitches": [
+              70
+            ],
+            "pitch": 68
+          },
+          "endpoint_policy": {
+            "max_trailing_rest_ticks": 384,
+            "actual_silent_tail_ticks": 192
+          },
+          "seed": 6,
+          "metrics": {
+            "notes": 30,
+            "overlap_onset_fraction": 0.23333333333333334,
+            "mean_active_voices": 1.0208333333333333,
+            "max_active_voices": 2,
+            "mean_abs_pitch_interval": 2.1724137931034484,
+            "above_octave_fraction": 0.0,
+            "distinct_pitches": 13,
+            "repeated_pitch_fraction": 0.27586206896551724,
+            "rest_ticks": 1248,
+            "rest_fraction": 0.13541666666666666,
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 0,
+            "last_quarter_short_gate_count": 0,
+            "actual_silent_tail_ticks": 192
+          },
+          "generation_seconds": 0.05574096000054851,
+          "benchmarks": {
+            "optimized": {
+              "wall_seconds": 0.05574096000054851,
+              "cpu_seconds": 0.05574422900000009
+            }
+          },
+          "artifact_diagnostics": {
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 0,
+            "last_quarter_short_gate_count": 0,
+            "thresholds": "predeclared gate<24ticks; onset>=target-384ticks, not quality labels"
+          },
+          "source_copy_matches": 0,
+          "midi_sha256": "7dfe521dbf63e32603956d8df21a63237a6be84adb5bbe85b5e3c83d83e08a1d",
+          "exact_roundtrip": true
+        },
+        {
+          "status": "complete",
+          "rejections": 0,
+          "rejection_reasons": {
+            "active_pitch": 0,
+            "polyphony": 0,
+            "no_legal_pitch": 0
+          },
+          "timing_draws": 33,
+          "pitch_draws": 33,
+          "target_ticks": 9216,
+          "last_accepted_state": {
+            "onset": 8640,
+            "gate": 384,
+            "pitch": 62,
+            "remaining_ticks": 576
+          },
+          "last_proposal": {
+            "start": 8640,
+            "end": 9024,
+            "active_pitches": [],
+            "pitch": 62
+          },
+          "endpoint_policy": {
+            "max_trailing_rest_ticks": 384,
+            "actual_silent_tail_ticks": 192
+          },
+          "seed": 7,
+          "metrics": {
+            "notes": 33,
+            "overlap_onset_fraction": 0.09090909090909091,
+            "mean_active_voices": 0.9583333333333334,
+            "max_active_voices": 2,
+            "mean_abs_pitch_interval": 3.4375,
+            "above_octave_fraction": 0.03125,
+            "distinct_pitches": 14,
+            "repeated_pitch_fraction": 0.25,
+            "rest_ticks": 960,
+            "rest_fraction": 0.10416666666666667,
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 0,
+            "last_quarter_short_gate_count": 0,
+            "actual_silent_tail_ticks": 192
+          },
+          "generation_seconds": 0.060979093999776524,
+          "benchmarks": {
+            "optimized": {
+              "wall_seconds": 0.060979093999776524,
+              "cpu_seconds": 0.0609152789999996
+            }
+          },
+          "artifact_diagnostics": {
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 0,
+            "last_quarter_short_gate_count": 0,
+            "thresholds": "predeclared gate<24ticks; onset>=target-384ticks, not quality labels"
+          },
+          "source_copy_matches": 0,
+          "midi_sha256": "5e703d457e2d5749a2e80dc3490d1a58e2729e0af09c1b43e15060f92d753196",
+          "exact_roundtrip": true
+        },
+        {
+          "status": "complete",
+          "rejections": 0,
+          "rejection_reasons": {
+            "active_pitch": 0,
+            "polyphony": 0,
+            "no_legal_pitch": 0
+          },
+          "timing_draws": 34,
+          "pitch_draws": 34,
+          "target_ticks": 9216,
+          "last_accepted_state": {
+            "onset": 8544,
+            "gate": 576,
+            "pitch": 69,
+            "remaining_ticks": 672
+          },
+          "last_proposal": {
+            "start": 8544,
+            "end": 9120,
+            "active_pitches": [],
+            "pitch": 69
+          },
+          "endpoint_policy": {
+            "max_trailing_rest_ticks": 384,
+            "actual_silent_tail_ticks": 96
+          },
+          "seed": 8,
+          "metrics": {
+            "notes": 34,
+            "overlap_onset_fraction": 0.35294117647058826,
+            "mean_active_voices": 1.15625,
+            "max_active_voices": 2,
+            "mean_abs_pitch_interval": 3.1818181818181817,
+            "above_octave_fraction": 0.0,
+            "distinct_pitches": 15,
+            "repeated_pitch_fraction": 0.12121212121212122,
+            "rest_ticks": 1056,
+            "rest_fraction": 0.11458333333333333,
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 0,
+            "last_quarter_short_gate_count": 0,
+            "actual_silent_tail_ticks": 96
+          },
+          "generation_seconds": 0.05925682599990978,
+          "benchmarks": {
+            "optimized": {
+              "wall_seconds": 0.05925682599990978,
+              "cpu_seconds": 0.05925956699999979
+            }
+          },
+          "artifact_diagnostics": {
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 0,
+            "last_quarter_short_gate_count": 0,
+            "thresholds": "predeclared gate<24ticks; onset>=target-384ticks, not quality labels"
+          },
+          "source_copy_matches": 0,
+          "midi_sha256": "ef603e9fc0c31758ebada1ab9a7accbf8a3d83dfbc5c60df0d644673b00f1c8d",
+          "exact_roundtrip": true
+        },
+        {
+          "status": "complete",
+          "rejections": 0,
+          "rejection_reasons": {
+            "active_pitch": 0,
+            "polyphony": 0,
+            "no_legal_pitch": 0
+          },
+          "timing_draws": 35,
+          "pitch_draws": 35,
+          "target_ticks": 9216,
+          "last_accepted_state": {
+            "onset": 8832,
+            "gate": 384,
+            "pitch": 57,
+            "remaining_ticks": 384
+          },
+          "last_proposal": {
+            "start": 8832,
+            "end": 9216,
+            "active_pitches": [],
+            "pitch": 57
+          },
+          "endpoint_policy": {
+            "max_trailing_rest_ticks": 384,
+            "actual_silent_tail_ticks": 0
+          },
+          "seed": 9,
+          "metrics": {
+            "notes": 35,
+            "overlap_onset_fraction": 0.05714285714285714,
+            "mean_active_voices": 0.8229166666666666,
+            "max_active_voices": 2,
+            "mean_abs_pitch_interval": 3.9705882352941178,
+            "above_octave_fraction": 0.029411764705882353,
+            "distinct_pitches": 16,
+            "repeated_pitch_fraction": 0.14705882352941177,
+            "rest_ticks": 1824,
+            "rest_fraction": 0.19791666666666666,
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 1,
+            "last_quarter_short_gate_count": 0,
+            "actual_silent_tail_ticks": 0
+          },
+          "generation_seconds": 0.056710311999268015,
+          "benchmarks": {
+            "optimized": {
+              "wall_seconds": 0.056710311999268015,
+              "cpu_seconds": 0.05671341100000049
+            }
+          },
+          "artifact_diagnostics": {
+            "short_gate_count": 0,
+            "last_quarter_onset_count": 1,
+            "last_quarter_short_gate_count": 0,
+            "thresholds": "predeclared gate<24ticks; onset>=target-384ticks, not quality labels"
+          },
+          "source_copy_matches": 0,
+          "midi_sha256": "1b67ba123f18bb63293ae509a0a39f3f7673a70d367e7f959f432185a074028a",
+          "exact_roundtrip": true
+        }
+      ],
+      "benchmark_totals": {
+        "optimized": {
+          "wall_seconds": 0.5345374789976631,
+          "cpu_seconds": 0.5344434359999992
+        }
+      },
+      "statuses": {
+        "complete": 10
+      },
+      "total_rejections": 0,
+      "generation_seconds": 0.5345374789976631,
+      "rejection_reasons": {
+        "active_pitch": 0,
+        "polyphony": 0,
+        "no_legal_pitch": 0
+      },
+      "timing_draws": 310,
+      "pitch_draws": 310,
+      "complete_only_means": {
+        "notes": 31,
+        "overlap_onset_fraction": 0.15275133321606527,
+        "mean_active_voices": 0.9364583333333334,
+        "max_active_voices": 2.1,
+        "mean_abs_pitch_interval": 3.3896895664424127,
+        "above_octave_fraction": 0.03011300098459851,
+        "distinct_pitches": 13.3,
+        "repeated_pitch_fraction": 0.22670407418706182,
+        "rest_ticks": 1584,
+        "rest_fraction": 0.171875,
+        "short_gate_count": 0,
+        "last_quarter_onset_count": 0.1,
+        "last_quarter_short_gate_count": 0,
+        "actual_silent_tail_ticks": 240
+      },
+      "metric_denominators": {
+        "notes": 10,
+        "overlap_onset_fraction": 10,
+        "mean_active_voices": 10,
+        "max_active_voices": 10,
+        "mean_abs_pitch_interval": 10,
+        "above_octave_fraction": 10,
+        "distinct_pitches": 10,
+        "repeated_pitch_fraction": 10,
+        "rest_ticks": 10,
+        "rest_fraction": 10,
+        "short_gate_count": 10,
+        "last_quarter_onset_count": 10,
+        "last_quarter_short_gate_count": 10,
+        "actual_silent_tail_ticks": 10
+      }
+    }
+  },
+  "common_accepted_seed_analysis": {
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "conditions": {
+      "tail0_mix0": {
+        "means": {
+          "notes": 31.4,
+          "overlap_onset_fraction": 0.2040610140362636,
+          "mean_active_voices": 0.8125759548611111,
+          "max_active_voices": 2.2,
+          "mean_abs_pitch_interval": 2.0981339489543824,
+          "above_octave_fraction": 0.0,
+          "distinct_pitches": 10.9,
+          "repeated_pitch_fraction": 0.31836888945248076,
+          "rest_ticks": 2621.6,
+          "rest_fraction": 0.28446180555555556,
+          "short_gate_count": 1,
+          "last_quarter_onset_count": 3.7,
+          "last_quarter_short_gate_count": 1,
+          "actual_silent_tail_ticks": 0
+        },
+        "metric_denominators": {
+          "notes": 10,
+          "overlap_onset_fraction": 10,
+          "mean_active_voices": 10,
+          "max_active_voices": 10,
+          "mean_abs_pitch_interval": 10,
+          "above_octave_fraction": 10,
+          "distinct_pitches": 10,
+          "repeated_pitch_fraction": 10,
+          "rest_ticks": 10,
+          "rest_fraction": 10,
+          "short_gate_count": 10,
+          "last_quarter_onset_count": 10,
+          "last_quarter_short_gate_count": 10,
+          "actual_silent_tail_ticks": 10
+        }
+      },
+      "tail0_mix1": {
+        "means": {
+          "notes": 33.2,
+          "overlap_onset_fraction": 0.17451295910045012,
+          "mean_active_voices": 0.984375,
+          "max_active_voices": 2.2,
+          "mean_abs_pitch_interval": 3.378889886599801,
+          "above_octave_fraction": 0.027567959001782532,
+          "distinct_pitches": 13.7,
+          "repeated_pitch_fraction": 0.21999651400149503,
+          "rest_ticks": 1344,
+          "rest_fraction": 0.14583333333333334,
+          "short_gate_count": 0,
+          "last_quarter_onset_count": 1.5,
+          "last_quarter_short_gate_count": 0,
+          "actual_silent_tail_ticks": 0
+        },
+        "metric_denominators": {
+          "notes": 10,
+          "overlap_onset_fraction": 10,
+          "mean_active_voices": 10,
+          "max_active_voices": 10,
+          "mean_abs_pitch_interval": 10,
+          "above_octave_fraction": 10,
+          "distinct_pitches": 10,
+          "repeated_pitch_fraction": 10,
+          "rest_ticks": 10,
+          "rest_fraction": 10,
+          "short_gate_count": 10,
+          "last_quarter_onset_count": 10,
+          "last_quarter_short_gate_count": 10,
+          "actual_silent_tail_ticks": 10
+        }
+      },
+      "tail384_mix0": {
+        "means": {
+          "notes": 27.9,
+          "overlap_onset_fraction": 0.16071347507526595,
+          "mean_active_voices": 0.771875,
+          "max_active_voices": 2.1,
+          "mean_abs_pitch_interval": 1.8687536519984338,
+          "above_octave_fraction": 0.0,
+          "distinct_pitches": 9.8,
+          "repeated_pitch_fraction": 0.3548024155898919,
+          "rest_ticks": 2908.8,
+          "rest_fraction": 0.315625,
+          "short_gate_count": 0,
+          "last_quarter_onset_count": 0.2,
+          "last_quarter_short_gate_count": 0,
+          "actual_silent_tail_ticks": 287.2
+        },
+        "metric_denominators": {
+          "notes": 10,
+          "overlap_onset_fraction": 10,
+          "mean_active_voices": 10,
+          "max_active_voices": 10,
+          "mean_abs_pitch_interval": 10,
+          "above_octave_fraction": 10,
+          "distinct_pitches": 10,
+          "repeated_pitch_fraction": 10,
+          "rest_ticks": 10,
+          "rest_fraction": 10,
+          "short_gate_count": 10,
+          "last_quarter_onset_count": 10,
+          "last_quarter_short_gate_count": 10,
+          "actual_silent_tail_ticks": 10
+        }
+      },
+      "tail384_mix1": {
+        "means": {
+          "notes": 31,
+          "overlap_onset_fraction": 0.15275133321606527,
+          "mean_active_voices": 0.9364583333333334,
+          "max_active_voices": 2.1,
+          "mean_abs_pitch_interval": 3.3896895664424127,
+          "above_octave_fraction": 0.03011300098459851,
+          "distinct_pitches": 13.3,
+          "repeated_pitch_fraction": 0.22670407418706182,
+          "rest_ticks": 1584,
+          "rest_fraction": 0.171875,
+          "short_gate_count": 0,
+          "last_quarter_onset_count": 0.1,
+          "last_quarter_short_gate_count": 0,
+          "actual_silent_tail_ticks": 240
+        },
+        "metric_denominators": {
+          "notes": 10,
+          "overlap_onset_fraction": 10,
+          "mean_active_voices": 10,
+          "max_active_voices": 10,
+          "mean_abs_pitch_interval": 10,
+          "above_octave_fraction": 10,
+          "distinct_pitches": 10,
+          "repeated_pitch_fraction": 10,
+          "rest_ticks": 10,
+          "rest_fraction": 10,
+          "short_gate_count": 10,
+          "last_quarter_onset_count": 10,
+          "last_quarter_short_gate_count": 10,
+          "actual_silent_tail_ticks": 10
+        }
+      }
+    }
+  },
+  "original_unchanged": true,
+  "limitations": [
+    "No source fitting changes;580copy/screen only and583neverloaded.",
+    "Sameinteger masses andRNG verified only for unchanged exact-end policy.",
+    "Trailingrest changes stopping andmay remove phrases; no learnedcadence or appealclaim.",
+    "Wall/CPU timings are small localpaired measurements, not infrastructure benchmarks.",
+    "Completed/commonseed summaries are success-conditioned; failures retained.",
+    "Pitch descriptors followpolyphonic onsetorder, not inferredvoices."
+  ]
+}
