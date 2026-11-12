@@ -1,0 +1,72 @@
+{
+  "scope": "Fictional fixture binding and exact interval arithmetic only; no real music/comments/semantic labels",
+  "results": [
+    {
+      "kind": "observed-source",
+      "result": {
+        "exact_fixture_hashes_match": true,
+        "artifact_scope_matches": true,
+        "measurements": {
+          "scope_ticks": 384,
+          "sounding_ticks": 276,
+          "rest_ticks": 108,
+          "onsets_in_scope": 3,
+          "distinct_sounding_pitches": 3
+        },
+        "declared_evidence_kind": "observed-source",
+        "wording_verified": false,
+        "origin_or_actor_verified": false,
+        "consent_verified": false,
+        "training_eligible": false,
+        "interpretation": "Exact fictional bytes and arithmetic only; not musical meaning, preference or authorization."
+      }
+    },
+    {
+      "kind": "human-report",
+      "result": {
+        "exact_fixture_hashes_match": true,
+        "artifact_scope_matches": true,
+        "measurements": {
+          "scope_ticks": 384,
+          "sounding_ticks": 276,
+          "rest_ticks": 108,
+          "onsets_in_scope": 3,
+          "distinct_sounding_pitches": 3
+        },
+        "declared_evidence_kind": "human-report",
+        "wording_verified": false,
+        "origin_or_actor_verified": false,
+        "consent_verified": false,
+        "training_eligible": false,
+        "interpretation": "Exact fictional bytes and arithmetic only; not musical meaning, preference or authorization."
+      }
+    },
+    {
+      "kind": "hypothesis",
+      "result": {
+        "exact_fixture_hashes_match": true,
+        "artifact_scope_matches": true,
+        "measurements": {
+          "scope_ticks": 384,
+          "sounding_ticks": 276,
+          "rest_ticks": 108,
+          "onsets_in_scope": 3,
+          "distinct_sounding_pitches": 3
+        },
+        "declared_evidence_kind": "hypothesis",
+        "wording_verified": false,
+        "origin_or_actor_verified": false,
+        "consent_verified": false,
+        "training_eligible": false,
+        "interpretation": "Exact fictional bytes and arithmetic only; not musical meaning, preference or authorization."
+      }
+    }
+  ],
+  "no_real_listener_evidence": true,
+  "source_or_actor_authentication_implemented": false,
+  "code_sha256": {
+    "src/mousa/synthetic_evidence_binding.py": "005cbafa787281f0f3df7e054ed2f316c639e58a0c8647d0c147a1b3506e7a7d",
+    "tests/test_synthetic_evidence_binding.py": "19aeaac8044f066b1720295f389f2ca4165cf60800b72eb5e42fd91abec36652",
+    "src/mousa/semantic_evidence.py": "af6f7efba9c630a959aa81bfc778d493433e59a03b05f31e12d7725ecd83fa47"
+  }
+}
