@@ -1,0 +1,54 @@
+{
+  "created_at_utc": "2026-11-12T12:03:16.636054+00:00",
+  "scope": "Exploratory4versus5work augmentation; no newsealedtest",
+  "old_train_ids": [
+    "mutopia-376",
+    "mutopia-888",
+    "mutopia-889",
+    "mutopia-789"
+  ],
+  "added": "mutopia-583",
+  "excluded_related_evaluation": [
+    "580"
+  ],
+  "diagnostics": [
+    "640",
+    "921"
+  ],
+  "diagnostic_role": "already observed, neverfresh; neverfit",
+  "models": [
+    "factorized",
+    "previous_gate_context_k4"
+  ],
+  "support": "unchangedPPQ384delta0..12288gate1..12288priors1",
+  "generation": "contextonly,seeds0..4,mix1/4,optimizedfeasible,tail384,target9216,max256notes; no outputselection",
+  "copy_guard": "All5trainplus2diagnostics for BOTHconditions, generated andcanonicalorder, exact8interval; no retries",
+  "confounds": [
+    "Extra80events andsinglepitchcontent change together; familycount isnotgenrecount.",
+    "No baselineimprovement or appeal inferred from quantity alone; allfailures reported."
+  ],
+  "code_sha256": {
+    "tools/compare_cornelius_augmentation.py": "cbca22666e8ae6a3125174fcee64c013a83263a2cf3f684d33d3e0dbc56c9981",
+    "src/mousa/context_onset_gate.py": "32ff6404caf451e18649c85462f32c1bcca8389b434a23d9c4ec1d6d09f8af0c",
+    "src/mousa/onset_gate_model.py": "6cfafbcb5f7cdcb9d3279b460b66bdf88b1f4a3f918312639cdb69cc0a89c92d",
+    "src/mousa/optimized_feasible_generation.py": "fb1a5298b344c375e49f0abf6bdd39b400178a0b869624cce3c6ceb94f4ea121",
+    "src/mousa/feasible_context_generation.py": "57ff1dabc40a05af14f585701a9852dc6e699ba508cdadd00b8754ff1b24d783",
+    "tools/compare_context_onset_gate.py": "a4838f8c1e38b591e9366269ecabaabcc0a66bffab1031b68beddc942980f78a",
+    "tools/compare_onset_gate_models.py": "07a2bfaf79bc8e3b37c0982657056e34d8e6bd117ba03c5fa913bfaad17c4784",
+    "datasets/research-exploratory-multifamily-20261112.json": "bfcb2777ca6af1fbf41e957809a0fd35c6291e9bb3ae14182fd7ba1c9a86f6d7",
+    "datasets/research-cornelius583-training-assignment.json": "9ef48d43a1aa6670a0c1ae0824b03fcf0c894f6d299679cb820c0ff27e283d09",
+    "datasets/research-cornelius583-reserved-20261112.json": "dfa52be1c8c70cb967b468d2c970b0b4a53b4bba8ca6fd97c029bf16ce2e8bf7",
+    "src/mousa/overlap_midi.py": "1afc11bf6b6985a2eb22ebe5302b707d39378291e27b6299fde82564c167c867"
+  },
+  "extra_sha256": "631bcd481e09c1493191959ec3264c3513c4a93177ffc6d833dea4f4952b659b",
+  "train_sha256": {
+    "mutopia-376": "b02e65def39bab988838d3d2e82ad9763f1b5b6b71b5a4c70e8f7b6d12eece8c",
+    "mutopia-888": "6e097cb82d30524335a19a2adb1cbf79cf6b070f7059182f0dc9d34ca3fc3848",
+    "mutopia-889": "cc45d10d7c21e858f37d4096979d4706bcfcaec400ef89abc1ac66378d51faa1",
+    "mutopia-789": "f849eace28acf450e306803203499aed4830cfba1a5cb8fe0953f594be15ffb9"
+  },
+  "target_sha256": {
+    "640": "13ec851eb00ca9aba345cad50f03bdb3b189f566f38d094a1e6b839765b3d678",
+    "921": "b19f8e0d783915e80e33cc4f622ef9623994ab89f114a53983c3f628265b798b"
+  }
+}

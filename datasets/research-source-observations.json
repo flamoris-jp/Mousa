@@ -57,7 +57,14 @@
       "result": "experiments/2026-11-12-onset-gate-results.json",
       "result_sha256": "1ded283490fd43f29dd316bf27eaab4efe3f2fb1873e564561b087512ae426c4",
       "record_note": "Backfilled in cycle 18 from immutable historical result, not a new evaluation or timestamp claim.",
-      "future_use": "Observed diagnostic only; never fresh again. No reassignment to training in this cycle."
+      "future_use": "Observed diagnostic only; never fresh again. No reassignment to training in this cycle.",
+      "related_training_change": {
+        "cycle": 23,
+        "related_work": "mutopia-583",
+        "family": "Daniel Johnson / University Society",
+        "assignment": "datasets/research-cornelius583-training-assignment.json",
+        "consequence": "580isexcluded from augmented5model evaluation. Historical old4results remain valid as their own frozen observed diagnostics; do not claim580independent for583-trained models."
+      }
     },
     {
       "work_id": "mutopia-921",
