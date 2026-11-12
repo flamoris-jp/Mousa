@@ -14,7 +14,7 @@ class SourceObservationLedgerTests(unittest.TestCase):
         self.assertEqual(len(rows), len({row['work_id'] for row in rows}))
         by_id = {row['work_id']: row for row in rows}
         self.assertTrue({'mutopia-640', 'mutopia-580', 'mutopia-370',
-                         'mutopia-1578', 'mutopia-1558'} <= by_id.keys())
+                         'mutopia-1578', 'mutopia-1558', 'mutopia-921'} <= by_id.keys())
         manifest = json.loads((ROOT / 'datasets/research-exploratory-multifamily-20261112.json').read_text())
         train = {row['work_id'] for row in manifest['works'] if row['split'] == 'train'}
         for row in rows:

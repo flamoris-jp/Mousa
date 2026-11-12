@@ -58,6 +58,19 @@
       "result_sha256": "1ded283490fd43f29dd316bf27eaab4efe3f2fb1873e564561b087512ae426c4",
       "record_note": "Backfilled in cycle 18 from immutable historical result, not a new evaluation or timestamp claim.",
       "future_use": "Observed diagnostic only; never fresh again. No reassignment to training in this cycle."
+    },
+    {
+      "work_id": "mutopia-921",
+      "state": "predictive-observed",
+      "training_used": false,
+      "first_evaluation_cycle": 22,
+      "source_sha256": "b19f8e0d783915e80e33cc4f622ef9623994ab89f114a53983c3f628265b798b",
+      "rights_snapshot": "datasets/research-chopin921-reserved-20261112.json",
+      "frozen_plan": "experiments/2026-11-12-chopin921-plan.json",
+      "independent_clearance": "experiments/2026-11-12-chopin921-independent-screen.json",
+      "result": "experiments/2026-11-12-chopin921-results.json",
+      "result_sha256": "ae5743799b173af101faf701f3e7fa72e09988c8f4eabbfc917e90e80be34458",
+      "future_use": "Observed diagnostic only, never fresh again. No reassignment to training. Immutable reserved-rights snapshot remains historical; this record supersedes its predictive-unscored status."
     }
   ],
   "coverage_note": "This registry records the newer held-out works only. It is not a complete source inventory or a permission oracle. Older observed/training works retain their roles in the historical split manifests and reports."

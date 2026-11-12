@@ -1,0 +1,33 @@
+{
+  "scope": "Independent fixed-plan rerun; no refit on Chopin921, no tuning or new admission threshold",
+  "files": {
+    "report.json": {
+      "initial_sha256": "ae5743799b173af101faf701f3e7fa72e09988c8f4eabbfc917e90e80be34458",
+      "repeat_sha256": "ae5743799b173af101faf701f3e7fa72e09988c8f4eabbfc917e90e80be34458",
+      "byte_identical": true
+    },
+    "before-scoring.json": {
+      "initial_sha256": "ee434dd4942f4f00cf5bb63e3ebc85468d5718e359934f09ee3c445f37e73f04",
+      "repeat_sha256": "ee434dd4942f4f00cf5bb63e3ebc85468d5718e359934f09ee3c445f37e73f04",
+      "byte_identical": true
+    }
+  },
+  "old_training_ids": [
+    "mutopia-376",
+    "mutopia-888",
+    "mutopia-889",
+    "mutopia-789"
+  ],
+  "training_events": 364,
+  "test_events": 92,
+  "supported_events": 92,
+  "independent_clearance_sha256": "e5c306d7ed500768aaf96c3a3e77ae11bad02ba511927a57de6b620ba22f6ca5",
+  "all_frozen_dependencies_match": true,
+  "plan_sha256": "535a7434c018a75d2365ff2d572c7eeac7c9790ee53eb7f908b8f11f2fc22cce",
+  "source_state": "921 predictively observed; not fresh for future tests",
+  "limitations": [
+    "One work, timing-only likelihood; not musical quality or genre coverage.",
+    "Training-only constructions use four old works; target pairs are passed only to evaluate after clearance.",
+    "29-reference independent screening evidence retained separately; shared source pipeline remains."
+  ]
+}

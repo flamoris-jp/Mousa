@@ -1,0 +1,22 @@
+{
+  "acquired_at_utc": "2026-11-12T11:55:37.260988+00:00",
+  "id": 804,
+  "title": "Sonatina Op36",
+  "composer": "Muzio Clementi (1752-1832)",
+  "contributor": "Brian D. Rude",
+  "page_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=804",
+  "page_sha256": "7b6e043a444654dc3c98ac7110fb412fa654a2bf68d28c86c11d2f03ccb9468f",
+  "download_sha256": {
+    "https://www.mutopiaproject.org/ftp/ClementiM/O36/sonatina-1/sonatina-1.ly": "788160d26cfc5d637bd531124607d3136df105004ece2c2b1154629226751e04",
+    "https://www.mutopiaproject.org/ftp/ClementiM/O36/sonatina-1/sonatina-1-mids.zip": "d13263b200c89478ac167a97b617fd31747b292df9a8ddbe947c8c8d07d066ae"
+  },
+  "source_claim": "Sonatina Album,G.Schirmer,1893",
+  "status": "pending historicaledition/editor/incipit review; no technical admission, similarity screen, model fit or score",
+  "rights_separation": {
+    "composition": "Historical composer died1832; exactmovementidentity still to verify.",
+    "edition": "Schirmer1893 claimed, editor and independent scan not yet reviewed. Do not assume composerPD clears edition.",
+    "encoding": "Mutopia perworkPublicDomain declaration, archivedsource requires detailedfollowup beforeadmission."
+  },
+  "family": "All movements and bothhands belong oneClementi/Rude/Schirmerfamily, not separateindependentworks; Schirmer sharedpublisher with someoldcorpus.",
+  "scope": "Small discovery only, no extra evaluation; priorpending/blockedstatuses unchanged."
+}
