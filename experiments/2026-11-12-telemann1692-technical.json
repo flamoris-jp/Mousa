@@ -1,0 +1,10 @@
+{
+  "source_sha256": "1e874885b369855fa948121e0635921a2debc6199a6fc251d85347f6678e26af",
+  "notes": 192,
+  "exact_modeled_roundtrip": true,
+  "original_unchanged": true,
+  "output_sha256": "44f2aafea3b9f13b37698d325bf1c86a59802cab7d0cae16ce5f90ef201ad9b3",
+  "model_fit": false,
+  "model_score": false,
+  "status": "Reserved; technical inspection only. Similarity/family screen pending before future fixed-model predictive evaluation."
+}

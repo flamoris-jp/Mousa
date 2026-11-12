@@ -1,0 +1,99 @@
+{
+  "acquisition_date_utc": "2026-11-12T11:27:30.758445+00:00",
+  "candidate": "mutopia-1692-TWV40-107-Affettuoso",
+  "title": "Duett TWV40:107, movement1 Affettuoso",
+  "composer": "Georg Philipp Telemann (1681-1767)",
+  "contributor": "Juanma Perez",
+  "composition_rights": {
+    "status": "historical-PD-supported",
+    "basis": "Composer died1767; original publication Der getreue Music-Meister1728-1729, independent first-edition scan inspected printedp12."
+  },
+  "arrangement_rights": {
+    "status": "historical-recorder-version-supported",
+    "basis": "Historical title explicitly Duetto à Flauti dolci, ò à Flauti traversi, ò à Viole di Gamba with alternate clefs/key signatures; recorder reading uses French violin clef and Bflatmajor. Mutopia conventional treble Bflatmajor opening r8,D5sixteenth,Eflat5sixteenth,F5eighth,F5eighth,C5eighth,D5/Eflat5sixteenths,F5eighth,F5eighth matches historical incipit. No modern arrangement asserted. Incipit comparison only, not complete note-level collation."
+  },
+  "encoding_rights": {
+    "status": "PD-dedication-supported",
+    "basis": "Main LilyPond header copyright Public Domain; tagline explicitly This sheet music has been placed in the public domain by the typesetter; maintainer Juanma Perez. MIDI zip exact linked samepage contribution.",
+    "license": "Legacy Public Domain dedication, not CC0"
+  },
+  "source_urls": {
+    "page": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1692",
+    "lilypond_zip": "https://www.mutopiaproject.org/ftp/TelemannGP/TWV40/Duett-Telemann/Duett-Telemann-lys.zip",
+    "midi_zip": "https://www.mutopiaproject.org/ftp/TelemannGP/TWV40/Duett-Telemann/Duett-Telemann-mids.zip",
+    "historical_scan": "https://s9.imslp.org/files/imglnks/usimg/5/54/IMSLP108357-PMLP41848-Musikmeister_Lection_1-5.pdf",
+    "historical_catalog": "https://imslp.org/wiki/Der_getreue_Music-Meister_(Telemann,_Georg_Philipp)"
+  },
+  "technical": {
+    "status": "existing-overlap-reader-accepted",
+    "selected_file": "1692/Duett-Telemann.mid",
+    "track": 1,
+    "notes": 192,
+    "ppq": 384,
+    "meter_map": [
+      {
+        "tick": 0,
+        "numerator": 4,
+        "denominator": 4,
+        "clocks_per_click": 18,
+        "notated_32nd_notes_per_beat": 8
+      }
+    ],
+    "first_onset": 192,
+    "last_note_end": 28800,
+    "total_ticks": 28800,
+    "source_total_ticks": 28800,
+    "origin_ticks": 0,
+    "origin_evidence": "Full4/4 measure starts r8 thenD5; firstnote192ticks matches PPQ384 eighthrest; no partial or extra leadingMIDI silence.",
+    "tempo_map": [
+      [
+        0,
+        1000000
+      ]
+    ],
+    "volume_map": [],
+    "overlap_pairs": 0
+  },
+  "family": "Keep all4movements plus both recorderparts in singleTWV40:107/Perez cohort; composerTelemann also shared with pending885",
+  "status": "RESERVED; never fitted or predictively scored; no similarity clearance yet",
+  "recommendation": "Eligible for reserved original exactMIDI firstmovement track1 research intake after parent review; do not infer independent samplecount from movements or parts. No rawmedia published.",
+  "alternatives": {
+    "885": "Rediscovered Telemann/LaurentClaessens candidate previously mentioned, samecomposer as1692. Source NouvelleÉdition engravedJosephLouisRenou; no exacthistoricaledition/incipit corroboration completed thispass. Remains pending, not automaticallyadmitted.",
+    "268": "Purcell/FairestIsle/SebastianBrosig has arranger S.W., handwritten source and unexplained date1827. EncodingPD does not establish arrangementrights. Quarantined pending arranger/source evidence."
+  },
+  "evidence_integrity_note": "OriginalZIPs retained byte-exact. Initialflat extraction overwrote samebasenameRecorder1/2 with finalmovement. Those flatfiles are NOT authoritative movement sources; original-tree preservesZIPmemberpaths and is authoritative. No LilyPond execution.",
+  "sha256": {
+    "imslp-getreue.html": "b85122daf40072661227cd1266b4371cb269c9c07be37267b151ccb3ec7b852f",
+    "268.html": "8aabf1dffdddaa1dfe4de3fd8a210fc665c37eed7adbed6599276e2a72669bc8",
+    "1692.html": "7a3cb8a190a17c391ef4e6818361fd315930973d14448772659d3c6a9533f809",
+    "1728-lection1-5.pdf": "9ced8fcbb70adf10296c086afb5bb4274b8ea775227cd19976dc95ca720b6dba",
+    "historical-url.txt": "4a82a5d3b66acb1d865c61d7e90a1704da740f241c2283d6dc6f74379fbcfd09",
+    "885.html": "4b10e4c764ca559f4d010d826bd6e5e0e68bba4c47c49836653adccfb4918dfc",
+    "1692/Duett-Telemann-lys.zip": "f96449648348fe4e288cb0233c43846f89d4f983e35fc7e712f8ae2a3b4112b4",
+    "1692/Duett-Telemann-1.mid": "7d1afe5cf70089bc013da31c709aed37b70bcd344d74fc53865a05f401120ee9",
+    "1692/Recorder2.ly": "20a8b156eb52af9638662d98dfea0df224f3cb93d64a089834f0a796dca82c22",
+    "1692/Duett-Telemann-mids.zip": "f2c282ddf76a7bdf2e50370890a8227b85db78dc9b26ad48f6c3c35ef5223e6e",
+    "1692/Recorder1.ly": "b29f003eb2d08ebfdd7e6c4ac55be8e419e6f13166c9cddf8d474b09d8b1e3f8",
+    "1692/Duett-Telemann.ly": "96e64f37fa6fea9ed0757e838e62daa371d4645e7725b6d282bc3d9d97e7988f",
+    "1692/Duett-Telemann.mid": "1e874885b369855fa948121e0635921a2debc6199a6fc251d85347f6678e26af",
+    "1692/Duett-Telemann-2.mid": "ae4c7ca99194808cc15a5f0f12cfea7e43ce1480c0f3ffd57c28c69e10dc8608",
+    "1692/Duett-Telemann-3.mid": "198e0d32f7acc19d1e3f2c949010d8ddccc9ea8576bdd3afc061f3f9686ae1e5",
+    "885/Sonata_1.ly": "96aa5dc2d040f3c8789d3c7ffc5cd90370a0215546b5e353919e4b08c4ba60bc",
+    "885/Sonata_1-2.mid": "023a579d2449386377a30ffde1c6e8f9e0b02b6a6fb0da11321c53b0011221ff",
+    "885/Sonata_1-3.mid": "00de0e13aef487666d06f202cb4c6b685569f54a820934d0ca5598e6616efa31",
+    "885/Sonata_1-1.mid": "127762afbcdbd7b34fa2b1fca97cf17de7890c687589e601a3cfc5cbc74ebadf",
+    "885/Sonata_1.mid": "af210d48e2192ccaad8244b2054c78493800754640f37b998eeb19cd54bb79e2",
+    "885/Sonata_1-mids.zip": "9aebec434baa9ee4e12dbe740fb60ed2eb36f1b5f3fce7156ab50f608ed66438",
+    "268/FairestIsle.mid": "6846ff8e8ecaf7d5b5a3234e3a0261e4bf77935de14298bf8d6ab3f7e481ee39",
+    "268/FairestIsle.ly": "3d0530f724ef1b34cdf83018218bb604ef4299e510b0f638b9cd2ae3d75d5b5c",
+    "1692/original-tree/Duett-Telemann-lys/Duett-Telemann.ly": "96e64f37fa6fea9ed0757e838e62daa371d4645e7725b6d282bc3d9d97e7988f",
+    "1692/original-tree/Duett-Telemann-lys/4-Presto/Recorder2.ly": "20a8b156eb52af9638662d98dfea0df224f3cb93d64a089834f0a796dca82c22",
+    "1692/original-tree/Duett-Telemann-lys/4-Presto/Recorder1.ly": "b29f003eb2d08ebfdd7e6c4ac55be8e419e6f13166c9cddf8d474b09d8b1e3f8",
+    "1692/original-tree/Duett-Telemann-lys/3-Andante/Recorder2.ly": "2032f9f5d78f9cd785c6780f3ccc9b9f6df109b7bd58d8b2289ba8c047359773",
+    "1692/original-tree/Duett-Telemann-lys/3-Andante/Recorder1.ly": "6d64e6a9af7596b3a934fa243fa56d80d1f1ed451d33a04c0ceb20a9a72d57c9",
+    "1692/original-tree/Duett-Telemann-lys/1-Affetuoso/Recorder2.ly": "bfa2b78d6c683235189a9b67e6d0a85d5d416cd7e52775ea869bb953f4ea2547",
+    "1692/original-tree/Duett-Telemann-lys/1-Affetuoso/Recorder1.ly": "825403bead32ed8966787338c93d4449c7665383d2f3d4629cbbadd3d6bbef02",
+    "1692/original-tree/Duett-Telemann-lys/2-Allegro/Recorder2.ly": "adb0dae66f47d582bcb94ed6c6f8506b57729a3b51faa2557b9b1c7498d300c6",
+    "1692/original-tree/Duett-Telemann-lys/2-Allegro/Recorder1.ly": "f52724562e98ea317ed6c4f9c1472cd39506203052bc4ae0144cb10d0c60da49"
+  }
+}
