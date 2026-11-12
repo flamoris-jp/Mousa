@@ -1,0 +1,7 @@
+{
+  "approved": true,
+  "plan_sha256": "16e6216e4a5094c43d9e9aea8abe06a049fd345aa89b9bdb338731b685651b02",
+  "approved_by": "parent research coordinator after code and fixed-plan review",
+  "recorded_utc": "2026-11-12T16:29:50.640659+00:00",
+  "scope": "Four frozen conditions, same 58 training and 16 observed diagnostics, exact mass32141, CPU60 per run, run and repeat; no tuning or role changes."
+}

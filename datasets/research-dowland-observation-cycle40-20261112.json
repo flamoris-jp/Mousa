@@ -1,0 +1,47 @@
+{
+  "created_utc": "2026-11-12T16:26:16.916577+00:00",
+  "plan_sha256": "06803ea492e4849e7dba70af9aa648b399bc7af03dd802ea09f725b11e167c15",
+  "event": "prospective-evaluation-completed",
+  "prior_immutable_rights_ledger": "datasets/research-dowland-reserved-cycle39-20261112.json",
+  "prior_ledger_sha256": "d94821f58691073208a6277317eed101c7e7bea712fdc8890d3876549b57a413",
+  "role_after": "observed-evaluation-not-training",
+  "family": "Both works together: Dowland1597/PeterChubb",
+  "fitted": false,
+  "observed": true,
+  "never_again_claim_unobserved": true,
+  "works": [
+    {
+      "id": "mutopia-21",
+      "source_sha256": "62f8a9594609932fa9c9c56f0b69d55bc0a31852ffa8012842a23a566a643e93",
+      "first_predictive_attempt_utc": "2026-11-12T16:25:43.924379+00:00",
+      "role": "observed-evaluation-not-fit",
+      "initial_predictive_calls": 4,
+      "repeat_predictive_calls": 4,
+      "notes_and_groups": 89
+    },
+    {
+      "id": "mutopia-1691",
+      "source_sha256": "4cc353989108ac40a7b74a40b170d331f783d7c6e4dfc9ed12f1e33e4dee59a8",
+      "first_predictive_attempt_utc": "2026-11-12T16:25:43.926609+00:00",
+      "role": "observed-evaluation-not-fit",
+      "initial_predictive_calls": 4,
+      "repeat_predictive_calls": 4,
+      "notes_and_groups": 43
+    }
+  ],
+  "journals": {
+    "initial": {
+      "attempts": 8,
+      "completed": 8,
+      "failures": 0,
+      "sha256": "d7f26cc2a0519fa77e763efaa293c194d1cd625794861dd7b1c1623c74e1d480"
+    },
+    "repeat": {
+      "attempts": 8,
+      "completed": 8,
+      "failures": 0,
+      "sha256": "cccd86a5c0666f605473802b106a03e120dbf8556da1d3e59d62f7ae977115d5"
+    }
+  },
+  "training": "Only unchanged old17:4319notes3428groups; no new raw material fitted."
+}

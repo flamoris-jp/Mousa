@@ -1,0 +1,2142 @@
+{
+  "created_at_utc": "2026-11-12T16:26:44.093526+00:00",
+  "scope": "Four fixed conditions on same58 train/16 observed; no new material, fresh evaluation or weight tuning.",
+  "frozen_hashes": {
+    "experiments/2026-11-12-groove-split-preparation.json": "a27829a20169957c85e09154e72d2207b90d147a410e7a8cd00c30707e414099",
+    "datasets/research-groove-rights-cycle32-20261112.json": "de6f14f3b6f38398f1d419e7a5b3fcf0f0d943adcadd914826629641fa4f0bbc",
+    "tools/prepare_groove_split.py": "430e561781a676d63ffbeae4a322b52052ed453d8f14280a82bb84d9275b3aa8",
+    "tests/test_groove_split.py": "67d5e5c8f80870ec8b9e44ff3691adafcdc02320f4327293a21d7c4b8c1ee04e",
+    "experiments/2026-11-12-groove-split-baseline-final-plan.json": "79988c195f5ac3a6507730520ce1252b45b6bdd6609674add8b9b5141af92779",
+    "experiments/2026-11-12-groove-split-pattern-candidates.json": "626b94121cb0e14ac59b0eb7af34fe3af65cafffb019813eb3c0a3a675f2e57a",
+    "src/mousa/drum_ioi_baseline.py": "03282ccb7e2c8c13429a11b09bdff4a8f25ce3af4b5708260a6344865373c833",
+    "tools/compare_groove_ioi.py": "511d1d4f866159a3298852877b19c335d8eface1d29c093d90de022898b36937",
+    "tests/test_drum_ioi_baseline.py": "3b640c2f8cf299e4af5c6f1b4ea1e40057f1e7ab85f122186a2c1b1e5f62768d",
+    "tests/test_groove_ioi_driver.py": "f3e947ec0bacb756b662c9070d83741d51f66214069e1e0dfea6b979b20bdd21",
+    "experiments/2026-11-12-groove-ioi-fit-final-plan.json": "9d5c95249f51aa8f89b54ff4902513ac2d3129f971318caee8f0f07f3286519a",
+    "src/mousa/drum_ioi_multiscale.py": "e2e9e15e7334265d25a9f8b7aec73c50d00a5bfbe55727d0a86eefec567bf265",
+    "tests/test_drum_ioi_multiscale.py": "8a1595561a0f9f3e4d75260d032af5933f8795b16a709f8275eedad88abf0883",
+    "tools/compare_groove_multiscale.py": "831fe0f56f6d67a0059f52ffccabb3cede2f21bf42c689cae79fde9f299ea2d5",
+    "tests/test_groove_multiscale_driver.py": "bf4486b63c3ddd083af88a5cad71455bba15ffff8e2c6aa616a30872d97e543e",
+    "experiments/2026-11-12-groove-ioi-results.json": "f00ee4e508c38d2696ced9495937c50c1c8c2178b5c412ffc107b3edbfbe2067",
+    "datasets/research-groove-usage-cycle33-20261112.json": "aa4f80586e84dc89f5772d5eba48182b9d560a34926b59463ea98c0fc0c5ec7b",
+    "tools/groove_cycle36_prepare.py": "19f0ecd7ecf9d644dc1ec0b5d721adc27765951eb82043ada56559865989baf4",
+    "tests/test_groove_cycle36_prepare.py": "0768e3a75e24c766a45f6415f3e1f4506bbb1bcc5d9415e0defe453007a3ad10",
+    "experiments/2026-11-12-groove-multiscale-plan.json": "71e1949f2f82e62e3915352eb7a9d1a2426d878850227ae4c7bc2ab4edd24575",
+    "experiments/2026-11-12-groove-cycle35-training-coverage-proposal.json": "10c32ccee65ea7315208c7624a47b76c3244d4a188006b50bffa162c7aae6948",
+    "datasets/research-groove-usage-cycle34-20261112.json": "bbbc0a0193886bd177aa2e8a83e4340ff4f543c0e1dcdb823a27739b40f98f68",
+    "src/mousa/drum_ioi_35work_profile.py": "55776f32739a3d7434a387325b1fa83cb5c6f3ccf2095a3ad85a0349541389b4",
+    "tests/test_groove_cycle36_profile.py": "332cbdeac61f8ad8ef4530190c63c597cf96f2d4e79e0dc986d27a7788105a8f",
+    "tools/groove_cycle36_fit.py": "372e5e20d89469844d726875a696d7826707541218f7a89c5b877db204309b1d",
+    "tests/test_groove_cycle36_fit.py": "ad00ad275fdfc35a722fca496214d98e069ba5381ee7abe5ebea65f476606bbe",
+    "experiments/2026-11-12-groove-cycle36-prepare-plan.json": "3f3ad71266c8f43731b33eebb86d62ca9742fbce27c9d5373b173803b2d328f0",
+    "experiments/2026-11-12-groove-cycle36-screen.json": "840ccb8ae190fa3c248ddc530bbcbfcd4eeffb6e4a77eb75d56b3177ddf61b5d",
+    "experiments/2026-11-12-groove-multiscale-results.json": "c8a34525d8b2d088c222840a187933f58f1a898e0158b8f1f42f8e5065b19cc8",
+    "tools/groove_cycle39_prepare.py": "555547f9098bbfc6e56e7aed8e5c8c9405593320befeeb153f962bf49fd72dd7",
+    "tests/test_groove_cycle39_prepare.py": "52da2b98292dd3dd2d8aa221ad0e975e23b81ab1ab67a3e977873afc166e6323",
+    "experiments/2026-11-12-groove-cycle36-fit-final-plan.json": "2a202a6eb4730a4c97a5505a45e07d08eded19d25dd59df85b53bc877c9fe79d",
+    "experiments/2026-11-12-groove-fresh-recording-plan.json": "ddfb1daf77813e44a875fcc70def9e65367ce50aee1b18304f6535d3e199ea87",
+    "datasets/research-groove-fresh-observations-cycle37.json": "41d71de2cb45d08e87f4b6620c3d146ea9a0d7ee50eae149f7d12c223f1510a9",
+    "src/mousa/drum_ioi_60work_profile.py": "e0ce2e458d4ef98ef6dbe97c1c04288861e2efdc7bc89aa016a077251de297ed",
+    "tests/test_groove_cycle39_profile.py": "4c03b9572c444e7fb62723c100302e7150e69a54fc9a58f65a5e64437f52b0c9",
+    "tools/groove_cycle39_fit.py": "b2c4cb9d1f882b892805846b0bde22b87a71c85030ffbf1fd0a50e58bf5f5904",
+    "tests/test_groove_cycle39_fit.py": "e72d82ba335240d85cd9c8736e3311aaab4d904355a75732e7df15907c9986e3",
+    "experiments/2026-11-12-groove-cycle39-prepare-plan.json": "4e4ed762ac0dcd5433a5d3af3ecb3b80f1b8b6ac208798c221839fe6882d2d02",
+    "experiments/2026-11-12-groove-cycle39-screen.json": "b9c506952a07b0c92efcdaf02d9523f213ee79ed9832e2a4a452948915568a76",
+    "experiments/2026-11-12-groove-cycle36-results.json": "a4a1945dae98434b38bc814fd23a6be2fe86129b457aac515bd0f337099edf77",
+    "experiments/2026-11-12-groove-fresh-recording-results.json": "bfc6ddaae95c32ebbcf6f38de07fc1a3f76657abc9f40a76c6818d30b3edcd72",
+    "src/mousa/groove_cycle40_weighted.py": "a9c9f5e816e554791c96c8233215a11d0468375adb27bc33c7ff743c11d129e6",
+    "tests/test_groove_cycle40_weighted.py": "fdf62d259d2fbb9c76cabceaa5d224d738a16312af020c1ab0f04b06fec83b03",
+    "tools/groove_cycle40_compare.py": "6bc8500fd1ae00933b20451426f3eecb4763d51373c9762ab836cb175c97e6fd",
+    "tests/test_groove_cycle40_compare.py": "a4e86bcd01bf86e48096f3d33c9f0738ea4548130ef9c13d5779fdd19a56dbaa",
+    "experiments/2026-11-12-groove-cycle39-fit-plan.json": "0828f82f0ced7ddb69be1a6a5a568dec3fdcbceffd0058700233999a0f5f26e3",
+    "experiments/2026-11-12-groove-cycle39-results.json": "c3269bdb580b1cd5160c06a0c27b70687ebb7e59311268bcd24a5e6de0bfd00f",
+    "datasets/research-groove-usage-cycle39-20261112.json": "b391fb84fe6741b85f8339e1eb6f6fcb5a154ba69d676904251a1c9a814c997b"
+  },
+  "inventory_sha256": "1c65bbb16b2c36bfd3c2f44a906bfe9efc5e8f5113677629f8b31ee010598a79",
+  "training": [
+    {
+      "id": "drummer1/session1/236",
+      "sha256": "0137965a4c82d04517d916c32cd1b7629a8465d4473ccecda5f2160ba7f2d47c",
+      "relative_path": "originals/groove/drummer1/session1/236_rock-halftime_140_fill_4-4.mid",
+      "drummer": "drummer1",
+      "session": "drummer1/session1",
+      "event_count": 14,
+      "proposed_split": "train",
+      "original_split": "validation",
+      "provided_style": "rock/halftime",
+      "previously_train_used": true
+    },
+    {
+      "id": "drummer1/session1/225",
+      "sha256": "014b25875393daa9c090dff25bc9f03144a6a5961b10786c9b3dedd64982dcc9",
+      "relative_path": "originals/groove/drummer1/session1/225_rock-halftime_140_fill_4-4.mid",
+      "drummer": "drummer1",
+      "session": "drummer1/session1",
+      "event_count": 6,
+      "proposed_split": "train",
+      "original_split": "train",
+      "provided_style": "rock/halftime",
+      "previously_train_used": true
+    },
+    {
+      "id": "drummer1/session1/3",
+      "sha256": "01e63c2bc0d59351347ba53802cf55d374d4b63c46abbe0c82fbcf7daaec43be",
+      "relative_path": "originals/groove/drummer1/session1/3_funk_80_beat_4-4.mid",
+      "drummer": "drummer1",
+      "session": "drummer1/session1",
+      "event_count": 1076,
+      "proposed_split": "train",
+      "original_split": "train",
+      "provided_style": "funk",
+      "previously_train_used": true
+    },
+    {
+      "id": "drummer1/session1/96",
+      "sha256": "021c5190b92a151b96bfdd07931f9089dfe1438376ad4e1336491b322840b7bd",
+      "relative_path": "originals/groove/drummer1/session1/96_neworleans-funk_84_fill_4-4.mid",
+      "drummer": "drummer1",
+      "session": "drummer1/session1",
+      "event_count": 25,
+      "proposed_split": "train",
+      "original_split": "train",
+      "provided_style": "neworleans/funk",
+      "previously_train_used": true
+    },
+    {
+      "id": "drummer1/session3/11",
+      "sha256": "022dcd45815ef8e2fe0070a780f86e452783d7726841a384479b0d645f08168c",
+      "relative_path": "originals/groove/drummer1/session3/11_afrobeat_94_beat_4-4.mid",
+      "drummer": "drummer1",
+      "session": "drummer1/session3",
+      "event_count": 2504,
+      "proposed_split": "train",
+      "original_split": "train",
+      "provided_style": "afrobeat",
+      "previously_train_used": true
+    },
+    {
+      "id": "drummer1/session1/108",
+      "sha256": "03478e98124be9c6608cc2958ab5a5459032f41ad2f6bd5c5f5bb3f653193cc3",
+      "relative_path": "originals/groove/drummer1/session1/108_funk_95_fill_4-4.mid",
+      "drummer": "drummer1",
+      "session": "drummer1/session1",
+      "event_count": 16,
+      "proposed_split": "train",
+      "original_split": "train",
+      "provided_style": "funk",
+      "previously_train_used": true
+    },
+    {
+      "id": "drummer1/session2/86",
+      "sha256": "035cddefcd8dff691dd535f6f1533d8ac34703a7e3e8bc89aab7aa0c1db284dd",
+      "relative_path": "originals/groove/drummer1/session2/86_punk_144_fill_4-4.mid",
+      "drummer": "drummer1",
+      "session": "drummer1/session2",
+      "event_count": 14,
+      "proposed_split": "train",
+      "original_split": "test",
+      "provided_style": "punk",
+      "previously_train_used": false
+    },
+    {
+      "id": "drummer1/session1/137",
+      "sha256": "03ed2acff59c22facae5fbcad62dbfc115fa5d3eff18c74c737c58c495de9245",
+      "relative_path": "originals/groove/drummer1/session1/137_funk-fast_125_fill_4-4.mid",
+      "drummer": "drummer1",
+      "session": "drummer1/session1",
+      "event_count": 13,
+      "proposed_split": "train",
+      "original_split": "train",
+      "provided_style": "funk/fast",
+      "previously_train_used": false
+    },
+    {
+      "id": "drummer1/session2/133",
+      "sha256": "04f0a86dd9474e757acf397f6958fe8b219b159cbc137ffba3a2f1aa90eba11c",
+      "relative_path": "originals/groove/drummer1/session2/133_afrocuban-bembe_122_fill_4-4.mid",
+      "drummer": "drummer1",
+      "session": "drummer1/session2",
+      "event_count": 7,
+      "proposed_split": "train",
+      "original_split": "validation",
+      "provided_style": "afrocuban/bembe",
+      "previously_train_used": false
+    },
+    {
+      "id": "drummer1/session2/59",
+      "sha256": "06291760cb2d9f77d12b367810d4503ae28d48539a5f620d526b7d7dba32228e",
+      "relative_path": "originals/groove/drummer1/session2/59_punk_128_fill_4-4.mid",
+      "drummer": "drummer1",
+      "session": "drummer1/session2",
+      "event_count": 18,
+      "proposed_split": "train",
+      "original_split": "train",
+      "provided_style": "punk",
+      "previously_train_used": false
+    },
+    {
+      "id": "drummer2/session2/15",
+      "sha256": "06c480fbce4e0a08734c8a57d73fe4db4508ff9622b235b85039e3bacbcb60da",
+      "relative_path": "originals/groove/drummer2/session2/15_rock_130_beat_4-4.mid",
+      "drummer": "drummer2",
+      "session": "drummer2/session2",
+      "event_count": 38,
+      "proposed_split": "train",
+      "original_split": "train",
+      "provided_style": "rock",
+      "previously_train_used": true
+    },
+    {
+      "id": "drummer2/session2/13",
+      "sha256": "244c21166a66d6d62052f802f60dc3b0715c18004ebb9c8f4d04acc150b5d8ff",
+      "relative_path": "originals/groove/drummer2/session2/13_rock_130_beat_4-4.mid",
+      "drummer": "drummer2",
+      "session": "drummer2/session2",
+      "event_count": 19,
+      "proposed_split": "train",
+      "original_split": "train",
+      "provided_style": "rock",
+      "previously_train_used": true
+    },
+    {
+      "id": "drummer2/session3/1",
+      "sha256": "3caf8ef1f11810a1db2bcf385f1c4b750f4539e787bfa427883dddaaf687cbb0",
+      "relative_path": "originals/groove/drummer2/session3/1_rock-shuffle_85_beat_4-4.mid",
+      "drummer": "drummer2",
+      "session": "drummer2/session3",
+      "event_count": 2439,
+      "proposed_split": "train",
+      "original_split": "train",
+      "provided_style": "rock/shuffle",
+      "previously_train_used": true
+    },
+    {
+      "id": "drummer2/session2/11",
+      "sha256": "3f8c4cffce4b95579b93e8f04a0a4d2631f42739f90528c4fd409b1e27221921",
+      "relative_path": "originals/groove/drummer2/session2/11_rock_130_beat_4-4.mid",
+      "drummer": "drummer2",
+      "session": "drummer2/session2",
+      "event_count": 18,
+      "proposed_split": "train",
+      "original_split": "train",
+      "provided_style": "rock",
+      "previously_train_used": true
+    },
+    {
+      "id": "drummer2/session2/7",
+      "sha256": "4000bbae1dbb14da5458b103a84d4b4a77757af5281564df5bf939780c193020",
+      "relative_path": "originals/groove/drummer2/session2/7_rock_130_beat_4-4.mid",
+      "drummer": "drummer2",
+      "session": "drummer2/session2",
+      "event_count": 363,
+      "proposed_split": "train",
+      "original_split": "train",
+      "provided_style": "rock",
+      "previously_train_used": true
+    },
+    {
+      "id": "drummer2/session2/10",
+      "sha256": "476e34113c0071e7c387a7d5f9f08bf7c96b38b06518082de472d024ff3272e6",
+      "relative_path": "originals/groove/drummer2/session2/10_rock_130_beat_4-4.mid",
+      "drummer": "drummer2",
+      "session": "drummer2/session2",
+      "event_count": 17,
+      "proposed_split": "train",
+      "original_split": "train",
+      "provided_style": "rock",
+      "previously_train_used": false
+    },
+    {
+      "id": "drummer2/session2/1",
+      "sha256": "4a4417da5b0e96c0945b870d21c802e374ffbbbd11fb1dac0738e47d8ba72b9c",
+      "relative_path": "originals/groove/drummer2/session2/1_rock_130_beat_4-4.mid",
+      "drummer": "drummer2",
+      "session": "drummer2/session2",
+      "event_count": 1517,
+      "proposed_split": "train",
+      "original_split": "train",
+      "provided_style": "rock",
+      "previously_train_used": false
+    },
+    {
+      "id": "drummer2/session2/14",
+      "sha256": "4b91f3953a0ce85c3df2a3d8f70eb8b5ea5aa052a1ecb0e821f930adec88b6f0",
+      "relative_path": "originals/groove/drummer2/session2/14_rock_130_beat_4-4.mid",
+      "drummer": "drummer2",
+      "session": "drummer2/session2",
+      "event_count": 18,
+      "proposed_split": "train",
+      "original_split": "train",
+      "provided_style": "rock",
+      "previously_train_used": false
+    },
+    {
+      "id": "drummer2/session2/5",
+      "sha256": "59ea79c5a6bee9d12e138c1e9b37b2160eadadf108d231996cda9daa7b5c5ec0",
+      "relative_path": "originals/groove/drummer2/session2/5_rock_130_fill_4-4.mid",
+      "drummer": "drummer2",
+      "session": "drummer2/session2",
+      "event_count": 36,
+      "proposed_split": "train",
+      "original_split": "train",
+      "provided_style": "rock",
+      "previously_train_used": false
+    },
+    {
+      "id": "drummer3/session2/36",
+      "sha256": "0322a67e7fd37ed62d5ed91b27f33970ba8bfbf8faaf889d16b7a98c7442fecc",
+      "relative_path": "originals/groove/drummer3/session2/36_rock_92_beat_4-4.mid",
+      "drummer": "drummer3",
+      "session": "drummer3/session2",
+      "event_count": 35,
+      "proposed_split": "train",
+      "original_split": "train",
+      "provided_style": "rock",
+      "previously_train_used": true
+    },
+    {
+      "id": "drummer3/session2/13",
+      "sha256": "04cb3b758b253e97e177a5ab180e6dad46989750d70c49397d1e51396499ec2f",
+      "relative_path": "originals/groove/drummer3/session2/13_rock_100_beat_4-4.mid",
+      "drummer": "drummer3",
+      "session": "drummer3/session2",
+      "event_count": 118,
+      "proposed_split": "train",
+      "original_split": "train",
+      "provided_style": "rock",
+      "previously_train_used": true
+    },
+    {
+      "id": "drummer3/session2/46",
+      "sha256": "04d6935311f0f4f9afb67e9a9c09bb7fd04669536d61d0e218bf90f23d5a992d",
+      "relative_path": "originals/groove/drummer3/session2/46_rock_110_fill_4-4.mid",
+      "drummer": "drummer3",
+      "session": "drummer3/session2",
+      "event_count": 82,
+      "proposed_split": "train",
+      "original_split": "train",
+      "provided_style": "rock",
+      "previously_train_used": true
+    },
+    {
+      "id": "drummer3/session1/30",
+      "sha256": "094f0b7343248feca59092105610102c7781621b7b964c8e6a3076ce8dc235f1",
+      "relative_path": "originals/groove/drummer3/session1/30_rock_120_beat_4-4.mid",
+      "drummer": "drummer3",
+      "session": "drummer3/session1",
+      "event_count": 16,
+      "proposed_split": "train",
+      "original_split": "train",
+      "provided_style": "rock",
+      "previously_train_used": true
+    },
+    {
+      "id": "drummer3/session2/10",
+      "sha256": "0be1e17288f823385d54d930bb2a8118700b8c3909da2bc88c3f01e78348a6d3",
+      "relative_path": "originals/groove/drummer3/session2/10_rock_100_beat_4-4.mid",
+      "drummer": "drummer3",
+      "session": "drummer3/session2",
+      "event_count": 113,
+      "proposed_split": "train",
+      "original_split": "test",
+      "provided_style": "rock",
+      "previously_train_used": true
+    },
+    {
+      "id": "drummer3/session2/2",
+      "sha256": "0dc4a19f164f846b86610f1c71f6ff3c6ff7cb98c8715f451947c93845075796",
+      "relative_path": "originals/groove/drummer3/session2/2_rock_100_beat_4-4.mid",
+      "drummer": "drummer3",
+      "session": "drummer3/session2",
+      "event_count": 143,
+      "proposed_split": "train",
+      "original_split": "train",
+      "provided_style": "rock",
+      "previously_train_used": true
+    },
+    {
+      "id": "drummer3/session1/39",
+      "sha256": "11c468e9e35c8568bc11e2326b0a2c63e674add08545aa4bd70dc8305d0a7248",
+      "relative_path": "originals/groove/drummer3/session1/39_jazz_120_beat_4-4.mid",
+      "drummer": "drummer3",
+      "session": "drummer3/session1",
+      "event_count": 43,
+      "proposed_split": "train",
+      "original_split": "validation",
+      "provided_style": "jazz",
+      "previously_train_used": false
+    },
+    {
+      "id": "drummer3/session1/10",
+      "sha256": "1202f245de4594ee34c98778e4cb9d898a010db3d14ef484d78ef1b0f848998f",
+      "relative_path": "originals/groove/drummer3/session1/10_rock_105_beat_4-4.mid",
+      "drummer": "drummer3",
+      "session": "drummer3/session1",
+      "event_count": 104,
+      "proposed_split": "train",
+      "original_split": "train",
+      "provided_style": "rock",
+      "previously_train_used": false
+    },
+    {
+      "id": "drummer3/session1/9",
+      "sha256": "1479acf27a88a7b9833b729df8b658dc2a178961fe3a0ea73b604ba40341279a",
+      "relative_path": "originals/groove/drummer3/session1/9_rock_105_beat_4-4.mid",
+      "drummer": "drummer3",
+      "session": "drummer3/session1",
+      "event_count": 486,
+      "proposed_split": "train",
+      "original_split": "train",
+      "provided_style": "rock",
+      "previously_train_used": false
+    },
+    {
+      "id": "drummer3/session1/49",
+      "sha256": "15cd69b472091249d9c53d6a25dac050b5111667df84c70219a896a148024746",
+      "relative_path": "originals/groove/drummer3/session1/49_rock_120_beat_4-4.mid",
+      "drummer": "drummer3",
+      "session": "drummer3/session1",
+      "event_count": 22,
+      "proposed_split": "train",
+      "original_split": "train",
+      "provided_style": "rock",
+      "previously_train_used": false
+    },
+    {
+      "id": "drummer4/session1/8",
+      "sha256": "06e27dd6014956cb161013fa64830f9fbb3b918088e35ae8a84591e6ba54b8d5",
+      "relative_path": "originals/groove/drummer4/session1/8_blues-shuffle_112_beat_4-4.mid",
+      "drummer": "drummer4",
+      "session": "drummer4/session1",
+      "event_count": 98,
+      "proposed_split": "train",
+      "original_split": "train",
+      "provided_style": "blues/shuffle",
+      "previously_train_used": true
+    },
+    {
+      "id": "drummer4/session1/4",
+      "sha256": "0f5aa65ef1f7c82ef25108795dc810b69acf6028823cd526dece049221e3a68e",
+      "relative_path": "originals/groove/drummer4/session1/4_latin-brazilian_92_beat_4-4.mid",
+      "drummer": "drummer4",
+      "session": "drummer4/session1",
+      "event_count": 215,
+      "proposed_split": "train",
+      "original_split": "train",
+      "provided_style": "latin/brazilian",
+      "previously_train_used": true
+    },
+    {
+      "id": "drummer4/session1/7",
+      "sha256": "75626cf02379f4e0805771d06b8bfe0df039a92c8f83a59ab4d2d53bf0fae63b",
+      "relative_path": "originals/groove/drummer4/session1/7_blues-shuffle_134_beat_4-4.mid",
+      "drummer": "drummer4",
+      "session": "drummer4/session1",
+      "event_count": 52,
+      "proposed_split": "train",
+      "original_split": "train",
+      "provided_style": "blues/shuffle",
+      "previously_train_used": true
+    },
+    {
+      "id": "drummer4/session1/3",
+      "sha256": "7b2680bc2077020e5212cc2f210743e12179394be7d690f279c15ab9e8a80329",
+      "relative_path": "originals/groove/drummer4/session1/3_jazz-klezmer_152_beat_4-4.mid",
+      "drummer": "drummer4",
+      "session": "drummer4/session1",
+      "event_count": 375,
+      "proposed_split": "train",
+      "original_split": "train",
+      "provided_style": "jazz/klezmer",
+      "previously_train_used": true
+    },
+    {
+      "id": "drummer4/session1/6",
+      "sha256": "96368cdf7f528a62822c1860267781711ee86d713f5b2a5a0d6512a184c0f280",
+      "relative_path": "originals/groove/drummer4/session1/6_blues-shuffle_134_beat_4-4.mid",
+      "drummer": "drummer4",
+      "session": "drummer4/session1",
+      "event_count": 84,
+      "proposed_split": "train",
+      "original_split": "train",
+      "provided_style": "blues/shuffle",
+      "previously_train_used": true
+    },
+    {
+      "id": "drummer4/session1/5",
+      "sha256": "a3b20cd34a34d73cddb60347ab21bd54466e0904daef34afe64570edd11b8c87",
+      "relative_path": "originals/groove/drummer4/session1/5_latin-brazilian_184_beat_4-4.mid",
+      "drummer": "drummer4",
+      "session": "drummer4/session1",
+      "event_count": 317,
+      "proposed_split": "train",
+      "original_split": "validation",
+      "provided_style": "latin/brazilian",
+      "previously_train_used": true
+    },
+    {
+      "id": "drummer4/session1/2",
+      "sha256": "afa3aee27ff1682b5016923f74b49c277f030e5a55c0432c94a875b1c0d6f9db",
+      "relative_path": "originals/groove/drummer4/session1/2_jazz_158_beat_4-4.mid",
+      "drummer": "drummer4",
+      "session": "drummer4/session1",
+      "event_count": 483,
+      "proposed_split": "train",
+      "original_split": "validation",
+      "provided_style": "jazz",
+      "previously_train_used": false
+    },
+    {
+      "id": "drummer4/session1/9",
+      "sha256": "ce732b2c212e075ca6420efa36ca67d3273e5b99e1cbddccae2dea6b7a7d5e9a",
+      "relative_path": "originals/groove/drummer4/session1/9_latin-merengue_158_beat_4-4.mid",
+      "drummer": "drummer4",
+      "session": "drummer4/session1",
+      "event_count": 183,
+      "proposed_split": "train",
+      "original_split": "train",
+      "provided_style": "latin/merengue",
+      "previously_train_used": false
+    },
+    {
+      "id": "drummer4/session1/1",
+      "sha256": "f6d0e1aaf4936f108c0394bf09ef607ec61ebeb1680f79fab6a7f8cbf256d1af",
+      "relative_path": "originals/groove/drummer4/session1/1_rock_87_beat_4-4.mid",
+      "drummer": "drummer4",
+      "session": "drummer4/session1",
+      "event_count": 420,
+      "proposed_split": "train",
+      "original_split": "train",
+      "provided_style": "rock",
+      "previously_train_used": false
+    },
+    {
+      "id": "drummer5/session2/5",
+      "sha256": "04e0de610e7ae287366dfa90ddc05dcb1f9e8468753fed39311aa68c4c9ce317",
+      "relative_path": "originals/groove/drummer5/session2/5_reggae_126_beat_4-4.mid",
+      "drummer": "drummer5",
+      "session": "drummer5/session2",
+      "event_count": 1784,
+      "proposed_split": "train",
+      "original_split": "train",
+      "provided_style": "reggae",
+      "previously_train_used": true
+    },
+    {
+      "id": "drummer5/session2/12",
+      "sha256": "09d9e40c1829890ada04c300247a43e2177b1b224e743e3ee94bfc89885e0542",
+      "relative_path": "originals/groove/drummer5/session2/12_rock_105_beat_4-4.mid",
+      "drummer": "drummer5",
+      "session": "drummer5/session2",
+      "event_count": 1374,
+      "proposed_split": "train",
+      "original_split": "train",
+      "provided_style": "rock",
+      "previously_train_used": true
+    },
+    {
+      "id": "drummer5/session2/21",
+      "sha256": "0ae81d19bac83765481ddcf390fcc5784129f9fed6ce6aa998f10a8d7fcb5771",
+      "relative_path": "originals/groove/drummer5/session2/21_latin-brazilian-ijexa_108_beat_4-4.mid",
+      "drummer": "drummer5",
+      "session": "drummer5/session2",
+      "event_count": 878,
+      "proposed_split": "train",
+      "original_split": "train",
+      "provided_style": "latin/brazilian-ijexa",
+      "previously_train_used": true
+    },
+    {
+      "id": "drummer5/session2/2",
+      "sha256": "10b9beab568f8ed8fb14dc158c125aeeec43ea29e2094bad07161808f15950e5",
+      "relative_path": "originals/groove/drummer5/session2/2_latin-brazilian_101_beat_4-4.mid",
+      "drummer": "drummer5",
+      "session": "drummer5/session2",
+      "event_count": 683,
+      "proposed_split": "train",
+      "original_split": "train",
+      "provided_style": "latin/brazilian",
+      "previously_train_used": true
+    },
+    {
+      "id": "drummer5/session1/4",
+      "sha256": "1448ef4699d2341e5e6f9669b86295bfd7d6c7fbe0bcb26efc795d0d66d64a36",
+      "relative_path": "originals/groove/drummer5/session1/4_latin-brazilian-samba_89_beat_4-4.mid",
+      "drummer": "drummer5",
+      "session": "drummer5/session1",
+      "event_count": 2134,
+      "proposed_split": "train",
+      "original_split": "validation",
+      "provided_style": "latin/brazilian-samba",
+      "previously_train_used": true
+    },
+    {
+      "id": "drummer5/session2/13",
+      "sha256": "1acf3d5d5414b2187414c1c2604a02ad642055178c5e92a0d079db67e006765d",
+      "relative_path": "originals/groove/drummer5/session2/13_rock_140_beat_4-4.mid",
+      "drummer": "drummer5",
+      "session": "drummer5/session2",
+      "event_count": 480,
+      "proposed_split": "train",
+      "original_split": "train",
+      "provided_style": "rock",
+      "previously_train_used": true
+    },
+    {
+      "id": "drummer5/session2/17",
+      "sha256": "1e9b3f40c8be3273521e10d9be2ae505066835b916f137728651eab3efa92453",
+      "relative_path": "originals/groove/drummer5/session2/17_latin-brazilian-samba_110_beat_4-4.mid",
+      "drummer": "drummer5",
+      "session": "drummer5/session2",
+      "event_count": 1980,
+      "proposed_split": "train",
+      "original_split": "validation",
+      "provided_style": "latin/brazilian-samba",
+      "previously_train_used": false
+    },
+    {
+      "id": "drummer5/session1/10",
+      "sha256": "3e146b1378deb5ee43c9e90a659e8d3b3b514f85ccaef4b712dfd217f37e324d",
+      "relative_path": "originals/groove/drummer5/session1/10_latin-brazilian-sambareggae_96_beat_4-4.mid",
+      "drummer": "drummer5",
+      "session": "drummer5/session1",
+      "event_count": 554,
+      "proposed_split": "train",
+      "original_split": "train",
+      "provided_style": "latin/brazilian-sambareggae",
+      "previously_train_used": false
+    },
+    {
+      "id": "drummer5/session2/3",
+      "sha256": "488548ac8a7c54050b20976273b7997700b3e1d2eefe811de6df3ca375a994d4",
+      "relative_path": "originals/groove/drummer5/session2/3_latin-brazilian_101_beat_4-4.mid",
+      "drummer": "drummer5",
+      "session": "drummer5/session2",
+      "event_count": 1281,
+      "proposed_split": "train",
+      "original_split": "train",
+      "provided_style": "latin/brazilian",
+      "previously_train_used": false
+    },
+    {
+      "id": "drummer5/session2/6",
+      "sha256": "48c133fdc2887c7aa78e91532493ca693440f4d5696b2a746e9f4570148009f1",
+      "relative_path": "originals/groove/drummer5/session2/6_neworleans-secondline_99_beat_4-4.mid",
+      "drummer": "drummer5",
+      "session": "drummer5/session2",
+      "event_count": 3253,
+      "proposed_split": "train",
+      "original_split": "train",
+      "provided_style": "neworleans/secondline",
+      "previously_train_used": false
+    },
+    {
+      "id": "drummer6/session1/2",
+      "sha256": "0610ff76209063951ec3c7b9ed798cbf0caa117a39518c721fbc10500f76ec6f",
+      "relative_path": "originals/groove/drummer6/session1/2_rock_70_beat_6-8.mid",
+      "drummer": "drummer6",
+      "session": "drummer6/session1",
+      "event_count": 539,
+      "proposed_split": "train",
+      "original_split": "train",
+      "provided_style": "rock",
+      "previously_train_used": true
+    },
+    {
+      "id": "drummer6/session3/7",
+      "sha256": "16eb9913be1ad678602ddb089af8ed32eccc9ca97fe4a444f5aec55db013f889",
+      "relative_path": "originals/groove/drummer6/session3/7_rock_88_beat_4-4.mid",
+      "drummer": "drummer6",
+      "session": "drummer6/session3",
+      "event_count": 794,
+      "proposed_split": "train",
+      "original_split": "train",
+      "provided_style": "rock",
+      "previously_train_used": true
+    },
+    {
+      "id": "drummer6/session3/1",
+      "sha256": "23058c4ecb675624b4b1c20df8273e79c60ee7d0a2ac3b9e56194d35c8ce81d1",
+      "relative_path": "originals/groove/drummer6/session3/1_rock_90_beat_4-4.mid",
+      "drummer": "drummer6",
+      "session": "drummer6/session3",
+      "event_count": 439,
+      "proposed_split": "train",
+      "original_split": "validation",
+      "provided_style": "rock",
+      "previously_train_used": true
+    },
+    {
+      "id": "drummer6/session2/1",
+      "sha256": "230f959de0aba9db8b81040725df0593b61c45fd2ca14068a28da891872b99b6",
+      "relative_path": "originals/groove/drummer6/session2/1_rock_95_beat_4-4.mid",
+      "drummer": "drummer6",
+      "session": "drummer6/session2",
+      "event_count": 1472,
+      "proposed_split": "train",
+      "original_split": "train",
+      "provided_style": "rock",
+      "previously_train_used": true
+    },
+    {
+      "id": "drummer6/session1/5",
+      "sha256": "240d1d5206bdd69fc3c4149fabcad50d3cb512f2a024bbfa4e1bb4bf0e3afdd2",
+      "relative_path": "originals/groove/drummer6/session1/5_rock_60_beat_6-8.mid",
+      "drummer": "drummer6",
+      "session": "drummer6/session1",
+      "event_count": 423,
+      "proposed_split": "train",
+      "original_split": "train",
+      "provided_style": "rock",
+      "previously_train_used": true
+    },
+    {
+      "id": "drummer6/session1/1",
+      "sha256": "365c10899943b9caceb08a4033ff335de7659a0dde56343263e3f33be5e0f0d6",
+      "relative_path": "originals/groove/drummer6/session1/1_rock_70_beat_6-8.mid",
+      "drummer": "drummer6",
+      "session": "drummer6/session1",
+      "event_count": 243,
+      "proposed_split": "train",
+      "original_split": "train",
+      "provided_style": "rock",
+      "previously_train_used": true
+    },
+    {
+      "id": "drummer6/session3/2",
+      "sha256": "657ae72b01ca81de3896b0f040c7785bd185e0674027744ecafe9d2a9628c977",
+      "relative_path": "originals/groove/drummer6/session3/2_rock_100_beat_4-4.mid",
+      "drummer": "drummer6",
+      "session": "drummer6/session3",
+      "event_count": 592,
+      "proposed_split": "train",
+      "original_split": "train",
+      "provided_style": "rock",
+      "previously_train_used": false
+    },
+    {
+      "id": "drummer6/session3/6",
+      "sha256": "6923f5ad9c2217f0e471381369cf40488182ad3d313cae2ee763220841237181",
+      "relative_path": "originals/groove/drummer6/session3/6_rock_88_beat_4-4.mid",
+      "drummer": "drummer6",
+      "session": "drummer6/session3",
+      "event_count": 1198,
+      "proposed_split": "train",
+      "original_split": "train",
+      "provided_style": "rock",
+      "previously_train_used": false
+    },
+    {
+      "id": "drummer6/session1/4",
+      "sha256": "8f3427ea3e79a47e27061f7577e07107d790dd58740c8b5f3f6301e32a90d44c",
+      "relative_path": "originals/groove/drummer6/session1/4_rock_80_beat_6-8.mid",
+      "drummer": "drummer6",
+      "session": "drummer6/session1",
+      "event_count": 346,
+      "proposed_split": "train",
+      "original_split": "validation",
+      "provided_style": "rock",
+      "previously_train_used": false
+    },
+    {
+      "id": "drummer6/session1/3",
+      "sha256": "934b5efb826fe6673cac11be75275af47a753c1b3982b39fd25750a6caa9f119",
+      "relative_path": "originals/groove/drummer6/session1/3_rock_80_beat_6-8.mid",
+      "drummer": "drummer6",
+      "session": "drummer6/session1",
+      "event_count": 147,
+      "proposed_split": "train",
+      "original_split": "train",
+      "provided_style": "rock",
+      "previously_train_used": false
+    }
+  ],
+  "diagnostics": [
+    {
+      "id": "drummer10/session1/10",
+      "drummer": "drummer10",
+      "session": "drummer10/session1",
+      "proposed_split": "test",
+      "original_split": "train",
+      "sha256": "22534c40c80f20ee19685a56ad0d1f5c726858dbb31284c9e4f7577741c7786e",
+      "event_count": 1413,
+      "status": "eligible_pending_parent_review",
+      "unsupported_ioi_count": 0,
+      "relative_path": "originals/groove/drummer10/session1/10_jazz-swing_110_beat_4-4.mid"
+    },
+    {
+      "id": "drummer10/session1/9",
+      "drummer": "drummer10",
+      "session": "drummer10/session1",
+      "proposed_split": "test",
+      "original_split": "train",
+      "sha256": "27da7b94b20617f73e65253e464d4e87236d2f6df67aa65cccf9e2024bee23bb",
+      "event_count": 1229,
+      "status": "eligible_pending_parent_review",
+      "unsupported_ioi_count": 0,
+      "relative_path": "originals/groove/drummer10/session1/9_jazz-swing_110_beat_4-4.mid"
+    },
+    {
+      "id": "drummer7/session3/23",
+      "drummer": "drummer7",
+      "session": "drummer7/session3",
+      "proposed_split": "validation",
+      "original_split": "train",
+      "sha256": "01c418db0852e392fa7c91f41feeca7a80494218df6c0da214545898655f8c3e",
+      "event_count": 144,
+      "status": "eligible_pending_parent_review",
+      "unsupported_ioi_count": 0,
+      "relative_path": "originals/groove/drummer7/session3/23_pop-soft_83_beat_4-4.mid"
+    },
+    {
+      "id": "drummer7/session3/26",
+      "drummer": "drummer7",
+      "session": "drummer7/session3",
+      "proposed_split": "validation",
+      "original_split": "train",
+      "sha256": "02a3d706dd1fa0289cb25486b2a50aa89aa13829edbcae377fc4e18feeedd11b",
+      "event_count": 16,
+      "status": "eligible_pending_parent_review",
+      "unsupported_ioi_count": 0,
+      "relative_path": "originals/groove/drummer7/session3/26_hiphop_67_fill_4-4.mid"
+    },
+    {
+      "id": "drummer8/session2/40",
+      "drummer": "drummer8",
+      "session": "drummer8/session2",
+      "proposed_split": "validation",
+      "original_split": "test",
+      "sha256": "0474c862ae618571738e69566c8ac22d5f945d67e41c01ff46cb3a4099514168",
+      "event_count": 1061,
+      "status": "eligible_pending_parent_review",
+      "unsupported_ioi_count": 0,
+      "relative_path": "originals/groove/drummer8/session2/40_rock-indie_104_beat_4-4.mid"
+    },
+    {
+      "id": "drummer8/session2/13",
+      "drummer": "drummer8",
+      "session": "drummer8/session2",
+      "proposed_split": "validation",
+      "original_split": "train",
+      "sha256": "05a1f07916656a9d527989cc737a9c2523a1a1b0df9784c195924442db6aa18a",
+      "event_count": 1537,
+      "status": "eligible_pending_parent_review",
+      "unsupported_ioi_count": 0,
+      "relative_path": "originals/groove/drummer8/session2/13_afrobeat_103_beat_4-4.mid"
+    },
+    {
+      "id": "drummer9/session1/20",
+      "drummer": "drummer9",
+      "session": "drummer9/session1",
+      "proposed_split": "test",
+      "original_split": "train",
+      "sha256": "01f6ff2ae664d13ac0c319ed09c687185eb1f4834b770b1bc042683b9dca487d",
+      "event_count": 1154,
+      "status": "eligible_pending_parent_review",
+      "unsupported_ioi_count": 0,
+      "relative_path": "originals/groove/drummer9/session1/20_rock_120_beat_4-4.mid"
+    },
+    {
+      "id": "drummer9/session1/16",
+      "drummer": "drummer9",
+      "session": "drummer9/session1",
+      "proposed_split": "test",
+      "original_split": "train",
+      "sha256": "15ea59f2475197b5299df592efbf095d8bc4bcaf4f4f52345a6eeea901b6f56a",
+      "event_count": 54,
+      "status": "eligible_pending_parent_review",
+      "unsupported_ioi_count": 0,
+      "relative_path": "originals/groove/drummer9/session1/16_rock_120_beat_4-4.mid"
+    },
+    {
+      "id": "drummer7/session2/44",
+      "sha256": "03c9b0f40bfce8ef03fab7fcccb79f5b537e702378a04ed4d6b14b2e3dd006c9",
+      "relative_path": "originals/groove/drummer7/session2/44_rock_112_fill_4-4.mid",
+      "drummer": "drummer7",
+      "session": "drummer7/session2",
+      "proposed_split": "validation",
+      "event_count": 12
+    },
+    {
+      "id": "drummer7/session3/63",
+      "sha256": "0473c95a7be8af5c050e2825f5a33c2f356f8a22e4af9f99ff8cb0ccd0089d5a",
+      "relative_path": "originals/groove/drummer7/session3/63_funk_112_fill_4-4.mid",
+      "drummer": "drummer7",
+      "session": "drummer7/session3",
+      "proposed_split": "validation",
+      "event_count": 36
+    },
+    {
+      "id": "drummer8/session1/5",
+      "sha256": "08af18ea6594789bdb86b5a70fe2e24bd020ad1d24bfe5072e108a5a0a0db91f",
+      "relative_path": "originals/groove/drummer8/session1/5_hiphop_90_beat_4-4.mid",
+      "drummer": "drummer8",
+      "session": "drummer8/session1",
+      "proposed_split": "validation",
+      "event_count": 1016
+    },
+    {
+      "id": "drummer8/session1/19",
+      "sha256": "15d8f4d9a9165698581ee1e09c055c5c4a40824a1216505520fbcbfb64151f5a",
+      "relative_path": "originals/groove/drummer8/session1/19_funk_108_beat_4-4.mid",
+      "drummer": "drummer8",
+      "session": "drummer8/session1",
+      "proposed_split": "validation",
+      "event_count": 2116
+    },
+    {
+      "id": "drummer9/session1/6",
+      "sha256": "16e34c539cca6318bfc9b89a86d43d54a7282be1adeb266ac6018ac8f1a51c0b",
+      "relative_path": "originals/groove/drummer9/session1/6_rock_100_beat_4-4.mid",
+      "drummer": "drummer9",
+      "session": "drummer9/session1",
+      "proposed_split": "test",
+      "event_count": 38
+    },
+    {
+      "id": "drummer9/session1/2",
+      "sha256": "1eff9e74d80bc8eaa3c3ae69101dc41100fd72dd8f8c055bcd7cdc5a0c12fd3b",
+      "relative_path": "originals/groove/drummer9/session1/2_rock_100_beat_4-4.mid",
+      "drummer": "drummer9",
+      "session": "drummer9/session1",
+      "proposed_split": "test",
+      "event_count": 316
+    },
+    {
+      "id": "drummer10/session1/1",
+      "sha256": "2d300ae2ea6f26a2858fe7efcf40bd0eb997ada9d5c1b517a0575f29f2eb55eb",
+      "relative_path": "originals/groove/drummer10/session1/1_jazz-swing_124_beat_4-4.mid",
+      "drummer": "drummer10",
+      "session": "drummer10/session1",
+      "proposed_split": "test",
+      "event_count": 1115
+    },
+    {
+      "id": "drummer10/session1/7",
+      "sha256": "54ac859918e3fa41edf0420c8d9ab5d73022d828fab1ec4bf8727a6166977aff",
+      "relative_path": "originals/groove/drummer10/session1/7_jazz-swing_215_beat_4-4.mid",
+      "drummer": "drummer10",
+      "session": "drummer10/session1",
+      "proposed_split": "test",
+      "event_count": 130
+    }
+  ],
+  "duplicate_aliases_excluded": [
+    {
+      "id": "drummer2/session2/8",
+      "sha256": "4000bbae1dbb14da5458b103a84d4b4a77757af5281564df5bf939780c193020",
+      "relative_path": "originals/groove/drummer2/session2/8_rock_130_beat_4-4.mid",
+      "drummer": "drummer2",
+      "session": "drummer2/session2",
+      "event_count": 363,
+      "proposed_split": "train",
+      "original_split": "train",
+      "provided_style": "rock",
+      "previously_train_used": false,
+      "role": "duplicate-alias-excluded-from-fit",
+      "retained_id": "drummer2/session2/7"
+    }
+  ],
+  "conditions": {
+    "weighting": [
+      "raw",
+      "equal_drummer"
+    ],
+    "model": [
+      "unigram",
+      "quotient_residual"
+    ]
+  },
+  "weights": {
+    "raw": [
+      {
+        "id": "drummer1/session1/236",
+        "drummer": "drummer1",
+        "weight": {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      },
+      {
+        "id": "drummer1/session1/225",
+        "drummer": "drummer1",
+        "weight": {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      },
+      {
+        "id": "drummer1/session1/3",
+        "drummer": "drummer1",
+        "weight": {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      },
+      {
+        "id": "drummer1/session1/96",
+        "drummer": "drummer1",
+        "weight": {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      },
+      {
+        "id": "drummer1/session3/11",
+        "drummer": "drummer1",
+        "weight": {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      },
+      {
+        "id": "drummer1/session1/108",
+        "drummer": "drummer1",
+        "weight": {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      },
+      {
+        "id": "drummer1/session2/86",
+        "drummer": "drummer1",
+        "weight": {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      },
+      {
+        "id": "drummer1/session1/137",
+        "drummer": "drummer1",
+        "weight": {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      },
+      {
+        "id": "drummer1/session2/133",
+        "drummer": "drummer1",
+        "weight": {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      },
+      {
+        "id": "drummer1/session2/59",
+        "drummer": "drummer1",
+        "weight": {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      },
+      {
+        "id": "drummer2/session2/15",
+        "drummer": "drummer2",
+        "weight": {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      },
+      {
+        "id": "drummer2/session2/13",
+        "drummer": "drummer2",
+        "weight": {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      },
+      {
+        "id": "drummer2/session3/1",
+        "drummer": "drummer2",
+        "weight": {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      },
+      {
+        "id": "drummer2/session2/11",
+        "drummer": "drummer2",
+        "weight": {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      },
+      {
+        "id": "drummer2/session2/7",
+        "drummer": "drummer2",
+        "weight": {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      },
+      {
+        "id": "drummer2/session2/10",
+        "drummer": "drummer2",
+        "weight": {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      },
+      {
+        "id": "drummer2/session2/1",
+        "drummer": "drummer2",
+        "weight": {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      },
+      {
+        "id": "drummer2/session2/14",
+        "drummer": "drummer2",
+        "weight": {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      },
+      {
+        "id": "drummer2/session2/5",
+        "drummer": "drummer2",
+        "weight": {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      },
+      {
+        "id": "drummer3/session2/36",
+        "drummer": "drummer3",
+        "weight": {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      },
+      {
+        "id": "drummer3/session2/13",
+        "drummer": "drummer3",
+        "weight": {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      },
+      {
+        "id": "drummer3/session2/46",
+        "drummer": "drummer3",
+        "weight": {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      },
+      {
+        "id": "drummer3/session1/30",
+        "drummer": "drummer3",
+        "weight": {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      },
+      {
+        "id": "drummer3/session2/10",
+        "drummer": "drummer3",
+        "weight": {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      },
+      {
+        "id": "drummer3/session2/2",
+        "drummer": "drummer3",
+        "weight": {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      },
+      {
+        "id": "drummer3/session1/39",
+        "drummer": "drummer3",
+        "weight": {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      },
+      {
+        "id": "drummer3/session1/10",
+        "drummer": "drummer3",
+        "weight": {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      },
+      {
+        "id": "drummer3/session1/9",
+        "drummer": "drummer3",
+        "weight": {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      },
+      {
+        "id": "drummer3/session1/49",
+        "drummer": "drummer3",
+        "weight": {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      },
+      {
+        "id": "drummer4/session1/8",
+        "drummer": "drummer4",
+        "weight": {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      },
+      {
+        "id": "drummer4/session1/4",
+        "drummer": "drummer4",
+        "weight": {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      },
+      {
+        "id": "drummer4/session1/7",
+        "drummer": "drummer4",
+        "weight": {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      },
+      {
+        "id": "drummer4/session1/3",
+        "drummer": "drummer4",
+        "weight": {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      },
+      {
+        "id": "drummer4/session1/6",
+        "drummer": "drummer4",
+        "weight": {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      },
+      {
+        "id": "drummer4/session1/5",
+        "drummer": "drummer4",
+        "weight": {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      },
+      {
+        "id": "drummer4/session1/2",
+        "drummer": "drummer4",
+        "weight": {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      },
+      {
+        "id": "drummer4/session1/9",
+        "drummer": "drummer4",
+        "weight": {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      },
+      {
+        "id": "drummer4/session1/1",
+        "drummer": "drummer4",
+        "weight": {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      },
+      {
+        "id": "drummer5/session2/5",
+        "drummer": "drummer5",
+        "weight": {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      },
+      {
+        "id": "drummer5/session2/12",
+        "drummer": "drummer5",
+        "weight": {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      },
+      {
+        "id": "drummer5/session2/21",
+        "drummer": "drummer5",
+        "weight": {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      },
+      {
+        "id": "drummer5/session2/2",
+        "drummer": "drummer5",
+        "weight": {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      },
+      {
+        "id": "drummer5/session1/4",
+        "drummer": "drummer5",
+        "weight": {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      },
+      {
+        "id": "drummer5/session2/13",
+        "drummer": "drummer5",
+        "weight": {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      },
+      {
+        "id": "drummer5/session2/17",
+        "drummer": "drummer5",
+        "weight": {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      },
+      {
+        "id": "drummer5/session1/10",
+        "drummer": "drummer5",
+        "weight": {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      },
+      {
+        "id": "drummer5/session2/3",
+        "drummer": "drummer5",
+        "weight": {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      },
+      {
+        "id": "drummer5/session2/6",
+        "drummer": "drummer5",
+        "weight": {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      },
+      {
+        "id": "drummer6/session1/2",
+        "drummer": "drummer6",
+        "weight": {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      },
+      {
+        "id": "drummer6/session3/7",
+        "drummer": "drummer6",
+        "weight": {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      },
+      {
+        "id": "drummer6/session3/1",
+        "drummer": "drummer6",
+        "weight": {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      },
+      {
+        "id": "drummer6/session2/1",
+        "drummer": "drummer6",
+        "weight": {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      },
+      {
+        "id": "drummer6/session1/5",
+        "drummer": "drummer6",
+        "weight": {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      },
+      {
+        "id": "drummer6/session1/1",
+        "drummer": "drummer6",
+        "weight": {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      },
+      {
+        "id": "drummer6/session3/2",
+        "drummer": "drummer6",
+        "weight": {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      },
+      {
+        "id": "drummer6/session3/6",
+        "drummer": "drummer6",
+        "weight": {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      },
+      {
+        "id": "drummer6/session1/4",
+        "drummer": "drummer6",
+        "weight": {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      },
+      {
+        "id": "drummer6/session1/3",
+        "drummer": "drummer6",
+        "weight": {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": 1.0
+        }
+      }
+    ],
+    "equal_drummer": [
+      {
+        "id": "drummer1/session1/236",
+        "drummer": "drummer1",
+        "weight": {
+          "numerator": 32141,
+          "denominator": 22158,
+          "decimal": 1.4505370520805128
+        }
+      },
+      {
+        "id": "drummer1/session1/225",
+        "drummer": "drummer1",
+        "weight": {
+          "numerator": 32141,
+          "denominator": 22158,
+          "decimal": 1.4505370520805128
+        }
+      },
+      {
+        "id": "drummer1/session1/3",
+        "drummer": "drummer1",
+        "weight": {
+          "numerator": 32141,
+          "denominator": 22158,
+          "decimal": 1.4505370520805128
+        }
+      },
+      {
+        "id": "drummer1/session1/96",
+        "drummer": "drummer1",
+        "weight": {
+          "numerator": 32141,
+          "denominator": 22158,
+          "decimal": 1.4505370520805128
+        }
+      },
+      {
+        "id": "drummer1/session3/11",
+        "drummer": "drummer1",
+        "weight": {
+          "numerator": 32141,
+          "denominator": 22158,
+          "decimal": 1.4505370520805128
+        }
+      },
+      {
+        "id": "drummer1/session1/108",
+        "drummer": "drummer1",
+        "weight": {
+          "numerator": 32141,
+          "denominator": 22158,
+          "decimal": 1.4505370520805128
+        }
+      },
+      {
+        "id": "drummer1/session2/86",
+        "drummer": "drummer1",
+        "weight": {
+          "numerator": 32141,
+          "denominator": 22158,
+          "decimal": 1.4505370520805128
+        }
+      },
+      {
+        "id": "drummer1/session1/137",
+        "drummer": "drummer1",
+        "weight": {
+          "numerator": 32141,
+          "denominator": 22158,
+          "decimal": 1.4505370520805128
+        }
+      },
+      {
+        "id": "drummer1/session2/133",
+        "drummer": "drummer1",
+        "weight": {
+          "numerator": 32141,
+          "denominator": 22158,
+          "decimal": 1.4505370520805128
+        }
+      },
+      {
+        "id": "drummer1/session2/59",
+        "drummer": "drummer1",
+        "weight": {
+          "numerator": 32141,
+          "denominator": 22158,
+          "decimal": 1.4505370520805128
+        }
+      },
+      {
+        "id": "drummer2/session2/15",
+        "drummer": "drummer2",
+        "weight": {
+          "numerator": 32141,
+          "denominator": 26790,
+          "decimal": 1.1997387084733109
+        }
+      },
+      {
+        "id": "drummer2/session2/13",
+        "drummer": "drummer2",
+        "weight": {
+          "numerator": 32141,
+          "denominator": 26790,
+          "decimal": 1.1997387084733109
+        }
+      },
+      {
+        "id": "drummer2/session3/1",
+        "drummer": "drummer2",
+        "weight": {
+          "numerator": 32141,
+          "denominator": 26790,
+          "decimal": 1.1997387084733109
+        }
+      },
+      {
+        "id": "drummer2/session2/11",
+        "drummer": "drummer2",
+        "weight": {
+          "numerator": 32141,
+          "denominator": 26790,
+          "decimal": 1.1997387084733109
+        }
+      },
+      {
+        "id": "drummer2/session2/7",
+        "drummer": "drummer2",
+        "weight": {
+          "numerator": 32141,
+          "denominator": 26790,
+          "decimal": 1.1997387084733109
+        }
+      },
+      {
+        "id": "drummer2/session2/10",
+        "drummer": "drummer2",
+        "weight": {
+          "numerator": 32141,
+          "denominator": 26790,
+          "decimal": 1.1997387084733109
+        }
+      },
+      {
+        "id": "drummer2/session2/1",
+        "drummer": "drummer2",
+        "weight": {
+          "numerator": 32141,
+          "denominator": 26790,
+          "decimal": 1.1997387084733109
+        }
+      },
+      {
+        "id": "drummer2/session2/14",
+        "drummer": "drummer2",
+        "weight": {
+          "numerator": 32141,
+          "denominator": 26790,
+          "decimal": 1.1997387084733109
+        }
+      },
+      {
+        "id": "drummer2/session2/5",
+        "drummer": "drummer2",
+        "weight": {
+          "numerator": 32141,
+          "denominator": 26790,
+          "decimal": 1.1997387084733109
+        }
+      },
+      {
+        "id": "drummer3/session2/36",
+        "drummer": "drummer3",
+        "weight": {
+          "numerator": 32141,
+          "denominator": 6972,
+          "decimal": 4.610011474469306
+        }
+      },
+      {
+        "id": "drummer3/session2/13",
+        "drummer": "drummer3",
+        "weight": {
+          "numerator": 32141,
+          "denominator": 6972,
+          "decimal": 4.610011474469306
+        }
+      },
+      {
+        "id": "drummer3/session2/46",
+        "drummer": "drummer3",
+        "weight": {
+          "numerator": 32141,
+          "denominator": 6972,
+          "decimal": 4.610011474469306
+        }
+      },
+      {
+        "id": "drummer3/session1/30",
+        "drummer": "drummer3",
+        "weight": {
+          "numerator": 32141,
+          "denominator": 6972,
+          "decimal": 4.610011474469306
+        }
+      },
+      {
+        "id": "drummer3/session2/10",
+        "drummer": "drummer3",
+        "weight": {
+          "numerator": 32141,
+          "denominator": 6972,
+          "decimal": 4.610011474469306
+        }
+      },
+      {
+        "id": "drummer3/session2/2",
+        "drummer": "drummer3",
+        "weight": {
+          "numerator": 32141,
+          "denominator": 6972,
+          "decimal": 4.610011474469306
+        }
+      },
+      {
+        "id": "drummer3/session1/39",
+        "drummer": "drummer3",
+        "weight": {
+          "numerator": 32141,
+          "denominator": 6972,
+          "decimal": 4.610011474469306
+        }
+      },
+      {
+        "id": "drummer3/session1/10",
+        "drummer": "drummer3",
+        "weight": {
+          "numerator": 32141,
+          "denominator": 6972,
+          "decimal": 4.610011474469306
+        }
+      },
+      {
+        "id": "drummer3/session1/9",
+        "drummer": "drummer3",
+        "weight": {
+          "numerator": 32141,
+          "denominator": 6972,
+          "decimal": 4.610011474469306
+        }
+      },
+      {
+        "id": "drummer3/session1/49",
+        "drummer": "drummer3",
+        "weight": {
+          "numerator": 32141,
+          "denominator": 6972,
+          "decimal": 4.610011474469306
+        }
+      },
+      {
+        "id": "drummer4/session1/8",
+        "drummer": "drummer4",
+        "weight": {
+          "numerator": 32141,
+          "denominator": 13362,
+          "decimal": 2.405403382727137
+        }
+      },
+      {
+        "id": "drummer4/session1/4",
+        "drummer": "drummer4",
+        "weight": {
+          "numerator": 32141,
+          "denominator": 13362,
+          "decimal": 2.405403382727137
+        }
+      },
+      {
+        "id": "drummer4/session1/7",
+        "drummer": "drummer4",
+        "weight": {
+          "numerator": 32141,
+          "denominator": 13362,
+          "decimal": 2.405403382727137
+        }
+      },
+      {
+        "id": "drummer4/session1/3",
+        "drummer": "drummer4",
+        "weight": {
+          "numerator": 32141,
+          "denominator": 13362,
+          "decimal": 2.405403382727137
+        }
+      },
+      {
+        "id": "drummer4/session1/6",
+        "drummer": "drummer4",
+        "weight": {
+          "numerator": 32141,
+          "denominator": 13362,
+          "decimal": 2.405403382727137
+        }
+      },
+      {
+        "id": "drummer4/session1/5",
+        "drummer": "drummer4",
+        "weight": {
+          "numerator": 32141,
+          "denominator": 13362,
+          "decimal": 2.405403382727137
+        }
+      },
+      {
+        "id": "drummer4/session1/2",
+        "drummer": "drummer4",
+        "weight": {
+          "numerator": 32141,
+          "denominator": 13362,
+          "decimal": 2.405403382727137
+        }
+      },
+      {
+        "id": "drummer4/session1/9",
+        "drummer": "drummer4",
+        "weight": {
+          "numerator": 32141,
+          "denominator": 13362,
+          "decimal": 2.405403382727137
+        }
+      },
+      {
+        "id": "drummer4/session1/1",
+        "drummer": "drummer4",
+        "weight": {
+          "numerator": 32141,
+          "denominator": 13362,
+          "decimal": 2.405403382727137
+        }
+      },
+      {
+        "id": "drummer5/session2/5",
+        "drummer": "drummer5",
+        "weight": {
+          "numerator": 32141,
+          "denominator": 86406,
+          "decimal": 0.3719764831145985
+        }
+      },
+      {
+        "id": "drummer5/session2/12",
+        "drummer": "drummer5",
+        "weight": {
+          "numerator": 32141,
+          "denominator": 86406,
+          "decimal": 0.3719764831145985
+        }
+      },
+      {
+        "id": "drummer5/session2/21",
+        "drummer": "drummer5",
+        "weight": {
+          "numerator": 32141,
+          "denominator": 86406,
+          "decimal": 0.3719764831145985
+        }
+      },
+      {
+        "id": "drummer5/session2/2",
+        "drummer": "drummer5",
+        "weight": {
+          "numerator": 32141,
+          "denominator": 86406,
+          "decimal": 0.3719764831145985
+        }
+      },
+      {
+        "id": "drummer5/session1/4",
+        "drummer": "drummer5",
+        "weight": {
+          "numerator": 32141,
+          "denominator": 86406,
+          "decimal": 0.3719764831145985
+        }
+      },
+      {
+        "id": "drummer5/session2/13",
+        "drummer": "drummer5",
+        "weight": {
+          "numerator": 32141,
+          "denominator": 86406,
+          "decimal": 0.3719764831145985
+        }
+      },
+      {
+        "id": "drummer5/session2/17",
+        "drummer": "drummer5",
+        "weight": {
+          "numerator": 32141,
+          "denominator": 86406,
+          "decimal": 0.3719764831145985
+        }
+      },
+      {
+        "id": "drummer5/session1/10",
+        "drummer": "drummer5",
+        "weight": {
+          "numerator": 32141,
+          "denominator": 86406,
+          "decimal": 0.3719764831145985
+        }
+      },
+      {
+        "id": "drummer5/session2/3",
+        "drummer": "drummer5",
+        "weight": {
+          "numerator": 32141,
+          "denominator": 86406,
+          "decimal": 0.3719764831145985
+        }
+      },
+      {
+        "id": "drummer5/session2/6",
+        "drummer": "drummer5",
+        "weight": {
+          "numerator": 32141,
+          "denominator": 86406,
+          "decimal": 0.3719764831145985
+        }
+      },
+      {
+        "id": "drummer6/session1/2",
+        "drummer": "drummer6",
+        "weight": {
+          "numerator": 32141,
+          "denominator": 37158,
+          "decimal": 0.8649819688896065
+        }
+      },
+      {
+        "id": "drummer6/session3/7",
+        "drummer": "drummer6",
+        "weight": {
+          "numerator": 32141,
+          "denominator": 37158,
+          "decimal": 0.8649819688896065
+        }
+      },
+      {
+        "id": "drummer6/session3/1",
+        "drummer": "drummer6",
+        "weight": {
+          "numerator": 32141,
+          "denominator": 37158,
+          "decimal": 0.8649819688896065
+        }
+      },
+      {
+        "id": "drummer6/session2/1",
+        "drummer": "drummer6",
+        "weight": {
+          "numerator": 32141,
+          "denominator": 37158,
+          "decimal": 0.8649819688896065
+        }
+      },
+      {
+        "id": "drummer6/session1/5",
+        "drummer": "drummer6",
+        "weight": {
+          "numerator": 32141,
+          "denominator": 37158,
+          "decimal": 0.8649819688896065
+        }
+      },
+      {
+        "id": "drummer6/session1/1",
+        "drummer": "drummer6",
+        "weight": {
+          "numerator": 32141,
+          "denominator": 37158,
+          "decimal": 0.8649819688896065
+        }
+      },
+      {
+        "id": "drummer6/session3/2",
+        "drummer": "drummer6",
+        "weight": {
+          "numerator": 32141,
+          "denominator": 37158,
+          "decimal": 0.8649819688896065
+        }
+      },
+      {
+        "id": "drummer6/session3/6",
+        "drummer": "drummer6",
+        "weight": {
+          "numerator": 32141,
+          "denominator": 37158,
+          "decimal": 0.8649819688896065
+        }
+      },
+      {
+        "id": "drummer6/session1/4",
+        "drummer": "drummer6",
+        "weight": {
+          "numerator": 32141,
+          "denominator": 37158,
+          "decimal": 0.8649819688896065
+        }
+      },
+      {
+        "id": "drummer6/session1/3",
+        "drummer": "drummer6",
+        "weight": {
+          "numerator": 32141,
+          "denominator": 37158,
+          "decimal": 0.8649819688896065
+        }
+      }
+    ]
+  },
+  "weight_diagnostics": {
+    "raw": {
+      "weighted_event_mass": {
+        "numerator": 32141,
+        "denominator": 1,
+        "decimal": 32141.0
+      },
+      "sum_event_weights_squared": {
+        "numerator": 32141,
+        "denominator": 1,
+        "decimal": 32141.0
+      },
+      "Kish_event_ESS": {
+        "numerator": 32141,
+        "denominator": 1,
+        "decimal": 32141.0
+      },
+      "min_event_weight": {
+        "numerator": 1,
+        "denominator": 1,
+        "decimal": 1.0
+      },
+      "max_event_weight": {
+        "numerator": 1,
+        "denominator": 1,
+        "decimal": 1.0
+      },
+      "drummer_mass": {
+        "drummer1": {
+          "numerator": 3693,
+          "denominator": 1,
+          "decimal": 3693.0
+        },
+        "drummer2": {
+          "numerator": 4465,
+          "denominator": 1,
+          "decimal": 4465.0
+        },
+        "drummer3": {
+          "numerator": 1162,
+          "denominator": 1,
+          "decimal": 1162.0
+        },
+        "drummer4": {
+          "numerator": 2227,
+          "denominator": 1,
+          "decimal": 2227.0
+        },
+        "drummer5": {
+          "numerator": 14401,
+          "denominator": 1,
+          "decimal": 14401.0
+        },
+        "drummer6": {
+          "numerator": 6193,
+          "denominator": 1,
+          "decimal": 6193.0
+        }
+      },
+      "interpretation": "Kish calculation treats weights algebraically; strongly dependent musical events mean this is NOT an independent observation count or a calibrated statistical sample size."
+    },
+    "equal_drummer": {
+      "weighted_event_mass": {
+        "numerator": 32141,
+        "denominator": 1,
+        "decimal": 32141.0
+      },
+      "sum_event_weights_squared": {
+        "numerator": 8001354549787568689554919921,
+        "denominator": 137000876956364029233240,
+        "decimal": 58403.67395849641
+      },
+      "Kish_event_ESS": {
+        "numerator": 137000876956364029233240,
+        "denominator": 7745415946941336841,
+        "decimal": 17687.99479522667
+      },
+      "min_event_weight": {
+        "numerator": 32141,
+        "denominator": 86406,
+        "decimal": 0.3719764831145985
+      },
+      "max_event_weight": {
+        "numerator": 32141,
+        "denominator": 6972,
+        "decimal": 4.610011474469306
+      },
+      "drummer_mass": {
+        "drummer1": {
+          "numerator": 32141,
+          "denominator": 6,
+          "decimal": 5356.833333333333
+        },
+        "drummer2": {
+          "numerator": 32141,
+          "denominator": 6,
+          "decimal": 5356.833333333333
+        },
+        "drummer3": {
+          "numerator": 32141,
+          "denominator": 6,
+          "decimal": 5356.833333333333
+        },
+        "drummer4": {
+          "numerator": 32141,
+          "denominator": 6,
+          "decimal": 5356.833333333333
+        },
+        "drummer5": {
+          "numerator": 32141,
+          "denominator": 6,
+          "decimal": 5356.833333333333
+        },
+        "drummer6": {
+          "numerator": 32141,
+          "denominator": 6,
+          "decimal": 5356.833333333333
+        }
+      },
+      "interpretation": "Kish calculation treats weights algebraically; strongly dependent musical events mean this is NOT an independent observation count or a calibrated statistical sample size."
+    }
+  },
+  "fixed_mass": 32141,
+  "formula": "Each raw event weight1; each equal-drummer event weight32141/(6*N_drummer), computed from train only. Every performance uses its drummer weight in full. Both total event masses exactly32141.",
+  "prior_control": "Global exact, quotient and residual total counts remain32141 in both weightings; each existing prior total1 unchanged. No local context/k is modeled, avoiding local-count shrinkage-strength confounding. Weighted factorized update still differs from exact-IOI update as in original Cycle34.",
+  "metrics": "All four conditions per-recording/per-drummer/pooled and macro-recording NLL on same16observed; raw32 work-condition sums must equal Cycle39. Report equal-minus-raw differences without selecting weights or winners.",
+  "bounds": {
+    "works": 60,
+    "training_events": 60000,
+    "events_per_work": 4096,
+    "cpu_seconds": 60,
+    "weight_fraction_numerator_denominator_max": 1000000000
+  },
+  "journal": "Before-fit sources/gate evidence, per-constructor condition/weighting/sourceIDs saved before construction and completion/failure afterward.",
+  "roles": "58train/16alreadyobserved/1076unscored unchanged;40evalreserve and duplicate alias remain excluded.",
+  "limitations": [
+    "Equal event mass per drummer is not equal independent works, sessions, stylistic coverage or musical quality.",
+    "Drummer3 has fewer events, so its idiosyncratic patterns receive larger weights; weighted event ESS may decrease. No claim of reduced overfitting before evaluation.",
+    "Kish event ESS is only an algebraic descriptor because notes/IOIs within performances are strongly dependent.",
+    "All16diagnostics already observed; results cannot establish new-condition generalization.",
+    "No generation, voice/beat labels, audio, model selection or new-source admission."
+  ]
+}

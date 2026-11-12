@@ -1,0 +1,33 @@
+{
+  "plan_sha256": "06803ea492e4849e7dba70af9aa648b399bc7af03dd802ea09f725b11e167c15",
+  "all_four_conditions_two_works_complete": true,
+  "initial_and_repeat_conditions_exactly_equal": true,
+  "originals_unchanged": true,
+  "evaluation_fitted": false,
+  "groups_per_arm": 132,
+  "first_groups_per_arm": 2,
+  "later_groups_per_arm": 130,
+  "independent_loss_aggregation_max_abs_error": 2.6645352591003757e-15,
+  "journals": {
+    "initial": {
+      "attempts": 8,
+      "completed": 8,
+      "failures": 0,
+      "sha256": "d7f26cc2a0519fa77e763efaa293c194d1cd625794861dd7b1c1623c74e1d480"
+    },
+    "repeat": {
+      "attempts": 8,
+      "completed": 8,
+      "failures": 0,
+      "sha256": "cccd86a5c0666f605473802b106a03e120dbf8556da1d3e59d62f7ae977115d5"
+    }
+  },
+  "cpu_initial": 0.05836501600000005,
+  "cpu_repeat": 0.047891554,
+  "limitations": [
+    "Same probability API independently reaggregated, not an independent model implementation.",
+    "One correlated source family, not two independent cohorts.",
+    "Timing-only likelihood, no pitch/template/human quality evaluation.",
+    "Sources are now observed; no later tuning may be called prospective on these sources."
+  ]
+}

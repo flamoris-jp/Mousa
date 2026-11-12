@@ -1,0 +1,56 @@
+{
+  "role": "metadata-only-evaluation-observed-not-training",
+  "raw_sources_already_preserved": "Cycle39 original snapshot; no raw reupload",
+  "files": [
+    {
+      "filename": "2026-11-12-dowland-cycle40-clearance.json",
+      "sha256": "5c3c2b0271e557ca2048e377d4a248ac2e174f392f4fd3069337e7d9ee1f8acb",
+      "bytes": 283
+    },
+    {
+      "filename": "2026-11-12-dowland-cycle40-plan.json",
+      "sha256": "06803ea492e4849e7dba70af9aa648b399bc7af03dd802ea09f725b11e167c15",
+      "bytes": 15918
+    },
+    {
+      "filename": "2026-11-12-dowland-cycle40-verification.json",
+      "sha256": "66b55540129997c965bc0fae0879e69208343a05de67c818886f910b5374f2ff",
+      "bytes": 1193
+    },
+    {
+      "filename": "initial-before-fit.json",
+      "sha256": "77fbd0877c042a3fbdeff206206c59024783bb2d89cb72a3a47d286adbc76906",
+      "bytes": 598
+    },
+    {
+      "filename": "initial-prediction-journal.jsonl",
+      "sha256": "d7f26cc2a0519fa77e763efaa293c194d1cd625794861dd7b1c1623c74e1d480",
+      "bytes": 6040
+    },
+    {
+      "filename": "initial-report.json",
+      "sha256": "fdcf46673b267037eb83a7e6d0e7b81d4bf634a3c347e2c6451533b3fdecbf4f",
+      "bytes": 4548
+    },
+    {
+      "filename": "repeat-before-fit.json",
+      "sha256": "77fbd0877c042a3fbdeff206206c59024783bb2d89cb72a3a47d286adbc76906",
+      "bytes": 598
+    },
+    {
+      "filename": "repeat-prediction-journal.jsonl",
+      "sha256": "cccd86a5c0666f605473802b106a03e120dbf8556da1d3e59d62f7ae977115d5",
+      "bytes": 6040
+    },
+    {
+      "filename": "repeat-report.json",
+      "sha256": "355b9d2897c38cccd9ed98fe7c317a426e41ab8d86cc995f2ab33b6902bba736",
+      "bytes": 4540
+    },
+    {
+      "filename": "research-dowland-observation-cycle40-20261112.json",
+      "sha256": "f4a1c58d45990ce800f936931a85236ee19364660b3185dd1533a3f398168081",
+      "bytes": 1735
+    }
+  ]
+}
