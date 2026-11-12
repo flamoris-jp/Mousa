@@ -1,0 +1,27 @@
+{
+  "cpus": [
+    0.10872625899999999,
+    0.12624023100000004
+  ],
+  "independent_evaluation_cohorts": 1,
+  "journal_without_timestamps_exact": true,
+  "paired_later_nll": {
+    "equal_family": {
+      "delta18minus17": -0.005384869050435448,
+      "later17": 3.0302764995436764,
+      "later18": 3.024891630493241
+    },
+    "equal_work": {
+      "delta18minus17": 0.02638167982475359,
+      "later17": 3.0732293597023927,
+      "later18": 3.0996110395271463
+    },
+    "raw": {
+      "delta18minus17": 0.09647055026046658,
+      "later17": 2.9910610208369404,
+      "later18": 3.087531571097407
+    }
+  },
+  "replay_not_fresh": true,
+  "results_exact": true
+}

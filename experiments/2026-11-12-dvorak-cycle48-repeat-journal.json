@@ -1,0 +1,376 @@
+{
+  "events": [
+    {
+      "derived_comparisons": 1,
+      "event": "supplemental_comparison_attempt",
+      "original_comparisons": 27,
+      "plan_sha256": "4435659dc54822dca3259797994a6a1712440413443bf2ab253b95d7606af833",
+      "utc": "2026-11-12T18:58:16.371745+00:00"
+    },
+    {
+      "event": "supplemental_comparison_complete",
+      "exact8": 0,
+      "global_similarity": 0.18888888888888888,
+      "utc": "2026-11-12T18:58:16.379562+00:00"
+    },
+    {
+      "condition": "17_raw",
+      "event": "fit_attempt",
+      "train_ids": [
+        "mutopia-376",
+        "mutopia-888",
+        "mutopia-889",
+        "mutopia-789",
+        "mutopia-583",
+        "mutopia-1578",
+        "mutopia-1558",
+        "mutopia-370",
+        "mutopia-98-legacy",
+        "mutopia-263-legacy",
+        "mutopia-904",
+        "mutopia-2080",
+        "mutopia-2060",
+        "mutopia-2061",
+        "mutopia-186",
+        "mutopia-487",
+        "mutopia-2243"
+      ],
+      "utc": "2026-11-12T18:58:16.380319+00:00"
+    },
+    {
+      "condition": "17_raw",
+      "event": "fit_complete",
+      "exact_counter_masses": [
+        {
+          "denominator": 1,
+          "numerator": 17
+        },
+        {
+          "denominator": 1,
+          "numerator": 3411
+        },
+        {
+          "denominator": 1,
+          "numerator": 3428
+        },
+        {
+          "denominator": 1,
+          "numerator": 3428
+        }
+      ],
+      "utc": "2026-11-12T18:58:16.392205+00:00"
+    },
+    {
+      "cohort": "dvorak-op75-b150-simrock-janda",
+      "condition": "17_raw",
+      "event": "prediction_attempt",
+      "irreversibly_observed": true,
+      "utc": "2026-11-12T18:58:16.393055+00:00"
+    },
+    {
+      "condition": "17_raw",
+      "event": "prediction_complete",
+      "utc": "2026-11-12T18:58:16.394309+00:00"
+    },
+    {
+      "condition": "18_raw",
+      "event": "fit_attempt",
+      "train_ids": [
+        "mutopia-376",
+        "mutopia-888",
+        "mutopia-889",
+        "mutopia-789",
+        "mutopia-583",
+        "mutopia-1578",
+        "mutopia-1558",
+        "mutopia-370",
+        "mutopia-98-legacy",
+        "mutopia-263-legacy",
+        "mutopia-904",
+        "mutopia-2080",
+        "mutopia-2060",
+        "mutopia-2061",
+        "mutopia-186",
+        "mutopia-487",
+        "mutopia-2243",
+        "mutopia-23"
+      ],
+      "utc": "2026-11-12T18:58:16.394982+00:00"
+    },
+    {
+      "condition": "18_raw",
+      "event": "fit_complete",
+      "exact_counter_masses": [
+        {
+          "denominator": 1,
+          "numerator": 17
+        },
+        {
+          "denominator": 1,
+          "numerator": 3411
+        },
+        {
+          "denominator": 1,
+          "numerator": 3428
+        },
+        {
+          "denominator": 1,
+          "numerator": 3428
+        }
+      ],
+      "utc": "2026-11-12T18:58:16.415904+00:00"
+    },
+    {
+      "cohort": "dvorak-op75-b150-simrock-janda",
+      "condition": "18_raw",
+      "event": "prediction_attempt",
+      "irreversibly_observed": true,
+      "utc": "2026-11-12T18:58:16.417396+00:00"
+    },
+    {
+      "condition": "18_raw",
+      "event": "prediction_complete",
+      "utc": "2026-11-12T18:58:16.419402+00:00"
+    },
+    {
+      "condition": "17_equal_work",
+      "event": "fit_attempt",
+      "train_ids": [
+        "mutopia-376",
+        "mutopia-888",
+        "mutopia-889",
+        "mutopia-789",
+        "mutopia-583",
+        "mutopia-1578",
+        "mutopia-1558",
+        "mutopia-370",
+        "mutopia-98-legacy",
+        "mutopia-263-legacy",
+        "mutopia-904",
+        "mutopia-2080",
+        "mutopia-2060",
+        "mutopia-2061",
+        "mutopia-186",
+        "mutopia-487",
+        "mutopia-2243"
+      ],
+      "utc": "2026-11-12T18:58:16.421187+00:00"
+    },
+    {
+      "condition": "17_equal_work",
+      "event": "fit_complete",
+      "exact_counter_masses": [
+        {
+          "denominator": 1,
+          "numerator": 17
+        },
+        {
+          "denominator": 1,
+          "numerator": 3411
+        },
+        {
+          "denominator": 1,
+          "numerator": 3428
+        },
+        {
+          "denominator": 1,
+          "numerator": 3428
+        }
+      ],
+      "utc": "2026-11-12T18:58:16.441991+00:00"
+    },
+    {
+      "cohort": "dvorak-op75-b150-simrock-janda",
+      "condition": "17_equal_work",
+      "event": "prediction_attempt",
+      "irreversibly_observed": true,
+      "utc": "2026-11-12T18:58:16.442864+00:00"
+    },
+    {
+      "condition": "17_equal_work",
+      "event": "prediction_complete",
+      "utc": "2026-11-12T18:58:16.444341+00:00"
+    },
+    {
+      "condition": "18_equal_work",
+      "event": "fit_attempt",
+      "train_ids": [
+        "mutopia-376",
+        "mutopia-888",
+        "mutopia-889",
+        "mutopia-789",
+        "mutopia-583",
+        "mutopia-1578",
+        "mutopia-1558",
+        "mutopia-370",
+        "mutopia-98-legacy",
+        "mutopia-263-legacy",
+        "mutopia-904",
+        "mutopia-2080",
+        "mutopia-2060",
+        "mutopia-2061",
+        "mutopia-186",
+        "mutopia-487",
+        "mutopia-2243",
+        "mutopia-23"
+      ],
+      "utc": "2026-11-12T18:58:16.444796+00:00"
+    },
+    {
+      "condition": "18_equal_work",
+      "event": "fit_complete",
+      "exact_counter_masses": [
+        {
+          "denominator": 1,
+          "numerator": 17
+        },
+        {
+          "denominator": 1,
+          "numerator": 3411
+        },
+        {
+          "denominator": 1,
+          "numerator": 3428
+        },
+        {
+          "denominator": 1,
+          "numerator": 3428
+        }
+      ],
+      "utc": "2026-11-12T18:58:16.465211+00:00"
+    },
+    {
+      "cohort": "dvorak-op75-b150-simrock-janda",
+      "condition": "18_equal_work",
+      "event": "prediction_attempt",
+      "irreversibly_observed": true,
+      "utc": "2026-11-12T18:58:16.466321+00:00"
+    },
+    {
+      "condition": "18_equal_work",
+      "event": "prediction_complete",
+      "utc": "2026-11-12T18:58:16.469081+00:00"
+    },
+    {
+      "condition": "17_equal_family",
+      "event": "fit_attempt",
+      "train_ids": [
+        "mutopia-376",
+        "mutopia-888",
+        "mutopia-889",
+        "mutopia-789",
+        "mutopia-583",
+        "mutopia-1578",
+        "mutopia-1558",
+        "mutopia-370",
+        "mutopia-98-legacy",
+        "mutopia-263-legacy",
+        "mutopia-904",
+        "mutopia-2080",
+        "mutopia-2060",
+        "mutopia-2061",
+        "mutopia-186",
+        "mutopia-487",
+        "mutopia-2243"
+      ],
+      "utc": "2026-11-12T18:58:16.470036+00:00"
+    },
+    {
+      "condition": "17_equal_family",
+      "event": "fit_complete",
+      "exact_counter_masses": [
+        {
+          "denominator": 1,
+          "numerator": 17
+        },
+        {
+          "denominator": 1,
+          "numerator": 3411
+        },
+        {
+          "denominator": 1,
+          "numerator": 3428
+        },
+        {
+          "denominator": 1,
+          "numerator": 3428
+        }
+      ],
+      "utc": "2026-11-12T18:58:16.490141+00:00"
+    },
+    {
+      "cohort": "dvorak-op75-b150-simrock-janda",
+      "condition": "17_equal_family",
+      "event": "prediction_attempt",
+      "irreversibly_observed": true,
+      "utc": "2026-11-12T18:58:16.491649+00:00"
+    },
+    {
+      "condition": "17_equal_family",
+      "event": "prediction_complete",
+      "utc": "2026-11-12T18:58:16.493480+00:00"
+    },
+    {
+      "condition": "18_equal_family",
+      "event": "fit_attempt",
+      "train_ids": [
+        "mutopia-376",
+        "mutopia-888",
+        "mutopia-889",
+        "mutopia-789",
+        "mutopia-583",
+        "mutopia-1578",
+        "mutopia-1558",
+        "mutopia-370",
+        "mutopia-98-legacy",
+        "mutopia-263-legacy",
+        "mutopia-904",
+        "mutopia-2080",
+        "mutopia-2060",
+        "mutopia-2061",
+        "mutopia-186",
+        "mutopia-487",
+        "mutopia-2243",
+        "mutopia-23"
+      ],
+      "utc": "2026-11-12T18:58:16.493957+00:00"
+    },
+    {
+      "condition": "18_equal_family",
+      "event": "fit_complete",
+      "exact_counter_masses": [
+        {
+          "denominator": 1,
+          "numerator": 17
+        },
+        {
+          "denominator": 1,
+          "numerator": 3411
+        },
+        {
+          "denominator": 1,
+          "numerator": 3428
+        },
+        {
+          "denominator": 1,
+          "numerator": 3428
+        }
+      ],
+      "utc": "2026-11-12T18:58:16.513783+00:00"
+    },
+    {
+      "cohort": "dvorak-op75-b150-simrock-janda",
+      "condition": "18_equal_family",
+      "event": "prediction_attempt",
+      "irreversibly_observed": true,
+      "utc": "2026-11-12T18:58:16.514621+00:00"
+    },
+    {
+      "condition": "18_equal_family",
+      "event": "prediction_complete",
+      "utc": "2026-11-12T18:58:16.516407+00:00"
+    }
+  ],
+  "replay": true,
+  "source_journal_sha256": "266c693ff28e4ed32f3bf24df3f042e6a1c7797ba75bcf02a9bd43dedc1f4554"
+}

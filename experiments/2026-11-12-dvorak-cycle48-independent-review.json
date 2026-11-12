@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "method": "Independent Fraction count accumulation and (count+1/support)/(pool_mass+1) formula. No WeightedGroupModel, pool_weights, probability or evaluate used. Input parsing reused; not independent MIDI decoding.",
+  "conditions": {
+    "17_raw": {
+      "probabilities_independently_reconstructed": 123,
+      "max_aggregate_error": 0.0,
+      "later_mean_nll": 2.9910610208369404
+    },
+    "18_raw": {
+      "probabilities_independently_reconstructed": 123,
+      "max_aggregate_error": 0.0,
+      "later_mean_nll": 3.087531571097407
+    },
+    "17_equal_work": {
+      "probabilities_independently_reconstructed": 123,
+      "max_aggregate_error": 0.0,
+      "later_mean_nll": 3.0732293597023927
+    },
+    "18_equal_work": {
+      "probabilities_independently_reconstructed": 123,
+      "max_aggregate_error": 0.0,
+      "later_mean_nll": 3.0996110395271463
+    },
+    "17_equal_family": {
+      "probabilities_independently_reconstructed": 123,
+      "max_aggregate_error": 0.0,
+      "later_mean_nll": 3.0302764995436764
+    },
+    "18_equal_family": {
+      "probabilities_independently_reconstructed": 123,
+      "max_aggregate_error": 0.0,
+      "later_mean_nll": 3.024891630493241
+    }
+  },
+  "cohorts": 1,
+  "prediction_attempts_already_observed": true
+}
