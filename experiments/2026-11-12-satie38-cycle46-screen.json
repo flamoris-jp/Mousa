@@ -1,0 +1,170 @@
+{
+  "plan_sha256": "5b5bb74e7cca6d08e37d0e38eb65cce0c7c859399eede70c85b5631dc395d239",
+  "rows": [
+    {
+      "reference": "mutopia-376",
+      "exact8": 0,
+      "global_similarity": 0.11475409836065575,
+      "flagged": false
+    },
+    {
+      "reference": "mutopia-888",
+      "exact8": 0,
+      "global_similarity": 0.049180327868852514,
+      "flagged": false
+    },
+    {
+      "reference": "mutopia-889",
+      "exact8": 0,
+      "global_similarity": 0.06229508196721312,
+      "flagged": false
+    },
+    {
+      "reference": "mutopia-789",
+      "exact8": 0,
+      "global_similarity": 0.11475409836065575,
+      "flagged": false
+    },
+    {
+      "reference": "mutopia-583",
+      "exact8": 0,
+      "global_similarity": 0.0,
+      "flagged": false
+    },
+    {
+      "reference": "mutopia-1578",
+      "exact8": 0,
+      "global_similarity": 0.12131147540983611,
+      "flagged": false
+    },
+    {
+      "reference": "mutopia-1558",
+      "exact8": 0,
+      "global_similarity": 0.1081967213114754,
+      "flagged": false
+    },
+    {
+      "reference": "mutopia-370",
+      "exact8": 0,
+      "global_similarity": 0.12131147540983611,
+      "flagged": false
+    },
+    {
+      "reference": "mutopia-98-legacy",
+      "exact8": 0,
+      "global_similarity": 0.12459016393442623,
+      "flagged": false
+    },
+    {
+      "reference": "mutopia-263-legacy",
+      "exact8": 0,
+      "global_similarity": 0.12419239052404885,
+      "flagged": false
+    },
+    {
+      "reference": "mutopia-904",
+      "exact8": 1,
+      "global_similarity": 0.20255183413078148,
+      "flagged": true
+    },
+    {
+      "reference": "mutopia-2080",
+      "exact8": 0,
+      "global_similarity": 0.09180327868852456,
+      "flagged": false
+    },
+    {
+      "reference": "mutopia-2060",
+      "exact8": 0,
+      "global_similarity": 0.14098360655737707,
+      "flagged": false
+    },
+    {
+      "reference": "mutopia-2061",
+      "exact8": 0,
+      "global_similarity": 0.07540983606557372,
+      "flagged": false
+    },
+    {
+      "reference": "mutopia-186",
+      "exact8": 0,
+      "global_similarity": 0.17015706806282727,
+      "flagged": false
+    },
+    {
+      "reference": "mutopia-487",
+      "exact8": 0,
+      "global_similarity": 0.06730769230769229,
+      "flagged": false
+    },
+    {
+      "reference": "mutopia-2243",
+      "exact8": 0,
+      "global_similarity": 0.04590163934426228,
+      "flagged": false
+    },
+    {
+      "reference": "640",
+      "exact8": 0,
+      "global_similarity": 0.13770491803278684,
+      "flagged": false
+    },
+    {
+      "reference": "921",
+      "exact8": 0,
+      "global_similarity": 0.11803278688524588,
+      "flagged": false
+    },
+    {
+      "reference": "21",
+      "exact8": 0,
+      "global_similarity": 0.11147540983606552,
+      "flagged": false
+    },
+    {
+      "reference": "1691",
+      "exact8": 0,
+      "global_similarity": 0.05573770491803276,
+      "flagged": false
+    },
+    {
+      "reference": "blocked-1692",
+      "exact8": 0,
+      "global_similarity": 0.10491803278688527,
+      "flagged": false
+    },
+    {
+      "reference": "blocked-804",
+      "exact8": 0,
+      "global_similarity": 0.21311475409836067,
+      "flagged": false
+    },
+    {
+      "reference": "blocked-1741",
+      "exact8": 0,
+      "global_similarity": 0.180327868852459,
+      "flagged": false
+    },
+    {
+      "reference": "blocked-532",
+      "exact8": 0,
+      "global_similarity": 0.10163934426229504,
+      "flagged": false
+    },
+    {
+      "reference": "23",
+      "exact8": 0,
+      "global_similarity": 0.12919463087248317,
+      "flagged": false
+    }
+  ],
+  "flagged": true,
+  "source_notes": 306,
+  "groups": 124,
+  "first_delta": 384,
+  "eot": 74880,
+  "cpu_seconds": 0.4436474100000001,
+  "fit": false,
+  "score": false,
+  "all_reference_bytes_unchanged": true
+}

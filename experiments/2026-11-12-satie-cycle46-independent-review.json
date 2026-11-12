@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "scope": "Independent direct mido FIFO note-on/off scan;37 extra releases confirmed and not repaired;38 all parsed note tuples agree",
+  "candidates": [
+    {
+      "id": "37",
+      "unmatched_note_offs": [
+        {
+          "tick": 13824,
+          "channel": 0,
+          "pitch": 66
+        },
+        {
+          "tick": 13824,
+          "channel": 0,
+          "pitch": 66
+        }
+      ],
+      "reader_accepted": false,
+      "raw_sha256": "09ce7337b4bf42ba12e1aa64b4c7dc7fcfa6455f1070cb12f8880a755df97384"
+    },
+    {
+      "id": "38",
+      "unmatched_note_offs": [],
+      "reader_accepted": true,
+      "raw_sha256": "02e8ae8d7e1f6073f12f62a61a63cf07b260a1cf49f4a9008ee4e3f8e1934d30"
+    }
+  ],
+  "visual_review": "Viewed historical scan pages1and5: titles/dedications,3/4 accompaniment introduction and melodic incipits agree with retained LY excerpts. No full score collation. Both LY identify original reproduction, omit Dover translation additions and explicitly dedicate typesetting to PD.",
+  "training": "Neither fitted or scored;37technical-blocked,38fixed-screen-blocked. Different source does not automatically override short-pattern gate."
+}
