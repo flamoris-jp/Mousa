@@ -1,0 +1,11 @@
+{
+  "schema": "mousa-order-cycle51-plan-v1",
+  "question": "Does repeated ordered onset-group pitch content exceed the recurrence induced by the same pitch-group inventory in Cycle49 outputs?",
+  "scope": "Exploratory reanalysis of all 36 observed Cycle49 outputs, not new training, generation, held-out evaluation or source admission.",
+  "representation": "Each simultaneous onset is one sorted tuple of exact MIDI pitches, preserving multiplicity; chronological groups. No arbitrary within-chord note ordering. Rhythm, velocity, durations, harmony and perceived phrase identity are not measured.",
+  "windows": [2, 4],
+  "metric": "For all overlapping windows, (number of windows minus number of distinct windows)/number of windows. Fewer than w onset groups is explicitly ineligible.",
+  "control": "100 deterministic permutations of whole pitch-group tokens per output, shuffle seeds 51000..51099. Exact token inventory and group count preserved. Timing is not a control and permutations are not playable music or independent corpora.",
+  "report": "All rows and eligible denominators; observed mean, permutation mean, descriptive difference. No p value, model choice, causal claim or attractiveness ranking. Post hoc hypothesis motivated by Cycle50.",
+  "verification": "Require private source hashes equal Cycle49 ledger before/after. Unit tests and exact repeat except CPU; no raw generated notes in report."
+}
