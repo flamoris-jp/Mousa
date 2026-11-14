@@ -1,0 +1,19 @@
+{
+  "upstream_commit": "c288e92979d5005742a1bc3f86b389eadbc873d3",
+  "replay_exact_excluding_cpu_seconds": true,
+  "native_model_tests": "passed",
+  "mousa_tests": {
+    "run": 28,
+    "skipped": 1,
+    "failed": 0
+  },
+  "files": {
+    "results.json": "7da8ef735ae6249444029bad113a5d2af594f0ecd82ee2fb8c3d1ff361c8c35f",
+    "order_diagnostic.cpp": "40e2ec99a5e7904698bcc68b8a8868d3c945c4ca36432c481d80e355fe45f49a",
+    "CMakeLists.txt": "19c316b561c0a3291811b892a85f8cfd408b1e21c7b2cf2c1c5cce4ab69bbfd0",
+    "dataset.json": "25b14e8dc972808ccf221619f6a65d997cca00cee3381b16c1ed817c46f6c87a",
+    "prepare.py": "74fffdc39ed5f049d16741193f6c4487daf0a6d37089ab951a4dc0bf217a7d23",
+    "plan.json": "6e0191fc74f7696dd839d25a40bd639ac75a3d9e5e6bd288af614f183498cb6f",
+    "python-packages.txt": "4f5b2ddd79c9823f26b5b7b25dd6605b1b9fc34f698e7b0445654e71a17b8849"
+  }
+}
