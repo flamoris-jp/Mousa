@@ -1,0 +1,17 @@
+{
+  "frozen_before_neural_fit": true,
+  "seed_matching_128_batches": true,
+  "private_dataset_sha256": "49ff7ee03687d77d1707d82985266f9b51fa836154a924ef7529873ea9f6171f",
+  "plan_sha256": "87ad07f4ab7a68e0bd3620d7fa8412c2c6a8954ccfda0364cfd98649621c9cdb",
+  "source_audit_sha256": "67cedb1cdcee8dd436918bde4c11f361c36d3149e2bf89bf1fce5f96d79c924c",
+  "baseline_sha256": "b34cceb996f2437f95df28effe3c260f6cd3a089be4db7e9ce7c15b7c98349a2",
+  "no_sa": true,
+  "rights_and_source_hashes_verified": true,
+  "already_observed_test": true,
+  "data_publication_allowed": false,
+  "counts": {
+    "train18": 567,
+    "train128": 4084,
+    "test": 512
+  }
+}

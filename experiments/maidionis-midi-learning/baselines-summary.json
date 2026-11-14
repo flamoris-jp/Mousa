@@ -1,0 +1,641 @@
+{
+  "note": "Smoothed window-target counts only, backoff totalmass4/unigramtotalmass1; exactly same selected histories and targets. Already-observed Cycle53 test, no tuning.",
+  "results": [
+    {
+      "condition": "train18",
+      "model": "uniform",
+      "family_count": 16,
+      "windows": 512,
+      "family_macro_nll": 3.891820298110627,
+      "family_macro_accuracy": 0.017578125,
+      "per_family": [
+        {
+          "family": "ccbysa-combined-859",
+          "n": 32,
+          "nll": 3.891820298110627,
+          "accuracy": 0
+        },
+        {
+          "family": "ccbysa-combined-1704",
+          "n": 32,
+          "nll": 3.891820298110627,
+          "accuracy": 0
+        },
+        {
+          "family": "ccbysa-combined-322",
+          "n": 32,
+          "nll": 3.891820298110627,
+          "accuracy": 0.03125
+        },
+        {
+          "family": "ccbysa-combined-1010",
+          "n": 32,
+          "nll": 3.891820298110627,
+          "accuracy": 0
+        },
+        {
+          "family": "ccbysa-combined-870",
+          "n": 32,
+          "nll": 3.891820298110627,
+          "accuracy": 0.0625
+        },
+        {
+          "family": "ccbysa-combined-1899",
+          "n": 32,
+          "nll": 3.891820298110627,
+          "accuracy": 0.0625
+        },
+        {
+          "family": "ccbysa-combined-334",
+          "n": 32,
+          "nll": 3.891820298110627,
+          "accuracy": 0
+        },
+        {
+          "family": "ccbysa-combined-1095",
+          "n": 32,
+          "nll": 3.891820298110627,
+          "accuracy": 0
+        },
+        {
+          "family": "ccbysa-combined-2146",
+          "n": 32,
+          "nll": 3.891820298110627,
+          "accuracy": 0.0625
+        },
+        {
+          "family": "ccbysa-combined-190",
+          "n": 32,
+          "nll": 3.891820298110627,
+          "accuracy": 0
+        },
+        {
+          "family": "ccbysa-combined-330",
+          "n": 32,
+          "nll": 3.891820298110627,
+          "accuracy": 0
+        },
+        {
+          "family": "ccbysa-combined-817",
+          "n": 32,
+          "nll": 3.891820298110627,
+          "accuracy": 0
+        },
+        {
+          "family": "ccbysa-combined-245",
+          "n": 32,
+          "nll": 3.891820298110627,
+          "accuracy": 0
+        },
+        {
+          "family": "ccbysa-combined-701",
+          "n": 32,
+          "nll": 3.891820298110627,
+          "accuracy": 0
+        },
+        {
+          "family": "ccbysa-combined-1023",
+          "n": 32,
+          "nll": 3.891820298110627,
+          "accuracy": 0.03125
+        },
+        {
+          "family": "ccbysa-combined-561",
+          "n": 32,
+          "nll": 3.891820298110627,
+          "accuracy": 0.03125
+        }
+      ]
+    },
+    {
+      "condition": "train18",
+      "model": "unigram",
+      "family_count": 16,
+      "windows": 512,
+      "family_macro_nll": 3.3529362616198424,
+      "family_macro_accuracy": 0.16015625,
+      "per_family": [
+        {
+          "family": "ccbysa-combined-859",
+          "n": 32,
+          "nll": 4.805160239189737,
+          "accuracy": 0.0625
+        },
+        {
+          "family": "ccbysa-combined-1704",
+          "n": 32,
+          "nll": 3.282578191350208,
+          "accuracy": 0.0625
+        },
+        {
+          "family": "ccbysa-combined-322",
+          "n": 32,
+          "nll": 3.0811946644024832,
+          "accuracy": 0.3125
+        },
+        {
+          "family": "ccbysa-combined-1010",
+          "n": 32,
+          "nll": 3.265307458390939,
+          "accuracy": 0.1875
+        },
+        {
+          "family": "ccbysa-combined-870",
+          "n": 32,
+          "nll": 3.209108661855387,
+          "accuracy": 0.125
+        },
+        {
+          "family": "ccbysa-combined-1899",
+          "n": 32,
+          "nll": 3.6315665249777367,
+          "accuracy": 0.0625
+        },
+        {
+          "family": "ccbysa-combined-334",
+          "n": 32,
+          "nll": 2.7418028265062167,
+          "accuracy": 0.25
+        },
+        {
+          "family": "ccbysa-combined-1095",
+          "n": 32,
+          "nll": 2.5632258806530683,
+          "accuracy": 0.3125
+        },
+        {
+          "family": "ccbysa-combined-2146",
+          "n": 32,
+          "nll": 3.312242826841693,
+          "accuracy": 0.125
+        },
+        {
+          "family": "ccbysa-combined-190",
+          "n": 32,
+          "nll": 2.8182724978450424,
+          "accuracy": 0.15625
+        },
+        {
+          "family": "ccbysa-combined-330",
+          "n": 32,
+          "nll": 2.8560207776942286,
+          "accuracy": 0.0625
+        },
+        {
+          "family": "ccbysa-combined-817",
+          "n": 32,
+          "nll": 4.61217929360236,
+          "accuracy": 0.03125
+        },
+        {
+          "family": "ccbysa-combined-245",
+          "n": 32,
+          "nll": 2.7165058486380125,
+          "accuracy": 0.28125
+        },
+        {
+          "family": "ccbysa-combined-701",
+          "n": 32,
+          "nll": 4.124064694242814,
+          "accuracy": 0.1875
+        },
+        {
+          "family": "ccbysa-combined-1023",
+          "n": 32,
+          "nll": 3.166278347665254,
+          "accuracy": 0.125
+        },
+        {
+          "family": "ccbysa-combined-561",
+          "n": 32,
+          "nll": 3.461471452062295,
+          "accuracy": 0.21875
+        }
+      ]
+    },
+    {
+      "condition": "train18",
+      "model": "trigram",
+      "family_count": 16,
+      "windows": 512,
+      "family_macro_nll": 3.540514983548102,
+      "family_macro_accuracy": 0.19921875,
+      "per_family": [
+        {
+          "family": "ccbysa-combined-859",
+          "n": 32,
+          "nll": 5.321037358570811,
+          "accuracy": 0.03125
+        },
+        {
+          "family": "ccbysa-combined-1704",
+          "n": 32,
+          "nll": 3.7593898849519083,
+          "accuracy": 0
+        },
+        {
+          "family": "ccbysa-combined-322",
+          "n": 32,
+          "nll": 2.681390254735453,
+          "accuracy": 0.3125
+        },
+        {
+          "family": "ccbysa-combined-1010",
+          "n": 32,
+          "nll": 3.8248172543503696,
+          "accuracy": 0.25
+        },
+        {
+          "family": "ccbysa-combined-870",
+          "n": 32,
+          "nll": 3.6466013678067934,
+          "accuracy": 0.09375
+        },
+        {
+          "family": "ccbysa-combined-1899",
+          "n": 32,
+          "nll": 3.4402914883051605,
+          "accuracy": 0.28125
+        },
+        {
+          "family": "ccbysa-combined-334",
+          "n": 32,
+          "nll": 2.499788101373823,
+          "accuracy": 0.25
+        },
+        {
+          "family": "ccbysa-combined-1095",
+          "n": 32,
+          "nll": 2.836183259685954,
+          "accuracy": 0.28125
+        },
+        {
+          "family": "ccbysa-combined-2146",
+          "n": 32,
+          "nll": 4.015327885249837,
+          "accuracy": 0.09375
+        },
+        {
+          "family": "ccbysa-combined-190",
+          "n": 32,
+          "nll": 2.616187196678697,
+          "accuracy": 0.21875
+        },
+        {
+          "family": "ccbysa-combined-330",
+          "n": 32,
+          "nll": 3.0285253090853974,
+          "accuracy": 0.1875
+        },
+        {
+          "family": "ccbysa-combined-817",
+          "n": 32,
+          "nll": 5.022527457993442,
+          "accuracy": 0.1875
+        },
+        {
+          "family": "ccbysa-combined-245",
+          "n": 32,
+          "nll": 2.8596193850595193,
+          "accuracy": 0.34375
+        },
+        {
+          "family": "ccbysa-combined-701",
+          "n": 32,
+          "nll": 4.613019823741988,
+          "accuracy": 0.15625
+        },
+        {
+          "family": "ccbysa-combined-1023",
+          "n": 32,
+          "nll": 2.894696127170796,
+          "accuracy": 0.28125
+        },
+        {
+          "family": "ccbysa-combined-561",
+          "n": 32,
+          "nll": 3.588837582009684,
+          "accuracy": 0.21875
+        }
+      ]
+    },
+    {
+      "condition": "train128",
+      "model": "uniform",
+      "family_count": 16,
+      "windows": 512,
+      "family_macro_nll": 3.891820298110627,
+      "family_macro_accuracy": 0.017578125,
+      "per_family": [
+        {
+          "family": "ccbysa-combined-859",
+          "n": 32,
+          "nll": 3.891820298110627,
+          "accuracy": 0
+        },
+        {
+          "family": "ccbysa-combined-1704",
+          "n": 32,
+          "nll": 3.891820298110627,
+          "accuracy": 0
+        },
+        {
+          "family": "ccbysa-combined-322",
+          "n": 32,
+          "nll": 3.891820298110627,
+          "accuracy": 0.03125
+        },
+        {
+          "family": "ccbysa-combined-1010",
+          "n": 32,
+          "nll": 3.891820298110627,
+          "accuracy": 0
+        },
+        {
+          "family": "ccbysa-combined-870",
+          "n": 32,
+          "nll": 3.891820298110627,
+          "accuracy": 0.0625
+        },
+        {
+          "family": "ccbysa-combined-1899",
+          "n": 32,
+          "nll": 3.891820298110627,
+          "accuracy": 0.0625
+        },
+        {
+          "family": "ccbysa-combined-334",
+          "n": 32,
+          "nll": 3.891820298110627,
+          "accuracy": 0
+        },
+        {
+          "family": "ccbysa-combined-1095",
+          "n": 32,
+          "nll": 3.891820298110627,
+          "accuracy": 0
+        },
+        {
+          "family": "ccbysa-combined-2146",
+          "n": 32,
+          "nll": 3.891820298110627,
+          "accuracy": 0.0625
+        },
+        {
+          "family": "ccbysa-combined-190",
+          "n": 32,
+          "nll": 3.891820298110627,
+          "accuracy": 0
+        },
+        {
+          "family": "ccbysa-combined-330",
+          "n": 32,
+          "nll": 3.891820298110627,
+          "accuracy": 0
+        },
+        {
+          "family": "ccbysa-combined-817",
+          "n": 32,
+          "nll": 3.891820298110627,
+          "accuracy": 0
+        },
+        {
+          "family": "ccbysa-combined-245",
+          "n": 32,
+          "nll": 3.891820298110627,
+          "accuracy": 0
+        },
+        {
+          "family": "ccbysa-combined-701",
+          "n": 32,
+          "nll": 3.891820298110627,
+          "accuracy": 0
+        },
+        {
+          "family": "ccbysa-combined-1023",
+          "n": 32,
+          "nll": 3.891820298110627,
+          "accuracy": 0.03125
+        },
+        {
+          "family": "ccbysa-combined-561",
+          "n": 32,
+          "nll": 3.891820298110627,
+          "accuracy": 0.03125
+        }
+      ]
+    },
+    {
+      "condition": "train128",
+      "model": "unigram",
+      "family_count": 16,
+      "windows": 512,
+      "family_macro_nll": 3.2753026808599537,
+      "family_macro_accuracy": 0.16015625,
+      "per_family": [
+        {
+          "family": "ccbysa-combined-859",
+          "n": 32,
+          "nll": 4.219056811470845,
+          "accuracy": 0.0625
+        },
+        {
+          "family": "ccbysa-combined-1704",
+          "n": 32,
+          "nll": 3.357725350980674,
+          "accuracy": 0.0625
+        },
+        {
+          "family": "ccbysa-combined-322",
+          "n": 32,
+          "nll": 3.079670292195545,
+          "accuracy": 0.3125
+        },
+        {
+          "family": "ccbysa-combined-1010",
+          "n": 32,
+          "nll": 3.1831755383551625,
+          "accuracy": 0.1875
+        },
+        {
+          "family": "ccbysa-combined-870",
+          "n": 32,
+          "nll": 3.220348217695694,
+          "accuracy": 0.125
+        },
+        {
+          "family": "ccbysa-combined-1899",
+          "n": 32,
+          "nll": 3.425907535650284,
+          "accuracy": 0.0625
+        },
+        {
+          "family": "ccbysa-combined-334",
+          "n": 32,
+          "nll": 2.8051751916064,
+          "accuracy": 0.25
+        },
+        {
+          "family": "ccbysa-combined-1095",
+          "n": 32,
+          "nll": 2.5643870328155023,
+          "accuracy": 0.3125
+        },
+        {
+          "family": "ccbysa-combined-2146",
+          "n": 32,
+          "nll": 3.303824025154762,
+          "accuracy": 0.125
+        },
+        {
+          "family": "ccbysa-combined-190",
+          "n": 32,
+          "nll": 2.7725308579111365,
+          "accuracy": 0.15625
+        },
+        {
+          "family": "ccbysa-combined-330",
+          "n": 32,
+          "nll": 2.8960095836821598,
+          "accuracy": 0.0625
+        },
+        {
+          "family": "ccbysa-combined-817",
+          "n": 32,
+          "nll": 4.508511874662366,
+          "accuracy": 0.03125
+        },
+        {
+          "family": "ccbysa-combined-245",
+          "n": 32,
+          "nll": 2.773239336390082,
+          "accuracy": 0.28125
+        },
+        {
+          "family": "ccbysa-combined-701",
+          "n": 32,
+          "nll": 3.7760172958395604,
+          "accuracy": 0.1875
+        },
+        {
+          "family": "ccbysa-combined-1023",
+          "n": 32,
+          "nll": 3.1377090697436776,
+          "accuracy": 0.125
+        },
+        {
+          "family": "ccbysa-combined-561",
+          "n": 32,
+          "nll": 3.3815548796054062,
+          "accuracy": 0.21875
+        }
+      ]
+    },
+    {
+      "condition": "train128",
+      "model": "trigram",
+      "family_count": 16,
+      "windows": 512,
+      "family_macro_nll": 3.0275708607987513,
+      "family_macro_accuracy": 0.240234375,
+      "per_family": [
+        {
+          "family": "ccbysa-combined-859",
+          "n": 32,
+          "nll": 3.7108861261931656,
+          "accuracy": 0.0625
+        },
+        {
+          "family": "ccbysa-combined-1704",
+          "n": 32,
+          "nll": 3.746298525161662,
+          "accuracy": 0.0625
+        },
+        {
+          "family": "ccbysa-combined-322",
+          "n": 32,
+          "nll": 2.289531577093401,
+          "accuracy": 0.375
+        },
+        {
+          "family": "ccbysa-combined-1010",
+          "n": 32,
+          "nll": 3.046226592879194,
+          "accuracy": 0.34375
+        },
+        {
+          "family": "ccbysa-combined-870",
+          "n": 32,
+          "nll": 3.0172433114313506,
+          "accuracy": 0.25
+        },
+        {
+          "family": "ccbysa-combined-1899",
+          "n": 32,
+          "nll": 2.809225100413458,
+          "accuracy": 0.25
+        },
+        {
+          "family": "ccbysa-combined-334",
+          "n": 32,
+          "nll": 2.3509382833345533,
+          "accuracy": 0.375
+        },
+        {
+          "family": "ccbysa-combined-1095",
+          "n": 32,
+          "nll": 2.484849005163949,
+          "accuracy": 0.375
+        },
+        {
+          "family": "ccbysa-combined-2146",
+          "n": 32,
+          "nll": 3.4772506233476292,
+          "accuracy": 0.1875
+        },
+        {
+          "family": "ccbysa-combined-190",
+          "n": 32,
+          "nll": 2.201023473890218,
+          "accuracy": 0.25
+        },
+        {
+          "family": "ccbysa-combined-330",
+          "n": 32,
+          "nll": 2.4941236265464215,
+          "accuracy": 0.25
+        },
+        {
+          "family": "ccbysa-combined-817",
+          "n": 32,
+          "nll": 3.834043901101036,
+          "accuracy": 0.0625
+        },
+        {
+          "family": "ccbysa-combined-245",
+          "n": 32,
+          "nll": 2.717833500819643,
+          "accuracy": 0.375
+        },
+        {
+          "family": "ccbysa-combined-701",
+          "n": 32,
+          "nll": 4.621093584392329,
+          "accuracy": 0.15625
+        },
+        {
+          "family": "ccbysa-combined-1023",
+          "n": 32,
+          "nll": 2.6208496245601065,
+          "accuracy": 0.28125
+        },
+        {
+          "family": "ccbysa-combined-561",
+          "n": 32,
+          "nll": 3.0197169164519,
+          "accuracy": 0.1875
+        }
+      ]
+    }
+  ]
+}

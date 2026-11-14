@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.24)
+project(MousaOrderDiagnostic LANGUAGES CXX)
+set(CMAKE_CXX_STANDARD 20)
+find_package(Torch 2.5.1 EXACT REQUIRED)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${TORCH_CXX_FLAGS}")
+add_subdirectory(${MAIDIONIS_SOURCE} core)
+add_executable(midi_diagnostic midi_diagnostic.cpp)
+target_link_libraries(midi_diagnostic PRIVATE maidionis_core)
