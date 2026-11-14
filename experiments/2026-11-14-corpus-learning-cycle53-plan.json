@@ -1,0 +1,45 @@
+{
+  "schema": "mousa-corpus-learning-v1",
+  "created_at": "2026-11-14T13:18:39.534402+00:00",
+  "split_sha256": "a08f7201e846e09c91e79036c74fefe687e8c431e353f33163d6c935cfbad517",
+  "scripts": {
+    "corpus_learning_trial.py": "ea05cc3df8206ebab9d5488fd33f63690370897d975eb892a3bbc389d09cc1ae",
+    "run_corpus_learning_trial.py": "b4eda1679014a22996fc658d0515ebf44c8278c23105a3271b8d8b7c6a108f4f"
+  },
+  "supports": {
+    "pitch_interval": 49,
+    "rhythm_ioi": 25
+  },
+  "seeds": [
+    53101,
+    53102,
+    53103
+  ],
+  "max_onsets_per_family": 2048,
+  "models": [
+    "uniform",
+    "unigram",
+    "bigram",
+    "trigram",
+    "shuffled_trigram"
+  ],
+  "conditions": [
+    "full_train",
+    "nested18_each_seed",
+    "full_equal_event_budget_each_seed"
+  ],
+  "unigram_prior_total_mass": 1,
+  "context_backoff_mass": 4,
+  "cpu_limit_seconds": 180,
+  "projection": "Highest non-drum pitch at each exact onset across tracks; not an annotated melody; ignores duration/velocity/tempo/instrumentation/lower simultaneous notes.",
+  "pitch_interval": "Semitone differences clipped[-24,24],shift24. Fixed49support.",
+  "rhythm_ioi": "Positive onset differences in quarter-note beats; round(2log2(IOI)) clipped[-12,12],shift12. Fixed25support.",
+  "targets": "Teacher forcing, same indices>=2 for every model; no cross-family transitions.",
+  "subsets": "Primary18 exactly from split manifest flags, seed0 label; secondary three deterministic shuffled family orders first18TRAINfamilies. Not historically observed18works.",
+  "equal_budget": "Full TRAIN per-family deterministic prefixes allocated round-robin up to each nested18 event total; preserves boundaries, but shorter-prefix bias remains.",
+  "metrics": "Per-family natural-log NLL/accuracy; family macro primary, pooled secondary. No tuning/selection on validation or test.",
+  "failure_policy": "Hash/role mismatch abort. Projection failures retained as explicit exclusions; no replacements. Fewer18usabletrain abort.",
+  "scope": "New prospective prediction diagnostic, not artistic quality, causal proof that more works always helps, originality certification, Maidionis-trained model or Cantabile integration.",
+  "generation": false,
+  "checkpoint": "Private count-table JSON with source attribution retained; not published weights."
+}
