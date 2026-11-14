@@ -1,0 +1,21 @@
+{
+  "all_rights_allowlist_source_hash_checks": true,
+  "no_sa": true,
+  "split_family_disjoint": true,
+  "counts": {
+    "train18": 567,
+    "train128": 4084,
+    "test": 512
+  },
+  "family_counts": {
+    "train18": 18,
+    "train128": 128,
+    "test": 16
+  },
+  "files": {
+    "midi-attribution.json": "809f469df26fbb328836f8af58f0d280ab94f67e48f04e18085013fe9beaaaeb",
+    "midi-plan.json": "e2da167d0279c29d8924678997e08316373586547c10ed0d0a2db1c07373ddbb",
+    "midi-dataset-private.json": "314cbc4d72bffc930d70aac1f096bb4f81e90dba14fdcb3c13dffef041057f41",
+    "midi-private-paths.json": "6a054b1430cd70c93ed8fa75776a41745fa2f85d49a072cdde9da7e75c56437d"
+  }
+}
