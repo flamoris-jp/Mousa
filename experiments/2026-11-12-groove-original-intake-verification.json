@@ -1,0 +1,19 @@
+{
+  "independent_zip_csv_cardinality": 1150,
+  "original_midi_hashes_verified": 1150,
+  "repeat_original_bytes_equal": true,
+  "private_inventory_byte_equal": true,
+  "unique_original_hashes": 1149,
+  "first_report_sha256": "9ab70a48f75df65d894e8fb95b7a23605ff3d7daa7cb5ac0d87919bfeaff6b2f",
+  "final_report_sha256": "0f8151075dbcddfc906f03b14dd45c7b5a1b65fba33bedda0d3af725d3b700c9",
+  "report_only_additions": [
+    "unique_midi_hashes",
+    "top_level_style_counts",
+    "duplicate_group_splits"
+  ],
+  "script_sha256": "4257d01df3a34919e0d5379dabb232450494beaf2b12f2cbfc744e5278e4be21",
+  "tests": 4,
+  "limitations": "No fitting, melodic use, audio download, unseen-drummer claim, approximate pattern deduplication, pairing or legal blanket claim. Storage manifest prepared, no upload performed.",
+  "public_report_sha256": "a3711e93f20a33b8f5f9bcd1e6f4a7e07dd234b3af9978f66300f022a37d0ada",
+  "public_reporting_annotation": "Website hitcount difference818 explicitly disclosed after measurement, no event totals changed."
+}

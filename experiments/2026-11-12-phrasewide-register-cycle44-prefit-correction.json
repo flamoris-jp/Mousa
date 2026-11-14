@@ -1,0 +1,8 @@
+{
+  "status": "synthetic_prefit_failure_corrected_no_real_fit_generation",
+  "cause": "Automated insertion of bounds accidentally replaced both state declarations and broke DP loop indentation; synthetic suite exposed3errors/1failure.",
+  "fix": "Keep explicit candidate/transition guards once before DP; restore iterative recurrence.",
+  "retained_unrun_plan_sha256": "51c0ee664f0c75cdec3fe861d0806d94908dca1bf87961efc9ca80b14de37c8a",
+  "final_plan_sha256": "d0cf72b7a572d619b70a2998bfa8b6d028c8b7fb7e2ab6d288acd2f4a725b931",
+  "tests_passed": 5
+}

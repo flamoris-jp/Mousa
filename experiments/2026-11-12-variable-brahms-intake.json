@@ -1,0 +1,27 @@
+{
+  "source_sha256": "dcd5efac22b5e91b7c87685058784396adb9ec5d69915764265ad68158dbb6e1",
+  "original_unchanged": true,
+  "tracks": [
+    {
+      "track_index": 1,
+      "status": "rejected",
+      "reason": "polyphonic or ambiguous overlapping notes"
+    },
+    {
+      "track_index": 3,
+      "status": "rejected",
+      "reason": "polyphonic or ambiguous overlapping notes"
+    },
+    {
+      "track_index": 5,
+      "status": "rejected",
+      "reason": "polyphonic or ambiguous overlapping notes"
+    }
+  ],
+  "model_fit": false,
+  "model_score": false,
+  "code_sha256": {
+    "src/mousa/variable_meter_midi.py": "c838a03c5f2b56fefc4179cc3a1e43231551301d44a982efc137c25c3299ed3d",
+    "tools/probe_variable_meter_intake.py": "0d72356350c337138ab9752270e9d50aacf5c264f532e654b62b16869cc42dc2"
+  }
+}

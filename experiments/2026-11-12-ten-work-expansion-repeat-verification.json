@@ -1,0 +1,108 @@
+{
+  "normalized_repeat_equal": true,
+  "excluded_field": "cpu_seconds",
+  "initial_report_sha256": "ead8e9bf03c0cd1667a7a28e6974eaa5b6f2b9b0ed31e1a369e109ad46178ac5",
+  "repeat_report_sha256": "3c1e163ac6f4c36687ef3ffd39fb62e8559279c782226d2fd04848b8915ec45c",
+  "base5_exactly_matches_nine_work_run": true,
+  "joplin_notes_retained": 1394,
+  "all_training_events": 2536,
+  "copy_reference_count": 12,
+  "safety": [
+    {
+      "condition": "base5",
+      "seed": 0,
+      "notes": 28,
+      "max_polyphony": 2,
+      "tail_ticks": 288,
+      "copy_matches_recomputed": 0,
+      "private_notes_sha256": "89e8d384b8d32d52598c358ad03ea088ef560411e930b7500b0a66f609f37dfa"
+    },
+    {
+      "condition": "base5",
+      "seed": 1,
+      "notes": 23,
+      "max_polyphony": 2,
+      "tail_ticks": 285,
+      "copy_matches_recomputed": 0,
+      "private_notes_sha256": "1846df226268c4ef70cf7b6fc548179496fa7326af1aceb748ea54c891ed7d1d"
+    },
+    {
+      "condition": "base5",
+      "seed": 2,
+      "notes": 6,
+      "max_polyphony": 1,
+      "tail_ticks": 242,
+      "copy_matches_recomputed": 0,
+      "private_notes_sha256": "85cb8d1d5c6d7ab76bed01c529ea14e89104805ba9608cc0abfe3999f4f00e2d"
+    },
+    {
+      "condition": "base5",
+      "seed": 3,
+      "notes": 26,
+      "max_polyphony": 2,
+      "tail_ticks": 0,
+      "copy_matches_recomputed": 0,
+      "private_notes_sha256": "88501a070c643ddc21de65481e50f73e19477f54ac093c4eb3b32eef1c24af76"
+    },
+    {
+      "condition": "base5",
+      "seed": 4,
+      "notes": 33,
+      "max_polyphony": 3,
+      "tail_ticks": 288,
+      "copy_matches_recomputed": 0,
+      "private_notes_sha256": "bed033df3fdc048885ba9f4a268b577de6e5718ff4c8545d2bd56a2ca05455d9"
+    },
+    {
+      "condition": "expanded",
+      "seed": 0,
+      "notes": 59,
+      "max_polyphony": 3,
+      "tail_ticks": 96,
+      "copy_matches_recomputed": 0,
+      "private_notes_sha256": "68c0db470c360a80a049ef0d159fea53e1fdd24d3cddeca6d957cd1fd5ef2ee2"
+    },
+    {
+      "condition": "expanded",
+      "seed": 1,
+      "notes": 44,
+      "max_polyphony": 3,
+      "tail_ticks": 288,
+      "copy_matches_recomputed": 0,
+      "private_notes_sha256": "1adb2615db476a1a6aeb29282647df989f51200bddaaa42f09af12f476b86398"
+    },
+    {
+      "condition": "expanded",
+      "seed": 2,
+      "notes": 52,
+      "max_polyphony": 3,
+      "tail_ticks": 288,
+      "copy_matches_recomputed": 0,
+      "private_notes_sha256": "78216fb4d41d0aefea22aa254c9c2cf846604e8801c74da927f3a8e1abdece78"
+    },
+    {
+      "condition": "expanded",
+      "seed": 3,
+      "notes": 49,
+      "max_polyphony": 3,
+      "tail_ticks": 288,
+      "copy_matches_recomputed": 0,
+      "private_notes_sha256": "68a023f2a905db2b90c96ec86de662bb3d49eb10434300ce2d3d3de1d93d97ac"
+    },
+    {
+      "condition": "expanded",
+      "seed": 4,
+      "notes": 60,
+      "max_polyphony": 3,
+      "tail_ticks": 384,
+      "copy_matches_recomputed": 0,
+      "private_notes_sha256": "ab04c96b1d1bb2a2f5dec3171f060cdc26767fc426c8b0db8de3cdf99d143556"
+    }
+  ],
+  "originals_unchanged": true,
+  "cpu_seconds": {
+    "initial": 0.6623398859999999,
+    "repeat": 0.6930822
+  },
+  "limits": "Observed diagnostics only. Exact8 copy screen not originality proof. Notes JSON horizon verified, not MIDI EOT. Original piano staff max4 voices is retained in training; output cap3 is generation constraint, not source modification."
+}

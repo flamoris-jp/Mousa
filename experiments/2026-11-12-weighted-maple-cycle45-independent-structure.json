@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "synthetic_cases": 100,
+  "checks": 1400,
+  "seed": 450005,
+  "method": "Independent per-tick occupied-time brute force and block interval comparisons, not production interval union; no original fitting",
+  "module_sha256": "723cf3647d98c96f369cab459e9114d8dc9a7b72d46740f632d1c23956c2d8b2"
+}

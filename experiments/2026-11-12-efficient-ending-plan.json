@@ -1,0 +1,69 @@
+{
+  "created_at_utc": "2026-11-12T11:01:38.072828+00:00",
+  "scope": "Cycle15 exact sampler optimization and bounded trailing-rest policy",
+  "train_ids": [
+    "mutopia-376",
+    "mutopia-888",
+    "mutopia-889",
+    "mutopia-789"
+  ],
+  "never_load": [
+    583
+  ],
+  "model": "Frozen cycle13 timing_context=True,pitch_continuity=True,strength4",
+  "optimization": "legal pitch total minus occupied dictionary weights, cached between release ticks; same integer masses and RNG order",
+  "benchmark": "exact-end20paired generations: alpha0/.25,seeds0..9; alternate original-first/optimized-first byseedparity; CPUandwall measured generationonly, paritychecked",
+  "endpoint_policy": "After eachacceptednote stop if maxexistingend>=target-384; EOTremains9216. Noemptyoutput or modifiedgate. Separate changedstoprule, NOTdistribution-equivalent toexactend.",
+  "factorial": "exact-end versus trailingrest<=384 x uniformprobabilitymix alpha0/0.25",
+  "constraints": {
+    "target_ticks": 9216,
+    "max_notes": 256,
+    "max_attempts": 64,
+    "max_polyphony": 3,
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "copy_guard": "train plus580 exact8onset pitchintervals, canonical andgeneratedorders, no retries",
+  "source_screen": "exact8interval or wholeinterval similarity>=0.80 blocks",
+  "metrics": [
+    "statuses/rejections",
+    "drawcounts",
+    "pairedCPU/wall",
+    "gates<24tick",
+    "onsets>=target-384",
+    "actualsilenttail",
+    "notes",
+    "repeat/unique/leap/overlap/rest descriptors",
+    "MIDIroundtrip"
+  ],
+  "diagnostic_thresholds": "24ticks is arbitrary1/16quarter; tail384 is1quarter, not learnedcadence",
+  "aggregation": "completeonly means withdenominators pluscommonacceptedseed subset; keepallfailedstates",
+  "nonclaims": [
+    "musicalquality",
+    "fresh580evaluation",
+    "learnedcadence",
+    "tailpolicy distributionequivalence"
+  ],
+  "code_sha256": {
+    "src/mousa/optimized_feasible_generation.py": "fb1a5298b344c375e49f0abf6bdd39b400178a0b869624cce3c6ceb94f4ea121",
+    "src/mousa/feasible_context_generation.py": "57ff1dabc40a05af14f585701a9852dc6e699ba508cdadd00b8754ff1b24d783",
+    "src/mousa/context_onset_gate.py": "32ff6404caf451e18649c85462f32c1bcca8389b434a23d9c4ec1d6d09f8af0c",
+    "src/mousa/onset_gate_model.py": "6cfafbcb5f7cdcb9d3279b460b66bdf88b1f4a3f918312639cdb69cc0a89c92d",
+    "src/mousa/overlap_midi.py": "1afc11bf6b6985a2eb22ebe5302b707d39378291e27b6299fde82564c167c867",
+    "tools/compare_optimized_endpoint.py": "b2b681889925cea6a4a852941c45293a9a27bb67bd0a47f4ef158e18bfe6b2f9",
+    "tools/compare_context_onset_gate.py": "a4838f8c1e38b591e9366269ecabaabcc0a66bffab1031b68beddc942980f78a",
+    "tools/compare_onset_gate_models.py": "07a2bfaf79bc8e3b37c0982657056e34d8e6bd117ba03c5fa913bfaad17c4784",
+    "datasets/research-exploratory-multifamily-20261112.json": "bfcb2777ca6af1fbf41e957809a0fd35c6291e9bb3ae14182fd7ba1c9a86f6d7",
+    "datasets/research-brahms580-rights-20261112.json": "dd25cb5023eb13a634d981fe0fd8bc3c5c02f302c1b8fe4404157e74ec4dd994"
+  }
+}

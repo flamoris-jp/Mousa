@@ -1,0 +1,259 @@
+{
+  "config": {
+    "orders": [
+      0,
+      1,
+      2
+    ],
+    "alpha": 0.5,
+    "seeds": [
+      7,
+      17,
+      29
+    ],
+    "steps": 128,
+    "manifest_sha256": "c301326f5c163d7ef6716e4641ab33a3c6a2e5c7f9af023e772d3ad5a7d4cd27",
+    "trial_commit": "83ca8d477b84a7a8ceff0d80e0af4050b5d27b37",
+    "source_hashes": {
+      "src/mousa/event_baseline.py": "4543dbe11fb0b49a23d5993b954fd090c6341140c1a97dbd101ba7d91465eaa7",
+      "tools/compare_event_baselines.py": "11c9870fcaa6357fca2c474c396355e1047fa8e32c67a373e319e9f83a1176fb"
+    },
+    "role": "already-inspected three-work diagnostic, not sealed benchmark",
+    "metrics": "next full pitch-duration event; not comparable to grid token accuracy",
+    "generation": "unknown category excluded; last event clipped to eight bars",
+    "hypothesis": "event representation removes HOLD-dominated evaluation; higher order may overfit tiny corpus"
+  },
+  "models": {
+    "0": {
+      "metrics": {
+        "mutopia-376": {
+          "split": "train",
+          "events": 174,
+          "correct_events": 20,
+          "unseen_events": 0,
+          "nll_per_event": 3.23365735005197
+        },
+        "mutopia-2247": {
+          "split": "dev",
+          "events": 36,
+          "correct_events": 0,
+          "unseen_events": 26,
+          "nll_per_event": 5.285238239283955
+        },
+        "mutopia-2245": {
+          "split": "test",
+          "events": 52,
+          "correct_events": 0,
+          "unseen_events": 31,
+          "nll_per_event": 4.763808384310782
+        }
+      },
+      "candidates": [
+        {
+          "seed": 7,
+          "file": "order-0-seed-7.mid",
+          "sha256": "2bfb488ad8a8c706ef223396b6ca5b1a4a1b6f888b8bf8a54bf1da3190d8f0fa",
+          "disposition": "quarantined: similarity and human review required",
+          "exact_match_alert": false,
+          "reimported_steps": 128,
+          "reimport_transposition_semitones": 0,
+          "note_onsets": 29,
+          "distinct_pitch_tokens": 9,
+          "rest_steps": 28,
+          "largest_pitch_share": 0.20689655172413793,
+          "longest_exact_training_grid_run": 11,
+          "human_review": "not performed",
+          "similarity_limit": "exact grid run only; long HOLD/rest runs inflate it; no near/transposed clearance"
+        },
+        {
+          "seed": 17,
+          "file": "order-0-seed-17.mid",
+          "sha256": "87ac919050d79995074eaca29fffe82f5677f4968f1dbb1835bb67aacae4c6a1",
+          "disposition": "quarantined: similarity and human review required",
+          "exact_match_alert": false,
+          "reimported_steps": 112,
+          "reimport_transposition_semitones": -5,
+          "note_onsets": 28,
+          "distinct_pitch_tokens": 8,
+          "rest_steps": 30,
+          "largest_pitch_share": 0.35714285714285715,
+          "longest_exact_training_grid_run": 29,
+          "human_review": "not performed",
+          "similarity_limit": "exact grid run only; long HOLD/rest runs inflate it; no near/transposed clearance"
+        },
+        {
+          "seed": 29,
+          "file": "order-0-seed-29.mid",
+          "sha256": "fe5c203f71c2bc10324a806716c34d1eadfd478f4232934cbbccb9f20c830b43",
+          "disposition": "quarantined: similarity and human review required",
+          "exact_match_alert": false,
+          "reimported_steps": 128,
+          "reimport_transposition_semitones": 0,
+          "note_onsets": 43,
+          "distinct_pitch_tokens": 10,
+          "rest_steps": 0,
+          "largest_pitch_share": 0.3023255813953488,
+          "longest_exact_training_grid_run": 12,
+          "human_review": "not performed",
+          "similarity_limit": "exact grid run only; long HOLD/rest runs inflate it; no near/transposed clearance"
+        }
+      ],
+      "wall_seconds": 0.046147836000272946
+    },
+    "1": {
+      "metrics": {
+        "mutopia-376": {
+          "split": "train",
+          "events": 174,
+          "correct_events": 123,
+          "unseen_events": 0,
+          "nll_per_event": 1.885515538748209
+        },
+        "mutopia-2247": {
+          "split": "dev",
+          "events": 36,
+          "correct_events": 0,
+          "unseen_events": 26,
+          "nll_per_event": 4.857292685375517
+        },
+        "mutopia-2245": {
+          "split": "test",
+          "events": 52,
+          "correct_events": 1,
+          "unseen_events": 31,
+          "nll_per_event": 4.500261712005176
+        }
+      },
+      "candidates": [
+        {
+          "seed": 7,
+          "file": "order-1-seed-7.mid",
+          "sha256": "f71360690d2414c5a37f839f432964e314867e2c8482938705e691e1934b8c70",
+          "disposition": "quarantined: similarity and human review required",
+          "exact_match_alert": true,
+          "reimported_steps": 128,
+          "reimport_transposition_semitones": -5,
+          "note_onsets": 16,
+          "distinct_pitch_tokens": 7,
+          "rest_steps": 92,
+          "largest_pitch_share": 0.1875,
+          "longest_exact_training_grid_run": 70,
+          "human_review": "not performed",
+          "similarity_limit": "exact grid run only; long HOLD/rest runs inflate it; no near/transposed clearance"
+        },
+        {
+          "seed": 17,
+          "file": "order-1-seed-17.mid",
+          "sha256": "22c8aedd51810e91b243472e615a432a84a8d9f612fc428d43862ae7444edc4b",
+          "disposition": "quarantined: similarity and human review required",
+          "exact_match_alert": false,
+          "reimported_steps": 128,
+          "reimport_transposition_semitones": -5,
+          "note_onsets": 25,
+          "distinct_pitch_tokens": 9,
+          "rest_steps": 20,
+          "largest_pitch_share": 0.24,
+          "longest_exact_training_grid_run": 18,
+          "human_review": "not performed",
+          "similarity_limit": "exact grid run only; long HOLD/rest runs inflate it; no near/transposed clearance"
+        },
+        {
+          "seed": 29,
+          "file": "order-1-seed-29.mid",
+          "sha256": "9c1c2173fe9bc0b68d644533f4f8adfa3f2e843551a95bff900eb4f1e4be2e37",
+          "disposition": "quarantined: similarity and human review required",
+          "exact_match_alert": false,
+          "reimported_steps": 128,
+          "reimport_transposition_semitones": 0,
+          "note_onsets": 30,
+          "distinct_pitch_tokens": 9,
+          "rest_steps": 0,
+          "largest_pitch_share": 0.3,
+          "longest_exact_training_grid_run": 15,
+          "human_review": "not performed",
+          "similarity_limit": "exact grid run only; long HOLD/rest runs inflate it; no near/transposed clearance"
+        }
+      ],
+      "wall_seconds": 0.04123647799997343
+    },
+    "2": {
+      "metrics": {
+        "mutopia-376": {
+          "split": "train",
+          "events": 174,
+          "correct_events": 157,
+          "unseen_events": 0,
+          "nll_per_event": 1.8878499422593202
+        },
+        "mutopia-2247": {
+          "split": "dev",
+          "events": 36,
+          "correct_events": 0,
+          "unseen_events": 26,
+          "nll_per_event": 4.857292685375517
+        },
+        "mutopia-2245": {
+          "split": "test",
+          "events": 52,
+          "correct_events": 1,
+          "unseen_events": 31,
+          "nll_per_event": 4.493402578467892
+        }
+      },
+      "candidates": [
+        {
+          "seed": 7,
+          "file": "order-2-seed-7.mid",
+          "sha256": "c58a64f10205d4d6d907b8d53407f218f1478c8a955cc145c9f2305d212d33e3",
+          "disposition": "quarantined: similarity and human review required",
+          "exact_match_alert": true,
+          "reimported_steps": 128,
+          "reimport_transposition_semitones": 0,
+          "note_onsets": 17,
+          "distinct_pitch_tokens": 10,
+          "rest_steps": 92,
+          "largest_pitch_share": 0.17647058823529413,
+          "longest_exact_training_grid_run": 70,
+          "human_review": "not performed",
+          "similarity_limit": "exact grid run only; long HOLD/rest runs inflate it; no near/transposed clearance"
+        },
+        {
+          "seed": 17,
+          "file": "order-2-seed-17.mid",
+          "sha256": "455b507f64c3acfc1818ee7efb059c97602c98f4df2c88dc8116f6fe7ae53cf2",
+          "disposition": "quarantined: similarity and human review required",
+          "exact_match_alert": false,
+          "reimported_steps": 128,
+          "reimport_transposition_semitones": -5,
+          "note_onsets": 25,
+          "distinct_pitch_tokens": 9,
+          "rest_steps": 20,
+          "largest_pitch_share": 0.24,
+          "longest_exact_training_grid_run": 18,
+          "human_review": "not performed",
+          "similarity_limit": "exact grid run only; long HOLD/rest runs inflate it; no near/transposed clearance"
+        },
+        {
+          "seed": 29,
+          "file": "order-2-seed-29.mid",
+          "sha256": "75c0b3d9de5287834993f28f7a71f133cdb3445c024d9ab725043fff91628c83",
+          "disposition": "quarantined: similarity and human review required",
+          "exact_match_alert": false,
+          "reimported_steps": 128,
+          "reimport_transposition_semitones": 0,
+          "note_onsets": 36,
+          "distinct_pitch_tokens": 9,
+          "rest_steps": 0,
+          "largest_pitch_share": 0.2777777777777778,
+          "longest_exact_training_grid_run": 12,
+          "human_review": "not performed",
+          "similarity_limit": "exact grid run only; long HOLD/rest runs inflate it; no near/transposed clearance"
+        }
+      ],
+      "wall_seconds": 0.045341739999912534
+    }
+  },
+  "peak_rss_kib": 17024,
+  "python": "3.12.14",
+  "cpu_only": true
+}

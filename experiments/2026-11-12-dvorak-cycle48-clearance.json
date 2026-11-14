@@ -1,0 +1,5 @@
+{
+  "approved": true,
+  "plan_sha256": "4435659dc54822dca3259797994a6a1712440413443bf2ab253b95d7606af833",
+  "review": "Parent engineering review: fixed six timing-only conditions, 27 originals plus separately labelled derived supplement; no claim of 28-original clearance. Supplemental flags stop all predictions; no train admission. 11 synthetic tests independently rerun passed. CPU60."
+}

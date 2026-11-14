@@ -1,0 +1,686 @@
+{
+  "reviewed_utc": "2026-11-12T16:13:30.131356+00:00",
+  "status": "rights-reviewed-reserve-screen-clear-not-fit-not-scored",
+  "composer": "John Dowland (1563-1626)",
+  "contributor": "Peter Chubb",
+  "cohort": "Dowland First Booke 1597 / Peter Short / Peter Chubb SATB transcription",
+  "family_rule": "Both works, all voices and transformations stay in one source/edition/contributor cohort. New composer and contributor versus current17; two works are not two independent cohorts.",
+  "composition_rights": {
+    "status": "historical-public-domain-supported",
+    "basis": "1597 first edition title page explicitly Composed by John Dowland, printed Peter Short 1597. Composer died1626; no modern composition/adaptation attributed."
+  },
+  "edition_rights": {
+    "status": "historical-edition-and-dedicated-editorial-contribution-supported",
+    "evidence": "Boston Public Library G.400.51 folio, archive firstbookeofsong00dowl; title PDF page7, NoI pages12-13, NoXVII pages44-45 visually inspected. Peter Short1597 title imprint. Cantus and lute tablature left, Altus upside-down above right-page Bassus rotated and Tenor upright; matches source commentary.",
+    "editorial_scope": "Modern barred singing edition and clefs by Peter Chubb; source explicitly describes editorial layout. NoI explicitly transcribed from1597 UNSW copy and corrected missing Cantus minim rest following Laura Conrad comments. No claim BPL scan is same physical copy; no exhaustive note-by-note collation. No lute tablature transcription present in these MIDI files."
+  },
+  "encoding_rights": {
+    "status": "explicit-legacy-public-domain-dedication",
+    "license": "Legacy Public Domain dedication, not CC0",
+    "source_text": "copyright=\"Public Domain\"; This sheet music has been placed in the public domain by the typesetter",
+    "project_terms_quote": "The contributor of this music has dedicated their contribution into the public domain. You can do what you like with this music - print it out, sell it, change it, distribute it, record it, and perform it, etc.",
+    "basis": "Exact piece pages link original LilyPond and MIDI within the individually dedicated contribution; reviewed header, named maintainer and project legal explanation. Not inferred merely from freely downloadable MIDI.",
+    "limitations": "Legacy dedication, not express modern AI-specific license; composition and historical edition corroborated separately. No guarantee of every jurisdiction; preservation and bounded private research recommendation only, not raw-media publication clearance."
+  },
+  "works": [
+    {
+      "id": "mutopia-21",
+      "title": "Unquiet Thoughts, First Booke NoI",
+      "source_sha256": "62f8a9594609932fa9c9c56f0b69d55bc0a31852ffa8012842a23a566a643e93",
+      "source_filename": "21.mid",
+      "role": "reserved-not-fit-not-scored",
+      "selected_track": 1,
+      "track_basis": "Source ChoirStaff puts Cantus first, followed Altus/Tenor/Bassus; track1 is this notated singing part, not algorithmically inferred melody. Original full SATB bytes retained.",
+      "incipit_comparison": "Cantus D5 minim, D5 crotchet, D5 crotchet, E-flat5 semibreve; one-flat signature; no pickup.",
+      "historical_pdf_pages_1based": [
+        12,
+        13
+      ],
+      "technical": {
+        "1": {
+          "voice": "Cantus",
+          "notes": 89,
+          "first_onset": 0,
+          "last_note_end": 49152,
+          "eot": 49152,
+          "source_eot": 49152,
+          "ppq": 384,
+          "tempo": [
+            [
+              0,
+              500000
+            ]
+          ],
+          "meter_map": [
+            {
+              "tick": 0,
+              "numerator": 2,
+              "denominator": 1,
+              "clocks_per_click": 18,
+              "notated_32nd_notes_per_beat": 8
+            }
+          ],
+          "program_map": [
+            [
+              0,
+              74
+            ]
+          ],
+          "volume_map": [],
+          "first_three": [
+            {
+              "start": 0,
+              "end": 768,
+              "pitch": 74,
+              "velocity": 127,
+              "release_velocity": 64
+            },
+            {
+              "start": 768,
+              "end": 1152,
+              "pitch": 74,
+              "velocity": 127,
+              "release_velocity": 64
+            },
+            {
+              "start": 1152,
+              "end": 1536,
+              "pitch": 74,
+              "velocity": 127,
+              "release_velocity": 64
+            }
+          ]
+        },
+        "3": {
+          "voice": "Altus",
+          "notes": 104,
+          "first_onset": 0,
+          "last_note_end": 49152,
+          "eot": 49152,
+          "source_eot": 49152,
+          "ppq": 384,
+          "tempo": [
+            [
+              0,
+              500000
+            ]
+          ],
+          "meter_map": [
+            {
+              "tick": 0,
+              "numerator": 2,
+              "denominator": 1,
+              "clocks_per_click": 18,
+              "notated_32nd_notes_per_beat": 8
+            }
+          ],
+          "program_map": [
+            [
+              0,
+              74
+            ]
+          ],
+          "volume_map": [],
+          "first_three": [
+            {
+              "start": 0,
+              "end": 768,
+              "pitch": 70,
+              "velocity": 127,
+              "release_velocity": 64
+            },
+            {
+              "start": 768,
+              "end": 1152,
+              "pitch": 70,
+              "velocity": 127,
+              "release_velocity": 64
+            },
+            {
+              "start": 1152,
+              "end": 1536,
+              "pitch": 70,
+              "velocity": 127,
+              "release_velocity": 64
+            }
+          ]
+        },
+        "5": {
+          "voice": "Tenor",
+          "notes": 108,
+          "first_onset": 0,
+          "last_note_end": 49152,
+          "eot": 49152,
+          "source_eot": 49152,
+          "ppq": 384,
+          "tempo": [
+            [
+              0,
+              500000
+            ]
+          ],
+          "meter_map": [
+            {
+              "tick": 0,
+              "numerator": 2,
+              "denominator": 1,
+              "clocks_per_click": 18,
+              "notated_32nd_notes_per_beat": 8
+            }
+          ],
+          "program_map": [
+            [
+              0,
+              74
+            ]
+          ],
+          "volume_map": [],
+          "first_three": [
+            {
+              "start": 0,
+              "end": 768,
+              "pitch": 65,
+              "velocity": 127,
+              "release_velocity": 64
+            },
+            {
+              "start": 768,
+              "end": 1152,
+              "pitch": 67,
+              "velocity": 127,
+              "release_velocity": 64
+            },
+            {
+              "start": 1152,
+              "end": 1344,
+              "pitch": 65,
+              "velocity": 127,
+              "release_velocity": 64
+            }
+          ]
+        },
+        "7": {
+          "voice": "Bassus",
+          "notes": 83,
+          "first_onset": 0,
+          "last_note_end": 49152,
+          "eot": 49152,
+          "source_eot": 49152,
+          "ppq": 384,
+          "tempo": [
+            [
+              0,
+              500000
+            ]
+          ],
+          "meter_map": [
+            {
+              "tick": 0,
+              "numerator": 2,
+              "denominator": 1,
+              "clocks_per_click": 18,
+              "notated_32nd_notes_per_beat": 8
+            }
+          ],
+          "program_map": [
+            [
+              0,
+              74
+            ]
+          ],
+          "volume_map": [],
+          "first_three": [
+            {
+              "start": 0,
+              "end": 768,
+              "pitch": 58,
+              "velocity": 127,
+              "release_velocity": 64
+            },
+            {
+              "start": 768,
+              "end": 1152,
+              "pitch": 55,
+              "velocity": 127,
+              "release_velocity": 64
+            },
+            {
+              "start": 1152,
+              "end": 1536,
+              "pitch": 58,
+              "velocity": 127,
+              "release_velocity": 64
+            }
+          ]
+        }
+      },
+      "limitations": "Selected-track reader is not a full Cantabile project representation. All original tracks retained; no flattening, rest removal, quantization, gate clipping or model-support admission performed."
+    },
+    {
+      "id": "mutopia-1691",
+      "title": "Come Again, First Booke NoXVII",
+      "source_sha256": "4cc353989108ac40a7b74a40b170d331f783d7c6e4dfc9ed12f1e33e4dee59a8",
+      "source_filename": "1691.mid",
+      "role": "reserved-not-fit-not-scored",
+      "selected_track": 1,
+      "track_basis": "Source ChoirStaff puts Cantus first, followed Altus/Tenor/Bassus; track1 is this notated singing part, not algorithmically inferred melody. Original full SATB bytes retained.",
+      "incipit_comparison": "Cantus initial minim rest, B4 dotted crotchet, C5 quaver, D5 semibreve; exact initial768ticks retained.",
+      "historical_pdf_pages_1based": [
+        44,
+        45
+      ],
+      "technical": {
+        "1": {
+          "voice": "Cantus",
+          "notes": 43,
+          "first_onset": 768,
+          "last_note_end": 39936,
+          "eot": 39936,
+          "source_eot": 39936,
+          "ppq": 384,
+          "tempo": [
+            [
+              0,
+              300000
+            ]
+          ],
+          "meter_map": [
+            {
+              "tick": 0,
+              "numerator": 4,
+              "denominator": 2,
+              "clocks_per_click": 18,
+              "notated_32nd_notes_per_beat": 8
+            },
+            {
+              "tick": 21504,
+              "numerator": 2,
+              "denominator": 2,
+              "clocks_per_click": 18,
+              "notated_32nd_notes_per_beat": 8
+            },
+            {
+              "tick": 27648,
+              "numerator": 6,
+              "denominator": 2,
+              "clocks_per_click": 18,
+              "notated_32nd_notes_per_beat": 8
+            },
+            {
+              "tick": 32256,
+              "numerator": 4,
+              "denominator": 2,
+              "clocks_per_click": 18,
+              "notated_32nd_notes_per_beat": 8
+            },
+            {
+              "tick": 35328,
+              "numerator": 6,
+              "denominator": 2,
+              "clocks_per_click": 18,
+              "notated_32nd_notes_per_beat": 8
+            }
+          ],
+          "program_map": [
+            [
+              0,
+              0
+            ]
+          ],
+          "volume_map": [],
+          "first_three": [
+            {
+              "start": 768,
+              "end": 1344,
+              "pitch": 71,
+              "velocity": 127,
+              "release_velocity": 64
+            },
+            {
+              "start": 1344,
+              "end": 1536,
+              "pitch": 72,
+              "velocity": 127,
+              "release_velocity": 64
+            },
+            {
+              "start": 1536,
+              "end": 3072,
+              "pitch": 74,
+              "velocity": 127,
+              "release_velocity": 64
+            }
+          ]
+        },
+        "3": {
+          "voice": "Altus",
+          "notes": 45,
+          "first_onset": 0,
+          "last_note_end": 39936,
+          "eot": 39936,
+          "source_eot": 39936,
+          "ppq": 384,
+          "tempo": [
+            [
+              0,
+              300000
+            ]
+          ],
+          "meter_map": [
+            {
+              "tick": 0,
+              "numerator": 4,
+              "denominator": 2,
+              "clocks_per_click": 18,
+              "notated_32nd_notes_per_beat": 8
+            },
+            {
+              "tick": 21504,
+              "numerator": 2,
+              "denominator": 2,
+              "clocks_per_click": 18,
+              "notated_32nd_notes_per_beat": 8
+            },
+            {
+              "tick": 27648,
+              "numerator": 6,
+              "denominator": 2,
+              "clocks_per_click": 18,
+              "notated_32nd_notes_per_beat": 8
+            },
+            {
+              "tick": 32256,
+              "numerator": 4,
+              "denominator": 2,
+              "clocks_per_click": 18,
+              "notated_32nd_notes_per_beat": 8
+            },
+            {
+              "tick": 35328,
+              "numerator": 6,
+              "denominator": 2,
+              "clocks_per_click": 18,
+              "notated_32nd_notes_per_beat": 8
+            }
+          ],
+          "program_map": [
+            [
+              0,
+              0
+            ]
+          ],
+          "volume_map": [],
+          "first_three": [
+            {
+              "start": 0,
+              "end": 1152,
+              "pitch": 67,
+              "velocity": 127,
+              "release_velocity": 64
+            },
+            {
+              "start": 1152,
+              "end": 1536,
+              "pitch": 67,
+              "velocity": 127,
+              "release_velocity": 64
+            },
+            {
+              "start": 1536,
+              "end": 3072,
+              "pitch": 67,
+              "velocity": 127,
+              "release_velocity": 64
+            }
+          ]
+        },
+        "5": {
+          "voice": "Tenor",
+          "notes": 49,
+          "first_onset": 0,
+          "last_note_end": 39936,
+          "eot": 39936,
+          "source_eot": 39936,
+          "ppq": 384,
+          "tempo": [
+            [
+              0,
+              300000
+            ]
+          ],
+          "meter_map": [
+            {
+              "tick": 0,
+              "numerator": 4,
+              "denominator": 2,
+              "clocks_per_click": 18,
+              "notated_32nd_notes_per_beat": 8
+            },
+            {
+              "tick": 21504,
+              "numerator": 2,
+              "denominator": 2,
+              "clocks_per_click": 18,
+              "notated_32nd_notes_per_beat": 8
+            },
+            {
+              "tick": 27648,
+              "numerator": 6,
+              "denominator": 2,
+              "clocks_per_click": 18,
+              "notated_32nd_notes_per_beat": 8
+            },
+            {
+              "tick": 32256,
+              "numerator": 4,
+              "denominator": 2,
+              "clocks_per_click": 18,
+              "notated_32nd_notes_per_beat": 8
+            },
+            {
+              "tick": 35328,
+              "numerator": 6,
+              "denominator": 2,
+              "clocks_per_click": 18,
+              "notated_32nd_notes_per_beat": 8
+            }
+          ],
+          "program_map": [
+            [
+              0,
+              0
+            ]
+          ],
+          "volume_map": [],
+          "first_three": [
+            {
+              "start": 0,
+              "end": 1152,
+              "pitch": 62,
+              "velocity": 127,
+              "release_velocity": 64
+            },
+            {
+              "start": 1152,
+              "end": 1536,
+              "pitch": 62,
+              "velocity": 127,
+              "release_velocity": 64
+            },
+            {
+              "start": 1536,
+              "end": 3072,
+              "pitch": 59,
+              "velocity": 127,
+              "release_velocity": 64
+            }
+          ]
+        },
+        "7": {
+          "voice": "Bassus",
+          "notes": 44,
+          "first_onset": 0,
+          "last_note_end": 39936,
+          "eot": 39936,
+          "source_eot": 39936,
+          "ppq": 384,
+          "tempo": [
+            [
+              0,
+              300000
+            ]
+          ],
+          "meter_map": [
+            {
+              "tick": 0,
+              "numerator": 4,
+              "denominator": 2,
+              "clocks_per_click": 18,
+              "notated_32nd_notes_per_beat": 8
+            },
+            {
+              "tick": 21504,
+              "numerator": 2,
+              "denominator": 2,
+              "clocks_per_click": 18,
+              "notated_32nd_notes_per_beat": 8
+            },
+            {
+              "tick": 27648,
+              "numerator": 6,
+              "denominator": 2,
+              "clocks_per_click": 18,
+              "notated_32nd_notes_per_beat": 8
+            },
+            {
+              "tick": 32256,
+              "numerator": 4,
+              "denominator": 2,
+              "clocks_per_click": 18,
+              "notated_32nd_notes_per_beat": 8
+            },
+            {
+              "tick": 35328,
+              "numerator": 6,
+              "denominator": 2,
+              "clocks_per_click": 18,
+              "notated_32nd_notes_per_beat": 8
+            }
+          ],
+          "program_map": [
+            [
+              0,
+              0
+            ]
+          ],
+          "volume_map": [],
+          "first_three": [
+            {
+              "start": 0,
+              "end": 768,
+              "pitch": 55,
+              "velocity": 127,
+              "release_velocity": 64
+            },
+            {
+              "start": 768,
+              "end": 1536,
+              "pitch": 55,
+              "velocity": 127,
+              "release_velocity": 64
+            },
+            {
+              "start": 1536,
+              "end": 3072,
+              "pitch": 55,
+              "velocity": 127,
+              "release_velocity": 64
+            }
+          ]
+        }
+      },
+      "limitations": "Selected-track reader is not a full Cantabile project representation. All original tracks retained; no flattening, rest removal, quantization, gate clipping or model-support admission performed."
+    }
+  ],
+  "evidence": [
+    {
+      "filename": "21.ly",
+      "url": "https://www.mutopiaproject.org/ftp/DowlandJ/ALS1/UnquietThoughts/UnquietThoughts.ly",
+      "sha256": "28e775c1447b7da1e2f1734075c8de2e6eaf1811c1f066fd78c12e2f0cecb02e",
+      "bytes": 7778,
+      "acquired_utc": "2026-11-12T16:07:07.986945+00:00"
+    },
+    {
+      "filename": "21.mid",
+      "url": "https://www.mutopiaproject.org/ftp/DowlandJ/ALS1/UnquietThoughts/UnquietThoughts.mid",
+      "sha256": "62f8a9594609932fa9c9c56f0b69d55bc0a31852ffa8012842a23a566a643e93",
+      "bytes": 6233,
+      "acquired_utc": "2026-11-12T16:07:08.057325+00:00"
+    },
+    {
+      "filename": "1691.ly",
+      "url": "https://www.mutopiaproject.org/ftp/DowlandJ/ALS17/ComeAgain/ComeAgain.ly",
+      "sha256": "0586cdf33dd550afe7b0a6d506a6e23bbb689906319714d8cb2b25b3b461d49f",
+      "bytes": 7696,
+      "acquired_utc": "2026-11-12T16:07:07.969713+00:00"
+    },
+    {
+      "filename": "1691.mid",
+      "url": "https://www.mutopiaproject.org/ftp/DowlandJ/ALS17/ComeAgain/ComeAgain.mid",
+      "sha256": "4cc353989108ac40a7b74a40b170d331f783d7c6e4dfc9ed12f1e33e4dee59a8",
+      "bytes": 3637,
+      "acquired_utc": "2026-11-12T16:07:08.071305+00:00"
+    },
+    {
+      "filename": "21-page.html",
+      "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=21",
+      "sha256": "28b19e4423fd6866f355d7daf3300b5d4ceda51d524d0f39cd42ad339ac84826",
+      "bytes": 5874,
+      "acquired_date": "2026-11-12"
+    },
+    {
+      "filename": "1691-page.html",
+      "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1691",
+      "sha256": "c57ca94f757fe414a2ec55e9c638f0d30acb0c4f552c81a1eb11372228b16572",
+      "bytes": 5801,
+      "acquired_date": "2026-11-12"
+    },
+    {
+      "filename": "legal.html",
+      "url": "https://www.mutopiaproject.org/legal.html",
+      "sha256": "21dd9566f45b2b238be3e79c449d03fb964854e85e5d1d6e6c244d3352136aa3",
+      "bytes": 6786,
+      "acquired_date": "2026-11-12"
+    },
+    {
+      "filename": "original1597-metadata.json",
+      "url": "https://archive.org/metadata/firstbookeofsong00dowl",
+      "sha256": "c3efe18ac7bbc34450bbdb72f4d313ea673ef19d8efa5caf02f38ffe345287b6",
+      "bytes": 20655,
+      "acquired_date": "2026-11-12"
+    },
+    {
+      "filename": "dowland1597.pdf",
+      "url": "https://archive.org/download/firstbookeofsong00dowl/firstbookeofsong00dowl.pdf",
+      "sha256": "fff23e9e5dfc14173759c6aa522325eec8dbb826f8fa45c1e5f1f75202e21a6e",
+      "bytes": 10419318,
+      "acquired_date": "2026-11-12"
+    }
+  ],
+  "fixed_screen": {
+    "plan": "experiments/2026-11-12-dowland-cycle39-screen-plan.json",
+    "report": "experiments/2026-11-12-dowland-cycle39-screen.json",
+    "report_sha256": "aa649062e55ed8cbf36c577b78b8664d8ef17b43403e5ff0dbbf2e815b0161d4",
+    "comparisons": 45,
+    "flags": 0,
+    "rule": "exact8 interval intersection OR global normalized interval Levenshtein >=.80; exact2048, original note order without quantization",
+    "scope": "current17+observed640/921+blocked1692/804/1741+candidate mutual; not exhaustive all historical pending sources",
+    "limitation": "No flagged phrase under this screen does not prove originality or legal freedom. All existing blocked sources remain blocked."
+  },
+  "failed_or_rejected_evidence": [
+    "Archive imslp-firste-booke-of-songes-dowland-john PDF PMLP88495-UnquietThoughts-a4.pdf is a modern Mutopia derivative, not an original1597 scan; rejected as historical evidence."
+  ],
+  "fit": false,
+  "predictive_score": false,
+  "human_evaluation": false
+}

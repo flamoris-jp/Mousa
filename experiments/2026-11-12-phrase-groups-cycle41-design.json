@@ -1,0 +1,38 @@
+{
+  "status": "design_proposal_no_real_fit_or_generation",
+  "created_at_utc": "2026-11-12T16:38:40.763709+00:00",
+  "hypothesis": "A fixed two-bar return with chromatic variation can be applied without cutting sustained onset-group notes; technical feasibility and repetition descriptors are separate from attractiveness.",
+  "historical_context": "Cycle6 already explored handcrafted transposed forms. This extension tests protected sustained-group boundaries on current17-work corpus, not novelty of ABA form.",
+  "training": "same17; no additions; observed640/921 and two Cycle40 Dowland works never training",
+  "baseline": "unchanged global-arm GateContextGroupModel full8bar generation; seed0..4",
+  "intervention": "copy all groups on [0,2304) to [4608,6912), transpose+2; remove C groups explicitly; keep B/D and all note gates/velocity/release/order. Reject any note crossing2304,4608,6912; reject pitchoverflow, never clip or shift boundary.",
+  "timing": "PPQ384;6/8;9216ticks exact EOT; source rest durations within copied fragment unchanged, replacement may change total silence and density, report both.",
+  "guards": "both outputs identical original17+observed4 exact8interval checks generated/canonical ordering including joins; max3active, no samepitchoverlap, whole group reconstruction, every note inside target",
+  "budget": "one5candidate pool shared acrossconditions, no resampling to rescue intervention;CPU60 including generation;existing64proposal/256note bounds; no new fit/generation before parent final plan review",
+  "report": [
+    "everyseed status including baselinefailure",
+    "boundary failure location and sustained endpoints",
+    "removed C note/group/gate counts",
+    "added A note/group/gate counts",
+    "source motif return-by-construction not evaluation proof",
+    "notes density register silence and overlap changes",
+    "complete-only and common-success denominators",
+    "no actual human ratings or learnedphrase claims"
+  ],
+  "frozen_reference_hashes": {
+    "src/mousa/gate_context_group_model.py": "f74dcf7a54a4b07f6c8f828605327be7c307a6ab80c4e1e62c8955d24f993d08",
+    "src/mousa/group_timeline_metrics.py": "a058fe7b17b1d9ff6e7d0392d83459b01bbf09ecb612271ff4d2c05d3dcd2dcd",
+    "experiments/2026-11-12-gate-context-final-plan.json": "d2ea15dce6facbcba71f7cd3327ac74899eb0e48e90cfca5137575bc4a4bc836",
+    "experiments/2026-11-12-phrase-listening.md": "f7868ca4ab5ca18a0ba1ef4b5759bb3754292cc793ec86adce542fe21a290885"
+  },
+  "synthetic_tests_planned": [
+    "sustain across each cut rejected without mutation",
+    "end at boundary accepted",
+    "leading/internal/trailing silence retained in A copy",
+    "multiple simultaneous template members preserve gates velocities order",
+    "samepitch/polyphony/pitchoverflow failures",
+    "joined8note copy detection",
+    "unchanged input and deterministic adapter",
+    "empty/malformed/bounded input failclosed"
+  ]
+}

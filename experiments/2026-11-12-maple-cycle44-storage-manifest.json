@@ -1,0 +1,31 @@
+{
+  "role": "rights-reviewed-reserved-not-fit-not-scored",
+  "files": [
+    {
+      "filename": "metadata/research-maple23-reserved-cycle44-20261112.json",
+      "sha256": "2b587651357ab679b82b4a021f7451c2bffac596e7363b2d5ca3cbac54b6c694",
+      "bytes": 4395
+    },
+    {
+      "filename": "metadata/screen-plan.json",
+      "sha256": "77198fdac60ade6d72f99747c4a4921f29d265d0d2fb2a951fc5dd137f55cfca",
+      "bytes": 2694
+    },
+    {
+      "filename": "metadata/screen.json",
+      "sha256": "31f0ee48615f073ac3b5df13e3c59f67cbab3a7b729703dd5d527ca907a1cb91",
+      "bytes": 3734
+    },
+    {
+      "filename": "originals/maple.ly",
+      "sha256": "043e9d9207b771658a9afa51e2aa2537c448ecfd602e78ae50110cf3b12209fd",
+      "bytes": 10361
+    },
+    {
+      "filename": "originals/maple.mid",
+      "sha256": "3dd712a85fabd267f5a2cee5cb23af4683408c2f29b8814721844498f1ee4f66",
+      "bytes": 21518
+    }
+  ],
+  "excluded": "Historicalscan andprivatepaths; noaudio"
+}

@@ -1,0 +1,544 @@
+{
+  "kind": "posthoc_reporting_only_no_parameter_change",
+  "meaning": "Per-metric same-seed both-complete and both-nonmissing selection, not independent or aligned random draws. Preserves original complete-only report.",
+  "pairs": {
+    "17_raw__18_raw": {
+      "notes": {
+        "seeds": [
+          45000,
+          45001,
+          45002
+        ],
+        "denominator": 3,
+        "left_mean": 32,
+        "right_mean": 39.666666666666664,
+        "mean_paired_delta": 7.666666666666667,
+        "excluded_seeds": []
+      },
+      "overlap_onset_fraction": {
+        "seeds": [
+          45000,
+          45001,
+          45002
+        ],
+        "denominator": 3,
+        "left_mean": 0.3409090909090909,
+        "right_mean": 0.4880144582272242,
+        "mean_paired_delta": 0.1471053673181333,
+        "excluded_seeds": []
+      },
+      "mean_active_voices": {
+        "seeds": [
+          45000,
+          45001,
+          45002
+        ],
+        "denominator": 3,
+        "left_mean": 0.7804904513888888,
+        "right_mean": 0.96484375,
+        "mean_paired_delta": 0.18435329861111108,
+        "excluded_seeds": []
+      },
+      "max_active_voices": {
+        "seeds": [
+          45000,
+          45001,
+          45002
+        ],
+        "denominator": 3,
+        "left_mean": 2.3333333333333335,
+        "right_mean": 3,
+        "mean_paired_delta": 0.6666666666666666,
+        "excluded_seeds": []
+      },
+      "mean_abs_pitch_interval": {
+        "seeds": [
+          45000,
+          45001,
+          45002
+        ],
+        "denominator": 3,
+        "left_mean": 7.25233349153615,
+        "right_mean": 9.149592687316472,
+        "mean_paired_delta": 1.8972591957803233,
+        "excluded_seeds": []
+      },
+      "above_octave_fraction": {
+        "seeds": [
+          45000,
+          45001,
+          45002
+        ],
+        "denominator": 3,
+        "left_mean": 0.13099193165638348,
+        "right_mean": 0.22414038078999715,
+        "mean_paired_delta": 0.09314844913361367,
+        "excluded_seeds": []
+      },
+      "distinct_pitches": {
+        "seeds": [
+          45000,
+          45001,
+          45002
+        ],
+        "denominator": 3,
+        "left_mean": 15.333333333333334,
+        "right_mean": 21.333333333333332,
+        "mean_paired_delta": 6,
+        "excluded_seeds": []
+      },
+      "repeated_pitch_fraction": {
+        "seeds": [
+          45000,
+          45001,
+          45002
+        ],
+        "denominator": 3,
+        "left_mean": 0.0,
+        "right_mean": 0.03611347920810836,
+        "mean_paired_delta": 0.03611347920810836,
+        "excluded_seeds": []
+      },
+      "rest_ticks": {
+        "seeds": [
+          45000,
+          45001,
+          45002
+        ],
+        "denominator": 3,
+        "left_mean": 4682.666666666667,
+        "right_mean": 3428,
+        "mean_paired_delta": -1254.6666666666667,
+        "excluded_seeds": []
+      },
+      "rest_fraction": {
+        "seeds": [
+          45000,
+          45001,
+          45002
+        ],
+        "denominator": 3,
+        "left_mean": 0.5081018518518519,
+        "right_mean": 0.3719618055555555,
+        "mean_paired_delta": -0.1361400462962963,
+        "excluded_seeds": []
+      },
+      "anchor_interval_3gram_repeat_fraction": {
+        "seeds": [
+          45000,
+          45002
+        ],
+        "denominator": 2,
+        "left_mean": 0.0,
+        "right_mean": 0.0,
+        "mean_paired_delta": 0.0,
+        "excluded_seeds": [
+          45001
+        ]
+      }
+    },
+    "17_equal_work__18_equal_work": {
+      "notes": {
+        "seeds": [
+          45000,
+          45001,
+          45002
+        ],
+        "denominator": 3,
+        "left_mean": 21.333333333333332,
+        "right_mean": 37.666666666666664,
+        "mean_paired_delta": 16.333333333333332,
+        "excluded_seeds": []
+      },
+      "overlap_onset_fraction": {
+        "seeds": [
+          45000,
+          45001,
+          45002
+        ],
+        "denominator": 3,
+        "left_mean": 0.24206349206349206,
+        "right_mean": 0.41936964504283963,
+        "mean_paired_delta": 0.1773061529793476,
+        "excluded_seeds": []
+      },
+      "mean_active_voices": {
+        "seeds": [
+          45000,
+          45001,
+          45002
+        ],
+        "denominator": 3,
+        "left_mean": 0.5293330439814815,
+        "right_mean": 0.8969907407407408,
+        "mean_paired_delta": 0.3676576967592593,
+        "excluded_seeds": []
+      },
+      "max_active_voices": {
+        "seeds": [
+          45000,
+          45001,
+          45002
+        ],
+        "denominator": 3,
+        "left_mean": 2.3333333333333335,
+        "right_mean": 3,
+        "mean_paired_delta": 0.6666666666666666,
+        "excluded_seeds": []
+      },
+      "mean_abs_pitch_interval": {
+        "seeds": [
+          45000,
+          45001,
+          45002
+        ],
+        "denominator": 3,
+        "left_mean": 7.756236696466582,
+        "right_mean": 6.938133986521083,
+        "mean_paired_delta": -0.8181027099454979,
+        "excluded_seeds": []
+      },
+      "above_octave_fraction": {
+        "seeds": [
+          45000,
+          45001,
+          45002
+        ],
+        "denominator": 3,
+        "left_mean": 0.1783737760749255,
+        "right_mean": 0.15487607423091293,
+        "mean_paired_delta": -0.023497701844012554,
+        "excluded_seeds": []
+      },
+      "distinct_pitches": {
+        "seeds": [
+          45000,
+          45001,
+          45002
+        ],
+        "denominator": 3,
+        "left_mean": 12.333333333333334,
+        "right_mean": 18.333333333333332,
+        "mean_paired_delta": 6,
+        "excluded_seeds": []
+      },
+      "repeated_pitch_fraction": {
+        "seeds": [
+          45000,
+          45001,
+          45002
+        ],
+        "denominator": 3,
+        "left_mean": 0.037037037037037035,
+        "right_mean": 0.007936507936507936,
+        "mean_paired_delta": -0.0291005291005291,
+        "excluded_seeds": []
+      },
+      "rest_ticks": {
+        "seeds": [
+          45000,
+          45001,
+          45002
+        ],
+        "denominator": 3,
+        "left_mean": 5297.666666666667,
+        "right_mean": 3552,
+        "mean_paired_delta": -1745.6666666666667,
+        "excluded_seeds": []
+      },
+      "rest_fraction": {
+        "seeds": [
+          45000,
+          45001,
+          45002
+        ],
+        "denominator": 3,
+        "left_mean": 0.5748336226851852,
+        "right_mean": 0.3854166666666667,
+        "mean_paired_delta": -0.18941695601851852,
+        "excluded_seeds": []
+      },
+      "anchor_interval_3gram_repeat_fraction": {
+        "seeds": [
+          45000,
+          45001,
+          45002
+        ],
+        "denominator": 3,
+        "left_mean": 0.0,
+        "right_mean": 0.0,
+        "mean_paired_delta": 0.0,
+        "excluded_seeds": []
+      }
+    },
+    "17_equal_family__18_equal_family": {
+      "notes": {
+        "seeds": [
+          45000,
+          45001,
+          45002
+        ],
+        "denominator": 3,
+        "left_mean": 16.333333333333332,
+        "right_mean": 25,
+        "mean_paired_delta": 8.666666666666666,
+        "excluded_seeds": []
+      },
+      "overlap_onset_fraction": {
+        "seeds": [
+          45000,
+          45001,
+          45002
+        ],
+        "denominator": 3,
+        "left_mean": 0.37626262626262624,
+        "right_mean": 0.3737373737373737,
+        "mean_paired_delta": -0.002525252525252523,
+        "excluded_seeds": []
+      },
+      "mean_active_voices": {
+        "seeds": [
+          45000,
+          45001,
+          45002
+        ],
+        "denominator": 3,
+        "left_mean": 0.5601851851851852,
+        "right_mean": 0.6759259259259259,
+        "mean_paired_delta": 0.11574074074074073,
+        "excluded_seeds": []
+      },
+      "max_active_voices": {
+        "seeds": [
+          45000,
+          45001,
+          45002
+        ],
+        "denominator": 3,
+        "left_mean": 2.6666666666666665,
+        "right_mean": 2.6666666666666665,
+        "mean_paired_delta": 0,
+        "excluded_seeds": []
+      },
+      "mean_abs_pitch_interval": {
+        "seeds": [
+          45000,
+          45001,
+          45002
+        ],
+        "denominator": 3,
+        "left_mean": 6.115530303030303,
+        "right_mean": 8.192261904761905,
+        "mean_paired_delta": 2.0767316017316015,
+        "excluded_seeds": []
+      },
+      "above_octave_fraction": {
+        "seeds": [
+          45000,
+          45001,
+          45002
+        ],
+        "denominator": 3,
+        "left_mean": 0.1221590909090909,
+        "right_mean": 0.1699404761904762,
+        "mean_paired_delta": 0.047781385281385286,
+        "excluded_seeds": []
+      },
+      "distinct_pitches": {
+        "seeds": [
+          45000,
+          45001,
+          45002
+        ],
+        "denominator": 3,
+        "left_mean": 11,
+        "right_mean": 16.333333333333332,
+        "mean_paired_delta": 5.333333333333333,
+        "excluded_seeds": []
+      },
+      "repeated_pitch_fraction": {
+        "seeds": [
+          45000,
+          45001,
+          45002
+        ],
+        "denominator": 3,
+        "left_mean": 0.03125,
+        "right_mean": 0.019047619047619046,
+        "mean_paired_delta": -0.012202380952380952,
+        "excluded_seeds": []
+      },
+      "rest_ticks": {
+        "seeds": [
+          45000,
+          45001,
+          45002
+        ],
+        "denominator": 3,
+        "left_mean": 5856,
+        "right_mean": 4698.666666666667,
+        "mean_paired_delta": -1157.3333333333333,
+        "excluded_seeds": []
+      },
+      "rest_fraction": {
+        "seeds": [
+          45000,
+          45001,
+          45002
+        ],
+        "denominator": 3,
+        "left_mean": 0.6354166666666666,
+        "right_mean": 0.5098379629629629,
+        "mean_paired_delta": -0.12557870370370372,
+        "excluded_seeds": []
+      },
+      "anchor_interval_3gram_repeat_fraction": {
+        "seeds": [
+          45000,
+          45002
+        ],
+        "denominator": 2,
+        "left_mean": 0.0,
+        "right_mean": 0.0,
+        "mean_paired_delta": 0.0,
+        "excluded_seeds": [
+          45001
+        ]
+      }
+    },
+    "18_raw__18_natural_raw": {
+      "notes": {
+        "seeds": [
+          45000,
+          45001,
+          45002
+        ],
+        "denominator": 3,
+        "left_mean": 39.666666666666664,
+        "right_mean": 45,
+        "mean_paired_delta": 5.333333333333333,
+        "excluded_seeds": []
+      },
+      "overlap_onset_fraction": {
+        "seeds": [
+          45000,
+          45001,
+          45002
+        ],
+        "denominator": 3,
+        "left_mean": 0.4880144582272242,
+        "right_mean": 0.5288461538461539,
+        "mean_paired_delta": 0.04083169561892965,
+        "excluded_seeds": []
+      },
+      "mean_active_voices": {
+        "seeds": [
+          45000,
+          45001,
+          45002
+        ],
+        "denominator": 3,
+        "left_mean": 0.96484375,
+        "right_mean": 0.9976851851851852,
+        "mean_paired_delta": 0.032841435185185196,
+        "excluded_seeds": []
+      },
+      "max_active_voices": {
+        "seeds": [
+          45000,
+          45001,
+          45002
+        ],
+        "denominator": 3,
+        "left_mean": 3,
+        "right_mean": 3,
+        "mean_paired_delta": 0,
+        "excluded_seeds": []
+      },
+      "mean_abs_pitch_interval": {
+        "seeds": [
+          45000,
+          45001,
+          45002
+        ],
+        "denominator": 3,
+        "left_mean": 9.149592687316472,
+        "right_mean": 8.997946995147442,
+        "mean_paired_delta": -0.1516456921690296,
+        "excluded_seeds": []
+      },
+      "above_octave_fraction": {
+        "seeds": [
+          45000,
+          45001,
+          45002
+        ],
+        "denominator": 3,
+        "left_mean": 0.22414038078999715,
+        "right_mean": 0.23665546845837998,
+        "mean_paired_delta": 0.01251508766838282,
+        "excluded_seeds": []
+      },
+      "distinct_pitches": {
+        "seeds": [
+          45000,
+          45001,
+          45002
+        ],
+        "denominator": 3,
+        "left_mean": 21.333333333333332,
+        "right_mean": 23.333333333333332,
+        "mean_paired_delta": 2,
+        "excluded_seeds": []
+      },
+      "repeated_pitch_fraction": {
+        "seeds": [
+          45000,
+          45001,
+          45002
+        ],
+        "denominator": 3,
+        "left_mean": 0.03611347920810836,
+        "right_mean": 0.02127659574468085,
+        "mean_paired_delta": -0.014836883463427512,
+        "excluded_seeds": []
+      },
+      "rest_ticks": {
+        "seeds": [
+          45000,
+          45001,
+          45002
+        ],
+        "denominator": 3,
+        "left_mean": 3428,
+        "right_mean": 3418.6666666666665,
+        "mean_paired_delta": -9.333333333333334,
+        "excluded_seeds": []
+      },
+      "rest_fraction": {
+        "seeds": [
+          45000,
+          45001,
+          45002
+        ],
+        "denominator": 3,
+        "left_mean": 0.3719618055555555,
+        "right_mean": 0.37094907407407407,
+        "mean_paired_delta": -0.0010127314814814732,
+        "excluded_seeds": []
+      },
+      "anchor_interval_3gram_repeat_fraction": {
+        "seeds": [
+          45000,
+          45001,
+          45002
+        ],
+        "denominator": 3,
+        "left_mean": 0.0,
+        "right_mean": 0.0,
+        "mean_paired_delta": 0.0,
+        "excluded_seeds": []
+      }
+    }
+  }
+}

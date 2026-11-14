@@ -1,0 +1,155 @@
+{
+  "cycle": 30,
+  "acquired_at_utc": "2026-11-12T13:01:34.338619+00:00",
+  "candidates": [
+    {
+      "id": 904,
+      "composer": "Ludwig van Beethoven (1770–1827)",
+      "contributor": "Stelios Samelis",
+      "source_page": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=904",
+      "status": "rights_reviewed_reserved_unscreened",
+      "artifacts": [
+        {
+          "url": "https://www.mutopiaproject.org/ftp/BeethovenLv/WoO82/menuett_WoO82/menuett_WoO82.ly",
+          "file": "menuett_WoO82.ly",
+          "sha256": "ea1063881fc08218c12011f093d2bf70092a37d72f14f3f1a4e383b1e4a054af",
+          "bytes": 10145,
+          "prior_errors": []
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/BeethovenLv/WoO82/menuett_WoO82/menuett_WoO82.mid",
+          "file": "menuett_WoO82.mid",
+          "sha256": "64cf1e5040bb857a7aba4b733fbd04c888b128998fce325fedea259c095e94fb",
+          "bytes": 10207,
+          "prior_errors": []
+        }
+      ],
+      "source_sha256": "64cf1e5040bb857a7aba4b733fbd04c888b128998fce325fedea259c095e94fb",
+      "composition_rights": "Historicalpublishedcomposition bynamedcomposer;notinferredfromfreeavailability.",
+      "encoding_rights": {
+        "license": "Legacy PublicDomain dedication, notCC0",
+        "evidence": "PairedofficialLilyPond explicitly placedpublicdomainbytypesetter; distribute,modify,performallowed. ExactoriginalMIDIdownloadedunmodifiedfromsameofficialpiecepath.",
+        "sha256": "ea1063881fc08218c12011f093d2bf70092a37d72f14f3f1a4e383b1e4a054af"
+      },
+      "historical_edition": {
+        "identity": "Breitkopf & Härtel1862,BeethovensWerkeSerie18No193,plateB193",
+        "catalogue_url": "https://imslp.org/wiki/Minuet,_WoO_82_(Beethoven,_Ludwig_van)",
+        "catalogue_sha256": "cdcec60c2cbed1f122dd0b2531d39059e53d2e68e739adc66de493f218483d19",
+        "scan_url": "https://s9.imslp.org/files/imglnks/usimg/c/c6/IMSLP58151-PMLP30960-Beethoven_Werke_Breitkopf_Serie_18_No_193_WoO_82.pdf",
+        "scan_sha256": "8240e45028936abca3a5564e2e70f75ff2240c73dac8a6d163403ff260045257",
+        "visual_incipit": "PDFp1label(193)1,MenuettModerato,E-flat3/4,Bb3quarterpickup thenG4/Bb4quarterchord overBb3heldvoice,F4/Ab4andEb4/G4quarters; matcheslyandMIDI firstBb3tick0,firstchordtick384.",
+        "limitations": "Specificindividualvolumeeditor notnamedincatalogue; identified1862historicaleditionnotmodernarrangement. Mutopia1785compositiondatecontrastsothercatalogue1803; notusedforrightsinference."
+      },
+      "technical": {
+        "reader": "mousa.overlap_midi.read_midi",
+        "selected_track": 1,
+        "accepted": true,
+        "notes": 628,
+        "ppq": 384,
+        "meter": "3/4",
+        "pickup_ticks": 384,
+        "origin_ticks_mod_bar": 768,
+        "first_note_tick": 0,
+        "total_ticks": 140160,
+        "source_total_ticks": 140160,
+        "max_simultaneous_notes": 4,
+        "track2_notes": 528,
+        "no_repair": true
+      },
+      "family_review": {
+        "composer_contributor": "Distinct namedcomposer/contributor fromcurrenttrain9.",
+        "publisher_confound": "Breitkopf overlapsSchubert/Mendelssohn; Schirmer overlapsotherobserved/pendingeditions. Notpublisherindependent.",
+        "split": "Allpartseditions/transpositions/repeats samecompositionfamily; wholeOp39albumandMcNamaracontributions conservativelygroupedforTchaikovsky."
+      },
+      "model_fit": false,
+      "model_score": false,
+      "similarity_screen": false
+    },
+    {
+      "id": 2080,
+      "composer": "Pyotr Ilyich Tchaikovsky (1840–1893)",
+      "contributor": "David McNamara",
+      "source_page": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2080",
+      "status": "rights_reviewed_reserved_unscreened",
+      "artifacts": [
+        {
+          "url": "https://www.mutopiaproject.org/ftp/TchaikovskyPI/O39/16OldFrenchSong/16OldFrenchSong.ly",
+          "file": "16OldFrenchSong.ly",
+          "sha256": "b65b68630d04552ff7d6f56d0282a219feba407f1038ad544eb4f7d716876628",
+          "bytes": 5753,
+          "prior_errors": []
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/TchaikovskyPI/O39/16OldFrenchSong/16OldFrenchSong.mid",
+          "file": "16OldFrenchSong.mid",
+          "sha256": "112c3b61dab55f58bc44d9f3522ef21b3479ffa1953097783ff8c4f10e40175d",
+          "bytes": 1900,
+          "prior_errors": []
+        }
+      ],
+      "source_sha256": "112c3b61dab55f58bc44d9f3522ef21b3479ffa1953097783ff8c4f10e40175d",
+      "composition_rights": "Historicalpublishedcomposition bynamedcomposer;notinferredfromfreeavailability.",
+      "encoding_rights": {
+        "license": "Legacy PublicDomain dedication, notCC0",
+        "evidence": "PairedofficialLilyPond explicitly placedpublicdomainbytypesetter; distribute,modify,performallowed. ExactoriginalMIDIdownloadedunmodifiedfromsameofficialpiecepath.",
+        "sha256": "b65b68630d04552ff7d6f56d0282a219feba407f1038ad544eb4f7d716876628"
+      },
+      "historical_edition": {
+        "identity": "Schirmer1904,AdolfRuthardt1849–1934,plate17224 percatalogue",
+        "catalogue_url": "https://imslp.org/wiki/Children%27s_Album,_Op.39_(Tchaikovsky,_Pyotr)",
+        "catalogue_sha256": "640ee68be90f2420474ddb3c477bae9fcfe90d36af8f420f0da225bcfd452e8b",
+        "scan_url": "https://s9.imslp.org/files/imglnks/usimg/b/b5/IMSLP07996-Tchaikovsky_-_Op.39_-_Album_for_the_Young.pdf",
+        "scan_sha256": "b97ecc34c61196b1169889bab984e7c25905582ffd75bf39f16084c456e792af",
+        "visual_incipit": "PDFp19printed20No16OldFrenchsong,Moderatoassai,Gminor2/4,D4eighthpickup thenG4A4Bb4C5eighths andD5dottedquarter/D5eighth; matcheslyandMIDI62,67,69,70,72,74. AccompanimentBb3withG3heldvoice starts192.",
+        "limitations": "ScanisCDSheetMusicbranded reproduction,cataloguedSchirmer1904Ruthardt; nooriginaltitleleafinthisPDF. Editiontraditionandincipitcorroborated,notexactphysicalcopy orwholepiececollation. Noownershipclaimedoverbrand/reproductionlayout."
+      },
+      "technical": {
+        "reader": "mousa.overlap_midi.read_midi",
+        "selected_track": 1,
+        "accepted": true,
+        "notes": 99,
+        "ppq": 384,
+        "meter": "2/4",
+        "pickup_ticks": 192,
+        "origin_ticks_mod_bar": 576,
+        "first_note_tick": 0,
+        "total_ticks": 24768,
+        "source_total_ticks": 24768,
+        "max_simultaneous_notes": 2,
+        "track2_notes": 89,
+        "no_repair": true
+      },
+      "family_review": {
+        "composer_contributor": "Distinct namedcomposer/contributor fromcurrenttrain9.",
+        "publisher_confound": "Breitkopf overlapsSchubert/Mendelssohn; Schirmer overlapsotherobserved/pendingeditions. Notpublisherindependent.",
+        "split": "Allpartseditions/transpositions/repeats samecompositionfamily; wholeOp39albumandMcNamaracontributions conservativelygroupedforTchaikovsky."
+      },
+      "model_fit": false,
+      "model_score": false,
+      "similarity_screen": false
+    }
+  ],
+  "current_training_at_assignment": {
+    "ids": [
+      376,
+      888,
+      889,
+      789,
+      583,
+      1578,
+      1558,
+      370,
+      98
+    ],
+    "notes": 1142
+  },
+  "new_reserved_selected_track_notes": 727,
+  "new_training_notes": 0,
+  "scope": "TwoofficialoriginalMIDIandpairedlys+smallhistoricalscansonly. NoLilyPondexecution,modelcalls,largearchives,payments,gatesorexternalpersistentstorage.",
+  "limitations": [
+    "Subjecttofixedfamily/similarityscreenbeforeanyadmission; currentlyreservednottrained.",
+    "Beethoven628notesrequiresdeclaredlargerresourcebound ratherthantruncation.",
+    "Bothkeyboardpieces; onepolyphonicstaff. Nottwoindependentgenrebenchmarks.",
+    "Joplin263andoldblocked1692/804/1741statusesnotmodified."
+  ]
+}

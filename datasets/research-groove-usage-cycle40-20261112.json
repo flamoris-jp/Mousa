@@ -1,0 +1,23 @@
+{
+  "kind": "continued_usage_no_role_change",
+  "prior_usage_ledger": "datasets/research-groove-usage-cycle39-20261112.json",
+  "prior_usage_sha256": "b391fb84fe6741b85f8339e1eb6f6fcb5a154ba69d676904251a1c9a814c997b",
+  "plan": "experiments/2026-11-12-groove-cycle40-plan.json",
+  "results": "experiments/2026-11-12-groove-cycle40-results.json",
+  "results_sha256": "86ec0e52e5cc0513ad3ad119eac339e902f625e5f62b76818435aa34b66088e6",
+  "training_recordings": 58,
+  "training_events": 32141,
+  "observed_recordings": 16,
+  "observed_events": 11387,
+  "unscored_untrained_recordings": 1076,
+  "unscored_components": {
+    "eval_session_reserved": 40,
+    "duplicate_alias_excluded_from_fit": 1,
+    "other": 1035
+  },
+  "additional_training_sources": 0,
+  "additional_observations": 0,
+  "continued_same_sources": true,
+  "new_model_conditions": "raw/equal drummer x exact marginal/quotient residual; no source role change or weight tuning after results",
+  "historical_ledgers_unchanged": true
+}

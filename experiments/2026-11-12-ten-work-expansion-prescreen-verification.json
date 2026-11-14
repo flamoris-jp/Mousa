@@ -1,0 +1,10 @@
+{
+  "plan_sha256": "a20be1810356dec46690e2fb8da12cca59df37a5dee30ef797a699ad85ef0cbd",
+  "screen_sha256": "7334709c94a1c5d6dabdb97a2c8588958b8c34cc172d104880858f31253519ee",
+  "prior_supported_pairs_exact_parity": 54,
+  "long_pairs_completed": 11,
+  "total_pairs": 65,
+  "real_sources_fit": false,
+  "model_calls": 0,
+  "production_helper_changed": false
+}

@@ -1,0 +1,63 @@
+{
+  "acquired_at_utc": "2026-11-12T11:46:32.616655+00:00",
+  "candidate": 921,
+  "title": "Prelude Op.28 No.4 (from Peters source)",
+  "composer": "Frédéric Chopin (1810-1849)",
+  "contributor": "Roland Goretzki",
+  "composition_rights": {
+    "status": "historical-PD-supported",
+    "basis": "Composer died1849; Op28 historic publication1839; Peters/Scholtz historical score independently inspected."
+  },
+  "edition_rights": {
+    "status": "historical-PD-supported",
+    "editor": "Herrmann Scholtz (1845-1918)",
+    "basis": "Mutopia source Peters, Herrmann Scholtz,1900b.1900b is an edition-series number, NOT inferred publicationyear. Independent scan catalog identifies Scholtz, Peters1879, plate6206; printedpage492 has exact No4 incipit. Same editor/publisher textual tradition verified, not asserted exact physicalprinting used by contributor.",
+    "incipit": "PDFpage4 printed492: Eminor cuttime, pickup B3 dotted eighth then B4 sixteenth, B4 dottedhalf then C5 quarter; matches contributed source/MIDI. Source explicit partial4.",
+    "limitation": "Incipit and historical editorial identity checked, not full note-by-note critical collation."
+  },
+  "encoding_rights": {
+    "status": "PD-dedication-supported",
+    "license": "Legacy Public Domain dedication, not CC0",
+    "basis": "Both archivedLilyPond files header copyright PublicDomain and explicit sheetmusic has been placed in publicdomain by typesetter; maintainer RolandGoretzki; exact MIDI directly linked sameMutopia page."
+  },
+  "technical": {
+    "status": "selected-track-accepted",
+    "track": 1,
+    "notes": 92,
+    "ppq": 384,
+    "meter": [
+      2,
+      2
+    ],
+    "first_onset": 0,
+    "total_ticks": 39552,
+    "source_total_ticks": 39552,
+    "score_origin_ticks_mod_bar": 1152,
+    "origin_basis": "Explicit quarter-note pickup in2/2. MIDI onset0 is pickupstart; first fullbar starts384. No leadingpadding inferred.",
+    "limitations": [
+      "Track2 rejects unsupported non-CC7 controller; no pedal semantics dropped or accompaniment repaired. Selectedtrack1 is an exact event representation, not full piano performance fidelity.",
+      "Right-hand part includes polyphonic/chord content; not a recovered single melodic voice."
+    ]
+  },
+  "source_urls": {
+    "page": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=921",
+    "midi": "https://www.mutopiaproject.org/ftp/ChopinFF/O28/Chop-28-4a/Chop-28-4a.mid",
+    "lilypond_zip": "https://www.mutopiaproject.org/ftp/ChopinFF/O28/Chop-28-4a/Chop-28-4a-lys.zip",
+    "historical_scan": "https://s9.imslp.org/files/imglnks/usimg/8/80/IMSLP86359-PMLP02344-chopin-24-prel.pdf",
+    "historical_catalog": "https://imslp.org/wiki/Preludes,_Op.28_(Chopin,_Fr%C3%A9d%C3%A9ric)"
+  },
+  "sha256": {
+    "Chop-28-4a-lys.zip": "1f35c19d3bfdfeeac0a9c1a283aeb3a3cc8f98acb3f49593c4b25fcf6b161497",
+    "scholtz-preludes.pdf": "8ebfe2a2fa8b310e880646739a2aa2fabe94d3adaf5cebbc6c0755b8d53f7684",
+    "921.html": "42c073be7e36e76bde308cfdffd01a1f98710beeff8f3a553dd975f0a7d1add9",
+    "litolff-catalog.html": "ac097f2a5e9b6caac86777a9903914e10b0cd8dde5c5cf9f72e6463e6ef483f7",
+    "imslp-preludes.html": "f37fd170e58196ee45e2d2d81cb7bdb6858c0b7f059a944acd94661a770ff977",
+    "Chop-28-4a.mid": "b19f8e0d783915e80e33cc4f622ef9623994ab89f114a53983c3f628265b798b",
+    "historical-url.txt": "214f408bffa215d2d0111d054ddf41ed06758b51ee1b916c1c335c07ac242d87",
+    "source/chp-28-04-let.ly": "a26acfd0b5c5e2caed01a8d5211967e47b8306acc7258975020b92530f42a565",
+    "source/chp-28-04-a4.ly": "e53bb0f04010790cc8c7ddf9e6d70e1bad89af2836bdd463a6fe8068c9f72d1e"
+  },
+  "status": "reserved-only; no model fit/score or source-similarity clearance",
+  "family": "NewChopin/Goretzki family versus observed corpus. Group samecomposition alternateeditions921/468 and allChopin candidates before splitting; sharedPeters editorial ancestry with otherworks is possible, Mutopia/LilyPond commonpipeline remains.",
+  "recommendation": "Eligible for parent-reviewed reserved selected-track intake; predictive admission requires independently frozen screening. No source media inGit."
+}

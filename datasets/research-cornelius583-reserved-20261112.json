@@ -1,0 +1,28 @@
+{
+  "acquired_at": "2026-11-12T10:28:12.083953+00:00",
+  "files": [
+    {
+      "url": "https://www.mutopiaproject.org/ftp/CorneliusP/cornelius-ein-ton/cornelius-ein-ton.ly",
+      "sha256": "91a09b045b86d7b2fa0176bd37c14e775544ad8d6aaaeece707772414794e836"
+    },
+    {
+      "url": "https://www.mutopiaproject.org/ftp/CorneliusP/cornelius-ein-ton/cornelius-ein-ton.mid",
+      "sha256": "631bcd481e09c1493191959ec3264c3513c4a93177ffc6d833dea4f4952b659b"
+    }
+  ],
+  "id": 583,
+  "title": "Ein Ton (The Monotone)",
+  "composer": "Peter Cornelius1824-1874",
+  "contributor": "Daniel Johnson",
+  "source": "UniversitySociety1909 per LilyPond",
+  "rights": "Historicaledition independently visuallycorroborated: UniversitySociety scanned volume7 PDFpage68/printed350 identifies THEMONOTONE/EINTON/PETERCORNELIUS;3/4,Eminor,fullbarfermatarest,thendottedquarterrestandthreeB4eighths;matches sopNotes. PDFpage8 copyrightleaf includes1904,1906,1907,1908,1909.",
+  "technical": "3/4 constant as declared; deliberately single-pitch vocalwork, not generalmelodicquality evidence. Oldprofileunsupported; no fit/score.",
+  "source_page": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=583",
+  "cohort": "Differentcomposer than580, SAMEcontributor/publisher family; groupheldout with580 if admitted.",
+  "recommendation": "Rights evidence sufficient for local research selectedmelody; keep groupedwith580 under DanielJohnson/UniversitySociety. Singlepitch composition useful as narrowedgecase, not generalmelodybenchmark. Technicaladmission not checked here.",
+  "arrangement": "Historicalvoice+pianonotation independentlymatched, not inferrednewadaptation. Incipitonly compared,not fullscore.",
+  "encoding": "ExactMutopia sourcecopyrightPublicDomain,DanielJohnsonexplicittypesetterdedication. LegacyPDnotCC0. Page583 links suppliedMIDI/source.",
+  "historical_pdf_url": "https://s9.imslp.org/files/imglnks/usimg/7/7c/IMSLP271720-PMLP440654-worldsbestmusic07herb_bw.pdf",
+  "historical_pdf_sha256": "c8fa55fafce82f31b95395d8a38a27b5f141c8b7034d18cf402dfb6bd623d37f",
+  "reviewed_at": "2026-11-12T10:33:52.860692+00:00"
+}

@@ -1,0 +1,275 @@
+{
+  "config": {
+    "order": 1,
+    "prior_mass": 1.0,
+    "duration_support": [
+      1,
+      128
+    ],
+    "pitch_tokens": [
+      -1,
+      2,
+      26
+    ],
+    "support_size": 3328,
+    "seeds": [
+      7,
+      17,
+      29
+    ],
+    "steps": 128,
+    "guard_phrase_notes": 8,
+    "manifest_sha256": "c301326f5c163d7ef6716e4641ab33a3c6a2e5c7f9af023e772d3ad5a7d4cd27",
+    "trial_commit": "83ca8d477b84a7a8ceff0d80e0af4050b5d27b37",
+    "source_hashes": {
+      "src/mousa/event_baseline.py": "4543dbe11fb0b49a23d5993b954fd090c6341140c1a97dbd101ba7d91465eaa7",
+      "src/mousa/factorized_baseline.py": "874bc5718a90576ab9a4761cada17181776fdc228ff4697cea5030bc5ddfd17d",
+      "src/mousa/midi_research_adapter.py": "d0420650c3a1cf578d472a61ecaa707d54545a087bd03d0d22ada1586d08c11c",
+      "tools/compare_factorization.py": "b45914a3ca750fe302ec511aebd2942d630108e34b5bbe918153c4d1c54d5ad7"
+    },
+    "role": "already-inspected three-work diagnostic, not sealed benchmark",
+    "hypothesis": "same-support factorization improves unseen pair prediction; phrase guard blocks long source note sequences",
+    "comparison_warning": "Do not compare NLL directly with previous train-vocabulary+UNK experiment"
+  },
+  "models": {
+    "joint": {
+      "metrics": {
+        "mutopia-376": {
+          "split": "train",
+          "events": 174,
+          "correct_events": 123,
+          "correct_pitch": 135,
+          "correct_duration": 149,
+          "nll_per_event": 0.8357226556364068,
+          "support_size": 3328
+        },
+        "mutopia-2247": {
+          "split": "dev",
+          "events": 36,
+          "correct_events": 0,
+          "correct_pitch": 2,
+          "correct_duration": 4,
+          "nll_per_event": 10.193691044728265,
+          "support_size": 3328
+        },
+        "mutopia-2245": {
+          "split": "test",
+          "events": 52,
+          "correct_events": 1,
+          "correct_pitch": 4,
+          "correct_duration": 8,
+          "nll_per_event": 9.601985714055441,
+          "support_size": 3328
+        }
+      },
+      "candidates": [
+        {
+          "seed": 7,
+          "guard": false,
+          "status": "complete",
+          "rejections": 0,
+          "file": "joint-guard-0-seed-7.mid",
+          "sha256": "9e5eeb9f0b23808d72296231ad7633fd9d34ae7646cab1e6afe2c373f2f40f8f",
+          "exact_roundtrip": true,
+          "steps": 128,
+          "note_onsets": 6,
+          "longest_exact_grid_run": 11,
+          "matching_8_note_phrases": 0,
+          "disposition": "research only; near-copy and human quality not cleared"
+        },
+        {
+          "seed": 17,
+          "guard": false,
+          "status": "complete",
+          "rejections": 0,
+          "file": "joint-guard-0-seed-17.mid",
+          "sha256": "a95a15cbc67d1aa80690229486119aeaad789b7ff29b9be6d65d7dbe50f6a73d",
+          "exact_roundtrip": true,
+          "steps": 128,
+          "note_onsets": 5,
+          "longest_exact_grid_run": 15,
+          "matching_8_note_phrases": 0,
+          "disposition": "research only; near-copy and human quality not cleared"
+        },
+        {
+          "seed": 29,
+          "guard": false,
+          "status": "complete",
+          "rejections": 0,
+          "file": "joint-guard-0-seed-29.mid",
+          "sha256": "f868a3897c007c086643c38776a9a84238bc23167b9eea3034cb2480203de410",
+          "exact_roundtrip": true,
+          "steps": 128,
+          "note_onsets": 23,
+          "longest_exact_grid_run": 27,
+          "matching_8_note_phrases": 0,
+          "disposition": "research only; near-copy and human quality not cleared"
+        },
+        {
+          "seed": 7,
+          "guard": true,
+          "status": "complete",
+          "rejections": 0,
+          "file": "joint-guard-1-seed-7.mid",
+          "sha256": "9e5eeb9f0b23808d72296231ad7633fd9d34ae7646cab1e6afe2c373f2f40f8f",
+          "exact_roundtrip": true,
+          "steps": 128,
+          "note_onsets": 6,
+          "longest_exact_grid_run": 11,
+          "matching_8_note_phrases": 0,
+          "disposition": "research only; near-copy and human quality not cleared"
+        },
+        {
+          "seed": 17,
+          "guard": true,
+          "status": "complete",
+          "rejections": 0,
+          "file": "joint-guard-1-seed-17.mid",
+          "sha256": "a95a15cbc67d1aa80690229486119aeaad789b7ff29b9be6d65d7dbe50f6a73d",
+          "exact_roundtrip": true,
+          "steps": 128,
+          "note_onsets": 5,
+          "longest_exact_grid_run": 15,
+          "matching_8_note_phrases": 0,
+          "disposition": "research only; near-copy and human quality not cleared"
+        },
+        {
+          "seed": 29,
+          "guard": true,
+          "status": "complete",
+          "rejections": 0,
+          "file": "joint-guard-1-seed-29.mid",
+          "sha256": "f868a3897c007c086643c38776a9a84238bc23167b9eea3034cb2480203de410",
+          "exact_roundtrip": true,
+          "steps": 128,
+          "note_onsets": 23,
+          "longest_exact_grid_run": 27,
+          "matching_8_note_phrases": 0,
+          "disposition": "research only; near-copy and human quality not cleared"
+        }
+      ],
+      "wall_seconds": 0.1045463010000276
+    },
+    "factorized": {
+      "metrics": {
+        "mutopia-376": {
+          "split": "train",
+          "events": 174,
+          "correct_events": 121,
+          "correct_pitch": 135,
+          "correct_duration": 149,
+          "nll_per_event": 1.1778969631621061,
+          "support_size": 3328
+        },
+        "mutopia-2247": {
+          "split": "dev",
+          "events": 36,
+          "correct_events": 0,
+          "correct_pitch": 2,
+          "correct_duration": 14,
+          "nll_per_event": 7.858887072741592,
+          "support_size": 3328
+        },
+        "mutopia-2245": {
+          "split": "test",
+          "events": 52,
+          "correct_events": 2,
+          "correct_pitch": 4,
+          "correct_duration": 27,
+          "nll_per_event": 8.116598955628572,
+          "support_size": 3328
+        }
+      },
+      "candidates": [
+        {
+          "seed": 7,
+          "guard": false,
+          "status": "complete",
+          "rejections": 0,
+          "file": "factorized-guard-0-seed-7.mid",
+          "sha256": "8787d0fdb01791da020c85aeedaff3f04a631b61b783793d4498ee2f73e0b1df",
+          "exact_roundtrip": true,
+          "steps": 128,
+          "note_onsets": 10,
+          "longest_exact_grid_run": 13,
+          "matching_8_note_phrases": 0,
+          "disposition": "research only; near-copy and human quality not cleared"
+        },
+        {
+          "seed": 17,
+          "guard": false,
+          "status": "complete",
+          "rejections": 0,
+          "file": "factorized-guard-0-seed-17.mid",
+          "sha256": "2534390f6d53fae906af471729c350979b2480978ac410d43af1ca0cd0d501fa",
+          "exact_roundtrip": true,
+          "steps": 128,
+          "note_onsets": 9,
+          "longest_exact_grid_run": 11,
+          "matching_8_note_phrases": 0,
+          "disposition": "research only; near-copy and human quality not cleared"
+        },
+        {
+          "seed": 29,
+          "guard": false,
+          "status": "complete",
+          "rejections": 0,
+          "file": "factorized-guard-0-seed-29.mid",
+          "sha256": "5ab92e7b9596eb629f55e6f882c5fcb44b64089b984a72961650f654b4010d1f",
+          "exact_roundtrip": true,
+          "steps": 128,
+          "note_onsets": 14,
+          "longest_exact_grid_run": 12,
+          "matching_8_note_phrases": 0,
+          "disposition": "research only; near-copy and human quality not cleared"
+        },
+        {
+          "seed": 7,
+          "guard": true,
+          "status": "complete",
+          "rejections": 0,
+          "file": "factorized-guard-1-seed-7.mid",
+          "sha256": "8787d0fdb01791da020c85aeedaff3f04a631b61b783793d4498ee2f73e0b1df",
+          "exact_roundtrip": true,
+          "steps": 128,
+          "note_onsets": 10,
+          "longest_exact_grid_run": 13,
+          "matching_8_note_phrases": 0,
+          "disposition": "research only; near-copy and human quality not cleared"
+        },
+        {
+          "seed": 17,
+          "guard": true,
+          "status": "complete",
+          "rejections": 0,
+          "file": "factorized-guard-1-seed-17.mid",
+          "sha256": "2534390f6d53fae906af471729c350979b2480978ac410d43af1ca0cd0d501fa",
+          "exact_roundtrip": true,
+          "steps": 128,
+          "note_onsets": 9,
+          "longest_exact_grid_run": 11,
+          "matching_8_note_phrases": 0,
+          "disposition": "research only; near-copy and human quality not cleared"
+        },
+        {
+          "seed": 29,
+          "guard": true,
+          "status": "complete",
+          "rejections": 0,
+          "file": "factorized-guard-1-seed-29.mid",
+          "sha256": "5ab92e7b9596eb629f55e6f882c5fcb44b64089b984a72961650f654b4010d1f",
+          "exact_roundtrip": true,
+          "steps": 128,
+          "note_onsets": 14,
+          "longest_exact_grid_run": 12,
+          "matching_8_note_phrases": 0,
+          "disposition": "research only; near-copy and human quality not cleared"
+        }
+      ],
+      "wall_seconds": 0.10799563399996259
+    }
+  },
+  "peak_rss_kib": 17280,
+  "python": "3.12.14",
+  "cpu_only": true
+}

@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "seed": 460006,
+  "cases": 200,
+  "checks": 1284,
+  "module_sha256": "96061ae4099ce36062fa3b0ccb5dcfcd1040010072e5e81536f19f40780f2f42",
+  "method": "Independent backwards per-tick silence counting against all source-note occupancy, compared with production max-frontier segmentation. Synthetic overlap and varied member gates only; no real source fit."
+}

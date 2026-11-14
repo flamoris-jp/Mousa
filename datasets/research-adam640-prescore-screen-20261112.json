@@ -1,0 +1,166 @@
+{
+  "protocol": {
+    "date": "2026-11-12T11:15:14.677423+00:00",
+    "stop_rules": [
+      "any exact8-onset transposition-invariant pitch-interval match",
+      "whole pitch-interval normalized Levenshtein similarity >=0.80"
+    ],
+    "rhythm": "supplementary 7 transition tuples(pitch interval, exact onset delta /PPQ), no quantization",
+    "scope": "candidate640track2 versus requested11 known works plus previously representation-inspected1585/1587; no model fit/score",
+    "limitations": [
+      "Not perceptual or legal originality proof",
+      "Shorter or edited quotations can evade screen",
+      "Unknown contributor identities2247/2245 prevent universal contributor nonoverlap proof",
+      "All share Mutopia/LilyPond pipeline"
+    ]
+  },
+  "candidate": {
+    "id": 640,
+    "sha256": "13ec851eb00ca9aba345cad50f03bdb3b189f566f38d094a1e6b839765b3d678",
+    "track": 2,
+    "notes": 98,
+    "composer": "Adolphe Adam",
+    "contributor": "G\u00e9rard Gr\u00e9co",
+    "source_family": "L\u00e9on Grus historical voice/piano edition"
+  },
+  "comparisons": [
+    {
+      "id": 376,
+      "sha256": "b02e65def39bab988838d3d2e82ad9763f1b5b6b71b5a4c70e8f7b6d12eece8c",
+      "track": 1,
+      "notes": 159,
+      "exact8_interval_matches": 0,
+      "whole_interval_levenshtein_similarity": 0.2784810126582279,
+      "exact8_interval_and_rational_onset_matches": 0,
+      "stop_flag": false
+    },
+    {
+      "id": 888,
+      "sha256": "6e097cb82d30524335a19a2adb1cbf79cf6b070f7059182f0dc9d34ca3fc3848",
+      "track": 1,
+      "notes": 38,
+      "exact8_interval_matches": 0,
+      "whole_interval_levenshtein_similarity": 0.24742268041237114,
+      "exact8_interval_and_rational_onset_matches": 0,
+      "stop_flag": false
+    },
+    {
+      "id": 889,
+      "sha256": "cc45d10d7c21e858f37d4096979d4706bcfcaec400ef89abc1ac66378d51faa1",
+      "track": 1,
+      "notes": 47,
+      "exact8_interval_matches": 0,
+      "whole_interval_levenshtein_similarity": 0.2989690721649485,
+      "exact8_interval_and_rational_onset_matches": 0,
+      "stop_flag": false
+    },
+    {
+      "id": 789,
+      "sha256": "f849eace28acf450e306803203499aed4830cfba1a5cb8fe0953f594be15ffb9",
+      "track": 1,
+      "notes": 120,
+      "exact8_interval_matches": 0,
+      "whole_interval_levenshtein_similarity": 0.2773109243697479,
+      "exact8_interval_and_rational_onset_matches": 0,
+      "stop_flag": false
+    },
+    {
+      "id": 2247,
+      "sha256": "bd6524f98752dd9190376e29dd0bce82d5bd5e57dcdbd549687e7836629434ff",
+      "track": 1,
+      "notes": 33,
+      "exact8_interval_matches": 0,
+      "whole_interval_levenshtein_similarity": 0.22680412371134018,
+      "exact8_interval_and_rational_onset_matches": 0,
+      "stop_flag": false
+    },
+    {
+      "id": 2245,
+      "sha256": "f4d0789f098b122d48789f80382d4eacbc577f1a4c058a14921b3c0f96466d3d",
+      "track": 1,
+      "notes": 46,
+      "exact8_interval_matches": 0,
+      "whole_interval_levenshtein_similarity": 0.24742268041237114,
+      "exact8_interval_and_rational_onset_matches": 0,
+      "stop_flag": false
+    },
+    {
+      "id": 1578,
+      "sha256": "6cf3c60882c186ec642383caf4c5b265778d53159225b56dc121c4b595cdaf9d",
+      "track": 1,
+      "notes": 170,
+      "exact8_interval_matches": 0,
+      "whole_interval_levenshtein_similarity": 0.2781065088757396,
+      "exact8_interval_and_rational_onset_matches": 0,
+      "stop_flag": false
+    },
+    {
+      "id": 1558,
+      "sha256": "50a29ba4579b984c24b2e13ec4fafb08c468c6c5db6bd9313d9134b00cf8e8c9",
+      "track": 1,
+      "notes": 289,
+      "exact8_interval_matches": 0,
+      "whole_interval_levenshtein_similarity": 0.23263888888888884,
+      "exact8_interval_and_rational_onset_matches": 0,
+      "stop_flag": false
+    },
+    {
+      "id": 1585,
+      "sha256": "b0f8bb73e26ceaf153ce333468f4f41e3279760a3f9d3c551fda7ea496f3590f",
+      "track": 1,
+      "notes": 100,
+      "exact8_interval_matches": 0,
+      "whole_interval_levenshtein_similarity": 0.2222222222222222,
+      "exact8_interval_and_rational_onset_matches": 0,
+      "stop_flag": false
+    },
+    {
+      "id": 1587,
+      "sha256": "ead79c2eaca7f75bc6cfbc7a141c62d873cd7a4fca217fc31c056945fde1c46e",
+      "track": 1,
+      "notes": 108,
+      "exact8_interval_matches": 0,
+      "whole_interval_levenshtein_similarity": 0.26168224299065423,
+      "exact8_interval_and_rational_onset_matches": 0,
+      "stop_flag": false
+    },
+    {
+      "id": 370,
+      "sha256": "3235864dce0f7a59f1eb348bda55065263c0366267e32f27ce6240c9dde3f6b5",
+      "track": 1,
+      "notes": 108,
+      "exact8_interval_matches": 0,
+      "whole_interval_levenshtein_similarity": 0.28037383177570097,
+      "exact8_interval_and_rational_onset_matches": 0,
+      "stop_flag": false
+    },
+    {
+      "id": 580,
+      "sha256": "dcd5efac22b5e91b7c87685058784396adb9ec5d69915764265ad68158dbb6e1",
+      "track": 1,
+      "notes": 92,
+      "exact8_interval_matches": 0,
+      "whole_interval_levenshtein_similarity": 0.21649484536082475,
+      "exact8_interval_and_rational_onset_matches": 0,
+      "stop_flag": false
+    },
+    {
+      "id": 583,
+      "sha256": "631bcd481e09c1493191959ec3264c3513c4a93177ffc6d833dea4f4952b659b",
+      "track": 1,
+      "notes": 80,
+      "exact8_interval_matches": 0,
+      "whole_interval_levenshtein_similarity": 0.20618556701030932,
+      "exact8_interval_and_rational_onset_matches": 0,
+      "stop_flag": false
+    }
+  ],
+  "any_stop_flag": false,
+  "family_review": {
+    "named_identity_overlap": false,
+    "unknowns": "2247/2245 contributors labelled Anonymous, so cannot exclude undisclosed identity overlap; no positive evidence of relationship to Gr\u00e9co.",
+    "edition_overlap": false,
+    "basis": "Training Sanderson/Holmes, observed PhRaynaud/Johnson/Sanderson, reserved583Johnson; historical Schirmer, Ditson, EnglishCountySongs, FolkSongsFromHampshire, BreitkopfH\u00e4rtel and UniversitySociety differ from Grus. ComposerAdam not in priorlist.",
+    "shared_pipeline": "Mutopia distribution and LilyPond encoding remain common; not independent platform."
+  }
+}

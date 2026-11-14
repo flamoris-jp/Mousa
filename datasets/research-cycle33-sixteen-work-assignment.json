@@ -1,0 +1,268 @@
+{
+  "schema_version": 1,
+  "scope": "Cycle33 prospective base5 versus16work raw expansion; prepare only pending synthetic16 capability proof, fixed crosssplit screen and separate parent fit clearance. Current14 already trained;640/921 observed diagnostics only.",
+  "related_evaluation_exclusions": [
+    "mutopia-580"
+  ],
+  "diagnostic_families": {
+    "640": [
+      "adam-greco-grus"
+    ],
+    "921": [
+      "chopin-goretzki-scholtz-peters"
+    ]
+  },
+  "additions": [
+    {
+      "work_id": "mutopia-1578",
+      "canonical_source_id": "mutopia-1578",
+      "family_id": "schubert-breitkopf-raynaud",
+      "file": "mousa-named-source-review-20261112/1578.mid",
+      "sha256": "6cf3c60882c186ec642383caf4c5b265778d53159225b56dc121c4b595cdaf9d",
+      "track": 1,
+      "rights_evidence": "datasets/research-frozen-schubert-transfer-20261112.json",
+      "rights_evidence_sha256": "994fcc3cfbb8edc47faec4a8635b312c7c54d44ad8e575948edefb1f66b3c910",
+      "rights_approved": true,
+      "family_reviewed": true,
+      "review_reference": "Cycle29 parent reviewed exact historical rights and explicit root authorization for exploratory reassignment; not new unseen source choice",
+      "previous_role": "already predictively observed; immutable historical test ledger retained"
+    },
+    {
+      "work_id": "mutopia-1558",
+      "canonical_source_id": "mutopia-1558",
+      "family_id": "schubert-breitkopf-raynaud",
+      "file": "mousa-named-source-review-20261112/1558.mid",
+      "sha256": "50a29ba4579b984c24b2e13ec4fafb08c468c6c5db6bd9313d9134b00cf8e8c9",
+      "track": 1,
+      "rights_evidence": "datasets/research-frozen-schubert-transfer-20261112.json",
+      "rights_evidence_sha256": "994fcc3cfbb8edc47faec4a8635b312c7c54d44ad8e575948edefb1f66b3c910",
+      "rights_approved": true,
+      "family_reviewed": true,
+      "review_reference": "Cycle29 parent reviewed exact historical rights and explicit root authorization for exploratory reassignment; not new unseen source choice",
+      "previous_role": "already predictively observed; immutable historical test ledger retained"
+    },
+    {
+      "work_id": "mutopia-370",
+      "canonical_source_id": "mutopia-370",
+      "family_id": "stan-sanderson-contributor",
+      "file": "mousa-fresh-source-review-20261112/370.mid",
+      "sha256": "3235864dce0f7a59f1eb348bda55065263c0366267e32f27ce6240c9dde3f6b5",
+      "track": 1,
+      "rights_evidence": "datasets/research-frozen-foster-transfer-20261112.json",
+      "rights_evidence_sha256": "f075804c974c6987e342b62d9caf98c209c631efd8ea7bd74d434bd6ff17b4eb",
+      "rights_approved": true,
+      "family_reviewed": true,
+      "review_reference": "Cycle29 parent reviewed exact historical rights and explicit root authorization for exploratory reassignment; not new unseen source choice",
+      "previous_role": "already predictively observed; immutable historical test ledger retained"
+    },
+    {
+      "work_id": "mutopia-98-legacy",
+      "canonical_source_id": "mutopia-98",
+      "family_id": "handel-chrysander-maddock",
+      "file": "mousa-cycle29-rights/ibiblio-sonatina-in-b-flat-major.mid",
+      "sha256": "556a50d0f00433f6973076704677eeb2b44c8dc81b1763b3b6d1dc0b716d3d5b",
+      "track": 1,
+      "rights_evidence": "datasets/research-new-cohorts-cycle29-20261112.json",
+      "rights_evidence_sha256": "2b5461f5f81681c1aba50d5bc0b937d0d1411bb694e111cf6d541080fae997ef",
+      "rights_approved": true,
+      "family_reviewed": true,
+      "review_reference": "Cycle29 exact legacy MIDI/source PD dedication and historical Chrysander incipit reviewed; original mirror version preserved. New keyboardstaff cohort, no claim isolated monophonic melody.",
+      "previous_role": "new source technically inspected and crosssplit preflight observed; never predictively evaluated"
+    },
+    {
+      "work_id": "mutopia-263-legacy",
+      "canonical_source_id": "mutopia-263",
+      "family_id": "joplin-stark-sawer",
+      "file": "mousa-cycle29-rights/ibiblio-entertainer.mid",
+      "sha256": "80f94141dff97aabb3cf37e1ccc3f6ac41563dd4421d0a648786a8f8e36efc68",
+      "track": 1,
+      "rights_evidence": "datasets/research-new-cohorts-cycle29-20261112.json",
+      "rights_evidence_sha256": "2b5461f5f81681c1aba50d5bc0b937d0d1411bb694e111cf6d541080fae997ef",
+      "rights_approved": true,
+      "family_reviewed": true,
+      "review_reference": "Cycle30 exactlegacy originalMIDI paired explicittypesetterPDdedication and1902Starkhistoricincipit reviewed. No sourceexecution, no latestversionidentityclaim. Actualfit remainsconditionalonunchangedthresholdlongscreen andboundreview.",
+      "previous_role": "Rightsreviewed reserved;1394notes known, no prior modelscore/fit or similarityscore."
+    },
+    {
+      "work_id": "mutopia-904",
+      "canonical_source_id": "mutopia-904",
+      "family_id": "beethoven-breitkopf-samelis",
+      "file": "mousa-cycle30-rights/menuett_WoO82.mid",
+      "sha256": "64cf1e5040bb857a7aba4b733fbd04c888b128998fce325fedea259c095e94fb",
+      "track": 1,
+      "rights_evidence": "datasets/research-new-cohorts-cycle30-20261112.json",
+      "rights_evidence_sha256": "d3816534636fb4eb67a1f6d966456dc6752e4a5643be43a087c35fbebfd9b790",
+      "rights_approved": true,
+      "family_reviewed": true,
+      "review_reference": "Cycle30 exactoriginalMIDI andpairedtypesetterPDdedication reviewed with historicaleditionincipit and composer/editorage evidence; publisherconfounds/reproductionscanlimits retained. Actualfitconditionalonfixedcrosssplitgate.",
+      "previous_role": "Reserved source knowntechnicalnotes only, no previoussimilarity/prediction/fit."
+    },
+    {
+      "work_id": "mutopia-2080",
+      "canonical_source_id": "mutopia-2080",
+      "family_id": "ruthardt-editorial-cohort",
+      "file": "mousa-cycle30-rights/16OldFrenchSong.mid",
+      "sha256": "112c3b61dab55f58bc44d9f3522ef21b3479ffa1953097783ff8c4f10e40175d",
+      "track": 1,
+      "rights_evidence": "datasets/research-new-cohorts-cycle30-20261112.json",
+      "rights_evidence_sha256": "d3816534636fb4eb67a1f6d966456dc6752e4a5643be43a087c35fbebfd9b790",
+      "rights_approved": true,
+      "family_reviewed": true,
+      "review_reference": "Cycle30 exactoriginalMIDI andpairedtypesetterPDdedication reviewed with historicaleditionincipit and composer/editorage evidence; publisherconfounds/reproductionscanlimits retained. Actualfitconditionalonfixedcrosssplitgate.",
+      "previous_role": "Reserved source knowntechnicalnotes only, no previoussimilarity/prediction/fit.",
+      "cycle32_family_note": "Conservatively grouped with both Czerny exercises by shared editor Adolf Ruthardt; old cycle30 assignment left immutable."
+    },
+    {
+      "work_id": "mutopia-2060",
+      "canonical_source_id": "mutopia-2060",
+      "family_id": "ruthardt-editorial-cohort",
+      "file": "mousa-cycle32-rights/2060.mid",
+      "sha256": "4592e80dbc7e4bb76c9f8009e488774ccd751f08bf9f09cb3da83665471d345d",
+      "track": 1,
+      "rights_evidence": "datasets/research-new-cohorts-cycle32-20261112.json",
+      "rights_evidence_sha256": "4e7763e89e1844fbc5ce445029b3a08e266fa52365c9cccb36895c0ba1b66636",
+      "rights_approved": true,
+      "family_reviewed": true,
+      "review_reference": "Cycle32 parent explicitly requested prospective14work prepare after source review. Czerny composition/Ruthardt1888 edition/ManuelCastejonLimas PD encoding and scannedplate6990 incipit reviewed. No fit until fixed screen and later parent clearance.",
+      "previous_role": "Reserved rights-reviewed source, technically inspected only; no model fit/score.",
+      "meter_origin_ticks": 0,
+      "source_eot_preserved": true
+    },
+    {
+      "work_id": "mutopia-2061",
+      "canonical_source_id": "mutopia-2061",
+      "family_id": "ruthardt-editorial-cohort",
+      "file": "mousa-cycle32-rights/2061.mid",
+      "sha256": "2e1c2f560c5fecf1646a9435f03f1efe377fc63ca1b1137a8f6192ae1dc921f9",
+      "track": 2,
+      "rights_evidence": "datasets/research-new-cohorts-cycle32-20261112.json",
+      "rights_evidence_sha256": "4e7763e89e1844fbc5ce445029b3a08e266fa52365c9cccb36895c0ba1b66636",
+      "rights_approved": true,
+      "family_reviewed": true,
+      "review_reference": "Cycle32 parent explicitly requested prospective14work prepare after source review. Czerny composition/Ruthardt1888 edition/ManuelCastejonLimas PD encoding and scannedplate6990 incipit reviewed. No fit until fixed screen and later parent clearance.",
+      "previous_role": "Reserved rights-reviewed source, technically inspected only; no model fit/score.",
+      "meter_origin_ticks": 0,
+      "source_eot_preserved": true
+    },
+    {
+      "work_id": "mutopia-186",
+      "canonical_source_id": "mutopia-186",
+      "family_id": "haydn-koehler-peters-wassink",
+      "file": "mousa-cycle33-rights/186.mid",
+      "sha256": "37b97075c873529760c96539f9894ec6eb99cc1065d76344f7b1fc397d6b63d4",
+      "track": 1,
+      "rights_evidence": "datasets/research-new-cohorts-cycle33-20261112.json",
+      "rights_evidence_sha256": "c5ace67d664cb7c547e079d954da3704f61e51c6388622c6f19a76eae7e2a122",
+      "rights_approved": true,
+      "family_reviewed": true,
+      "review_reference": "Cycle33 bounded source review: explicit typesetterPD, historical composer and edition/editor/incipit corroborated. Parent authorized prospective prepare only, not model fit. Schema flags do not authorize fit.",
+      "previous_role": "Rights-reviewed reserved; technical notation import only; no model score/fit.",
+      "related_family_links": [
+        "BasWassink also typeset pendingBurgmuller202/214, not an independent contributor versus full reserved corpus.",
+        "LouisKoehler editor also appears in blockedClementi804. Does not admit or reclassify804; future family split must retain link.",
+        "Peters publisher shared with other trained/observed materials; no complete independence claim."
+      ],
+      "meter_origin_ticks": 0,
+      "source_eot_preserved": true
+    },
+    {
+      "work_id": "mutopia-487",
+      "canonical_source_id": "mutopia-487",
+      "family_id": "rameau-malherbe-durand-sardain",
+      "file": "mousa-cycle33-rights/487.mid",
+      "sha256": "873b2934c4daaedae780d6a0adf0b43fb5302ec5499bfe5ff8d4a95d5efad5bf",
+      "track": 1,
+      "rights_evidence": "datasets/research-new-cohorts-cycle33-20261112.json",
+      "rights_evidence_sha256": "c5ace67d664cb7c547e079d954da3704f61e51c6388622c6f19a76eae7e2a122",
+      "rights_approved": true,
+      "family_reviewed": true,
+      "review_reference": "Cycle33 bounded source review: explicit typesetterPD, historical composer and edition/editor/incipit corroborated. Parent authorized prospective prepare only, not model fit. Schema flags do not authorize fit.",
+      "previous_role": "Rights-reviewed reserved; technical notation import only; no model score/fit.",
+      "related_family_links": [
+        "No same composer/contributor/editor identified among current14; this is metadata review, not duplicate clearance.",
+        "All related1724suite pieces and any arrangements/transforms should remain same family; no separate movement used as fresh independent cohort."
+      ],
+      "meter_origin_ticks": 768,
+      "source_eot_preserved": true
+    }
+  ],
+  "family_groups": {
+    "stan-sanderson-contributor": [
+      "mutopia-376",
+      "mutopia-370"
+    ],
+    "schubert-breitkopf-raynaud": [
+      "mutopia-1578",
+      "mutopia-1558"
+    ],
+    "paired-888889-publication": [
+      "mutopia-888",
+      "mutopia-889"
+    ],
+    "mutopia-789": [
+      "mutopia-789"
+    ],
+    "daniel-johnson-university-society": [
+      "mutopia-583"
+    ],
+    "handel-chrysander-maddock": [
+      "mutopia-98-legacy"
+    ],
+    "joplin-stark-sawer": [
+      "mutopia-263-legacy"
+    ],
+    "beethoven-breitkopf-samelis": [
+      "mutopia-904"
+    ],
+    "tchaikovsky-op39-ruthardt-mcnamara": [
+      "mutopia-2080"
+    ]
+  },
+  "expected": {
+    "base_works": 5,
+    "base_events": 444,
+    "expanded_works": 12,
+    "added_events": 2819,
+    "expanded_events": 3263,
+    "conservative_families": 9
+  },
+  "status_rule": "Only after actual fit, parent observation registry records trained reassignment. Historical reports/test-role ledgers never rewritten.",
+  "selection": "Allprevious10 sources retained plus newBeethoven904track1 andTchaikovsky2080track1 selected beforetheir firstsimilarityresult. Allnotes including polyphony/pickups kept. Entire12assignmentblocksifanycrosssplitflag; do notsilentlyexcludeatrack ortruncate. A latereligible-subsetplan wouldrequireexplicitnewrecord, notrewritingthisone.",
+  "authorization_note": "JSON flags are not authority; parent must separately review plan before execution.",
+  "family_interpretation": "Nine declared edition/contributor groups, NOTnineindependentpublishers orcontributors. NigelHolmes andStanSanderson links retained; BreitkopfsharedSchubert/Beethoven, Schirmerotherobserved/pendingworks. WholeTchaikovskyOp39/cohort cannotcrosssplits.",
+  "shared_contributor_links": [
+    [
+      "mutopia-888",
+      "mutopia-889",
+      "mutopia-789"
+    ],
+    [
+      "mutopia-376",
+      "mutopia-370"
+    ]
+  ],
+  "meter_limitation": "Exact6/8 source timing retained, but fitted timing models have no meter conditioning; no meter-aware generation claim.",
+  "limitations": [
+    "Naturaleventweighting/texture/composerconfounded; notcausalsamplesizeeffect.",
+    "Joplin1394/3263events, Beethoven628/3263events; longworksnotindependentsamples.",
+    "Severalkeyboardstaffs polyphonic, notisolatedmelodies. Inputpoly4vsoutputcap3retained.",
+    "Fixedtimingmodelnotmeterconditioned despite3/4and2/4sourceadditions.",
+    "No newheldout/genrediversity/appealclaim.",
+    "Sourceedition/reproduction andpublisherconfounds retained inrightsledger."
+  ],
+  "supersedes_for_this_experiment_only": "datasets/research-cycle32-fourteen-work-assignment.json",
+  "prior_assignment_sha256": "59988983a063e5355dd17a519fb25e3259baa348263a64c939a06f7a5fd3fbaa",
+  "cycle32_notes": [
+    "Both Czerny Op821 exercises and both hands/versions remain a single work-series cohort; shared Ruthardt editor also connects2080.",
+    "Peters publisher overlaps diagnostic921; declared publisher alone is not claimed independent editorial authorship. Diagnostic921 Scholtz/Goretzki and640 Greco/Grus differ from Ruthardt/Limas.",
+    "Source original endings11712ticks(2060)/8640ticks(2061) retained; no score-rest reconstruction, quantization or source execution.",
+    "Existing blocked1692/804/1741 and observed640/921/580 are not additions. No discarded-source reuse.",
+    "Quantity/content/vocabulary and event-order texture remain confounded; raw natural-count comparison, not equal family weighting."
+  ],
+  "cycle33_notes": [
+    "Haydn186 new to training candidate pool but contributorBasWassink links pending202/214 and editorKoehler links blocked804. Related works remain pending/blocked, not silently admitted.",
+    "Rameau487 newcomposer/contributor/editor series, not similarity-cleared yet.",
+    "Requires actual16work synthetic capability preflight before original-input prepare. Existing14cap driver must not run this assignment.",
+    "Original endpoints and pickup origin preserved. No source cleaning, synthetic padding or generation from LilyPond."
+  ]
+}

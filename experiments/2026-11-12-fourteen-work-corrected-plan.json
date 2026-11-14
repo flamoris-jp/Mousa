@@ -1,0 +1,117 @@
+{
+  "created_at_utc": "2026-11-12T13:48:26.269554+00:00",
+  "scope": "Prospective approved-addition comparison; observed640/921diagnostics only",
+  "assignment_sha256": "59988983a063e5355dd17a519fb25e3259baa348263a64c939a06f7a5fd3fbaa",
+  "base_ids": [
+    "mutopia-376",
+    "mutopia-888",
+    "mutopia-889",
+    "mutopia-789",
+    "mutopia-583"
+  ],
+  "addition_ids": [
+    "mutopia-1578",
+    "mutopia-1558",
+    "mutopia-370",
+    "mutopia-98-legacy",
+    "mutopia-263-legacy",
+    "mutopia-904",
+    "mutopia-2080",
+    "mutopia-2060",
+    "mutopia-2061"
+  ],
+  "diagnostics": [
+    "640",
+    "921"
+  ],
+  "models": [
+    "factorized",
+    "contextk4"
+  ],
+  "weights": "raw natural event counts; per-work boundaries preserved",
+  "generation": "contextonly,seeds0..4,mix1/4,optimizedfeasible,tail384,target9216,max256notes; all statuses/no retries",
+  "cpu_limit_seconds": 60,
+  "resource_scope": "process CPU checked before each bounded fit/evaluate/generate; no hard OS preemption",
+  "screens": "Exact byte duplicate reject; train-vs640/921 exact8 OR .80global blocks. Withintrain overlaps reported/grouped, not automatic common-pattern rejection.",
+  "authorization": "Schema flags do not prove authority; separate actual parent rights/assignment review required before run.",
+  "frozen_hashes": {
+    "tools/compare_cornelius_augmentation.py": "cbca22666e8ae6a3125174fcee64c013a83263a2cf3f684d33d3e0dbc56c9981",
+    "src/mousa/context_onset_gate.py": "32ff6404caf451e18649c85462f32c1bcca8389b434a23d9c4ec1d6d09f8af0c",
+    "src/mousa/onset_gate_model.py": "6cfafbcb5f7cdcb9d3279b460b66bdf88b1f4a3f918312639cdb69cc0a89c92d",
+    "src/mousa/optimized_feasible_generation.py": "fb1a5298b344c375e49f0abf6bdd39b400178a0b869624cce3c6ceb94f4ea121",
+    "src/mousa/feasible_context_generation.py": "57ff1dabc40a05af14f585701a9852dc6e699ba508cdadd00b8754ff1b24d783",
+    "tools/compare_context_onset_gate.py": "a4838f8c1e38b591e9366269ecabaabcc0a66bffab1031b68beddc942980f78a",
+    "tools/compare_onset_gate_models.py": "07a2bfaf79bc8e3b37c0982657056e34d8e6bd117ba03c5fa913bfaad17c4784",
+    "datasets/research-exploratory-multifamily-20261112.json": "bfcb2777ca6af1fbf41e957809a0fd35c6291e9bb3ae14182fd7ba1c9a86f6d7",
+    "datasets/research-cornelius583-training-assignment.json": "9ef48d43a1aa6670a0c1ae0824b03fcf0c894f6d299679cb820c0ff27e283d09",
+    "datasets/research-cornelius583-reserved-20261112.json": "dfa52be1c8c70cb967b468d2c970b0b4a53b4bba8ca6fd97c029bf16ce2e8bf7",
+    "src/mousa/overlap_midi.py": "1afc11bf6b6985a2eb22ebe5302b707d39378291e27b6299fde82564c167c867",
+    "datasets/research-frozen-schubert-transfer-20261112.json": "994fcc3cfbb8edc47faec4a8635b312c7c54d44ad8e575948edefb1f66b3c910",
+    "datasets/research-frozen-foster-transfer-20261112.json": "f075804c974c6987e342b62d9caf98c209c631efd8ea7bd74d434bd6ff17b4eb",
+    "datasets/research-new-cohorts-cycle29-20261112.json": "2b5461f5f81681c1aba50d5bc0b937d0d1411bb694e111cf6d541080fae997ef",
+    "datasets/research-new-cohorts-cycle30-20261112.json": "d3816534636fb4eb67a1f6d966456dc6752e4a5643be43a087c35fbebfd9b790",
+    "datasets/research-new-cohorts-cycle32-20261112.json": "4e7763e89e1844fbc5ce445029b3a08e266fa52365c9cccb36895c0ba1b66636",
+    "tools/compare_approved_expansion.py": "ce34f58f67d1947697a80610cc48b6850380c5f1884260f6c78e4a8fc6fb459b",
+    "tools/evaluate_chopin921_transfer.py": "c0f75463d224c57f97a426bbda2c778ee0b4b6dc7c742026e0589a78f53b96b3",
+    "tools/compare_long_approved_expansion.py": "da94d01cb1bba29bee2ad7945f1dd93f0a8e7ca47721a245ab45938172429870",
+    "tools/bounded_interval_similarity.py": "cee9b4745740bd679dbb9d75fffff79a91782d73d832c0c4b136cce4e614a47b",
+    "experiments/2026-11-12-long-interval-profile-plan.json": "999029a69f3fd0e329057b729317e08f8ba36947733830e0e36b83d28b9f5a08",
+    "tools/compare_fourteen_approved_expansion.py": "06455d2d882647de44ef48c1ced6ed25bd0cfe69f30e650d1229ab830b9169b6",
+    "tests/test_fourteen_approved_expansion.py": "bcd530aeef788476490bfc94ee700c73a386acbaf12b015e82e61ebe4274cc0f",
+    "datasets/RIGHTS_CYCLE32_CZERNY.md": "db2752eb586af2198081092fb209b66c267e22771033ea4970f552b15fa990de",
+    "src/mousa/fourteen_context_model.py": "ce948822b3e03cee083922aaab865eea24168b8e9687f40396e90e6d740a61d9",
+    "tests/test_fourteen_context_model.py": "b58e77411472e1cd21bbb7e77afd95a9ef4b35ae1137505c0d4ff43a4af29894",
+    "tools/compare_fourteen_context_expansion.py": "497064bd5744afc77ccf7019377545bef15453c972f6f443f3eb12ebfdae02c9"
+  },
+  "source_sha256": [
+    "112c3b61dab55f58bc44d9f3522ef21b3479ffa1953097783ff8c4f10e40175d",
+    "13ec851eb00ca9aba345cad50f03bdb3b189f566f38d094a1e6b839765b3d678",
+    "2e1c2f560c5fecf1646a9435f03f1efe377fc63ca1b1137a8f6192ae1dc921f9",
+    "3235864dce0f7a59f1eb348bda55065263c0366267e32f27ce6240c9dde3f6b5",
+    "4592e80dbc7e4bb76c9f8009e488774ccd751f08bf9f09cb3da83665471d345d",
+    "50a29ba4579b984c24b2e13ec4fafb08c468c6c5db6bd9313d9134b00cf8e8c9",
+    "556a50d0f00433f6973076704677eeb2b44c8dc81b1763b3b6d1dc0b716d3d5b",
+    "631bcd481e09c1493191959ec3264c3513c4a93177ffc6d833dea4f4952b659b",
+    "64cf1e5040bb857a7aba4b733fbd04c888b128998fce325fedea259c095e94fb",
+    "6cf3c60882c186ec642383caf4c5b265778d53159225b56dc121c4b595cdaf9d",
+    "6e097cb82d30524335a19a2adb1cbf79cf6b070f7059182f0dc9d34ca3fc3848",
+    "80f94141dff97aabb3cf37e1ccc3f6ac41563dd4421d0a648786a8f8e36efc68",
+    "b02e65def39bab988838d3d2e82ad9763f1b5b6b71b5a4c70e8f7b6d12eece8c",
+    "b19f8e0d783915e80e33cc4f622ef9623994ab89f114a53983c3f628265b798b",
+    "cc45d10d7c21e858f37d4096979d4706bcfcaec400ef89abc1ac66378d51faa1",
+    "f849eace28acf450e306803203499aed4830cfba1a5cb8fe0953f594be15ffb9"
+  ],
+  "limitations": [
+    "Small natural-budget comparison confounds quantity/content/vocabulary.",
+    "Observed diagnostics not fresh, family declarations are reviewed externally not inferred by this script.",
+    "No genre/semantic/listener claims."
+  ],
+  "comparison_profile": {
+    "max_intervals": 2048,
+    "formula": "1 - exact Levenshtein(intervalsA,intervalsB)/max(lengthA,lengthB)",
+    "memory": "Two rolling rows O(min length); interval extraction O(n+m)",
+    "threshold": 0.8,
+    "no_truncation": true,
+    "predeclared_bound_plan": "experiments/2026-11-12-long-interval-profile-plan.json"
+  },
+  "addition_profile": {
+    "max_additions": 9,
+    "base_work_count": 5,
+    "scope": "Original per-record validation plus global work-ID and SHA uniqueness; scoped replacement only",
+    "unchanged_budgets": "CPU60, five generation seeds, exact2048 interval bound and exact8 OR .80 crosssplit gate"
+  },
+  "synthetic_preflight_before_original_access": {
+    "synthetic_only": true,
+    "work_count": 14,
+    "event_count": 28,
+    "factorized_constructed": true,
+    "context_constructed": true,
+    "legacy_optimized_generator_status": "complete"
+  },
+  "context_work_profile": {
+    "max_works": 14,
+    "counts": "integer sufficient-count merge with no inter-work transitions",
+    "previous_attempt": "experiments/2026-11-12-fourteen-work-initial-failure.json",
+    "previous_source_state": "Two new sources already entered factorized counts during failed run; not pristine"
+  }
+}

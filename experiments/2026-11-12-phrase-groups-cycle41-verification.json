@@ -1,0 +1,73 @@
+{
+  "initial_sha256": "5a84503520c20d421d826661ee2d2d6eab94469cb6aa271b3d2c9f0bb0b6af7f",
+  "repeat_sha256": "c6f90e60d4fac9180cbbb9fcf7bce2dbd727d3f3d23aed63ad02c19285904d4c",
+  "equal_except": [
+    "cpu_seconds"
+  ],
+  "cpu_seconds": [
+    0.280768731,
+    0.317816056
+  ],
+  "all5_private_bytes_equal": true,
+  "original_cycle37_parity": [
+    {
+      "seed": 0,
+      "notes_equal": true,
+      "groups_equal": true,
+      "old_private_sha256": "4c5733c9d3c9f3de532d2af8927eff75f19d849ad9788a3eebed7870546fcdb4",
+      "new_private_sha256": "679b9f3bda80034d9d43ad902d6ef6bce3169df17b3b3718d6aef9eea37faf93",
+      "notes": 35,
+      "groups": 27
+    },
+    {
+      "seed": 1,
+      "notes_equal": true,
+      "groups_equal": true,
+      "old_private_sha256": "2a6ff0b455e4896196b118de747aab1b941af9de115c47c136748e7a400466e8",
+      "new_private_sha256": "ee06df6000daed5dccf39b77692a50222aee55bbb88e85ae995a838675328bf2",
+      "notes": 44,
+      "groups": 38
+    },
+    {
+      "seed": 2,
+      "notes_equal": true,
+      "groups_equal": true,
+      "old_private_sha256": "53a13f6f8101b23b3599f155a99bfb0ce18ca12a295ee8a3bf4d9b03579d4239",
+      "new_private_sha256": "addb3c17ca8b9cb1925867c5f327daea334c29e8e11631ffd0f59bee624b3065",
+      "notes": 33,
+      "groups": 26
+    },
+    {
+      "seed": 3,
+      "notes_equal": true,
+      "groups_equal": true,
+      "old_private_sha256": "00dee332d62e385362864e109208abdb740b2b863f4b84b7901c9d37b340135a",
+      "new_private_sha256": "7b03fa2d56ef59bd21ec854b58dd614158bc746d15470c445db8b4bf50ed66bd",
+      "notes": 39,
+      "groups": 35
+    },
+    {
+      "seed": 4,
+      "notes_equal": true,
+      "groups_equal": true,
+      "old_private_sha256": "0f7384c3eafc2f37eeb6b559326964f939aab0da4c00861e6fdd584cd1bc440b",
+      "new_private_sha256": "05918a464f1d028cd13f084ab080a86ddb44c523698dcf13dba275c4be1ca285",
+      "notes": 44,
+      "groups": 34
+    }
+  ],
+  "before_fit_and_journal_equal": true,
+  "crossing_note_boundary_pairs": 14,
+  "crossings_per_boundary": {
+    "6912": 6,
+    "2304": 4,
+    "4608": 4
+  },
+  "intervention_success_denominator": 0,
+  "failures_retained": 5,
+  "new_fit_sources": 0,
+  "new_observations": 0,
+  "originals_unchanged": true,
+  "targeted_tests_passed": 5,
+  "notes_or_groups_published": false
+}

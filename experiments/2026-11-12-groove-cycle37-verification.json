@@ -1,0 +1,20 @@
+{
+  "repeat_equal_excluding_only_cpu": true,
+  "initial_cpu_seconds": 4.3493994990000004,
+  "repeat_cpu_seconds": 1.996044674,
+  "initial_sha256": "6fd3c34470fd1a18e3251f3fd787f0539757a0871c8048f5155fc33ddc197879",
+  "repeat_sha256": "199e982a1367a25fe3e8d293298cfafd91d776c32cf3b0a77ae30c60037f1998",
+  "exact_historical_recording_condition_NLL_checks": 96,
+  "independent_report_mass_and_partition_checks": 518,
+  "independent_unigram_unseen_mass_formula": "count(unseen outcomes)/(30721*(N+1)); exact rational equality",
+  "targeted_tests_passed": 2,
+  "new_conditions_fit": false,
+  "source_bytes_unchanged": true,
+  "role_changes": false,
+  "full_suite": {
+    "tests": 359,
+    "passed": 358,
+    "skipped": 1,
+    "command": "PYTHONPATH=src python -m unittest discover -s tests"
+  }
+}

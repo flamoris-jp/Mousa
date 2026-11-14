@@ -1,0 +1,6 @@
+{
+  "status": "approved-for-local-experiment",
+  "plan_sha256": "362b37be07143d863d962e1e9de1a11a6d709a627f1bb48d40f6706334fd395d",
+  "review_reference": "Cycle36 research coordinator reviewed six fixed conditions, separate first/later support and NLL, original 169-note Purcell rights, unmodified 12672tick introduction, clear fixed crosssplit screen,1000 independent synthetic probability checks, same17-source copyguard and CPU60. User authorized small CPU autonomous research. No merge/release/deploy/GPU/paid work.",
+  "scope": "Run and repeat this bound six-condition plan; record actual Purcell training use only once fit begins. All failures and source-role changes must be reported."
+}

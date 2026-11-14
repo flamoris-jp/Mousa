@@ -1,0 +1,43 @@
+{
+  "cycle": 32,
+  "state": "partial-run-failed-expanded-context-work-cap",
+  "at_utc": "2026-11-12T13:46:26.494436+00:00",
+  "plan_sha256": "33fb39802333d66aa17d87b529b86700c4e8db139d4ac561161ee4aecae63c4c",
+  "error": "ValueError: bounded work list required",
+  "cause": "ContextOnsetGateModel.__init__ independently limits work list to12. Intake9-addition wrapper did not expand model constructor. Original frozen model untouched.",
+  "completed": [
+    "base5 factorized/context fit, diagnostic scores computed in memory,5 generation files written",
+    "expanded14 factorized OnsetGateModel constructed from3454events before context constructor raised"
+  ],
+  "not_completed": [
+    "expanded14 context fit",
+    "expanded14 predictive evaluation",
+    "expanded14 generation",
+    "report.json serialization",
+    "repeat run"
+  ],
+  "original_hashes_unchanged": true,
+  "base5_note_files": [
+    {
+      "file": "base5-0-notes.json",
+      "sha256": "89e8d384b8d32d52598c358ad03ea088ef560411e930b7500b0a66f609f37dfa"
+    },
+    {
+      "file": "base5-1-notes.json",
+      "sha256": "1846df226268c4ef70cf7b6fc548179496fa7326af1aceb748ea54c891ed7d1d"
+    },
+    {
+      "file": "base5-2-notes.json",
+      "sha256": "85cb8d1d5c6d7ab76bed01c529ea14e89104805ba9608cc0abfe3999f4f00e2d"
+    },
+    {
+      "file": "base5-3-notes.json",
+      "sha256": "88501a070c643ddc21de65481e50f73e19477f54ac093c4eb3b32eef1c24af76"
+    },
+    {
+      "file": "base5-4-notes.json",
+      "sha256": "bed033df3fdc048885ba9f4a268b577de6e5718ff4c8545d2bd56a2ca05455d9"
+    }
+  ],
+  "no_quality_or_comparison_result": true
+}

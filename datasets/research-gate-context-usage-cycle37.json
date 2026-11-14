@@ -1,0 +1,24 @@
+{
+  "cycle": 37,
+  "status": "completed-existing17-corpus-exploratory-training",
+  "new_sources": 0,
+  "training_works": 17,
+  "training_notes": 4319,
+  "training_groups": 3428,
+  "conditions": [
+    "global",
+    "cardinality",
+    "previous_max_gate_binned",
+    "active_horizon_binned"
+  ],
+  "repeated_runs": 2,
+  "assignment": "datasets/research-cycle36-seventeen-work-assignment.json",
+  "assignment_sha256": "4812808f5b333e813de315e41ba595e451a8c512e7c54b46f96e40ce6d323b3b",
+  "plan_sha256": "d2ea15dce6facbcba71f7cd3327ac74899eb0e48e90cfca5137575bc4a4bc836",
+  "results_sha256": "4629c88963e86c1381c989a8295748ca690bf70f5c30d8b0902af94a19acb433",
+  "diagnostics": "640/921 previously observed,untrained;no new holdout;Groove corpus/results not used.",
+  "originals_unchanged": true,
+  "roles_unchanged": true,
+  "private_candidates": "Not training material or public-release-cleared media",
+  "failure_status": "All20prescribed candidates complete in bothruns;copyflags0;no skippedconditions."
+}

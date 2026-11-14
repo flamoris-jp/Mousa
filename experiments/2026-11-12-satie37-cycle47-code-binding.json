@@ -1,0 +1,6 @@
+{
+  "hypothesis_plan_sha256": "770eff76c563bd19ff1ca6ba2469c9405a1bf5fdf22effa80c0e662f026d5d4f",
+  "driver_sha256": "bb2ea2a8d7ff6e1e139d1b58f14c9fc56e3c84367105da206d975910df787981",
+  "tests_sha256": "7807793a5fe074cc211e442cb58cbd586fb5daf5626e206450deb9261b29c92f",
+  "additional_prerequisite": "All note channels disjoint between tracks; reject all controllers exceptCC7 and sysex/aftertouch/pitchwheel. Actual track0 no channel,track1 channel0,track2 channel1. Retained simultaneous messages retain original track/order."
+}

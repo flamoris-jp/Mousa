@@ -1,0 +1,23 @@
+{
+  "initial_report_sha256": "f00ee4e508c38d2696ced9495937c50c1c8c2178b5c412ffc107b3edbfbe2067",
+  "repeat_report_sha256": "53bdd1e03c187561eba4c1af0cee19edcf9149f898c54e13e0eb9fe1d4833e40",
+  "normalized_equal_excluding_only_cpu_seconds": true,
+  "initial_cpu_seconds": 0.252602185,
+  "repeat_cpu_seconds": 0.275828116,
+  "source_hashes_unchanged_both_runs": true,
+  "train_events": 5034,
+  "per_work_reset_transition_count": 5022,
+  "all_evaluation_events_supported": 6608,
+  "prediction_events": {
+    "validation": 2758,
+    "test": 3850
+  },
+  "fixed_parameters_and_selection_unchanged": true,
+  "notes": "All eight evaluated recordings are now predictively observed. No tuning based on these results.",
+  "full_suite": {
+    "tests": 311,
+    "passed": 310,
+    "skipped": 1,
+    "command": "PYTHONPATH=src python -m unittest discover -s tests"
+  }
+}

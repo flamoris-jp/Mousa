@@ -1,0 +1,20 @@
+{
+  "cycle": 29,
+  "work_id": "mutopia-98-legacy",
+  "canonical_source_id": "mutopia-98",
+  "source_sha256": "556a50d0f00433f6973076704677eeb2b44c8dc81b1763b3b6d1dc0b716d3d5b",
+  "state": "exploratory-training-used",
+  "first_training_result": "experiments/2026-11-12-nine-work-expansion-results.json",
+  "result_sha256": "9efe947a1b33fbdb370bf3398280a7e42aa4726bf565bbb2eba25a357c9a23b3",
+  "assignment": "datasets/research-cycle29-nine-work-assignment.json",
+  "rights_snapshot": "datasets/research-new-cohorts-cycle29-20261112.json",
+  "historical_status": "The immutable source review was reserved/unfitted when saved; this current use record supersedes that training status, not its rights/version cautions.",
+  "selected_track": 1,
+  "events": 131,
+  "limits": [
+    "Keyboardstaff includeschords; notisolatedmonophonicmelody.",
+    "Oldmirrorversion retained, no claimbyteidentitywithlatestrelease.",
+    "Never describedasfreshheldout;640/921remainobserveddiagnostics,nottraining.",
+    "No publicsource/outputrelease or actualhumanrating."
+  ]
+}

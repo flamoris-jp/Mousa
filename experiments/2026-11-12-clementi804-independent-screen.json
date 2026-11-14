@@ -1,0 +1,461 @@
+{
+  "created_at_utc": "2026-11-12T12:09:00.207171+00:00",
+  "status": "blocked",
+  "source_sha256": "365dc51f22f89c005d71343df592d9b08fdc314042027989557f1eebcd8bc107",
+  "flagged": true,
+  "screen_threshold": 0.8,
+  "candidate": {
+    "id": 804,
+    "track": 1,
+    "notes": 227
+  },
+  "train_ids": [
+    376,
+    888,
+    889,
+    789,
+    583
+  ],
+  "comparisons": [
+    {
+      "reference": "376",
+      "sha256": "b02e65def39bab988838d3d2e82ad9763f1b5b6b71b5a4c70e8f7b6d12eece8c",
+      "track": 1,
+      "notes": 159,
+      "exact8_interval_matches": 1,
+      "exact8_interval_rational_onset_matches": 0,
+      "whole_interval_similarity": 0.2566371681415929,
+      "flagged": true
+    },
+    {
+      "reference": "888",
+      "sha256": "6e097cb82d30524335a19a2adb1cbf79cf6b070f7059182f0dc9d34ca3fc3848",
+      "track": 1,
+      "notes": 38,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "whole_interval_similarity": 0.11504424778761058,
+      "flagged": false
+    },
+    {
+      "reference": "889",
+      "sha256": "cc45d10d7c21e858f37d4096979d4706bcfcaec400ef89abc1ac66378d51faa1",
+      "track": 1,
+      "notes": 47,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "whole_interval_similarity": 0.13716814159292035,
+      "flagged": false
+    },
+    {
+      "reference": "789",
+      "sha256": "f849eace28acf450e306803203499aed4830cfba1a5cb8fe0953f594be15ffb9",
+      "track": 1,
+      "notes": 120,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "whole_interval_similarity": 0.23893805309734517,
+      "flagged": false
+    },
+    {
+      "reference": "2247",
+      "sha256": "bd6524f98752dd9190376e29dd0bce82d5bd5e57dcdbd549687e7836629434ff",
+      "track": 1,
+      "notes": 33,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "whole_interval_similarity": 0.12389380530973448,
+      "flagged": false
+    },
+    {
+      "reference": "2245",
+      "sha256": "f4d0789f098b122d48789f80382d4eacbc577f1a4c058a14921b3c0f96466d3d",
+      "track": 1,
+      "notes": 46,
+      "exact8_interval_matches": 1,
+      "exact8_interval_rational_onset_matches": 0,
+      "whole_interval_similarity": 0.18141592920353977,
+      "flagged": true
+    },
+    {
+      "reference": "1578",
+      "sha256": "6cf3c60882c186ec642383caf4c5b265778d53159225b56dc121c4b595cdaf9d",
+      "track": 1,
+      "notes": 170,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "whole_interval_similarity": 0.22123893805309736,
+      "flagged": false
+    },
+    {
+      "reference": "1558",
+      "sha256": "50a29ba4579b984c24b2e13ec4fafb08c468c6c5db6bd9313d9134b00cf8e8c9",
+      "track": 1,
+      "notes": 289,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "whole_interval_similarity": 0.2534722222222222,
+      "flagged": false
+    },
+    {
+      "reference": "1585",
+      "sha256": "b0f8bb73e26ceaf153ce333468f4f41e3279760a3f9d3c551fda7ea496f3590f",
+      "track": 1,
+      "notes": 100,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "whole_interval_similarity": 0.2168141592920354,
+      "flagged": false
+    },
+    {
+      "reference": "1587",
+      "sha256": "ead79c2eaca7f75bc6cfbc7a141c62d873cd7a4fca217fc31c056945fde1c46e",
+      "track": 1,
+      "notes": 108,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "whole_interval_similarity": 0.18141592920353977,
+      "flagged": false
+    },
+    {
+      "reference": "370",
+      "sha256": "3235864dce0f7a59f1eb348bda55065263c0366267e32f27ce6240c9dde3f6b5",
+      "track": 1,
+      "notes": 108,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "whole_interval_similarity": 0.24778761061946908,
+      "flagged": false
+    },
+    {
+      "reference": "580",
+      "sha256": "dcd5efac22b5e91b7c87685058784396adb9ec5d69915764265ad68158dbb6e1",
+      "track": 1,
+      "notes": 92,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "whole_interval_similarity": 0.19469026548672563,
+      "flagged": false
+    },
+    {
+      "reference": "583",
+      "sha256": "631bcd481e09c1493191959ec3264c3513c4a93177ffc6d833dea4f4952b659b",
+      "track": 1,
+      "notes": 80,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "whole_interval_similarity": 0.07079646017699115,
+      "flagged": false
+    },
+    {
+      "reference": "640",
+      "sha256": "13ec851eb00ca9aba345cad50f03bdb3b189f566f38d094a1e6b839765b3d678",
+      "track": 2,
+      "notes": 98,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "whole_interval_similarity": 0.1991150442477876,
+      "flagged": false
+    },
+    {
+      "reference": "1019",
+      "sha256": "66e827779d0f289f43d2b8bdfaeba85cc5701919cfdc9326527ac9c3b9e0cf13",
+      "track": 2,
+      "notes": 41,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "whole_interval_similarity": 0.1415929203539823,
+      "flagged": false
+    },
+    {
+      "reference": "1020",
+      "sha256": "cced946d103b67871daa4edc79a46dc68da96434b88ea9971790368e22880265",
+      "track": 2,
+      "notes": 44,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "whole_interval_similarity": 0.11504424778761058,
+      "flagged": false
+    },
+    {
+      "reference": "1534",
+      "sha256": "5f7763dd4d29f309cac6d670c22aa029aca23c8c97743a0511d4b9c6d3435f1c",
+      "track": 1,
+      "notes": 149,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "whole_interval_similarity": 0.29646017699115046,
+      "flagged": false
+    },
+    {
+      "reference": "252",
+      "sha256": "fc9128836bba01a31d93f153dc504739b8f3037c68dd7f8e89da1c51d045b3d8",
+      "track": 1,
+      "notes": 225,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "whole_interval_similarity": 0.18584070796460173,
+      "flagged": false
+    },
+    {
+      "reference": "1040",
+      "sha256": "c23c9ad4a9604cc0cdd502689c37c95a194c5b1d0bd21dd75ad6e6832bf0d692",
+      "track": 1,
+      "notes": 49,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "whole_interval_similarity": 0.14601769911504425,
+      "flagged": false
+    },
+    {
+      "reference": "268",
+      "sha256": "6846ff8e8ecaf7d5b5a3234e3a0261e4bf77935de14298bf8d6ab3f7e481ee39",
+      "track": 1,
+      "notes": 94,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "whole_interval_similarity": 0.2079646017699115,
+      "flagged": false
+    },
+    {
+      "reference": "586",
+      "sha256": "dc758a0b481832f2f883e9b5d278046f3f21bccdb9ec92ce147ceed588143e65",
+      "track": 1,
+      "status": "technical-screen-unavailable",
+      "reason": "conflicting same-tick volume declarations"
+    },
+    {
+      "reference": "1361",
+      "sha256": "24c6c4c8deaf179571186cc71cf15186ef097174f6fcb769644d3f30701afc07",
+      "track": 1,
+      "notes": 144,
+      "exact8_interval_matches": 1,
+      "exact8_interval_rational_onset_matches": 0,
+      "whole_interval_similarity": 0.26991150442477874,
+      "flagged": true
+    },
+    {
+      "reference": "885-Sonata_1-2",
+      "sha256": "023a579d2449386377a30ffde1c6e8f9e0b02b6a6fb0da11321c53b0011221ff",
+      "track": 1,
+      "notes": 137,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "whole_interval_similarity": 0.24778761061946908,
+      "flagged": false
+    },
+    {
+      "reference": "885-Sonata_1-3",
+      "sha256": "00de0e13aef487666d06f202cb4c6b685569f54a820934d0ca5598e6616efa31",
+      "track": 1,
+      "notes": 346,
+      "exact8_interval_matches": 3,
+      "exact8_interval_rational_onset_matches": 0,
+      "whole_interval_similarity": 0.2840579710144927,
+      "flagged": true
+    },
+    {
+      "reference": "885-Sonata_1-1",
+      "sha256": "127762afbcdbd7b34fa2b1fca97cf17de7890c687589e601a3cfc5cbc74ebadf",
+      "track": 1,
+      "notes": 427,
+      "exact8_interval_matches": 1,
+      "exact8_interval_rational_onset_matches": 0,
+      "whole_interval_similarity": 0.22769953051643188,
+      "flagged": true
+    },
+    {
+      "reference": "885-Sonata_1",
+      "sha256": "af210d48e2192ccaad8244b2054c78493800754640f37b998eeb19cd54bb79e2",
+      "track": 1,
+      "notes": 318,
+      "exact8_interval_matches": 3,
+      "exact8_interval_rational_onset_matches": 0,
+      "whole_interval_similarity": 0.2334384858044164,
+      "flagged": true
+    },
+    {
+      "reference": "1692",
+      "sha256": "1e874885b369855fa948121e0635921a2debc6199a6fc251d85347f6678e26af",
+      "track": 1,
+      "notes": 192,
+      "exact8_interval_matches": 3,
+      "exact8_interval_rational_onset_matches": 0,
+      "whole_interval_similarity": 0.23893805309734517,
+      "flagged": true
+    },
+    {
+      "reference": "202",
+      "sha256": "ad185dbf3cb7e3e187cbe6e38c5ead706cf375b9d441f7191429027436b2a8e4",
+      "track": 1,
+      "notes": 144,
+      "exact8_interval_matches": 6,
+      "exact8_interval_rational_onset_matches": 5,
+      "whole_interval_similarity": 0.26106194690265483,
+      "flagged": true
+    },
+    {
+      "reference": "214",
+      "sha256": "39768b50abb623d24986b0e3993518ca92a6f1340d6154fc092f218cb6b97fee",
+      "track": 1,
+      "notes": 128,
+      "exact8_interval_matches": 3,
+      "exact8_interval_rational_onset_matches": 0,
+      "whole_interval_similarity": 0.2831858407079646,
+      "flagged": true
+    },
+    {
+      "reference": "921",
+      "sha256": "b19f8e0d783915e80e33cc4f622ef9623994ab89f114a53983c3f628265b798b",
+      "track": 1,
+      "notes": 92,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "whole_interval_similarity": 0.19469026548672563,
+      "flagged": false
+    }
+  ],
+  "full_reader_rejections_retained": [
+    "586"
+  ],
+  "scope": "Read-only source screen. No model fit/score, no originalbytes modification.",
+  "family_review": {
+    "new_named_family": "Clementi/BrianD.Rude distinct from named train5 and observed composers/contributors.",
+    "split": "All804movements/bothhands/alternateeditions/transpositions stay samecompositionfamily; otherClementi works grouped bycomposer.",
+    "confounds": "Schirmer publisher shared with2247/2245; editingtradition not fullyindependent. Anonymouscontributors cannot be identity-excluded. CommonMutopia/LilyPond infrastructure.",
+    "rights": "Original explicit contributionPD plus independentSchirmer1893K\u00f6hler/Klee historicalalbum andincipit retained; exactphysicalreprint andunnamedothereditors not claimed identified."
+  },
+  "rights_ledger_sha256": "6cf01b5e6d8845b23870258f712709a7f802ab4980e18b13b9ec49b01770d9c7",
+  "decision": "Any exact8 pitchinterval match or globalintervalsimilarity>=.80 stops admission; no threshold relaxation.",
+  "586_paired_note_only": {
+    "events": 63,
+    "exact8_interval_matches": 0,
+    "whole_interval_similarity": 0.16814159292035402,
+    "pairing": "uniquechannel/pitch pairing, uniqueonsets, noorphan/unterminated/retrigger ambiguity",
+    "restriction": "Controller projection for this diagnostic only. Fullreader rejection unchanged; no modifiedsource/MIDI or training admission."
+  },
+  "stop_pattern_diagnostics": [
+    {
+      "reference": "376",
+      "pattern": [
+        3,
+        -2,
+        -1,
+        -2,
+        -2,
+        -1,
+        -2
+      ],
+      "candidate_locations": [
+        {
+          "zero_based_onset_index": 68,
+          "start_tick": 17280,
+          "last_onset_tick": 18624,
+          "quarter_onset_deltas": [
+            "1/2",
+            "1/2",
+            "1/2",
+            "1/2",
+            "1/2",
+            "1/2",
+            "1/2"
+          ]
+        }
+      ],
+      "reference_locations": [
+        {
+          "zero_based_onset_index": 47,
+          "start_tick": 17568,
+          "last_onset_tick": 19968,
+          "quarter_onset_deltas": [
+            "1/4",
+            "1/2",
+            "1/2",
+            "1/2",
+            "1/2",
+            "2",
+            "2"
+          ]
+        },
+        {
+          "zero_based_onset_index": 126,
+          "start_tick": 51360,
+          "last_onset_tick": 53760,
+          "quarter_onset_deltas": [
+            "1/4",
+            "1/2",
+            "1/2",
+            "1/2",
+            "1/2",
+            "2",
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "2245",
+      "pattern": [
+        2,
+        2,
+        1,
+        2,
+        2,
+        2,
+        1
+      ],
+      "candidate_locations": [
+        {
+          "zero_based_onset_index": 42,
+          "start_tick": 10752,
+          "last_onset_tick": 12096,
+          "quarter_onset_deltas": [
+            "1/2",
+            "1/2",
+            "1/2",
+            "1/2",
+            "1/2",
+            "1/2",
+            "1/2"
+          ]
+        },
+        {
+          "zero_based_onset_index": 178,
+          "start_tick": 46080,
+          "last_onset_tick": 47424,
+          "quarter_onset_deltas": [
+            "1/2",
+            "1/2",
+            "1/2",
+            "1/2",
+            "1/2",
+            "1/2",
+            "1/2"
+          ]
+        }
+      ],
+      "reference_locations": [
+        {
+          "zero_based_onset_index": 24,
+          "start_tick": 12288,
+          "last_onset_tick": 15360,
+          "quarter_onset_deltas": [
+            "2",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ]
+        }
+      ]
+    }
+  ],
+  "rights_recheck": {
+    "all5_artifact_hashes_unchanged": true,
+    "dedication_and_history": "DirecttypesetterPD, Schirmer1893titlepage, K\u00f6hler/Klee editorialcatalog andprintedp33Op36No1incipit previouslyverified. No additional rights asserted.",
+    "scope": "Rights basis retained separately from similarityblocked evaluationstatus."
+  },
+  "unavailable_pitch_comparisons": []
+}

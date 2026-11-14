@@ -1,0 +1,456 @@
+{
+  "common_success_means": {
+    "control": {
+      "denominator": 3,
+      "metrics": {
+        "notes": 42.333333333333336,
+        "overlap_onset_fraction": 0.49572649572649574,
+        "mean_active_voices": 1.0914351851851851,
+        "max_active_voices": 3,
+        "mean_abs_pitch_interval": 8.260505915952672,
+        "above_octave_fraction": 0.21848225214198286,
+        "distinct_pitches": 20,
+        "repeated_pitch_fraction": 0.02529579763361893,
+        "rest_ticks": 2682.6666666666665,
+        "rest_fraction": 0.29108796296296297
+      }
+    },
+    "intervention": {
+      "denominator": 3,
+      "metrics": {
+        "notes": 42.333333333333336,
+        "overlap_onset_fraction": 0.49572649572649574,
+        "mean_active_voices": 1.0914351851851851,
+        "max_active_voices": 3,
+        "mean_abs_pitch_interval": 9.00999592003264,
+        "above_octave_fraction": 0.2660138718890249,
+        "distinct_pitches": 21.333333333333332,
+        "repeated_pitch_fraction": 0.007751937984496124,
+        "rest_ticks": 2682.6666666666665,
+        "rest_fraction": 0.29108796296296297
+      }
+    }
+  },
+  "plan_sha256": "b7c701198d906b335e3f5524f3c9bf4310592d668b75c0ad7e92ce55fd80599a",
+  "rows": [
+    {
+      "seed": 0,
+      "generation_status": "complete",
+      "generation_attempts": 29,
+      "generation_rejections": {
+        "polyphony": 2
+      },
+      "private_sha256": "08f6a18be2bdddf39402cc441637e98af8fb978a90e861b668da03d70be1f4d8",
+      "control": {
+        "status": "complete",
+        "copy_matches": 0,
+        "target_ticks": 9216,
+        "metrics": {
+          "notes": 35,
+          "overlap_onset_fraction": 0.5142857142857142,
+          "mean_active_voices": 0.7534722222222222,
+          "max_active_voices": 3,
+          "mean_abs_pitch_interval": 7.411764705882353,
+          "above_octave_fraction": 0.17647058823529413,
+          "distinct_pitches": 16,
+          "repeated_pitch_fraction": 0.0,
+          "rest_ticks": 4596,
+          "rest_fraction": 0.4986979166666667
+        },
+        "timeline_metrics": {
+          "target_ticks": 9216,
+          "occupied_ticks": 4620,
+          "silence_ticks": 4596,
+          "leading_silence_ticks": 2304,
+          "trailing_silence_ticks": 244,
+          "internal_silence_ticks": 2048,
+          "max_contiguous_silence_ticks": 2304,
+          "internal_gap_count": 8,
+          "active_voice_tick_integral": 6944,
+          "mean_active_voices": 0.7534722222222222,
+          "polyphonic_ticks": 1844,
+          "polyphonic_time_fraction": 0.20008680555555555,
+          "empty_timeline": false,
+          "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+        },
+        "notes": 35,
+        "groups": 27
+      },
+      "intervention": {
+        "status": "empty_A_blocked",
+        "target_ticks": 9216
+      }
+    },
+    {
+      "seed": 1,
+      "generation_status": "complete",
+      "generation_attempts": 43,
+      "generation_rejections": {
+        "polyphony": 5
+      },
+      "private_sha256": "be0d22b5e475d4bf8cc326dab8f9bf3436bcd56508fc8a60ae85f23f4b8a1dfd",
+      "control": {
+        "status": "complete",
+        "copy_matches": 0,
+        "target_ticks": 9216,
+        "metrics": {
+          "notes": 44,
+          "overlap_onset_fraction": 0.4318181818181818,
+          "mean_active_voices": 1.0625,
+          "max_active_voices": 3,
+          "mean_abs_pitch_interval": 8.232558139534884,
+          "above_octave_fraction": 0.2558139534883721,
+          "distinct_pitches": 21,
+          "repeated_pitch_fraction": 0.0,
+          "rest_ticks": 2448,
+          "rest_fraction": 0.265625
+        },
+        "timeline_metrics": {
+          "target_ticks": 9216,
+          "occupied_ticks": 6768,
+          "silence_ticks": 2448,
+          "leading_silence_ticks": 0,
+          "trailing_silence_ticks": 220,
+          "internal_silence_ticks": 2228,
+          "max_contiguous_silence_ticks": 576,
+          "internal_gap_count": 12,
+          "active_voice_tick_integral": 9792,
+          "mean_active_voices": 1.0625,
+          "polyphonic_ticks": 2192,
+          "polyphonic_time_fraction": 0.2378472222222222,
+          "empty_timeline": false,
+          "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+        },
+        "notes": 44,
+        "groups": 38
+      },
+      "intervention": {
+        "status": "complete",
+        "copy_matches": 0,
+        "target_ticks": 9216,
+        "edit": {
+          "A_groups": 9,
+          "C_groups": 9,
+          "full_cycles": 1,
+          "remainder": 0,
+          "changed_anchors": 9,
+          "changed_notes": 13,
+          "shift": 2
+        },
+        "temporal_velocity_order_preserved": true,
+        "templates_preserved": true,
+        "metrics": {
+          "notes": 44,
+          "overlap_onset_fraction": 0.4318181818181818,
+          "mean_active_voices": 1.0625,
+          "max_active_voices": 3,
+          "mean_abs_pitch_interval": 9.488372093023257,
+          "above_octave_fraction": 0.32558139534883723,
+          "distinct_pitches": 24,
+          "repeated_pitch_fraction": 0.0,
+          "rest_ticks": 2448,
+          "rest_fraction": 0.265625
+        },
+        "timeline_metrics": {
+          "target_ticks": 9216,
+          "occupied_ticks": 6768,
+          "silence_ticks": 2448,
+          "leading_silence_ticks": 0,
+          "trailing_silence_ticks": 220,
+          "internal_silence_ticks": 2228,
+          "max_contiguous_silence_ticks": 576,
+          "internal_gap_count": 12,
+          "active_voice_tick_integral": 9792,
+          "mean_active_voices": 1.0625,
+          "polyphonic_ticks": 2192,
+          "polyphonic_time_fraction": 0.2378472222222222,
+          "empty_timeline": false,
+          "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+        },
+        "notes": 44,
+        "groups": 38
+      }
+    },
+    {
+      "seed": 2,
+      "generation_status": "complete",
+      "generation_attempts": 27,
+      "generation_rejections": {
+        "same_pitch_overlap": 1
+      },
+      "private_sha256": "7579e08618df1ddb230be46898241c53cdfcbf127798576fc372f61dd608f2b1",
+      "control": {
+        "status": "complete",
+        "copy_matches": 0,
+        "target_ticks": 9216,
+        "metrics": {
+          "notes": 33,
+          "overlap_onset_fraction": 0.3939393939393939,
+          "mean_active_voices": 0.7013888888888888,
+          "max_active_voices": 3,
+          "mean_abs_pitch_interval": 7.15625,
+          "above_octave_fraction": 0.125,
+          "distinct_pitches": 17,
+          "repeated_pitch_fraction": 0.03125,
+          "rest_ticks": 4736,
+          "rest_fraction": 0.5138888888888888
+        },
+        "timeline_metrics": {
+          "target_ticks": 9216,
+          "occupied_ticks": 4480,
+          "silence_ticks": 4736,
+          "leading_silence_ticks": 2304,
+          "trailing_silence_ticks": 384,
+          "internal_silence_ticks": 2048,
+          "max_contiguous_silence_ticks": 2304,
+          "internal_gap_count": 10,
+          "active_voice_tick_integral": 6464,
+          "mean_active_voices": 0.7013888888888888,
+          "polyphonic_ticks": 1632,
+          "polyphonic_time_fraction": 0.17708333333333334,
+          "empty_timeline": false,
+          "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+        },
+        "notes": 33,
+        "groups": 26
+      },
+      "intervention": {
+        "status": "empty_A_blocked",
+        "target_ticks": 9216
+      }
+    },
+    {
+      "seed": 3,
+      "generation_status": "complete",
+      "generation_attempts": 40,
+      "generation_rejections": {
+        "same_pitch_overlap": 3,
+        "polyphony": 1,
+        "gate_overflow": 1
+      },
+      "private_sha256": "0cb8b02e0d5c99fbb1df2efe3ece02c6464b740916de80901429fd2f47bd57d0",
+      "control": {
+        "status": "complete",
+        "copy_matches": 0,
+        "target_ticks": 9216,
+        "metrics": {
+          "notes": 39,
+          "overlap_onset_fraction": 0.48717948717948717,
+          "mean_active_voices": 0.96875,
+          "max_active_voices": 3,
+          "mean_abs_pitch_interval": 8.921052631578947,
+          "above_octave_fraction": 0.23684210526315788,
+          "distinct_pitches": 18,
+          "repeated_pitch_fraction": 0.05263157894736842,
+          "rest_ticks": 3040,
+          "rest_fraction": 0.3298611111111111
+        },
+        "timeline_metrics": {
+          "target_ticks": 9216,
+          "occupied_ticks": 6176,
+          "silence_ticks": 3040,
+          "leading_silence_ticks": 0,
+          "trailing_silence_ticks": 256,
+          "internal_silence_ticks": 2784,
+          "max_contiguous_silence_ticks": 672,
+          "internal_gap_count": 10,
+          "active_voice_tick_integral": 8928,
+          "mean_active_voices": 0.96875,
+          "polyphonic_ticks": 2368,
+          "polyphonic_time_fraction": 0.2569444444444444,
+          "empty_timeline": false,
+          "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+        },
+        "notes": 39,
+        "groups": 35
+      },
+      "intervention": {
+        "status": "complete",
+        "copy_matches": 0,
+        "target_ticks": 9216,
+        "edit": {
+          "A_groups": 10,
+          "C_groups": 8,
+          "full_cycles": 0,
+          "remainder": 8,
+          "changed_anchors": 8,
+          "changed_notes": 8,
+          "shift": 2
+        },
+        "temporal_velocity_order_preserved": true,
+        "templates_preserved": true,
+        "metrics": {
+          "notes": 39,
+          "overlap_onset_fraction": 0.48717948717948717,
+          "mean_active_voices": 0.96875,
+          "max_active_voices": 3,
+          "mean_abs_pitch_interval": 8.657894736842104,
+          "above_octave_fraction": 0.2631578947368421,
+          "distinct_pitches": 21,
+          "repeated_pitch_fraction": 0.0,
+          "rest_ticks": 3040,
+          "rest_fraction": 0.3298611111111111
+        },
+        "timeline_metrics": {
+          "target_ticks": 9216,
+          "occupied_ticks": 6176,
+          "silence_ticks": 3040,
+          "leading_silence_ticks": 0,
+          "trailing_silence_ticks": 256,
+          "internal_silence_ticks": 2784,
+          "max_contiguous_silence_ticks": 672,
+          "internal_gap_count": 10,
+          "active_voice_tick_integral": 8928,
+          "mean_active_voices": 0.96875,
+          "polyphonic_ticks": 2368,
+          "polyphonic_time_fraction": 0.2569444444444444,
+          "empty_timeline": false,
+          "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+        },
+        "notes": 39,
+        "groups": 35
+      }
+    },
+    {
+      "seed": 4,
+      "generation_status": "complete",
+      "generation_attempts": 52,
+      "generation_rejections": {
+        "polyphony": 17,
+        "same_pitch_overlap": 1
+      },
+      "private_sha256": "9678bdf372ddbd67e333fc8c87534c2c49de5384b91b897c043f7e6d8b88e818",
+      "control": {
+        "status": "complete",
+        "copy_matches": 0,
+        "target_ticks": 9216,
+        "metrics": {
+          "notes": 44,
+          "overlap_onset_fraction": 0.5681818181818182,
+          "mean_active_voices": 1.2430555555555556,
+          "max_active_voices": 3,
+          "mean_abs_pitch_interval": 7.627906976744186,
+          "above_octave_fraction": 0.16279069767441862,
+          "distinct_pitches": 21,
+          "repeated_pitch_fraction": 0.023255813953488372,
+          "rest_ticks": 2560,
+          "rest_fraction": 0.2777777777777778
+        },
+        "timeline_metrics": {
+          "target_ticks": 9216,
+          "occupied_ticks": 6656,
+          "silence_ticks": 2560,
+          "leading_silence_ticks": 0,
+          "trailing_silence_ticks": 96,
+          "internal_silence_ticks": 2464,
+          "max_contiguous_silence_ticks": 480,
+          "internal_gap_count": 10,
+          "active_voice_tick_integral": 11456,
+          "mean_active_voices": 1.2430555555555556,
+          "polyphonic_ticks": 3168,
+          "polyphonic_time_fraction": 0.34375,
+          "empty_timeline": false,
+          "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+        },
+        "notes": 44,
+        "groups": 34
+      },
+      "intervention": {
+        "status": "complete",
+        "copy_matches": 0,
+        "target_ticks": 9216,
+        "edit": {
+          "A_groups": 7,
+          "C_groups": 11,
+          "full_cycles": 1,
+          "remainder": 4,
+          "changed_anchors": 11,
+          "changed_notes": 14,
+          "shift": 2
+        },
+        "temporal_velocity_order_preserved": true,
+        "templates_preserved": true,
+        "metrics": {
+          "notes": 44,
+          "overlap_onset_fraction": 0.5681818181818182,
+          "mean_active_voices": 1.2430555555555556,
+          "max_active_voices": 3,
+          "mean_abs_pitch_interval": 8.883720930232558,
+          "above_octave_fraction": 0.20930232558139536,
+          "distinct_pitches": 19,
+          "repeated_pitch_fraction": 0.023255813953488372,
+          "rest_ticks": 2560,
+          "rest_fraction": 0.2777777777777778
+        },
+        "timeline_metrics": {
+          "target_ticks": 9216,
+          "occupied_ticks": 6656,
+          "silence_ticks": 2560,
+          "leading_silence_ticks": 0,
+          "trailing_silence_ticks": 96,
+          "internal_silence_ticks": 2464,
+          "max_contiguous_silence_ticks": 480,
+          "internal_gap_count": 10,
+          "active_voice_tick_integral": 11456,
+          "mean_active_voices": 1.2430555555555556,
+          "polyphonic_ticks": 3168,
+          "polyphonic_time_fraction": 0.34375,
+          "empty_timeline": false,
+          "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+        },
+        "notes": 44,
+        "groups": 34
+      }
+    }
+  ],
+  "summaries": {
+    "control": {
+      "total_candidates": 5,
+      "complete": 5,
+      "status_counts": {
+        "complete": 5
+      },
+      "timeline_complete_means": {
+        "silence_ticks": 3476,
+        "leading_silence_ticks": 921.6,
+        "internal_silence_ticks": 2314.4,
+        "trailing_silence_ticks": 240,
+        "polyphonic_time_fraction": 0.2431423611111111
+      }
+    },
+    "intervention": {
+      "total_candidates": 5,
+      "complete": 3,
+      "status_counts": {
+        "complete": 3,
+        "empty_A_blocked": 2
+      },
+      "timeline_complete_means": {
+        "silence_ticks": 2682.6666666666665,
+        "leading_silence_ticks": 0,
+        "internal_silence_ticks": 2492,
+        "trailing_silence_ticks": 190.66666666666666,
+        "polyphonic_time_fraction": 0.2795138888888889
+      }
+    }
+  },
+  "common_complete_seeds": [
+    1,
+    3,
+    4
+  ],
+  "all_sources_unchanged": true,
+  "cpu_seconds": 0.61886818,
+  "limitations": [
+    "The proposal follows inspection of Cycle41 failures; not prospective evidence on unseen outputs.",
+    "Ordinal group number is not metrical, melodic-voice or phrase alignment.",
+    "Group minimum-pitch anchor is not a verified melody voice; preserving chord offsets does not preserve harmonic function.",
+    "+2 chromatic shift and cycling may create collisions, large leaps or inappropriate harmony.",
+    "Pitch recurrence is imposed by construction; numeric recurrence gain is not evidence of attraction.",
+    "Different A/C group counts change contour sampling. No direct claim comparable to successful whole-fragment copying, of which there were zero.",
+    "This is not a learned phrase model, new human preference label, or adopted production behavior.",
+    "The known global0..4 pool is replayed, not independent new random draws. No re-selection after results.",
+    "Same timeline means density and silence are fixed by design, not quality gains.",
+    "No_effect is not an accepted nontrivial recurrence; emptyA/C are blocked."
+  ]
+}

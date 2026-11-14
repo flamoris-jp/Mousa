@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "corpus": "Groove MIDI Dataset v1.0.0 MIDI-only",
+  "role": "rights-reviewed rhythm reserve; NOT fitted or admitted to melody training",
+  "acquisition": {
+    "url": "https://storage.googleapis.com/magentadata/datasets/groove/groove-v1.0.0-midionly.zip",
+    "sha256": "651cbc524ffb891be1a3e46d89dc82a1cecb09a57c748c7b45b844c4841dcc1e",
+    "bytes": 3260318,
+    "retrieved_at": "2026-11-12T13:39:01.086623+00:00"
+  },
+  "source_evidence": {
+    "retrieved_at": "2026-11-12T13:39:14.259366+00:00",
+    "sources": [
+      {
+        "name": "official",
+        "url": "https://magenta.withgoogle.com/datasets/groove",
+        "sha256": "74714eee417f51ea6c4e6198050d6e46c76f20a7ae3e91104e2dc348cac648b1",
+        "bytes": 40253
+      },
+      {
+        "name": "license",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "error": "HTTP Error 403: Forbidden"
+      }
+    ]
+  },
+  "source_page": "https://magenta.withgoogle.com/datasets/groove",
+  "licensor": "Google LLC",
+  "license": "CC-BY-4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "legal_code": "https://creativecommons.org/licenses/by/4.0/legalcode.en",
+  "rights_review": {
+    "encoding_and_performance": "Official creator/licensor directly distributes this named dataset under CC BY 4.0. This is stronger evidence than a third-party scraped collection label. Official page describes commissioned professional drummers and additional contributors performing improvised beats and fills. No external song transcription is asserted.",
+    "composition_and_patterns": "Improvised drum performances and ten deliberately shared evaluation beat patterns are the declared source. Preserve repeat-pattern relationships; recording count is not independent composition count. The official dataset-wide grant is relied on for this scoped research, not a claim of worldwide public domain.",
+    "arrangement": "No historical-score edition or third-party melody arrangement imported; retained performer variation is part of the licensed MIDI.",
+    "audio": "MIDI-only archive acquired. No sampled or rendered audio, samplebank, or audio rights relied on.",
+    "notices": "No warranties or endorsement. Moral/privacy and other unlicensed rights are not waived by our interpretation. Do not infer individual anonymized performer identities.",
+    "scope": "Private storage and read-only audit allowed under owner research authorization; a rhythm model remains prospective, and no public release authorized."
+  },
+  "attribution": {
+    "title": "Groove MIDI Dataset",
+    "credit": "Google LLC; dataset contributors acknowledged on the source page",
+    "primary_contributors": [
+      "Dillon Vado",
+      "Jonathan Fishman",
+      "Michaelle Goerlitz",
+      "Nick Woodbury",
+      "Randy Schwartz"
+    ],
+    "additional_contributors": [
+      "Jon Gillick",
+      "Mikey Steczo",
+      "Sam Berman",
+      "Sam Hancock"
+    ],
+    "citation": "Jon Gillick, Adam Roberts, Jesse Engel, Douglas Eck, and David Bamman. Learning to Groove with Inverse Sequence Transformations. ICML, 2019.",
+    "changes": "Official ZIP and its MIDI bytes unmodified. Google reports merged tracks and all MIDI messages set to channel 9 before distribution. Audit metadata is newly derived; originals remain intact.",
+    "conditions": "Retain supplied credits, copyright/license/disclaimer notices and source/license links; indicate modifications; no added legal/technical restrictions, no endorsement implication."
+  },
+  "license_evidence_access": "Direct HTTP deed fetch returned403. Deed and complete English legal code were successfully read through web connector; no file hash is claimed for those connector-rendered pages. Official dataset page was downloaded and hashed.",
+  "training_used": false,
+  "predictive_evaluation_used": false,
+  "planned_gates": [
+    "Full archive inventory and checksums",
+    "CSV/MIDI correspondence and bounds",
+    "Exact duplicate audit",
+    "Performer/session/shared-pattern split review",
+    "Rhythm-specific timing/instrument semantics and near-duplicate review before fitting"
+  ],
+  "limits": [
+    "1150 recordings are not1150 independent songs.",
+    "MIDI drum key numbers must never enter the pitched melody model as pitches.",
+    "Official genre labels are performer-provided source labels, not our subjective musical appeal judgments.",
+    "Original train/validation/test labels do not prove unseen performer or unseen pattern generalization."
+  ],
+  "archive_license_notice": {
+    "member": "groove/LICENSE",
+    "sha256": "d8902a29b2ee2387c1d3ae16f6bcac9e0dcf06c8979864255612f9f1177275f0",
+    "bytes": 251,
+    "evidence": "The original MIDI-only archive itself explicitly licenses this work under CC BY 4.0; agrees with official creator page."
+  },
+  "independent_review": "Second research worker checked dataset-wide license and source assertions against downloaded official page. No substantive blocker found for scoped rhythm reserve; no broader song-independence claim."
+}

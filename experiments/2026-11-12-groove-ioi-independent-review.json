@@ -1,0 +1,8 @@
+{
+  "synthetic_only": true,
+  "probability_checks": 50,
+  "exact_normalization_context_cases": 10,
+  "per_work_context_counts_independently_reconstructed": true,
+  "model_sha256": "03282ccb7e2c8c13429a11b09bdff4a8f25ce3af4b5708260a6344865373c833",
+  "review": "Direct empirical pseudo-count formula, positive unseen IOI and initial/unseen-context fallback independently verified. Source ordering of simultaneous hits is still a modeling confound. No real model fitting performed by this review."
+}

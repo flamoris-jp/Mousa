@@ -1,0 +1,79 @@
+{
+  "review": "Independent root-task audit of all12 original staff inputs. Direct per-tick occupancy, not the implementation sweep algorithm. Highest-onset pitch, original note membership and unique-onset counts checked.",
+  "rows": [
+    {
+      "work_id": "mutopia-376",
+      "original_notes": 159,
+      "selected_notes": 159,
+      "independent_coverage_loss": 0
+    },
+    {
+      "work_id": "mutopia-888",
+      "original_notes": 38,
+      "selected_notes": 38,
+      "independent_coverage_loss": 0
+    },
+    {
+      "work_id": "mutopia-889",
+      "original_notes": 47,
+      "selected_notes": 47,
+      "independent_coverage_loss": 0
+    },
+    {
+      "work_id": "mutopia-789",
+      "original_notes": 120,
+      "selected_notes": 120,
+      "independent_coverage_loss": 0
+    },
+    {
+      "work_id": "mutopia-583",
+      "original_notes": 80,
+      "selected_notes": 80,
+      "independent_coverage_loss": 0
+    },
+    {
+      "work_id": "mutopia-1578",
+      "original_notes": 170,
+      "selected_notes": 170,
+      "independent_coverage_loss": 0
+    },
+    {
+      "work_id": "mutopia-1558",
+      "original_notes": 289,
+      "selected_notes": 289,
+      "independent_coverage_loss": 0
+    },
+    {
+      "work_id": "mutopia-370",
+      "original_notes": 108,
+      "selected_notes": 108,
+      "independent_coverage_loss": 0
+    },
+    {
+      "work_id": "mutopia-98-legacy",
+      "original_notes": 131,
+      "selected_notes": 127,
+      "independent_coverage_loss": 0
+    },
+    {
+      "work_id": "mutopia-263-legacy",
+      "original_notes": 1394,
+      "selected_notes": 789,
+      "independent_coverage_loss": 0
+    },
+    {
+      "work_id": "mutopia-904",
+      "original_notes": 628,
+      "selected_notes": 398,
+      "independent_coverage_loss": 384
+    },
+    {
+      "work_id": "mutopia-2080",
+      "original_notes": 99,
+      "selected_notes": 96,
+      "independent_coverage_loss": 0
+    }
+  ],
+  "pass": true,
+  "limitations": "Does not establish true melody or human appeal."
+}

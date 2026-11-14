@@ -1,0 +1,201 @@
+{
+  "recorded_at_utc": "2026-11-12T14:12:42.623461+00:00",
+  "scope": "Actual Cycle33 rhythm-only predictive usage; supersedes prospective reserve state only for listed recordings. Historical rights/intake snapshots unchanged.",
+  "rights_snapshot": "datasets/research-groove-rights-cycle32-20261112.json",
+  "plan": "experiments/2026-11-12-groove-ioi-fit-final-plan.json",
+  "plan_sha256": "9d5c95249f51aa8f89b54ff4902513ac2d3129f971318caee8f0f07f3286519a",
+  "clearance": "experiments/2026-11-12-groove-ioi-clearance.json",
+  "results": "experiments/2026-11-12-groove-ioi-results.json",
+  "results_sha256": "f00ee4e508c38d2696ced9495937c50c1c8c2178b5c412ffc107b3edbfbe2067",
+  "train_used_count": 12,
+  "predictively_observed_count": 8,
+  "not_used_by_this_experiment_count": 1130,
+  "not_used_partition": {
+    "reserved_eval_session": 40,
+    "other_recordings": 1090
+  },
+  "melody_training_used": false,
+  "generated_audio": false,
+  "records": [
+    {
+      "id": "drummer1/session1/236",
+      "sha256": "0137965a4c82d04517d916c32cd1b7629a8465d4473ccecda5f2160ba7f2d47c",
+      "drummer": "drummer1",
+      "split": "train",
+      "event_count": 14,
+      "train_used": true,
+      "predictively_observed": false
+    },
+    {
+      "id": "drummer1/session1/225",
+      "sha256": "014b25875393daa9c090dff25bc9f03144a6a5961b10786c9b3dedd64982dcc9",
+      "drummer": "drummer1",
+      "split": "train",
+      "event_count": 6,
+      "train_used": true,
+      "predictively_observed": false
+    },
+    {
+      "id": "drummer10/session1/10",
+      "sha256": "22534c40c80f20ee19685a56ad0d1f5c726858dbb31284c9e4f7577741c7786e",
+      "drummer": "drummer10",
+      "split": "test",
+      "event_count": 1413,
+      "train_used": false,
+      "predictively_observed": true
+    },
+    {
+      "id": "drummer10/session1/9",
+      "sha256": "27da7b94b20617f73e65253e464d4e87236d2f6df67aa65cccf9e2024bee23bb",
+      "drummer": "drummer10",
+      "split": "test",
+      "event_count": 1229,
+      "train_used": false,
+      "predictively_observed": true
+    },
+    {
+      "id": "drummer2/session2/15",
+      "sha256": "06c480fbce4e0a08734c8a57d73fe4db4508ff9622b235b85039e3bacbcb60da",
+      "drummer": "drummer2",
+      "split": "train",
+      "event_count": 38,
+      "train_used": true,
+      "predictively_observed": false
+    },
+    {
+      "id": "drummer2/session2/13",
+      "sha256": "244c21166a66d6d62052f802f60dc3b0715c18004ebb9c8f4d04acc150b5d8ff",
+      "drummer": "drummer2",
+      "split": "train",
+      "event_count": 19,
+      "train_used": true,
+      "predictively_observed": false
+    },
+    {
+      "id": "drummer3/session2/36",
+      "sha256": "0322a67e7fd37ed62d5ed91b27f33970ba8bfbf8faaf889d16b7a98c7442fecc",
+      "drummer": "drummer3",
+      "split": "train",
+      "event_count": 35,
+      "train_used": true,
+      "predictively_observed": false
+    },
+    {
+      "id": "drummer3/session2/13",
+      "sha256": "04cb3b758b253e97e177a5ab180e6dad46989750d70c49397d1e51396499ec2f",
+      "drummer": "drummer3",
+      "split": "train",
+      "event_count": 118,
+      "train_used": true,
+      "predictively_observed": false
+    },
+    {
+      "id": "drummer4/session1/8",
+      "sha256": "06e27dd6014956cb161013fa64830f9fbb3b918088e35ae8a84591e6ba54b8d5",
+      "drummer": "drummer4",
+      "split": "train",
+      "event_count": 98,
+      "train_used": true,
+      "predictively_observed": false
+    },
+    {
+      "id": "drummer4/session1/4",
+      "sha256": "0f5aa65ef1f7c82ef25108795dc810b69acf6028823cd526dece049221e3a68e",
+      "drummer": "drummer4",
+      "split": "train",
+      "event_count": 215,
+      "train_used": true,
+      "predictively_observed": false
+    },
+    {
+      "id": "drummer5/session2/5",
+      "sha256": "04e0de610e7ae287366dfa90ddc05dcb1f9e8468753fed39311aa68c4c9ce317",
+      "drummer": "drummer5",
+      "split": "train",
+      "event_count": 1784,
+      "train_used": true,
+      "predictively_observed": false
+    },
+    {
+      "id": "drummer5/session2/12",
+      "sha256": "09d9e40c1829890ada04c300247a43e2177b1b224e743e3ee94bfc89885e0542",
+      "drummer": "drummer5",
+      "split": "train",
+      "event_count": 1374,
+      "train_used": true,
+      "predictively_observed": false
+    },
+    {
+      "id": "drummer6/session1/2",
+      "sha256": "0610ff76209063951ec3c7b9ed798cbf0caa117a39518c721fbc10500f76ec6f",
+      "drummer": "drummer6",
+      "split": "train",
+      "event_count": 539,
+      "train_used": true,
+      "predictively_observed": false
+    },
+    {
+      "id": "drummer6/session3/7",
+      "sha256": "16eb9913be1ad678602ddb089af8ed32eccc9ca97fe4a444f5aec55db013f889",
+      "drummer": "drummer6",
+      "split": "train",
+      "event_count": 794,
+      "train_used": true,
+      "predictively_observed": false
+    },
+    {
+      "id": "drummer7/session3/23",
+      "sha256": "01c418db0852e392fa7c91f41feeca7a80494218df6c0da214545898655f8c3e",
+      "drummer": "drummer7",
+      "split": "validation",
+      "event_count": 144,
+      "train_used": false,
+      "predictively_observed": true
+    },
+    {
+      "id": "drummer7/session3/26",
+      "sha256": "02a3d706dd1fa0289cb25486b2a50aa89aa13829edbcae377fc4e18feeedd11b",
+      "drummer": "drummer7",
+      "split": "validation",
+      "event_count": 16,
+      "train_used": false,
+      "predictively_observed": true
+    },
+    {
+      "id": "drummer8/session2/40",
+      "sha256": "0474c862ae618571738e69566c8ac22d5f945d67e41c01ff46cb3a4099514168",
+      "drummer": "drummer8",
+      "split": "validation",
+      "event_count": 1061,
+      "train_used": false,
+      "predictively_observed": true
+    },
+    {
+      "id": "drummer8/session2/13",
+      "sha256": "05a1f07916656a9d527989cc737a9c2523a1a1b0df9784c195924442db6aa18a",
+      "drummer": "drummer8",
+      "split": "validation",
+      "event_count": 1537,
+      "train_used": false,
+      "predictively_observed": true
+    },
+    {
+      "id": "drummer9/session1/20",
+      "sha256": "01f6ff2ae664d13ac0c319ed09c687185eb1f4834b770b1bc042683b9dca487d",
+      "drummer": "drummer9",
+      "split": "test",
+      "event_count": 1154,
+      "train_used": false,
+      "predictively_observed": true
+    },
+    {
+      "id": "drummer9/session1/16",
+      "sha256": "15ea59f2475197b5299df592efbf095d8bc4bcaf4f4f52345a6eeea901b6f56a",
+      "drummer": "drummer9",
+      "split": "test",
+      "event_count": 54,
+      "train_used": false,
+      "predictively_observed": true
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "schema_version": "mousa.research-intake.v1",
+  "works": [
+    {
+      "work_id": "mutopia-376",
+      "title": "Flee As A Bird",
+      "author": "(Traditional)",
+      "inputter": "Stan Sanderson",
+      "edition_source": "O. Ditson & Co., 277 Washington St., Boston, Mass.",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=376",
+      "midi_url": "https://www.mutopiaproject.org/ftp/Traditional/fleebird/fleebird.mid",
+      "license": "Public Domain",
+      "terms": "Per-work Public Domain declaration and Mutopia licensing page dedicating the contributor contribution, including linked LilyPond-generated MIDI. Local analysis/training of these exact files; no corpus, model or generated-work redistribution in this research approval.",
+      "acquired_at": "2026-11-12T08:56:00.462321+00:00",
+      "sha256": "b02e65def39bab988838d3d2e82ad9763f1b5b6b71b5a4c70e8f7b6d12eece8c",
+      "page_sha256": "6631c0801263b99883de56aa4a51a18bba9463da10c18d2b443ee205a8312ced",
+      "page_copyright_field": "Public Domain",
+      "review_state": "approved",
+      "training_allowed": true,
+      "split": "train",
+      "family_id": "mutopia-376",
+      "duplicate_group": "mutopia-376",
+      "review_note": "Approved only for the already-inspected Trial 001 diagnostic. Not a new sealed benchmark. Exact/normalized duplicate tests passed; wider corpus grouping still needs review.",
+      "source_kind": "midi",
+      "file": "mutopia-376.mid",
+      "track_index": 1,
+      "rights": {
+        "composition": {
+          "training_allowed": true,
+          "basis": "Per-work Public Domain declaration; historical composition and edition identified in source page. Existing Trial 001 reviewed source, rechecked for this exact diagnostic.",
+          "evidence_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=376",
+          "reviewed_on": "2026-11-12"
+        },
+        "arrangement": {
+          "training_allowed": true,
+          "basis": "Exact historical edition listed on source page; this specific contributed version marked Public Domain, not a blanket work catalogue license.",
+          "evidence_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=376",
+          "reviewed_on": "2026-11-12"
+        },
+        "midi_encoding": {
+          "training_allowed": true,
+          "basis": "MIDI is the exact linked LilyPond-generated contribution. Mutopia Public Domain section says contributor has dedicated their contribution and permits modification, distribution and other uses. Downloaded bytes match reviewed Trial 001 SHA-256.",
+          "evidence_url": "https://www.mutopiaproject.org/legal.html#publicdomain",
+          "reviewed_on": "2026-11-12"
+        }
+      },
+      "legal_page_sha256": "21dd9566f45b2b238be3e79c449d03fb964854e85e5d1d6e6c244d3352136aa3"
+    },
+    {
+      "work_id": "mutopia-2247",
+      "title": "Vocalise № 1",
+      "author": "by F. Abt (1819–1885)",
+      "inputter": "Anonymous",
+      "edition_source": "Practical Singing Tutor for All Voices, G.Schirmer, 1892. Ed: Max Spicker",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2247",
+      "midi_url": "https://www.mutopiaproject.org/ftp/AbtF/Vocalise1/Vocalise1.mid",
+      "license": "Public Domain",
+      "terms": "Per-work Public Domain declaration and Mutopia licensing page dedicating the contributor contribution, including linked LilyPond-generated MIDI. Local analysis/training of these exact files; no corpus, model or generated-work redistribution in this research approval.",
+      "acquired_at": "2026-11-12T08:56:02.912381+00:00",
+      "sha256": "bd6524f98752dd9190376e29dd0bce82d5bd5e57dcdbd549687e7836629434ff",
+      "page_sha256": "8b6ac6a4c00e91efdacd3b76c7ffddef5500db5bbfdc0bab85a2e92776524419",
+      "page_copyright_field": "Public Domain",
+      "review_state": "approved",
+      "training_allowed": true,
+      "split": "dev",
+      "family_id": "mutopia-2247",
+      "duplicate_group": "mutopia-2247",
+      "review_note": "Approved only for the already-inspected Trial 001 diagnostic. Not a new sealed benchmark. Exact/normalized duplicate tests passed; wider corpus grouping still needs review.",
+      "source_kind": "midi",
+      "file": "mutopia-2247.mid",
+      "track_index": 1,
+      "rights": {
+        "composition": {
+          "training_allowed": true,
+          "basis": "Per-work Public Domain declaration; historical composition and edition identified in source page. Existing Trial 001 reviewed source, rechecked for this exact diagnostic.",
+          "evidence_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2247",
+          "reviewed_on": "2026-11-12"
+        },
+        "arrangement": {
+          "training_allowed": true,
+          "basis": "Exact historical edition listed on source page; this specific contributed version marked Public Domain, not a blanket work catalogue license.",
+          "evidence_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2247",
+          "reviewed_on": "2026-11-12"
+        },
+        "midi_encoding": {
+          "training_allowed": true,
+          "basis": "MIDI is the exact linked LilyPond-generated contribution. Mutopia Public Domain section says contributor has dedicated their contribution and permits modification, distribution and other uses. Downloaded bytes match reviewed Trial 001 SHA-256.",
+          "evidence_url": "https://www.mutopiaproject.org/legal.html#publicdomain",
+          "reviewed_on": "2026-11-12"
+        }
+      },
+      "legal_page_sha256": "21dd9566f45b2b238be3e79c449d03fb964854e85e5d1d6e6c244d3352136aa3"
+    },
+    {
+      "work_id": "mutopia-2245",
+      "title": "Lesson I, The Diatonic Scale",
+      "author": "by Nicola Vaccai (1790–1848)",
+      "inputter": "Anonymous",
+      "edition_source": "Practical Vocal Method for Alto, Baritone / New York: G. Schirmer, 1894. (IMSLP38823-PMLP85474)",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2245",
+      "midi_url": "https://www.mutopiaproject.org/ftp/VaccaiN/LessonI/LessonI.mid",
+      "license": "Public Domain",
+      "terms": "Per-work Public Domain declaration and Mutopia licensing page dedicating the contributor contribution, including linked LilyPond-generated MIDI. Local analysis/training of these exact files; no corpus, model or generated-work redistribution in this research approval.",
+      "acquired_at": "2026-11-12T08:56:05.583588+00:00",
+      "sha256": "f4d0789f098b122d48789f80382d4eacbc577f1a4c058a14921b3c0f96466d3d",
+      "page_sha256": "39209462c75c52814229e01c409e094f9c15ead2778faf989a2b2f11ac7b3dc3",
+      "page_copyright_field": "Public Domain",
+      "review_state": "approved",
+      "training_allowed": true,
+      "split": "test",
+      "family_id": "mutopia-2245",
+      "duplicate_group": "mutopia-2245",
+      "review_note": "Approved only for the already-inspected Trial 001 diagnostic. Not a new sealed benchmark. Exact/normalized duplicate tests passed; wider corpus grouping still needs review.",
+      "source_kind": "midi",
+      "file": "mutopia-2245.mid",
+      "track_index": 1,
+      "rights": {
+        "composition": {
+          "training_allowed": true,
+          "basis": "Per-work Public Domain declaration; historical composition and edition identified in source page. Existing Trial 001 reviewed source, rechecked for this exact diagnostic.",
+          "evidence_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2245",
+          "reviewed_on": "2026-11-12"
+        },
+        "arrangement": {
+          "training_allowed": true,
+          "basis": "Exact historical edition listed on source page; this specific contributed version marked Public Domain, not a blanket work catalogue license.",
+          "evidence_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2245",
+          "reviewed_on": "2026-11-12"
+        },
+        "midi_encoding": {
+          "training_allowed": true,
+          "basis": "MIDI is the exact linked LilyPond-generated contribution. Mutopia Public Domain section says contributor has dedicated their contribution and permits modification, distribution and other uses. Downloaded bytes match reviewed Trial 001 SHA-256.",
+          "evidence_url": "https://www.mutopiaproject.org/legal.html#publicdomain",
+          "reviewed_on": "2026-11-12"
+        }
+      },
+      "legal_page_sha256": "21dd9566f45b2b238be3e79c449d03fb964854e85e5d1d6e6c244d3352136aa3"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "plan_sha256": "94747ddbd39b0e0da5a114c893a7dfefcffc1024d43782c0bd0fa6d1414ee2af",
+  "works": [
+    {
+      "work_id": "mutopia-376",
+      "notes": 159,
+      "onset_groups": 159,
+      "multi_note_onset_groups": 0,
+      "largest_onset_group": 1,
+      "selected_note_state_sha256": "5a87a551e93a245629e8575b7bacec96f2a3187e109409dd37c0f08caa8d25db",
+      "exact_note_state_roundtrip": true,
+      "timeline_ticks_in_unchanged_original": 62592
+    },
+    {
+      "work_id": "mutopia-888",
+      "notes": 38,
+      "onset_groups": 38,
+      "multi_note_onset_groups": 0,
+      "largest_onset_group": 1,
+      "selected_note_state_sha256": "d488afed70a70d7c424c571a1db646017bb9581cca83c9e2a0ef93e16a7b66d5",
+      "exact_note_state_roundtrip": true,
+      "timeline_ticks_in_unchanged_original": 11520
+    },
+    {
+      "work_id": "mutopia-889",
+      "notes": 47,
+      "onset_groups": 47,
+      "multi_note_onset_groups": 0,
+      "largest_onset_group": 1,
+      "selected_note_state_sha256": "f9a485009d3fbaaebb63063479f138b4a1200d27337eb4bdeedd22378ddea696",
+      "exact_note_state_roundtrip": true,
+      "timeline_ticks_in_unchanged_original": 11520
+    },
+    {
+      "work_id": "mutopia-789",
+      "notes": 120,
+      "onset_groups": 120,
+      "multi_note_onset_groups": 0,
+      "largest_onset_group": 1,
+      "selected_note_state_sha256": "0756493ca412285382684d66729aa6f2f886d067253cbee95b68998aa8e3930f",
+      "exact_note_state_roundtrip": true,
+      "timeline_ticks_in_unchanged_original": 37824
+    },
+    {
+      "work_id": "mutopia-583",
+      "notes": 80,
+      "onset_groups": 80,
+      "multi_note_onset_groups": 0,
+      "largest_onset_group": 1,
+      "selected_note_state_sha256": "a3a327beaf8d590f7f38d674f9f1ccbff6c8dda1546333b6bbb9d76415f85d67",
+      "exact_note_state_roundtrip": true,
+      "timeline_ticks_in_unchanged_original": 36096
+    },
+    {
+      "work_id": "mutopia-1578",
+      "notes": 170,
+      "onset_groups": 170,
+      "multi_note_onset_groups": 0,
+      "largest_onset_group": 1,
+      "selected_note_state_sha256": "6225fc990cf922c48b8461f0a50de49a0f3577e019bfdf2a95019ddb960389ed",
+      "exact_note_state_roundtrip": true,
+      "timeline_ticks_in_unchanged_original": 52992
+    },
+    {
+      "work_id": "mutopia-1558",
+      "notes": 289,
+      "onset_groups": 289,
+      "multi_note_onset_groups": 0,
+      "largest_onset_group": 1,
+      "selected_note_state_sha256": "c2cc296afbea3da4cfcd039d920065521057d6d3ecf50088a8ffaa26a9d0987f",
+      "exact_note_state_roundtrip": true,
+      "timeline_ticks_in_unchanged_original": 127104
+    },
+    {
+      "work_id": "mutopia-370",
+      "notes": 108,
+      "onset_groups": 108,
+      "multi_note_onset_groups": 0,
+      "largest_onset_group": 1,
+      "selected_note_state_sha256": "7163ef812264bcb89369b66b620e1c831d8c55b9993a513a1820bb0f1254a2a4",
+      "exact_note_state_roundtrip": true,
+      "timeline_ticks_in_unchanged_original": 36864
+    },
+    {
+      "work_id": "mutopia-98-legacy",
+      "notes": 131,
+      "onset_groups": 127,
+      "multi_note_onset_groups": 3,
+      "largest_onset_group": 3,
+      "selected_note_state_sha256": "c2431b0be083c64ea8bb95f31418e727c08087416bb0f50987b04fa38e706cc8",
+      "exact_note_state_roundtrip": true,
+      "timeline_ticks_in_unchanged_original": 29184
+    },
+    {
+      "work_id": "mutopia-263-legacy",
+      "notes": 1394,
+      "onset_groups": 789,
+      "multi_note_onset_groups": 405,
+      "largest_onset_group": 4,
+      "selected_note_state_sha256": "fa9c7482cacaf6027b78b214a7b4f969dbc2c388e380494599a42fafcb7ec89b",
+      "exact_note_state_roundtrip": true,
+      "timeline_ticks_in_unchanged_original": 116544
+    },
+    {
+      "work_id": "mutopia-904",
+      "notes": 628,
+      "onset_groups": 398,
+      "multi_note_onset_groups": 146,
+      "largest_onset_group": 4,
+      "selected_note_state_sha256": "aab366129a31d5d225600917038c65809cdeeb1b33ee7e0de94d94ca552f080e",
+      "exact_note_state_roundtrip": true,
+      "timeline_ticks_in_unchanged_original": 140160
+    },
+    {
+      "work_id": "mutopia-2080",
+      "notes": 99,
+      "onset_groups": 96,
+      "multi_note_onset_groups": 3,
+      "largest_onset_group": 2,
+      "selected_note_state_sha256": "946681b706ed770b5b8414f89d6655d739d41a2d7c34433e7ea1d311459229fe",
+      "exact_note_state_roundtrip": true,
+      "timeline_ticks_in_unchanged_original": 24768
+    },
+    {
+      "work_id": "mutopia-2060",
+      "notes": 121,
+      "onset_groups": 121,
+      "multi_note_onset_groups": 0,
+      "largest_onset_group": 1,
+      "selected_note_state_sha256": "765ac83ab5be43b707f6e77de5da11c7aa55e7338d32ac6abdc66f5f423ff607",
+      "exact_note_state_roundtrip": true,
+      "timeline_ticks_in_unchanged_original": 11712
+    },
+    {
+      "work_id": "mutopia-2061",
+      "notes": 70,
+      "onset_groups": 68,
+      "multi_note_onset_groups": 1,
+      "largest_onset_group": 3,
+      "selected_note_state_sha256": "089d17d623275f308ac258227311a990f4e6e359b9adb2db5fef5e84eb51ce5a",
+      "exact_note_state_roundtrip": true,
+      "timeline_ticks_in_unchanged_original": 8640
+    }
+  ],
+  "notes": 3454,
+  "groups": 2610,
+  "all_exact_note_state_roundtrip": true,
+  "limitations": "Note-only view. Original metadata, channel-event order and MIDI bytes remain outside view. No voice assignment or chord-function inference.",
+  "model_fits": 0,
+  "generated_media": 0
+}

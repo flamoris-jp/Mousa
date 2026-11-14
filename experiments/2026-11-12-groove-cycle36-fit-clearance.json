@@ -1,0 +1,6 @@
+{
+  "status": "approved-for-local-experiment",
+  "plan_sha256": "2a202a6eb4730a4c97a5505a45e07d08eded19d25dd59df85b53bc877c9fe79d",
+  "review_reference": "Cycle36 coordinator reviewed exact-byte dedup retaining baseline/no replacement,35work19409event bounded profile, fixed performer split/40reserved evaluation,clear23024crosssplit screen,all6unchanged estimators,synthetic parity/normalization and new before-fit failure journal. User authorized small CPU autonomous research.",
+  "scope": "Run and repeat bound12-vs35 plan under CPU60; retain all outcomes and actual-use roles including excluded alias."
+}

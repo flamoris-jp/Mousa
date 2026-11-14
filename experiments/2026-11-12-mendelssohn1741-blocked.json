@@ -1,0 +1,17 @@
+{
+  "status": "blocked-before-fit-and-score",
+  "plan_sha256": "42dd8456f1aaf0e5ee702b5c0d01634543e1f6e0dd5f26ac4aced150d6f62a86",
+  "independent_screen_sha256": "9df6d48bea4c58eb824d1fca9dfe9accf47a998f761344e06e96e00b766361c4",
+  "source_sha256": "3de7c0dae2206d5bdd2ddb5f49c3e2851df0d218472c868c0212d0f98b19ccaf",
+  "coverage": {
+    "events": 161,
+    "supported_events": 161,
+    "unsupported": 0
+  },
+  "gate_rejection": "independent allknown explicit clearance missing or flagged",
+  "predictive_calls": 0,
+  "model_constructions": 0,
+  "training_calls": 0,
+  "tests": "2 synthetic gate tests passed; real blocked clearance rejected by check_clearance only",
+  "limitation": "Representation support and old7 local screen passing do not override independent allknown matches. No NLL computed; no claims of copying or musical quality. Thresholds unchanged."
+}

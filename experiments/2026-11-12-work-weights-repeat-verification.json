@@ -1,0 +1,18 @@
+{
+  "scope": "Independent weighted timing diagnostic review; no generation",
+  "normalized_repeat_equal": true,
+  "excluded_field": "plan.created_at_utc",
+  "initial_report_sha256": "e20a6014b6867e233c8482e37c8d60b42ec191dc8be729605f4cee518219a34f",
+  "repeat_report_sha256": "9e63894082e46f99703f2ae2c60db91bb27979591c008145a4595db654bfbafc",
+  "frozen_hashes_match": true,
+  "synthetic_exact_normalization_checks": 200,
+  "random_seed": 24,
+  "unit_tests_passed": 3,
+  "raw_baseline_max_float_nll_difference": 3.552713678800501e-15,
+  "context_raw_baselines_exact": true,
+  "limitations": [
+    "All diagnostics previously observed; no source or weight selection from outcome.",
+    "Count scaling changes priors and context strength relative to counts; no isolated causal interpretation.",
+    "Equal work weighting is not equal family or genre weighting."
+  ]
+}

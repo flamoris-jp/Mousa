@@ -1,0 +1,49 @@
+{
+  "scope": "Cycle38 saved-score cohort comparison only. No original MIDI/audio, new model counts, predictive scoring, source admission or previous snapshot changes.",
+  "files": [
+    {
+      "relative_path": "tools/groove_cycle38_cohorts.py",
+      "bytes": 10068,
+      "sha256": "9a073cba052583d88129a449c37c6c77aefccc9c2979870096a7557584ed6d33"
+    },
+    {
+      "relative_path": "tests/test_groove_cycle38.py",
+      "bytes": 1158,
+      "sha256": "e13437771ccbb15a790de0ea5bf804ede32df4b167d57f9a8ca47dc20d8cabf5"
+    },
+    {
+      "relative_path": "datasets/research-groove-rights-cycle32-20261112.json",
+      "bytes": 5043,
+      "sha256": "de6f14f3b6f38398f1d419e7a5b3fcf0f0d943adcadd914826629641fa4f0bbc"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-cycle38-cohort-comparison.md",
+      "bytes": 4712,
+      "sha256": "a8b47e01ca8be7d39a1ba198b0f1998a3c0830b0f827e0a8301564f48a103fc4"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-cycle38-hypothesis.json",
+      "bytes": 1165,
+      "sha256": "3b1ac5f726cb64184d87a0000a5f053ce995d6770e805388043dbc2131a4386c"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-cycle38-plan.json",
+      "bytes": 3733,
+      "sha256": "d231e81e2cb909aa39c590ab7082fb2ac6f8be84a907855f4ac0cb0094141dd1"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-cycle38-results.json",
+      "bytes": 229208,
+      "sha256": "8adc4b69dc067305c17bd4e5f602bead1d4e7c8f4ddce442164d073ac252ea15"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-cycle38-verification.json",
+      "bytes": 1017,
+      "sha256": "c2690f2a094d04e7ca04bbf1585eb4302dedd30692738f1c9d4e7a466af04e93"
+    }
+  ],
+  "file_count": 8,
+  "total_bytes": 256104,
+  "uploaded": false,
+  "manifest_sha256": "f6f2bc9d252e0559936510575274c847f7f72bf1426fa4d968c9855288cd26e2"
+}

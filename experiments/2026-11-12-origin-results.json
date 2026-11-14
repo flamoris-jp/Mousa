@@ -1,0 +1,1627 @@
+{
+  "config": {
+    "scope": "exploratory; all sources previously observed",
+    "position_strengths": [
+      0,
+      1,
+      4,
+      16,
+      64
+    ],
+    "alignment": [
+      "naive",
+      "score"
+    ],
+    "relative": true,
+    "duration_prior": "empirical",
+    "context": "bar only; phrase origin not annotated",
+    "seeds": [
+      7,
+      17,
+      29
+    ],
+    "rest_limit": 12,
+    "generation_origin": 0,
+    "generation_meter": [
+      6,
+      8
+    ],
+    "steps": 96,
+    "manifests": {
+      "research-exploratory-multifamily-20261112.json": "bfcb2777ca6af1fbf41e957809a0fd35c6291e9bb3ae14182fd7ba1c9a86f6d7",
+      "research-metrical-origins-20261112.json": "d1c2950ecfa14a087fe677a15786c129e4ade8841b8b7c925b30e9a65051c972"
+    },
+    "code_sha256": {
+      "src/mousa/position_event_model.py": "cdfde965ee3a938f678992cf52f22dc10290e2c3853d3f5be760a431def90515",
+      "tools/compare_origin_shrinkage.py": "f36ef5385ec484ede525c32e33401ebf6910a7afd9b71dc9811c2ae2146d5316"
+    }
+  },
+  "results": {
+    "naive-k0": {
+      "metrics": {
+        "mutopia-376": {
+          "events": 173,
+          "correct_events": 135,
+          "correct_pitch_marginal": 140,
+          "correct_duration_marginal": 157,
+          "nll_per_event": 0.9476179535062604,
+          "support_size": 3328
+        },
+        "mutopia-2247": {
+          "events": 36,
+          "correct_events": 3,
+          "correct_pitch_marginal": 8,
+          "correct_duration_marginal": 11,
+          "nll_per_event": 4.759753001800629,
+          "support_size": 3328
+        },
+        "mutopia-2245": {
+          "events": 51,
+          "correct_events": 2,
+          "correct_pitch_marginal": 4,
+          "correct_duration_marginal": 25,
+          "nll_per_event": 5.561734531719186,
+          "support_size": 3328
+        },
+        "mutopia-888": {
+          "events": 38,
+          "correct_events": 17,
+          "correct_pitch_marginal": 21,
+          "correct_duration_marginal": 30,
+          "nll_per_event": 1.658636493161408,
+          "support_size": 3328
+        },
+        "mutopia-889": {
+          "events": 48,
+          "correct_events": 33,
+          "correct_pitch_marginal": 33,
+          "correct_duration_marginal": 43,
+          "nll_per_event": 1.4166069252790647,
+          "support_size": 3328
+        },
+        "mutopia-789": {
+          "events": 130,
+          "correct_events": 91,
+          "correct_pitch_marginal": 97,
+          "correct_duration_marginal": 115,
+          "nll_per_event": 1.1115461598107204,
+          "support_size": 3328
+        }
+      },
+      "family_folds": {
+        "english-county-songs-1893": {
+          "train_ids": [
+            "mutopia-376",
+            "mutopia-789"
+          ],
+          "held_ids": [
+            "mutopia-888",
+            "mutopia-889"
+          ],
+          "scores": {
+            "mutopia-888": {
+              "events": 38,
+              "correct_events": 12,
+              "correct_pitch_marginal": 16,
+              "correct_duration_marginal": 19,
+              "nll_per_event": 4.023177692393884,
+              "support_size": 3328
+            },
+            "mutopia-889": {
+              "events": 48,
+              "correct_events": 6,
+              "correct_pitch_marginal": 8,
+              "correct_duration_marginal": 25,
+              "nll_per_event": 5.557236583386319,
+              "support_size": 3328
+            }
+          }
+        },
+        "mutopia-376": {
+          "train_ids": [
+            "mutopia-888",
+            "mutopia-889",
+            "mutopia-789"
+          ],
+          "held_ids": [
+            "mutopia-376"
+          ],
+          "scores": {
+            "mutopia-376": {
+              "events": 173,
+              "correct_events": 8,
+              "correct_pitch_marginal": 51,
+              "correct_duration_marginal": 20,
+              "nll_per_event": 6.526473038055023,
+              "support_size": 3328
+            }
+          }
+        },
+        "mutopia-789": {
+          "train_ids": [
+            "mutopia-376",
+            "mutopia-888",
+            "mutopia-889"
+          ],
+          "held_ids": [
+            "mutopia-789"
+          ],
+          "scores": {
+            "mutopia-789": {
+              "events": 130,
+              "correct_events": 21,
+              "correct_pitch_marginal": 34,
+              "correct_duration_marginal": 64,
+              "nll_per_event": 4.795115930328501,
+              "support_size": 3328
+            }
+          }
+        }
+      },
+      "family_macro_nll": 5.3705987020912085,
+      "candidates": [
+        {
+          "seed": 7,
+          "status": "complete",
+          "rejections": 0,
+          "max_rest_run": 12,
+          "matching_8_note_phrases": 0,
+          "sha256": "a51312f15e77f2e2ad0fd500667ba180f7526d1671ff41736020760387fad8b2",
+          "exact_roundtrip": true,
+          "file": "naive-k0-seed7.mid",
+          "note_onsets": 33
+        },
+        {
+          "seed": 17,
+          "status": "complete",
+          "rejections": 0,
+          "max_rest_run": 12,
+          "matching_8_note_phrases": 0,
+          "sha256": "ce230320519d8c4a051a927fed2f6876db1e19eb21f4f84e011cc33822a2a01b",
+          "exact_roundtrip": true,
+          "file": "naive-k0-seed17.mid",
+          "note_onsets": 15
+        },
+        {
+          "seed": 29,
+          "status": "complete",
+          "rejections": 0,
+          "max_rest_run": 12,
+          "matching_8_note_phrases": 0,
+          "sha256": "53de265dd5181f6b482a3abf5a9e675974be9c4c9068637c691d94c69d3016df",
+          "exact_roundtrip": true,
+          "file": "naive-k0-seed29.mid",
+          "note_onsets": 31
+        }
+      ]
+    },
+    "naive-k1": {
+      "metrics": {
+        "mutopia-376": {
+          "events": 173,
+          "correct_events": 120,
+          "correct_pitch_marginal": 132,
+          "correct_duration_marginal": 150,
+          "nll_per_event": 1.1612980601227427,
+          "support_size": 3328
+        },
+        "mutopia-2247": {
+          "events": 36,
+          "correct_events": 2,
+          "correct_pitch_marginal": 8,
+          "correct_duration_marginal": 9,
+          "nll_per_event": 5.052744886965835,
+          "support_size": 3328
+        },
+        "mutopia-2245": {
+          "events": 51,
+          "correct_events": 0,
+          "correct_pitch_marginal": 4,
+          "correct_duration_marginal": 19,
+          "nll_per_event": 5.461843831191633,
+          "support_size": 3328
+        },
+        "mutopia-888": {
+          "events": 38,
+          "correct_events": 16,
+          "correct_pitch_marginal": 20,
+          "correct_duration_marginal": 29,
+          "nll_per_event": 1.9709674882919637,
+          "support_size": 3328
+        },
+        "mutopia-889": {
+          "events": 48,
+          "correct_events": 20,
+          "correct_pitch_marginal": 23,
+          "correct_duration_marginal": 36,
+          "nll_per_event": 2.0000710335819685,
+          "support_size": 3328
+        },
+        "mutopia-789": {
+          "events": 130,
+          "correct_events": 80,
+          "correct_pitch_marginal": 93,
+          "correct_duration_marginal": 105,
+          "nll_per_event": 1.4790718340609503,
+          "support_size": 3328
+        }
+      },
+      "family_folds": {
+        "english-county-songs-1893": {
+          "train_ids": [
+            "mutopia-376",
+            "mutopia-789"
+          ],
+          "held_ids": [
+            "mutopia-888",
+            "mutopia-889"
+          ],
+          "scores": {
+            "mutopia-888": {
+              "events": 38,
+              "correct_events": 8,
+              "correct_pitch_marginal": 13,
+              "correct_duration_marginal": 17,
+              "nll_per_event": 3.9153815348640544,
+              "support_size": 3328
+            },
+            "mutopia-889": {
+              "events": 48,
+              "correct_events": 6,
+              "correct_pitch_marginal": 9,
+              "correct_duration_marginal": 24,
+              "nll_per_event": 5.251189732834203,
+              "support_size": 3328
+            }
+          }
+        },
+        "mutopia-376": {
+          "train_ids": [
+            "mutopia-888",
+            "mutopia-889",
+            "mutopia-789"
+          ],
+          "held_ids": [
+            "mutopia-376"
+          ],
+          "scores": {
+            "mutopia-376": {
+              "events": 173,
+              "correct_events": 8,
+              "correct_pitch_marginal": 51,
+              "correct_duration_marginal": 20,
+              "nll_per_event": 6.526473038055023,
+              "support_size": 3328
+            }
+          }
+        },
+        "mutopia-789": {
+          "train_ids": [
+            "mutopia-376",
+            "mutopia-888",
+            "mutopia-889"
+          ],
+          "held_ids": [
+            "mutopia-789"
+          ],
+          "scores": {
+            "mutopia-789": {
+              "events": 130,
+              "correct_events": 25,
+              "correct_pitch_marginal": 40,
+              "correct_duration_marginal": 70,
+              "nll_per_event": 4.380467451989973,
+              "support_size": 3328
+            }
+          }
+        }
+      },
+      "family_macro_nll": 5.163408707964709,
+      "candidates": [
+        {
+          "seed": 7,
+          "status": "complete",
+          "rejections": 0,
+          "max_rest_run": 12,
+          "matching_8_note_phrases": 0,
+          "sha256": "963f9fbeba94b411ebad5fd52b3f7289be2a0389ae0cd82371bd43507eb62e8e",
+          "exact_roundtrip": true,
+          "file": "naive-k1-seed7.mid",
+          "note_onsets": 35
+        },
+        {
+          "seed": 17,
+          "status": "complete",
+          "rejections": 0,
+          "max_rest_run": 12,
+          "matching_8_note_phrases": 0,
+          "sha256": "24a74a034a3dfe72a5a78b996a910fb940c4592cd9ac71b9b6a05caa07e03557",
+          "exact_roundtrip": true,
+          "file": "naive-k1-seed17.mid",
+          "note_onsets": 24
+        },
+        {
+          "seed": 29,
+          "status": "complete",
+          "rejections": 0,
+          "max_rest_run": 12,
+          "matching_8_note_phrases": 0,
+          "sha256": "b44229c8d96430691fc0f483d20a228108370b441a38edef40bd4cda66e6b7f2",
+          "exact_roundtrip": true,
+          "file": "naive-k1-seed29.mid",
+          "note_onsets": 33
+        }
+      ]
+    },
+    "naive-k4": {
+      "metrics": {
+        "mutopia-376": {
+          "events": 173,
+          "correct_events": 116,
+          "correct_pitch_marginal": 128,
+          "correct_duration_marginal": 144,
+          "nll_per_event": 1.3418576176146588,
+          "support_size": 3328
+        },
+        "mutopia-2247": {
+          "events": 36,
+          "correct_events": 2,
+          "correct_pitch_marginal": 8,
+          "correct_duration_marginal": 10,
+          "nll_per_event": 5.266560879686002,
+          "support_size": 3328
+        },
+        "mutopia-2245": {
+          "events": 51,
+          "correct_events": 0,
+          "correct_pitch_marginal": 4,
+          "correct_duration_marginal": 19,
+          "nll_per_event": 5.650379655752363,
+          "support_size": 3328
+        },
+        "mutopia-888": {
+          "events": 38,
+          "correct_events": 12,
+          "correct_pitch_marginal": 20,
+          "correct_duration_marginal": 17,
+          "nll_per_event": 2.1882619622482924,
+          "support_size": 3328
+        },
+        "mutopia-889": {
+          "events": 48,
+          "correct_events": 15,
+          "correct_pitch_marginal": 19,
+          "correct_duration_marginal": 33,
+          "nll_per_event": 2.2712051476754147,
+          "support_size": 3328
+        },
+        "mutopia-789": {
+          "events": 130,
+          "correct_events": 70,
+          "correct_pitch_marginal": 82,
+          "correct_duration_marginal": 99,
+          "nll_per_event": 1.745853339092306,
+          "support_size": 3328
+        }
+      },
+      "family_folds": {
+        "english-county-songs-1893": {
+          "train_ids": [
+            "mutopia-376",
+            "mutopia-789"
+          ],
+          "held_ids": [
+            "mutopia-888",
+            "mutopia-889"
+          ],
+          "scores": {
+            "mutopia-888": {
+              "events": 38,
+              "correct_events": 5,
+              "correct_pitch_marginal": 7,
+              "correct_duration_marginal": 16,
+              "nll_per_event": 4.0683492153964576,
+              "support_size": 3328
+            },
+            "mutopia-889": {
+              "events": 48,
+              "correct_events": 5,
+              "correct_pitch_marginal": 8,
+              "correct_duration_marginal": 25,
+              "nll_per_event": 5.2133226294295385,
+              "support_size": 3328
+            }
+          }
+        },
+        "mutopia-376": {
+          "train_ids": [
+            "mutopia-888",
+            "mutopia-889",
+            "mutopia-789"
+          ],
+          "held_ids": [
+            "mutopia-376"
+          ],
+          "scores": {
+            "mutopia-376": {
+              "events": 173,
+              "correct_events": 8,
+              "correct_pitch_marginal": 51,
+              "correct_duration_marginal": 20,
+              "nll_per_event": 6.526473038055023,
+              "support_size": 3328
+            }
+          }
+        },
+        "mutopia-789": {
+          "train_ids": [
+            "mutopia-376",
+            "mutopia-888",
+            "mutopia-889"
+          ],
+          "held_ids": [
+            "mutopia-789"
+          ],
+          "scores": {
+            "mutopia-789": {
+              "events": 130,
+              "correct_events": 26,
+              "correct_pitch_marginal": 38,
+              "correct_duration_marginal": 74,
+              "nll_per_event": 4.363334092606525,
+              "support_size": 3328
+            }
+          }
+        }
+      },
+      "family_macro_nll": 5.176881017691516,
+      "candidates": [
+        {
+          "seed": 7,
+          "status": "complete",
+          "rejections": 0,
+          "max_rest_run": 12,
+          "matching_8_note_phrases": 0,
+          "sha256": "8806c1ae2e801ec14de7a1324b71d13955c69e620119384b3c03f9d9c7a3fe62",
+          "exact_roundtrip": true,
+          "file": "naive-k4-seed7.mid",
+          "note_onsets": 35
+        },
+        {
+          "seed": 17,
+          "status": "complete",
+          "rejections": 0,
+          "max_rest_run": 12,
+          "matching_8_note_phrases": 0,
+          "sha256": "99c4440efac5eca99f8d3afb414c111cffda247492927926a9723beff2df3fd6",
+          "exact_roundtrip": true,
+          "file": "naive-k4-seed17.mid",
+          "note_onsets": 20
+        },
+        {
+          "seed": 29,
+          "status": "complete",
+          "rejections": 0,
+          "max_rest_run": 12,
+          "matching_8_note_phrases": 0,
+          "sha256": "115509991216c001d0305f9c1f23756acb73e5c1b1798c871d9c9b74e25796c4",
+          "exact_roundtrip": true,
+          "file": "naive-k4-seed29.mid",
+          "note_onsets": 32
+        }
+      ]
+    },
+    "naive-k16": {
+      "metrics": {
+        "mutopia-376": {
+          "events": 173,
+          "correct_events": 111,
+          "correct_pitch_marginal": 122,
+          "correct_duration_marginal": 143,
+          "nll_per_event": 1.5074685965379668,
+          "support_size": 3328
+        },
+        "mutopia-2247": {
+          "events": 36,
+          "correct_events": 2,
+          "correct_pitch_marginal": 8,
+          "correct_duration_marginal": 6,
+          "nll_per_event": 5.5030408844603365,
+          "support_size": 3328
+        },
+        "mutopia-2245": {
+          "events": 51,
+          "correct_events": 0,
+          "correct_pitch_marginal": 1,
+          "correct_duration_marginal": 12,
+          "nll_per_event": 5.871740364747761,
+          "support_size": 3328
+        },
+        "mutopia-888": {
+          "events": 38,
+          "correct_events": 11,
+          "correct_pitch_marginal": 19,
+          "correct_duration_marginal": 17,
+          "nll_per_event": 2.35769901408294,
+          "support_size": 3328
+        },
+        "mutopia-889": {
+          "events": 48,
+          "correct_events": 15,
+          "correct_pitch_marginal": 19,
+          "correct_duration_marginal": 33,
+          "nll_per_event": 2.4296289490971135,
+          "support_size": 3328
+        },
+        "mutopia-789": {
+          "events": 130,
+          "correct_events": 66,
+          "correct_pitch_marginal": 75,
+          "correct_duration_marginal": 99,
+          "nll_per_event": 1.9461940328476244,
+          "support_size": 3328
+        }
+      },
+      "family_folds": {
+        "english-county-songs-1893": {
+          "train_ids": [
+            "mutopia-376",
+            "mutopia-789"
+          ],
+          "held_ids": [
+            "mutopia-888",
+            "mutopia-889"
+          ],
+          "scores": {
+            "mutopia-888": {
+              "events": 38,
+              "correct_events": 3,
+              "correct_pitch_marginal": 7,
+              "correct_duration_marginal": 16,
+              "nll_per_event": 4.262412819211275,
+              "support_size": 3328
+            },
+            "mutopia-889": {
+              "events": 48,
+              "correct_events": 8,
+              "correct_pitch_marginal": 11,
+              "correct_duration_marginal": 28,
+              "nll_per_event": 5.189312683127993,
+              "support_size": 3328
+            }
+          }
+        },
+        "mutopia-376": {
+          "train_ids": [
+            "mutopia-888",
+            "mutopia-889",
+            "mutopia-789"
+          ],
+          "held_ids": [
+            "mutopia-376"
+          ],
+          "scores": {
+            "mutopia-376": {
+              "events": 173,
+              "correct_events": 8,
+              "correct_pitch_marginal": 51,
+              "correct_duration_marginal": 20,
+              "nll_per_event": 6.526473038055023,
+              "support_size": 3328
+            }
+          }
+        },
+        "mutopia-789": {
+          "train_ids": [
+            "mutopia-376",
+            "mutopia-888",
+            "mutopia-889"
+          ],
+          "held_ids": [
+            "mutopia-789"
+          ],
+          "scores": {
+            "mutopia-789": {
+              "events": 130,
+              "correct_events": 19,
+              "correct_pitch_marginal": 30,
+              "correct_duration_marginal": 65,
+              "nll_per_event": 4.381625228935691,
+              "support_size": 3328
+            }
+          }
+        }
+      },
+      "family_macro_nll": 5.211320339386783,
+      "candidates": [
+        {
+          "seed": 7,
+          "status": "complete",
+          "rejections": 0,
+          "max_rest_run": 12,
+          "matching_8_note_phrases": 0,
+          "sha256": "c29e2a5923734a9682cd2596a866a8ab946922d4cacc453ecf7104285f2583ba",
+          "exact_roundtrip": true,
+          "file": "naive-k16-seed7.mid",
+          "note_onsets": 30
+        },
+        {
+          "seed": 17,
+          "status": "complete",
+          "rejections": 0,
+          "max_rest_run": 12,
+          "matching_8_note_phrases": 0,
+          "sha256": "42d34a53f833f2e6fc6b5f8c91d40e3de69441a67e13d94f1f2c1f36212a1a60",
+          "exact_roundtrip": true,
+          "file": "naive-k16-seed17.mid",
+          "note_onsets": 21
+        },
+        {
+          "seed": 29,
+          "status": "complete",
+          "rejections": 0,
+          "max_rest_run": 12,
+          "matching_8_note_phrases": 0,
+          "sha256": "350183548b38b074ee281781f53249ceb966a3e13c357d45f5282d4b860866e7",
+          "exact_roundtrip": true,
+          "file": "naive-k16-seed29.mid",
+          "note_onsets": 31
+        }
+      ]
+    },
+    "naive-k64": {
+      "metrics": {
+        "mutopia-376": {
+          "events": 173,
+          "correct_events": 107,
+          "correct_pitch_marginal": 118,
+          "correct_duration_marginal": 137,
+          "nll_per_event": 1.5934166872145332,
+          "support_size": 3328
+        },
+        "mutopia-2247": {
+          "events": 36,
+          "correct_events": 1,
+          "correct_pitch_marginal": 7,
+          "correct_duration_marginal": 6,
+          "nll_per_event": 5.718146945087078,
+          "support_size": 3328
+        },
+        "mutopia-2245": {
+          "events": 51,
+          "correct_events": 0,
+          "correct_pitch_marginal": 4,
+          "correct_duration_marginal": 12,
+          "nll_per_event": 6.08248315199354,
+          "support_size": 3328
+        },
+        "mutopia-888": {
+          "events": 38,
+          "correct_events": 11,
+          "correct_pitch_marginal": 19,
+          "correct_duration_marginal": 17,
+          "nll_per_event": 2.442667100994781,
+          "support_size": 3328
+        },
+        "mutopia-889": {
+          "events": 48,
+          "correct_events": 15,
+          "correct_pitch_marginal": 19,
+          "correct_duration_marginal": 33,
+          "nll_per_event": 2.498339156518047,
+          "support_size": 3328
+        },
+        "mutopia-789": {
+          "events": 130,
+          "correct_events": 60,
+          "correct_pitch_marginal": 69,
+          "correct_duration_marginal": 99,
+          "nll_per_event": 2.03768497018773,
+          "support_size": 3328
+        }
+      },
+      "family_folds": {
+        "english-county-songs-1893": {
+          "train_ids": [
+            "mutopia-376",
+            "mutopia-789"
+          ],
+          "held_ids": [
+            "mutopia-888",
+            "mutopia-889"
+          ],
+          "scores": {
+            "mutopia-888": {
+              "events": 38,
+              "correct_events": 2,
+              "correct_pitch_marginal": 6,
+              "correct_duration_marginal": 15,
+              "nll_per_event": 4.432776051431055,
+              "support_size": 3328
+            },
+            "mutopia-889": {
+              "events": 48,
+              "correct_events": 9,
+              "correct_pitch_marginal": 12,
+              "correct_duration_marginal": 29,
+              "nll_per_event": 5.1636348503086635,
+              "support_size": 3328
+            }
+          }
+        },
+        "mutopia-376": {
+          "train_ids": [
+            "mutopia-888",
+            "mutopia-889",
+            "mutopia-789"
+          ],
+          "held_ids": [
+            "mutopia-376"
+          ],
+          "scores": {
+            "mutopia-376": {
+              "events": 173,
+              "correct_events": 8,
+              "correct_pitch_marginal": 51,
+              "correct_duration_marginal": 20,
+              "nll_per_event": 6.526473038055023,
+              "support_size": 3328
+            }
+          }
+        },
+        "mutopia-789": {
+          "train_ids": [
+            "mutopia-376",
+            "mutopia-888",
+            "mutopia-889"
+          ],
+          "held_ids": [
+            "mutopia-789"
+          ],
+          "scores": {
+            "mutopia-789": {
+              "events": 130,
+              "correct_events": 15,
+              "correct_pitch_marginal": 26,
+              "correct_duration_marginal": 62,
+              "nll_per_event": 4.465578237958885,
+              "support_size": 3328
+            }
+          }
+        }
+      },
+      "family_macro_nll": 5.263418908961256,
+      "candidates": [
+        {
+          "seed": 7,
+          "status": "complete",
+          "rejections": 0,
+          "max_rest_run": 12,
+          "matching_8_note_phrases": 0,
+          "sha256": "3ef67a08d3b10d665d5ca6c8ed6692a677d836c1bf130521a5631c8274bb7b9f",
+          "exact_roundtrip": true,
+          "file": "naive-k64-seed7.mid",
+          "note_onsets": 35
+        },
+        {
+          "seed": 17,
+          "status": "complete",
+          "rejections": 0,
+          "max_rest_run": 12,
+          "matching_8_note_phrases": 0,
+          "sha256": "8503007750c8b4df61f3eb47a915005317d47ea6b77bfc39ee21fafa40aa5114",
+          "exact_roundtrip": true,
+          "file": "naive-k64-seed17.mid",
+          "note_onsets": 19
+        },
+        {
+          "seed": 29,
+          "status": "complete",
+          "rejections": 0,
+          "max_rest_run": 12,
+          "matching_8_note_phrases": 0,
+          "sha256": "54ff1f908f14d42eaf87dc4ef5fe6ca9d13c4d9c2d09ff99d45a6738d11e2e6d",
+          "exact_roundtrip": true,
+          "file": "naive-k64-seed29.mid",
+          "note_onsets": 33
+        }
+      ]
+    },
+    "score-k0": {
+      "metrics": {
+        "mutopia-376": {
+          "events": 173,
+          "correct_events": 135,
+          "correct_pitch_marginal": 140,
+          "correct_duration_marginal": 157,
+          "nll_per_event": 0.9476179535062604,
+          "support_size": 3328
+        },
+        "mutopia-2247": {
+          "events": 36,
+          "correct_events": 3,
+          "correct_pitch_marginal": 8,
+          "correct_duration_marginal": 11,
+          "nll_per_event": 4.759753001800629,
+          "support_size": 3328
+        },
+        "mutopia-2245": {
+          "events": 51,
+          "correct_events": 2,
+          "correct_pitch_marginal": 4,
+          "correct_duration_marginal": 25,
+          "nll_per_event": 5.561734531719186,
+          "support_size": 3328
+        },
+        "mutopia-888": {
+          "events": 38,
+          "correct_events": 17,
+          "correct_pitch_marginal": 21,
+          "correct_duration_marginal": 30,
+          "nll_per_event": 1.713745095486675,
+          "support_size": 3328
+        },
+        "mutopia-889": {
+          "events": 48,
+          "correct_events": 30,
+          "correct_pitch_marginal": 32,
+          "correct_duration_marginal": 39,
+          "nll_per_event": 1.5214774045010113,
+          "support_size": 3328
+        },
+        "mutopia-789": {
+          "events": 130,
+          "correct_events": 90,
+          "correct_pitch_marginal": 97,
+          "correct_duration_marginal": 114,
+          "nll_per_event": 1.134756730083898,
+          "support_size": 3328
+        }
+      },
+      "family_folds": {
+        "english-county-songs-1893": {
+          "train_ids": [
+            "mutopia-376",
+            "mutopia-789"
+          ],
+          "held_ids": [
+            "mutopia-888",
+            "mutopia-889"
+          ],
+          "scores": {
+            "mutopia-888": {
+              "events": 38,
+              "correct_events": 12,
+              "correct_pitch_marginal": 16,
+              "correct_duration_marginal": 19,
+              "nll_per_event": 4.023177692393884,
+              "support_size": 3328
+            },
+            "mutopia-889": {
+              "events": 48,
+              "correct_events": 5,
+              "correct_pitch_marginal": 8,
+              "correct_duration_marginal": 28,
+              "nll_per_event": 5.05450839415336,
+              "support_size": 3328
+            }
+          }
+        },
+        "mutopia-376": {
+          "train_ids": [
+            "mutopia-888",
+            "mutopia-889",
+            "mutopia-789"
+          ],
+          "held_ids": [
+            "mutopia-376"
+          ],
+          "scores": {
+            "mutopia-376": {
+              "events": 173,
+              "correct_events": 8,
+              "correct_pitch_marginal": 51,
+              "correct_duration_marginal": 20,
+              "nll_per_event": 6.526473038055023,
+              "support_size": 3328
+            }
+          }
+        },
+        "mutopia-789": {
+          "train_ids": [
+            "mutopia-376",
+            "mutopia-888",
+            "mutopia-889"
+          ],
+          "held_ids": [
+            "mutopia-789"
+          ],
+          "scores": {
+            "mutopia-789": {
+              "events": 130,
+              "correct_events": 23,
+              "correct_pitch_marginal": 29,
+              "correct_duration_marginal": 89,
+              "nll_per_event": 4.8677606074947946,
+              "support_size": 3328
+            }
+          }
+        }
+      },
+      "family_macro_nll": 5.311025562941147,
+      "candidates": [
+        {
+          "seed": 7,
+          "status": "complete",
+          "rejections": 0,
+          "max_rest_run": 12,
+          "matching_8_note_phrases": 0,
+          "sha256": "6268885a17f367ee7f3fe8755244d4131325419ddbc3e4ea574a14ab43157de5",
+          "exact_roundtrip": true,
+          "file": "score-k0-seed7.mid",
+          "note_onsets": 36
+        },
+        {
+          "seed": 17,
+          "status": "complete",
+          "rejections": 0,
+          "max_rest_run": 12,
+          "matching_8_note_phrases": 0,
+          "sha256": "c12f31de8a934e9138a5122535f6457c1d08a14a79e986fc2ea037154c2fae43",
+          "exact_roundtrip": true,
+          "file": "score-k0-seed17.mid",
+          "note_onsets": 25
+        },
+        {
+          "seed": 29,
+          "status": "complete",
+          "rejections": 0,
+          "max_rest_run": 12,
+          "matching_8_note_phrases": 0,
+          "sha256": "8d1a3f046cef22e2762e23bb62cd7d06a94a852af387c5c465672b05eda3d6d6",
+          "exact_roundtrip": true,
+          "file": "score-k0-seed29.mid",
+          "note_onsets": 31
+        }
+      ]
+    },
+    "score-k1": {
+      "metrics": {
+        "mutopia-376": {
+          "events": 173,
+          "correct_events": 120,
+          "correct_pitch_marginal": 132,
+          "correct_duration_marginal": 150,
+          "nll_per_event": 1.1612980601227427,
+          "support_size": 3328
+        },
+        "mutopia-2247": {
+          "events": 36,
+          "correct_events": 2,
+          "correct_pitch_marginal": 8,
+          "correct_duration_marginal": 9,
+          "nll_per_event": 5.052744886965835,
+          "support_size": 3328
+        },
+        "mutopia-2245": {
+          "events": 51,
+          "correct_events": 0,
+          "correct_pitch_marginal": 4,
+          "correct_duration_marginal": 19,
+          "nll_per_event": 5.461843831191633,
+          "support_size": 3328
+        },
+        "mutopia-888": {
+          "events": 38,
+          "correct_events": 16,
+          "correct_pitch_marginal": 20,
+          "correct_duration_marginal": 23,
+          "nll_per_event": 2.0060514560084393,
+          "support_size": 3328
+        },
+        "mutopia-889": {
+          "events": 48,
+          "correct_events": 21,
+          "correct_pitch_marginal": 26,
+          "correct_duration_marginal": 36,
+          "nll_per_event": 2.0364703730733824,
+          "support_size": 3328
+        },
+        "mutopia-789": {
+          "events": 130,
+          "correct_events": 81,
+          "correct_pitch_marginal": 89,
+          "correct_duration_marginal": 108,
+          "nll_per_event": 1.4806119795130752,
+          "support_size": 3328
+        }
+      },
+      "family_folds": {
+        "english-county-songs-1893": {
+          "train_ids": [
+            "mutopia-376",
+            "mutopia-789"
+          ],
+          "held_ids": [
+            "mutopia-888",
+            "mutopia-889"
+          ],
+          "scores": {
+            "mutopia-888": {
+              "events": 38,
+              "correct_events": 8,
+              "correct_pitch_marginal": 13,
+              "correct_duration_marginal": 17,
+              "nll_per_event": 3.9153815348640544,
+              "support_size": 3328
+            },
+            "mutopia-889": {
+              "events": 48,
+              "correct_events": 5,
+              "correct_pitch_marginal": 8,
+              "correct_duration_marginal": 29,
+              "nll_per_event": 4.871007709702979,
+              "support_size": 3328
+            }
+          }
+        },
+        "mutopia-376": {
+          "train_ids": [
+            "mutopia-888",
+            "mutopia-889",
+            "mutopia-789"
+          ],
+          "held_ids": [
+            "mutopia-376"
+          ],
+          "scores": {
+            "mutopia-376": {
+              "events": 173,
+              "correct_events": 8,
+              "correct_pitch_marginal": 51,
+              "correct_duration_marginal": 20,
+              "nll_per_event": 6.526473038055023,
+              "support_size": 3328
+            }
+          }
+        },
+        "mutopia-789": {
+          "train_ids": [
+            "mutopia-376",
+            "mutopia-888",
+            "mutopia-889"
+          ],
+          "held_ids": [
+            "mutopia-789"
+          ],
+          "scores": {
+            "mutopia-789": {
+              "events": 130,
+              "correct_events": 21,
+              "correct_pitch_marginal": 32,
+              "correct_duration_marginal": 81,
+              "nll_per_event": 4.480016116502223,
+              "support_size": 3328
+            }
+          }
+        }
+      },
+      "family_macro_nll": 5.133227925613588,
+      "candidates": [
+        {
+          "seed": 7,
+          "status": "complete",
+          "rejections": 0,
+          "max_rest_run": 12,
+          "matching_8_note_phrases": 0,
+          "sha256": "5e0c15df21d3142dacc447d173fb5641144f151ce7976158d69bccd97ca2a619",
+          "exact_roundtrip": true,
+          "file": "score-k1-seed7.mid",
+          "note_onsets": 35
+        },
+        {
+          "seed": 17,
+          "status": "complete",
+          "rejections": 0,
+          "max_rest_run": 12,
+          "matching_8_note_phrases": 0,
+          "sha256": "ed5be68cae090399d01d18cfe9fa57aadd59bc17886b98b92e859fd65d4309f7",
+          "exact_roundtrip": true,
+          "file": "score-k1-seed17.mid",
+          "note_onsets": 23
+        },
+        {
+          "seed": 29,
+          "status": "complete",
+          "rejections": 0,
+          "max_rest_run": 12,
+          "matching_8_note_phrases": 0,
+          "sha256": "9dd97bf1752900b1913699db6b77d97db299ff0c07de565fce0adba1f6d300cb",
+          "exact_roundtrip": true,
+          "file": "score-k1-seed29.mid",
+          "note_onsets": 30
+        }
+      ]
+    },
+    "score-k4": {
+      "metrics": {
+        "mutopia-376": {
+          "events": 173,
+          "correct_events": 116,
+          "correct_pitch_marginal": 128,
+          "correct_duration_marginal": 144,
+          "nll_per_event": 1.3418576176146588,
+          "support_size": 3328
+        },
+        "mutopia-2247": {
+          "events": 36,
+          "correct_events": 2,
+          "correct_pitch_marginal": 8,
+          "correct_duration_marginal": 10,
+          "nll_per_event": 5.266560879686002,
+          "support_size": 3328
+        },
+        "mutopia-2245": {
+          "events": 51,
+          "correct_events": 0,
+          "correct_pitch_marginal": 4,
+          "correct_duration_marginal": 19,
+          "nll_per_event": 5.650379655752363,
+          "support_size": 3328
+        },
+        "mutopia-888": {
+          "events": 38,
+          "correct_events": 12,
+          "correct_pitch_marginal": 20,
+          "correct_duration_marginal": 17,
+          "nll_per_event": 2.2078795204165766,
+          "support_size": 3328
+        },
+        "mutopia-889": {
+          "events": 48,
+          "correct_events": 16,
+          "correct_pitch_marginal": 20,
+          "correct_duration_marginal": 33,
+          "nll_per_event": 2.279849788594692,
+          "support_size": 3328
+        },
+        "mutopia-789": {
+          "events": 130,
+          "correct_events": 70,
+          "correct_pitch_marginal": 82,
+          "correct_duration_marginal": 99,
+          "nll_per_event": 1.747551346403745,
+          "support_size": 3328
+        }
+      },
+      "family_folds": {
+        "english-county-songs-1893": {
+          "train_ids": [
+            "mutopia-376",
+            "mutopia-789"
+          ],
+          "held_ids": [
+            "mutopia-888",
+            "mutopia-889"
+          ],
+          "scores": {
+            "mutopia-888": {
+              "events": 38,
+              "correct_events": 5,
+              "correct_pitch_marginal": 7,
+              "correct_duration_marginal": 16,
+              "nll_per_event": 4.0683492153964576,
+              "support_size": 3328
+            },
+            "mutopia-889": {
+              "events": 48,
+              "correct_events": 7,
+              "correct_pitch_marginal": 10,
+              "correct_duration_marginal": 30,
+              "nll_per_event": 4.977071629766903,
+              "support_size": 3328
+            }
+          }
+        },
+        "mutopia-376": {
+          "train_ids": [
+            "mutopia-888",
+            "mutopia-889",
+            "mutopia-789"
+          ],
+          "held_ids": [
+            "mutopia-376"
+          ],
+          "scores": {
+            "mutopia-376": {
+              "events": 173,
+              "correct_events": 8,
+              "correct_pitch_marginal": 51,
+              "correct_duration_marginal": 20,
+              "nll_per_event": 6.526473038055023,
+              "support_size": 3328
+            }
+          }
+        },
+        "mutopia-789": {
+          "train_ids": [
+            "mutopia-376",
+            "mutopia-888",
+            "mutopia-889"
+          ],
+          "held_ids": [
+            "mutopia-789"
+          ],
+          "scores": {
+            "mutopia-789": {
+              "events": 130,
+              "correct_events": 17,
+              "correct_pitch_marginal": 29,
+              "correct_duration_marginal": 77,
+              "nll_per_event": 4.441358638633422,
+              "support_size": 3328
+            }
+          }
+        }
+      },
+      "family_macro_nll": 5.163514033090042,
+      "candidates": [
+        {
+          "seed": 7,
+          "status": "complete",
+          "rejections": 0,
+          "max_rest_run": 12,
+          "matching_8_note_phrases": 0,
+          "sha256": "828ac1032d7151997bd952fa52fa4b2059c4169da56504804a1acb9609f90797",
+          "exact_roundtrip": true,
+          "file": "score-k4-seed7.mid",
+          "note_onsets": 31
+        },
+        {
+          "seed": 17,
+          "status": "complete",
+          "rejections": 0,
+          "max_rest_run": 12,
+          "matching_8_note_phrases": 0,
+          "sha256": "b8241c122ef8f27bc01db85bd314cec016116f3a73edf0c831b789aea24d876f",
+          "exact_roundtrip": true,
+          "file": "score-k4-seed17.mid",
+          "note_onsets": 24
+        },
+        {
+          "seed": 29,
+          "status": "complete",
+          "rejections": 0,
+          "max_rest_run": 12,
+          "matching_8_note_phrases": 0,
+          "sha256": "9f87aa8b26eac3af57cc2e99f8c33ddfc02cc7988d1235e5a9bf453ea62d653d",
+          "exact_roundtrip": true,
+          "file": "score-k4-seed29.mid",
+          "note_onsets": 33
+        }
+      ]
+    },
+    "score-k16": {
+      "metrics": {
+        "mutopia-376": {
+          "events": 173,
+          "correct_events": 111,
+          "correct_pitch_marginal": 122,
+          "correct_duration_marginal": 143,
+          "nll_per_event": 1.5074685965379668,
+          "support_size": 3328
+        },
+        "mutopia-2247": {
+          "events": 36,
+          "correct_events": 2,
+          "correct_pitch_marginal": 8,
+          "correct_duration_marginal": 6,
+          "nll_per_event": 5.5030408844603365,
+          "support_size": 3328
+        },
+        "mutopia-2245": {
+          "events": 51,
+          "correct_events": 0,
+          "correct_pitch_marginal": 1,
+          "correct_duration_marginal": 12,
+          "nll_per_event": 5.871740364747761,
+          "support_size": 3328
+        },
+        "mutopia-888": {
+          "events": 38,
+          "correct_events": 11,
+          "correct_pitch_marginal": 19,
+          "correct_duration_marginal": 17,
+          "nll_per_event": 2.3651114566580262,
+          "support_size": 3328
+        },
+        "mutopia-889": {
+          "events": 48,
+          "correct_events": 16,
+          "correct_pitch_marginal": 20,
+          "correct_duration_marginal": 33,
+          "nll_per_event": 2.428140534842946,
+          "support_size": 3328
+        },
+        "mutopia-789": {
+          "events": 130,
+          "correct_events": 60,
+          "correct_pitch_marginal": 69,
+          "correct_duration_marginal": 99,
+          "nll_per_event": 1.9476983664141592,
+          "support_size": 3328
+        }
+      },
+      "family_folds": {
+        "english-county-songs-1893": {
+          "train_ids": [
+            "mutopia-376",
+            "mutopia-789"
+          ],
+          "held_ids": [
+            "mutopia-888",
+            "mutopia-889"
+          ],
+          "scores": {
+            "mutopia-888": {
+              "events": 38,
+              "correct_events": 3,
+              "correct_pitch_marginal": 7,
+              "correct_duration_marginal": 16,
+              "nll_per_event": 4.262412819211275,
+              "support_size": 3328
+            },
+            "mutopia-889": {
+              "events": 48,
+              "correct_events": 7,
+              "correct_pitch_marginal": 10,
+              "correct_duration_marginal": 30,
+              "nll_per_event": 5.059911545625205,
+              "support_size": 3328
+            }
+          }
+        },
+        "mutopia-376": {
+          "train_ids": [
+            "mutopia-888",
+            "mutopia-889",
+            "mutopia-789"
+          ],
+          "held_ids": [
+            "mutopia-376"
+          ],
+          "scores": {
+            "mutopia-376": {
+              "events": 173,
+              "correct_events": 8,
+              "correct_pitch_marginal": 51,
+              "correct_duration_marginal": 20,
+              "nll_per_event": 6.526473038055023,
+              "support_size": 3328
+            }
+          }
+        },
+        "mutopia-789": {
+          "train_ids": [
+            "mutopia-376",
+            "mutopia-888",
+            "mutopia-889"
+          ],
+          "held_ids": [
+            "mutopia-789"
+          ],
+          "scores": {
+            "mutopia-789": {
+              "events": 130,
+              "correct_events": 14,
+              "correct_pitch_marginal": 25,
+              "correct_duration_marginal": 72,
+              "nll_per_event": 4.442565255214764,
+              "support_size": 3328
+            }
+          }
+        }
+      },
+      "family_macro_nll": 5.210066825229343,
+      "candidates": [
+        {
+          "seed": 7,
+          "status": "complete",
+          "rejections": 0,
+          "max_rest_run": 12,
+          "matching_8_note_phrases": 0,
+          "sha256": "75681260825d659ec40a52aed66201c3ad5f0675bb30bb044ca2b4adf8e8d2fa",
+          "exact_roundtrip": true,
+          "file": "score-k16-seed7.mid",
+          "note_onsets": 34
+        },
+        {
+          "seed": 17,
+          "status": "complete",
+          "rejections": 0,
+          "max_rest_run": 12,
+          "matching_8_note_phrases": 0,
+          "sha256": "21e733440815f5ca5a4c84ada6978a4abb7c74b6e72c93e8b4d074d82084e61c",
+          "exact_roundtrip": true,
+          "file": "score-k16-seed17.mid",
+          "note_onsets": 17
+        },
+        {
+          "seed": 29,
+          "status": "complete",
+          "rejections": 0,
+          "max_rest_run": 12,
+          "matching_8_note_phrases": 0,
+          "sha256": "1e66d5407ce41eb99d6bf1ff07248e3314ee92b6baa6154e1a0887645172355d",
+          "exact_roundtrip": true,
+          "file": "score-k16-seed29.mid",
+          "note_onsets": 30
+        }
+      ]
+    },
+    "score-k64": {
+      "metrics": {
+        "mutopia-376": {
+          "events": 173,
+          "correct_events": 107,
+          "correct_pitch_marginal": 118,
+          "correct_duration_marginal": 137,
+          "nll_per_event": 1.5934166872145332,
+          "support_size": 3328
+        },
+        "mutopia-2247": {
+          "events": 36,
+          "correct_events": 1,
+          "correct_pitch_marginal": 7,
+          "correct_duration_marginal": 6,
+          "nll_per_event": 5.718146945087078,
+          "support_size": 3328
+        },
+        "mutopia-2245": {
+          "events": 51,
+          "correct_events": 0,
+          "correct_pitch_marginal": 4,
+          "correct_duration_marginal": 12,
+          "nll_per_event": 6.08248315199354,
+          "support_size": 3328
+        },
+        "mutopia-888": {
+          "events": 38,
+          "correct_events": 11,
+          "correct_pitch_marginal": 19,
+          "correct_duration_marginal": 17,
+          "nll_per_event": 2.4447643481846306,
+          "support_size": 3328
+        },
+        "mutopia-889": {
+          "events": 48,
+          "correct_events": 16,
+          "correct_pitch_marginal": 20,
+          "correct_duration_marginal": 33,
+          "nll_per_event": 2.4971884929746566,
+          "support_size": 3328
+        },
+        "mutopia-789": {
+          "events": 130,
+          "correct_events": 60,
+          "correct_pitch_marginal": 69,
+          "correct_duration_marginal": 99,
+          "nll_per_event": 2.038204638891016,
+          "support_size": 3328
+        }
+      },
+      "family_folds": {
+        "english-county-songs-1893": {
+          "train_ids": [
+            "mutopia-376",
+            "mutopia-789"
+          ],
+          "held_ids": [
+            "mutopia-888",
+            "mutopia-889"
+          ],
+          "scores": {
+            "mutopia-888": {
+              "events": 38,
+              "correct_events": 2,
+              "correct_pitch_marginal": 6,
+              "correct_duration_marginal": 15,
+              "nll_per_event": 4.432776051431055,
+              "support_size": 3328
+            },
+            "mutopia-889": {
+              "events": 48,
+              "correct_events": 7,
+              "correct_pitch_marginal": 10,
+              "correct_duration_marginal": 29,
+              "nll_per_event": 5.0819987281616,
+              "support_size": 3328
+            }
+          }
+        },
+        "mutopia-376": {
+          "train_ids": [
+            "mutopia-888",
+            "mutopia-889",
+            "mutopia-789"
+          ],
+          "held_ids": [
+            "mutopia-376"
+          ],
+          "scores": {
+            "mutopia-376": {
+              "events": 173,
+              "correct_events": 8,
+              "correct_pitch_marginal": 51,
+              "correct_duration_marginal": 20,
+              "nll_per_event": 6.526473038055023,
+              "support_size": 3328
+            }
+          }
+        },
+        "mutopia-789": {
+          "train_ids": [
+            "mutopia-376",
+            "mutopia-888",
+            "mutopia-889"
+          ],
+          "held_ids": [
+            "mutopia-789"
+          ],
+          "scores": {
+            "mutopia-789": {
+              "events": 130,
+              "correct_events": 13,
+              "correct_pitch_marginal": 24,
+              "correct_duration_marginal": 64,
+              "nll_per_event": 4.500453692056041,
+              "support_size": 3328
+            }
+          }
+        }
+      },
+      "family_macro_nll": 5.261438039969131,
+      "candidates": [
+        {
+          "seed": 7,
+          "status": "complete",
+          "rejections": 0,
+          "max_rest_run": 12,
+          "matching_8_note_phrases": 0,
+          "sha256": "fcc638a3071e51e5a136e0ce5247f3f6b20a670d842b7e21ff8bdbe8f4881ba6",
+          "exact_roundtrip": true,
+          "file": "score-k64-seed7.mid",
+          "note_onsets": 32
+        },
+        {
+          "seed": 17,
+          "status": "complete",
+          "rejections": 0,
+          "max_rest_run": 12,
+          "matching_8_note_phrases": 0,
+          "sha256": "7da1aed1a0ac7e202a981e809b0b483c36c5df9bcd777df07cadaa95ea3f2229",
+          "exact_roundtrip": true,
+          "file": "score-k64-seed17.mid",
+          "note_onsets": 17
+        },
+        {
+          "seed": 29,
+          "status": "complete",
+          "rejections": 0,
+          "max_rest_run": 12,
+          "matching_8_note_phrases": 0,
+          "sha256": "7cdfb3d9b2f44f2a814b10d474fb477aafa1ce76071502ee3f877146d73c9622",
+          "exact_roundtrip": true,
+          "file": "score-k64-seed29.mid",
+          "note_onsets": 32
+        }
+      ]
+    }
+  },
+  "wall_seconds": 12.078862862999813,
+  "limitations": [
+    "all source families observed; leave-family-out diagnoses fit, not sealed generalization",
+    "single fixed seed set and tiny corpus; no human evaluation",
+    "shrinkage mixes counts before factorization, not joint probabilities"
+  ]
+}

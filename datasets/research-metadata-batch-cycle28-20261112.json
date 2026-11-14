@@ -1,0 +1,224 @@
+{
+  "cycle": 28,
+  "acquired_at_utc": "2026-11-12T12:43:58.282372+00:00",
+  "acquisition": "Actual officialMutopiaindex andlinkedpiecepage metadata, webreadtool fallback; originalbinaryMIDI/source/PDF notdownloaded.",
+  "source_index": "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=SatieE",
+  "evidence_extract_sha256": "7164f0ac56bc8fdec5e0dd4a88caabc6ca2477dc9be63b1351fd154a342be8a9",
+  "hash_scope": "Hash of saved webtoolresponse extract, not originalserverHTML and not MIDI.",
+  "rows": [
+    {
+      "id": 2025,
+      "title": "Celle qui parle trop",
+      "composer": "Erik Satie (1866–1925)",
+      "instrument": "Piano",
+      "declared_style": "Modern",
+      "declared_license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "declared_edition": "Demets1913 plateE1113D",
+      "contributor": "Knute Snortum",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2025",
+      "declared_formats": [
+        "LilyPond",
+        "MIDI",
+        "PDF"
+      ],
+      "status": "metadata_only_pending_rights_and_technical",
+      "midi_downloaded": false,
+      "midi_sha256": null
+    },
+    {
+      "id": 2026,
+      "title": "Le porteur de grosses pierres",
+      "composer": "Erik Satie (1866–1925)",
+      "instrument": "Piano",
+      "declared_style": "Modern",
+      "declared_license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "declared_edition": "Demets1913 plateE1113D",
+      "contributor": "Knute Snortum",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2026",
+      "declared_formats": [
+        "LilyPond",
+        "MIDI",
+        "PDF"
+      ],
+      "status": "metadata_only_pending_rights_and_technical",
+      "midi_downloaded": false,
+      "midi_sha256": null
+    },
+    {
+      "id": 2027,
+      "title": "Regrets des Enfermés (Janas et Latude)",
+      "composer": "Erik Satie (1866–1925)",
+      "instrument": "Piano",
+      "declared_style": "Modern",
+      "declared_license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "declared_edition": "Demets1913 plateE1113D",
+      "contributor": "Knute Snortum",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2027",
+      "declared_formats": [
+        "LilyPond",
+        "MIDI",
+        "PDF"
+      ],
+      "status": "metadata_only_pending_rights_and_technical",
+      "midi_downloaded": false,
+      "midi_sha256": null
+    },
+    {
+      "id": 2022,
+      "title": "Danse maigre",
+      "composer": "Erik Satie (1866–1925)",
+      "instrument": "Piano",
+      "declared_style": "Modern",
+      "declared_license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "declared_edition": "Demets1913 plateE1789D",
+      "contributor": "Knute Snortum",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2022",
+      "declared_formats": [
+        "LilyPond ZIP",
+        "MIDI",
+        "PDF"
+      ],
+      "status": "metadata_only_pending_rights_and_technical",
+      "midi_downloaded": false,
+      "midi_sha256": null
+    },
+    {
+      "id": 2023,
+      "title": "Españaña",
+      "composer": "Erik Satie (1866–1925)",
+      "instrument": "Piano",
+      "declared_style": "Modern",
+      "declared_license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "declared_edition": "Demets1913 plateE1789D",
+      "contributor": "Knute Snortum",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2023",
+      "declared_formats": [
+        "LilyPond",
+        "MIDI",
+        "PDF"
+      ],
+      "status": "metadata_only_pending_rights_and_technical",
+      "midi_downloaded": false,
+      "midi_sha256": null
+    },
+    {
+      "id": 2024,
+      "title": "Tyrolienne turque",
+      "composer": "Erik Satie (1866–1925)",
+      "instrument": "Piano",
+      "declared_style": "Modern",
+      "declared_license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "declared_edition": "Demets1913 plateE1789D",
+      "contributor": "Knute Snortum",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2024",
+      "declared_formats": [
+        "LilyPond",
+        "MIDI",
+        "PDF"
+      ],
+      "status": "metadata_only_pending_rights_and_technical",
+      "midi_downloaded": false,
+      "midi_sha256": null
+    },
+    {
+      "id": 2035,
+      "title": "Gnossienne No.1",
+      "composer": "Erik Satie (1866–1925)",
+      "instrument": "Piano",
+      "declared_style": "Modern",
+      "declared_license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "declared_edition": "Salabert Paris1913",
+      "contributor": null,
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2035",
+      "declared_formats": [
+        "LilyPond",
+        "MIDI",
+        "PDF"
+      ],
+      "status": "metadata_only_pending_rights_and_technical",
+      "midi_downloaded": false,
+      "midi_sha256": null
+    },
+    {
+      "id": 2130,
+      "title": "Gnossienne No.2",
+      "composer": "Erik Satie (1866–1925)",
+      "instrument": "Piano",
+      "declared_style": "Modern",
+      "declared_license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "declared_edition": "RouartLerolle1913 plates9884–9886,possiblyDoverreprint",
+      "contributor": null,
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2130",
+      "declared_formats": [
+        "LilyPond",
+        "MIDI",
+        "PDF"
+      ],
+      "status": "metadata_only_pending_rights_and_technical",
+      "midi_downloaded": false,
+      "midi_sha256": null
+    },
+    {
+      "id": 2131,
+      "title": "Gnossienne No.3",
+      "composer": "Erik Satie (1866–1925)",
+      "instrument": "Piano",
+      "declared_style": "Modern",
+      "declared_license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "declared_edition": "RouartLerolle1913 plates9884–9886,possiblyDoverreprint",
+      "contributor": null,
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2131",
+      "declared_formats": [
+        "LilyPond",
+        "MIDI",
+        "PDF"
+      ],
+      "status": "metadata_only_pending_rights_and_technical",
+      "midi_downloaded": false,
+      "midi_sha256": null
+    },
+    {
+      "id": 2021,
+      "title": "Sa Taille",
+      "composer": "Erik Satie (1866–1925)",
+      "instrument": "Piano",
+      "declared_style": "Modern",
+      "declared_license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "declared_edition": "RouartLerolle1916 plate10166",
+      "contributor": null,
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2021",
+      "declared_formats": [
+        "LilyPond",
+        "MIDI",
+        "PDF"
+      ],
+      "status": "metadata_only_pending_rights_and_technical",
+      "midi_downloaded": false,
+      "midi_sha256": null
+    }
+  ],
+  "candidate_rows": 10,
+  "admitted_rows": 0,
+  "diversity_observed": "One composer/piano/stylecohort only; first6samecontributor. This demonstratesbatchmetadataacquisition, NOT tenindependentfamilies or achievedgenrebreadth.",
+  "rights_cautions": [
+    "CCBYSA permitsreuseunderconditions; notCC0 orimplicitAIban. No blanketclearanceofcomposition/edition or moderneditor.",
+    "1913/1916edition claims requireactualscan/editorreview andjurisdictionreview; composer deathalone insufficient.",
+    "PossibleDoverreprints unresolved; contributorfieldnull meansnotverifiedinreturnedexcerpt."
+  ],
+  "failures": [
+    "DirectHaydnindex HTTP503; guessedraw Mutopia.txt HTTP404.",
+    "OfficialGithubSatie directorymetadata fetched187KBclassHTML successfully butdoesnotcontainlicensefields; webindexusedinstead."
+  ],
+  "no_model_fit_or_score": true,
+  "no_full_dataset_or_midi_bytes": true
+}

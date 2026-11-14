@@ -1,0 +1,203 @@
+{
+  "scope": "Research candidates only, not an approved intake manifest. No training or model scores.",
+  "works": [
+    {
+      "work_id": "mutopia-1020",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1020",
+      "midi_url": "https://www.mutopiaproject.org/ftp/Traditional/AAMULLAVARHAIN/AAMULLAVARHAIN.mid",
+      "lilypond_url": "https://www.mutopiaproject.org/ftp/Traditional/AAMULLAVARHAIN/AAMULLAVARHAIN.ly",
+      "acquired_at": "2026-11-12T09:30:41.878466+00:00",
+      "sha256": "cced946d103b67871daa4edc79a46dc68da96434b88ea9971790368e22880265",
+      "source_page_sha256": "010cf7910080c44be51ade4592681ff02133a0ec0fef4cdcf4722d8ae0523eca",
+      "lilypond_sha256": "410ccddd26a84bf7924f3b5f1c8b89801e4e1702de7911a7903528f3d1fe4ad9",
+      "author": "Traditional",
+      "arranger": "Tanja Kivi",
+      "license_claim": "Public Domain (individual contribution)",
+      "rights_review": {
+        "composition": "Traditional attribution needs stronger historical-source corroboration before approval.",
+        "arrangement": "Named contributor arranged/transcribed exact contributed score; individual PD declaration.",
+        "midi_encoding": "Exact linked LilyPond-generated MIDI, per-work PD and Mutopia contributor dedication.",
+        "evidence_url": "https://www.mutopiaproject.org/legal.html#publicdomain"
+      },
+      "review_state": "pending",
+      "training_allowed": false,
+      "split": null,
+      "future_role": "reserve together as one contributor cohort after rights and cross-corpus duplicate review; no model evaluation performed",
+      "technical_tracks": [
+        {
+          "index": 1,
+          "accepted": false,
+          "reason": "polyphonic or ambiguous overlapping notes"
+        },
+        {
+          "index": 2,
+          "accepted": true,
+          "meter": [
+            4,
+            4
+          ],
+          "notes": 44,
+          "steps": 128,
+          "pitch_range": [
+            61,
+            69
+          ]
+        }
+      ]
+    },
+    {
+      "work_id": "mutopia-1019",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1019",
+      "midi_url": "https://www.mutopiaproject.org/ftp/Traditional/SINIVALKOINEN/SINIVALKOINEN.mid",
+      "lilypond_url": "https://www.mutopiaproject.org/ftp/Traditional/SINIVALKOINEN/SINIVALKOINEN.ly",
+      "acquired_at": "2026-11-12T09:30:49.837985+00:00",
+      "sha256": "66e827779d0f289f43d2b8bdfaeba85cc5701919cfdc9326527ac9c3b9e0cf13",
+      "source_page_sha256": "20c01138258517ebcfc978c09dcaf035185fb5b19dd309325e49f38adf003767",
+      "lilypond_sha256": "128b3403b4722deae174ab98563dd0a9685c43a56b5d62f90ac4dddeefefc3a1",
+      "author": "Traditional",
+      "arranger": "Tanja Kivi",
+      "license_claim": "Public Domain (individual contribution)",
+      "rights_review": {
+        "composition": "Traditional attribution needs stronger historical-source corroboration before approval.",
+        "arrangement": "Named contributor arranged/transcribed exact contributed score; individual PD declaration.",
+        "midi_encoding": "Exact linked LilyPond-generated MIDI, per-work PD and Mutopia contributor dedication.",
+        "evidence_url": "https://www.mutopiaproject.org/legal.html#publicdomain"
+      },
+      "review_state": "pending",
+      "training_allowed": false,
+      "split": null,
+      "future_role": "reserve together as one contributor cohort after rights and cross-corpus duplicate review; no model evaluation performed",
+      "technical_tracks": [
+        {
+          "index": 1,
+          "accepted": false,
+          "reason": "polyphonic or ambiguous overlapping notes"
+        },
+        {
+          "index": 2,
+          "accepted": true,
+          "meter": [
+            4,
+            4
+          ],
+          "notes": 41,
+          "steps": 124,
+          "pitch_range": [
+            56,
+            71
+          ]
+        }
+      ]
+    },
+    {
+      "work_id": "mutopia-1300",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1300",
+      "midi_url": "https://www.mutopiaproject.org/ftp/Traditional/veniemma/veniemma.mid",
+      "lilypond_url": "https://www.mutopiaproject.org/ftp/Traditional/veniemma/veniemma.ly",
+      "acquired_at": "2026-11-12T09:30:57.455818+00:00",
+      "sha256": "935dfdd5d7fa90b8d78a52990dc6bbe16c818d0be20e710e58ab471a08093224",
+      "source_page_sha256": "adaa8d2e0ff84235b999720f9910e96a0801b9e55ceb0cf294118386c99f5b0f",
+      "lilypond_sha256": "985895a084729980da17758720e4aa0db3a86bb7fca9dde9a1db33874572be07",
+      "author": "Traditional",
+      "arranger": "not fully reviewed",
+      "license_claim": "Public Domain (individual contribution)",
+      "rights_review": {
+        "composition": "Unresolved historical arrangement/source chain.",
+        "arrangement": "Not approved for this experiment.",
+        "midi_encoding": "Exact linked LilyPond-generated MIDI, per-work PD and Mutopia contributor dedication.",
+        "evidence_url": "https://www.mutopiaproject.org/legal.html#publicdomain"
+      },
+      "review_state": "pending",
+      "training_allowed": false,
+      "split": null,
+      "future_role": "quarantined; unsupported MIDI semantics",
+      "technical_tracks": [
+        {
+          "index": 1,
+          "accepted": false,
+          "reason": "polyphonic or ambiguous overlapping notes"
+        },
+        {
+          "index": 2,
+          "accepted": false,
+          "reason": "polyphonic or ambiguous overlapping notes"
+        }
+      ]
+    },
+    {
+      "work_id": "mutopia-1297",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1297",
+      "midi_url": "https://www.mutopiaproject.org/ftp/Traditional/terra_beata/terra_beata.mid",
+      "lilypond_url": "https://www.mutopiaproject.org/ftp/Traditional/terra_beata/terra_beata.ly",
+      "acquired_at": "2026-11-12T09:31:05.187433+00:00",
+      "sha256": "99f1e0d54e69197982e58edb2fcec341599e910fd0c9b9b8dc533c2415cf9409",
+      "source_page_sha256": "5f4c342c712fcb2a0c380c657bd0986ad7e03449b1afcaa6e7bc063fc38aebe6",
+      "lilypond_sha256": "2be1003183fb011e62165bfdc293c7fbaea61dd96a5a73cb5306afb88e4a2fb9",
+      "author": "Traditional",
+      "arranger": "not fully reviewed",
+      "license_claim": "Public Domain (individual contribution)",
+      "rights_review": {
+        "composition": "Unresolved historical arrangement/source chain.",
+        "arrangement": "Not approved for this experiment.",
+        "midi_encoding": "Exact linked LilyPond-generated MIDI, per-work PD and Mutopia contributor dedication.",
+        "evidence_url": "https://www.mutopiaproject.org/legal.html#publicdomain"
+      },
+      "review_state": "pending",
+      "training_allowed": false,
+      "split": null,
+      "future_role": "quarantined; unsupported MIDI semantics",
+      "technical_tracks": [
+        {
+          "index": 1,
+          "accepted": false,
+          "reason": "polyphonic or ambiguous overlapping notes"
+        },
+        {
+          "index": 2,
+          "accepted": false,
+          "reason": "polyphonic or ambiguous overlapping notes"
+        }
+      ]
+    },
+    {
+      "work_id": "mutopia-370",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=370",
+      "midi_url": "https://www.mutopiaproject.org/ftp/FosterSC/slumber/slumber.mid",
+      "lilypond_url": "https://www.mutopiaproject.org/ftp/FosterSC/slumber/slumber.ly",
+      "acquired_at": "2026-11-12T09:31:46.199629+00:00",
+      "sha256": "3235864dce0f7a59f1eb348bda55065263c0366267e32f27ce6240c9dde3f6b5",
+      "source_page_sha256": "022fdf14d9cd5d73238efdd8c454151c51c583ab98f82d66f0a8ddc73754ebdf",
+      "lilypond_sha256": "6e285dd8480a447967f7e6b19a387b89566898759e27852bb008231763f8425e",
+      "author": "Stephen Collins Foster (1826\u20131864)",
+      "arranger": "not fully reviewed",
+      "license_claim": "Public Domain (individual contribution)",
+      "rights_review": {
+        "composition": "Historical Foster composition, 1862.",
+        "arrangement": "Not approved for this experiment.",
+        "midi_encoding": "Exact linked LilyPond-generated MIDI, per-work PD and Mutopia contributor dedication.",
+        "evidence_url": "https://www.mutopiaproject.org/legal.html#publicdomain"
+      },
+      "review_state": "pending",
+      "training_allowed": false,
+      "split": null,
+      "future_role": "quarantined; unsupported MIDI semantics",
+      "technical_tracks": [
+        {
+          "index": 1,
+          "accepted": false,
+          "reason": "unsupported melody control, pressure or pitch bend"
+        },
+        {
+          "index": 2,
+          "accepted": false,
+          "reason": "unsupported melody control, pressure or pitch bend"
+        },
+        {
+          "index": 3,
+          "accepted": false,
+          "reason": "unsupported melody control, pressure or pitch bend"
+        }
+      ]
+    }
+  ]
+}

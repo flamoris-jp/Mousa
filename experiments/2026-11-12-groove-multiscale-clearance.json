@@ -1,0 +1,8 @@
+{
+  "approved": true,
+  "plan_sha256": "71e1949f2f82e62e3915352eb7a9d1a2426d878850227ae4c7bc2ab4edd24575",
+  "recorded_at_utc": "2026-11-12T14:26:30.883811+00:00",
+  "authority": "Parent explicitly approved exact frozen six-condition run and repeat after independent review.",
+  "review": "experiments/2026-11-12-groove-multiscale-independent-review.json",
+  "scope": "Fixed previously observed cohort, no parameter/selection changes or generation."
+}

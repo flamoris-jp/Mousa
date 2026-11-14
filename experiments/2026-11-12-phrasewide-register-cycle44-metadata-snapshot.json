@@ -1,0 +1,90 @@
+{
+  "cycle": 44,
+  "kind": "immutable_metadata_only_snapshot",
+  "files": [
+    {
+      "relative_path": "experiments/2026-11-12-phrasewide-register-cycle44-before-fit.json",
+      "bytes": 867,
+      "sha256": "29c6939412903e00862169eceaa5144620e26cf8a1ad441c15a7a9b47bd5eac8"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-phrasewide-register-cycle44-clearance.json",
+      "bytes": 223,
+      "sha256": "8ffe61db68e92b5f648c8ceebe9dc74d8d8fe236b0b1d1536c2bf91ef1823320"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-phrasewide-register-cycle44-final-plan.json",
+      "bytes": 18545,
+      "sha256": "d0cf72b7a572d619b70a2998bfa8b6d028c8b7fb7e2ab6d288acd2f4a725b931"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-phrasewide-register-cycle44-fit-journal.json",
+      "bytes": 404,
+      "sha256": "339e935ee029746141f83f08ca5070005d5e2be483675f3acdb81cada2ec30af"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-phrasewide-register-cycle44-independent-profile.json",
+      "bytes": 283,
+      "sha256": "446f21c4e6a65983ff89c5743cbbd3b2a1cb122033167d1d6b4322328c696633"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-phrasewide-register-cycle44-independent-results.json",
+      "bytes": 786,
+      "sha256": "505a15959282b655307acc5de8d28de18bad4971a433d1a1f7686bf005cb85bb"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-phrasewide-register-cycle44-overview.md",
+      "bytes": 4314,
+      "sha256": "423bd65be7ed4210ba5ea9256db23353cf7c223e818c9d410eff1908a2c00059"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-phrasewide-register-cycle44-plan.json",
+      "bytes": 18545,
+      "sha256": "51c0ee664f0c75cdec3fe861d0806d94908dca1bf87961efc9ca80b14de37c8a"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-phrasewide-register-cycle44-prefit-correction.json",
+      "bytes": 550,
+      "sha256": "bf576d76c0b83a98dfc8837ae2c19b4d81342b9094b12d338590298fd62c8948"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-phrasewide-register-cycle44-results.json",
+      "bytes": 28795,
+      "sha256": "dceb2bffd3d00ab0902abd01ccdbf5ec04f5e137334cb17b019e2399dd3c844e"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-phrasewide-register-cycle44-verification.json",
+      "bytes": 2170,
+      "sha256": "fe082914ff2d2df03e8b77b56408911dab1fa1234ab336f7a10ca8f05dc64a94"
+    },
+    {
+      "relative_path": "src/mousa/phrasewide_register_cycle44.py",
+      "bytes": 4865,
+      "sha256": "37e309e5dca7732dc852db4ea4bf30d0cda5e7cd11eff083446a5d9c6341df1e"
+    },
+    {
+      "relative_path": "tools/compare_phrasewide_register_cycle44.py",
+      "bytes": 10550,
+      "sha256": "496f4ead13e149cbabe2817d47f81789805d7f4778bc439a94322a015e2e8f7f"
+    },
+    {
+      "relative_path": "tests/test_phrasewide_register_cycle44.py",
+      "bytes": 3065,
+      "sha256": "eeda6ab7824a416cc119cbadbaa48f5f4a90dabdba44e063a87b81b8841ad785"
+    },
+    {
+      "relative_path": "tests/test_phrasewide_register_cycle44_driver.py",
+      "bytes": 1498,
+      "sha256": "416585a6dc6d1c33e30fe49be8998ffba70be50b4c538b1c7f164d51830738f1"
+    }
+  ],
+  "file_count": 15,
+  "total_bytes": 95460,
+  "raw_notes_included": false,
+  "media_included": false,
+  "uploaded": false,
+  "unique_paths_asserted": true,
+  "all_hashes_verified": true,
+  "independent_profile_and_results_included": true,
+  "manifest_sha256": "5111fe7a9ed6c2f8e3d940d34d8916c038818146a279697bc0a3c92583650162"
+}

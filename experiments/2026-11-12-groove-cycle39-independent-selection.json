@@ -1,0 +1,20 @@
+{
+  "scope": "Independent reconstruction from immutable inventory and latest actual-use records, before additional model fit. No new prediction or source-role change.",
+  "prepare_plan_sha256": "4e4ed762ac0dcd5433a5d3af3ecb3b80f1b8b6ac208798c221839fe6882d2d02",
+  "inventory_sha256": "1c65bbb16b2c36bfd3c2f44a906bfe9efc5e8f5113677629f8b31ee010598a79",
+  "candidate_count": 59,
+  "deduplicated_count": 58,
+  "deduplicated_events": 32141,
+  "old_training_retained": 35,
+  "new_training_candidates": 23,
+  "observed_evaluation_records": 16,
+  "observed_evaluation_events": 11387,
+  "disjoint_id_hash_and_performer_groups": true,
+  "all_reserved_eval_excluded": true,
+  "excluded_alias_ids": [
+    "drummer2/session2/8"
+  ],
+  "frozen_dependency_hashes_verified": 34,
+  "selection_policy_recomputed": true,
+  "status": "PASS; screening and model profile review still separately required"
+}

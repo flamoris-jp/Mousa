@@ -1,0 +1,8 @@
+{
+  "approved": true,
+  "plan_sha256": "0828f82f0ced7ddb69be1a6a5a568dec3fdcbceffd0058700233999a0f5f26e3",
+  "recorded_at_utc": "2026-11-12T16:10:43.413282+00:00",
+  "authority": "Parent explicitly authorized proceeding after candidate/screen/profile/final plan conditions passed; independent selection and profile validation received.",
+  "review_reference": "experiments/2026-11-12-groove-cycle39-independent-selection.json",
+  "scope": "Fixed35-vs58 six-condition run/repeat, same16observed,CPU60 each, no generation or source substitutions."
+}

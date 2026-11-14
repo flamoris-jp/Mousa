@@ -6,7 +6,7 @@ Mousa is FLAMORIS's music-intelligence research project built on [Maidionis](htt
 
 **Mousa（ムーサ）** は、Maidionis を学習基盤として音楽特化の小さなAIを育て、協力してMIDIを作曲する FLAMORIS の研究プロジェクトです。旋律・和声・ベース・ドラム・編曲・評価を同じリポジトリで管理します。
 
-**Status: early development / research bootstrap.** This repository currently contains project boundaries, specialization plans, and a small experimental Python MusicIR value representation with unit tests. **It does not yet ship** a trained Mousa model, MIDI importer/exporter, dataset crawler, preference-learning system, model-serving API, or Cantabile integration. An earlier local music trial is not included until its source, licensing, and measured evidence are verified for migration.
+**Status: early development / research bootstrap.** This repository currently contains project boundaries, specialization plans, an experimental Python MusicIR value representation, reviewed AudioAnalyzer stem-candidate intake, and an offline research-manifest preflight with unit tests. **It does not yet ship** a trained Mousa model, MIDI importer/exporter, dataset crawler, preference-learning system, model-serving API, or Cantabile integration. An earlier local music trial is not included until its source, licensing, and measured evidence are verified for migration.
 
 ## 🧭 Repository identity
 
@@ -69,13 +69,13 @@ tests/                Fast local tests
 
 ## Development / 開発
 
-For the current **MusicIR-only** bootstrap, Python 3.11+ is sufficient; no Maidionis native build, MIDI dependency or GPU is required to run these tests.
+For the current fast unit tests, Python 3.11+ is sufficient; no Maidionis native build, MIDI dependency or GPU is required to run these tests.
 
 ```bash
 PYTHONPATH=src python -m unittest discover -s tests -v
 ```
 
-This command validates the experimental MusicIR value object only; it does **not** test training, parsing a real MIDI file, or audio quality. Do not reuse Maidionis build commands without checking its current repository and qualification profile.
+This command validates MusicIR, stem-intake guards and research-manifest preflight; optional real AudioAnalyzer integration requires its separate environment. It does **not** test training, parsing a real MIDI file, or audio quality. Do not reuse Maidionis build commands without checking its current repository and qualification profile.
 
 Next work is tracked in [GitHub Issues](https://github.com/flamoris-jp/Mousa/issues). See [Maidionis](https://github.com/flamoris-jp/Maidionis), [Cantabile](https://github.com/flamoris-jp/flamoris-cantabile), [AI ecosystem](https://github.com/flamoris-jp/flamoris-ai/blob/main/docs/ai-ecosystem.md), and [FLAMORIS organization map](https://github.com/flamoris-jp/.github).
 
@@ -84,3 +84,11 @@ Next work is tracked in [GitHub Issues](https://github.com/flamoris-jp/Mousa/iss
 Code is licensed under [Apache License 2.0](LICENSE) unless otherwise stated. **Code licensing does not grant rights to MIDI compositions, arrangements, soundfonts, recordings, source datasets, or trained weights.** Record their provenance and license separately. Never commit private source material, credentials or unreviewed third-party MIDI. See [CONTRIBUTING.md](CONTRIBUTING.md), [SECURITY.md](SECURITY.md), [AGENTS.md](AGENTS.md).
 
 FLAMORIS is open-source creative software. Use it, modify it, and make something interesting. Support is community/self-directed and provided as-is. 🌱
+
+## Adaptive research
+
+See [the adaptive protocol](docs/ADAPTIVE_RESEARCH.md) for hypothesis-driven work,
+rights and split preflight, resource bounds, evaluation and stop conditions.
+The November 2026 window is for repeated research cycles, not one task per day.
+The [preparation record](experiments/2026-11-12-preparation.md) separates tests
+actually run from historical results and unexecuted work.

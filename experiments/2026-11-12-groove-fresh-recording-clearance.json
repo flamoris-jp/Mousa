@@ -1,0 +1,8 @@
+{
+  "approved": true,
+  "plan_sha256": "ddfb1daf77813e44a875fcc70def9e65367ce50aee1b18304f6535d3e199ea87",
+  "screen_sha256": "bc5dc4aae9d315bbee5846923b1fa77712185233991d8a2fe995feacc403823b",
+  "independent_review_sha256": "59633893cbb232257d4eb0180f8ed091620ccea092c1595bc3263cc390a74ec2",
+  "review_reference": "Cycle37 research coordinator reviewed new8 source selection by fixed hash order, independence limits, prior usage exclusions,full fixed screen and independent reviewer PASS. User authorized small CPU research/evaluation. Score existing12/35 and six fixed models only; no model tuning, new training material, original modification or fresh-performer claim.",
+  "stop": "Retain failures/started prediction journal and record all eight as observed after scoring. Do not reuse as fresh."
+}

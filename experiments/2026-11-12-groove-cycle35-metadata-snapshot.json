@@ -1,0 +1,60 @@
+{
+  "scope": "Cycle35 frozen-cohort posthoc diagnostics and deferred proposals only; no new-source fit, raw MIDI/audio, weights or original retransmission. Earlier snapshots unchanged.",
+  "files": [
+    {
+      "relative_path": "tools/groove_cycle35_diagnose.py",
+      "bytes": 9161,
+      "sha256": "37217c12a82a12d01152327698e14736dc8f3df5ba0cb19e6aa4e066533bb924"
+    },
+    {
+      "relative_path": "tests/test_groove_cycle35.py",
+      "bytes": 1297,
+      "sha256": "4ecbc90043f51d0893bc9306763732d7a07c0017c18c731f37e360cc8f9abd9f"
+    },
+    {
+      "relative_path": "datasets/research-groove-rights-cycle32-20261112.json",
+      "bytes": 5043,
+      "sha256": "de6f14f3b6f38398f1d419e7a5b3fcf0f0d943adcadd914826629641fa4f0bbc"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-cycle35-backoff-proposal.json",
+      "bytes": 2593,
+      "sha256": "3ad1bcced5f5d9f46df50c9db71823d256c426693c1d88686f1f3261cbf75040"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-cycle35-diagnosis.md",
+      "bytes": 3691,
+      "sha256": "beac6d807b32b6a9cae9748ac4a8153ff66b5f2d02e30b5b07ca2588535c3441"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-cycle35-group-review.json",
+      "bytes": 1098,
+      "sha256": "347e057839a1957624d127994743808a6a6ecff4953ce87907c88d1e92098db6"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-cycle35-plan.json",
+      "bytes": 13756,
+      "sha256": "3babf10fb31af8e7a0b292e4c7eb512bf7a16e211a19226ccf105c6beff0c7c8"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-cycle35-results.json",
+      "bytes": 271370,
+      "sha256": "77e6b3570f7920ec2fa51d5c14c68a4c9ca779e729c4e16267687bd61ecd6aec"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-cycle35-training-coverage-proposal.json",
+      "bytes": 2568,
+      "sha256": "10c32ccee65ea7315208c7624a47b76c3244d4a188006b50bffa162c7aae6948"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-cycle35-verification.json",
+      "bytes": 871,
+      "sha256": "cf92f87d09b55b0a4f841245726260b2c73c27df8626e08b174763e5b2cb2868"
+    }
+  ],
+  "file_count": 10,
+  "total_bytes": 311448,
+  "uploaded": false,
+  "additional_non_groove_review": "Includes only the new independent group_structure code-review JSON; no group-structure source results or previously handed-off snapshot were changed or duplicated.",
+  "manifest_sha256": "d650dd9e4819334fc8ce6ca4341e4efeab8a781ac7e6c5bde4d9e9e7ee7d975b"
+}

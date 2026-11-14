@@ -1,0 +1,19 @@
+{
+  "reviewed_at_utc": "2026-11-12T09:38:16.969002+00:00",
+  "status": "Both remain reserved-pending; same contributor cohort; no training/scoring/split allocation.",
+  "1019": {
+    "url": "https://jyu.finna.fi/Record/jamk.99654194806251",
+    "access": "Web search open full record succeeded; raw urllib403.",
+    "finding": "Library catalog identifies folk-song arrangement in Maikki Jarnefelt kansanlaulu-albumi2; Selim Palmgren arranger; Westerlund1064; creation1910s, publication[19-?].",
+    "limit": "Catalog corroborates historical named composition; actual score not inspected, exact melody identity unconfirmed. Do not transfer arrangement rights from this record."
+  },
+  "1020": {
+    "urls": [
+      "https://www.kirjastot.fi/kysy/kysyisin-kansanlaulun-aamulla-varhain-alkuperaa",
+      "https://kansalliskirjasto.finna.fi/Record/fikka.4391722"
+    ],
+    "finding": "Librarian2020 identifies folk tune, notes attributed Lauri Hamalainen1832-1888 in some sources; distinguishes later arrangements incl Jarnefelt added material. National library identifies early1902-1914 recordings anthology and original GramophoneGC83545.",
+    "limit": "Not proof that exact Mutopia melody predates modern arrangements. No historic-score melody comparison performed."
+  },
+  "next": "Locate dated score/incipit and compare tune only against Mutopia melody; preserve separate PD encoding/arrangement declarations. Do not use historic recordings or modern arrangements as training data."
+}

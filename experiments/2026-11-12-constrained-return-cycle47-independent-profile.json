@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "seed": 470007,
+  "synthetic_cases": 100,
+  "outcomes": {
+    "optimal": 100
+  },
+  "module_sha256": "b9965870f4153d01673eb271abaae481c058ad57a646be0cff29c0389e93552e",
+  "method": "Independent full Cartesian octave-path enumeration, literal all-pair target/fixed pitch collisions, total entrance/internal/exit cost and lexicographic tie. No production DP reused; no original-source fit.",
+  "additional_fixed_cases": [
+    "no_collision_free_path",
+    "no_legal_register",
+    "dp_budget_blocked"
+  ]
+}

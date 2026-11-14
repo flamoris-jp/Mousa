@@ -1,0 +1,5 @@
+{
+  "status": "approved-for-local-experiment",
+  "plan_sha256": "03bafe327beea4761881cb8e8e134070d5300326abcd8dcb481241cc4a5d598c",
+  "review_reference": "Cycle31 actual research review after standalone-model API correction: all5synthetictests and exactFraction/accepted-joint math reviewed, finaldependencyhashes verified. Same12approvedsources, observed640/921diagnostics, fixed3263mass3conditions and integerpitchsampler forALLcontrols.120CPUbudget, no quality/publicrelease claims."
+}

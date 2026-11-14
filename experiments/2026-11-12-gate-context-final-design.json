@@ -1,0 +1,56 @@
+{
+  "cycle": 37,
+  "status": "final-design-synthetic-only-no-real-fit",
+  "hypothesis": "Previous group maximum gate may better predict the next distinct-onset IOI than previous group cardinality; evaluate, do not presume improvement.",
+  "arms": [
+    "global",
+    "cardinality",
+    "previous_max_gate_binned",
+    "active_horizon_binned"
+  ],
+  "data": "Same17trainingworks4319notes3428groups;observed640/921diagnostics only. Purcell12672first preserved; no new source roles.",
+  "supports": {
+    "first_max": 65536,
+    "later_min": 1,
+    "later_max": 12288,
+    "gate_max": 12288
+  },
+  "context_key": "Gate arms share fixed bins <=192/384/768/1536/>1536ticks. previous maxgate vs running max end minus previous onset. H=max(previousH-delta,currentmaxgate),computed after currentgroup and before nextdelta. Reset work boundaries.",
+  "formula": "(local_count+4*global_smoothed_probability)/(local_N+4);global uniform prior total1;unseencontext global. All first distributions identical.",
+  "generation": "Same empirical whole-template and anchor stages and integer timing sampler;context key only changes timing conditioning. max3active notes;no gate clipping;target9216;tail384;64attempts/group;256notes/groups;seeds0..4.",
+  "controls": "New shared generator must match frozen prior global/cardinality outputs with same seeds on synthetic controls before real fit. Neither previous size nor max gate conditions the template/anchor probability; timing NLL is not joint group likelihood or feasible-output likelihood.",
+  "metrics": [
+    "Teacher-forced timing NLL by diagnostic, first/later separated;equal-work mean",
+    "All statuses/copyflags and complete-only denominators;common completed seeds",
+    "Union-of-note-interval silence, separated leading/internal/trailing gaps,maximum contiguous silence",
+    "Active-voice-time integral,polyphonic-time fraction,simultaneous-onset fraction",
+    "Exacttemplate reconstruction;no notes clipped or dropped from original inputs"
+  ],
+  "synthetic_tests": [
+    "Sparse/exhaustive normalization for known/unseen gate context",
+    "Previous gate key distinct from cardinality;work boundary reset",
+    "First probabilities identical across arms",
+    "Long gate spans later onsets: no false silence from onset gap",
+    "Overlapping and touching intervals;leading/trailing and empty output timelines",
+    "Oldglobal/size seeded generation parity",
+    "Bounds,integer weights,CPUstop and unchanged support"
+  ],
+  "copy_guard": "All17training+observed640/921 same fixed exact8interval guard for all arms; retain withintrain links and no fresh or public originality claims.",
+  "budget": "SharedCPU60;bounded-call checks plus generation proposal checks;not hardpreemption.",
+  "proposed_new_files": [
+    "src/mousa/gate_context_group_model.py",
+    "src/mousa/group_timeline_metrics.py",
+    "tools/compare_gate_context_groups.py",
+    "tests/test_gate_context_group_model.py",
+    "tests/test_group_timeline_metrics.py"
+  ],
+  "old_modules_unchanged": true,
+  "fit_permission": "No actual fit until final plan hashes and parent review/clearance.",
+  "previous_proposal": "Original exactgate3arm proposal retained as unrun. Fourarm design agreed before real fitting/outcomes.",
+  "gate_bin_upper": [
+    192,
+    384,
+    768,
+    1536
+  ]
+}

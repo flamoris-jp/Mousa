@@ -1,0 +1,84 @@
+{
+  "cycle": 33,
+  "state": "exploratory-training-used",
+  "assignment": "datasets/research-cycle33-sixteen-work-assignment.json",
+  "result": "experiments/2026-11-12-sixteen-work-expansion-results.json",
+  "result_sha256": "d0166a081467f3dbe3e7c1f4b7ec851c5264a8592407340e6aebeefe7e296776",
+  "final_plan": "experiments/2026-11-12-sixteen-work-expansion-plan.json",
+  "rights_snapshot": "datasets/research-new-cohorts-cycle33-20261112.json",
+  "added_works": [
+    {
+      "id": "mutopia-186",
+      "track": 1,
+      "source_sha256": "37b97075c873529760c96539f9894ec6eb99cc1065d76344f7b1fc397d6b63d4",
+      "notes": 383
+    },
+    {
+      "id": "mutopia-487",
+      "track": 1,
+      "source_sha256": "873b2934c4daaedae780d6a0adf0b43fb5302ec5499bfe5ff8d4a95d5efad5bf",
+      "notes": 313
+    }
+  ],
+  "withintrain_links": [
+    {
+      "source": "mutopia-888",
+      "reference": "mutopia-186",
+      "exact8": 2,
+      "global_similarity": 0.08376963350785338,
+      "complete": true
+    },
+    {
+      "source": "mutopia-370",
+      "reference": "mutopia-487",
+      "exact8": 4,
+      "global_similarity": 0.23397435897435892,
+      "complete": true
+    },
+    {
+      "source": "mutopia-263-legacy",
+      "reference": "mutopia-487",
+      "exact8": 1,
+      "global_similarity": 0.10337401292175163,
+      "complete": true
+    },
+    {
+      "source": "mutopia-904",
+      "reference": "mutopia-2061",
+      "exact8": 3,
+      "global_similarity": 0.08771929824561409,
+      "complete": true
+    },
+    {
+      "source": "mutopia-2060",
+      "reference": "mutopia-2061",
+      "exact8": 4,
+      "global_similarity": 0.3583333333333333,
+      "complete": true
+    },
+    {
+      "source": "mutopia-2060",
+      "reference": "mutopia-186",
+      "exact8": 2,
+      "global_similarity": 0.20157068062827221,
+      "complete": true
+    },
+    {
+      "source": "mutopia-2060",
+      "reference": "mutopia-487",
+      "exact8": 1,
+      "global_similarity": 0.21794871794871795,
+      "complete": true
+    },
+    {
+      "source": "mutopia-2061",
+      "reference": "mutopia-186",
+      "exact8": 2,
+      "global_similarity": 0.10994764397905754,
+      "complete": true
+    }
+  ],
+  "split_rule": "Retain all8linked motif pairs and declared edition/contributor relationships for future splits;16works are not16independentcohorts.",
+  "status_rule": "Supersedes reserved snapshot for actual-use status only. Original rights/source limits remain;640/921 stay observed untrained diagnostics;580 excluded; blocked/pending roles unchanged.",
+  "no_public_release": true
+}

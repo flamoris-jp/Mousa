@@ -1,0 +1,34 @@
+{
+  "scope": "Independent synthetic-only review before expanded real fitting; no new original read/fit/prediction in this review.",
+  "profile_sha256": "e0ce2e458d4ef98ef6dbe97c1c04288861e2efdc7bc89aa016a077251de297ed",
+  "seed": 39017,
+  "synthetic_works": 60,
+  "baseline_work_counts": [
+    1,
+    20,
+    21,
+    35
+  ],
+  "conditions": 6,
+  "contexts": [
+    null,
+    36,
+    38,
+    51
+  ],
+  "intervals": [
+    0,
+    1,
+    119,
+    120,
+    30719,
+    30720
+  ],
+  "exact_fraction_parity_checks": 576,
+  "sixty_work_manual_count_and_per_work_context_reset_checks": 6,
+  "no_generation_api": true,
+  "status": "PASS",
+  "limitations": [
+    "This reviews constructor aggregation and unchanged probabilities, not musical quality, corpus rights or full probability normalization."
+  ]
+}

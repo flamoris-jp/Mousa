@@ -1,0 +1,11 @@
+{
+  "scope": "Synthetic-only sensitivity rerun; no real-source application or acceptance threshold selected",
+  "initial_report_sha256": "e4f7369e63343f54572cfd2b30c02b4146d53ccb0af1b26e3b6f066014610bea",
+  "repeat_report_sha256": "fc51d09b00e1caf1272873c891a9f81277764bb76a6fc3d4eddca00df16fdf13",
+  "cases": 15,
+  "exact_results_equal": true,
+  "plan_difference": "creationtimestamp only",
+  "protocol_note": "Transform identities were intentionally authored and exercised in unit tests before saving the formal experiment plan; this is not blinded preregistration or empirical plagiarism groundtruth.",
+  "source_music_used": false,
+  "thresholds_selected": false
+}

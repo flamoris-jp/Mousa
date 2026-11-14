@@ -1,0 +1,92 @@
+{
+  "plan": {
+    "seed": 0,
+    "order_seed": 20261121,
+    "selection": "All3singlefamily conditions and full; no score-based singleton selection",
+    "media": "analytic fixed-gain tones; source notes and silence preserved",
+    "scope": "Private4clip exploratory comparison, no ratings/delivery claim",
+    "renderer_sha256": "0736e22c8645977d59745a28a0c7878e1525429befbd9964870c86160ff56dec"
+  },
+  "clips": [
+    {
+      "clip": "clip-1",
+      "sample_rate": 22050,
+      "frames": 264600,
+      "duration_seconds": 12.0,
+      "peak_linear": 0.3146521173197909,
+      "clipped_samples": 0,
+      "fixed_gain_per_note": 0.12,
+      "wav_sha256": "6e6796394abc22b4f476cbfba1a3d5e26a84f602fd030ba013b0b2780fa9baa5",
+      "renderer": "Analytic sine plus secondharmonic; fixed gain, no external recordings or soundfont",
+      "gates": "Every note rendered independently into shared buffer; overlap and endpoint silence retained",
+      "quality": "No human rating, not a Cantabile render or release clearance"
+    },
+    {
+      "clip": "clip-2",
+      "sample_rate": 22050,
+      "frames": 264600,
+      "duration_seconds": 12.0,
+      "peak_linear": 0.3013962022245032,
+      "clipped_samples": 0,
+      "fixed_gain_per_note": 0.12,
+      "wav_sha256": "ab6223554bddf07253db80cde96669c3d4c7c5bdc16af5fd15995a5c2e9fb695",
+      "renderer": "Analytic sine plus secondharmonic; fixed gain, no external recordings or soundfont",
+      "gates": "Every note rendered independently into shared buffer; overlap and endpoint silence retained",
+      "quality": "No human rating, not a Cantabile render or release clearance"
+    },
+    {
+      "clip": "clip-3",
+      "sample_rate": 22050,
+      "frames": 264600,
+      "duration_seconds": 12.0,
+      "peak_linear": 0.21130431489995533,
+      "clipped_samples": 0,
+      "fixed_gain_per_note": 0.12,
+      "wav_sha256": "c772ef36c91ff393413a47650adc8df8ee2c51314b23ba10d66d18ef544caee8",
+      "renderer": "Analytic sine plus secondharmonic; fixed gain, no external recordings or soundfont",
+      "gates": "Every note rendered independently into shared buffer; overlap and endpoint silence retained",
+      "quality": "No human rating, not a Cantabile render or release clearance"
+    },
+    {
+      "clip": "clip-4",
+      "sample_rate": 22050,
+      "frames": 264600,
+      "duration_seconds": 12.0,
+      "peak_linear": 0.21137184837747858,
+      "clipped_samples": 0,
+      "fixed_gain_per_note": 0.12,
+      "wav_sha256": "4b2ac4e61b803bf08d00a79ed16a171376e1373d5ee615df34674cff514d897f",
+      "renderer": "Analytic sine plus secondharmonic; fixed gain, no external recordings or soundfont",
+      "gates": "Every note rendered independently into shared buffer; overlap and endpoint silence retained",
+      "quality": "No human rating, not a Cantabile render or release clearance"
+    }
+  ],
+  "human_ratings_received": false,
+  "delivered": false,
+  "external_sound_recordings_used": false,
+  "repeat_all4_wav_bytes_identical": true,
+  "private_provenance_note": "Per-clip MIDI linkage and note counts retained in private manifest to avoid trivially recovering audition condition from public result hashes. This is not a guarantee of listener blinding.",
+  "independent_review": {
+    "all4_pcm_samples_equal_independent_additive_synthesis": true,
+    "all4_source_and_wav_hashes_checked_privately": true,
+    "pcm_peaks": [
+      10310,
+      9876,
+      6924,
+      6926
+    ],
+    "overlap_frames": [
+      38586,
+      137813,
+      11025,
+      8269
+    ],
+    "endpoint_silent_frames": [
+      2756,
+      11025,
+      11025,
+      7293
+    ],
+    "format": "mono PCM16,22050Hz,264600frames each"
+  }
+}

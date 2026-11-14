@@ -1,0 +1,84 @@
+{
+  "scope": "Cycle37 fresh-recording probe metadata only; no original or generated media",
+  "files": [
+    {
+      "repo_path": "experiments/2026-11-12-groove-fresh-recording-before-fit.json",
+      "filename": "2026-11-12-groove-fresh-recording-before-fit.json",
+      "sha256": "f740bc18bda82229bc1a2fde64fde7b817ffc582c4428a4a2804a1352f660ce9",
+      "bytes": 257
+    },
+    {
+      "repo_path": "experiments/2026-11-12-groove-fresh-recording-clearance.json",
+      "filename": "2026-11-12-groove-fresh-recording-clearance.json",
+      "sha256": "0d648c311cbbd7de0177495977e4b171e6361203e568115d42fb339ad40446cf",
+      "bytes": 802
+    },
+    {
+      "repo_path": "experiments/2026-11-12-groove-fresh-recording-fit-journal.json",
+      "filename": "2026-11-12-groove-fresh-recording-fit-journal.json",
+      "sha256": "42fa0d3e56c87da993ae165c4e31f8244ccdcd408ffbcc46990bd1e95e2e1a1f",
+      "bytes": 12299
+    },
+    {
+      "repo_path": "experiments/2026-11-12-groove-fresh-recording-independent-review.json",
+      "filename": "2026-11-12-groove-fresh-recording-independent-review.json",
+      "sha256": "59633893cbb232257d4eb0180f8ed091620ccea092c1595bc3263cc390a74ec2",
+      "bytes": 3249
+    },
+    {
+      "repo_path": "experiments/2026-11-12-groove-fresh-recording-plan.json",
+      "filename": "2026-11-12-groove-fresh-recording-plan.json",
+      "sha256": "ddfb1daf77813e44a875fcc70def9e65367ce50aee1b18304f6535d3e199ea87",
+      "bytes": 27285
+    },
+    {
+      "repo_path": "experiments/2026-11-12-groove-fresh-recording-prediction-progress.json",
+      "filename": "2026-11-12-groove-fresh-recording-prediction-progress.json",
+      "sha256": "b2a514f69c8b7d7e61b513fd40e31210c445cad23b21b311c1b29a4494fcf0f3",
+      "bytes": 13145
+    },
+    {
+      "repo_path": "experiments/2026-11-12-groove-fresh-recording-results.json",
+      "filename": "2026-11-12-groove-fresh-recording-results.json",
+      "sha256": "bfc6ddaae95c32ebbcf6f38de07fc1a3f76657abc9f40a76c6818d30b3edcd72",
+      "bytes": 45377
+    },
+    {
+      "repo_path": "experiments/2026-11-12-groove-fresh-recording-screen-verification.json",
+      "filename": "2026-11-12-groove-fresh-recording-screen-verification.json",
+      "sha256": "df6a4e15fbaa9eb6830d129c01d045db0dc963043880a671fe301da5adadff22",
+      "bytes": 298
+    },
+    {
+      "repo_path": "experiments/2026-11-12-groove-fresh-recording-screen.json",
+      "filename": "2026-11-12-groove-fresh-recording-screen.json",
+      "sha256": "bc5dc4aae9d315bbee5846923b1fa77712185233991d8a2fe995feacc403823b",
+      "bytes": 54280
+    },
+    {
+      "repo_path": "experiments/2026-11-12-groove-fresh-recording-verification.json",
+      "filename": "2026-11-12-groove-fresh-recording-verification.json",
+      "sha256": "ae712b09952b1a82e1fba2801d76144225656be301e04d0d6e5c3d56e991dc35",
+      "bytes": 407
+    },
+    {
+      "repo_path": "datasets/research-groove-fresh-observations-cycle37.json",
+      "filename": "research-groove-fresh-observations-cycle37.json",
+      "sha256": "41d71de2cb45d08e87f4b6620c3d146ea9a0d7ee50eae149f7d12c223f1510a9",
+      "bytes": 8345
+    },
+    {
+      "repo_path": "datasets/research-groove-rights-cycle32-20261112.json",
+      "filename": "research-groove-rights-cycle32-20261112.json",
+      "sha256": "de6f14f3b6f38398f1d419e7a5b3fcf0f0d943adcadd914826629641fa4f0bbc",
+      "bytes": 5043
+    }
+  ],
+  "roles": {
+    "train": 35,
+    "observed_untrained": 16,
+    "unscored_untrained": 1099
+  },
+  "originals_unchanged": true,
+  "limits": "Fresh at first score, now observed forever; same heldout performers, no new-person independence. Original CC BY4 materials remain in prior ZIP."
+}

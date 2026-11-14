@@ -1,0 +1,9 @@
+{
+  "scope": "Independent Cartesian-product oracle, not DP, synthetic only before actual experiment",
+  "module_sha256": "37e309e5dca7732dc852db4ea4bf30d0cda5e7cd11eff083446a5d9c6341df1e",
+  "seed": 440001,
+  "cases": 1000,
+  "empty": 104,
+  "tied_minima": 480,
+  "status": "PASS"
+}

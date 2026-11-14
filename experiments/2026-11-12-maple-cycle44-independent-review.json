@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "source_sha256": "3dd712a85fabd267f5a2cee5cb23af4683408c2f29b8814721844498f1ee4f66",
+  "tracks": [
+    {
+      "track": 1,
+      "notes": 1193,
+      "first_onset": 288,
+      "eot": 110592,
+      "raw_pairing_equals_reader": true
+    },
+    {
+      "track": 2,
+      "notes": 1373,
+      "first_onset": 0,
+      "eot": 110592,
+      "raw_pairing_equals_reader": true
+    }
+  ],
+  "all_evidence_hashes_match": true,
+  "individual_pd_footer_verified": true,
+  "visual_review": "Independently viewed original scan PDF page3: Maple Leaf Rag, Scott Joplin, four flats,2/4,pickup and main opening, Copyright1899byJohnStark&Son,plate1-3. Incipit aligns with retained LY; not exhaustive score collation.",
+  "limits": "Physical reprint date caveat remains; same Joplin/Sawer/Stark training family; no training/admission/scoring performed; raw original retained."
+}

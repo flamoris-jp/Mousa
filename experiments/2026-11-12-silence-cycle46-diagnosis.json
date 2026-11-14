@@ -1,0 +1,1621 @@
+{
+  "kind": "posthoc_readonly_existing21_and_training18_no_fit",
+  "source_result_sha256": "dc4ba78e6d1e5146a7c6fa0275c77383f982b49f1da6832348d125f1253abed8",
+  "training": {
+    "mutopia-376": {
+      "notes": 159,
+      "groups": 159,
+      "target_ticks": 62592,
+      "timeline": {
+        "target_ticks": 62592,
+        "occupied_ticks": 50112,
+        "silence_ticks": 12480,
+        "leading_silence_ticks": 1536,
+        "trailing_silence_ticks": 0,
+        "internal_silence_ticks": 10944,
+        "max_contiguous_silence_ticks": 6528,
+        "internal_gap_count": 13,
+        "active_voice_tick_integral": 50112,
+        "mean_active_voices": 0.8006134969325154,
+        "polyphonic_ticks": 0,
+        "polyphonic_time_fraction": 0.0,
+        "empty_timeline": false,
+        "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+      },
+      "segment_group_counts": [
+        18,
+        10,
+        7,
+        10,
+        9,
+        10,
+        15,
+        18,
+        10,
+        7,
+        10,
+        9,
+        10,
+        16
+      ],
+      "qualifying_silence_lengths": [
+        384,
+        384,
+        384,
+        384,
+        384,
+        384,
+        6528,
+        384,
+        384,
+        384,
+        384,
+        384,
+        192
+      ],
+      "leading_fraction": 0.024539877300613498
+    },
+    "mutopia-888": {
+      "notes": 38,
+      "groups": 38,
+      "target_ticks": 11520,
+      "timeline": {
+        "target_ticks": 11520,
+        "occupied_ticks": 11520,
+        "silence_ticks": 0,
+        "leading_silence_ticks": 0,
+        "trailing_silence_ticks": 0,
+        "internal_silence_ticks": 0,
+        "max_contiguous_silence_ticks": 0,
+        "internal_gap_count": 0,
+        "active_voice_tick_integral": 11520,
+        "mean_active_voices": 1.0,
+        "polyphonic_ticks": 0,
+        "polyphonic_time_fraction": 0.0,
+        "empty_timeline": false,
+        "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+      },
+      "segment_group_counts": [
+        38
+      ],
+      "qualifying_silence_lengths": [],
+      "leading_fraction": 0.0
+    },
+    "mutopia-889": {
+      "notes": 47,
+      "groups": 47,
+      "target_ticks": 11520,
+      "timeline": {
+        "target_ticks": 11520,
+        "occupied_ticks": 9216,
+        "silence_ticks": 2304,
+        "leading_silence_ticks": 2304,
+        "trailing_silence_ticks": 0,
+        "internal_silence_ticks": 0,
+        "max_contiguous_silence_ticks": 2304,
+        "internal_gap_count": 0,
+        "active_voice_tick_integral": 9216,
+        "mean_active_voices": 0.8,
+        "polyphonic_ticks": 0,
+        "polyphonic_time_fraction": 0.0,
+        "empty_timeline": false,
+        "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+      },
+      "segment_group_counts": [
+        47
+      ],
+      "qualifying_silence_lengths": [],
+      "leading_fraction": 0.2
+    },
+    "mutopia-789": {
+      "notes": 120,
+      "groups": 120,
+      "target_ticks": 37824,
+      "timeline": {
+        "target_ticks": 37824,
+        "occupied_ticks": 31680,
+        "silence_ticks": 6144,
+        "leading_silence_ticks": 1728,
+        "trailing_silence_ticks": 0,
+        "internal_silence_ticks": 4416,
+        "max_contiguous_silence_ticks": 1920,
+        "internal_gap_count": 9,
+        "active_voice_tick_integral": 31680,
+        "mean_active_voices": 0.8375634517766497,
+        "polyphonic_ticks": 0,
+        "polyphonic_time_fraction": 0.0,
+        "empty_timeline": false,
+        "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+      },
+      "segment_group_counts": [
+        13,
+        3,
+        20,
+        13,
+        3,
+        19,
+        3,
+        12,
+        3,
+        31
+      ],
+      "qualifying_silence_lengths": [
+        192,
+        192,
+        1920,
+        192,
+        192,
+        768,
+        576,
+        192,
+        192
+      ],
+      "leading_fraction": 0.04568527918781726
+    },
+    "mutopia-583": {
+      "notes": 80,
+      "groups": 80,
+      "target_ticks": 36096,
+      "timeline": {
+        "target_ticks": 36096,
+        "occupied_ticks": 27840,
+        "silence_ticks": 8256,
+        "leading_silence_ticks": 1728,
+        "trailing_silence_ticks": 0,
+        "internal_silence_ticks": 6528,
+        "max_contiguous_silence_ticks": 1920,
+        "internal_gap_count": 4,
+        "active_voice_tick_integral": 27840,
+        "mean_active_voices": 0.7712765957446809,
+        "polyphonic_ticks": 0,
+        "polyphonic_time_fraction": 0.0,
+        "empty_timeline": false,
+        "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+      },
+      "segment_group_counts": [
+        16,
+        16,
+        16,
+        16,
+        16
+      ],
+      "qualifying_silence_lengths": [
+        1344,
+        1344,
+        1920,
+        1920
+      ],
+      "leading_fraction": 0.047872340425531915
+    },
+    "mutopia-1578": {
+      "notes": 170,
+      "groups": 170,
+      "target_ticks": 52992,
+      "timeline": {
+        "target_ticks": 52992,
+        "occupied_ticks": 49152,
+        "silence_ticks": 3840,
+        "leading_silence_ticks": 960,
+        "trailing_silence_ticks": 0,
+        "internal_silence_ticks": 2880,
+        "max_contiguous_silence_ticks": 960,
+        "internal_gap_count": 9,
+        "active_voice_tick_integral": 49152,
+        "mean_active_voices": 0.927536231884058,
+        "polyphonic_ticks": 0,
+        "polyphonic_time_fraction": 0.0,
+        "empty_timeline": false,
+        "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+      },
+      "segment_group_counts": [
+        15,
+        30,
+        16,
+        17,
+        7,
+        15,
+        30,
+        16,
+        17,
+        7
+      ],
+      "qualifying_silence_lengths": [
+        192,
+        192,
+        192,
+        384,
+        960,
+        192,
+        192,
+        192,
+        384
+      ],
+      "leading_fraction": 0.018115942028985508
+    },
+    "mutopia-1558": {
+      "notes": 289,
+      "groups": 289,
+      "target_ticks": 127104,
+      "timeline": {
+        "target_ticks": 127104,
+        "occupied_ticks": 97344,
+        "silence_ticks": 29760,
+        "leading_silence_ticks": 7872,
+        "trailing_silence_ticks": 0,
+        "internal_silence_ticks": 21888,
+        "max_contiguous_silence_ticks": 7872,
+        "internal_gap_count": 14,
+        "active_voice_tick_integral": 97344,
+        "mean_active_voices": 0.7658610271903323,
+        "polyphonic_ticks": 0,
+        "polyphonic_time_fraction": 0.0,
+        "empty_timeline": false,
+        "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+      },
+      "segment_group_counts": [
+        20,
+        7,
+        34,
+        21,
+        22,
+        10,
+        20,
+        7,
+        34,
+        21,
+        22,
+        10,
+        20,
+        7,
+        34
+      ],
+      "qualifying_silence_lengths": [
+        384,
+        384,
+        6336,
+        1536,
+        384,
+        1536,
+        384,
+        384,
+        6336,
+        1536,
+        384,
+        1536,
+        384,
+        384
+      ],
+      "leading_fraction": 0.061933534743202415
+    },
+    "mutopia-370": {
+      "notes": 108,
+      "groups": 108,
+      "target_ticks": 36864,
+      "timeline": {
+        "target_ticks": 36864,
+        "occupied_ticks": 26880,
+        "silence_ticks": 9984,
+        "leading_silence_ticks": 9216,
+        "trailing_silence_ticks": 0,
+        "internal_silence_ticks": 768,
+        "max_contiguous_silence_ticks": 9216,
+        "internal_gap_count": 4,
+        "active_voice_tick_integral": 26880,
+        "mean_active_voices": 0.7291666666666666,
+        "polyphonic_ticks": 0,
+        "polyphonic_time_fraction": 0.0,
+        "empty_timeline": false,
+        "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+      },
+      "segment_group_counts": [
+        37,
+        16,
+        55
+      ],
+      "qualifying_silence_lengths": [
+        192,
+        384
+      ],
+      "leading_fraction": 0.25
+    },
+    "mutopia-98-legacy": {
+      "notes": 131,
+      "groups": 127,
+      "target_ticks": 29184,
+      "timeline": {
+        "target_ticks": 29184,
+        "occupied_ticks": 26688,
+        "silence_ticks": 2496,
+        "leading_silence_ticks": 576,
+        "trailing_silence_ticks": 0,
+        "internal_silence_ticks": 1920,
+        "max_contiguous_silence_ticks": 576,
+        "internal_gap_count": 10,
+        "active_voice_tick_integral": 30336,
+        "mean_active_voices": 1.0394736842105263,
+        "polyphonic_ticks": 2112,
+        "polyphonic_time_fraction": 0.07236842105263158,
+        "empty_timeline": false,
+        "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+      },
+      "segment_group_counts": [
+        6,
+        6,
+        31,
+        7,
+        22,
+        6,
+        6,
+        6,
+        9,
+        15,
+        13
+      ],
+      "qualifying_silence_lengths": [
+        192,
+        192,
+        192,
+        192,
+        192,
+        192,
+        192,
+        192,
+        192,
+        192
+      ],
+      "leading_fraction": 0.019736842105263157
+    },
+    "mutopia-263-legacy": {
+      "notes": 1394,
+      "groups": 789,
+      "target_ticks": 116544,
+      "timeline": {
+        "target_ticks": 116544,
+        "occupied_ticks": 113952,
+        "silence_ticks": 2592,
+        "leading_silence_ticks": 0,
+        "trailing_silence_ticks": 0,
+        "internal_silence_ticks": 2592,
+        "max_contiguous_silence_ticks": 864,
+        "internal_gap_count": 15,
+        "active_voice_tick_integral": 224160,
+        "mean_active_voices": 1.9233937397034597,
+        "polyphonic_ticks": 69120,
+        "polyphonic_time_fraction": 0.5930807248764415,
+        "empty_timeline": false,
+        "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+      },
+      "segment_group_counts": [
+        15,
+        423,
+        152,
+        1,
+        19,
+        179
+      ],
+      "qualifying_silence_lengths": [
+        864,
+        192,
+        192,
+        192,
+        192
+      ],
+      "leading_fraction": 0.0
+    },
+    "mutopia-904": {
+      "notes": 628,
+      "groups": 398,
+      "target_ticks": 140160,
+      "timeline": {
+        "target_ticks": 140160,
+        "occupied_ticks": 112768,
+        "silence_ticks": 27392,
+        "leading_silence_ticks": 0,
+        "trailing_silence_ticks": 0,
+        "internal_silence_ticks": 27392,
+        "max_contiguous_silence_ticks": 2304,
+        "internal_gap_count": 43,
+        "active_voice_tick_integral": 224270,
+        "mean_active_voices": 1.6000998858447488,
+        "polyphonic_ticks": 69888,
+        "polyphonic_time_fraction": 0.4986301369863014,
+        "empty_timeline": false,
+        "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+      },
+      "segment_group_counts": [
+        12,
+        11,
+        14,
+        10,
+        12,
+        11,
+        14,
+        10,
+        30,
+        12,
+        9,
+        30,
+        12,
+        9,
+        3,
+        3,
+        3,
+        16,
+        4,
+        4,
+        4,
+        11,
+        3,
+        3,
+        3,
+        16,
+        4,
+        4,
+        4,
+        11,
+        19,
+        3,
+        3,
+        3,
+        3,
+        3,
+        19,
+        19,
+        3,
+        3,
+        3,
+        3,
+        3,
+        19
+      ],
+      "qualifying_silence_lengths": [
+        768,
+        448,
+        768,
+        384,
+        768,
+        448,
+        768,
+        384,
+        2304,
+        768,
+        384,
+        2304,
+        768,
+        384,
+        576,
+        576,
+        576,
+        576,
+        384,
+        384,
+        192,
+        384,
+        576,
+        576,
+        576,
+        576,
+        384,
+        384,
+        192,
+        384,
+        1152,
+        384,
+        768,
+        576,
+        576,
+        576,
+        384,
+        1152,
+        384,
+        768,
+        576,
+        576,
+        576
+      ],
+      "leading_fraction": 0.0
+    },
+    "mutopia-2080": {
+      "notes": 99,
+      "groups": 96,
+      "target_ticks": 24768,
+      "timeline": {
+        "target_ticks": 24768,
+        "occupied_ticks": 24768,
+        "silence_ticks": 0,
+        "leading_silence_ticks": 0,
+        "trailing_silence_ticks": 0,
+        "internal_silence_ticks": 0,
+        "max_contiguous_silence_ticks": 0,
+        "internal_gap_count": 0,
+        "active_voice_tick_integral": 26880,
+        "mean_active_voices": 1.0852713178294573,
+        "polyphonic_ticks": 2112,
+        "polyphonic_time_fraction": 0.08527131782945736,
+        "empty_timeline": false,
+        "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+      },
+      "segment_group_counts": [
+        96
+      ],
+      "qualifying_silence_lengths": [],
+      "leading_fraction": 0.0
+    },
+    "mutopia-2060": {
+      "notes": 121,
+      "groups": 121,
+      "target_ticks": 11712,
+      "timeline": {
+        "target_ticks": 11712,
+        "occupied_ticks": 11712,
+        "silence_ticks": 0,
+        "leading_silence_ticks": 0,
+        "trailing_silence_ticks": 0,
+        "internal_silence_ticks": 0,
+        "max_contiguous_silence_ticks": 0,
+        "internal_gap_count": 0,
+        "active_voice_tick_integral": 11712,
+        "mean_active_voices": 1.0,
+        "polyphonic_ticks": 0,
+        "polyphonic_time_fraction": 0.0,
+        "empty_timeline": false,
+        "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+      },
+      "segment_group_counts": [
+        121
+      ],
+      "qualifying_silence_lengths": [],
+      "leading_fraction": 0.0
+    },
+    "mutopia-2061": {
+      "notes": 70,
+      "groups": 68,
+      "target_ticks": 8640,
+      "timeline": {
+        "target_ticks": 8640,
+        "occupied_ticks": 7200,
+        "silence_ticks": 1440,
+        "leading_silence_ticks": 96,
+        "trailing_silence_ticks": 0,
+        "internal_silence_ticks": 1344,
+        "max_contiguous_silence_ticks": 288,
+        "internal_gap_count": 5,
+        "active_voice_tick_integral": 7584,
+        "mean_active_voices": 0.8777777777777778,
+        "polyphonic_ticks": 192,
+        "polyphonic_time_fraction": 0.022222222222222223,
+        "empty_timeline": false,
+        "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+      },
+      "segment_group_counts": [
+        8,
+        8,
+        8,
+        8,
+        35,
+        1
+      ],
+      "qualifying_silence_lengths": [
+        288,
+        288,
+        288,
+        288,
+        192
+      ],
+      "leading_fraction": 0.011111111111111112
+    },
+    "mutopia-186": {
+      "notes": 383,
+      "groups": 336,
+      "target_ticks": 75648,
+      "timeline": {
+        "target_ticks": 75648,
+        "occupied_ticks": 71801,
+        "silence_ticks": 3847,
+        "leading_silence_ticks": 0,
+        "trailing_silence_ticks": 0,
+        "internal_silence_ticks": 3847,
+        "max_contiguous_silence_ticks": 1152,
+        "internal_gap_count": 17,
+        "active_voice_tick_integral": 92401,
+        "mean_active_voices": 1.2214599196277496,
+        "polyphonic_ticks": 15228,
+        "polyphonic_time_fraction": 0.2013007614213198,
+        "empty_timeline": false,
+        "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+      },
+      "segment_group_counts": [
+        93,
+        63,
+        99,
+        4,
+        12,
+        3,
+        3,
+        23,
+        24,
+        4,
+        8
+      ],
+      "qualifying_silence_lengths": [
+        384,
+        1152,
+        192,
+        192,
+        384,
+        384,
+        384,
+        384,
+        192,
+        192
+      ],
+      "leading_fraction": 0.0
+    },
+    "mutopia-487": {
+      "notes": 313,
+      "groups": 313,
+      "target_ticks": 95232,
+      "timeline": {
+        "target_ticks": 95232,
+        "occupied_ticks": 95232,
+        "silence_ticks": 0,
+        "leading_silence_ticks": 0,
+        "trailing_silence_ticks": 0,
+        "internal_silence_ticks": 0,
+        "max_contiguous_silence_ticks": 0,
+        "internal_gap_count": 0,
+        "active_voice_tick_integral": 95232,
+        "mean_active_voices": 1.0,
+        "polyphonic_ticks": 0,
+        "polyphonic_time_fraction": 0.0,
+        "empty_timeline": false,
+        "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+      },
+      "segment_group_counts": [
+        313
+      ],
+      "qualifying_silence_lengths": [],
+      "leading_fraction": 0.0
+    },
+    "mutopia-2243": {
+      "notes": 169,
+      "groups": 169,
+      "target_ticks": 53760,
+      "timeline": {
+        "target_ticks": 53760,
+        "occupied_ticks": 34176,
+        "silence_ticks": 19584,
+        "leading_silence_ticks": 12672,
+        "trailing_silence_ticks": 768,
+        "internal_silence_ticks": 6144,
+        "max_contiguous_silence_ticks": 12672,
+        "internal_gap_count": 5,
+        "active_voice_tick_integral": 34176,
+        "mean_active_voices": 0.6357142857142857,
+        "polyphonic_ticks": 0,
+        "polyphonic_time_fraction": 0.0,
+        "empty_timeline": false,
+        "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+      },
+      "segment_group_counts": [
+        33,
+        21,
+        44,
+        34,
+        14,
+        23
+      ],
+      "qualifying_silence_lengths": [
+        384,
+        3072,
+        1920,
+        384,
+        384
+      ],
+      "leading_fraction": 0.2357142857142857
+    },
+    "mutopia-23": {
+      "notes": 1193,
+      "groups": 762,
+      "target_ticks": 110592,
+      "timeline": {
+        "target_ticks": 110592,
+        "occupied_ticks": 100800,
+        "silence_ticks": 9792,
+        "leading_silence_ticks": 288,
+        "trailing_silence_ticks": 0,
+        "internal_silence_ticks": 9504,
+        "max_contiguous_silence_ticks": 1056,
+        "internal_gap_count": 62,
+        "active_voice_tick_integral": 176640,
+        "mean_active_voices": 1.5972222222222223,
+        "polyphonic_ticks": 60672,
+        "polyphonic_time_fraction": 0.5486111111111112,
+        "empty_timeline": false,
+        "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+      },
+      "segment_group_counts": [
+        30,
+        48,
+        30,
+        48,
+        184,
+        30,
+        231,
+        161
+      ],
+      "qualifying_silence_lengths": [
+        1056,
+        288,
+        1056,
+        288,
+        288,
+        1056,
+        192
+      ],
+      "leading_fraction": 0.0026041666666666665
+    }
+  },
+  "generated": {
+    "17_raw": [
+      {
+        "seed": 45000,
+        "status": "complete",
+        "private_sha256": "1b30eeaa69a28b7631ee8a3e00a03144871ca3af359012c8a49e9fc045800b8e",
+        "notes": 50,
+        "groups": 39,
+        "target_ticks": 9216,
+        "timeline": {
+          "target_ticks": 9216,
+          "occupied_ticks": 6336,
+          "silence_ticks": 2880,
+          "leading_silence_ticks": 0,
+          "trailing_silence_ticks": 384,
+          "internal_silence_ticks": 2496,
+          "max_contiguous_silence_ticks": 480,
+          "internal_gap_count": 13,
+          "active_voice_tick_integral": 9899,
+          "mean_active_voices": 1.0741102430555556,
+          "polyphonic_ticks": 2795,
+          "polyphonic_time_fraction": 0.3032769097222222,
+          "empty_timeline": false,
+          "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+        },
+        "segment_group_counts": [
+          5,
+          1,
+          4,
+          1,
+          1,
+          5,
+          1,
+          2,
+          19
+        ],
+        "qualifying_silence_lengths": [
+          288,
+          288,
+          480,
+          192,
+          192,
+          192,
+          192,
+          192
+        ],
+        "leading_fraction": 0.0
+      },
+      {
+        "seed": 45001,
+        "status": "complete",
+        "private_sha256": "8d5bf18f3b776976bc3227ca89d39a3e0ba73c90901d078544464e8687d008f0",
+        "notes": 2,
+        "groups": 2,
+        "target_ticks": 9216,
+        "timeline": {
+          "target_ticks": 9216,
+          "occupied_ticks": 672,
+          "silence_ticks": 8544,
+          "leading_silence_ticks": 7872,
+          "trailing_silence_ticks": 384,
+          "internal_silence_ticks": 288,
+          "max_contiguous_silence_ticks": 7872,
+          "internal_gap_count": 1,
+          "active_voice_tick_integral": 672,
+          "mean_active_voices": 0.07291666666666667,
+          "polyphonic_ticks": 0,
+          "polyphonic_time_fraction": 0.0,
+          "empty_timeline": false,
+          "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+        },
+        "segment_group_counts": [
+          1,
+          1
+        ],
+        "qualifying_silence_lengths": [
+          288
+        ],
+        "leading_fraction": 0.8541666666666666
+      },
+      {
+        "seed": 45002,
+        "status": "complete",
+        "private_sha256": "e944258e17977cb319345cc912cae116b200b550adb547270089ff309ba4e657",
+        "notes": 44,
+        "groups": 35,
+        "target_ticks": 9216,
+        "timeline": {
+          "target_ticks": 9216,
+          "occupied_ticks": 6592,
+          "silence_ticks": 2624,
+          "leading_silence_ticks": 0,
+          "trailing_silence_ticks": 256,
+          "internal_silence_ticks": 2368,
+          "max_contiguous_silence_ticks": 480,
+          "internal_gap_count": 12,
+          "active_voice_tick_integral": 11008,
+          "mean_active_voices": 1.1944444444444444,
+          "polyphonic_ticks": 2944,
+          "polyphonic_time_fraction": 0.3194444444444444,
+          "empty_timeline": false,
+          "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+        },
+        "segment_group_counts": [
+          7,
+          3,
+          6,
+          1,
+          14,
+          3,
+          1
+        ],
+        "qualifying_silence_lengths": [
+          480,
+          192,
+          288,
+          192,
+          384,
+          192
+        ],
+        "leading_fraction": 0.0
+      }
+    ],
+    "18_raw": [
+      {
+        "seed": 45000,
+        "status": "complete",
+        "private_sha256": "1baca2c51d598e3f59ba8b26a8fe012981cd84751e691f039cad8efeeec2ea44",
+        "notes": 37,
+        "groups": 31,
+        "target_ticks": 9216,
+        "timeline": {
+          "target_ticks": 9216,
+          "occupied_ticks": 4916,
+          "silence_ticks": 4300,
+          "leading_silence_ticks": 1728,
+          "trailing_silence_ticks": 192,
+          "internal_silence_ticks": 2380,
+          "max_contiguous_silence_ticks": 1728,
+          "internal_gap_count": 13,
+          "active_voice_tick_integral": 7092,
+          "mean_active_voices": 0.76953125,
+          "polyphonic_ticks": 1824,
+          "polyphonic_time_fraction": 0.19791666666666666,
+          "empty_timeline": false,
+          "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+        },
+        "segment_group_counts": [
+          1,
+          5,
+          1,
+          9,
+          7,
+          3,
+          5
+        ],
+        "qualifying_silence_lengths": [
+          288,
+          192,
+          288,
+          288,
+          288,
+          396
+        ],
+        "leading_fraction": 0.1875
+      },
+      {
+        "seed": 45001,
+        "status": "complete",
+        "private_sha256": "bb48699688ffe1886ea882ff8ceb3cd929ff674699cc2167bc35ccd94590c2ae",
+        "notes": 47,
+        "groups": 35,
+        "target_ticks": 9216,
+        "timeline": {
+          "target_ticks": 9216,
+          "occupied_ticks": 5984,
+          "silence_ticks": 3232,
+          "leading_silence_ticks": 0,
+          "trailing_silence_ticks": 384,
+          "internal_silence_ticks": 2848,
+          "max_contiguous_silence_ticks": 672,
+          "internal_gap_count": 13,
+          "active_voice_tick_integral": 9888,
+          "mean_active_voices": 1.0729166666666667,
+          "polyphonic_ticks": 3040,
+          "polyphonic_time_fraction": 0.3298611111111111,
+          "empty_timeline": false,
+          "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+        },
+        "segment_group_counts": [
+          5,
+          6,
+          8,
+          1,
+          2,
+          6,
+          3,
+          4
+        ],
+        "qualifying_silence_lengths": [
+          192,
+          192,
+          192,
+          640,
+          192,
+          672,
+          192
+        ],
+        "leading_fraction": 0.0
+      },
+      {
+        "seed": 45002,
+        "status": "complete",
+        "private_sha256": "2ef3143210d34b6b0403adfd19c6eda11e01639705c6a19b98c839aa1c8da05b",
+        "notes": 35,
+        "groups": 32,
+        "target_ticks": 9216,
+        "timeline": {
+          "target_ticks": 9216,
+          "occupied_ticks": 6464,
+          "silence_ticks": 2752,
+          "leading_silence_ticks": 576,
+          "trailing_silence_ticks": 352,
+          "internal_silence_ticks": 1824,
+          "max_contiguous_silence_ticks": 576,
+          "internal_gap_count": 10,
+          "active_voice_tick_integral": 9696,
+          "mean_active_voices": 1.0520833333333333,
+          "polyphonic_ticks": 2272,
+          "polyphonic_time_fraction": 0.2465277777777778,
+          "empty_timeline": false,
+          "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+        },
+        "segment_group_counts": [
+          4,
+          5,
+          6,
+          1,
+          13,
+          3
+        ],
+        "qualifying_silence_lengths": [
+          384,
+          192,
+          288,
+          192,
+          288
+        ],
+        "leading_fraction": 0.0625
+      }
+    ],
+    "17_equal_work": [
+      {
+        "seed": 45000,
+        "status": "complete",
+        "private_sha256": "9b60e50dcc16d89d434b9c446f7ae70bc476546619f01f9421d441f991501172",
+        "notes": 28,
+        "groups": 27,
+        "target_ticks": 9216,
+        "timeline": {
+          "target_ticks": 9216,
+          "occupied_ticks": 5344,
+          "silence_ticks": 3872,
+          "leading_silence_ticks": 0,
+          "trailing_silence_ticks": 64,
+          "internal_silence_ticks": 3808,
+          "max_contiguous_silence_ticks": 2304,
+          "internal_gap_count": 10,
+          "active_voice_tick_integral": 7456,
+          "mean_active_voices": 0.8090277777777778,
+          "polyphonic_ticks": 1856,
+          "polyphonic_time_fraction": 0.2013888888888889,
+          "empty_timeline": false,
+          "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+        },
+        "segment_group_counts": [
+          1,
+          1,
+          5,
+          7,
+          6,
+          2,
+          3,
+          2
+        ],
+        "qualifying_silence_lengths": [
+          192,
+          192,
+          192,
+          192,
+          2304,
+          288,
+          192
+        ],
+        "leading_fraction": 0.0
+      },
+      {
+        "seed": 45001,
+        "status": "complete",
+        "private_sha256": "d058669e4eb8e0a3c49cd0a16964e7ed8289348030fca51b02943234809402b1",
+        "notes": 6,
+        "groups": 6,
+        "target_ticks": 9216,
+        "timeline": {
+          "target_ticks": 9216,
+          "occupied_ticks": 960,
+          "silence_ticks": 8256,
+          "leading_silence_ticks": 7872,
+          "trailing_silence_ticks": 384,
+          "internal_silence_ticks": 0,
+          "max_contiguous_silence_ticks": 7872,
+          "internal_gap_count": 0,
+          "active_voice_tick_integral": 1152,
+          "mean_active_voices": 0.125,
+          "polyphonic_ticks": 192,
+          "polyphonic_time_fraction": 0.020833333333333332,
+          "empty_timeline": false,
+          "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+        },
+        "segment_group_counts": [
+          6
+        ],
+        "qualifying_silence_lengths": [],
+        "leading_fraction": 0.8541666666666666
+      },
+      {
+        "seed": 45002,
+        "status": "complete",
+        "private_sha256": "6299aadfe2b751d61bb10d3e0dc5f85bc992b74bc4926e4f5af502e802c37f6f",
+        "notes": 30,
+        "groups": 30,
+        "target_ticks": 9216,
+        "timeline": {
+          "target_ticks": 9216,
+          "occupied_ticks": 5451,
+          "silence_ticks": 3765,
+          "leading_silence_ticks": 0,
+          "trailing_silence_ticks": 96,
+          "internal_silence_ticks": 3669,
+          "max_contiguous_silence_ticks": 768,
+          "internal_gap_count": 17,
+          "active_voice_tick_integral": 6027,
+          "mean_active_voices": 0.6539713541666666,
+          "polyphonic_ticks": 576,
+          "polyphonic_time_fraction": 0.0625,
+          "empty_timeline": false,
+          "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+        },
+        "segment_group_counts": [
+          2,
+          4,
+          5,
+          2,
+          1,
+          1,
+          2,
+          4,
+          2,
+          6,
+          1
+        ],
+        "qualifying_silence_lengths": [
+          192,
+          192,
+          192,
+          192,
+          192,
+          768,
+          288,
+          384,
+          192,
+          384
+        ],
+        "leading_fraction": 0.0
+      }
+    ],
+    "18_equal_work": [
+      {
+        "seed": 45000,
+        "status": "complete",
+        "private_sha256": "c01dedaff14697673184e1a2a57c2adde4acdde5c54c72d58cc2e5d6d5b571fb",
+        "notes": 32,
+        "groups": 28,
+        "target_ticks": 9216,
+        "timeline": {
+          "target_ticks": 9216,
+          "occupied_ticks": 4896,
+          "silence_ticks": 4320,
+          "leading_silence_ticks": 1728,
+          "trailing_silence_ticks": 192,
+          "internal_silence_ticks": 2400,
+          "max_contiguous_silence_ticks": 1728,
+          "internal_gap_count": 10,
+          "active_voice_tick_integral": 6464,
+          "mean_active_voices": 0.7013888888888888,
+          "polyphonic_ticks": 1376,
+          "polyphonic_time_fraction": 0.14930555555555555,
+          "empty_timeline": false,
+          "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+        },
+        "segment_group_counts": [
+          1,
+          5,
+          9,
+          4,
+          2,
+          2,
+          4,
+          1
+        ],
+        "qualifying_silence_lengths": [
+          384,
+          192,
+          384,
+          288,
+          384,
+          288,
+          192
+        ],
+        "leading_fraction": 0.1875
+      },
+      {
+        "seed": 45001,
+        "status": "complete",
+        "private_sha256": "10fd4aa7bf656bc93bdc3abda96a34ef95002027e76616574750cc681f79844c",
+        "notes": 43,
+        "groups": 34,
+        "target_ticks": 9216,
+        "timeline": {
+          "target_ticks": 9216,
+          "occupied_ticks": 6400,
+          "silence_ticks": 2816,
+          "leading_silence_ticks": 0,
+          "trailing_silence_ticks": 224,
+          "internal_silence_ticks": 2592,
+          "max_contiguous_silence_ticks": 768,
+          "internal_gap_count": 10,
+          "active_voice_tick_integral": 10400,
+          "mean_active_voices": 1.1284722222222223,
+          "polyphonic_ticks": 2848,
+          "polyphonic_time_fraction": 0.3090277777777778,
+          "empty_timeline": false,
+          "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+        },
+        "segment_group_counts": [
+          4,
+          1,
+          5,
+          8,
+          1,
+          11,
+          4
+        ],
+        "qualifying_silence_lengths": [
+          768,
+          192,
+          384,
+          480,
+          192,
+          192
+        ],
+        "leading_fraction": 0.0
+      },
+      {
+        "seed": 45002,
+        "status": "complete",
+        "private_sha256": "a0fc7c50817e5ab4543d00677b77002c5b8d046fb584808ec2058eebe04a7189",
+        "notes": 38,
+        "groups": 36,
+        "target_ticks": 9216,
+        "timeline": {
+          "target_ticks": 9216,
+          "occupied_ticks": 5696,
+          "silence_ticks": 3520,
+          "leading_silence_ticks": 576,
+          "trailing_silence_ticks": 288,
+          "internal_silence_ticks": 2656,
+          "max_contiguous_silence_ticks": 1344,
+          "internal_gap_count": 9,
+          "active_voice_tick_integral": 7936,
+          "mean_active_voices": 0.8611111111111112,
+          "polyphonic_ticks": 1760,
+          "polyphonic_time_fraction": 0.1909722222222222,
+          "empty_timeline": false,
+          "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+        },
+        "segment_group_counts": [
+          7,
+          11,
+          2,
+          6,
+          8,
+          2
+        ],
+        "qualifying_silence_lengths": [
+          288,
+          1344,
+          192,
+          288,
+          192
+        ],
+        "leading_fraction": 0.0625
+      }
+    ],
+    "17_equal_family": [
+      {
+        "seed": 45000,
+        "status": "complete",
+        "private_sha256": "feae936ae99095d0c9fa59781c3335b7b0cfe23469f2fd0e7c16d2ba3b6bbec4",
+        "notes": 33,
+        "groups": 31,
+        "target_ticks": 9216,
+        "timeline": {
+          "target_ticks": 9216,
+          "occupied_ticks": 7104,
+          "silence_ticks": 2112,
+          "leading_silence_ticks": 0,
+          "trailing_silence_ticks": 96,
+          "internal_silence_ticks": 2016,
+          "max_contiguous_silence_ticks": 576,
+          "internal_gap_count": 6,
+          "active_voice_tick_integral": 10976,
+          "mean_active_voices": 1.1909722222222223,
+          "polyphonic_ticks": 3008,
+          "polyphonic_time_fraction": 0.3263888888888889,
+          "empty_timeline": false,
+          "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+        },
+        "segment_group_counts": [
+          6,
+          3,
+          8,
+          2,
+          2,
+          10
+        ],
+        "qualifying_silence_lengths": [
+          192,
+          576,
+          192,
+          384,
+          576
+        ],
+        "leading_fraction": 0.0
+      },
+      {
+        "seed": 45001,
+        "status": "complete",
+        "private_sha256": "fe71497e135d3ee90b3fcc7eadc0f9a771344539cd66146e058e92e37afca2ba",
+        "notes": 4,
+        "groups": 3,
+        "target_ticks": 9216,
+        "timeline": {
+          "target_ticks": 9216,
+          "occupied_ticks": 960,
+          "silence_ticks": 8256,
+          "leading_silence_ticks": 7872,
+          "trailing_silence_ticks": 192,
+          "internal_silence_ticks": 192,
+          "max_contiguous_silence_ticks": 7872,
+          "internal_gap_count": 1,
+          "active_voice_tick_integral": 1344,
+          "mean_active_voices": 0.14583333333333334,
+          "polyphonic_ticks": 384,
+          "polyphonic_time_fraction": 0.041666666666666664,
+          "empty_timeline": false,
+          "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+        },
+        "segment_group_counts": [
+          1,
+          2
+        ],
+        "qualifying_silence_lengths": [
+          192
+        ],
+        "leading_fraction": 0.8541666666666666
+      },
+      {
+        "seed": 45002,
+        "status": "complete",
+        "private_sha256": "d5f1b4bf96bca51612011807e8ad841dad3f5c047ebc1ae972f7973e883ef0ad",
+        "notes": 12,
+        "groups": 9,
+        "target_ticks": 9216,
+        "timeline": {
+          "target_ticks": 9216,
+          "occupied_ticks": 2016,
+          "silence_ticks": 7200,
+          "leading_silence_ticks": 0,
+          "trailing_silence_ticks": 384,
+          "internal_silence_ticks": 6816,
+          "max_contiguous_silence_ticks": 6336,
+          "internal_gap_count": 4,
+          "active_voice_tick_integral": 3168,
+          "mean_active_voices": 0.34375,
+          "polyphonic_ticks": 768,
+          "polyphonic_time_fraction": 0.08333333333333333,
+          "empty_timeline": false,
+          "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+        },
+        "segment_group_counts": [
+          4,
+          1,
+          3,
+          1
+        ],
+        "qualifying_silence_lengths": [
+          192,
+          192,
+          6336
+        ],
+        "leading_fraction": 0.0
+      }
+    ],
+    "18_equal_family": [
+      {
+        "seed": 45000,
+        "status": "complete",
+        "private_sha256": "607e7500db2a0a807f3176af5f812662575e7064414f91b6f6960253acf1fbb0",
+        "notes": 36,
+        "groups": 33,
+        "target_ticks": 9216,
+        "timeline": {
+          "target_ticks": 9216,
+          "occupied_ticks": 6320,
+          "silence_ticks": 2896,
+          "leading_silence_ticks": 0,
+          "trailing_silence_ticks": 336,
+          "internal_silence_ticks": 2560,
+          "max_contiguous_silence_ticks": 576,
+          "internal_gap_count": 11,
+          "active_voice_tick_integral": 8416,
+          "mean_active_voices": 0.9131944444444444,
+          "polyphonic_ticks": 1568,
+          "polyphonic_time_fraction": 0.1701388888888889,
+          "empty_timeline": false,
+          "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+        },
+        "segment_group_counts": [
+          4,
+          3,
+          2,
+          9,
+          4,
+          4,
+          1,
+          5,
+          1
+        ],
+        "qualifying_silence_lengths": [
+          384,
+          192,
+          192,
+          192,
+          192,
+          192,
+          576,
+          384
+        ],
+        "leading_fraction": 0.0
+      },
+      {
+        "seed": 45001,
+        "status": "complete",
+        "private_sha256": "563e62f600b0a94cae6c7424282f7b543bf35d0e48c9f03be1347c3891627d1d",
+        "notes": 6,
+        "groups": 6,
+        "target_ticks": 9216,
+        "timeline": {
+          "target_ticks": 9216,
+          "occupied_ticks": 800,
+          "silence_ticks": 8416,
+          "leading_silence_ticks": 7872,
+          "trailing_silence_ticks": 256,
+          "internal_silence_ticks": 288,
+          "max_contiguous_silence_ticks": 7872,
+          "internal_gap_count": 2,
+          "active_voice_tick_integral": 960,
+          "mean_active_voices": 0.10416666666666667,
+          "polyphonic_ticks": 160,
+          "polyphonic_time_fraction": 0.017361111111111112,
+          "empty_timeline": false,
+          "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+        },
+        "segment_group_counts": [
+          5,
+          1
+        ],
+        "qualifying_silence_lengths": [
+          192
+        ],
+        "leading_fraction": 0.8541666666666666
+      },
+      {
+        "seed": 45002,
+        "status": "complete",
+        "private_sha256": "80a92e83ad4e8f2d1aba8318a242768d389f0941be0d744795f16c369956681e",
+        "notes": 33,
+        "groups": 30,
+        "target_ticks": 9216,
+        "timeline": {
+          "target_ticks": 9216,
+          "occupied_ticks": 6432,
+          "silence_ticks": 2784,
+          "leading_silence_ticks": 0,
+          "trailing_silence_ticks": 288,
+          "internal_silence_ticks": 2496,
+          "max_contiguous_silence_ticks": 1056,
+          "internal_gap_count": 8,
+          "active_voice_tick_integral": 9312,
+          "mean_active_voices": 1.0104166666666667,
+          "polyphonic_ticks": 2112,
+          "polyphonic_time_fraction": 0.22916666666666666,
+          "empty_timeline": false,
+          "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+        },
+        "segment_group_counts": [
+          1,
+          2,
+          2,
+          8,
+          6,
+          11
+        ],
+        "qualifying_silence_lengths": [
+          384,
+          192,
+          384,
+          192,
+          1056
+        ],
+        "leading_fraction": 0.0
+      }
+    ],
+    "18_natural_raw": [
+      {
+        "seed": 45000,
+        "status": "complete",
+        "private_sha256": "bf9336b57f35409123632bef3a945b03cc7f43d4f41b7315afe43aa381844b46",
+        "notes": 48,
+        "groups": 39,
+        "target_ticks": 9216,
+        "timeline": {
+          "target_ticks": 9216,
+          "occupied_ticks": 5904,
+          "silence_ticks": 3312,
+          "leading_silence_ticks": 1728,
+          "trailing_silence_ticks": 336,
+          "internal_silence_ticks": 1248,
+          "max_contiguous_silence_ticks": 1728,
+          "internal_gap_count": 7,
+          "active_voice_tick_integral": 9728,
+          "mean_active_voices": 1.0555555555555556,
+          "polyphonic_ticks": 2768,
+          "polyphonic_time_fraction": 0.3003472222222222,
+          "empty_timeline": false,
+          "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+        },
+        "segment_group_counts": [
+          32,
+          2,
+          3,
+          2
+        ],
+        "qualifying_silence_lengths": [
+          384,
+          288,
+          192
+        ],
+        "leading_fraction": 0.1875
+      },
+      {
+        "seed": 45001,
+        "status": "complete",
+        "private_sha256": "1eec7b41c97a0c35e55b3e513e625c3988d1d356746a4cd3d7ec44b31da4c47a",
+        "notes": 48,
+        "groups": 40,
+        "target_ticks": 9216,
+        "timeline": {
+          "target_ticks": 9216,
+          "occupied_ticks": 6752,
+          "silence_ticks": 2464,
+          "leading_silence_ticks": 0,
+          "trailing_silence_ticks": 32,
+          "internal_silence_ticks": 2432,
+          "max_contiguous_silence_ticks": 576,
+          "internal_gap_count": 9,
+          "active_voice_tick_integral": 10528,
+          "mean_active_voices": 1.1423611111111112,
+          "polyphonic_ticks": 2752,
+          "polyphonic_time_fraction": 0.2986111111111111,
+          "empty_timeline": false,
+          "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+        },
+        "segment_group_counts": [
+          10,
+          2,
+          5,
+          3,
+          6,
+          13,
+          1
+        ],
+        "qualifying_silence_lengths": [
+          384,
+          576,
+          192,
+          192,
+          480,
+          384
+        ],
+        "leading_fraction": 0.0
+      },
+      {
+        "seed": 45002,
+        "status": "complete",
+        "private_sha256": "786bd7e9051b8a5dabfbb4b7c88a14027338340d1ef7282f67116c5f18112c50",
+        "notes": 39,
+        "groups": 31,
+        "target_ticks": 9216,
+        "timeline": {
+          "target_ticks": 9216,
+          "occupied_ticks": 4736,
+          "silence_ticks": 4480,
+          "leading_silence_ticks": 960,
+          "trailing_silence_ticks": 384,
+          "internal_silence_ticks": 3136,
+          "max_contiguous_silence_ticks": 960,
+          "internal_gap_count": 11,
+          "active_voice_tick_integral": 7328,
+          "mean_active_voices": 0.7951388888888888,
+          "polyphonic_ticks": 2112,
+          "polyphonic_time_fraction": 0.22916666666666666,
+          "empty_timeline": false,
+          "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+        },
+        "segment_group_counts": [
+          5,
+          1,
+          9,
+          10,
+          5,
+          1
+        ],
+        "qualifying_silence_lengths": [
+          960,
+          576,
+          288,
+          192,
+          480
+        ],
+        "leading_fraction": 0.10416666666666667
+      }
+    ]
+  },
+  "originals_unchanged": true,
+  "limitations": [
+    "Counts and occupiedtime are descriptive, not phrase annotations or appeal.",
+    "Originalsource horizons and meters differ; raw source note counts not normalized8bar comparable.",
+    "Threshold192 is arbitrary halfquarter atPPQ384, no selection of threshold from outcomes.",
+    "Known generatedpool, not new randomdraw or fresh music."
+  ]
+}

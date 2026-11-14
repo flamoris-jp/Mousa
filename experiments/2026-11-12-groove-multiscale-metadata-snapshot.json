@@ -1,0 +1,78 @@
+{
+  "scope": "Cycle34 Groove fixed multiscale diagnostic plus separate Cycle33 posthoc decomposition. Metadata/code only; no raw MIDI, audio, weights or fitted count arrays. Old snapshots unchanged; no original retransmission.",
+  "files": [
+    {
+      "relative_path": "src/mousa/drum_ioi_multiscale.py",
+      "bytes": 3188,
+      "sha256": "e2e9e15e7334265d25a9f8b7aec73c50d00a5bfbe55727d0a86eefec567bf265"
+    },
+    {
+      "relative_path": "tests/test_drum_ioi_multiscale.py",
+      "bytes": 2131,
+      "sha256": "8a1595561a0f9f3e4d75260d032af5933f8795b16a709f8275eedad88abf0883"
+    },
+    {
+      "relative_path": "tools/compare_groove_multiscale.py",
+      "bytes": 7719,
+      "sha256": "831fe0f56f6d67a0059f52ffccabb3cede2f21bf42c689cae79fde9f299ea2d5"
+    },
+    {
+      "relative_path": "tests/test_groove_multiscale_driver.py",
+      "bytes": 873,
+      "sha256": "bf4486b63c3ddd083af88a5cad71455bba15ffff8e2c6aa616a30872d97e543e"
+    },
+    {
+      "relative_path": "datasets/research-groove-rights-cycle32-20261112.json",
+      "bytes": 5043,
+      "sha256": "de6f14f3b6f38398f1d419e7a5b3fcf0f0d943adcadd914826629641fa4f0bbc"
+    },
+    {
+      "relative_path": "datasets/research-groove-usage-cycle34-20261112.json",
+      "bytes": 6615,
+      "sha256": "bbbc0a0193886bd177aa2e8a83e4340ff4f543c0e1dcdb823a27739b40f98f68"
+    },
+    {
+      "relative_path": "tools/diagnose_groove_ioi.py",
+      "bytes": 4642,
+      "sha256": "de63539f8c4fdb368e0c33f5e2a9cbb07e1647503f60892268015a2faff9ddba"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-ioi-posthoc-count-diagnostic.json",
+      "bytes": 14845,
+      "sha256": "cf30a5c54abd54fdffb35770c46db254de820b57d7ead568f64b5b0c7c451c82"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-multiscale-comparison.md",
+      "bytes": 4509,
+      "sha256": "18315a513b64723b7e401b1dcbf169faa323f888562ecb0e768c7e1e3e2a9a12"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-multiscale-clearance.json",
+      "bytes": 452,
+      "sha256": "6eba7a852bd865e55bae596bfb733f67998f754b80232154dbd4e0ec08cd3cb6"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-multiscale-independent-review.json",
+      "bytes": 577,
+      "sha256": "bc88020271b234eb2331c693ae8aeb77ba28bcb9a3daca5e28e33fb84d720a82"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-multiscale-plan.json",
+      "bytes": 14564,
+      "sha256": "71e1949f2f82e62e3915352eb7a9d1a2426d878850227ae4c7bc2ab4edd24575"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-multiscale-repeat-verification.json",
+      "bytes": 700,
+      "sha256": "dff44647c1772f6f652184524e624f4677e38aa68fa8b1493ea223da62aad2e6"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-multiscale-results.json",
+      "bytes": 23982,
+      "sha256": "c8a34525d8b2d088c222840a187933f58f1a898e0158b8f1f42f8e5065b19cc8"
+    }
+  ],
+  "file_count": 14,
+  "total_bytes": 89840,
+  "uploaded": false
+}

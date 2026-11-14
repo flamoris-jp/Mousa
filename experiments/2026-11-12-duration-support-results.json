@@ -1,0 +1,140 @@
+{
+  "scope": "Synthetic duration contract, not music quality or unseen-work evaluation",
+  "source_music_used": false,
+  "support_size": 12288,
+  "synthetic_training_observations": 7,
+  "probability_mass": "1",
+  "probe": [
+    {
+      "quarter_duration": "1/4",
+      "classification": "seen",
+      "sixteenth_exact": true,
+      "probability": "24577/98304",
+      "integer_tick_probability": "24577/98304",
+      "nll": 1.3862536718435436
+    },
+    {
+      "quarter_duration": "1/2",
+      "classification": "seen",
+      "sixteenth_exact": true,
+      "probability": "12289/98304",
+      "integer_tick_probability": "12289/98304",
+      "nll": 2.0793601647826923
+    },
+    {
+      "quarter_duration": "1",
+      "classification": "seen",
+      "sixteenth_exact": true,
+      "probability": "36865/98304",
+      "integer_tick_probability": "36865/98304",
+      "nll": 0.9808021266435383
+    },
+    {
+      "quarter_duration": "1/32",
+      "classification": "seen",
+      "sixteenth_exact": false,
+      "probability": "12289/98304",
+      "integer_tick_probability": "12289/98304",
+      "nll": 2.0793601647826923
+    },
+    {
+      "quarter_duration": "11/192",
+      "classification": "unseen",
+      "sixteenth_exact": false,
+      "probability": "1/98304",
+      "integer_tick_probability": "1/98304",
+      "nll": 11.49581999706729
+    },
+    {
+      "quarter_duration": "1/384",
+      "classification": "unseen",
+      "sixteenth_exact": false,
+      "probability": "1/98304",
+      "integer_tick_probability": "1/98304",
+      "nll": 11.49581999706729
+    },
+    {
+      "quarter_duration": "1/7",
+      "classification": "incompatible_grid",
+      "sixteenth_exact": false,
+      "rejected": "incompatible_grid",
+      "probability": null
+    },
+    {
+      "quarter_duration": "33",
+      "classification": "outside_duration_range",
+      "sixteenth_exact": true,
+      "rejected": "outside_duration_range",
+      "probability": null
+    }
+  ],
+  "probe_coverage": {
+    "common_support": 6,
+    "sixteenth_only": 3,
+    "total": 8,
+    "note": "Sixteenth count excludes the over-range 33-quarter probe; exact grid alone is insufficient"
+  },
+  "generation": {
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "target_ticks": 9216,
+    "duration_cap_ticks": 768,
+    "all_exact_end": true,
+    "representation_samples_identical": true,
+    "event_counts": [
+      45,
+      42,
+      46,
+      41,
+      51,
+      50,
+      46,
+      49,
+      44,
+      54,
+      47,
+      39,
+      49,
+      48,
+      47,
+      46,
+      48,
+      46,
+      49,
+      48
+    ],
+    "sample_sha256": "7ef514a4864c7775f9628ba30cd459f6a01edc5ae08cccf76332678569d21936"
+  },
+  "code_sha256": {
+    "src/mousa/duration_support.py": "50b10a6538a1b8cc8ec60f5e58570935bbb6c1a6e0c650ddb8944afd20516f6f",
+    "tools/compare_duration_support.py": "0cfab4dc32d363fe6d26ac57e0ce9cb6bb5bf1d3f47e312fb8a6b086bf5e5f08",
+    "experiments/2026-11-12-duration-comparison-plan.json": "22c8e6d7f619863a57c255ffae982f9904765e3de69ff0debda89a320ed9e77a"
+  },
+  "limitations": [
+    "Uniform tick prior is not uniform over reduced rational denominators.",
+    "Duration-only IID counts do not model meter, ornament semantics, phrase or pitch.",
+    "Generation is conditioned on remaining length; displayed NLL is unconditional.",
+    "Coarse control conditional likelihood is deliberately not reported as comparable.",
+    "No source events have been rounded, split, deleted or reused as fresh test data."
+  ]
+}

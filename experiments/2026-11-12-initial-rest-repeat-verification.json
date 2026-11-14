@@ -1,0 +1,245 @@
+{
+  "status": "pass",
+  "reports_equal_excluding_cpu": true,
+  "initial_cpu_seconds": 0.10137308600000006,
+  "repeat_cpu_seconds": 0.09964220499999998,
+  "candidates": [
+    {
+      "candidate": "works16_first12288_context-0-private.json",
+      "sha256": "ff2e2b762c9994fc10263230f3cefad9c9036d63de56c06baa289d70b540055e",
+      "notes": 45,
+      "groups": 37,
+      "five_fields_exact": true
+    },
+    {
+      "candidate": "works16_first12288_context-1-private.json",
+      "sha256": "f02ee9a6a9c7b79cfba29b507f1db368e5ba869e1a777e8ee32f6601ecf1568a",
+      "notes": 35,
+      "groups": 30,
+      "five_fields_exact": true
+    },
+    {
+      "candidate": "works16_first12288_context-2-private.json",
+      "sha256": "b1c023ed6d16764d0f7050cf45f8d3fb6bd6ada950aa77d4f5ad230e17798c5a",
+      "notes": 41,
+      "groups": 33,
+      "five_fields_exact": true
+    },
+    {
+      "candidate": "works16_first12288_context-3-private.json",
+      "sha256": "0b2f2c371a551bbd2e77684fe65c9e821cc2f4e7c21ca5a3dd0e72b316d80d0e",
+      "notes": 28,
+      "groups": 27,
+      "five_fields_exact": true
+    },
+    {
+      "candidate": "works16_first12288_context-4-private.json",
+      "sha256": "5b2ad831659e1b4ba3e11024c94b963b8e1db08187d9f123afc75586bae14518",
+      "notes": 37,
+      "groups": 33,
+      "five_fields_exact": true
+    },
+    {
+      "candidate": "works16_first12288_global-0-private.json",
+      "sha256": "609bc9a507126a20b6141b3c6bd93dd4b141fbff36c48d329d66cecb9c94b6ac",
+      "notes": 41,
+      "groups": 31,
+      "five_fields_exact": true
+    },
+    {
+      "candidate": "works16_first12288_global-1-private.json",
+      "sha256": "92e767fde5cbf448ee5b7c62afeb883ad0ea03f70e60ef18b1af7e9e1c4325a6",
+      "notes": 28,
+      "groups": 27,
+      "five_fields_exact": true
+    },
+    {
+      "candidate": "works16_first12288_global-2-private.json",
+      "sha256": "a912eac1f8f8fcedc015b26ab2592b8a119c256fef6afc96b7ba8df347499666",
+      "notes": 36,
+      "groups": 29,
+      "five_fields_exact": true
+    },
+    {
+      "candidate": "works16_first12288_global-3-private.json",
+      "sha256": "dcdda94663b2dfdf0af20420ca03ac825d5ec2ba4b779995d377308037f4aa9a",
+      "notes": 31,
+      "groups": 26,
+      "five_fields_exact": true
+    },
+    {
+      "candidate": "works16_first12288_global-4-private.json",
+      "sha256": "3465457ffb14ccdc09592cfc0fef2b5091205ca77d68c359a29546aaf30bf916",
+      "notes": 44,
+      "groups": 35,
+      "five_fields_exact": true
+    },
+    {
+      "candidate": "works16_first65536_context-0-private.json",
+      "sha256": "742c1a6e87dbfe739eea51cec321ac6446eb3bbb9691ae278ad97b50a2a30b41",
+      "notes": 35,
+      "groups": 30,
+      "five_fields_exact": true
+    },
+    {
+      "candidate": "works16_first65536_context-1-private.json",
+      "sha256": "f02ee9a6a9c7b79cfba29b507f1db368e5ba869e1a777e8ee32f6601ecf1568a",
+      "notes": 35,
+      "groups": 30,
+      "five_fields_exact": true
+    },
+    {
+      "candidate": "works16_first65536_context-2-private.json",
+      "sha256": "aed25bd3c6dd198a8d5089c321f37b00f6faf5c18fc2471171d851ae73d9adb5",
+      "notes": 33,
+      "groups": 24,
+      "five_fields_exact": true
+    },
+    {
+      "candidate": "works16_first65536_context-3-private.json",
+      "sha256": "0b2f2c371a551bbd2e77684fe65c9e821cc2f4e7c21ca5a3dd0e72b316d80d0e",
+      "notes": 28,
+      "groups": 27,
+      "five_fields_exact": true
+    },
+    {
+      "candidate": "works16_first65536_context-4-private.json",
+      "sha256": "5b2ad831659e1b4ba3e11024c94b963b8e1db08187d9f123afc75586bae14518",
+      "notes": 37,
+      "groups": 33,
+      "five_fields_exact": true
+    },
+    {
+      "candidate": "works16_first65536_global-0-private.json",
+      "sha256": "9ad0ff9f23a4b49b1f0ceb51a228ff1a6a544d1fcb5846329d312f748b3cf31d",
+      "notes": 33,
+      "groups": 23,
+      "five_fields_exact": true
+    },
+    {
+      "candidate": "works16_first65536_global-1-private.json",
+      "sha256": "92e767fde5cbf448ee5b7c62afeb883ad0ea03f70e60ef18b1af7e9e1c4325a6",
+      "notes": 28,
+      "groups": 27,
+      "five_fields_exact": true
+    },
+    {
+      "candidate": "works16_first65536_global-2-private.json",
+      "sha256": "25ec8936968461a1532c5e8a477414aed17b20008ffbb2649d8e7bd5b7419fda",
+      "notes": 29,
+      "groups": 22,
+      "five_fields_exact": true
+    },
+    {
+      "candidate": "works16_first65536_global-3-private.json",
+      "sha256": "dcdda94663b2dfdf0af20420ca03ac825d5ec2ba4b779995d377308037f4aa9a",
+      "notes": 31,
+      "groups": 26,
+      "five_fields_exact": true
+    },
+    {
+      "candidate": "works16_first65536_global-4-private.json",
+      "sha256": "3465457ffb14ccdc09592cfc0fef2b5091205ca77d68c359a29546aaf30bf916",
+      "notes": 44,
+      "groups": 35,
+      "five_fields_exact": true
+    },
+    {
+      "candidate": "works17_first65536_context-0-private.json",
+      "sha256": "33a8c72b36607326cf0242aa606d7004021ee3e160ba499239ab3c9d86fe8fbc",
+      "notes": 22,
+      "groups": 15,
+      "five_fields_exact": true
+    },
+    {
+      "candidate": "works17_first65536_context-1-private.json",
+      "sha256": "26dea7b32290216745c2973010fbf010555512fef829ab7c12f7feac0543bb34",
+      "notes": 49,
+      "groups": 40,
+      "five_fields_exact": true
+    },
+    {
+      "candidate": "works17_first65536_context-2-private.json",
+      "sha256": "c5df1afd9a49855504f0db2368d2ed3c5b193e6dacd9d374d45a96a8bce0b64f",
+      "notes": 31,
+      "groups": 25,
+      "five_fields_exact": true
+    },
+    {
+      "candidate": "works17_first65536_context-3-private.json",
+      "sha256": "425ebfb1fa862d283fc9da61912f2c191030bc7c80433fc59a0a9e2bb245499d",
+      "notes": 46,
+      "groups": 40,
+      "five_fields_exact": true
+    },
+    {
+      "candidate": "works17_first65536_context-4-private.json",
+      "sha256": "7a316be8d33b1db6e383974ed1b40ab270f23fac8dbd1a71da5d02ab5c864f34",
+      "notes": 53,
+      "groups": 43,
+      "five_fields_exact": true
+    },
+    {
+      "candidate": "works17_first65536_global-0-private.json",
+      "sha256": "4c5733c9d3c9f3de532d2af8927eff75f19d849ad9788a3eebed7870546fcdb4",
+      "notes": 35,
+      "groups": 27,
+      "five_fields_exact": true
+    },
+    {
+      "candidate": "works17_first65536_global-1-private.json",
+      "sha256": "2a6ff0b455e4896196b118de747aab1b941af9de115c47c136748e7a400466e8",
+      "notes": 44,
+      "groups": 38,
+      "five_fields_exact": true
+    },
+    {
+      "candidate": "works17_first65536_global-2-private.json",
+      "sha256": "53a13f6f8101b23b3599f155a99bfb0ce18ca12a295ee8a3bf4d9b03579d4239",
+      "notes": 33,
+      "groups": 26,
+      "five_fields_exact": true
+    },
+    {
+      "candidate": "works17_first65536_global-3-private.json",
+      "sha256": "00dee332d62e385362864e109208abdb740b2b863f4b84b7901c9d37b340135a",
+      "notes": 39,
+      "groups": 35,
+      "five_fields_exact": true
+    },
+    {
+      "candidate": "works17_first65536_global-4-private.json",
+      "sha256": "0f7384c3eafc2f37eeb6b559326964f939aab0da4c00861e6fdd584cd1bc440b",
+      "notes": 44,
+      "groups": 34,
+      "five_fields_exact": true
+    }
+  ],
+  "old_cycle34_control": [
+    {
+      "condition": "works16_first12288_global",
+      "private_byte_equal": 5,
+      "nll_equal_abs_tolerance": 1e-12,
+      "nll_note": "Up to3e-15 floating summation-order difference from explicit first/later decomposition.",
+      "copy_guard": "New17+2 reference guard vs old16+2; all current and oldflags0, assessed separately."
+    },
+    {
+      "condition": "works16_first12288_context",
+      "private_byte_equal": 5,
+      "nll_equal_abs_tolerance": 1e-12,
+      "nll_note": "Up to3e-15 floating summation-order difference from explicit first/later decomposition.",
+      "copy_guard": "New17+2 reference guard vs old16+2; all current and oldflags0, assessed separately."
+    }
+  ],
+  "originals_unchanged_both": true,
+  "conditional_initial_16new_vs17new": {
+    "global": {
+      "compared": true,
+      "exact_equal": true
+    },
+    "context": {
+      "compared": true,
+      "exact_equal": true
+    }
+  }
+}

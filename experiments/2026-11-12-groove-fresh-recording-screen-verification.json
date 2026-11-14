@@ -1,0 +1,12 @@
+{
+  "screen_sha256": "bc5dc4aae9d315bbee5846923b1fa77712185233991d8a2fe995feacc403823b",
+  "repeat_equal_except_cpu": true,
+  "cpu_seconds": [
+    8.911871746,
+    11.92215134
+  ],
+  "fresh_prediction_performed": false,
+  "source_roles_unchanged": true,
+  "comparisons": 8872,
+  "blocked": false
+}

@@ -1,0 +1,15 @@
+{
+  "initial_report_sha256": "9bb12620fadd7c2d2155405ace52e5b1da4deb826cfc62a2dca665cca4fe07fc",
+  "repeat_report_sha256": "4e436718c0bd5d0502e3cdda4b83d092a817c594f18f34344a2295c152b49e08",
+  "all_conditions_equal": true,
+  "plan_difference": "creation timestamp only",
+  "events_per_condition": 60,
+  "within_work_transition_counts": {
+    "family376": 59,
+    "family888889": 58,
+    "family789": 59,
+    "balanced_three_families": 56
+  },
+  "no_new_training_sources": true,
+  "diagnostics_already_observed": true
+}

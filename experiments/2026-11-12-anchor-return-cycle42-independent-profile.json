@@ -1,0 +1,11 @@
+{
+  "scope": "Independent synthetic-only ordinal mapping and temporal preservation audit; no original source fitting or generation.",
+  "seed": 42001,
+  "cases": 100,
+  "checks": 1788,
+  "module_sha256": "e806c8ab0e19971b1d46334d1a339e98bce72336adca68eb48b6846573644c9a",
+  "status": "PASS",
+  "limitations": [
+    "Artificial collision-free examples; safety/copy rejection remains separately tested, not evidence of musical quality."
+  ]
+}

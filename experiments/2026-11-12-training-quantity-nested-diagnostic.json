@@ -1,0 +1,1014 @@
+{
+  "scope": "Post-hoc exhaustive single-family-addition diagnostic; all9nestededges retained, no threshold/modelselection",
+  "evaluations": [
+    {
+      "from_families": [
+        0
+      ],
+      "to_families": [
+        0,
+        1
+      ],
+      "added_family": 1,
+      "from_events": 159,
+      "to_events": 244,
+      "model": "factorized",
+      "target": "580",
+      "before_nll": 5.301501411234419,
+      "after_nll": 4.6562785465915075,
+      "delta_nll": -0.6452228646429115,
+      "worsened": false
+    },
+    {
+      "from_families": [
+        0
+      ],
+      "to_families": [
+        0,
+        1
+      ],
+      "added_family": 1,
+      "from_events": 159,
+      "to_events": 244,
+      "model": "factorized",
+      "target": "640",
+      "before_nll": 6.784755141636564,
+      "after_nll": 7.121669433577291,
+      "delta_nll": 0.33691429194072686,
+      "worsened": true
+    },
+    {
+      "from_families": [
+        0
+      ],
+      "to_families": [
+        0,
+        1
+      ],
+      "added_family": 1,
+      "from_events": 159,
+      "to_events": 244,
+      "model": "factorized",
+      "target": "equal_work",
+      "before_nll": 6.043128276435492,
+      "after_nll": 5.888973990084399,
+      "delta_nll": -0.1541542863510923,
+      "worsened": false
+    },
+    {
+      "from_families": [
+        0
+      ],
+      "to_families": [
+        0,
+        1
+      ],
+      "added_family": 1,
+      "from_events": 159,
+      "to_events": 244,
+      "model": "previous_gate_context_k4",
+      "target": "580",
+      "before_nll": 4.405792986258195,
+      "after_nll": 3.6241583472125827,
+      "delta_nll": -0.7816346390456124,
+      "worsened": false
+    },
+    {
+      "from_families": [
+        0
+      ],
+      "to_families": [
+        0,
+        1
+      ],
+      "added_family": 1,
+      "from_events": 159,
+      "to_events": 244,
+      "model": "previous_gate_context_k4",
+      "target": "640",
+      "before_nll": 5.901890268766635,
+      "after_nll": 6.1403424809172,
+      "delta_nll": 0.23845221215056522,
+      "worsened": true
+    },
+    {
+      "from_families": [
+        0
+      ],
+      "to_families": [
+        0,
+        1
+      ],
+      "added_family": 1,
+      "from_events": 159,
+      "to_events": 244,
+      "model": "previous_gate_context_k4",
+      "target": "equal_work",
+      "before_nll": 5.153841627512415,
+      "after_nll": 4.882250414064892,
+      "delta_nll": -0.27159121344752357,
+      "worsened": false
+    },
+    {
+      "from_families": [
+        0
+      ],
+      "to_families": [
+        0,
+        2
+      ],
+      "added_family": 2,
+      "from_events": 159,
+      "to_events": 279,
+      "model": "factorized",
+      "target": "580",
+      "before_nll": 5.301501411234419,
+      "after_nll": 4.611139417157207,
+      "delta_nll": -0.6903619940772119,
+      "worsened": false
+    },
+    {
+      "from_families": [
+        0
+      ],
+      "to_families": [
+        0,
+        2
+      ],
+      "added_family": 2,
+      "from_events": 159,
+      "to_events": 279,
+      "model": "factorized",
+      "target": "640",
+      "before_nll": 6.784755141636564,
+      "after_nll": 7.217507986014299,
+      "delta_nll": 0.43275284437773465,
+      "worsened": true
+    },
+    {
+      "from_families": [
+        0
+      ],
+      "to_families": [
+        0,
+        2
+      ],
+      "added_family": 2,
+      "from_events": 159,
+      "to_events": 279,
+      "model": "factorized",
+      "target": "equal_work",
+      "before_nll": 6.043128276435492,
+      "after_nll": 5.914323701585753,
+      "delta_nll": -0.12880457484973906,
+      "worsened": false
+    },
+    {
+      "from_families": [
+        0
+      ],
+      "to_families": [
+        0,
+        2
+      ],
+      "added_family": 2,
+      "from_events": 159,
+      "to_events": 279,
+      "model": "previous_gate_context_k4",
+      "target": "580",
+      "before_nll": 4.405792986258195,
+      "after_nll": 3.6452086518052385,
+      "delta_nll": -0.7605843344529566,
+      "worsened": false
+    },
+    {
+      "from_families": [
+        0
+      ],
+      "to_families": [
+        0,
+        2
+      ],
+      "added_family": 2,
+      "from_events": 159,
+      "to_events": 279,
+      "model": "previous_gate_context_k4",
+      "target": "640",
+      "before_nll": 5.901890268766635,
+      "after_nll": 6.1909375707816885,
+      "delta_nll": 0.2890473020150539,
+      "worsened": true
+    },
+    {
+      "from_families": [
+        0
+      ],
+      "to_families": [
+        0,
+        2
+      ],
+      "added_family": 2,
+      "from_events": 159,
+      "to_events": 279,
+      "model": "previous_gate_context_k4",
+      "target": "equal_work",
+      "before_nll": 5.153841627512415,
+      "after_nll": 4.918073111293463,
+      "delta_nll": -0.23576851621895223,
+      "worsened": false
+    },
+    {
+      "from_families": [
+        1
+      ],
+      "to_families": [
+        0,
+        1
+      ],
+      "added_family": 0,
+      "from_events": 85,
+      "to_events": 244,
+      "model": "factorized",
+      "target": "580",
+      "before_nll": 6.878130931770939,
+      "after_nll": 4.6562785465915075,
+      "delta_nll": -2.2218523851794316,
+      "worsened": false
+    },
+    {
+      "from_families": [
+        1
+      ],
+      "to_families": [
+        0,
+        1
+      ],
+      "added_family": 0,
+      "from_events": 85,
+      "to_events": 244,
+      "model": "factorized",
+      "target": "640",
+      "before_nll": 9.69242356315688,
+      "after_nll": 7.121669433577291,
+      "delta_nll": -2.570754129579588,
+      "worsened": false
+    },
+    {
+      "from_families": [
+        1
+      ],
+      "to_families": [
+        0,
+        1
+      ],
+      "added_family": 0,
+      "from_events": 85,
+      "to_events": 244,
+      "model": "factorized",
+      "target": "equal_work",
+      "before_nll": 8.28527724746391,
+      "after_nll": 5.888973990084399,
+      "delta_nll": -2.39630325737951,
+      "worsened": false
+    },
+    {
+      "from_families": [
+        1
+      ],
+      "to_families": [
+        0,
+        1
+      ],
+      "added_family": 0,
+      "from_events": 85,
+      "to_events": 244,
+      "model": "previous_gate_context_k4",
+      "target": "580",
+      "before_nll": 6.1473305956503825,
+      "after_nll": 3.6241583472125827,
+      "delta_nll": -2.5231722484378,
+      "worsened": false
+    },
+    {
+      "from_families": [
+        1
+      ],
+      "to_families": [
+        0,
+        1
+      ],
+      "added_family": 0,
+      "from_events": 85,
+      "to_events": 244,
+      "model": "previous_gate_context_k4",
+      "target": "640",
+      "before_nll": 9.056538850040305,
+      "after_nll": 6.1403424809172,
+      "delta_nll": -2.9161963691231048,
+      "worsened": false
+    },
+    {
+      "from_families": [
+        1
+      ],
+      "to_families": [
+        0,
+        1
+      ],
+      "added_family": 0,
+      "from_events": 85,
+      "to_events": 244,
+      "model": "previous_gate_context_k4",
+      "target": "equal_work",
+      "before_nll": 7.6019347228453436,
+      "after_nll": 4.882250414064892,
+      "delta_nll": -2.719684308780452,
+      "worsened": false
+    },
+    {
+      "from_families": [
+        1
+      ],
+      "to_families": [
+        1,
+        2
+      ],
+      "added_family": 2,
+      "from_events": 85,
+      "to_events": 205,
+      "model": "factorized",
+      "target": "580",
+      "before_nll": 6.878130931770939,
+      "after_nll": 7.284507891265775,
+      "delta_nll": 0.40637695949483543,
+      "worsened": true
+    },
+    {
+      "from_families": [
+        1
+      ],
+      "to_families": [
+        1,
+        2
+      ],
+      "added_family": 2,
+      "from_events": 85,
+      "to_events": 205,
+      "model": "factorized",
+      "target": "640",
+      "before_nll": 9.69242356315688,
+      "after_nll": 10.710791453973842,
+      "delta_nll": 1.0183678908169629,
+      "worsened": true
+    },
+    {
+      "from_families": [
+        1
+      ],
+      "to_families": [
+        1,
+        2
+      ],
+      "added_family": 2,
+      "from_events": 85,
+      "to_events": 205,
+      "model": "factorized",
+      "target": "equal_work",
+      "before_nll": 8.28527724746391,
+      "after_nll": 8.997649672619808,
+      "delta_nll": 0.7123724251558983,
+      "worsened": true
+    },
+    {
+      "from_families": [
+        1
+      ],
+      "to_families": [
+        1,
+        2
+      ],
+      "added_family": 2,
+      "from_events": 85,
+      "to_events": 205,
+      "model": "previous_gate_context_k4",
+      "target": "580",
+      "before_nll": 6.1473305956503825,
+      "after_nll": 6.462629334003951,
+      "delta_nll": 0.3152987383535688,
+      "worsened": true
+    },
+    {
+      "from_families": [
+        1
+      ],
+      "to_families": [
+        1,
+        2
+      ],
+      "added_family": 2,
+      "from_events": 85,
+      "to_events": 205,
+      "model": "previous_gate_context_k4",
+      "target": "640",
+      "before_nll": 9.056538850040305,
+      "after_nll": 9.967326738722067,
+      "delta_nll": 0.910787888681762,
+      "worsened": true
+    },
+    {
+      "from_families": [
+        1
+      ],
+      "to_families": [
+        1,
+        2
+      ],
+      "added_family": 2,
+      "from_events": 85,
+      "to_events": 205,
+      "model": "previous_gate_context_k4",
+      "target": "equal_work",
+      "before_nll": 7.6019347228453436,
+      "after_nll": 8.214978036363009,
+      "delta_nll": 0.6130433135176654,
+      "worsened": true
+    },
+    {
+      "from_families": [
+        2
+      ],
+      "to_families": [
+        0,
+        2
+      ],
+      "added_family": 0,
+      "from_events": 120,
+      "to_events": 279,
+      "model": "factorized",
+      "target": "580",
+      "before_nll": 7.2426743461717304,
+      "after_nll": 4.611139417157207,
+      "delta_nll": -2.6315349290145233,
+      "worsened": false
+    },
+    {
+      "from_families": [
+        2
+      ],
+      "to_families": [
+        0,
+        2
+      ],
+      "added_family": 0,
+      "from_events": 120,
+      "to_events": 279,
+      "model": "factorized",
+      "target": "640",
+      "before_nll": 16.062477807740436,
+      "after_nll": 7.217507986014299,
+      "delta_nll": -8.844969821726137,
+      "worsened": false
+    },
+    {
+      "from_families": [
+        2
+      ],
+      "to_families": [
+        0,
+        2
+      ],
+      "added_family": 0,
+      "from_events": 120,
+      "to_events": 279,
+      "model": "factorized",
+      "target": "equal_work",
+      "before_nll": 11.652576076956084,
+      "after_nll": 5.914323701585753,
+      "delta_nll": -5.738252375370331,
+      "worsened": false
+    },
+    {
+      "from_families": [
+        2
+      ],
+      "to_families": [
+        0,
+        2
+      ],
+      "added_family": 0,
+      "from_events": 120,
+      "to_events": 279,
+      "model": "previous_gate_context_k4",
+      "target": "580",
+      "before_nll": 6.648255403526425,
+      "after_nll": 3.6452086518052385,
+      "delta_nll": -3.003046751721187,
+      "worsened": false
+    },
+    {
+      "from_families": [
+        2
+      ],
+      "to_families": [
+        0,
+        2
+      ],
+      "added_family": 0,
+      "from_events": 120,
+      "to_events": 279,
+      "model": "previous_gate_context_k4",
+      "target": "640",
+      "before_nll": 15.738323670477556,
+      "after_nll": 6.1909375707816885,
+      "delta_nll": -9.547386099695867,
+      "worsened": false
+    },
+    {
+      "from_families": [
+        2
+      ],
+      "to_families": [
+        0,
+        2
+      ],
+      "added_family": 0,
+      "from_events": 120,
+      "to_events": 279,
+      "model": "previous_gate_context_k4",
+      "target": "equal_work",
+      "before_nll": 11.193289537001991,
+      "after_nll": 4.918073111293463,
+      "delta_nll": -6.275216425708528,
+      "worsened": false
+    },
+    {
+      "from_families": [
+        2
+      ],
+      "to_families": [
+        1,
+        2
+      ],
+      "added_family": 1,
+      "from_events": 120,
+      "to_events": 205,
+      "model": "factorized",
+      "target": "580",
+      "before_nll": 7.2426743461717304,
+      "after_nll": 7.284507891265775,
+      "delta_nll": 0.04183354509404413,
+      "worsened": true
+    },
+    {
+      "from_families": [
+        2
+      ],
+      "to_families": [
+        1,
+        2
+      ],
+      "added_family": 1,
+      "from_events": 120,
+      "to_events": 205,
+      "model": "factorized",
+      "target": "640",
+      "before_nll": 16.062477807740436,
+      "after_nll": 10.710791453973842,
+      "delta_nll": -5.351686353766594,
+      "worsened": false
+    },
+    {
+      "from_families": [
+        2
+      ],
+      "to_families": [
+        1,
+        2
+      ],
+      "added_family": 1,
+      "from_events": 120,
+      "to_events": 205,
+      "model": "factorized",
+      "target": "equal_work",
+      "before_nll": 11.652576076956084,
+      "after_nll": 8.997649672619808,
+      "delta_nll": -2.654926404336276,
+      "worsened": false
+    },
+    {
+      "from_families": [
+        2
+      ],
+      "to_families": [
+        1,
+        2
+      ],
+      "added_family": 1,
+      "from_events": 120,
+      "to_events": 205,
+      "model": "previous_gate_context_k4",
+      "target": "580",
+      "before_nll": 6.648255403526425,
+      "after_nll": 6.462629334003951,
+      "delta_nll": -0.18562606952247407,
+      "worsened": false
+    },
+    {
+      "from_families": [
+        2
+      ],
+      "to_families": [
+        1,
+        2
+      ],
+      "added_family": 1,
+      "from_events": 120,
+      "to_events": 205,
+      "model": "previous_gate_context_k4",
+      "target": "640",
+      "before_nll": 15.738323670477556,
+      "after_nll": 9.967326738722067,
+      "delta_nll": -5.770996931755489,
+      "worsened": false
+    },
+    {
+      "from_families": [
+        2
+      ],
+      "to_families": [
+        1,
+        2
+      ],
+      "added_family": 1,
+      "from_events": 120,
+      "to_events": 205,
+      "model": "previous_gate_context_k4",
+      "target": "equal_work",
+      "before_nll": 11.193289537001991,
+      "after_nll": 8.214978036363009,
+      "delta_nll": -2.9783115006389824,
+      "worsened": false
+    },
+    {
+      "from_families": [
+        0,
+        1
+      ],
+      "to_families": [
+        0,
+        1,
+        2
+      ],
+      "added_family": 2,
+      "from_events": 244,
+      "to_events": 364,
+      "model": "factorized",
+      "target": "580",
+      "before_nll": 4.6562785465915075,
+      "after_nll": 4.613662230874974,
+      "delta_nll": -0.04261631571653357,
+      "worsened": false
+    },
+    {
+      "from_families": [
+        0,
+        1
+      ],
+      "to_families": [
+        0,
+        1,
+        2
+      ],
+      "added_family": 2,
+      "from_events": 244,
+      "to_events": 364,
+      "model": "factorized",
+      "target": "640",
+      "before_nll": 7.121669433577291,
+      "after_nll": 7.435282092473309,
+      "delta_nll": 0.31361265889601775,
+      "worsened": true
+    },
+    {
+      "from_families": [
+        0,
+        1
+      ],
+      "to_families": [
+        0,
+        1,
+        2
+      ],
+      "added_family": 2,
+      "from_events": 244,
+      "to_events": 364,
+      "model": "factorized",
+      "target": "equal_work",
+      "before_nll": 5.888973990084399,
+      "after_nll": 6.024472161674142,
+      "delta_nll": 0.13549817158974253,
+      "worsened": true
+    },
+    {
+      "from_families": [
+        0,
+        1
+      ],
+      "to_families": [
+        0,
+        1,
+        2
+      ],
+      "added_family": 2,
+      "from_events": 244,
+      "to_events": 364,
+      "model": "previous_gate_context_k4",
+      "target": "580",
+      "before_nll": 3.6241583472125827,
+      "after_nll": 3.638074463484661,
+      "delta_nll": 0.013916116272078227,
+      "worsened": true
+    },
+    {
+      "from_families": [
+        0,
+        1
+      ],
+      "to_families": [
+        0,
+        1,
+        2
+      ],
+      "added_family": 2,
+      "from_events": 244,
+      "to_events": 364,
+      "model": "previous_gate_context_k4",
+      "target": "640",
+      "before_nll": 6.1403424809172,
+      "after_nll": 6.351486687314344,
+      "delta_nll": 0.21114420639714382,
+      "worsened": true
+    },
+    {
+      "from_families": [
+        0,
+        1
+      ],
+      "to_families": [
+        0,
+        1,
+        2
+      ],
+      "added_family": 2,
+      "from_events": 244,
+      "to_events": 364,
+      "model": "previous_gate_context_k4",
+      "target": "equal_work",
+      "before_nll": 4.882250414064892,
+      "after_nll": 4.994780575399503,
+      "delta_nll": 0.11253016133461102,
+      "worsened": true
+    },
+    {
+      "from_families": [
+        0,
+        2
+      ],
+      "to_families": [
+        0,
+        1,
+        2
+      ],
+      "added_family": 1,
+      "from_events": 279,
+      "to_events": 364,
+      "model": "factorized",
+      "target": "580",
+      "before_nll": 4.611139417157207,
+      "after_nll": 4.613662230874974,
+      "delta_nll": 0.0025228137177668586,
+      "worsened": true
+    },
+    {
+      "from_families": [
+        0,
+        2
+      ],
+      "to_families": [
+        0,
+        1,
+        2
+      ],
+      "added_family": 1,
+      "from_events": 279,
+      "to_events": 364,
+      "model": "factorized",
+      "target": "640",
+      "before_nll": 7.217507986014299,
+      "after_nll": 7.435282092473309,
+      "delta_nll": 0.21777410645900996,
+      "worsened": true
+    },
+    {
+      "from_families": [
+        0,
+        2
+      ],
+      "to_families": [
+        0,
+        1,
+        2
+      ],
+      "added_family": 1,
+      "from_events": 279,
+      "to_events": 364,
+      "model": "factorized",
+      "target": "equal_work",
+      "before_nll": 5.914323701585753,
+      "after_nll": 6.024472161674142,
+      "delta_nll": 0.1101484600883893,
+      "worsened": true
+    },
+    {
+      "from_families": [
+        0,
+        2
+      ],
+      "to_families": [
+        0,
+        1,
+        2
+      ],
+      "added_family": 1,
+      "from_events": 279,
+      "to_events": 364,
+      "model": "previous_gate_context_k4",
+      "target": "580",
+      "before_nll": 3.6452086518052385,
+      "after_nll": 3.638074463484661,
+      "delta_nll": -0.00713418832057755,
+      "worsened": false
+    },
+    {
+      "from_families": [
+        0,
+        2
+      ],
+      "to_families": [
+        0,
+        1,
+        2
+      ],
+      "added_family": 1,
+      "from_events": 279,
+      "to_events": 364,
+      "model": "previous_gate_context_k4",
+      "target": "640",
+      "before_nll": 6.1909375707816885,
+      "after_nll": 6.351486687314344,
+      "delta_nll": 0.16054911653265513,
+      "worsened": true
+    },
+    {
+      "from_families": [
+        0,
+        2
+      ],
+      "to_families": [
+        0,
+        1,
+        2
+      ],
+      "added_family": 1,
+      "from_events": 279,
+      "to_events": 364,
+      "model": "previous_gate_context_k4",
+      "target": "equal_work",
+      "before_nll": 4.918073111293463,
+      "after_nll": 4.994780575399503,
+      "delta_nll": 0.07670746410603968,
+      "worsened": true
+    },
+    {
+      "from_families": [
+        1,
+        2
+      ],
+      "to_families": [
+        0,
+        1,
+        2
+      ],
+      "added_family": 0,
+      "from_events": 205,
+      "to_events": 364,
+      "model": "factorized",
+      "target": "580",
+      "before_nll": 7.284507891265775,
+      "after_nll": 4.613662230874974,
+      "delta_nll": -2.6708456603908006,
+      "worsened": false
+    },
+    {
+      "from_families": [
+        1,
+        2
+      ],
+      "to_families": [
+        0,
+        1,
+        2
+      ],
+      "added_family": 0,
+      "from_events": 205,
+      "to_events": 364,
+      "model": "factorized",
+      "target": "640",
+      "before_nll": 10.710791453973842,
+      "after_nll": 7.435282092473309,
+      "delta_nll": -3.275509361500533,
+      "worsened": false
+    },
+    {
+      "from_families": [
+        1,
+        2
+      ],
+      "to_families": [
+        0,
+        1,
+        2
+      ],
+      "added_family": 0,
+      "from_events": 205,
+      "to_events": 364,
+      "model": "factorized",
+      "target": "equal_work",
+      "before_nll": 8.997649672619808,
+      "after_nll": 6.024472161674142,
+      "delta_nll": -2.973177510945666,
+      "worsened": false
+    },
+    {
+      "from_families": [
+        1,
+        2
+      ],
+      "to_families": [
+        0,
+        1,
+        2
+      ],
+      "added_family": 0,
+      "from_events": 205,
+      "to_events": 364,
+      "model": "previous_gate_context_k4",
+      "target": "580",
+      "before_nll": 6.462629334003951,
+      "after_nll": 3.638074463484661,
+      "delta_nll": -2.8245548705192904,
+      "worsened": false
+    },
+    {
+      "from_families": [
+        1,
+        2
+      ],
+      "to_families": [
+        0,
+        1,
+        2
+      ],
+      "added_family": 0,
+      "from_events": 205,
+      "to_events": 364,
+      "model": "previous_gate_context_k4",
+      "target": "640",
+      "before_nll": 9.967326738722067,
+      "after_nll": 6.351486687314344,
+      "delta_nll": -3.615840051407723,
+      "worsened": false
+    },
+    {
+      "from_families": [
+        1,
+        2
+      ],
+      "to_families": [
+        0,
+        1,
+        2
+      ],
+      "added_family": 0,
+      "from_events": 205,
+      "to_events": 364,
+      "model": "previous_gate_context_k4",
+      "target": "equal_work",
+      "before_nll": 8.214978036363009,
+      "after_nll": 4.994780575399503,
+      "delta_nll": -3.2201974609635062,
+      "worsened": false
+    }
+  ],
+  "limitation": "Quantity and content change together; dependent subsets, two already-observed works; positive delta is timingNLL worsening, not musicalquality"
+}

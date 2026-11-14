@@ -1,0 +1,279 @@
+{
+  "plan": {
+    "created_at_utc": "2026-11-12T11:38:59.155211+00:00",
+    "scope": "Cycle20 synthetic sensitivity experiment only, no real-source admission/scoring",
+    "fixtures": [
+      {
+        "name": "identical_distinctive",
+        "known_transform_relation": "exact artificial identity"
+      },
+      {
+        "name": "transpose_plus5",
+        "known_transform_relation": "uniform pitch transposition"
+      },
+      {
+        "name": "tempo_metadata_only",
+        "known_transform_relation": "ticks identical; externaltempo doubles, not represented by these descriptors"
+      },
+      {
+        "name": "duration_scale2",
+        "known_transform_relation": "all onset deltas/gates doubled; distinct from metadata-only tempo change"
+      },
+      {
+        "name": "onset_jitter1tick",
+        "known_transform_relation": "one onset shifted1tick"
+      },
+      {
+        "name": "gate_jitter1tick",
+        "known_transform_relation": "one gate extended1tick"
+      },
+      {
+        "name": "insert_note",
+        "known_transform_relation": "one extra artificial note inserted"
+      },
+      {
+        "name": "delete_note",
+        "known_transform_relation": "one artificial note removed; candidatebelow8note support"
+      },
+      {
+        "name": "alter_one_pitch",
+        "known_transform_relation": "one pitch raised1semitone"
+      },
+      {
+        "name": "shift_origin",
+        "known_transform_relation": "global onset origin offset"
+      },
+      {
+        "name": "common_scale_different_rhythm",
+        "known_transform_relation": "same authored scale contour,different rhythm; no legal label"
+      },
+      {
+        "name": "common_repeat_different_rhythm",
+        "known_transform_relation": "same constant-pitch contour atdifferentpitch/rhythm; no legal label"
+      },
+      {
+        "name": "common_scale_scaled",
+        "known_transform_relation": "transposed/scaled common pattern; normalized matchingnotdistinctiveness"
+      },
+      {
+        "name": "seven_note_identity",
+        "known_transform_relation": "identical butbothbelow8note support"
+      },
+      {
+        "name": "match_embedded_longer",
+        "known_transform_relation": "exact8note core embedded withprefix/suffix"
+      }
+    ],
+    "metrics": [
+      "existing exact8pitchinterval set intersectioncount",
+      "existing wholeinterval normalized Levenshtein",
+      "exact8(intervals,7onsetdeltas,8gates)",
+      "samewindow withonsetdeltas/gates dividedbyfirstpositiveonsetdelta"
+    ],
+    "denominators": "Matches countdistinctwindow signatures, not occurrence counts. Shorterthan8 haszero eligiblewindows; edit metric maystillmatch.",
+    "predictions": [
+      "Exactinterval ignores transpose/rhythm/tempo; canmatch commoncontours.",
+      "Exactrhythm rejects a1tick edit anduniformtimescaling; normalization removesglobaltimescale butnotlocaljitter.",
+      "Insertion/deletion maybreak8window coverage; wholeintervaledit respondsgradually.",
+      "Tempo-metadataonly changes are invisible because these descriptors omit tempo."
+    ],
+    "no_threshold_selection": true,
+    "no_real_music_loaded": true,
+    "no_legal_groundtruth": true,
+    "truth": "Onlyexplicit synthetic transform relations areknown; not plagiarism, perceptualmeaning, uniqueness or musicalquality labels.",
+    "limitations": [
+      "Normalization addsinvariance butalso commonpatterncollisions.",
+      "No octaveequivalence, ornamentsensitivity, voice-disambiguation or humantest claimed.",
+      "Small handauthoredfixtures cannot calibrate falsepositive/negative rates onrealmusic."
+    ],
+    "code_sha256": {
+      "tools/probe_similarity_sensitivity.py": "108f02fb398fb5434f7f44da58731acf4eb7c369c880693aae10b78298e64188",
+      "tools/compare_onset_gate_models.py": "07a2bfaf79bc8e3b37c0982657056e34d8e6bd117ba03c5fa913bfaad17c4784"
+    }
+  },
+  "results": [
+    {
+      "name": "identical_distinctive",
+      "known_transform_relation": "exact artificial identity",
+      "measurements": {
+        "reference_notes": 8,
+        "candidate_notes": 8,
+        "exact8_interval_matches": 1,
+        "whole_interval_edit_similarity": 1.0,
+        "exact8_interval_onset_gate_matches": 1,
+        "scale_normalized8_interval_onset_gate_matches": 1
+      }
+    },
+    {
+      "name": "transpose_plus5",
+      "known_transform_relation": "uniform pitch transposition",
+      "measurements": {
+        "reference_notes": 8,
+        "candidate_notes": 8,
+        "exact8_interval_matches": 1,
+        "whole_interval_edit_similarity": 1.0,
+        "exact8_interval_onset_gate_matches": 1,
+        "scale_normalized8_interval_onset_gate_matches": 1
+      }
+    },
+    {
+      "name": "tempo_metadata_only",
+      "known_transform_relation": "ticks identical; externaltempo doubles, not represented by these descriptors",
+      "measurements": {
+        "reference_notes": 8,
+        "candidate_notes": 8,
+        "exact8_interval_matches": 1,
+        "whole_interval_edit_similarity": 1.0,
+        "exact8_interval_onset_gate_matches": 1,
+        "scale_normalized8_interval_onset_gate_matches": 1
+      }
+    },
+    {
+      "name": "duration_scale2",
+      "known_transform_relation": "all onset deltas/gates doubled; distinct from metadata-only tempo change",
+      "measurements": {
+        "reference_notes": 8,
+        "candidate_notes": 8,
+        "exact8_interval_matches": 1,
+        "whole_interval_edit_similarity": 1.0,
+        "exact8_interval_onset_gate_matches": 0,
+        "scale_normalized8_interval_onset_gate_matches": 1
+      }
+    },
+    {
+      "name": "onset_jitter1tick",
+      "known_transform_relation": "one onset shifted1tick",
+      "measurements": {
+        "reference_notes": 8,
+        "candidate_notes": 8,
+        "exact8_interval_matches": 1,
+        "whole_interval_edit_similarity": 1.0,
+        "exact8_interval_onset_gate_matches": 0,
+        "scale_normalized8_interval_onset_gate_matches": 0
+      }
+    },
+    {
+      "name": "gate_jitter1tick",
+      "known_transform_relation": "one gate extended1tick",
+      "measurements": {
+        "reference_notes": 8,
+        "candidate_notes": 8,
+        "exact8_interval_matches": 1,
+        "whole_interval_edit_similarity": 1.0,
+        "exact8_interval_onset_gate_matches": 0,
+        "scale_normalized8_interval_onset_gate_matches": 0
+      }
+    },
+    {
+      "name": "insert_note",
+      "known_transform_relation": "one extra artificial note inserted",
+      "measurements": {
+        "reference_notes": 8,
+        "candidate_notes": 9,
+        "exact8_interval_matches": 0,
+        "whole_interval_edit_similarity": 0.75,
+        "exact8_interval_onset_gate_matches": 0,
+        "scale_normalized8_interval_onset_gate_matches": 0
+      }
+    },
+    {
+      "name": "delete_note",
+      "known_transform_relation": "one artificial note removed; candidatebelow8note support",
+      "measurements": {
+        "reference_notes": 8,
+        "candidate_notes": 7,
+        "exact8_interval_matches": 0,
+        "whole_interval_edit_similarity": 0.7142857142857143,
+        "exact8_interval_onset_gate_matches": 0,
+        "scale_normalized8_interval_onset_gate_matches": 0
+      }
+    },
+    {
+      "name": "alter_one_pitch",
+      "known_transform_relation": "one pitch raised1semitone",
+      "measurements": {
+        "reference_notes": 8,
+        "candidate_notes": 8,
+        "exact8_interval_matches": 0,
+        "whole_interval_edit_similarity": 0.7142857142857143,
+        "exact8_interval_onset_gate_matches": 0,
+        "scale_normalized8_interval_onset_gate_matches": 0
+      }
+    },
+    {
+      "name": "shift_origin",
+      "known_transform_relation": "global onset origin offset",
+      "measurements": {
+        "reference_notes": 8,
+        "candidate_notes": 8,
+        "exact8_interval_matches": 1,
+        "whole_interval_edit_similarity": 1.0,
+        "exact8_interval_onset_gate_matches": 1,
+        "scale_normalized8_interval_onset_gate_matches": 1
+      }
+    },
+    {
+      "name": "common_scale_different_rhythm",
+      "known_transform_relation": "same authored scale contour,different rhythm; no legal label",
+      "measurements": {
+        "reference_notes": 8,
+        "candidate_notes": 8,
+        "exact8_interval_matches": 1,
+        "whole_interval_edit_similarity": 1.0,
+        "exact8_interval_onset_gate_matches": 0,
+        "scale_normalized8_interval_onset_gate_matches": 0
+      }
+    },
+    {
+      "name": "common_repeat_different_rhythm",
+      "known_transform_relation": "same constant-pitch contour atdifferentpitch/rhythm; no legal label",
+      "measurements": {
+        "reference_notes": 8,
+        "candidate_notes": 8,
+        "exact8_interval_matches": 1,
+        "whole_interval_edit_similarity": 1.0,
+        "exact8_interval_onset_gate_matches": 0,
+        "scale_normalized8_interval_onset_gate_matches": 0
+      }
+    },
+    {
+      "name": "common_scale_scaled",
+      "known_transform_relation": "transposed/scaled common pattern; normalized matchingnotdistinctiveness",
+      "measurements": {
+        "reference_notes": 8,
+        "candidate_notes": 8,
+        "exact8_interval_matches": 1,
+        "whole_interval_edit_similarity": 1.0,
+        "exact8_interval_onset_gate_matches": 0,
+        "scale_normalized8_interval_onset_gate_matches": 1
+      }
+    },
+    {
+      "name": "seven_note_identity",
+      "known_transform_relation": "identical butbothbelow8note support",
+      "measurements": {
+        "reference_notes": 7,
+        "candidate_notes": 7,
+        "exact8_interval_matches": 0,
+        "whole_interval_edit_similarity": 1.0,
+        "exact8_interval_onset_gate_matches": 0,
+        "scale_normalized8_interval_onset_gate_matches": 0
+      }
+    },
+    {
+      "name": "match_embedded_longer",
+      "known_transform_relation": "exact8note core embedded withprefix/suffix",
+      "measurements": {
+        "reference_notes": 8,
+        "candidate_notes": 10,
+        "exact8_interval_matches": 1,
+        "whole_interval_edit_similarity": 0.7777777777777778,
+        "exact8_interval_onset_gate_matches": 1,
+        "scale_normalized8_interval_onset_gate_matches": 1
+      }
+    }
+  ],
+  "source_music_used": false,
+  "thresholds_selected": false,
+  "conclusion_scope": "Sensitivity observations only; no new acceptance policy and no application toTelemann orotherrealworks."
+}

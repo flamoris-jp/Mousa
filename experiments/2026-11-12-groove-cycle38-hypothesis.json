@@ -1,0 +1,19 @@
+{
+  "created_at_utc": "2026-11-12T15:38:18.649614+00:00",
+  "status": "Hypothesis only, no implementation or execution in Cycle38.",
+  "evidence": "experiments/2026-11-12-groove-cycle38-results.json",
+  "evidence_sha256": "8adc4b69dc067305c17bd4e5f602bead1d4e7c8f4ddce442164d073ac252ea15",
+  "question": "Are within-performer cohort reversals associated with different mixtures of already-seen/newly-seen/still-unseen exact IOIs and factorized components?",
+  "possible_followup": "Freeze read-only same12/35-count reconstruction on the same observed16, exact historical192 recording-condition parity, then compare each novelty stratum within drummer and cohort. No new parameters, sources or model selection.",
+  "limits": [
+    "An association is not causal mediation; duration, session/style/instrument composition remain confounded.",
+    "Same16 remain observed, never reset to fresh.",
+    "No new training-material selection or model change follows from these results without a separate authorized plan."
+  ],
+  "current_state": {
+    "training_recordings": 35,
+    "observed_recordings": 16,
+    "unscored_recordings": 1099,
+    "role_changes": false
+  }
+}

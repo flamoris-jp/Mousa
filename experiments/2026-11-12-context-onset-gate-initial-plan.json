@@ -1,0 +1,68 @@
+{
+  "created_at_utc": "2026-11-12T10:47:26.114279+00:00",
+  "scope": "Cycle13 exploratory reanalysis of observed580, not fresh evaluation",
+  "train_ids": [
+    "mutopia-376",
+    "mutopia-888",
+    "mutopia-889",
+    "mutopia-789"
+  ],
+  "diagnostic_id": 580,
+  "reserved_never_loaded": [
+    583
+  ],
+  "timing": "previous-gate context counts for nextdelta, per-work reset; w=n/(n+4), raw counts w*local+(1-w)*global then uniform prior1",
+  "gate": "unchanged global marginal with uniform prior1",
+  "support": "delta0..12288,gate1..12288,PPQ384",
+  "pitch": "control uniform same training vocabulary; continuity train unigram first, then train interval counts with total uniform prior1 renormalized on vocabulary",
+  "factorial": [
+    "timing0_pitch0",
+    "timing0_pitch1",
+    "timing1_pitch0",
+    "timing1_pitch1"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "target_ticks": 9216,
+  "max_polyphony": 3,
+  "max_notes": 256,
+  "max_attempts": 64,
+  "source_screen": "exact8interval match or wholeinterval similarity>=0.80 blocks; conservative actualcycle12 threshold, not its original0.90 plan",
+  "output_copy_guard": "training sources plus observed580; no retry aftercopy rejection",
+  "metrics": [
+    "overlap_onset_fraction",
+    "mean/max_active_voices",
+    "mean_abs_pitch_interval",
+    "above_octave_fraction",
+    "distinct_pitches",
+    "repeated_pitch_fraction",
+    "notes",
+    "rest_ticks/fraction",
+    "statuses",
+    "rejections",
+    "580timingNLL"
+  ],
+  "aggregation": "means over complete accepted outputs only WITH denominators; partial output metrics separately retained",
+  "interpretation": "pitch order is generated event order, not recovered voices; no attractiveness or generalization claim",
+  "baseline": "new factorial baseline uses rng.choices uniform pitch; not same seed sequences as cycle12 rng.choice",
+  "resource": "bounded CPU only; no selection or tuning after results",
+  "code_sha256": {
+    "src/mousa/context_onset_gate.py": "32ff6404caf451e18649c85462f32c1bcca8389b434a23d9c4ec1d6d09f8af0c",
+    "src/mousa/onset_gate_model.py": "6cfafbcb5f7cdcb9d3279b460b66bdf88b1f4a3f918312639cdb69cc0a89c92d",
+    "src/mousa/overlap_midi.py": "1afc11bf6b6985a2eb22ebe5302b707d39378291e27b6299fde82564c167c867",
+    "tools/compare_context_onset_gate.py": "9311c4e8af62e494028b65b8b5303be5301f234f79965a57baf9ab68ac67aa25",
+    "tools/compare_onset_gate_models.py": "07a2bfaf79bc8e3b37c0982657056e34d8e6bd117ba03c5fa913bfaad17c4784",
+    "datasets/research-exploratory-multifamily-20261112.json": "bfcb2777ca6af1fbf41e957809a0fd35c6291e9bb3ae14182fd7ba1c9a86f6d7",
+    "datasets/research-brahms580-rights-20261112.json": "dd25cb5023eb13a634d981fe0fd8bc3c5c02f302c1b8fe4404157e74ec4dd994"
+  }
+}

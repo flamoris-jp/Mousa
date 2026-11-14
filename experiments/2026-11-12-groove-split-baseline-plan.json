@@ -1,0 +1,56 @@
+{
+  "created_at_utc": "2026-11-12T14:04:50.669712+00:00",
+  "stage": "preparation only; no real model fitting before parent review",
+  "inventory_sha256": "1c65bbb16b2c36bfd3c2f44a906bfe9efc5e8f5113677629f8b31ee010598a79",
+  "archive_sha256": "651cbc524ffb891be1a3e46d89dc82a1cecb09a57c748c7b45b844c4841dcc1e",
+  "split": {
+    "train": [
+      "drummer1",
+      "drummer2",
+      "drummer3",
+      "drummer4",
+      "drummer5",
+      "drummer6"
+    ],
+    "validation": [
+      "drummer7",
+      "drummer8"
+    ],
+    "test": [
+      "drummer9",
+      "drummer10"
+    ],
+    "reserved": "All eval_session recordings, including known 40 recordings of ten shared patterns; never fit or score",
+    "grouping": "drummer includes all sessions; exact-byte duplicate crossing proposed groups blocks preparation rather than silently moves records"
+  },
+  "selection": {
+    "order": "SHA256 then id within each drummer, non-eval only",
+    "maximum_complete_performances_per_drummer": 2,
+    "max_events_per_performance": 4096,
+    "max_total_events": 30000,
+    "rule": "Whole performance only. No truncation; report ineligible records. Fixed candidate selection before near-pattern flags; no replacement after flagged exclusion."
+  },
+  "screen": {
+    "all_inventory": "Exact bytes and exact ordered (onset tick, drum instrument key) signature; signature excludes velocity/controllers and is not full performance identity",
+    "approximate": "For selected candidates versus all non-eval records in different drummer splits: set Jaccard of consecutive eight-event (instrument key, nearest 120-tick IOI bucket) shingles; first IOI measured from zero. Ties round half upward. This lossy representation is comparison-only, never training input.",
+    "flag_rule": "Jaccard >= 0.80 marks unresolved candidate; any exact onset/key signature match marks unresolved. Flagged selected recordings cannot enter fit without subsequent explicit review.",
+    "max_comparisons": 25000,
+    "max_positive_onsets_all_inventory": 500000,
+    "limitations": "Not exhaustive musical or legal duplication detection. Eight-event windows can match common grooves; jitter or long variation may evade whole-record Jaccard. No threshold tuning or independent-pattern guarantee."
+  },
+  "proposed_baseline": {
+    "not_run": true,
+    "target": "Exact integer inter-onset ticks, fixed PPQ480; chronological positive-velocity channel9 note-ons; same-tick source order retained",
+    "support": "0..30720 ticks inclusive; entire selected recording fails support if any target outside, no clipping or quantization",
+    "control": "Empirical IOI unigram plus total prior mass1 uniform over support",
+    "comparison": "Previous drum instrument-key conditional IOI with fixed count shrinkage k4 toward same unigram, reset at every performance; first event uses unigram",
+    "evaluation": "Validation and test split descriptive predictive NLL and support coverage with per-performance and pooled denominators; no fresh generalization guarantee or musical quality inference",
+    "generation": "Not part of this first baseline; no melodic pitch model, no synthesized audio"
+  },
+  "resources": {
+    "prepare_cpu_seconds": 90,
+    "fit_cpu_seconds_proposed": 60,
+    "no_gpu": true
+  },
+  "preservation": "Original MIDI bytes, PPQ480, expressive timing, velocities, controls remain unchanged; event projection is timing analysis only, not lossless MIDI editing."
+}

@@ -1,0 +1,23 @@
+{
+  "derived_satie_unadmitted": true,
+  "derived_supplemental_comparisons": 1,
+  "first_prediction_attempt_utc": "2026-11-12T18:57:53.938457+00:00",
+  "fit": false,
+  "groove_roles_unchanged": true,
+  "human_ratings": "A-D unanswered",
+  "not_28_original_clearance": true,
+  "old_reserve_ledger": "datasets/research-dvorak1948-status-cycle47-20261112.json",
+  "original_comparisons": 27,
+  "original_satie_technical_blocked": true,
+  "plan_sha256": "4435659dc54822dca3259797994a6a1712440413443bf2ab253b95d7606af833",
+  "prior_status_sha256": "5cccbaaaadb8f932d4b8c077f8a31d8d736b083c9cbad7bb744bf6d76e4c7d9b",
+  "role": "observed-untrained; first-piece violin timing diagnostics attempted; all sibling forms and related Op75a linked",
+  "schema": "mousa-dvorak-cycle48-observation-v1",
+  "score": true,
+  "source_originals_unchanged": true,
+  "source_sha256": "528aba0589429a468f9d51b5d4a4a1ca8018c91edb7fee1ad736964fd8ab583a",
+  "training_admitted": false,
+  "training_groups": 4190,
+  "training_notes": 5512,
+  "training_works": 18
+}

@@ -1,0 +1,66 @@
+{
+  "created_at_utc": "2026-11-12T12:19:14.914274+00:00",
+  "scope": "New random draw robustness; not independent work or musical-data generalization",
+  "seeds": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109
+  ],
+  "historical_seed_audit": {
+    "json_files": 93,
+    "conflicts": {},
+    "scope": "Stored seed/seeds fields in repository experiments; does not claim no software test used same RNG number"
+  },
+  "conditions": [
+    "timing0_pitch0",
+    "timing0_pitch1",
+    "timing1_pitch0",
+    "timing1_pitch1"
+  ],
+  "generation": "Frozen cycle24 adapter/models; mix1/4,feasible,tail384,target9216,max256notes; no retry or selection",
+  "budget": "Maximum40 candidates, process CPU60seconds checked before each bounded candidate; skipped status retained",
+  "metrics": [
+    "repeated_pitch_fraction",
+    "notes",
+    "distinct_pitches",
+    "overlap_onset_fraction"
+  ],
+  "interaction": "both - timing_only - pitch_only + neither, same complete-all-four seed subset and per-metric denominators",
+  "old_batch": "Previous5seeds0..4 retained as observed comparison, never pooled as independent works",
+  "statuses": "All failures, copy blocks and CPU skips reported; no winner selection",
+  "copy_guard": "All5train and observed640/921, exact8interval on generated/canonical ordering;580 excluded from evaluation, no new prediction scores",
+  "caveats": [
+    "Paired seed labels do not align random draws after sampler branching.",
+    "One frozen training set; seed repeats are not independent compositions or human judgments.",
+    "Complete-only descriptors and intersection contrasts are conditional on success."
+  ],
+  "frozen_hashes": {
+    "tools/compare_cornelius_augmentation.py": "cbca22666e8ae6a3125174fcee64c013a83263a2cf3f684d33d3e0dbc56c9981",
+    "src/mousa/context_onset_gate.py": "32ff6404caf451e18649c85462f32c1bcca8389b434a23d9c4ec1d6d09f8af0c",
+    "src/mousa/onset_gate_model.py": "6cfafbcb5f7cdcb9d3279b460b66bdf88b1f4a3f918312639cdb69cc0a89c92d",
+    "src/mousa/optimized_feasible_generation.py": "fb1a5298b344c375e49f0abf6bdd39b400178a0b869624cce3c6ceb94f4ea121",
+    "src/mousa/feasible_context_generation.py": "57ff1dabc40a05af14f585701a9852dc6e699ba508cdadd00b8754ff1b24d783",
+    "tools/compare_context_onset_gate.py": "a4838f8c1e38b591e9366269ecabaabcc0a66bffab1031b68beddc942980f78a",
+    "tools/compare_onset_gate_models.py": "07a2bfaf79bc8e3b37c0982657056e34d8e6bd117ba03c5fa913bfaad17c4784",
+    "datasets/research-exploratory-multifamily-20261112.json": "bfcb2777ca6af1fbf41e957809a0fd35c6291e9bb3ae14182fd7ba1c9a86f6d7",
+    "datasets/research-cornelius583-training-assignment.json": "9ef48d43a1aa6670a0c1ae0824b03fcf0c894f6d299679cb820c0ff27e283d09",
+    "datasets/research-cornelius583-reserved-20261112.json": "dfa52be1c8c70cb967b468d2c970b0b4a53b4bba8ca6fd97c029bf16ce2e8bf7",
+    "src/mousa/overlap_midi.py": "1afc11bf6b6985a2eb22ebe5302b707d39378291e27b6299fde82564c167c867",
+    "src/mousa/separated_count_context.py": "0e25580927402b8759d448152343a307a4caba39e02247c839e204008f0eee14",
+    "tools/compare_separated_augmentation.py": "47392ef8c6e7362e95a0f13484246b9430a42ff3a1ad3c9b5c806961c2b4aed3",
+    "tests/test_separated_count_context.py": "b2948f9719a2ff744789e11d3c2cc44821389b01e221766f72c25227c651c5b0",
+    "experiments/2026-11-12-cornelius-augmentation-results.json": "d659471754d343d331f53fa739da243bfd5275a02e62903f35850c41e8ea2446"
+  },
+  "prior_report_sha256": "7c6728e1b305e1d45becc092a0b0ca1631cbac0eb575f92859d3258058a008fe",
+  "new_code_sha256": {
+    "tools/compare_new_seed_robustness.py": "6f9a0bd99e39f7b4747e9fd5df6b94008d52a7ce7787dffb09b7d139b4455c8d",
+    "tests/test_new_seed_robustness.py": "6cc742cc9ba2ca6c1d4278bdbc0e59290fabd2056b99751a24e8e232aa3d415b"
+  }
+}

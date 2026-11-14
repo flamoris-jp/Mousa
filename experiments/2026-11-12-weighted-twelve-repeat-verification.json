@@ -1,0 +1,156 @@
+{
+  "normalized_repeat_equal": true,
+  "excluded_field": "cpu_seconds",
+  "initial_report_sha256": "93b7912ae1eaf6bf01067ea8f236dce6a6d02d48c9f267498ebde20c92df4f8f",
+  "repeat_report_sha256": "4507067d2c338987162d243ed7e4ff202ef5772e6ca427b3aa5afb73c90847c4",
+  "raw_context_exact_probability_parity_events": 190,
+  "raw_max_nll_float_difference": 1.7763568394002505e-15,
+  "raw_seed_parity_claimed": false,
+  "raw_rng": "new exact integer pitch RNG; historical raw note outputs not controls",
+  "weighted_note_mass_each": 3263,
+  "shared_vocabulary_size": 36,
+  "copy_reference_count": 14,
+  "safety": [
+    {
+      "condition": "raw",
+      "seed": 0,
+      "notes": 53,
+      "max_polyphony": 3,
+      "tail_ticks": 224,
+      "copy_matches_recomputed": 0,
+      "private_notes_sha256": "e15abf85fe1ef601816f1b83cf822c6fa3e8ea84b87194f5ac94bae120cd74f5"
+    },
+    {
+      "condition": "raw",
+      "seed": 1,
+      "notes": 47,
+      "max_polyphony": 3,
+      "tail_ticks": 96,
+      "copy_matches_recomputed": 0,
+      "private_notes_sha256": "978666e3d0c01031e2d1c52148b71a9d1a4d4565ebb2df87b7b229569cb9006b"
+    },
+    {
+      "condition": "raw",
+      "seed": 2,
+      "notes": 44,
+      "max_polyphony": 3,
+      "tail_ticks": 96,
+      "copy_matches_recomputed": 0,
+      "private_notes_sha256": "0533740480261fab58fe3a5f50bd0e904a001acee8921ee72a3d6de37d2fa83e"
+    },
+    {
+      "condition": "raw",
+      "seed": 3,
+      "notes": 45,
+      "max_polyphony": 3,
+      "tail_ticks": 384,
+      "copy_matches_recomputed": 0,
+      "private_notes_sha256": "4c08bd8be0a70d8bb276c35909d8bf009e2bf774aa77482dc3fc6adbefa2590a"
+    },
+    {
+      "condition": "raw",
+      "seed": 4,
+      "notes": 61,
+      "max_polyphony": 3,
+      "tail_ticks": 192,
+      "copy_matches_recomputed": 0,
+      "private_notes_sha256": "e9c2c4eff98c92fd53a4285b4a46fc21f6f89e70800b5653d42b5b5ea12ea211"
+    },
+    {
+      "condition": "equal_work",
+      "seed": 0,
+      "notes": 32,
+      "max_polyphony": 2,
+      "tail_ticks": 384,
+      "copy_matches_recomputed": 0,
+      "private_notes_sha256": "2910320733a46e86cd9c5bca1042157ee94dfcb2c11022b6b518ff9e5827ac8d"
+    },
+    {
+      "condition": "equal_work",
+      "seed": 1,
+      "notes": 36,
+      "max_polyphony": 3,
+      "tail_ticks": 384,
+      "copy_matches_recomputed": 0,
+      "private_notes_sha256": "1faed94babeebeede36b36b985381150363616cf6898686dd5ed847f17d1ff01"
+    },
+    {
+      "condition": "equal_work",
+      "seed": 2,
+      "notes": 36,
+      "max_polyphony": 2,
+      "tail_ticks": 192,
+      "copy_matches_recomputed": 0,
+      "private_notes_sha256": "1dc248bcceca41b29ac0b063a4632dd795b472b364bc80cdb7b988417324bb49"
+    },
+    {
+      "condition": "equal_work",
+      "seed": 3,
+      "notes": 39,
+      "max_polyphony": 3,
+      "tail_ticks": 384,
+      "copy_matches_recomputed": 0,
+      "private_notes_sha256": "09f8b6d6a958c3ac65f0f73be6fde37e44bacb0ef82a35d4f46cbaf6b62f2a3d"
+    },
+    {
+      "condition": "equal_work",
+      "seed": 4,
+      "notes": 29,
+      "max_polyphony": 2,
+      "tail_ticks": 192,
+      "copy_matches_recomputed": 0,
+      "private_notes_sha256": "5580fc1020e2b81bb66423ea5d2855e3ffbf03b969e6cdd7ff866bdb85dde71a"
+    },
+    {
+      "condition": "equal_declared_family",
+      "seed": 0,
+      "notes": 33,
+      "max_polyphony": 2,
+      "tail_ticks": 288,
+      "copy_matches_recomputed": 0,
+      "private_notes_sha256": "4255e52438a09012b62cb28ca472a0eec7d661584a38919fc3b4ce0ba89880f5"
+    },
+    {
+      "condition": "equal_declared_family",
+      "seed": 1,
+      "notes": 25,
+      "max_polyphony": 2,
+      "tail_ticks": 288,
+      "copy_matches_recomputed": 0,
+      "private_notes_sha256": "061568a9754cb7365281dff14a95f8dd7fce6f13c2089df35859e928f3343fb4"
+    },
+    {
+      "condition": "equal_declared_family",
+      "seed": 2,
+      "notes": 34,
+      "max_polyphony": 2,
+      "tail_ticks": 384,
+      "copy_matches_recomputed": 0,
+      "private_notes_sha256": "87eb9b94b0366a905be93a989bd96673e54c938146fff19cc37ebdbf5e3b5021"
+    },
+    {
+      "condition": "equal_declared_family",
+      "seed": 3,
+      "notes": 31,
+      "max_polyphony": 3,
+      "tail_ticks": 384,
+      "copy_matches_recomputed": 0,
+      "private_notes_sha256": "25a5db644ff0d00c911597558ca74cc68e1b56b27801584b12b81bdc423fcfcf"
+    },
+    {
+      "condition": "equal_declared_family",
+      "seed": 4,
+      "notes": 35,
+      "max_polyphony": 2,
+      "tail_ticks": 288,
+      "copy_matches_recomputed": 0,
+      "private_notes_sha256": "6f7ad024dee4bd9abda077d9731f02e0df1243b1b5d3170cab3241b9df15341e"
+    }
+  ],
+  "originals_unchanged": true,
+  "cpu_seconds": {
+    "initial": 1.9153591349999999,
+    "repeat": 2.209285885
+  },
+  "limits": "Observed diagnostic likelihood only. Same5seeds not independent works; exactcopy0 notoriginality. Weighted transition mass differs despite fixed note mass. No listening or preference results."
+}

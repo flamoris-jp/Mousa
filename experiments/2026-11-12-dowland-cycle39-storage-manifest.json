@@ -1,0 +1,44 @@
+{
+  "role": "rights-reviewed-reserve-not-fit-not-scored",
+  "acquisition_date": "2026-11-12",
+  "ledger_sha256": "d94821f58691073208a6277317eed101c7e7bea712fdc8890d3876549b57a413",
+  "source_urls_preserved_in_ledger": true,
+  "excluded": "historical scanned PDF, rendered images, other candidate originals, generated MIDI, audio and private filesystem paths",
+  "files": [
+    {
+      "filename": "originals/21.mid",
+      "sha256": "62f8a9594609932fa9c9c56f0b69d55bc0a31852ffa8012842a23a566a643e93",
+      "bytes": 6233
+    },
+    {
+      "filename": "originals/21.ly",
+      "sha256": "28e775c1447b7da1e2f1734075c8de2e6eaf1811c1f066fd78c12e2f0cecb02e",
+      "bytes": 7778
+    },
+    {
+      "filename": "originals/1691.mid",
+      "sha256": "4cc353989108ac40a7b74a40b170d331f783d7c6e4dfc9ed12f1e33e4dee59a8",
+      "bytes": 3637
+    },
+    {
+      "filename": "originals/1691.ly",
+      "sha256": "0586cdf33dd550afe7b0a6d506a6e23bbb689906319714d8cb2b25b3b461d49f",
+      "bytes": 7696
+    },
+    {
+      "filename": "metadata/research-dowland-reserved-cycle39-20261112.json",
+      "sha256": "d94821f58691073208a6277317eed101c7e7bea712fdc8890d3876549b57a413",
+      "bytes": 21368
+    },
+    {
+      "filename": "metadata/2026-11-12-dowland-cycle39-screen-plan.json",
+      "sha256": "129ca947fca77becb5f36ec86388b80d55e8bd112930bcc450d63e7ec690810f",
+      "bytes": 2857
+    },
+    {
+      "filename": "metadata/2026-11-12-dowland-cycle39-screen.json",
+      "sha256": "aa649062e55ed8cbf36c577b78b8664d8ef17b43403e5ff0dbbf2e815b0161d4",
+      "bytes": 7700
+    }
+  ]
+}

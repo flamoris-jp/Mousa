@@ -1,0 +1,26 @@
+{
+  "reviewed_utc": "2026-11-12T16:42:04.268652+00:00",
+  "candidate": "mutopia-2167",
+  "status": "pending-unchanged-not-admitted",
+  "previous_ledger": "datasets/research-pending-sources-cycle41-20261112.json",
+  "previous_ledger_sha256": "0755747c57685daa0c5d9a0761ab4a80a4af2af687f77ad0b6f967957be94d01",
+  "alternative_paths": [
+    {
+      "url": "https://imslp.org/images/f/f6/PMLP13993-Gounod-CG89_btv1b54000086f.pdf",
+      "basis": "Exact linked file from IMSLP749543, catalogued mirror of cited Gallica btv1b54000086f Heugel H2274",
+      "result": "Received1410-byte gzip HTML bot-check, not PDF. Decompressed and inspected; human CAPTCHA offered. Did not start/solve/bypass challenge. No score received.",
+      "response_sha256": "f3e200808fff616a60414bf88c4052cb9d98d58e24d9f49759910867f7b0cc75"
+    },
+    {
+      "url": "https://bdh.bne.es/bnesearch/detalle/bdh0000162076",
+      "basis": "Different public institution copy linked from IMSLP258488, same1856HeugelH2274 catalogue entry",
+      "result": "HTTP403; no original received."
+    }
+  ],
+  "conclusion": "Acquisition failure is not evidence of forbidden rights. Exact original incipit remains unverified; derivative Bach unknown edition and modern fingering questions remain separate. Stop bounded pass rather than loosen admission.",
+  "fit": false,
+  "score": false,
+  "screen": "not run; rights prerequisites unresolved",
+  "raw_score_received": false,
+  "owner_action": "No action required now; a separately authorized browser CAPTCHA or publicly accessible institution scan could enable future verification."
+}

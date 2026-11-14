@@ -1,0 +1,12 @@
+{
+  "reviewer": null,
+  "review_date": null,
+  "observations": null,
+  "comments": null,
+  "additional_evidence_requested": null,
+  "admission_decision": null,
+  "rights_decision": null,
+  "predictive_contamination_assessment": null,
+  "status": "unreviewed-null-is-not-approval",
+  "automatic_training_authorized": false
+}

@@ -1,0 +1,169 @@
+[
+  {
+    "id": 1578,
+    "title": "Trost in Thr\u00e4nen",
+    "opus": "D.120",
+    "composer": "Franz Schubert (1797-1828)",
+    "composition_year": 1814,
+    "lyricist_as_credited": "Johann Wolfgang von Goethe",
+    "typesetter": "Ph. Raynaud",
+    "source_edition": "Breitkopf & H\u00e4rtel (1884-1897)",
+    "composition_rights": {
+      "status": "public-domain-supported",
+      "basis": "Named composer died1828; composition1814/1822; dated19th-century source edition declared in exact source and download page."
+    },
+    "arrangement_rights": {
+      "status": "no-separate-modern-arrangement-identified",
+      "basis": "Original voice-and-piano instrumentation; source and download page name no arranger. Entire source inspected for arrangement/transcription declaration; none found. This is not a separate modern arrangement license inference."
+    },
+    "encoding_rights": {
+      "status": "public-domain-dedication-supported",
+      "basis": "Exact work page labels Public Domain and directly links this MIDI and LilyPond. LilyPond copyright=Public Domain plus explicit typesetter public-domain dedication. MIDI creator identifies matching LilyPond version; track1 chant matches source MIDI staff. Mutopia legal page explains contributor dedication applies to contribution.",
+      "license_label": "Public Domain (legacy dedication, not CC0)",
+      "terms_url": "https://www.mutopiaproject.org/legal.html#publicdomain",
+      "dedication_url": "http://creativecommons.org/licenses/publicdomain/",
+      "conditions": "No attribution/sharealike condition stated for PD contribution; preserve provenance credit. No warranty of accuracy or rights from publisher."
+    },
+    "review_decision": "sufficient evidence for user-authorized local read-only selected-melody research; not legal guarantee",
+    "technical_status": "Exact tick read and rational note/velocity/EOT roundtrip verified; no quantized corpus.1585/1587 not model-scored;1578 previously observed transfer result, representation control only.",
+    "scope": "Preserve original bytes; no external redistribution; selected track1 chant only; lyrics not needed.",
+    "cohort": "Schubert-Breitkopf1884_1897-PhRaynaud; all heldout as one correlated source family, not four independent domains",
+    "files": {
+      "mid": {
+        "url": "https://www.mutopiaproject.org/ftp/SchubertF/D120/SchubertF-D120-TrostInThraenen/SchubertF-D120-TrostInThraenen.mid",
+        "sha256": "6cf3c60882c186ec642383caf4c5b265778d53159225b56dc121c4b595cdaf9d"
+      },
+      "html": {
+        "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1578",
+        "sha256": "3f3d0767e788d44e0d30f767250121308c2c44be2fab52fc5939fba2a67d36d7"
+      },
+      "ly": {
+        "url": "https://www.mutopiaproject.org/ftp/SchubertF/D120/SchubertF-D120-TrostInThraenen/SchubertF-D120-TrostInThraenen.ly",
+        "sha256": "fee41a6e361ab6f4c8cbc3b04e825fe2da4e933ef08985e0eba9ce6ca6c76855"
+      }
+    },
+    "acquired_at_utc": "2026-11-12T09:46:29.599685+00:00",
+    "reviewed_at_utc": "2026-11-12T09:53:02.363523+00:00",
+    "limits": [
+      "Source edition asserted by contributor, not independently collated note-for-note against original scan.",
+      "Publisher provides material as-is, without accuracy warranty.",
+      "MIDI-only leading SILENCE requires separate origin alignment audit.",
+      "Source header misprints Goethe birth/death as1787-1862; do not propagate those dates. Lyrics excluded from research; no effect on Schubert musical authorship."
+    ],
+    "phase_review": {
+      "meter": [
+        6,
+        8
+      ],
+      "bar_steps": 12,
+      "origin_steps": 0,
+      "ppq": 384,
+      "first_note_tick": 960,
+      "first_note_step": 10,
+      "source_evidence": "Line617 SILENCE={TIME s4. s4}=10steps;line168 chantA partial8 la8=2steps; first full downbeat atstep12. chantB line18810steps compensates later repeated chantA pickup.",
+      "action": "No MIDI cropping/padding; preserve source timeline."
+    }
+  },
+  {
+    "id": 1585,
+    "title": "Selige Welt",
+    "opus": "D.743 (Op.23 No.2)",
+    "composer": "Franz Schubert (1797-1828)",
+    "composition_year": 1822,
+    "lyricist_as_credited": "Johann Senn",
+    "typesetter": "Ph. Raynaud",
+    "source_edition": "Breitkopf & H\u00e4rtel (1884-1897)",
+    "composition_rights": {
+      "status": "public-domain-supported",
+      "basis": "Named composer died1828; composition1814/1822; dated19th-century source edition declared in exact source and download page."
+    },
+    "arrangement_rights": {
+      "status": "no-separate-modern-arrangement-identified",
+      "basis": "Original voice-and-piano instrumentation; source and download page name no arranger. Entire source inspected for arrangement/transcription declaration; none found. This is not a separate modern arrangement license inference."
+    },
+    "encoding_rights": {
+      "status": "public-domain-dedication-supported",
+      "basis": "Exact work page labels Public Domain and directly links this MIDI and LilyPond. LilyPond copyright=Public Domain plus explicit typesetter public-domain dedication. MIDI creator identifies matching LilyPond version; track1 chant matches source MIDI staff. Mutopia legal page explains contributor dedication applies to contribution.",
+      "license_label": "Public Domain (legacy dedication, not CC0)",
+      "terms_url": "https://www.mutopiaproject.org/legal.html#publicdomain",
+      "dedication_url": "http://creativecommons.org/licenses/publicdomain/",
+      "conditions": "No attribution/sharealike condition stated for PD contribution; preserve provenance credit. No warranty of accuracy or rights from publisher."
+    },
+    "review_decision": "sufficient evidence for user-authorized local read-only selected-melody research; not legal guarantee",
+    "technical_status": "Exact tick read and rational note/velocity/EOT roundtrip verified; no quantized corpus.1585/1587 not model-scored;1578 previously observed transfer result, representation control only.",
+    "scope": "Preserve original bytes; no external redistribution; selected track1 chant only; lyrics not needed.",
+    "cohort": "Schubert-Breitkopf1884_1897-PhRaynaud; all heldout as one correlated source family, not four independent domains",
+    "files": {
+      "mid": {
+        "url": "https://www.mutopiaproject.org/ftp/SchubertF/D743/SchubertF-D743-SeligeWelt/SchubertF-D743-SeligeWelt.mid",
+        "sha256": "b0f8bb73e26ceaf153ce333468f4f41e3279760a3f9d3c551fda7ea496f3590f"
+      },
+      "html": {
+        "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1585",
+        "sha256": "d2bf7044f475855daa2131e7a6d63afc2802f87708822fa775128bc1a38a8e22"
+      },
+      "ly": {
+        "url": "https://www.mutopiaproject.org/ftp/SchubertF/D743/SchubertF-D743-SeligeWelt/SchubertF-D743-SeligeWelt.ly",
+        "sha256": "26f534a89f25549f48f96ecf68524cea6e4b487a196d760b061cb256a1020cd8"
+      }
+    },
+    "acquired_at_utc": "2026-11-12T09:46:29.601405+00:00",
+    "reviewed_at_utc": "2026-11-12T09:53:02.363556+00:00",
+    "limits": [
+      "Source edition asserted by contributor, not independently collated note-for-note against original scan.",
+      "Publisher provides material as-is, without accuracy warranty.",
+      "MIDI-only leading SILENCE requires separate origin alignment audit."
+    ]
+  },
+  {
+    "id": 1587,
+    "title": "Die Liebe hat gelogen",
+    "opus": "D.751 (Op.23 No.1)",
+    "composer": "Franz Schubert (1797-1828)",
+    "composition_year": 1822,
+    "lyricist_as_credited": "August Graf von Platen",
+    "typesetter": "Ph. Raynaud",
+    "source_edition": "Breitkopf & H\u00e4rtel (1884-1897)",
+    "composition_rights": {
+      "status": "public-domain-supported",
+      "basis": "Named composer died1828; composition1814/1822; dated19th-century source edition declared in exact source and download page."
+    },
+    "arrangement_rights": {
+      "status": "no-separate-modern-arrangement-identified",
+      "basis": "Original voice-and-piano instrumentation; source and download page name no arranger. Entire source inspected for arrangement/transcription declaration; none found. This is not a separate modern arrangement license inference."
+    },
+    "encoding_rights": {
+      "status": "public-domain-dedication-supported",
+      "basis": "Exact work page labels Public Domain and directly links this MIDI and LilyPond. LilyPond copyright=Public Domain plus explicit typesetter public-domain dedication. MIDI creator identifies matching LilyPond version; track1 chant matches source MIDI staff. Mutopia legal page explains contributor dedication applies to contribution.",
+      "license_label": "Public Domain (legacy dedication, not CC0)",
+      "terms_url": "https://www.mutopiaproject.org/legal.html#publicdomain",
+      "dedication_url": "http://creativecommons.org/licenses/publicdomain/",
+      "conditions": "No attribution/sharealike condition stated for PD contribution; preserve provenance credit. No warranty of accuracy or rights from publisher."
+    },
+    "review_decision": "sufficient evidence for user-authorized local read-only selected-melody research; not legal guarantee",
+    "technical_status": "Exact tick read and rational note/velocity/EOT roundtrip verified; no quantized corpus.1585/1587 not model-scored;1578 previously observed transfer result, representation control only.",
+    "scope": "Preserve original bytes; no external redistribution; selected track1 chant only; lyrics not needed.",
+    "cohort": "Schubert-Breitkopf1884_1897-PhRaynaud; all heldout as one correlated source family, not four independent domains",
+    "files": {
+      "mid": {
+        "url": "https://www.mutopiaproject.org/ftp/SchubertF/D751/SchubertF-D751-DieLiebeHatGelogen/SchubertF-D751-DieLiebeHatGelogen.mid",
+        "sha256": "ead79c2eaca7f75bc6cfbc7a141c62d873cd7a4fca217fc31c056945fde1c46e"
+      },
+      "html": {
+        "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1587",
+        "sha256": "79233a73a1053622d2e235a1517fd8e899368b5ef8da2f176eacd1799b321a65"
+      },
+      "ly": {
+        "url": "https://www.mutopiaproject.org/ftp/SchubertF/D751/SchubertF-D751-DieLiebeHatGelogen/SchubertF-D751-DieLiebeHatGelogen.ly",
+        "sha256": "5bd453320fb5c3fc53b6add0fda7260fd977639f6518e925a1965e8d58f35ce7"
+      }
+    },
+    "acquired_at_utc": "2026-11-12T09:46:29.602122+00:00",
+    "reviewed_at_utc": "2026-11-12T09:53:02.363561+00:00",
+    "limits": [
+      "Source edition asserted by contributor, not independently collated note-for-note against original scan.",
+      "Publisher provides material as-is, without accuracy warranty.",
+      "MIDI-only leading SILENCE requires separate origin alignment audit."
+    ]
+  }
+]

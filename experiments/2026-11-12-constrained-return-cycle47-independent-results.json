@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "checks": 1647,
+  "accepted_condition_outputs": 15,
+  "unique_inputs": 6,
+  "exact_optimality_checks": [
+    {
+      "seed": 45001,
+      "target_groups": 8,
+      "objective": 37,
+      "enumerated_nodes": 21
+    },
+    {
+      "seed": 45002,
+      "target_groups": 6,
+      "objective": 24,
+      "enumerated_nodes": 16
+    },
+    {
+      "seed": 46600,
+      "target_groups": 6,
+      "objective": 18,
+      "enumerated_nodes": 10
+    },
+    {
+      "seed": 46601,
+      "target_groups": 4,
+      "objective": 16,
+      "enumerated_nodes": 5
+    },
+    {
+      "seed": 46602,
+      "target_groups": 10,
+      "objective": 42,
+      "enumerated_nodes": 89
+    }
+  ],
+  "method": "Independent full-rest partition, allpair collision/copy and nonpitch invariants; bounded depth-first path enumeration with unconstrained suffix lower bounds, not production active-state DP, proves no lower cost or lex-earlier feasible path within reported optimum. Duplicate policy outputs are not independent samples.",
+  "human_preference": "unobserved"
+}

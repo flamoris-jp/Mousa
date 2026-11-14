@@ -1,0 +1,55 @@
+{
+  "plan_sha256": "42dd8456f1aaf0e5ee702b5c0d01634543e1f6e0dd5f26ac4aced150d6f62a86",
+  "source_sha256": "3de7c0dae2206d5bdd2ddb5f49c3e2851df0d218472c868c0212d0f98b19ccaf",
+  "coverage": {
+    "total_events": 161,
+    "supported_events": 161,
+    "unsupported_events": []
+  },
+  "screens": [
+    {
+      "reference": "mutopia-376",
+      "exact8": 0,
+      "similarity": 0.24375000000000002,
+      "flagged": false
+    },
+    {
+      "reference": "mutopia-2247",
+      "exact8": 0,
+      "similarity": 0.16874999999999996,
+      "flagged": false
+    },
+    {
+      "reference": "mutopia-2245",
+      "exact8": 0,
+      "similarity": 0.19374999999999998,
+      "flagged": false
+    },
+    {
+      "reference": "mutopia-888",
+      "exact8": 0,
+      "similarity": 0.13749999999999996,
+      "flagged": false
+    },
+    {
+      "reference": "mutopia-889",
+      "exact8": 0,
+      "similarity": 0.15000000000000002,
+      "flagged": false
+    },
+    {
+      "reference": "mutopia-789",
+      "exact8": 0,
+      "similarity": 0.21250000000000002,
+      "flagged": false
+    },
+    {
+      "reference": "mutopia-583",
+      "exact8": 0,
+      "similarity": 0.08125000000000004,
+      "flagged": false
+    }
+  ],
+  "any_flagged": false,
+  "status": "waiting independent allknown clearance; no model construction or predictive score"
+}

@@ -1,0 +1,12 @@
+{
+  "scope": "Independent synthetic-only legal-octave enumeration oracle; no original source fit/generation.",
+  "seed": 43001,
+  "checks": 5000,
+  "tie_cases": 170,
+  "empty_candidate_cases": 231,
+  "module_sha256": "e800a34af5aba8a56c2593cb2e3afd517d9054c6e20497919c8b739517056a95",
+  "status": "PASS",
+  "limitations": [
+    "Arithmetic correctness of local group-anchor proxy only; no voice inference or aesthetic evidence."
+  ]
+}

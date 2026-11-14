@@ -1,0 +1,8 @@
+{
+  "approved": true,
+  "plan_sha256": "9d5c95249f51aa8f89b54ff4902513ac2d3129f971318caee8f0f07f3286519a",
+  "recorded_at_utc": "2026-11-12T14:11:46.273846+00:00",
+  "authority": "Parent explicitly authorized exact final-plan execution after independent review; not authority inferred from dataset flags.",
+  "independent_review": "experiments/2026-11-12-groove-ioi-independent-review.json",
+  "scope": "One fixed rhythm-only predictive run and repeat; no generation or parameter/subset changes."
+}
