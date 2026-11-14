@@ -1,0 +1,4320 @@
+{
+  "plan_sha256": "cd11d18ba33f5532064b76fcfa9b9eb698fd26f1175a214e0439f426cdca208a",
+  "rows": [
+    {
+      "fold": 0,
+      "work": "mutopia-1578",
+      "condition": "global",
+      "seed": null,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 307.1359189849652,
+      "later_count": 169,
+      "later_mean_nll": 1.8173723016861845
+    },
+    {
+      "fold": 0,
+      "work": "mutopia-1558",
+      "condition": "global",
+      "seed": null,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 641.5888547011493,
+      "later_count": 288,
+      "later_mean_nll": 2.227739078823435
+    },
+    {
+      "fold": 0,
+      "work": "mutopia-1578",
+      "condition": "previous_max_gate_binned",
+      "seed": null,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 228.63281329948728,
+      "later_count": 169,
+      "later_mean_nll": 1.3528568834289187
+    },
+    {
+      "fold": 0,
+      "work": "mutopia-1558",
+      "condition": "previous_max_gate_binned",
+      "seed": null,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 405.4886457447879,
+      "later_count": 288,
+      "later_mean_nll": 1.4079466866138468
+    },
+    {
+      "fold": 0,
+      "work": "mutopia-1578",
+      "condition": "shuffled_context",
+      "seed": 52000,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 307.6077856840647,
+      "later_count": 169,
+      "later_mean_nll": 1.820164412331744
+    },
+    {
+      "fold": 0,
+      "work": "mutopia-1558",
+      "condition": "shuffled_context",
+      "seed": 52000,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 615.1329649532898,
+      "later_count": 288,
+      "later_mean_nll": 2.1358783505322565
+    },
+    {
+      "fold": 0,
+      "work": "mutopia-1578",
+      "condition": "shuffled_context",
+      "seed": 52001,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 296.13802569642326,
+      "later_count": 169,
+      "later_mean_nll": 1.7522960100380076
+    },
+    {
+      "fold": 0,
+      "work": "mutopia-1558",
+      "condition": "shuffled_context",
+      "seed": 52001,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 598.62773929752,
+      "later_count": 288,
+      "later_mean_nll": 2.0785685392274997
+    },
+    {
+      "fold": 0,
+      "work": "mutopia-1578",
+      "condition": "shuffled_context",
+      "seed": 52002,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 304.1648747901243,
+      "later_count": 169,
+      "later_mean_nll": 1.7997921585214456
+    },
+    {
+      "fold": 0,
+      "work": "mutopia-1558",
+      "condition": "shuffled_context",
+      "seed": 52002,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 636.7615294555417,
+      "later_count": 288,
+      "later_mean_nll": 2.2109775328317416
+    },
+    {
+      "fold": 0,
+      "work": "mutopia-1578",
+      "condition": "shuffled_context",
+      "seed": 52003,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 243.56055195806897,
+      "later_count": 169,
+      "later_mean_nll": 1.4411866979767394
+    },
+    {
+      "fold": 0,
+      "work": "mutopia-1558",
+      "condition": "shuffled_context",
+      "seed": 52003,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 547.3688555051486,
+      "later_count": 288,
+      "later_mean_nll": 1.9005863038373219
+    },
+    {
+      "fold": 0,
+      "work": "mutopia-1578",
+      "condition": "shuffled_context",
+      "seed": 52004,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 304.42606479804004,
+      "later_count": 169,
+      "later_mean_nll": 1.8013376615268644
+    },
+    {
+      "fold": 0,
+      "work": "mutopia-1558",
+      "condition": "shuffled_context",
+      "seed": 52004,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 625.135563309605,
+      "later_count": 288,
+      "later_mean_nll": 2.170609594825017
+    },
+    {
+      "fold": 0,
+      "work": "mutopia-1578",
+      "condition": "shuffled_context",
+      "seed": 52005,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 306.642306827739,
+      "later_count": 169,
+      "later_mean_nll": 1.8144515196907633
+    },
+    {
+      "fold": 0,
+      "work": "mutopia-1558",
+      "condition": "shuffled_context",
+      "seed": 52005,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 616.8795368292856,
+      "later_count": 288,
+      "later_mean_nll": 2.141942836212797
+    },
+    {
+      "fold": 0,
+      "work": "mutopia-1578",
+      "condition": "shuffled_context",
+      "seed": 52006,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 304.5429915902945,
+      "later_count": 169,
+      "later_mean_nll": 1.8020295360372454
+    },
+    {
+      "fold": 0,
+      "work": "mutopia-1558",
+      "condition": "shuffled_context",
+      "seed": 52006,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 631.1976165972823,
+      "later_count": 288,
+      "later_mean_nll": 2.1916583909627856
+    },
+    {
+      "fold": 0,
+      "work": "mutopia-1578",
+      "condition": "shuffled_context",
+      "seed": 52007,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 245.14869743752033,
+      "later_count": 169,
+      "later_mean_nll": 1.4505840085060373
+    },
+    {
+      "fold": 0,
+      "work": "mutopia-1558",
+      "condition": "shuffled_context",
+      "seed": 52007,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 573.6778776279921,
+      "later_count": 288,
+      "later_mean_nll": 1.9919370750971948
+    },
+    {
+      "fold": 0,
+      "work": "mutopia-1578",
+      "condition": "shuffled_context",
+      "seed": 52008,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 245.97220428625627,
+      "later_count": 169,
+      "later_mean_nll": 1.455456830096191
+    },
+    {
+      "fold": 0,
+      "work": "mutopia-1558",
+      "condition": "shuffled_context",
+      "seed": 52008,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 555.7390432936202,
+      "later_count": 288,
+      "later_mean_nll": 1.9296494558806256
+    },
+    {
+      "fold": 0,
+      "work": "mutopia-1578",
+      "condition": "shuffled_context",
+      "seed": 52009,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 298.0483595016664,
+      "later_count": 169,
+      "later_mean_nll": 1.7635997603648903
+    },
+    {
+      "fold": 0,
+      "work": "mutopia-1558",
+      "condition": "shuffled_context",
+      "seed": 52009,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 612.5930569909283,
+      "later_count": 288,
+      "later_mean_nll": 2.1270592256629453
+    },
+    {
+      "fold": 0,
+      "work": "mutopia-1578",
+      "condition": "shuffled_context",
+      "seed": 52010,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 301.14742986599384,
+      "later_count": 169,
+      "later_mean_nll": 1.781937454828366
+    },
+    {
+      "fold": 0,
+      "work": "mutopia-1558",
+      "condition": "shuffled_context",
+      "seed": 52010,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 610.5435141436799,
+      "later_count": 288,
+      "later_mean_nll": 2.119942757443333
+    },
+    {
+      "fold": 0,
+      "work": "mutopia-1578",
+      "condition": "shuffled_context",
+      "seed": 52011,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 307.2848115848225,
+      "later_count": 169,
+      "later_mean_nll": 1.8182533229871152
+    },
+    {
+      "fold": 0,
+      "work": "mutopia-1558",
+      "condition": "shuffled_context",
+      "seed": 52011,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 615.6971661003851,
+      "later_count": 288,
+      "later_mean_nll": 2.1378373822930037
+    },
+    {
+      "fold": 0,
+      "work": "mutopia-1578",
+      "condition": "shuffled_context",
+      "seed": 52012,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 307.40102197705056,
+      "later_count": 169,
+      "later_mean_nll": 1.8189409584440863
+    },
+    {
+      "fold": 0,
+      "work": "mutopia-1558",
+      "condition": "shuffled_context",
+      "seed": 52012,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 641.4259507952195,
+      "later_count": 288,
+      "later_mean_nll": 2.2271734402611787
+    },
+    {
+      "fold": 0,
+      "work": "mutopia-1578",
+      "condition": "shuffled_context",
+      "seed": 52013,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 301.0754270803624,
+      "later_count": 169,
+      "later_mean_nll": 1.781511402842381
+    },
+    {
+      "fold": 0,
+      "work": "mutopia-1558",
+      "condition": "shuffled_context",
+      "seed": 52013,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 614.250733522852,
+      "later_count": 288,
+      "later_mean_nll": 2.1328150469543474
+    },
+    {
+      "fold": 0,
+      "work": "mutopia-1578",
+      "condition": "shuffled_context",
+      "seed": 52014,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 298.2402370960606,
+      "later_count": 169,
+      "later_mean_nll": 1.7647351307459205
+    },
+    {
+      "fold": 0,
+      "work": "mutopia-1558",
+      "condition": "shuffled_context",
+      "seed": 52014,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 609.6060914663666,
+      "later_count": 288,
+      "later_mean_nll": 2.1166878175915507
+    },
+    {
+      "fold": 0,
+      "work": "mutopia-1578",
+      "condition": "shuffled_context",
+      "seed": 52015,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 302.3521001066383,
+      "later_count": 169,
+      "later_mean_nll": 1.7890656811043688
+    },
+    {
+      "fold": 0,
+      "work": "mutopia-1558",
+      "condition": "shuffled_context",
+      "seed": 52015,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 616.3447408836113,
+      "later_count": 288,
+      "later_mean_nll": 2.1400859058458725
+    },
+    {
+      "fold": 0,
+      "work": "mutopia-1578",
+      "condition": "shuffled_context",
+      "seed": 52016,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 303.82492303137064,
+      "later_count": 169,
+      "later_mean_nll": 1.7977806096530808
+    },
+    {
+      "fold": 0,
+      "work": "mutopia-1558",
+      "condition": "shuffled_context",
+      "seed": 52016,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 620.1196818086081,
+      "later_count": 288,
+      "later_mean_nll": 2.153193339613223
+    },
+    {
+      "fold": 0,
+      "work": "mutopia-1578",
+      "condition": "shuffled_context",
+      "seed": 52017,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 301.1213728753512,
+      "later_count": 169,
+      "later_mean_nll": 1.781783271451782
+    },
+    {
+      "fold": 0,
+      "work": "mutopia-1558",
+      "condition": "shuffled_context",
+      "seed": 52017,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 624.0321122270333,
+      "later_count": 288,
+      "later_mean_nll": 2.166778167454977
+    },
+    {
+      "fold": 0,
+      "work": "mutopia-1578",
+      "condition": "shuffled_context",
+      "seed": 52018,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 297.9117548042485,
+      "later_count": 169,
+      "later_mean_nll": 1.7627914485458491
+    },
+    {
+      "fold": 0,
+      "work": "mutopia-1558",
+      "condition": "shuffled_context",
+      "seed": 52018,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 613.4829040832302,
+      "later_count": 288,
+      "later_mean_nll": 2.130148972511216
+    },
+    {
+      "fold": 0,
+      "work": "mutopia-1578",
+      "condition": "shuffled_context",
+      "seed": 52019,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 299.50311238116325,
+      "later_count": 169,
+      "later_mean_nll": 1.7722077655690134
+    },
+    {
+      "fold": 0,
+      "work": "mutopia-1558",
+      "condition": "shuffled_context",
+      "seed": 52019,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 602.1551213501706,
+      "later_count": 288,
+      "later_mean_nll": 2.090816393576981
+    },
+    {
+      "fold": 0,
+      "work": "mutopia-1578",
+      "condition": "uniform_no_data",
+      "seed": null,
+      "first_nll": 11.090370147631774,
+      "later_count": 169,
+      "later_nll_sum": 1591.3679589604797,
+      "later_mean_nll": 9.416378455387454
+    },
+    {
+      "fold": 0,
+      "work": "mutopia-1558",
+      "condition": "uniform_no_data",
+      "seed": null,
+      "first_nll": 11.090370147631774,
+      "later_count": 288,
+      "later_nll_sum": 2711.916995151587,
+      "later_mean_nll": 9.416378455387454
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-376",
+      "condition": "global",
+      "seed": null,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 605.2884750231528,
+      "later_count": 158,
+      "later_mean_nll": 3.8309397153364104
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-888",
+      "condition": "global",
+      "seed": null,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 39.772279618215954,
+      "later_count": 37,
+      "later_mean_nll": 1.0749264761679989
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-889",
+      "condition": "global",
+      "seed": null,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 80.11094012034908,
+      "later_count": 46,
+      "later_mean_nll": 1.7415421765293277
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-789",
+      "condition": "global",
+      "seed": null,
+      "first_nll": 1.7917442107882302,
+      "later_nll_sum": 157.5025351297649,
+      "later_count": 119,
+      "later_mean_nll": 1.3235507153761759
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-370",
+      "condition": "global",
+      "seed": null,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 176.16533522728815,
+      "later_count": 107,
+      "later_mean_nll": 1.6464050021241885
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-263-legacy",
+      "condition": "global",
+      "seed": null,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 2333.7560875646095,
+      "later_count": 788,
+      "later_mean_nll": 2.9616194004627023
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-904",
+      "condition": "global",
+      "seed": null,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 921.0669381854054,
+      "later_count": 397,
+      "later_mean_nll": 2.320067854371298
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2080",
+      "condition": "global",
+      "seed": null,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 146.411337157269,
+      "later_count": 95,
+      "later_mean_nll": 1.5411719700765159
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2060",
+      "condition": "global",
+      "seed": null,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 425.3487088405485,
+      "later_count": 120,
+      "later_mean_nll": 3.5445725736712377
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2061",
+      "condition": "global",
+      "seed": null,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 282.8889951873542,
+      "later_count": 67,
+      "later_mean_nll": 4.222223808766481
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-186",
+      "condition": "global",
+      "seed": null,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 3704.2956963496604,
+      "later_count": 335,
+      "later_mean_nll": 11.057599093581075
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-487",
+      "condition": "global",
+      "seed": null,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 385.1744507468895,
+      "later_count": 312,
+      "later_mean_nll": 1.23453349598362
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-23",
+      "condition": "global",
+      "seed": null,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 2061.8407614806283,
+      "later_count": 761,
+      "later_mean_nll": 2.709383392221588
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-376",
+      "condition": "previous_max_gate_binned",
+      "seed": null,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 480.5342948165992,
+      "later_count": 158,
+      "later_mean_nll": 3.0413562963075895
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-888",
+      "condition": "previous_max_gate_binned",
+      "seed": null,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 4.155793467097178,
+      "later_count": 37,
+      "later_mean_nll": 0.11231874235397778
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-889",
+      "condition": "previous_max_gate_binned",
+      "seed": null,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 53.61408074376588,
+      "later_count": 46,
+      "later_mean_nll": 1.165523494429693
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-789",
+      "condition": "previous_max_gate_binned",
+      "seed": null,
+      "first_nll": 1.7917442107882302,
+      "later_nll_sum": 111.46939076051993,
+      "later_count": 119,
+      "later_mean_nll": 0.9367175694161338
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-370",
+      "condition": "previous_max_gate_binned",
+      "seed": null,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 128.7515694926974,
+      "later_count": 107,
+      "later_mean_nll": 1.2032856961934337
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-263-legacy",
+      "condition": "previous_max_gate_binned",
+      "seed": null,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 2130.590302857425,
+      "later_count": 788,
+      "later_mean_nll": 2.703794800580489
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-904",
+      "condition": "previous_max_gate_binned",
+      "seed": null,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 1038.3977918696683,
+      "later_count": 397,
+      "later_mean_nll": 2.6156115664223383
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2080",
+      "condition": "previous_max_gate_binned",
+      "seed": null,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 98.94394663239436,
+      "later_count": 95,
+      "later_mean_nll": 1.0415152277094144
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2060",
+      "condition": "previous_max_gate_binned",
+      "seed": null,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 380.79022609307805,
+      "later_count": 120,
+      "later_mean_nll": 3.173251884108984
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2061",
+      "condition": "previous_max_gate_binned",
+      "seed": null,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 283.8602564783641,
+      "later_count": 67,
+      "later_mean_nll": 4.236720245945732
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-186",
+      "condition": "previous_max_gate_binned",
+      "seed": null,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 4725.1485971801585,
+      "later_count": 335,
+      "later_mean_nll": 14.104921185612412
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-487",
+      "condition": "previous_max_gate_binned",
+      "seed": null,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 126.27936996684831,
+      "later_count": 312,
+      "later_mean_nll": 0.4047415704065651
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-23",
+      "condition": "previous_max_gate_binned",
+      "seed": null,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 1857.0652258259754,
+      "later_count": 761,
+      "later_mean_nll": 2.440295960349508
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-376",
+      "condition": "shuffled_context",
+      "seed": 52000,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 662.1609908057551,
+      "later_count": 158,
+      "later_mean_nll": 4.190892346871867
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-888",
+      "condition": "shuffled_context",
+      "seed": 52000,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 31.8725272259917,
+      "later_count": 37,
+      "later_mean_nll": 0.8614196547565325
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-889",
+      "condition": "shuffled_context",
+      "seed": 52000,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 77.76595841152796,
+      "later_count": 46,
+      "later_mean_nll": 1.6905643132940862
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-789",
+      "condition": "shuffled_context",
+      "seed": 52000,
+      "first_nll": 1.7917442107882302,
+      "later_nll_sum": 150.0469672843459,
+      "later_count": 119,
+      "later_mean_nll": 1.2608988847424023
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-370",
+      "condition": "shuffled_context",
+      "seed": 52000,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 174.60375654228375,
+      "later_count": 107,
+      "later_mean_nll": 1.63181080880639
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-263-legacy",
+      "condition": "shuffled_context",
+      "seed": 52000,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 2322.6348512932095,
+      "later_count": 788,
+      "later_mean_nll": 2.947506156463464
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-904",
+      "condition": "shuffled_context",
+      "seed": 52000,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 1019.6972315116235,
+      "later_count": 397,
+      "later_mean_nll": 2.568506880381923
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2080",
+      "condition": "shuffled_context",
+      "seed": 52000,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 141.98579235860115,
+      "later_count": 95,
+      "later_mean_nll": 1.4945872879852753
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2060",
+      "condition": "shuffled_context",
+      "seed": 52000,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 421.93461373130157,
+      "later_count": 120,
+      "later_mean_nll": 3.5161217810941796
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2061",
+      "condition": "shuffled_context",
+      "seed": 52000,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 301.13246546934045,
+      "later_count": 67,
+      "later_mean_nll": 4.494514409990156
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-186",
+      "condition": "shuffled_context",
+      "seed": 52000,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 4768.581353870397,
+      "later_count": 335,
+      "later_mean_nll": 14.234571205583274
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-487",
+      "condition": "shuffled_context",
+      "seed": 52000,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 354.69498993255144,
+      "later_count": 312,
+      "later_mean_nll": 1.1368429164504854
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-23",
+      "condition": "shuffled_context",
+      "seed": 52000,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 2054.984316316889,
+      "later_count": 761,
+      "later_mean_nll": 2.7003736088263977
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-376",
+      "condition": "shuffled_context",
+      "seed": 52001,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 670.3276321436715,
+      "later_count": 158,
+      "later_mean_nll": 4.242579950276402
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-888",
+      "condition": "shuffled_context",
+      "seed": 52001,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 32.325902313933604,
+      "later_count": 37,
+      "later_mean_nll": 0.873673035511719
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-889",
+      "condition": "shuffled_context",
+      "seed": 52001,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 78.67327802039408,
+      "later_count": 46,
+      "later_mean_nll": 1.7102886526172625
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-789",
+      "condition": "shuffled_context",
+      "seed": 52001,
+      "first_nll": 1.7917442107882302,
+      "later_nll_sum": 155.27014305283998,
+      "later_count": 119,
+      "later_mean_nll": 1.3047911180910923
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-370",
+      "condition": "shuffled_context",
+      "seed": 52001,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 178.76127599463226,
+      "later_count": 107,
+      "later_mean_nll": 1.6706661307909556
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-263-legacy",
+      "condition": "shuffled_context",
+      "seed": 52001,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 2397.0935138204063,
+      "later_count": 788,
+      "later_mean_nll": 3.0419968449497543
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-904",
+      "condition": "shuffled_context",
+      "seed": 52001,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 1014.0506279608077,
+      "later_count": 397,
+      "later_mean_nll": 2.5542836976342764
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2080",
+      "condition": "shuffled_context",
+      "seed": 52001,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 147.14931208451483,
+      "later_count": 95,
+      "later_mean_nll": 1.548940127205419
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2060",
+      "condition": "shuffled_context",
+      "seed": 52001,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 436.8462449938664,
+      "later_count": 120,
+      "later_mean_nll": 3.6403853749488864
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2061",
+      "condition": "shuffled_context",
+      "seed": 52001,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 308.7703932201565,
+      "later_count": 67,
+      "later_mean_nll": 4.608513331644127
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-186",
+      "condition": "shuffled_context",
+      "seed": 52001,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 4766.482416583413,
+      "later_count": 335,
+      "later_mean_nll": 14.228305721144517
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-487",
+      "condition": "shuffled_context",
+      "seed": 52001,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 346.2860100169892,
+      "later_count": 312,
+      "later_mean_nll": 1.1098910577467602
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-23",
+      "condition": "shuffled_context",
+      "seed": 52001,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 2117.733218370032,
+      "later_count": 761,
+      "later_mean_nll": 2.7828294590933402
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-376",
+      "condition": "shuffled_context",
+      "seed": 52002,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 660.8927509921899,
+      "later_count": 158,
+      "later_mean_nll": 4.182865512608797
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-888",
+      "condition": "shuffled_context",
+      "seed": 52002,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 31.16257575486741,
+      "later_count": 37,
+      "later_mean_nll": 0.8422317771585787
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-889",
+      "condition": "shuffled_context",
+      "seed": 52002,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 77.5029224559915,
+      "later_count": 46,
+      "later_mean_nll": 1.6848461403476411
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-789",
+      "condition": "shuffled_context",
+      "seed": 52002,
+      "first_nll": 1.7917442107882302,
+      "later_nll_sum": 149.50297924608128,
+      "later_count": 119,
+      "later_mean_nll": 1.2563275566897587
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-370",
+      "condition": "shuffled_context",
+      "seed": 52002,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 174.0063084721426,
+      "later_count": 107,
+      "later_mean_nll": 1.626227181982641
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-263-legacy",
+      "condition": "shuffled_context",
+      "seed": 52002,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 2321.676413186995,
+      "later_count": 788,
+      "later_mean_nll": 2.946289864450501
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-904",
+      "condition": "shuffled_context",
+      "seed": 52002,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 1012.3662855793975,
+      "later_count": 397,
+      "later_mean_nll": 2.550041021610573
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2080",
+      "condition": "shuffled_context",
+      "seed": 52002,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 141.44894071079653,
+      "later_count": 95,
+      "later_mean_nll": 1.4889362180083847
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2060",
+      "condition": "shuffled_context",
+      "seed": 52002,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 421.93461373130157,
+      "later_count": 120,
+      "later_mean_nll": 3.5161217810941796
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2061",
+      "condition": "shuffled_context",
+      "seed": 52002,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 301.1975934012416,
+      "later_count": 67,
+      "later_mean_nll": 4.495486468675248
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-186",
+      "condition": "shuffled_context",
+      "seed": 52002,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 4766.5382893076785,
+      "later_count": 335,
+      "later_mean_nll": 14.228472505396054
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-487",
+      "condition": "shuffled_context",
+      "seed": 52002,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 347.39247976276243,
+      "later_count": 312,
+      "later_mean_nll": 1.113437435137059
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-23",
+      "condition": "shuffled_context",
+      "seed": 52002,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 2053.770839159478,
+      "later_count": 761,
+      "later_mean_nll": 2.6987790264907723
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-376",
+      "condition": "shuffled_context",
+      "seed": 52003,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 647.5845476829438,
+      "later_count": 158,
+      "later_mean_nll": 4.09863637774015
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-888",
+      "condition": "shuffled_context",
+      "seed": 52003,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 32.5778251561776,
+      "later_count": 37,
+      "later_mean_nll": 0.880481760977773
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-889",
+      "condition": "shuffled_context",
+      "seed": 52003,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 75.54259894192099,
+      "later_count": 46,
+      "later_mean_nll": 1.642230411780891
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-789",
+      "condition": "shuffled_context",
+      "seed": 52003,
+      "first_nll": 1.7917442107882302,
+      "later_nll_sum": 152.94400464927747,
+      "later_count": 119,
+      "later_mean_nll": 1.2852437365485503
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-370",
+      "condition": "shuffled_context",
+      "seed": 52003,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 176.54993255524886,
+      "later_count": 107,
+      "later_mean_nll": 1.649999369675223
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-263-legacy",
+      "condition": "shuffled_context",
+      "seed": 52003,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 2392.742393829915,
+      "later_count": 788,
+      "later_mean_nll": 3.036475119073496
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-904",
+      "condition": "shuffled_context",
+      "seed": 52003,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 1016.180157645382,
+      "later_count": 397,
+      "later_mean_nll": 2.5596477522553704
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2080",
+      "condition": "shuffled_context",
+      "seed": 52003,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 144.1391363511478,
+      "later_count": 95,
+      "later_mean_nll": 1.5172540668541874
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2060",
+      "condition": "shuffled_context",
+      "seed": 52003,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 436.8462449938664,
+      "later_count": 120,
+      "later_mean_nll": 3.6403853749488864
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2061",
+      "condition": "shuffled_context",
+      "seed": 52003,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 308.77281380591745,
+      "later_count": 67,
+      "later_mean_nll": 4.6085494597898125
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-186",
+      "condition": "shuffled_context",
+      "seed": 52003,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 4769.000979313631,
+      "later_count": 335,
+      "later_mean_nll": 14.23582381884666
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-487",
+      "condition": "shuffled_context",
+      "seed": 52003,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 356.6053148446452,
+      "later_count": 312,
+      "later_mean_nll": 1.1429657527071961
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-23",
+      "condition": "shuffled_context",
+      "seed": 52003,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 2106.6259876864638,
+      "later_count": 761,
+      "later_mean_nll": 2.768233886578796
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-376",
+      "condition": "shuffled_context",
+      "seed": 52004,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 651.3863237145886,
+      "later_count": 158,
+      "later_mean_nll": 4.122698251358155
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-888",
+      "condition": "shuffled_context",
+      "seed": 52004,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 30.72259190076332,
+      "later_count": 37,
+      "later_mean_nll": 0.8303403216422519
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-889",
+      "condition": "shuffled_context",
+      "seed": 52004,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 75.79863351566027,
+      "later_count": 46,
+      "later_mean_nll": 1.6477963807752234
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-789",
+      "condition": "shuffled_context",
+      "seed": 52004,
+      "first_nll": 1.7917442107882302,
+      "later_nll_sum": 149.302147387144,
+      "later_count": 119,
+      "later_mean_nll": 1.2546398940096135
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-370",
+      "condition": "shuffled_context",
+      "seed": 52004,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 172.49120932248084,
+      "later_count": 107,
+      "later_mean_nll": 1.6120673768456153
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-263-legacy",
+      "condition": "shuffled_context",
+      "seed": 52004,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 2236.45708500785,
+      "later_count": 788,
+      "later_mean_nll": 2.8381435088932108
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-904",
+      "condition": "shuffled_context",
+      "seed": 52004,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 1014.0831067666306,
+      "later_count": 397,
+      "later_mean_nll": 2.5543655082282886
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2080",
+      "condition": "shuffled_context",
+      "seed": 52004,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 139.88198569303165,
+      "later_count": 95,
+      "later_mean_nll": 1.472441954663491
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2060",
+      "condition": "shuffled_context",
+      "seed": 52004,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 402.55389750119105,
+      "later_count": 120,
+      "later_mean_nll": 3.3546158125099255
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2061",
+      "condition": "shuffled_context",
+      "seed": 52004,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 291.36522230835635,
+      "later_count": 67,
+      "later_mean_nll": 4.348734661318751
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-186",
+      "condition": "shuffled_context",
+      "seed": 52004,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 4764.610353826915,
+      "later_count": 335,
+      "later_mean_nll": 14.222717474110196
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-487",
+      "condition": "shuffled_context",
+      "seed": 52004,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 342.22163930256926,
+      "later_count": 312,
+      "later_mean_nll": 1.0968642285338757
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-23",
+      "condition": "shuffled_context",
+      "seed": 52004,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 1981.1303925075185,
+      "later_count": 761,
+      "later_mean_nll": 2.60332508870896
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-376",
+      "condition": "shuffled_context",
+      "seed": 52005,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 794.3666137234744,
+      "later_count": 158,
+      "later_mean_nll": 5.027636795718193
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-888",
+      "condition": "shuffled_context",
+      "seed": 52005,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 35.026495218718466,
+      "later_count": 37,
+      "later_mean_nll": 0.9466620329383368
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-889",
+      "condition": "shuffled_context",
+      "seed": 52005,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 96.76298686777933,
+      "later_count": 46,
+      "later_mean_nll": 2.1035431927778117
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-789",
+      "condition": "shuffled_context",
+      "seed": 52005,
+      "first_nll": 1.7917442107882302,
+      "later_nll_sum": 162.20677712457652,
+      "later_count": 119,
+      "later_mean_nll": 1.3630821607107269
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-370",
+      "condition": "shuffled_context",
+      "seed": 52005,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 186.85022738152253,
+      "later_count": 107,
+      "later_mean_nll": 1.7462638073039487
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-263-legacy",
+      "condition": "shuffled_context",
+      "seed": 52005,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 2379.7504838674904,
+      "later_count": 788,
+      "later_mean_nll": 3.0199879236897087
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-904",
+      "condition": "shuffled_context",
+      "seed": 52005,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 1044.1193205222792,
+      "later_count": 397,
+      "later_mean_nll": 2.6300234773860938
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2080",
+      "condition": "shuffled_context",
+      "seed": 52005,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 155.4564161003295,
+      "later_count": 95,
+      "later_mean_nll": 1.6363833273718897
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2060",
+      "condition": "shuffled_context",
+      "seed": 52005,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 429.1589566217966,
+      "later_count": 120,
+      "later_mean_nll": 3.576324638514972
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2061",
+      "condition": "shuffled_context",
+      "seed": 52005,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 304.7948630511666,
+      "later_count": 67,
+      "later_mean_nll": 4.549177060465173
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-186",
+      "condition": "shuffled_context",
+      "seed": 52005,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 4770.91555380312,
+      "later_count": 335,
+      "later_mean_nll": 14.241538966576478
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-487",
+      "condition": "shuffled_context",
+      "seed": 52005,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 363.4268271875541,
+      "later_count": 312,
+      "later_mean_nll": 1.1648295743190837
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-23",
+      "condition": "shuffled_context",
+      "seed": 52005,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 2143.189043089753,
+      "later_count": 761,
+      "later_mean_nll": 2.8162799514977044
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-376",
+      "condition": "shuffled_context",
+      "seed": 52006,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 781.8961514070344,
+      "later_count": 158,
+      "later_mean_nll": 4.948709819031864
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-888",
+      "condition": "shuffled_context",
+      "seed": 52006,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 28.383944630490614,
+      "later_count": 37,
+      "later_mean_nll": 0.7671336386619085
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-889",
+      "condition": "shuffled_context",
+      "seed": 52006,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 95.96971332176862,
+      "later_count": 46,
+      "later_mean_nll": 2.086298115690622
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-789",
+      "condition": "shuffled_context",
+      "seed": 52006,
+      "first_nll": 1.7917442107882302,
+      "later_nll_sum": 148.0527037913243,
+      "later_count": 119,
+      "later_mean_nll": 1.244140367994322
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-370",
+      "condition": "shuffled_context",
+      "seed": 52006,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 177.96454497331803,
+      "later_count": 107,
+      "later_mean_nll": 1.6632200464796079
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-263-legacy",
+      "condition": "shuffled_context",
+      "seed": 52006,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 2394.8413660999345,
+      "later_count": 788,
+      "later_mean_nll": 3.0391387894669215
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-904",
+      "condition": "shuffled_context",
+      "seed": 52006,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 1009.2531079547496,
+      "later_count": 397,
+      "later_mean_nll": 2.5421992643696463
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2080",
+      "condition": "shuffled_context",
+      "seed": 52006,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 146.6623245982914,
+      "later_count": 95,
+      "later_mean_nll": 1.5438139431399096
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2060",
+      "condition": "shuffled_context",
+      "seed": 52006,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 436.8462449938664,
+      "later_count": 120,
+      "later_mean_nll": 3.6403853749488864
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2061",
+      "condition": "shuffled_context",
+      "seed": 52006,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 308.79728391064003,
+      "later_count": 67,
+      "later_mean_nll": 4.608914685233433
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-186",
+      "condition": "shuffled_context",
+      "seed": 52006,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 4759.064495745316,
+      "later_count": 335,
+      "later_mean_nll": 14.206162673866613
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-487",
+      "condition": "shuffled_context",
+      "seed": 52006,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 314.94929933437265,
+      "later_count": 312,
+      "later_mean_nll": 1.0094528824819635
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-23",
+      "condition": "shuffled_context",
+      "seed": 52006,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 2165.7801514523776,
+      "later_count": 761,
+      "later_mean_nll": 2.8459660334459627
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-376",
+      "condition": "shuffled_context",
+      "seed": 52007,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 655.9193749386993,
+      "later_count": 158,
+      "later_mean_nll": 4.15138844897911
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-888",
+      "condition": "shuffled_context",
+      "seed": 52007,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 32.52534467616913,
+      "later_count": 37,
+      "later_mean_nll": 0.8790633696261926
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-889",
+      "condition": "shuffled_context",
+      "seed": 52007,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 75.81078271448189,
+      "later_count": 46,
+      "later_mean_nll": 1.6480604937930847
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-789",
+      "condition": "shuffled_context",
+      "seed": 52007,
+      "first_nll": 1.7917442107882302,
+      "later_nll_sum": 159.83289961616066,
+      "later_count": 119,
+      "later_mean_nll": 1.3431336102198375
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-370",
+      "condition": "shuffled_context",
+      "seed": 52007,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 179.38824532600736,
+      "later_count": 107,
+      "later_mean_nll": 1.6765256572524054
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-263-legacy",
+      "condition": "shuffled_context",
+      "seed": 52007,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 2246.44092981134,
+      "later_count": 788,
+      "later_mean_nll": 2.8508133627047463
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-904",
+      "condition": "shuffled_context",
+      "seed": 52007,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 1021.5311388920205,
+      "later_count": 397,
+      "later_mean_nll": 2.573126294438339
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2080",
+      "condition": "shuffled_context",
+      "seed": 52007,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 148.39477338250308,
+      "later_count": 95,
+      "later_mean_nll": 1.5620502461316113
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2060",
+      "condition": "shuffled_context",
+      "seed": 52007,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 402.55389750119105,
+      "later_count": 120,
+      "later_mean_nll": 3.3546158125099255
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2061",
+      "condition": "shuffled_context",
+      "seed": 52007,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 291.38245077376445,
+      "later_count": 67,
+      "later_mean_nll": 4.348991802593499
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-186",
+      "condition": "shuffled_context",
+      "seed": 52007,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 4763.352687204285,
+      "later_count": 335,
+      "later_mean_nll": 14.218963245385924
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-487",
+      "condition": "shuffled_context",
+      "seed": 52007,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 336.93665638372875,
+      "later_count": 312,
+      "later_mean_nll": 1.0799251807170793
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-23",
+      "condition": "shuffled_context",
+      "seed": 52007,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 1984.3695660302324,
+      "later_count": 761,
+      "later_mean_nll": 2.607581558515417
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-376",
+      "condition": "shuffled_context",
+      "seed": 52008,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 611.2905737051764,
+      "later_count": 158,
+      "later_mean_nll": 3.868927681678332
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-888",
+      "condition": "shuffled_context",
+      "seed": 52008,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 31.40459397059973,
+      "later_count": 37,
+      "later_mean_nll": 0.848772810016209
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-889",
+      "condition": "shuffled_context",
+      "seed": 52008,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 69.4901609834499,
+      "later_count": 46,
+      "later_mean_nll": 1.5106556735532586
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-789",
+      "condition": "shuffled_context",
+      "seed": 52008,
+      "first_nll": 1.7917442107882302,
+      "later_nll_sum": 152.08953959272017,
+      "later_count": 119,
+      "later_mean_nll": 1.2780633579220184
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-370",
+      "condition": "shuffled_context",
+      "seed": 52008,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 172.45951241627338,
+      "later_count": 107,
+      "later_mean_nll": 1.6117711440773215
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-263-legacy",
+      "condition": "shuffled_context",
+      "seed": 52008,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 2187.0526009907367,
+      "later_count": 788,
+      "later_mean_nll": 2.7754474631862145
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-904",
+      "condition": "shuffled_context",
+      "seed": 52008,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 1022.3937951946903,
+      "later_count": 397,
+      "later_mean_nll": 2.575299232228439
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2080",
+      "condition": "shuffled_context",
+      "seed": 52008,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 140.46271195871148,
+      "later_count": 95,
+      "later_mean_nll": 1.4785548627232787
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2060",
+      "condition": "shuffled_context",
+      "seed": 52008,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 391.1793434133578,
+      "later_count": 120,
+      "later_mean_nll": 3.2598278617779815
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2061",
+      "condition": "shuffled_context",
+      "seed": 52008,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 285.5639015642504,
+      "later_count": 67,
+      "later_mean_nll": 4.2621477845410505
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-186",
+      "condition": "shuffled_context",
+      "seed": 52008,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 4765.788821158654,
+      "later_count": 335,
+      "later_mean_nll": 14.22623528704076
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-487",
+      "condition": "shuffled_context",
+      "seed": 52008,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 342.96926143504675,
+      "later_count": 312,
+      "later_mean_nll": 1.0992604533174575
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-23",
+      "condition": "shuffled_context",
+      "seed": 52008,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 1926.0236931141162,
+      "later_count": 761,
+      "later_mean_nll": 2.530911554683464
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-376",
+      "condition": "shuffled_context",
+      "seed": 52009,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 771.017753781593,
+      "later_count": 158,
+      "later_mean_nll": 4.879859201149323
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-888",
+      "condition": "shuffled_context",
+      "seed": 52009,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 31.01283916858186,
+      "later_count": 37,
+      "later_mean_nll": 0.8381848423941043
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-889",
+      "condition": "shuffled_context",
+      "seed": 52009,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 93.19231849312622,
+      "later_count": 46,
+      "later_mean_nll": 2.025919967241874
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-789",
+      "condition": "shuffled_context",
+      "seed": 52009,
+      "first_nll": 1.7917442107882302,
+      "later_nll_sum": 149.4016681721661,
+      "later_count": 119,
+      "later_mean_nll": 1.2554762031274462
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-370",
+      "condition": "shuffled_context",
+      "seed": 52009,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 175.66352406062143,
+      "later_count": 107,
+      "later_mean_nll": 1.6417151781366488
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-263-legacy",
+      "condition": "shuffled_context",
+      "seed": 52009,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 2216.828158972153,
+      "later_count": 788,
+      "later_mean_nll": 2.813233704279382
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-904",
+      "condition": "shuffled_context",
+      "seed": 52009,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 1023.4859675691871,
+      "later_count": 397,
+      "later_mean_nll": 2.578050296144048
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2080",
+      "condition": "shuffled_context",
+      "seed": 52009,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 143.096341083315,
+      "later_count": 95,
+      "later_mean_nll": 1.5062772745612105
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2060",
+      "condition": "shuffled_context",
+      "seed": 52009,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 396.7318995466605,
+      "later_count": 120,
+      "later_mean_nll": 3.306099162888837
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2061",
+      "condition": "shuffled_context",
+      "seed": 52009,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 288.3935464754945,
+      "later_count": 67,
+      "later_mean_nll": 4.3043812906790215
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-186",
+      "condition": "shuffled_context",
+      "seed": 52009,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 4765.743094671237,
+      "later_count": 335,
+      "later_mean_nll": 14.226098790063393
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-487",
+      "condition": "shuffled_context",
+      "seed": 52009,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 345.3314314577679,
+      "later_count": 312,
+      "later_mean_nll": 1.1068315110825895
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-23",
+      "condition": "shuffled_context",
+      "seed": 52009,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 2005.893451593713,
+      "later_count": 761,
+      "later_mean_nll": 2.635865245195418
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-376",
+      "condition": "shuffled_context",
+      "seed": 52010,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 655.5820365751193,
+      "later_count": 158,
+      "later_mean_nll": 4.149253396045059
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-888",
+      "condition": "shuffled_context",
+      "seed": 52010,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 34.23903569252778,
+      "later_count": 37,
+      "later_mean_nll": 0.9253793430412913
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-889",
+      "condition": "shuffled_context",
+      "seed": 52010,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 77.16121762616397,
+      "later_count": 46,
+      "later_mean_nll": 1.6774177744818255
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-789",
+      "condition": "shuffled_context",
+      "seed": 52010,
+      "first_nll": 1.7917442107882302,
+      "later_nll_sum": 154.47740678338158,
+      "later_count": 119,
+      "later_mean_nll": 1.2981294687679126
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-370",
+      "condition": "shuffled_context",
+      "seed": 52010,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 176.74659979557225,
+      "later_count": 107,
+      "later_mean_nll": 1.6518373812670304
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-263-legacy",
+      "condition": "shuffled_context",
+      "seed": 52010,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 2216.974086006336,
+      "later_count": 788,
+      "later_mean_nll": 2.813418890870985
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-904",
+      "condition": "shuffled_context",
+      "seed": 52010,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 1044.9380182898672,
+      "later_count": 397,
+      "later_mean_nll": 2.6320856883875745
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2080",
+      "condition": "shuffled_context",
+      "seed": 52010,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 143.86482491022474,
+      "later_count": 95,
+      "later_mean_nll": 1.5143665780023656
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2060",
+      "condition": "shuffled_context",
+      "seed": 52010,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 396.7318995466605,
+      "later_count": 120,
+      "later_mean_nll": 3.306099162888837
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2061",
+      "condition": "shuffled_context",
+      "seed": 52010,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 288.26706204147786,
+      "later_count": 67,
+      "later_mean_nll": 4.302493463305639
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-186",
+      "condition": "shuffled_context",
+      "seed": 52010,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 4776.320066812978,
+      "later_count": 335,
+      "later_mean_nll": 14.25767184123277
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-487",
+      "condition": "shuffled_context",
+      "seed": 52010,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 376.7642617556408,
+      "later_count": 312,
+      "later_mean_nll": 1.2075777620373103
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-23",
+      "condition": "shuffled_context",
+      "seed": 52010,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 1967.008985538915,
+      "later_count": 761,
+      "later_mean_nll": 2.5847687063586267
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-376",
+      "condition": "shuffled_context",
+      "seed": 52011,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 632.7706244499054,
+      "later_count": 158,
+      "later_mean_nll": 4.004877369936111
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-888",
+      "condition": "shuffled_context",
+      "seed": 52011,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 32.80174032595628,
+      "later_count": 37,
+      "later_mean_nll": 0.8865335223231428
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-889",
+      "condition": "shuffled_context",
+      "seed": 52011,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 73.06086653776305,
+      "later_count": 46,
+      "later_mean_nll": 1.5882797073426749
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-789",
+      "condition": "shuffled_context",
+      "seed": 52011,
+      "first_nll": 1.7917442107882302,
+      "later_nll_sum": 153.77993622997184,
+      "later_count": 119,
+      "later_mean_nll": 1.2922683716804357
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-370",
+      "condition": "shuffled_context",
+      "seed": 52011,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 175.1665190612939,
+      "later_count": 107,
+      "later_mean_nll": 1.6370702716008776
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-263-legacy",
+      "condition": "shuffled_context",
+      "seed": 52011,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 2240.455996085557,
+      "later_count": 788,
+      "later_mean_nll": 2.843218269144108
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-904",
+      "condition": "shuffled_context",
+      "seed": 52011,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 1026.8327731420736,
+      "later_count": 397,
+      "later_mean_nll": 2.5864805368817976
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2080",
+      "condition": "shuffled_context",
+      "seed": 52011,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 142.88290241699812,
+      "later_count": 95,
+      "later_mean_nll": 1.5040305517578751
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2060",
+      "condition": "shuffled_context",
+      "seed": 52011,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 402.55389750119105,
+      "later_count": 120,
+      "later_mean_nll": 3.3546158125099255
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2061",
+      "condition": "shuffled_context",
+      "seed": 52011,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 291.2866742050392,
+      "later_count": 67,
+      "later_mean_nll": 4.347562301567749
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-186",
+      "condition": "shuffled_context",
+      "seed": 52011,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 4769.810586523238,
+      "later_count": 335,
+      "later_mean_nll": 14.238240556785785
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-487",
+      "condition": "shuffled_context",
+      "seed": 52011,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 357.32141589400305,
+      "later_count": 312,
+      "later_mean_nll": 1.145260948378215
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-23",
+      "condition": "shuffled_context",
+      "seed": 52011,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 1975.970164137308,
+      "later_count": 761,
+      "later_mean_nll": 2.5965442367113116
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-376",
+      "condition": "shuffled_context",
+      "seed": 52012,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 660.1124999573686,
+      "later_count": 158,
+      "later_mean_nll": 4.177927214920055
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-888",
+      "condition": "shuffled_context",
+      "seed": 52012,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 32.33201046511126,
+      "later_count": 37,
+      "later_mean_nll": 0.8738381206786827
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-889",
+      "condition": "shuffled_context",
+      "seed": 52012,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 77.20909195449691,
+      "later_count": 46,
+      "later_mean_nll": 1.678458520749933
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-789",
+      "condition": "shuffled_context",
+      "seed": 52012,
+      "first_nll": 1.7917442107882302,
+      "later_nll_sum": 154.27561164572552,
+      "later_count": 119,
+      "later_mean_nll": 1.296433711308618
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-370",
+      "condition": "shuffled_context",
+      "seed": 52012,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 176.99150405684853,
+      "later_count": 107,
+      "later_mean_nll": 1.6541262061387714
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-263-legacy",
+      "condition": "shuffled_context",
+      "seed": 52012,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 2295.8518880168026,
+      "later_count": 788,
+      "later_mean_nll": 2.9135176243868055
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-904",
+      "condition": "shuffled_context",
+      "seed": 52012,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 1031.0022900957738,
+      "later_count": 397,
+      "later_mean_nll": 2.5969830984780193
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2080",
+      "condition": "shuffled_context",
+      "seed": 52012,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 145.15417611991384,
+      "later_count": 95,
+      "later_mean_nll": 1.527938695999093
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2060",
+      "condition": "shuffled_context",
+      "seed": 52012,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 415.1206101999982,
+      "later_count": 120,
+      "later_mean_nll": 3.4593384183333185
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2061",
+      "condition": "shuffled_context",
+      "seed": 52012,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 297.6760491484554,
+      "later_count": 67,
+      "later_mean_nll": 4.442926106693363
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-186",
+      "condition": "shuffled_context",
+      "seed": 52012,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 4767.74008203535,
+      "later_count": 335,
+      "later_mean_nll": 14.232059946374177
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-487",
+      "condition": "shuffled_context",
+      "seed": 52012,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 349.25468518161375,
+      "later_count": 312,
+      "later_mean_nll": 1.119406042248762
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-23",
+      "condition": "shuffled_context",
+      "seed": 52012,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 2031.5498681177182,
+      "later_count": 761,
+      "later_mean_nll": 2.66957932735574
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-376",
+      "condition": "shuffled_context",
+      "seed": 52013,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 642.4547477147205,
+      "later_count": 158,
+      "later_mean_nll": 4.066169289333674
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-888",
+      "condition": "shuffled_context",
+      "seed": 52013,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 32.23929973392448,
+      "later_count": 37,
+      "later_mean_nll": 0.8713324252412022
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-889",
+      "condition": "shuffled_context",
+      "seed": 52013,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 75.43576735505694,
+      "later_count": 46,
+      "later_mean_nll": 1.6399079859794987
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-789",
+      "condition": "shuffled_context",
+      "seed": 52013,
+      "first_nll": 1.7917442107882302,
+      "later_nll_sum": 153.85672204916094,
+      "later_count": 119,
+      "later_mean_nll": 1.292913630665218
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-370",
+      "condition": "shuffled_context",
+      "seed": 52013,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 177.483647854037,
+      "later_count": 107,
+      "later_mean_nll": 1.6587256808788504
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-263-legacy",
+      "condition": "shuffled_context",
+      "seed": 52013,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 2359.6445502819497,
+      "later_count": 788,
+      "later_mean_nll": 2.9944727795456214
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-904",
+      "condition": "shuffled_context",
+      "seed": 52013,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 1024.4174829288816,
+      "later_count": 397,
+      "later_mean_nll": 2.5803966824405076
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2080",
+      "condition": "shuffled_context",
+      "seed": 52013,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 145.30630847922095,
+      "later_count": 95,
+      "later_mean_nll": 1.5295400892549573
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2060",
+      "condition": "shuffled_context",
+      "seed": 52013,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 429.1589566217966,
+      "later_count": 120,
+      "later_mean_nll": 3.576324638514972
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2061",
+      "condition": "shuffled_context",
+      "seed": 52013,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 304.8134055913893,
+      "later_count": 67,
+      "later_mean_nll": 4.5494538147968555
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-186",
+      "condition": "shuffled_context",
+      "seed": 52013,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 4767.964634476776,
+      "later_count": 335,
+      "later_mean_nll": 14.23273025216948
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-487",
+      "condition": "shuffled_context",
+      "seed": 52013,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 351.139988405317,
+      "later_count": 312,
+      "later_mean_nll": 1.1254486807862725
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-23",
+      "condition": "shuffled_context",
+      "seed": 52013,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 2082.6258325337926,
+      "later_count": 761,
+      "later_mean_nll": 2.736696231976074
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-376",
+      "condition": "shuffled_context",
+      "seed": 52014,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 650.1246704733314,
+      "later_count": 158,
+      "later_mean_nll": 4.114713104261591
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-888",
+      "condition": "shuffled_context",
+      "seed": 52014,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 31.23169548313025,
+      "later_count": 37,
+      "later_mean_nll": 0.8440998779224391
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-889",
+      "condition": "shuffled_context",
+      "seed": 52014,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 75.34374597150907,
+      "later_count": 46,
+      "later_mean_nll": 1.6379075211197625
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-789",
+      "condition": "shuffled_context",
+      "seed": 52014,
+      "first_nll": 1.7917442107882302,
+      "later_nll_sum": 153.74317326852704,
+      "later_count": 119,
+      "later_mean_nll": 1.2919594392313198
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-370",
+      "condition": "shuffled_context",
+      "seed": 52014,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 175.0206353180861,
+      "later_count": 107,
+      "later_mean_nll": 1.635706872131646
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-263-legacy",
+      "condition": "shuffled_context",
+      "seed": 52014,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 2213.1898934231554,
+      "later_count": 788,
+      "later_mean_nll": 2.8086166160192327
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-904",
+      "condition": "shuffled_context",
+      "seed": 52014,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 1021.5176315639402,
+      "later_count": 397,
+      "later_mean_nll": 2.573092270941915
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2080",
+      "condition": "shuffled_context",
+      "seed": 52014,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 143.00665038141543,
+      "later_count": 95,
+      "later_mean_nll": 1.5053331619096362
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2060",
+      "condition": "shuffled_context",
+      "seed": 52014,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 396.7318995466605,
+      "later_count": 120,
+      "later_mean_nll": 3.306099162888837
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2061",
+      "condition": "shuffled_context",
+      "seed": 52014,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 288.43786685512134,
+      "later_count": 67,
+      "later_mean_nll": 4.3050427888824085
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-186",
+      "condition": "shuffled_context",
+      "seed": 52014,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 4763.130221396615,
+      "later_count": 335,
+      "later_mean_nll": 14.218299168348102
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-487",
+      "condition": "shuffled_context",
+      "seed": 52014,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 337.3118509479728,
+      "later_count": 312,
+      "later_mean_nll": 1.0811277273973487
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-23",
+      "condition": "shuffled_context",
+      "seed": 52014,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 1958.591387016037,
+      "later_count": 761,
+      "later_mean_nll": 2.5737074730828344
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-376",
+      "condition": "shuffled_context",
+      "seed": 52015,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 626.1965676095116,
+      "later_count": 158,
+      "later_mean_nll": 3.9632694152500734
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-888",
+      "condition": "shuffled_context",
+      "seed": 52015,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 30.71281500741407,
+      "later_count": 37,
+      "later_mean_nll": 0.8300760812814613
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-889",
+      "condition": "shuffled_context",
+      "seed": 52015,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 71.55853064492457,
+      "later_count": 46,
+      "later_mean_nll": 1.5556202314114036
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-789",
+      "condition": "shuffled_context",
+      "seed": 52015,
+      "first_nll": 1.7917442107882302,
+      "later_nll_sum": 152.49464263772418,
+      "later_count": 119,
+      "later_mean_nll": 1.2814675851909596
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-370",
+      "condition": "shuffled_context",
+      "seed": 52015,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 173.29617013898445,
+      "later_count": 107,
+      "later_mean_nll": 1.6195903751306957
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-263-legacy",
+      "condition": "shuffled_context",
+      "seed": 52015,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 2210.1808181303663,
+      "later_count": 788,
+      "later_mean_nll": 2.8047979925512263
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-904",
+      "condition": "shuffled_context",
+      "seed": 52015,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 1006.1874350118426,
+      "later_count": 397,
+      "later_mean_nll": 2.5344771662766816
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2080",
+      "condition": "shuffled_context",
+      "seed": 52015,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 141.59867230347544,
+      "later_count": 95,
+      "later_mean_nll": 1.4905123400365836
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2060",
+      "condition": "shuffled_context",
+      "seed": 52015,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 396.7318995466605,
+      "later_count": 120,
+      "later_mean_nll": 3.306099162888837
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2061",
+      "condition": "shuffled_context",
+      "seed": 52015,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 288.42558541044525,
+      "later_count": 67,
+      "later_mean_nll": 4.304859483737989
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-186",
+      "condition": "shuffled_context",
+      "seed": 52015,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 4762.444319156532,
+      "later_count": 335,
+      "later_mean_nll": 14.216251698974723
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-487",
+      "condition": "shuffled_context",
+      "seed": 52015,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 332.5173758336978,
+      "later_count": 312,
+      "later_mean_nll": 1.0657608199798008
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-23",
+      "condition": "shuffled_context",
+      "seed": 52015,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 1948.5531482934884,
+      "later_count": 761,
+      "later_mean_nll": 2.5605166206221925
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-376",
+      "condition": "shuffled_context",
+      "seed": 52016,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 660.2512850361552,
+      "later_count": 158,
+      "later_mean_nll": 4.178805601494654
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-888",
+      "condition": "shuffled_context",
+      "seed": 52016,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 32.297548368427734,
+      "later_count": 37,
+      "later_mean_nll": 0.872906712660209
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-889",
+      "condition": "shuffled_context",
+      "seed": 52016,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 77.34029922439905,
+      "later_count": 46,
+      "later_mean_nll": 1.6813108527043272
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-789",
+      "condition": "shuffled_context",
+      "seed": 52016,
+      "first_nll": 1.7917442107882302,
+      "later_nll_sum": 151.69222015560746,
+      "later_count": 119,
+      "later_mean_nll": 1.274724539122752
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-370",
+      "condition": "shuffled_context",
+      "seed": 52016,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 175.33507787764862,
+      "later_count": 107,
+      "later_mean_nll": 1.6386455876415758
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-263-legacy",
+      "condition": "shuffled_context",
+      "seed": 52016,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 2297.392314467775,
+      "later_count": 788,
+      "later_mean_nll": 2.9154724802890546
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-904",
+      "condition": "shuffled_context",
+      "seed": 52016,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 1036.2875663002606,
+      "later_count": 397,
+      "later_mean_nll": 2.6102961367764745
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2080",
+      "condition": "shuffled_context",
+      "seed": 52016,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 142.90280700858355,
+      "later_count": 95,
+      "later_mean_nll": 1.5042400737745638
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2060",
+      "condition": "shuffled_context",
+      "seed": 52016,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 415.1206101999982,
+      "later_count": 120,
+      "later_mean_nll": 3.4593384183333185
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2061",
+      "condition": "shuffled_context",
+      "seed": 52016,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 297.6537607414976,
+      "later_count": 67,
+      "later_mean_nll": 4.442593443902949
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-186",
+      "condition": "shuffled_context",
+      "seed": 52016,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 4769.143207575883,
+      "later_count": 335,
+      "later_mean_nll": 14.23624838082353
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-487",
+      "condition": "shuffled_context",
+      "seed": 52016,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 355.8150486767205,
+      "later_count": 312,
+      "later_mean_nll": 1.140432848322822
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-23",
+      "condition": "shuffled_context",
+      "seed": 52016,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 2033.253597399419,
+      "later_count": 761,
+      "later_mean_nll": 2.671818130616845
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-376",
+      "condition": "shuffled_context",
+      "seed": 52017,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 669.2664417727019,
+      "later_count": 158,
+      "later_mean_nll": 4.23586355552343
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-888",
+      "condition": "shuffled_context",
+      "seed": 52017,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 33.70772026780061,
+      "later_count": 37,
+      "later_mean_nll": 0.9110194666973138
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-889",
+      "condition": "shuffled_context",
+      "seed": 52017,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 79.0416012956217,
+      "later_count": 46,
+      "later_mean_nll": 1.7182956803396021
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-789",
+      "condition": "shuffled_context",
+      "seed": 52017,
+      "first_nll": 1.7917442107882302,
+      "later_nll_sum": 153.54421478010426,
+      "later_count": 119,
+      "later_mean_nll": 1.29028751916054
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-370",
+      "condition": "shuffled_context",
+      "seed": 52017,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 177.64335647897323,
+      "later_count": 107,
+      "later_mean_nll": 1.6602182848502172
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-263-legacy",
+      "condition": "shuffled_context",
+      "seed": 52017,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 2359.8632836414818,
+      "later_count": 788,
+      "later_mean_nll": 2.994750359951119
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-904",
+      "condition": "shuffled_context",
+      "seed": 52017,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 1030.1152691958455,
+      "later_count": 397,
+      "later_mean_nll": 2.594748788906412
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2080",
+      "condition": "shuffled_context",
+      "seed": 52017,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 144.88066089668186,
+      "later_count": 95,
+      "later_mean_nll": 1.5250595883861249
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2060",
+      "condition": "shuffled_context",
+      "seed": 52017,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 429.1589566217966,
+      "later_count": 120,
+      "later_mean_nll": 3.576324638514972
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2061",
+      "condition": "shuffled_context",
+      "seed": 52017,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 304.7948630511666,
+      "later_count": 67,
+      "later_mean_nll": 4.549177060465173
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-186",
+      "condition": "shuffled_context",
+      "seed": 52017,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 4773.559162430387,
+      "later_count": 335,
+      "later_mean_nll": 14.249430335613097
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-487",
+      "condition": "shuffled_context",
+      "seed": 52017,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 370.61616258936954,
+      "later_count": 312,
+      "later_mean_nll": 1.1878723159915692
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-23",
+      "condition": "shuffled_context",
+      "seed": 52017,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 2087.6335887795103,
+      "later_count": 761,
+      "later_mean_nll": 2.74327672638569
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-376",
+      "condition": "shuffled_context",
+      "seed": 52018,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 610.1702899109799,
+      "later_count": 158,
+      "later_mean_nll": 3.8618372779175947
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-888",
+      "condition": "shuffled_context",
+      "seed": 52018,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 26.215471883856726,
+      "later_count": 37,
+      "later_mean_nll": 0.7085262671312628
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-889",
+      "condition": "shuffled_context",
+      "seed": 52018,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 69.98132829079698,
+      "later_count": 46,
+      "later_mean_nll": 1.521333223712978
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-789",
+      "condition": "shuffled_context",
+      "seed": 52018,
+      "first_nll": 1.7917442107882302,
+      "later_nll_sum": 144.36400585956738,
+      "later_count": 119,
+      "later_mean_nll": 1.2131429063829193
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-370",
+      "condition": "shuffled_context",
+      "seed": 52018,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 168.722341863707,
+      "later_count": 107,
+      "later_mean_nll": 1.5768443164832429
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-263-legacy",
+      "condition": "shuffled_context",
+      "seed": 52018,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 2281.8774916917037,
+      "later_count": 788,
+      "later_mean_nll": 2.8957836188981014
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-904",
+      "condition": "shuffled_context",
+      "seed": 52018,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 989.0157391642781,
+      "later_count": 397,
+      "later_mean_nll": 2.49122352434327
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2080",
+      "condition": "shuffled_context",
+      "seed": 52018,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 137.42081248479235,
+      "later_count": 95,
+      "later_mean_nll": 1.4465348682609722
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2060",
+      "condition": "shuffled_context",
+      "seed": 52018,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 415.1206101999982,
+      "later_count": 120,
+      "later_mean_nll": 3.4593384183333185
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2061",
+      "condition": "shuffled_context",
+      "seed": 52018,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 297.843330653436,
+      "later_count": 67,
+      "later_mean_nll": 4.445422845573672
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-186",
+      "condition": "shuffled_context",
+      "seed": 52018,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 4752.93042365409,
+      "later_count": 335,
+      "later_mean_nll": 14.187852010907731
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-487",
+      "condition": "shuffled_context",
+      "seed": 52018,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 295.58961191968365,
+      "later_count": 312,
+      "later_mean_nll": 0.9474026023066784
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-23",
+      "condition": "shuffled_context",
+      "seed": 52018,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 2012.0715943535918,
+      "later_count": 761,
+      "later_mean_nll": 2.643983698230738
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-376",
+      "condition": "shuffled_context",
+      "seed": 52019,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 788.457321132529,
+      "later_count": 158,
+      "later_mean_nll": 4.9902362096995505
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-888",
+      "condition": "shuffled_context",
+      "seed": 52019,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 33.86685723978136,
+      "later_count": 37,
+      "later_mean_nll": 0.9153204659400367
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-889",
+      "condition": "shuffled_context",
+      "seed": 52019,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 95.971847409491,
+      "later_count": 46,
+      "later_mean_nll": 2.0863445089019783
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-789",
+      "condition": "shuffled_context",
+      "seed": 52019,
+      "first_nll": 1.7917442107882302,
+      "later_nll_sum": 155.72867472967008,
+      "later_count": 119,
+      "later_mean_nll": 1.3086443254594122
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-370",
+      "condition": "shuffled_context",
+      "seed": 52019,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 181.81032452382087,
+      "later_count": 107,
+      "later_mean_nll": 1.6991619114375782
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-263-legacy",
+      "condition": "shuffled_context",
+      "seed": 52019,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 2338.6677755504575,
+      "later_count": 788,
+      "later_mean_nll": 2.9678525070437276
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-904",
+      "condition": "shuffled_context",
+      "seed": 52019,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 1031.4865161360513,
+      "later_count": 397,
+      "later_mean_nll": 2.5982028114258218
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2080",
+      "condition": "shuffled_context",
+      "seed": 52019,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 149.53999260819586,
+      "later_count": 95,
+      "later_mean_nll": 1.5741051853494301
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2060",
+      "condition": "shuffled_context",
+      "seed": 52019,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 421.93461373130157,
+      "later_count": 120,
+      "later_mean_nll": 3.5161217810941796
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2061",
+      "condition": "shuffled_context",
+      "seed": 52019,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 301.14870527407425,
+      "later_count": 67,
+      "later_mean_nll": 4.494756795135437
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-186",
+      "condition": "shuffled_context",
+      "seed": 52019,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 4772.072674275063,
+      "later_count": 335,
+      "later_mean_nll": 14.244993057537503
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-487",
+      "condition": "shuffled_context",
+      "seed": 52019,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 365.8528386260816,
+      "later_count": 312,
+      "later_mean_nll": 1.1726052520066719
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-23",
+      "condition": "shuffled_context",
+      "seed": 52019,
+      "first_nll": 12.882129616859828,
+      "later_nll_sum": 2109.575198108577,
+      "later_count": 761,
+      "later_mean_nll": 2.772109327343728
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-376",
+      "condition": "uniform_no_data",
+      "seed": null,
+      "first_nll": 11.090370147631774,
+      "later_count": 158,
+      "later_nll_sum": 1487.7877959512177,
+      "later_mean_nll": 9.416378455387454
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-888",
+      "condition": "uniform_no_data",
+      "seed": null,
+      "first_nll": 11.090370147631774,
+      "later_count": 37,
+      "later_nll_sum": 348.4060028493358,
+      "later_mean_nll": 9.416378455387454
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-889",
+      "condition": "uniform_no_data",
+      "seed": null,
+      "first_nll": 11.090370147631774,
+      "later_count": 46,
+      "later_nll_sum": 433.15340894782287,
+      "later_mean_nll": 9.416378455387454
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-789",
+      "condition": "uniform_no_data",
+      "seed": null,
+      "first_nll": 11.090370147631774,
+      "later_count": 119,
+      "later_nll_sum": 1120.549036191107,
+      "later_mean_nll": 9.416378455387454
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-370",
+      "condition": "uniform_no_data",
+      "seed": null,
+      "first_nll": 11.090370147631774,
+      "later_count": 107,
+      "later_nll_sum": 1007.5524947264576,
+      "later_mean_nll": 9.416378455387454
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-263-legacy",
+      "condition": "uniform_no_data",
+      "seed": null,
+      "first_nll": 11.090370147631774,
+      "later_count": 788,
+      "later_nll_sum": 7420.106222845314,
+      "later_mean_nll": 9.416378455387454
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-904",
+      "condition": "uniform_no_data",
+      "seed": null,
+      "first_nll": 11.090370147631774,
+      "later_count": 397,
+      "later_nll_sum": 3738.302246788819,
+      "later_mean_nll": 9.416378455387454
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2080",
+      "condition": "uniform_no_data",
+      "seed": null,
+      "first_nll": 11.090370147631774,
+      "later_count": 95,
+      "later_nll_sum": 894.5559532618081,
+      "later_mean_nll": 9.416378455387454
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2060",
+      "condition": "uniform_no_data",
+      "seed": null,
+      "first_nll": 11.090370147631774,
+      "later_count": 120,
+      "later_nll_sum": 1129.9654146464945,
+      "later_mean_nll": 9.416378455387454
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-2061",
+      "condition": "uniform_no_data",
+      "seed": null,
+      "first_nll": 11.090370147631774,
+      "later_count": 67,
+      "later_nll_sum": 630.8973565109594,
+      "later_mean_nll": 9.416378455387454
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-186",
+      "condition": "uniform_no_data",
+      "seed": null,
+      "first_nll": 11.090370147631774,
+      "later_count": 335,
+      "later_nll_sum": 3154.486782554797,
+      "later_mean_nll": 9.416378455387454
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-487",
+      "condition": "uniform_no_data",
+      "seed": null,
+      "first_nll": 11.090370147631774,
+      "later_count": 312,
+      "later_nll_sum": 2937.910078080886,
+      "later_mean_nll": 9.416378455387454
+    },
+    {
+      "fold": 1,
+      "work": "mutopia-23",
+      "condition": "uniform_no_data",
+      "seed": null,
+      "first_nll": 11.090370147631774,
+      "later_count": 761,
+      "later_nll_sum": 7165.864004549852,
+      "later_mean_nll": 9.416378455387454
+    },
+    {
+      "fold": 2,
+      "work": "mutopia-583",
+      "condition": "global",
+      "seed": null,
+      "first_nll": 2.833198085616391,
+      "later_nll_sum": 175.27719745053054,
+      "later_count": 79,
+      "later_mean_nll": 2.2186987019054496
+    },
+    {
+      "fold": 2,
+      "work": "mutopia-2243",
+      "condition": "global",
+      "seed": null,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 204.35387216973143,
+      "later_count": 168,
+      "later_mean_nll": 1.2163920962484014
+    },
+    {
+      "fold": 2,
+      "work": "mutopia-583",
+      "condition": "previous_max_gate_binned",
+      "seed": null,
+      "first_nll": 2.833198085616391,
+      "later_nll_sum": 124.65637407968377,
+      "later_count": 79,
+      "later_mean_nll": 1.5779287858187818
+    },
+    {
+      "fold": 2,
+      "work": "mutopia-2243",
+      "condition": "previous_max_gate_binned",
+      "seed": null,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 176.26141898360848,
+      "later_count": 168,
+      "later_mean_nll": 1.0491751129976696
+    },
+    {
+      "fold": 2,
+      "work": "mutopia-583",
+      "condition": "shuffled_context",
+      "seed": 52000,
+      "first_nll": 2.833198085616391,
+      "later_nll_sum": 177.93693108593556,
+      "later_count": 79,
+      "later_mean_nll": 2.2523662162776654
+    },
+    {
+      "fold": 2,
+      "work": "mutopia-2243",
+      "condition": "shuffled_context",
+      "seed": 52000,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 213.5361666468889,
+      "later_count": 168,
+      "later_mean_nll": 1.2710486109933863
+    },
+    {
+      "fold": 2,
+      "work": "mutopia-583",
+      "condition": "shuffled_context",
+      "seed": 52001,
+      "first_nll": 2.833198085616391,
+      "later_nll_sum": 173.38670352371233,
+      "later_count": 79,
+      "later_mean_nll": 2.194768399034333
+    },
+    {
+      "fold": 2,
+      "work": "mutopia-2243",
+      "condition": "shuffled_context",
+      "seed": 52001,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 214.03431935603996,
+      "later_count": 168,
+      "later_mean_nll": 1.274013805690714
+    },
+    {
+      "fold": 2,
+      "work": "mutopia-583",
+      "condition": "shuffled_context",
+      "seed": 52002,
+      "first_nll": 2.833198085616391,
+      "later_nll_sum": 175.0905160241538,
+      "later_count": 79,
+      "later_mean_nll": 2.2163356458753647
+    },
+    {
+      "fold": 2,
+      "work": "mutopia-2243",
+      "condition": "shuffled_context",
+      "seed": 52002,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 213.53966650029278,
+      "later_count": 168,
+      "later_mean_nll": 1.2710694434541239
+    },
+    {
+      "fold": 2,
+      "work": "mutopia-583",
+      "condition": "shuffled_context",
+      "seed": 52003,
+      "first_nll": 2.833198085616391,
+      "later_nll_sum": 173.36733212480885,
+      "later_count": 79,
+      "later_mean_nll": 2.1945231914532766
+    },
+    {
+      "fold": 2,
+      "work": "mutopia-2243",
+      "condition": "shuffled_context",
+      "seed": 52003,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 213.8191953568185,
+      "later_count": 168,
+      "later_mean_nll": 1.2727333056953483
+    },
+    {
+      "fold": 2,
+      "work": "mutopia-583",
+      "condition": "shuffled_context",
+      "seed": 52004,
+      "first_nll": 2.833198085616391,
+      "later_nll_sum": 172.83951062573908,
+      "later_count": 79,
+      "later_mean_nll": 2.187841906654925
+    },
+    {
+      "fold": 2,
+      "work": "mutopia-2243",
+      "condition": "shuffled_context",
+      "seed": 52004,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 211.84242498038395,
+      "later_count": 168,
+      "later_mean_nll": 1.2609668153594282
+    },
+    {
+      "fold": 2,
+      "work": "mutopia-583",
+      "condition": "shuffled_context",
+      "seed": 52005,
+      "first_nll": 2.833198085616391,
+      "later_nll_sum": 166.14509999394843,
+      "later_count": 79,
+      "later_mean_nll": 2.1031025315689678
+    },
+    {
+      "fold": 2,
+      "work": "mutopia-2243",
+      "condition": "shuffled_context",
+      "seed": 52005,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 215.6398772821276,
+      "later_count": 168,
+      "later_mean_nll": 1.2835706981079025
+    },
+    {
+      "fold": 2,
+      "work": "mutopia-583",
+      "condition": "shuffled_context",
+      "seed": 52006,
+      "first_nll": 2.833198085616391,
+      "later_nll_sum": 177.21194047053814,
+      "later_count": 79,
+      "later_mean_nll": 2.2431891198802294
+    },
+    {
+      "fold": 2,
+      "work": "mutopia-2243",
+      "condition": "shuffled_context",
+      "seed": 52006,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 212.934979061358,
+      "later_count": 168,
+      "later_mean_nll": 1.2674701134604645
+    },
+    {
+      "fold": 2,
+      "work": "mutopia-583",
+      "condition": "shuffled_context",
+      "seed": 52007,
+      "first_nll": 2.833198085616391,
+      "later_nll_sum": 173.47076191019758,
+      "later_count": 79,
+      "later_mean_nll": 2.195832429243007
+    },
+    {
+      "fold": 2,
+      "work": "mutopia-2243",
+      "condition": "shuffled_context",
+      "seed": 52007,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 214.98758254197708,
+      "later_count": 168,
+      "later_mean_nll": 1.2796879913212922
+    },
+    {
+      "fold": 2,
+      "work": "mutopia-583",
+      "condition": "shuffled_context",
+      "seed": 52008,
+      "first_nll": 2.833198085616391,
+      "later_nll_sum": 179.0530646935431,
+      "later_count": 79,
+      "later_mean_nll": 2.2664944897916848
+    },
+    {
+      "fold": 2,
+      "work": "mutopia-2243",
+      "condition": "shuffled_context",
+      "seed": 52008,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 215.59598180090182,
+      "later_count": 168,
+      "later_mean_nll": 1.2833094154815585
+    },
+    {
+      "fold": 2,
+      "work": "mutopia-583",
+      "condition": "shuffled_context",
+      "seed": 52009,
+      "first_nll": 2.833198085616391,
+      "later_nll_sum": 182.15485189838668,
+      "later_count": 79,
+      "later_mean_nll": 2.3057576189669198
+    },
+    {
+      "fold": 2,
+      "work": "mutopia-2243",
+      "condition": "shuffled_context",
+      "seed": 52009,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 215.16340094215528,
+      "later_count": 168,
+      "later_mean_nll": 1.280734529417591
+    },
+    {
+      "fold": 2,
+      "work": "mutopia-583",
+      "condition": "shuffled_context",
+      "seed": 52010,
+      "first_nll": 2.833198085616391,
+      "later_nll_sum": 177.07293137725492,
+      "later_count": 79,
+      "later_mean_nll": 2.2414295111044926
+    },
+    {
+      "fold": 2,
+      "work": "mutopia-2243",
+      "condition": "shuffled_context",
+      "seed": 52010,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 216.5381538724877,
+      "later_count": 168,
+      "later_mean_nll": 1.2889175825743315
+    },
+    {
+      "fold": 2,
+      "work": "mutopia-583",
+      "condition": "shuffled_context",
+      "seed": 52011,
+      "first_nll": 2.833198085616391,
+      "later_nll_sum": 170.25467751828046,
+      "later_count": 79,
+      "later_mean_nll": 2.155122500231398
+    },
+    {
+      "fold": 2,
+      "work": "mutopia-2243",
+      "condition": "shuffled_context",
+      "seed": 52011,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 216.47546057476944,
+      "later_count": 168,
+      "later_mean_nll": 1.2885444081831514
+    },
+    {
+      "fold": 2,
+      "work": "mutopia-583",
+      "condition": "shuffled_context",
+      "seed": 52012,
+      "first_nll": 2.833198085616391,
+      "later_nll_sum": 175.90114131137867,
+      "later_count": 79,
+      "later_mean_nll": 2.2265967254604893
+    },
+    {
+      "fold": 2,
+      "work": "mutopia-2243",
+      "condition": "shuffled_context",
+      "seed": 52012,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 218.3128043592856,
+      "later_count": 168,
+      "later_mean_nll": 1.299480978329081
+    },
+    {
+      "fold": 2,
+      "work": "mutopia-583",
+      "condition": "shuffled_context",
+      "seed": 52013,
+      "first_nll": 2.833198085616391,
+      "later_nll_sum": 173.37181733321512,
+      "later_count": 79,
+      "later_mean_nll": 2.1945799662432295
+    },
+    {
+      "fold": 2,
+      "work": "mutopia-2243",
+      "condition": "shuffled_context",
+      "seed": 52013,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 214.73192164033654,
+      "later_count": 168,
+      "later_mean_nll": 1.2781662002400984
+    },
+    {
+      "fold": 2,
+      "work": "mutopia-583",
+      "condition": "shuffled_context",
+      "seed": 52014,
+      "first_nll": 2.833198085616391,
+      "later_nll_sum": 173.338724426042,
+      "later_count": 79,
+      "later_mean_nll": 2.194161068684076
+    },
+    {
+      "fold": 2,
+      "work": "mutopia-2243",
+      "condition": "shuffled_context",
+      "seed": 52014,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 216.822191428406,
+      "later_count": 168,
+      "later_mean_nll": 1.2906082823119405
+    },
+    {
+      "fold": 2,
+      "work": "mutopia-583",
+      "condition": "shuffled_context",
+      "seed": 52015,
+      "first_nll": 2.833198085616391,
+      "later_nll_sum": 173.3624793848215,
+      "later_count": 79,
+      "later_mean_nll": 2.194461764364829
+    },
+    {
+      "fold": 2,
+      "work": "mutopia-2243",
+      "condition": "shuffled_context",
+      "seed": 52015,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 214.81989864706043,
+      "later_count": 168,
+      "later_mean_nll": 1.2786898728991691
+    },
+    {
+      "fold": 2,
+      "work": "mutopia-583",
+      "condition": "shuffled_context",
+      "seed": 52016,
+      "first_nll": 2.833198085616391,
+      "later_nll_sum": 177.7356791869141,
+      "later_count": 79,
+      "later_mean_nll": 2.2498187238849887
+    },
+    {
+      "fold": 2,
+      "work": "mutopia-2243",
+      "condition": "shuffled_context",
+      "seed": 52016,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 213.1257854639145,
+      "later_count": 168,
+      "later_mean_nll": 1.268605865856634
+    },
+    {
+      "fold": 2,
+      "work": "mutopia-583",
+      "condition": "shuffled_context",
+      "seed": 52017,
+      "first_nll": 2.833198085616391,
+      "later_nll_sum": 179.6858444232439,
+      "later_count": 79,
+      "later_mean_nll": 2.2745043597878976
+    },
+    {
+      "fold": 2,
+      "work": "mutopia-2243",
+      "condition": "shuffled_context",
+      "seed": 52017,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 215.67517113524386,
+      "later_count": 168,
+      "later_mean_nll": 1.2837807805669277
+    },
+    {
+      "fold": 2,
+      "work": "mutopia-583",
+      "condition": "shuffled_context",
+      "seed": 52018,
+      "first_nll": 2.833198085616391,
+      "later_nll_sum": 173.58634174687103,
+      "later_count": 79,
+      "later_mean_nll": 2.1972954651502663
+    },
+    {
+      "fold": 2,
+      "work": "mutopia-2243",
+      "condition": "shuffled_context",
+      "seed": 52018,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 212.90054568953536,
+      "later_count": 168,
+      "later_mean_nll": 1.267265152913901
+    },
+    {
+      "fold": 2,
+      "work": "mutopia-583",
+      "condition": "shuffled_context",
+      "seed": 52019,
+      "first_nll": 2.833198085616391,
+      "later_nll_sum": 183.81290141613533,
+      "later_count": 79,
+      "later_mean_nll": 2.326745587546017
+    },
+    {
+      "fold": 2,
+      "work": "mutopia-2243",
+      "condition": "shuffled_context",
+      "seed": 52019,
+      "first_nll": 13.923583491687989,
+      "later_nll_sum": 219.0775358216812,
+      "later_count": 168,
+      "later_mean_nll": 1.304032951319531
+    },
+    {
+      "fold": 2,
+      "work": "mutopia-583",
+      "condition": "uniform_no_data",
+      "seed": null,
+      "first_nll": 11.090370147631774,
+      "later_count": 79,
+      "later_nll_sum": 743.8938979756089,
+      "later_mean_nll": 9.416378455387454
+    },
+    {
+      "fold": 2,
+      "work": "mutopia-2243",
+      "condition": "uniform_no_data",
+      "seed": null,
+      "first_nll": 11.090370147631774,
+      "later_count": 168,
+      "later_nll_sum": 1581.9515805050924,
+      "later_mean_nll": 9.416378455387454
+    },
+    {
+      "fold": 3,
+      "work": "mutopia-98-legacy",
+      "condition": "global",
+      "seed": null,
+      "first_nll": 13.980741905527937,
+      "later_nll_sum": 158.95541196366537,
+      "later_count": 126,
+      "later_mean_nll": 1.261550888600519
+    },
+    {
+      "fold": 3,
+      "work": "mutopia-98-legacy",
+      "condition": "previous_max_gate_binned",
+      "seed": null,
+      "first_nll": 13.980741905527937,
+      "later_nll_sum": 156.8170591353254,
+      "later_count": 126,
+      "later_mean_nll": 1.2445798344073442
+    },
+    {
+      "fold": 3,
+      "work": "mutopia-98-legacy",
+      "condition": "shuffled_context",
+      "seed": 52000,
+      "first_nll": 13.980741905527937,
+      "later_nll_sum": 155.97768247574206,
+      "later_count": 126,
+      "later_mean_nll": 1.237918114886842
+    },
+    {
+      "fold": 3,
+      "work": "mutopia-98-legacy",
+      "condition": "shuffled_context",
+      "seed": 52001,
+      "first_nll": 13.980741905527937,
+      "later_nll_sum": 154.35168892898582,
+      "later_count": 126,
+      "later_mean_nll": 1.2250134041983003
+    },
+    {
+      "fold": 3,
+      "work": "mutopia-98-legacy",
+      "condition": "shuffled_context",
+      "seed": 52002,
+      "first_nll": 13.980741905527937,
+      "later_nll_sum": 152.58284195867165,
+      "later_count": 126,
+      "later_mean_nll": 1.2109749361799338
+    },
+    {
+      "fold": 3,
+      "work": "mutopia-98-legacy",
+      "condition": "shuffled_context",
+      "seed": 52003,
+      "first_nll": 13.980741905527937,
+      "later_nll_sum": 154.1785011378845,
+      "later_count": 126,
+      "later_mean_nll": 1.2236388979197181
+    },
+    {
+      "fold": 3,
+      "work": "mutopia-98-legacy",
+      "condition": "shuffled_context",
+      "seed": 52004,
+      "first_nll": 13.980741905527937,
+      "later_nll_sum": 154.14611771289538,
+      "later_count": 126,
+      "later_mean_nll": 1.2233818866102808
+    },
+    {
+      "fold": 3,
+      "work": "mutopia-98-legacy",
+      "condition": "shuffled_context",
+      "seed": 52005,
+      "first_nll": 13.980741905527937,
+      "later_nll_sum": 155.22454479877516,
+      "later_count": 126,
+      "later_mean_nll": 1.2319408317363107
+    },
+    {
+      "fold": 3,
+      "work": "mutopia-98-legacy",
+      "condition": "shuffled_context",
+      "seed": 52006,
+      "first_nll": 13.980741905527937,
+      "later_nll_sum": 157.62790619660487,
+      "later_count": 126,
+      "later_mean_nll": 1.251015128544483
+    },
+    {
+      "fold": 3,
+      "work": "mutopia-98-legacy",
+      "condition": "shuffled_context",
+      "seed": 52007,
+      "first_nll": 13.980741905527937,
+      "later_nll_sum": 154.62780150940907,
+      "later_count": 126,
+      "later_mean_nll": 1.2272047738841991
+    },
+    {
+      "fold": 3,
+      "work": "mutopia-98-legacy",
+      "condition": "shuffled_context",
+      "seed": 52008,
+      "first_nll": 13.980741905527937,
+      "later_nll_sum": 156.4375021004636,
+      "later_count": 126,
+      "later_mean_nll": 1.2415674769878062
+    },
+    {
+      "fold": 3,
+      "work": "mutopia-98-legacy",
+      "condition": "shuffled_context",
+      "seed": 52009,
+      "first_nll": 13.980741905527937,
+      "later_nll_sum": 157.07819527622775,
+      "later_count": 126,
+      "later_mean_nll": 1.246652343462125
+    },
+    {
+      "fold": 3,
+      "work": "mutopia-98-legacy",
+      "condition": "shuffled_context",
+      "seed": 52010,
+      "first_nll": 13.980741905527937,
+      "later_nll_sum": 156.05587708579216,
+      "later_count": 126,
+      "later_mean_nll": 1.2385387070300966
+    },
+    {
+      "fold": 3,
+      "work": "mutopia-98-legacy",
+      "condition": "shuffled_context",
+      "seed": 52011,
+      "first_nll": 13.980741905527937,
+      "later_nll_sum": 153.37603963620455,
+      "later_count": 126,
+      "later_mean_nll": 1.2172701558428933
+    },
+    {
+      "fold": 3,
+      "work": "mutopia-98-legacy",
+      "condition": "shuffled_context",
+      "seed": 52012,
+      "first_nll": 13.980741905527937,
+      "later_nll_sum": 154.46221279612482,
+      "later_count": 126,
+      "later_mean_nll": 1.2258905777470224
+    },
+    {
+      "fold": 3,
+      "work": "mutopia-98-legacy",
+      "condition": "shuffled_context",
+      "seed": 52013,
+      "first_nll": 13.980741905527937,
+      "later_nll_sum": 153.05211152423644,
+      "later_count": 126,
+      "later_mean_nll": 1.2146992978114004
+    },
+    {
+      "fold": 3,
+      "work": "mutopia-98-legacy",
+      "condition": "shuffled_context",
+      "seed": 52014,
+      "first_nll": 13.980741905527937,
+      "later_nll_sum": 151.7629059523727,
+      "later_count": 126,
+      "later_mean_nll": 1.2044675075585134
+    },
+    {
+      "fold": 3,
+      "work": "mutopia-98-legacy",
+      "condition": "shuffled_context",
+      "seed": 52015,
+      "first_nll": 13.980741905527937,
+      "later_nll_sum": 153.81032717415837,
+      "later_count": 126,
+      "later_mean_nll": 1.2207168823345904
+    },
+    {
+      "fold": 3,
+      "work": "mutopia-98-legacy",
+      "condition": "shuffled_context",
+      "seed": 52016,
+      "first_nll": 13.980741905527937,
+      "later_nll_sum": 155.12441432477306,
+      "later_count": 126,
+      "later_mean_nll": 1.2311461454347068
+    },
+    {
+      "fold": 3,
+      "work": "mutopia-98-legacy",
+      "condition": "shuffled_context",
+      "seed": 52017,
+      "first_nll": 13.980741905527937,
+      "later_nll_sum": 156.11601871179894,
+      "later_count": 126,
+      "later_mean_nll": 1.2390160215222137
+    },
+    {
+      "fold": 3,
+      "work": "mutopia-98-legacy",
+      "condition": "shuffled_context",
+      "seed": 52018,
+      "first_nll": 13.980741905527937,
+      "later_nll_sum": 159.06099083974632,
+      "later_count": 126,
+      "later_mean_nll": 1.2623888161884629
+    },
+    {
+      "fold": 3,
+      "work": "mutopia-98-legacy",
+      "condition": "shuffled_context",
+      "seed": 52019,
+      "first_nll": 13.980741905527937,
+      "later_nll_sum": 155.7357202532676,
+      "later_count": 126,
+      "later_mean_nll": 1.235997779787838
+    },
+    {
+      "fold": 3,
+      "work": "mutopia-98-legacy",
+      "condition": "uniform_no_data",
+      "seed": null,
+      "first_nll": 11.090370147631774,
+      "later_count": 126,
+      "later_nll_sum": 1186.4636853788193,
+      "later_mean_nll": 9.416378455387454
+    }
+  ],
+  "aggregates": {
+    "uniform_no_data": {
+      "works": 18,
+      "eligible": 18,
+      "later_count": 4172,
+      "work_macro": 9.416378455387454,
+      "pooled": 9.416378455387454,
+      "fold_macro": 9.416378455387454,
+      "folds": [
+        {
+          "fold": 0,
+          "works": 2,
+          "eligible": 2,
+          "later_count": 457,
+          "work_macro": 9.416378455387454,
+          "pooled": 9.416378455387454
+        },
+        {
+          "fold": 1,
+          "works": 13,
+          "eligible": 13,
+          "later_count": 3342,
+          "work_macro": 9.416378455387454,
+          "pooled": 9.416378455387454
+        },
+        {
+          "fold": 2,
+          "works": 2,
+          "eligible": 2,
+          "later_count": 247,
+          "work_macro": 9.416378455387454,
+          "pooled": 9.416378455387456
+        },
+        {
+          "fold": 3,
+          "works": 1,
+          "eligible": 1,
+          "later_count": 126,
+          "work_macro": 9.416378455387454,
+          "pooled": 9.416378455387454
+        }
+      ]
+    },
+    "global": {
+      "works": 18,
+      "eligible": 18,
+      "later_count": 4172,
+      "work_macro": 2.663904930107367,
+      "pooled": 3.0697348504077606,
+      "fold_macro": 2.0044232959189987,
+      "folds": [
+        {
+          "fold": 0,
+          "works": 2,
+          "eligible": 2,
+          "later_count": 457,
+          "work_macro": 2.02255569025481,
+          "pooled": 2.0759841874969682
+        },
+        {
+          "fold": 1,
+          "works": 13,
+          "eligible": 13,
+          "later_count": 3342,
+          "work_macro": 3.01604120574374,
+          "pooled": 3.3870803532708362
+        },
+        {
+          "fold": 2,
+          "works": 2,
+          "eligible": 2,
+          "later_count": 247,
+          "work_macro": 1.7175453990769256,
+          "pooled": 1.5369678931994413
+        },
+        {
+          "fold": 3,
+          "works": 1,
+          "eligible": 1,
+          "later_count": 126,
+          "work_macro": 1.261550888600519,
+          "pooled": 1.261550888600519
+        }
+      ]
+    },
+    "previous_max_gate_binned": {
+      "works": 18,
+      "eligible": 18,
+      "later_count": 4172,
+      "work_macro": 2.434030085727935,
+      "pooled": 2.9989111115597997,
+      "fold_macro": 1.6996344352830126,
+      "folds": [
+        {
+          "fold": 0,
+          "works": 2,
+          "eligible": 2,
+          "later_count": 457,
+          "work_macro": 1.3804017850213828,
+          "pooled": 1.387574308630799
+        },
+        {
+          "fold": 1,
+          "works": 13,
+          "eligible": 13,
+          "later_count": 3342,
+          "work_macro": 2.8600041722950977,
+          "pooled": 3.416996064088747
+        },
+        {
+          "fold": 2,
+          "works": 2,
+          "eligible": 2,
+          "later_count": 247,
+          "work_macro": 1.3135519494082257,
+          "pooled": 1.2182906601752723
+        },
+        {
+          "fold": 3,
+          "works": 1,
+          "eligible": 1,
+          "later_count": 126,
+          "work_macro": 1.2445798344073442,
+          "pooled": 1.2445798344073444
+        }
+      ]
+    },
+    "shuffled_context_20_seeds": {
+      "works": 18,
+      "eligible": 18,
+      "later_count": 4172,
+      "work_macro": 2.849892095743392,
+      "pooled": 3.3291094875819818,
+      "fold_macro": 2.0482401440091875,
+      "folds": [
+        {
+          "fold": 0,
+          "works": 2,
+          "eligible": 2,
+          "later_count": 457,
+          "work_macro": 1.926606304246944,
+          "pooled": 1.9755892618834388
+        },
+        {
+          "fold": 1,
+          "works": 13,
+          "eligible": 13,
+          "later_count": 3342,
+          "work_macro": 3.285691686871904,
+          "pooled": 3.7225444056890336
+        },
+        {
+          "fold": 2,
+          "works": 2,
+          "eligible": 2,
+          "later_count": 247,
+          "work_macro": 1.7501906006345158,
+          "pooled": 1.5806381201572441
+        },
+        {
+          "fold": 3,
+          "works": 1,
+          "eligible": 1,
+          "later_count": 126,
+          "work_macro": 1.2304719842833869,
+          "pooled": 1.2304719842833869
+        }
+      ]
+    }
+  },
+  "cpu_seconds": 1.4023087669999998,
+  "python": "3.12.14",
+  "sources_unchanged": true,
+  "scope": "Retrospective cross-validation on 18 historically trained/observed works, not a fresh prospective test. Each fold fits anew without its evaluation works or linked siblings. Prior research/model choice saw this corpus. No held-out/reserved work enters fit or score.",
+  "new_midi": 0
+}

@@ -1,0 +1,968 @@
+{"event": "fit_attempt", "fold": 0, "condition": "global", "seed": null, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-583", "mutopia-370", "mutopia-98-legacy", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-2243", "mutopia-23"], "evaluation_ids": ["mutopia-1578", "mutopia-1558"]}
+{"event": "fit_complete", "fold": 0, "condition": "global", "seed": null}
+{"event": "prediction_attempt", "fold": 0, "condition": "global", "seed": null, "work": "mutopia-1578"}
+{"event": "prediction_complete", "fold": 0, "condition": "global", "seed": null, "work": "mutopia-1578"}
+{"event": "prediction_attempt", "fold": 0, "condition": "global", "seed": null, "work": "mutopia-1558"}
+{"event": "prediction_complete", "fold": 0, "condition": "global", "seed": null, "work": "mutopia-1558"}
+{"event": "fit_attempt", "fold": 0, "condition": "previous_max_gate_binned", "seed": null, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-583", "mutopia-370", "mutopia-98-legacy", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-2243", "mutopia-23"], "evaluation_ids": ["mutopia-1578", "mutopia-1558"]}
+{"event": "fit_complete", "fold": 0, "condition": "previous_max_gate_binned", "seed": null}
+{"event": "prediction_attempt", "fold": 0, "condition": "previous_max_gate_binned", "seed": null, "work": "mutopia-1578"}
+{"event": "prediction_complete", "fold": 0, "condition": "previous_max_gate_binned", "seed": null, "work": "mutopia-1578"}
+{"event": "prediction_attempt", "fold": 0, "condition": "previous_max_gate_binned", "seed": null, "work": "mutopia-1558"}
+{"event": "prediction_complete", "fold": 0, "condition": "previous_max_gate_binned", "seed": null, "work": "mutopia-1558"}
+{"event": "fit_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52000, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-583", "mutopia-370", "mutopia-98-legacy", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-2243", "mutopia-23"], "evaluation_ids": ["mutopia-1578", "mutopia-1558"]}
+{"event": "fit_complete", "fold": 0, "condition": "shuffled_context", "seed": 52000}
+{"event": "prediction_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52000, "work": "mutopia-1578"}
+{"event": "prediction_complete", "fold": 0, "condition": "shuffled_context", "seed": 52000, "work": "mutopia-1578"}
+{"event": "prediction_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52000, "work": "mutopia-1558"}
+{"event": "prediction_complete", "fold": 0, "condition": "shuffled_context", "seed": 52000, "work": "mutopia-1558"}
+{"event": "fit_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52001, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-583", "mutopia-370", "mutopia-98-legacy", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-2243", "mutopia-23"], "evaluation_ids": ["mutopia-1578", "mutopia-1558"]}
+{"event": "fit_complete", "fold": 0, "condition": "shuffled_context", "seed": 52001}
+{"event": "prediction_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52001, "work": "mutopia-1578"}
+{"event": "prediction_complete", "fold": 0, "condition": "shuffled_context", "seed": 52001, "work": "mutopia-1578"}
+{"event": "prediction_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52001, "work": "mutopia-1558"}
+{"event": "prediction_complete", "fold": 0, "condition": "shuffled_context", "seed": 52001, "work": "mutopia-1558"}
+{"event": "fit_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52002, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-583", "mutopia-370", "mutopia-98-legacy", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-2243", "mutopia-23"], "evaluation_ids": ["mutopia-1578", "mutopia-1558"]}
+{"event": "fit_complete", "fold": 0, "condition": "shuffled_context", "seed": 52002}
+{"event": "prediction_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52002, "work": "mutopia-1578"}
+{"event": "prediction_complete", "fold": 0, "condition": "shuffled_context", "seed": 52002, "work": "mutopia-1578"}
+{"event": "prediction_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52002, "work": "mutopia-1558"}
+{"event": "prediction_complete", "fold": 0, "condition": "shuffled_context", "seed": 52002, "work": "mutopia-1558"}
+{"event": "fit_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52003, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-583", "mutopia-370", "mutopia-98-legacy", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-2243", "mutopia-23"], "evaluation_ids": ["mutopia-1578", "mutopia-1558"]}
+{"event": "fit_complete", "fold": 0, "condition": "shuffled_context", "seed": 52003}
+{"event": "prediction_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52003, "work": "mutopia-1578"}
+{"event": "prediction_complete", "fold": 0, "condition": "shuffled_context", "seed": 52003, "work": "mutopia-1578"}
+{"event": "prediction_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52003, "work": "mutopia-1558"}
+{"event": "prediction_complete", "fold": 0, "condition": "shuffled_context", "seed": 52003, "work": "mutopia-1558"}
+{"event": "fit_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52004, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-583", "mutopia-370", "mutopia-98-legacy", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-2243", "mutopia-23"], "evaluation_ids": ["mutopia-1578", "mutopia-1558"]}
+{"event": "fit_complete", "fold": 0, "condition": "shuffled_context", "seed": 52004}
+{"event": "prediction_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52004, "work": "mutopia-1578"}
+{"event": "prediction_complete", "fold": 0, "condition": "shuffled_context", "seed": 52004, "work": "mutopia-1578"}
+{"event": "prediction_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52004, "work": "mutopia-1558"}
+{"event": "prediction_complete", "fold": 0, "condition": "shuffled_context", "seed": 52004, "work": "mutopia-1558"}
+{"event": "fit_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52005, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-583", "mutopia-370", "mutopia-98-legacy", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-2243", "mutopia-23"], "evaluation_ids": ["mutopia-1578", "mutopia-1558"]}
+{"event": "fit_complete", "fold": 0, "condition": "shuffled_context", "seed": 52005}
+{"event": "prediction_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52005, "work": "mutopia-1578"}
+{"event": "prediction_complete", "fold": 0, "condition": "shuffled_context", "seed": 52005, "work": "mutopia-1578"}
+{"event": "prediction_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52005, "work": "mutopia-1558"}
+{"event": "prediction_complete", "fold": 0, "condition": "shuffled_context", "seed": 52005, "work": "mutopia-1558"}
+{"event": "fit_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52006, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-583", "mutopia-370", "mutopia-98-legacy", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-2243", "mutopia-23"], "evaluation_ids": ["mutopia-1578", "mutopia-1558"]}
+{"event": "fit_complete", "fold": 0, "condition": "shuffled_context", "seed": 52006}
+{"event": "prediction_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52006, "work": "mutopia-1578"}
+{"event": "prediction_complete", "fold": 0, "condition": "shuffled_context", "seed": 52006, "work": "mutopia-1578"}
+{"event": "prediction_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52006, "work": "mutopia-1558"}
+{"event": "prediction_complete", "fold": 0, "condition": "shuffled_context", "seed": 52006, "work": "mutopia-1558"}
+{"event": "fit_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52007, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-583", "mutopia-370", "mutopia-98-legacy", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-2243", "mutopia-23"], "evaluation_ids": ["mutopia-1578", "mutopia-1558"]}
+{"event": "fit_complete", "fold": 0, "condition": "shuffled_context", "seed": 52007}
+{"event": "prediction_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52007, "work": "mutopia-1578"}
+{"event": "prediction_complete", "fold": 0, "condition": "shuffled_context", "seed": 52007, "work": "mutopia-1578"}
+{"event": "prediction_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52007, "work": "mutopia-1558"}
+{"event": "prediction_complete", "fold": 0, "condition": "shuffled_context", "seed": 52007, "work": "mutopia-1558"}
+{"event": "fit_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52008, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-583", "mutopia-370", "mutopia-98-legacy", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-2243", "mutopia-23"], "evaluation_ids": ["mutopia-1578", "mutopia-1558"]}
+{"event": "fit_complete", "fold": 0, "condition": "shuffled_context", "seed": 52008}
+{"event": "prediction_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52008, "work": "mutopia-1578"}
+{"event": "prediction_complete", "fold": 0, "condition": "shuffled_context", "seed": 52008, "work": "mutopia-1578"}
+{"event": "prediction_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52008, "work": "mutopia-1558"}
+{"event": "prediction_complete", "fold": 0, "condition": "shuffled_context", "seed": 52008, "work": "mutopia-1558"}
+{"event": "fit_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52009, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-583", "mutopia-370", "mutopia-98-legacy", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-2243", "mutopia-23"], "evaluation_ids": ["mutopia-1578", "mutopia-1558"]}
+{"event": "fit_complete", "fold": 0, "condition": "shuffled_context", "seed": 52009}
+{"event": "prediction_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52009, "work": "mutopia-1578"}
+{"event": "prediction_complete", "fold": 0, "condition": "shuffled_context", "seed": 52009, "work": "mutopia-1578"}
+{"event": "prediction_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52009, "work": "mutopia-1558"}
+{"event": "prediction_complete", "fold": 0, "condition": "shuffled_context", "seed": 52009, "work": "mutopia-1558"}
+{"event": "fit_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52010, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-583", "mutopia-370", "mutopia-98-legacy", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-2243", "mutopia-23"], "evaluation_ids": ["mutopia-1578", "mutopia-1558"]}
+{"event": "fit_complete", "fold": 0, "condition": "shuffled_context", "seed": 52010}
+{"event": "prediction_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52010, "work": "mutopia-1578"}
+{"event": "prediction_complete", "fold": 0, "condition": "shuffled_context", "seed": 52010, "work": "mutopia-1578"}
+{"event": "prediction_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52010, "work": "mutopia-1558"}
+{"event": "prediction_complete", "fold": 0, "condition": "shuffled_context", "seed": 52010, "work": "mutopia-1558"}
+{"event": "fit_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52011, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-583", "mutopia-370", "mutopia-98-legacy", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-2243", "mutopia-23"], "evaluation_ids": ["mutopia-1578", "mutopia-1558"]}
+{"event": "fit_complete", "fold": 0, "condition": "shuffled_context", "seed": 52011}
+{"event": "prediction_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52011, "work": "mutopia-1578"}
+{"event": "prediction_complete", "fold": 0, "condition": "shuffled_context", "seed": 52011, "work": "mutopia-1578"}
+{"event": "prediction_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52011, "work": "mutopia-1558"}
+{"event": "prediction_complete", "fold": 0, "condition": "shuffled_context", "seed": 52011, "work": "mutopia-1558"}
+{"event": "fit_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52012, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-583", "mutopia-370", "mutopia-98-legacy", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-2243", "mutopia-23"], "evaluation_ids": ["mutopia-1578", "mutopia-1558"]}
+{"event": "fit_complete", "fold": 0, "condition": "shuffled_context", "seed": 52012}
+{"event": "prediction_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52012, "work": "mutopia-1578"}
+{"event": "prediction_complete", "fold": 0, "condition": "shuffled_context", "seed": 52012, "work": "mutopia-1578"}
+{"event": "prediction_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52012, "work": "mutopia-1558"}
+{"event": "prediction_complete", "fold": 0, "condition": "shuffled_context", "seed": 52012, "work": "mutopia-1558"}
+{"event": "fit_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52013, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-583", "mutopia-370", "mutopia-98-legacy", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-2243", "mutopia-23"], "evaluation_ids": ["mutopia-1578", "mutopia-1558"]}
+{"event": "fit_complete", "fold": 0, "condition": "shuffled_context", "seed": 52013}
+{"event": "prediction_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52013, "work": "mutopia-1578"}
+{"event": "prediction_complete", "fold": 0, "condition": "shuffled_context", "seed": 52013, "work": "mutopia-1578"}
+{"event": "prediction_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52013, "work": "mutopia-1558"}
+{"event": "prediction_complete", "fold": 0, "condition": "shuffled_context", "seed": 52013, "work": "mutopia-1558"}
+{"event": "fit_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52014, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-583", "mutopia-370", "mutopia-98-legacy", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-2243", "mutopia-23"], "evaluation_ids": ["mutopia-1578", "mutopia-1558"]}
+{"event": "fit_complete", "fold": 0, "condition": "shuffled_context", "seed": 52014}
+{"event": "prediction_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52014, "work": "mutopia-1578"}
+{"event": "prediction_complete", "fold": 0, "condition": "shuffled_context", "seed": 52014, "work": "mutopia-1578"}
+{"event": "prediction_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52014, "work": "mutopia-1558"}
+{"event": "prediction_complete", "fold": 0, "condition": "shuffled_context", "seed": 52014, "work": "mutopia-1558"}
+{"event": "fit_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52015, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-583", "mutopia-370", "mutopia-98-legacy", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-2243", "mutopia-23"], "evaluation_ids": ["mutopia-1578", "mutopia-1558"]}
+{"event": "fit_complete", "fold": 0, "condition": "shuffled_context", "seed": 52015}
+{"event": "prediction_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52015, "work": "mutopia-1578"}
+{"event": "prediction_complete", "fold": 0, "condition": "shuffled_context", "seed": 52015, "work": "mutopia-1578"}
+{"event": "prediction_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52015, "work": "mutopia-1558"}
+{"event": "prediction_complete", "fold": 0, "condition": "shuffled_context", "seed": 52015, "work": "mutopia-1558"}
+{"event": "fit_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52016, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-583", "mutopia-370", "mutopia-98-legacy", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-2243", "mutopia-23"], "evaluation_ids": ["mutopia-1578", "mutopia-1558"]}
+{"event": "fit_complete", "fold": 0, "condition": "shuffled_context", "seed": 52016}
+{"event": "prediction_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52016, "work": "mutopia-1578"}
+{"event": "prediction_complete", "fold": 0, "condition": "shuffled_context", "seed": 52016, "work": "mutopia-1578"}
+{"event": "prediction_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52016, "work": "mutopia-1558"}
+{"event": "prediction_complete", "fold": 0, "condition": "shuffled_context", "seed": 52016, "work": "mutopia-1558"}
+{"event": "fit_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52017, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-583", "mutopia-370", "mutopia-98-legacy", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-2243", "mutopia-23"], "evaluation_ids": ["mutopia-1578", "mutopia-1558"]}
+{"event": "fit_complete", "fold": 0, "condition": "shuffled_context", "seed": 52017}
+{"event": "prediction_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52017, "work": "mutopia-1578"}
+{"event": "prediction_complete", "fold": 0, "condition": "shuffled_context", "seed": 52017, "work": "mutopia-1578"}
+{"event": "prediction_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52017, "work": "mutopia-1558"}
+{"event": "prediction_complete", "fold": 0, "condition": "shuffled_context", "seed": 52017, "work": "mutopia-1558"}
+{"event": "fit_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52018, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-583", "mutopia-370", "mutopia-98-legacy", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-2243", "mutopia-23"], "evaluation_ids": ["mutopia-1578", "mutopia-1558"]}
+{"event": "fit_complete", "fold": 0, "condition": "shuffled_context", "seed": 52018}
+{"event": "prediction_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52018, "work": "mutopia-1578"}
+{"event": "prediction_complete", "fold": 0, "condition": "shuffled_context", "seed": 52018, "work": "mutopia-1578"}
+{"event": "prediction_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52018, "work": "mutopia-1558"}
+{"event": "prediction_complete", "fold": 0, "condition": "shuffled_context", "seed": 52018, "work": "mutopia-1558"}
+{"event": "fit_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52019, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-583", "mutopia-370", "mutopia-98-legacy", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-2243", "mutopia-23"], "evaluation_ids": ["mutopia-1578", "mutopia-1558"]}
+{"event": "fit_complete", "fold": 0, "condition": "shuffled_context", "seed": 52019}
+{"event": "prediction_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52019, "work": "mutopia-1578"}
+{"event": "prediction_complete", "fold": 0, "condition": "shuffled_context", "seed": 52019, "work": "mutopia-1578"}
+{"event": "prediction_attempt", "fold": 0, "condition": "shuffled_context", "seed": 52019, "work": "mutopia-1558"}
+{"event": "prediction_complete", "fold": 0, "condition": "shuffled_context", "seed": 52019, "work": "mutopia-1558"}
+{"event": "fit_attempt", "fold": 1, "condition": "global", "seed": null, "train_ids": ["mutopia-583", "mutopia-1578", "mutopia-1558", "mutopia-98-legacy", "mutopia-2243"], "evaluation_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-370", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-23"]}
+{"event": "fit_complete", "fold": 1, "condition": "global", "seed": null}
+{"event": "prediction_attempt", "fold": 1, "condition": "global", "seed": null, "work": "mutopia-376"}
+{"event": "prediction_complete", "fold": 1, "condition": "global", "seed": null, "work": "mutopia-376"}
+{"event": "prediction_attempt", "fold": 1, "condition": "global", "seed": null, "work": "mutopia-888"}
+{"event": "prediction_complete", "fold": 1, "condition": "global", "seed": null, "work": "mutopia-888"}
+{"event": "prediction_attempt", "fold": 1, "condition": "global", "seed": null, "work": "mutopia-889"}
+{"event": "prediction_complete", "fold": 1, "condition": "global", "seed": null, "work": "mutopia-889"}
+{"event": "prediction_attempt", "fold": 1, "condition": "global", "seed": null, "work": "mutopia-789"}
+{"event": "prediction_complete", "fold": 1, "condition": "global", "seed": null, "work": "mutopia-789"}
+{"event": "prediction_attempt", "fold": 1, "condition": "global", "seed": null, "work": "mutopia-370"}
+{"event": "prediction_complete", "fold": 1, "condition": "global", "seed": null, "work": "mutopia-370"}
+{"event": "prediction_attempt", "fold": 1, "condition": "global", "seed": null, "work": "mutopia-263-legacy"}
+{"event": "prediction_complete", "fold": 1, "condition": "global", "seed": null, "work": "mutopia-263-legacy"}
+{"event": "prediction_attempt", "fold": 1, "condition": "global", "seed": null, "work": "mutopia-904"}
+{"event": "prediction_complete", "fold": 1, "condition": "global", "seed": null, "work": "mutopia-904"}
+{"event": "prediction_attempt", "fold": 1, "condition": "global", "seed": null, "work": "mutopia-2080"}
+{"event": "prediction_complete", "fold": 1, "condition": "global", "seed": null, "work": "mutopia-2080"}
+{"event": "prediction_attempt", "fold": 1, "condition": "global", "seed": null, "work": "mutopia-2060"}
+{"event": "prediction_complete", "fold": 1, "condition": "global", "seed": null, "work": "mutopia-2060"}
+{"event": "prediction_attempt", "fold": 1, "condition": "global", "seed": null, "work": "mutopia-2061"}
+{"event": "prediction_complete", "fold": 1, "condition": "global", "seed": null, "work": "mutopia-2061"}
+{"event": "prediction_attempt", "fold": 1, "condition": "global", "seed": null, "work": "mutopia-186"}
+{"event": "prediction_complete", "fold": 1, "condition": "global", "seed": null, "work": "mutopia-186"}
+{"event": "prediction_attempt", "fold": 1, "condition": "global", "seed": null, "work": "mutopia-487"}
+{"event": "prediction_complete", "fold": 1, "condition": "global", "seed": null, "work": "mutopia-487"}
+{"event": "prediction_attempt", "fold": 1, "condition": "global", "seed": null, "work": "mutopia-23"}
+{"event": "prediction_complete", "fold": 1, "condition": "global", "seed": null, "work": "mutopia-23"}
+{"event": "fit_attempt", "fold": 1, "condition": "previous_max_gate_binned", "seed": null, "train_ids": ["mutopia-583", "mutopia-1578", "mutopia-1558", "mutopia-98-legacy", "mutopia-2243"], "evaluation_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-370", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-23"]}
+{"event": "fit_complete", "fold": 1, "condition": "previous_max_gate_binned", "seed": null}
+{"event": "prediction_attempt", "fold": 1, "condition": "previous_max_gate_binned", "seed": null, "work": "mutopia-376"}
+{"event": "prediction_complete", "fold": 1, "condition": "previous_max_gate_binned", "seed": null, "work": "mutopia-376"}
+{"event": "prediction_attempt", "fold": 1, "condition": "previous_max_gate_binned", "seed": null, "work": "mutopia-888"}
+{"event": "prediction_complete", "fold": 1, "condition": "previous_max_gate_binned", "seed": null, "work": "mutopia-888"}
+{"event": "prediction_attempt", "fold": 1, "condition": "previous_max_gate_binned", "seed": null, "work": "mutopia-889"}
+{"event": "prediction_complete", "fold": 1, "condition": "previous_max_gate_binned", "seed": null, "work": "mutopia-889"}
+{"event": "prediction_attempt", "fold": 1, "condition": "previous_max_gate_binned", "seed": null, "work": "mutopia-789"}
+{"event": "prediction_complete", "fold": 1, "condition": "previous_max_gate_binned", "seed": null, "work": "mutopia-789"}
+{"event": "prediction_attempt", "fold": 1, "condition": "previous_max_gate_binned", "seed": null, "work": "mutopia-370"}
+{"event": "prediction_complete", "fold": 1, "condition": "previous_max_gate_binned", "seed": null, "work": "mutopia-370"}
+{"event": "prediction_attempt", "fold": 1, "condition": "previous_max_gate_binned", "seed": null, "work": "mutopia-263-legacy"}
+{"event": "prediction_complete", "fold": 1, "condition": "previous_max_gate_binned", "seed": null, "work": "mutopia-263-legacy"}
+{"event": "prediction_attempt", "fold": 1, "condition": "previous_max_gate_binned", "seed": null, "work": "mutopia-904"}
+{"event": "prediction_complete", "fold": 1, "condition": "previous_max_gate_binned", "seed": null, "work": "mutopia-904"}
+{"event": "prediction_attempt", "fold": 1, "condition": "previous_max_gate_binned", "seed": null, "work": "mutopia-2080"}
+{"event": "prediction_complete", "fold": 1, "condition": "previous_max_gate_binned", "seed": null, "work": "mutopia-2080"}
+{"event": "prediction_attempt", "fold": 1, "condition": "previous_max_gate_binned", "seed": null, "work": "mutopia-2060"}
+{"event": "prediction_complete", "fold": 1, "condition": "previous_max_gate_binned", "seed": null, "work": "mutopia-2060"}
+{"event": "prediction_attempt", "fold": 1, "condition": "previous_max_gate_binned", "seed": null, "work": "mutopia-2061"}
+{"event": "prediction_complete", "fold": 1, "condition": "previous_max_gate_binned", "seed": null, "work": "mutopia-2061"}
+{"event": "prediction_attempt", "fold": 1, "condition": "previous_max_gate_binned", "seed": null, "work": "mutopia-186"}
+{"event": "prediction_complete", "fold": 1, "condition": "previous_max_gate_binned", "seed": null, "work": "mutopia-186"}
+{"event": "prediction_attempt", "fold": 1, "condition": "previous_max_gate_binned", "seed": null, "work": "mutopia-487"}
+{"event": "prediction_complete", "fold": 1, "condition": "previous_max_gate_binned", "seed": null, "work": "mutopia-487"}
+{"event": "prediction_attempt", "fold": 1, "condition": "previous_max_gate_binned", "seed": null, "work": "mutopia-23"}
+{"event": "prediction_complete", "fold": 1, "condition": "previous_max_gate_binned", "seed": null, "work": "mutopia-23"}
+{"event": "fit_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52000, "train_ids": ["mutopia-583", "mutopia-1578", "mutopia-1558", "mutopia-98-legacy", "mutopia-2243"], "evaluation_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-370", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-23"]}
+{"event": "fit_complete", "fold": 1, "condition": "shuffled_context", "seed": 52000}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52000, "work": "mutopia-376"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52000, "work": "mutopia-376"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52000, "work": "mutopia-888"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52000, "work": "mutopia-888"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52000, "work": "mutopia-889"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52000, "work": "mutopia-889"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52000, "work": "mutopia-789"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52000, "work": "mutopia-789"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52000, "work": "mutopia-370"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52000, "work": "mutopia-370"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52000, "work": "mutopia-263-legacy"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52000, "work": "mutopia-263-legacy"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52000, "work": "mutopia-904"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52000, "work": "mutopia-904"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52000, "work": "mutopia-2080"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52000, "work": "mutopia-2080"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52000, "work": "mutopia-2060"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52000, "work": "mutopia-2060"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52000, "work": "mutopia-2061"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52000, "work": "mutopia-2061"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52000, "work": "mutopia-186"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52000, "work": "mutopia-186"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52000, "work": "mutopia-487"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52000, "work": "mutopia-487"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52000, "work": "mutopia-23"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52000, "work": "mutopia-23"}
+{"event": "fit_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52001, "train_ids": ["mutopia-583", "mutopia-1578", "mutopia-1558", "mutopia-98-legacy", "mutopia-2243"], "evaluation_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-370", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-23"]}
+{"event": "fit_complete", "fold": 1, "condition": "shuffled_context", "seed": 52001}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52001, "work": "mutopia-376"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52001, "work": "mutopia-376"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52001, "work": "mutopia-888"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52001, "work": "mutopia-888"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52001, "work": "mutopia-889"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52001, "work": "mutopia-889"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52001, "work": "mutopia-789"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52001, "work": "mutopia-789"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52001, "work": "mutopia-370"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52001, "work": "mutopia-370"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52001, "work": "mutopia-263-legacy"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52001, "work": "mutopia-263-legacy"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52001, "work": "mutopia-904"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52001, "work": "mutopia-904"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52001, "work": "mutopia-2080"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52001, "work": "mutopia-2080"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52001, "work": "mutopia-2060"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52001, "work": "mutopia-2060"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52001, "work": "mutopia-2061"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52001, "work": "mutopia-2061"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52001, "work": "mutopia-186"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52001, "work": "mutopia-186"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52001, "work": "mutopia-487"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52001, "work": "mutopia-487"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52001, "work": "mutopia-23"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52001, "work": "mutopia-23"}
+{"event": "fit_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52002, "train_ids": ["mutopia-583", "mutopia-1578", "mutopia-1558", "mutopia-98-legacy", "mutopia-2243"], "evaluation_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-370", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-23"]}
+{"event": "fit_complete", "fold": 1, "condition": "shuffled_context", "seed": 52002}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52002, "work": "mutopia-376"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52002, "work": "mutopia-376"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52002, "work": "mutopia-888"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52002, "work": "mutopia-888"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52002, "work": "mutopia-889"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52002, "work": "mutopia-889"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52002, "work": "mutopia-789"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52002, "work": "mutopia-789"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52002, "work": "mutopia-370"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52002, "work": "mutopia-370"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52002, "work": "mutopia-263-legacy"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52002, "work": "mutopia-263-legacy"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52002, "work": "mutopia-904"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52002, "work": "mutopia-904"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52002, "work": "mutopia-2080"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52002, "work": "mutopia-2080"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52002, "work": "mutopia-2060"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52002, "work": "mutopia-2060"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52002, "work": "mutopia-2061"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52002, "work": "mutopia-2061"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52002, "work": "mutopia-186"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52002, "work": "mutopia-186"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52002, "work": "mutopia-487"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52002, "work": "mutopia-487"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52002, "work": "mutopia-23"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52002, "work": "mutopia-23"}
+{"event": "fit_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52003, "train_ids": ["mutopia-583", "mutopia-1578", "mutopia-1558", "mutopia-98-legacy", "mutopia-2243"], "evaluation_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-370", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-23"]}
+{"event": "fit_complete", "fold": 1, "condition": "shuffled_context", "seed": 52003}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52003, "work": "mutopia-376"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52003, "work": "mutopia-376"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52003, "work": "mutopia-888"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52003, "work": "mutopia-888"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52003, "work": "mutopia-889"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52003, "work": "mutopia-889"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52003, "work": "mutopia-789"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52003, "work": "mutopia-789"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52003, "work": "mutopia-370"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52003, "work": "mutopia-370"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52003, "work": "mutopia-263-legacy"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52003, "work": "mutopia-263-legacy"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52003, "work": "mutopia-904"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52003, "work": "mutopia-904"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52003, "work": "mutopia-2080"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52003, "work": "mutopia-2080"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52003, "work": "mutopia-2060"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52003, "work": "mutopia-2060"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52003, "work": "mutopia-2061"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52003, "work": "mutopia-2061"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52003, "work": "mutopia-186"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52003, "work": "mutopia-186"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52003, "work": "mutopia-487"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52003, "work": "mutopia-487"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52003, "work": "mutopia-23"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52003, "work": "mutopia-23"}
+{"event": "fit_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52004, "train_ids": ["mutopia-583", "mutopia-1578", "mutopia-1558", "mutopia-98-legacy", "mutopia-2243"], "evaluation_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-370", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-23"]}
+{"event": "fit_complete", "fold": 1, "condition": "shuffled_context", "seed": 52004}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52004, "work": "mutopia-376"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52004, "work": "mutopia-376"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52004, "work": "mutopia-888"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52004, "work": "mutopia-888"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52004, "work": "mutopia-889"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52004, "work": "mutopia-889"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52004, "work": "mutopia-789"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52004, "work": "mutopia-789"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52004, "work": "mutopia-370"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52004, "work": "mutopia-370"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52004, "work": "mutopia-263-legacy"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52004, "work": "mutopia-263-legacy"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52004, "work": "mutopia-904"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52004, "work": "mutopia-904"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52004, "work": "mutopia-2080"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52004, "work": "mutopia-2080"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52004, "work": "mutopia-2060"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52004, "work": "mutopia-2060"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52004, "work": "mutopia-2061"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52004, "work": "mutopia-2061"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52004, "work": "mutopia-186"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52004, "work": "mutopia-186"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52004, "work": "mutopia-487"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52004, "work": "mutopia-487"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52004, "work": "mutopia-23"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52004, "work": "mutopia-23"}
+{"event": "fit_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52005, "train_ids": ["mutopia-583", "mutopia-1578", "mutopia-1558", "mutopia-98-legacy", "mutopia-2243"], "evaluation_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-370", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-23"]}
+{"event": "fit_complete", "fold": 1, "condition": "shuffled_context", "seed": 52005}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52005, "work": "mutopia-376"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52005, "work": "mutopia-376"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52005, "work": "mutopia-888"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52005, "work": "mutopia-888"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52005, "work": "mutopia-889"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52005, "work": "mutopia-889"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52005, "work": "mutopia-789"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52005, "work": "mutopia-789"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52005, "work": "mutopia-370"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52005, "work": "mutopia-370"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52005, "work": "mutopia-263-legacy"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52005, "work": "mutopia-263-legacy"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52005, "work": "mutopia-904"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52005, "work": "mutopia-904"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52005, "work": "mutopia-2080"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52005, "work": "mutopia-2080"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52005, "work": "mutopia-2060"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52005, "work": "mutopia-2060"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52005, "work": "mutopia-2061"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52005, "work": "mutopia-2061"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52005, "work": "mutopia-186"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52005, "work": "mutopia-186"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52005, "work": "mutopia-487"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52005, "work": "mutopia-487"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52005, "work": "mutopia-23"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52005, "work": "mutopia-23"}
+{"event": "fit_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52006, "train_ids": ["mutopia-583", "mutopia-1578", "mutopia-1558", "mutopia-98-legacy", "mutopia-2243"], "evaluation_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-370", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-23"]}
+{"event": "fit_complete", "fold": 1, "condition": "shuffled_context", "seed": 52006}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52006, "work": "mutopia-376"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52006, "work": "mutopia-376"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52006, "work": "mutopia-888"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52006, "work": "mutopia-888"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52006, "work": "mutopia-889"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52006, "work": "mutopia-889"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52006, "work": "mutopia-789"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52006, "work": "mutopia-789"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52006, "work": "mutopia-370"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52006, "work": "mutopia-370"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52006, "work": "mutopia-263-legacy"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52006, "work": "mutopia-263-legacy"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52006, "work": "mutopia-904"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52006, "work": "mutopia-904"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52006, "work": "mutopia-2080"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52006, "work": "mutopia-2080"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52006, "work": "mutopia-2060"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52006, "work": "mutopia-2060"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52006, "work": "mutopia-2061"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52006, "work": "mutopia-2061"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52006, "work": "mutopia-186"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52006, "work": "mutopia-186"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52006, "work": "mutopia-487"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52006, "work": "mutopia-487"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52006, "work": "mutopia-23"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52006, "work": "mutopia-23"}
+{"event": "fit_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52007, "train_ids": ["mutopia-583", "mutopia-1578", "mutopia-1558", "mutopia-98-legacy", "mutopia-2243"], "evaluation_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-370", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-23"]}
+{"event": "fit_complete", "fold": 1, "condition": "shuffled_context", "seed": 52007}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52007, "work": "mutopia-376"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52007, "work": "mutopia-376"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52007, "work": "mutopia-888"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52007, "work": "mutopia-888"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52007, "work": "mutopia-889"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52007, "work": "mutopia-889"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52007, "work": "mutopia-789"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52007, "work": "mutopia-789"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52007, "work": "mutopia-370"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52007, "work": "mutopia-370"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52007, "work": "mutopia-263-legacy"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52007, "work": "mutopia-263-legacy"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52007, "work": "mutopia-904"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52007, "work": "mutopia-904"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52007, "work": "mutopia-2080"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52007, "work": "mutopia-2080"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52007, "work": "mutopia-2060"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52007, "work": "mutopia-2060"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52007, "work": "mutopia-2061"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52007, "work": "mutopia-2061"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52007, "work": "mutopia-186"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52007, "work": "mutopia-186"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52007, "work": "mutopia-487"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52007, "work": "mutopia-487"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52007, "work": "mutopia-23"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52007, "work": "mutopia-23"}
+{"event": "fit_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52008, "train_ids": ["mutopia-583", "mutopia-1578", "mutopia-1558", "mutopia-98-legacy", "mutopia-2243"], "evaluation_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-370", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-23"]}
+{"event": "fit_complete", "fold": 1, "condition": "shuffled_context", "seed": 52008}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52008, "work": "mutopia-376"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52008, "work": "mutopia-376"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52008, "work": "mutopia-888"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52008, "work": "mutopia-888"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52008, "work": "mutopia-889"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52008, "work": "mutopia-889"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52008, "work": "mutopia-789"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52008, "work": "mutopia-789"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52008, "work": "mutopia-370"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52008, "work": "mutopia-370"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52008, "work": "mutopia-263-legacy"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52008, "work": "mutopia-263-legacy"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52008, "work": "mutopia-904"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52008, "work": "mutopia-904"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52008, "work": "mutopia-2080"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52008, "work": "mutopia-2080"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52008, "work": "mutopia-2060"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52008, "work": "mutopia-2060"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52008, "work": "mutopia-2061"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52008, "work": "mutopia-2061"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52008, "work": "mutopia-186"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52008, "work": "mutopia-186"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52008, "work": "mutopia-487"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52008, "work": "mutopia-487"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52008, "work": "mutopia-23"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52008, "work": "mutopia-23"}
+{"event": "fit_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52009, "train_ids": ["mutopia-583", "mutopia-1578", "mutopia-1558", "mutopia-98-legacy", "mutopia-2243"], "evaluation_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-370", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-23"]}
+{"event": "fit_complete", "fold": 1, "condition": "shuffled_context", "seed": 52009}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52009, "work": "mutopia-376"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52009, "work": "mutopia-376"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52009, "work": "mutopia-888"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52009, "work": "mutopia-888"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52009, "work": "mutopia-889"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52009, "work": "mutopia-889"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52009, "work": "mutopia-789"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52009, "work": "mutopia-789"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52009, "work": "mutopia-370"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52009, "work": "mutopia-370"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52009, "work": "mutopia-263-legacy"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52009, "work": "mutopia-263-legacy"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52009, "work": "mutopia-904"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52009, "work": "mutopia-904"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52009, "work": "mutopia-2080"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52009, "work": "mutopia-2080"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52009, "work": "mutopia-2060"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52009, "work": "mutopia-2060"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52009, "work": "mutopia-2061"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52009, "work": "mutopia-2061"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52009, "work": "mutopia-186"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52009, "work": "mutopia-186"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52009, "work": "mutopia-487"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52009, "work": "mutopia-487"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52009, "work": "mutopia-23"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52009, "work": "mutopia-23"}
+{"event": "fit_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52010, "train_ids": ["mutopia-583", "mutopia-1578", "mutopia-1558", "mutopia-98-legacy", "mutopia-2243"], "evaluation_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-370", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-23"]}
+{"event": "fit_complete", "fold": 1, "condition": "shuffled_context", "seed": 52010}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52010, "work": "mutopia-376"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52010, "work": "mutopia-376"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52010, "work": "mutopia-888"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52010, "work": "mutopia-888"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52010, "work": "mutopia-889"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52010, "work": "mutopia-889"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52010, "work": "mutopia-789"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52010, "work": "mutopia-789"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52010, "work": "mutopia-370"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52010, "work": "mutopia-370"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52010, "work": "mutopia-263-legacy"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52010, "work": "mutopia-263-legacy"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52010, "work": "mutopia-904"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52010, "work": "mutopia-904"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52010, "work": "mutopia-2080"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52010, "work": "mutopia-2080"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52010, "work": "mutopia-2060"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52010, "work": "mutopia-2060"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52010, "work": "mutopia-2061"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52010, "work": "mutopia-2061"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52010, "work": "mutopia-186"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52010, "work": "mutopia-186"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52010, "work": "mutopia-487"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52010, "work": "mutopia-487"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52010, "work": "mutopia-23"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52010, "work": "mutopia-23"}
+{"event": "fit_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52011, "train_ids": ["mutopia-583", "mutopia-1578", "mutopia-1558", "mutopia-98-legacy", "mutopia-2243"], "evaluation_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-370", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-23"]}
+{"event": "fit_complete", "fold": 1, "condition": "shuffled_context", "seed": 52011}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52011, "work": "mutopia-376"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52011, "work": "mutopia-376"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52011, "work": "mutopia-888"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52011, "work": "mutopia-888"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52011, "work": "mutopia-889"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52011, "work": "mutopia-889"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52011, "work": "mutopia-789"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52011, "work": "mutopia-789"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52011, "work": "mutopia-370"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52011, "work": "mutopia-370"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52011, "work": "mutopia-263-legacy"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52011, "work": "mutopia-263-legacy"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52011, "work": "mutopia-904"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52011, "work": "mutopia-904"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52011, "work": "mutopia-2080"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52011, "work": "mutopia-2080"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52011, "work": "mutopia-2060"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52011, "work": "mutopia-2060"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52011, "work": "mutopia-2061"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52011, "work": "mutopia-2061"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52011, "work": "mutopia-186"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52011, "work": "mutopia-186"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52011, "work": "mutopia-487"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52011, "work": "mutopia-487"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52011, "work": "mutopia-23"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52011, "work": "mutopia-23"}
+{"event": "fit_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52012, "train_ids": ["mutopia-583", "mutopia-1578", "mutopia-1558", "mutopia-98-legacy", "mutopia-2243"], "evaluation_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-370", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-23"]}
+{"event": "fit_complete", "fold": 1, "condition": "shuffled_context", "seed": 52012}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52012, "work": "mutopia-376"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52012, "work": "mutopia-376"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52012, "work": "mutopia-888"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52012, "work": "mutopia-888"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52012, "work": "mutopia-889"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52012, "work": "mutopia-889"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52012, "work": "mutopia-789"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52012, "work": "mutopia-789"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52012, "work": "mutopia-370"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52012, "work": "mutopia-370"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52012, "work": "mutopia-263-legacy"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52012, "work": "mutopia-263-legacy"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52012, "work": "mutopia-904"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52012, "work": "mutopia-904"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52012, "work": "mutopia-2080"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52012, "work": "mutopia-2080"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52012, "work": "mutopia-2060"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52012, "work": "mutopia-2060"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52012, "work": "mutopia-2061"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52012, "work": "mutopia-2061"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52012, "work": "mutopia-186"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52012, "work": "mutopia-186"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52012, "work": "mutopia-487"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52012, "work": "mutopia-487"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52012, "work": "mutopia-23"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52012, "work": "mutopia-23"}
+{"event": "fit_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52013, "train_ids": ["mutopia-583", "mutopia-1578", "mutopia-1558", "mutopia-98-legacy", "mutopia-2243"], "evaluation_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-370", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-23"]}
+{"event": "fit_complete", "fold": 1, "condition": "shuffled_context", "seed": 52013}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52013, "work": "mutopia-376"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52013, "work": "mutopia-376"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52013, "work": "mutopia-888"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52013, "work": "mutopia-888"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52013, "work": "mutopia-889"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52013, "work": "mutopia-889"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52013, "work": "mutopia-789"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52013, "work": "mutopia-789"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52013, "work": "mutopia-370"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52013, "work": "mutopia-370"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52013, "work": "mutopia-263-legacy"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52013, "work": "mutopia-263-legacy"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52013, "work": "mutopia-904"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52013, "work": "mutopia-904"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52013, "work": "mutopia-2080"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52013, "work": "mutopia-2080"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52013, "work": "mutopia-2060"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52013, "work": "mutopia-2060"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52013, "work": "mutopia-2061"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52013, "work": "mutopia-2061"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52013, "work": "mutopia-186"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52013, "work": "mutopia-186"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52013, "work": "mutopia-487"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52013, "work": "mutopia-487"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52013, "work": "mutopia-23"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52013, "work": "mutopia-23"}
+{"event": "fit_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52014, "train_ids": ["mutopia-583", "mutopia-1578", "mutopia-1558", "mutopia-98-legacy", "mutopia-2243"], "evaluation_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-370", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-23"]}
+{"event": "fit_complete", "fold": 1, "condition": "shuffled_context", "seed": 52014}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52014, "work": "mutopia-376"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52014, "work": "mutopia-376"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52014, "work": "mutopia-888"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52014, "work": "mutopia-888"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52014, "work": "mutopia-889"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52014, "work": "mutopia-889"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52014, "work": "mutopia-789"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52014, "work": "mutopia-789"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52014, "work": "mutopia-370"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52014, "work": "mutopia-370"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52014, "work": "mutopia-263-legacy"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52014, "work": "mutopia-263-legacy"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52014, "work": "mutopia-904"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52014, "work": "mutopia-904"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52014, "work": "mutopia-2080"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52014, "work": "mutopia-2080"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52014, "work": "mutopia-2060"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52014, "work": "mutopia-2060"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52014, "work": "mutopia-2061"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52014, "work": "mutopia-2061"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52014, "work": "mutopia-186"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52014, "work": "mutopia-186"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52014, "work": "mutopia-487"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52014, "work": "mutopia-487"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52014, "work": "mutopia-23"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52014, "work": "mutopia-23"}
+{"event": "fit_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52015, "train_ids": ["mutopia-583", "mutopia-1578", "mutopia-1558", "mutopia-98-legacy", "mutopia-2243"], "evaluation_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-370", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-23"]}
+{"event": "fit_complete", "fold": 1, "condition": "shuffled_context", "seed": 52015}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52015, "work": "mutopia-376"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52015, "work": "mutopia-376"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52015, "work": "mutopia-888"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52015, "work": "mutopia-888"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52015, "work": "mutopia-889"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52015, "work": "mutopia-889"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52015, "work": "mutopia-789"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52015, "work": "mutopia-789"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52015, "work": "mutopia-370"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52015, "work": "mutopia-370"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52015, "work": "mutopia-263-legacy"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52015, "work": "mutopia-263-legacy"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52015, "work": "mutopia-904"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52015, "work": "mutopia-904"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52015, "work": "mutopia-2080"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52015, "work": "mutopia-2080"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52015, "work": "mutopia-2060"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52015, "work": "mutopia-2060"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52015, "work": "mutopia-2061"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52015, "work": "mutopia-2061"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52015, "work": "mutopia-186"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52015, "work": "mutopia-186"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52015, "work": "mutopia-487"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52015, "work": "mutopia-487"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52015, "work": "mutopia-23"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52015, "work": "mutopia-23"}
+{"event": "fit_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52016, "train_ids": ["mutopia-583", "mutopia-1578", "mutopia-1558", "mutopia-98-legacy", "mutopia-2243"], "evaluation_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-370", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-23"]}
+{"event": "fit_complete", "fold": 1, "condition": "shuffled_context", "seed": 52016}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52016, "work": "mutopia-376"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52016, "work": "mutopia-376"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52016, "work": "mutopia-888"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52016, "work": "mutopia-888"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52016, "work": "mutopia-889"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52016, "work": "mutopia-889"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52016, "work": "mutopia-789"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52016, "work": "mutopia-789"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52016, "work": "mutopia-370"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52016, "work": "mutopia-370"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52016, "work": "mutopia-263-legacy"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52016, "work": "mutopia-263-legacy"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52016, "work": "mutopia-904"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52016, "work": "mutopia-904"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52016, "work": "mutopia-2080"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52016, "work": "mutopia-2080"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52016, "work": "mutopia-2060"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52016, "work": "mutopia-2060"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52016, "work": "mutopia-2061"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52016, "work": "mutopia-2061"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52016, "work": "mutopia-186"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52016, "work": "mutopia-186"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52016, "work": "mutopia-487"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52016, "work": "mutopia-487"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52016, "work": "mutopia-23"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52016, "work": "mutopia-23"}
+{"event": "fit_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52017, "train_ids": ["mutopia-583", "mutopia-1578", "mutopia-1558", "mutopia-98-legacy", "mutopia-2243"], "evaluation_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-370", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-23"]}
+{"event": "fit_complete", "fold": 1, "condition": "shuffled_context", "seed": 52017}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52017, "work": "mutopia-376"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52017, "work": "mutopia-376"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52017, "work": "mutopia-888"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52017, "work": "mutopia-888"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52017, "work": "mutopia-889"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52017, "work": "mutopia-889"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52017, "work": "mutopia-789"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52017, "work": "mutopia-789"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52017, "work": "mutopia-370"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52017, "work": "mutopia-370"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52017, "work": "mutopia-263-legacy"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52017, "work": "mutopia-263-legacy"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52017, "work": "mutopia-904"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52017, "work": "mutopia-904"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52017, "work": "mutopia-2080"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52017, "work": "mutopia-2080"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52017, "work": "mutopia-2060"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52017, "work": "mutopia-2060"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52017, "work": "mutopia-2061"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52017, "work": "mutopia-2061"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52017, "work": "mutopia-186"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52017, "work": "mutopia-186"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52017, "work": "mutopia-487"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52017, "work": "mutopia-487"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52017, "work": "mutopia-23"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52017, "work": "mutopia-23"}
+{"event": "fit_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52018, "train_ids": ["mutopia-583", "mutopia-1578", "mutopia-1558", "mutopia-98-legacy", "mutopia-2243"], "evaluation_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-370", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-23"]}
+{"event": "fit_complete", "fold": 1, "condition": "shuffled_context", "seed": 52018}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52018, "work": "mutopia-376"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52018, "work": "mutopia-376"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52018, "work": "mutopia-888"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52018, "work": "mutopia-888"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52018, "work": "mutopia-889"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52018, "work": "mutopia-889"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52018, "work": "mutopia-789"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52018, "work": "mutopia-789"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52018, "work": "mutopia-370"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52018, "work": "mutopia-370"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52018, "work": "mutopia-263-legacy"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52018, "work": "mutopia-263-legacy"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52018, "work": "mutopia-904"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52018, "work": "mutopia-904"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52018, "work": "mutopia-2080"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52018, "work": "mutopia-2080"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52018, "work": "mutopia-2060"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52018, "work": "mutopia-2060"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52018, "work": "mutopia-2061"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52018, "work": "mutopia-2061"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52018, "work": "mutopia-186"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52018, "work": "mutopia-186"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52018, "work": "mutopia-487"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52018, "work": "mutopia-487"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52018, "work": "mutopia-23"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52018, "work": "mutopia-23"}
+{"event": "fit_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52019, "train_ids": ["mutopia-583", "mutopia-1578", "mutopia-1558", "mutopia-98-legacy", "mutopia-2243"], "evaluation_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-370", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-23"]}
+{"event": "fit_complete", "fold": 1, "condition": "shuffled_context", "seed": 52019}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52019, "work": "mutopia-376"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52019, "work": "mutopia-376"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52019, "work": "mutopia-888"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52019, "work": "mutopia-888"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52019, "work": "mutopia-889"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52019, "work": "mutopia-889"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52019, "work": "mutopia-789"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52019, "work": "mutopia-789"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52019, "work": "mutopia-370"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52019, "work": "mutopia-370"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52019, "work": "mutopia-263-legacy"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52019, "work": "mutopia-263-legacy"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52019, "work": "mutopia-904"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52019, "work": "mutopia-904"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52019, "work": "mutopia-2080"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52019, "work": "mutopia-2080"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52019, "work": "mutopia-2060"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52019, "work": "mutopia-2060"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52019, "work": "mutopia-2061"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52019, "work": "mutopia-2061"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52019, "work": "mutopia-186"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52019, "work": "mutopia-186"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52019, "work": "mutopia-487"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52019, "work": "mutopia-487"}
+{"event": "prediction_attempt", "fold": 1, "condition": "shuffled_context", "seed": 52019, "work": "mutopia-23"}
+{"event": "prediction_complete", "fold": 1, "condition": "shuffled_context", "seed": 52019, "work": "mutopia-23"}
+{"event": "fit_attempt", "fold": 2, "condition": "global", "seed": null, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-1578", "mutopia-1558", "mutopia-370", "mutopia-98-legacy", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-23"], "evaluation_ids": ["mutopia-583", "mutopia-2243"]}
+{"event": "fit_complete", "fold": 2, "condition": "global", "seed": null}
+{"event": "prediction_attempt", "fold": 2, "condition": "global", "seed": null, "work": "mutopia-583"}
+{"event": "prediction_complete", "fold": 2, "condition": "global", "seed": null, "work": "mutopia-583"}
+{"event": "prediction_attempt", "fold": 2, "condition": "global", "seed": null, "work": "mutopia-2243"}
+{"event": "prediction_complete", "fold": 2, "condition": "global", "seed": null, "work": "mutopia-2243"}
+{"event": "fit_attempt", "fold": 2, "condition": "previous_max_gate_binned", "seed": null, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-1578", "mutopia-1558", "mutopia-370", "mutopia-98-legacy", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-23"], "evaluation_ids": ["mutopia-583", "mutopia-2243"]}
+{"event": "fit_complete", "fold": 2, "condition": "previous_max_gate_binned", "seed": null}
+{"event": "prediction_attempt", "fold": 2, "condition": "previous_max_gate_binned", "seed": null, "work": "mutopia-583"}
+{"event": "prediction_complete", "fold": 2, "condition": "previous_max_gate_binned", "seed": null, "work": "mutopia-583"}
+{"event": "prediction_attempt", "fold": 2, "condition": "previous_max_gate_binned", "seed": null, "work": "mutopia-2243"}
+{"event": "prediction_complete", "fold": 2, "condition": "previous_max_gate_binned", "seed": null, "work": "mutopia-2243"}
+{"event": "fit_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52000, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-1578", "mutopia-1558", "mutopia-370", "mutopia-98-legacy", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-23"], "evaluation_ids": ["mutopia-583", "mutopia-2243"]}
+{"event": "fit_complete", "fold": 2, "condition": "shuffled_context", "seed": 52000}
+{"event": "prediction_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52000, "work": "mutopia-583"}
+{"event": "prediction_complete", "fold": 2, "condition": "shuffled_context", "seed": 52000, "work": "mutopia-583"}
+{"event": "prediction_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52000, "work": "mutopia-2243"}
+{"event": "prediction_complete", "fold": 2, "condition": "shuffled_context", "seed": 52000, "work": "mutopia-2243"}
+{"event": "fit_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52001, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-1578", "mutopia-1558", "mutopia-370", "mutopia-98-legacy", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-23"], "evaluation_ids": ["mutopia-583", "mutopia-2243"]}
+{"event": "fit_complete", "fold": 2, "condition": "shuffled_context", "seed": 52001}
+{"event": "prediction_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52001, "work": "mutopia-583"}
+{"event": "prediction_complete", "fold": 2, "condition": "shuffled_context", "seed": 52001, "work": "mutopia-583"}
+{"event": "prediction_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52001, "work": "mutopia-2243"}
+{"event": "prediction_complete", "fold": 2, "condition": "shuffled_context", "seed": 52001, "work": "mutopia-2243"}
+{"event": "fit_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52002, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-1578", "mutopia-1558", "mutopia-370", "mutopia-98-legacy", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-23"], "evaluation_ids": ["mutopia-583", "mutopia-2243"]}
+{"event": "fit_complete", "fold": 2, "condition": "shuffled_context", "seed": 52002}
+{"event": "prediction_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52002, "work": "mutopia-583"}
+{"event": "prediction_complete", "fold": 2, "condition": "shuffled_context", "seed": 52002, "work": "mutopia-583"}
+{"event": "prediction_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52002, "work": "mutopia-2243"}
+{"event": "prediction_complete", "fold": 2, "condition": "shuffled_context", "seed": 52002, "work": "mutopia-2243"}
+{"event": "fit_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52003, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-1578", "mutopia-1558", "mutopia-370", "mutopia-98-legacy", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-23"], "evaluation_ids": ["mutopia-583", "mutopia-2243"]}
+{"event": "fit_complete", "fold": 2, "condition": "shuffled_context", "seed": 52003}
+{"event": "prediction_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52003, "work": "mutopia-583"}
+{"event": "prediction_complete", "fold": 2, "condition": "shuffled_context", "seed": 52003, "work": "mutopia-583"}
+{"event": "prediction_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52003, "work": "mutopia-2243"}
+{"event": "prediction_complete", "fold": 2, "condition": "shuffled_context", "seed": 52003, "work": "mutopia-2243"}
+{"event": "fit_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52004, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-1578", "mutopia-1558", "mutopia-370", "mutopia-98-legacy", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-23"], "evaluation_ids": ["mutopia-583", "mutopia-2243"]}
+{"event": "fit_complete", "fold": 2, "condition": "shuffled_context", "seed": 52004}
+{"event": "prediction_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52004, "work": "mutopia-583"}
+{"event": "prediction_complete", "fold": 2, "condition": "shuffled_context", "seed": 52004, "work": "mutopia-583"}
+{"event": "prediction_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52004, "work": "mutopia-2243"}
+{"event": "prediction_complete", "fold": 2, "condition": "shuffled_context", "seed": 52004, "work": "mutopia-2243"}
+{"event": "fit_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52005, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-1578", "mutopia-1558", "mutopia-370", "mutopia-98-legacy", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-23"], "evaluation_ids": ["mutopia-583", "mutopia-2243"]}
+{"event": "fit_complete", "fold": 2, "condition": "shuffled_context", "seed": 52005}
+{"event": "prediction_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52005, "work": "mutopia-583"}
+{"event": "prediction_complete", "fold": 2, "condition": "shuffled_context", "seed": 52005, "work": "mutopia-583"}
+{"event": "prediction_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52005, "work": "mutopia-2243"}
+{"event": "prediction_complete", "fold": 2, "condition": "shuffled_context", "seed": 52005, "work": "mutopia-2243"}
+{"event": "fit_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52006, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-1578", "mutopia-1558", "mutopia-370", "mutopia-98-legacy", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-23"], "evaluation_ids": ["mutopia-583", "mutopia-2243"]}
+{"event": "fit_complete", "fold": 2, "condition": "shuffled_context", "seed": 52006}
+{"event": "prediction_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52006, "work": "mutopia-583"}
+{"event": "prediction_complete", "fold": 2, "condition": "shuffled_context", "seed": 52006, "work": "mutopia-583"}
+{"event": "prediction_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52006, "work": "mutopia-2243"}
+{"event": "prediction_complete", "fold": 2, "condition": "shuffled_context", "seed": 52006, "work": "mutopia-2243"}
+{"event": "fit_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52007, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-1578", "mutopia-1558", "mutopia-370", "mutopia-98-legacy", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-23"], "evaluation_ids": ["mutopia-583", "mutopia-2243"]}
+{"event": "fit_complete", "fold": 2, "condition": "shuffled_context", "seed": 52007}
+{"event": "prediction_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52007, "work": "mutopia-583"}
+{"event": "prediction_complete", "fold": 2, "condition": "shuffled_context", "seed": 52007, "work": "mutopia-583"}
+{"event": "prediction_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52007, "work": "mutopia-2243"}
+{"event": "prediction_complete", "fold": 2, "condition": "shuffled_context", "seed": 52007, "work": "mutopia-2243"}
+{"event": "fit_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52008, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-1578", "mutopia-1558", "mutopia-370", "mutopia-98-legacy", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-23"], "evaluation_ids": ["mutopia-583", "mutopia-2243"]}
+{"event": "fit_complete", "fold": 2, "condition": "shuffled_context", "seed": 52008}
+{"event": "prediction_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52008, "work": "mutopia-583"}
+{"event": "prediction_complete", "fold": 2, "condition": "shuffled_context", "seed": 52008, "work": "mutopia-583"}
+{"event": "prediction_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52008, "work": "mutopia-2243"}
+{"event": "prediction_complete", "fold": 2, "condition": "shuffled_context", "seed": 52008, "work": "mutopia-2243"}
+{"event": "fit_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52009, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-1578", "mutopia-1558", "mutopia-370", "mutopia-98-legacy", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-23"], "evaluation_ids": ["mutopia-583", "mutopia-2243"]}
+{"event": "fit_complete", "fold": 2, "condition": "shuffled_context", "seed": 52009}
+{"event": "prediction_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52009, "work": "mutopia-583"}
+{"event": "prediction_complete", "fold": 2, "condition": "shuffled_context", "seed": 52009, "work": "mutopia-583"}
+{"event": "prediction_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52009, "work": "mutopia-2243"}
+{"event": "prediction_complete", "fold": 2, "condition": "shuffled_context", "seed": 52009, "work": "mutopia-2243"}
+{"event": "fit_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52010, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-1578", "mutopia-1558", "mutopia-370", "mutopia-98-legacy", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-23"], "evaluation_ids": ["mutopia-583", "mutopia-2243"]}
+{"event": "fit_complete", "fold": 2, "condition": "shuffled_context", "seed": 52010}
+{"event": "prediction_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52010, "work": "mutopia-583"}
+{"event": "prediction_complete", "fold": 2, "condition": "shuffled_context", "seed": 52010, "work": "mutopia-583"}
+{"event": "prediction_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52010, "work": "mutopia-2243"}
+{"event": "prediction_complete", "fold": 2, "condition": "shuffled_context", "seed": 52010, "work": "mutopia-2243"}
+{"event": "fit_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52011, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-1578", "mutopia-1558", "mutopia-370", "mutopia-98-legacy", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-23"], "evaluation_ids": ["mutopia-583", "mutopia-2243"]}
+{"event": "fit_complete", "fold": 2, "condition": "shuffled_context", "seed": 52011}
+{"event": "prediction_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52011, "work": "mutopia-583"}
+{"event": "prediction_complete", "fold": 2, "condition": "shuffled_context", "seed": 52011, "work": "mutopia-583"}
+{"event": "prediction_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52011, "work": "mutopia-2243"}
+{"event": "prediction_complete", "fold": 2, "condition": "shuffled_context", "seed": 52011, "work": "mutopia-2243"}
+{"event": "fit_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52012, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-1578", "mutopia-1558", "mutopia-370", "mutopia-98-legacy", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-23"], "evaluation_ids": ["mutopia-583", "mutopia-2243"]}
+{"event": "fit_complete", "fold": 2, "condition": "shuffled_context", "seed": 52012}
+{"event": "prediction_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52012, "work": "mutopia-583"}
+{"event": "prediction_complete", "fold": 2, "condition": "shuffled_context", "seed": 52012, "work": "mutopia-583"}
+{"event": "prediction_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52012, "work": "mutopia-2243"}
+{"event": "prediction_complete", "fold": 2, "condition": "shuffled_context", "seed": 52012, "work": "mutopia-2243"}
+{"event": "fit_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52013, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-1578", "mutopia-1558", "mutopia-370", "mutopia-98-legacy", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-23"], "evaluation_ids": ["mutopia-583", "mutopia-2243"]}
+{"event": "fit_complete", "fold": 2, "condition": "shuffled_context", "seed": 52013}
+{"event": "prediction_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52013, "work": "mutopia-583"}
+{"event": "prediction_complete", "fold": 2, "condition": "shuffled_context", "seed": 52013, "work": "mutopia-583"}
+{"event": "prediction_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52013, "work": "mutopia-2243"}
+{"event": "prediction_complete", "fold": 2, "condition": "shuffled_context", "seed": 52013, "work": "mutopia-2243"}
+{"event": "fit_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52014, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-1578", "mutopia-1558", "mutopia-370", "mutopia-98-legacy", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-23"], "evaluation_ids": ["mutopia-583", "mutopia-2243"]}
+{"event": "fit_complete", "fold": 2, "condition": "shuffled_context", "seed": 52014}
+{"event": "prediction_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52014, "work": "mutopia-583"}
+{"event": "prediction_complete", "fold": 2, "condition": "shuffled_context", "seed": 52014, "work": "mutopia-583"}
+{"event": "prediction_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52014, "work": "mutopia-2243"}
+{"event": "prediction_complete", "fold": 2, "condition": "shuffled_context", "seed": 52014, "work": "mutopia-2243"}
+{"event": "fit_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52015, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-1578", "mutopia-1558", "mutopia-370", "mutopia-98-legacy", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-23"], "evaluation_ids": ["mutopia-583", "mutopia-2243"]}
+{"event": "fit_complete", "fold": 2, "condition": "shuffled_context", "seed": 52015}
+{"event": "prediction_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52015, "work": "mutopia-583"}
+{"event": "prediction_complete", "fold": 2, "condition": "shuffled_context", "seed": 52015, "work": "mutopia-583"}
+{"event": "prediction_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52015, "work": "mutopia-2243"}
+{"event": "prediction_complete", "fold": 2, "condition": "shuffled_context", "seed": 52015, "work": "mutopia-2243"}
+{"event": "fit_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52016, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-1578", "mutopia-1558", "mutopia-370", "mutopia-98-legacy", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-23"], "evaluation_ids": ["mutopia-583", "mutopia-2243"]}
+{"event": "fit_complete", "fold": 2, "condition": "shuffled_context", "seed": 52016}
+{"event": "prediction_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52016, "work": "mutopia-583"}
+{"event": "prediction_complete", "fold": 2, "condition": "shuffled_context", "seed": 52016, "work": "mutopia-583"}
+{"event": "prediction_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52016, "work": "mutopia-2243"}
+{"event": "prediction_complete", "fold": 2, "condition": "shuffled_context", "seed": 52016, "work": "mutopia-2243"}
+{"event": "fit_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52017, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-1578", "mutopia-1558", "mutopia-370", "mutopia-98-legacy", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-23"], "evaluation_ids": ["mutopia-583", "mutopia-2243"]}
+{"event": "fit_complete", "fold": 2, "condition": "shuffled_context", "seed": 52017}
+{"event": "prediction_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52017, "work": "mutopia-583"}
+{"event": "prediction_complete", "fold": 2, "condition": "shuffled_context", "seed": 52017, "work": "mutopia-583"}
+{"event": "prediction_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52017, "work": "mutopia-2243"}
+{"event": "prediction_complete", "fold": 2, "condition": "shuffled_context", "seed": 52017, "work": "mutopia-2243"}
+{"event": "fit_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52018, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-1578", "mutopia-1558", "mutopia-370", "mutopia-98-legacy", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-23"], "evaluation_ids": ["mutopia-583", "mutopia-2243"]}
+{"event": "fit_complete", "fold": 2, "condition": "shuffled_context", "seed": 52018}
+{"event": "prediction_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52018, "work": "mutopia-583"}
+{"event": "prediction_complete", "fold": 2, "condition": "shuffled_context", "seed": 52018, "work": "mutopia-583"}
+{"event": "prediction_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52018, "work": "mutopia-2243"}
+{"event": "prediction_complete", "fold": 2, "condition": "shuffled_context", "seed": 52018, "work": "mutopia-2243"}
+{"event": "fit_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52019, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-1578", "mutopia-1558", "mutopia-370", "mutopia-98-legacy", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-23"], "evaluation_ids": ["mutopia-583", "mutopia-2243"]}
+{"event": "fit_complete", "fold": 2, "condition": "shuffled_context", "seed": 52019}
+{"event": "prediction_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52019, "work": "mutopia-583"}
+{"event": "prediction_complete", "fold": 2, "condition": "shuffled_context", "seed": 52019, "work": "mutopia-583"}
+{"event": "prediction_attempt", "fold": 2, "condition": "shuffled_context", "seed": 52019, "work": "mutopia-2243"}
+{"event": "prediction_complete", "fold": 2, "condition": "shuffled_context", "seed": 52019, "work": "mutopia-2243"}
+{"event": "fit_attempt", "fold": 3, "condition": "global", "seed": null, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-583", "mutopia-1578", "mutopia-1558", "mutopia-370", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-2243", "mutopia-23"], "evaluation_ids": ["mutopia-98-legacy"]}
+{"event": "fit_complete", "fold": 3, "condition": "global", "seed": null}
+{"event": "prediction_attempt", "fold": 3, "condition": "global", "seed": null, "work": "mutopia-98-legacy"}
+{"event": "prediction_complete", "fold": 3, "condition": "global", "seed": null, "work": "mutopia-98-legacy"}
+{"event": "fit_attempt", "fold": 3, "condition": "previous_max_gate_binned", "seed": null, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-583", "mutopia-1578", "mutopia-1558", "mutopia-370", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-2243", "mutopia-23"], "evaluation_ids": ["mutopia-98-legacy"]}
+{"event": "fit_complete", "fold": 3, "condition": "previous_max_gate_binned", "seed": null}
+{"event": "prediction_attempt", "fold": 3, "condition": "previous_max_gate_binned", "seed": null, "work": "mutopia-98-legacy"}
+{"event": "prediction_complete", "fold": 3, "condition": "previous_max_gate_binned", "seed": null, "work": "mutopia-98-legacy"}
+{"event": "fit_attempt", "fold": 3, "condition": "shuffled_context", "seed": 52000, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-583", "mutopia-1578", "mutopia-1558", "mutopia-370", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-2243", "mutopia-23"], "evaluation_ids": ["mutopia-98-legacy"]}
+{"event": "fit_complete", "fold": 3, "condition": "shuffled_context", "seed": 52000}
+{"event": "prediction_attempt", "fold": 3, "condition": "shuffled_context", "seed": 52000, "work": "mutopia-98-legacy"}
+{"event": "prediction_complete", "fold": 3, "condition": "shuffled_context", "seed": 52000, "work": "mutopia-98-legacy"}
+{"event": "fit_attempt", "fold": 3, "condition": "shuffled_context", "seed": 52001, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-583", "mutopia-1578", "mutopia-1558", "mutopia-370", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-2243", "mutopia-23"], "evaluation_ids": ["mutopia-98-legacy"]}
+{"event": "fit_complete", "fold": 3, "condition": "shuffled_context", "seed": 52001}
+{"event": "prediction_attempt", "fold": 3, "condition": "shuffled_context", "seed": 52001, "work": "mutopia-98-legacy"}
+{"event": "prediction_complete", "fold": 3, "condition": "shuffled_context", "seed": 52001, "work": "mutopia-98-legacy"}
+{"event": "fit_attempt", "fold": 3, "condition": "shuffled_context", "seed": 52002, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-583", "mutopia-1578", "mutopia-1558", "mutopia-370", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-2243", "mutopia-23"], "evaluation_ids": ["mutopia-98-legacy"]}
+{"event": "fit_complete", "fold": 3, "condition": "shuffled_context", "seed": 52002}
+{"event": "prediction_attempt", "fold": 3, "condition": "shuffled_context", "seed": 52002, "work": "mutopia-98-legacy"}
+{"event": "prediction_complete", "fold": 3, "condition": "shuffled_context", "seed": 52002, "work": "mutopia-98-legacy"}
+{"event": "fit_attempt", "fold": 3, "condition": "shuffled_context", "seed": 52003, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-583", "mutopia-1578", "mutopia-1558", "mutopia-370", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-2243", "mutopia-23"], "evaluation_ids": ["mutopia-98-legacy"]}
+{"event": "fit_complete", "fold": 3, "condition": "shuffled_context", "seed": 52003}
+{"event": "prediction_attempt", "fold": 3, "condition": "shuffled_context", "seed": 52003, "work": "mutopia-98-legacy"}
+{"event": "prediction_complete", "fold": 3, "condition": "shuffled_context", "seed": 52003, "work": "mutopia-98-legacy"}
+{"event": "fit_attempt", "fold": 3, "condition": "shuffled_context", "seed": 52004, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-583", "mutopia-1578", "mutopia-1558", "mutopia-370", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-2243", "mutopia-23"], "evaluation_ids": ["mutopia-98-legacy"]}
+{"event": "fit_complete", "fold": 3, "condition": "shuffled_context", "seed": 52004}
+{"event": "prediction_attempt", "fold": 3, "condition": "shuffled_context", "seed": 52004, "work": "mutopia-98-legacy"}
+{"event": "prediction_complete", "fold": 3, "condition": "shuffled_context", "seed": 52004, "work": "mutopia-98-legacy"}
+{"event": "fit_attempt", "fold": 3, "condition": "shuffled_context", "seed": 52005, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-583", "mutopia-1578", "mutopia-1558", "mutopia-370", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-2243", "mutopia-23"], "evaluation_ids": ["mutopia-98-legacy"]}
+{"event": "fit_complete", "fold": 3, "condition": "shuffled_context", "seed": 52005}
+{"event": "prediction_attempt", "fold": 3, "condition": "shuffled_context", "seed": 52005, "work": "mutopia-98-legacy"}
+{"event": "prediction_complete", "fold": 3, "condition": "shuffled_context", "seed": 52005, "work": "mutopia-98-legacy"}
+{"event": "fit_attempt", "fold": 3, "condition": "shuffled_context", "seed": 52006, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-583", "mutopia-1578", "mutopia-1558", "mutopia-370", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-2243", "mutopia-23"], "evaluation_ids": ["mutopia-98-legacy"]}
+{"event": "fit_complete", "fold": 3, "condition": "shuffled_context", "seed": 52006}
+{"event": "prediction_attempt", "fold": 3, "condition": "shuffled_context", "seed": 52006, "work": "mutopia-98-legacy"}
+{"event": "prediction_complete", "fold": 3, "condition": "shuffled_context", "seed": 52006, "work": "mutopia-98-legacy"}
+{"event": "fit_attempt", "fold": 3, "condition": "shuffled_context", "seed": 52007, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-583", "mutopia-1578", "mutopia-1558", "mutopia-370", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-2243", "mutopia-23"], "evaluation_ids": ["mutopia-98-legacy"]}
+{"event": "fit_complete", "fold": 3, "condition": "shuffled_context", "seed": 52007}
+{"event": "prediction_attempt", "fold": 3, "condition": "shuffled_context", "seed": 52007, "work": "mutopia-98-legacy"}
+{"event": "prediction_complete", "fold": 3, "condition": "shuffled_context", "seed": 52007, "work": "mutopia-98-legacy"}
+{"event": "fit_attempt", "fold": 3, "condition": "shuffled_context", "seed": 52008, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-583", "mutopia-1578", "mutopia-1558", "mutopia-370", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-2243", "mutopia-23"], "evaluation_ids": ["mutopia-98-legacy"]}
+{"event": "fit_complete", "fold": 3, "condition": "shuffled_context", "seed": 52008}
+{"event": "prediction_attempt", "fold": 3, "condition": "shuffled_context", "seed": 52008, "work": "mutopia-98-legacy"}
+{"event": "prediction_complete", "fold": 3, "condition": "shuffled_context", "seed": 52008, "work": "mutopia-98-legacy"}
+{"event": "fit_attempt", "fold": 3, "condition": "shuffled_context", "seed": 52009, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-583", "mutopia-1578", "mutopia-1558", "mutopia-370", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-2243", "mutopia-23"], "evaluation_ids": ["mutopia-98-legacy"]}
+{"event": "fit_complete", "fold": 3, "condition": "shuffled_context", "seed": 52009}
+{"event": "prediction_attempt", "fold": 3, "condition": "shuffled_context", "seed": 52009, "work": "mutopia-98-legacy"}
+{"event": "prediction_complete", "fold": 3, "condition": "shuffled_context", "seed": 52009, "work": "mutopia-98-legacy"}
+{"event": "fit_attempt", "fold": 3, "condition": "shuffled_context", "seed": 52010, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-583", "mutopia-1578", "mutopia-1558", "mutopia-370", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-2243", "mutopia-23"], "evaluation_ids": ["mutopia-98-legacy"]}
+{"event": "fit_complete", "fold": 3, "condition": "shuffled_context", "seed": 52010}
+{"event": "prediction_attempt", "fold": 3, "condition": "shuffled_context", "seed": 52010, "work": "mutopia-98-legacy"}
+{"event": "prediction_complete", "fold": 3, "condition": "shuffled_context", "seed": 52010, "work": "mutopia-98-legacy"}
+{"event": "fit_attempt", "fold": 3, "condition": "shuffled_context", "seed": 52011, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-583", "mutopia-1578", "mutopia-1558", "mutopia-370", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-2243", "mutopia-23"], "evaluation_ids": ["mutopia-98-legacy"]}
+{"event": "fit_complete", "fold": 3, "condition": "shuffled_context", "seed": 52011}
+{"event": "prediction_attempt", "fold": 3, "condition": "shuffled_context", "seed": 52011, "work": "mutopia-98-legacy"}
+{"event": "prediction_complete", "fold": 3, "condition": "shuffled_context", "seed": 52011, "work": "mutopia-98-legacy"}
+{"event": "fit_attempt", "fold": 3, "condition": "shuffled_context", "seed": 52012, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-583", "mutopia-1578", "mutopia-1558", "mutopia-370", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-2243", "mutopia-23"], "evaluation_ids": ["mutopia-98-legacy"]}
+{"event": "fit_complete", "fold": 3, "condition": "shuffled_context", "seed": 52012}
+{"event": "prediction_attempt", "fold": 3, "condition": "shuffled_context", "seed": 52012, "work": "mutopia-98-legacy"}
+{"event": "prediction_complete", "fold": 3, "condition": "shuffled_context", "seed": 52012, "work": "mutopia-98-legacy"}
+{"event": "fit_attempt", "fold": 3, "condition": "shuffled_context", "seed": 52013, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-583", "mutopia-1578", "mutopia-1558", "mutopia-370", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-2243", "mutopia-23"], "evaluation_ids": ["mutopia-98-legacy"]}
+{"event": "fit_complete", "fold": 3, "condition": "shuffled_context", "seed": 52013}
+{"event": "prediction_attempt", "fold": 3, "condition": "shuffled_context", "seed": 52013, "work": "mutopia-98-legacy"}
+{"event": "prediction_complete", "fold": 3, "condition": "shuffled_context", "seed": 52013, "work": "mutopia-98-legacy"}
+{"event": "fit_attempt", "fold": 3, "condition": "shuffled_context", "seed": 52014, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-583", "mutopia-1578", "mutopia-1558", "mutopia-370", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-2243", "mutopia-23"], "evaluation_ids": ["mutopia-98-legacy"]}
+{"event": "fit_complete", "fold": 3, "condition": "shuffled_context", "seed": 52014}
+{"event": "prediction_attempt", "fold": 3, "condition": "shuffled_context", "seed": 52014, "work": "mutopia-98-legacy"}
+{"event": "prediction_complete", "fold": 3, "condition": "shuffled_context", "seed": 52014, "work": "mutopia-98-legacy"}
+{"event": "fit_attempt", "fold": 3, "condition": "shuffled_context", "seed": 52015, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-583", "mutopia-1578", "mutopia-1558", "mutopia-370", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-2243", "mutopia-23"], "evaluation_ids": ["mutopia-98-legacy"]}
+{"event": "fit_complete", "fold": 3, "condition": "shuffled_context", "seed": 52015}
+{"event": "prediction_attempt", "fold": 3, "condition": "shuffled_context", "seed": 52015, "work": "mutopia-98-legacy"}
+{"event": "prediction_complete", "fold": 3, "condition": "shuffled_context", "seed": 52015, "work": "mutopia-98-legacy"}
+{"event": "fit_attempt", "fold": 3, "condition": "shuffled_context", "seed": 52016, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-583", "mutopia-1578", "mutopia-1558", "mutopia-370", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-2243", "mutopia-23"], "evaluation_ids": ["mutopia-98-legacy"]}
+{"event": "fit_complete", "fold": 3, "condition": "shuffled_context", "seed": 52016}
+{"event": "prediction_attempt", "fold": 3, "condition": "shuffled_context", "seed": 52016, "work": "mutopia-98-legacy"}
+{"event": "prediction_complete", "fold": 3, "condition": "shuffled_context", "seed": 52016, "work": "mutopia-98-legacy"}
+{"event": "fit_attempt", "fold": 3, "condition": "shuffled_context", "seed": 52017, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-583", "mutopia-1578", "mutopia-1558", "mutopia-370", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-2243", "mutopia-23"], "evaluation_ids": ["mutopia-98-legacy"]}
+{"event": "fit_complete", "fold": 3, "condition": "shuffled_context", "seed": 52017}
+{"event": "prediction_attempt", "fold": 3, "condition": "shuffled_context", "seed": 52017, "work": "mutopia-98-legacy"}
+{"event": "prediction_complete", "fold": 3, "condition": "shuffled_context", "seed": 52017, "work": "mutopia-98-legacy"}
+{"event": "fit_attempt", "fold": 3, "condition": "shuffled_context", "seed": 52018, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-583", "mutopia-1578", "mutopia-1558", "mutopia-370", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-2243", "mutopia-23"], "evaluation_ids": ["mutopia-98-legacy"]}
+{"event": "fit_complete", "fold": 3, "condition": "shuffled_context", "seed": 52018}
+{"event": "prediction_attempt", "fold": 3, "condition": "shuffled_context", "seed": 52018, "work": "mutopia-98-legacy"}
+{"event": "prediction_complete", "fold": 3, "condition": "shuffled_context", "seed": 52018, "work": "mutopia-98-legacy"}
+{"event": "fit_attempt", "fold": 3, "condition": "shuffled_context", "seed": 52019, "train_ids": ["mutopia-376", "mutopia-888", "mutopia-889", "mutopia-789", "mutopia-583", "mutopia-1578", "mutopia-1558", "mutopia-370", "mutopia-263-legacy", "mutopia-904", "mutopia-2080", "mutopia-2060", "mutopia-2061", "mutopia-186", "mutopia-487", "mutopia-2243", "mutopia-23"], "evaluation_ids": ["mutopia-98-legacy"]}
+{"event": "fit_complete", "fold": 3, "condition": "shuffled_context", "seed": 52019}
+{"event": "prediction_attempt", "fold": 3, "condition": "shuffled_context", "seed": 52019, "work": "mutopia-98-legacy"}
+{"event": "prediction_complete", "fold": 3, "condition": "shuffled_context", "seed": 52019, "work": "mutopia-98-legacy"}

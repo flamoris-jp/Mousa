@@ -1,0 +1,129 @@
+{
+  "schema": "mousa-cycle52-independent-audit-v1",
+  "all_passed": true,
+  "plan_sha256": "cd11d18ba33f5532064b76fcfa9b9eb698fd26f1175a214e0439f426cdca208a",
+  "aggregate_checks": 44,
+  "result_rows": 414,
+  "journal_event_counts": {
+    "fit_attempt": 88,
+    "fit_complete": 88,
+    "prediction_attempt": 396,
+    "prediction_complete": 396
+  },
+  "source_files_verified": 22,
+  "replay_exact_except_cpu": true,
+  "journal_replay_exact": true,
+  "source_hashes_unchanged": true,
+  "fold_sizes": [
+    2,
+    13,
+    2,
+    1
+  ],
+  "train_work_counts": [
+    16,
+    5,
+    16,
+    17
+  ],
+  "work_differences": [
+    {
+      "work": "mutopia-376",
+      "context_minus_global": -0.7895834190288209,
+      "context_minus_shuffle": -1.2315010446821102
+    },
+    {
+      "work": "mutopia-888",
+      "context_minus_global": -0.9626077338140211,
+      "context_minus_shuffle": -0.7480310339760545
+    },
+    {
+      "work": "mutopia-889",
+      "context_minus_global": -0.5760186820996347,
+      "context_minus_shuffle": -0.561230473001094
+    },
+    {
+      "work": "mutopia-789",
+      "context_minus_global": -0.38683314596004204,
+      "context_minus_shuffle": -0.3475708499351591
+    },
+    {
+      "work": "mutopia-583",
+      "context_minus_global": -0.6407699160866678,
+      "context_minus_shuffle": -0.6428175752414214
+    },
+    {
+      "work": "mutopia-1578",
+      "context_minus_global": -0.4645154182572657,
+      "context_minus_shuffle": -0.3856383986341758
+    },
+    {
+      "work": "mutopia-1558",
+      "context_minus_global": -0.8197923922095882,
+      "context_minus_shuffle": -0.7067706398169464
+    },
+    {
+      "work": "mutopia-370",
+      "context_minus_global": -0.44311930593075477,
+      "context_minus_shuffle": -0.44482398325212835
+    },
+    {
+      "work": "mutopia-98-legacy",
+      "context_minus_global": -0.016971054193174684,
+      "context_minus_shuffle": 0.014107850123957322
+    },
+    {
+      "work": "mutopia-263-legacy",
+      "context_minus_global": -0.2578245998822135,
+      "context_minus_shuffle": -0.20925189321238014
+    },
+    {
+      "work": "mutopia-904",
+      "context_minus_global": 0.29554371205104024,
+      "context_minus_shuffle": 0.0414350599455644
+    },
+    {
+      "work": "mutopia-2080",
+      "context_minus_global": -0.49965674236710145,
+      "context_minus_shuffle": -0.47702979435939863
+    },
+    {
+      "work": "mutopia-2060",
+      "context_minus_global": -0.37132068956225384,
+      "context_minus_shuffle": -0.2829772453678747
+    },
+    {
+      "work": "mutopia-2061",
+      "context_minus_global": 0.01449643717925131,
+      "context_minus_shuffle": -0.20396470700384306
+    },
+    {
+      "work": "mutopia-186",
+      "context_minus_global": 3.0473220920313366,
+      "context_minus_shuffle": -0.1242121612266267
+    },
+    {
+      "work": "mutopia-487",
+      "context_minus_global": -0.829791925577055,
+      "context_minus_shuffle": -0.7079182291908848
+    },
+    {
+      "work": "mutopia-2243",
+      "context_minus_global": -0.16721698325073175,
+      "context_minus_shuffle": -0.23045972721115926
+    },
+    {
+      "work": "mutopia-23",
+      "context_minus_global": -0.2690874318720802,
+      "context_minus_shuffle": -0.23686133423649292
+    }
+  ],
+  "context_better_than_global_works": 15,
+  "context_better_than_mean_shuffle_works": 16,
+  "limitations": [
+    "Retrospective model/researcher exposed corpus, not a fresh independent test.",
+    "Fold macro has four unequal2/13/2/1 components; major holdout fits onlyfive works.",
+    "Fold3 true context loses to shuffled mean; fold1 pooled loss worsens versus global despite macro improvement.",
+    "Only teacher-forced timing prediction, not joint generation or appeal."
+  ]
+}
