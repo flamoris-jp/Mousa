@@ -1,0 +1,21 @@
+{
+  "review_date_jst": "2026-11-15",
+  "reviewed_original_head": "96f94ff581ff22e66ca55107cb5cc1a730bcf2d4",
+  "archive_sha256": "7a67cd00707c6bb0d72bc2722572ace8940404fc5e5d7f6e0d201b991e7851b3",
+  "regenerated_native_data_sha256": "49ff7ee03687d77d1707d82985266f9b51fa836154a924ef7529873ea9f6171f",
+  "recorded_runs_reaggregated_exactly": 9,
+  "count_baselines_regenerated_exactly": 6,
+  "recorded_row_targets_and_identities_checked": true,
+  "recorded_losses_and_prediction_nll_finite": true,
+  "recorded_runs_have_100_losses_and_positive_first_parameter_updates": true,
+  "selected_source_sha256_train_test_disjoint": true,
+  "historical_code_plan_and_attribution_bytes_preserved": true,
+  "unit_tests": {"run": 33, "passed": 32, "skipped": 1, "failed": 0},
+  "limitations": [
+    "No fresh native build or neural training replay during this review",
+    "Existing test families were already observed; no fresh generalization claim",
+    "Raw-source rights were not re-audited; selected attribution and recorded preparation evidence were inspected",
+    "External AudioAnalyzer integration remains skipped without its configured producer",
+    "Raw-source preparation still requires the original pinned external evidence; portable relocation is not implemented"
+  ]
+}
