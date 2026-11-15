@@ -1,0 +1,35 @@
+{
+  "date_jst": "2026-11-15",
+  "base_commit": "a5a924854c2b1c2f5156e74fffc2f804166112b8",
+  "scope": "experimental Python scale/key conditions and original monophonic MIDI exercises",
+  "unit_tests": {"run": 46, "passed": 45, "skipped": 1, "failed": 0},
+  "skipped_test": "existing external AudioAnalyzer producer integration; no producer configured",
+  "independent_midi_verification": {
+    "parser": "mido",
+    "version": "1.3.3",
+    "midi_files": 72,
+    "note_events_checked": 1344,
+    "maximum_pitch_error_cents": 0.0,
+    "timing_note_pairing_condition_echo_rpn_and_bend_reset": "passed"
+  },
+  "additional_tuning_case": {
+    "scale_id": "equal_24_test",
+    "tonic_midi": 60,
+    "tonic_offset_cents": 33.333,
+    "reference_a4_hz": 442,
+    "note_events_checked": 49,
+    "maximum_pitch_error_cents": 0.002108397374219753
+  },
+  "installed_wheel_catalogue_and_microtonal_export": "passed",
+  "cli_ryukyu_D4_export": "passed",
+  "all_fixtures_share_one_synthetic_family": true,
+  "generated_midi_committed": false,
+  "new_learning_or_gpu_used": false,
+  "limitations": [
+    "No conditioned Maidionis training or change to the frozen PR14 diagnostic",
+    "No Cantabile project import/render or DAW audio playback acceptance",
+    "Traditional scale entries are explicitly twelve-tone-equal-temperament approximations",
+    "24-EDO is a mathematical transport test, not a traditional Arabic scale",
+    "No chords, ornaments, automatic key inference or musical-quality claim"
+  ]
+}

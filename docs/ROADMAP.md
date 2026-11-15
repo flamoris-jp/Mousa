@@ -18,6 +18,7 @@ Current stage: **bootstrap / research**. Phases below are intended work, not shi
 
 ## M2 — MIDI ingestion and musical representation
 
+- [x] Experimental source-referenced scale/key conditions, microtonal numeric targets and original monophonic MIDI rule fixtures; see [SCALE_KEY](SCALE_KEY.md)
 - [ ] Source crawler/ingester limited to approved sources, with per-work and arrangement provenance
 - [ ] MIDI event extraction preserving beat-time, tempo/meter and meaningful durations
 - [ ] Derive melodic intervals, rests, phrase/motif repetitions, rhythmic accents

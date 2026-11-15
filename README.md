@@ -6,7 +6,7 @@ Mousa is FLAMORIS's music-intelligence research project built on [Maidionis](htt
 
 **Mousa（ムーサ）** は、Maidionis を学習基盤として音楽特化の小さなAIを育て、協力してMIDIを作曲する FLAMORIS の研究プロジェクトです。旋律・和声・ベース・ドラム・編曲・評価を同じリポジトリで管理します。
 
-**Status: early development / research bootstrap.** This repository currently contains project boundaries, specialization plans, and a small experimental Python MusicIR value representation with unit tests. **It does not yet ship** a trained Mousa model, MIDI importer/exporter, dataset crawler, preference-learning system, model-serving API, or Cantabile integration. An earlier local music trial is not included until its source, licensing, and measured evidence are verified for migration.
+**Status: early development / research bootstrap.** This repository contains experimental Python MusicIR and stem-intake utilities, bounded research records, and [scale/key conditions with original monophonic MIDI exercises](docs/SCALE_KEY.md). **It does not yet ship** a trained Mousa specialist, general-purpose MIDI importer/editor/exporter, dataset crawler, preference-learning system, model-serving API, or Cantabile integration. Research measurements are not production music-model acceptance.
 
 ## 🧭 Repository identity
 
@@ -69,13 +69,13 @@ tests/                Fast local tests
 
 ## Development / 開発
 
-For the current **MusicIR-only** bootstrap, Python 3.11+ is sufficient; no Maidionis native build, MIDI dependency or GPU is required to run these tests.
+For the current **symbolic-music** bootstrap, Python 3.11+ is sufficient; no Maidionis native build, MIDI dependency or GPU is required to run these unit tests.
 
 ```bash
 PYTHONPATH=src python -m unittest discover -s tests -v
 ```
 
-This command validates the experimental MusicIR value object only; it does **not** test training, parsing a real MIDI file, or audio quality. Do not reuse Maidionis build commands without checking its current repository and qualification profile.
+This command validates experimental MusicIR, stem intake and scale/key fixtures; it does **not** establish training or audio quality. CI additionally parses generated scale MIDI with a verification-only Mido dependency; see [scale/key instructions](docs/SCALE_KEY.md). Do not reuse Maidionis build commands without checking its current repository and qualification profile.
 
 Next work is tracked in [GitHub Issues](https://github.com/flamoris-jp/Mousa/issues). See [Maidionis](https://github.com/flamoris-jp/Maidionis), [Cantabile](https://github.com/flamoris-jp/flamoris-cantabile), [AI ecosystem](https://github.com/flamoris-jp/flamoris-ai/blob/main/docs/ai-ecosystem.md), and [FLAMORIS organization map](https://github.com/flamoris-jp/.github).
 
