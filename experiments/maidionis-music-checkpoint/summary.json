@@ -1,0 +1,126 @@
+{
+  "schema": "mousa-persistent-music-growth-v1",
+  "data_sha256": "2dbc239ad8c735d6a38473dc3d7f58e295e07d6e01acc650e3fd1473646f2f5d",
+  "test_status": "historical16 observed, no fresh generalization or musical quality claim",
+  "versions": [
+    {
+      "version": "v1",
+      "completed_epochs": 1,
+      "total_steps": 256,
+      "phase_steps": 256,
+      "cpu_seconds": 41.420351,
+      "initial": {
+        "pitch": {
+          "families": 16,
+          "targets": 512,
+          "family_macro_nll": 3.8760866736993194,
+          "family_macro_accuracy": 0.01171875
+        },
+        "rhythm": {
+          "families": 16,
+          "targets": 512,
+          "family_macro_nll": 3.181080060545355,
+          "family_macro_accuracy": 0
+        }
+      },
+      "final": {
+        "pitch": {
+          "families": 16,
+          "targets": 512,
+          "family_macro_nll": 2.9814289840869606,
+          "family_macro_accuracy": 0.212890625
+        },
+        "rhythm": {
+          "families": 16,
+          "targets": 512,
+          "family_macro_nll": 0.8804085453084554,
+          "family_macro_accuracy": 0.7734375
+        }
+      },
+      "model_config": {
+        "controls": [
+          1,
+          2
+        ],
+        "dropout_milli": 0,
+        "ffn_width": 1024,
+        "heads": 4,
+        "hidden_width": 256,
+        "input_width": 2,
+        "kind": "encoder",
+        "layers": 4,
+        "max_length": 256,
+        "output_width": 49,
+        "vocabulary": 77
+      },
+      "weights_sha256": "7c8ba49f7be1fbaf9f7ddb62fe7bfd4ab6abd1dd9893b01d490d946d3a34c2a6",
+      "optimizer_sha256": "50b7c79906d7e5c452e2a573b905bc1b362032ff1484a47a87b3c7b9ee771314",
+      "model_bytes": 13080352,
+      "optimizer_bytes": 26136943,
+      "reload_exact": true,
+      "resume": null
+    },
+    {
+      "version": "v2",
+      "completed_epochs": 2,
+      "total_steps": 512,
+      "phase_steps": 256,
+      "cpu_seconds": 40.283672,
+      "initial": {
+        "pitch": {
+          "families": 16,
+          "targets": 512,
+          "family_macro_nll": 2.9814289840869606,
+          "family_macro_accuracy": 0.212890625
+        },
+        "rhythm": {
+          "families": 16,
+          "targets": 512,
+          "family_macro_nll": 0.8804085453084554,
+          "family_macro_accuracy": 0.7734375
+        }
+      },
+      "final": {
+        "pitch": {
+          "families": 16,
+          "targets": 512,
+          "family_macro_nll": 2.854951450310182,
+          "family_macro_accuracy": 0.23046875
+        },
+        "rhythm": {
+          "families": 16,
+          "targets": 512,
+          "family_macro_nll": 0.87949881001623,
+          "family_macro_accuracy": 0.744140625
+        }
+      },
+      "model_config": {
+        "controls": [
+          1,
+          2
+        ],
+        "dropout_milli": 0,
+        "ffn_width": 1024,
+        "heads": 4,
+        "hidden_width": 256,
+        "input_width": 2,
+        "kind": "encoder",
+        "layers": 4,
+        "max_length": 256,
+        "output_width": 49,
+        "vocabulary": 77
+      },
+      "weights_sha256": "34dd1e168367a12390d2b10c1bf534459c24413a8460e74555da63b625d5d7f7",
+      "optimizer_sha256": "9f4cdee082c80c3059a89762c75ac2fa0c343599678858632d93db005fd2b5f1",
+      "model_bytes": 13080352,
+      "optimizer_bytes": 26137007,
+      "reload_exact": true,
+      "resume": {
+        "completed_epochs": 1,
+        "fresh_process_probe_exact": true,
+        "manifest_sha256": "b6efa9d15298e057ff0cc35db0ea28a972ad5ff37641499a6c26db9940a0d5d7",
+        "optimizer_steps_restored": 256
+      }
+    }
+  ]
+}
