@@ -1,0 +1,20 @@
+{
+  "schema": "mousa-exposure-audit-v1",
+  "hypothesis": "PR14 count baselines saw every unique window, whereas the encoder sampled 3200 windows with replacement; this unequal exposure may explain some of the trigram advantage.",
+  "parent_main": "a5a924854c2b1c2f5156e74fffc2f804166112b8",
+  "evidence_sha256": "7a67cd00707c6bb0d72bc2722572ace8940404fc5e5d7f6e0d201b991e7851b3",
+  "data_sha256": "49ff7ee03687d77d1707d82985266f9b51fa836154a924ef7529873ea9f6171f",
+  "retrospective": true,
+  "test_status": "Previously observed Cycle53/PR14 test, no fresh holdout claim",
+  "conditions": ["train18_ordered", "train128_ordered", "train128_context_permuted"],
+  "seeds": [42, 43, 44],
+  "count_models": ["unigram", "trigram"],
+  "exposures": ["all_unique_windows", "sampled_3200_with_multiplicity", "sampled_unique_windows_only"],
+  "smoothing": {"unigram_total_mass": 1, "recursive_context_total_mass": 4, "classes": 49},
+  "metrics": ["family_macro_nll", "family_macro_accuracy", "per_family_nll", "distinct_windows_seen", "families_seen", "target_classes_seen"],
+  "no_hyperparameter_selection": true,
+  "no_neural_refit": true,
+  "no_new_data_or_labels": true,
+  "no_generated_midi": true,
+  "limitations": ["Exposure equality is not equal model capacity or optimization", "Repeated observations change count weighting", "Eight-interval highest-onset representation only", "No fresh generalization or musical-quality conclusion"]
+}
