@@ -94,13 +94,19 @@ PYTHONPATH=src python examples/export_scale_examples.py \
   --out /path/outside-git/new-scale-fixture-pack
 ```
 
-Every output directory must be new. The pack contains six scales x twelve tonic
-anchors (MIDI 60..71), 72 MIDI files plus JSON sidecars and SHA-256 manifest.
+Every output directory must be new. The pack contains one canonical C4 exercise
+per scale: six MIDI files plus JSON sidecars and a SHA-256 manifest. Key is a
+separate parameter; no twelve-key copies are stored. For a different tonic,
+recompute degree pitches through `ScaleCondition` and render only when needed.
+Transposition adds cents/MIDI semitones, or multiplies frequency by
+`2**(shift_cents/1200)`. Microtonal MIDI output must recompute note-plus-bend
+events rather than multiplying integer MIDI note numbers.
 Each exercise uses 100 BPM, PPQ 480, fixed durations and one ascending/descending
 period. There are no chords, ornaments or copied melodies. All examples share
 `family_id=mousa:synthetic-scale-exercises:v1`; their transpositions and related
 synthetic pitch sets must not be split across train/test. They test rules and
-transport, not musical attractiveness or generalization.
+transport, not musical attractiveness or generalization. Twelve-key transposition
+checks run in memory in the unit tests; they do not expand the stored pack.
 
 The narrow exporter writes SMF type 0, one monophonic channel, explicit pitch-bend
 sensitivity RPN +/-2 semitones, a bend before every note and a final reset.

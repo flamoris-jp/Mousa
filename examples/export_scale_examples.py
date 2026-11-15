@@ -1,4 +1,4 @@
-"""Create the original six-scale/twelve-key fixture pack outside the repository."""
+"""Create one canonical C4 exercise per scale; keys remain runtime parameters."""
 
 import argparse
 import hashlib
@@ -15,14 +15,13 @@ def export_pack(output):
     generated = []
     # Build all outputs before creating a directory; no partial pitch-range run.
     for scale in catalogue.values():
-        for tonic in range(60, 72):
-            condition = ScaleCondition(scale, Key(tonic))
-            midi, metadata = make_exercise(condition)
-            stem = f"{scale.scale_id}_tonic{tonic}"
-            generated.append((stem, midi, metadata))
+        condition = ScaleCondition(scale, Key.from_name("C4"))
+        midi, metadata = make_exercise(condition)
+        generated.append((scale.scale_id, midi, metadata))
     output.mkdir(parents=True, exist_ok=False)
     manifest = {"schema_version": "mousa.scale-fixture-pack.experimental.v1",
-                "purpose": "rule and transposition fixtures, not a held-out music corpus",
+                "purpose": "canonical scale-rule fixtures; key applied as a separate parameter",
+                "reference_key": Key.from_name("C4").to_dict(),
                 "family_id": "mousa:synthetic-scale-exercises:v1", "files": []}
     for stem, midi, metadata in generated:
         (output / (stem + ".mid")).write_bytes(midi)
@@ -34,8 +33,10 @@ def export_pack(output):
                                   "condition": metadata["condition"]})
     (output / "manifest.json").write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
     (output / "README.txt").write_text(
-        "Mousa scale/key fixtures: 6 scales x 12 tonic anchors (MIDI 60..71).\n"
+        "Mousa scale/key fixtures: one canonical MIDI per scale, six MIDI files total.\n"
         "C4=MIDI60. Every MIDI plays one ascending/descending period, 100 BPM.\n"
+        "Apply the desired tonic using the Key parameter; no per-key corpus copies are needed.\n"
+        "MIDI/cents transposition is additive; frequency transposition multiplies by 2**(cents/1200).\n"
         "JSON sidecars are authoritative for names, traditions, tuning, condition and pitches.\n"
         "Traditional scales are 12-TET approximations; 24-EDO is only a mathematical test.\n"
         "Microtones need pitch-bend reception and RPN +/-2-semitone sensitivity.\n"

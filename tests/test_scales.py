@@ -1,6 +1,9 @@
 from dataclasses import replace
+import importlib.util
 import json
 import math
+from pathlib import Path
+import tempfile
 import unittest
 
 from mousa.scales import Key, Scale, ScaleCondition, load_catalogue, strict_json
@@ -27,6 +30,12 @@ class ScaleTests(unittest.TestCase):
             condition = ScaleCondition(self.major, Key(tonic))
             self.assertEqual(tuple(condition.pitch_cents(n) - condition.pitch_cents(0)
                                    for n in range(7)), self.major.intervals_cents)
+            for degree in range(7):
+                self.assertEqual(condition.pitch_cents(degree),
+                                 self.condition.pitch_cents(degree) + 100 * (tonic - 60))
+                self.assertAlmostEqual(condition.frequency_hz(degree) /
+                                       self.condition.frequency_hz(degree),
+                                       2 ** ((tonic - 60) / 12))
 
     def test_key_spelling_and_scientific_octave(self):
         self.assertEqual(Key.from_name("C4").tonic_midi, 60)
@@ -99,6 +108,20 @@ class ScaleTests(unittest.TestCase):
 
 
 class ScaleMidiTests(unittest.TestCase):
+    def test_pack_stores_only_one_canonical_exercise_per_scale(self):
+        path = Path(__file__).resolve().parents[1] / "examples/export_scale_examples.py"
+        spec = importlib.util.spec_from_file_location("scale_example_export", path)
+        module = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(module)
+        with tempfile.TemporaryDirectory() as root:
+            output = Path(root) / "pack"
+            manifest = module.export_pack(output)
+            self.assertEqual(len(list(output.glob("*.mid"))), 6)
+            self.assertEqual(len(manifest["files"]), 6)
+            self.assertEqual(len({row["condition"]["scale_id"] for row in manifest["files"]}), 6)
+            for row in manifest["files"]:
+                self.assertEqual(row["condition"]["key"], Key.from_name("C4").to_dict())
+
     def test_all_scales_and_keys_produce_deterministic_mono_exercises(self):
         families = set()
         for scale in load_catalogue().values():
