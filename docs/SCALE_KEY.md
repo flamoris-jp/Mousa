@@ -58,6 +58,10 @@ not be mislabeled as 24-EDO.
 
 ## Python use
 
+For the primary AI path, see [degree-native generation](DEGREE_GENERATION.md):
+the model selects ordinal degrees and the renderer applies scale/key afterward,
+including microtones. The saved-semitone adapter described below is legacy.
+
 ```python
 from mousa import Key, ScaleCondition, load_catalogue
 
@@ -78,7 +82,7 @@ representation. An integer-semitone output head cannot emit the missing pitches
 merely by receiving these conditions.
 
 PR #14's frozen 49-class interval diagnostic and its metrics remain unchanged.
-The saved pitch/rhythm checkpoint from PR #17 can now be used with a mandatory
+The legacy saved pitch/rhythm checkpoint from PR #17 can be used with a mandatory
 scale rule in the [native generation path](../experiments/maidionis-scale-generation/README.md).
 This follows PR #18's causal inference loop with hard scale support applied
 before softmax/sampling. The selected note is fed back into the next model
@@ -89,9 +93,9 @@ on learned weights or how often a scale appears in a corpus.
 That historical checkpoint can only score integer-semitone intervals. It
 explicitly rejects microtonal scales, fractional tonic offsets and non-440 Hz
 reference tuning. It never rounds a microtonal scale into an ordinary scale.
-The numeric scale/fixture APIs still preserve microtones for future models.
-The next conditioned learning experiment must bind new model input/target
-semantics, data and baselines before fitting. Real training works need verified
+The numeric scale/fixture APIs and the new degree-native composition preserve
+microtones. That composition uses its own task and model archives; old class
+labels are never reinterpreted. Real training works need verified
 source-family splits and explicit scale/key annotation; this catalogue does
 not automatically label them.
 

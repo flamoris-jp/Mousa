@@ -51,7 +51,9 @@ Evaluate discrete note onsets separately from note continuation. Always publish 
 Experimental MusicIR, stem-intake utilities and [scale/key conditions](SCALE_KEY.md)
 are implemented alongside bounded research records. Scale/key conditions own
 music-specific cents/tonic semantics, a narrow original-exercise exporter and
-a native saved-model decoder that enforces scale support before sampling;
+a [degree-native model composition](DEGREE_GENERATION.md) that selects ordinal
+labels before pitch rendering. The separate legacy saved-semitone decoder
+retains its scale filter and historical limits;
 they do not alter MusicIR's integer pitch field or Maidionis Core. No fitted
 specialist model, general MIDI editor, production training runner, Runtime
 adapter, Cantabile bridge, service, MCP or deployment is accepted here.

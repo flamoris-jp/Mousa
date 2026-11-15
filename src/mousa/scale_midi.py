@@ -24,23 +24,23 @@ def _meta(kind, data):
     return bytes((255, kind)) + _vlq(len(data)) + data
 
 
-def make_exercise(condition, *, bpm=100, step_ticks=480, duration_ticks=360):
-    """SMF type 0; MIDI channel 1; explicit +/-2-semitone pitch bend range.
-
-    One ascending/descending period with a single top note; no chords/ornaments.
-    Returns MIDI bytes plus authoritative condition and per-note target metadata.
-    """
+def render_degrees(condition, choices, *, bpm=100, step_ticks=480, duration_ticks=360, pad_final_step=False):
+    """Render explicit (degree, period) pairs, preserving microtonal targets."""
     if type(condition) is not ScaleCondition:
         raise ValueError("condition must be a ScaleCondition")
     _integer(bpm, "bpm", 20, 300)
     _integer(step_ticks, "step_ticks", 24, 9600)
     _integer(duration_ticks, "duration_ticks", 1, step_ticks)
-    count = len(condition.scale.intervals_cents)
-    indices = list(range(count + 1)) + list(range(count - 1, -1, -1))
+    if type(pad_final_step) is not bool:
+        raise ValueError("pad_final_step must be boolean")
+    if type(choices) not in (list, tuple) or not 1 <= len(choices) <= 128:
+        raise ValueError("degree sequence must contain 1..128 choices")
     notes = []
     tuning_shift = 1200 * math.log2(condition.key.reference_a4_hz / 440)
-    for index, scale_step in enumerate(indices):
-        period, degree = divmod(scale_step, count)
+    for index, choice in enumerate(choices):
+        if type(choice) not in (list, tuple) or len(choice) != 2:
+            raise ValueError("degree/period pair required")
+        degree, period = choice
         nominal = condition.pitch_cents(degree, period)
         absolute = nominal + tuning_shift
         note = min(127, max(0, math.floor(absolute / 100 + 0.5)))
@@ -53,13 +53,13 @@ def make_exercise(condition, *, bpm=100, step_ticks=480, duration_ticks=360):
                       "pitch_cents": nominal, "frequency_hz": condition.frequency_hz(degree, period),
                       "midi_note": note, "pitch_bend_14bit": bend,
                       "pitch_error_cents": realized - absolute})
-    metadata = {"schema_version": "mousa.scale-exercise.experimental.v1",
+    metadata = {"schema_version": "mousa.degree-render.experimental.v1",
                 "condition": condition.to_dict(), "scale": condition.scale.to_dict(),
-                "family_id": "mousa:synthetic-scale-exercises:v1",
+                "family_id": "caller-provided-degree-sequence",
                 "scale_family_id": condition.scale.scale_id,
-                "purpose": "synthetic_scale_rule_fixture_not_musical_quality_training",
-                "provenance": "Original algorithmic up/down exercise; no source MIDI or melody copied",
-                "license": "Apache-2.0 (original synthetic exercise/metadata only; sources retain their rights)",
+                "purpose": "explicit_degree_sequence_render",
+                "provenance": "Caller-provided degree sequence rendered through scale/key rules",
+                "license": "Rendering does not establish rights to the input sequence",
                 "midi_profile": "SMF0_PPQ480_mono_channel1_pitchbend_range_2",
                 "ppq": 480, "bpm": bpm, "notes": notes}
     track = bytearray()
@@ -79,9 +79,28 @@ def make_exercise(condition, *, bpm=100, step_ticks=480, duration_ticks=360):
         event(0, bytes((144, note["midi_note"], 80)))
         event(duration_ticks, bytes((128, note["midi_note"], 0)))
     event(0, bytes((224, 0, 64)))
-    event(0, _meta(47, b""))
+    event(step_ticks - duration_ticks if pad_final_step else 0, _meta(47, b""))
     midi = b"MThd" + struct.pack(">IHHH", 6, 0, 1, 480) + b"MTrk" + struct.pack(">I", len(track)) + track
     metadata["midi_sha256"] = hashlib.sha256(midi).hexdigest()
+    if pad_final_step:
+        metadata["end_tick"] = len(notes) * step_ticks
+    return midi, metadata
+
+
+def make_exercise(condition, *, bpm=100, step_ticks=480, duration_ticks=360):
+    """Original up/down fixture; same MIDI bytes as the initial exporter."""
+    if type(condition) is not ScaleCondition:
+        raise ValueError("condition must be a ScaleCondition")
+    count = len(condition.scale.intervals_cents)
+    indices = list(range(count + 1)) + list(range(count - 1, -1, -1))
+    choices = [(value % count, value // count) for value in indices]
+    midi, metadata = render_degrees(condition, choices, bpm=bpm, step_ticks=step_ticks,
+                                    duration_ticks=duration_ticks)
+    metadata.update(schema_version="mousa.scale-exercise.experimental.v1",
+                    family_id="mousa:synthetic-scale-exercises:v1",
+                    purpose="synthetic_scale_rule_fixture_not_musical_quality_training",
+                    provenance="Original algorithmic up/down exercise; no source MIDI or melody copied",
+                    license="Apache-2.0 (original synthetic exercise/metadata only; sources retain their rights)")
     return midi, metadata
 
 

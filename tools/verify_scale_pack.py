@@ -64,6 +64,8 @@ def verify_pack(root):
                 index += 1
         if index != len(metadata["notes"]) or active is not None or bend != 0:
             raise ValueError("incomplete notes or unrestored pitch bend")
+        if "end_tick" in metadata and tick != metadata["end_tick"]:
+            raise ValueError("MIDI end tick mismatch")
         if controls != [(101, 0), (100, 0), (6, 2), (38, 0), (101, 127), (100, 127)]:
             raise ValueError("pitch bend sensitivity RPN missing")
         if condition_echo != entry["condition"] or metadata["condition"] != entry["condition"]:
