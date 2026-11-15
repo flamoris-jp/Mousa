@@ -16,7 +16,7 @@ committed before inference. No dataset-role change or checkpoint mutation.
 All three pass the frozen structural/copy screens and were exported as private
 MIDI. Total1,596bytes.100BPM,4/4,8bars,PPQ480,15,360ticks/19.2seconds each.
 This is an enforced output duration,not evidence that the model learned long-form
-structure. No human audition or Cantabile import/playback has been performed.
+structure. No human audition has been performed. Subsequent isolated Cantabile import/export and offline rendering are verified below.
 No musical-quality or guaranteed-originality claim.
 
 ## Model and constraints
@@ -87,3 +87,29 @@ Next: listen privately,record human feedback if provided,and improve the actual
 saved-model curriculum/representation. Safe expansion needs explicit dataset
 lineage; this generation step intentionally did not bypass the same-data resume
 guard or consume reserved validation data.
+
+
+## Subsequent isolated Cantabile audition verification
+
+Cantabile clean source420f395f187d46072e86912c51bae5a2527a00f1 was built
+in a separate cloud directory. Each of the3MIDI files imported into its own
+new project,validated and re-exported byte-identically,including15,360tick end.
+The official offline Cantabile FluidSynth worker rendered48kHz stereo PCM16
+WAVs with TimGM6mb.sf2,program0. Each is19.2seconds music +2seconds release
+tail=21.2seconds,4,070,444bytes. All PCM is nonzero with zero clipped samples.
+
+For usable audition volume,all3renders receive the same24x gain into separate
+*-audition.wav files. Peaks remain below.565 fullscale; no compression,clipping,
+note/timing edit or model change. Raw render hashes and audition hashes are
+preserved in audition-verification.json. TimGM6mb installed-package notice
+records GPL-2; bank itself is not redistributed. Private audition only,not a
+new public-release rights claim.
+
+The connected live Cantabile runtime/document/revision was read-only and
+unchanged before/after; no project-switch,import,edit,save or render MCP action
+was called on it. CLI/renderer use isolated files,not the active user project.
+Human listening and subjective quality remain unassessed.
+
+Audition WAV Library attachments are ready. LIME audio archive/expanded-file
+backup is running separately; consult its completion receipt before claiming
+that upload finished. No audio bytes or encoded audio are committed to Git.
