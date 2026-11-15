@@ -26,6 +26,11 @@ Mousa is FLAMORIS's music-intelligence research project built on [Maidionis](htt
 
 See [architecture](docs/ARCHITECTURE.md), [roadmap](docs/ROADMAP.md), and [data policy](docs/DATA_POLICY.md).
 
+The [scale/key generation path](experiments/maidionis-scale-generation/README.md)
+loads a pinned saved research checkpoint and enforces the scale before sampling.
+Scale exercises are rule checks, not additional training examples. This legacy
+checkpoint explicitly rejects microtonal scales instead of rounding them.
+
 ## Musical specializations
 
 | Model | Intended role |

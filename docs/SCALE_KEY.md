@@ -1,13 +1,15 @@
 # Experimental scale and key conditions
 
 Mousa can now describe a scale independently of its tonic, enumerate exact
-scale-degree pitches and mark eligible pitch candidates. It can export original
+scale-degree pitches and enforce eligible pitch candidates during saved-model
+generation. It can export original
 monophonic ascending/descending MIDI exercises for inspection. This is a
 music-specific Python prerequisite for conditioned experiments, not a newly
 trained AI or an accepted Maidionis/Cantabile wire contract.
 
 スケールの形と主音を分離します。音階名・地域や用途のタグ・出典を持つ
 数値定義から、キーを指定して自作の確認用MIDIを生成できます。
+保存済みAIの生成時には、音階外の候補を確率計算前に除外します。
 コード進行・装飾・自動的な調判定・追加学習はこの段階に含めません。
 
 ## Parameters and meaning
@@ -76,10 +78,22 @@ representation. An integer-semitone output head cannot emit the missing pitches
 merely by receiving these conditions.
 
 PR #14's frozen 49-class interval diagnostic and its metrics remain unchanged.
-It has not been retrofitted to use this condition. The next conditioned learning
-experiment must bind the new input/target semantics, data and baselines before
-fitting. Real training works need verified source-family splits and explicit
-scale/key annotation; this catalogue does not automatically label them.
+The saved pitch/rhythm checkpoint from PR #17 can now be used with a mandatory
+scale rule in the [native generation path](../experiments/maidionis-scale-generation/README.md).
+This follows PR #18's causal inference loop with hard scale support applied
+before softmax/sampling. The selected note is fed back into the next model
+request. The wrapper independently checks the full output and history.
+The scale MIDI files are never mixed into training: this rule does not depend
+on learned weights or how often a scale appears in a corpus.
+
+That historical checkpoint can only score integer-semitone intervals. It
+explicitly rejects microtonal scales, fractional tonic offsets and non-440 Hz
+reference tuning. It never rounds a microtonal scale into an ordinary scale.
+The numeric scale/fixture APIs still preserve microtones for future models.
+The next conditioned learning experiment must bind new model input/target
+semantics, data and baselines before fitting. Real training works need verified
+source-family splits and explicit scale/key annotation; this catalogue does
+not automatically label them.
 
 ## Original MIDI fixtures
 
