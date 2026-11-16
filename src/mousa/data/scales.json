@@ -1,0 +1,164 @@
+{
+  "schema_version": "mousa.scale-catalogue.experimental.v1",
+  "checked_on": "2026-11-15",
+  "provenance_note": "Interval facts independently encoded from cited references; no source MIDI, scores, prose, audio or Scala archive copied. Genre/tradition tags are non-exclusive discovery hints, not style guarantees. Traditional entries are explicitly 12-TET approximations. Synthetic 24-EDO is a mathematical test, not an Arabic maqam.",
+  "scales": [
+    {
+      "scale_id": "major_12tet",
+      "name": "長音階 / Major (12-TET)",
+      "intervals_cents": [
+        0,
+        200,
+        400,
+        500,
+        700,
+        900,
+        1100
+      ],
+      "period_cents": 1200,
+      "traditions": [
+        "Western tonal theory"
+      ],
+      "genre_tags": [
+        "western-tonal"
+      ],
+      "approximation": "Exact definition in twelve-tone equal temperament; not a claim about all performance intonation.",
+      "source_urls": [
+        "https://music21.org/music21docs/moduleReference/moduleScale.html",
+        "https://www.isc.meiji.ac.jp/~katotoru/ongakutokagaku.html"
+      ]
+    },
+    {
+      "scale_id": "natural_minor_12tet",
+      "name": "自然短音階 / Natural minor (12-TET)",
+      "intervals_cents": [
+        0,
+        200,
+        300,
+        500,
+        700,
+        800,
+        1000
+      ],
+      "period_cents": 1200,
+      "traditions": [
+        "Western tonal theory"
+      ],
+      "genre_tags": [
+        "western-tonal"
+      ],
+      "approximation": "Natural minor only; no automatic harmonic/melodic-minor alteration or direction-dependent behavior.",
+      "source_urls": [
+        "https://music21.org/music21docs/moduleReference/moduleScale.html"
+      ]
+    },
+    {
+      "scale_id": "major_pentatonic_12tet",
+      "name": "ヨナ抜き長音階 / Major pentatonic (12-TET)",
+      "intervals_cents": [
+        0,
+        200,
+        400,
+        700,
+        900
+      ],
+      "period_cents": 1200,
+      "traditions": [
+        "Japanese song theory",
+        "Shared pentatonic pitch-set reference"
+      ],
+      "genre_tags": [
+        "japanese-song"
+      ],
+      "approximation": "Five-note 12-TET pitch set. Shared intervals do not identify an exclusive region, genre or melodic practice.",
+      "source_urls": [
+        "https://www.isc.meiji.ac.jp/~katotoru/ongakutokagaku.html"
+      ]
+    },
+    {
+      "scale_id": "ryukyu_12tet",
+      "name": "琉球音階（十二平均律近似） / Ryukyu pitch-set approximation",
+      "intervals_cents": [
+        0,
+        400,
+        500,
+        700,
+        1100
+      ],
+      "period_cents": 1200,
+      "traditions": [
+        "Ryukyu / Okinawa"
+      ],
+      "genre_tags": [
+        "ryukyuan-music"
+      ],
+      "approximation": "12-TET approximation of the common C-E-F-G-B reference. Does not encode traditional tuning, variants or melodic behavior; not all Ryukyuan music uses this set.",
+      "source_urls": [
+        "https://www.isc.meiji.ac.jp/~katotoru/ongakutokagaku.html"
+      ]
+    },
+    {
+      "scale_id": "miyako_12tet",
+      "name": "都音階（十二平均律近似） / Miyako pitch-set approximation",
+      "intervals_cents": [
+        0,
+        100,
+        500,
+        700,
+        800
+      ],
+      "period_cents": 1200,
+      "traditions": [
+        "Japanese scale theory"
+      ],
+      "genre_tags": [
+        "japanese-traditional-music"
+      ],
+      "approximation": "12-TET approximation of the C-Db-F-G-Ab reference. Traditional tuning and performance grammar are outside this pitch-set definition.",
+      "source_urls": [
+        "https://www.isc.meiji.ac.jp/~katotoru/ongakutokagaku.html"
+      ]
+    },
+    {
+      "scale_id": "equal_24_test",
+      "name": "24等分音階・動作確認 / 24-EDO mathematical test",
+      "intervals_cents": [
+        0,
+        50,
+        100,
+        150,
+        200,
+        250,
+        300,
+        350,
+        400,
+        450,
+        500,
+        550,
+        600,
+        650,
+        700,
+        750,
+        800,
+        850,
+        900,
+        950,
+        1000,
+        1050,
+        1100,
+        1150
+      ],
+      "period_cents": 1200,
+      "traditions": [
+        "Original mathematical fixture"
+      ],
+      "genre_tags": [
+        "microtonal-experiment"
+      ],
+      "approximation": "Original equal division 1200*n/24 cents, n=0..23. A diagnostic grid, not an authentic Arabic, Turkish or other traditional scale.",
+      "source_urls": [
+        "https://www.huygens-fokker.org/scala/scl_format.html"
+      ]
+    }
+  ]
+}
