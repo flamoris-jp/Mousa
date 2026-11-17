@@ -1,0 +1,125 @@
+{
+  "schema": "mousa.local2-independent-fit-audit-summary.v1",
+  "no_fit_or_forward_inference": true,
+  "data_sha256": "8bbabc9418ea5d9c71e5b84822e0ca2de61c0ad6a9d41a1529f0d8da6f790286",
+  "weights_sha256": "fb85ee45996312605d339594869f0c6f5fc438c9b023d1e463169e058cf07325",
+  "manifest_sha256": "97777533aa99ff65d73c404155617a11837e15d35396d3855ccfa40662182a3d",
+  "native_results_sha256": "2953fe1b68056dfd8b53fd1a135fb94b43360e15f99bbc36763cf3224878be1c",
+  "sample_draws": 1920,
+  "sample_unique_rows": 586,
+  "sample_songs": 44,
+  "eligible_train_songs": 45,
+  "eligible_test_songs": 12,
+  "sample_family_count": 11,
+  "train_family_count": 12,
+  "test_family_count": 5,
+  "checked_rows_against_prepared_bar_labels": 722,
+  "independent_metric_checks": 3798,
+  "model_parameters": 53,
+  "optimizer_moment_tensors": 106,
+  "all_optimizer_steps": 60,
+  "embedding_delta_l1_independently_reconstructed": 12.122264862060547,
+  "saved_native_reload_logits_exact": true,
+  "reload_scope": "Native same-process save/reload probe assertion inspected; this audit did not repeat forward inference or claim fresh-process prediction replay.",
+  "cpu_seconds": 3.873488,
+  "limitations": [
+    "620 eligible training windows from45 encoded scores/12 families were prepared; actual sampled exposure is586 unique windows from44 scores/11 families, repeated to1920 draws. Not all198 candidate entries were learned.",
+    "Only 102 test rows/12 songs/5 families; overlapping adjacent windows are not 102 independent pieces.",
+    "Local2 selected after score-label extraction and quantity feasibility; not a blind untouched benchmark.",
+    "Weak major-oriented labels are automatic duration-profile summaries, not human harmonic truth or minor/local-key annotations.",
+    "Single seed314/60-step run, no robustness or seed-distribution claim.",
+    "Fitted model trails full-train trigram on held-out NLL; no superiority or musical-quality claim.",
+    "No optimizer-resume, independent continuous-run parity, or human listening in this audit."
+  ],
+  "sampled_distinct_work_keys": 44,
+  "sampled_distinct_source_sha256": 44,
+  "score_count_caveat": "Counts are distinct encoded score_id values; work_key/hash closure is heuristic, not independent-composition certification.",
+  "independent_cpp_mt19937_seed314_schedule_replay_exact": true,
+  "native_same_process_probe_only": true,
+  "eligible_train_unique_trigram_types": 285,
+  "sampled_unique_trigram_types": 276,
+  "trigram_type_definition": "tuple(previous_label_1, previous_label_2, target_label); root+7*seventh",
+  "eligible_train_unique_two_label_contexts": 119,
+  "sampled_unique_two_label_contexts": 117,
+  "family_nll_regressions": {
+    "initial_ai": 2,
+    "full_train_trigram": 4,
+    "exposure_matched_trigram": 4
+  },
+  "metrics": {
+    "initial_ai": {
+      "micro": {
+        "rows": 102,
+        "nll": 2.8973603505714265,
+        "accuracy": 0.0
+      },
+      "family_macro": {
+        "families": 5,
+        "nll": 2.967336750812757,
+        "accuracy": 0.0
+      }
+    },
+    "trained_ai": {
+      "micro": {
+        "rows": 102,
+        "nll": 2.776046217802693,
+        "accuracy": 0.19607843137254902
+      },
+      "family_macro": {
+        "families": 5,
+        "nll": 2.785686213595252,
+        "accuracy": 0.19456851392335264
+      }
+    },
+    "full_train_unigram": {
+      "micro": {
+        "rows": 102,
+        "nll": 2.598364899887995,
+        "accuracy": 0.10784313725490197
+      },
+      "family_macro": {
+        "families": 5,
+        "nll": 2.613163296222284,
+        "accuracy": 0.08349875930521092
+      }
+    },
+    "full_train_trigram": {
+      "micro": {
+        "rows": 102,
+        "nll": 2.494832712708938,
+        "accuracy": 0.19607843137254902
+      },
+      "family_macro": {
+        "families": 5,
+        "nll": 2.456967578839911,
+        "accuracy": 0.21098014888337469
+      }
+    },
+    "exposure_matched_unigram": {
+      "micro": {
+        "rows": 102,
+        "nll": 2.60957201724996,
+        "accuracy": 0.10784313725490197
+      },
+      "family_macro": {
+        "families": 5,
+        "nll": 2.6254596409446744,
+        "accuracy": 0.08349875930521092
+      }
+    },
+    "exposure_matched_trigram": {
+      "micro": {
+        "rows": 102,
+        "nll": 2.5691873893204185,
+        "accuracy": 0.18627450980392157
+      },
+      "family_macro": {
+        "families": 5,
+        "nll": 2.5192948776336417,
+        "accuracy": 0.20452853598014886
+      }
+    }
+  },
+  "unselected_train_scores": 1,
+  "unselected_train_families": 1
+}

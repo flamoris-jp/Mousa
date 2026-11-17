@@ -1,0 +1,11 @@
+{
+  "schema": "mousa.progression-protocol-errata.v1",
+  "applies_to": "protocol-local2.json",
+  "applies_to_sha256": "832583925fd25bc95d51db4a375bf435db85065ed1f4430f76a1cbd3949afed4",
+  "original_protocol_modified": false,
+  "clarifications": {
+    "frozen_before_score_extraction": "This inherited v3 field does NOT mean that the local2 protocol was frozen before the original score extraction. The local2 protocol was frozen before local2 preparation, after v3 score extraction and context-length quantity feasibility inspection. It was not fully blind to the source scores or weak labels. Model evaluation performance had not been observed when the local2 protocol and this erratum were established.",
+    "revision_reason": "The inherited revision_reason describes the v2-to-v3 parser correction, where 8-context, thresholds and family split remained unchanged. It does not describe local2 context selection. Local2 is a separate 2-previous-bars-to-next-label experiment selected after quantity-only feasibility, retaining the same split and thresholds; the rejected 8-context experiment remains preserved."
+  },
+  "selection_basis": "Context 2 rather than context 1 was selected solely to retain more prior context while meeting the pre-fixed quantity gate; no evaluation performance was used."
+}

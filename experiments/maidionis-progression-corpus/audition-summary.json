@@ -1,0 +1,635 @@
+{
+  "schema": "mousa.progression-audition.experimental.v1",
+  "model_manifest_sha256": "97777533aa99ff65d73c404155617a11837e15d35396d3855ccfa40662182a3d",
+  "data_sha256": "8bbabc9418ea5d9c71e5b84822e0ca2de61c0ad6a9d41a1529f0d8da6f790286",
+  "task_id": "mousa.major-progression-local2.weak-label.experimental.v1",
+  "context_length": 2,
+  "initial_model_context": [
+    5,
+    3
+  ],
+  "context": [
+    0,
+    4,
+    5,
+    3,
+    0,
+    4,
+    5,
+    3
+  ],
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "temperature": 1,
+  "sampling": "Python random.Random cumulative categorical, no reroll",
+  "bpm": 100,
+  "bars": 8,
+  "melody": "Identical self-authored fixed C-major arpeggio in every arm, NOT AI-generated",
+  "melody_midi_notes_per_bar": [
+    72,
+    76,
+    79,
+    76,
+    72,
+    76,
+    79,
+    76
+  ],
+  "human_listening": false,
+  "arms": [
+    {
+      "name": "fixed",
+      "labels": [
+        0,
+        4,
+        5,
+        3,
+        0,
+        4,
+        5,
+        3
+      ],
+      "progression": {
+        "schema_version": "mousa.chord-progression.experimental.v1",
+        "ppq": 480,
+        "bars": 8,
+        "numerator": 4,
+        "denominator": 4,
+        "chords": [
+          {
+            "root": {
+              "degree": 0,
+              "period": 0
+            },
+            "quality": "major",
+            "duration_ticks": 1920
+          },
+          {
+            "root": {
+              "degree": 4,
+              "period": 0
+            },
+            "quality": "major",
+            "duration_ticks": 1920
+          },
+          {
+            "root": {
+              "degree": 5,
+              "period": 0
+            },
+            "quality": "minor",
+            "duration_ticks": 1920
+          },
+          {
+            "root": {
+              "degree": 3,
+              "period": 0
+            },
+            "quality": "major",
+            "duration_ticks": 1920
+          },
+          {
+            "root": {
+              "degree": 0,
+              "period": 0
+            },
+            "quality": "major",
+            "duration_ticks": 1920
+          },
+          {
+            "root": {
+              "degree": 4,
+              "period": 0
+            },
+            "quality": "major",
+            "duration_ticks": 1920
+          },
+          {
+            "root": {
+              "degree": 5,
+              "period": 0
+            },
+            "quality": "minor",
+            "duration_ticks": 1920
+          },
+          {
+            "root": {
+              "degree": 3,
+              "period": 0
+            },
+            "quality": "major",
+            "duration_ticks": 1920
+          }
+        ]
+      },
+      "matching_diagnostic": {
+        "eight_chord_exact_check_performed": false,
+        "eight_chord_check_reason": "Eight consecutive training chords cannot be reconstructed reliably from the local2 training JSON alone.",
+        "limited_trigram_diagnostic": {
+          "scope": "six windows wholly within the played eight chords; seed context excluded",
+          "windows": [
+            [
+              0,
+              4,
+              5
+            ],
+            [
+              4,
+              5,
+              3
+            ],
+            [
+              5,
+              3,
+              0
+            ],
+            [
+              3,
+              0,
+              4
+            ],
+            [
+              0,
+              4,
+              5
+            ],
+            [
+              4,
+              5,
+              3
+            ]
+          ],
+          "matched": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "matched_count": 0,
+          "window_count": 6,
+          "match_rate": 0.0
+        },
+        "caveat": "Limited local-pattern overlap only; not an originality or non-memorization guarantee."
+      },
+      "midi_sha256": "6b433f9d2506ca5db8e2110b947fd6ce5efec0824a24788b5f34fb209a562278"
+    },
+    {
+      "name": "ai-seed-17",
+      "labels": [
+        3,
+        5,
+        12,
+        1,
+        11,
+        0,
+        8,
+        0
+      ],
+      "progression": {
+        "schema_version": "mousa.chord-progression.experimental.v1",
+        "ppq": 480,
+        "bars": 8,
+        "numerator": 4,
+        "denominator": 4,
+        "chords": [
+          {
+            "root": {
+              "degree": 3,
+              "period": 0
+            },
+            "quality": "major",
+            "duration_ticks": 1920
+          },
+          {
+            "root": {
+              "degree": 5,
+              "period": 0
+            },
+            "quality": "minor",
+            "duration_ticks": 1920
+          },
+          {
+            "root": {
+              "degree": 5,
+              "period": 0
+            },
+            "quality": "minor7",
+            "duration_ticks": 1920
+          },
+          {
+            "root": {
+              "degree": 1,
+              "period": 0
+            },
+            "quality": "minor",
+            "duration_ticks": 1920
+          },
+          {
+            "root": {
+              "degree": 4,
+              "period": 0
+            },
+            "quality": "dominant7",
+            "duration_ticks": 1920
+          },
+          {
+            "root": {
+              "degree": 0,
+              "period": 0
+            },
+            "quality": "major",
+            "duration_ticks": 1920
+          },
+          {
+            "root": {
+              "degree": 1,
+              "period": 0
+            },
+            "quality": "minor7",
+            "duration_ticks": 1920
+          },
+          {
+            "root": {
+              "degree": 0,
+              "period": 0
+            },
+            "quality": "major",
+            "duration_ticks": 1920
+          }
+        ]
+      },
+      "matching_diagnostic": {
+        "eight_chord_exact_check_performed": false,
+        "eight_chord_check_reason": "Eight consecutive training chords cannot be reconstructed reliably from the local2 training JSON alone.",
+        "limited_trigram_diagnostic": {
+          "scope": "six windows wholly within the played eight chords; seed context excluded",
+          "windows": [
+            [
+              3,
+              5,
+              12
+            ],
+            [
+              5,
+              12,
+              1
+            ],
+            [
+              12,
+              1,
+              11
+            ],
+            [
+              1,
+              11,
+              0
+            ],
+            [
+              11,
+              0,
+              8
+            ],
+            [
+              0,
+              8,
+              0
+            ]
+          ],
+          "matched": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "matched_count": 5,
+          "window_count": 6,
+          "match_rate": 0.8333333333333334
+        },
+        "caveat": "Limited local-pattern overlap only; not an originality or non-memorization guarantee."
+      },
+      "midi_sha256": "0199e535754e6833754938544ed6901b52c485f74e0f837c3d70a3fdad87bed8"
+    },
+    {
+      "name": "ai-seed-29",
+      "labels": [
+        3,
+        3,
+        7,
+        3,
+        1,
+        3,
+        3,
+        12
+      ],
+      "progression": {
+        "schema_version": "mousa.chord-progression.experimental.v1",
+        "ppq": 480,
+        "bars": 8,
+        "numerator": 4,
+        "denominator": 4,
+        "chords": [
+          {
+            "root": {
+              "degree": 3,
+              "period": 0
+            },
+            "quality": "major",
+            "duration_ticks": 1920
+          },
+          {
+            "root": {
+              "degree": 3,
+              "period": 0
+            },
+            "quality": "major",
+            "duration_ticks": 1920
+          },
+          {
+            "root": {
+              "degree": 0,
+              "period": 0
+            },
+            "quality": "major7",
+            "duration_ticks": 1920
+          },
+          {
+            "root": {
+              "degree": 3,
+              "period": 0
+            },
+            "quality": "major",
+            "duration_ticks": 1920
+          },
+          {
+            "root": {
+              "degree": 1,
+              "period": 0
+            },
+            "quality": "minor",
+            "duration_ticks": 1920
+          },
+          {
+            "root": {
+              "degree": 3,
+              "period": 0
+            },
+            "quality": "major",
+            "duration_ticks": 1920
+          },
+          {
+            "root": {
+              "degree": 3,
+              "period": 0
+            },
+            "quality": "major",
+            "duration_ticks": 1920
+          },
+          {
+            "root": {
+              "degree": 5,
+              "period": 0
+            },
+            "quality": "minor7",
+            "duration_ticks": 1920
+          }
+        ]
+      },
+      "matching_diagnostic": {
+        "eight_chord_exact_check_performed": false,
+        "eight_chord_check_reason": "Eight consecutive training chords cannot be reconstructed reliably from the local2 training JSON alone.",
+        "limited_trigram_diagnostic": {
+          "scope": "six windows wholly within the played eight chords; seed context excluded",
+          "windows": [
+            [
+              3,
+              3,
+              7
+            ],
+            [
+              3,
+              7,
+              3
+            ],
+            [
+              7,
+              3,
+              1
+            ],
+            [
+              3,
+              1,
+              3
+            ],
+            [
+              1,
+              3,
+              3
+            ],
+            [
+              3,
+              3,
+              12
+            ]
+          ],
+          "matched": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "matched_count": 0,
+          "window_count": 6,
+          "match_rate": 0.0
+        },
+        "caveat": "Limited local-pattern overlap only; not an originality or non-memorization guarantee."
+      },
+      "midi_sha256": "7802a4fd920d1c950dbdd45914ab5f98446f6acb991af37811cf0e526c23fb1a"
+    },
+    {
+      "name": "ai-seed-43",
+      "labels": [
+        0,
+        3,
+        0,
+        3,
+        3,
+        5,
+        5,
+        5
+      ],
+      "progression": {
+        "schema_version": "mousa.chord-progression.experimental.v1",
+        "ppq": 480,
+        "bars": 8,
+        "numerator": 4,
+        "denominator": 4,
+        "chords": [
+          {
+            "root": {
+              "degree": 0,
+              "period": 0
+            },
+            "quality": "major",
+            "duration_ticks": 1920
+          },
+          {
+            "root": {
+              "degree": 3,
+              "period": 0
+            },
+            "quality": "major",
+            "duration_ticks": 1920
+          },
+          {
+            "root": {
+              "degree": 0,
+              "period": 0
+            },
+            "quality": "major",
+            "duration_ticks": 1920
+          },
+          {
+            "root": {
+              "degree": 3,
+              "period": 0
+            },
+            "quality": "major",
+            "duration_ticks": 1920
+          },
+          {
+            "root": {
+              "degree": 3,
+              "period": 0
+            },
+            "quality": "major",
+            "duration_ticks": 1920
+          },
+          {
+            "root": {
+              "degree": 5,
+              "period": 0
+            },
+            "quality": "minor",
+            "duration_ticks": 1920
+          },
+          {
+            "root": {
+              "degree": 5,
+              "period": 0
+            },
+            "quality": "minor",
+            "duration_ticks": 1920
+          },
+          {
+            "root": {
+              "degree": 5,
+              "period": 0
+            },
+            "quality": "minor",
+            "duration_ticks": 1920
+          }
+        ]
+      },
+      "matching_diagnostic": {
+        "eight_chord_exact_check_performed": false,
+        "eight_chord_check_reason": "Eight consecutive training chords cannot be reconstructed reliably from the local2 training JSON alone.",
+        "limited_trigram_diagnostic": {
+          "scope": "six windows wholly within the played eight chords; seed context excluded",
+          "windows": [
+            [
+              0,
+              3,
+              0
+            ],
+            [
+              3,
+              0,
+              3
+            ],
+            [
+              0,
+              3,
+              3
+            ],
+            [
+              3,
+              3,
+              5
+            ],
+            [
+              3,
+              5,
+              5
+            ],
+            [
+              5,
+              5,
+              5
+            ]
+          ],
+          "matched": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "matched_count": 6,
+          "window_count": 6,
+          "match_rate": 1.0
+        },
+        "caveat": "Limited local-pattern overlap only; not an originality or non-memorization guarantee."
+      },
+      "midi_sha256": "4d596d86db8dc0ff9c6f2411e76426a1c52adc576a5c0d6fb5e8d834f2394658"
+    }
+  ],
+  "match_caveat": "Local2: no eight-chord copy check; only limited trigram overlap. Context8: stored eight-chord windows only. Neither guarantees originality or non-memorization.",
+  "audio": [
+    {
+      "name": "fixed",
+      "common_gain": 12,
+      "seconds": 21.2,
+      "pcm_peak_before": 896,
+      "pcm_peak_after": 10752,
+      "midi_message_roundtrip_exact": true,
+      "mp3_sha256": "ce42e712d137a7dd61a1fc496fdfcab752a5f4e51b3e228996adf7fb2051af68"
+    },
+    {
+      "name": "ai-seed-17",
+      "common_gain": 12,
+      "seconds": 21.2,
+      "pcm_peak_before": 947,
+      "pcm_peak_after": 11364,
+      "midi_message_roundtrip_exact": true,
+      "mp3_sha256": "a6c3b7942f5ad5a219c3d8b9444a7ef6497dc63adcc3906b8775b46a5099d152"
+    },
+    {
+      "name": "ai-seed-29",
+      "common_gain": 12,
+      "seconds": 21.2,
+      "pcm_peak_before": 950,
+      "pcm_peak_after": 11400,
+      "midi_message_roundtrip_exact": true,
+      "mp3_sha256": "f5a2c7717b2b75f5c497b939c56acd2b82cfc4e7b0e770e1414a061f593673dc"
+    },
+    {
+      "name": "ai-seed-43",
+      "common_gain": 12,
+      "seconds": 21.2,
+      "pcm_peak_before": 869,
+      "pcm_peak_after": 10428,
+      "midi_message_roundtrip_exact": true,
+      "mp3_sha256": "a82c60c46ad0740cd92ca5ee5ad3cb873b725b35ce5871d1640740cd25fe0c7e"
+    }
+  ]
+}

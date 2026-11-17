@@ -1,0 +1,96 @@
+{
+  "accepted_bars": 1718,
+  "assigned_families": {
+    "test": 5,
+    "train": 17
+  },
+  "available_exact_files": 191,
+  "bars": 3854,
+  "candidate_entries": 198,
+  "exclusion_counts": {
+    "MuseScore3_only": 43,
+    "missing_exact_file": 7,
+    "missing_or_changing_key": 36,
+    "missing_or_changing_meter": 9,
+    "missing_or_unsupported_CC0_metadata": 17,
+    "unsupported_key_signature": 1,
+    "volta_span_unsupported_entire_score": 7
+  },
+  "families_after_union": 22,
+  "families_before_union": 22,
+  "families_with_windows": {
+    "test": 5,
+    "train": 12
+  },
+  "family_window_counts": {
+    "openscore-family:0adc3c8ef373a8f8f5c70791": 7,
+    "openscore-family:1c6a00e405cadb667d1af2ca": 13,
+    "openscore-family:1cea5a95ae511edf2931a1da": 5,
+    "openscore-family:207fb3dc0ce7524384ea50dc": 39,
+    "openscore-family:32f359d66bc5a3539d287531": 148,
+    "openscore-family:3802788d13a7fda4b835ebc5": 3,
+    "openscore-family:39c0993a38d765104b13b002": 24,
+    "openscore-family:3d87a40d691a62ffbfa2d61b": 9,
+    "openscore-family:5552dcbf7dc2cae25136f958": 201,
+    "openscore-family:566d36624ff5b64a30b2f94f": 6,
+    "openscore-family:59965c7472a46267693a615c": 35,
+    "openscore-family:7822302d8ba468d879b4f5e7": 12,
+    "openscore-family:a18525f87f3f4582f1d6b457": 39,
+    "openscore-family:bc5030dde6039f482d61b4da": 26,
+    "openscore-family:c14d8ca456603fe2310fc17e": 31,
+    "openscore-family:ee44a9076e2218f93ef4f1fc": 1,
+    "openscore-family:f99cd72c863e6d37df3b5446": 123
+  },
+  "label_counts": {
+    "test": {
+      "0": 11,
+      "1": 7,
+      "2": 6,
+      "3": 6,
+      "4": 4,
+      "5": 9,
+      "7": 10,
+      "8": 5,
+      "9": 11,
+      "10": 12,
+      "11": 12,
+      "12": 6,
+      "13": 3
+    },
+    "train": {
+      "0": 130,
+      "1": 35,
+      "2": 10,
+      "3": 38,
+      "4": 30,
+      "5": 62,
+      "6": 1,
+      "7": 89,
+      "8": 35,
+      "9": 30,
+      "10": 54,
+      "11": 54,
+      "12": 38,
+      "13": 14
+    }
+  },
+  "null_bar_reasons": {
+    "ambiguous_margin": 219,
+    "fewer_than_three_pitch_classes": 47,
+    "low_coverage": 661,
+    "silent_bar": 2,
+    "structural_rejection": 1207
+  },
+  "rows": {
+    "test": 102,
+    "train": 620
+  },
+  "scores_passed_structure": 78,
+  "scores_with_windows": {
+    "test": 12,
+    "train": 45
+  },
+  "status": "prepared_not_trained",
+  "training_sha256": "8bbabc9418ea5d9c71e5b84822e0ca2de61c0ad6a9d41a1529f0d8da6f790286",
+  "run": "local2"
+}

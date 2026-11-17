@@ -1,0 +1,2600 @@
+{
+  "schema": "mousa.openscore-edition-reviewed-candidates.v1",
+  "reviewed_date": "2026-11-17",
+  "status": "edition-rights-reviewed; pending exact encoded-file CC0/hash and structural gates, duplicate/prior-use closure and frozen split; no training",
+  "scope": "music notes only; exclude all lyrics and pre-existing automatic/human annotation files",
+  "encoding_licence_url": "https://github.com/OpenScore/Lieder/blob/main/LICENSE.txt",
+  "metadata_sha256": {
+    "scores.yaml": "5e5ff2acac7cb06cdf30dbb6992315bd8a169d5acea0ac856536c01efb229692",
+    "sets.yaml": "cf001454153802df949a1bbec3be1d0fecc2a65419e38ba8c7bc96957790f6a6",
+    "composers.yaml": "b5768193871dcf92512eb8d680cc5cf06c1bb09626725cb8af2c533d63383ad1"
+  },
+  "counts": {
+    "sets": 22,
+    "score_entries": 198,
+    "excluded_sets": 6
+  },
+  "sets": [
+    {
+      "set_id": 5104578,
+      "family_id": "openscore:Brahms,_Johannes/2_Gesänge,_Op.91",
+      "path": "Brahms,_Johannes/2_Gesänge,_Op.91",
+      "works": 2,
+      "edition_sources": [
+        {
+          "imslp_id": "#39262",
+          "source_url": "https://imslp.org/wiki/2_Ges%C3%A4nge,_Op.91_(Brahms,_Johannes)#IMSLP39262",
+          "edition_evidence": "Editor First edition Pub lisher . Info. Berlin: N. Simrock , 1884. Plate 8474-8476.",
+          "rights_statement": "Public Domain (exact score-file group on IMSLP)",
+          "evidence_sha256": "3162dbaf88ce7202348088f87c76a8611415e58e5200bed290d67b31a6e37408"
+        },
+        {
+          "imslp_id": "#77665",
+          "source_url": "https://imslp.org/wiki/2_Ges%C3%A4nge,_Op.91_(Brahms,_Johannes)#IMSLP77665",
+          "edition_evidence": "Editor Eusebius Mandyczewski (1857–1929) Pub lisher . Info. Sämtliche Werke , Band 25 (pp.132-48) Leipzig: Breitkopf & Härtel , 1926-27. Plate J.B. 160.",
+          "rights_statement": "Public Domain (exact score-file group on IMSLP)",
+          "evidence_sha256": "3162dbaf88ce7202348088f87c76a8611415e58e5200bed290d67b31a6e37408"
+        }
+      ]
+    },
+    {
+      "set_id": 5071658,
+      "family_id": "openscore:Brahms,_Johannes/4_Gesänge,_Op.46",
+      "path": "Brahms,_Johannes/4_Gesänge,_Op.46",
+      "works": 4,
+      "edition_sources": [
+        {
+          "imslp_id": "#79670",
+          "source_url": "https://imslp.org/wiki/4_Lieder,_Op.46_(Brahms,_Johannes)#IMSLP79670",
+          "edition_evidence": "Editor Eusebius Mandyczewski (1857-1929) Pub lisher . Info. Sämtliche Werke , Band 24 Leipzig: Breitkopf & Härtel , 1926-27. Plate J.B. 145.",
+          "rights_statement": "Public Domain (exact score-file group on IMSLP)",
+          "evidence_sha256": "5bf352f91ff18a1e3307e9fba2868aa02050b71625e6429076e1b2adcbcfba71"
+        }
+      ]
+    },
+    {
+      "set_id": 5107949,
+      "family_id": "openscore:Brahms,_Johannes/4_Serious_Songs,_Op.121",
+      "path": "Brahms,_Johannes/4_Serious_Songs,_Op.121",
+      "works": 4,
+      "edition_sources": [
+        {
+          "imslp_id": "#85424",
+          "source_url": "https://imslp.org/wiki/4_Serious_Songs,_Op.121_(Brahms,_Johannes)#IMSLP85424",
+          "edition_evidence": "Editor Eusebius Mandyczewski (1857–1929) Pub lisher . Info. Sämtliche Werke , Band 26 (pp.44-61) Leipzig: Breitkopf & Härtel , 1926-27. Plate J.B. 168.",
+          "rights_statement": "Public Domain (exact score-file group on IMSLP)",
+          "evidence_sha256": "4621d870a2058433d96e5c842319dc36ae7002780119545cd04397bffea7d678"
+        }
+      ]
+    },
+    {
+      "set_id": 5067679,
+      "family_id": "openscore:Brahms,_Johannes/4_Songs,_Op.43",
+      "path": "Brahms,_Johannes/4_Songs,_Op.43",
+      "works": 4,
+      "edition_sources": [
+        {
+          "imslp_id": "#79666",
+          "source_url": "https://imslp.org/wiki/4_Songs,_Op.43_(Brahms,_Johannes)#IMSLP79666",
+          "edition_evidence": "Editor Eusebius Mandyczewski (1857-1929) Pub lisher . Info. Sämtliche Werke , Band 24 Leipzig: Breitkopf & Härtel , 1926-27. Plate J.B. 144.",
+          "rights_statement": "Public Domain (exact score-file group on IMSLP)",
+          "evidence_sha256": "f8f1723990c694713c6c0a61c8b0b7a60a5b691657b1555019c2c72eb64bdf55"
+        }
+      ]
+    },
+    {
+      "set_id": 5032882,
+      "family_id": "openscore:Brahms,_Johannes/5_Lieder,_Op.47",
+      "path": "Brahms,_Johannes/5_Lieder,_Op.47",
+      "works": 5,
+      "edition_sources": [
+        {
+          "imslp_id": "#81904",
+          "source_url": "https://imslp.org/wiki/5_Lieder,_Op.47_(Brahms,_Johannes)#IMSLP81904",
+          "edition_evidence": "Editor Eusebius Mandyczewski (1857-1929) Pub lisher . Info. Sämtliche Werke , Band 24 (pp.32-47) Leipzig: Breitkopf & Härtel , 1926-27. Plate J.B. 146.",
+          "rights_statement": "Public Domain (exact score-file group on IMSLP)",
+          "evidence_sha256": "b92a548072c6ecae43389743ccf48bec9c5b8f19e7fe566ab5350bfcd8136f14"
+        }
+      ]
+    },
+    {
+      "set_id": 5096872,
+      "family_id": "openscore:Brahms,_Johannes/5_Lieder,_Op.49",
+      "path": "Brahms,_Johannes/5_Lieder,_Op.49",
+      "works": 5,
+      "edition_sources": [
+        {
+          "imslp_id": "#81909",
+          "source_url": "https://imslp.org/wiki/5_Lieder,_Op.49_(Brahms,_Johannes)#IMSLP81909",
+          "edition_evidence": "Editor Eusebius Mandyczewski (1857–1929) Pub lisher . Info. Sämtliche Werke , Band 24 (pp.64-79) Leipzig: Breitkopf & Härtel , 1926-27. Plate J.B. 148.",
+          "rights_statement": "Public Domain (exact score-file group on IMSLP)",
+          "evidence_sha256": "192518fef7514ad9a4fa432922a92e57db833af43411136863544b469507aed9"
+        }
+      ]
+    },
+    {
+      "set_id": 5013857,
+      "family_id": "openscore:Brahms,_Johannes/7_Lieder,_Op.48",
+      "path": "Brahms,_Johannes/7_Lieder,_Op.48",
+      "works": 7,
+      "edition_sources": [
+        {
+          "imslp_id": "#81907",
+          "source_url": "https://imslp.org/wiki/7_Lieder,_Op.48_(Brahms,_Johannes)#IMSLP81907",
+          "edition_evidence": "Editor Eusebius Mandyczewski (1857-1929) Pub lisher . Info. Sämtliche Werke , Band 24 Leipzig: Breitkopf & Härtel , 1926-27. Plate J.B. 147.",
+          "rights_statement": "Public Domain (exact score-file group on IMSLP)",
+          "evidence_sha256": "425561974d659df91392280e8a6245df0417b1ba1b4b1ba0c516c154be750606"
+        }
+      ]
+    },
+    {
+      "set_id": 5033060,
+      "family_id": "openscore:Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.57",
+      "path": "Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.57",
+      "works": 8,
+      "edition_sources": [
+        {
+          "imslp_id": "#81926",
+          "source_url": "https://imslp.org/wiki/8_Lieder_and_Songs,_Op.57_(Brahms,_Johannes)#IMSLP81926",
+          "edition_evidence": "Editor Eusebius Mandyczewski (1857-1929) Pub lisher . Info. Sämtliche Werke , Band 24 Leipzig: Breitkopf & Härtel , 1926-27. Plate J.B. 149.",
+          "rights_statement": "Public Domain (exact score-file group on IMSLP)",
+          "evidence_sha256": "4b88c3b33a50b4802684658f1aaaab6b132de2796666b115f6111a48f19d6468"
+        }
+      ]
+    },
+    {
+      "set_id": 5071706,
+      "family_id": "openscore:Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.58",
+      "path": "Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.58",
+      "works": 8,
+      "edition_sources": [
+        {
+          "imslp_id": "#81975",
+          "source_url": "https://imslp.org/wiki/8_Lieder_and_Songs,_Op.58_(Brahms,_Johannes)#IMSLP81975",
+          "edition_evidence": "Editor Eusebius Mandyczewski (1857-1929) Pub lisher . Info. Sämtliche Werke , Band 24 (pp.109-33) Leipzig: Breitkopf & Härtel , 1926-27. Plate J.B. 150.",
+          "rights_statement": "Public Domain (exact score-file group on IMSLP)",
+          "evidence_sha256": "7c2a335052b308a3d09f4d041e9268d2b17022cc203b82a56e6385eba60308c1"
+        }
+      ]
+    },
+    {
+      "set_id": 5032872,
+      "family_id": "openscore:Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.59",
+      "path": "Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.59",
+      "works": 8,
+      "edition_sources": [
+        {
+          "imslp_id": "#81993",
+          "source_url": "https://imslp.org/wiki/8_Lieder_and_Songs,_Op.59_(Brahms,_Johannes)#IMSLP81993",
+          "edition_evidence": "Editor Eusebius Mandyczewski (1857–1929) Pub lisher . Info. Sämtliche Werke , Band 24 (pp.134-63) Leipzig: Breitkopf & Härtel , 1926-27. Plate J.B. 151.",
+          "rights_statement": "Public Domain (exact score-file group on IMSLP)",
+          "evidence_sha256": "11eb788f3a2e9d857984c407f4ed70cca6ab67af8810f2fd758514373b635618"
+        }
+      ]
+    },
+    {
+      "set_id": 5033093,
+      "family_id": "openscore:Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.32",
+      "path": "Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.32",
+      "works": 9,
+      "edition_sources": [
+        {
+          "imslp_id": "#97709",
+          "source_url": "https://imslp.org/wiki/9_Lieder_and_Songs,_Op.32_(Brahms,_Johannes)#IMSLP97709",
+          "edition_evidence": "Editor Eusebius Mandyczewski (1857-1929) Pub lisher . Info. Sämtliche Werke , Band 23 Leipzig: Breitkopf & Härtel , 1926-27. Plate J.B. 142.",
+          "rights_statement": "Public Domain (exact score-file group on IMSLP)",
+          "evidence_sha256": "c1976d12d2e50418d5e2e77d99ee658404284dceb18a4e478f265f82e1897603"
+        }
+      ]
+    },
+    {
+      "set_id": 5033077,
+      "family_id": "openscore:Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.63",
+      "path": "Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.63",
+      "works": 9,
+      "edition_sources": [
+        {
+          "imslp_id": "#88147",
+          "source_url": "https://imslp.org/wiki/9_Lieder_and_Songs,_Op.63_(Brahms,_Johannes)#IMSLP88147",
+          "edition_evidence": "Editor Eusebius Mandyczewski (1857-1929) Pub lisher . Info. Sämtliche Werke , Band 24 (pp.164-206) Leipzig: Breitkopf & Härtel , 1926-27. Plate J.B. 152.",
+          "rights_statement": "Public Domain (exact score-file group on IMSLP)",
+          "evidence_sha256": "b04534072c745315d188f9d3d4edc8906941c1a0be4f55c6a68cac2b279271fe"
+        }
+      ]
+    },
+    {
+      "set_id": 5577240,
+      "family_id": "openscore:Brahms,_Johannes/Marienlieder,_Op.22",
+      "path": "Brahms,_Johannes/Marienlieder,_Op.22",
+      "works": 7,
+      "edition_sources": [
+        {
+          "imslp_id": "#101428",
+          "source_url": "https://imslp.org/wiki/Marienlieder,_Op.22_(Brahms,_Johannes)#IMSLP101428",
+          "edition_evidence": "Editor Eusebius Mandyczewski (1857–1929) Pub lisher . Info. Sämtliche Werke , Band 21 Leipzig: Breitkopf & Härtel , 1926-27. Plate J.B. 110.",
+          "rights_statement": "Public Domain (exact score-file group on IMSLP)",
+          "evidence_sha256": "a391b1b5320047feec1cc2854c0a6d66051ed35fe8951a465256a63d6b4edc2e"
+        },
+        {
+          "imslp_id": "#22901",
+          "source_url": "https://imslp.org/wiki/Marienlieder,_Op.22_(Brahms,_Johannes)#IMSLP22901",
+          "edition_evidence": "Editor First edition [October 1862] Pub lisher . Info. Leipzig & Winterthur: J. Rieter-Biedermann , n.d. [1862] . Plate 216a, 216b.",
+          "rights_statement": "Public Domain (exact score-file group on IMSLP)",
+          "evidence_sha256": "a391b1b5320047feec1cc2854c0a6d66051ed35fe8951a465256a63d6b4edc2e"
+        }
+      ]
+    },
+    {
+      "set_id": 5016678,
+      "family_id": "openscore:Schubert,_Franz/4_Gesänge_aus_„Wilhelm_Meister“,_D.877",
+      "path": "Schubert,_Franz/4_Gesänge_aus_„Wilhelm_Meister“,_D.877",
+      "works": 4,
+      "edition_sources": [
+        {
+          "imslp_id": "#62399",
+          "source_url": "https://imslp.org/wiki/4_Ges%C3%A4nge_aus_%27Wilhelm_Meister%27,_D.877_(Schubert,_Franz)#IMSLP62399",
+          "edition_evidence": "Editor Eusebius Mandyczewski (1857–1929) Pub lisher . Info. Schubert's Werke , Serie XX , Band 8. 1823-27, No.488-491 (pp.166-75) Leipzig: Breitkopf & Härtel , 1895. Plate F.S. 848-851. Reprinted New York: E.F. Kalmus , No. 1089, n.d.[1965]. (#16422)",
+          "rights_statement": "Public Domain (exact score-file group on IMSLP)",
+          "evidence_sha256": "7a15b576a2007235a9c45de75cb1008b8f429f05761d160b387cb8c983df1223"
+        }
+      ]
+    },
+    {
+      "set_id": 5004732,
+      "family_id": "openscore:Schubert,_Franz/Die_schöne_Müllerin,_D.795",
+      "path": "Schubert,_Franz/Die_schöne_Müllerin,_D.795",
+      "works": 20,
+      "edition_sources": [
+        {
+          "imslp_id": "#03233",
+          "source_url": "https://imslp.org/wiki/Die_sch%C3%B6ne_M%C3%BCllerin,_D.795_(Schubert,_Franz)#IMSLP03233",
+          "edition_evidence": "Editor Eusebius Mandyczewski (1857–1929) Pub lisher . Info. Schubert's Werke , Serie XX , Band 7. 1822-23 b.z. 'Die schönen Mülerin', No.433-452 (pp.134-185) Leipzig: Breitkopf & Härtel , 1895. Plate F.S. 790-809.",
+          "rights_statement": "Public Domain (exact score-file group on IMSLP)",
+          "evidence_sha256": "1573a525e766c5f6cb8d5156315d867da37092ebcf2cf62975f0d2147d3dffea"
+        }
+      ]
+    },
+    {
+      "set_id": 5004836,
+      "family_id": "openscore:Schubert,_Franz/Schwanengesang,_D.957",
+      "path": "Schubert,_Franz/Schwanengesang,_D.957",
+      "works": 14,
+      "edition_sources": [
+        {
+          "imslp_id": "#60828",
+          "source_url": "https://imslp.org/wiki/Schwanengesang,_D.957_(Schubert,_Franz)#IMSLP60828",
+          "edition_evidence": "Editor Eusebius Mandyczewski (1857–1929) Pub lisher . Info. Schubert's Werke , Serie XX , Band 9. 1827-28 b.z. 'Schwanengasang', No.554-567 (pp.134–85) Leipzig: Breitkopf & Härtel , 1895. Plate F.S. 920-933.",
+          "rights_statement": "Public Domain (exact score-file group on IMSLP)",
+          "evidence_sha256": "48b0f48a448549f6eabd8353feeef52c92667029c1b4627e91bc8108257e2867"
+        }
+      ]
+    },
+    {
+      "set_id": 5015409,
+      "family_id": "openscore:Schubert,_Franz/Winterreise,_D.911",
+      "path": "Schubert,_Franz/Winterreise,_D.911",
+      "works": 24,
+      "edition_sources": [
+        {
+          "imslp_id": "#60822",
+          "source_url": "https://imslp.org/wiki/Winterreise,_D.911_(Schubert,_Franz)#IMSLP60822",
+          "edition_evidence": "Editor Eusebius Mandyczewski (1857–1929) Language German Pub lisher . Info. Schubert's Werke , Serie XX , Band 9. 1827-28 b.z. 'Schwanengasang', No.517-540 (pp.2-77) Leipzig: Breitkopf & Härtel , 1895. Plate F.S. 878-904.",
+          "rights_statement": "Public Domain (exact score-file group on IMSLP)",
+          "evidence_sha256": "978d580d45bc6d826b7961400e9232f3f367c091fa27934eaa6f2e47a6044f6a"
+        }
+      ]
+    },
+    {
+      "set_id": 5109333,
+      "family_id": "openscore:Schumann,_Robert/5_Lieder_und_Gesänge,_Op.127",
+      "path": "Schumann,_Robert/5_Lieder_und_Gesänge,_Op.127",
+      "works": 5,
+      "edition_sources": [
+        {
+          "imslp_id": "#271937",
+          "source_url": "https://imslp.org/wiki/5_Lieder_und_Ges%C3%A4nge,_Op.127_(Schumann,_Robert)#IMSLP271937",
+          "edition_evidence": "Editor Clara Schumann (1819-1896) Pub lisher . Info. Robert Schumanns Werke , Serie XIII: Für eine Singstimme, mit Begleitung des Pianoforte Leipzig: Breitkopf & Härtel , 1888. Plate R.S. 151.",
+          "rights_statement": "Public Domain (exact score-file group on IMSLP)",
+          "evidence_sha256": "4574e47527400f9e74f4fdb97c4b8a42ccf82d7e2f561cc068d1b15ff81e4dfd"
+        }
+      ]
+    },
+    {
+      "set_id": 5016693,
+      "family_id": "openscore:Schumann,_Robert/Frauenliebe_und_Leben,_Op.42",
+      "path": "Schumann,_Robert/Frauenliebe_und_Leben,_Op.42",
+      "works": 8,
+      "edition_sources": [
+        {
+          "imslp_id": "#51733",
+          "source_url": "https://imslp.org/wiki/Frauenliebe_und_Leben,_Op.42_(Schumann,_Robert)#IMSLP51733",
+          "edition_evidence": "Editor Clara Schumann (1819–1896) Pub lisher . Info. Robert Schumanns Werke , Serie XIII (pp.62-77) Leipzig: Breitkopf & Härtel , 1885. Plate R.S. 129.",
+          "rights_statement": "Public Domain (exact score-file group on IMSLP)",
+          "evidence_sha256": "834333bb140378f68538f286c762366485bc3e5185c7ad42da921e46cb280030"
+        }
+      ]
+    },
+    {
+      "set_id": 5109332,
+      "family_id": "openscore:Schumann,_Robert/Lieder_und_Gesänge,_Vol.IV,_Op.96",
+      "path": "Schumann,_Robert/Lieder_und_Gesänge,_Vol.IV,_Op.96",
+      "works": 5,
+      "edition_sources": [
+        {
+          "imslp_id": "#271883",
+          "source_url": "https://imslp.org/wiki/Lieder_und_Ges%C3%A4nge,_Vol.IV,_Op.96_(Schumann,_Robert)#IMSLP271883",
+          "edition_evidence": "Editor Clara Schumann (1819-1896) Pub lisher . Info. Robert Schumanns Werke , Serie XIII: Für eine Singstimme, mit Begleitung des Pianoforte Leipzig: Breitkopf & Härtel , 1887. Plate R.S. 144.",
+          "rights_statement": "Public Domain (exact score-file group on IMSLP)",
+          "evidence_sha256": "2ba848b45127b8ee3dc0e83425e449fb834f3af07569db27fda88f196f0add99"
+        }
+      ]
+    },
+    {
+      "set_id": 5003125,
+      "family_id": "openscore:Schumann,_Robert/Liederkreis,_Op.39",
+      "path": "Schumann,_Robert/Liederkreis,_Op.39",
+      "works": 12,
+      "edition_sources": [
+        {
+          "imslp_id": "#270920",
+          "source_url": "https://imslp.org/wiki/Liederkreis,_Op.39_(Schumann,_Robert)#IMSLP270920",
+          "edition_evidence": "Editor Clara Schumann (1819–1896) Pub lisher . Info. Robert Schumanns Werke , Serie XIII (pp.28-49) Leipzig: Breitkopf & Härtel , 1885. Plate R.S. 127.",
+          "rights_statement": "Public Domain (exact score-file group on IMSLP)",
+          "evidence_sha256": "e047591e0b7414fff888df96dae35f9bb839d2de2fcf849bea29a0932f0d5738"
+        }
+      ]
+    },
+    {
+      "set_id": 5109331,
+      "family_id": "openscore:Schumann,_Robert/Myrthen,_Op.25",
+      "path": "Schumann,_Robert/Myrthen,_Op.25",
+      "works": 26,
+      "edition_sources": [
+        {
+          "imslp_id": "#270905",
+          "source_url": "https://imslp.org/wiki/Myrthen,_Op.25_(Schumann,_Robert)#IMSLP270905",
+          "edition_evidence": "Editor Clara Schumann (1819–1896) Pub lisher . Info. Robert Schumanns Werke , Serie XIII: Für eine Singstimme, mit Begleitung des Pianoforte Leipzig: Breitkopf & Härtel , 1879-1912. Plate R.S. 120.",
+          "rights_statement": "Public Domain (exact score-file group on IMSLP)",
+          "evidence_sha256": "62ece07302eb7de09eeeb706574677b3fcd64182cb43741fdc4c68e7a9cefaeb"
+        }
+      ]
+    }
+  ],
+  "scores": [
+    {
+      "score_id": 6302395,
+      "set_id": 5104578,
+      "family_id": "openscore:Brahms,_Johannes/2_Gesänge,_Op.91",
+      "score_directory": "scores/Brahms,_Johannes/2_Gesänge,_Op.91/1_Gestillte_Sehnsucht",
+      "imslp_id": "#77665",
+      "source_url": "https://imslp.org/wiki/2_Ges%C3%A4nge,_Op.91_(Brahms,_Johannes)#IMSLP77665",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 6320420,
+      "set_id": 5104578,
+      "family_id": "openscore:Brahms,_Johannes/2_Gesänge,_Op.91",
+      "score_directory": "scores/Brahms,_Johannes/2_Gesänge,_Op.91/2_Geistliches_Wiegenlied",
+      "imslp_id": "#39262",
+      "source_url": "https://imslp.org/wiki/2_Ges%C3%A4nge,_Op.91_(Brahms,_Johannes)#IMSLP39262",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5084888,
+      "set_id": 5071658,
+      "family_id": "openscore:Brahms,_Johannes/4_Gesänge,_Op.46",
+      "score_directory": "scores/Brahms,_Johannes/4_Gesänge,_Op.46/1_Die_Kränze",
+      "imslp_id": "#79670",
+      "source_url": "https://imslp.org/wiki/4_Lieder,_Op.46_(Brahms,_Johannes)#IMSLP79670",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5071668,
+      "set_id": 5071658,
+      "family_id": "openscore:Brahms,_Johannes/4_Gesänge,_Op.46",
+      "score_directory": "scores/Brahms,_Johannes/4_Gesänge,_Op.46/2_Magyarisch",
+      "imslp_id": "#79670",
+      "source_url": "https://imslp.org/wiki/4_Lieder,_Op.46_(Brahms,_Johannes)#IMSLP79670",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5071654,
+      "set_id": 5071658,
+      "family_id": "openscore:Brahms,_Johannes/4_Gesänge,_Op.46",
+      "score_directory": "scores/Brahms,_Johannes/4_Gesänge,_Op.46/3_Die_Schale_der_Vergessenheit",
+      "imslp_id": "#79670",
+      "source_url": "https://imslp.org/wiki/4_Lieder,_Op.46_(Brahms,_Johannes)#IMSLP79670",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5084966,
+      "set_id": 5071658,
+      "family_id": "openscore:Brahms,_Johannes/4_Gesänge,_Op.46",
+      "score_directory": "scores/Brahms,_Johannes/4_Gesänge,_Op.46/4_An_die_Nachtigall",
+      "imslp_id": "#79670",
+      "source_url": "https://imslp.org/wiki/4_Lieder,_Op.46_(Brahms,_Johannes)#IMSLP79670",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 6686592,
+      "set_id": 5107949,
+      "family_id": "openscore:Brahms,_Johannes/4_Serious_Songs,_Op.121",
+      "score_directory": "scores/Brahms,_Johannes/4_Serious_Songs,_Op.121/1_Denn_es_gehet_dem_Menschen_wie_dem_Vieh",
+      "imslp_id": "#85424",
+      "source_url": "https://imslp.org/wiki/4_Serious_Songs,_Op.121_(Brahms,_Johannes)#IMSLP85424",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 6686901,
+      "set_id": 5107949,
+      "family_id": "openscore:Brahms,_Johannes/4_Serious_Songs,_Op.121",
+      "score_directory": "scores/Brahms,_Johannes/4_Serious_Songs,_Op.121/2_Ich_wandte_mich_und_sahe",
+      "imslp_id": "#85424",
+      "source_url": "https://imslp.org/wiki/4_Serious_Songs,_Op.121_(Brahms,_Johannes)#IMSLP85424",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 6686980,
+      "set_id": 5107949,
+      "family_id": "openscore:Brahms,_Johannes/4_Serious_Songs,_Op.121",
+      "score_directory": "scores/Brahms,_Johannes/4_Serious_Songs,_Op.121/3_O_Tod,_wie_bitter_bist_du!",
+      "imslp_id": "#85424",
+      "source_url": "https://imslp.org/wiki/4_Serious_Songs,_Op.121_(Brahms,_Johannes)#IMSLP85424",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 6687153,
+      "set_id": 5107949,
+      "family_id": "openscore:Brahms,_Johannes/4_Serious_Songs,_Op.121",
+      "score_directory": "scores/Brahms,_Johannes/4_Serious_Songs,_Op.121/4_Wenn_ich_mit_Menschen-_und_mit_Engelzungen_redete",
+      "imslp_id": "#85424",
+      "source_url": "https://imslp.org/wiki/4_Serious_Songs,_Op.121_(Brahms,_Johannes)#IMSLP85424",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5153813,
+      "set_id": 5067679,
+      "family_id": "openscore:Brahms,_Johannes/4_Songs,_Op.43",
+      "score_directory": "scores/Brahms,_Johannes/4_Songs,_Op.43/1_Von_ewiger_Liebe",
+      "imslp_id": "#79666",
+      "source_url": "https://imslp.org/wiki/4_Songs,_Op.43_(Brahms,_Johannes)#IMSLP79666",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5153947,
+      "set_id": 5067679,
+      "family_id": "openscore:Brahms,_Johannes/4_Songs,_Op.43",
+      "score_directory": "scores/Brahms,_Johannes/4_Songs,_Op.43/2_Die_Mainacht",
+      "imslp_id": "#79666",
+      "source_url": "https://imslp.org/wiki/4_Songs,_Op.43_(Brahms,_Johannes)#IMSLP79666",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5067677,
+      "set_id": 5067679,
+      "family_id": "openscore:Brahms,_Johannes/4_Songs,_Op.43",
+      "score_directory": "scores/Brahms,_Johannes/4_Songs,_Op.43/3_Ich_schell_mein_Horn_ins_Jammertal",
+      "imslp_id": "#79666",
+      "source_url": "https://imslp.org/wiki/4_Songs,_Op.43_(Brahms,_Johannes)#IMSLP79666",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5067672,
+      "set_id": 5067679,
+      "family_id": "openscore:Brahms,_Johannes/4_Songs,_Op.43",
+      "score_directory": "scores/Brahms,_Johannes/4_Songs,_Op.43/4_Das_Lied_vom_Herrn_von_Falkenstein",
+      "imslp_id": "#79666",
+      "source_url": "https://imslp.org/wiki/4_Songs,_Op.43_(Brahms,_Johannes)#IMSLP79666",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5656522,
+      "set_id": 5032882,
+      "family_id": "openscore:Brahms,_Johannes/5_Lieder,_Op.47",
+      "score_directory": "scores/Brahms,_Johannes/5_Lieder,_Op.47/1_Botschaft",
+      "imslp_id": "#81904",
+      "source_url": "https://imslp.org/wiki/5_Lieder,_Op.47_(Brahms,_Johannes)#IMSLP81904",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 4946175,
+      "set_id": 5032882,
+      "family_id": "openscore:Brahms,_Johannes/5_Lieder,_Op.47",
+      "score_directory": "scores/Brahms,_Johannes/5_Lieder,_Op.47/2_Liebesglut",
+      "imslp_id": "#81904",
+      "source_url": "https://imslp.org/wiki/5_Lieder,_Op.47_(Brahms,_Johannes)#IMSLP81904",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5654342,
+      "set_id": 5032882,
+      "family_id": "openscore:Brahms,_Johannes/5_Lieder,_Op.47",
+      "score_directory": "scores/Brahms,_Johannes/5_Lieder,_Op.47/3_Sonntag",
+      "imslp_id": "#81904",
+      "source_url": "https://imslp.org/wiki/5_Lieder,_Op.47_(Brahms,_Johannes)#IMSLP81904",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5659823,
+      "set_id": 5032882,
+      "family_id": "openscore:Brahms,_Johannes/5_Lieder,_Op.47",
+      "score_directory": "scores/Brahms,_Johannes/5_Lieder,_Op.47/4_O_liebliche_Wangen",
+      "imslp_id": "#81904",
+      "source_url": "https://imslp.org/wiki/5_Lieder,_Op.47_(Brahms,_Johannes)#IMSLP81904",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5071644,
+      "set_id": 5032882,
+      "family_id": "openscore:Brahms,_Johannes/5_Lieder,_Op.47",
+      "score_directory": "scores/Brahms,_Johannes/5_Lieder,_Op.47/5_Die_Liebende_schreibt",
+      "imslp_id": "#81904",
+      "source_url": "https://imslp.org/wiki/5_Lieder,_Op.47_(Brahms,_Johannes)#IMSLP81904",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5700433,
+      "set_id": 5096872,
+      "family_id": "openscore:Brahms,_Johannes/5_Lieder,_Op.49",
+      "score_directory": "scores/Brahms,_Johannes/5_Lieder,_Op.49/1_Am_Sonntag_Morgen",
+      "imslp_id": "#81909",
+      "source_url": "https://imslp.org/wiki/5_Lieder,_Op.49_(Brahms,_Johannes)#IMSLP81909",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5667944,
+      "set_id": 5096872,
+      "family_id": "openscore:Brahms,_Johannes/5_Lieder,_Op.49",
+      "score_directory": "scores/Brahms,_Johannes/5_Lieder,_Op.49/2_An_ein_Veilchen",
+      "imslp_id": "#81909",
+      "source_url": "https://imslp.org/wiki/5_Lieder,_Op.49_(Brahms,_Johannes)#IMSLP81909",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5098713,
+      "set_id": 5096872,
+      "family_id": "openscore:Brahms,_Johannes/5_Lieder,_Op.49",
+      "score_directory": "scores/Brahms,_Johannes/5_Lieder,_Op.49/3_Sehnsucht",
+      "imslp_id": "#81909",
+      "source_url": "https://imslp.org/wiki/5_Lieder,_Op.49_(Brahms,_Johannes)#IMSLP81909",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5701612,
+      "set_id": 5096872,
+      "family_id": "openscore:Brahms,_Johannes/5_Lieder,_Op.49",
+      "score_directory": "scores/Brahms,_Johannes/5_Lieder,_Op.49/4_Wiegenlied",
+      "imslp_id": "#81909",
+      "source_url": "https://imslp.org/wiki/5_Lieder,_Op.49_(Brahms,_Johannes)#IMSLP81909",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 4978492,
+      "set_id": 5096872,
+      "family_id": "openscore:Brahms,_Johannes/5_Lieder,_Op.49",
+      "score_directory": "scores/Brahms,_Johannes/5_Lieder,_Op.49/5_Abenddämmerung",
+      "imslp_id": "#81909",
+      "source_url": "https://imslp.org/wiki/5_Lieder,_Op.49_(Brahms,_Johannes)#IMSLP81909",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5705406,
+      "set_id": 5013857,
+      "family_id": "openscore:Brahms,_Johannes/7_Lieder,_Op.48",
+      "score_directory": "scores/Brahms,_Johannes/7_Lieder,_Op.48/1_Der_Gang_zum_Liebchen",
+      "imslp_id": "#81907",
+      "source_url": "https://imslp.org/wiki/7_Lieder,_Op.48_(Brahms,_Johannes)#IMSLP81907",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5071622,
+      "set_id": 5013857,
+      "family_id": "openscore:Brahms,_Johannes/7_Lieder,_Op.48",
+      "score_directory": "scores/Brahms,_Johannes/7_Lieder,_Op.48/2_Der_Überläufer",
+      "imslp_id": "#81907",
+      "source_url": "https://imslp.org/wiki/7_Lieder,_Op.48_(Brahms,_Johannes)#IMSLP81907",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 4946239,
+      "set_id": 5013857,
+      "family_id": "openscore:Brahms,_Johannes/7_Lieder,_Op.48",
+      "score_directory": "scores/Brahms,_Johannes/7_Lieder,_Op.48/3_Liebesklage_des_Mädchens",
+      "imslp_id": "#81907",
+      "source_url": "https://imslp.org/wiki/7_Lieder,_Op.48_(Brahms,_Johannes)#IMSLP81907",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5705564,
+      "set_id": 5013857,
+      "family_id": "openscore:Brahms,_Johannes/7_Lieder,_Op.48",
+      "score_directory": "scores/Brahms,_Johannes/7_Lieder,_Op.48/4_Gold_überwiegt_die_Liebe",
+      "imslp_id": "#81907",
+      "source_url": "https://imslp.org/wiki/7_Lieder,_Op.48_(Brahms,_Johannes)#IMSLP81907",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5071629,
+      "set_id": 5013857,
+      "family_id": "openscore:Brahms,_Johannes/7_Lieder,_Op.48",
+      "score_directory": "scores/Brahms,_Johannes/7_Lieder,_Op.48/5_Trost_in_Tränen",
+      "imslp_id": "#81907",
+      "source_url": "https://imslp.org/wiki/7_Lieder,_Op.48_(Brahms,_Johannes)#IMSLP81907",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5705502,
+      "set_id": 5013857,
+      "family_id": "openscore:Brahms,_Johannes/7_Lieder,_Op.48",
+      "score_directory": "scores/Brahms,_Johannes/7_Lieder,_Op.48/6_Vergangen_ist_mir_Glück_und_Heil",
+      "imslp_id": "#81907",
+      "source_url": "https://imslp.org/wiki/7_Lieder,_Op.48_(Brahms,_Johannes)#IMSLP81907",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5071636,
+      "set_id": 5013857,
+      "family_id": "openscore:Brahms,_Johannes/7_Lieder,_Op.48",
+      "score_directory": "scores/Brahms,_Johannes/7_Lieder,_Op.48/7_Herbstgefühl",
+      "imslp_id": "#81907",
+      "source_url": "https://imslp.org/wiki/7_Lieder,_Op.48_(Brahms,_Johannes)#IMSLP81907",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5106861,
+      "set_id": 5033060,
+      "family_id": "openscore:Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.57",
+      "score_directory": "scores/Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.57/1_Von_waldbekränzter_Höhe",
+      "imslp_id": "#81926",
+      "source_url": "https://imslp.org/wiki/8_Lieder_and_Songs,_Op.57_(Brahms,_Johannes)#IMSLP81926",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5107106,
+      "set_id": 5033060,
+      "family_id": "openscore:Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.57",
+      "score_directory": "scores/Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.57/2_Wenn_du_nur_zuweilen_lächelst",
+      "imslp_id": "#81926",
+      "source_url": "https://imslp.org/wiki/8_Lieder_and_Songs,_Op.57_(Brahms,_Johannes)#IMSLP81926",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5071686,
+      "set_id": 5033060,
+      "family_id": "openscore:Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.57",
+      "score_directory": "scores/Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.57/3_Es_träumte_mir",
+      "imslp_id": "#81926",
+      "source_url": "https://imslp.org/wiki/8_Lieder_and_Songs,_Op.57_(Brahms,_Johannes)#IMSLP81926",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5033057,
+      "set_id": 5033060,
+      "family_id": "openscore:Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.57",
+      "score_directory": "scores/Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.57/4_Ach,_wende_diesen_Blick",
+      "imslp_id": "#81926",
+      "source_url": "https://imslp.org/wiki/8_Lieder_and_Songs,_Op.57_(Brahms,_Johannes)#IMSLP81926",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5071689,
+      "set_id": 5033060,
+      "family_id": "openscore:Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.57",
+      "score_directory": "scores/Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.57/5_In_meiner_Nächte_Sehnen",
+      "imslp_id": "#81926",
+      "source_url": "https://imslp.org/wiki/8_Lieder_and_Songs,_Op.57_(Brahms,_Johannes)#IMSLP81926",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5071694,
+      "set_id": 5033060,
+      "family_id": "openscore:Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.57",
+      "score_directory": "scores/Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.57/6_Strahlt_zuweilen_auch_ein_mildes_Licht",
+      "imslp_id": "#81926",
+      "source_url": "https://imslp.org/wiki/8_Lieder_and_Songs,_Op.57_(Brahms,_Johannes)#IMSLP81926",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5071678,
+      "set_id": 5033060,
+      "family_id": "openscore:Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.57",
+      "score_directory": "scores/Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.57/7_Die_Schnur,_die_Perl_an_Perle",
+      "imslp_id": "#81926",
+      "source_url": "https://imslp.org/wiki/8_Lieder_and_Songs,_Op.57_(Brahms,_Johannes)#IMSLP81926",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5155459,
+      "set_id": 5033060,
+      "family_id": "openscore:Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.57",
+      "score_directory": "scores/Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.57/8_Unbewegte_laue_Luft",
+      "imslp_id": "#81926",
+      "source_url": "https://imslp.org/wiki/8_Lieder_and_Songs,_Op.57_(Brahms,_Johannes)#IMSLP81926",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5123355,
+      "set_id": 5071706,
+      "family_id": "openscore:Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.58",
+      "score_directory": "scores/Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.58/1_Blinde_Kuh",
+      "imslp_id": "#81975",
+      "source_url": "https://imslp.org/wiki/8_Lieder_and_Songs,_Op.58_(Brahms,_Johannes)#IMSLP81975",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5098725,
+      "set_id": 5071706,
+      "family_id": "openscore:Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.58",
+      "score_directory": "scores/Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.58/2_Während_des_Regens",
+      "imslp_id": "#81975",
+      "source_url": "https://imslp.org/wiki/8_Lieder_and_Songs,_Op.58_(Brahms,_Johannes)#IMSLP81975",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5071703,
+      "set_id": 5071706,
+      "family_id": "openscore:Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.58",
+      "score_directory": "scores/Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.58/3_Die_Spröde",
+      "imslp_id": "#81975",
+      "source_url": "https://imslp.org/wiki/8_Lieder_and_Songs,_Op.58_(Brahms,_Johannes)#IMSLP81975",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5098705,
+      "set_id": 5071706,
+      "family_id": "openscore:Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.58",
+      "score_directory": "scores/Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.58/4_O_komme,_holde_Sommernacht",
+      "imslp_id": "#81975",
+      "source_url": "https://imslp.org/wiki/8_Lieder_and_Songs,_Op.58_(Brahms,_Johannes)#IMSLP81975",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5098709,
+      "set_id": 5071706,
+      "family_id": "openscore:Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.58",
+      "score_directory": "scores/Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.58/5_Schwermut",
+      "imslp_id": "#81975",
+      "source_url": "https://imslp.org/wiki/8_Lieder_and_Songs,_Op.58_(Brahms,_Johannes)#IMSLP81975",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5098685,
+      "set_id": 5071706,
+      "family_id": "openscore:Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.58",
+      "score_directory": "scores/Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.58/6_In_der_Gasse",
+      "imslp_id": "#81975",
+      "source_url": "https://imslp.org/wiki/8_Lieder_and_Songs,_Op.58_(Brahms,_Johannes)#IMSLP81975",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5098719,
+      "set_id": 5071706,
+      "family_id": "openscore:Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.58",
+      "score_directory": "scores/Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.58/7_Vorüber",
+      "imslp_id": "#81975",
+      "source_url": "https://imslp.org/wiki/8_Lieder_and_Songs,_Op.58_(Brahms,_Johannes)#IMSLP81975",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5098715,
+      "set_id": 5071706,
+      "family_id": "openscore:Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.58",
+      "score_directory": "scores/Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.58/8_Serenade",
+      "imslp_id": "#81975",
+      "source_url": "https://imslp.org/wiki/8_Lieder_and_Songs,_Op.58_(Brahms,_Johannes)#IMSLP81975",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5057822,
+      "set_id": 5032872,
+      "family_id": "openscore:Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.59",
+      "score_directory": "scores/Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.59/1_Dämmrung_senkte_sich_von_oben",
+      "imslp_id": "#81993",
+      "source_url": "https://imslp.org/wiki/8_Lieder_and_Songs,_Op.59_(Brahms,_Johannes)#IMSLP81993",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5057985,
+      "set_id": 5032872,
+      "family_id": "openscore:Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.59",
+      "score_directory": "scores/Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.59/2_Auf_dem_See",
+      "imslp_id": "#81993",
+      "source_url": "https://imslp.org/wiki/8_Lieder_and_Songs,_Op.59_(Brahms,_Johannes)#IMSLP81993",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5058091,
+      "set_id": 5032872,
+      "family_id": "openscore:Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.59",
+      "score_directory": "scores/Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.59/3_Regenlied",
+      "imslp_id": "#81993",
+      "source_url": "https://imslp.org/wiki/8_Lieder_and_Songs,_Op.59_(Brahms,_Johannes)#IMSLP81993",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5058194,
+      "set_id": 5032872,
+      "family_id": "openscore:Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.59",
+      "score_directory": "scores/Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.59/4_Nachklang",
+      "imslp_id": "#81993",
+      "source_url": "https://imslp.org/wiki/8_Lieder_and_Songs,_Op.59_(Brahms,_Johannes)#IMSLP81993",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5087729,
+      "set_id": 5032872,
+      "family_id": "openscore:Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.59",
+      "score_directory": "scores/Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.59/5_Agnes",
+      "imslp_id": "#81993",
+      "source_url": "https://imslp.org/wiki/8_Lieder_and_Songs,_Op.59_(Brahms,_Johannes)#IMSLP81993",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 4926375,
+      "set_id": 5032872,
+      "family_id": "openscore:Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.59",
+      "score_directory": "scores/Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.59/6_Eine_gute,_gute_Nacht",
+      "imslp_id": "#81993",
+      "source_url": "https://imslp.org/wiki/8_Lieder_and_Songs,_Op.59_(Brahms,_Johannes)#IMSLP81993",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5058636,
+      "set_id": 5032872,
+      "family_id": "openscore:Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.59",
+      "score_directory": "scores/Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.59/7_Mein_wundes_Herz",
+      "imslp_id": "#81993",
+      "source_url": "https://imslp.org/wiki/8_Lieder_and_Songs,_Op.59_(Brahms,_Johannes)#IMSLP81993",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5058657,
+      "set_id": 5032872,
+      "family_id": "openscore:Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.59",
+      "score_directory": "scores/Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.59/8_Dein_blaues_Auge",
+      "imslp_id": "#81993",
+      "source_url": "https://imslp.org/wiki/8_Lieder_and_Songs,_Op.59_(Brahms,_Johannes)#IMSLP81993",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5069058,
+      "set_id": 5033093,
+      "family_id": "openscore:Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.32",
+      "score_directory": "scores/Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.32/1_Wie_rafft_ich_mich_auf_in_der_Nacht",
+      "imslp_id": "#97709",
+      "source_url": "https://imslp.org/wiki/9_Lieder_and_Songs,_Op.32_(Brahms,_Johannes)#IMSLP97709",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5846184,
+      "set_id": 5033093,
+      "family_id": "openscore:Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.32",
+      "score_directory": "scores/Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.32/2_Nicht_mehr_zu_dir_zu_gehen",
+      "imslp_id": "#97709",
+      "source_url": "https://imslp.org/wiki/9_Lieder_and_Songs,_Op.32_(Brahms,_Johannes)#IMSLP97709",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5069066,
+      "set_id": 5033093,
+      "family_id": "openscore:Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.32",
+      "score_directory": "scores/Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.32/3_Ich_schleich_umher_betrübt",
+      "imslp_id": "#97709",
+      "source_url": "https://imslp.org/wiki/9_Lieder_and_Songs,_Op.32_(Brahms,_Johannes)#IMSLP97709",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5069048,
+      "set_id": 5033093,
+      "family_id": "openscore:Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.32",
+      "score_directory": "scores/Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.32/4_Der_Strom,_der_neben_mir_verrauschte",
+      "imslp_id": "#97709",
+      "source_url": "https://imslp.org/wiki/9_Lieder_and_Songs,_Op.32_(Brahms,_Johannes)#IMSLP97709",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5846139,
+      "set_id": 5033093,
+      "family_id": "openscore:Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.32",
+      "score_directory": "scores/Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.32/5_Wehe,_so_willst_du_mich_wieder",
+      "imslp_id": "#97709",
+      "source_url": "https://imslp.org/wiki/9_Lieder_and_Songs,_Op.32_(Brahms,_Johannes)#IMSLP97709",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5098641,
+      "set_id": 5033093,
+      "family_id": "openscore:Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.32",
+      "score_directory": "scores/Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.32/6_Du_sprichst,_dass_ich_mich_täuschte",
+      "imslp_id": "#97709",
+      "source_url": "https://imslp.org/wiki/9_Lieder_and_Songs,_Op.32_(Brahms,_Johannes)#IMSLP97709",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5033089,
+      "set_id": 5033093,
+      "family_id": "openscore:Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.32",
+      "score_directory": "scores/Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.32/7_Bitteres_zu_sagen_denkst_du",
+      "imslp_id": "#97709",
+      "source_url": "https://imslp.org/wiki/9_Lieder_and_Songs,_Op.32_(Brahms,_Johannes)#IMSLP97709",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5098645,
+      "set_id": 5033093,
+      "family_id": "openscore:Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.32",
+      "score_directory": "scores/Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.32/8_So_stehn_wir,_ich_und_meine_Weide",
+      "imslp_id": "#97709",
+      "source_url": "https://imslp.org/wiki/9_Lieder_and_Songs,_Op.32_(Brahms,_Johannes)#IMSLP97709",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5846100,
+      "set_id": 5033093,
+      "family_id": "openscore:Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.32",
+      "score_directory": "scores/Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.32/9_Wie_bist_du,_meine_Königin",
+      "imslp_id": "#97709",
+      "source_url": "https://imslp.org/wiki/9_Lieder_and_Songs,_Op.32_(Brahms,_Johannes)#IMSLP97709",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5098659,
+      "set_id": 5033077,
+      "family_id": "openscore:Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.63",
+      "score_directory": "scores/Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.63/1_Frühlingstrost",
+      "imslp_id": "#88147",
+      "source_url": "https://imslp.org/wiki/9_Lieder_and_Songs,_Op.63_(Brahms,_Johannes)#IMSLP88147",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5098657,
+      "set_id": 5033077,
+      "family_id": "openscore:Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.63",
+      "score_directory": "scores/Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.63/2_Erinnerung",
+      "imslp_id": "#88147",
+      "source_url": "https://imslp.org/wiki/9_Lieder_and_Songs,_Op.63_(Brahms,_Johannes)#IMSLP88147",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5925389,
+      "set_id": 5033077,
+      "family_id": "openscore:Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.63",
+      "score_directory": "scores/Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.63/3_An_ein_Bild",
+      "imslp_id": "#88147",
+      "source_url": "https://imslp.org/wiki/9_Lieder_and_Songs,_Op.63_(Brahms,_Johannes)#IMSLP88147",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5033075,
+      "set_id": 5033077,
+      "family_id": "openscore:Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.63",
+      "score_directory": "scores/Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.63/4_An_die_Tauben",
+      "imslp_id": "#88147",
+      "source_url": "https://imslp.org/wiki/9_Lieder_and_Songs,_Op.63_(Brahms,_Johannes)#IMSLP88147",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5934726,
+      "set_id": 5033077,
+      "family_id": "openscore:Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.63",
+      "score_directory": "scores/Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.63/5_Junge_Lieder_I",
+      "imslp_id": "#88147",
+      "source_url": "https://imslp.org/wiki/9_Lieder_and_Songs,_Op.63_(Brahms,_Johannes)#IMSLP88147",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5098728,
+      "set_id": 5033077,
+      "family_id": "openscore:Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.63",
+      "score_directory": "scores/Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.63/6_Junge_Lieder_II",
+      "imslp_id": "#88147",
+      "source_url": "https://imslp.org/wiki/9_Lieder_and_Songs,_Op.63_(Brahms,_Johannes)#IMSLP88147",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5936324,
+      "set_id": 5033077,
+      "family_id": "openscore:Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.63",
+      "score_directory": "scores/Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.63/7_Heimweh_I",
+      "imslp_id": "#88147",
+      "source_url": "https://imslp.org/wiki/9_Lieder_and_Songs,_Op.63_(Brahms,_Johannes)#IMSLP88147",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5937814,
+      "set_id": 5033077,
+      "family_id": "openscore:Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.63",
+      "score_directory": "scores/Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.63/8_Heimweh_II",
+      "imslp_id": "#88147",
+      "source_url": "https://imslp.org/wiki/9_Lieder_and_Songs,_Op.63_(Brahms,_Johannes)#IMSLP88147",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5940230,
+      "set_id": 5033077,
+      "family_id": "openscore:Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.63",
+      "score_directory": "scores/Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.63/9_Heimweh_III",
+      "imslp_id": "#88147",
+      "source_url": "https://imslp.org/wiki/9_Lieder_and_Songs,_Op.63_(Brahms,_Johannes)#IMSLP88147",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 8707581,
+      "set_id": 5577240,
+      "family_id": "openscore:Brahms,_Johannes/Marienlieder,_Op.22",
+      "score_directory": "scores/Brahms,_Johannes/Marienlieder,_Op.22/1_Der_englische_Gruss",
+      "imslp_id": "#101428",
+      "source_url": "https://imslp.org/wiki/Marienlieder,_Op.22_(Brahms,_Johannes)#IMSLP101428",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 8708253,
+      "set_id": 5577240,
+      "family_id": "openscore:Brahms,_Johannes/Marienlieder,_Op.22",
+      "score_directory": "scores/Brahms,_Johannes/Marienlieder,_Op.22/2_Marias_Kirchgang",
+      "imslp_id": "#22901",
+      "source_url": "https://imslp.org/wiki/Marienlieder,_Op.22_(Brahms,_Johannes)#IMSLP22901",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 8708688,
+      "set_id": 5577240,
+      "family_id": "openscore:Brahms,_Johannes/Marienlieder,_Op.22",
+      "score_directory": "scores/Brahms,_Johannes/Marienlieder,_Op.22/3_Marias_Wallfahrt",
+      "imslp_id": "#22901",
+      "source_url": "https://imslp.org/wiki/Marienlieder,_Op.22_(Brahms,_Johannes)#IMSLP22901",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 8712405,
+      "set_id": 5577240,
+      "family_id": "openscore:Brahms,_Johannes/Marienlieder,_Op.22",
+      "score_directory": "scores/Brahms,_Johannes/Marienlieder,_Op.22/4_Der_Jäger",
+      "imslp_id": "#22901",
+      "source_url": "https://imslp.org/wiki/Marienlieder,_Op.22_(Brahms,_Johannes)#IMSLP22901",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 8712648,
+      "set_id": 5577240,
+      "family_id": "openscore:Brahms,_Johannes/Marienlieder,_Op.22",
+      "score_directory": "scores/Brahms,_Johannes/Marienlieder,_Op.22/5_Ruf_zur_Maria",
+      "imslp_id": "#22901",
+      "source_url": "https://imslp.org/wiki/Marienlieder,_Op.22_(Brahms,_Johannes)#IMSLP22901",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 8702982,
+      "set_id": 5577240,
+      "family_id": "openscore:Brahms,_Johannes/Marienlieder,_Op.22",
+      "score_directory": "scores/Brahms,_Johannes/Marienlieder,_Op.22/6_Magdalena",
+      "imslp_id": "#22901",
+      "source_url": "https://imslp.org/wiki/Marienlieder,_Op.22_(Brahms,_Johannes)#IMSLP22901",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 8718660,
+      "set_id": 5577240,
+      "family_id": "openscore:Brahms,_Johannes/Marienlieder,_Op.22",
+      "score_directory": "scores/Brahms,_Johannes/Marienlieder,_Op.22/7_Marias_Lob",
+      "imslp_id": "#22901",
+      "source_url": "https://imslp.org/wiki/Marienlieder,_Op.22_(Brahms,_Johannes)#IMSLP22901",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5093434,
+      "set_id": 5016678,
+      "family_id": "openscore:Schubert,_Franz/4_Gesänge_aus_„Wilhelm_Meister“,_D.877",
+      "score_directory": "scores/Schubert,_Franz/4_Gesänge_aus_„Wilhelm_Meister“,_D.877/1_Mignon_und_der_Harfner",
+      "imslp_id": "#62399",
+      "source_url": "https://imslp.org/wiki/4_Ges%C3%A4nge_aus_%27Wilhelm_Meister%27,_D.877_(Schubert,_Franz)#IMSLP62399",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 4988600,
+      "set_id": 5016678,
+      "family_id": "openscore:Schubert,_Franz/4_Gesänge_aus_„Wilhelm_Meister“,_D.877",
+      "score_directory": "scores/Schubert,_Franz/4_Gesänge_aus_„Wilhelm_Meister“,_D.877/2_Lied_der_Mignon_(Heiss_mich_nicht_reden)",
+      "imslp_id": "#62399",
+      "source_url": "https://imslp.org/wiki/4_Ges%C3%A4nge_aus_%27Wilhelm_Meister%27,_D.877_(Schubert,_Franz)#IMSLP62399",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5093748,
+      "set_id": 5016678,
+      "family_id": "openscore:Schubert,_Franz/4_Gesänge_aus_„Wilhelm_Meister“,_D.877",
+      "score_directory": "scores/Schubert,_Franz/4_Gesänge_aus_„Wilhelm_Meister“,_D.877/3_Lied_der_Mignon_(So_lasst_mich_scheinen)",
+      "imslp_id": "#62399",
+      "source_url": "https://imslp.org/wiki/4_Ges%C3%A4nge_aus_%27Wilhelm_Meister%27,_D.877_(Schubert,_Franz)#IMSLP62399",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5093803,
+      "set_id": 5016678,
+      "family_id": "openscore:Schubert,_Franz/4_Gesänge_aus_„Wilhelm_Meister“,_D.877",
+      "score_directory": "scores/Schubert,_Franz/4_Gesänge_aus_„Wilhelm_Meister“,_D.877/4_Lied_der_Mignon_(Nur_wer_die_Sehnsucht_kennt)",
+      "imslp_id": "#62399",
+      "source_url": "https://imslp.org/wiki/4_Ges%C3%A4nge_aus_%27Wilhelm_Meister%27,_D.877_(Schubert,_Franz)#IMSLP62399",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5004731,
+      "set_id": 5004732,
+      "family_id": "openscore:Schubert,_Franz/Die_schöne_Müllerin,_D.795",
+      "score_directory": "scores/Schubert,_Franz/Die_schöne_Müllerin,_D.795/01_Das_Wandern",
+      "imslp_id": "#03233",
+      "source_url": "https://imslp.org/wiki/Die_sch%C3%B6ne_M%C3%BCllerin,_D.795_(Schubert,_Franz)#IMSLP03233",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 4982535,
+      "set_id": 5004732,
+      "family_id": "openscore:Schubert,_Franz/Die_schöne_Müllerin,_D.795",
+      "score_directory": "scores/Schubert,_Franz/Die_schöne_Müllerin,_D.795/02_Wohin",
+      "imslp_id": "#03233",
+      "source_url": "https://imslp.org/wiki/Die_sch%C3%B6ne_M%C3%BCllerin,_D.795_(Schubert,_Franz)#IMSLP03233",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 4985937,
+      "set_id": 5004732,
+      "family_id": "openscore:Schubert,_Franz/Die_schöne_Müllerin,_D.795",
+      "score_directory": "scores/Schubert,_Franz/Die_schöne_Müllerin,_D.795/03_Halt!",
+      "imslp_id": "#03233",
+      "source_url": "https://imslp.org/wiki/Die_sch%C3%B6ne_M%C3%BCllerin,_D.795_(Schubert,_Franz)#IMSLP03233",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 4985925,
+      "set_id": 5004732,
+      "family_id": "openscore:Schubert,_Franz/Die_schöne_Müllerin,_D.795",
+      "score_directory": "scores/Schubert,_Franz/Die_schöne_Müllerin,_D.795/04_Danksagung_an_den_Bach",
+      "imslp_id": "#03233",
+      "source_url": "https://imslp.org/wiki/Die_sch%C3%B6ne_M%C3%BCllerin,_D.795_(Schubert,_Franz)#IMSLP03233",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 4985924,
+      "set_id": 5004732,
+      "family_id": "openscore:Schubert,_Franz/Die_schöne_Müllerin,_D.795",
+      "score_directory": "scores/Schubert,_Franz/Die_schöne_Müllerin,_D.795/05_Am_Feierabend",
+      "imslp_id": "#03233",
+      "source_url": "https://imslp.org/wiki/Die_sch%C3%B6ne_M%C3%BCllerin,_D.795_(Schubert,_Franz)#IMSLP03233",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 4985930,
+      "set_id": 5004732,
+      "family_id": "openscore:Schubert,_Franz/Die_schöne_Müllerin,_D.795",
+      "score_directory": "scores/Schubert,_Franz/Die_schöne_Müllerin,_D.795/06_Der_Neugierige",
+      "imslp_id": "#03233",
+      "source_url": "https://imslp.org/wiki/Die_sch%C3%B6ne_M%C3%BCllerin,_D.795_(Schubert,_Franz)#IMSLP03233",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 4985951,
+      "set_id": 5004732,
+      "family_id": "openscore:Schubert,_Franz/Die_schöne_Müllerin,_D.795",
+      "score_directory": "scores/Schubert,_Franz/Die_schöne_Müllerin,_D.795/07_Ungeduld",
+      "imslp_id": "#03233",
+      "source_url": "https://imslp.org/wiki/Die_sch%C3%B6ne_M%C3%BCllerin,_D.795_(Schubert,_Franz)#IMSLP03233",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5025982,
+      "set_id": 5004732,
+      "family_id": "openscore:Schubert,_Franz/Die_schöne_Müllerin,_D.795",
+      "score_directory": "scores/Schubert,_Franz/Die_schöne_Müllerin,_D.795/08_Morgengruß",
+      "imslp_id": "#03233",
+      "source_url": "https://imslp.org/wiki/Die_sch%C3%B6ne_M%C3%BCllerin,_D.795_(Schubert,_Franz)#IMSLP03233",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 4985932,
+      "set_id": 5004732,
+      "family_id": "openscore:Schubert,_Franz/Die_schöne_Müllerin,_D.795",
+      "score_directory": "scores/Schubert,_Franz/Die_schöne_Müllerin,_D.795/09_Des_Müllers_Blumen",
+      "imslp_id": "#03233",
+      "source_url": "https://imslp.org/wiki/Die_sch%C3%B6ne_M%C3%BCllerin,_D.795_(Schubert,_Franz)#IMSLP03233",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5025985,
+      "set_id": 5004732,
+      "family_id": "openscore:Schubert,_Franz/Die_schöne_Müllerin,_D.795",
+      "score_directory": "scores/Schubert,_Franz/Die_schöne_Müllerin,_D.795/10_Tränenregen",
+      "imslp_id": "#03233",
+      "source_url": "https://imslp.org/wiki/Die_sch%C3%B6ne_M%C3%BCllerin,_D.795_(Schubert,_Franz)#IMSLP03233",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 4985938,
+      "set_id": 5004732,
+      "family_id": "openscore:Schubert,_Franz/Die_schöne_Müllerin,_D.795",
+      "score_directory": "scores/Schubert,_Franz/Die_schöne_Müllerin,_D.795/11_Mein!",
+      "imslp_id": "#03233",
+      "source_url": "https://imslp.org/wiki/Die_sch%C3%B6ne_M%C3%BCllerin,_D.795_(Schubert,_Franz)#IMSLP03233",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 4985946,
+      "set_id": 5004732,
+      "family_id": "openscore:Schubert,_Franz/Die_schöne_Müllerin,_D.795",
+      "score_directory": "scores/Schubert,_Franz/Die_schöne_Müllerin,_D.795/12_Pause",
+      "imslp_id": "#03233",
+      "source_url": "https://imslp.org/wiki/Die_sch%C3%B6ne_M%C3%BCllerin,_D.795_(Schubert,_Franz)#IMSLP03233",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 4985940,
+      "set_id": 5004732,
+      "family_id": "openscore:Schubert,_Franz/Die_schöne_Müllerin,_D.795",
+      "score_directory": "scores/Schubert,_Franz/Die_schöne_Müllerin,_D.795/13_Mit_dem_grünen_Lautenbande",
+      "imslp_id": "#03233",
+      "source_url": "https://imslp.org/wiki/Die_sch%C3%B6ne_M%C3%BCllerin,_D.795_(Schubert,_Franz)#IMSLP03233",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 4985927,
+      "set_id": 5004732,
+      "family_id": "openscore:Schubert,_Franz/Die_schöne_Müllerin,_D.795",
+      "score_directory": "scores/Schubert,_Franz/Die_schöne_Müllerin,_D.795/14_Der_Jäger",
+      "imslp_id": "#03233",
+      "source_url": "https://imslp.org/wiki/Die_sch%C3%B6ne_M%C3%BCllerin,_D.795_(Schubert,_Franz)#IMSLP03233",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5026236,
+      "set_id": 5004732,
+      "family_id": "openscore:Schubert,_Franz/Die_schöne_Müllerin,_D.795",
+      "score_directory": "scores/Schubert,_Franz/Die_schöne_Müllerin,_D.795/15_Eifersucht_und_Stolz",
+      "imslp_id": "#03233",
+      "source_url": "https://imslp.org/wiki/Die_sch%C3%B6ne_M%C3%BCllerin,_D.795_(Schubert,_Franz)#IMSLP03233",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 4985935,
+      "set_id": 5004732,
+      "family_id": "openscore:Schubert,_Franz/Die_schöne_Müllerin,_D.795",
+      "score_directory": "scores/Schubert,_Franz/Die_schöne_Müllerin,_D.795/16_Die_liebe_Farbe",
+      "imslp_id": "#03233",
+      "source_url": "https://imslp.org/wiki/Die_sch%C3%B6ne_M%C3%BCllerin,_D.795_(Schubert,_Franz)#IMSLP03233",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 4985934,
+      "set_id": 5004732,
+      "family_id": "openscore:Schubert,_Franz/Die_schöne_Müllerin,_D.795",
+      "score_directory": "scores/Schubert,_Franz/Die_schöne_Müllerin,_D.795/17_Die_böse_Farbe",
+      "imslp_id": "#03233",
+      "source_url": "https://imslp.org/wiki/Die_sch%C3%B6ne_M%C3%BCllerin,_D.795_(Schubert,_Franz)#IMSLP03233",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 4985949,
+      "set_id": 5004732,
+      "family_id": "openscore:Schubert,_Franz/Die_schöne_Müllerin,_D.795",
+      "score_directory": "scores/Schubert,_Franz/Die_schöne_Müllerin,_D.795/18_Trockne_Blumen",
+      "imslp_id": "#03233",
+      "source_url": "https://imslp.org/wiki/Die_sch%C3%B6ne_M%C3%BCllerin,_D.795_(Schubert,_Franz)#IMSLP03233",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 4985922,
+      "set_id": 5004732,
+      "family_id": "openscore:Schubert,_Franz/Die_schöne_Müllerin,_D.795",
+      "score_directory": "scores/Schubert,_Franz/Die_schöne_Müllerin,_D.795/19_Der_Müller_und_der_Bach",
+      "imslp_id": "#03233",
+      "source_url": "https://imslp.org/wiki/Die_sch%C3%B6ne_M%C3%BCllerin,_D.795_(Schubert,_Franz)#IMSLP03233",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 4985931,
+      "set_id": 5004732,
+      "family_id": "openscore:Schubert,_Franz/Die_schöne_Müllerin,_D.795",
+      "score_directory": "scores/Schubert,_Franz/Die_schöne_Müllerin,_D.795/20_Des_Baches_Wiegenlied",
+      "imslp_id": "#03233",
+      "source_url": "https://imslp.org/wiki/Die_sch%C3%B6ne_M%C3%BCllerin,_D.795_(Schubert,_Franz)#IMSLP03233",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5077744,
+      "set_id": 5004836,
+      "family_id": "openscore:Schubert,_Franz/Schwanengesang,_D.957",
+      "score_directory": "scores/Schubert,_Franz/Schwanengesang,_D.957/01_Liebesbotschaft",
+      "imslp_id": "#60828",
+      "source_url": "https://imslp.org/wiki/Schwanengesang,_D.957_(Schubert,_Franz)#IMSLP60828",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 4986000,
+      "set_id": 5004836,
+      "family_id": "openscore:Schubert,_Franz/Schwanengesang,_D.957",
+      "score_directory": "scores/Schubert,_Franz/Schwanengesang,_D.957/02_Kriegers_Ahnung",
+      "imslp_id": "#60828",
+      "source_url": "https://imslp.org/wiki/Schwanengesang,_D.957_(Schubert,_Franz)#IMSLP60828",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 4985999,
+      "set_id": 5004836,
+      "family_id": "openscore:Schubert,_Franz/Schwanengesang,_D.957",
+      "score_directory": "scores/Schubert,_Franz/Schwanengesang,_D.957/03_Frühlingssehnsucht",
+      "imslp_id": "#60828",
+      "source_url": "https://imslp.org/wiki/Schwanengesang,_D.957_(Schubert,_Franz)#IMSLP60828",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5004835,
+      "set_id": 5004836,
+      "family_id": "openscore:Schubert,_Franz/Schwanengesang,_D.957",
+      "score_directory": "scores/Schubert,_Franz/Schwanengesang,_D.957/04_Ständchen",
+      "imslp_id": "#60828",
+      "source_url": "https://imslp.org/wiki/Schwanengesang,_D.957_(Schubert,_Franz)#IMSLP60828",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 4985990,
+      "set_id": 5004836,
+      "family_id": "openscore:Schubert,_Franz/Schwanengesang,_D.957",
+      "score_directory": "scores/Schubert,_Franz/Schwanengesang,_D.957/05_Aufenthalt",
+      "imslp_id": "#60828",
+      "source_url": "https://imslp.org/wiki/Schwanengesang,_D.957_(Schubert,_Franz)#IMSLP60828",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 4985987,
+      "set_id": 5004836,
+      "family_id": "openscore:Schubert,_Franz/Schwanengesang,_D.957",
+      "score_directory": "scores/Schubert,_Franz/Schwanengesang,_D.957/06_In_der_Ferne",
+      "imslp_id": "#60828",
+      "source_url": "https://imslp.org/wiki/Schwanengesang,_D.957_(Schubert,_Franz)#IMSLP60828",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 4978506,
+      "set_id": 5004836,
+      "family_id": "openscore:Schubert,_Franz/Schwanengesang,_D.957",
+      "score_directory": "scores/Schubert,_Franz/Schwanengesang,_D.957/07_Abschied",
+      "imslp_id": "#60828",
+      "source_url": "https://imslp.org/wiki/Schwanengesang,_D.957_(Schubert,_Franz)#IMSLP60828",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 4985985,
+      "set_id": 5004836,
+      "family_id": "openscore:Schubert,_Franz/Schwanengesang,_D.957",
+      "score_directory": "scores/Schubert,_Franz/Schwanengesang,_D.957/08_Der_Atlas",
+      "imslp_id": "#60828",
+      "source_url": "https://imslp.org/wiki/Schwanengesang,_D.957_(Schubert,_Franz)#IMSLP60828",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 4985984,
+      "set_id": 5004836,
+      "family_id": "openscore:Schubert,_Franz/Schwanengesang,_D.957",
+      "score_directory": "scores/Schubert,_Franz/Schwanengesang,_D.957/09_Ihr_Bild",
+      "imslp_id": "#60828",
+      "source_url": "https://imslp.org/wiki/Schwanengesang,_D.957_(Schubert,_Franz)#IMSLP60828",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5098612,
+      "set_id": 5004836,
+      "family_id": "openscore:Schubert,_Franz/Schwanengesang,_D.957",
+      "score_directory": "scores/Schubert,_Franz/Schwanengesang,_D.957/10_Das_Fischermädchen",
+      "imslp_id": "#60828",
+      "source_url": "https://imslp.org/wiki/Schwanengesang,_D.957_(Schubert,_Franz)#IMSLP60828",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 4985973,
+      "set_id": 5004836,
+      "family_id": "openscore:Schubert,_Franz/Schwanengesang,_D.957",
+      "score_directory": "scores/Schubert,_Franz/Schwanengesang,_D.957/11_Die_Stadt",
+      "imslp_id": "#60828",
+      "source_url": "https://imslp.org/wiki/Schwanengesang,_D.957_(Schubert,_Franz)#IMSLP60828",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 4985965,
+      "set_id": 5004836,
+      "family_id": "openscore:Schubert,_Franz/Schwanengesang,_D.957",
+      "score_directory": "scores/Schubert,_Franz/Schwanengesang,_D.957/12_Am_Meer",
+      "imslp_id": "#60828",
+      "source_url": "https://imslp.org/wiki/Schwanengesang,_D.957_(Schubert,_Franz)#IMSLP60828",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 4985964,
+      "set_id": 5004836,
+      "family_id": "openscore:Schubert,_Franz/Schwanengesang,_D.957",
+      "score_directory": "scores/Schubert,_Franz/Schwanengesang,_D.957/13_Der_Doppelgänger",
+      "imslp_id": "#60828",
+      "source_url": "https://imslp.org/wiki/Schwanengesang,_D.957_(Schubert,_Franz)#IMSLP60828",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 4985962,
+      "set_id": 5004836,
+      "family_id": "openscore:Schubert,_Franz/Schwanengesang,_D.957",
+      "score_directory": "scores/Schubert,_Franz/Schwanengesang,_D.957/14_Die_Taubenpost",
+      "imslp_id": "#60828",
+      "source_url": "https://imslp.org/wiki/Schwanengesang,_D.957_(Schubert,_Franz)#IMSLP60828",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5015378,
+      "set_id": 5015409,
+      "family_id": "openscore:Schubert,_Franz/Winterreise,_D.911",
+      "score_directory": "scores/Schubert,_Franz/Winterreise,_D.911/01_Gute_Nacht",
+      "imslp_id": "#60822",
+      "source_url": "https://imslp.org/wiki/Winterreise,_D.911_(Schubert,_Franz)#IMSLP60822",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5015435,
+      "set_id": 5015409,
+      "family_id": "openscore:Schubert,_Franz/Winterreise,_D.911",
+      "score_directory": "scores/Schubert,_Franz/Winterreise,_D.911/02_Die_Wetterfahne",
+      "imslp_id": "#60822",
+      "source_url": "https://imslp.org/wiki/Winterreise,_D.911_(Schubert,_Franz)#IMSLP60822",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5015499,
+      "set_id": 5015409,
+      "family_id": "openscore:Schubert,_Franz/Winterreise,_D.911",
+      "score_directory": "scores/Schubert,_Franz/Winterreise,_D.911/03_Gefror’ne_Thränen",
+      "imslp_id": "#60822",
+      "source_url": "https://imslp.org/wiki/Winterreise,_D.911_(Schubert,_Franz)#IMSLP60822",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5015573,
+      "set_id": 5015409,
+      "family_id": "openscore:Schubert,_Franz/Winterreise,_D.911",
+      "score_directory": "scores/Schubert,_Franz/Winterreise,_D.911/04_Erstarrung",
+      "imslp_id": "#60822",
+      "source_url": "https://imslp.org/wiki/Winterreise,_D.911_(Schubert,_Franz)#IMSLP60822",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5016466,
+      "set_id": 5015409,
+      "family_id": "openscore:Schubert,_Franz/Winterreise,_D.911",
+      "score_directory": "scores/Schubert,_Franz/Winterreise,_D.911/05_Der_Lindenbaum",
+      "imslp_id": "#60822",
+      "source_url": "https://imslp.org/wiki/Winterreise,_D.911_(Schubert,_Franz)#IMSLP60822",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5016512,
+      "set_id": 5015409,
+      "family_id": "openscore:Schubert,_Franz/Winterreise,_D.911",
+      "score_directory": "scores/Schubert,_Franz/Winterreise,_D.911/06_Wasserfluth",
+      "imslp_id": "#60822",
+      "source_url": "https://imslp.org/wiki/Winterreise,_D.911_(Schubert,_Franz)#IMSLP60822",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5015410,
+      "set_id": 5015409,
+      "family_id": "openscore:Schubert,_Franz/Winterreise,_D.911",
+      "score_directory": "scores/Schubert,_Franz/Winterreise,_D.911/07_Auf_dem_Flusse",
+      "imslp_id": "#60822",
+      "source_url": "https://imslp.org/wiki/Winterreise,_D.911_(Schubert,_Franz)#IMSLP60822",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5015521,
+      "set_id": 5015409,
+      "family_id": "openscore:Schubert,_Franz/Winterreise,_D.911",
+      "score_directory": "scores/Schubert,_Franz/Winterreise,_D.911/08_Rückblick",
+      "imslp_id": "#60822",
+      "source_url": "https://imslp.org/wiki/Winterreise,_D.911_(Schubert,_Franz)#IMSLP60822",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5023438,
+      "set_id": 5015409,
+      "family_id": "openscore:Schubert,_Franz/Winterreise,_D.911",
+      "score_directory": "scores/Schubert,_Franz/Winterreise,_D.911/09_Irrlicht",
+      "imslp_id": "#60822",
+      "source_url": "https://imslp.org/wiki/Winterreise,_D.911_(Schubert,_Franz)#IMSLP60822",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5023517,
+      "set_id": 5015409,
+      "family_id": "openscore:Schubert,_Franz/Winterreise,_D.911",
+      "score_directory": "scores/Schubert,_Franz/Winterreise,_D.911/10_Rast_(Spätere_Fassung)",
+      "imslp_id": "#60822",
+      "source_url": "https://imslp.org/wiki/Winterreise,_D.911_(Schubert,_Franz)#IMSLP60822",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5023603,
+      "set_id": 5015409,
+      "family_id": "openscore:Schubert,_Franz/Winterreise,_D.911",
+      "score_directory": "scores/Schubert,_Franz/Winterreise,_D.911/11_Frühlingstraum",
+      "imslp_id": "#60822",
+      "source_url": "https://imslp.org/wiki/Winterreise,_D.911_(Schubert,_Franz)#IMSLP60822",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5023662,
+      "set_id": 5015409,
+      "family_id": "openscore:Schubert,_Franz/Winterreise,_D.911",
+      "score_directory": "scores/Schubert,_Franz/Winterreise,_D.911/12_Einsamkeit_(Urspruengliche_Fassung)",
+      "imslp_id": "#60822",
+      "source_url": "https://imslp.org/wiki/Winterreise,_D.911_(Schubert,_Franz)#IMSLP60822",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5007176,
+      "set_id": 5015409,
+      "family_id": "openscore:Schubert,_Franz/Winterreise,_D.911",
+      "score_directory": "scores/Schubert,_Franz/Winterreise,_D.911/13_Die_Post",
+      "imslp_id": "#60822",
+      "source_url": "https://imslp.org/wiki/Winterreise,_D.911_(Schubert,_Franz)#IMSLP60822",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5007178,
+      "set_id": 5015409,
+      "family_id": "openscore:Schubert,_Franz/Winterreise,_D.911",
+      "score_directory": "scores/Schubert,_Franz/Winterreise,_D.911/14_Der_greise_Kopf",
+      "imslp_id": "#60822",
+      "source_url": "https://imslp.org/wiki/Winterreise,_D.911_(Schubert,_Franz)#IMSLP60822",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5007179,
+      "set_id": 5015409,
+      "family_id": "openscore:Schubert,_Franz/Winterreise,_D.911",
+      "score_directory": "scores/Schubert,_Franz/Winterreise,_D.911/15_Die_Kraehe",
+      "imslp_id": "#60822",
+      "source_url": "https://imslp.org/wiki/Winterreise,_D.911_(Schubert,_Franz)#IMSLP60822",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5007180,
+      "set_id": 5015409,
+      "family_id": "openscore:Schubert,_Franz/Winterreise,_D.911",
+      "score_directory": "scores/Schubert,_Franz/Winterreise,_D.911/16_Letzte_Hoffnung",
+      "imslp_id": "#60822",
+      "source_url": "https://imslp.org/wiki/Winterreise,_D.911_(Schubert,_Franz)#IMSLP60822",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5007181,
+      "set_id": 5015409,
+      "family_id": "openscore:Schubert,_Franz/Winterreise,_D.911",
+      "score_directory": "scores/Schubert,_Franz/Winterreise,_D.911/17_Im_Dorfe",
+      "imslp_id": "#60822",
+      "source_url": "https://imslp.org/wiki/Winterreise,_D.911_(Schubert,_Franz)#IMSLP60822",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5007182,
+      "set_id": 5015409,
+      "family_id": "openscore:Schubert,_Franz/Winterreise,_D.911",
+      "score_directory": "scores/Schubert,_Franz/Winterreise,_D.911/18_Der_stuermische_Morgen",
+      "imslp_id": "#60822",
+      "source_url": "https://imslp.org/wiki/Winterreise,_D.911_(Schubert,_Franz)#IMSLP60822",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5009833,
+      "set_id": 5015409,
+      "family_id": "openscore:Schubert,_Franz/Winterreise,_D.911",
+      "score_directory": "scores/Schubert,_Franz/Winterreise,_D.911/19_Täuschung",
+      "imslp_id": "#60822",
+      "source_url": "https://imslp.org/wiki/Winterreise,_D.911_(Schubert,_Franz)#IMSLP60822",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5009900,
+      "set_id": 5015409,
+      "family_id": "openscore:Schubert,_Franz/Winterreise,_D.911",
+      "score_directory": "scores/Schubert,_Franz/Winterreise,_D.911/20_Der_Wegweiser",
+      "imslp_id": "#60822",
+      "source_url": "https://imslp.org/wiki/Winterreise,_D.911_(Schubert,_Franz)#IMSLP60822",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5013945,
+      "set_id": 5015409,
+      "family_id": "openscore:Schubert,_Franz/Winterreise,_D.911",
+      "score_directory": "scores/Schubert,_Franz/Winterreise,_D.911/21_Das_Wirthshaus",
+      "imslp_id": "#60822",
+      "source_url": "https://imslp.org/wiki/Winterreise,_D.911_(Schubert,_Franz)#IMSLP60822",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5013969,
+      "set_id": 5015409,
+      "family_id": "openscore:Schubert,_Franz/Winterreise,_D.911",
+      "score_directory": "scores/Schubert,_Franz/Winterreise,_D.911/22_Muth",
+      "imslp_id": "#60822",
+      "source_url": "https://imslp.org/wiki/Winterreise,_D.911_(Schubert,_Franz)#IMSLP60822",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5014002,
+      "set_id": 5015409,
+      "family_id": "openscore:Schubert,_Franz/Winterreise,_D.911",
+      "score_directory": "scores/Schubert,_Franz/Winterreise,_D.911/23_Die_Nebensonnen",
+      "imslp_id": "#60822",
+      "source_url": "https://imslp.org/wiki/Winterreise,_D.911_(Schubert,_Franz)#IMSLP60822",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5014023,
+      "set_id": 5015409,
+      "family_id": "openscore:Schubert,_Franz/Winterreise,_D.911",
+      "score_directory": "scores/Schubert,_Franz/Winterreise,_D.911/24_Der_Leiermann_(Spätere_Fassung)",
+      "imslp_id": "#60822",
+      "source_url": "https://imslp.org/wiki/Winterreise,_D.911_(Schubert,_Franz)#IMSLP60822",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 6826352,
+      "set_id": 5109333,
+      "family_id": "openscore:Schumann,_Robert/5_Lieder_und_Gesänge,_Op.127",
+      "score_directory": "scores/Schumann,_Robert/5_Lieder_und_Gesänge,_Op.127/1_Sängers_Trost",
+      "imslp_id": "#271937",
+      "source_url": "https://imslp.org/wiki/5_Lieder_und_Ges%C3%A4nge,_Op.127_(Schumann,_Robert)#IMSLP271937",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 6834542,
+      "set_id": 5109333,
+      "family_id": "openscore:Schumann,_Robert/5_Lieder_und_Gesänge,_Op.127",
+      "score_directory": "scores/Schumann,_Robert/5_Lieder_und_Gesänge,_Op.127/2_Dein_Angesicht",
+      "imslp_id": "#271937",
+      "source_url": "https://imslp.org/wiki/5_Lieder_und_Ges%C3%A4nge,_Op.127_(Schumann,_Robert)#IMSLP271937",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 6826597,
+      "set_id": 5109333,
+      "family_id": "openscore:Schumann,_Robert/5_Lieder_und_Gesänge,_Op.127",
+      "score_directory": "scores/Schumann,_Robert/5_Lieder_und_Gesänge,_Op.127/3_Es_leuchtet_meine_Liebe",
+      "imslp_id": "#271937",
+      "source_url": "https://imslp.org/wiki/5_Lieder_und_Ges%C3%A4nge,_Op.127_(Schumann,_Robert)#IMSLP271937",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 6827712,
+      "set_id": 5109333,
+      "family_id": "openscore:Schumann,_Robert/5_Lieder_und_Gesänge,_Op.127",
+      "score_directory": "scores/Schumann,_Robert/5_Lieder_und_Gesänge,_Op.127/4_Mein_altes_Ross",
+      "imslp_id": "#271937",
+      "source_url": "https://imslp.org/wiki/5_Lieder_und_Ges%C3%A4nge,_Op.127_(Schumann,_Robert)#IMSLP271937",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 6828018,
+      "set_id": 5109333,
+      "family_id": "openscore:Schumann,_Robert/5_Lieder_und_Gesänge,_Op.127",
+      "score_directory": "scores/Schumann,_Robert/5_Lieder_und_Gesänge,_Op.127/5_Schlusslied_des_Narren",
+      "imslp_id": "#271937",
+      "source_url": "https://imslp.org/wiki/5_Lieder_und_Ges%C3%A4nge,_Op.127_(Schumann,_Robert)#IMSLP271937",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 4978468,
+      "set_id": 5016693,
+      "family_id": "openscore:Schumann,_Robert/Frauenliebe_und_Leben,_Op.42",
+      "score_directory": "scores/Schumann,_Robert/Frauenliebe_und_Leben,_Op.42/1_Seit_ich_ihn_gesehen",
+      "imslp_id": "#51733",
+      "source_url": "https://imslp.org/wiki/Frauenliebe_und_Leben,_Op.42_(Schumann,_Robert)#IMSLP51733",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 4978478,
+      "set_id": 5016693,
+      "family_id": "openscore:Schumann,_Robert/Frauenliebe_und_Leben,_Op.42",
+      "score_directory": "scores/Schumann,_Robert/Frauenliebe_und_Leben,_Op.42/2_Er,_der_Herrlichste_von_allen",
+      "imslp_id": "#51733",
+      "source_url": "https://imslp.org/wiki/Frauenliebe_und_Leben,_Op.42_(Schumann,_Robert)#IMSLP51733",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 4978485,
+      "set_id": 5016693,
+      "family_id": "openscore:Schumann,_Robert/Frauenliebe_und_Leben,_Op.42",
+      "score_directory": "scores/Schumann,_Robert/Frauenliebe_und_Leben,_Op.42/3_Ich_kann’s_nicht_fassen",
+      "imslp_id": "#51733",
+      "source_url": "https://imslp.org/wiki/Frauenliebe_und_Leben,_Op.42_(Schumann,_Robert)#IMSLP51733",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 4978488,
+      "set_id": 5016693,
+      "family_id": "openscore:Schumann,_Robert/Frauenliebe_und_Leben,_Op.42",
+      "score_directory": "scores/Schumann,_Robert/Frauenliebe_und_Leben,_Op.42/4_Du_Ring_an_meinem_Finger",
+      "imslp_id": "#51733",
+      "source_url": "https://imslp.org/wiki/Frauenliebe_und_Leben,_Op.42_(Schumann,_Robert)#IMSLP51733",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 4978491,
+      "set_id": 5016693,
+      "family_id": "openscore:Schumann,_Robert/Frauenliebe_und_Leben,_Op.42",
+      "score_directory": "scores/Schumann,_Robert/Frauenliebe_und_Leben,_Op.42/5_Helft_mir,_ihr_Schwestern",
+      "imslp_id": "#51733",
+      "source_url": "https://imslp.org/wiki/Frauenliebe_und_Leben,_Op.42_(Schumann,_Robert)#IMSLP51733",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 4978494,
+      "set_id": 5016693,
+      "family_id": "openscore:Schumann,_Robert/Frauenliebe_und_Leben,_Op.42",
+      "score_directory": "scores/Schumann,_Robert/Frauenliebe_und_Leben,_Op.42/6_Süsser_Freund,_du_blickest",
+      "imslp_id": "#51733",
+      "source_url": "https://imslp.org/wiki/Frauenliebe_und_Leben,_Op.42_(Schumann,_Robert)#IMSLP51733",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 4978496,
+      "set_id": 5016693,
+      "family_id": "openscore:Schumann,_Robert/Frauenliebe_und_Leben,_Op.42",
+      "score_directory": "scores/Schumann,_Robert/Frauenliebe_und_Leben,_Op.42/7_An_meinem_Herzen",
+      "imslp_id": "#51733",
+      "source_url": "https://imslp.org/wiki/Frauenliebe_und_Leben,_Op.42_(Schumann,_Robert)#IMSLP51733",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 4978501,
+      "set_id": 5016693,
+      "family_id": "openscore:Schumann,_Robert/Frauenliebe_und_Leben,_Op.42",
+      "score_directory": "scores/Schumann,_Robert/Frauenliebe_und_Leben,_Op.42/8_Nun_hast_du_mir_den_ersten_Schmerz_getan",
+      "imslp_id": "#51733",
+      "source_url": "https://imslp.org/wiki/Frauenliebe_und_Leben,_Op.42_(Schumann,_Robert)#IMSLP51733",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 6984262,
+      "set_id": 5109332,
+      "family_id": "openscore:Schumann,_Robert/Lieder_und_Gesänge,_Vol.IV,_Op.96",
+      "score_directory": "scores/Schumann,_Robert/Lieder_und_Gesänge,_Vol.IV,_Op.96/1_Nachtlied",
+      "imslp_id": "#271883",
+      "source_url": "https://imslp.org/wiki/Lieder_und_Ges%C3%A4nge,_Vol.IV,_Op.96_(Schumann,_Robert)#IMSLP271883",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 6984553,
+      "set_id": 5109332,
+      "family_id": "openscore:Schumann,_Robert/Lieder_und_Gesänge,_Vol.IV,_Op.96",
+      "score_directory": "scores/Schumann,_Robert/Lieder_und_Gesänge,_Vol.IV,_Op.96/2_Schneeglöckchen",
+      "imslp_id": "#271883",
+      "source_url": "https://imslp.org/wiki/Lieder_und_Ges%C3%A4nge,_Vol.IV,_Op.96_(Schumann,_Robert)#IMSLP271883",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 6834630,
+      "set_id": 5109332,
+      "family_id": "openscore:Schumann,_Robert/Lieder_und_Gesänge,_Vol.IV,_Op.96",
+      "score_directory": "scores/Schumann,_Robert/Lieder_und_Gesänge,_Vol.IV,_Op.96/3_Ihre_Stimme",
+      "imslp_id": "#271883",
+      "source_url": "https://imslp.org/wiki/Lieder_und_Ges%C3%A4nge,_Vol.IV,_Op.96_(Schumann,_Robert)#IMSLP271883",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 6984631,
+      "set_id": 5109332,
+      "family_id": "openscore:Schumann,_Robert/Lieder_und_Gesänge,_Vol.IV,_Op.96",
+      "score_directory": "scores/Schumann,_Robert/Lieder_und_Gesänge,_Vol.IV,_Op.96/4_Gesungen",
+      "imslp_id": "#271883",
+      "source_url": "https://imslp.org/wiki/Lieder_und_Ges%C3%A4nge,_Vol.IV,_Op.96_(Schumann,_Robert)#IMSLP271883",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 6985082,
+      "set_id": 5109332,
+      "family_id": "openscore:Schumann,_Robert/Lieder_und_Gesänge,_Vol.IV,_Op.96",
+      "score_directory": "scores/Schumann,_Robert/Lieder_und_Gesänge,_Vol.IV,_Op.96/5_Himmel_und_Erde",
+      "imslp_id": "#271883",
+      "source_url": "https://imslp.org/wiki/Lieder_und_Ges%C3%A4nge,_Vol.IV,_Op.96_(Schumann,_Robert)#IMSLP271883",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5080752,
+      "set_id": 5003125,
+      "family_id": "openscore:Schumann,_Robert/Liederkreis,_Op.39",
+      "score_directory": "scores/Schumann,_Robert/Liederkreis,_Op.39/01_In_der_Fremde_[I]",
+      "imslp_id": "#270920",
+      "source_url": "https://imslp.org/wiki/Liederkreis,_Op.39_(Schumann,_Robert)#IMSLP270920",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 4987618,
+      "set_id": 5003125,
+      "family_id": "openscore:Schumann,_Robert/Liederkreis,_Op.39",
+      "score_directory": "scores/Schumann,_Robert/Liederkreis,_Op.39/02_Intermezzo",
+      "imslp_id": "#270920",
+      "source_url": "https://imslp.org/wiki/Liederkreis,_Op.39_(Schumann,_Robert)#IMSLP270920",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 4987626,
+      "set_id": 5003125,
+      "family_id": "openscore:Schumann,_Robert/Liederkreis,_Op.39",
+      "score_directory": "scores/Schumann,_Robert/Liederkreis,_Op.39/03_Waldesgespräch",
+      "imslp_id": "#270920",
+      "source_url": "https://imslp.org/wiki/Liederkreis,_Op.39_(Schumann,_Robert)#IMSLP270920",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 4987633,
+      "set_id": 5003125,
+      "family_id": "openscore:Schumann,_Robert/Liederkreis,_Op.39",
+      "score_directory": "scores/Schumann,_Robert/Liederkreis,_Op.39/04_Die_Stille",
+      "imslp_id": "#270920",
+      "source_url": "https://imslp.org/wiki/Liederkreis,_Op.39_(Schumann,_Robert)#IMSLP270920",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 4987640,
+      "set_id": 5003125,
+      "family_id": "openscore:Schumann,_Robert/Liederkreis,_Op.39",
+      "score_directory": "scores/Schumann,_Robert/Liederkreis,_Op.39/05_Mondnacht",
+      "imslp_id": "#270920",
+      "source_url": "https://imslp.org/wiki/Liederkreis,_Op.39_(Schumann,_Robert)#IMSLP270920",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 4987650,
+      "set_id": 5003125,
+      "family_id": "openscore:Schumann,_Robert/Liederkreis,_Op.39",
+      "score_directory": "scores/Schumann,_Robert/Liederkreis,_Op.39/06_Schöne_Fremde",
+      "imslp_id": "#270920",
+      "source_url": "https://imslp.org/wiki/Liederkreis,_Op.39_(Schumann,_Robert)#IMSLP270920",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 4987658,
+      "set_id": 5003125,
+      "family_id": "openscore:Schumann,_Robert/Liederkreis,_Op.39",
+      "score_directory": "scores/Schumann,_Robert/Liederkreis,_Op.39/07_Auf_einer_Burg",
+      "imslp_id": "#270920",
+      "source_url": "https://imslp.org/wiki/Liederkreis,_Op.39_(Schumann,_Robert)#IMSLP270920",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 4987661,
+      "set_id": 5003125,
+      "family_id": "openscore:Schumann,_Robert/Liederkreis,_Op.39",
+      "score_directory": "scores/Schumann,_Robert/Liederkreis,_Op.39/08_In_der_Fremde_[II]",
+      "imslp_id": "#270920",
+      "source_url": "https://imslp.org/wiki/Liederkreis,_Op.39_(Schumann,_Robert)#IMSLP270920",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 4987664,
+      "set_id": 5003125,
+      "family_id": "openscore:Schumann,_Robert/Liederkreis,_Op.39",
+      "score_directory": "scores/Schumann,_Robert/Liederkreis,_Op.39/09_Wehmuth",
+      "imslp_id": "#270920",
+      "source_url": "https://imslp.org/wiki/Liederkreis,_Op.39_(Schumann,_Robert)#IMSLP270920",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 4987672,
+      "set_id": 5003125,
+      "family_id": "openscore:Schumann,_Robert/Liederkreis,_Op.39",
+      "score_directory": "scores/Schumann,_Robert/Liederkreis,_Op.39/10_Zwielicht",
+      "imslp_id": "#270920",
+      "source_url": "https://imslp.org/wiki/Liederkreis,_Op.39_(Schumann,_Robert)#IMSLP270920",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 5003122,
+      "set_id": 5003125,
+      "family_id": "openscore:Schumann,_Robert/Liederkreis,_Op.39",
+      "score_directory": "scores/Schumann,_Robert/Liederkreis,_Op.39/11_Im_Walde",
+      "imslp_id": "#270920",
+      "source_url": "https://imslp.org/wiki/Liederkreis,_Op.39_(Schumann,_Robert)#IMSLP270920",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 4987677,
+      "set_id": 5003125,
+      "family_id": "openscore:Schumann,_Robert/Liederkreis,_Op.39",
+      "score_directory": "scores/Schumann,_Robert/Liederkreis,_Op.39/12_Frühlingsnacht",
+      "imslp_id": "#270920",
+      "source_url": "https://imslp.org/wiki/Liederkreis,_Op.39_(Schumann,_Robert)#IMSLP270920",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 6885211,
+      "set_id": 5109331,
+      "family_id": "openscore:Schumann,_Robert/Myrthen,_Op.25",
+      "score_directory": "scores/Schumann,_Robert/Myrthen,_Op.25/01_Widmung",
+      "imslp_id": "#270905",
+      "source_url": "https://imslp.org/wiki/Myrthen,_Op.25_(Schumann,_Robert)#IMSLP270905",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 6885263,
+      "set_id": 5109331,
+      "family_id": "openscore:Schumann,_Robert/Myrthen,_Op.25",
+      "score_directory": "scores/Schumann,_Robert/Myrthen,_Op.25/02_Freisinn",
+      "imslp_id": "#270905",
+      "source_url": "https://imslp.org/wiki/Myrthen,_Op.25_(Schumann,_Robert)#IMSLP270905",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 6891758,
+      "set_id": 5109331,
+      "family_id": "openscore:Schumann,_Robert/Myrthen,_Op.25",
+      "score_directory": "scores/Schumann,_Robert/Myrthen,_Op.25/03_Der_Nussbaum",
+      "imslp_id": "#270905",
+      "source_url": "https://imslp.org/wiki/Myrthen,_Op.25_(Schumann,_Robert)#IMSLP270905",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 6909438,
+      "set_id": 5109331,
+      "family_id": "openscore:Schumann,_Robert/Myrthen,_Op.25",
+      "score_directory": "scores/Schumann,_Robert/Myrthen,_Op.25/04_Jemand",
+      "imslp_id": "#270905",
+      "source_url": "https://imslp.org/wiki/Myrthen,_Op.25_(Schumann,_Robert)#IMSLP270905",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 6909543,
+      "set_id": 5109331,
+      "family_id": "openscore:Schumann,_Robert/Myrthen,_Op.25",
+      "score_directory": "scores/Schumann,_Robert/Myrthen,_Op.25/05_Sitz’_ich_allein",
+      "imslp_id": "#270905",
+      "source_url": "https://imslp.org/wiki/Myrthen,_Op.25_(Schumann,_Robert)#IMSLP270905",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 6909785,
+      "set_id": 5109331,
+      "family_id": "openscore:Schumann,_Robert/Myrthen,_Op.25",
+      "score_directory": "scores/Schumann,_Robert/Myrthen,_Op.25/06_Setze_mir_nicht",
+      "imslp_id": "#270905",
+      "source_url": "https://imslp.org/wiki/Myrthen,_Op.25_(Schumann,_Robert)#IMSLP270905",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 6909797,
+      "set_id": 5109331,
+      "family_id": "openscore:Schumann,_Robert/Myrthen,_Op.25",
+      "score_directory": "scores/Schumann,_Robert/Myrthen,_Op.25/07_Die_Lotosblume",
+      "imslp_id": "#270905",
+      "source_url": "https://imslp.org/wiki/Myrthen,_Op.25_(Schumann,_Robert)#IMSLP270905",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 6910703,
+      "set_id": 5109331,
+      "family_id": "openscore:Schumann,_Robert/Myrthen,_Op.25",
+      "score_directory": "scores/Schumann,_Robert/Myrthen,_Op.25/08_Talismane",
+      "imslp_id": "#270905",
+      "source_url": "https://imslp.org/wiki/Myrthen,_Op.25_(Schumann,_Robert)#IMSLP270905",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 6914397,
+      "set_id": 5109331,
+      "family_id": "openscore:Schumann,_Robert/Myrthen,_Op.25",
+      "score_directory": "scores/Schumann,_Robert/Myrthen,_Op.25/09_Lied_der_Suleika",
+      "imslp_id": "#270905",
+      "source_url": "https://imslp.org/wiki/Myrthen,_Op.25_(Schumann,_Robert)#IMSLP270905",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 6915474,
+      "set_id": 5109331,
+      "family_id": "openscore:Schumann,_Robert/Myrthen,_Op.25",
+      "score_directory": "scores/Schumann,_Robert/Myrthen,_Op.25/10_Die_Hochländer-Witwe",
+      "imslp_id": "#270905",
+      "source_url": "https://imslp.org/wiki/Myrthen,_Op.25_(Schumann,_Robert)#IMSLP270905",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 6915729,
+      "set_id": 5109331,
+      "family_id": "openscore:Schumann,_Robert/Myrthen,_Op.25",
+      "score_directory": "scores/Schumann,_Robert/Myrthen,_Op.25/11_Lieder_der_Braut_I_(Mutter!_Mutter!)",
+      "imslp_id": "#270905",
+      "source_url": "https://imslp.org/wiki/Myrthen,_Op.25_(Schumann,_Robert)#IMSLP270905",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 6915753,
+      "set_id": 5109331,
+      "family_id": "openscore:Schumann,_Robert/Myrthen,_Op.25",
+      "score_directory": "scores/Schumann,_Robert/Myrthen,_Op.25/12_Lieder_der_Braut_II_(Lass_mich_ihm_am_Busen_hangen)",
+      "imslp_id": "#270905",
+      "source_url": "https://imslp.org/wiki/Myrthen,_Op.25_(Schumann,_Robert)#IMSLP270905",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 6916642,
+      "set_id": 5109331,
+      "family_id": "openscore:Schumann,_Robert/Myrthen,_Op.25",
+      "score_directory": "scores/Schumann,_Robert/Myrthen,_Op.25/13_Hochländers_Abschied",
+      "imslp_id": "#270905",
+      "source_url": "https://imslp.org/wiki/Myrthen,_Op.25_(Schumann,_Robert)#IMSLP270905",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 6917116,
+      "set_id": 5109331,
+      "family_id": "openscore:Schumann,_Robert/Myrthen,_Op.25",
+      "score_directory": "scores/Schumann,_Robert/Myrthen,_Op.25/14_Hochländisches_Wiegenlied",
+      "imslp_id": "#270905",
+      "source_url": "https://imslp.org/wiki/Myrthen,_Op.25_(Schumann,_Robert)#IMSLP270905",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 6925763,
+      "set_id": 5109331,
+      "family_id": "openscore:Schumann,_Robert/Myrthen,_Op.25",
+      "score_directory": "scores/Schumann,_Robert/Myrthen,_Op.25/15_Aus_den_hebräischen_Gesängen_(Mein_Herz_ist_schwer)",
+      "imslp_id": "#270905",
+      "source_url": "https://imslp.org/wiki/Myrthen,_Op.25_(Schumann,_Robert)#IMSLP270905",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 6834588,
+      "set_id": 5109331,
+      "family_id": "openscore:Schumann,_Robert/Myrthen,_Op.25",
+      "score_directory": "scores/Schumann,_Robert/Myrthen,_Op.25/16_Rätsel",
+      "imslp_id": "#270905",
+      "source_url": "https://imslp.org/wiki/Myrthen,_Op.25_(Schumann,_Robert)#IMSLP270905",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 6965894,
+      "set_id": 5109331,
+      "family_id": "openscore:Schumann,_Robert/Myrthen,_Op.25",
+      "score_directory": "scores/Schumann,_Robert/Myrthen,_Op.25/17_Zwei_venetianische_Lieder_I_(Leis’_rudern_hin)",
+      "imslp_id": "#270905",
+      "source_url": "https://imslp.org/wiki/Myrthen,_Op.25_(Schumann,_Robert)#IMSLP270905",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 6969398,
+      "set_id": 5109331,
+      "family_id": "openscore:Schumann,_Robert/Myrthen,_Op.25",
+      "score_directory": "scores/Schumann,_Robert/Myrthen,_Op.25/18_Zwei_venetianische_Lieder_II_(Wenn_durch_die_Piazza)",
+      "imslp_id": "#270905",
+      "source_url": "https://imslp.org/wiki/Myrthen,_Op.25_(Schumann,_Robert)#IMSLP270905",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 6974646,
+      "set_id": 5109331,
+      "family_id": "openscore:Schumann,_Robert/Myrthen,_Op.25",
+      "score_directory": "scores/Schumann,_Robert/Myrthen,_Op.25/19_Hauptmanns_Weib",
+      "imslp_id": "#270905",
+      "source_url": "https://imslp.org/wiki/Myrthen,_Op.25_(Schumann,_Robert)#IMSLP270905",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 6979621,
+      "set_id": 5109331,
+      "family_id": "openscore:Schumann,_Robert/Myrthen,_Op.25",
+      "score_directory": "scores/Schumann,_Robert/Myrthen,_Op.25/20_Weit,_weit",
+      "imslp_id": "#270905",
+      "source_url": "https://imslp.org/wiki/Myrthen,_Op.25_(Schumann,_Robert)#IMSLP270905",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 6980134,
+      "set_id": 5109331,
+      "family_id": "openscore:Schumann,_Robert/Myrthen,_Op.25",
+      "score_directory": "scores/Schumann,_Robert/Myrthen,_Op.25/21_Was_will_die_einsame_Träne",
+      "imslp_id": "#270905",
+      "source_url": "https://imslp.org/wiki/Myrthen,_Op.25_(Schumann,_Robert)#IMSLP270905",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 6980464,
+      "set_id": 5109331,
+      "family_id": "openscore:Schumann,_Robert/Myrthen,_Op.25",
+      "score_directory": "scores/Schumann,_Robert/Myrthen,_Op.25/22_Niemand",
+      "imslp_id": "#270905",
+      "source_url": "https://imslp.org/wiki/Myrthen,_Op.25_(Schumann,_Robert)#IMSLP270905",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 6981173,
+      "set_id": 5109331,
+      "family_id": "openscore:Schumann,_Robert/Myrthen,_Op.25",
+      "score_directory": "scores/Schumann,_Robert/Myrthen,_Op.25/23_Im_Westen",
+      "imslp_id": "#270905",
+      "source_url": "https://imslp.org/wiki/Myrthen,_Op.25_(Schumann,_Robert)#IMSLP270905",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 6982729,
+      "set_id": 5109331,
+      "family_id": "openscore:Schumann,_Robert/Myrthen,_Op.25",
+      "score_directory": "scores/Schumann,_Robert/Myrthen,_Op.25/24_Du_bist_wie_ein_Blume",
+      "imslp_id": "#270905",
+      "source_url": "https://imslp.org/wiki/Myrthen,_Op.25_(Schumann,_Robert)#IMSLP270905",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 6982743,
+      "set_id": 5109331,
+      "family_id": "openscore:Schumann,_Robert/Myrthen,_Op.25",
+      "score_directory": "scores/Schumann,_Robert/Myrthen,_Op.25/25_Aus_den_östlichen_Rosen",
+      "imslp_id": "#270905",
+      "source_url": "https://imslp.org/wiki/Myrthen,_Op.25_(Schumann,_Robert)#IMSLP270905",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    },
+    {
+      "score_id": 6915685,
+      "set_id": 5109331,
+      "family_id": "openscore:Schumann,_Robert/Myrthen,_Op.25",
+      "score_directory": "scores/Schumann,_Robert/Myrthen,_Op.25/26_Zum_Schluss",
+      "imslp_id": "#270905",
+      "source_url": "https://imslp.org/wiki/Myrthen,_Op.25_(Schumann,_Robert)#IMSLP270905",
+      "encoding_licence": "CC0-1.0 under OpenScore/Lieder LICENSE.txt; each exact score copyright to be checked",
+      "eligible_for_intake": true,
+      "training_admitted": false
+    }
+  ],
+  "excluded": [
+    {
+      "set_id": 5069034,
+      "path": "Brahms,_Johannes/5_Poems,_Op.19",
+      "reason": "Exact declared IMSLP scan ID unresolved or no confirmed per-file PD/edition record",
+      "source_ids": [
+        "#97696"
+      ]
+    },
+    {
+      "set_id": 4910391,
+      "path": "Brahms,_Johannes/6_Songs,_Op.3",
+      "reason": "Exact declared IMSLP scan ID unresolved or no confirmed per-file PD/edition record",
+      "source_ids": [
+        "#97681"
+      ]
+    },
+    {
+      "set_id": 5067697,
+      "path": "Brahms,_Johannes/6_Songs,_Op.6",
+      "reason": "Exact declared IMSLP scan ID unresolved or no confirmed per-file PD/edition record",
+      "source_ids": [
+        "#97689"
+      ]
+    },
+    {
+      "set_id": 5096870,
+      "path": "Brahms,_Johannes/6_Songs,_Op.7",
+      "reason": "Exact declared IMSLP scan ID unresolved or no confirmed per-file PD/edition record",
+      "source_ids": [
+        "#97691"
+      ]
+    },
+    {
+      "set_id": 5096871,
+      "path": "Brahms,_Johannes/8_Lieder_and_Romances,_Op.14",
+      "reason": "Exact declared IMSLP scan ID unresolved or no confirmed per-file PD/edition record",
+      "source_ids": [
+        "#97693"
+      ]
+    },
+    {
+      "set_id": 5003152,
+      "path": "Schumann,_Robert/Dichterliebe,_Op.48",
+      "reason": "Exact declared IMSLP scan ID unresolved or no confirmed per-file PD/edition record",
+      "source_ids": [
+        "#51736"
+      ]
+    }
+  ],
+  "cautions": [
+    "Whole-opus/song-cycle group before train/eval; sources in multiple sets and arrangements require union closure.",
+    "Existing Mutopia PR17 and broader Mousa source-use roles must be matched by work identity, not file name. Same work in new encoding is not fresh holdout.",
+    "Family count22 is before cross-corpus/arrangement union; no train/test assignments made.",
+    "IMSLP per-file PD assertions and named historic editions are source review, not universal legal warranty.",
+    "OpenScore initial code often names source edition in set metadata but individual score records override it: BrahmsOp32 uses#97709 not set#97708; follow individual ID."
+  ]
+}
