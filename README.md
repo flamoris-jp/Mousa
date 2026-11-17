@@ -97,3 +97,8 @@ The [weak-label progression pilot](experiments/maidionis-progression-corpus/READ
 records rights-gated historical score intake, failed long-context preparation,
 and a separate two-bar local-transition fit. Its [results](experiments/maidionis-progression-corpus/RESULTS.md)
 do not establish superiority over count baselines or musical quality.
+
+A separate [human-annotated chord-event pilot](experiments/maidionis-annotated-events/README.md)
+uses original CC0 Billboard annotations, not a wholesale ChoCo import. Its
+[results](experiments/maidionis-annotated-events/RESULTS.md) trade better held-out
+likelihood against lower top-1 accuracy than a count baseline.
