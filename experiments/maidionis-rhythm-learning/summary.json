@@ -1,0 +1,218 @@
+{
+  "schema": "mousa.rhythm-results.experimental.v1",
+  "steps": 60,
+  "cpu_seconds": 40.840307,
+  "embedding_delta_l1": 57.77947998046875,
+  "reload_logits_exact": true,
+  "transfer_tensor_count": 50,
+  "data_sha256": "9c3f2e95b00d60ad4f464a40836b823209d589411ce48bcb7be31ac4d8131851",
+  "weights_sha256": "b4a629c51e6666a217cd4fa1561c43a24d4be2d26f0f8ce6826e96992400cd2d",
+  "observed_not_fresh": true,
+  "metrics": [
+    {
+      "task": "degree",
+      "train_windows": 498,
+      "evaluation_windows": 233,
+      "train_label_counts": {
+        "131": 24,
+        "130": 38,
+        "128": 39,
+        "132": 28,
+        "0": 7,
+        "1": 7,
+        "2": 5,
+        "66": 44,
+        "67": 32,
+        "68": 64,
+        "69": 32,
+        "70": 33,
+        "64": 30,
+        "3": 7,
+        "129": 39,
+        "133": 7,
+        "4": 9,
+        "65": 35,
+        "5": 5,
+        "6": 13
+      },
+      "evaluation_label_counts": {
+        "64": 23,
+        "66": 18,
+        "67": 12,
+        "65": 9,
+        "6": 6,
+        "5": 6,
+        "4": 3,
+        "3": 5,
+        "2": 1,
+        "68": 13,
+        "128": 32,
+        "0": 2,
+        "69": 8,
+        "129": 31,
+        "70": 8,
+        "130": 27,
+        "131": 11,
+        "132": 15,
+        "133": 2,
+        "134": 1
+      },
+      "training_majority_label": 68,
+      "majority_evaluation_accuracy": 0.055793991416309016,
+      "initial_test": {
+        "nll": 3.295775063559733,
+        "accuracy": 0.02575107296137339
+      },
+      "final_test": {
+        "nll": 2.9573194801551588,
+        "accuracy": 0.12017167381974249
+      }
+    },
+    {
+      "task": "ioi",
+      "train_windows": 498,
+      "evaluation_windows": 233,
+      "train_label_counts": {
+        "2": 149,
+        "5": 205,
+        "1": 70,
+        "11": 47,
+        "23": 13,
+        "35": 1,
+        "17": 2,
+        "3": 1,
+        "26": 2,
+        "8": 8
+      },
+      "evaluation_label_counts": {
+        "23": 14,
+        "11": 39,
+        "17": 1,
+        "5": 63,
+        "1": 7,
+        "0": 14,
+        "2": 95
+      },
+      "training_majority_label": 5,
+      "majority_evaluation_accuracy": 0.2703862660944206,
+      "initial_test": {
+        "nll": 3.42737214452719,
+        "accuracy": 0.055793991416309016
+      },
+      "final_test": {
+        "nll": 1.5891161855198284,
+        "accuracy": 0.296137339055794
+      }
+    },
+    {
+      "task": "duration",
+      "train_windows": 498,
+      "evaluation_windows": 233,
+      "train_label_counts": {
+        "2": 151,
+        "5": 206,
+        "1": 70,
+        "11": 49,
+        "23": 11,
+        "17": 2,
+        "0": 1,
+        "8": 8
+      },
+      "evaluation_label_counts": {
+        "23": 14,
+        "11": 38,
+        "17": 1,
+        "5": 64,
+        "1": 7,
+        "0": 14,
+        "2": 95
+      },
+      "training_majority_label": 5,
+      "majority_evaluation_accuracy": 0.27467811158798283,
+      "initial_test": {
+        "nll": 3.372220681972258,
+        "accuracy": 0.15021459227467812
+      },
+      "final_test": {
+        "nll": 1.611711501499614,
+        "accuracy": 0.296137339055794
+      }
+    },
+    {
+      "task": "rest",
+      "train_windows": 498,
+      "evaluation_windows": 233,
+      "train_label_counts": {
+        "0": 490,
+        "12": 4,
+        "3": 1,
+        "24": 2,
+        "6": 1
+      },
+      "evaluation_label_counts": {
+        "0": 232,
+        "6": 1
+      },
+      "training_majority_label": 0,
+      "majority_evaluation_accuracy": 0.9957081545064378,
+      "initial_test": {
+        "nll": 4.766625848450886,
+        "accuracy": 0.0
+      },
+      "final_test": {
+        "nll": 0.04934167041735076,
+        "accuracy": 0.9957081545064378
+      }
+    },
+    {
+      "task": "accent",
+      "train_windows": 498,
+      "evaluation_windows": 233,
+      "train_label_counts": {
+        "2": 391,
+        "3": 98,
+        "1": 5,
+        "0": 4
+      },
+      "evaluation_label_counts": {
+        "1": 28,
+        "2": 183,
+        "3": 22
+      },
+      "training_majority_label": 2,
+      "majority_evaluation_accuracy": 0.7854077253218884,
+      "initial_test": {
+        "nll": 1.3007413228182323,
+        "accuracy": 0.12875536480686695
+      },
+      "final_test": {
+        "nll": 0.6669596500750711,
+        "accuracy": 0.8669527896995708
+      }
+    },
+    {
+      "task": "phrase",
+      "train_windows": 498,
+      "evaluation_windows": 233,
+      "train_label_counts": {
+        "0": 492,
+        "1": 6
+      },
+      "evaluation_label_counts": {
+        "0": 233
+      },
+      "training_majority_label": 0,
+      "majority_evaluation_accuracy": 1.0,
+      "initial_test": {
+        "nll": 0.8140724615989325,
+        "accuracy": 0.12875536480686695
+      },
+      "final_test": {
+        "nll": 0.005380432489687825,
+        "accuracy": 1.0
+      }
+    }
+  ],
+  "human_listening": false,
+  "musical_quality_claim": false
+}

@@ -29,6 +29,11 @@ See [architecture](docs/ARCHITECTURE.md), [roadmap](docs/ROADMAP.md), and [data 
 The [degree-native generation path](docs/DEGREE_GENERATION.md) selects positions
 within a scale, then applies scale/key to render pitches, including microtones.
 It uses a distinct model identity; an original-symbolic fit checks the wiring.
+The [bounded joint rhythm experiment](docs/RHYTHM_LEARNING.md) extends ordinal
+history with learned timing, projected rests and accents using an explicitly
+audited warm start from the earlier music encoder. It remains research, with
+weak phrase labels and no human naturalness result.
+
 Scale tables remain deterministic rules. The historical semitone-checkpoint
 adapter is retained separately with its existing limitations.
 
