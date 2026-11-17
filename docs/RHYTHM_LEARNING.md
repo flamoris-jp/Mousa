@@ -78,3 +78,7 @@ No private paths, raw MIDI, source event streams, tensors or media belong in Git
 This is not a Runtime service, a Cantabile editor, production checkpoint lifecycle,
 or a licensed release of source/learned data. No Files connector, merge, deployment,
 GPU or paid operation is involved.
+
+A subsequent [whole-piece rhythm-first comparison](RHYTHM_FIRST.md) keeps both
+new arms at eight bars and tests a complete timing plan before pitch filling.
+The original experiment and its results above remain unchanged.
