@@ -1,0 +1,110 @@
+{
+  "teacher_only": true,
+  "quality_claim": false,
+  "variation": {
+    "rule_id": "mousa.major-harmony-rules.experimental.v1",
+    "variation_source": "fixed_rules",
+    "seed": 17,
+    "amount": 0.5,
+    "eligible_slots": 6,
+    "slot_budget": 3,
+    "changed_slots": 3,
+    "changes": [
+      {
+        "index": 1,
+        "operation": "add_seventh",
+        "before": {
+          "root": {
+            "degree": 4,
+            "period": 0
+          },
+          "quality": "major",
+          "duration_ticks": 1920
+        },
+        "after": {
+          "root": {
+            "degree": 4,
+            "period": 0
+          },
+          "quality": "dominant7",
+          "duration_ticks": 1920
+        }
+      },
+      {
+        "index": 2,
+        "operation": "substitute_degree",
+        "before": {
+          "root": {
+            "degree": 5,
+            "period": 0
+          },
+          "quality": "minor",
+          "duration_ticks": 1920
+        },
+        "after": {
+          "root": {
+            "degree": 2,
+            "period": 0
+          },
+          "quality": "minor",
+          "duration_ticks": 1920
+        }
+      },
+      {
+        "index": 6,
+        "operation": "substitute_degree",
+        "before": {
+          "root": {
+            "degree": 5,
+            "period": 0
+          },
+          "quality": "minor",
+          "duration_ticks": 1920
+        },
+        "after": {
+          "root": {
+            "degree": 2,
+            "period": 0
+          },
+          "quality": "minor",
+          "duration_ticks": 1920
+        }
+      }
+    ],
+    "musical_quality_claim": false
+  },
+  "candidates": [
+    {
+      "name": "base-fixed",
+      "notes": 64,
+      "end_tick": 15360,
+      "midi_sha256": "e0002547eb9f2b84e5585fbc2909988b534eb62c0ae9558b09feebb579169f4c",
+      "chord_tone_fraction": 1.0,
+      "mean_root_counterfactual_l1": null
+    },
+    {
+      "name": "base-model",
+      "notes": 64,
+      "end_tick": 15360,
+      "midi_sha256": "b77318f02b1a7eb62bf99b48272e0eb22713dfb19e01b09191fd369e5cfa4225",
+      "chord_tone_fraction": 0.953125,
+      "mean_root_counterfactual_l1": 1.646853629488333
+    },
+    {
+      "name": "varied-fixed",
+      "notes": 64,
+      "end_tick": 15360,
+      "midi_sha256": "f7f41fabe4323be87a96f0d7d02952e6e375428ccf58f67250a09811fad122f0",
+      "chord_tone_fraction": 1.0,
+      "mean_root_counterfactual_l1": null
+    },
+    {
+      "name": "varied-model",
+      "notes": 64,
+      "end_tick": 15360,
+      "midi_sha256": "27457df1690a197961bf0305adb14066b411fc982b87baca8dc29799e84c609f",
+      "chord_tone_fraction": 1.0,
+      "mean_root_counterfactual_l1": 1.5424707645462032
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "python_tests": 86,
+  "passed": 85,
+  "existing_skip": 1,
+  "native_cases": 17,
+  "same_seed_generation_exact": true,
+  "audio": [
+    {
+      "name": "base-fixed",
+      "gain": 12,
+      "seconds": 21.2,
+      "clipped": 0,
+      "midi_message_roundtrip_exact": true,
+      "byte_roundtrip_claim": false,
+      "mp3_sha256": "ef0433964b8b83ef0f3311eaadbe8d4e448b4ae36443730483521ba98d0feee8"
+    },
+    {
+      "name": "base-model",
+      "gain": 12,
+      "seconds": 21.2,
+      "clipped": 0,
+      "midi_message_roundtrip_exact": true,
+      "byte_roundtrip_claim": false,
+      "mp3_sha256": "bf71b78e28dd6530887d32c1d1f0690f84d0e8685e67418a364109962aec0a1b"
+    },
+    {
+      "name": "varied-fixed",
+      "gain": 12,
+      "seconds": 21.2,
+      "clipped": 0,
+      "midi_message_roundtrip_exact": true,
+      "byte_roundtrip_claim": false,
+      "mp3_sha256": "4dc3862460590a5d5c403b140ab3d7d0ce3a75753889ef45ef357f9b5e4bb821"
+    },
+    {
+      "name": "varied-model",
+      "gain": 12,
+      "seconds": 21.2,
+      "clipped": 0,
+      "midi_message_roundtrip_exact": true,
+      "byte_roundtrip_claim": false,
+      "mp3_sha256": "9afa320b8a8c65c5a82abb9c263641c3724dd4e198a402daabc6f1430be9c736"
+    }
+  ],
+  "prior_failure": "Initial byte-identical Cantabile roundtrip assertion failed: canonical MIDI messages were identical but encoding length changed783to815bytes. Message-level verification replaces byte claim; first failure retained privately.",
+  "human_listening": false
+}
