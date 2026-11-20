@@ -1,0 +1,17 @@
+{
+  "schema": "mousa-music-checkpoint-preparation-v1",
+  "status": "frozen preparation protocol before extraction, no fitting",
+  "historical_sha256": "49ff7ee03687d77d1707d82985266f9b51fa836154a924ef7529873ea9f6171f",
+  "split_sha256": "a08f7201e846e09c91e79036c74fefe687e8c431e353f33163d6c935cfbad517",
+  "extractor_sha256": "ea05cc3df8206ebab9d5488fd33f63690370897d975eb892a3bbc389d09cc1ae",
+  "source_selection": "exact historical128train families4084target indices and historical16test families512target indices; hash match all rights metadata, exact-file allowlists and raw MIDI",
+  "projection": "unchanged pinned highest-onset extraction; max2048onsets; clipped pitch interval49classes and quantized half-octave log2 IOI25classes",
+  "token_mapping": "padding0; task1pitch/task2rhythm; pitch class0..48 -> token3..51; rhythm class0..24 -> token52..76",
+  "input": "length17: task control followed by eight strictly prior pitch/rhythm token pairs; no target-time feature supplied",
+  "targets": "one pitch and one rhythm task per selected event; labels pitch0..48/rhythm0..24",
+  "training": "128families4084event windows8168task rows; no family or source role changes",
+  "evaluation": "only historical16already-observed families512events1024task rows; no reserve8/20 reading",
+  "schedule": "3epochs; Python Random(42+epoch) shuffle all8168row indices once;256batches of32 except final8; no replacement",
+  "rights": "PD/BY only; no SA or new source admission",
+  "output": "private input data, source attribution/paths and reproducibility receipt; never commit raw or derived private rows"
+}
