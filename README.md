@@ -95,3 +95,15 @@ Next work is tracked in [GitHub Issues](https://github.com/flamoris-jp/Mousa/iss
 Code is licensed under [Apache License 2.0](LICENSE) unless otherwise stated. **Code licensing does not grant rights to MIDI compositions, arrangements, soundfonts, recordings, source datasets, or trained weights.** Record their provenance and license separately. Never commit private source material, credentials or unreviewed third-party MIDI. See [CONTRIBUTING.md](CONTRIBUTING.md), [SECURITY.md](SECURITY.md), [AGENTS.md](AGENTS.md).
 
 FLAMORIS is open-source creative software. Use it, modify it, and make something interesting. Support is community/self-directed and provided as-is. 🌱
+
+## Bounded progression-corpus research
+
+The [weak-label progression pilot](experiments/maidionis-progression-corpus/README.md)
+records rights-gated historical score intake, failed long-context preparation,
+and a separate two-bar local-transition fit. Its [results](experiments/maidionis-progression-corpus/RESULTS.md)
+do not establish superiority over count baselines or musical quality.
+
+A separate [human-annotated chord-event pilot](experiments/maidionis-annotated-events/README.md)
+uses original CC0 Billboard annotations, not a wholesale ChoCo import. Its
+[results](experiments/maidionis-annotated-events/RESULTS.md) trade better held-out
+likelihood against lower top-1 accuracy than a count baseline.

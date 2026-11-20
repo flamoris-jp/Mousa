@@ -1,0 +1,3120 @@
+{
+  "source_commit": "38c5db510224d9facdc4b08d741fc788cfb58ea8",
+  "rights_allowlist_sha256": "f288b966f5ae01d4182c49ad8d20a9ad9fe8a32ba2ca2b7c49db9f63f7e8ea92",
+  "protocol_sha256": "832583925fd25bc95d51db4a375bf435db85065ed1f4430f76a1cbd3949afed4",
+  "extractor_sha256": "e1c3ebc2b166c2528eeddc307bafba8888e5ff902156fe7842c452b2003fc065",
+  "training_data_sha256": "8bbabc9418ea5d9c71e5b84822e0ca2de61c0ad6a9d41a1529f0d8da6f790286",
+  "records": [
+    {
+      "score_id": 4926375,
+      "set_id": 5032872,
+      "family_id": "openscore:Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.59",
+      "relative_path": "scores/Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.59/6_Eine_gute,_gute_Nacht/lc4926375.mscx",
+      "git_blob_sha1": "514fa4dcfe3286e2837ede4109320ececc58ed9c",
+      "sha256": "05bd533a1a75ab6adee01a240eff4c5a40470ed2c758736512c548c2d64967ae",
+      "work_key": "Brahms,_Johannes:title:einegutegutenacht",
+      "source_url": "https://imslp.org/wiki/8_Lieder_and_Songs,_Op.59_(Brahms,_Johannes)#IMSLP81993",
+      "score_gate": "MuseScore3_only"
+    },
+    {
+      "score_id": 4946175,
+      "set_id": 5032882,
+      "family_id": "openscore:Brahms,_Johannes/5_Lieder,_Op.47",
+      "relative_path": "scores/Brahms,_Johannes/5_Lieder,_Op.47/2_Liebesglut/lc4946175.mscx",
+      "git_blob_sha1": "b45b822261b43248238264726619aaa8f6d9e8ba",
+      "sha256": "01fb4f5837c2a5b6ae8acf6746091ccfbbb2b58b158c33295aac9af3684e743b",
+      "work_key": "Brahms,_Johannes:title:liebesglut",
+      "source_url": "https://imslp.org/wiki/5_Lieder,_Op.47_(Brahms,_Johannes)#IMSLP81904",
+      "score_gate": "MuseScore3_only"
+    },
+    {
+      "score_id": 4946239,
+      "set_id": 5013857,
+      "family_id": "openscore:Brahms,_Johannes/7_Lieder,_Op.48",
+      "relative_path": "scores/Brahms,_Johannes/7_Lieder,_Op.48/3_Liebesklage_des_Mädchens/lc4946239.mscx",
+      "git_blob_sha1": "b5f304de814f3221d6947625d063d45bdc11cb29",
+      "sha256": "a4c35e7d252541db09ca2fc497a99b61145e4bcb18e784abf51baa365d119b6f",
+      "work_key": "Brahms,_Johannes:title:liebesklagedesmadchens",
+      "source_url": "https://imslp.org/wiki/7_Lieder,_Op.48_(Brahms,_Johannes)#IMSLP81907",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 4978468,
+      "set_id": 5016693,
+      "family_id": "openscore:Schumann,_Robert/Frauenliebe_und_Leben,_Op.42",
+      "relative_path": "scores/Schumann,_Robert/Frauenliebe_und_Leben,_Op.42/1_Seit_ich_ihn_gesehen/lc4978468.mscx",
+      "git_blob_sha1": "4d369c6ea386d6ae811241f4dc31e8a6d0a90725",
+      "sha256": "0523c100c4f68366d136e53b94eb656f779a090f140d3a57583dc5a777ddd3ca",
+      "work_key": "Schumann,_Robert:title:seitichihngesehen",
+      "source_url": "https://imslp.org/wiki/Frauenliebe_und_Leben,_Op.42_(Schumann,_Robert)#IMSLP51733",
+      "score_gate": "MuseScore3_only"
+    },
+    {
+      "score_id": 4978478,
+      "set_id": 5016693,
+      "family_id": "openscore:Schumann,_Robert/Frauenliebe_und_Leben,_Op.42",
+      "relative_path": "scores/Schumann,_Robert/Frauenliebe_und_Leben,_Op.42/2_Er,_der_Herrlichste_von_allen/lc4978478.mscx",
+      "git_blob_sha1": "3339fb00b2ca13b817187fdadd0046c3536c033c",
+      "sha256": "4ce31a767e7ce71f7c1a420e94243071cbf38d6166175285309af0340e0f7b93",
+      "work_key": "Schumann,_Robert:title:erderherrlichstevonallen",
+      "source_url": "https://imslp.org/wiki/Frauenliebe_und_Leben,_Op.42_(Schumann,_Robert)#IMSLP51733",
+      "score_gate": "MuseScore3_only"
+    },
+    {
+      "score_id": 4978485,
+      "set_id": 5016693,
+      "family_id": "openscore:Schumann,_Robert/Frauenliebe_und_Leben,_Op.42",
+      "relative_path": "scores/Schumann,_Robert/Frauenliebe_und_Leben,_Op.42/3_Ich_kann’s_nicht_fassen/lc4978485.mscx",
+      "git_blob_sha1": "2608b4ad3d06ac93ee77bccc1ca2b76322c95300",
+      "sha256": "b4e5ec7ad57f4b68a3fe75ef959de8fc4646ae23939b366aa6eb4c9aefa60780",
+      "work_key": "Schumann,_Robert:title:ichkannsnichtfassen",
+      "source_url": "https://imslp.org/wiki/Frauenliebe_und_Leben,_Op.42_(Schumann,_Robert)#IMSLP51733",
+      "score_gate": "MuseScore3_only"
+    },
+    {
+      "score_id": 4978488,
+      "set_id": 5016693,
+      "family_id": "openscore:Schumann,_Robert/Frauenliebe_und_Leben,_Op.42",
+      "relative_path": "scores/Schumann,_Robert/Frauenliebe_und_Leben,_Op.42/4_Du_Ring_an_meinem_Finger/lc4978488.mscx",
+      "git_blob_sha1": "f9c48c9a7d98a2f10a8737eaff59abd44a725480",
+      "sha256": "484a4ecd344c805438eab64de9cf5192fdae8fb08c453ebd2316416f51a6e45d",
+      "work_key": "Schumann,_Robert:title:duringanmeinemfinger",
+      "source_url": "https://imslp.org/wiki/Frauenliebe_und_Leben,_Op.42_(Schumann,_Robert)#IMSLP51733",
+      "score_gate": "missing_or_unsupported_CC0_metadata"
+    },
+    {
+      "score_id": 4978491,
+      "set_id": 5016693,
+      "family_id": "openscore:Schumann,_Robert/Frauenliebe_und_Leben,_Op.42",
+      "relative_path": "scores/Schumann,_Robert/Frauenliebe_und_Leben,_Op.42/5_Helft_mir,_ihr_Schwestern/lc4978491.mscx",
+      "git_blob_sha1": "e622da0e6c76897c9487569ba784be41eb447f3b",
+      "sha256": "806b5111c798c6125a036f01beff863edf14772bb3bfef265081ff4f157779fb",
+      "work_key": "Schumann,_Robert:title:helftmirihrschwestern",
+      "source_url": "https://imslp.org/wiki/Frauenliebe_und_Leben,_Op.42_(Schumann,_Robert)#IMSLP51733",
+      "score_gate": "MuseScore3_only"
+    },
+    {
+      "score_id": 4978492,
+      "set_id": 5096872,
+      "family_id": "openscore:Brahms,_Johannes/5_Lieder,_Op.49",
+      "relative_path": "scores/Brahms,_Johannes/5_Lieder,_Op.49/5_Abenddämmerung/lc4978492.mscx",
+      "git_blob_sha1": "c94fc466d8c3d8c670b9bd3f3ee206bbf33604e7",
+      "sha256": "03d97b2b1e8fb0fb9b53d95d3023f1e8da24150b3b2de0e29c2d1cbdfbe40905",
+      "work_key": "Brahms,_Johannes:title:abenddammerung",
+      "source_url": "https://imslp.org/wiki/5_Lieder,_Op.49_(Brahms,_Johannes)#IMSLP81909",
+      "score_gate": "MuseScore3_only"
+    },
+    {
+      "score_id": 4978494,
+      "set_id": 5016693,
+      "family_id": "openscore:Schumann,_Robert/Frauenliebe_und_Leben,_Op.42",
+      "relative_path": "scores/Schumann,_Robert/Frauenliebe_und_Leben,_Op.42/6_Süsser_Freund,_du_blickest/lc4978494.mscx",
+      "git_blob_sha1": "5884611ae8e473f3185dc244f321e741ddcd3ca0",
+      "sha256": "1cb703a1d31bf2fa55d40167a4ef3e68eddbdf01124ae633c6d7306a3a4bd2d1",
+      "work_key": "Schumann,_Robert:title:susserfreunddublickest",
+      "source_url": "https://imslp.org/wiki/Frauenliebe_und_Leben,_Op.42_(Schumann,_Robert)#IMSLP51733",
+      "score_gate": "MuseScore3_only"
+    },
+    {
+      "score_id": 4978496,
+      "set_id": 5016693,
+      "family_id": "openscore:Schumann,_Robert/Frauenliebe_und_Leben,_Op.42",
+      "relative_path": "scores/Schumann,_Robert/Frauenliebe_und_Leben,_Op.42/7_An_meinem_Herzen/lc4978496.mscx",
+      "git_blob_sha1": "23a664cf8991ef317aa31928cb6ae7266c75b3b8",
+      "sha256": "127abe7959225a853f206fd1510ad9a03613ca13c56d21bdfed317c1fd1e61e6",
+      "work_key": "Schumann,_Robert:title:anmeinemherzen",
+      "source_url": "https://imslp.org/wiki/Frauenliebe_und_Leben,_Op.42_(Schumann,_Robert)#IMSLP51733",
+      "score_gate": "MuseScore3_only"
+    },
+    {
+      "score_id": 4978501,
+      "set_id": 5016693,
+      "family_id": "openscore:Schumann,_Robert/Frauenliebe_und_Leben,_Op.42",
+      "relative_path": "scores/Schumann,_Robert/Frauenliebe_und_Leben,_Op.42/8_Nun_hast_du_mir_den_ersten_Schmerz_getan/lc4978501.mscx",
+      "git_blob_sha1": "f4bd9a6abf42cb527807f30e116f0e63ca80c398",
+      "sha256": "c65827eb8507b1161ade5c1146a4b3d0b73042c5969060fba9ee381068c3e1a1",
+      "work_key": "Schumann,_Robert:title:nunhastdumirdenerstenschmerzgetan",
+      "source_url": "https://imslp.org/wiki/Frauenliebe_und_Leben,_Op.42_(Schumann,_Robert)#IMSLP51733",
+      "score_gate": "MuseScore3_only"
+    },
+    {
+      "score_id": 4978506,
+      "set_id": 5004836,
+      "family_id": "openscore:Schubert,_Franz/Schwanengesang,_D.957",
+      "relative_path": "scores/Schubert,_Franz/Schwanengesang,_D.957/07_Abschied/lc4978506.mscx",
+      "git_blob_sha1": "305c9c1648d8463a0bf3e1798c7bf8591b41f6c5",
+      "sha256": "41f4213aa65f394446fc460027094713921c6810483eb82fa4cc31ecdcd9c158",
+      "work_key": "Schubert,_Franz:title:abschied",
+      "source_url": "https://imslp.org/wiki/Schwanengesang,_D.957_(Schubert,_Franz)#IMSLP60828",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 4982535,
+      "set_id": 5004732,
+      "family_id": "openscore:Schubert,_Franz/Die_schöne_Müllerin,_D.795",
+      "relative_path": "scores/Schubert,_Franz/Die_schöne_Müllerin,_D.795/02_Wohin/lc4982535.mscx",
+      "git_blob_sha1": "1371bf30240b0da360e3d675d55ee7876391be5e",
+      "sha256": "cf14d9461bb5095caf33e99eab9d3cb5ecc5469518946123f573eb6ea2ce98a2",
+      "work_key": "Schubert,_Franz:title:wohin",
+      "source_url": "https://imslp.org/wiki/Die_sch%C3%B6ne_M%C3%BCllerin,_D.795_(Schubert,_Franz)#IMSLP03233",
+      "score_gate": "MuseScore3_only"
+    },
+    {
+      "score_id": 4985922,
+      "set_id": 5004732,
+      "family_id": "openscore:Schubert,_Franz/Die_schöne_Müllerin,_D.795",
+      "relative_path": "scores/Schubert,_Franz/Die_schöne_Müllerin,_D.795/19_Der_Müller_und_der_Bach/lc4985922.mscx",
+      "git_blob_sha1": "75f593a7bcaa496f38824f1114e18c61dc744c3d",
+      "sha256": "51ab1c5de9bf619f60c9a2caba787c7f725947e1f22ce79db932644d78becf4f",
+      "work_key": "Schubert,_Franz:title:dermullerundderbach",
+      "source_url": "https://imslp.org/wiki/Die_sch%C3%B6ne_M%C3%BCllerin,_D.795_(Schubert,_Franz)#IMSLP03233",
+      "score_gate": "MuseScore3_only"
+    },
+    {
+      "score_id": 4985925,
+      "set_id": 5004732,
+      "family_id": "openscore:Schubert,_Franz/Die_schöne_Müllerin,_D.795",
+      "relative_path": "scores/Schubert,_Franz/Die_schöne_Müllerin,_D.795/04_Danksagung_an_den_Bach/lc4985925.mscx",
+      "git_blob_sha1": "52c47a77890dfad89a2063ba7eb2d9170d89bb44",
+      "sha256": "45128b699270311503307548f99f9ab0a810d6953391a128ae2db823e7b3620b",
+      "work_key": "Schubert,_Franz:title:danksagungandenbach",
+      "source_url": "https://imslp.org/wiki/Die_sch%C3%B6ne_M%C3%BCllerin,_D.795_(Schubert,_Franz)#IMSLP03233",
+      "score_gate": "MuseScore3_only"
+    },
+    {
+      "score_id": 4985927,
+      "set_id": 5004732,
+      "family_id": "openscore:Schubert,_Franz/Die_schöne_Müllerin,_D.795",
+      "relative_path": "scores/Schubert,_Franz/Die_schöne_Müllerin,_D.795/14_Der_Jäger/lc4985927.mscx",
+      "git_blob_sha1": "d3d260c6518de4b3f147576cecb2462db5150336",
+      "sha256": "1b6482038d70b28a2206334becb400a405b6ed09da772163f17ea1bfe21b5c56",
+      "work_key": "Schubert,_Franz:title:derjager",
+      "source_url": "https://imslp.org/wiki/Die_sch%C3%B6ne_M%C3%BCllerin,_D.795_(Schubert,_Franz)#IMSLP03233",
+      "score_gate": "MuseScore3_only"
+    },
+    {
+      "score_id": 4985930,
+      "set_id": 5004732,
+      "family_id": "openscore:Schubert,_Franz/Die_schöne_Müllerin,_D.795",
+      "relative_path": "scores/Schubert,_Franz/Die_schöne_Müllerin,_D.795/06_Der_Neugierige/lc4985930.mscx",
+      "git_blob_sha1": "29dca77b7e9e49bbf1208ffe3d65f3e36c28acd4",
+      "sha256": "3f3bdf60b596d9d46c1a6366c84f014ad2d58ea8e6c8e268b66225ed73ea772f",
+      "work_key": "Schubert,_Franz:title:derneugierige",
+      "source_url": "https://imslp.org/wiki/Die_sch%C3%B6ne_M%C3%BCllerin,_D.795_(Schubert,_Franz)#IMSLP03233",
+      "score_gate": "MuseScore3_only"
+    },
+    {
+      "score_id": 4985931,
+      "set_id": 5004732,
+      "family_id": "openscore:Schubert,_Franz/Die_schöne_Müllerin,_D.795",
+      "relative_path": "scores/Schubert,_Franz/Die_schöne_Müllerin,_D.795/20_Des_Baches_Wiegenlied/lc4985931.mscx",
+      "git_blob_sha1": "6a22cdacf54a37d2ac46411b10699e2c8d26817c",
+      "sha256": "a0ba4d2c986981911c7176a8c8f355cb3a7629c69b4052e75e1f41ae0b03408c",
+      "work_key": "Schubert,_Franz:title:desbacheswiegenlied",
+      "source_url": "https://imslp.org/wiki/Die_sch%C3%B6ne_M%C3%BCllerin,_D.795_(Schubert,_Franz)#IMSLP03233",
+      "score_gate": "volta_span_unsupported_entire_score"
+    },
+    {
+      "score_id": 4985932,
+      "set_id": 5004732,
+      "family_id": "openscore:Schubert,_Franz/Die_schöne_Müllerin,_D.795",
+      "relative_path": "scores/Schubert,_Franz/Die_schöne_Müllerin,_D.795/09_Des_Müllers_Blumen/lc4985932.mscx",
+      "git_blob_sha1": "d92246da831893cf2b90159c73b39d6d89e9986f",
+      "sha256": "3bbd38481a9d22d19189d16cb826d1aa63e9bcdb21fde7608aea4f40ed79decf",
+      "work_key": "Schubert,_Franz:title:desmullersblumen",
+      "source_url": "https://imslp.org/wiki/Die_sch%C3%B6ne_M%C3%BCllerin,_D.795_(Schubert,_Franz)#IMSLP03233",
+      "score_gate": "MuseScore3_only"
+    },
+    {
+      "score_id": 4985934,
+      "set_id": 5004732,
+      "family_id": "openscore:Schubert,_Franz/Die_schöne_Müllerin,_D.795",
+      "relative_path": "scores/Schubert,_Franz/Die_schöne_Müllerin,_D.795/17_Die_böse_Farbe/lc4985934.mscx",
+      "git_blob_sha1": "67649a8aa6620f688996d4b54b3b2e9ad506d288",
+      "sha256": "3d8d5ae6cd0d3e068d27a7d0321cfdd47f446323e4c12909a16111f6613abee6",
+      "work_key": "Schubert,_Franz:title:diebosefarbe",
+      "source_url": "https://imslp.org/wiki/Die_sch%C3%B6ne_M%C3%BCllerin,_D.795_(Schubert,_Franz)#IMSLP03233",
+      "score_gate": "MuseScore3_only"
+    },
+    {
+      "score_id": 4985935,
+      "set_id": 5004732,
+      "family_id": "openscore:Schubert,_Franz/Die_schöne_Müllerin,_D.795",
+      "relative_path": "scores/Schubert,_Franz/Die_schöne_Müllerin,_D.795/16_Die_liebe_Farbe/lc4985935.mscx",
+      "git_blob_sha1": "c94c252d50053b9bea8e3a06ab9ceba26804db6b",
+      "sha256": "0f0c22301a5a0f4c7fb9e0f8705292f138ebc612892cac687b8e051b6a746734",
+      "work_key": "Schubert,_Franz:title:dieliebefarbe",
+      "source_url": "https://imslp.org/wiki/Die_sch%C3%B6ne_M%C3%BCllerin,_D.795_(Schubert,_Franz)#IMSLP03233",
+      "score_gate": "MuseScore3_only"
+    },
+    {
+      "score_id": 4985938,
+      "set_id": 5004732,
+      "family_id": "openscore:Schubert,_Franz/Die_schöne_Müllerin,_D.795",
+      "relative_path": "scores/Schubert,_Franz/Die_schöne_Müllerin,_D.795/11_Mein!/lc4985938.mscx",
+      "git_blob_sha1": "51a8543e99e2e81ce17c13c126558dd5474f55e0",
+      "sha256": "335c90de19dacfe7ef2be3ea461942544afe6ac3c25c909b66fa21231dd9dcd3",
+      "work_key": "Schubert,_Franz:title:mein",
+      "source_url": "https://imslp.org/wiki/Die_sch%C3%B6ne_M%C3%BCllerin,_D.795_(Schubert,_Franz)#IMSLP03233",
+      "score_gate": "MuseScore3_only"
+    },
+    {
+      "score_id": 4985940,
+      "set_id": 5004732,
+      "family_id": "openscore:Schubert,_Franz/Die_schöne_Müllerin,_D.795",
+      "relative_path": "scores/Schubert,_Franz/Die_schöne_Müllerin,_D.795/13_Mit_dem_grünen_Lautenbande/lc4985940.mscx",
+      "git_blob_sha1": "1abeb4d143f72edb6e88d08f7a92913ee0583d32",
+      "sha256": "bf056b453c3b5a0e22cead17eab52b589daf7dc4cad476ab85435d4ed5f5d1cc",
+      "work_key": "Schubert,_Franz:title:mitdemgrunenlautenbande",
+      "source_url": "https://imslp.org/wiki/Die_sch%C3%B6ne_M%C3%BCllerin,_D.795_(Schubert,_Franz)#IMSLP03233",
+      "score_gate": "MuseScore3_only"
+    },
+    {
+      "score_id": 4985946,
+      "set_id": 5004732,
+      "family_id": "openscore:Schubert,_Franz/Die_schöne_Müllerin,_D.795",
+      "relative_path": "scores/Schubert,_Franz/Die_schöne_Müllerin,_D.795/12_Pause/lc4985946.mscx",
+      "git_blob_sha1": "05eef7bc62e3aeef8a5a887e452011363ad483e3",
+      "sha256": "49f99b5614990d0b30f66a5875ebb371e4d796084da912df6264d7880c9fb9ad",
+      "work_key": "Schubert,_Franz:title:pause",
+      "source_url": "https://imslp.org/wiki/Die_sch%C3%B6ne_M%C3%BCllerin,_D.795_(Schubert,_Franz)#IMSLP03233",
+      "score_gate": "MuseScore3_only"
+    },
+    {
+      "score_id": 4985949,
+      "set_id": 5004732,
+      "family_id": "openscore:Schubert,_Franz/Die_schöne_Müllerin,_D.795",
+      "relative_path": "scores/Schubert,_Franz/Die_schöne_Müllerin,_D.795/18_Trockne_Blumen/lc4985949.mscx",
+      "git_blob_sha1": "c0e9159876592e005c3fbca8122d2e49f233d2e4",
+      "sha256": "f14844a520847dfcd8fcfb4e745fc81a2549b0a93ac01330ec1fab365ef0fc3c",
+      "work_key": "Schubert,_Franz:title:trockneblumen",
+      "source_url": "https://imslp.org/wiki/Die_sch%C3%B6ne_M%C3%BCllerin,_D.795_(Schubert,_Franz)#IMSLP03233",
+      "score_gate": "missing_or_changing_key"
+    },
+    {
+      "score_id": 4985951,
+      "set_id": 5004732,
+      "family_id": "openscore:Schubert,_Franz/Die_schöne_Müllerin,_D.795",
+      "relative_path": "scores/Schubert,_Franz/Die_schöne_Müllerin,_D.795/07_Ungeduld/lc4985951.mscx",
+      "git_blob_sha1": "c593fe72f1533b6e48715933dc848df41b26b13e",
+      "sha256": "59167d2ee2fc2b29024abb71109ded79b7cfd09722d6f1d1892c025ca82a357d",
+      "work_key": "Schubert,_Franz:title:ungeduld",
+      "source_url": "https://imslp.org/wiki/Die_sch%C3%B6ne_M%C3%BCllerin,_D.795_(Schubert,_Franz)#IMSLP03233",
+      "score_gate": "missing_or_unsupported_CC0_metadata"
+    },
+    {
+      "score_id": 4985962,
+      "set_id": 5004836,
+      "family_id": "openscore:Schubert,_Franz/Schwanengesang,_D.957",
+      "relative_path": "scores/Schubert,_Franz/Schwanengesang,_D.957/14_Die_Taubenpost/lc4985962.mscx",
+      "git_blob_sha1": "9b9cda3c04aa783e38be72621a28d077f24e705e",
+      "sha256": "a72b15f0727ea4b2b20177c676875fe82cab25ee6db436e6736584bf5dae9436",
+      "work_key": "Schubert,_Franz:title:dietaubenpost",
+      "source_url": "https://imslp.org/wiki/Schwanengesang,_D.957_(Schubert,_Franz)#IMSLP60828",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 4985964,
+      "set_id": 5004836,
+      "family_id": "openscore:Schubert,_Franz/Schwanengesang,_D.957",
+      "relative_path": "scores/Schubert,_Franz/Schwanengesang,_D.957/13_Der_Doppelgänger/lc4985964.mscx",
+      "git_blob_sha1": "119d07c5b36b14cd70e3bfe785ea06c4b0b2479e",
+      "sha256": "d5dd874cc2ebe6229282b3197788afb7f84181a4d796d202975cbc07b9b87902",
+      "work_key": "Schubert,_Franz:title:derdoppelganger",
+      "source_url": "https://imslp.org/wiki/Schwanengesang,_D.957_(Schubert,_Franz)#IMSLP60828",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 4985965,
+      "set_id": 5004836,
+      "family_id": "openscore:Schubert,_Franz/Schwanengesang,_D.957",
+      "relative_path": "scores/Schubert,_Franz/Schwanengesang,_D.957/12_Am_Meer/lc4985965.mscx",
+      "git_blob_sha1": "59a1f95e29ed70b5d102b26587a2810dc895e992",
+      "sha256": "61add65a53852bb14f9efdad8e82a6384ee5ef6835a34f85c5bae4475cc69603",
+      "work_key": "Schubert,_Franz:title:ammeer",
+      "source_url": "https://imslp.org/wiki/Schwanengesang,_D.957_(Schubert,_Franz)#IMSLP60828",
+      "score_gate": "missing_or_changing_key"
+    },
+    {
+      "score_id": 4985973,
+      "set_id": 5004836,
+      "family_id": "openscore:Schubert,_Franz/Schwanengesang,_D.957",
+      "relative_path": "scores/Schubert,_Franz/Schwanengesang,_D.957/11_Die_Stadt/lc4985973.mscx",
+      "git_blob_sha1": "b195d1458665b038da1c4ce26fdacf07ec223d70",
+      "sha256": "9209d0f652315e77001d4c7f78f23b7da0a5cd263a9063b42b889de3003c2bbc",
+      "work_key": "Schubert,_Franz:title:diestadt",
+      "source_url": "https://imslp.org/wiki/Schwanengesang,_D.957_(Schubert,_Franz)#IMSLP60828",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 4985984,
+      "set_id": 5004836,
+      "family_id": "openscore:Schubert,_Franz/Schwanengesang,_D.957",
+      "relative_path": "scores/Schubert,_Franz/Schwanengesang,_D.957/09_Ihr_Bild/lc4985984.mscx",
+      "git_blob_sha1": "fb56c831ad07bc65c003ad58650ac2881cd3f2d9",
+      "sha256": "5613d5383b039ca46c51ac3b0ad9135cdf2aea0435c791177dd784a8e332defb",
+      "work_key": "Schubert,_Franz:title:ihrbild",
+      "source_url": "https://imslp.org/wiki/Schwanengesang,_D.957_(Schubert,_Franz)#IMSLP60828",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 4985985,
+      "set_id": 5004836,
+      "family_id": "openscore:Schubert,_Franz/Schwanengesang,_D.957",
+      "relative_path": "scores/Schubert,_Franz/Schwanengesang,_D.957/08_Der_Atlas/lc4985985.mscx",
+      "git_blob_sha1": "790ecc78ed60a10a1addba02aa2532cb9f14b9c6",
+      "sha256": "ddf455d84dc5c33e556cfcfeab65a6183a59df0afa584a3719783a375fa9c4a9",
+      "work_key": "Schubert,_Franz:title:deratlas",
+      "source_url": "https://imslp.org/wiki/Schwanengesang,_D.957_(Schubert,_Franz)#IMSLP60828",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 4985987,
+      "set_id": 5004836,
+      "family_id": "openscore:Schubert,_Franz/Schwanengesang,_D.957",
+      "relative_path": "scores/Schubert,_Franz/Schwanengesang,_D.957/06_In_der_Ferne/lc4985987.mscx",
+      "git_blob_sha1": "87d46ee7db7686fc3f86f9cc63768a6f0e26f164",
+      "sha256": "64b93c1080e8bf2cba8d3367634d12c87ed2e3b1b54e09c7aa9ba4c3e2fa8ead",
+      "work_key": "Schubert,_Franz:title:inderferne",
+      "source_url": "https://imslp.org/wiki/Schwanengesang,_D.957_(Schubert,_Franz)#IMSLP60828",
+      "score_gate": "missing_or_changing_key"
+    },
+    {
+      "score_id": 4985990,
+      "set_id": 5004836,
+      "family_id": "openscore:Schubert,_Franz/Schwanengesang,_D.957",
+      "relative_path": "scores/Schubert,_Franz/Schwanengesang,_D.957/05_Aufenthalt/lc4985990.mscx",
+      "git_blob_sha1": "984b0cf1e949a0ae71bb736cd21ab29226af874a",
+      "sha256": "2e9d525f37ad592572197c826c3bc3aa67b50f28dd897149629e509b6d734294",
+      "work_key": "Schubert,_Franz:title:aufenthalt",
+      "source_url": "https://imslp.org/wiki/Schwanengesang,_D.957_(Schubert,_Franz)#IMSLP60828",
+      "score_gate": "missing_or_unsupported_CC0_metadata"
+    },
+    {
+      "score_id": 4985999,
+      "set_id": 5004836,
+      "family_id": "openscore:Schubert,_Franz/Schwanengesang,_D.957",
+      "relative_path": "scores/Schubert,_Franz/Schwanengesang,_D.957/03_Frühlingssehnsucht/lc4985999.mscx",
+      "git_blob_sha1": "88bf3bc65a0f8a713a43241048e8af49abf4437a",
+      "sha256": "8a28a2f88725d559aafab97f71e9ff9742f31176aad8f7abfae479c6a4b03c04",
+      "work_key": "Schubert,_Franz:title:fruhlingssehnsucht",
+      "source_url": "https://imslp.org/wiki/Schwanengesang,_D.957_(Schubert,_Franz)#IMSLP60828",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 4986000,
+      "set_id": 5004836,
+      "family_id": "openscore:Schubert,_Franz/Schwanengesang,_D.957",
+      "relative_path": "scores/Schubert,_Franz/Schwanengesang,_D.957/02_Kriegers_Ahnung/lc4986000.mscx",
+      "git_blob_sha1": "0456185ed9e6c725959e006c21513fd428b36c6f",
+      "sha256": "56f23e344fe0371fa9a3886ce3f453503e95c1043ff9166805bfcf18456a8fed",
+      "work_key": "Schubert,_Franz:title:kriegersahnung",
+      "source_url": "https://imslp.org/wiki/Schwanengesang,_D.957_(Schubert,_Franz)#IMSLP60828",
+      "score_gate": "missing_or_changing_key"
+    },
+    {
+      "score_id": 4987618,
+      "set_id": 5003125,
+      "family_id": "openscore:Schumann,_Robert/Liederkreis,_Op.39",
+      "relative_path": "scores/Schumann,_Robert/Liederkreis,_Op.39/02_Intermezzo/lc4987618.mscx",
+      "git_blob_sha1": "5088db4ac3371080480c645a109e35a4d2511ba8",
+      "sha256": "e11c175a002b3be2335c5a0c20be113b94551a09bee4adc259b672a7ef36c886",
+      "work_key": "Schumann,_Robert:title:intermezzo",
+      "source_url": "https://imslp.org/wiki/Liederkreis,_Op.39_(Schumann,_Robert)#IMSLP270920",
+      "score_gate": "MuseScore3_only"
+    },
+    {
+      "score_id": 4987626,
+      "set_id": 5003125,
+      "family_id": "openscore:Schumann,_Robert/Liederkreis,_Op.39",
+      "relative_path": "scores/Schumann,_Robert/Liederkreis,_Op.39/03_Waldesgespräch/lc4987626.mscx",
+      "git_blob_sha1": "a28b0f2009569e5e69b415929a324f6ee82058a1",
+      "sha256": "5a96548ff8273cb3679fdccce77ad8da402b11f4c712ef7aac5ee97d7a90e78c",
+      "work_key": "Schumann,_Robert:title:waldesgesprach",
+      "source_url": "https://imslp.org/wiki/Liederkreis,_Op.39_(Schumann,_Robert)#IMSLP270920",
+      "score_gate": "MuseScore3_only"
+    },
+    {
+      "score_id": 4987633,
+      "set_id": 5003125,
+      "family_id": "openscore:Schumann,_Robert/Liederkreis,_Op.39",
+      "relative_path": "scores/Schumann,_Robert/Liederkreis,_Op.39/04_Die_Stille/lc4987633.mscx",
+      "git_blob_sha1": "6a97b47404eea7f6e802d24b437ad5f2b98c4f23",
+      "sha256": "8d32f8886bb2fe626102ff2b773aef0f45d62527f8686ad2ae611907e26f2312",
+      "work_key": "Schumann,_Robert:title:diestille",
+      "source_url": "https://imslp.org/wiki/Liederkreis,_Op.39_(Schumann,_Robert)#IMSLP270920",
+      "score_gate": "missing_or_unsupported_CC0_metadata"
+    },
+    {
+      "score_id": 4987640,
+      "set_id": 5003125,
+      "family_id": "openscore:Schumann,_Robert/Liederkreis,_Op.39",
+      "relative_path": "scores/Schumann,_Robert/Liederkreis,_Op.39/05_Mondnacht/lc4987640.mscx",
+      "git_blob_sha1": "cd598f244d69d74df3782db5ff9a3b445820b488",
+      "sha256": "51fad48cf9382c9699720355a01bc11662e3d31ab532ec8f5adbb36e03a939ee",
+      "work_key": "Schumann,_Robert:title:mondnacht",
+      "source_url": "https://imslp.org/wiki/Liederkreis,_Op.39_(Schumann,_Robert)#IMSLP270920",
+      "score_gate": "MuseScore3_only"
+    },
+    {
+      "score_id": 4987650,
+      "set_id": 5003125,
+      "family_id": "openscore:Schumann,_Robert/Liederkreis,_Op.39",
+      "relative_path": "scores/Schumann,_Robert/Liederkreis,_Op.39/06_Schöne_Fremde/lc4987650.mscx",
+      "git_blob_sha1": "ea8945215a1586d27e46033f918b8594b5b4067a",
+      "sha256": "32e49548ddadac79537cf57863caa74d034f374bc130730b1f76473912c39405",
+      "work_key": "Schumann,_Robert:title:schonefremde",
+      "source_url": "https://imslp.org/wiki/Liederkreis,_Op.39_(Schumann,_Robert)#IMSLP270920",
+      "score_gate": "MuseScore3_only"
+    },
+    {
+      "score_id": 4987658,
+      "set_id": 5003125,
+      "family_id": "openscore:Schumann,_Robert/Liederkreis,_Op.39",
+      "relative_path": "scores/Schumann,_Robert/Liederkreis,_Op.39/07_Auf_einer_Burg/lc4987658.mscx",
+      "git_blob_sha1": "228b7b8e657117fcc2cd922398635cc45e8acc63",
+      "sha256": "0a578160043a9a6d7e862156d45b5b77714d5e6779b9a249dc4356f8f0f2cf24",
+      "work_key": "Schumann,_Robert:title:aufeinerburg",
+      "source_url": "https://imslp.org/wiki/Liederkreis,_Op.39_(Schumann,_Robert)#IMSLP270920",
+      "score_gate": "missing_or_changing_key"
+    },
+    {
+      "score_id": 4987664,
+      "set_id": 5003125,
+      "family_id": "openscore:Schumann,_Robert/Liederkreis,_Op.39",
+      "relative_path": "scores/Schumann,_Robert/Liederkreis,_Op.39/09_Wehmuth/lc4987664.mscx",
+      "git_blob_sha1": "8f3325b2879b7c26ca84cd69b55437b9f81ef4fc",
+      "sha256": "e39ef6f94cb93a449435142a708fc8d7dc0aecd9ab25a055d8070a3f51ef186e",
+      "work_key": "Schumann,_Robert:title:wehmuth",
+      "source_url": "https://imslp.org/wiki/Liederkreis,_Op.39_(Schumann,_Robert)#IMSLP270920",
+      "score_gate": "MuseScore3_only"
+    },
+    {
+      "score_id": 4987672,
+      "set_id": 5003125,
+      "family_id": "openscore:Schumann,_Robert/Liederkreis,_Op.39",
+      "relative_path": "scores/Schumann,_Robert/Liederkreis,_Op.39/10_Zwielicht/lc4987672.mscx",
+      "git_blob_sha1": "28f3b3419dfe410cec18cac9afc538f4cdc47295",
+      "sha256": "95bc6fc564b28fa5672215afc0dc1225121931a55c927bb33289eea76eb9c53e",
+      "work_key": "Schumann,_Robert:title:zwielicht",
+      "source_url": "https://imslp.org/wiki/Liederkreis,_Op.39_(Schumann,_Robert)#IMSLP270920",
+      "score_gate": "MuseScore3_only"
+    },
+    {
+      "score_id": 4987677,
+      "set_id": 5003125,
+      "family_id": "openscore:Schumann,_Robert/Liederkreis,_Op.39",
+      "relative_path": "scores/Schumann,_Robert/Liederkreis,_Op.39/12_Frühlingsnacht/lc4987677.mscx",
+      "git_blob_sha1": "e1805ff3a011a161ef25d89093a9847c0e76c984",
+      "sha256": "5925059bfe509b1fafae0782e5adf13e1e17331047bbcd72b7d43aa37238d280",
+      "work_key": "Schumann,_Robert:title:fruhlingsnacht",
+      "source_url": "https://imslp.org/wiki/Liederkreis,_Op.39_(Schumann,_Robert)#IMSLP270920",
+      "score_gate": "MuseScore3_only"
+    },
+    {
+      "score_id": 4988600,
+      "set_id": 5016678,
+      "family_id": "openscore:Schubert,_Franz/4_Gesänge_aus_„Wilhelm_Meister“,_D.877",
+      "relative_path": "scores/Schubert,_Franz/4_Gesänge_aus_„Wilhelm_Meister“,_D.877/2_Lied_der_Mignon_(Heiss_mich_nicht_reden)/lc4988600.mscx",
+      "git_blob_sha1": "54fda9bb7ef6bb09af400ab088dcaec01aa56b9a",
+      "sha256": "42fffa125b68784ee1576410807162928812debe6615b423db886d80919678c9",
+      "work_key": "Schubert,_Franz:title:lieddermignonheissmichnichtreden",
+      "source_url": "https://imslp.org/wiki/4_Ges%C3%A4nge_aus_%27Wilhelm_Meister%27,_D.877_(Schubert,_Franz)#IMSLP62399",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 5003122,
+      "set_id": 5003125,
+      "family_id": "openscore:Schumann,_Robert/Liederkreis,_Op.39",
+      "relative_path": "scores/Schumann,_Robert/Liederkreis,_Op.39/11_Im_Walde/lc5003122.mscx",
+      "git_blob_sha1": "39288ef4eeb809c17d94dc077ac3f54ed98255be",
+      "sha256": "9c103f77eb0d0edd99272dc99790eabfc1bfc4a4fd6a1a4bf0c3c1576bc1d0cb",
+      "work_key": "Schumann,_Robert:title:imwalde",
+      "source_url": "https://imslp.org/wiki/Liederkreis,_Op.39_(Schumann,_Robert)#IMSLP270920",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 5004731,
+      "set_id": 5004732,
+      "family_id": "openscore:Schubert,_Franz/Die_schöne_Müllerin,_D.795",
+      "relative_path": "scores/Schubert,_Franz/Die_schöne_Müllerin,_D.795/01_Das_Wandern/lc5004731.mscx",
+      "git_blob_sha1": "bf2bad2fe7734f9b10acd562edf3819e20160050",
+      "sha256": "90a4ccb4458737c6cc70d161a326dcf327c7477f61220bd8aee01a2030f22c34",
+      "work_key": "Schubert,_Franz:title:daswandern",
+      "source_url": "https://imslp.org/wiki/Die_sch%C3%B6ne_M%C3%BCllerin,_D.795_(Schubert,_Franz)#IMSLP03233",
+      "score_gate": "MuseScore3_only"
+    },
+    {
+      "score_id": 5004835,
+      "set_id": 5004836,
+      "family_id": "openscore:Schubert,_Franz/Schwanengesang,_D.957",
+      "relative_path": "scores/Schubert,_Franz/Schwanengesang,_D.957/04_Ständchen/lc5004835.mscx",
+      "git_blob_sha1": "fa6bb74dfa79d0df24ba6e60c9039b53b96dd005",
+      "sha256": "afb15f7f1bbcb4f2656d3a04e529853b5e0322235caf847978a3f0a75f2b8275",
+      "work_key": "Schubert,_Franz:title:standchen",
+      "source_url": "https://imslp.org/wiki/Schwanengesang,_D.957_(Schubert,_Franz)#IMSLP60828",
+      "score_gate": "volta_span_unsupported_entire_score"
+    },
+    {
+      "score_id": 5007176,
+      "set_id": 5015409,
+      "family_id": "openscore:Schubert,_Franz/Winterreise,_D.911",
+      "relative_path": "scores/Schubert,_Franz/Winterreise,_D.911/13_Die_Post/lc5007176.mscx",
+      "git_blob_sha1": "1cd6934a0a4bf09eddb3c4d720c2166dff84cf01",
+      "sha256": "c9657630426b78d63bd816b1846bd54c9d4807cc533488db7406e2fadd011d89",
+      "work_key": "Schubert,_Franz:title:diepost",
+      "source_url": "https://imslp.org/wiki/Winterreise,_D.911_(Schubert,_Franz)#IMSLP60822",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 5007178,
+      "set_id": 5015409,
+      "family_id": "openscore:Schubert,_Franz/Winterreise,_D.911",
+      "relative_path": "scores/Schubert,_Franz/Winterreise,_D.911/14_Der_greise_Kopf/lc5007178.mscx",
+      "git_blob_sha1": "17c05e510f8c35c6e86e8697a7d59ce6abc5d630",
+      "sha256": "c2de8f72a03b6bd17efa4debc8c867d974b32ce82b9cbf90fcca69dcb14ddd81",
+      "work_key": "Schubert,_Franz:title:dergreisekopf",
+      "source_url": "https://imslp.org/wiki/Winterreise,_D.911_(Schubert,_Franz)#IMSLP60822",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 5007179,
+      "set_id": 5015409,
+      "family_id": "openscore:Schubert,_Franz/Winterreise,_D.911",
+      "relative_path": "scores/Schubert,_Franz/Winterreise,_D.911/15_Die_Kraehe/lc5007179.mscx",
+      "git_blob_sha1": "b9a5ff62e746b99bbee0d8633200508e18501a25",
+      "sha256": "25093970c370a8125e2468c62328500d70233c552603633c7934cbdb8a9ca047",
+      "work_key": "Schubert,_Franz:title:diekraehe",
+      "source_url": "https://imslp.org/wiki/Winterreise,_D.911_(Schubert,_Franz)#IMSLP60822",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 5007180,
+      "set_id": 5015409,
+      "family_id": "openscore:Schubert,_Franz/Winterreise,_D.911",
+      "relative_path": "scores/Schubert,_Franz/Winterreise,_D.911/16_Letzte_Hoffnung/lc5007180.mscx",
+      "git_blob_sha1": "9c0b121fd65d10819f38ec136ec5397f0ab3977b",
+      "sha256": "5d24abe95bb1ad8a9ef18f2d4e7dcd6f2dcf224acbc25115b0b6663f55073bf2",
+      "work_key": "Schubert,_Franz:title:letztehoffnung",
+      "source_url": "https://imslp.org/wiki/Winterreise,_D.911_(Schubert,_Franz)#IMSLP60822",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 5007181,
+      "set_id": 5015409,
+      "family_id": "openscore:Schubert,_Franz/Winterreise,_D.911",
+      "relative_path": "scores/Schubert,_Franz/Winterreise,_D.911/17_Im_Dorfe/lc5007181.mscx",
+      "git_blob_sha1": "26de82c566bfc65b6d3d8bc3c417a122e35aa611",
+      "sha256": "663be2d254a1288ee4053b0157c3a4bd0e003819b1bb95728ada0eb357ed8361",
+      "work_key": "Schubert,_Franz:title:imdorfe",
+      "source_url": "https://imslp.org/wiki/Winterreise,_D.911_(Schubert,_Franz)#IMSLP60822",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 5007182,
+      "set_id": 5015409,
+      "family_id": "openscore:Schubert,_Franz/Winterreise,_D.911",
+      "relative_path": "scores/Schubert,_Franz/Winterreise,_D.911/18_Der_stuermische_Morgen/lc5007182.mscx",
+      "git_blob_sha1": "6fa961d12599bf824c689ff03ec5ae015b81a756",
+      "sha256": "bc6a44aed1b65039ce0894bbdbe5692ced0b34eaaf233a6ad34be0d9844050bf",
+      "work_key": "Schubert,_Franz:title:derstuermischemorgen",
+      "source_url": "https://imslp.org/wiki/Winterreise,_D.911_(Schubert,_Franz)#IMSLP60822",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 5009833,
+      "set_id": 5015409,
+      "family_id": "openscore:Schubert,_Franz/Winterreise,_D.911",
+      "relative_path": "scores/Schubert,_Franz/Winterreise,_D.911/19_Täuschung/lc5009833.mscx",
+      "git_blob_sha1": "8b06352e6b82befaa57c7ae6e8954df2ea5db3f5",
+      "sha256": "ee7d43e01977b57f8772aa9365ac56f9a4de4b3a0d252f3dbe3e2215889cb2e4",
+      "work_key": "Schubert,_Franz:title:tauschung",
+      "source_url": "https://imslp.org/wiki/Winterreise,_D.911_(Schubert,_Franz)#IMSLP60822",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 5009900,
+      "set_id": 5015409,
+      "family_id": "openscore:Schubert,_Franz/Winterreise,_D.911",
+      "relative_path": "scores/Schubert,_Franz/Winterreise,_D.911/20_Der_Wegweiser/lc5009900.mscx",
+      "git_blob_sha1": "aa2bb504a61d83a8ac4008b543bdf9f4bfaef24a",
+      "sha256": "ed9dbf32df5ece44ad2249dfa317e78f40c820a07587a18746f71ce604a71985",
+      "work_key": "Schubert,_Franz:title:derwegweiser",
+      "source_url": "https://imslp.org/wiki/Winterreise,_D.911_(Schubert,_Franz)#IMSLP60822",
+      "score_gate": "missing_or_changing_key"
+    },
+    {
+      "score_id": 5013945,
+      "set_id": 5015409,
+      "family_id": "openscore:Schubert,_Franz/Winterreise,_D.911",
+      "relative_path": "scores/Schubert,_Franz/Winterreise,_D.911/21_Das_Wirthshaus/lc5013945.mscx",
+      "git_blob_sha1": "799c31d413b4c56d02d3efbb2123795f5dfb8d86",
+      "sha256": "ece7265cb2eeeb67d076274b85a2c3d2891200c736ea4526a68ce48b346f57b8",
+      "work_key": "Schubert,_Franz:title:daswirthshaus",
+      "source_url": "https://imslp.org/wiki/Winterreise,_D.911_(Schubert,_Franz)#IMSLP60822",
+      "score_gate": "missing_or_unsupported_CC0_metadata"
+    },
+    {
+      "score_id": 5013969,
+      "set_id": 5015409,
+      "family_id": "openscore:Schubert,_Franz/Winterreise,_D.911",
+      "relative_path": "scores/Schubert,_Franz/Winterreise,_D.911/22_Muth/lc5013969.mscx",
+      "git_blob_sha1": "40b6852d1bb527456b2e097b0d14df5a4f84cd78",
+      "sha256": "c34448afb1afbb00d25bae8153be3c75dea86bfab50bf76f1002cd920e0b290f",
+      "work_key": "Schubert,_Franz:title:muth",
+      "source_url": "https://imslp.org/wiki/Winterreise,_D.911_(Schubert,_Franz)#IMSLP60822",
+      "score_gate": "missing_or_changing_key"
+    },
+    {
+      "score_id": 5014002,
+      "set_id": 5015409,
+      "family_id": "openscore:Schubert,_Franz/Winterreise,_D.911",
+      "relative_path": "scores/Schubert,_Franz/Winterreise,_D.911/23_Die_Nebensonnen/lc5014002.mscx",
+      "git_blob_sha1": "95ad4acf2d0a62a8fc0dda3666ac3a387ad5b65d",
+      "sha256": "9b2fbca8c7af75368f0826eb5adbdfc3ead9514ccf5c582c0819432e866d306c",
+      "work_key": "Schubert,_Franz:title:dienebensonnen",
+      "source_url": "https://imslp.org/wiki/Winterreise,_D.911_(Schubert,_Franz)#IMSLP60822",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 5014023,
+      "set_id": 5015409,
+      "family_id": "openscore:Schubert,_Franz/Winterreise,_D.911",
+      "relative_path": "scores/Schubert,_Franz/Winterreise,_D.911/24_Der_Leiermann_(Spätere_Fassung)/lc5014023.mscx",
+      "git_blob_sha1": "e72678ba1a23f681e943acf24a6faa42a0af8c13",
+      "sha256": "abc840a9e95969be92249dc228d6eeddafffae840c38f99a7a5942164037d6f6",
+      "work_key": "Schubert,_Franz:title:derleiermannspaterefassung",
+      "source_url": "https://imslp.org/wiki/Winterreise,_D.911_(Schubert,_Franz)#IMSLP60822",
+      "score_gate": "missing_or_changing_key"
+    },
+    {
+      "score_id": 5015410,
+      "set_id": 5015409,
+      "family_id": "openscore:Schubert,_Franz/Winterreise,_D.911",
+      "relative_path": "scores/Schubert,_Franz/Winterreise,_D.911/07_Auf_dem_Flusse/lc5015410.mscx",
+      "git_blob_sha1": "67cee7cf12099823992423745f5cb369bdfb7e5f",
+      "sha256": "cecd8e8a055c1ee7a5416814cab6b96124211f7804130626610c3e71aebc8fb5",
+      "work_key": "Schubert,_Franz:title:aufdemflusse",
+      "source_url": "https://imslp.org/wiki/Winterreise,_D.911_(Schubert,_Franz)#IMSLP60822",
+      "score_gate": "missing_or_changing_key"
+    },
+    {
+      "score_id": 5015435,
+      "set_id": 5015409,
+      "family_id": "openscore:Schubert,_Franz/Winterreise,_D.911",
+      "relative_path": "scores/Schubert,_Franz/Winterreise,_D.911/02_Die_Wetterfahne/lc5015435.mscx",
+      "git_blob_sha1": "0ffd6490eec749f666ea3372b0c49000ac0cf549",
+      "sha256": "c057843f033e6537ef7718f10e8595368aa9e1be71b2016d96db7a85df875d97",
+      "work_key": "Schubert,_Franz:title:diewetterfahne",
+      "source_url": "https://imslp.org/wiki/Winterreise,_D.911_(Schubert,_Franz)#IMSLP60822",
+      "score_gate": "missing_or_changing_key"
+    },
+    {
+      "score_id": 5015499,
+      "set_id": 5015409,
+      "family_id": "openscore:Schubert,_Franz/Winterreise,_D.911",
+      "relative_path": "scores/Schubert,_Franz/Winterreise,_D.911/03_Gefror’ne_Thränen/lc5015499.mscx",
+      "git_blob_sha1": "9cb2477bda0a75c0f380cf7158a4b11ded2615ac",
+      "sha256": "6bf20663266e87391f3a54d0d34d7671bd1e05ef445f7337e59954eff79e68c5",
+      "work_key": "Schubert,_Franz:title:gefrornethranen",
+      "source_url": "https://imslp.org/wiki/Winterreise,_D.911_(Schubert,_Franz)#IMSLP60822",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 5015521,
+      "set_id": 5015409,
+      "family_id": "openscore:Schubert,_Franz/Winterreise,_D.911",
+      "relative_path": "scores/Schubert,_Franz/Winterreise,_D.911/08_Rückblick/lc5015521.mscx",
+      "git_blob_sha1": "963119e5336a3d6cae586472661fc7f0c388ee2d",
+      "sha256": "027c650c2111c57351bf61efa039083146fbf9cd313dd1762ebde679b0a693ce",
+      "work_key": "Schubert,_Franz:title:ruckblick",
+      "source_url": "https://imslp.org/wiki/Winterreise,_D.911_(Schubert,_Franz)#IMSLP60822",
+      "score_gate": "missing_or_changing_key"
+    },
+    {
+      "score_id": 5015573,
+      "set_id": 5015409,
+      "family_id": "openscore:Schubert,_Franz/Winterreise,_D.911",
+      "relative_path": "scores/Schubert,_Franz/Winterreise,_D.911/04_Erstarrung/lc5015573.mscx",
+      "git_blob_sha1": "d644508f2a43223cf9abc48ab34eb864a6e4e3b2",
+      "sha256": "3112c27477e657d9393ea8309c0b1beebbcf08219683cf9b3c3656cc95930cf9",
+      "work_key": "Schubert,_Franz:title:erstarrung",
+      "source_url": "https://imslp.org/wiki/Winterreise,_D.911_(Schubert,_Franz)#IMSLP60822",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 5016512,
+      "set_id": 5015409,
+      "family_id": "openscore:Schubert,_Franz/Winterreise,_D.911",
+      "relative_path": "scores/Schubert,_Franz/Winterreise,_D.911/06_Wasserfluth/lc5016512.mscx",
+      "git_blob_sha1": "2ad9dbf3be578bc00e3ee5582c2d52a9c1b2de25",
+      "sha256": "239ec25f109f4a9c46a31fed7f65dc82247dea5c6fe01c12b26ce53656a7ba33",
+      "work_key": "Schubert,_Franz:title:wasserfluth",
+      "source_url": "https://imslp.org/wiki/Winterreise,_D.911_(Schubert,_Franz)#IMSLP60822",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 5023438,
+      "set_id": 5015409,
+      "family_id": "openscore:Schubert,_Franz/Winterreise,_D.911",
+      "relative_path": "scores/Schubert,_Franz/Winterreise,_D.911/09_Irrlicht/lc5023438.mscx",
+      "git_blob_sha1": "9e3bfc5f6666c18c90a95c2e51f4305a825579b4",
+      "sha256": "50c48059cde51ee4a2c00e64f66688b8e6615f3817d9e6df7dc7f8c0a91092a6",
+      "work_key": "Schubert,_Franz:title:irrlicht",
+      "source_url": "https://imslp.org/wiki/Winterreise,_D.911_(Schubert,_Franz)#IMSLP60822",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 5023517,
+      "set_id": 5015409,
+      "family_id": "openscore:Schubert,_Franz/Winterreise,_D.911",
+      "relative_path": "scores/Schubert,_Franz/Winterreise,_D.911/10_Rast_(Spätere_Fassung)/lc5023517.mscx",
+      "git_blob_sha1": "7e7e7eb4d0f59972867075079e4520a933f18158",
+      "sha256": "fc053604d942b6e9cb7208b6a7a866266f7e65e3bd76ad1efac45486b260f291",
+      "work_key": "Schubert,_Franz:title:rastspaterefassung",
+      "source_url": "https://imslp.org/wiki/Winterreise,_D.911_(Schubert,_Franz)#IMSLP60822",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 5023603,
+      "set_id": 5015409,
+      "family_id": "openscore:Schubert,_Franz/Winterreise,_D.911",
+      "relative_path": "scores/Schubert,_Franz/Winterreise,_D.911/11_Frühlingstraum/lc5023603.mscx",
+      "git_blob_sha1": "4c1d59b9df7466d02262aa9b1a5d30c5c544d488",
+      "sha256": "f36b1df9783de4941519cecf4b67093d53c454bfee0b749cc29522ca8c195128",
+      "work_key": "Schubert,_Franz:title:fruhlingstraum",
+      "source_url": "https://imslp.org/wiki/Winterreise,_D.911_(Schubert,_Franz)#IMSLP60822",
+      "score_gate": "missing_or_changing_meter"
+    },
+    {
+      "score_id": 5023662,
+      "set_id": 5015409,
+      "family_id": "openscore:Schubert,_Franz/Winterreise,_D.911",
+      "relative_path": "scores/Schubert,_Franz/Winterreise,_D.911/12_Einsamkeit_(Urspruengliche_Fassung)/lc5023662.mscx",
+      "git_blob_sha1": "8618237d186fbd55c070760770656f994412f19a",
+      "sha256": "823a8f34c950cf954b23e2e54dbf81bd2ddc4d66782fae9327a604fb03889d6d",
+      "work_key": "Schubert,_Franz:title:einsamkeiturspruenglichefassung",
+      "source_url": "https://imslp.org/wiki/Winterreise,_D.911_(Schubert,_Franz)#IMSLP60822",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 5025982,
+      "set_id": 5004732,
+      "family_id": "openscore:Schubert,_Franz/Die_schöne_Müllerin,_D.795",
+      "relative_path": "scores/Schubert,_Franz/Die_schöne_Müllerin,_D.795/08_Morgengruß/lc5025982.mscx",
+      "git_blob_sha1": "e59af9124e973c12d5b8094047771d37cd953819",
+      "sha256": "eade935af556f05d7d220ed14863e39f9ff4855c8f95a347adc1055fe3553d91",
+      "work_key": "Schubert,_Franz:title:morgengruss",
+      "source_url": "https://imslp.org/wiki/Die_sch%C3%B6ne_M%C3%BCllerin,_D.795_(Schubert,_Franz)#IMSLP03233",
+      "score_gate": "MuseScore3_only"
+    },
+    {
+      "score_id": 5025985,
+      "set_id": 5004732,
+      "family_id": "openscore:Schubert,_Franz/Die_schöne_Müllerin,_D.795",
+      "relative_path": "scores/Schubert,_Franz/Die_schöne_Müllerin,_D.795/10_Tränenregen/lc5025985.mscx",
+      "git_blob_sha1": "29020199ebef37368293213ced7945c3b428a49b",
+      "sha256": "20d61208a940e761b635c4d4ea3936e363e6b53ec61ab74bfb586ddbae17a9ce",
+      "work_key": "Schubert,_Franz:title:tranenregen",
+      "source_url": "https://imslp.org/wiki/Die_sch%C3%B6ne_M%C3%BCllerin,_D.795_(Schubert,_Franz)#IMSLP03233",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 5026236,
+      "set_id": 5004732,
+      "family_id": "openscore:Schubert,_Franz/Die_schöne_Müllerin,_D.795",
+      "relative_path": "scores/Schubert,_Franz/Die_schöne_Müllerin,_D.795/15_Eifersucht_und_Stolz/lc5026236.mscx",
+      "git_blob_sha1": "d9a14895f70f1ee6069fa80761eb9f47bb8188b3",
+      "sha256": "45d2967f12c61a2d5d07df6cb7f9db862f944a9c6272f936020b6e5858cb1282",
+      "work_key": "Schubert,_Franz:title:eifersuchtundstolz",
+      "source_url": "https://imslp.org/wiki/Die_sch%C3%B6ne_M%C3%BCllerin,_D.795_(Schubert,_Franz)#IMSLP03233",
+      "score_gate": "MuseScore3_only"
+    },
+    {
+      "score_id": 5033057,
+      "set_id": 5033060,
+      "family_id": "openscore:Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.57",
+      "relative_path": "scores/Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.57/4_Ach,_wende_diesen_Blick/lc5033057.mscx",
+      "git_blob_sha1": "f4ddee9d08be9a95bab02e0d677cfce8cdecc31d",
+      "sha256": "6875a22cac2602940c1cca815c2071e568f7b07e12bd32cf7e9e97c5d4fc259c",
+      "work_key": "Brahms,_Johannes:title:achwendediesenblick",
+      "source_url": "https://imslp.org/wiki/8_Lieder_and_Songs,_Op.57_(Brahms,_Johannes)#IMSLP81926",
+      "score_gate": "MuseScore3_only"
+    },
+    {
+      "score_id": 5033075,
+      "set_id": 5033077,
+      "family_id": "openscore:Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.63",
+      "relative_path": "scores/Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.63/4_An_die_Tauben/lc5033075.mscx",
+      "git_blob_sha1": "cd241d189c3879135eeeae52822e77d1a9404974",
+      "sha256": "16872c4417589ed6f65738c3d4c2275e8ada543248990a43878760c3a969ce36",
+      "work_key": "Brahms,_Johannes:title:andietauben",
+      "source_url": "https://imslp.org/wiki/9_Lieder_and_Songs,_Op.63_(Brahms,_Johannes)#IMSLP88147",
+      "score_gate": "MuseScore3_only"
+    },
+    {
+      "score_id": 5033089,
+      "set_id": 5033093,
+      "family_id": "openscore:Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.32",
+      "relative_path": "scores/Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.32/7_Bitteres_zu_sagen_denkst_du/lc5033089.mscx",
+      "git_blob_sha1": "fa4647dbb19719d2bbbdae6e978104e8800ae710",
+      "sha256": "6abfd44cd14a2488b1674776dc4df0a4208ea0cc565e60d7b2d45c688e15830e",
+      "work_key": "Brahms,_Johannes:title:bittereszusagendenkstdu",
+      "source_url": "https://imslp.org/wiki/9_Lieder_and_Songs,_Op.32_(Brahms,_Johannes)#IMSLP97709",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 5057822,
+      "set_id": 5032872,
+      "family_id": "openscore:Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.59",
+      "relative_path": "scores/Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.59/1_Dämmrung_senkte_sich_von_oben/lc5057822.mscx",
+      "git_blob_sha1": "0d5a8c7cb4e1bebed9153971a67006b900b8c186",
+      "sha256": "d0b23f2eae409d47bb12c8fb9d9449dbaca27847f2d345d4759854c6464189e5",
+      "work_key": "Brahms,_Johannes:title:dammrungsenktesichvonoben",
+      "source_url": "https://imslp.org/wiki/8_Lieder_and_Songs,_Op.59_(Brahms,_Johannes)#IMSLP81993",
+      "score_gate": "MuseScore3_only"
+    },
+    {
+      "score_id": 5057985,
+      "set_id": 5032872,
+      "family_id": "openscore:Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.59",
+      "relative_path": "scores/Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.59/2_Auf_dem_See/lc5057985.mscx",
+      "git_blob_sha1": "db238b33d33b9391c046654aa724de1cf3380315",
+      "sha256": "3fd9a4917734d680114c67aa2c7321cbdf1b454b35edd86e584e472eb80baa95",
+      "work_key": "Brahms,_Johannes:title:aufdemsee",
+      "source_url": "https://imslp.org/wiki/8_Lieder_and_Songs,_Op.59_(Brahms,_Johannes)#IMSLP81993",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 5058091,
+      "set_id": 5032872,
+      "family_id": "openscore:Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.59",
+      "relative_path": "scores/Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.59/3_Regenlied/lc5058091.mscx",
+      "git_blob_sha1": "1ae9131c0d2023531a4df2dfe3fc3154344b5a4c",
+      "sha256": "0ebd906467538bf88cb2a0b939563df7c0d515fa62f37573ba84cfdec780f96d",
+      "work_key": "Brahms,_Johannes:title:regenlied",
+      "source_url": "https://imslp.org/wiki/8_Lieder_and_Songs,_Op.59_(Brahms,_Johannes)#IMSLP81993",
+      "score_gate": "missing_or_changing_key"
+    },
+    {
+      "score_id": 5058194,
+      "set_id": 5032872,
+      "family_id": "openscore:Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.59",
+      "relative_path": "scores/Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.59/4_Nachklang/lc5058194.mscx",
+      "git_blob_sha1": "5659c688be8e9bc859964b8d2fc63314ce5c19ed",
+      "sha256": "31a643967591c511e9c906120c804c9c017b70d17ace9cb295be16e9c6dfc684",
+      "work_key": "Brahms,_Johannes:title:nachklang",
+      "source_url": "https://imslp.org/wiki/8_Lieder_and_Songs,_Op.59_(Brahms,_Johannes)#IMSLP81993",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 5058636,
+      "set_id": 5032872,
+      "family_id": "openscore:Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.59",
+      "relative_path": "scores/Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.59/7_Mein_wundes_Herz/lc5058636.mscx",
+      "git_blob_sha1": "0573cf7910eb6acf6d0bc9630f5fb55b20906a3a",
+      "sha256": "48d255b370a7874ad474a04702f1f56f2eb073182ffcb9ce2b21b29ff20d2e70",
+      "work_key": "Brahms,_Johannes:title:meinwundesherz",
+      "source_url": "https://imslp.org/wiki/8_Lieder_and_Songs,_Op.59_(Brahms,_Johannes)#IMSLP81993",
+      "score_gate": "missing_or_changing_key"
+    },
+    {
+      "score_id": 5058657,
+      "set_id": 5032872,
+      "family_id": "openscore:Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.59",
+      "relative_path": "scores/Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.59/8_Dein_blaues_Auge/lc5058657.mscx",
+      "git_blob_sha1": "83cf484e4eaa6ec63f8843d74dff3829333e4138",
+      "sha256": "a055dcdc68001b438943d074121122e4e46b564112acaa192f591c42172c76d8",
+      "work_key": "Brahms,_Johannes:title:deinblauesauge",
+      "source_url": "https://imslp.org/wiki/8_Lieder_and_Songs,_Op.59_(Brahms,_Johannes)#IMSLP81993",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 5067672,
+      "set_id": 5067679,
+      "family_id": "openscore:Brahms,_Johannes/4_Songs,_Op.43",
+      "relative_path": "scores/Brahms,_Johannes/4_Songs,_Op.43/4_Das_Lied_vom_Herrn_von_Falkenstein/lc5067672.mscx",
+      "git_blob_sha1": "ad6692f206aa5602c42deab1b26bbeaf67f909e6",
+      "sha256": "ef656dfef6650948ab49178eff4d03f190d2f777f288eee61dd104640b76862f",
+      "work_key": "Brahms,_Johannes:title:dasliedvomherrnvonfalkenstein",
+      "source_url": "https://imslp.org/wiki/4_Songs,_Op.43_(Brahms,_Johannes)#IMSLP79666",
+      "score_gate": "MuseScore3_only"
+    },
+    {
+      "score_id": 5067677,
+      "set_id": 5067679,
+      "family_id": "openscore:Brahms,_Johannes/4_Songs,_Op.43",
+      "relative_path": "scores/Brahms,_Johannes/4_Songs,_Op.43/3_Ich_schell_mein_Horn_ins_Jammertal/lc5067677.mscx",
+      "git_blob_sha1": "2a4652126965b92a495b85a7e84881e75c246a15",
+      "sha256": "69eabe23d8ffe3e5cc34c718805511e37b994bb70e9c711dad2665b3d6f6c4a7",
+      "work_key": "Brahms,_Johannes:title:ichschellmeinhorninsjammertal",
+      "source_url": "https://imslp.org/wiki/4_Songs,_Op.43_(Brahms,_Johannes)#IMSLP79666",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 5069048,
+      "set_id": 5033093,
+      "family_id": "openscore:Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.32",
+      "relative_path": "scores/Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.32/4_Der_Strom,_der_neben_mir_verrauschte/lc5069048.mscx",
+      "git_blob_sha1": "2a71c36826317e62a81306d739aa17844f9eced5",
+      "sha256": "85cd23620628622411440882bff90bba09145607f741f1e2844b8ee7193b43c8",
+      "work_key": "Brahms,_Johannes:title:derstromdernebenmirverrauschte",
+      "source_url": "https://imslp.org/wiki/9_Lieder_and_Songs,_Op.32_(Brahms,_Johannes)#IMSLP97709",
+      "score_gate": "missing_or_changing_meter"
+    },
+    {
+      "score_id": 5069058,
+      "set_id": 5033093,
+      "family_id": "openscore:Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.32",
+      "relative_path": "scores/Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.32/1_Wie_rafft_ich_mich_auf_in_der_Nacht/lc5069058.mscx",
+      "git_blob_sha1": "a9c5fa4b4650d1d39caa28c6782f449e6456a2bb",
+      "sha256": "0dee482ddbd9ec887e279162f31e187f6f3f9e624d88f1497d1af3b254a59200",
+      "work_key": "Brahms,_Johannes:title:wierafftichmichaufindernacht",
+      "source_url": "https://imslp.org/wiki/9_Lieder_and_Songs,_Op.32_(Brahms,_Johannes)#IMSLP97709",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 5069066,
+      "set_id": 5033093,
+      "family_id": "openscore:Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.32",
+      "relative_path": "scores/Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.32/3_Ich_schleich_umher_betrübt/lc5069066.mscx",
+      "git_blob_sha1": "18f0f92db16cc78a1103e8fe6e886183c1c4e34b",
+      "sha256": "1d15b2dc452506927677aca619d45869a1d39f53f4059c0ab606eb38984f4727",
+      "work_key": "Brahms,_Johannes:title:ichschleichumherbetrubt",
+      "source_url": "https://imslp.org/wiki/9_Lieder_and_Songs,_Op.32_(Brahms,_Johannes)#IMSLP97709",
+      "score_gate": "volta_span_unsupported_entire_score"
+    },
+    {
+      "score_id": 5071622,
+      "set_id": 5013857,
+      "family_id": "openscore:Brahms,_Johannes/7_Lieder,_Op.48",
+      "relative_path": "scores/Brahms,_Johannes/7_Lieder,_Op.48/2_Der_Überläufer/lc5071622.mscx",
+      "git_blob_sha1": "e3230b14e32175fd4df5e861a311fa0b186a57df",
+      "sha256": "66760217f2ef56e1a7f330bda883ad268c24e68da74c7523d23cbcef5009454a",
+      "work_key": "Brahms,_Johannes:title:deruberlaufer",
+      "source_url": "https://imslp.org/wiki/7_Lieder,_Op.48_(Brahms,_Johannes)#IMSLP81907",
+      "score_gate": "volta_span_unsupported_entire_score"
+    },
+    {
+      "score_id": 5071629,
+      "set_id": 5013857,
+      "family_id": "openscore:Brahms,_Johannes/7_Lieder,_Op.48",
+      "relative_path": "scores/Brahms,_Johannes/7_Lieder,_Op.48/5_Trost_in_Tränen/lc5071629.mscx",
+      "git_blob_sha1": "2e0916f282a748644ff8d91e8ae2d50ba80b5160",
+      "sha256": "2457e0cb0d0a7109ca2dbfd6cf080449ea96f3e87d7ffff1960c18023c698808",
+      "work_key": "Brahms,_Johannes:title:trostintranen",
+      "source_url": "https://imslp.org/wiki/7_Lieder,_Op.48_(Brahms,_Johannes)#IMSLP81907",
+      "score_gate": "volta_span_unsupported_entire_score"
+    },
+    {
+      "score_id": 5071636,
+      "set_id": 5013857,
+      "family_id": "openscore:Brahms,_Johannes/7_Lieder,_Op.48",
+      "relative_path": "scores/Brahms,_Johannes/7_Lieder,_Op.48/7_Herbstgefühl/lc5071636.mscx",
+      "git_blob_sha1": "2aa03f84c550e744b770668ac70d0f15fdc0e15a",
+      "sha256": "261fd35779ef211e8b56fceebb3c1f1ff27190f496d0c2eaf585013b45765728",
+      "work_key": "Brahms,_Johannes:title:herbstgefuhl",
+      "source_url": "https://imslp.org/wiki/7_Lieder,_Op.48_(Brahms,_Johannes)#IMSLP81907",
+      "score_gate": "missing_or_changing_meter"
+    },
+    {
+      "score_id": 5071644,
+      "set_id": 5032882,
+      "family_id": "openscore:Brahms,_Johannes/5_Lieder,_Op.47",
+      "relative_path": "scores/Brahms,_Johannes/5_Lieder,_Op.47/5_Die_Liebende_schreibt/lc5071644.mscx",
+      "git_blob_sha1": "96526a04c7c59fe3b71959fd1b1c331c63995550",
+      "sha256": "aac7546a0804602319486c0b3381dbd25e168ef7f17139ace052fc2868e6cf24",
+      "work_key": "Brahms,_Johannes:title:dieliebendeschreibt",
+      "source_url": "https://imslp.org/wiki/5_Lieder,_Op.47_(Brahms,_Johannes)#IMSLP81904",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 5071654,
+      "set_id": 5071658,
+      "family_id": "openscore:Brahms,_Johannes/4_Gesänge,_Op.46",
+      "relative_path": "scores/Brahms,_Johannes/4_Gesänge,_Op.46/3_Die_Schale_der_Vergessenheit/lc5071654.mscx",
+      "git_blob_sha1": "2ad5571c8b766812c9ad39aa810339720fde65a0",
+      "sha256": "f56ea07acc62b87c049b2318d4558014e622f224c7d6f290bad28f5efa344859",
+      "work_key": "Brahms,_Johannes:title:dieschaledervergessenheit",
+      "source_url": "https://imslp.org/wiki/4_Lieder,_Op.46_(Brahms,_Johannes)#IMSLP79670",
+      "score_gate": "MuseScore3_only"
+    },
+    {
+      "score_id": 5071668,
+      "set_id": 5071658,
+      "family_id": "openscore:Brahms,_Johannes/4_Gesänge,_Op.46",
+      "relative_path": "scores/Brahms,_Johannes/4_Gesänge,_Op.46/2_Magyarisch/lc5071668.mscx",
+      "git_blob_sha1": "6f49972b5928b1dc5f4eac9f2fbfa3ec2f3dbf03",
+      "sha256": "2fd56ba1b4269e1624f31d726bc8b1c85492ec9d5e0aa4b7886b0961ea3eeab7",
+      "work_key": "Brahms,_Johannes:title:magyarisch",
+      "source_url": "https://imslp.org/wiki/4_Lieder,_Op.46_(Brahms,_Johannes)#IMSLP79670",
+      "score_gate": "MuseScore3_only"
+    },
+    {
+      "score_id": 5071678,
+      "set_id": 5033060,
+      "family_id": "openscore:Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.57",
+      "relative_path": "scores/Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.57/7_Die_Schnur,_die_Perl_an_Perle/lc5071678.mscx",
+      "git_blob_sha1": "fa15761e2a3f7cad8a724752df296f2659911c54",
+      "sha256": "64705d49adae8d16e44f71c26c872e0aa0742c66e3980f04f17060cffe1dfc1d",
+      "work_key": "Brahms,_Johannes:title:dieschnurdieperlanperle",
+      "source_url": "https://imslp.org/wiki/8_Lieder_and_Songs,_Op.57_(Brahms,_Johannes)#IMSLP81926",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 5071686,
+      "set_id": 5033060,
+      "family_id": "openscore:Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.57",
+      "relative_path": "scores/Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.57/3_Es_träumte_mir/lc5071686.mscx",
+      "git_blob_sha1": "2ef43131c2bacdf509833699e30212c59976405f",
+      "sha256": "ae63364fae1a9423404f9f477dd06c48f545952a1df4ae7d9f5138701c0fa308",
+      "work_key": "Brahms,_Johannes:title:estraumtemir",
+      "source_url": "https://imslp.org/wiki/8_Lieder_and_Songs,_Op.57_(Brahms,_Johannes)#IMSLP81926",
+      "score_gate": "MuseScore3_only"
+    },
+    {
+      "score_id": 5071689,
+      "set_id": 5033060,
+      "family_id": "openscore:Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.57",
+      "relative_path": "scores/Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.57/5_In_meiner_Nächte_Sehnen/lc5071689.mscx",
+      "git_blob_sha1": "fcb831c744a7b1575a713121ac64de009a793eca",
+      "sha256": "4c65c0f5eee202d70fec04f44d92cf856952bc1ffbc2aa46335e5e8ee2774a86",
+      "work_key": "Brahms,_Johannes:title:inmeinernachtesehnen",
+      "source_url": "https://imslp.org/wiki/8_Lieder_and_Songs,_Op.57_(Brahms,_Johannes)#IMSLP81926",
+      "score_gate": "MuseScore3_only"
+    },
+    {
+      "score_id": 5071694,
+      "set_id": 5033060,
+      "family_id": "openscore:Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.57",
+      "relative_path": "scores/Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.57/6_Strahlt_zuweilen_auch_ein_mildes_Licht/lc5071694.mscx",
+      "git_blob_sha1": "0de0bbd668012f431cb3c19e8c6223f3b4add7e2",
+      "sha256": "773532106fd3dbb208656377e14727b2798b0c76a9556a3b46149344d47382a4",
+      "work_key": "Brahms,_Johannes:title:strahltzuweilenaucheinmildeslicht",
+      "source_url": "https://imslp.org/wiki/8_Lieder_and_Songs,_Op.57_(Brahms,_Johannes)#IMSLP81926",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 5071703,
+      "set_id": 5071706,
+      "family_id": "openscore:Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.58",
+      "relative_path": "scores/Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.58/3_Die_Spröde/lc5071703.mscx",
+      "git_blob_sha1": "ae727c169aa768def63e2873fe44fa7551dfc913",
+      "sha256": "310dcb8af2d9b49e61b54d2a29b671fa53838e0b9123883d3a5978bf8cac4cde",
+      "work_key": "Brahms,_Johannes:title:diesprode",
+      "source_url": "https://imslp.org/wiki/8_Lieder_and_Songs,_Op.58_(Brahms,_Johannes)#IMSLP81975",
+      "score_gate": "missing_or_changing_meter"
+    },
+    {
+      "score_id": 5077744,
+      "set_id": 5004836,
+      "family_id": "openscore:Schubert,_Franz/Schwanengesang,_D.957",
+      "relative_path": "scores/Schubert,_Franz/Schwanengesang,_D.957/01_Liebesbotschaft/lc5077744.mscx",
+      "git_blob_sha1": "f1142e9f70ba2c93337af5614af83f2a8384a53b",
+      "sha256": "3d4d130f6f59601e94059c4372aa4acdf2f027fca21bc609b2739c70df0d08b3",
+      "work_key": "Schubert,_Franz:title:liebesbotschaft",
+      "source_url": "https://imslp.org/wiki/Schwanengesang,_D.957_(Schubert,_Franz)#IMSLP60828",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 5084888,
+      "set_id": 5071658,
+      "family_id": "openscore:Brahms,_Johannes/4_Gesänge,_Op.46",
+      "relative_path": "scores/Brahms,_Johannes/4_Gesänge,_Op.46/1_Die_Kränze/lc5084888.mscx",
+      "git_blob_sha1": "1422327bb5aa458b204698b2d8237d3cd09d748b",
+      "sha256": "2a000cc6c0f93de8652dcb2c024e2c27840b8734c7a46441b981a12f6898f398",
+      "work_key": "Brahms,_Johannes:title:diekranze",
+      "source_url": "https://imslp.org/wiki/4_Lieder,_Op.46_(Brahms,_Johannes)#IMSLP79670",
+      "score_gate": "MuseScore3_only"
+    },
+    {
+      "score_id": 5084966,
+      "set_id": 5071658,
+      "family_id": "openscore:Brahms,_Johannes/4_Gesänge,_Op.46",
+      "relative_path": "scores/Brahms,_Johannes/4_Gesänge,_Op.46/4_An_die_Nachtigall/lc5084966.mscx",
+      "git_blob_sha1": "cf21eb496f2d6698342010e33f1dd98ef434d536",
+      "sha256": "828c0d2ce3810d9a38bb7b0f679f1d052057499ac9df4b4bebde4795f492fa50",
+      "work_key": "Brahms,_Johannes:title:andienachtigall",
+      "source_url": "https://imslp.org/wiki/4_Lieder,_Op.46_(Brahms,_Johannes)#IMSLP79670",
+      "score_gate": "MuseScore3_only"
+    },
+    {
+      "score_id": 5087729,
+      "set_id": 5032872,
+      "family_id": "openscore:Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.59",
+      "relative_path": "scores/Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.59/5_Agnes/lc5087729.mscx",
+      "git_blob_sha1": "54cd907f71a2d3cac45b134114a7b27e998949ef",
+      "sha256": "547cea6d53639c73f1d80de8caec021d7e7e74591e140253bbc88d846a582c94",
+      "work_key": "Brahms,_Johannes:title:agnes",
+      "source_url": "https://imslp.org/wiki/8_Lieder_and_Songs,_Op.59_(Brahms,_Johannes)#IMSLP81993",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 5093434,
+      "set_id": 5016678,
+      "family_id": "openscore:Schubert,_Franz/4_Gesänge_aus_„Wilhelm_Meister“,_D.877",
+      "relative_path": "scores/Schubert,_Franz/4_Gesänge_aus_„Wilhelm_Meister“,_D.877/1_Mignon_und_der_Harfner/lc5093434.mscx",
+      "git_blob_sha1": "67a25c5b2c1f9d140aa80ba3a6956dfcd16e57bd",
+      "sha256": "df95d9a43373cb07cec7782b2a9aa73585e5fe4c3d04497c85ac7af630d7e503",
+      "work_key": "Schubert,_Franz:title:mignonundderharfner",
+      "source_url": "https://imslp.org/wiki/4_Ges%C3%A4nge_aus_%27Wilhelm_Meister%27,_D.877_(Schubert,_Franz)#IMSLP62399",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 5093748,
+      "set_id": 5016678,
+      "family_id": "openscore:Schubert,_Franz/4_Gesänge_aus_„Wilhelm_Meister“,_D.877",
+      "relative_path": "scores/Schubert,_Franz/4_Gesänge_aus_„Wilhelm_Meister“,_D.877/3_Lied_der_Mignon_(So_lasst_mich_scheinen)/lc5093748.mscx",
+      "git_blob_sha1": "e820182be25a2cd8b6d6ee8b96e03a78d40d21c2",
+      "sha256": "f7a307a4844574c3ed3dd89458ea67472eb8a3919540aeb87f21c475ea74cc9f",
+      "work_key": "Schubert,_Franz:title:lieddermignonsolasstmichscheinen",
+      "source_url": "https://imslp.org/wiki/4_Ges%C3%A4nge_aus_%27Wilhelm_Meister%27,_D.877_(Schubert,_Franz)#IMSLP62399",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 5093803,
+      "set_id": 5016678,
+      "family_id": "openscore:Schubert,_Franz/4_Gesänge_aus_„Wilhelm_Meister“,_D.877",
+      "relative_path": "scores/Schubert,_Franz/4_Gesänge_aus_„Wilhelm_Meister“,_D.877/4_Lied_der_Mignon_(Nur_wer_die_Sehnsucht_kennt)/lc5093803.mscx",
+      "git_blob_sha1": "4e299e907574649e32e0bdb4754a94e0dc66bdb8",
+      "sha256": "13d32939090ad1fbb766d6eb91377d8267ccf26a9334ae45e349e1fdaf22d4d7",
+      "work_key": "Schubert,_Franz:title:lieddermignonnurwerdiesehnsuchtkennt",
+      "source_url": "https://imslp.org/wiki/4_Ges%C3%A4nge_aus_%27Wilhelm_Meister%27,_D.877_(Schubert,_Franz)#IMSLP62399",
+      "score_gate": "missing_or_changing_key"
+    },
+    {
+      "score_id": 5098612,
+      "set_id": 5004836,
+      "family_id": "openscore:Schubert,_Franz/Schwanengesang,_D.957",
+      "relative_path": "scores/Schubert,_Franz/Schwanengesang,_D.957/10_Das_Fischermädchen/lc5098612.mscx",
+      "git_blob_sha1": "adc8d6137db1f7c5d510df0cabdd29cbb7e58353",
+      "sha256": "23c45f93a9a518e66dc9c591af0248d15d60727ef0f75413be7dc2d51d6409de",
+      "work_key": "Schubert,_Franz:title:dasfischermadchen",
+      "source_url": "https://imslp.org/wiki/Schwanengesang,_D.957_(Schubert,_Franz)#IMSLP60828",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 5098641,
+      "set_id": 5033093,
+      "family_id": "openscore:Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.32",
+      "relative_path": "scores/Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.32/6_Du_sprichst,_dass_ich_mich_täuschte/lc5098641.mscx",
+      "git_blob_sha1": "41391b24be2c579e19278f2c96b9d2901dd604e2",
+      "sha256": "a9c8bc9b6daa6e097f68480d24eba0f6667117bfb0595d9ade7de584ce966a22",
+      "work_key": "Brahms,_Johannes:title:dusprichstdassichmichtauschte",
+      "source_url": "https://imslp.org/wiki/9_Lieder_and_Songs,_Op.32_(Brahms,_Johannes)#IMSLP97709",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 5098645,
+      "set_id": 5033093,
+      "family_id": "openscore:Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.32",
+      "relative_path": "scores/Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.32/8_So_stehn_wir,_ich_und_meine_Weide/lc5098645.mscx",
+      "git_blob_sha1": "75f0293dd200dac6d832d1fd79b05d1bab4e4abf",
+      "sha256": "2e05f2baf41f0fa78f79e63d79b9554cc74759413f67933f752283245b0eb5f8",
+      "work_key": "Brahms,_Johannes:title:sostehnwirichundmeineweide",
+      "source_url": "https://imslp.org/wiki/9_Lieder_and_Songs,_Op.32_(Brahms,_Johannes)#IMSLP97709",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 5098657,
+      "set_id": 5033077,
+      "family_id": "openscore:Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.63",
+      "relative_path": "scores/Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.63/2_Erinnerung/lc5098657.mscx",
+      "git_blob_sha1": "5b7adbc75b6310254516f810f9501bfdcb7e58c9",
+      "sha256": "6227017792c1f7dd2642e9c3cd7c85ebe7d6048147d9eae95f4db8a97c15ae62",
+      "work_key": "Brahms,_Johannes:title:erinnerung",
+      "source_url": "https://imslp.org/wiki/9_Lieder_and_Songs,_Op.63_(Brahms,_Johannes)#IMSLP88147",
+      "score_gate": "missing_or_unsupported_CC0_metadata"
+    },
+    {
+      "score_id": 5098659,
+      "set_id": 5033077,
+      "family_id": "openscore:Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.63",
+      "relative_path": "scores/Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.63/1_Frühlingstrost/lc5098659.mscx",
+      "git_blob_sha1": "33916c7bc983eae56412c2c7988527d3649f33fc",
+      "sha256": "3c88f01402b47917a476f991a7aac8c58e1fced1ab5d7693ace0d5df0f7ec8f6",
+      "work_key": "Brahms,_Johannes:title:fruhlingstrost",
+      "source_url": "https://imslp.org/wiki/9_Lieder_and_Songs,_Op.63_(Brahms,_Johannes)#IMSLP88147",
+      "score_gate": "missing_or_unsupported_CC0_metadata"
+    },
+    {
+      "score_id": 5098685,
+      "set_id": 5071706,
+      "family_id": "openscore:Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.58",
+      "relative_path": "scores/Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.58/6_In_der_Gasse/lc5098685.mscx",
+      "git_blob_sha1": "0d85ca58ed9558417b67621cac972f43fe28f9a0",
+      "sha256": "806be6013c8b2b371b1e0817406f5ab031bf6eff9311b0831e8f87c8cb174213",
+      "work_key": "Brahms,_Johannes:title:indergasse",
+      "source_url": "https://imslp.org/wiki/8_Lieder_and_Songs,_Op.58_(Brahms,_Johannes)#IMSLP81975",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 5098705,
+      "set_id": 5071706,
+      "family_id": "openscore:Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.58",
+      "relative_path": "scores/Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.58/4_O_komme,_holde_Sommernacht/lc5098705.mscx",
+      "git_blob_sha1": "972023d8575d664d0aa678cd799dc87f31522da6",
+      "sha256": "d8c0f6aa5930f794b31fde5c595cd8581c5689ab8108349f9394dc7a1bcb5a65",
+      "work_key": "Brahms,_Johannes:title:okommeholdesommernacht",
+      "source_url": "https://imslp.org/wiki/8_Lieder_and_Songs,_Op.58_(Brahms,_Johannes)#IMSLP81975",
+      "score_gate": "missing_or_unsupported_CC0_metadata"
+    },
+    {
+      "score_id": 5098709,
+      "set_id": 5071706,
+      "family_id": "openscore:Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.58",
+      "relative_path": "scores/Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.58/5_Schwermut/lc5098709.mscx",
+      "git_blob_sha1": "cbccd88c7e221c78f0a2798acf2a164ef344d591",
+      "sha256": "851fa8c3514b4bf908151a56e97175156821fd2164206c9007fb635180cbeb6e",
+      "work_key": "Brahms,_Johannes:title:schwermut",
+      "source_url": "https://imslp.org/wiki/8_Lieder_and_Songs,_Op.58_(Brahms,_Johannes)#IMSLP81975",
+      "score_gate": "missing_or_changing_meter"
+    },
+    {
+      "score_id": 5098713,
+      "set_id": 5096872,
+      "family_id": "openscore:Brahms,_Johannes/5_Lieder,_Op.49",
+      "relative_path": "scores/Brahms,_Johannes/5_Lieder,_Op.49/3_Sehnsucht/lc5098713.mscx",
+      "git_blob_sha1": "db6e94e8f6bca589f687ab3a89a005fba0955a8f",
+      "sha256": "38138d5a5fa1428628be29e1136e7939ce00581c07f5e46f50f975a4b3160fe8",
+      "work_key": "Brahms,_Johannes:title:sehnsucht",
+      "source_url": "https://imslp.org/wiki/5_Lieder,_Op.49_(Brahms,_Johannes)#IMSLP81909",
+      "score_gate": "MuseScore3_only"
+    },
+    {
+      "score_id": 5098715,
+      "set_id": 5071706,
+      "family_id": "openscore:Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.58",
+      "relative_path": "scores/Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.58/8_Serenade/lc5098715.mscx",
+      "git_blob_sha1": "b96bde9ca2268bb43d9c40b77098278f706fdeb7",
+      "sha256": "477f3f7abe53f8cf1335b2b12d676726400965c7f79d65f828bca222e8a4c6a2",
+      "work_key": "Brahms,_Johannes:title:serenade",
+      "source_url": "https://imslp.org/wiki/8_Lieder_and_Songs,_Op.58_(Brahms,_Johannes)#IMSLP81975",
+      "score_gate": "missing_or_changing_key"
+    },
+    {
+      "score_id": 5098719,
+      "set_id": 5071706,
+      "family_id": "openscore:Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.58",
+      "relative_path": "scores/Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.58/7_Vorüber/lc5098719.mscx",
+      "git_blob_sha1": "767a13c2b765f04b2ed49b79a715418b8e38f375",
+      "sha256": "f76c5c42753a6789e90381e140c6068382607c5688c3107e9d78a4f661056c39",
+      "work_key": "Brahms,_Johannes:title:voruber",
+      "source_url": "https://imslp.org/wiki/8_Lieder_and_Songs,_Op.58_(Brahms,_Johannes)#IMSLP81975",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 5098725,
+      "set_id": 5071706,
+      "family_id": "openscore:Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.58",
+      "relative_path": "scores/Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.58/2_Während_des_Regens/lc5098725.mscx",
+      "git_blob_sha1": "db6145925758125302cd1496c05c80cca18155e7",
+      "sha256": "23adcea7ec98856d67e9238e4083f69d7b7d281f96af326c0d36b1f9167b8151",
+      "work_key": "Brahms,_Johannes:title:wahrenddesregens",
+      "source_url": "https://imslp.org/wiki/8_Lieder_and_Songs,_Op.58_(Brahms,_Johannes)#IMSLP81975",
+      "score_gate": "missing_or_unsupported_CC0_metadata"
+    },
+    {
+      "score_id": 5098728,
+      "set_id": 5033077,
+      "family_id": "openscore:Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.63",
+      "relative_path": "scores/Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.63/6_Junge_Lieder_II/lc5098728.mscx",
+      "git_blob_sha1": "d31657a0ba96bd22b2e767e40e34eb70f7ac4ae8",
+      "sha256": "bfd2f23087f70ab74a2882434c196611ba59847524c28d01448fc837e77775b0",
+      "work_key": "Brahms,_Johannes:title:jungeliederii",
+      "source_url": "https://imslp.org/wiki/9_Lieder_and_Songs,_Op.63_(Brahms,_Johannes)#IMSLP88147",
+      "score_gate": "missing_or_unsupported_CC0_metadata"
+    },
+    {
+      "score_id": 5106861,
+      "set_id": 5033060,
+      "family_id": "openscore:Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.57",
+      "relative_path": "scores/Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.57/1_Von_waldbekränzter_Höhe/lc5106861.mscx",
+      "git_blob_sha1": "6cd01c668ec2cecaae9b1a1c49a56e4778a7abc3",
+      "sha256": "a1e2eb48343902c936aed0a9b70e1a12534845f202babb179d61ba9e4fe9fec6",
+      "work_key": "Brahms,_Johannes:title:vonwaldbekranzterhohe",
+      "source_url": "https://imslp.org/wiki/8_Lieder_and_Songs,_Op.57_(Brahms,_Johannes)#IMSLP81926",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 5107106,
+      "set_id": 5033060,
+      "family_id": "openscore:Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.57",
+      "relative_path": "scores/Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.57/2_Wenn_du_nur_zuweilen_lächelst/lc5107106.mscx",
+      "git_blob_sha1": "82dea82dd968b6273ece1226e828de141224bf7a",
+      "sha256": "d415b47d51758c95f64b34a470eaf7086264d94ec9c7496db5603c27bac5af70",
+      "work_key": "Brahms,_Johannes:title:wenndunurzuweilenlachelst",
+      "source_url": "https://imslp.org/wiki/8_Lieder_and_Songs,_Op.57_(Brahms,_Johannes)#IMSLP81926",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 5123355,
+      "set_id": 5071706,
+      "family_id": "openscore:Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.58",
+      "relative_path": "scores/Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.58/1_Blinde_Kuh/lc5123355.mscx",
+      "git_blob_sha1": "a556556f9fbf0f7c49a663c37e4489846e2261d8",
+      "sha256": "6f438ad3302e491fcb7fc7707594520813da016e0997b88c4072a217966f90ee",
+      "work_key": "Brahms,_Johannes:title:blindekuh",
+      "source_url": "https://imslp.org/wiki/8_Lieder_and_Songs,_Op.58_(Brahms,_Johannes)#IMSLP81975",
+      "score_gate": "missing_or_changing_key"
+    },
+    {
+      "score_id": 5153813,
+      "set_id": 5067679,
+      "family_id": "openscore:Brahms,_Johannes/4_Songs,_Op.43",
+      "relative_path": "scores/Brahms,_Johannes/4_Songs,_Op.43/1_Von_ewiger_Liebe/lc5153813.mscx",
+      "git_blob_sha1": "2603dcd85f1e6547847eb003f49c5bf747906a05",
+      "sha256": "c4987d5e57dde43079704e1bc43078868f7a37d4998f71d4905dcc602f164afe",
+      "work_key": "Brahms,_Johannes:title:vonewigerliebe",
+      "source_url": "https://imslp.org/wiki/4_Songs,_Op.43_(Brahms,_Johannes)#IMSLP79666",
+      "score_gate": "missing_or_changing_key"
+    },
+    {
+      "score_id": 5153947,
+      "set_id": 5067679,
+      "family_id": "openscore:Brahms,_Johannes/4_Songs,_Op.43",
+      "relative_path": "scores/Brahms,_Johannes/4_Songs,_Op.43/2_Die_Mainacht/lc5153947.mscx",
+      "git_blob_sha1": "fcaae419e20a0b891688d14d432e783763082abe",
+      "sha256": "97f48acc968be8a647889627a3401a8b6f92881896c628b0d55fe8554e4fae8f",
+      "work_key": "Brahms,_Johannes:title:diemainacht",
+      "source_url": "https://imslp.org/wiki/4_Songs,_Op.43_(Brahms,_Johannes)#IMSLP79666",
+      "score_gate": "MuseScore3_only"
+    },
+    {
+      "score_id": 5155459,
+      "set_id": 5033060,
+      "family_id": "openscore:Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.57",
+      "relative_path": "scores/Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.57/8_Unbewegte_laue_Luft/lc5155459.mscx",
+      "git_blob_sha1": "f1182475e95614666702c8a6fa9179493d5aedbb",
+      "sha256": "74e3d7cc0a867a4a4631a9cfbf6636c5ebc1394250e263b6e6756e6ed6587f64",
+      "work_key": "Brahms,_Johannes:title:unbewegtelaueluft",
+      "source_url": "https://imslp.org/wiki/8_Lieder_and_Songs,_Op.57_(Brahms,_Johannes)#IMSLP81926",
+      "score_gate": "missing_or_changing_meter"
+    },
+    {
+      "score_id": 5654342,
+      "set_id": 5032882,
+      "family_id": "openscore:Brahms,_Johannes/5_Lieder,_Op.47",
+      "relative_path": "scores/Brahms,_Johannes/5_Lieder,_Op.47/3_Sonntag/lc5654342.mscx",
+      "git_blob_sha1": "f4aa56f4dd51cb134019707aec99a02f9d288d80",
+      "sha256": "b2aba2b6c96331c35dd2a512cc1ccb221875d7b79918a9afd23b93dee1c5097e",
+      "work_key": "Brahms,_Johannes:title:sonntag",
+      "source_url": "https://imslp.org/wiki/5_Lieder,_Op.47_(Brahms,_Johannes)#IMSLP81904",
+      "score_gate": "volta_span_unsupported_entire_score"
+    },
+    {
+      "score_id": 5656522,
+      "set_id": 5032882,
+      "family_id": "openscore:Brahms,_Johannes/5_Lieder,_Op.47",
+      "relative_path": "scores/Brahms,_Johannes/5_Lieder,_Op.47/1_Botschaft/lc5656522.mscx",
+      "git_blob_sha1": "3d6603ed55b825c6c3cdf88940d7a1a6f422b562",
+      "sha256": "5dfbdb0d9ceda856e457e5eb4947f1884af51b6cf3e01350ad559e4c0c46acbb",
+      "work_key": "Brahms,_Johannes:title:botschaft",
+      "source_url": "https://imslp.org/wiki/5_Lieder,_Op.47_(Brahms,_Johannes)#IMSLP81904",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 5659823,
+      "set_id": 5032882,
+      "family_id": "openscore:Brahms,_Johannes/5_Lieder,_Op.47",
+      "relative_path": "scores/Brahms,_Johannes/5_Lieder,_Op.47/4_O_liebliche_Wangen/lc5659823.mscx",
+      "git_blob_sha1": "44e3927065b8900a37ed590c21b7d35251d60bab",
+      "sha256": "75e330bb1a14fab0616ab8569c137e6dae3fcb37609095437feb616f03dbd0ab",
+      "work_key": "Brahms,_Johannes:title:olieblichewangen",
+      "source_url": "https://imslp.org/wiki/5_Lieder,_Op.47_(Brahms,_Johannes)#IMSLP81904",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 5667944,
+      "set_id": 5096872,
+      "family_id": "openscore:Brahms,_Johannes/5_Lieder,_Op.49",
+      "relative_path": "scores/Brahms,_Johannes/5_Lieder,_Op.49/2_An_ein_Veilchen/lc5667944.mscx",
+      "git_blob_sha1": "6f6e704886d256dbab58f7ab4fb367fe07e3e97f",
+      "sha256": "368de04a3e8122c4bc2a223f9887e0b99c330361d81a5d673e33909307042e22",
+      "work_key": "Brahms,_Johannes:title:aneinveilchen",
+      "source_url": "https://imslp.org/wiki/5_Lieder,_Op.49_(Brahms,_Johannes)#IMSLP81909",
+      "score_gate": "missing_or_unsupported_CC0_metadata"
+    },
+    {
+      "score_id": 5700433,
+      "set_id": 5096872,
+      "family_id": "openscore:Brahms,_Johannes/5_Lieder,_Op.49",
+      "relative_path": "scores/Brahms,_Johannes/5_Lieder,_Op.49/1_Am_Sonntag_Morgen/lc5700433.mscx",
+      "git_blob_sha1": "1257a3c2cc67ffa20eb7cb1b10c6ab8f0087a920",
+      "sha256": "46938fef3efad4fa22f2951ea9e51e6268360de7387a11b1be3856bae3d88b97",
+      "work_key": "Brahms,_Johannes:title:amsonntagmorgen",
+      "source_url": "https://imslp.org/wiki/5_Lieder,_Op.49_(Brahms,_Johannes)#IMSLP81909",
+      "score_gate": "missing_or_unsupported_CC0_metadata"
+    },
+    {
+      "score_id": 5701612,
+      "set_id": 5096872,
+      "family_id": "openscore:Brahms,_Johannes/5_Lieder,_Op.49",
+      "relative_path": "scores/Brahms,_Johannes/5_Lieder,_Op.49/4_Wiegenlied/lc5701612.mscx",
+      "git_blob_sha1": "084d2538ab011a8ee76aeef97d555980a5202f88",
+      "sha256": "e7fe55b2cf9c86bb77b71fb5c8bebe20e41d130892392e090ba44dd9c63228b8",
+      "work_key": "Brahms,_Johannes:title:wiegenlied",
+      "source_url": "https://imslp.org/wiki/5_Lieder,_Op.49_(Brahms,_Johannes)#IMSLP81909",
+      "score_gate": "missing_or_unsupported_CC0_metadata"
+    },
+    {
+      "score_id": 5705406,
+      "set_id": 5013857,
+      "family_id": "openscore:Brahms,_Johannes/7_Lieder,_Op.48",
+      "relative_path": "scores/Brahms,_Johannes/7_Lieder,_Op.48/1_Der_Gang_zum_Liebchen/lc5705406.mscx",
+      "git_blob_sha1": "9126ac9b79fc0741a481045930264ac5cdf3ab7d",
+      "sha256": "1a56d73bab23937f7620bbbf68cbfd68fa31a8d7fc8679b78828a191fbb37aa3",
+      "work_key": "Brahms,_Johannes:title:dergangzumliebchen",
+      "source_url": "https://imslp.org/wiki/7_Lieder,_Op.48_(Brahms,_Johannes)#IMSLP81907",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 5705502,
+      "set_id": 5013857,
+      "family_id": "openscore:Brahms,_Johannes/7_Lieder,_Op.48",
+      "relative_path": "scores/Brahms,_Johannes/7_Lieder,_Op.48/6_Vergangen_ist_mir_Glück_und_Heil/lc5705502.mscx",
+      "git_blob_sha1": "e822011b376774d2d33c748bb8fee772f282e449",
+      "sha256": "57272d03e0e3d3496476f5f42044ecc52de64543e9c931dbeb617105fb1bd1bc",
+      "work_key": "Brahms,_Johannes:title:vergangenistmirgluckundheil",
+      "source_url": "https://imslp.org/wiki/7_Lieder,_Op.48_(Brahms,_Johannes)#IMSLP81907",
+      "score_gate": "missing_or_changing_key"
+    },
+    {
+      "score_id": 5705564,
+      "set_id": 5013857,
+      "family_id": "openscore:Brahms,_Johannes/7_Lieder,_Op.48",
+      "relative_path": "scores/Brahms,_Johannes/7_Lieder,_Op.48/4_Gold_überwiegt_die_Liebe/lc5705564.mscx",
+      "git_blob_sha1": "35a50ae89b23f98c1478a7d6f8cc6cf81a171c44",
+      "sha256": "78568d6987a2d069a2587d5d1458fe6d667c68ef0422a7919194d61d3b420a3b",
+      "work_key": "Brahms,_Johannes:title:golduberwiegtdieliebe",
+      "source_url": "https://imslp.org/wiki/7_Lieder,_Op.48_(Brahms,_Johannes)#IMSLP81907",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 5846100,
+      "set_id": 5033093,
+      "family_id": "openscore:Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.32",
+      "relative_path": "scores/Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.32/9_Wie_bist_du,_meine_Königin/lc5846100.mscx",
+      "git_blob_sha1": "4fe73840212fd170e2fc044815df2bc88828ddd7",
+      "sha256": "fbaef70aa9c74dcaef8d29ac749845299a3566cf7358cec37c3603e30bd4dc15",
+      "work_key": "Brahms,_Johannes:title:wiebistdumeinekonigin",
+      "source_url": "https://imslp.org/wiki/9_Lieder_and_Songs,_Op.32_(Brahms,_Johannes)#IMSLP97709",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 5846139,
+      "set_id": 5033093,
+      "family_id": "openscore:Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.32",
+      "relative_path": "scores/Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.32/5_Wehe,_so_willst_du_mich_wieder/lc5846139.mscx",
+      "git_blob_sha1": "787d168956eaeb9915df9c59aea080a1bd5cc54e",
+      "sha256": "477364bd3c1450c08ed3eee1619426f92079d211c062bd807b295b382f483898",
+      "work_key": "Brahms,_Johannes:title:wehesowillstdumichwieder",
+      "source_url": "https://imslp.org/wiki/9_Lieder_and_Songs,_Op.32_(Brahms,_Johannes)#IMSLP97709",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 5846184,
+      "set_id": 5033093,
+      "family_id": "openscore:Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.32",
+      "relative_path": "scores/Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.32/2_Nicht_mehr_zu_dir_zu_gehen/lc5846184.mscx",
+      "git_blob_sha1": "0c055cceccb135d8b7fd22c1b356e5dd77c61fe5",
+      "sha256": "1bb1431e9d14d73fa013eea836b8eb08a0f7f81cb5ca97eff24c7dea56156f2d",
+      "work_key": "Brahms,_Johannes:title:nichtmehrzudirzugehen",
+      "source_url": "https://imslp.org/wiki/9_Lieder_and_Songs,_Op.32_(Brahms,_Johannes)#IMSLP97709",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 5925389,
+      "set_id": 5033077,
+      "family_id": "openscore:Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.63",
+      "relative_path": "scores/Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.63/3_An_ein_Bild/lc5925389.mscx",
+      "git_blob_sha1": "6340262e6a59eb820733da17415533c55970c5b0",
+      "sha256": "996570b3b6f1ccbb4bedb04e8e2f29bbe9585b562e07bd4f9a1656dd8982d0bd",
+      "work_key": "Brahms,_Johannes:title:aneinbild",
+      "source_url": "https://imslp.org/wiki/9_Lieder_and_Songs,_Op.63_(Brahms,_Johannes)#IMSLP88147",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 5934726,
+      "set_id": 5033077,
+      "family_id": "openscore:Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.63",
+      "relative_path": "scores/Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.63/5_Junge_Lieder_I/lc5934726.mscx",
+      "git_blob_sha1": "05b25251a0835fe8d01513d8d184cc8eb32b29b5",
+      "sha256": "6857ba94f8c71a08e58e36a55cee787ae9836c5562f2f4b1053a1daf49ecad11",
+      "work_key": "Brahms,_Johannes:title:jungeliederi",
+      "source_url": "https://imslp.org/wiki/9_Lieder_and_Songs,_Op.63_(Brahms,_Johannes)#IMSLP88147",
+      "score_gate": "missing_or_unsupported_CC0_metadata"
+    },
+    {
+      "score_id": 5936324,
+      "set_id": 5033077,
+      "family_id": "openscore:Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.63",
+      "relative_path": "scores/Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.63/7_Heimweh_I/lc5936324.mscx",
+      "git_blob_sha1": "79da83758075a04640a5e12078905c0cd05e1bf2",
+      "sha256": "3418bbfecba8fb0f609d2d3fa57d975e8431a433fd8cce9c04db2cd3d48b1a10",
+      "work_key": "Brahms,_Johannes:title:heimwehi",
+      "source_url": "https://imslp.org/wiki/9_Lieder_and_Songs,_Op.63_(Brahms,_Johannes)#IMSLP88147",
+      "score_gate": "missing_or_unsupported_CC0_metadata"
+    },
+    {
+      "score_id": 5937814,
+      "set_id": 5033077,
+      "family_id": "openscore:Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.63",
+      "relative_path": "scores/Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.63/8_Heimweh_II/lc5937814.mscx",
+      "git_blob_sha1": "dae797216e3000ed89eae566913bb74aa8a9c306",
+      "sha256": "7bae079faae26a5d6368c7689f78c6159a8359a289ddfaaa483615a3ef9427e7",
+      "work_key": "Brahms,_Johannes:title:heimwehii",
+      "source_url": "https://imslp.org/wiki/9_Lieder_and_Songs,_Op.63_(Brahms,_Johannes)#IMSLP88147",
+      "score_gate": "missing_or_unsupported_CC0_metadata"
+    },
+    {
+      "score_id": 5940230,
+      "set_id": 5033077,
+      "family_id": "openscore:Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.63",
+      "relative_path": "scores/Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.63/9_Heimweh_III/lc5940230.mscx",
+      "git_blob_sha1": "a1fb2f732e5c61fc605a621ee9066733159e9967",
+      "sha256": "0ea38ca0c06fbb738a8009b6eec3b01066db0bfc488f51a3f172355ec34f28eb",
+      "work_key": "Brahms,_Johannes:title:heimwehiii",
+      "source_url": "https://imslp.org/wiki/9_Lieder_and_Songs,_Op.63_(Brahms,_Johannes)#IMSLP88147",
+      "score_gate": "missing_or_unsupported_CC0_metadata"
+    },
+    {
+      "score_id": 6302395,
+      "set_id": 5104578,
+      "family_id": "openscore:Brahms,_Johannes/2_Gesänge,_Op.91",
+      "relative_path": "scores/Brahms,_Johannes/2_Gesänge,_Op.91/1_Gestillte_Sehnsucht/lc6302395.mscx",
+      "git_blob_sha1": "513734e6e8092bc3bffb7f5724f433bb726aae05",
+      "sha256": "aaa2333c15a055d223206c2bf548e51abca50dca1bf709f6c8de9bd70264e130",
+      "work_key": "Brahms,_Johannes:title:gestilltesehnsucht",
+      "source_url": "https://imslp.org/wiki/2_Ges%C3%A4nge,_Op.91_(Brahms,_Johannes)#IMSLP77665",
+      "score_gate": "missing_or_changing_key"
+    },
+    {
+      "score_id": 6320420,
+      "set_id": 5104578,
+      "family_id": "openscore:Brahms,_Johannes/2_Gesänge,_Op.91",
+      "relative_path": "scores/Brahms,_Johannes/2_Gesänge,_Op.91/2_Geistliches_Wiegenlied/lc6320420.mscx",
+      "git_blob_sha1": "6fbec52a24f661563a21998aa0300a66f6aa2d55",
+      "sha256": "6e5e31167554706e826f942537627591949ce2270777ddf678addb92027d34b9",
+      "work_key": "Brahms,_Johannes:title:geistlicheswiegenlied",
+      "source_url": "https://imslp.org/wiki/2_Ges%C3%A4nge,_Op.91_(Brahms,_Johannes)#IMSLP39262",
+      "score_gate": "unsupported_key_signature"
+    },
+    {
+      "score_id": 6686592,
+      "set_id": 5107949,
+      "family_id": "openscore:Brahms,_Johannes/4_Serious_Songs,_Op.121",
+      "relative_path": "scores/Brahms,_Johannes/4_Serious_Songs,_Op.121/1_Denn_es_gehet_dem_Menschen_wie_dem_Vieh/lc6686592.mscx",
+      "git_blob_sha1": "b1e0ec3a09dc3024d6a8fd288ed6e3012ff79ea5",
+      "sha256": "9ce3eab093242da4c8153d164d24bdbbbacc64c5bc564cef1cb0e329165fa5a9",
+      "work_key": "Brahms,_Johannes:title:dennesgehetdemmenschenwiedemvieh",
+      "source_url": "https://imslp.org/wiki/4_Serious_Songs,_Op.121_(Brahms,_Johannes)#IMSLP85424",
+      "score_gate": "missing_or_changing_meter"
+    },
+    {
+      "score_id": 6686901,
+      "set_id": 5107949,
+      "family_id": "openscore:Brahms,_Johannes/4_Serious_Songs,_Op.121",
+      "relative_path": "scores/Brahms,_Johannes/4_Serious_Songs,_Op.121/2_Ich_wandte_mich_und_sahe/lc6686901.mscx",
+      "git_blob_sha1": "36f2bb7d9dd7685362942aff67a4b6a711f69862",
+      "sha256": "c3a5b8e0dbecd998bce900d83332e6089a310757662a2fd6cf0e726d6ca23abf",
+      "work_key": "Brahms,_Johannes:title:ichwandtemichundsahe",
+      "source_url": "https://imslp.org/wiki/4_Serious_Songs,_Op.121_(Brahms,_Johannes)#IMSLP85424",
+      "score_gate": "missing_or_changing_key"
+    },
+    {
+      "score_id": 6686980,
+      "set_id": 5107949,
+      "family_id": "openscore:Brahms,_Johannes/4_Serious_Songs,_Op.121",
+      "relative_path": "scores/Brahms,_Johannes/4_Serious_Songs,_Op.121/3_O_Tod,_wie_bitter_bist_du!/lc6686980.mscx",
+      "git_blob_sha1": "a776cff6822cf2b4b1a6662979d02e347212a254",
+      "sha256": "1e4569875e9518b1ed807a3a56c44385deb6d820a39af7283d75be755e0cade5",
+      "work_key": "Brahms,_Johannes:title:otodwiebitterbistdu",
+      "source_url": "https://imslp.org/wiki/4_Serious_Songs,_Op.121_(Brahms,_Johannes)#IMSLP85424",
+      "score_gate": "missing_or_changing_key"
+    },
+    {
+      "score_id": 6687153,
+      "set_id": 5107949,
+      "family_id": "openscore:Brahms,_Johannes/4_Serious_Songs,_Op.121",
+      "relative_path": "scores/Brahms,_Johannes/4_Serious_Songs,_Op.121/4_Wenn_ich_mit_Menschen-_und_mit_Engelzungen_redete/lc6687153.mscx",
+      "git_blob_sha1": "846f28bb57ab363efd8df47191d32c9d0af4953b",
+      "sha256": "e12983888cd4963f4314e1518ea2333cf920258562ab65ffefd90041ab61b98f",
+      "work_key": "Brahms,_Johannes:title:wennichmitmenschenundmitengelzungenredete",
+      "source_url": "https://imslp.org/wiki/4_Serious_Songs,_Op.121_(Brahms,_Johannes)#IMSLP85424",
+      "score_gate": "missing_or_changing_key"
+    },
+    {
+      "score_id": 6826352,
+      "set_id": 5109333,
+      "family_id": "openscore:Schumann,_Robert/5_Lieder_und_Gesänge,_Op.127",
+      "relative_path": "scores/Schumann,_Robert/5_Lieder_und_Gesänge,_Op.127/1_Sängers_Trost/lc6826352.mscx",
+      "git_blob_sha1": "0b7b5fd673b2080c347adf1b1e50cbf46f5e5839",
+      "sha256": "0c19eb6e1914e85fa5563b0a103072bfc256659b668e29acf5a97868165773ae",
+      "work_key": "Schumann,_Robert:title:sangerstrost",
+      "source_url": "https://imslp.org/wiki/5_Lieder_und_Ges%C3%A4nge,_Op.127_(Schumann,_Robert)#IMSLP271937",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 6826597,
+      "set_id": 5109333,
+      "family_id": "openscore:Schumann,_Robert/5_Lieder_und_Gesänge,_Op.127",
+      "relative_path": "scores/Schumann,_Robert/5_Lieder_und_Gesänge,_Op.127/3_Es_leuchtet_meine_Liebe/lc6826597.mscx",
+      "git_blob_sha1": "d3ce2ebeec974d785738b621f67f8ed88f58181e",
+      "sha256": "9eb36bfbab3f9ac1b3b9c124bfd3ebefff04615d45ed301a1258d8c52e4c1300",
+      "work_key": "Schumann,_Robert:title:esleuchtetmeineliebe",
+      "source_url": "https://imslp.org/wiki/5_Lieder_und_Ges%C3%A4nge,_Op.127_(Schumann,_Robert)#IMSLP271937",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 6827712,
+      "set_id": 5109333,
+      "family_id": "openscore:Schumann,_Robert/5_Lieder_und_Gesänge,_Op.127",
+      "relative_path": "scores/Schumann,_Robert/5_Lieder_und_Gesänge,_Op.127/4_Mein_altes_Ross/lc6827712.mscx",
+      "git_blob_sha1": "47feaba0b8747d9d8c03039f7e95c775cec22114",
+      "sha256": "f39c4c6de13460ed6f646d489789d94284041ffa3687c6c4bba7ba66287003f5",
+      "work_key": "Schumann,_Robert:title:meinaltesross",
+      "source_url": "https://imslp.org/wiki/5_Lieder_und_Ges%C3%A4nge,_Op.127_(Schumann,_Robert)#IMSLP271937",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 6828018,
+      "set_id": 5109333,
+      "family_id": "openscore:Schumann,_Robert/5_Lieder_und_Gesänge,_Op.127",
+      "relative_path": "scores/Schumann,_Robert/5_Lieder_und_Gesänge,_Op.127/5_Schlusslied_des_Narren/lc6828018.mscx",
+      "git_blob_sha1": "6a9c66ba7bb335e3357ee2ccead907980a9ce128",
+      "sha256": "8c0ca7b942468c098effce922eb06b04cbc6610685366bb6fe1d170e27fc3525",
+      "work_key": "Schumann,_Robert:title:schlusslieddesnarren",
+      "source_url": "https://imslp.org/wiki/5_Lieder_und_Ges%C3%A4nge,_Op.127_(Schumann,_Robert)#IMSLP271937",
+      "score_gate": "missing_or_changing_key"
+    },
+    {
+      "score_id": 6834542,
+      "set_id": 5109333,
+      "family_id": "openscore:Schumann,_Robert/5_Lieder_und_Gesänge,_Op.127",
+      "relative_path": "scores/Schumann,_Robert/5_Lieder_und_Gesänge,_Op.127/2_Dein_Angesicht/lc6834542.mscx",
+      "git_blob_sha1": "e074c1214192df7c09093911685b8e5c5dee0837",
+      "sha256": "992101f4eca452637390e719ed2b1b1424e02ab352d724600afe0a478586fcb7",
+      "work_key": "Schumann,_Robert:title:deinangesicht",
+      "source_url": "https://imslp.org/wiki/5_Lieder_und_Ges%C3%A4nge,_Op.127_(Schumann,_Robert)#IMSLP271937",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 6834588,
+      "set_id": 5109331,
+      "family_id": "openscore:Schumann,_Robert/Myrthen,_Op.25",
+      "relative_path": "scores/Schumann,_Robert/Myrthen,_Op.25/16_Rätsel/lc6834588.mscx",
+      "git_blob_sha1": "edad1e8e60561afc036236b00ef5f692c744dd46",
+      "sha256": "d6ac983fb5266a702c614298d9a3db729d3452e512ac6ae47573a8893f791577",
+      "work_key": "Schumann,_Robert:title:ratsel",
+      "source_url": "https://imslp.org/wiki/Myrthen,_Op.25_(Schumann,_Robert)#IMSLP270905",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 6834630,
+      "set_id": 5109332,
+      "family_id": "openscore:Schumann,_Robert/Lieder_und_Gesänge,_Vol.IV,_Op.96",
+      "relative_path": "scores/Schumann,_Robert/Lieder_und_Gesänge,_Vol.IV,_Op.96/3_Ihre_Stimme/lc6834630.mscx",
+      "git_blob_sha1": "db5ab31c039091104a591adcdefd72cbcf13f097",
+      "sha256": "14b45fe7294b9d4087cf68e0ac419f58c56af4aad2449bcfc2a697adb2c9d4d7",
+      "work_key": "Schumann,_Robert:title:ihrestimme",
+      "source_url": "https://imslp.org/wiki/Lieder_und_Ges%C3%A4nge,_Vol.IV,_Op.96_(Schumann,_Robert)#IMSLP271883",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 6885211,
+      "set_id": 5109331,
+      "family_id": "openscore:Schumann,_Robert/Myrthen,_Op.25",
+      "relative_path": "scores/Schumann,_Robert/Myrthen,_Op.25/01_Widmung/lc6885211.mscx",
+      "git_blob_sha1": "49abbde7e66caefd08db8de9b41b7399f142674a",
+      "sha256": "c53dc3bcb8d9e2fc496245a9d793ccf7c89642a908f1343fdb3098275f816871",
+      "work_key": "Schumann,_Robert:title:widmung",
+      "source_url": "https://imslp.org/wiki/Myrthen,_Op.25_(Schumann,_Robert)#IMSLP270905",
+      "score_gate": "missing_or_changing_key"
+    },
+    {
+      "score_id": 6885263,
+      "set_id": 5109331,
+      "family_id": "openscore:Schumann,_Robert/Myrthen,_Op.25",
+      "relative_path": "scores/Schumann,_Robert/Myrthen,_Op.25/02_Freisinn/lc6885263.mscx",
+      "git_blob_sha1": "355d062c9f6932318f0a1059a260beac7c866ded",
+      "sha256": "73451e561296f74de5efe97c01773e0657c477bd028957e6ef7db62ab423f952",
+      "work_key": "Schumann,_Robert:title:freisinn",
+      "source_url": "https://imslp.org/wiki/Myrthen,_Op.25_(Schumann,_Robert)#IMSLP270905",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 6891758,
+      "set_id": 5109331,
+      "family_id": "openscore:Schumann,_Robert/Myrthen,_Op.25",
+      "relative_path": "scores/Schumann,_Robert/Myrthen,_Op.25/03_Der_Nussbaum/lc6891758.mscx",
+      "git_blob_sha1": "dcf15d31437b8a0ef34be931437fe63fa32e8bb8",
+      "sha256": "21e446c0b20317227e95a35bf629fedac3d64d098f4be392723776fc66015158",
+      "work_key": "Schumann,_Robert:title:dernussbaum",
+      "source_url": "https://imslp.org/wiki/Myrthen,_Op.25_(Schumann,_Robert)#IMSLP270905",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 6909438,
+      "set_id": 5109331,
+      "family_id": "openscore:Schumann,_Robert/Myrthen,_Op.25",
+      "relative_path": "scores/Schumann,_Robert/Myrthen,_Op.25/04_Jemand/lc6909438.mscx",
+      "git_blob_sha1": "1129022349a82b5889eb4634538101e5f1517c50",
+      "sha256": "4776b715a1921423f7355a664ea77fb39e8759e582e0b92f2b829a888a61ed9c",
+      "work_key": "Schumann,_Robert:title:jemand",
+      "source_url": "https://imslp.org/wiki/Myrthen,_Op.25_(Schumann,_Robert)#IMSLP270905",
+      "score_gate": "missing_or_changing_key"
+    },
+    {
+      "score_id": 6909543,
+      "set_id": 5109331,
+      "family_id": "openscore:Schumann,_Robert/Myrthen,_Op.25",
+      "relative_path": "scores/Schumann,_Robert/Myrthen,_Op.25/05_Sitz’_ich_allein/lc6909543.mscx",
+      "git_blob_sha1": "9840e73f472d910409014161461f56fc6622f630",
+      "sha256": "9fca28ade55856f93dec972b21c289602233f16b73f0521d11b0d408e16dd898",
+      "work_key": "Schumann,_Robert:title:sitzichallein",
+      "source_url": "https://imslp.org/wiki/Myrthen,_Op.25_(Schumann,_Robert)#IMSLP270905",
+      "score_gate": "missing_or_changing_key"
+    },
+    {
+      "score_id": 6909785,
+      "set_id": 5109331,
+      "family_id": "openscore:Schumann,_Robert/Myrthen,_Op.25",
+      "relative_path": "scores/Schumann,_Robert/Myrthen,_Op.25/06_Setze_mir_nicht/lc6909785.mscx",
+      "git_blob_sha1": "73d583c850483f569e973c94e824ccfb9f20954f",
+      "sha256": "5609e9177c4bc7c2358f64ab0448db942c9cb8cebabcffefceaf4985b04bd46f",
+      "work_key": "Schumann,_Robert:title:setzemirnicht",
+      "source_url": "https://imslp.org/wiki/Myrthen,_Op.25_(Schumann,_Robert)#IMSLP270905",
+      "score_gate": "missing_or_changing_key"
+    },
+    {
+      "score_id": 6909797,
+      "set_id": 5109331,
+      "family_id": "openscore:Schumann,_Robert/Myrthen,_Op.25",
+      "relative_path": "scores/Schumann,_Robert/Myrthen,_Op.25/07_Die_Lotosblume/lc6909797.mscx",
+      "git_blob_sha1": "a56a41cbb540b8ff0c050f3a8d11ed3d7de9d2dc",
+      "sha256": "4d9f8de8786ac7b960a1af01a56f0ed08785b4c968563e48fe2108a69da55f25",
+      "work_key": "Schumann,_Robert:title:dielotosblume",
+      "source_url": "https://imslp.org/wiki/Myrthen,_Op.25_(Schumann,_Robert)#IMSLP270905",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 6910703,
+      "set_id": 5109331,
+      "family_id": "openscore:Schumann,_Robert/Myrthen,_Op.25",
+      "relative_path": "scores/Schumann,_Robert/Myrthen,_Op.25/08_Talismane/lc6910703.mscx",
+      "git_blob_sha1": "d715c0ab8367054540aa447d6ca3d0c1caad7ba7",
+      "sha256": "cbeb857ebd0671b6772db09870f0c3dcf953247a0eac63d0e7e12e99ad5de8f5",
+      "work_key": "Schumann,_Robert:title:talismane",
+      "source_url": "https://imslp.org/wiki/Myrthen,_Op.25_(Schumann,_Robert)#IMSLP270905",
+      "score_gate": "missing_or_changing_key"
+    },
+    {
+      "score_id": 6914397,
+      "set_id": 5109331,
+      "family_id": "openscore:Schumann,_Robert/Myrthen,_Op.25",
+      "relative_path": "scores/Schumann,_Robert/Myrthen,_Op.25/09_Lied_der_Suleika/lc6914397.mscx",
+      "git_blob_sha1": "7370e2b8eae2ceb9955dbaba9d96e1d11a4584f8",
+      "sha256": "5bd9e8a876f0beb78e25cdced9df823641485f1a041459fff938674199e58f9b",
+      "work_key": "Schumann,_Robert:title:lieddersuleika",
+      "source_url": "https://imslp.org/wiki/Myrthen,_Op.25_(Schumann,_Robert)#IMSLP270905",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 6915474,
+      "set_id": 5109331,
+      "family_id": "openscore:Schumann,_Robert/Myrthen,_Op.25",
+      "relative_path": "scores/Schumann,_Robert/Myrthen,_Op.25/10_Die_Hochländer-Witwe/lc6915474.mscx",
+      "git_blob_sha1": "72cbec6829e9df08033d39588d5344be981045b1",
+      "sha256": "e3ff9ca51f0b2d462684bb109eb76ca3427980dd9fdf8f3e20013f8de9ce6e14",
+      "work_key": "Schumann,_Robert:title:diehochlanderwitwe",
+      "source_url": "https://imslp.org/wiki/Myrthen,_Op.25_(Schumann,_Robert)#IMSLP270905",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 6915685,
+      "set_id": 5109331,
+      "family_id": "openscore:Schumann,_Robert/Myrthen,_Op.25",
+      "relative_path": "scores/Schumann,_Robert/Myrthen,_Op.25/26_Zum_Schluss/lc6915685.mscx",
+      "git_blob_sha1": "470a8a3a6162972f9dcb1ebc592d3de6762e1908",
+      "sha256": "c6000e03b94f8e1424f6100c2ce454cccc4283ffd2e076840193eec8c1c6a440",
+      "work_key": "Schumann,_Robert:title:zumschluss",
+      "source_url": "https://imslp.org/wiki/Myrthen,_Op.25_(Schumann,_Robert)#IMSLP270905",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 6915729,
+      "set_id": 5109331,
+      "family_id": "openscore:Schumann,_Robert/Myrthen,_Op.25",
+      "relative_path": "scores/Schumann,_Robert/Myrthen,_Op.25/11_Lieder_der_Braut_I_(Mutter!_Mutter!)/lc6915729.mscx",
+      "git_blob_sha1": "50b46f1f297f2d82914a2b664b44e5715d56ad0b",
+      "sha256": "88f7e8c504a8b9ce85705278c3d0e7b06c9cceac46249b9a2fa6396ac5ed28e5",
+      "work_key": "Schumann,_Robert:title:liederderbrautimuttermutter",
+      "source_url": "https://imslp.org/wiki/Myrthen,_Op.25_(Schumann,_Robert)#IMSLP270905",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 6915753,
+      "set_id": 5109331,
+      "family_id": "openscore:Schumann,_Robert/Myrthen,_Op.25",
+      "relative_path": "scores/Schumann,_Robert/Myrthen,_Op.25/12_Lieder_der_Braut_II_(Lass_mich_ihm_am_Busen_hangen)/lc6915753.mscx",
+      "git_blob_sha1": "4a9e48c4288deabb36885e33c9f09c1acb954658",
+      "sha256": "6db605d48d133c6211e3a0cef336a52a49697e9f9ff72d840bf5e25116090317",
+      "work_key": "Schumann,_Robert:title:liederderbrautiilassmichihmambusenhangen",
+      "source_url": "https://imslp.org/wiki/Myrthen,_Op.25_(Schumann,_Robert)#IMSLP270905",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 6916642,
+      "set_id": 5109331,
+      "family_id": "openscore:Schumann,_Robert/Myrthen,_Op.25",
+      "relative_path": "scores/Schumann,_Robert/Myrthen,_Op.25/13_Hochländers_Abschied/lc6916642.mscx",
+      "git_blob_sha1": "edda5300cfca752aaa9523e63df52c0762cdcb44",
+      "sha256": "0dc8bec7ed088582926fd519a616dc262823e1ee52330200945de416be63b703",
+      "work_key": "Schumann,_Robert:title:hochlandersabschied",
+      "source_url": "https://imslp.org/wiki/Myrthen,_Op.25_(Schumann,_Robert)#IMSLP270905",
+      "score_gate": "missing_or_changing_key"
+    },
+    {
+      "score_id": 6917116,
+      "set_id": 5109331,
+      "family_id": "openscore:Schumann,_Robert/Myrthen,_Op.25",
+      "relative_path": "scores/Schumann,_Robert/Myrthen,_Op.25/14_Hochländisches_Wiegenlied/lc6917116.mscx",
+      "git_blob_sha1": "546139564443a6260d2f80c1b9b6839cec80ab7b",
+      "sha256": "ead103cfae5638a7cc6ec0c27d4d67e0aaaad60cd2349250289b5ccad28adf5c",
+      "work_key": "Schumann,_Robert:title:hochlandischeswiegenlied",
+      "source_url": "https://imslp.org/wiki/Myrthen,_Op.25_(Schumann,_Robert)#IMSLP270905",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 6925763,
+      "set_id": 5109331,
+      "family_id": "openscore:Schumann,_Robert/Myrthen,_Op.25",
+      "relative_path": "scores/Schumann,_Robert/Myrthen,_Op.25/15_Aus_den_hebräischen_Gesängen_(Mein_Herz_ist_schwer)/lc6925763.mscx",
+      "git_blob_sha1": "52d2d7e4c6b8aad5a47ae5b1d2ebf64238a29d21",
+      "sha256": "d29706faeae33921fb5ce96c9ac038654b219e33f26543ab58891a581c3c7528",
+      "work_key": "Schumann,_Robert:title:ausdenhebraischengesangenmeinherzistschwer",
+      "source_url": "https://imslp.org/wiki/Myrthen,_Op.25_(Schumann,_Robert)#IMSLP270905",
+      "score_gate": "missing_or_changing_key"
+    },
+    {
+      "score_id": 6965894,
+      "set_id": 5109331,
+      "family_id": "openscore:Schumann,_Robert/Myrthen,_Op.25",
+      "relative_path": "scores/Schumann,_Robert/Myrthen,_Op.25/17_Zwei_venetianische_Lieder_I_(Leis’_rudern_hin)/lc6965894.mscx",
+      "git_blob_sha1": "53ea0bb6107baafe2a7c201791d1df62195de397",
+      "sha256": "264c893d4052106008b42bd25cad7f5e1e3d7c27940dceeb17b8b429acbeec12",
+      "work_key": "Schumann,_Robert:title:zweivenetianischeliederileisrudernhin",
+      "source_url": "https://imslp.org/wiki/Myrthen,_Op.25_(Schumann,_Robert)#IMSLP270905",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 6969398,
+      "set_id": 5109331,
+      "family_id": "openscore:Schumann,_Robert/Myrthen,_Op.25",
+      "relative_path": "scores/Schumann,_Robert/Myrthen,_Op.25/18_Zwei_venetianische_Lieder_II_(Wenn_durch_die_Piazza)/lc6969398.mscx",
+      "git_blob_sha1": "5fd4bdcfbfe6aac59a3de5369c25a9a832b38528",
+      "sha256": "ca195c718d8a82b62cc5285469c5ea44889078c9ba5b1f48e9dd6e1b1c011999",
+      "work_key": "Schumann,_Robert:title:zweivenetianischeliederiiwenndurchdiepiazza",
+      "source_url": "https://imslp.org/wiki/Myrthen,_Op.25_(Schumann,_Robert)#IMSLP270905",
+      "score_gate": "volta_span_unsupported_entire_score"
+    },
+    {
+      "score_id": 6974646,
+      "set_id": 5109331,
+      "family_id": "openscore:Schumann,_Robert/Myrthen,_Op.25",
+      "relative_path": "scores/Schumann,_Robert/Myrthen,_Op.25/19_Hauptmanns_Weib/lc6974646.mscx",
+      "git_blob_sha1": "d0a5246b7629d765cde17a480be0bcd203901f91",
+      "sha256": "e1866e1ebf485ab06bb01a155f5537be647e533e3625027943e33b85b3e7b359",
+      "work_key": "Schumann,_Robert:title:hauptmannsweib",
+      "source_url": "https://imslp.org/wiki/Myrthen,_Op.25_(Schumann,_Robert)#IMSLP270905",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 6979621,
+      "set_id": 5109331,
+      "family_id": "openscore:Schumann,_Robert/Myrthen,_Op.25",
+      "relative_path": "scores/Schumann,_Robert/Myrthen,_Op.25/20_Weit,_weit/lc6979621.mscx",
+      "git_blob_sha1": "6343ab6786ef010fa8d6edae166949519ab67539",
+      "sha256": "f1747d1e9ec9167999c4246bd818025e336ab1b82f8d71a959ab26a78b99e29e",
+      "work_key": "Schumann,_Robert:title:weitweit",
+      "source_url": "https://imslp.org/wiki/Myrthen,_Op.25_(Schumann,_Robert)#IMSLP270905",
+      "score_gate": "missing_or_changing_key"
+    },
+    {
+      "score_id": 6980134,
+      "set_id": 5109331,
+      "family_id": "openscore:Schumann,_Robert/Myrthen,_Op.25",
+      "relative_path": "scores/Schumann,_Robert/Myrthen,_Op.25/21_Was_will_die_einsame_Träne/lc6980134.mscx",
+      "git_blob_sha1": "862313526207a9f084d5812dc55aa4cd50f2b0ef",
+      "sha256": "55ab190cd36ad3fa79abc087dafd130fe39afdd4d836dfbde634ba5e77a4626a",
+      "work_key": "Schumann,_Robert:title:waswilldieeinsametrane",
+      "source_url": "https://imslp.org/wiki/Myrthen,_Op.25_(Schumann,_Robert)#IMSLP270905",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 6980464,
+      "set_id": 5109331,
+      "family_id": "openscore:Schumann,_Robert/Myrthen,_Op.25",
+      "relative_path": "scores/Schumann,_Robert/Myrthen,_Op.25/22_Niemand/lc6980464.mscx",
+      "git_blob_sha1": "43270daecfd8ad1f6f22ba313628ed963f404564",
+      "sha256": "c62bb5750e65ce10bd3c31ebc26e3b142183af2c757629a311cf32730e9ae203",
+      "work_key": "Schumann,_Robert:title:niemand",
+      "source_url": "https://imslp.org/wiki/Myrthen,_Op.25_(Schumann,_Robert)#IMSLP270905",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 6981173,
+      "set_id": 5109331,
+      "family_id": "openscore:Schumann,_Robert/Myrthen,_Op.25",
+      "relative_path": "scores/Schumann,_Robert/Myrthen,_Op.25/23_Im_Westen/lc6981173.mscx",
+      "git_blob_sha1": "1a9a394e3f463fe5d34fcfa389e8dcb6e9e12bf8",
+      "sha256": "5500ab61d4dafe88dbd71792f3f67ff095ee997ffff6d119b26d6e4228255ad9",
+      "work_key": "Schumann,_Robert:title:imwesten",
+      "source_url": "https://imslp.org/wiki/Myrthen,_Op.25_(Schumann,_Robert)#IMSLP270905",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 6982729,
+      "set_id": 5109331,
+      "family_id": "openscore:Schumann,_Robert/Myrthen,_Op.25",
+      "relative_path": "scores/Schumann,_Robert/Myrthen,_Op.25/24_Du_bist_wie_ein_Blume/lc6982729.mscx",
+      "git_blob_sha1": "8745cd017e227c447e5e565860ec2063a9235eb8",
+      "sha256": "d0bbd6be8d374c456d7a23c9aa40f715b1608a8e4a42db28c653a19270842324",
+      "work_key": "Schumann,_Robert:title:dubistwieeinblume",
+      "source_url": "https://imslp.org/wiki/Myrthen,_Op.25_(Schumann,_Robert)#IMSLP270905",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 6982743,
+      "set_id": 5109331,
+      "family_id": "openscore:Schumann,_Robert/Myrthen,_Op.25",
+      "relative_path": "scores/Schumann,_Robert/Myrthen,_Op.25/25_Aus_den_östlichen_Rosen/lc6982743.mscx",
+      "git_blob_sha1": "424094aa59928e913e2d0eba28d868697fb05e84",
+      "sha256": "b84b06a77ba612ebaba416fbdeeaddcf7bc1047eca133b7408ae70012b937119",
+      "work_key": "Schumann,_Robert:title:ausdenostlichenrosen",
+      "source_url": "https://imslp.org/wiki/Myrthen,_Op.25_(Schumann,_Robert)#IMSLP270905",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 6984262,
+      "set_id": 5109332,
+      "family_id": "openscore:Schumann,_Robert/Lieder_und_Gesänge,_Vol.IV,_Op.96",
+      "relative_path": "scores/Schumann,_Robert/Lieder_und_Gesänge,_Vol.IV,_Op.96/1_Nachtlied/lc6984262.mscx",
+      "git_blob_sha1": "892cde3f881906bf79b188ccdf2d4215c459a8c4",
+      "sha256": "59a7871683ca7ea7d26fdc7c180e0216211c3db066f3538f7e5c901b363b6b20",
+      "work_key": "Schumann,_Robert:title:nachtlied",
+      "source_url": "https://imslp.org/wiki/Lieder_und_Ges%C3%A4nge,_Vol.IV,_Op.96_(Schumann,_Robert)#IMSLP271883",
+      "score_gate": "missing_or_changing_key"
+    },
+    {
+      "score_id": 6984553,
+      "set_id": 5109332,
+      "family_id": "openscore:Schumann,_Robert/Lieder_und_Gesänge,_Vol.IV,_Op.96",
+      "relative_path": "scores/Schumann,_Robert/Lieder_und_Gesänge,_Vol.IV,_Op.96/2_Schneeglöckchen/lc6984553.mscx",
+      "git_blob_sha1": "59caaccec3879f1a0a94bc1d346ea781db3bba34",
+      "sha256": "3a9f9992c02d29d74d7944360309733a6bf7f63bb6c635db10d5a694849aabc1",
+      "work_key": "Schumann,_Robert:title:schneeglockchen",
+      "source_url": "https://imslp.org/wiki/Lieder_und_Ges%C3%A4nge,_Vol.IV,_Op.96_(Schumann,_Robert)#IMSLP271883",
+      "score_gate": "missing_or_changing_key"
+    },
+    {
+      "score_id": 6984631,
+      "set_id": 5109332,
+      "family_id": "openscore:Schumann,_Robert/Lieder_und_Gesänge,_Vol.IV,_Op.96",
+      "relative_path": "scores/Schumann,_Robert/Lieder_und_Gesänge,_Vol.IV,_Op.96/4_Gesungen/lc6984631.mscx",
+      "git_blob_sha1": "909beb3a68e136c118574910f91de0661765a4db",
+      "sha256": "c984e836a9e01e32671627134c4b7c764a2117cd3177627705e37512db5864bd",
+      "work_key": "Schumann,_Robert:title:gesungen",
+      "source_url": "https://imslp.org/wiki/Lieder_und_Ges%C3%A4nge,_Vol.IV,_Op.96_(Schumann,_Robert)#IMSLP271883",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 6985082,
+      "set_id": 5109332,
+      "family_id": "openscore:Schumann,_Robert/Lieder_und_Gesänge,_Vol.IV,_Op.96",
+      "relative_path": "scores/Schumann,_Robert/Lieder_und_Gesänge,_Vol.IV,_Op.96/5_Himmel_und_Erde/lc6985082.mscx",
+      "git_blob_sha1": "073ea4e31b336dd9a92e4d5a6adad545bfdf01a3",
+      "sha256": "4b715f699ce58b6a33a1729e27ccd70fa478bed2a6f5e44062b1a756af110e38",
+      "work_key": "Schumann,_Robert:title:himmelunderde",
+      "source_url": "https://imslp.org/wiki/Lieder_und_Ges%C3%A4nge,_Vol.IV,_Op.96_(Schumann,_Robert)#IMSLP271883",
+      "score_gate": "missing_or_changing_key"
+    },
+    {
+      "score_id": 8702982,
+      "set_id": 5577240,
+      "family_id": "openscore:Brahms,_Johannes/Marienlieder,_Op.22",
+      "relative_path": "scores/Brahms,_Johannes/Marienlieder,_Op.22/6_Magdalena/lc8702982.mscx",
+      "git_blob_sha1": "da7b530f750720b5f50793d526646cafc559eaed",
+      "sha256": "ab130462603fa946aa227e923f80ba11119b04f4fb17310d08b5f91972ce55bd",
+      "work_key": "Brahms,_Johannes:title:magdalena",
+      "source_url": "https://imslp.org/wiki/Marienlieder,_Op.22_(Brahms,_Johannes)#IMSLP22901",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 8708253,
+      "set_id": 5577240,
+      "family_id": "openscore:Brahms,_Johannes/Marienlieder,_Op.22",
+      "relative_path": "scores/Brahms,_Johannes/Marienlieder,_Op.22/2_Marias_Kirchgang/lc8708253.mscx",
+      "git_blob_sha1": "0d8aabb3a1d1f2ad06cf6cf341b76d2bb53f0e94",
+      "sha256": "8459b6e98f6fab312659e9a8eccce3b7ad8ab0ed2c0873545124042696503c1c",
+      "work_key": "Brahms,_Johannes:title:mariaskirchgang",
+      "source_url": "https://imslp.org/wiki/Marienlieder,_Op.22_(Brahms,_Johannes)#IMSLP22901",
+      "score_gate": "missing_or_changing_key"
+    },
+    {
+      "score_id": 8708688,
+      "set_id": 5577240,
+      "family_id": "openscore:Brahms,_Johannes/Marienlieder,_Op.22",
+      "relative_path": "scores/Brahms,_Johannes/Marienlieder,_Op.22/3_Marias_Wallfahrt/lc8708688.mscx",
+      "git_blob_sha1": "8fabf6dc537641fd46a9c061cf0d766687bb446e",
+      "sha256": "9c2aa9402cdfe9285d5303ad0f32d52fd2482dd9bfb2da282731b505338869e9",
+      "work_key": "Brahms,_Johannes:title:mariaswallfahrt",
+      "source_url": "https://imslp.org/wiki/Marienlieder,_Op.22_(Brahms,_Johannes)#IMSLP22901",
+      "score_gate": "missing_or_changing_meter"
+    },
+    {
+      "score_id": 8712405,
+      "set_id": 5577240,
+      "family_id": "openscore:Brahms,_Johannes/Marienlieder,_Op.22",
+      "relative_path": "scores/Brahms,_Johannes/Marienlieder,_Op.22/4_Der_Jäger/lc8712405.mscx",
+      "git_blob_sha1": "71a93949674338df1611cb7f5964e7261d230940",
+      "sha256": "39790e8066dd846bea4a77b2b4b4b189909b9848c15bc3748ef0534faf8437f8",
+      "work_key": "Brahms,_Johannes:title:derjager",
+      "source_url": "https://imslp.org/wiki/Marienlieder,_Op.22_(Brahms,_Johannes)#IMSLP22901",
+      "score_gate": "missing_or_changing_key"
+    },
+    {
+      "score_id": 8712648,
+      "set_id": 5577240,
+      "family_id": "openscore:Brahms,_Johannes/Marienlieder,_Op.22",
+      "relative_path": "scores/Brahms,_Johannes/Marienlieder,_Op.22/5_Ruf_zur_Maria/lc8712648.mscx",
+      "git_blob_sha1": "cc62578a3efb5edc09b32bc7551db2ea88cdb4c0",
+      "sha256": "dfe2c1a5504119bbf53600316901e5d79e960e18b03d41c9a6d2cb83307a0e04",
+      "work_key": "Brahms,_Johannes:title:rufzurmaria",
+      "source_url": "https://imslp.org/wiki/Marienlieder,_Op.22_(Brahms,_Johannes)#IMSLP22901",
+      "score_gate": "passed"
+    },
+    {
+      "score_id": 8718660,
+      "set_id": 5577240,
+      "family_id": "openscore:Brahms,_Johannes/Marienlieder,_Op.22",
+      "relative_path": "scores/Brahms,_Johannes/Marienlieder,_Op.22/7_Marias_Lob/lc8718660.mscx",
+      "git_blob_sha1": "a5d2206d66331e8899075766d96690134b84d94d",
+      "sha256": "1bbd8dc032cd3d5624e32a96dd3f9093e2345a947688357b5404745d35e4c9d9",
+      "work_key": "Brahms,_Johannes:title:mariaslob",
+      "source_url": "https://imslp.org/wiki/Marienlieder,_Op.22_(Brahms,_Johannes)#IMSLP22901",
+      "score_gate": "missing_or_changing_meter"
+    }
+  ],
+  "excluded": [
+    {
+      "reason": "missing_exact_file",
+      "score_id": 4985924,
+      "stage": "availability"
+    },
+    {
+      "reason": "missing_exact_file",
+      "score_id": 4985937,
+      "stage": "availability"
+    },
+    {
+      "reason": "missing_exact_file",
+      "score_id": 4987661,
+      "stage": "availability"
+    },
+    {
+      "reason": "missing_exact_file",
+      "score_id": 5015378,
+      "stage": "availability"
+    },
+    {
+      "reason": "missing_exact_file",
+      "score_id": 5016466,
+      "stage": "availability"
+    },
+    {
+      "reason": "missing_exact_file",
+      "score_id": 5080752,
+      "stage": "availability"
+    },
+    {
+      "reason": "missing_exact_file",
+      "score_id": 8707581,
+      "stage": "availability"
+    },
+    {
+      "family": "openscore-family:59965c7472a46267693a615c",
+      "reason": "MuseScore3_only",
+      "score_id": 4926375,
+      "sha256": "05bd533a1a75ab6adee01a240eff4c5a40470ed2c758736512c548c2d64967ae",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:a18525f87f3f4582f1d6b457",
+      "reason": "MuseScore3_only",
+      "score_id": 4946175,
+      "sha256": "01fb4f5837c2a5b6ae8acf6746091ccfbbb2b58b158c33295aac9af3684e743b",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:b5c12a32c06381c681ec589e",
+      "reason": "MuseScore3_only",
+      "score_id": 4978468,
+      "sha256": "0523c100c4f68366d136e53b94eb656f779a090f140d3a57583dc5a777ddd3ca",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:b5c12a32c06381c681ec589e",
+      "reason": "MuseScore3_only",
+      "score_id": 4978478,
+      "sha256": "4ce31a767e7ce71f7c1a420e94243071cbf38d6166175285309af0340e0f7b93",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:b5c12a32c06381c681ec589e",
+      "reason": "MuseScore3_only",
+      "score_id": 4978485,
+      "sha256": "b4e5ec7ad57f4b68a3fe75ef959de8fc4646ae23939b366aa6eb4c9aefa60780",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:b5c12a32c06381c681ec589e",
+      "reason": "missing_or_unsupported_CC0_metadata",
+      "score_id": 4978488,
+      "sha256": "484a4ecd344c805438eab64de9cf5192fdae8fb08c453ebd2316416f51a6e45d",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:b5c12a32c06381c681ec589e",
+      "reason": "MuseScore3_only",
+      "score_id": 4978491,
+      "sha256": "806b5111c798c6125a036f01beff863edf14772bb3bfef265081ff4f157779fb",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:f9208df8def988ab27eb0fcf",
+      "reason": "MuseScore3_only",
+      "score_id": 4978492,
+      "sha256": "03d97b2b1e8fb0fb9b53d95d3023f1e8da24150b3b2de0e29c2d1cbdfbe40905",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:b5c12a32c06381c681ec589e",
+      "reason": "MuseScore3_only",
+      "score_id": 4978494,
+      "sha256": "1cb703a1d31bf2fa55d40167a4ef3e68eddbdf01124ae633c6d7306a3a4bd2d1",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:b5c12a32c06381c681ec589e",
+      "reason": "MuseScore3_only",
+      "score_id": 4978496,
+      "sha256": "127abe7959225a853f206fd1510ad9a03613ca13c56d21bdfed317c1fd1e61e6",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:b5c12a32c06381c681ec589e",
+      "reason": "MuseScore3_only",
+      "score_id": 4978501,
+      "sha256": "c65827eb8507b1161ade5c1146a4b3d0b73042c5969060fba9ee381068c3e1a1",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:566d36624ff5b64a30b2f94f",
+      "reason": "MuseScore3_only",
+      "score_id": 4982535,
+      "sha256": "cf14d9461bb5095caf33e99eab9d3cb5ecc5469518946123f573eb6ea2ce98a2",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:566d36624ff5b64a30b2f94f",
+      "reason": "MuseScore3_only",
+      "score_id": 4985922,
+      "sha256": "51ab1c5de9bf619f60c9a2caba787c7f725947e1f22ce79db932644d78becf4f",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:566d36624ff5b64a30b2f94f",
+      "reason": "MuseScore3_only",
+      "score_id": 4985925,
+      "sha256": "45128b699270311503307548f99f9ab0a810d6953391a128ae2db823e7b3620b",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:566d36624ff5b64a30b2f94f",
+      "reason": "MuseScore3_only",
+      "score_id": 4985927,
+      "sha256": "1b6482038d70b28a2206334becb400a405b6ed09da772163f17ea1bfe21b5c56",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:566d36624ff5b64a30b2f94f",
+      "reason": "MuseScore3_only",
+      "score_id": 4985930,
+      "sha256": "3f3bdf60b596d9d46c1a6366c84f014ad2d58ea8e6c8e268b66225ed73ea772f",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:566d36624ff5b64a30b2f94f",
+      "reason": "volta_span_unsupported_entire_score",
+      "score_id": 4985931,
+      "sha256": "a0ba4d2c986981911c7176a8c8f355cb3a7629c69b4052e75e1f41ae0b03408c",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:566d36624ff5b64a30b2f94f",
+      "reason": "MuseScore3_only",
+      "score_id": 4985932,
+      "sha256": "3bbd38481a9d22d19189d16cb826d1aa63e9bcdb21fde7608aea4f40ed79decf",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:566d36624ff5b64a30b2f94f",
+      "reason": "MuseScore3_only",
+      "score_id": 4985934,
+      "sha256": "3d8d5ae6cd0d3e068d27a7d0321cfdd47f446323e4c12909a16111f6613abee6",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:566d36624ff5b64a30b2f94f",
+      "reason": "MuseScore3_only",
+      "score_id": 4985935,
+      "sha256": "0f0c22301a5a0f4c7fb9e0f8705292f138ebc612892cac687b8e051b6a746734",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:566d36624ff5b64a30b2f94f",
+      "reason": "MuseScore3_only",
+      "score_id": 4985938,
+      "sha256": "335c90de19dacfe7ef2be3ea461942544afe6ac3c25c909b66fa21231dd9dcd3",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:566d36624ff5b64a30b2f94f",
+      "reason": "MuseScore3_only",
+      "score_id": 4985940,
+      "sha256": "bf056b453c3b5a0e22cead17eab52b589daf7dc4cad476ab85435d4ed5f5d1cc",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:566d36624ff5b64a30b2f94f",
+      "reason": "MuseScore3_only",
+      "score_id": 4985946,
+      "sha256": "49f99b5614990d0b30f66a5875ebb371e4d796084da912df6264d7880c9fb9ad",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:566d36624ff5b64a30b2f94f",
+      "reason": "missing_or_changing_key",
+      "score_id": 4985949,
+      "sha256": "f14844a520847dfcd8fcfb4e745fc81a2549b0a93ac01330ec1fab365ef0fc3c",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:566d36624ff5b64a30b2f94f",
+      "reason": "missing_or_unsupported_CC0_metadata",
+      "score_id": 4985951,
+      "sha256": "59167d2ee2fc2b29024abb71109ded79b7cfd09722d6f1d1892c025ca82a357d",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:5552dcbf7dc2cae25136f958",
+      "reason": "missing_or_changing_key",
+      "score_id": 4985965,
+      "sha256": "61add65a53852bb14f9efdad8e82a6384ee5ef6835a34f85c5bae4475cc69603",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:5552dcbf7dc2cae25136f958",
+      "reason": "missing_or_changing_key",
+      "score_id": 4985987,
+      "sha256": "64b93c1080e8bf2cba8d3367634d12c87ed2e3b1b54e09c7aa9ba4c3e2fa8ead",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:5552dcbf7dc2cae25136f958",
+      "reason": "missing_or_unsupported_CC0_metadata",
+      "score_id": 4985990,
+      "sha256": "2e9d525f37ad592572197c826c3bc3aa67b50f28dd897149629e509b6d734294",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:5552dcbf7dc2cae25136f958",
+      "reason": "missing_or_changing_key",
+      "score_id": 4986000,
+      "sha256": "56f23e344fe0371fa9a3886ce3f453503e95c1043ff9166805bfcf18456a8fed",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:1c6a00e405cadb667d1af2ca",
+      "reason": "MuseScore3_only",
+      "score_id": 4987618,
+      "sha256": "e11c175a002b3be2335c5a0c20be113b94551a09bee4adc259b672a7ef36c886",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:1c6a00e405cadb667d1af2ca",
+      "reason": "MuseScore3_only",
+      "score_id": 4987626,
+      "sha256": "5a96548ff8273cb3679fdccce77ad8da402b11f4c712ef7aac5ee97d7a90e78c",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:1c6a00e405cadb667d1af2ca",
+      "reason": "missing_or_unsupported_CC0_metadata",
+      "score_id": 4987633,
+      "sha256": "8d32f8886bb2fe626102ff2b773aef0f45d62527f8686ad2ae611907e26f2312",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:1c6a00e405cadb667d1af2ca",
+      "reason": "MuseScore3_only",
+      "score_id": 4987640,
+      "sha256": "51fad48cf9382c9699720355a01bc11662e3d31ab532ec8f5adbb36e03a939ee",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:1c6a00e405cadb667d1af2ca",
+      "reason": "MuseScore3_only",
+      "score_id": 4987650,
+      "sha256": "32e49548ddadac79537cf57863caa74d034f374bc130730b1f76473912c39405",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:1c6a00e405cadb667d1af2ca",
+      "reason": "missing_or_changing_key",
+      "score_id": 4987658,
+      "sha256": "0a578160043a9a6d7e862156d45b5b77714d5e6779b9a249dc4356f8f0f2cf24",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:1c6a00e405cadb667d1af2ca",
+      "reason": "MuseScore3_only",
+      "score_id": 4987664,
+      "sha256": "e39ef6f94cb93a449435142a708fc8d7dc0aecd9ab25a055d8070a3f51ef186e",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:1c6a00e405cadb667d1af2ca",
+      "reason": "MuseScore3_only",
+      "score_id": 4987672,
+      "sha256": "95bc6fc564b28fa5672215afc0dc1225121931a55c927bb33289eea76eb9c53e",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:1c6a00e405cadb667d1af2ca",
+      "reason": "MuseScore3_only",
+      "score_id": 4987677,
+      "sha256": "5925059bfe509b1fafae0782e5adf13e1e17331047bbcd72b7d43aa37238d280",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:566d36624ff5b64a30b2f94f",
+      "reason": "MuseScore3_only",
+      "score_id": 5004731,
+      "sha256": "90a4ccb4458737c6cc70d161a326dcf327c7477f61220bd8aee01a2030f22c34",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:5552dcbf7dc2cae25136f958",
+      "reason": "volta_span_unsupported_entire_score",
+      "score_id": 5004835,
+      "sha256": "afb15f7f1bbcb4f2656d3a04e529853b5e0322235caf847978a3f0a75f2b8275",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:32f359d66bc5a3539d287531",
+      "reason": "missing_or_changing_key",
+      "score_id": 5009900,
+      "sha256": "ed9dbf32df5ece44ad2249dfa317e78f40c820a07587a18746f71ce604a71985",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:32f359d66bc5a3539d287531",
+      "reason": "missing_or_unsupported_CC0_metadata",
+      "score_id": 5013945,
+      "sha256": "ece7265cb2eeeb67d076274b85a2c3d2891200c736ea4526a68ce48b346f57b8",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:32f359d66bc5a3539d287531",
+      "reason": "missing_or_changing_key",
+      "score_id": 5013969,
+      "sha256": "c34448afb1afbb00d25bae8153be3c75dea86bfab50bf76f1002cd920e0b290f",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:32f359d66bc5a3539d287531",
+      "reason": "missing_or_changing_key",
+      "score_id": 5014023,
+      "sha256": "abc840a9e95969be92249dc228d6eeddafffae840c38f99a7a5942164037d6f6",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:32f359d66bc5a3539d287531",
+      "reason": "missing_or_changing_key",
+      "score_id": 5015410,
+      "sha256": "cecd8e8a055c1ee7a5416814cab6b96124211f7804130626610c3e71aebc8fb5",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:32f359d66bc5a3539d287531",
+      "reason": "missing_or_changing_key",
+      "score_id": 5015435,
+      "sha256": "c057843f033e6537ef7718f10e8595368aa9e1be71b2016d96db7a85df875d97",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:32f359d66bc5a3539d287531",
+      "reason": "missing_or_changing_key",
+      "score_id": 5015521,
+      "sha256": "027c650c2111c57351bf61efa039083146fbf9cd313dd1762ebde679b0a693ce",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:32f359d66bc5a3539d287531",
+      "reason": "missing_or_changing_meter",
+      "score_id": 5023603,
+      "sha256": "f36b1df9783de4941519cecf4b67093d53c454bfee0b749cc29522ca8c195128",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:566d36624ff5b64a30b2f94f",
+      "reason": "MuseScore3_only",
+      "score_id": 5025982,
+      "sha256": "eade935af556f05d7d220ed14863e39f9ff4855c8f95a347adc1055fe3553d91",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:566d36624ff5b64a30b2f94f",
+      "reason": "MuseScore3_only",
+      "score_id": 5026236,
+      "sha256": "45d2967f12c61a2d5d07df6cb7f9db862f944a9c6272f936020b6e5858cb1282",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:7822302d8ba468d879b4f5e7",
+      "reason": "MuseScore3_only",
+      "score_id": 5033057,
+      "sha256": "6875a22cac2602940c1cca815c2071e568f7b07e12bd32cf7e9e97c5d4fc259c",
+      "split": "test",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:3802788d13a7fda4b835ebc5",
+      "reason": "MuseScore3_only",
+      "score_id": 5033075,
+      "sha256": "16872c4417589ed6f65738c3d4c2275e8ada543248990a43878760c3a969ce36",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:59965c7472a46267693a615c",
+      "reason": "MuseScore3_only",
+      "score_id": 5057822,
+      "sha256": "d0b23f2eae409d47bb12c8fb9d9449dbaca27847f2d345d4759854c6464189e5",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:59965c7472a46267693a615c",
+      "reason": "missing_or_changing_key",
+      "score_id": 5058091,
+      "sha256": "0ebd906467538bf88cb2a0b939563df7c0d515fa62f37573ba84cfdec780f96d",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:59965c7472a46267693a615c",
+      "reason": "missing_or_changing_key",
+      "score_id": 5058636,
+      "sha256": "48d255b370a7874ad474a04702f1f56f2eb073182ffcb9ce2b21b29ff20d2e70",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:c14d8ca456603fe2310fc17e",
+      "reason": "MuseScore3_only",
+      "score_id": 5067672,
+      "sha256": "ef656dfef6650948ab49178eff4d03f190d2f777f288eee61dd104640b76862f",
+      "split": "test",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:0adc3c8ef373a8f8f5c70791",
+      "reason": "missing_or_changing_meter",
+      "score_id": 5069048,
+      "sha256": "85cd23620628622411440882bff90bba09145607f741f1e2844b8ee7193b43c8",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:0adc3c8ef373a8f8f5c70791",
+      "reason": "volta_span_unsupported_entire_score",
+      "score_id": 5069066,
+      "sha256": "1d15b2dc452506927677aca619d45869a1d39f53f4059c0ab606eb38984f4727",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:207fb3dc0ce7524384ea50dc",
+      "reason": "volta_span_unsupported_entire_score",
+      "score_id": 5071622,
+      "sha256": "66760217f2ef56e1a7f330bda883ad268c24e68da74c7523d23cbcef5009454a",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:207fb3dc0ce7524384ea50dc",
+      "reason": "volta_span_unsupported_entire_score",
+      "score_id": 5071629,
+      "sha256": "2457e0cb0d0a7109ca2dbfd6cf080449ea96f3e87d7ffff1960c18023c698808",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:207fb3dc0ce7524384ea50dc",
+      "reason": "missing_or_changing_meter",
+      "score_id": 5071636,
+      "sha256": "261fd35779ef211e8b56fceebb3c1f1ff27190f496d0c2eaf585013b45765728",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:9de65466454f3fde017165ed",
+      "reason": "MuseScore3_only",
+      "score_id": 5071654,
+      "sha256": "f56ea07acc62b87c049b2318d4558014e622f224c7d6f290bad28f5efa344859",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:9de65466454f3fde017165ed",
+      "reason": "MuseScore3_only",
+      "score_id": 5071668,
+      "sha256": "2fd56ba1b4269e1624f31d726bc8b1c85492ec9d5e0aa4b7886b0961ea3eeab7",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:7822302d8ba468d879b4f5e7",
+      "reason": "MuseScore3_only",
+      "score_id": 5071686,
+      "sha256": "ae63364fae1a9423404f9f477dd06c48f545952a1df4ae7d9f5138701c0fa308",
+      "split": "test",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:7822302d8ba468d879b4f5e7",
+      "reason": "MuseScore3_only",
+      "score_id": 5071689,
+      "sha256": "4c65c0f5eee202d70fec04f44d92cf856952bc1ffbc2aa46335e5e8ee2774a86",
+      "split": "test",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:bc5030dde6039f482d61b4da",
+      "reason": "missing_or_changing_meter",
+      "score_id": 5071703,
+      "sha256": "310dcb8af2d9b49e61b54d2a29b671fa53838e0b9123883d3a5978bf8cac4cde",
+      "split": "test",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:9de65466454f3fde017165ed",
+      "reason": "MuseScore3_only",
+      "score_id": 5084888,
+      "sha256": "2a000cc6c0f93de8652dcb2c024e2c27840b8734c7a46441b981a12f6898f398",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:9de65466454f3fde017165ed",
+      "reason": "MuseScore3_only",
+      "score_id": 5084966,
+      "sha256": "828c0d2ce3810d9a38bb7b0f679f1d052057499ac9df4b4bebde4795f492fa50",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:39c0993a38d765104b13b002",
+      "reason": "missing_or_changing_key",
+      "score_id": 5093803,
+      "sha256": "13d32939090ad1fbb766d6eb91377d8267ccf26a9334ae45e349e1fdaf22d4d7",
+      "split": "test",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:3802788d13a7fda4b835ebc5",
+      "reason": "missing_or_unsupported_CC0_metadata",
+      "score_id": 5098657,
+      "sha256": "6227017792c1f7dd2642e9c3cd7c85ebe7d6048147d9eae95f4db8a97c15ae62",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:3802788d13a7fda4b835ebc5",
+      "reason": "missing_or_unsupported_CC0_metadata",
+      "score_id": 5098659,
+      "sha256": "3c88f01402b47917a476f991a7aac8c58e1fced1ab5d7693ace0d5df0f7ec8f6",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:bc5030dde6039f482d61b4da",
+      "reason": "missing_or_unsupported_CC0_metadata",
+      "score_id": 5098705,
+      "sha256": "d8c0f6aa5930f794b31fde5c595cd8581c5689ab8108349f9394dc7a1bcb5a65",
+      "split": "test",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:bc5030dde6039f482d61b4da",
+      "reason": "missing_or_changing_meter",
+      "score_id": 5098709,
+      "sha256": "851fa8c3514b4bf908151a56e97175156821fd2164206c9007fb635180cbeb6e",
+      "split": "test",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:f9208df8def988ab27eb0fcf",
+      "reason": "MuseScore3_only",
+      "score_id": 5098713,
+      "sha256": "38138d5a5fa1428628be29e1136e7939ce00581c07f5e46f50f975a4b3160fe8",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:bc5030dde6039f482d61b4da",
+      "reason": "missing_or_changing_key",
+      "score_id": 5098715,
+      "sha256": "477f3f7abe53f8cf1335b2b12d676726400965c7f79d65f828bca222e8a4c6a2",
+      "split": "test",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:bc5030dde6039f482d61b4da",
+      "reason": "missing_or_unsupported_CC0_metadata",
+      "score_id": 5098725,
+      "sha256": "23adcea7ec98856d67e9238e4083f69d7b7d281f96af326c0d36b1f9167b8151",
+      "split": "test",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:3802788d13a7fda4b835ebc5",
+      "reason": "missing_or_unsupported_CC0_metadata",
+      "score_id": 5098728,
+      "sha256": "bfd2f23087f70ab74a2882434c196611ba59847524c28d01448fc837e77775b0",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:bc5030dde6039f482d61b4da",
+      "reason": "missing_or_changing_key",
+      "score_id": 5123355,
+      "sha256": "6f438ad3302e491fcb7fc7707594520813da016e0997b88c4072a217966f90ee",
+      "split": "test",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:c14d8ca456603fe2310fc17e",
+      "reason": "missing_or_changing_key",
+      "score_id": 5153813,
+      "sha256": "c4987d5e57dde43079704e1bc43078868f7a37d4998f71d4905dcc602f164afe",
+      "split": "test",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:c14d8ca456603fe2310fc17e",
+      "reason": "MuseScore3_only",
+      "score_id": 5153947,
+      "sha256": "97f48acc968be8a647889627a3401a8b6f92881896c628b0d55fe8554e4fae8f",
+      "split": "test",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:7822302d8ba468d879b4f5e7",
+      "reason": "missing_or_changing_meter",
+      "score_id": 5155459,
+      "sha256": "74e3d7cc0a867a4a4631a9cfbf6636c5ebc1394250e263b6e6756e6ed6587f64",
+      "split": "test",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:a18525f87f3f4582f1d6b457",
+      "reason": "volta_span_unsupported_entire_score",
+      "score_id": 5654342,
+      "sha256": "b2aba2b6c96331c35dd2a512cc1ccb221875d7b79918a9afd23b93dee1c5097e",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:f9208df8def988ab27eb0fcf",
+      "reason": "missing_or_unsupported_CC0_metadata",
+      "score_id": 5667944,
+      "sha256": "368de04a3e8122c4bc2a223f9887e0b99c330361d81a5d673e33909307042e22",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:f9208df8def988ab27eb0fcf",
+      "reason": "missing_or_unsupported_CC0_metadata",
+      "score_id": 5700433,
+      "sha256": "46938fef3efad4fa22f2951ea9e51e6268360de7387a11b1be3856bae3d88b97",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:f9208df8def988ab27eb0fcf",
+      "reason": "missing_or_unsupported_CC0_metadata",
+      "score_id": 5701612,
+      "sha256": "e7fe55b2cf9c86bb77b71fb5c8bebe20e41d130892392e090ba44dd9c63228b8",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:207fb3dc0ce7524384ea50dc",
+      "reason": "missing_or_changing_key",
+      "score_id": 5705502,
+      "sha256": "57272d03e0e3d3496476f5f42044ecc52de64543e9c931dbeb617105fb1bd1bc",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:3802788d13a7fda4b835ebc5",
+      "reason": "missing_or_unsupported_CC0_metadata",
+      "score_id": 5934726,
+      "sha256": "6857ba94f8c71a08e58e36a55cee787ae9836c5562f2f4b1053a1daf49ecad11",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:3802788d13a7fda4b835ebc5",
+      "reason": "missing_or_unsupported_CC0_metadata",
+      "score_id": 5936324,
+      "sha256": "3418bbfecba8fb0f609d2d3fa57d975e8431a433fd8cce9c04db2cd3d48b1a10",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:3802788d13a7fda4b835ebc5",
+      "reason": "missing_or_unsupported_CC0_metadata",
+      "score_id": 5937814,
+      "sha256": "7bae079faae26a5d6368c7689f78c6159a8359a289ddfaaa483615a3ef9427e7",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:3802788d13a7fda4b835ebc5",
+      "reason": "missing_or_unsupported_CC0_metadata",
+      "score_id": 5940230,
+      "sha256": "0ea38ca0c06fbb738a8009b6eec3b01066db0bfc488f51a3f172355ec34f28eb",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:2343e08c8401f8641876c4c0",
+      "reason": "missing_or_changing_key",
+      "score_id": 6302395,
+      "sha256": "aaa2333c15a055d223206c2bf548e51abca50dca1bf709f6c8de9bd70264e130",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:2343e08c8401f8641876c4c0",
+      "reason": "unsupported_key_signature",
+      "score_id": 6320420,
+      "sha256": "6e5e31167554706e826f942537627591949ce2270777ddf678addb92027d34b9",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:44e1960ecbf9584730dad698",
+      "reason": "missing_or_changing_meter",
+      "score_id": 6686592,
+      "sha256": "9ce3eab093242da4c8153d164d24bdbbbacc64c5bc564cef1cb0e329165fa5a9",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:44e1960ecbf9584730dad698",
+      "reason": "missing_or_changing_key",
+      "score_id": 6686901,
+      "sha256": "c3a5b8e0dbecd998bce900d83332e6089a310757662a2fd6cf0e726d6ca23abf",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:44e1960ecbf9584730dad698",
+      "reason": "missing_or_changing_key",
+      "score_id": 6686980,
+      "sha256": "1e4569875e9518b1ed807a3a56c44385deb6d820a39af7283d75be755e0cade5",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:44e1960ecbf9584730dad698",
+      "reason": "missing_or_changing_key",
+      "score_id": 6687153,
+      "sha256": "e12983888cd4963f4314e1518ea2333cf920258562ab65ffefd90041ab61b98f",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:3d87a40d691a62ffbfa2d61b",
+      "reason": "missing_or_changing_key",
+      "score_id": 6828018,
+      "sha256": "8c0ca7b942468c098effce922eb06b04cbc6610685366bb6fe1d170e27fc3525",
+      "split": "test",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:f99cd72c863e6d37df3b5446",
+      "reason": "missing_or_changing_key",
+      "score_id": 6885211,
+      "sha256": "c53dc3bcb8d9e2fc496245a9d793ccf7c89642a908f1343fdb3098275f816871",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:f99cd72c863e6d37df3b5446",
+      "reason": "missing_or_changing_key",
+      "score_id": 6909438,
+      "sha256": "4776b715a1921423f7355a664ea77fb39e8759e582e0b92f2b829a888a61ed9c",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:f99cd72c863e6d37df3b5446",
+      "reason": "missing_or_changing_key",
+      "score_id": 6909543,
+      "sha256": "9fca28ade55856f93dec972b21c289602233f16b73f0521d11b0d408e16dd898",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:f99cd72c863e6d37df3b5446",
+      "reason": "missing_or_changing_key",
+      "score_id": 6909785,
+      "sha256": "5609e9177c4bc7c2358f64ab0448db942c9cb8cebabcffefceaf4985b04bd46f",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:f99cd72c863e6d37df3b5446",
+      "reason": "missing_or_changing_key",
+      "score_id": 6910703,
+      "sha256": "cbeb857ebd0671b6772db09870f0c3dcf953247a0eac63d0e7e12e99ad5de8f5",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:f99cd72c863e6d37df3b5446",
+      "reason": "missing_or_changing_key",
+      "score_id": 6916642,
+      "sha256": "0dc8bec7ed088582926fd519a616dc262823e1ee52330200945de416be63b703",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:f99cd72c863e6d37df3b5446",
+      "reason": "missing_or_changing_key",
+      "score_id": 6925763,
+      "sha256": "d29706faeae33921fb5ce96c9ac038654b219e33f26543ab58891a581c3c7528",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:f99cd72c863e6d37df3b5446",
+      "reason": "volta_span_unsupported_entire_score",
+      "score_id": 6969398,
+      "sha256": "ca195c718d8a82b62cc5285469c5ea44889078c9ba5b1f48e9dd6e1b1c011999",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:f99cd72c863e6d37df3b5446",
+      "reason": "missing_or_changing_key",
+      "score_id": 6979621,
+      "sha256": "f1747d1e9ec9167999c4246bd818025e336ab1b82f8d71a959ab26a78b99e29e",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:ee44a9076e2218f93ef4f1fc",
+      "reason": "missing_or_changing_key",
+      "score_id": 6984262,
+      "sha256": "59a7871683ca7ea7d26fdc7c180e0216211c3db066f3538f7e5c901b363b6b20",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:ee44a9076e2218f93ef4f1fc",
+      "reason": "missing_or_changing_key",
+      "score_id": 6984553,
+      "sha256": "3a9f9992c02d29d74d7944360309733a6bf7f63bb6c635db10d5a694849aabc1",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:ee44a9076e2218f93ef4f1fc",
+      "reason": "missing_or_changing_key",
+      "score_id": 6985082,
+      "sha256": "4b715f699ce58b6a33a1729e27ccd70fa478bed2a6f5e44062b1a756af110e38",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:1cea5a95ae511edf2931a1da",
+      "reason": "missing_or_changing_key",
+      "score_id": 8708253,
+      "sha256": "8459b6e98f6fab312659e9a8eccce3b7ad8ab0ed2c0873545124042696503c1c",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:1cea5a95ae511edf2931a1da",
+      "reason": "missing_or_changing_meter",
+      "score_id": 8708688,
+      "sha256": "9c2aa9402cdfe9285d5303ad0f32d52fd2482dd9bfb2da282731b505338869e9",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:1cea5a95ae511edf2931a1da",
+      "reason": "missing_or_changing_key",
+      "score_id": 8712405,
+      "sha256": "39790e8066dd846bea4a77b2b4b4b189909b9848c15bc3748ef0534faf8437f8",
+      "split": "train",
+      "stage": "score_gate"
+    },
+    {
+      "family": "openscore-family:1cea5a95ae511edf2931a1da",
+      "reason": "missing_or_changing_meter",
+      "score_id": 8718660,
+      "sha256": "1bbd8dc032cd3d5624e32a96dd3f9093e2345a947688357b5404745d35e4c9d9",
+      "split": "train",
+      "stage": "score_gate"
+    }
+  ],
+  "family_groups": {
+    "openscore-family:0adc3c8ef373a8f8f5c70791": [
+      "openscore:Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.32"
+    ],
+    "openscore-family:1c6a00e405cadb667d1af2ca": [
+      "openscore:Schumann,_Robert/Liederkreis,_Op.39"
+    ],
+    "openscore-family:1cea5a95ae511edf2931a1da": [
+      "openscore:Brahms,_Johannes/Marienlieder,_Op.22"
+    ],
+    "openscore-family:207fb3dc0ce7524384ea50dc": [
+      "openscore:Brahms,_Johannes/7_Lieder,_Op.48"
+    ],
+    "openscore-family:2343e08c8401f8641876c4c0": [
+      "openscore:Brahms,_Johannes/2_Gesänge,_Op.91"
+    ],
+    "openscore-family:32f359d66bc5a3539d287531": [
+      "openscore:Schubert,_Franz/Winterreise,_D.911"
+    ],
+    "openscore-family:3802788d13a7fda4b835ebc5": [
+      "openscore:Brahms,_Johannes/9_Lieder_und_Gesänge,_Op.63"
+    ],
+    "openscore-family:39c0993a38d765104b13b002": [
+      "openscore:Schubert,_Franz/4_Gesänge_aus_„Wilhelm_Meister“,_D.877"
+    ],
+    "openscore-family:3d87a40d691a62ffbfa2d61b": [
+      "openscore:Schumann,_Robert/5_Lieder_und_Gesänge,_Op.127"
+    ],
+    "openscore-family:44e1960ecbf9584730dad698": [
+      "openscore:Brahms,_Johannes/4_Serious_Songs,_Op.121"
+    ],
+    "openscore-family:5552dcbf7dc2cae25136f958": [
+      "openscore:Schubert,_Franz/Schwanengesang,_D.957"
+    ],
+    "openscore-family:566d36624ff5b64a30b2f94f": [
+      "openscore:Schubert,_Franz/Die_schöne_Müllerin,_D.795"
+    ],
+    "openscore-family:59965c7472a46267693a615c": [
+      "openscore:Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.59"
+    ],
+    "openscore-family:7822302d8ba468d879b4f5e7": [
+      "openscore:Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.57"
+    ],
+    "openscore-family:9de65466454f3fde017165ed": [
+      "openscore:Brahms,_Johannes/4_Gesänge,_Op.46"
+    ],
+    "openscore-family:a18525f87f3f4582f1d6b457": [
+      "openscore:Brahms,_Johannes/5_Lieder,_Op.47"
+    ],
+    "openscore-family:b5c12a32c06381c681ec589e": [
+      "openscore:Schumann,_Robert/Frauenliebe_und_Leben,_Op.42"
+    ],
+    "openscore-family:bc5030dde6039f482d61b4da": [
+      "openscore:Brahms,_Johannes/8_Lieder_und_Gesänge,_Op.58"
+    ],
+    "openscore-family:c14d8ca456603fe2310fc17e": [
+      "openscore:Brahms,_Johannes/4_Songs,_Op.43"
+    ],
+    "openscore-family:ee44a9076e2218f93ef4f1fc": [
+      "openscore:Schumann,_Robert/Lieder_und_Gesänge,_Vol.IV,_Op.96"
+    ],
+    "openscore-family:f9208df8def988ab27eb0fcf": [
+      "openscore:Brahms,_Johannes/5_Lieder,_Op.49"
+    ],
+    "openscore-family:f99cd72c863e6d37df3b5446": [
+      "openscore:Schumann,_Robert/Myrthen,_Op.25"
+    ]
+  },
+  "note": "Passes score gate does not imply contribution to training; see counts. No source score bytes, lyrics, or annotation content distributed."
+}
