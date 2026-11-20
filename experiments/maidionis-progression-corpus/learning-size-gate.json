@@ -1,0 +1,11 @@
+{
+  "schema": "mousa.progression-minimum-training-size-gate.v1",
+  "frozen_before_reviewing_v2_counts": true,
+  "context_bars": 8,
+  "minimum_train_scores_with_selected_windows": 10,
+  "minimum_test_families_with_selected_windows": 3,
+  "minimum_train_windows": 100,
+  "minimum_test_windows": 30,
+  "meaning": "Avoid meaningless tiny fitting; not quality or generalization acceptance",
+  "on_failure": "No 8-context fit; consider separate shorter-context protocol without altering this result"
+}

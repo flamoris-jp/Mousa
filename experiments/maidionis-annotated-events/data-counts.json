@@ -1,0 +1,8 @@
+{
+  "train_windows": 8616,
+  "test_windows": 2213,
+  "train_families": 559,
+  "test_families": 143,
+  "gate_pass": true,
+  "total_families": 729
+}

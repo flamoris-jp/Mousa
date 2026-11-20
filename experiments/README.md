@@ -1,4 +1,6 @@
-# Mousa experiment evidence
+# Experiments
+
+Reproducible, traceable Mousa music research belongs here with input source hashes, license evidence, environment, seed, exact model/config, split identities, baselines, metrics with denominators, failure cases and artifact digests.
 
 ## Trial 001 recovery
 
@@ -37,3 +39,11 @@ The three public works are now familiar development diagnostics. This is not fre
 The workflow artifact contains reports, sampling records and previews, not raw corpus or weights. Actual repository retention is **3 days**, overriding the requested 14 days; preserve needed evidence separately rather than relying on that ephemeral ZIP. The committed acceptance record and source hashes remain after artifact expiry.
 
 Native reports bind dataset, code-build, environment and export hashes. No Critic, preference learning, Runtime-serving qualification, GPU acceptance or Cantabile editing is established by this trial.
+
+## Exploratory field notes / 探索記録
+
+Qualitative observations from external tools may inform Mousa research, but are not demonstrations of Mousa capabilities or reproducible benchmarks. Separate user reports, retrieved metadata, interpretations, hypotheses, unknowns and proposed follow-up tests. Do not publish private media or convert session feedback into universal quality labels.
+
+| Date | Note | Evidence status |
+| --- | --- | --- |
+| 2026-11-11 | [探すときは大胆に、仕上げるときは細かく: Sunoの編成・空間・高変化設定・絵文字入力](2026-11-11-suno-creative-exploration.md) | Conversation-based exploratory case; one evaluator; no controlled comparison or verified audio measurement |

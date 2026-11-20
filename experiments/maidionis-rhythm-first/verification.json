@@ -1,0 +1,70 @@
+{
+  "python_tests": 87,
+  "passed": 86,
+  "existing_skip": 1,
+  "native_no_fit_cases": 17,
+  "native_rejection_cases": 14,
+  "native_valid_preflight_cases": 3,
+  "independent_data_rows": 4386,
+  "independent_models_and_scores_checked": true,
+  "full_piece_rhythm_query_order_tested": true,
+  "same_seed_replay_exact": true,
+  "audio": [
+    {
+      "name": "independent-101",
+      "seconds": 21.2,
+      "gain": 12,
+      "peak": 12492,
+      "clipped": 0,
+      "midi_roundtrip_exact": true,
+      "mp3_sha256": "71d654d490e95c26ef9be182b92af54aad77f73bd57b52651dbf54d8bb945cb6"
+    },
+    {
+      "name": "rhythm_first-101",
+      "seconds": 21.2,
+      "gain": 12,
+      "peak": 14832,
+      "clipped": 0,
+      "midi_roundtrip_exact": true,
+      "mp3_sha256": "eb97ebbe12e8a1d053e8852a59217160766ca54693b2491709cc0debb5eedf8e"
+    },
+    {
+      "name": "independent-102",
+      "seconds": 21.2,
+      "gain": 12,
+      "peak": 14484,
+      "clipped": 0,
+      "midi_roundtrip_exact": true,
+      "mp3_sha256": "747299d2709223165f985dfd5c9b34b0a24b187969cd4bdba99743227f92f07b"
+    },
+    {
+      "name": "rhythm_first-102",
+      "seconds": 21.2,
+      "gain": 12,
+      "peak": 14688,
+      "clipped": 0,
+      "midi_roundtrip_exact": true,
+      "mp3_sha256": "d32bc3d249ddf2361ab18ba84b4f13c2cfc71a513ae166a5c7d82ffae3143f44"
+    },
+    {
+      "name": "independent-103",
+      "seconds": 21.2,
+      "gain": 12,
+      "peak": 13452,
+      "clipped": 0,
+      "midi_roundtrip_exact": true,
+      "mp3_sha256": "782aa644637f361bf65017fbc433a747bcbb35ebefd7ff02fdb6d9f0f809918b"
+    },
+    {
+      "name": "rhythm_first-103",
+      "seconds": 21.2,
+      "gain": 12,
+      "peak": 13452,
+      "clipped": 0,
+      "midi_roundtrip_exact": true,
+      "mp3_sha256": "806e5472084f767b67d652edec59c9c1bc1e15a47b6d659958a83e9ba2c8bda9"
+    }
+  ],
+  "human_listening": false,
+  "original_checkpoint_sha256": "34dd1e168367a12390d2b10c1bf534459c24413a8460e74555da63b625d5d7f7"
+}

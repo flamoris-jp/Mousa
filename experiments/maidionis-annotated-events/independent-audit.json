@@ -1,0 +1,138 @@
+{
+  "schema": "mousa.annotated-event-independent-audit.v1",
+  "no_fit_or_forward_inference": true,
+  "data_sha256": "93a912c1578cf885c26eb1778df522b632cda29fdb1cf061dcf4f3f1098baadc",
+  "weights_sha256": "c7ed30a55533bf47462003d5f0156c1a60ac90bda5a2e88894ac39709f6f02e9",
+  "manifest_sha256": "e8ace80fe98db257f6398d8d3fdd4e78b7614690fbe0e08a42d47b7ad0d3d6fc",
+  "results_sha256": "12451a7e1a0412778e69f5d1e67c6ac693ecc82c3eb5f13ff5a35f6e840a74d8",
+  "sample_draws": 1920,
+  "sample_unique_rows": 1737,
+  "sample_families": 539,
+  "sample_songs": 539,
+  "train_families": 559,
+  "test_families": 143,
+  "diversity": {
+    "sampled": {
+      "rows": 1920,
+      "distinct_contexts": 364,
+      "distinct_trigrams": 747,
+      "distinct_target_classes": 50,
+      "distinct_any_position_classes": 65
+    },
+    "train": {
+      "rows": 8616,
+      "distinct_contexts": 688,
+      "distinct_trigrams": 1918,
+      "distinct_target_classes": 71,
+      "distinct_any_position_classes": 78
+    },
+    "test": {
+      "rows": 2213,
+      "distinct_contexts": 337,
+      "distinct_trigrams": 712,
+      "distinct_target_classes": 60,
+      "distinct_any_position_classes": 67
+    }
+  },
+  "checked_source_aligned_rows": 10829,
+  "verified_source_pairs": 728,
+  "independent_metric_checks": 82278,
+  "models": {
+    "initial_ai": {
+      "micro": {
+        "rows": 2213,
+        "nll": 4.945042258304436,
+        "accuracy": 0.0
+      },
+      "family_macro": {
+        "families": 143,
+        "nll": 4.933452708119557,
+        "accuracy": 0.0
+      }
+    },
+    "trained_ai": {
+      "micro": {
+        "rows": 2213,
+        "nll": 2.5651293111720133,
+        "accuracy": 0.306823316764573
+      },
+      "family_macro": {
+        "families": 143,
+        "nll": 2.581489292126363,
+        "accuracy": 0.303295189658826
+      }
+    },
+    "full_train_unigram": {
+      "micro": {
+        "rows": 2213,
+        "nll": 2.938260767991177,
+        "accuracy": 0.2263895164934478
+      },
+      "family_macro": {
+        "families": 143,
+        "nll": 2.9507754401423116,
+        "accuracy": 0.22299480822208095
+      }
+    },
+    "full_train_trigram": {
+      "micro": {
+        "rows": 2213,
+        "nll": 2.931433081393176,
+        "accuracy": 0.3804789877993674
+      },
+      "family_macro": {
+        "families": 143,
+        "nll": 2.964279931364262,
+        "accuracy": 0.37632443314261493
+      }
+    },
+    "exposure_matched_unigram": {
+      "micro": {
+        "rows": 2213,
+        "nll": 2.9529597675108374,
+        "accuracy": 0.2263895164934478
+      },
+      "family_macro": {
+        "families": 143,
+        "nll": 2.9646925901361527,
+        "accuracy": 0.22299480822208095
+      }
+    },
+    "exposure_matched_trigram": {
+      "micro": {
+        "rows": 2213,
+        "nll": 3.4129781413741758,
+        "accuracy": 0.35472209670131044
+      },
+      "family_macro": {
+        "families": 143,
+        "nll": 3.4372862299900295,
+        "accuracy": 0.3484398177579996
+      }
+    }
+  },
+  "model_parameters": 53,
+  "optimizer_moment_tensors": 106,
+  "optimizer_steps": 60,
+  "embedding_delta_l1_independently_reconstructed": 44.09916305541992,
+  "saved_native_reload_logits_exact": true,
+  "reload_scope": "Inspected native same-process save/reload probe assertion only. No new forward or fresh-process parity check.",
+  "schedule_reproduced_cpp_mt19937": true,
+  "cpu_seconds": 5.101712,
+  "limitations": [
+    "Single seed314 60-step fresh-model experiment, not robustness evidence.",
+    "Source formats and quantities inspected before protocol; not source-blind.",
+    "Historical exposure and alternate-title cover identity unresolved.",
+    "Teacher-forced next-chord order prediction, not melody, rhythm, multi-track composition or listening quality.",
+    "Train/test windows within families are correlated, not independent musical works.",
+    "Slash bass is retained as provenance but ignored in target; unsupported qualities and uncertain timing/context break histories.",
+    "Lower trained-AI NLL but lower top1 accuracy than full-train trigram is a metric tradeoff, not overall superiority.",
+    "No retraining, forward inference, optimizer resume or human listening in this audit."
+  ],
+  "schedule_indices_sha256": "527ea5b9881716dc916d8240696942fe9f90bdb7ea72b02479f406b7a1982635",
+  "protocol_sha256": "0aa5b6ec9ec79bb96703b47e4b824a8ed3c37c8df1d10d3080e168ad8a8a4354",
+  "prepare_sha256": "95c64251ece9e5477780f6f1d016d7196dcf29b4cbcc93f49bc2fee515ece070",
+  "frozen_family_split_verified": true,
+  "alignment_scope": "All 10829 input/target windows checked against prepared event labels, continuity, context and source-line identities; 728 representative source LAB/SALAMI byte hashes verified. Raw LAB interpretation was separately reviewed, not newly reimplemented in this audit.",
+  "parameter_count_description": "53 named parameter tensors, not 53 scalar parameters"
+}

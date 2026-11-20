@@ -1,0 +1,173 @@
+{
+  "date_jst": "2026-11-15",
+  "source_generation_reference": "ce10fd62acb0e002787c6f808df8bb145878dfff",
+  "core_commit": "c288e92979d5005742a1bc3f86b389eadbc873d3",
+  "unit_tests": {
+    "run": 58,
+    "passed": 57,
+    "skipped": 1,
+    "failed": 0
+  },
+  "native_adversarial_scale_support_cases": 444,
+  "native_rule_rejection_cases": 6,
+  "native_request_rejections_before_checkpoint_load": 5,
+  "actual_saved_model_conditions": 10,
+  "actual_generated_candidates": 30,
+  "actual_generated_notes": 1622,
+  "off_scale_notes": 0,
+  "forbidden_probability_mass": 0,
+  "model_weights_unchanged": true,
+  "one_condition_exact_replay_except_cpu_time": true,
+  "training_performed": false,
+  "gpu_used": false,
+  "midi_exported": false,
+  "cases": [
+    {
+      "scale": "major_12tet",
+      "key": "C4",
+      "events": [
+        63,
+        52,
+        48
+      ],
+      "cpu_seconds": 2.127716,
+      "off_scale_notes": 0,
+      "forbidden_probability_mass": 0,
+      "candidate_sha256": "c36dc71039537f291a2256b3861d38ae86e051a90d78e096f2455c72396d7ce6"
+    },
+    {
+      "scale": "major_12tet",
+      "key": "D4",
+      "events": [
+        63,
+        51,
+        48
+      ],
+      "cpu_seconds": 1.200604,
+      "off_scale_notes": 0,
+      "forbidden_probability_mass": 0,
+      "candidate_sha256": "40459de16f55b56d446c8df7561add59829fc6ddf653851ec4fcf8b123ac7d40"
+    },
+    {
+      "scale": "natural_minor_12tet",
+      "key": "C4",
+      "events": [
+        58,
+        50,
+        48
+      ],
+      "cpu_seconds": 0.939454,
+      "off_scale_notes": 0,
+      "forbidden_probability_mass": 0,
+      "candidate_sha256": "e43086a40635976dee683dff680f224d554dbaeefc2702825ab0cfb8b64b5dcf"
+    },
+    {
+      "scale": "natural_minor_12tet",
+      "key": "D4",
+      "events": [
+        63,
+        52,
+        49
+      ],
+      "cpu_seconds": 0.97632,
+      "off_scale_notes": 0,
+      "forbidden_probability_mass": 0,
+      "candidate_sha256": "88c500c3507620f9904b4adf700b7dead744b000f44b530117eb278d3ecbbff6"
+    },
+    {
+      "scale": "major_pentatonic_12tet",
+      "key": "C4",
+      "events": [
+        64,
+        49,
+        49
+      ],
+      "cpu_seconds": 0.929073,
+      "off_scale_notes": 0,
+      "forbidden_probability_mass": 0,
+      "candidate_sha256": "89f452fadc09c163999fb811b93b2319c8d8dd36374982f035e9caa9952d501d"
+    },
+    {
+      "scale": "major_pentatonic_12tet",
+      "key": "D4",
+      "events": [
+        64,
+        49,
+        49
+      ],
+      "cpu_seconds": 0.966792,
+      "off_scale_notes": 0,
+      "forbidden_probability_mass": 0,
+      "candidate_sha256": "658e47028c5fe8d9a961c0bfe9a0f9e424242a8aa11dd3d182ec175f7e0e3cac"
+    },
+    {
+      "scale": "ryukyu_12tet",
+      "key": "C4",
+      "events": [
+        62,
+        52,
+        49
+      ],
+      "cpu_seconds": 0.930137,
+      "off_scale_notes": 0,
+      "forbidden_probability_mass": 0,
+      "candidate_sha256": "45c28fc67c82182f9f67a89dbffae6d7bdaa3fcb7a2709f2edd281af2a9b449e"
+    },
+    {
+      "scale": "ryukyu_12tet",
+      "key": "D4",
+      "events": [
+        63,
+        52,
+        49
+      ],
+      "cpu_seconds": 0.991882,
+      "off_scale_notes": 0,
+      "forbidden_probability_mass": 0,
+      "candidate_sha256": "7d354856b3073d5b52c153ae3bb9271e1f1986628ebcb74600d2f690a42ba21a"
+    },
+    {
+      "scale": "miyako_12tet",
+      "key": "C4",
+      "events": [
+        64,
+        50,
+        49
+      ],
+      "cpu_seconds": 0.982044,
+      "off_scale_notes": 0,
+      "forbidden_probability_mass": 0,
+      "candidate_sha256": "a820e2779b2fd3e0e30426b17edad2d0292d61d7c603952150a08ffca2a70c9e"
+    },
+    {
+      "scale": "miyako_12tet",
+      "key": "D4",
+      "events": [
+        64,
+        50,
+        49
+      ],
+      "cpu_seconds": 0.961883,
+      "off_scale_notes": 0,
+      "forbidden_probability_mass": 0,
+      "candidate_sha256": "f82fce5a13fc91023a2017ce65304fe63ff3fe41cb86412275faea956e84e58a"
+    }
+  ],
+  "environment": {
+    "abi": 0,
+    "build_type": "Release",
+    "compiler": "14.2.0",
+    "compiler_flags": " -D_GLIBCXX_USE_CXX11_ABI=0 -D_GLIBCXX_USE_CXX11_ABI=0 -O0 -g0",
+    "deterministic": true,
+    "dtype": "float32",
+    "libtorch": "2.5.1",
+    "platform": "linux.x86_64",
+    "threads": 1
+  },
+  "limitations": [
+    "Historical checkpoint supports integer-semitone scales at A4=440 only; microtonal scales and offsets are rejected",
+    "No new learning, corpus reads or generalization/quality measurement",
+    "Raw proposals have not passed the separate copy/similarity and MIDI-delivery gates",
+    "No Cantabile project change or audio playback test"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "first_arm_replay_exact": true,
+  "replayed_arm": "train18_ordered seed42",
+  "full_nine_arm_replay": false,
+  "initial_same_seed_exact_across_arms": true,
+  "native_model_tests_prior_same_core": "passed",
+  "no_main_changes": true,
+  "evidence_path": "assets/mousa/materials/metadata/maidionis-midi-learning-20261115-evidence.zip",
+  "evidence_sha256": "7a67cd00707c6bb0d72bc2722572ace8940404fc5e5d7f6e0d201b991e7851b3",
+  "evidence_bytes": 785313
+}

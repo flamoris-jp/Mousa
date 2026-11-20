@@ -1,0 +1,53 @@
+{
+  "accepted_bars": 425,
+  "assigned_families": {
+    "test": 5,
+    "train": 17
+  },
+  "available_exact_files": 191,
+  "bars": 4062,
+  "candidate_entries": 198,
+  "exclusion_counts": {
+    "MuseScore3_only": 43,
+    "missing_exact_file": 7,
+    "missing_or_changing_key": 37,
+    "missing_or_changing_meter": 9,
+    "missing_or_unsupported_CC0_metadata": 17,
+    "unsupported_key_signature": 1
+  },
+  "families_after_union": 22,
+  "families_before_union": 22,
+  "families_with_windows": {
+    "test": 1,
+    "train": 1
+  },
+  "family_window_counts": {
+    "openscore-family:5552dcbf7dc2cae25136f958": 2,
+    "openscore-family:c14d8ca456603fe2310fc17e": 2
+  },
+  "label_counts": {
+    "test": {
+      "5": 1,
+      "9": 1
+    },
+    "train": {
+      "0": 1,
+      "10": 1
+    }
+  },
+  "null_bar_reasons": {
+    "ambiguous_margin": 24,
+    "fewer_than_three_pitch_classes": 20,
+    "low_coverage": 102,
+    "silent_bar": 2,
+    "structural_rejection": 3489
+  },
+  "rows": {
+    "test": 2,
+    "train": 2
+  },
+  "scores_passed_structure": 84,
+  "status": "prepared_not_trained",
+  "training_sha256": "6f96f22af30b209c83719381ebeb8bf9b9268cd61e6803349d472610798ca8a5",
+  "run": "initial-parser"
+}

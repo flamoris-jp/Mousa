@@ -1,0 +1,149 @@
+{
+  "same_seed_replay_exact": true,
+  "candidates": [
+    {
+      "seed": 101,
+      "variant": "learned",
+      "end_tick": 15360,
+      "seconds": 19.2,
+      "descriptors": {
+        "notes": 57,
+        "ioi_entropy_bits": 1.664870794223701,
+        "distinct_rhythm_triples": 7,
+        "adjacent_rhythm_repeat_fraction": 0.48214285714285715,
+        "silence_fraction": 0.033854166666666664,
+        "offbeat_onset_fraction": 0.9824561403508771,
+        "triplet_grid_nonstraight_fraction": 0.19298245614035087,
+        "accent_classes": 3,
+        "phrase_proposals": 0
+      },
+      "screen": {
+        "blocked": false,
+        "max_pitch_interval_run": 4,
+        "max_paired_interval_ioi_run": 3
+      },
+      "exported": true,
+      "midi_sha256": "3ebf697ee8402a8430a68410b0a551e5ef7fdb8fc4abc18e750c0706290ed361"
+    },
+    {
+      "seed": 101,
+      "variant": "fixed",
+      "end_tick": 27360,
+      "seconds": 34.199999999999996,
+      "descriptors": {
+        "notes": 57,
+        "ioi_entropy_bits": -0.0,
+        "distinct_rhythm_triples": 1,
+        "adjacent_rhythm_repeat_fraction": 1.0,
+        "silence_fraction": 0.25,
+        "offbeat_onset_fraction": 0.0,
+        "triplet_grid_nonstraight_fraction": 0.0,
+        "accent_classes": 1,
+        "phrase_proposals": 0
+      },
+      "screen": {
+        "blocked": false,
+        "max_pitch_interval_run": 4,
+        "max_paired_interval_ioi_run": 3
+      },
+      "exported": true,
+      "midi_sha256": "f6cb77cbd4c2bfc0d2f30f06c6493d380becc8ff001d5618c5f194c452ec11fc"
+    },
+    {
+      "seed": 102,
+      "variant": "learned",
+      "end_tick": 15360,
+      "seconds": 19.2,
+      "descriptors": {
+        "notes": 64,
+        "ioi_entropy_bits": 1.308236755765453,
+        "distinct_rhythm_triples": 5,
+        "adjacent_rhythm_repeat_fraction": 0.5238095238095238,
+        "silence_fraction": 0.0,
+        "offbeat_onset_fraction": 0.828125,
+        "triplet_grid_nonstraight_fraction": 0.0,
+        "accent_classes": 2,
+        "phrase_proposals": 0
+      },
+      "screen": {
+        "blocked": false,
+        "max_pitch_interval_run": 5,
+        "max_paired_interval_ioi_run": 4
+      },
+      "exported": true,
+      "midi_sha256": "587e0cc1fd2aab843b16fed68f3f8e7ce6f5adc7d8c1e204c190c41754f436c3"
+    },
+    {
+      "seed": 102,
+      "variant": "fixed",
+      "end_tick": 30720,
+      "seconds": 38.4,
+      "descriptors": {
+        "notes": 64,
+        "ioi_entropy_bits": -0.0,
+        "distinct_rhythm_triples": 1,
+        "adjacent_rhythm_repeat_fraction": 1.0,
+        "silence_fraction": 0.25,
+        "offbeat_onset_fraction": 0.0,
+        "triplet_grid_nonstraight_fraction": 0.0,
+        "accent_classes": 1,
+        "phrase_proposals": 0
+      },
+      "screen": {
+        "blocked": false,
+        "max_pitch_interval_run": 5,
+        "max_paired_interval_ioi_run": 3
+      },
+      "exported": true,
+      "midi_sha256": "389eafb004b181f6452eb3d5818d45f07a41cfb9d0e9481ba83738f276d04bf6"
+    },
+    {
+      "seed": 103,
+      "variant": "learned",
+      "end_tick": 15360,
+      "seconds": 19.2,
+      "descriptors": {
+        "notes": 59,
+        "ioi_entropy_bits": 1.7305458188107983,
+        "distinct_rhythm_triples": 8,
+        "adjacent_rhythm_repeat_fraction": 0.46551724137931033,
+        "silence_fraction": 0.0,
+        "offbeat_onset_fraction": 0.847457627118644,
+        "triplet_grid_nonstraight_fraction": 0.11864406779661017,
+        "accent_classes": 2,
+        "phrase_proposals": 1
+      },
+      "screen": {
+        "blocked": false,
+        "max_pitch_interval_run": 5,
+        "max_paired_interval_ioi_run": 4
+      },
+      "exported": true,
+      "midi_sha256": "523cf03b17d072bb714dddba2ca9633bdef68526ea0e2236f2277d7137fcf4a2"
+    },
+    {
+      "seed": 103,
+      "variant": "fixed",
+      "end_tick": 28320,
+      "seconds": 35.4,
+      "descriptors": {
+        "notes": 59,
+        "ioi_entropy_bits": -0.0,
+        "distinct_rhythm_triples": 1,
+        "adjacent_rhythm_repeat_fraction": 1.0,
+        "silence_fraction": 0.25,
+        "offbeat_onset_fraction": 0.0,
+        "triplet_grid_nonstraight_fraction": 0.0,
+        "accent_classes": 1,
+        "phrase_proposals": 0
+      },
+      "screen": {
+        "blocked": false,
+        "max_pitch_interval_run": 5,
+        "max_paired_interval_ioi_run": 4
+      },
+      "exported": true,
+      "midi_sha256": "c42056fe9360a6b3d0774a56aa773b83cebf6a51afa62ff7c7720ce5e1f02883"
+    }
+  ]
+}

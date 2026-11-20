@@ -1,0 +1,337 @@
+{
+  "context_length": 2,
+  "denominators": {
+    "sample_draws": 1920,
+    "sample_families": 11,
+    "sample_unique_rows": 586,
+    "test_families": 5,
+    "test_rows": 102,
+    "train_families": 12,
+    "train_rows": 620
+  },
+  "fit_manifest_digest_binding_verified": true,
+  "inputs_sha256": {
+    "native_results": "2953fe1b68056dfd8b53fd1a135fb94b43360e15f99bbc36763cf3224878be1c",
+    "training_data": "8bbabc9418ea5d9c71e5b84822e0ca2de61c0ad6a9d41a1529f0d8da6f790286"
+  },
+  "label_mapping": "root + 7 * seventh_flag; root=0..6, seventh_flag=0..1",
+  "limitations": [
+    "Weak labels are automatic analyses, not human harmonic truth.",
+    "Teacher-forced next-label evaluation is not musical quality.",
+    "Count models and neural optimization share observations, not identical learning dynamics."
+  ],
+  "protocol": {
+    "alpha": 1,
+    "baseline_exposure_is_observations_not_optimizer_steps": true,
+    "classes": 14,
+    "test_used_for_fit_or_tuning": false,
+    "tie_break": "lowest numeric label",
+    "trigram_context": "last two prior labels from input[-2:] minus 2",
+    "unseen_context": "uniform Laplace distribution over 14 labels"
+  },
+  "schedule_indices_sha256": "0b49b75f05db56e3b6990faf7370b0320cb75df5070a76dbaad5bf2959d098b4",
+  "schema": "mousa.progression-baseline-evaluation.v1",
+  "task_id": "mousa.major-progression-local2.weak-label.experimental.v1",
+  "models": {
+    "exposure_matched_trigram": {
+      "metrics": {
+        "family_macro": {
+          "accuracy": 0.2045285359801489,
+          "families": 5,
+          "nll": 2.5192948776336417
+        },
+        "micro": {
+          "accuracy": 0.18627450980392157,
+          "nll": 2.5691873893204185,
+          "rows": 102
+        },
+        "per_family": {
+          "openscore-family:39c0993a38d765104b13b002": {
+            "accuracy": 0.4583333333333333,
+            "nll": 2.1006930527664687,
+            "rows": 24
+          },
+          "openscore-family:3d87a40d691a62ffbfa2d61b": {
+            "accuracy": 0.3333333333333333,
+            "nll": 1.9264513872473517,
+            "rows": 9
+          },
+          "openscore-family:7822302d8ba468d879b4f5e7": {
+            "accuracy": 0.08333333333333333,
+            "nll": 3.0525233846619426,
+            "rows": 12
+          },
+          "openscore-family:bc5030dde6039f482d61b4da": {
+            "accuracy": 0.11538461538461539,
+            "nll": 2.6697732250295783,
+            "rows": 26
+          },
+          "openscore-family:c14d8ca456603fe2310fc17e": {
+            "accuracy": 0.03225806451612903,
+            "nll": 2.847033338462868,
+            "rows": 31
+          }
+        }
+      }
+    },
+    "exposure_matched_unigram": {
+      "metrics": {
+        "family_macro": {
+          "accuracy": 0.08349875930521092,
+          "families": 5,
+          "nll": 2.6254596409446744
+        },
+        "micro": {
+          "accuracy": 0.10784313725490197,
+          "nll": 2.60957201724996,
+          "rows": 102
+        },
+        "per_family": {
+          "openscore-family:39c0993a38d765104b13b002": {
+            "accuracy": 0.25,
+            "nll": 2.303936112213124,
+            "rows": 24
+          },
+          "openscore-family:3d87a40d691a62ffbfa2d61b": {
+            "accuracy": 0.0,
+            "nll": 2.611438772692924,
+            "rows": 9
+          },
+          "openscore-family:7822302d8ba468d879b4f5e7": {
+            "accuracy": 0.0,
+            "nll": 2.7587818951320684,
+            "rows": 12
+          },
+          "openscore-family:bc5030dde6039f482d61b4da": {
+            "accuracy": 0.038461538461538464,
+            "nll": 2.9547673589366172,
+            "rows": 26
+          },
+          "openscore-family:c14d8ca456603fe2310fc17e": {
+            "accuracy": 0.12903225806451613,
+            "nll": 2.498374065748638,
+            "rows": 31
+          }
+        }
+      }
+    },
+    "full_train_trigram": {
+      "metrics": {
+        "family_macro": {
+          "accuracy": 0.21098014888337469,
+          "families": 5,
+          "nll": 2.456967578839911
+        },
+        "micro": {
+          "accuracy": 0.19607843137254902,
+          "nll": 2.494832712708938,
+          "rows": 102
+        },
+        "per_family": {
+          "openscore-family:39c0993a38d765104b13b002": {
+            "accuracy": 0.4583333333333333,
+            "nll": 2.1549268708473357,
+            "rows": 24
+          },
+          "openscore-family:3d87a40d691a62ffbfa2d61b": {
+            "accuracy": 0.3333333333333333,
+            "nll": 2.0717099494027114,
+            "rows": 9
+          },
+          "openscore-family:7822302d8ba468d879b4f5e7": {
+            "accuracy": 0.08333333333333333,
+            "nll": 2.7817181299496028,
+            "rows": 12
+          },
+          "openscore-family:bc5030dde6039f482d61b4da": {
+            "accuracy": 0.11538461538461539,
+            "nll": 2.5684573144082057,
+            "rows": 26
+          },
+          "openscore-family:c14d8ca456603fe2310fc17e": {
+            "accuracy": 0.06451612903225806,
+            "nll": 2.7080256295916976,
+            "rows": 31
+          }
+        }
+      }
+    },
+    "full_train_unigram": {
+      "metrics": {
+        "family_macro": {
+          "accuracy": 0.08349875930521092,
+          "families": 5,
+          "nll": 2.6131632962222837
+        },
+        "micro": {
+          "accuracy": 0.10784313725490197,
+          "nll": 2.598364899887995,
+          "rows": 102
+        },
+        "per_family": {
+          "openscore-family:39c0993a38d765104b13b002": {
+            "accuracy": 0.25,
+            "nll": 2.3019355467623446,
+            "rows": 24
+          },
+          "openscore-family:3d87a40d691a62ffbfa2d61b": {
+            "accuracy": 0.0,
+            "nll": 2.601465824754912,
+            "rows": 9
+          },
+          "openscore-family:7822302d8ba468d879b4f5e7": {
+            "accuracy": 0.0,
+            "nll": 2.7441046781313845,
+            "rows": 12
+          },
+          "openscore-family:bc5030dde6039f482d61b4da": {
+            "accuracy": 0.038461538461538464,
+            "nll": 2.904661053887552,
+            "rows": 26
+          },
+          "openscore-family:c14d8ca456603fe2310fc17e": {
+            "accuracy": 0.12903225806451613,
+            "nll": 2.5136493775752267,
+            "rows": 31
+          }
+        }
+      }
+    },
+    "initial_ai": {
+      "metrics": {
+        "family_macro": {
+          "accuracy": 0.0,
+          "families": 5,
+          "nll": 2.967336750812757
+        },
+        "micro": {
+          "accuracy": 0.0,
+          "nll": 2.8973603505714265,
+          "rows": 102
+        },
+        "per_family": {
+          "openscore-family:39c0993a38d765104b13b002": {
+            "accuracy": 0.0,
+            "nll": 2.8843112190564475,
+            "rows": 24
+          },
+          "openscore-family:3d87a40d691a62ffbfa2d61b": {
+            "accuracy": 0.0,
+            "nll": 3.0948926872677274,
+            "rows": 9
+          },
+          "openscore-family:7822302d8ba468d879b4f5e7": {
+            "accuracy": 0.0,
+            "nll": 3.2554538448651633,
+            "rows": 12
+          },
+          "openscore-family:bc5030dde6039f482d61b4da": {
+            "accuracy": 0.0,
+            "nll": 2.854999982393705,
+            "rows": 26
+          },
+          "openscore-family:c14d8ca456603fe2310fc17e": {
+            "accuracy": 0.0,
+            "nll": 2.7470260204807406,
+            "rows": 31
+          }
+        }
+      }
+    },
+    "trained_ai": {
+      "metrics": {
+        "family_macro": {
+          "accuracy": 0.19456851392335264,
+          "families": 5,
+          "nll": 2.785686213595252
+        },
+        "micro": {
+          "accuracy": 0.19607843137254902,
+          "nll": 2.776046217802693,
+          "rows": 102
+        },
+        "per_family": {
+          "openscore-family:39c0993a38d765104b13b002": {
+            "accuracy": 0.4166666666666667,
+            "nll": 1.924033264319102,
+            "rows": 24
+          },
+          "openscore-family:3d87a40d691a62ffbfa2d61b": {
+            "accuracy": 0.2222222222222222,
+            "nll": 2.337323307991028,
+            "rows": 9
+          },
+          "openscore-family:7822302d8ba468d879b4f5e7": {
+            "accuracy": 0.08333333333333333,
+            "nll": 3.7015579690535865,
+            "rows": 12
+          },
+          "openscore-family:bc5030dde6039f482d61b4da": {
+            "accuracy": 0.15384615384615385,
+            "nll": 2.6811403706669807,
+            "rows": 26
+          },
+          "openscore-family:c14d8ca456603fe2310fc17e": {
+            "accuracy": 0.0967741935483871,
+            "nll": 3.2843761559455626,
+            "rows": 31
+          }
+        }
+      }
+    }
+  },
+  "native_run": {
+    "cpu_seconds": 3.873488,
+    "embedding_delta_l1": 12.122264862060547,
+    "reload_logits_exact": true
+  },
+  "model_manifest": {
+    "batch_size": 32,
+    "complete": true,
+    "context_length": 2,
+    "data_sha256": "8bbabc9418ea5d9c71e5b84822e0ca2de61c0ad6a9d41a1529f0d8da6f790286",
+    "environment": {
+      "abi": 0,
+      "build_type": "",
+      "compiler": "14.2.0",
+      "compiler_flags": "-O0 -g0 -D_GLIBCXX_USE_CXX11_ABI=0 -D_GLIBCXX_USE_CXX11_ABI=0 ",
+      "deterministic": true,
+      "dtype": "float32",
+      "libtorch": "2.5.1",
+      "platform": "linux.x86_64",
+      "threads": 1
+    },
+    "model_config": {
+      "controls": [
+        1
+      ],
+      "dropout_milli": 0,
+      "ffn_width": 1024,
+      "heads": 4,
+      "hidden_width": 256,
+      "input_width": 2,
+      "kind": "encoder",
+      "layers": 4,
+      "max_length": 256,
+      "output_width": 14,
+      "vocabulary": 16
+    },
+    "optimizer_sha256": "736d3d5a83171a583611e5728da8cb2431a6dc3d15f27f3ee86f2cac44848148",
+    "results_sha256": "2953fe1b68056dfd8b53fd1a135fb94b43360e15f99bbc36763cf3224878be1c",
+    "schema": "mousa.progression-model.experimental.v1",
+    "seed": 314,
+    "steps": 60,
+    "task_id": "mousa.major-progression-local2.weak-label.experimental.v1",
+    "test_rows": 102,
+    "train_rows": 620,
+    "usage": "weak-label chord-progression research; automatic analysis is not human harmonic truth or musical quality",
+    "weights_sha256": "fb85ee45996312605d339594869f0c6f5fc438c9b023d1e463169e058cf07325"
+  },
+  "evidence_digests": {
+    "manifest.json": "97777533aa99ff65d73c404155617a11837e15d35396d3855ccfa40662182a3d",
+    "results.json": "2953fe1b68056dfd8b53fd1a135fb94b43360e15f99bbc36763cf3224878be1c",
+    "evaluation.json": "a8dc51136e8b5aaac3b7d30824f12f74c8ce38e8c999517a0610aa060df21ab7"
+  },
+  "binary_sha256": "8339eb8efea1715ef1d1efba6b8601d846bbb63b70294ab42f4457852466055c",
+  "core_commit": "c288e92979d5005742a1bc3f86b389eadbc873d3"
+}

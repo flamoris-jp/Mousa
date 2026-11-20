@@ -1,0 +1,4477 @@
+{
+  "context_length": 2,
+  "denominators": {
+    "sample_draws": 1920,
+    "sample_families": 539,
+    "sample_unique_rows": 1737,
+    "test_families": 143,
+    "test_rows": 2213,
+    "train_families": 559,
+    "train_rows": 8616
+  },
+  "fit_manifest_digest_binding_verified": true,
+  "inputs_sha256": {
+    "native_results": "12451a7e1a0412778e69f5d1e67c6ac693ecc82c3eb5f13ff5a35f6e840a74d8",
+    "training_data": "93a912c1578cf885c26eb1778df522b632cda29fdb1cf061dcf4f3f1098baadc"
+  },
+  "label_mapping": "relative_root_pc * 8 + quality_index; roots=0..11; qualities=[maj,min,dim,aug,7,maj7,min7,hdim7]",
+  "limitations": [
+    "Source chord annotations are human analyses; parsing/normalization may still introduce errors.",
+    "Teacher-forced next-label evaluation is not musical quality.",
+    "Count models and neural optimization share observations, not identical learning dynamics."
+  ],
+  "protocol": {
+    "alpha": 1,
+    "baseline_exposure_is_observations_not_optimizer_steps": true,
+    "classes": 96,
+    "test_used_for_fit_or_tuning": false,
+    "tie_break": "lowest numeric label",
+    "trigram_context": "last two prior labels from input[-2:] minus 2",
+    "unseen_context": "uniform Laplace distribution over 96 labels"
+  },
+  "schedule_indices_sha256": "527ea5b9881716dc916d8240696942fe9f90bdb7ea72b02479f406b7a1982635",
+  "schema": "mousa.annotated-event-baseline-evaluation.v1",
+  "task_id": "mousa.relative-chord-events.annotated.experimental.v1",
+  "models": {
+    "exposure_matched_trigram": {
+      "metrics": {
+        "family_macro": {
+          "accuracy": 0.3484398177579996,
+          "families": 143,
+          "nll": 3.43728622999003
+        },
+        "micro": {
+          "accuracy": 0.35472209670131044,
+          "nll": 3.4129781413741758,
+          "rows": 2213
+        },
+        "per_family": {
+          "billboard-family:000f21ac06aceb9cdd0575e8": {
+            "accuracy": 0.375,
+            "nll": 2.82574048394655,
+            "rows": 16
+          },
+          "billboard-family:011af72a910ac4acf367eef9": {
+            "accuracy": 0.5625,
+            "nll": 2.6865338307580005,
+            "rows": 16
+          },
+          "billboard-family:01ce4b291ad3ecd240be7187": {
+            "accuracy": 0.375,
+            "nll": 3.5387082568068315,
+            "rows": 16
+          },
+          "billboard-family:068814875fcdfb8faf539ef4": {
+            "accuracy": 0.5625,
+            "nll": 2.236143515187441,
+            "rows": 16
+          },
+          "billboard-family:06de973bb45531d52cdbd483": {
+            "accuracy": 0.75,
+            "nll": 2.6470297088307286,
+            "rows": 16
+          },
+          "billboard-family:084ae23e6996e701addeeb7d": {
+            "accuracy": 0.6875,
+            "nll": 2.436146872515527,
+            "rows": 16
+          },
+          "billboard-family:086f5cc433f4a20f72051344": {
+            "accuracy": 0.5,
+            "nll": 3.1815127897147004,
+            "rows": 16
+          },
+          "billboard-family:09a1b036b82baba3177d83c2": {
+            "accuracy": 0.125,
+            "nll": 3.9845028244042098,
+            "rows": 16
+          },
+          "billboard-family:0b935e0bc9b943533bb652ac": {
+            "accuracy": 0.1875,
+            "nll": 4.065297382071236,
+            "rows": 16
+          },
+          "billboard-family:0d21ae129a64e1d19e4a94df": {
+            "accuracy": 0.5,
+            "nll": 2.3520891294997126,
+            "rows": 16
+          },
+          "billboard-family:0f78540965a86402578f8188": {
+            "accuracy": 0.5,
+            "nll": 2.9250051070271996,
+            "rows": 16
+          },
+          "billboard-family:1086d35563c495c1cecbce12": {
+            "accuracy": 0.75,
+            "nll": 2.974670869103266,
+            "rows": 16
+          },
+          "billboard-family:10995659fe5526fd493665a8": {
+            "accuracy": 0.09090909090909091,
+            "nll": 4.463489924594767,
+            "rows": 11
+          },
+          "billboard-family:12132cd6767ee325d35883d2": {
+            "accuracy": 0.4375,
+            "nll": 3.2165607146816284,
+            "rows": 16
+          },
+          "billboard-family:1398690ecc7c72bb5833cb11": {
+            "accuracy": 0.1875,
+            "nll": 4.32219846816647,
+            "rows": 16
+          },
+          "billboard-family:16b30490a644117a249c2018": {
+            "accuracy": 0.6875,
+            "nll": 2.9481082212928085,
+            "rows": 16
+          },
+          "billboard-family:1706be6c293444756e72b05e": {
+            "accuracy": 0.0,
+            "nll": 4.591130180915296,
+            "rows": 16
+          },
+          "billboard-family:194dbf72c513dc9ff0bf87b9": {
+            "accuracy": 0.25,
+            "nll": 4.08624538252465,
+            "rows": 16
+          },
+          "billboard-family:1a42d5267aba37d7057cadd6": {
+            "accuracy": 0.0,
+            "nll": 4.446191817726599,
+            "rows": 5
+          },
+          "billboard-family:1bde41ce9b4fccbf7dde0dc3": {
+            "accuracy": 0.0,
+            "nll": 4.582568133273467,
+            "rows": 16
+          },
+          "billboard-family:1c00e16c0db1f129d7b8b87f": {
+            "accuracy": 0.1875,
+            "nll": 4.027267586630405,
+            "rows": 16
+          },
+          "billboard-family:1d0ebea552eb43d0b1e1561f": {
+            "accuracy": 0.125,
+            "nll": 4.538283514848994,
+            "rows": 16
+          },
+          "billboard-family:1da51b8d8ff98f6a48f80ae7": {
+            "accuracy": 0.375,
+            "nll": 3.8229677210799635,
+            "rows": 16
+          },
+          "billboard-family:234666d765f4c0a26cf4d96e": {
+            "accuracy": 0.625,
+            "nll": 3.0300828619485918,
+            "rows": 16
+          },
+          "billboard-family:2618182c3894875e16eeafa6": {
+            "accuracy": 0.125,
+            "nll": 4.267569020997762,
+            "rows": 16
+          },
+          "billboard-family:26fe15811d2d4a635de17c7e": {
+            "accuracy": 0.0,
+            "nll": 4.566291214037001,
+            "rows": 16
+          },
+          "billboard-family:28dae7c8bde2f3ca608f86d0": {
+            "accuracy": 0.625,
+            "nll": 2.6550032974082325,
+            "rows": 16
+          },
+          "billboard-family:29bde016a5b440062043e1a3": {
+            "accuracy": 0.375,
+            "nll": 2.48931452304433,
+            "rows": 16
+          },
+          "billboard-family:2c4cf657337835125bc4258d": {
+            "accuracy": 0.4375,
+            "nll": 3.4978760091548287,
+            "rows": 16
+          },
+          "billboard-family:2c69bc9b34fb0800a44a702e": {
+            "accuracy": 0.1875,
+            "nll": 3.9931693991959,
+            "rows": 16
+          },
+          "billboard-family:2ec42bc1f3e672fc1cf7fdcf": {
+            "accuracy": 0.0,
+            "nll": 4.581010630120436,
+            "rows": 16
+          },
+          "billboard-family:2f1d593cd98cb5bf81eb9d88": {
+            "accuracy": 0.75,
+            "nll": 2.7531794389473823,
+            "rows": 16
+          },
+          "billboard-family:301807d2c5a61aee677de545": {
+            "accuracy": 0.4375,
+            "nll": 3.026673320228558,
+            "rows": 16
+          },
+          "billboard-family:30e4c02268d49ca010e3c62f": {
+            "accuracy": 0.3125,
+            "nll": 3.726381622041679,
+            "rows": 16
+          },
+          "billboard-family:340ab11db8d1a7435cb4b4a0": {
+            "accuracy": 0.5,
+            "nll": 3.582985563945882,
+            "rows": 16
+          },
+          "billboard-family:34be1021b378c5701b4dd143": {
+            "accuracy": 0.625,
+            "nll": 2.605330021216021,
+            "rows": 16
+          },
+          "billboard-family:35254aa9a21444e50349cebb": {
+            "accuracy": 0.375,
+            "nll": 3.4234574851906387,
+            "rows": 16
+          },
+          "billboard-family:37b1267a4ff4e12dddfe4438": {
+            "accuracy": 0.8125,
+            "nll": 1.86146469188424,
+            "rows": 16
+          },
+          "billboard-family:37c20f19f3272b5ccc3a5d80": {
+            "accuracy": 0.5625,
+            "nll": 2.2068658609695806,
+            "rows": 16
+          },
+          "billboard-family:38ee08bb9129d6519eb37341": {
+            "accuracy": 0.1875,
+            "nll": 4.448513960982611,
+            "rows": 16
+          },
+          "billboard-family:3bad45f2cc9f047e72cd5cf4": {
+            "accuracy": 0.5625,
+            "nll": 3.9055269872204184,
+            "rows": 16
+          },
+          "billboard-family:3ef58410b868298fcca4ee41": {
+            "accuracy": 0.0,
+            "nll": 4.157432051652848,
+            "rows": 16
+          },
+          "billboard-family:40794500a2845c943a0f4910": {
+            "accuracy": 0.1875,
+            "nll": 2.815852844694393,
+            "rows": 16
+          },
+          "billboard-family:45297c633d331e6ac35169eb": {
+            "accuracy": 0.8125,
+            "nll": 2.2869936141900666,
+            "rows": 16
+          },
+          "billboard-family:4531f577d6ce6b26377b54d9": {
+            "accuracy": 0.0,
+            "nll": 4.4250395811680745,
+            "rows": 16
+          },
+          "billboard-family:4670f31d8354a04f66878fb1": {
+            "accuracy": 1.0,
+            "nll": 2.590812847640629,
+            "rows": 16
+          },
+          "billboard-family:4c970004b0678d439f177e77": {
+            "accuracy": 0.0625,
+            "nll": 4.133951005206868,
+            "rows": 16
+          },
+          "billboard-family:4e07408562bedb8b60ce05c1": {
+            "accuracy": 0.4375,
+            "nll": 3.340854214513265,
+            "rows": 16
+          },
+          "billboard-family:501a4e61aa4f7737df030512": {
+            "accuracy": 0.0,
+            "nll": 4.5695295849856095,
+            "rows": 2
+          },
+          "billboard-family:5283f1b4e66467616feca1e0": {
+            "accuracy": 0.3125,
+            "nll": 2.2817740611568023,
+            "rows": 16
+          },
+          "billboard-family:52f11620e397f867b7d9f19e": {
+            "accuracy": 0.5,
+            "nll": 2.8856013202271162,
+            "rows": 16
+          },
+          "billboard-family:5426d2ca50f244fb43fe9eaf": {
+            "accuracy": 0.8125,
+            "nll": 1.8207774686699398,
+            "rows": 16
+          },
+          "billboard-family:549a2fac47d713cc00f2db49": {
+            "accuracy": 0.875,
+            "nll": 1.7842761738464437,
+            "rows": 16
+          },
+          "billboard-family:5695014df38af4d4626f2629": {
+            "accuracy": 0.3125,
+            "nll": 3.326623866113912,
+            "rows": 16
+          },
+          "billboard-family:56f4da26ed956730309fa148": {
+            "accuracy": 0.0,
+            "nll": 4.601928562641584,
+            "rows": 16
+          },
+          "billboard-family:57f75bad2ae0d8b46957ec48": {
+            "accuracy": 0.0625,
+            "nll": 4.172362501465202,
+            "rows": 16
+          },
+          "billboard-family:580811fa95269f3ecd4f22d1": {
+            "accuracy": 0.6875,
+            "nll": 2.3075880154122084,
+            "rows": 16
+          },
+          "billboard-family:5844a72aee9269a68da28cae": {
+            "accuracy": 0.3125,
+            "nll": 3.5057249683415126,
+            "rows": 16
+          },
+          "billboard-family:5943c883d29e6c04f4ecc646": {
+            "accuracy": 0.5,
+            "nll": 3.251101372388136,
+            "rows": 16
+          },
+          "billboard-family:59a6d3288187dfcd54bb45d3": {
+            "accuracy": 0.4375,
+            "nll": 3.7496912659762107,
+            "rows": 16
+          },
+          "billboard-family:59b524f8de039389005bce58": {
+            "accuracy": 0.25,
+            "nll": 4.25279417066793,
+            "rows": 16
+          },
+          "billboard-family:5cf4e26bd3d87da5e03f80a4": {
+            "accuracy": 0.375,
+            "nll": 3.459506295982938,
+            "rows": 16
+          },
+          "billboard-family:5e70c51ca8223212f4c16190": {
+            "accuracy": 0.3125,
+            "nll": 2.228641547528623,
+            "rows": 16
+          },
+          "billboard-family:61ab550f4c85a975cd46f860": {
+            "accuracy": 0.625,
+            "nll": 2.668983215557223,
+            "rows": 16
+          },
+          "billboard-family:66c2e6dd7fe34b78c205baee": {
+            "accuracy": 0.375,
+            "nll": 2.6512056362851637,
+            "rows": 16
+          },
+          "billboard-family:66e07cff0198046f472a2554": {
+            "accuracy": 0.3125,
+            "nll": 3.124405002326122,
+            "rows": 16
+          },
+          "billboard-family:6b51d431df5d7f141cbececc": {
+            "accuracy": 0.3125,
+            "nll": 3.651611749504038,
+            "rows": 16
+          },
+          "billboard-family:6cc6eefb674286f7d1a0e4ad": {
+            "accuracy": 0.8125,
+            "nll": 2.4620038838284293,
+            "rows": 16
+          },
+          "billboard-family:6d6ae523edc27b235030584a": {
+            "accuracy": 0.1875,
+            "nll": 4.547729375397966,
+            "rows": 16
+          },
+          "billboard-family:748064be03a08df81e31bd6f": {
+            "accuracy": 0.5,
+            "nll": 2.683107978136893,
+            "rows": 16
+          },
+          "billboard-family:7559ca4a957c8c82ba04781c": {
+            "accuracy": 0.7272727272727273,
+            "nll": 2.071046033324048,
+            "rows": 11
+          },
+          "billboard-family:75f7313c20144e39edcf57a1": {
+            "accuracy": 0.0,
+            "nll": 4.4057299645117585,
+            "rows": 16
+          },
+          "billboard-family:7688b6ef52555962d008fff8": {
+            "accuracy": 0.375,
+            "nll": 3.674131546270479,
+            "rows": 16
+          },
+          "billboard-family:78df64dc6fd61191b973ea5d": {
+            "accuracy": 0.125,
+            "nll": 4.144171555907835,
+            "rows": 16
+          },
+          "billboard-family:7987e36c43f067b54276ccb5": {
+            "accuracy": 0.5,
+            "nll": 3.576283365188233,
+            "rows": 10
+          },
+          "billboard-family:79bf08685d3138f9b109c354": {
+            "accuracy": 0.0,
+            "nll": 4.628739273584856,
+            "rows": 16
+          },
+          "billboard-family:7b81eb727ed48055fa55c5e0": {
+            "accuracy": 0.125,
+            "nll": 4.387233155303323,
+            "rows": 16
+          },
+          "billboard-family:7bc9fcce33a859a1bd1c633e": {
+            "accuracy": 0.1875,
+            "nll": 3.64654240712595,
+            "rows": 16
+          },
+          "billboard-family:7f11756539d687172955ad37": {
+            "accuracy": 0.5,
+            "nll": 3.2936161022844304,
+            "rows": 16
+          },
+          "billboard-family:7f2253d7e228b22a08bda1f0": {
+            "accuracy": 0.375,
+            "nll": 2.8758157011146643,
+            "rows": 16
+          },
+          "billboard-family:7fc81a57656ec05561512145": {
+            "accuracy": 0.125,
+            "nll": 4.256569358934355,
+            "rows": 16
+          },
+          "billboard-family:8111eb1556229541d7d2720a": {
+            "accuracy": 0.0625,
+            "nll": 4.190100960876634,
+            "rows": 16
+          },
+          "billboard-family:84c8447c0a2d7a7853f63327": {
+            "accuracy": 0.0625,
+            "nll": 3.9151449036820734,
+            "rows": 16
+          },
+          "billboard-family:84f01dd97c687fb28a296bcc": {
+            "accuracy": 0.45454545454545453,
+            "nll": 3.746287825148183,
+            "rows": 11
+          },
+          "billboard-family:85139675bad8fa2308b49fba": {
+            "accuracy": 0.0,
+            "nll": 4.588504106387874,
+            "rows": 16
+          },
+          "billboard-family:88ba1737ec41809555af9112": {
+            "accuracy": 0.5,
+            "nll": 2.640196038185608,
+            "rows": 16
+          },
+          "billboard-family:8952115444bab6de66aab975": {
+            "accuracy": 0.125,
+            "nll": 4.23037647423098,
+            "rows": 16
+          },
+          "billboard-family:8c244b370747c1930a4e0967": {
+            "accuracy": 0.25,
+            "nll": 3.033210140775043,
+            "rows": 16
+          },
+          "billboard-family:8cf04f0d07191f042b1d1188": {
+            "accuracy": 0.1875,
+            "nll": 3.261284058182837,
+            "rows": 16
+          },
+          "billboard-family:8ef532f440c91b5dfa24570e": {
+            "accuracy": 1.0,
+            "nll": 1.3576690521299009,
+            "rows": 16
+          },
+          "billboard-family:9168e847861429230da331e2": {
+            "accuracy": 0.0625,
+            "nll": 4.371871422723931,
+            "rows": 16
+          },
+          "billboard-family:920c37d6464a8f20e8930c19": {
+            "accuracy": 0.0,
+            "nll": 4.590424622191059,
+            "rows": 16
+          },
+          "billboard-family:92f3c34650437f1ddf6b2f2e": {
+            "accuracy": 0.4375,
+            "nll": 2.900476710450618,
+            "rows": 16
+          },
+          "billboard-family:936fa5780640f18f96fd80d9": {
+            "accuracy": 0.0,
+            "nll": 4.579656439412932,
+            "rows": 16
+          },
+          "billboard-family:9512d95d00d61bdec03d2b99": {
+            "accuracy": 0.4375,
+            "nll": 3.1106629559468777,
+            "rows": 16
+          },
+          "billboard-family:9869a8a3a11a33284dc2bcc3": {
+            "accuracy": 0.3125,
+            "nll": 3.7071894369539184,
+            "rows": 16
+          },
+          "billboard-family:9989a37538faecc495bbe774": {
+            "accuracy": 0.75,
+            "nll": 2.0839078829158493,
+            "rows": 16
+          },
+          "billboard-family:9a35532c7499c19daeacafc9": {
+            "accuracy": 0.3125,
+            "nll": 3.8123197400830096,
+            "rows": 16
+          },
+          "billboard-family:9f1f9dce319c4700ef28ec8c": {
+            "accuracy": 0.25,
+            "nll": 3.076079834554846,
+            "rows": 16
+          },
+          "billboard-family:a0f8b2c4cb1ac82abdb37f0f": {
+            "accuracy": 0.375,
+            "nll": 3.768172528506244,
+            "rows": 16
+          },
+          "billboard-family:a26d0ee3b2ad04523daf3a87": {
+            "accuracy": 0.5,
+            "nll": 2.0017054166022894,
+            "rows": 16
+          },
+          "billboard-family:a4e987d17584557e2fbed011": {
+            "accuracy": 0.125,
+            "nll": 4.311817331028624,
+            "rows": 16
+          },
+          "billboard-family:a5bef651c8e3fd6cc63c43cd": {
+            "accuracy": 0.0,
+            "nll": 4.6443908991413725,
+            "rows": 1
+          },
+          "billboard-family:a9aa59bb1bb5a16075ce68c9": {
+            "accuracy": 0.25,
+            "nll": 4.204563946316827,
+            "rows": 12
+          },
+          "billboard-family:ad3b83575249b68aab9602de": {
+            "accuracy": 0.125,
+            "nll": 2.828443902965446,
+            "rows": 16
+          },
+          "billboard-family:ad57366865126e55649ecb23": {
+            "accuracy": 0.4375,
+            "nll": 2.303148043151728,
+            "rows": 16
+          },
+          "billboard-family:b1d40536dd8fd3175ef66e6b": {
+            "accuracy": 0.5625,
+            "nll": 3.440142104108502,
+            "rows": 16
+          },
+          "billboard-family:baea07580521240750f17e35": {
+            "accuracy": 0.3125,
+            "nll": 4.334101582038253,
+            "rows": 16
+          },
+          "billboard-family:bba58959c32abe688d9cb522": {
+            "accuracy": 0.125,
+            "nll": 4.0764938807608475,
+            "rows": 16
+          },
+          "billboard-family:bd3a797ba948938978965781": {
+            "accuracy": 0.2,
+            "nll": 3.478902537480298,
+            "rows": 10
+          },
+          "billboard-family:be1722b1d104ffb275326068": {
+            "accuracy": 0.5,
+            "nll": 3.1676406588283568,
+            "rows": 16
+          },
+          "billboard-family:be7a79295340a5412438cba5": {
+            "accuracy": 0.375,
+            "nll": 2.12096145062022,
+            "rows": 16
+          },
+          "billboard-family:c2077253a9b10166e7c8ffda": {
+            "accuracy": 0.1875,
+            "nll": 4.593411374785519,
+            "rows": 16
+          },
+          "billboard-family:c2a824544a0afd72c9bfe306": {
+            "accuracy": 0.5,
+            "nll": 2.4768490950388213,
+            "rows": 16
+          },
+          "billboard-family:c5169be03e3c601192bdff69": {
+            "accuracy": 0.5625,
+            "nll": 4.030470488962606,
+            "rows": 16
+          },
+          "billboard-family:c63efd61a70d0f6b7e5de2b9": {
+            "accuracy": 0.5625,
+            "nll": 2.7427490581779517,
+            "rows": 16
+          },
+          "billboard-family:c9273366553a79a499299f0b": {
+            "accuracy": 0.5625,
+            "nll": 3.878233428286983,
+            "rows": 16
+          },
+          "billboard-family:ca0cec7f60085f0289aaea5c": {
+            "accuracy": 0.0,
+            "nll": 4.3624820326583045,
+            "rows": 16
+          },
+          "billboard-family:caa1aedb2a6ce96b39b9fde1": {
+            "accuracy": 0.75,
+            "nll": 2.592510527298248,
+            "rows": 16
+          },
+          "billboard-family:cef5838d118dccd9de488f16": {
+            "accuracy": 0.25,
+            "nll": 2.169335907165356,
+            "rows": 16
+          },
+          "billboard-family:d25f212bcbc495c71a837baf": {
+            "accuracy": 0.1875,
+            "nll": 4.2925641858107095,
+            "rows": 16
+          },
+          "billboard-family:d68aab8d03d79ff99065bf68": {
+            "accuracy": 0.5625,
+            "nll": 2.417760097708695,
+            "rows": 16
+          },
+          "billboard-family:d8ed8ca27d83a63df6982905": {
+            "accuracy": 0.1875,
+            "nll": 4.223531649147675,
+            "rows": 16
+          },
+          "billboard-family:da2c575e48ee7651b9e99a51": {
+            "accuracy": 0.5,
+            "nll": 2.436593710639968,
+            "rows": 16
+          },
+          "billboard-family:da70dfa4d9f95ac979f921e8": {
+            "accuracy": 0.0,
+            "nll": 4.599881122373016,
+            "rows": 16
+          },
+          "billboard-family:dccb3c52e7c79f7033e1ea06": {
+            "accuracy": 0.0,
+            "nll": 4.564348191467836,
+            "rows": 16
+          },
+          "billboard-family:de498b9901677f58da56b38a": {
+            "accuracy": 0.0,
+            "nll": 4.368192556865538,
+            "rows": 16
+          },
+          "billboard-family:df4ca8418a8c9044528e272c": {
+            "accuracy": 0.5,
+            "nll": 2.8603012743305896,
+            "rows": 16
+          },
+          "billboard-family:e73cb135243c08ab2c2adc33": {
+            "accuracy": 0.16666666666666666,
+            "nll": 4.622347391902693,
+            "rows": 12
+          },
+          "billboard-family:eaa0689a095d4394a05fb51b": {
+            "accuracy": 0.1875,
+            "nll": 4.589735896819503,
+            "rows": 16
+          },
+          "billboard-family:eaf89db7108470dc3f6b23ea": {
+            "accuracy": 0.6875,
+            "nll": 2.897631316501242,
+            "rows": 16
+          },
+          "billboard-family:eca6a42ae4cdfedab3f733c7": {
+            "accuracy": 0.25,
+            "nll": 4.5447902154861195,
+            "rows": 16
+          },
+          "billboard-family:eeca91fd439b6d5e827e8fda": {
+            "accuracy": 0.0625,
+            "nll": 4.280163657948856,
+            "rows": 16
+          },
+          "billboard-family:f1250af9005fb93c6bc8ea65": {
+            "accuracy": 0.5,
+            "nll": 2.208517372540513,
+            "rows": 16
+          },
+          "billboard-family:f79b8977720743f5e7c8b5b2": {
+            "accuracy": 0.0,
+            "nll": 4.471887916439895,
+            "rows": 16
+          },
+          "billboard-family:f8809aff4d69bece79dabe35": {
+            "accuracy": 0.0625,
+            "nll": 4.003808115787593,
+            "rows": 16
+          },
+          "billboard-family:f97350101e1a9de922bdbb76": {
+            "accuracy": 0.375,
+            "nll": 3.387655138213456,
+            "rows": 16
+          },
+          "billboard-family:fa665be4732a050c061db096": {
+            "accuracy": 0.5625,
+            "nll": 2.566177952012821,
+            "rows": 16
+          },
+          "billboard-family:fa88d374b9cf5e059fad4a2f": {
+            "accuracy": 0.5,
+            "nll": 2.5533606819186114,
+            "rows": 16
+          },
+          "billboard-family:fb335e8fd0f8aed3eb6ffedd": {
+            "accuracy": 0.6875,
+            "nll": 1.775045808868858,
+            "rows": 16
+          },
+          "billboard-family:fbb2a73b0bacf3953186a920": {
+            "accuracy": 0.375,
+            "nll": 3.8816370806122893,
+            "rows": 16
+          },
+          "billboard-family:fc71f2d6d38dbfc752ecaf22": {
+            "accuracy": 0.4375,
+            "nll": 1.9787677786387528,
+            "rows": 16
+          },
+          "billboard-family:fce86e339dc3131c489202ec": {
+            "accuracy": 0.4375,
+            "nll": 3.0684719945934127,
+            "rows": 16
+          }
+        }
+      }
+    },
+    "exposure_matched_unigram": {
+      "metrics": {
+        "family_macro": {
+          "accuracy": 0.22299480822208093,
+          "families": 143,
+          "nll": 2.9646925901361527
+        },
+        "micro": {
+          "accuracy": 0.2263895164934478,
+          "nll": 2.9529597675108374,
+          "rows": 2213
+        },
+        "per_family": {
+          "billboard-family:000f21ac06aceb9cdd0575e8": {
+            "accuracy": 0.375,
+            "nll": 2.155989922894267,
+            "rows": 16
+          },
+          "billboard-family:011af72a910ac4acf367eef9": {
+            "accuracy": 0.3125,
+            "nll": 2.4117884250404766,
+            "rows": 16
+          },
+          "billboard-family:01ce4b291ad3ecd240be7187": {
+            "accuracy": 0.125,
+            "nll": 3.0136064231371633,
+            "rows": 16
+          },
+          "billboard-family:068814875fcdfb8faf539ef4": {
+            "accuracy": 0.5,
+            "nll": 2.1385927435025325,
+            "rows": 16
+          },
+          "billboard-family:06de973bb45531d52cdbd483": {
+            "accuracy": 0.375,
+            "nll": 2.0431224327406534,
+            "rows": 16
+          },
+          "billboard-family:084ae23e6996e701addeeb7d": {
+            "accuracy": 0.3125,
+            "nll": 2.2253821128562734,
+            "rows": 16
+          },
+          "billboard-family:086f5cc433f4a20f72051344": {
+            "accuracy": 0.1875,
+            "nll": 3.6102676610232165,
+            "rows": 16
+          },
+          "billboard-family:09a1b036b82baba3177d83c2": {
+            "accuracy": 0.375,
+            "nll": 2.8177985968765986,
+            "rows": 16
+          },
+          "billboard-family:0b935e0bc9b943533bb652ac": {
+            "accuracy": 0.0,
+            "nll": 3.3733813721921027,
+            "rows": 16
+          },
+          "billboard-family:0d21ae129a64e1d19e4a94df": {
+            "accuracy": 0.5,
+            "nll": 2.0102350748044655,
+            "rows": 16
+          },
+          "billboard-family:0f78540965a86402578f8188": {
+            "accuracy": 0.375,
+            "nll": 2.60558344694461,
+            "rows": 16
+          },
+          "billboard-family:1086d35563c495c1cecbce12": {
+            "accuracy": 0.375,
+            "nll": 2.760667506778504,
+            "rows": 16
+          },
+          "billboard-family:10995659fe5526fd493665a8": {
+            "accuracy": 0.0,
+            "nll": 3.7790267963833823,
+            "rows": 11
+          },
+          "billboard-family:12132cd6767ee325d35883d2": {
+            "accuracy": 0.4375,
+            "nll": 2.2863765618595093,
+            "rows": 16
+          },
+          "billboard-family:1398690ecc7c72bb5833cb11": {
+            "accuracy": 0.0,
+            "nll": 3.937750184750036,
+            "rows": 16
+          },
+          "billboard-family:16b30490a644117a249c2018": {
+            "accuracy": 0.625,
+            "nll": 2.6864191536554767,
+            "rows": 16
+          },
+          "billboard-family:1706be6c293444756e72b05e": {
+            "accuracy": 0.0,
+            "nll": 4.545376953103019,
+            "rows": 16
+          },
+          "billboard-family:194dbf72c513dc9ff0bf87b9": {
+            "accuracy": 0.25,
+            "nll": 3.5195628383853226,
+            "rows": 16
+          },
+          "billboard-family:1a42d5267aba37d7057cadd6": {
+            "accuracy": 0.0,
+            "nll": 3.99534629820647,
+            "rows": 5
+          },
+          "billboard-family:1bde41ce9b4fccbf7dde0dc3": {
+            "accuracy": 0.0,
+            "nll": 3.6085162238380684,
+            "rows": 16
+          },
+          "billboard-family:1c00e16c0db1f129d7b8b87f": {
+            "accuracy": 0.125,
+            "nll": 3.1270004445547466,
+            "rows": 16
+          },
+          "billboard-family:1d0ebea552eb43d0b1e1561f": {
+            "accuracy": 0.125,
+            "nll": 3.632513260477601,
+            "rows": 16
+          },
+          "billboard-family:1da51b8d8ff98f6a48f80ae7": {
+            "accuracy": 0.1875,
+            "nll": 2.9663203480377143,
+            "rows": 16
+          },
+          "billboard-family:234666d765f4c0a26cf4d96e": {
+            "accuracy": 0.4375,
+            "nll": 2.3034828228533204,
+            "rows": 16
+          },
+          "billboard-family:2618182c3894875e16eeafa6": {
+            "accuracy": 0.125,
+            "nll": 3.6207636363816422,
+            "rows": 16
+          },
+          "billboard-family:26fe15811d2d4a635de17c7e": {
+            "accuracy": 0.0,
+            "nll": 4.985705823484765,
+            "rows": 16
+          },
+          "billboard-family:28dae7c8bde2f3ca608f86d0": {
+            "accuracy": 0.0,
+            "nll": 3.6647366939708235,
+            "rows": 16
+          },
+          "billboard-family:29bde016a5b440062043e1a3": {
+            "accuracy": 0.1875,
+            "nll": 2.140401027698629,
+            "rows": 16
+          },
+          "billboard-family:2c4cf657337835125bc4258d": {
+            "accuracy": 0.125,
+            "nll": 3.445481951972087,
+            "rows": 16
+          },
+          "billboard-family:2c69bc9b34fb0800a44a702e": {
+            "accuracy": 0.0625,
+            "nll": 3.486044741043025,
+            "rows": 16
+          },
+          "billboard-family:2ec42bc1f3e672fc1cf7fdcf": {
+            "accuracy": 0.0,
+            "nll": 4.950237257172673,
+            "rows": 16
+          },
+          "billboard-family:2f1d593cd98cb5bf81eb9d88": {
+            "accuracy": 0.3125,
+            "nll": 2.0497808865718516,
+            "rows": 16
+          },
+          "billboard-family:301807d2c5a61aee677de545": {
+            "accuracy": 0.375,
+            "nll": 2.4399625246728096,
+            "rows": 16
+          },
+          "billboard-family:30e4c02268d49ca010e3c62f": {
+            "accuracy": 0.1875,
+            "nll": 2.597561678721553,
+            "rows": 16
+          },
+          "billboard-family:340ab11db8d1a7435cb4b4a0": {
+            "accuracy": 0.0625,
+            "nll": 3.6290971262986806,
+            "rows": 16
+          },
+          "billboard-family:34be1021b378c5701b4dd143": {
+            "accuracy": 0.25,
+            "nll": 2.360992008798596,
+            "rows": 16
+          },
+          "billboard-family:35254aa9a21444e50349cebb": {
+            "accuracy": 0.1875,
+            "nll": 2.6532409225624938,
+            "rows": 16
+          },
+          "billboard-family:37b1267a4ff4e12dddfe4438": {
+            "accuracy": 0.5625,
+            "nll": 1.8199080785914807,
+            "rows": 16
+          },
+          "billboard-family:37c20f19f3272b5ccc3a5d80": {
+            "accuracy": 0.5,
+            "nll": 1.9100074177718214,
+            "rows": 16
+          },
+          "billboard-family:38ee08bb9129d6519eb37341": {
+            "accuracy": 0.0,
+            "nll": 4.303705843179071,
+            "rows": 16
+          },
+          "billboard-family:3bad45f2cc9f047e72cd5cf4": {
+            "accuracy": 0.0,
+            "nll": 3.6528685342833707,
+            "rows": 16
+          },
+          "billboard-family:3ef58410b868298fcca4ee41": {
+            "accuracy": 0.0625,
+            "nll": 3.6959003729955064,
+            "rows": 16
+          },
+          "billboard-family:40794500a2845c943a0f4910": {
+            "accuracy": 0.1875,
+            "nll": 2.6370752736516554,
+            "rows": 16
+          },
+          "billboard-family:45297c633d331e6ac35169eb": {
+            "accuracy": 0.0,
+            "nll": 2.4046763767904635,
+            "rows": 16
+          },
+          "billboard-family:4531f577d6ce6b26377b54d9": {
+            "accuracy": 0.0,
+            "nll": 4.8809470327849205,
+            "rows": 16
+          },
+          "billboard-family:4670f31d8354a04f66878fb1": {
+            "accuracy": 0.0,
+            "nll": 3.0900868057067656,
+            "rows": 16
+          },
+          "billboard-family:4c970004b0678d439f177e77": {
+            "accuracy": 0.0,
+            "nll": 3.1119104901730994,
+            "rows": 16
+          },
+          "billboard-family:4e07408562bedb8b60ce05c1": {
+            "accuracy": 0.375,
+            "nll": 2.5924339695799583,
+            "rows": 16
+          },
+          "billboard-family:501a4e61aa4f7737df030512": {
+            "accuracy": 0.0,
+            "nll": 4.497582495155575,
+            "rows": 2
+          },
+          "billboard-family:5283f1b4e66467616feca1e0": {
+            "accuracy": 0.125,
+            "nll": 2.3107649696801107,
+            "rows": 16
+          },
+          "billboard-family:52f11620e397f867b7d9f19e": {
+            "accuracy": 0.125,
+            "nll": 2.595877084158502,
+            "rows": 16
+          },
+          "billboard-family:5426d2ca50f244fb43fe9eaf": {
+            "accuracy": 0.4375,
+            "nll": 1.906763341945233,
+            "rows": 16
+          },
+          "billboard-family:549a2fac47d713cc00f2db49": {
+            "accuracy": 0.625,
+            "nll": 1.8447860582513744,
+            "rows": 16
+          },
+          "billboard-family:5695014df38af4d4626f2629": {
+            "accuracy": 0.1875,
+            "nll": 2.4662435811202306,
+            "rows": 16
+          },
+          "billboard-family:56f4da26ed956730309fa148": {
+            "accuracy": 0.5625,
+            "nll": 2.829009152951476,
+            "rows": 16
+          },
+          "billboard-family:57f75bad2ae0d8b46957ec48": {
+            "accuracy": 0.3125,
+            "nll": 2.5207579589265974,
+            "rows": 16
+          },
+          "billboard-family:580811fa95269f3ecd4f22d1": {
+            "accuracy": 0.5625,
+            "nll": 2.0969862768366734,
+            "rows": 16
+          },
+          "billboard-family:5844a72aee9269a68da28cae": {
+            "accuracy": 0.3125,
+            "nll": 2.7206675559712177,
+            "rows": 16
+          },
+          "billboard-family:5943c883d29e6c04f4ecc646": {
+            "accuracy": 0.3125,
+            "nll": 2.9709194101572245,
+            "rows": 16
+          },
+          "billboard-family:59a6d3288187dfcd54bb45d3": {
+            "accuracy": 0.25,
+            "nll": 3.025683328148335,
+            "rows": 16
+          },
+          "billboard-family:59b524f8de039389005bce58": {
+            "accuracy": 0.25,
+            "nll": 2.9096549422878204,
+            "rows": 16
+          },
+          "billboard-family:5cf4e26bd3d87da5e03f80a4": {
+            "accuracy": 0.1875,
+            "nll": 2.1954921191904653,
+            "rows": 16
+          },
+          "billboard-family:5e70c51ca8223212f4c16190": {
+            "accuracy": 0.1875,
+            "nll": 2.1430734185216616,
+            "rows": 16
+          },
+          "billboard-family:61ab550f4c85a975cd46f860": {
+            "accuracy": 0.5,
+            "nll": 2.0357451097657964,
+            "rows": 16
+          },
+          "billboard-family:66c2e6dd7fe34b78c205baee": {
+            "accuracy": 0.25,
+            "nll": 2.003133164717202,
+            "rows": 16
+          },
+          "billboard-family:66e07cff0198046f472a2554": {
+            "accuracy": 0.5,
+            "nll": 2.384851512207595,
+            "rows": 16
+          },
+          "billboard-family:6b51d431df5d7f141cbececc": {
+            "accuracy": 0.1875,
+            "nll": 2.671346784271826,
+            "rows": 16
+          },
+          "billboard-family:6cc6eefb674286f7d1a0e4ad": {
+            "accuracy": 0.0,
+            "nll": 3.596767552447101,
+            "rows": 16
+          },
+          "billboard-family:6d6ae523edc27b235030584a": {
+            "accuracy": 0.125,
+            "nll": 3.029630680570384,
+            "rows": 16
+          },
+          "billboard-family:748064be03a08df81e31bd6f": {
+            "accuracy": 0.0,
+            "nll": 3.5808525358689454,
+            "rows": 16
+          },
+          "billboard-family:7559ca4a957c8c82ba04781c": {
+            "accuracy": 0.5454545454545454,
+            "nll": 2.03913580409345,
+            "rows": 11
+          },
+          "billboard-family:75f7313c20144e39edcf57a1": {
+            "accuracy": 0.0,
+            "nll": 4.148090071826514,
+            "rows": 16
+          },
+          "billboard-family:7688b6ef52555962d008fff8": {
+            "accuracy": 0.25,
+            "nll": 3.478708740937027,
+            "rows": 16
+          },
+          "billboard-family:78df64dc6fd61191b973ea5d": {
+            "accuracy": 0.25,
+            "nll": 3.6062495284318423,
+            "rows": 16
+          },
+          "billboard-family:7987e36c43f067b54276ccb5": {
+            "accuracy": 0.0,
+            "nll": 3.6330845022247744,
+            "rows": 10
+          },
+          "billboard-family:79bf08685d3138f9b109c354": {
+            "accuracy": 0.0,
+            "nll": 4.230900851680722,
+            "rows": 16
+          },
+          "billboard-family:7b81eb727ed48055fa55c5e0": {
+            "accuracy": 0.0,
+            "nll": 4.985963964272049,
+            "rows": 16
+          },
+          "billboard-family:7bc9fcce33a859a1bd1c633e": {
+            "accuracy": 0.1875,
+            "nll": 2.9658735206365603,
+            "rows": 16
+          },
+          "billboard-family:7f11756539d687172955ad37": {
+            "accuracy": 0.0625,
+            "nll": 3.0813424452120652,
+            "rows": 16
+          },
+          "billboard-family:7f2253d7e228b22a08bda1f0": {
+            "accuracy": 0.25,
+            "nll": 2.194246459576546,
+            "rows": 16
+          },
+          "billboard-family:7fc81a57656ec05561512145": {
+            "accuracy": 0.0,
+            "nll": 3.6360792186849054,
+            "rows": 16
+          },
+          "billboard-family:8111eb1556229541d7d2720a": {
+            "accuracy": 0.0,
+            "nll": 2.943672730614212,
+            "rows": 16
+          },
+          "billboard-family:84c8447c0a2d7a7853f63327": {
+            "accuracy": 0.0625,
+            "nll": 2.966280552180451,
+            "rows": 16
+          },
+          "billboard-family:84f01dd97c687fb28a296bcc": {
+            "accuracy": 0.36363636363636365,
+            "nll": 3.2883355011834996,
+            "rows": 11
+          },
+          "billboard-family:85139675bad8fa2308b49fba": {
+            "accuracy": 0.0,
+            "nll": 3.997753856009631,
+            "rows": 16
+          },
+          "billboard-family:88ba1737ec41809555af9112": {
+            "accuracy": 0.625,
+            "nll": 2.1423846072380965,
+            "rows": 16
+          },
+          "billboard-family:8952115444bab6de66aab975": {
+            "accuracy": 0.1875,
+            "nll": 3.2174175999471943,
+            "rows": 16
+          },
+          "billboard-family:8c244b370747c1930a4e0967": {
+            "accuracy": 0.1875,
+            "nll": 3.06059624312916,
+            "rows": 16
+          },
+          "billboard-family:8cf04f0d07191f042b1d1188": {
+            "accuracy": 0.375,
+            "nll": 2.0957429579629174,
+            "rows": 16
+          },
+          "billboard-family:8ef532f440c91b5dfa24570e": {
+            "accuracy": 0.5,
+            "nll": 1.7093224310797304,
+            "rows": 16
+          },
+          "billboard-family:9168e847861429230da331e2": {
+            "accuracy": 0.0625,
+            "nll": 3.2060813116558577,
+            "rows": 16
+          },
+          "billboard-family:920c37d6464a8f20e8930c19": {
+            "accuracy": 0.0,
+            "nll": 3.758267293532709,
+            "rows": 16
+          },
+          "billboard-family:92f3c34650437f1ddf6b2f2e": {
+            "accuracy": 0.0,
+            "nll": 3.591277648205246,
+            "rows": 16
+          },
+          "billboard-family:936fa5780640f18f96fd80d9": {
+            "accuracy": 0.0,
+            "nll": 5.415174181147349,
+            "rows": 16
+          },
+          "billboard-family:9512d95d00d61bdec03d2b99": {
+            "accuracy": 0.4375,
+            "nll": 2.0427118710871093,
+            "rows": 16
+          },
+          "billboard-family:9869a8a3a11a33284dc2bcc3": {
+            "accuracy": 0.25,
+            "nll": 2.805387348386024,
+            "rows": 16
+          },
+          "billboard-family:9989a37538faecc495bbe774": {
+            "accuracy": 0.3125,
+            "nll": 1.9163932782117679,
+            "rows": 16
+          },
+          "billboard-family:9a35532c7499c19daeacafc9": {
+            "accuracy": 0.25,
+            "nll": 2.9260506722263018,
+            "rows": 16
+          },
+          "billboard-family:9f1f9dce319c4700ef28ec8c": {
+            "accuracy": 0.125,
+            "nll": 2.218687127673762,
+            "rows": 16
+          },
+          "billboard-family:a0f8b2c4cb1ac82abdb37f0f": {
+            "accuracy": 0.3125,
+            "nll": 2.8164345999319695,
+            "rows": 16
+          },
+          "billboard-family:a26d0ee3b2ad04523daf3a87": {
+            "accuracy": 0.3125,
+            "nll": 2.039655996906348,
+            "rows": 16
+          },
+          "billboard-family:a4e987d17584557e2fbed011": {
+            "accuracy": 0.0,
+            "nll": 3.9119175613480444,
+            "rows": 16
+          },
+          "billboard-family:a5bef651c8e3fd6cc63c43cd": {
+            "accuracy": 0.0,
+            "nll": 2.3006029317900545,
+            "rows": 1
+          },
+          "billboard-family:a9aa59bb1bb5a16075ce68c9": {
+            "accuracy": 0.16666666666666666,
+            "nll": 2.979424284949424,
+            "rows": 12
+          },
+          "billboard-family:ad3b83575249b68aab9602de": {
+            "accuracy": 0.125,
+            "nll": 2.3640935624828745,
+            "rows": 16
+          },
+          "billboard-family:ad57366865126e55649ecb23": {
+            "accuracy": 0.1875,
+            "nll": 2.240420563047914,
+            "rows": 16
+          },
+          "billboard-family:b1d40536dd8fd3175ef66e6b": {
+            "accuracy": 0.4375,
+            "nll": 2.468486051456755,
+            "rows": 16
+          },
+          "billboard-family:baea07580521240750f17e35": {
+            "accuracy": 0.1875,
+            "nll": 3.270383848374151,
+            "rows": 16
+          },
+          "billboard-family:bba58959c32abe688d9cb522": {
+            "accuracy": 0.1875,
+            "nll": 3.342191329325356,
+            "rows": 16
+          },
+          "billboard-family:bd3a797ba948938978965781": {
+            "accuracy": 0.5,
+            "nll": 2.312767917906391,
+            "rows": 10
+          },
+          "billboard-family:be1722b1d104ffb275326068": {
+            "accuracy": 0.0625,
+            "nll": 3.07432876604004,
+            "rows": 16
+          },
+          "billboard-family:be7a79295340a5412438cba5": {
+            "accuracy": 0.375,
+            "nll": 2.002580344553802,
+            "rows": 16
+          },
+          "billboard-family:c2077253a9b10166e7c8ffda": {
+            "accuracy": 0.375,
+            "nll": 3.1524732700588305,
+            "rows": 16
+          },
+          "billboard-family:c2a824544a0afd72c9bfe306": {
+            "accuracy": 0.25,
+            "nll": 2.2475770883070205,
+            "rows": 16
+          },
+          "billboard-family:c5169be03e3c601192bdff69": {
+            "accuracy": 0.375,
+            "nll": 3.524711867499061,
+            "rows": 16
+          },
+          "billboard-family:c63efd61a70d0f6b7e5de2b9": {
+            "accuracy": 0.375,
+            "nll": 2.363841702193535,
+            "rows": 16
+          },
+          "billboard-family:c9273366553a79a499299f0b": {
+            "accuracy": 0.25,
+            "nll": 3.1049958298061657,
+            "rows": 16
+          },
+          "billboard-family:ca0cec7f60085f0289aaea5c": {
+            "accuracy": 0.0,
+            "nll": 3.962441234845843,
+            "rows": 16
+          },
+          "billboard-family:caa1aedb2a6ce96b39b9fde1": {
+            "accuracy": 0.5,
+            "nll": 1.882018511724048,
+            "rows": 16
+          },
+          "billboard-family:cef5838d118dccd9de488f16": {
+            "accuracy": 0.25,
+            "nll": 2.1044954689985,
+            "rows": 16
+          },
+          "billboard-family:d25f212bcbc495c71a837baf": {
+            "accuracy": 0.1875,
+            "nll": 3.168376605180809,
+            "rows": 16
+          },
+          "billboard-family:d68aab8d03d79ff99065bf68": {
+            "accuracy": 0.5625,
+            "nll": 2.085266645383054,
+            "rows": 16
+          },
+          "billboard-family:d8ed8ca27d83a63df6982905": {
+            "accuracy": 0.0,
+            "nll": 3.394279209945505,
+            "rows": 16
+          },
+          "billboard-family:da2c575e48ee7651b9e99a51": {
+            "accuracy": 0.375,
+            "nll": 2.470745919041421,
+            "rows": 16
+          },
+          "billboard-family:da70dfa4d9f95ac979f921e8": {
+            "accuracy": 0.0,
+            "nll": 3.642802561636005,
+            "rows": 16
+          },
+          "billboard-family:dccb3c52e7c79f7033e1ea06": {
+            "accuracy": 0.0,
+            "nll": 5.785558138842404,
+            "rows": 16
+          },
+          "billboard-family:de498b9901677f58da56b38a": {
+            "accuracy": 0.375,
+            "nll": 2.396916432226729,
+            "rows": 16
+          },
+          "billboard-family:df4ca8418a8c9044528e272c": {
+            "accuracy": 0.3125,
+            "nll": 2.267598788258348,
+            "rows": 16
+          },
+          "billboard-family:e73cb135243c08ab2c2adc33": {
+            "accuracy": 0.25,
+            "nll": 3.4418425929618848,
+            "rows": 12
+          },
+          "billboard-family:eaa0689a095d4394a05fb51b": {
+            "accuracy": 0.1875,
+            "nll": 5.022487465635588,
+            "rows": 16
+          },
+          "billboard-family:eaf89db7108470dc3f6b23ea": {
+            "accuracy": 0.4375,
+            "nll": 2.5242622056882826,
+            "rows": 16
+          },
+          "billboard-family:eca6a42ae4cdfedab3f733c7": {
+            "accuracy": 0.25,
+            "nll": 2.863501445229904,
+            "rows": 16
+          },
+          "billboard-family:eeca91fd439b6d5e827e8fda": {
+            "accuracy": 0.0625,
+            "nll": 3.484296659884571,
+            "rows": 16
+          },
+          "billboard-family:f1250af9005fb93c6bc8ea65": {
+            "accuracy": 0.125,
+            "nll": 2.4523477510033835,
+            "rows": 16
+          },
+          "billboard-family:f79b8977720743f5e7c8b5b2": {
+            "accuracy": 0.25,
+            "nll": 2.8155892843980608,
+            "rows": 16
+          },
+          "billboard-family:f8809aff4d69bece79dabe35": {
+            "accuracy": 0.1875,
+            "nll": 3.690080623990736,
+            "rows": 16
+          },
+          "billboard-family:f97350101e1a9de922bdbb76": {
+            "accuracy": 0.1875,
+            "nll": 2.753536525623671,
+            "rows": 16
+          },
+          "billboard-family:fa665be4732a050c061db096": {
+            "accuracy": 0.4375,
+            "nll": 2.5057100446139704,
+            "rows": 16
+          },
+          "billboard-family:fa88d374b9cf5e059fad4a2f": {
+            "accuracy": 0.5,
+            "nll": 2.3755975470838355,
+            "rows": 16
+          },
+          "billboard-family:fb335e8fd0f8aed3eb6ffedd": {
+            "accuracy": 0.625,
+            "nll": 1.7478275327203807,
+            "rows": 16
+          },
+          "billboard-family:fbb2a73b0bacf3953186a920": {
+            "accuracy": 0.0,
+            "nll": 3.4860810776725213,
+            "rows": 16
+          },
+          "billboard-family:fc71f2d6d38dbfc752ecaf22": {
+            "accuracy": 0.25,
+            "nll": 2.2002451003283556,
+            "rows": 16
+          },
+          "billboard-family:fce86e339dc3131c489202ec": {
+            "accuracy": 0.25,
+            "nll": 2.5948120686222023,
+            "rows": 16
+          }
+        }
+      }
+    },
+    "full_train_trigram": {
+      "metrics": {
+        "family_macro": {
+          "accuracy": 0.37632443314261493,
+          "families": 143,
+          "nll": 2.9642799313642616
+        },
+        "micro": {
+          "accuracy": 0.3804789877993674,
+          "nll": 2.931433081393176,
+          "rows": 2213
+        },
+        "per_family": {
+          "billboard-family:000f21ac06aceb9cdd0575e8": {
+            "accuracy": 0.4375,
+            "nll": 2.209409628565785,
+            "rows": 16
+          },
+          "billboard-family:011af72a910ac4acf367eef9": {
+            "accuracy": 0.6875,
+            "nll": 1.96639295792864,
+            "rows": 16
+          },
+          "billboard-family:01ce4b291ad3ecd240be7187": {
+            "accuracy": 0.25,
+            "nll": 3.005441720143709,
+            "rows": 16
+          },
+          "billboard-family:068814875fcdfb8faf539ef4": {
+            "accuracy": 0.375,
+            "nll": 1.5954873728795809,
+            "rows": 16
+          },
+          "billboard-family:06de973bb45531d52cdbd483": {
+            "accuracy": 0.75,
+            "nll": 1.7879064142443426,
+            "rows": 16
+          },
+          "billboard-family:084ae23e6996e701addeeb7d": {
+            "accuracy": 0.625,
+            "nll": 1.6883058385511318,
+            "rows": 16
+          },
+          "billboard-family:086f5cc433f4a20f72051344": {
+            "accuracy": 0.5625,
+            "nll": 2.546807683650693,
+            "rows": 16
+          },
+          "billboard-family:09a1b036b82baba3177d83c2": {
+            "accuracy": 0.375,
+            "nll": 3.7201780284469605,
+            "rows": 16
+          },
+          "billboard-family:0b935e0bc9b943533bb652ac": {
+            "accuracy": 0.1875,
+            "nll": 3.572206554191744,
+            "rows": 16
+          },
+          "billboard-family:0d21ae129a64e1d19e4a94df": {
+            "accuracy": 0.625,
+            "nll": 1.5772689572550618,
+            "rows": 16
+          },
+          "billboard-family:0f78540965a86402578f8188": {
+            "accuracy": 0.5,
+            "nll": 2.317101643510124,
+            "rows": 16
+          },
+          "billboard-family:1086d35563c495c1cecbce12": {
+            "accuracy": 0.5,
+            "nll": 2.6261714915537118,
+            "rows": 16
+          },
+          "billboard-family:10995659fe5526fd493665a8": {
+            "accuracy": 0.09090909090909091,
+            "nll": 4.2942512823888785,
+            "rows": 11
+          },
+          "billboard-family:12132cd6767ee325d35883d2": {
+            "accuracy": 0.4375,
+            "nll": 2.2202749441246223,
+            "rows": 16
+          },
+          "billboard-family:1398690ecc7c72bb5833cb11": {
+            "accuracy": 0.1875,
+            "nll": 3.7600735739368356,
+            "rows": 16
+          },
+          "billboard-family:16b30490a644117a249c2018": {
+            "accuracy": 0.6875,
+            "nll": 2.3951283568530775,
+            "rows": 16
+          },
+          "billboard-family:1706be6c293444756e72b05e": {
+            "accuracy": 0.0,
+            "nll": 4.566476238628254,
+            "rows": 16
+          },
+          "billboard-family:194dbf72c513dc9ff0bf87b9": {
+            "accuracy": 0.25,
+            "nll": 3.9367868824543657,
+            "rows": 16
+          },
+          "billboard-family:1a42d5267aba37d7057cadd6": {
+            "accuracy": 0.4,
+            "nll": 4.134583274665245,
+            "rows": 5
+          },
+          "billboard-family:1bde41ce9b4fccbf7dde0dc3": {
+            "accuracy": 0.0625,
+            "nll": 4.386555273203542,
+            "rows": 16
+          },
+          "billboard-family:1c00e16c0db1f129d7b8b87f": {
+            "accuracy": 0.25,
+            "nll": 3.545548194954557,
+            "rows": 16
+          },
+          "billboard-family:1d0ebea552eb43d0b1e1561f": {
+            "accuracy": 0.125,
+            "nll": 4.064644241859544,
+            "rows": 16
+          },
+          "billboard-family:1da51b8d8ff98f6a48f80ae7": {
+            "accuracy": 0.375,
+            "nll": 3.498571216718545,
+            "rows": 16
+          },
+          "billboard-family:234666d765f4c0a26cf4d96e": {
+            "accuracy": 0.625,
+            "nll": 2.6431508661003122,
+            "rows": 16
+          },
+          "billboard-family:2618182c3894875e16eeafa6": {
+            "accuracy": 0.125,
+            "nll": 4.109897720360185,
+            "rows": 16
+          },
+          "billboard-family:26fe15811d2d4a635de17c7e": {
+            "accuracy": 0.0,
+            "nll": 4.3958284791582525,
+            "rows": 16
+          },
+          "billboard-family:28dae7c8bde2f3ca608f86d0": {
+            "accuracy": 0.6875,
+            "nll": 1.5899988230234663,
+            "rows": 16
+          },
+          "billboard-family:29bde016a5b440062043e1a3": {
+            "accuracy": 0.5,
+            "nll": 1.9430197854455957,
+            "rows": 16
+          },
+          "billboard-family:2c4cf657337835125bc4258d": {
+            "accuracy": 0.3125,
+            "nll": 3.1301282742290892,
+            "rows": 16
+          },
+          "billboard-family:2c69bc9b34fb0800a44a702e": {
+            "accuracy": 0.3125,
+            "nll": 3.06316041853668,
+            "rows": 16
+          },
+          "billboard-family:2ec42bc1f3e672fc1cf7fdcf": {
+            "accuracy": 0.0,
+            "nll": 4.32837678692122,
+            "rows": 16
+          },
+          "billboard-family:2f1d593cd98cb5bf81eb9d88": {
+            "accuracy": 0.75,
+            "nll": 2.0614899062882226,
+            "rows": 16
+          },
+          "billboard-family:301807d2c5a61aee677de545": {
+            "accuracy": 0.5,
+            "nll": 2.2088339730138773,
+            "rows": 16
+          },
+          "billboard-family:30e4c02268d49ca010e3c62f": {
+            "accuracy": 0.625,
+            "nll": 2.746276397426577,
+            "rows": 16
+          },
+          "billboard-family:340ab11db8d1a7435cb4b4a0": {
+            "accuracy": 0.5,
+            "nll": 2.637105654571647,
+            "rows": 16
+          },
+          "billboard-family:34be1021b378c5701b4dd143": {
+            "accuracy": 0.625,
+            "nll": 2.2572343855425734,
+            "rows": 16
+          },
+          "billboard-family:35254aa9a21444e50349cebb": {
+            "accuracy": 0.5625,
+            "nll": 2.7730284176836877,
+            "rows": 16
+          },
+          "billboard-family:37b1267a4ff4e12dddfe4438": {
+            "accuracy": 0.8125,
+            "nll": 1.2182173102092306,
+            "rows": 16
+          },
+          "billboard-family:37c20f19f3272b5ccc3a5d80": {
+            "accuracy": 0.6875,
+            "nll": 1.6932297231323705,
+            "rows": 16
+          },
+          "billboard-family:38ee08bb9129d6519eb37341": {
+            "accuracy": 0.1875,
+            "nll": 4.400377551039543,
+            "rows": 16
+          },
+          "billboard-family:3bad45f2cc9f047e72cd5cf4": {
+            "accuracy": 0.4375,
+            "nll": 3.0409469525443145,
+            "rows": 16
+          },
+          "billboard-family:3ef58410b868298fcca4ee41": {
+            "accuracy": 0.0,
+            "nll": 4.24384329312353,
+            "rows": 16
+          },
+          "billboard-family:40794500a2845c943a0f4910": {
+            "accuracy": 0.375,
+            "nll": 2.38472217582834,
+            "rows": 16
+          },
+          "billboard-family:45297c633d331e6ac35169eb": {
+            "accuracy": 0.75,
+            "nll": 1.7119701661137574,
+            "rows": 16
+          },
+          "billboard-family:4531f577d6ce6b26377b54d9": {
+            "accuracy": 0.0625,
+            "nll": 4.177626626394634,
+            "rows": 16
+          },
+          "billboard-family:4670f31d8354a04f66878fb1": {
+            "accuracy": 1.0,
+            "nll": 1.714349606910454,
+            "rows": 16
+          },
+          "billboard-family:4c970004b0678d439f177e77": {
+            "accuracy": 0.125,
+            "nll": 4.022983676184511,
+            "rows": 16
+          },
+          "billboard-family:4e07408562bedb8b60ce05c1": {
+            "accuracy": 0.375,
+            "nll": 2.6284086882134283,
+            "rows": 16
+          },
+          "billboard-family:501a4e61aa4f7737df030512": {
+            "accuracy": 0.0,
+            "nll": 4.641423531381465,
+            "rows": 2
+          },
+          "billboard-family:5283f1b4e66467616feca1e0": {
+            "accuracy": 0.1875,
+            "nll": 1.8054684364735214,
+            "rows": 16
+          },
+          "billboard-family:52f11620e397f867b7d9f19e": {
+            "accuracy": 0.375,
+            "nll": 2.505703864722596,
+            "rows": 16
+          },
+          "billboard-family:5426d2ca50f244fb43fe9eaf": {
+            "accuracy": 0.9375,
+            "nll": 1.1765760156261253,
+            "rows": 16
+          },
+          "billboard-family:549a2fac47d713cc00f2db49": {
+            "accuracy": 0.875,
+            "nll": 1.299380540832107,
+            "rows": 16
+          },
+          "billboard-family:5695014df38af4d4626f2629": {
+            "accuracy": 0.25,
+            "nll": 2.7783634154259644,
+            "rows": 16
+          },
+          "billboard-family:56f4da26ed956730309fa148": {
+            "accuracy": 0.4375,
+            "nll": 2.73474943832331,
+            "rows": 16
+          },
+          "billboard-family:57f75bad2ae0d8b46957ec48": {
+            "accuracy": 0.25,
+            "nll": 3.333638999140661,
+            "rows": 16
+          },
+          "billboard-family:580811fa95269f3ecd4f22d1": {
+            "accuracy": 0.8125,
+            "nll": 1.4815490267102402,
+            "rows": 16
+          },
+          "billboard-family:5844a72aee9269a68da28cae": {
+            "accuracy": 0.4375,
+            "nll": 2.6470407764680135,
+            "rows": 16
+          },
+          "billboard-family:5943c883d29e6c04f4ecc646": {
+            "accuracy": 0.4375,
+            "nll": 3.077891785740444,
+            "rows": 16
+          },
+          "billboard-family:59a6d3288187dfcd54bb45d3": {
+            "accuracy": 0.375,
+            "nll": 3.2406414947021336,
+            "rows": 16
+          },
+          "billboard-family:59b524f8de039389005bce58": {
+            "accuracy": 0.125,
+            "nll": 3.908561290475438,
+            "rows": 16
+          },
+          "billboard-family:5cf4e26bd3d87da5e03f80a4": {
+            "accuracy": 0.375,
+            "nll": 3.117667562550869,
+            "rows": 16
+          },
+          "billboard-family:5e70c51ca8223212f4c16190": {
+            "accuracy": 0.4375,
+            "nll": 1.6950998122118135,
+            "rows": 16
+          },
+          "billboard-family:61ab550f4c85a975cd46f860": {
+            "accuracy": 0.5,
+            "nll": 2.0971317840796466,
+            "rows": 16
+          },
+          "billboard-family:66c2e6dd7fe34b78c205baee": {
+            "accuracy": 0.375,
+            "nll": 1.9891541411709928,
+            "rows": 16
+          },
+          "billboard-family:66e07cff0198046f472a2554": {
+            "accuracy": 0.3125,
+            "nll": 2.2041170611660843,
+            "rows": 16
+          },
+          "billboard-family:6b51d431df5d7f141cbececc": {
+            "accuracy": 0.3125,
+            "nll": 2.940901886294758,
+            "rows": 16
+          },
+          "billboard-family:6cc6eefb674286f7d1a0e4ad": {
+            "accuracy": 0.75,
+            "nll": 1.4677772727482892,
+            "rows": 16
+          },
+          "billboard-family:6d6ae523edc27b235030584a": {
+            "accuracy": 0.1875,
+            "nll": 4.263249902957406,
+            "rows": 16
+          },
+          "billboard-family:748064be03a08df81e31bd6f": {
+            "accuracy": 0.875,
+            "nll": 1.6553307236186032,
+            "rows": 16
+          },
+          "billboard-family:7559ca4a957c8c82ba04781c": {
+            "accuracy": 0.7272727272727273,
+            "nll": 1.434765432753071,
+            "rows": 11
+          },
+          "billboard-family:75f7313c20144e39edcf57a1": {
+            "accuracy": 0.1875,
+            "nll": 4.298432132351917,
+            "rows": 16
+          },
+          "billboard-family:7688b6ef52555962d008fff8": {
+            "accuracy": 0.375,
+            "nll": 3.3010565798913927,
+            "rows": 16
+          },
+          "billboard-family:78df64dc6fd61191b973ea5d": {
+            "accuracy": 0.1875,
+            "nll": 3.861022628791313,
+            "rows": 16
+          },
+          "billboard-family:7987e36c43f067b54276ccb5": {
+            "accuracy": 0.5,
+            "nll": 2.8661198490428097,
+            "rows": 10
+          },
+          "billboard-family:79bf08685d3138f9b109c354": {
+            "accuracy": 0.125,
+            "nll": 4.5730261124906795,
+            "rows": 16
+          },
+          "billboard-family:7b81eb727ed48055fa55c5e0": {
+            "accuracy": 0.125,
+            "nll": 4.224893277861571,
+            "rows": 16
+          },
+          "billboard-family:7bc9fcce33a859a1bd1c633e": {
+            "accuracy": 0.1875,
+            "nll": 3.073099112293456,
+            "rows": 16
+          },
+          "billboard-family:7f11756539d687172955ad37": {
+            "accuracy": 0.5625,
+            "nll": 2.596821505663132,
+            "rows": 16
+          },
+          "billboard-family:7f2253d7e228b22a08bda1f0": {
+            "accuracy": 0.4375,
+            "nll": 2.495920374650111,
+            "rows": 16
+          },
+          "billboard-family:7fc81a57656ec05561512145": {
+            "accuracy": 0.125,
+            "nll": 3.4197708697261446,
+            "rows": 16
+          },
+          "billboard-family:8111eb1556229541d7d2720a": {
+            "accuracy": 0.0,
+            "nll": 4.174957718069982,
+            "rows": 16
+          },
+          "billboard-family:84c8447c0a2d7a7853f63327": {
+            "accuracy": 0.0625,
+            "nll": 3.4932886900224904,
+            "rows": 16
+          },
+          "billboard-family:84f01dd97c687fb28a296bcc": {
+            "accuracy": 0.45454545454545453,
+            "nll": 3.4483662474812435,
+            "rows": 11
+          },
+          "billboard-family:85139675bad8fa2308b49fba": {
+            "accuracy": 0.125,
+            "nll": 4.3442884568873765,
+            "rows": 16
+          },
+          "billboard-family:88ba1737ec41809555af9112": {
+            "accuracy": 0.5,
+            "nll": 1.883792338116488,
+            "rows": 16
+          },
+          "billboard-family:8952115444bab6de66aab975": {
+            "accuracy": 0.0,
+            "nll": 4.179811591011499,
+            "rows": 16
+          },
+          "billboard-family:8c244b370747c1930a4e0967": {
+            "accuracy": 0.25,
+            "nll": 2.814958819104065,
+            "rows": 16
+          },
+          "billboard-family:8cf04f0d07191f042b1d1188": {
+            "accuracy": 0.1875,
+            "nll": 2.5972607287551615,
+            "rows": 16
+          },
+          "billboard-family:8ef532f440c91b5dfa24570e": {
+            "accuracy": 1.0,
+            "nll": 0.8200510066148947,
+            "rows": 16
+          },
+          "billboard-family:9168e847861429230da331e2": {
+            "accuracy": 0.1875,
+            "nll": 3.997651457334544,
+            "rows": 16
+          },
+          "billboard-family:920c37d6464a8f20e8930c19": {
+            "accuracy": 0.0625,
+            "nll": 4.5702131510719735,
+            "rows": 16
+          },
+          "billboard-family:92f3c34650437f1ddf6b2f2e": {
+            "accuracy": 0.625,
+            "nll": 2.2271048055265137,
+            "rows": 16
+          },
+          "billboard-family:936fa5780640f18f96fd80d9": {
+            "accuracy": 0.0,
+            "nll": 4.612620749693048,
+            "rows": 16
+          },
+          "billboard-family:9512d95d00d61bdec03d2b99": {
+            "accuracy": 0.4375,
+            "nll": 2.9183612803854273,
+            "rows": 16
+          },
+          "billboard-family:9869a8a3a11a33284dc2bcc3": {
+            "accuracy": 0.375,
+            "nll": 2.8993750044234217,
+            "rows": 16
+          },
+          "billboard-family:9989a37538faecc495bbe774": {
+            "accuracy": 0.75,
+            "nll": 1.6353247018391552,
+            "rows": 16
+          },
+          "billboard-family:9a35532c7499c19daeacafc9": {
+            "accuracy": 0.3125,
+            "nll": 3.251468479969438,
+            "rows": 16
+          },
+          "billboard-family:9f1f9dce319c4700ef28ec8c": {
+            "accuracy": 0.3125,
+            "nll": 2.6038602278076177,
+            "rows": 16
+          },
+          "billboard-family:a0f8b2c4cb1ac82abdb37f0f": {
+            "accuracy": 0.375,
+            "nll": 3.2372231514529295,
+            "rows": 16
+          },
+          "billboard-family:a26d0ee3b2ad04523daf3a87": {
+            "accuracy": 0.3125,
+            "nll": 1.4341747154825846,
+            "rows": 16
+          },
+          "billboard-family:a4e987d17584557e2fbed011": {
+            "accuracy": 0.125,
+            "nll": 3.8084519025959356,
+            "rows": 16
+          },
+          "billboard-family:a5bef651c8e3fd6cc63c43cd": {
+            "accuracy": 0.0,
+            "nll": 4.762173934797756,
+            "rows": 1
+          },
+          "billboard-family:a9aa59bb1bb5a16075ce68c9": {
+            "accuracy": 0.25,
+            "nll": 3.705010685125775,
+            "rows": 12
+          },
+          "billboard-family:ad3b83575249b68aab9602de": {
+            "accuracy": 0.5,
+            "nll": 2.239435705497045,
+            "rows": 16
+          },
+          "billboard-family:ad57366865126e55649ecb23": {
+            "accuracy": 0.5,
+            "nll": 1.7513218551006002,
+            "rows": 16
+          },
+          "billboard-family:b1d40536dd8fd3175ef66e6b": {
+            "accuracy": 0.25,
+            "nll": 3.158282541759368,
+            "rows": 16
+          },
+          "billboard-family:baea07580521240750f17e35": {
+            "accuracy": 0.0,
+            "nll": 4.34481492310923,
+            "rows": 16
+          },
+          "billboard-family:bba58959c32abe688d9cb522": {
+            "accuracy": 0.4375,
+            "nll": 3.3854417151049123,
+            "rows": 16
+          },
+          "billboard-family:bd3a797ba948938978965781": {
+            "accuracy": 0.6,
+            "nll": 2.90057450939875,
+            "rows": 10
+          },
+          "billboard-family:be1722b1d104ffb275326068": {
+            "accuracy": 0.5,
+            "nll": 2.259090040850137,
+            "rows": 16
+          },
+          "billboard-family:be7a79295340a5412438cba5": {
+            "accuracy": 0.6875,
+            "nll": 1.4186656373586908,
+            "rows": 16
+          },
+          "billboard-family:c2077253a9b10166e7c8ffda": {
+            "accuracy": 0.1875,
+            "nll": 4.423556611139902,
+            "rows": 16
+          },
+          "billboard-family:c2a824544a0afd72c9bfe306": {
+            "accuracy": 0.5,
+            "nll": 2.153710598334574,
+            "rows": 16
+          },
+          "billboard-family:c5169be03e3c601192bdff69": {
+            "accuracy": 0.5625,
+            "nll": 3.849550443532708,
+            "rows": 16
+          },
+          "billboard-family:c63efd61a70d0f6b7e5de2b9": {
+            "accuracy": 0.5625,
+            "nll": 2.2342164759855856,
+            "rows": 16
+          },
+          "billboard-family:c9273366553a79a499299f0b": {
+            "accuracy": 0.375,
+            "nll": 3.5524783528167796,
+            "rows": 16
+          },
+          "billboard-family:ca0cec7f60085f0289aaea5c": {
+            "accuracy": 0.0,
+            "nll": 3.9216481218876,
+            "rows": 16
+          },
+          "billboard-family:caa1aedb2a6ce96b39b9fde1": {
+            "accuracy": 0.6875,
+            "nll": 2.0162601606619286,
+            "rows": 16
+          },
+          "billboard-family:cef5838d118dccd9de488f16": {
+            "accuracy": 0.4375,
+            "nll": 1.6684261364542194,
+            "rows": 16
+          },
+          "billboard-family:d25f212bcbc495c71a837baf": {
+            "accuracy": 0.125,
+            "nll": 4.166857087451294,
+            "rows": 16
+          },
+          "billboard-family:d68aab8d03d79ff99065bf68": {
+            "accuracy": 0.5625,
+            "nll": 1.7578069116288995,
+            "rows": 16
+          },
+          "billboard-family:d8ed8ca27d83a63df6982905": {
+            "accuracy": 0.25,
+            "nll": 3.7580153939239342,
+            "rows": 16
+          },
+          "billboard-family:da2c575e48ee7651b9e99a51": {
+            "accuracy": 0.5625,
+            "nll": 1.9992535391545065,
+            "rows": 16
+          },
+          "billboard-family:da70dfa4d9f95ac979f921e8": {
+            "accuracy": 0.0,
+            "nll": 4.628514918630154,
+            "rows": 16
+          },
+          "billboard-family:dccb3c52e7c79f7033e1ea06": {
+            "accuracy": 0.1875,
+            "nll": 4.3121109134245454,
+            "rows": 16
+          },
+          "billboard-family:de498b9901677f58da56b38a": {
+            "accuracy": 0.0,
+            "nll": 4.477864316141355,
+            "rows": 16
+          },
+          "billboard-family:df4ca8418a8c9044528e272c": {
+            "accuracy": 0.625,
+            "nll": 2.389033473513826,
+            "rows": 16
+          },
+          "billboard-family:e73cb135243c08ab2c2adc33": {
+            "accuracy": 0.16666666666666666,
+            "nll": 4.452748912859943,
+            "rows": 12
+          },
+          "billboard-family:eaa0689a095d4394a05fb51b": {
+            "accuracy": 0.1875,
+            "nll": 4.666444520536979,
+            "rows": 16
+          },
+          "billboard-family:eaf89db7108470dc3f6b23ea": {
+            "accuracy": 0.5,
+            "nll": 2.7305905969522195,
+            "rows": 16
+          },
+          "billboard-family:eca6a42ae4cdfedab3f733c7": {
+            "accuracy": 0.0625,
+            "nll": 4.290938167174925,
+            "rows": 16
+          },
+          "billboard-family:eeca91fd439b6d5e827e8fda": {
+            "accuracy": 0.1875,
+            "nll": 4.0601998096397764,
+            "rows": 16
+          },
+          "billboard-family:f1250af9005fb93c6bc8ea65": {
+            "accuracy": 0.5,
+            "nll": 1.564675747418459,
+            "rows": 16
+          },
+          "billboard-family:f79b8977720743f5e7c8b5b2": {
+            "accuracy": 0.0,
+            "nll": 4.356676449402147,
+            "rows": 16
+          },
+          "billboard-family:f8809aff4d69bece79dabe35": {
+            "accuracy": 0.0625,
+            "nll": 3.776061942862129,
+            "rows": 16
+          },
+          "billboard-family:f97350101e1a9de922bdbb76": {
+            "accuracy": 0.375,
+            "nll": 3.00094927062805,
+            "rows": 16
+          },
+          "billboard-family:fa665be4732a050c061db096": {
+            "accuracy": 0.5625,
+            "nll": 1.890988801899423,
+            "rows": 16
+          },
+          "billboard-family:fa88d374b9cf5e059fad4a2f": {
+            "accuracy": 0.4375,
+            "nll": 1.7783844262401105,
+            "rows": 16
+          },
+          "billboard-family:fb335e8fd0f8aed3eb6ffedd": {
+            "accuracy": 0.75,
+            "nll": 1.1581486775345542,
+            "rows": 16
+          },
+          "billboard-family:fbb2a73b0bacf3953186a920": {
+            "accuracy": 0.375,
+            "nll": 3.2328132557621543,
+            "rows": 16
+          },
+          "billboard-family:fc71f2d6d38dbfc752ecaf22": {
+            "accuracy": 0.5625,
+            "nll": 1.494245867853444,
+            "rows": 16
+          },
+          "billboard-family:fce86e339dc3131c489202ec": {
+            "accuracy": 0.4375,
+            "nll": 2.505319444854732,
+            "rows": 16
+          }
+        }
+      }
+    },
+    "full_train_unigram": {
+      "metrics": {
+        "family_macro": {
+          "accuracy": 0.22299480822208093,
+          "families": 143,
+          "nll": 2.9507754401423116
+        },
+        "micro": {
+          "accuracy": 0.2263895164934478,
+          "nll": 2.938260767991177,
+          "rows": 2213
+        },
+        "per_family": {
+          "billboard-family:000f21ac06aceb9cdd0575e8": {
+            "accuracy": 0.375,
+            "nll": 2.168815552509417,
+            "rows": 16
+          },
+          "billboard-family:011af72a910ac4acf367eef9": {
+            "accuracy": 0.3125,
+            "nll": 2.3368664264982826,
+            "rows": 16
+          },
+          "billboard-family:01ce4b291ad3ecd240be7187": {
+            "accuracy": 0.125,
+            "nll": 3.0720303586351596,
+            "rows": 16
+          },
+          "billboard-family:068814875fcdfb8faf539ef4": {
+            "accuracy": 0.5,
+            "nll": 2.0801061282733384,
+            "rows": 16
+          },
+          "billboard-family:06de973bb45531d52cdbd483": {
+            "accuracy": 0.375,
+            "nll": 1.9903868045920063,
+            "rows": 16
+          },
+          "billboard-family:084ae23e6996e701addeeb7d": {
+            "accuracy": 0.3125,
+            "nll": 2.192917902965072,
+            "rows": 16
+          },
+          "billboard-family:086f5cc433f4a20f72051344": {
+            "accuracy": 0.1875,
+            "nll": 3.701040016409877,
+            "rows": 16
+          },
+          "billboard-family:09a1b036b82baba3177d83c2": {
+            "accuracy": 0.375,
+            "nll": 2.7756485477648236,
+            "rows": 16
+          },
+          "billboard-family:0b935e0bc9b943533bb652ac": {
+            "accuracy": 0.0,
+            "nll": 3.3767912121073955,
+            "rows": 16
+          },
+          "billboard-family:0d21ae129a64e1d19e4a94df": {
+            "accuracy": 0.5,
+            "nll": 1.9568687156846551,
+            "rows": 16
+          },
+          "billboard-family:0f78540965a86402578f8188": {
+            "accuracy": 0.375,
+            "nll": 2.6179352890594085,
+            "rows": 16
+          },
+          "billboard-family:1086d35563c495c1cecbce12": {
+            "accuracy": 0.375,
+            "nll": 2.687991035370558,
+            "rows": 16
+          },
+          "billboard-family:10995659fe5526fd493665a8": {
+            "accuracy": 0.0,
+            "nll": 3.796978999091621,
+            "rows": 11
+          },
+          "billboard-family:12132cd6767ee325d35883d2": {
+            "accuracy": 0.4375,
+            "nll": 2.2172668400417117,
+            "rows": 16
+          },
+          "billboard-family:1398690ecc7c72bb5833cb11": {
+            "accuracy": 0.0,
+            "nll": 3.7853698127123128,
+            "rows": 16
+          },
+          "billboard-family:16b30490a644117a249c2018": {
+            "accuracy": 0.625,
+            "nll": 2.7397159281232444,
+            "rows": 16
+          },
+          "billboard-family:1706be6c293444756e72b05e": {
+            "accuracy": 0.0,
+            "nll": 4.701928749664186,
+            "rows": 16
+          },
+          "billboard-family:194dbf72c513dc9ff0bf87b9": {
+            "accuracy": 0.25,
+            "nll": 3.587330623420862,
+            "rows": 16
+          },
+          "billboard-family:1a42d5267aba37d7057cadd6": {
+            "accuracy": 0.0,
+            "nll": 4.097211795444476,
+            "rows": 5
+          },
+          "billboard-family:1bde41ce9b4fccbf7dde0dc3": {
+            "accuracy": 0.0,
+            "nll": 3.595108699169081,
+            "rows": 16
+          },
+          "billboard-family:1c00e16c0db1f129d7b8b87f": {
+            "accuracy": 0.125,
+            "nll": 3.2231729259381994,
+            "rows": 16
+          },
+          "billboard-family:1d0ebea552eb43d0b1e1561f": {
+            "accuracy": 0.125,
+            "nll": 3.5018765391926863,
+            "rows": 16
+          },
+          "billboard-family:1da51b8d8ff98f6a48f80ae7": {
+            "accuracy": 0.1875,
+            "nll": 3.024739310073309,
+            "rows": 16
+          },
+          "billboard-family:234666d765f4c0a26cf4d96e": {
+            "accuracy": 0.4375,
+            "nll": 2.234337641901543,
+            "rows": 16
+          },
+          "billboard-family:2618182c3894875e16eeafa6": {
+            "accuracy": 0.125,
+            "nll": 3.7117628965976674,
+            "rows": 16
+          },
+          "billboard-family:26fe15811d2d4a635de17c7e": {
+            "accuracy": 0.0,
+            "nll": 5.151611481176991,
+            "rows": 16
+          },
+          "billboard-family:28dae7c8bde2f3ca608f86d0": {
+            "accuracy": 0.0,
+            "nll": 3.6179437997523944,
+            "rows": 16
+          },
+          "billboard-family:29bde016a5b440062043e1a3": {
+            "accuracy": 0.1875,
+            "nll": 2.086829706427664,
+            "rows": 16
+          },
+          "billboard-family:2c4cf657337835125bc4258d": {
+            "accuracy": 0.125,
+            "nll": 3.4386490518359736,
+            "rows": 16
+          },
+          "billboard-family:2c69bc9b34fb0800a44a702e": {
+            "accuracy": 0.0625,
+            "nll": 3.454011627078956,
+            "rows": 16
+          },
+          "billboard-family:2ec42bc1f3e672fc1cf7fdcf": {
+            "accuracy": 0.0,
+            "nll": 4.9699265637991585,
+            "rows": 16
+          },
+          "billboard-family:2f1d593cd98cb5bf81eb9d88": {
+            "accuracy": 0.3125,
+            "nll": 2.0188281056050017,
+            "rows": 16
+          },
+          "billboard-family:301807d2c5a61aee677de545": {
+            "accuracy": 0.375,
+            "nll": 2.4028288179960597,
+            "rows": 16
+          },
+          "billboard-family:30e4c02268d49ca010e3c62f": {
+            "accuracy": 0.1875,
+            "nll": 2.650036989705379,
+            "rows": 16
+          },
+          "billboard-family:340ab11db8d1a7435cb4b4a0": {
+            "accuracy": 0.0625,
+            "nll": 3.521565840862774,
+            "rows": 16
+          },
+          "billboard-family:34be1021b378c5701b4dd143": {
+            "accuracy": 0.25,
+            "nll": 2.3813029254550875,
+            "rows": 16
+          },
+          "billboard-family:35254aa9a21444e50349cebb": {
+            "accuracy": 0.1875,
+            "nll": 2.620225666112088,
+            "rows": 16
+          },
+          "billboard-family:37b1267a4ff4e12dddfe4438": {
+            "accuracy": 0.5625,
+            "nll": 1.7693390346886706,
+            "rows": 16
+          },
+          "billboard-family:37c20f19f3272b5ccc3a5d80": {
+            "accuracy": 0.5,
+            "nll": 1.8649545955992113,
+            "rows": 16
+          },
+          "billboard-family:38ee08bb9129d6519eb37341": {
+            "accuracy": 0.0,
+            "nll": 4.340927527566125,
+            "rows": 16
+          },
+          "billboard-family:3bad45f2cc9f047e72cd5cf4": {
+            "accuracy": 0.0,
+            "nll": 3.603702282634083,
+            "rows": 16
+          },
+          "billboard-family:3ef58410b868298fcca4ee41": {
+            "accuracy": 0.0625,
+            "nll": 3.6739623427006216,
+            "rows": 16
+          },
+          "billboard-family:40794500a2845c943a0f4910": {
+            "accuracy": 0.1875,
+            "nll": 2.595334197947386,
+            "rows": 16
+          },
+          "billboard-family:45297c633d331e6ac35169eb": {
+            "accuracy": 0.0,
+            "nll": 2.4283005557936077,
+            "rows": 16
+          },
+          "billboard-family:4531f577d6ce6b26377b54d9": {
+            "accuracy": 0.0,
+            "nll": 5.169593171275847,
+            "rows": 16
+          },
+          "billboard-family:4670f31d8354a04f66878fb1": {
+            "accuracy": 0.0,
+            "nll": 3.0817222796844783,
+            "rows": 16
+          },
+          "billboard-family:4c970004b0678d439f177e77": {
+            "accuracy": 0.0,
+            "nll": 3.142684365659986,
+            "rows": 16
+          },
+          "billboard-family:4e07408562bedb8b60ce05c1": {
+            "accuracy": 0.375,
+            "nll": 2.539137769039735,
+            "rows": 16
+          },
+          "billboard-family:501a4e61aa4f7737df030512": {
+            "accuracy": 0.0,
+            "nll": 4.5391062037255105,
+            "rows": 2
+          },
+          "billboard-family:5283f1b4e66467616feca1e0": {
+            "accuracy": 0.125,
+            "nll": 2.30386110692294,
+            "rows": 16
+          },
+          "billboard-family:52f11620e397f867b7d9f19e": {
+            "accuracy": 0.125,
+            "nll": 2.5797618122271073,
+            "rows": 16
+          },
+          "billboard-family:5426d2ca50f244fb43fe9eaf": {
+            "accuracy": 0.4375,
+            "nll": 1.8660137412157864,
+            "rows": 16
+          },
+          "billboard-family:549a2fac47d713cc00f2db49": {
+            "accuracy": 0.625,
+            "nll": 1.7867028585353055,
+            "rows": 16
+          },
+          "billboard-family:5695014df38af4d4626f2629": {
+            "accuracy": 0.1875,
+            "nll": 2.384081617896067,
+            "rows": 16
+          },
+          "billboard-family:56f4da26ed956730309fa148": {
+            "accuracy": 0.5625,
+            "nll": 2.9005326428143032,
+            "rows": 16
+          },
+          "billboard-family:57f75bad2ae0d8b46957ec48": {
+            "accuracy": 0.3125,
+            "nll": 2.477019771502891,
+            "rows": 16
+          },
+          "billboard-family:580811fa95269f3ecd4f22d1": {
+            "accuracy": 0.5625,
+            "nll": 2.0165748634216385,
+            "rows": 16
+          },
+          "billboard-family:5844a72aee9269a68da28cae": {
+            "accuracy": 0.3125,
+            "nll": 2.70342890712323,
+            "rows": 16
+          },
+          "billboard-family:5943c883d29e6c04f4ecc646": {
+            "accuracy": 0.3125,
+            "nll": 2.9516660649008832,
+            "rows": 16
+          },
+          "billboard-family:59a6d3288187dfcd54bb45d3": {
+            "accuracy": 0.25,
+            "nll": 2.973166123438323,
+            "rows": 16
+          },
+          "billboard-family:59b524f8de039389005bce58": {
+            "accuracy": 0.25,
+            "nll": 2.9273718691651616,
+            "rows": 16
+          },
+          "billboard-family:5cf4e26bd3d87da5e03f80a4": {
+            "accuracy": 0.1875,
+            "nll": 2.181146773558403,
+            "rows": 16
+          },
+          "billboard-family:5e70c51ca8223212f4c16190": {
+            "accuracy": 0.1875,
+            "nll": 2.105811960362494,
+            "rows": 16
+          },
+          "billboard-family:61ab550f4c85a975cd46f860": {
+            "accuracy": 0.5,
+            "nll": 1.9799486698713769,
+            "rows": 16
+          },
+          "billboard-family:66c2e6dd7fe34b78c205baee": {
+            "accuracy": 0.25,
+            "nll": 1.9720840453348607,
+            "rows": 16
+          },
+          "billboard-family:66e07cff0198046f472a2554": {
+            "accuracy": 0.5,
+            "nll": 2.3125312114523515,
+            "rows": 16
+          },
+          "billboard-family:6b51d431df5d7f141cbececc": {
+            "accuracy": 0.1875,
+            "nll": 2.5561521248443326,
+            "rows": 16
+          },
+          "billboard-family:6cc6eefb674286f7d1a0e4ad": {
+            "accuracy": 0.0,
+            "nll": 3.5560602858960424,
+            "rows": 16
+          },
+          "billboard-family:6d6ae523edc27b235030584a": {
+            "accuracy": 0.125,
+            "nll": 2.996523294255477,
+            "rows": 16
+          },
+          "billboard-family:748064be03a08df81e31bd6f": {
+            "accuracy": 0.0,
+            "nll": 3.534605359641528,
+            "rows": 16
+          },
+          "billboard-family:7559ca4a957c8c82ba04781c": {
+            "accuracy": 0.5454545454545454,
+            "nll": 1.9681555562964064,
+            "rows": 11
+          },
+          "billboard-family:75f7313c20144e39edcf57a1": {
+            "accuracy": 0.0,
+            "nll": 3.93437433300822,
+            "rows": 16
+          },
+          "billboard-family:7688b6ef52555962d008fff8": {
+            "accuracy": 0.25,
+            "nll": 3.6015733683336713,
+            "rows": 16
+          },
+          "billboard-family:78df64dc6fd61191b973ea5d": {
+            "accuracy": 0.25,
+            "nll": 3.572076915572103,
+            "rows": 16
+          },
+          "billboard-family:7987e36c43f067b54276ccb5": {
+            "accuracy": 0.0,
+            "nll": 3.755146124864138,
+            "rows": 10
+          },
+          "billboard-family:79bf08685d3138f9b109c354": {
+            "accuracy": 0.0,
+            "nll": 4.239178519441477,
+            "rows": 16
+          },
+          "billboard-family:7b81eb727ed48055fa55c5e0": {
+            "accuracy": 0.0,
+            "nll": 5.025526992938114,
+            "rows": 16
+          },
+          "billboard-family:7bc9fcce33a859a1bd1c633e": {
+            "accuracy": 0.1875,
+            "nll": 2.941603873171601,
+            "rows": 16
+          },
+          "billboard-family:7f11756539d687172955ad37": {
+            "accuracy": 0.0625,
+            "nll": 3.0644676412324894,
+            "rows": 16
+          },
+          "billboard-family:7f2253d7e228b22a08bda1f0": {
+            "accuracy": 0.25,
+            "nll": 2.1773171307373023,
+            "rows": 16
+          },
+          "billboard-family:7fc81a57656ec05561512145": {
+            "accuracy": 0.0,
+            "nll": 3.5982076859262966,
+            "rows": 16
+          },
+          "billboard-family:8111eb1556229541d7d2720a": {
+            "accuracy": 0.0,
+            "nll": 3.0182899058238704,
+            "rows": 16
+          },
+          "billboard-family:84c8447c0a2d7a7853f63327": {
+            "accuracy": 0.0625,
+            "nll": 2.9310154739390675,
+            "rows": 16
+          },
+          "billboard-family:84f01dd97c687fb28a296bcc": {
+            "accuracy": 0.36363636363636365,
+            "nll": 3.1210231199474276,
+            "rows": 11
+          },
+          "billboard-family:85139675bad8fa2308b49fba": {
+            "accuracy": 0.0,
+            "nll": 4.158532842820678,
+            "rows": 16
+          },
+          "billboard-family:88ba1737ec41809555af9112": {
+            "accuracy": 0.625,
+            "nll": 2.0805847792562395,
+            "rows": 16
+          },
+          "billboard-family:8952115444bab6de66aab975": {
+            "accuracy": 0.1875,
+            "nll": 3.0876902115538076,
+            "rows": 16
+          },
+          "billboard-family:8c244b370747c1930a4e0967": {
+            "accuracy": 0.1875,
+            "nll": 2.9685074691587294,
+            "rows": 16
+          },
+          "billboard-family:8cf04f0d07191f042b1d1188": {
+            "accuracy": 0.375,
+            "nll": 2.048268006483052,
+            "rows": 16
+          },
+          "billboard-family:8ef532f440c91b5dfa24570e": {
+            "accuracy": 0.5,
+            "nll": 1.6690625839321922,
+            "rows": 16
+          },
+          "billboard-family:9168e847861429230da331e2": {
+            "accuracy": 0.0625,
+            "nll": 3.138889453999852,
+            "rows": 16
+          },
+          "billboard-family:920c37d6464a8f20e8930c19": {
+            "accuracy": 0.0,
+            "nll": 3.8411290761551835,
+            "rows": 16
+          },
+          "billboard-family:92f3c34650437f1ddf6b2f2e": {
+            "accuracy": 0.0,
+            "nll": 3.6156140676834214,
+            "rows": 16
+          },
+          "billboard-family:936fa5780640f18f96fd80d9": {
+            "accuracy": 0.0,
+            "nll": 5.226703755972018,
+            "rows": 16
+          },
+          "billboard-family:9512d95d00d61bdec03d2b99": {
+            "accuracy": 0.4375,
+            "nll": 2.004544134373032,
+            "rows": 16
+          },
+          "billboard-family:9869a8a3a11a33284dc2bcc3": {
+            "accuracy": 0.25,
+            "nll": 2.804478695347589,
+            "rows": 16
+          },
+          "billboard-family:9989a37538faecc495bbe774": {
+            "accuracy": 0.3125,
+            "nll": 1.8893511137003642,
+            "rows": 16
+          },
+          "billboard-family:9a35532c7499c19daeacafc9": {
+            "accuracy": 0.25,
+            "nll": 2.9118482830807215,
+            "rows": 16
+          },
+          "billboard-family:9f1f9dce319c4700ef28ec8c": {
+            "accuracy": 0.125,
+            "nll": 2.1854081686232303,
+            "rows": 16
+          },
+          "billboard-family:a0f8b2c4cb1ac82abdb37f0f": {
+            "accuracy": 0.3125,
+            "nll": 2.749352550968432,
+            "rows": 16
+          },
+          "billboard-family:a26d0ee3b2ad04523daf3a87": {
+            "accuracy": 0.3125,
+            "nll": 1.9936763233702806,
+            "rows": 16
+          },
+          "billboard-family:a4e987d17584557e2fbed011": {
+            "accuracy": 0.0,
+            "nll": 4.031356613560741,
+            "rows": 16
+          },
+          "billboard-family:a5bef651c8e3fd6cc63c43cd": {
+            "accuracy": 0.0,
+            "nll": 2.2678421445501726,
+            "rows": 1
+          },
+          "billboard-family:a9aa59bb1bb5a16075ce68c9": {
+            "accuracy": 0.16666666666666666,
+            "nll": 2.9366693782841047,
+            "rows": 12
+          },
+          "billboard-family:ad3b83575249b68aab9602de": {
+            "accuracy": 0.125,
+            "nll": 2.3154823737359864,
+            "rows": 16
+          },
+          "billboard-family:ad57366865126e55649ecb23": {
+            "accuracy": 0.1875,
+            "nll": 2.2022542266606147,
+            "rows": 16
+          },
+          "billboard-family:b1d40536dd8fd3175ef66e6b": {
+            "accuracy": 0.4375,
+            "nll": 2.3992488433554158,
+            "rows": 16
+          },
+          "billboard-family:baea07580521240750f17e35": {
+            "accuracy": 0.1875,
+            "nll": 3.2266780976598324,
+            "rows": 16
+          },
+          "billboard-family:bba58959c32abe688d9cb522": {
+            "accuracy": 0.1875,
+            "nll": 3.278449092656866,
+            "rows": 16
+          },
+          "billboard-family:bd3a797ba948938978965781": {
+            "accuracy": 0.5,
+            "nll": 2.2684716917975276,
+            "rows": 10
+          },
+          "billboard-family:be1722b1d104ffb275326068": {
+            "accuracy": 0.0625,
+            "nll": 3.062309117252676,
+            "rows": 16
+          },
+          "billboard-family:be7a79295340a5412438cba5": {
+            "accuracy": 0.375,
+            "nll": 1.9625218991130284,
+            "rows": 16
+          },
+          "billboard-family:c2077253a9b10166e7c8ffda": {
+            "accuracy": 0.375,
+            "nll": 3.133934878423799,
+            "rows": 16
+          },
+          "billboard-family:c2a824544a0afd72c9bfe306": {
+            "accuracy": 0.25,
+            "nll": 2.2313725896458756,
+            "rows": 16
+          },
+          "billboard-family:c5169be03e3c601192bdff69": {
+            "accuracy": 0.375,
+            "nll": 3.555373844416663,
+            "rows": 16
+          },
+          "billboard-family:c63efd61a70d0f6b7e5de2b9": {
+            "accuracy": 0.375,
+            "nll": 2.3484720124880303,
+            "rows": 16
+          },
+          "billboard-family:c9273366553a79a499299f0b": {
+            "accuracy": 0.25,
+            "nll": 3.09107555427491,
+            "rows": 16
+          },
+          "billboard-family:ca0cec7f60085f0289aaea5c": {
+            "accuracy": 0.0,
+            "nll": 3.9931768052833223,
+            "rows": 16
+          },
+          "billboard-family:caa1aedb2a6ce96b39b9fde1": {
+            "accuracy": 0.5,
+            "nll": 1.8313122021010044,
+            "rows": 16
+          },
+          "billboard-family:cef5838d118dccd9de488f16": {
+            "accuracy": 0.25,
+            "nll": 2.0897387830010725,
+            "rows": 16
+          },
+          "billboard-family:d25f212bcbc495c71a837baf": {
+            "accuracy": 0.1875,
+            "nll": 3.185297488055443,
+            "rows": 16
+          },
+          "billboard-family:d68aab8d03d79ff99065bf68": {
+            "accuracy": 0.5625,
+            "nll": 2.008826052516649,
+            "rows": 16
+          },
+          "billboard-family:d8ed8ca27d83a63df6982905": {
+            "accuracy": 0.0,
+            "nll": 3.412516924029432,
+            "rows": 16
+          },
+          "billboard-family:da2c575e48ee7651b9e99a51": {
+            "accuracy": 0.375,
+            "nll": 2.496020221343498,
+            "rows": 16
+          },
+          "billboard-family:da70dfa4d9f95ac979f921e8": {
+            "accuracy": 0.0,
+            "nll": 3.666401398313085,
+            "rows": 16
+          },
+          "billboard-family:dccb3c52e7c79f7033e1ea06": {
+            "accuracy": 0.0,
+            "nll": 5.790882798331627,
+            "rows": 16
+          },
+          "billboard-family:de498b9901677f58da56b38a": {
+            "accuracy": 0.375,
+            "nll": 2.37165174267691,
+            "rows": 16
+          },
+          "billboard-family:df4ca8418a8c9044528e272c": {
+            "accuracy": 0.3125,
+            "nll": 2.2853132224800774,
+            "rows": 16
+          },
+          "billboard-family:e73cb135243c08ab2c2adc33": {
+            "accuracy": 0.25,
+            "nll": 3.5123764802630624,
+            "rows": 12
+          },
+          "billboard-family:eaa0689a095d4394a05fb51b": {
+            "accuracy": 0.1875,
+            "nll": 5.308274887588211,
+            "rows": 16
+          },
+          "billboard-family:eaf89db7108470dc3f6b23ea": {
+            "accuracy": 0.4375,
+            "nll": 2.37348582587889,
+            "rows": 16
+          },
+          "billboard-family:eca6a42ae4cdfedab3f733c7": {
+            "accuracy": 0.25,
+            "nll": 2.812800280377844,
+            "rows": 16
+          },
+          "billboard-family:eeca91fd439b6d5e827e8fda": {
+            "accuracy": 0.0625,
+            "nll": 3.5134103218678705,
+            "rows": 16
+          },
+          "billboard-family:f1250af9005fb93c6bc8ea65": {
+            "accuracy": 0.125,
+            "nll": 2.4257576988578267,
+            "rows": 16
+          },
+          "billboard-family:f79b8977720743f5e7c8b5b2": {
+            "accuracy": 0.25,
+            "nll": 2.7540819667442076,
+            "rows": 16
+          },
+          "billboard-family:f8809aff4d69bece79dabe35": {
+            "accuracy": 0.1875,
+            "nll": 3.754954375429523,
+            "rows": 16
+          },
+          "billboard-family:f97350101e1a9de922bdbb76": {
+            "accuracy": 0.1875,
+            "nll": 2.8012711601094447,
+            "rows": 16
+          },
+          "billboard-family:fa665be4732a050c061db096": {
+            "accuracy": 0.4375,
+            "nll": 2.456634812915166,
+            "rows": 16
+          },
+          "billboard-family:fa88d374b9cf5e059fad4a2f": {
+            "accuracy": 0.5,
+            "nll": 2.3145334273049305,
+            "rows": 16
+          },
+          "billboard-family:fb335e8fd0f8aed3eb6ffedd": {
+            "accuracy": 0.625,
+            "nll": 1.6908599085177447,
+            "rows": 16
+          },
+          "billboard-family:fbb2a73b0bacf3953186a920": {
+            "accuracy": 0.0,
+            "nll": 3.5091594665850216,
+            "rows": 16
+          },
+          "billboard-family:fc71f2d6d38dbfc752ecaf22": {
+            "accuracy": 0.25,
+            "nll": 2.1430535812741187,
+            "rows": 16
+          },
+          "billboard-family:fce86e339dc3131c489202ec": {
+            "accuracy": 0.25,
+            "nll": 2.524216835173172,
+            "rows": 16
+          }
+        }
+      }
+    },
+    "initial_ai": {
+      "metrics": {
+        "family_macro": {
+          "accuracy": 0.0,
+          "families": 143,
+          "nll": 4.933452708119557
+        },
+        "micro": {
+          "accuracy": 0.0,
+          "nll": 4.945042258304436,
+          "rows": 2213
+        },
+        "per_family": {
+          "billboard-family:000f21ac06aceb9cdd0575e8": {
+            "accuracy": 0.0,
+            "nll": 4.955857127904892,
+            "rows": 16
+          },
+          "billboard-family:011af72a910ac4acf367eef9": {
+            "accuracy": 0.0,
+            "nll": 4.927749365568161,
+            "rows": 16
+          },
+          "billboard-family:01ce4b291ad3ecd240be7187": {
+            "accuracy": 0.0,
+            "nll": 4.622785151004791,
+            "rows": 16
+          },
+          "billboard-family:068814875fcdfb8faf539ef4": {
+            "accuracy": 0.0,
+            "nll": 4.912723958492279,
+            "rows": 16
+          },
+          "billboard-family:06de973bb45531d52cdbd483": {
+            "accuracy": 0.0,
+            "nll": 5.14251047372818,
+            "rows": 16
+          },
+          "billboard-family:084ae23e6996e701addeeb7d": {
+            "accuracy": 0.0,
+            "nll": 5.380877792835236,
+            "rows": 16
+          },
+          "billboard-family:086f5cc433f4a20f72051344": {
+            "accuracy": 0.0,
+            "nll": 4.717183664441109,
+            "rows": 16
+          },
+          "billboard-family:09a1b036b82baba3177d83c2": {
+            "accuracy": 0.0,
+            "nll": 4.858477532863617,
+            "rows": 16
+          },
+          "billboard-family:0b935e0bc9b943533bb652ac": {
+            "accuracy": 0.0,
+            "nll": 5.030790448188782,
+            "rows": 16
+          },
+          "billboard-family:0d21ae129a64e1d19e4a94df": {
+            "accuracy": 0.0,
+            "nll": 4.933940976858139,
+            "rows": 16
+          },
+          "billboard-family:0f78540965a86402578f8188": {
+            "accuracy": 0.0,
+            "nll": 5.138512402772903,
+            "rows": 16
+          },
+          "billboard-family:1086d35563c495c1cecbce12": {
+            "accuracy": 0.0,
+            "nll": 5.074304640293121,
+            "rows": 16
+          },
+          "billboard-family:10995659fe5526fd493665a8": {
+            "accuracy": 0.0,
+            "nll": 4.569644797932018,
+            "rows": 11
+          },
+          "billboard-family:12132cd6767ee325d35883d2": {
+            "accuracy": 0.0,
+            "nll": 4.95794290304184,
+            "rows": 16
+          },
+          "billboard-family:1398690ecc7c72bb5833cb11": {
+            "accuracy": 0.0,
+            "nll": 4.752386778593063,
+            "rows": 16
+          },
+          "billboard-family:16b30490a644117a249c2018": {
+            "accuracy": 0.0,
+            "nll": 5.129467993974686,
+            "rows": 16
+          },
+          "billboard-family:1706be6c293444756e72b05e": {
+            "accuracy": 0.0,
+            "nll": 5.206187233328819,
+            "rows": 16
+          },
+          "billboard-family:194dbf72c513dc9ff0bf87b9": {
+            "accuracy": 0.0,
+            "nll": 4.737355828285217,
+            "rows": 16
+          },
+          "billboard-family:1a42d5267aba37d7057cadd6": {
+            "accuracy": 0.0,
+            "nll": 4.31117000579834,
+            "rows": 5
+          },
+          "billboard-family:1bde41ce9b4fccbf7dde0dc3": {
+            "accuracy": 0.0,
+            "nll": 4.464107781648636,
+            "rows": 16
+          },
+          "billboard-family:1c00e16c0db1f129d7b8b87f": {
+            "accuracy": 0.0,
+            "nll": 4.888064116239548,
+            "rows": 16
+          },
+          "billboard-family:1d0ebea552eb43d0b1e1561f": {
+            "accuracy": 0.0,
+            "nll": 5.029044508934021,
+            "rows": 16
+          },
+          "billboard-family:1da51b8d8ff98f6a48f80ae7": {
+            "accuracy": 0.0,
+            "nll": 4.614083141088486,
+            "rows": 16
+          },
+          "billboard-family:234666d765f4c0a26cf4d96e": {
+            "accuracy": 0.0,
+            "nll": 4.992848038673401,
+            "rows": 16
+          },
+          "billboard-family:2618182c3894875e16eeafa6": {
+            "accuracy": 0.0,
+            "nll": 4.9031945168972015,
+            "rows": 16
+          },
+          "billboard-family:26fe15811d2d4a635de17c7e": {
+            "accuracy": 0.0,
+            "nll": 4.931124985218048,
+            "rows": 16
+          },
+          "billboard-family:28dae7c8bde2f3ca608f86d0": {
+            "accuracy": 0.0,
+            "nll": 5.060363292694092,
+            "rows": 16
+          },
+          "billboard-family:29bde016a5b440062043e1a3": {
+            "accuracy": 0.0,
+            "nll": 5.0290011167526245,
+            "rows": 16
+          },
+          "billboard-family:2c4cf657337835125bc4258d": {
+            "accuracy": 0.0,
+            "nll": 5.01762130856514,
+            "rows": 16
+          },
+          "billboard-family:2c69bc9b34fb0800a44a702e": {
+            "accuracy": 0.0,
+            "nll": 4.894982814788818,
+            "rows": 16
+          },
+          "billboard-family:2ec42bc1f3e672fc1cf7fdcf": {
+            "accuracy": 0.0,
+            "nll": 4.799268364906311,
+            "rows": 16
+          },
+          "billboard-family:2f1d593cd98cb5bf81eb9d88": {
+            "accuracy": 0.0,
+            "nll": 5.159849613904953,
+            "rows": 16
+          },
+          "billboard-family:301807d2c5a61aee677de545": {
+            "accuracy": 0.0,
+            "nll": 5.225011646747589,
+            "rows": 16
+          },
+          "billboard-family:30e4c02268d49ca010e3c62f": {
+            "accuracy": 0.0,
+            "nll": 4.839182868599892,
+            "rows": 16
+          },
+          "billboard-family:340ab11db8d1a7435cb4b4a0": {
+            "accuracy": 0.0,
+            "nll": 4.600320920348167,
+            "rows": 16
+          },
+          "billboard-family:34be1021b378c5701b4dd143": {
+            "accuracy": 0.0,
+            "nll": 4.998638272285461,
+            "rows": 16
+          },
+          "billboard-family:35254aa9a21444e50349cebb": {
+            "accuracy": 0.0,
+            "nll": 5.174420207738876,
+            "rows": 16
+          },
+          "billboard-family:37b1267a4ff4e12dddfe4438": {
+            "accuracy": 0.0,
+            "nll": 5.171651780605316,
+            "rows": 16
+          },
+          "billboard-family:37c20f19f3272b5ccc3a5d80": {
+            "accuracy": 0.0,
+            "nll": 5.038417458534241,
+            "rows": 16
+          },
+          "billboard-family:38ee08bb9129d6519eb37341": {
+            "accuracy": 0.0,
+            "nll": 4.212889581918716,
+            "rows": 16
+          },
+          "billboard-family:3bad45f2cc9f047e72cd5cf4": {
+            "accuracy": 0.0,
+            "nll": 4.264436230063438,
+            "rows": 16
+          },
+          "billboard-family:3ef58410b868298fcca4ee41": {
+            "accuracy": 0.0,
+            "nll": 4.789462745189667,
+            "rows": 16
+          },
+          "billboard-family:40794500a2845c943a0f4910": {
+            "accuracy": 0.0,
+            "nll": 4.813807845115662,
+            "rows": 16
+          },
+          "billboard-family:45297c633d331e6ac35169eb": {
+            "accuracy": 0.0,
+            "nll": 4.9924774169921875,
+            "rows": 16
+          },
+          "billboard-family:4531f577d6ce6b26377b54d9": {
+            "accuracy": 0.0,
+            "nll": 4.682403311133385,
+            "rows": 16
+          },
+          "billboard-family:4670f31d8354a04f66878fb1": {
+            "accuracy": 0.0,
+            "nll": 5.433921933174133,
+            "rows": 16
+          },
+          "billboard-family:4c970004b0678d439f177e77": {
+            "accuracy": 0.0,
+            "nll": 4.652376770973206,
+            "rows": 16
+          },
+          "billboard-family:4e07408562bedb8b60ce05c1": {
+            "accuracy": 0.0,
+            "nll": 4.929065257310867,
+            "rows": 16
+          },
+          "billboard-family:501a4e61aa4f7737df030512": {
+            "accuracy": 0.0,
+            "nll": 3.8408643007278442,
+            "rows": 2
+          },
+          "billboard-family:5283f1b4e66467616feca1e0": {
+            "accuracy": 0.0,
+            "nll": 4.956040009856224,
+            "rows": 16
+          },
+          "billboard-family:52f11620e397f867b7d9f19e": {
+            "accuracy": 0.0,
+            "nll": 5.02572700381279,
+            "rows": 16
+          },
+          "billboard-family:5426d2ca50f244fb43fe9eaf": {
+            "accuracy": 0.0,
+            "nll": 5.071977108716965,
+            "rows": 16
+          },
+          "billboard-family:549a2fac47d713cc00f2db49": {
+            "accuracy": 0.0,
+            "nll": 5.245915949344635,
+            "rows": 16
+          },
+          "billboard-family:5695014df38af4d4626f2629": {
+            "accuracy": 0.0,
+            "nll": 5.044677197933197,
+            "rows": 16
+          },
+          "billboard-family:56f4da26ed956730309fa148": {
+            "accuracy": 0.0,
+            "nll": 4.635268568992615,
+            "rows": 16
+          },
+          "billboard-family:57f75bad2ae0d8b46957ec48": {
+            "accuracy": 0.0,
+            "nll": 5.077639043331146,
+            "rows": 16
+          },
+          "billboard-family:580811fa95269f3ecd4f22d1": {
+            "accuracy": 0.0,
+            "nll": 5.079934895038605,
+            "rows": 16
+          },
+          "billboard-family:5844a72aee9269a68da28cae": {
+            "accuracy": 0.0,
+            "nll": 4.987299174070358,
+            "rows": 16
+          },
+          "billboard-family:5943c883d29e6c04f4ecc646": {
+            "accuracy": 0.0,
+            "nll": 5.010043084621429,
+            "rows": 16
+          },
+          "billboard-family:59a6d3288187dfcd54bb45d3": {
+            "accuracy": 0.0,
+            "nll": 4.850365087389946,
+            "rows": 16
+          },
+          "billboard-family:59b524f8de039389005bce58": {
+            "accuracy": 0.0,
+            "nll": 4.689824998378754,
+            "rows": 16
+          },
+          "billboard-family:5cf4e26bd3d87da5e03f80a4": {
+            "accuracy": 0.0,
+            "nll": 5.143417507410049,
+            "rows": 16
+          },
+          "billboard-family:5e70c51ca8223212f4c16190": {
+            "accuracy": 0.0,
+            "nll": 4.964481621980667,
+            "rows": 16
+          },
+          "billboard-family:61ab550f4c85a975cd46f860": {
+            "accuracy": 0.0,
+            "nll": 4.849362552165985,
+            "rows": 16
+          },
+          "billboard-family:66c2e6dd7fe34b78c205baee": {
+            "accuracy": 0.0,
+            "nll": 5.015151739120483,
+            "rows": 16
+          },
+          "billboard-family:66e07cff0198046f472a2554": {
+            "accuracy": 0.0,
+            "nll": 5.077208638191223,
+            "rows": 16
+          },
+          "billboard-family:6b51d431df5d7f141cbececc": {
+            "accuracy": 0.0,
+            "nll": 5.071429461240768,
+            "rows": 16
+          },
+          "billboard-family:6cc6eefb674286f7d1a0e4ad": {
+            "accuracy": 0.0,
+            "nll": 5.022626996040344,
+            "rows": 16
+          },
+          "billboard-family:6d6ae523edc27b235030584a": {
+            "accuracy": 0.0,
+            "nll": 4.893206566572189,
+            "rows": 16
+          },
+          "billboard-family:748064be03a08df81e31bd6f": {
+            "accuracy": 0.0,
+            "nll": 5.001291871070862,
+            "rows": 16
+          },
+          "billboard-family:7559ca4a957c8c82ba04781c": {
+            "accuracy": 0.0,
+            "nll": 5.189964467828924,
+            "rows": 11
+          },
+          "billboard-family:75f7313c20144e39edcf57a1": {
+            "accuracy": 0.0,
+            "nll": 5.1145389676094055,
+            "rows": 16
+          },
+          "billboard-family:7688b6ef52555962d008fff8": {
+            "accuracy": 0.0,
+            "nll": 5.06701323390007,
+            "rows": 16
+          },
+          "billboard-family:78df64dc6fd61191b973ea5d": {
+            "accuracy": 0.0,
+            "nll": 5.042201548814774,
+            "rows": 16
+          },
+          "billboard-family:7987e36c43f067b54276ccb5": {
+            "accuracy": 0.0,
+            "nll": 5.116496276855469,
+            "rows": 10
+          },
+          "billboard-family:79bf08685d3138f9b109c354": {
+            "accuracy": 0.0,
+            "nll": 4.5459811091423035,
+            "rows": 16
+          },
+          "billboard-family:7b81eb727ed48055fa55c5e0": {
+            "accuracy": 0.0,
+            "nll": 4.659928202629089,
+            "rows": 16
+          },
+          "billboard-family:7bc9fcce33a859a1bd1c633e": {
+            "accuracy": 0.0,
+            "nll": 4.977509021759033,
+            "rows": 16
+          },
+          "billboard-family:7f11756539d687172955ad37": {
+            "accuracy": 0.0,
+            "nll": 5.236005276441574,
+            "rows": 16
+          },
+          "billboard-family:7f2253d7e228b22a08bda1f0": {
+            "accuracy": 0.0,
+            "nll": 5.110642433166504,
+            "rows": 16
+          },
+          "billboard-family:7fc81a57656ec05561512145": {
+            "accuracy": 0.0,
+            "nll": 4.859778136014938,
+            "rows": 16
+          },
+          "billboard-family:8111eb1556229541d7d2720a": {
+            "accuracy": 0.0,
+            "nll": 4.68418675661087,
+            "rows": 16
+          },
+          "billboard-family:84c8447c0a2d7a7853f63327": {
+            "accuracy": 0.0,
+            "nll": 5.132941782474518,
+            "rows": 16
+          },
+          "billboard-family:84f01dd97c687fb28a296bcc": {
+            "accuracy": 0.0,
+            "nll": 5.0356902642683545,
+            "rows": 11
+          },
+          "billboard-family:85139675bad8fa2308b49fba": {
+            "accuracy": 0.0,
+            "nll": 4.668420970439911,
+            "rows": 16
+          },
+          "billboard-family:88ba1737ec41809555af9112": {
+            "accuracy": 0.0,
+            "nll": 5.016707539558411,
+            "rows": 16
+          },
+          "billboard-family:8952115444bab6de66aab975": {
+            "accuracy": 0.0,
+            "nll": 5.171710431575775,
+            "rows": 16
+          },
+          "billboard-family:8c244b370747c1930a4e0967": {
+            "accuracy": 0.0,
+            "nll": 5.053966760635376,
+            "rows": 16
+          },
+          "billboard-family:8cf04f0d07191f042b1d1188": {
+            "accuracy": 0.0,
+            "nll": 5.131460279226303,
+            "rows": 16
+          },
+          "billboard-family:8ef532f440c91b5dfa24570e": {
+            "accuracy": 0.0,
+            "nll": 5.154317140579224,
+            "rows": 16
+          },
+          "billboard-family:9168e847861429230da331e2": {
+            "accuracy": 0.0,
+            "nll": 4.860835090279579,
+            "rows": 16
+          },
+          "billboard-family:920c37d6464a8f20e8930c19": {
+            "accuracy": 0.0,
+            "nll": 4.488926708698273,
+            "rows": 16
+          },
+          "billboard-family:92f3c34650437f1ddf6b2f2e": {
+            "accuracy": 0.0,
+            "nll": 5.029473692178726,
+            "rows": 16
+          },
+          "billboard-family:936fa5780640f18f96fd80d9": {
+            "accuracy": 0.0,
+            "nll": 4.375775724649429,
+            "rows": 16
+          },
+          "billboard-family:9512d95d00d61bdec03d2b99": {
+            "accuracy": 0.0,
+            "nll": 5.261251866817474,
+            "rows": 16
+          },
+          "billboard-family:9869a8a3a11a33284dc2bcc3": {
+            "accuracy": 0.0,
+            "nll": 5.0497629046440125,
+            "rows": 16
+          },
+          "billboard-family:9989a37538faecc495bbe774": {
+            "accuracy": 0.0,
+            "nll": 5.121617078781128,
+            "rows": 16
+          },
+          "billboard-family:9a35532c7499c19daeacafc9": {
+            "accuracy": 0.0,
+            "nll": 5.103318512439728,
+            "rows": 16
+          },
+          "billboard-family:9f1f9dce319c4700ef28ec8c": {
+            "accuracy": 0.0,
+            "nll": 5.036987990140915,
+            "rows": 16
+          },
+          "billboard-family:a0f8b2c4cb1ac82abdb37f0f": {
+            "accuracy": 0.0,
+            "nll": 5.080917716026306,
+            "rows": 16
+          },
+          "billboard-family:a26d0ee3b2ad04523daf3a87": {
+            "accuracy": 0.0,
+            "nll": 4.928016185760498,
+            "rows": 16
+          },
+          "billboard-family:a4e987d17584557e2fbed011": {
+            "accuracy": 0.0,
+            "nll": 4.9505893886089325,
+            "rows": 16
+          },
+          "billboard-family:a5bef651c8e3fd6cc63c43cd": {
+            "accuracy": 0.0,
+            "nll": 4.482546329498291,
+            "rows": 1
+          },
+          "billboard-family:a9aa59bb1bb5a16075ce68c9": {
+            "accuracy": 0.0,
+            "nll": 4.957739035288493,
+            "rows": 12
+          },
+          "billboard-family:ad3b83575249b68aab9602de": {
+            "accuracy": 0.0,
+            "nll": 5.015842914581299,
+            "rows": 16
+          },
+          "billboard-family:ad57366865126e55649ecb23": {
+            "accuracy": 0.0,
+            "nll": 5.145927429199219,
+            "rows": 16
+          },
+          "billboard-family:b1d40536dd8fd3175ef66e6b": {
+            "accuracy": 0.0,
+            "nll": 4.882781565189362,
+            "rows": 16
+          },
+          "billboard-family:baea07580521240750f17e35": {
+            "accuracy": 0.0,
+            "nll": 4.855565160512924,
+            "rows": 16
+          },
+          "billboard-family:bba58959c32abe688d9cb522": {
+            "accuracy": 0.0,
+            "nll": 4.776660352945328,
+            "rows": 16
+          },
+          "billboard-family:bd3a797ba948938978965781": {
+            "accuracy": 0.0,
+            "nll": 5.2255096435546875,
+            "rows": 10
+          },
+          "billboard-family:be1722b1d104ffb275326068": {
+            "accuracy": 0.0,
+            "nll": 5.123311400413513,
+            "rows": 16
+          },
+          "billboard-family:be7a79295340a5412438cba5": {
+            "accuracy": 0.0,
+            "nll": 5.176030367612839,
+            "rows": 16
+          },
+          "billboard-family:c2077253a9b10166e7c8ffda": {
+            "accuracy": 0.0,
+            "nll": 4.724776893854141,
+            "rows": 16
+          },
+          "billboard-family:c2a824544a0afd72c9bfe306": {
+            "accuracy": 0.0,
+            "nll": 4.90260511636734,
+            "rows": 16
+          },
+          "billboard-family:c5169be03e3c601192bdff69": {
+            "accuracy": 0.0,
+            "nll": 5.045677095651627,
+            "rows": 16
+          },
+          "billboard-family:c63efd61a70d0f6b7e5de2b9": {
+            "accuracy": 0.0,
+            "nll": 5.10864919424057,
+            "rows": 16
+          },
+          "billboard-family:c9273366553a79a499299f0b": {
+            "accuracy": 0.0,
+            "nll": 4.408054888248444,
+            "rows": 16
+          },
+          "billboard-family:ca0cec7f60085f0289aaea5c": {
+            "accuracy": 0.0,
+            "nll": 4.668217092752457,
+            "rows": 16
+          },
+          "billboard-family:caa1aedb2a6ce96b39b9fde1": {
+            "accuracy": 0.0,
+            "nll": 5.104356497526169,
+            "rows": 16
+          },
+          "billboard-family:cef5838d118dccd9de488f16": {
+            "accuracy": 0.0,
+            "nll": 4.909874737262726,
+            "rows": 16
+          },
+          "billboard-family:d25f212bcbc495c71a837baf": {
+            "accuracy": 0.0,
+            "nll": 4.926327496767044,
+            "rows": 16
+          },
+          "billboard-family:d68aab8d03d79ff99065bf68": {
+            "accuracy": 0.0,
+            "nll": 5.214375227689743,
+            "rows": 16
+          },
+          "billboard-family:d8ed8ca27d83a63df6982905": {
+            "accuracy": 0.0,
+            "nll": 4.925944626331329,
+            "rows": 16
+          },
+          "billboard-family:da2c575e48ee7651b9e99a51": {
+            "accuracy": 0.0,
+            "nll": 5.101524293422699,
+            "rows": 16
+          },
+          "billboard-family:da70dfa4d9f95ac979f921e8": {
+            "accuracy": 0.0,
+            "nll": 4.54853518307209,
+            "rows": 16
+          },
+          "billboard-family:dccb3c52e7c79f7033e1ea06": {
+            "accuracy": 0.0,
+            "nll": 4.20396614074707,
+            "rows": 16
+          },
+          "billboard-family:de498b9901677f58da56b38a": {
+            "accuracy": 0.0,
+            "nll": 4.946779549121857,
+            "rows": 16
+          },
+          "billboard-family:df4ca8418a8c9044528e272c": {
+            "accuracy": 0.0,
+            "nll": 4.948982656002045,
+            "rows": 16
+          },
+          "billboard-family:e73cb135243c08ab2c2adc33": {
+            "accuracy": 0.0,
+            "nll": 5.017156004905701,
+            "rows": 12
+          },
+          "billboard-family:eaa0689a095d4394a05fb51b": {
+            "accuracy": 0.0,
+            "nll": 4.652852937579155,
+            "rows": 16
+          },
+          "billboard-family:eaf89db7108470dc3f6b23ea": {
+            "accuracy": 0.0,
+            "nll": 5.12312713265419,
+            "rows": 16
+          },
+          "billboard-family:eca6a42ae4cdfedab3f733c7": {
+            "accuracy": 0.0,
+            "nll": 5.429035902023315,
+            "rows": 16
+          },
+          "billboard-family:eeca91fd439b6d5e827e8fda": {
+            "accuracy": 0.0,
+            "nll": 4.927528828382492,
+            "rows": 16
+          },
+          "billboard-family:f1250af9005fb93c6bc8ea65": {
+            "accuracy": 0.0,
+            "nll": 5.023270338773727,
+            "rows": 16
+          },
+          "billboard-family:f79b8977720743f5e7c8b5b2": {
+            "accuracy": 0.0,
+            "nll": 4.837054431438446,
+            "rows": 16
+          },
+          "billboard-family:f8809aff4d69bece79dabe35": {
+            "accuracy": 0.0,
+            "nll": 5.016181528568268,
+            "rows": 16
+          },
+          "billboard-family:f97350101e1a9de922bdbb76": {
+            "accuracy": 0.0,
+            "nll": 4.872346580028534,
+            "rows": 16
+          },
+          "billboard-family:fa665be4732a050c061db096": {
+            "accuracy": 0.0,
+            "nll": 5.267441928386688,
+            "rows": 16
+          },
+          "billboard-family:fa88d374b9cf5e059fad4a2f": {
+            "accuracy": 0.0,
+            "nll": 5.239052981138229,
+            "rows": 16
+          },
+          "billboard-family:fb335e8fd0f8aed3eb6ffedd": {
+            "accuracy": 0.0,
+            "nll": 5.075262635946274,
+            "rows": 16
+          },
+          "billboard-family:fbb2a73b0bacf3953186a920": {
+            "accuracy": 0.0,
+            "nll": 4.664489716291428,
+            "rows": 16
+          },
+          "billboard-family:fc71f2d6d38dbfc752ecaf22": {
+            "accuracy": 0.0,
+            "nll": 5.047537803649902,
+            "rows": 16
+          },
+          "billboard-family:fce86e339dc3131c489202ec": {
+            "accuracy": 0.0,
+            "nll": 5.188243865966797,
+            "rows": 16
+          }
+        }
+      }
+    },
+    "trained_ai": {
+      "metrics": {
+        "family_macro": {
+          "accuracy": 0.30329518965882607,
+          "families": 143,
+          "nll": 2.581489292126363
+        },
+        "micro": {
+          "accuracy": 0.306823316764573,
+          "nll": 2.5651293111720133,
+          "rows": 2213
+        },
+        "per_family": {
+          "billboard-family:000f21ac06aceb9cdd0575e8": {
+            "accuracy": 0.375,
+            "nll": 2.0745558366179466,
+            "rows": 16
+          },
+          "billboard-family:011af72a910ac4acf367eef9": {
+            "accuracy": 0.5625,
+            "nll": 2.3655572161078453,
+            "rows": 16
+          },
+          "billboard-family:01ce4b291ad3ecd240be7187": {
+            "accuracy": 0.4375,
+            "nll": 2.4264405891299248,
+            "rows": 16
+          },
+          "billboard-family:068814875fcdfb8faf539ef4": {
+            "accuracy": 0.8125,
+            "nll": 1.167624969035387,
+            "rows": 16
+          },
+          "billboard-family:06de973bb45531d52cdbd483": {
+            "accuracy": 0.5,
+            "nll": 1.9118733368813992,
+            "rows": 16
+          },
+          "billboard-family:084ae23e6996e701addeeb7d": {
+            "accuracy": 0.375,
+            "nll": 1.830457892268896,
+            "rows": 16
+          },
+          "billboard-family:086f5cc433f4a20f72051344": {
+            "accuracy": 0.3125,
+            "nll": 3.1349626444280148,
+            "rows": 16
+          },
+          "billboard-family:09a1b036b82baba3177d83c2": {
+            "accuracy": 0.1875,
+            "nll": 2.734694976359606,
+            "rows": 16
+          },
+          "billboard-family:0b935e0bc9b943533bb652ac": {
+            "accuracy": 0.125,
+            "nll": 2.840253457427025,
+            "rows": 16
+          },
+          "billboard-family:0d21ae129a64e1d19e4a94df": {
+            "accuracy": 0.5625,
+            "nll": 1.4360584020614624,
+            "rows": 16
+          },
+          "billboard-family:0f78540965a86402578f8188": {
+            "accuracy": 0.25,
+            "nll": 2.1823075748980045,
+            "rows": 16
+          },
+          "billboard-family:1086d35563c495c1cecbce12": {
+            "accuracy": 0.375,
+            "nll": 1.9904544577002525,
+            "rows": 16
+          },
+          "billboard-family:10995659fe5526fd493665a8": {
+            "accuracy": 0.6363636363636364,
+            "nll": 2.3481365225531836,
+            "rows": 11
+          },
+          "billboard-family:12132cd6767ee325d35883d2": {
+            "accuracy": 0.4375,
+            "nll": 1.8337810449302197,
+            "rows": 16
+          },
+          "billboard-family:1398690ecc7c72bb5833cb11": {
+            "accuracy": 0.0,
+            "nll": 3.72453473508358,
+            "rows": 16
+          },
+          "billboard-family:16b30490a644117a249c2018": {
+            "accuracy": 0.625,
+            "nll": 1.917146848514676,
+            "rows": 16
+          },
+          "billboard-family:1706be6c293444756e72b05e": {
+            "accuracy": 0.0,
+            "nll": 3.5027788877487183,
+            "rows": 16
+          },
+          "billboard-family:194dbf72c513dc9ff0bf87b9": {
+            "accuracy": 0.25,
+            "nll": 3.138724774122238,
+            "rows": 16
+          },
+          "billboard-family:1a42d5267aba37d7057cadd6": {
+            "accuracy": 0.0,
+            "nll": 3.4789700508117676,
+            "rows": 5
+          },
+          "billboard-family:1bde41ce9b4fccbf7dde0dc3": {
+            "accuracy": 0.0,
+            "nll": 3.621506914496422,
+            "rows": 16
+          },
+          "billboard-family:1c00e16c0db1f129d7b8b87f": {
+            "accuracy": 0.125,
+            "nll": 3.1009002029895782,
+            "rows": 16
+          },
+          "billboard-family:1d0ebea552eb43d0b1e1561f": {
+            "accuracy": 0.125,
+            "nll": 3.7939275726675987,
+            "rows": 16
+          },
+          "billboard-family:1da51b8d8ff98f6a48f80ae7": {
+            "accuracy": 0.25,
+            "nll": 2.7090295553207397,
+            "rows": 16
+          },
+          "billboard-family:234666d765f4c0a26cf4d96e": {
+            "accuracy": 0.5,
+            "nll": 1.7679445762187243,
+            "rows": 16
+          },
+          "billboard-family:2618182c3894875e16eeafa6": {
+            "accuracy": 0.125,
+            "nll": 3.827378885820508,
+            "rows": 16
+          },
+          "billboard-family:26fe15811d2d4a635de17c7e": {
+            "accuracy": 0.0,
+            "nll": 5.182671412825584,
+            "rows": 16
+          },
+          "billboard-family:28dae7c8bde2f3ca608f86d0": {
+            "accuracy": 0.3125,
+            "nll": 1.5501317158341408,
+            "rows": 16
+          },
+          "billboard-family:29bde016a5b440062043e1a3": {
+            "accuracy": 0.3125,
+            "nll": 1.7299386970698833,
+            "rows": 16
+          },
+          "billboard-family:2c4cf657337835125bc4258d": {
+            "accuracy": 0.4375,
+            "nll": 2.582927690818906,
+            "rows": 16
+          },
+          "billboard-family:2c69bc9b34fb0800a44a702e": {
+            "accuracy": 0.0625,
+            "nll": 2.903942197561264,
+            "rows": 16
+          },
+          "billboard-family:2ec42bc1f3e672fc1cf7fdcf": {
+            "accuracy": 0.0,
+            "nll": 5.174360021948814,
+            "rows": 16
+          },
+          "billboard-family:2f1d593cd98cb5bf81eb9d88": {
+            "accuracy": 0.5625,
+            "nll": 1.9350564070045948,
+            "rows": 16
+          },
+          "billboard-family:301807d2c5a61aee677de545": {
+            "accuracy": 0.375,
+            "nll": 2.120636748149991,
+            "rows": 16
+          },
+          "billboard-family:30e4c02268d49ca010e3c62f": {
+            "accuracy": 0.1875,
+            "nll": 2.332515709102154,
+            "rows": 16
+          },
+          "billboard-family:340ab11db8d1a7435cb4b4a0": {
+            "accuracy": 0.375,
+            "nll": 2.5280372947454453,
+            "rows": 16
+          },
+          "billboard-family:34be1021b378c5701b4dd143": {
+            "accuracy": 0.625,
+            "nll": 2.1940589025616646,
+            "rows": 16
+          },
+          "billboard-family:35254aa9a21444e50349cebb": {
+            "accuracy": 0.3125,
+            "nll": 2.5015497989952564,
+            "rows": 16
+          },
+          "billboard-family:37b1267a4ff4e12dddfe4438": {
+            "accuracy": 0.6875,
+            "nll": 1.319628931581974,
+            "rows": 16
+          },
+          "billboard-family:37c20f19f3272b5ccc3a5d80": {
+            "accuracy": 0.5625,
+            "nll": 1.4289320521056652,
+            "rows": 16
+          },
+          "billboard-family:38ee08bb9129d6519eb37341": {
+            "accuracy": 0.0,
+            "nll": 3.8062670528888702,
+            "rows": 16
+          },
+          "billboard-family:3bad45f2cc9f047e72cd5cf4": {
+            "accuracy": 0.25,
+            "nll": 2.4835977777838707,
+            "rows": 16
+          },
+          "billboard-family:3ef58410b868298fcca4ee41": {
+            "accuracy": 0.0625,
+            "nll": 3.727585680782795,
+            "rows": 16
+          },
+          "billboard-family:40794500a2845c943a0f4910": {
+            "accuracy": 0.25,
+            "nll": 2.3618365358561277,
+            "rows": 16
+          },
+          "billboard-family:45297c633d331e6ac35169eb": {
+            "accuracy": 0.3125,
+            "nll": 1.8051487728953362,
+            "rows": 16
+          },
+          "billboard-family:4531f577d6ce6b26377b54d9": {
+            "accuracy": 0.0,
+            "nll": 4.984099939465523,
+            "rows": 16
+          },
+          "billboard-family:4670f31d8354a04f66878fb1": {
+            "accuracy": 0.8125,
+            "nll": 1.5208231955766678,
+            "rows": 16
+          },
+          "billboard-family:4c970004b0678d439f177e77": {
+            "accuracy": 0.0,
+            "nll": 3.2387748658657074,
+            "rows": 16
+          },
+          "billboard-family:4e07408562bedb8b60ce05c1": {
+            "accuracy": 0.375,
+            "nll": 1.8583552539348602,
+            "rows": 16
+          },
+          "billboard-family:501a4e61aa4f7737df030512": {
+            "accuracy": 0.0,
+            "nll": 5.402266502380371,
+            "rows": 2
+          },
+          "billboard-family:5283f1b4e66467616feca1e0": {
+            "accuracy": 0.1875,
+            "nll": 1.8978332802653313,
+            "rows": 16
+          },
+          "billboard-family:52f11620e397f867b7d9f19e": {
+            "accuracy": 0.3125,
+            "nll": 2.671965464949608,
+            "rows": 16
+          },
+          "billboard-family:5426d2ca50f244fb43fe9eaf": {
+            "accuracy": 0.875,
+            "nll": 1.3191944435238838,
+            "rows": 16
+          },
+          "billboard-family:549a2fac47d713cc00f2db49": {
+            "accuracy": 0.75,
+            "nll": 1.2500183954834938,
+            "rows": 16
+          },
+          "billboard-family:5695014df38af4d4626f2629": {
+            "accuracy": 0.3125,
+            "nll": 2.0266657173633575,
+            "rows": 16
+          },
+          "billboard-family:56f4da26ed956730309fa148": {
+            "accuracy": 0.5625,
+            "nll": 2.2622544169425964,
+            "rows": 16
+          },
+          "billboard-family:57f75bad2ae0d8b46957ec48": {
+            "accuracy": 0.4375,
+            "nll": 2.411815419793129,
+            "rows": 16
+          },
+          "billboard-family:580811fa95269f3ecd4f22d1": {
+            "accuracy": 0.8125,
+            "nll": 1.4193734675645828,
+            "rows": 16
+          },
+          "billboard-family:5844a72aee9269a68da28cae": {
+            "accuracy": 0.3125,
+            "nll": 2.4495132826268673,
+            "rows": 16
+          },
+          "billboard-family:5943c883d29e6c04f4ecc646": {
+            "accuracy": 0.375,
+            "nll": 2.8590547777712345,
+            "rows": 16
+          },
+          "billboard-family:59a6d3288187dfcd54bb45d3": {
+            "accuracy": 0.25,
+            "nll": 3.061819765716791,
+            "rows": 16
+          },
+          "billboard-family:59b524f8de039389005bce58": {
+            "accuracy": 0.0625,
+            "nll": 2.736210010945797,
+            "rows": 16
+          },
+          "billboard-family:5cf4e26bd3d87da5e03f80a4": {
+            "accuracy": 0.0625,
+            "nll": 2.403521988540888,
+            "rows": 16
+          },
+          "billboard-family:5e70c51ca8223212f4c16190": {
+            "accuracy": 0.3125,
+            "nll": 1.7153761945664883,
+            "rows": 16
+          },
+          "billboard-family:61ab550f4c85a975cd46f860": {
+            "accuracy": 0.625,
+            "nll": 1.4988089390099049,
+            "rows": 16
+          },
+          "billboard-family:66c2e6dd7fe34b78c205baee": {
+            "accuracy": 0.375,
+            "nll": 1.71111373975873,
+            "rows": 16
+          },
+          "billboard-family:66e07cff0198046f472a2554": {
+            "accuracy": 0.5,
+            "nll": 1.8159150779247284,
+            "rows": 16
+          },
+          "billboard-family:6b51d431df5d7f141cbececc": {
+            "accuracy": 0.3125,
+            "nll": 2.58149878308177,
+            "rows": 16
+          },
+          "billboard-family:6cc6eefb674286f7d1a0e4ad": {
+            "accuracy": 0.625,
+            "nll": 1.2847835794091225,
+            "rows": 16
+          },
+          "billboard-family:6d6ae523edc27b235030584a": {
+            "accuracy": 0.125,
+            "nll": 3.778673008084297,
+            "rows": 16
+          },
+          "billboard-family:748064be03a08df81e31bd6f": {
+            "accuracy": 0.1875,
+            "nll": 1.7078861892223358,
+            "rows": 16
+          },
+          "billboard-family:7559ca4a957c8c82ba04781c": {
+            "accuracy": 0.5454545454545454,
+            "nll": 1.5707579255104065,
+            "rows": 11
+          },
+          "billboard-family:75f7313c20144e39edcf57a1": {
+            "accuracy": 0.0,
+            "nll": 3.7376448661088943,
+            "rows": 16
+          },
+          "billboard-family:7688b6ef52555962d008fff8": {
+            "accuracy": 0.3125,
+            "nll": 3.2248378079384565,
+            "rows": 16
+          },
+          "billboard-family:78df64dc6fd61191b973ea5d": {
+            "accuracy": 0.1875,
+            "nll": 3.3517747186124325,
+            "rows": 16
+          },
+          "billboard-family:7987e36c43f067b54276ccb5": {
+            "accuracy": 0.5,
+            "nll": 2.4198172211647035,
+            "rows": 10
+          },
+          "billboard-family:79bf08685d3138f9b109c354": {
+            "accuracy": 0.0,
+            "nll": 3.690053939819336,
+            "rows": 16
+          },
+          "billboard-family:7b81eb727ed48055fa55c5e0": {
+            "accuracy": 0.0,
+            "nll": 4.610402315855026,
+            "rows": 16
+          },
+          "billboard-family:7bc9fcce33a859a1bd1c633e": {
+            "accuracy": 0.1875,
+            "nll": 2.767566543072462,
+            "rows": 16
+          },
+          "billboard-family:7f11756539d687172955ad37": {
+            "accuracy": 0.3125,
+            "nll": 2.4930387549102306,
+            "rows": 16
+          },
+          "billboard-family:7f2253d7e228b22a08bda1f0": {
+            "accuracy": 0.3125,
+            "nll": 1.9636657275259495,
+            "rows": 16
+          },
+          "billboard-family:7fc81a57656ec05561512145": {
+            "accuracy": 0.0625,
+            "nll": 2.374900199472904,
+            "rows": 16
+          },
+          "billboard-family:8111eb1556229541d7d2720a": {
+            "accuracy": 0.0,
+            "nll": 2.7970776855945587,
+            "rows": 16
+          },
+          "billboard-family:84c8447c0a2d7a7853f63327": {
+            "accuracy": 0.0,
+            "nll": 3.190250352025032,
+            "rows": 16
+          },
+          "billboard-family:84f01dd97c687fb28a296bcc": {
+            "accuracy": 0.2727272727272727,
+            "nll": 2.8680441054430874,
+            "rows": 11
+          },
+          "billboard-family:85139675bad8fa2308b49fba": {
+            "accuracy": 0.0,
+            "nll": 3.610940009355545,
+            "rows": 16
+          },
+          "billboard-family:88ba1737ec41809555af9112": {
+            "accuracy": 0.375,
+            "nll": 1.5461953170597553,
+            "rows": 16
+          },
+          "billboard-family:8952115444bab6de66aab975": {
+            "accuracy": 0.1875,
+            "nll": 3.182402268052101,
+            "rows": 16
+          },
+          "billboard-family:8c244b370747c1930a4e0967": {
+            "accuracy": 0.1875,
+            "nll": 2.9505600947886705,
+            "rows": 16
+          },
+          "billboard-family:8cf04f0d07191f042b1d1188": {
+            "accuracy": 0.375,
+            "nll": 1.8014109246432781,
+            "rows": 16
+          },
+          "billboard-family:8ef532f440c91b5dfa24570e": {
+            "accuracy": 1.0,
+            "nll": 1.0469391345977783,
+            "rows": 16
+          },
+          "billboard-family:9168e847861429230da331e2": {
+            "accuracy": 0.0625,
+            "nll": 3.3947808295488358,
+            "rows": 16
+          },
+          "billboard-family:920c37d6464a8f20e8930c19": {
+            "accuracy": 0.0,
+            "nll": 3.8362393230199814,
+            "rows": 16
+          },
+          "billboard-family:92f3c34650437f1ddf6b2f2e": {
+            "accuracy": 0.3125,
+            "nll": 2.115939348936081,
+            "rows": 16
+          },
+          "billboard-family:936fa5780640f18f96fd80d9": {
+            "accuracy": 0.0,
+            "nll": 5.530666559934616,
+            "rows": 16
+          },
+          "billboard-family:9512d95d00d61bdec03d2b99": {
+            "accuracy": 0.4375,
+            "nll": 1.9348495230078697,
+            "rows": 16
+          },
+          "billboard-family:9869a8a3a11a33284dc2bcc3": {
+            "accuracy": 0.3125,
+            "nll": 2.531803220510483,
+            "rows": 16
+          },
+          "billboard-family:9989a37538faecc495bbe774": {
+            "accuracy": 0.75,
+            "nll": 1.4975447356700897,
+            "rows": 16
+          },
+          "billboard-family:9a35532c7499c19daeacafc9": {
+            "accuracy": 0.25,
+            "nll": 2.568711591884494,
+            "rows": 16
+          },
+          "billboard-family:9f1f9dce319c4700ef28ec8c": {
+            "accuracy": 0.125,
+            "nll": 2.1214647442102432,
+            "rows": 16
+          },
+          "billboard-family:a0f8b2c4cb1ac82abdb37f0f": {
+            "accuracy": 0.3125,
+            "nll": 2.6050000358372927,
+            "rows": 16
+          },
+          "billboard-family:a26d0ee3b2ad04523daf3a87": {
+            "accuracy": 0.5,
+            "nll": 1.2346280328929424,
+            "rows": 16
+          },
+          "billboard-family:a4e987d17584557e2fbed011": {
+            "accuracy": 0.0,
+            "nll": 3.58481328189373,
+            "rows": 16
+          },
+          "billboard-family:a5bef651c8e3fd6cc63c43cd": {
+            "accuracy": 0.0,
+            "nll": 1.9556500911712646,
+            "rows": 1
+          },
+          "billboard-family:a9aa59bb1bb5a16075ce68c9": {
+            "accuracy": 0.16666666666666666,
+            "nll": 2.7769645725687346,
+            "rows": 12
+          },
+          "billboard-family:ad3b83575249b68aab9602de": {
+            "accuracy": 0.125,
+            "nll": 2.037806436419487,
+            "rows": 16
+          },
+          "billboard-family:ad57366865126e55649ecb23": {
+            "accuracy": 0.4375,
+            "nll": 1.8483079224824905,
+            "rows": 16
+          },
+          "billboard-family:b1d40536dd8fd3175ef66e6b": {
+            "accuracy": 0.5,
+            "nll": 1.8908906895667315,
+            "rows": 16
+          },
+          "billboard-family:baea07580521240750f17e35": {
+            "accuracy": 0.1875,
+            "nll": 3.56462774425745,
+            "rows": 16
+          },
+          "billboard-family:bba58959c32abe688d9cb522": {
+            "accuracy": 0.125,
+            "nll": 2.9370217323303223,
+            "rows": 16
+          },
+          "billboard-family:bd3a797ba948938978965781": {
+            "accuracy": 0.5,
+            "nll": 1.9396591365337372,
+            "rows": 10
+          },
+          "billboard-family:be1722b1d104ffb275326068": {
+            "accuracy": 0.3125,
+            "nll": 2.4137737452983856,
+            "rows": 16
+          },
+          "billboard-family:be7a79295340a5412438cba5": {
+            "accuracy": 0.375,
+            "nll": 1.478654246777296,
+            "rows": 16
+          },
+          "billboard-family:c2077253a9b10166e7c8ffda": {
+            "accuracy": 0.1875,
+            "nll": 2.829258918762207,
+            "rows": 16
+          },
+          "billboard-family:c2a824544a0afd72c9bfe306": {
+            "accuracy": 0.4375,
+            "nll": 1.6979184597730637,
+            "rows": 16
+          },
+          "billboard-family:c5169be03e3c601192bdff69": {
+            "accuracy": 0.375,
+            "nll": 3.30509639903903,
+            "rows": 16
+          },
+          "billboard-family:c63efd61a70d0f6b7e5de2b9": {
+            "accuracy": 0.3125,
+            "nll": 2.12351730838418,
+            "rows": 16
+          },
+          "billboard-family:c9273366553a79a499299f0b": {
+            "accuracy": 0.0,
+            "nll": 2.924871638417244,
+            "rows": 16
+          },
+          "billboard-family:ca0cec7f60085f0289aaea5c": {
+            "accuracy": 0.125,
+            "nll": 3.0515116304159164,
+            "rows": 16
+          },
+          "billboard-family:caa1aedb2a6ce96b39b9fde1": {
+            "accuracy": 0.5625,
+            "nll": 1.3962994143366814,
+            "rows": 16
+          },
+          "billboard-family:cef5838d118dccd9de488f16": {
+            "accuracy": 0.25,
+            "nll": 1.6445487327873707,
+            "rows": 16
+          },
+          "billboard-family:d25f212bcbc495c71a837baf": {
+            "accuracy": 0.3125,
+            "nll": 3.405700460076332,
+            "rows": 16
+          },
+          "billboard-family:d68aab8d03d79ff99065bf68": {
+            "accuracy": 0.4375,
+            "nll": 1.6118505410850048,
+            "rows": 16
+          },
+          "billboard-family:d8ed8ca27d83a63df6982905": {
+            "accuracy": 0.0625,
+            "nll": 2.792676270008087,
+            "rows": 16
+          },
+          "billboard-family:da2c575e48ee7651b9e99a51": {
+            "accuracy": 0.4375,
+            "nll": 1.998951705172658,
+            "rows": 16
+          },
+          "billboard-family:da70dfa4d9f95ac979f921e8": {
+            "accuracy": 0.25,
+            "nll": 2.7253191471099854,
+            "rows": 16
+          },
+          "billboard-family:dccb3c52e7c79f7033e1ea06": {
+            "accuracy": 0.0,
+            "nll": 5.541643887758255,
+            "rows": 16
+          },
+          "billboard-family:de498b9901677f58da56b38a": {
+            "accuracy": 0.375,
+            "nll": 2.874816060066223,
+            "rows": 16
+          },
+          "billboard-family:df4ca8418a8c9044528e272c": {
+            "accuracy": 0.3125,
+            "nll": 1.9959052316844463,
+            "rows": 16
+          },
+          "billboard-family:e73cb135243c08ab2c2adc33": {
+            "accuracy": 0.25,
+            "nll": 3.845443149407705,
+            "rows": 12
+          },
+          "billboard-family:eaa0689a095d4394a05fb51b": {
+            "accuracy": 0.1875,
+            "nll": 4.925921812653542,
+            "rows": 16
+          },
+          "billboard-family:eaf89db7108470dc3f6b23ea": {
+            "accuracy": 0.75,
+            "nll": 2.0938389748334885,
+            "rows": 16
+          },
+          "billboard-family:eca6a42ae4cdfedab3f733c7": {
+            "accuracy": 0.25,
+            "nll": 2.943198248744011,
+            "rows": 16
+          },
+          "billboard-family:eeca91fd439b6d5e827e8fda": {
+            "accuracy": 0.0625,
+            "nll": 3.655116483569145,
+            "rows": 16
+          },
+          "billboard-family:f1250af9005fb93c6bc8ea65": {
+            "accuracy": 0.25,
+            "nll": 1.7278915792703629,
+            "rows": 16
+          },
+          "billboard-family:f79b8977720743f5e7c8b5b2": {
+            "accuracy": 0.25,
+            "nll": 3.1115143299102783,
+            "rows": 16
+          },
+          "billboard-family:f8809aff4d69bece79dabe35": {
+            "accuracy": 0.1875,
+            "nll": 3.3797798305749893,
+            "rows": 16
+          },
+          "billboard-family:f97350101e1a9de922bdbb76": {
+            "accuracy": 0.3125,
+            "nll": 2.6950217336416245,
+            "rows": 16
+          },
+          "billboard-family:fa665be4732a050c061db096": {
+            "accuracy": 0.4375,
+            "nll": 1.9266943726688623,
+            "rows": 16
+          },
+          "billboard-family:fa88d374b9cf5e059fad4a2f": {
+            "accuracy": 0.4375,
+            "nll": 1.8149141557514668,
+            "rows": 16
+          },
+          "billboard-family:fb335e8fd0f8aed3eb6ffedd": {
+            "accuracy": 0.6875,
+            "nll": 1.1211465261876583,
+            "rows": 16
+          },
+          "billboard-family:fbb2a73b0bacf3953186a920": {
+            "accuracy": 0.3125,
+            "nll": 2.6721899658441544,
+            "rows": 16
+          },
+          "billboard-family:fc71f2d6d38dbfc752ecaf22": {
+            "accuracy": 0.375,
+            "nll": 1.713307224214077,
+            "rows": 16
+          },
+          "billboard-family:fce86e339dc3131c489202ec": {
+            "accuracy": 0.375,
+            "nll": 2.2125861011445522,
+            "rows": 16
+          }
+        }
+      }
+    }
+  },
+  "manifest": {
+    "batch_size": 32,
+    "complete": true,
+    "context_length": 2,
+    "data_sha256": "93a912c1578cf885c26eb1778df522b632cda29fdb1cf061dcf4f3f1098baadc",
+    "environment": {
+      "abi": 0,
+      "build_type": "",
+      "compiler": "14.2.0",
+      "compiler_flags": " -D_GLIBCXX_USE_CXX11_ABI=0 -D_GLIBCXX_USE_CXX11_ABI=0 ",
+      "deterministic": true,
+      "dtype": "float32",
+      "libtorch": "2.5.1",
+      "platform": "linux.x86_64",
+      "threads": 1
+    },
+    "model_config": {
+      "controls": [
+        1
+      ],
+      "dropout_milli": 0,
+      "ffn_width": 1024,
+      "heads": 4,
+      "hidden_width": 256,
+      "input_width": 2,
+      "kind": "encoder",
+      "layers": 4,
+      "max_length": 256,
+      "output_width": 96,
+      "vocabulary": 98
+    },
+    "optimizer_sha256": "29ed477ee47577fcee973968d94b9a79d0f1f37ecde097d793a0e97fddbf4dc6",
+    "results_sha256": "12451a7e1a0412778e69f5d1e67c6ac693ecc82c3eb5f13ff5a35f6e840a74d8",
+    "schema": "mousa.annotated-event-model.experimental.v1",
+    "seed": 314,
+    "steps": 60,
+    "task_id": "mousa.relative-chord-events.annotated.experimental.v1",
+    "test_rows": 2213,
+    "train_rows": 8616,
+    "usage": "annotated chord-event order research; held-out next-event accuracy is not musical quality",
+    "weights_sha256": "c7ed30a55533bf47462003d5f0156c1a60ac90bda5a2e88894ac39709f6f02e9"
+  },
+  "native": {
+    "cpu_seconds": 5.101712,
+    "embedding_delta_l1": 44.09916305541992,
+    "reload_logits_exact": true
+  },
+  "evidence_sha256": {
+    "manifest.json": "e8ace80fe98db257f6398d8d3fdd4e78b7614690fbe0e08a42d47b7ad0d3d6fc",
+    "results.json": "12451a7e1a0412778e69f5d1e67c6ac693ecc82c3eb5f13ff5a35f6e840a74d8",
+    "evaluation.json": "f0d5d316a6251960d160498b0fa48a34a88964f0fcf31d7c6b319b566cbb1324"
+  },
+  "binary_sha256": "f4967482581c4e1f9f5d2cf7fef6422160c4d7cdf2df64f56cd2f629de9b37df",
+  "core_commit": "c288e92979d5005742a1bc3f86b389eadbc873d3"
+}

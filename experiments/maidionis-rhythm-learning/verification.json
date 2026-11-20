@@ -1,0 +1,68 @@
+{
+  "python_tests_run": 83,
+  "python_pass": 82,
+  "existing_skip": 1,
+  "native_no_fit_rejections": 11,
+  "independent_task_rows": 4386,
+  "same_seed_generation_replay_exact": true,
+  "human_listening": false,
+  "live_Cantabile_touched": false,
+  "audio": [
+    {
+      "name": "fixed-101",
+      "seconds": 36.20002083333333,
+      "gain": 12,
+      "peak": 9456,
+      "clipped": 0,
+      "midi_roundtrip_exact": true,
+      "mp3_sha256": "7d196012b68b5005588362368e04e50a8d20398c2c98634d135c2d7f63a1964c"
+    },
+    {
+      "name": "learned-101",
+      "seconds": 21.2,
+      "gain": 12,
+      "peak": 11112,
+      "clipped": 0,
+      "midi_roundtrip_exact": true,
+      "mp3_sha256": "549f6ebe0609bdc71d9c798468c26ea0480078bdcc10db95990181d4db65c648"
+    },
+    {
+      "name": "fixed-102",
+      "seconds": 40.4,
+      "gain": 12,
+      "peak": 9516,
+      "clipped": 0,
+      "midi_roundtrip_exact": true,
+      "mp3_sha256": "fefd28709789c5536491d0e3d3659ac1861cee6eae2e652c14903f7851ea93f6"
+    },
+    {
+      "name": "learned-102",
+      "seconds": 21.2,
+      "gain": 12,
+      "peak": 15564,
+      "clipped": 0,
+      "midi_roundtrip_exact": true,
+      "mp3_sha256": "c08112ae53beed9020d7266906f4b1b8614a45df32c43aed368c9275a21b01ca"
+    },
+    {
+      "name": "fixed-103",
+      "seconds": 37.4,
+      "gain": 12,
+      "peak": 10044,
+      "clipped": 0,
+      "midi_roundtrip_exact": true,
+      "mp3_sha256": "44d28c2f4e2dbc26f43d3fc91f3af5d28d28fb4ece46d0f882338503987e8f68"
+    },
+    {
+      "name": "learned-103",
+      "seconds": 21.2,
+      "gain": 12,
+      "peak": 13452,
+      "clipped": 0,
+      "midi_roundtrip_exact": true,
+      "mp3_sha256": "ec0acb4efd48be85dc900862d8b49254c72d8970506aeb2f715b5035fb5fc4d6"
+    }
+  ],
+  "soundfont": "installed TimGM6mb, private audition; bank not redistributed",
+  "source_checkpoint_after_sha256": "34dd1e168367a12390d2b10c1bf534459c24413a8460e74555da63b625d5d7f7"
+}

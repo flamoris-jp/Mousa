@@ -1,0 +1,19 @@
+{
+  "schema": "mousa.harmony-degree-model.experimental.v1",
+  "task_id": "mousa.harmony-degree-mechanics.experimental.v1",
+  "steps": 60,
+  "seed": 314,
+  "training_rows": 1152,
+  "initial_training_nll": 3.4327590465545654,
+  "final_training_nll": 0.07952147246234947,
+  "embedding_delta_l1": 36.11784744262695,
+  "reload_logits_exact": true,
+  "cpu_seconds": 12.488826,
+  "data_sha256": "89987494cb78bc16329cace6bcb6dfecc7f709d8d3e3bd8b4e8c36b361666b6c",
+  "weights_sha256": "60b2da2f0ad85281a691918ce072c42f28286e42ca4770e76942920e7c960488",
+  "usage": "original train-only harmony-conditioning mechanics fixture; no held-out or music-quality claim",
+  "train_only": true,
+  "heldout": false,
+  "real_chord_annotation_blocker": true,
+  "unmodified_external_core": true
+}

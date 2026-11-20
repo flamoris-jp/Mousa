@@ -1,0 +1,519 @@
+{
+  "sources": [
+    {
+      "attribution": {
+        "changes": "Raw MIDI unchanged. Highest-onset monophonic projection, overlap clipping, 1/12-beat quantization and strict degree labels for this experiment.",
+        "composer": "G. B. Gervasio (c.1725–c.1785)",
+        "contributor": "Erik Sandberg",
+        "license": "Public Domain",
+        "source_page": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=328",
+        "title": "Sonata Per Camera di Mandolino e Basso (Gimo 144)"
+      },
+      "cohort": "train",
+      "corpus": "pd",
+      "diagnostics": {
+        "accepted_events": 124,
+        "degree_count": 7,
+        "key_signature": "D",
+        "overlap_gates_clipped": 13,
+        "quantization_changed_values": {
+          "duration": 8,
+          "ioi": 8,
+          "onset": 4
+        },
+        "quantization_max_error_beats": {
+          "duration": 0.041666666666666664,
+          "ioi": 0.041666666666666664,
+          "onset": 0.041666666666666664
+        },
+        "rejected": {
+          "off_scale_or_register": 4
+        },
+        "scale_id": "major_12tet",
+        "source_notes_bounded": 129,
+        "ticks_per_beat": 384,
+        "tonic_midi": 62,
+        "windows": 84
+      },
+      "family_id": "ccbysa-combined-328",
+      "license": "Public Domain",
+      "license_url": "https://www.mutopiaproject.org/legal.html#publicdomain",
+      "selected_source_id": "328",
+      "sha256": "0b2001645e1e2d74c593c6c255f4e5d41d46ce3d1ef3ff17197732600d9c2893",
+      "source_page": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=328",
+      "split": "train"
+    },
+    {
+      "attribution": {
+        "changes": "Raw MIDI unchanged. Highest-onset monophonic projection, overlap clipping, 1/12-beat quantization and strict degree labels for this experiment.",
+        "composer": "Anonymous",
+        "contributor": "Thomas Scharkowski",
+        "license": "Public Domain",
+        "source_page": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1175",
+        "title": "Es ist ein Ros’ entsprungen"
+      },
+      "cohort": "train",
+      "corpus": "pd",
+      "diagnostics": {
+        "accepted_events": 54,
+        "degree_count": 7,
+        "key_signature": "F",
+        "overlap_gates_clipped": 9,
+        "quantization_changed_values": {
+          "duration": 0,
+          "ioi": 0,
+          "onset": 0
+        },
+        "quantization_max_error_beats": {
+          "duration": 0.0,
+          "ioi": 0.0,
+          "onset": 0.0
+        },
+        "rejected": {},
+        "scale_id": "major_12tet",
+        "source_notes_bounded": 55,
+        "ticks_per_beat": 384,
+        "tonic_midi": 65,
+        "windows": 46
+      },
+      "family_id": "ccbysa-combined-1175",
+      "license": "Public Domain",
+      "license_url": "https://www.mutopiaproject.org/legal.html#publicdomain",
+      "selected_source_id": "1175",
+      "sha256": "4ca9d6a022f04a0dca9e51e8924236d168628e15feb53c60be3d2f6497429f61",
+      "source_page": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1175",
+      "split": "train"
+    },
+    {
+      "attribution": {
+        "changes": "Raw MIDI unchanged. Highest-onset monophonic projection, overlap clipping, 1/12-beat quantization and strict degree labels for this experiment.",
+        "composer": "W. A. Mozart (1756–1791)",
+        "contributor": "Stelios Samelis",
+        "license": "Public Domain",
+        "source_page": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1379",
+        "title": "Piano Sonata in C Major - KV 309 (1st Part)"
+      },
+      "cohort": "train",
+      "corpus": "pd",
+      "diagnostics": {
+        "accepted_events": 115,
+        "degree_count": 7,
+        "key_signature": "C",
+        "overlap_gates_clipped": 21,
+        "quantization_changed_values": {
+          "duration": 8,
+          "ioi": 8,
+          "onset": 48
+        },
+        "quantization_max_error_beats": {
+          "duration": 0.041666666666666664,
+          "ioi": 0.041666666666666664,
+          "onset": 0.041666666666666664
+        },
+        "rejected": {
+          "off_scale_or_register": 13
+        },
+        "scale_id": "major_12tet",
+        "source_notes_bounded": 129,
+        "ticks_per_beat": 384,
+        "tonic_midi": 60,
+        "windows": 52
+      },
+      "family_id": "ccbysa-combined-1379",
+      "license": "Public Domain",
+      "license_url": "https://www.mutopiaproject.org/legal.html#publicdomain",
+      "selected_source_id": "1379",
+      "sha256": "52ef514bf46fd437319327ac8abe7ea56001a3e7e411a592cfd412ea6950f33c",
+      "source_page": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1379",
+      "split": "train"
+    },
+    {
+      "attribution": {
+        "changes": "Raw MIDI unchanged. Highest-onset monophonic projection, overlap clipping, 1/12-beat quantization and strict degree labels for this experiment.",
+        "composer": "J. S. Bach (1685–1750)",
+        "contributor": "Anonymous",
+        "license": "Public Domain",
+        "source_page": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1780",
+        "title": "Toccata and Fugue in D Minor"
+      },
+      "cohort": "train",
+      "corpus": "pd",
+      "diagnostics": {
+        "accepted_events": 115,
+        "degree_count": 7,
+        "key_signature": "Dm",
+        "overlap_gates_clipped": 1,
+        "quantization_changed_values": {
+          "duration": 10,
+          "ioi": 13,
+          "onset": 7
+        },
+        "quantization_max_error_beats": {
+          "duration": 0.041666666666666664,
+          "ioi": 0.041666666666666664,
+          "onset": 0.041666666666666664
+        },
+        "rejected": {
+          "off_scale_or_register": 13
+        },
+        "scale_id": "natural_minor_12tet",
+        "source_notes_bounded": 129,
+        "ticks_per_beat": 384,
+        "tonic_midi": 62,
+        "windows": 68
+      },
+      "family_id": "ccbysa-combined-1780",
+      "license": "Public Domain",
+      "license_url": "https://www.mutopiaproject.org/legal.html#publicdomain",
+      "selected_source_id": "1780",
+      "sha256": "1aabd00967aded08d6633482c211af46f679d97f01cfeaca43c83a59dfeeeb6b",
+      "source_page": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1780",
+      "split": "train"
+    },
+    {
+      "attribution": {
+        "changes": "Raw MIDI unchanged. Highest-onset monophonic projection, overlap clipping, 1/12-beat quantization and strict degree labels for this experiment.",
+        "composer": "P. de Monte (1521–1603)",
+        "contributor": "Aaron Dalton",
+        "license": "Creative Commons Attribution 4.0",
+        "source_page": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1918",
+        "title": "16. Dico, che da quel punto, ch'infiammarsi"
+      },
+      "cohort": "train",
+      "corpus": "by",
+      "diagnostics": {
+        "accepted_events": 120,
+        "degree_count": 7,
+        "key_signature": "C",
+        "overlap_gates_clipped": 42,
+        "quantization_changed_values": {
+          "duration": 0,
+          "ioi": 0,
+          "onset": 0
+        },
+        "quantization_max_error_beats": {
+          "duration": 0.0,
+          "ioi": 0.0,
+          "onset": 0.0
+        },
+        "rejected": {
+          "off_scale_or_register": 8
+        },
+        "scale_id": "major_12tet",
+        "source_notes_bounded": 129,
+        "ticks_per_beat": 384,
+        "tonic_midi": 60,
+        "windows": 73
+      },
+      "family_id": "ccbysa-combined-1918",
+      "license": "Creative Commons Attribution 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "selected_source_id": "1918",
+      "sha256": "85a9ab4a98d6b891ad6f0bef8245c0d0a643ff9248ff4b1b75c56972c9843b70",
+      "source_page": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1918",
+      "split": "train"
+    },
+    {
+      "attribution": {
+        "changes": "Raw MIDI unchanged. Highest-onset monophonic projection, overlap clipping, 1/12-beat quantization and strict degree labels for this experiment.",
+        "composer": "P. de Monte (1521–1603)",
+        "contributor": "Aaron Dalton",
+        "license": "Creative Commons Attribution 4.0",
+        "source_page": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1922",
+        "title": "20. Spesso à consiglio i miei pensier convoco"
+      },
+      "cohort": "train",
+      "corpus": "by",
+      "diagnostics": {
+        "accepted_events": 122,
+        "degree_count": 7,
+        "key_signature": "C",
+        "overlap_gates_clipped": 48,
+        "quantization_changed_values": {
+          "duration": 0,
+          "ioi": 0,
+          "onset": 0
+        },
+        "quantization_max_error_beats": {
+          "duration": 0.0,
+          "ioi": 0.0,
+          "onset": 0.0
+        },
+        "rejected": {
+          "off_scale_or_register": 6
+        },
+        "scale_id": "major_12tet",
+        "source_notes_bounded": 129,
+        "ticks_per_beat": 384,
+        "tonic_midi": 60,
+        "windows": 78
+      },
+      "family_id": "ccbysa-combined-1922",
+      "license": "Creative Commons Attribution 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "selected_source_id": "1922",
+      "sha256": "eabdf68c2d5940029f5936c98c41383e40825cb2ae1de89db74d7d93f2a98808",
+      "source_page": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1922",
+      "split": "train"
+    },
+    {
+      "attribution": {
+        "changes": "Raw MIDI unchanged. Highest-onset monophonic projection, overlap clipping, 1/12-beat quantization and strict degree labels for this experiment.",
+        "composer": "O. Rieding (1840–1918)",
+        "contributor": "Michael Fischer v. Mollard",
+        "license": "Creative Commons Attribution 3.0",
+        "source_page": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1781",
+        "title": "Concerto in B minor"
+      },
+      "cohort": "train",
+      "corpus": "by",
+      "diagnostics": {
+        "accepted_events": 119,
+        "degree_count": 7,
+        "key_signature": "Bm",
+        "overlap_gates_clipped": 13,
+        "quantization_changed_values": {
+          "duration": 0,
+          "ioi": 0,
+          "onset": 0
+        },
+        "quantization_max_error_beats": {
+          "duration": 0.0,
+          "ioi": 0.0,
+          "onset": 0.0
+        },
+        "rejected": {
+          "off_scale_or_register": 9
+        },
+        "scale_id": "natural_minor_12tet",
+        "source_notes_bounded": 129,
+        "ticks_per_beat": 384,
+        "tonic_midi": 71,
+        "windows": 93
+      },
+      "family_id": "ccbysa-combined-1781",
+      "license": "Creative Commons Attribution 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "selected_source_id": "1781",
+      "sha256": "33e1e2b9f739aa2b449178bfad02c549d5c5f60d871bd8a67ce7256edd93dfee",
+      "source_page": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1781",
+      "split": "train"
+    },
+    {
+      "attribution": {
+        "changes": "Raw MIDI unchanged. Highest-onset monophonic projection, overlap clipping, 1/12-beat quantization and strict degree labels for this experiment.",
+        "composer": "F. F. Chopin (1810–1849)",
+        "contributor": "Roland Goretzki",
+        "license": "Public Domain",
+        "source_page": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=743",
+        "title": "Etüde c-moll"
+      },
+      "cohort": "train",
+      "corpus": "pd",
+      "diagnostics": {
+        "accepted_events": 81,
+        "degree_count": 7,
+        "key_signature": "Cm",
+        "overlap_gates_clipped": 3,
+        "quantization_changed_values": {
+          "duration": 0,
+          "ioi": 0,
+          "onset": 0
+        },
+        "quantization_max_error_beats": {
+          "duration": 0.0,
+          "ioi": 0.0,
+          "onset": 0.0
+        },
+        "rejected": {
+          "off_scale_or_register": 47
+        },
+        "scale_id": "natural_minor_12tet",
+        "source_notes_bounded": 129,
+        "ticks_per_beat": 384,
+        "tonic_midi": 60,
+        "windows": 4
+      },
+      "family_id": "ccbysa-combined-484",
+      "license": "Public Domain",
+      "license_url": "https://www.mutopiaproject.org/legal.html#publicdomain",
+      "selected_source_id": "743",
+      "sha256": "1902287905aa68175f9d13207e6cfc397894d4210617ec1a5c1ae38334c3c7d6",
+      "source_page": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=743",
+      "split": "train"
+    },
+    {
+      "attribution": {
+        "changes": "Raw MIDI unchanged. Highest-onset monophonic projection, overlap clipping, 1/12-beat quantization and strict degree labels for this experiment.",
+        "composer": "G. Schreck (1849–1918)",
+        "contributor": "Klaus Rettinghaus",
+        "license": "Creative Commons Attribution 4.0",
+        "source_page": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1704",
+        "title": "Der grimmig Tod"
+      },
+      "cohort": "historical_observed",
+      "corpus": "by",
+      "diagnostics": {
+        "accepted_events": 69,
+        "degree_count": 7,
+        "key_signature": "Am",
+        "overlap_gates_clipped": 10,
+        "quantization_changed_values": {
+          "duration": 0,
+          "ioi": 0,
+          "onset": 0
+        },
+        "quantization_max_error_beats": {
+          "duration": 0.0,
+          "ioi": 0.0,
+          "onset": 0.0
+        },
+        "rejected": {
+          "off_scale_or_register": 4
+        },
+        "scale_id": "natural_minor_12tet",
+        "source_notes_bounded": 74,
+        "ticks_per_beat": 384,
+        "tonic_midi": 69,
+        "windows": 52
+      },
+      "family_id": "ccbysa-combined-1704",
+      "license": "Creative Commons Attribution 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "selected_source_id": "1704",
+      "sha256": "5736c59e218170baef329a01cdd8d87b3ce0cf469a89e47d4219d7a65440607e",
+      "source_page": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1704",
+      "split": "test"
+    },
+    {
+      "attribution": {
+        "changes": "Raw MIDI unchanged. Highest-onset monophonic projection, overlap clipping, 1/12-beat quantization and strict degree labels for this experiment.",
+        "composer": "D. Caudioso (17??–?)",
+        "contributor": "Erik Sandberg",
+        "license": "Public Domain",
+        "source_page": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=322",
+        "title": "Concerto di mandolino a solo con Violini e Basso (Gimo 58)"
+      },
+      "cohort": "historical_observed",
+      "corpus": "pd",
+      "diagnostics": {
+        "accepted_events": 119,
+        "degree_count": 7,
+        "key_signature": "G",
+        "overlap_gates_clipped": 15,
+        "quantization_changed_values": {
+          "duration": 9,
+          "ioi": 9,
+          "onset": 5
+        },
+        "quantization_max_error_beats": {
+          "duration": 0.041666666666666664,
+          "ioi": 0.041666666666666664,
+          "onset": 0.041666666666666664
+        },
+        "rejected": {
+          "off_scale_or_register": 9
+        },
+        "scale_id": "major_12tet",
+        "source_notes_bounded": 129,
+        "ticks_per_beat": 384,
+        "tonic_midi": 67,
+        "windows": 67
+      },
+      "family_id": "ccbysa-combined-322",
+      "license": "Public Domain",
+      "license_url": "https://www.mutopiaproject.org/legal.html#publicdomain",
+      "selected_source_id": "322",
+      "sha256": "3db0e60904cd9bd855addaf2b1f72459e85727f86deefbe1c1107ae58b8f0a7d",
+      "source_page": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=322",
+      "split": "test"
+    },
+    {
+      "attribution": {
+        "changes": "Raw MIDI unchanged. Highest-onset monophonic projection, overlap clipping, 1/12-beat quantization and strict degree labels for this experiment.",
+        "composer": "J. S. Bach (1685–1750)",
+        "contributor": "Steven McDougall",
+        "license": "Public Domain",
+        "source_page": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1010",
+        "title": "Chorale setting \"Gib dich zufrieden und sei stille\" in E minor"
+      },
+      "cohort": "historical_observed",
+      "corpus": "pd",
+      "diagnostics": {
+        "accepted_events": 72,
+        "degree_count": 7,
+        "key_signature": "Em",
+        "overlap_gates_clipped": 9,
+        "quantization_changed_values": {
+          "duration": 0,
+          "ioi": 0,
+          "onset": 0
+        },
+        "quantization_max_error_beats": {
+          "duration": 0.0,
+          "ioi": 0.0,
+          "onset": 0.0
+        },
+        "rejected": {
+          "off_scale_or_register": 8
+        },
+        "scale_id": "natural_minor_12tet",
+        "source_notes_bounded": 81,
+        "ticks_per_beat": 384,
+        "tonic_midi": 64,
+        "windows": 22
+      },
+      "family_id": "ccbysa-combined-1010",
+      "license": "Public Domain",
+      "license_url": "https://www.mutopiaproject.org/legal.html#publicdomain",
+      "selected_source_id": "1010",
+      "sha256": "5bca43e0037df5104a2f7b9498c8ff3bb694082febfd24c52d99913b5afbf762",
+      "source_page": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1010",
+      "split": "test"
+    },
+    {
+      "attribution": {
+        "changes": "Raw MIDI unchanged. Highest-onset monophonic projection, overlap clipping, 1/12-beat quantization and strict degree labels for this experiment.",
+        "composer": "Anonymous",
+        "contributor": "Erik Sandberg",
+        "license": "Public Domain",
+        "source_page": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=334",
+        "title": "Trio a due mandolini e Basso (Gimo 359)"
+      },
+      "cohort": "historical_observed",
+      "corpus": "pd",
+      "diagnostics": {
+        "accepted_events": 120,
+        "degree_count": 7,
+        "key_signature": "C",
+        "overlap_gates_clipped": 0,
+        "quantization_changed_values": {
+          "duration": 0,
+          "ioi": 0,
+          "onset": 0
+        },
+        "quantization_max_error_beats": {
+          "duration": 0.0,
+          "ioi": 0.0,
+          "onset": 0.0
+        },
+        "rejected": {
+          "off_scale_or_register": 8
+        },
+        "scale_id": "major_12tet",
+        "source_notes_bounded": 129,
+        "ticks_per_beat": 384,
+        "tonic_midi": 60,
+        "windows": 92
+      },
+      "family_id": "ccbysa-combined-334",
+      "license": "Public Domain",
+      "license_url": "https://www.mutopiaproject.org/legal.html#publicdomain",
+      "selected_source_id": "334",
+      "sha256": "7ff2d8e27dee2e2c39fbdc975b96513ca32526f30a4f8e03217f1980e16af9f7",
+      "source_page": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=334",
+      "split": "test"
+    }
+  ],
+  "note": "Legacy family IDs contain ccbysa-combined but admitted source rights are independently PD/BY only; identifier does not designate the license."
+}

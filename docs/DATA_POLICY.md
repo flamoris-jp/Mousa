@@ -28,7 +28,9 @@ Do not ingest unknown/pending material into training or commit its bytes. Approv
 
 ## Storage
 
-Large raw/processed corpora, rendered WAVs, checkpoints and model weights are ignored from ordinary commits. Use approved, provenance-bound artifact storage with exact digests and explicit rights; no secrets or machine-specific directories in repository defaults.
+Audio/video files (including stems, demos and synthetic WAV test samples) must never be committed, including through Git LFS or archives, regardless of size or licensing review. Store them outside Git and commit only references, SHA-256 digests and analysis metadata. Generate temporary synthetic audio during tests rather than checking binaries in.
+
+Large raw/processed corpora, checkpoints and model weights are ignored from ordinary commits. Use approved, provenance-bound artifact storage with exact digests and explicit rights; no secrets or machine-specific directories in repository defaults.
 
 ## Pre-publication review
 

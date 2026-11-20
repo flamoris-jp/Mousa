@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.24)
+project(MousaRhythmFirst LANGUAGES CXX)
+set(CMAKE_CXX_STANDARD 20)
+find_package(Torch 2.5.1 EXACT REQUIRED)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${TORCH_CXX_FLAGS}")
+add_subdirectory(${MAIDIONIS_SOURCE} core)
+add_executable(rhythm_first_model model.cpp)
+target_link_libraries(rhythm_first_model PRIVATE maidionis_core)

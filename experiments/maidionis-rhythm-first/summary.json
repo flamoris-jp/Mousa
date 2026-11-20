@@ -1,0 +1,197 @@
+{
+  "schema": "mousa.rhythm-first-results.experimental.v1",
+  "oracle_timing_degree_evaluation": true,
+  "historical_observed_not_fresh": true,
+  "human_listening": false,
+  "arms": {
+    "independent": {
+      "metrics": [
+        {
+          "task": "degree",
+          "train_windows": 498,
+          "evaluation_windows": 233,
+          "majority_accuracy": 0.055793991416309016,
+          "initial_test": {
+            "nll": 3.295775063559733,
+            "accuracy": 0.02575107296137339
+          },
+          "final_test": {
+            "nll": 2.9573194801551588,
+            "accuracy": 0.12017167381974249
+          }
+        },
+        {
+          "task": "ioi",
+          "train_windows": 498,
+          "evaluation_windows": 233,
+          "majority_accuracy": 0.2703862660944206,
+          "initial_test": {
+            "nll": 3.42737214452719,
+            "accuracy": 0.055793991416309016
+          },
+          "final_test": {
+            "nll": 1.5891161855198284,
+            "accuracy": 0.296137339055794
+          }
+        },
+        {
+          "task": "duration",
+          "train_windows": 498,
+          "evaluation_windows": 233,
+          "majority_accuracy": 0.27467811158798283,
+          "initial_test": {
+            "nll": 3.372220681972258,
+            "accuracy": 0.15021459227467812
+          },
+          "final_test": {
+            "nll": 1.611711501499614,
+            "accuracy": 0.296137339055794
+          }
+        },
+        {
+          "task": "rest",
+          "train_windows": 498,
+          "evaluation_windows": 233,
+          "majority_accuracy": 0.9957081545064378,
+          "initial_test": {
+            "nll": 4.766625848450886,
+            "accuracy": 0.0
+          },
+          "final_test": {
+            "nll": 0.04934167041735076,
+            "accuracy": 0.9957081545064378
+          }
+        },
+        {
+          "task": "accent",
+          "train_windows": 498,
+          "evaluation_windows": 233,
+          "majority_accuracy": 0.7854077253218884,
+          "initial_test": {
+            "nll": 1.3007413228182323,
+            "accuracy": 0.12875536480686695
+          },
+          "final_test": {
+            "nll": 0.6669596500750711,
+            "accuracy": 0.8669527896995708
+          }
+        },
+        {
+          "task": "phrase",
+          "train_windows": 498,
+          "evaluation_windows": 233,
+          "majority_accuracy": 1.0,
+          "initial_test": {
+            "nll": 0.8140724615989325,
+            "accuracy": 0.12875536480686695
+          },
+          "final_test": {
+            "nll": 0.005380432489687825,
+            "accuracy": 1.0
+          }
+        }
+      ],
+      "cpu_seconds": 44.605078,
+      "weights_sha256": "b4a629c51e6666a217cd4fa1561c43a24d4be2d26f0f8ce6826e96992400cd2d",
+      "data_sha256": "cc83cd8a7bc628f7d18e0e405315f61b8670ee7a0378d7b3a71a14ad530b2b56",
+      "reload_logits_exact": true,
+      "initial_parameter_inventory_sha256": "fe541ee4928b89725af27254065b13636082aa14ca56ddbf3840e60247003dca",
+      "schedule_indices_sha256": "e288510cb550c30c775e65dd69f52ce4496cb12476d9ddc800b4e259e93eeb74"
+    },
+    "rhythm_first": {
+      "metrics": [
+        {
+          "task": "degree",
+          "train_windows": 498,
+          "evaluation_windows": 233,
+          "majority_accuracy": 0.055793991416309016,
+          "initial_test": {
+            "nll": 3.2947205965099418,
+            "accuracy": 0.02575107296137339
+          },
+          "final_test": {
+            "nll": 3.0157102223629604,
+            "accuracy": 0.11158798283261803
+          }
+        },
+        {
+          "task": "ioi",
+          "train_windows": 498,
+          "evaluation_windows": 233,
+          "majority_accuracy": 0.2703862660944206,
+          "initial_test": {
+            "nll": 3.4874127688837664,
+            "accuracy": 0.0
+          },
+          "final_test": {
+            "nll": 1.5597749897978337,
+            "accuracy": 0.34334763948497854
+          }
+        },
+        {
+          "task": "duration",
+          "train_windows": 498,
+          "evaluation_windows": 233,
+          "majority_accuracy": 0.27467811158798283,
+          "initial_test": {
+            "nll": 3.427254374958415,
+            "accuracy": 0.13304721030042918
+          },
+          "final_test": {
+            "nll": 1.5489548637887438,
+            "accuracy": 0.34763948497854075
+          }
+        },
+        {
+          "task": "rest",
+          "train_windows": 498,
+          "evaluation_windows": 233,
+          "majority_accuracy": 0.9957081545064378,
+          "initial_test": {
+            "nll": 4.60223098067255,
+            "accuracy": 0.0
+          },
+          "final_test": {
+            "nll": 0.05610037806879553,
+            "accuracy": 0.9957081545064378
+          }
+        },
+        {
+          "task": "accent",
+          "train_windows": 498,
+          "evaluation_windows": 233,
+          "majority_accuracy": 0.7854077253218884,
+          "initial_test": {
+            "nll": 1.514275174028372,
+            "accuracy": 0.0944206008583691
+          },
+          "final_test": {
+            "nll": 0.6689600936564829,
+            "accuracy": 0.8669527896995708
+          }
+        },
+        {
+          "task": "phrase",
+          "train_windows": 498,
+          "evaluation_windows": 233,
+          "majority_accuracy": 1.0,
+          "initial_test": {
+            "nll": 0.8287840293712371,
+            "accuracy": 0.0
+          },
+          "final_test": {
+            "nll": 0.0026723634782137326,
+            "accuracy": 1.0
+          }
+        }
+      ],
+      "cpu_seconds": 43.935239,
+      "weights_sha256": "8a8e55a0c5af8ad68b3cfe18d207e78320b90956a1720f913b8efba069a63199",
+      "data_sha256": "9a502109758c6f1e71719a5169fb667cd02d192aed48794e658872aa10f52380",
+      "reload_logits_exact": true,
+      "initial_parameter_inventory_sha256": "fe541ee4928b89725af27254065b13636082aa14ca56ddbf3840e60247003dca",
+      "schedule_indices_sha256": "e288510cb550c30c775e65dd69f52ce4496cb12476d9ddc800b4e259e93eeb74"
+    }
+  },
+  "matched_initial_parameters_and_training_schedule": true
+}

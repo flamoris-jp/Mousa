@@ -1,0 +1,25 @@
+{
+  "schema": "mousa.progression-corpus-protocol.v1",
+  "frozen_before_score_extraction": true,
+  "rights_allowlist_sha256": "f288b966f5ae01d4182c49ad8d20a9ad9fe8a32ba2ca2b7c49db9f63f7e8ea92",
+  "source_commit": "38c5db510224d9facdc4b08d741fc788cfb58ea8",
+  "source_scope": "22 edition-reviewed sets /198 score entries, music notes only; no lyrics or external chord annotations",
+  "rights_gates": "exact tracked git blob match then SHA256; exact OpenScore (CC0) score marker; only eligible_for_intake allowlist members",
+  "representation": "14 weak labels root_degree+7*seventh; fixed major orientation of one constant key signature; NOT true mode/local chord annotations",
+  "extractor_policy": {
+    "coverage_min": 0.7,
+    "margin_min": 0.03,
+    "minimum_pitch_classes": 3,
+    "outside_penalty": 0.5,
+    "missing_fraction_penalty": 0.15,
+    "seventh_penalty": 0.02
+  },
+  "structural_gates": "MuseScore3 only; explicit constant key and meter; no nonzero instrument transposition; unsupported/partial/irregular/repeat bars retained null and break history; no repeat unfolding",
+  "family_closure": "composer+set; union exact raw SHA and same normalized work identity before extraction/split. Schubert D catalogue ID preferred; otherwise composer+normalized directory work title with leading index removed; conservative same-title union",
+  "split": "sort union-family IDs by sha256(20261117:family_id), first5test resttrain; no changes after extraction",
+  "window": "8 consecutive nonnull bars predict following label; reset at score and rejected bars; scoreID/bar ascending; at most512train/128test rows per family",
+  "evaluation_claim": "family unseen by this fresh model only; historical research exposure unverified, not virgin heldout",
+  "training": "not performed by preparation",
+  "threshold_tuning": "none permitted from extracted results",
+  "no_files_connector": true
+}
