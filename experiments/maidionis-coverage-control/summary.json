@@ -1,0 +1,502 @@
+{
+  "schema": "mousa-coverage-results-v1",
+  "data_sha256": "f871926b2be0c4a07b32aded2f4aa7063b07cfb9dc995b2b0ea72b6284696cf7",
+  "raw_result_sha256": "6e2a4155e4cedd5a38be20e8b8a67cb029bc1c8855c847bf962820ade681637e",
+  "execution_plan_sha256": "271b9f7bb901e1edd040e044814b625b2df37fe8836f8b9308bfa4c80628b858",
+  "cpu_seconds": 99.503988,
+  "environment": {
+    "abi": 0,
+    "build_type": "Release",
+    "compiler": "14.2.0",
+    "compiler_flags": " -D_GLIBCXX_USE_CXX11_ABI=0 -D_GLIBCXX_USE_CXX11_ABI=0 -O0 -g0",
+    "deterministic": true,
+    "dtype": "float32",
+    "libtorch": "2.5.1",
+    "platform": "linux.x86_64",
+    "threads": 1
+  },
+  "uniform_nll": 3.8918202981106265,
+  "neural_refit": true,
+  "results": [
+    {
+      "condition": "coverage128_ordered",
+      "seed": 42,
+      "cohort": "historical_observed",
+      "model": "initial_test",
+      "windows": 512,
+      "families": 16,
+      "family_macro_nll": 3.807074326556176,
+      "family_macro_accuracy": 0.029296875
+    },
+    {
+      "condition": "coverage128_ordered",
+      "seed": 42,
+      "cohort": "historical_observed",
+      "model": "final_test",
+      "windows": 512,
+      "families": 16,
+      "family_macro_nll": 3.015165914723184,
+      "family_macro_accuracy": 0.169921875
+    },
+    {
+      "condition": "coverage128_ordered",
+      "seed": 42,
+      "cohort": "historical_observed",
+      "model": "unigram",
+      "windows": 512,
+      "families": 16,
+      "family_macro_nll": 3.2753026808599537,
+      "family_macro_accuracy": 0.16015625
+    },
+    {
+      "condition": "coverage128_ordered",
+      "seed": 42,
+      "cohort": "historical_observed",
+      "model": "trigram",
+      "windows": 512,
+      "families": 16,
+      "family_macro_nll": 3.0275708607987513,
+      "family_macro_accuracy": 0.240234375
+    },
+    {
+      "condition": "coverage128_ordered",
+      "seed": 42,
+      "cohort": "reserved_previously_unscored",
+      "model": "initial_test",
+      "windows": 640,
+      "families": 20,
+      "family_macro_nll": 3.748284237831831,
+      "family_macro_accuracy": 0.028125
+    },
+    {
+      "condition": "coverage128_ordered",
+      "seed": 42,
+      "cohort": "reserved_previously_unscored",
+      "model": "final_test",
+      "windows": 640,
+      "families": 20,
+      "family_macro_nll": 2.969573636678979,
+      "family_macro_accuracy": 0.2140625
+    },
+    {
+      "condition": "coverage128_ordered",
+      "seed": 42,
+      "cohort": "reserved_previously_unscored",
+      "model": "unigram",
+      "windows": 640,
+      "families": 20,
+      "family_macro_nll": 3.1501200036133574,
+      "family_macro_accuracy": 0.1328125
+    },
+    {
+      "condition": "coverage128_ordered",
+      "seed": 42,
+      "cohort": "reserved_previously_unscored",
+      "model": "trigram",
+      "windows": 640,
+      "families": 20,
+      "family_macro_nll": 3.119202059596124,
+      "family_macro_accuracy": 0.234375
+    },
+    {
+      "condition": "coverage128_context_permuted",
+      "seed": 42,
+      "cohort": "historical_observed",
+      "model": "initial_test",
+      "windows": 512,
+      "families": 16,
+      "family_macro_nll": 3.807074326556176,
+      "family_macro_accuracy": 0.029296875
+    },
+    {
+      "condition": "coverage128_context_permuted",
+      "seed": 42,
+      "cohort": "historical_observed",
+      "model": "final_test",
+      "windows": 512,
+      "families": 16,
+      "family_macro_nll": 3.220259099965915,
+      "family_macro_accuracy": 0.166015625
+    },
+    {
+      "condition": "coverage128_context_permuted",
+      "seed": 42,
+      "cohort": "historical_observed",
+      "model": "unigram",
+      "windows": 512,
+      "families": 16,
+      "family_macro_nll": 3.2753026808599537,
+      "family_macro_accuracy": 0.16015625
+    },
+    {
+      "condition": "coverage128_context_permuted",
+      "seed": 42,
+      "cohort": "historical_observed",
+      "model": "trigram",
+      "windows": 512,
+      "families": 16,
+      "family_macro_nll": 3.5104726060066778,
+      "family_macro_accuracy": 0.142578125
+    },
+    {
+      "condition": "coverage128_context_permuted",
+      "seed": 42,
+      "cohort": "reserved_previously_unscored",
+      "model": "initial_test",
+      "windows": 640,
+      "families": 20,
+      "family_macro_nll": 3.748284237831831,
+      "family_macro_accuracy": 0.028125
+    },
+    {
+      "condition": "coverage128_context_permuted",
+      "seed": 42,
+      "cohort": "reserved_previously_unscored",
+      "model": "final_test",
+      "windows": 640,
+      "families": 20,
+      "family_macro_nll": 3.1014164719730615,
+      "family_macro_accuracy": 0.1828125
+    },
+    {
+      "condition": "coverage128_context_permuted",
+      "seed": 42,
+      "cohort": "reserved_previously_unscored",
+      "model": "unigram",
+      "windows": 640,
+      "families": 20,
+      "family_macro_nll": 3.1501200036133574,
+      "family_macro_accuracy": 0.1328125
+    },
+    {
+      "condition": "coverage128_context_permuted",
+      "seed": 42,
+      "cohort": "reserved_previously_unscored",
+      "model": "trigram",
+      "windows": 640,
+      "families": 20,
+      "family_macro_nll": 3.5639877518017933,
+      "family_macro_accuracy": 0.1765625
+    },
+    {
+      "condition": "coverage128_ordered",
+      "seed": 43,
+      "cohort": "historical_observed",
+      "model": "initial_test",
+      "windows": 512,
+      "families": 16,
+      "family_macro_nll": 4.206628268118948,
+      "family_macro_accuracy": 0.021484375
+    },
+    {
+      "condition": "coverage128_ordered",
+      "seed": 43,
+      "cohort": "historical_observed",
+      "model": "final_test",
+      "windows": 512,
+      "families": 16,
+      "family_macro_nll": 3.132095239823684,
+      "family_macro_accuracy": 0.19140625
+    },
+    {
+      "condition": "coverage128_ordered",
+      "seed": 43,
+      "cohort": "historical_observed",
+      "model": "unigram",
+      "windows": 512,
+      "families": 16,
+      "family_macro_nll": 3.2753026808599537,
+      "family_macro_accuracy": 0.16015625
+    },
+    {
+      "condition": "coverage128_ordered",
+      "seed": 43,
+      "cohort": "historical_observed",
+      "model": "trigram",
+      "windows": 512,
+      "families": 16,
+      "family_macro_nll": 3.0275708607987513,
+      "family_macro_accuracy": 0.240234375
+    },
+    {
+      "condition": "coverage128_ordered",
+      "seed": 43,
+      "cohort": "reserved_previously_unscored",
+      "model": "initial_test",
+      "windows": 640,
+      "families": 20,
+      "family_macro_nll": 4.296542739495635,
+      "family_macro_accuracy": 0.0296875
+    },
+    {
+      "condition": "coverage128_ordered",
+      "seed": 43,
+      "cohort": "reserved_previously_unscored",
+      "model": "final_test",
+      "windows": 640,
+      "families": 20,
+      "family_macro_nll": 2.9897068502381443,
+      "family_macro_accuracy": 0.209375
+    },
+    {
+      "condition": "coverage128_ordered",
+      "seed": 43,
+      "cohort": "reserved_previously_unscored",
+      "model": "unigram",
+      "windows": 640,
+      "families": 20,
+      "family_macro_nll": 3.1501200036133574,
+      "family_macro_accuracy": 0.1328125
+    },
+    {
+      "condition": "coverage128_ordered",
+      "seed": 43,
+      "cohort": "reserved_previously_unscored",
+      "model": "trigram",
+      "windows": 640,
+      "families": 20,
+      "family_macro_nll": 3.119202059596124,
+      "family_macro_accuracy": 0.234375
+    },
+    {
+      "condition": "coverage128_context_permuted",
+      "seed": 43,
+      "cohort": "historical_observed",
+      "model": "initial_test",
+      "windows": 512,
+      "families": 16,
+      "family_macro_nll": 4.206628268118948,
+      "family_macro_accuracy": 0.021484375
+    },
+    {
+      "condition": "coverage128_context_permuted",
+      "seed": 43,
+      "cohort": "historical_observed",
+      "model": "final_test",
+      "windows": 512,
+      "families": 16,
+      "family_macro_nll": 3.2636108538135886,
+      "family_macro_accuracy": 0.14453125
+    },
+    {
+      "condition": "coverage128_context_permuted",
+      "seed": 43,
+      "cohort": "historical_observed",
+      "model": "unigram",
+      "windows": 512,
+      "families": 16,
+      "family_macro_nll": 3.2753026808599537,
+      "family_macro_accuracy": 0.16015625
+    },
+    {
+      "condition": "coverage128_context_permuted",
+      "seed": 43,
+      "cohort": "historical_observed",
+      "model": "trigram",
+      "windows": 512,
+      "families": 16,
+      "family_macro_nll": 3.6400343982418653,
+      "family_macro_accuracy": 0.16796875
+    },
+    {
+      "condition": "coverage128_context_permuted",
+      "seed": 43,
+      "cohort": "reserved_previously_unscored",
+      "model": "initial_test",
+      "windows": 640,
+      "families": 20,
+      "family_macro_nll": 4.296542739495635,
+      "family_macro_accuracy": 0.0296875
+    },
+    {
+      "condition": "coverage128_context_permuted",
+      "seed": 43,
+      "cohort": "reserved_previously_unscored",
+      "model": "final_test",
+      "windows": 640,
+      "families": 20,
+      "family_macro_nll": 3.0918049683794377,
+      "family_macro_accuracy": 0.1734375
+    },
+    {
+      "condition": "coverage128_context_permuted",
+      "seed": 43,
+      "cohort": "reserved_previously_unscored",
+      "model": "unigram",
+      "windows": 640,
+      "families": 20,
+      "family_macro_nll": 3.1501200036133574,
+      "family_macro_accuracy": 0.1328125
+    },
+    {
+      "condition": "coverage128_context_permuted",
+      "seed": 43,
+      "cohort": "reserved_previously_unscored",
+      "model": "trigram",
+      "windows": 640,
+      "families": 20,
+      "family_macro_nll": 3.5872176099117157,
+      "family_macro_accuracy": 0.1859375
+    },
+    {
+      "condition": "coverage128_ordered",
+      "seed": 44,
+      "cohort": "historical_observed",
+      "model": "initial_test",
+      "windows": 512,
+      "families": 16,
+      "family_macro_nll": 3.8827710398472846,
+      "family_macro_accuracy": 0.15625
+    },
+    {
+      "condition": "coverage128_ordered",
+      "seed": 44,
+      "cohort": "historical_observed",
+      "model": "final_test",
+      "windows": 512,
+      "families": 16,
+      "family_macro_nll": 3.061685958993621,
+      "family_macro_accuracy": 0.1875
+    },
+    {
+      "condition": "coverage128_ordered",
+      "seed": 44,
+      "cohort": "historical_observed",
+      "model": "unigram",
+      "windows": 512,
+      "families": 16,
+      "family_macro_nll": 3.2753026808599537,
+      "family_macro_accuracy": 0.16015625
+    },
+    {
+      "condition": "coverage128_ordered",
+      "seed": 44,
+      "cohort": "historical_observed",
+      "model": "trigram",
+      "windows": 512,
+      "families": 16,
+      "family_macro_nll": 3.0275708607987513,
+      "family_macro_accuracy": 0.240234375
+    },
+    {
+      "condition": "coverage128_ordered",
+      "seed": 44,
+      "cohort": "reserved_previously_unscored",
+      "model": "initial_test",
+      "windows": 640,
+      "families": 20,
+      "family_macro_nll": 3.9512971486896276,
+      "family_macro_accuracy": 0.1328125
+    },
+    {
+      "condition": "coverage128_ordered",
+      "seed": 44,
+      "cohort": "reserved_previously_unscored",
+      "model": "final_test",
+      "windows": 640,
+      "families": 20,
+      "family_macro_nll": 2.950424347538501,
+      "family_macro_accuracy": 0.2015625
+    },
+    {
+      "condition": "coverage128_ordered",
+      "seed": 44,
+      "cohort": "reserved_previously_unscored",
+      "model": "unigram",
+      "windows": 640,
+      "families": 20,
+      "family_macro_nll": 3.1501200036133574,
+      "family_macro_accuracy": 0.1328125
+    },
+    {
+      "condition": "coverage128_ordered",
+      "seed": 44,
+      "cohort": "reserved_previously_unscored",
+      "model": "trigram",
+      "windows": 640,
+      "families": 20,
+      "family_macro_nll": 3.119202059596124,
+      "family_macro_accuracy": 0.234375
+    },
+    {
+      "condition": "coverage128_context_permuted",
+      "seed": 44,
+      "cohort": "historical_observed",
+      "model": "initial_test",
+      "windows": 512,
+      "families": 16,
+      "family_macro_nll": 3.8827710398472846,
+      "family_macro_accuracy": 0.15625
+    },
+    {
+      "condition": "coverage128_context_permuted",
+      "seed": 44,
+      "cohort": "historical_observed",
+      "model": "final_test",
+      "windows": 512,
+      "families": 16,
+      "family_macro_nll": 3.2442153298761696,
+      "family_macro_accuracy": 0.142578125
+    },
+    {
+      "condition": "coverage128_context_permuted",
+      "seed": 44,
+      "cohort": "historical_observed",
+      "model": "unigram",
+      "windows": 512,
+      "families": 16,
+      "family_macro_nll": 3.2753026808599537,
+      "family_macro_accuracy": 0.16015625
+    },
+    {
+      "condition": "coverage128_context_permuted",
+      "seed": 44,
+      "cohort": "historical_observed",
+      "model": "trigram",
+      "windows": 512,
+      "families": 16,
+      "family_macro_nll": 3.6310613022752114,
+      "family_macro_accuracy": 0.154296875
+    },
+    {
+      "condition": "coverage128_context_permuted",
+      "seed": 44,
+      "cohort": "reserved_previously_unscored",
+      "model": "initial_test",
+      "windows": 640,
+      "families": 20,
+      "family_macro_nll": 3.9512971486896276,
+      "family_macro_accuracy": 0.1328125
+    },
+    {
+      "condition": "coverage128_context_permuted",
+      "seed": 44,
+      "cohort": "reserved_previously_unscored",
+      "model": "final_test",
+      "windows": 640,
+      "families": 20,
+      "family_macro_nll": 3.095733050815761,
+      "family_macro_accuracy": 0.1796875
+    },
+    {
+      "condition": "coverage128_context_permuted",
+      "seed": 44,
+      "cohort": "reserved_previously_unscored",
+      "model": "unigram",
+      "windows": 640,
+      "families": 20,
+      "family_macro_nll": 3.1501200036133574,
+      "family_macro_accuracy": 0.1328125
+    },
+    {
+      "condition": "coverage128_context_permuted",
+      "seed": 44,
+      "cohort": "reserved_previously_unscored",
+      "model": "trigram",
+      "windows": 640,
+      "families": 20,
+      "family_macro_nll": 3.638834815259733,
+      "family_macro_accuracy": 0.1796875
+    }
+  ]
+}

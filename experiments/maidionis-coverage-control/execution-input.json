@@ -1,0 +1,9 @@
+{
+  "data_sha256": "f871926b2be0c4a07b32aded2f4aa7063b07cfb9dc995b2b0ea72b6284696cf7",
+  "historical_test_families": 16,
+  "historical_windows": 512,
+  "reserved_test_families": 20,
+  "reserved_windows": 640,
+  "fit_started": false,
+  "execution_plan_sha256": "271b9f7bb901e1edd040e044814b625b2df37fe8836f8b9308bfa4c80628b858"
+}
