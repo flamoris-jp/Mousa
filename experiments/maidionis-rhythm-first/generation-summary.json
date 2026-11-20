@@ -1,0 +1,149 @@
+{
+  "same_seed_replay_exact": true,
+  "candidates": [
+    {
+      "seed": 101,
+      "variant": "independent",
+      "end_tick": 15360,
+      "seconds": 19.2,
+      "descriptors": {
+        "notes": 51,
+        "ioi_entropy_bits": 1.7101773730839314,
+        "distinct_rhythm_triples": 8,
+        "adjacent_rhythm_repeat_fraction": 0.44,
+        "silence_fraction": 0.03125,
+        "offbeat_onset_fraction": 0.9607843137254902,
+        "triplet_grid_nonstraight_fraction": 0.27450980392156865,
+        "accent_classes": 2,
+        "phrase_proposals": 0
+      },
+      "screen": {
+        "blocked": false,
+        "max_pitch_interval_run": 5,
+        "max_paired_interval_ioi_run": 4
+      },
+      "exported": true,
+      "midi_sha256": "d5b84eb85a2a0119bc6483795f80036df9120ba36c7a1737882a25e7b4911442"
+    },
+    {
+      "seed": 102,
+      "variant": "independent",
+      "end_tick": 15360,
+      "seconds": 19.2,
+      "descriptors": {
+        "notes": 60,
+        "ioi_entropy_bits": 1.3611519917248205,
+        "distinct_rhythm_triples": 7,
+        "adjacent_rhythm_repeat_fraction": 0.5084745762711864,
+        "silence_fraction": 0.018229166666666668,
+        "offbeat_onset_fraction": 0.9333333333333333,
+        "triplet_grid_nonstraight_fraction": 0.15,
+        "accent_classes": 2,
+        "phrase_proposals": 0
+      },
+      "screen": {
+        "blocked": false,
+        "max_pitch_interval_run": 5,
+        "max_paired_interval_ioi_run": 3
+      },
+      "exported": true,
+      "midi_sha256": "096141e5431393cb541e3bbfe79d5a6c61571d3be81f2254b2217b97966c180a"
+    },
+    {
+      "seed": 103,
+      "variant": "independent",
+      "end_tick": 15360,
+      "seconds": 19.2,
+      "descriptors": {
+        "notes": 58,
+        "ioi_entropy_bits": 1.6143902274171995,
+        "distinct_rhythm_triples": 7,
+        "adjacent_rhythm_repeat_fraction": 0.49122807017543857,
+        "silence_fraction": 0.0,
+        "offbeat_onset_fraction": 0.8275862068965517,
+        "triplet_grid_nonstraight_fraction": 0.1206896551724138,
+        "accent_classes": 2,
+        "phrase_proposals": 0
+      },
+      "screen": {
+        "blocked": false,
+        "max_pitch_interval_run": 4,
+        "max_paired_interval_ioi_run": 3
+      },
+      "exported": true,
+      "midi_sha256": "3ee7ba4f465f1feb129b3060a61cec379ce70044f269f17bb9546b93e450233d"
+    },
+    {
+      "seed": 101,
+      "variant": "rhythm_first",
+      "end_tick": 15360,
+      "seconds": 19.2,
+      "descriptors": {
+        "notes": 50,
+        "ioi_entropy_bits": 1.7215263819100808,
+        "distinct_rhythm_triples": 8,
+        "adjacent_rhythm_repeat_fraction": 0.5102040816326531,
+        "silence_fraction": 0.0,
+        "offbeat_onset_fraction": 0.78,
+        "triplet_grid_nonstraight_fraction": 0.12,
+        "accent_classes": 3,
+        "phrase_proposals": 0
+      },
+      "screen": {
+        "blocked": false,
+        "max_pitch_interval_run": 4,
+        "max_paired_interval_ioi_run": 3
+      },
+      "exported": true,
+      "midi_sha256": "063792096e654e00881958d79b3f3a44138e675ab6ad572b7a4ae69a6b480a17"
+    },
+    {
+      "seed": 102,
+      "variant": "rhythm_first",
+      "end_tick": 15360,
+      "seconds": 19.2,
+      "descriptors": {
+        "notes": 57,
+        "ioi_entropy_bits": 1.2636128223936196,
+        "distinct_rhythm_triples": 6,
+        "adjacent_rhythm_repeat_fraction": 0.6071428571428571,
+        "silence_fraction": 0.03125,
+        "offbeat_onset_fraction": 0.6666666666666666,
+        "triplet_grid_nonstraight_fraction": 0.0,
+        "accent_classes": 2,
+        "phrase_proposals": 0
+      },
+      "screen": {
+        "blocked": false,
+        "max_pitch_interval_run": 5,
+        "max_paired_interval_ioi_run": 3
+      },
+      "exported": true,
+      "midi_sha256": "4b95ad33ef32c0aacc857bf3505a437970b718431c4c7a2c0f9f3de17d8a123a"
+    },
+    {
+      "seed": 103,
+      "variant": "rhythm_first",
+      "end_tick": 15360,
+      "seconds": 19.2,
+      "descriptors": {
+        "notes": 58,
+        "ioi_entropy_bits": 1.3936556227050763,
+        "distinct_rhythm_triples": 6,
+        "adjacent_rhythm_repeat_fraction": 0.543859649122807,
+        "silence_fraction": 0.0,
+        "offbeat_onset_fraction": 0.896551724137931,
+        "triplet_grid_nonstraight_fraction": 0.1206896551724138,
+        "accent_classes": 4,
+        "phrase_proposals": 0
+      },
+      "screen": {
+        "blocked": false,
+        "max_pitch_interval_run": 4,
+        "max_paired_interval_ioi_run": 4
+      },
+      "exported": true,
+      "midi_sha256": "52fd4f57e54294dfbe4334500a16ec55d4e70d15cfee9c7f8ee7f255f218ccf1"
+    }
+  ]
+}
