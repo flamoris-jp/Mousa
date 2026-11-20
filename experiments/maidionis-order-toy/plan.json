@@ -1,0 +1,33 @@
+{
+  "batch": "all 40 training rows each step",
+  "controls": [
+    1
+  ],
+  "cpu_threads": 1,
+  "dropout_milli": 0,
+  "hidden_width": 256,
+  "id": "mousa-maidionis-order-toy-v1",
+  "learning_rate": 0.0003,
+  "limitations": [
+    "synthetic ordinal-token relation, not MIDI or composition quality",
+    "heldout pairs share seen token identities; not unseen pitch vocabulary",
+    "native diagnostic optimizer harness calls unmodified Core Model/loss, not full Core education/artifact lifecycle",
+    "3 preregistered seeds; no test-driven tuning",
+    "pooled permutation invariance predicts at most 50 percent deterministic accuracy on balanced reverse pairs"
+  ],
+  "max_grad_norm": 1.0,
+  "maximum_run_cpu_seconds": 300,
+  "output_width": 2,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "selection": "final step only; no dev or test selection",
+  "split": "20 unordered pairs train,8 test; both orientations same split",
+  "steps": 100,
+  "target": "label1 iff first content ID < second content ID",
+  "upstream_commit": "c288e92979d5005742a1bc3f86b389eadbc873d3",
+  "vocabulary": 10,
+  "weight_decay": 0.0
+}
