@@ -1,0 +1,10 @@
+{
+  "revision": "strict accidental validation and protocol contract assertions; no protocol value changes",
+  "prepare_sha256": "95c64251ece9e5477780f6f1d016d7196dcf29b4cbcc93f49bc2fee515ece070",
+  "compared_files": 732,
+  "byte_mismatches": [],
+  "mixed_accidental_source_files": [],
+  "dataset_sha256": "93a912c1578cf885c26eb1778df522b632cda29fdb1cf061dcf4f3f1098baadc",
+  "previous_output_preserved": true,
+  "replay_evidence": "Identical bytes for every event and training/split artifact; inherited old independent all-row/raw-source replay is applicable without any semantic data change."
+}

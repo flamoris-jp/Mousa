@@ -1,0 +1,17 @@
+{
+  "schema": "mousa.rhythm-protocol.experimental.v1",
+  "frozen_before_training": true,
+  "task_id": "mousa.degree-rhythm.experimental.v1",
+  "source": "PR17 already reviewed train and historical-observed evaluation families only",
+  "selection": "existing deterministic order, first eligible 8 train and 4 historical-observed families; strict declared constant 4/4 and key; first 129 highest-onset projections; require 9 consecutive valid events",
+  "projection": "strict declared major/natural-minor degrees; no snapping; out-of-scale/gap>4beat breaks history; monophonic duration clipped to next onset; quantize 1/12 beat; log all exclusions and errors",
+  "splits": "preserve original family roles; no reserve reads, transformed sibling crossing or test-based selection",
+  "labels": ["degree/register", "IOI", "duration", "projected silence", "fixed velocity bin", "weak boundary: projected silence >= 1 beat"],
+  "training": {"seed": 314, "steps": 60, "batch_size": 32, "learning_rate": 0.0003, "cpu_threads": 1, "cpu_seconds_limit": 180},
+  "transfer": "PR17 v2 compatible encoder parameters only; new semantic embeddings and output head; fresh optimizer, not resume; PR19 ordinal codec retained, no degree toy weights required",
+  "generation": {"seeds": [101,102,103], "bars": 8, "meter": "4/4", "bpm": 100, "key": "C4", "scale": "major_12tet", "max_events": 384, "retry_or_seed_selection": false},
+  "comparison": "Generate learned sequence then paired fixed-rhythm rendition reuses exact degree order with IOI=12units,duration=9units,accent=2,phrase=0; comparison duration varies with note count and is explicitly not same-length causal trial",
+  "evaluation": "per-task historical-observed NLL/accuracy before/after; descriptive IOI entropy, repeated rhythm triples, silence, offbeat rate; no proxy named naturalness score. Human blind A/B/tie/neither rating pending",
+  "copy_screen": "fixed exact transposition-invariant interval run >=12 or interval/IOI pair >=8 against128 existing train-family first2048 references; block without retry; not comprehensive originality clearance",
+  "limits": "tiny highest-onset monophonic proxy; phrase weak labels not expert structure; not naturalness proof; no stylistic swing/shuffle control claimed; no files connector, merge, deploy, GPU or paid compute"
+}

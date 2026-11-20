@@ -1,0 +1,111 @@
+{
+  "date_jst": "2026-11-15",
+  "task_id": "mousa.absolute-degree.experimental.v1",
+  "core_commit": "c288e92979d5005742a1bc3f86b389eadbc873d3",
+  "representation": "absolute ordinal degree and repetition register; no semitone class reinterpretation",
+  "model_config": {
+    "controls": [
+      1
+    ],
+    "dropout_milli": 0,
+    "ffn_width": 1024,
+    "heads": 4,
+    "hidden_width": 256,
+    "input_width": 2,
+    "kind": "encoder",
+    "layers": 4,
+    "max_length": 256,
+    "output_width": 192,
+    "vocabulary": 259
+  },
+  "legacy_weights_reused": false,
+  "training_scope": "384 windows from four original ordinal motifs at counts5/7/24; all train, not music-quality evaluation",
+  "training_steps": 60,
+  "training_seed": 314,
+  "generation_seed": 101,
+  "initial_training_nll": 3.2222355206807456,
+  "final_training_nll": 0.0035269190169249973,
+  "embedding_delta_l1": 11.7247896194458,
+  "training_cpu_seconds": 7.145141,
+  "reload_logits_exact": true,
+  "weights_sha256": "5168258983194a5372117b0288c965d847af03dc1cefc39b04a8ed308a926e32",
+  "manifest_sha256": "58f78b05bae08fe317faa2121652645aa21482f55ce3f218dbd705a3f5bdc8b4",
+  "data_sha256": "3406551e322a8ad1e1ef57417fa556e517b396c55facd3678e7a2060d9883f9a",
+  "unit_tests": {
+    "run": 70,
+    "passed": 69,
+    "skipped": 1,
+    "failed": 0
+  },
+  "degree_model_exact_selection_replay": true,
+  "old_semitone_model_rejected_before_inference": true,
+  "independent_midi_parser": "mido1.3.3",
+  "generated_midi_files": 6,
+  "generated_notes_checked": 384,
+  "fractional_semitone_notes_in_24edo": 8,
+  "generated_midi_maximum_error_cents": 0.0,
+  "additional_tuning_notes_checked": 64,
+  "additional_tuning_maximum_error_cents": 0.002108397374219753,
+  "ci_degree_render_fixture_notes": 36,
+  "key_transposition_in_memory": true,
+  "same_cardinality_stream_reused_across_scale_shapes": true,
+  "all_six_canonical_scale_midi_bytes_unchanged": true,
+  "gpu": false,
+  "audio_playback_verified": false,
+  "music_quality_or_generalization_claim": false,
+  "scales": [
+    {
+      "scale_id": "major_12tet",
+      "notes": 64,
+      "fractional_semitone_notes": 0,
+      "midi_sha256": "db740fb3ba4114b290b2df4b6950e00a6ad8d4fb5789fb3a3d8d9ea9ce9f2152",
+      "end_tick": 15360
+    },
+    {
+      "scale_id": "natural_minor_12tet",
+      "notes": 64,
+      "fractional_semitone_notes": 0,
+      "midi_sha256": "d073c6924fc32739a0ca9d903427007810fe148ed26a536c533b33a384cf784d",
+      "end_tick": 15360
+    },
+    {
+      "scale_id": "major_pentatonic_12tet",
+      "notes": 64,
+      "fractional_semitone_notes": 0,
+      "midi_sha256": "256574c05d9b2d001cc2ab413e747db3c24b5f8bfd167f7605d2ce9bcaee5bd9",
+      "end_tick": 15360
+    },
+    {
+      "scale_id": "ryukyu_12tet",
+      "notes": 64,
+      "fractional_semitone_notes": 0,
+      "midi_sha256": "1f3c5a923c438f5b427db2a7ad7b63f385964b6eee8022f1d909dbf495f5b314",
+      "end_tick": 15360
+    },
+    {
+      "scale_id": "miyako_12tet",
+      "notes": 64,
+      "fractional_semitone_notes": 0,
+      "midi_sha256": "fce0045cb7ebbbc136f39fbdcb3bca2d4d8cc514e138cf6a997d4375918fbefa",
+      "end_tick": 15360
+    },
+    {
+      "scale_id": "equal_24_test",
+      "notes": 64,
+      "fractional_semitone_notes": 8,
+      "midi_sha256": "ccdd36a509e3438de193f7b713d9624fda042cc1eb3d83c891ab45d470100741",
+      "end_tick": 15360
+    }
+  ],
+  "environment": {
+    "abi": 0,
+    "build_type": "Release",
+    "compiler": "14.2.0",
+    "compiler_flags": " -D_GLIBCXX_USE_CXX11_ABI=0 -D_GLIBCXX_USE_CXX11_ABI=0 -O0 -g0",
+    "deterministic": true,
+    "dtype": "float32",
+    "libtorch": "2.5.1",
+    "platform": "linux.x86_64",
+    "threads": 1
+  }
+}

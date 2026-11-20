@@ -1,0 +1,42 @@
+{
+  "schema": "mousa.annotated-event-protocol.v1",
+  "frozen_before_tokenization": true,
+  "prior_inspection": "Source formats, quantity, identities and timeline anomalies inspected; no model performance observed. Not source-blind.",
+  "task_id": "mousa.relative-chord-events.annotated.experimental.v1",
+  "training_schema": "mousa.annotated-event-training.experimental.v1",
+  "quality_order": [
+    "maj",
+    "min",
+    "dim",
+    "aug",
+    "7",
+    "maj7",
+    "min7",
+    "hdim7"
+  ],
+  "class_formula": "((root_pc-tonic_pc)%12)*8+quality_index",
+  "context": 2,
+  "family": "union exact SALAMI bytes, NFKD casefold alphanumeric title+artist and title-only; index and header aliases both used",
+  "representative": "lowest numeric slot ID; no replacement after rejection",
+  "split": "family ID billboard-family:SHA256(comma-joined sorted decimal slot IDs)[:24]; sort SHA256(20261117-billboard:+family), first ceil(20 percent) test",
+  "family_cap": 16,
+  "selection": "lowest sha256(20261117-billboard:family:index), then original index order",
+  "coalesce": "adjacent exact raw chord only, identical tonic/meter, contiguous within1e-8; preserve bass changes",
+  "barriers": "unsupported quality,N,X,unknown tonic/meter,context change,gap>1e-8 break; nonpositive duration or overlap>1e-8 rejects whole slot; inline-meter phrase entirely null until next phrase",
+  "context_mapping": "SALAMI #tonic/#metre at next timestamped phrase; reject LAB event straddling context boundary; inline metre invalidates phrase only",
+  "slash": "root+quality target ignores slash bass, retained separately in external provenance; extended/altered quality excluded, not simplified",
+  "minimum_gate": {
+    "train_families": 50,
+    "test_families": 20,
+    "train_windows": 500,
+    "test_windows": 100
+  },
+  "evaluation_claim": "Current fresh-model family heldout only; historical exposure and alternate-title covers unresolved",
+  "sources": {
+    "salami_sha256": "92d5797743f5bbba070fd233b028918707832066340641bd27f435236ee7457e",
+    "lab_sha256": "718f870cbe37134c3f3a52add7c46058ad313f1a568518438887fcd2dcf27d01",
+    "index_sha256": "fc39435098814f1a4f1dd5c95c72aff399b648b78f33a59682924dfb9b5280fb"
+  },
+  "rights": "CC0 annotations only; source audio/composition rights not granted",
+  "no_fit": true
+}

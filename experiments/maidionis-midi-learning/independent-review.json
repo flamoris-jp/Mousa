@@ -1,0 +1,79 @@
+{
+  "static_code_review": "PASS: unchanged nativeCore Model/loss; expected9token inputs and49class outputs; no heldout token enters gradient update; statistics correctly macro family.",
+  "data_review": "PASS: expected9arms, nestedtrain, disjoint test, paired128shufflebatch equality; rights/hashes checked during prep",
+  "result_review": "PASS: predictions bind exact rows and target labels; allfiniteNLL,100losses/run,positiveparameterupdates,identical initialtest acrosssame-seedarms",
+  "freshness": "ExistingCycle53observedtest,notfresh",
+  "results_sha256": "ce6d66eed6561476547eb7ffe24c7770cd281ed6421ca8b881b56532d5e6f376",
+  "metrics": [
+    {
+      "condition": "train18_ordered",
+      "seed": 42,
+      "initial_nll": 3.807074326556176,
+      "final_nll": 3.4938917253748514,
+      "final_accuracy": 0.154296875
+    },
+    {
+      "condition": "train128_ordered",
+      "seed": 42,
+      "initial_nll": 3.807074326556176,
+      "final_nll": 3.1799302974250168,
+      "final_accuracy": 0.158203125
+    },
+    {
+      "condition": "train128_context_permuted",
+      "seed": 42,
+      "initial_nll": 3.807074326556176,
+      "final_nll": 3.3026474262587726,
+      "final_accuracy": 0.107421875
+    },
+    {
+      "condition": "train18_ordered",
+      "seed": 43,
+      "initial_nll": 4.206628268118948,
+      "final_nll": 3.4211686693597585,
+      "final_accuracy": 0.16796875
+    },
+    {
+      "condition": "train128_ordered",
+      "seed": 43,
+      "initial_nll": 4.206628268118948,
+      "final_nll": 3.0801241995650344,
+      "final_accuracy": 0.197265625
+    },
+    {
+      "condition": "train128_context_permuted",
+      "seed": 43,
+      "initial_nll": 4.206628268118948,
+      "final_nll": 3.2129797502420843,
+      "final_accuracy": 0.15625
+    },
+    {
+      "condition": "train18_ordered",
+      "seed": 44,
+      "initial_nll": 3.8827710398472846,
+      "final_nll": 3.401354466623161,
+      "final_accuracy": 0.166015625
+    },
+    {
+      "condition": "train128_ordered",
+      "seed": 44,
+      "initial_nll": 3.8827710398472846,
+      "final_nll": 3.1527914204634726,
+      "final_accuracy": 0.189453125
+    },
+    {
+      "condition": "train128_context_permuted",
+      "seed": 44,
+      "initial_nll": 3.8827710398472846,
+      "final_nll": 3.313625376787968,
+      "final_accuracy": 0.154296875
+    }
+  ],
+  "limitations": [
+    "Fixed compute compares morediversedata and lowerrepeat exposure, not isolatedsongcount",
+    "18windows selected include shortfamilies; max32/family",
+    "Encoder versus counts unmatched capacity/optimization",
+    "firstparameterupdates verified, notfull modeldelta; no checkpointreload tested in thisrun",
+    "Private targets/source-derived sequences must not Gitpublish"
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "schema": "choco-small-sample-timing-audit.v1",
+  "date": "2026-11-17",
+  "repository": "https://github.com/smashub/choco",
+  "observed_main_sha": "5fe168fd55be5c84512abcfbc4e6f1b1f8f0092a",
+  "scope": {
+    "jams_files_inspected": 9,
+    "rock_jams": 3,
+    "nottingham_jams": 3,
+    "winterreise_jams": 3,
+    "rock_raw_har_files_inspected": 2,
+    "winterreise_raw_csv_examples": 1,
+    "nottingham_raw_abc_examples": 1,
+    "whole_repository_cloned": false,
+    "files_connector_used": false,
+    "training_or_inference": false,
+    "model_code_changes": false
+  },
+  "findings": [
+    {
+      "id": "score-time-units",
+      "finding": "Audio observation time/duration is seconds. Score time uses measure plus beat/10, not elapsed seconds or a linear bar fraction. The beat origin and unit vary across parsers.",
+      "sources": [
+        "https://github.com/smashub/choco/blob/5fe168fd55be5c84512abcfbc4e6f1b1f8f0092a/choco/jams_score.py",
+        "https://github.com/smashub/choco/blob/5fe168fd55be5c84512abcfbc4e6f1b1f8f0092a/choco/parsers/multifile_parser.py",
+        "https://github.com/smashub/choco/blob/5fe168fd55be5c84512abcfbc4e6f1b1f8f0092a/choco/parsers/m21_parser.py"
+      ]
+    },
+    {
+      "id": "winterreise",
+      "finding": "score_0 Gute Nacht: 2/4, chord at1.0 duration3.5 then2.15 duration0.5. Raw start2.750 maps to zero-based offset1.5 beats, encoded2.15. file_metadata.duration137 is measures while timesig.duration274 is beats. audio_0 is seconds, first chord1.26 duration3.48; audio key Cminor vs score Dminor.",
+      "sources": [
+        "https://github.com/smashub/choco/blob/5fe168fd55be5c84512abcfbc4e6f1b1f8f0092a/partitions/schubert-winterreise/choco/score/jams/schubert-winterreise-score_0.jams",
+        "https://github.com/smashub/choco/blob/5fe168fd55be5c84512abcfbc4e6f1b1f8f0092a/partitions/schubert-winterreise/choco/audio/jams/schubert-winterreise-audio_0.jams",
+        "https://github.com/smashub/choco/blob/5fe168fd55be5c84512abcfbc4e6f1b1f8f0092a/partitions/schubert-winterreise/raw/ann_score_chord/Schubert_D911-01.csv"
+      ]
+    },
+    {
+      "id": "nottingham",
+      "finding": "sample0 pickup key/timesig1.4, first chord2.1 duration4 in4/4; sample1 has9/8, onset2.1 duration2 then2.3 duration1, using music21 compound beats (3 beats/bar), not fixed quarter lengths. Generic score helper's quarter-beat comment is not a safe universal contract.",
+      "sources": [
+        "https://github.com/smashub/choco/blob/5fe168fd55be5c84512abcfbc4e6f1b1f8f0092a/partitions/nottingham/choco/jams/nottingham_0.jams",
+        "https://github.com/smashub/choco/blob/5fe168fd55be5c84512abcfbc4e6f1b1f8f0092a/partitions/nottingham/choco/jams/nottingham_1.jams",
+        "https://github.com/smashub/choco/blob/5fe168fd55be5c84512abcfbc4e6f1b1f8f0092a/choco/parsers/m21_parser.py"
+      ]
+    },
+    {
+      "id": "rock-first-analysis-and-attributor",
+      "finding": "Raw rs200_harmony directory lists400 .har files for200 songs/two annotators; original JAMS directory lists200 files. process_harm_json uses harmony[:1]. Sample1999 JAMS is labeled Trevor de Clercq but its I64/V11 stream matches the first aggregate harmony and1999_dt.har, not1999_tdc.har. Sample-level provenance inconsistency; do not infer all200 attribution failures from this one example.",
+      "sources": [
+        "https://github.com/smashub/choco/blob/5fe168fd55be5c84512abcfbc4e6f1b1f8f0092a/choco/parsers/harm_parser.py",
+        "https://github.com/smashub/choco/blob/5fe168fd55be5c84512abcfbc4e6f1b1f8f0092a/choco/parsers/instances.py",
+        "https://github.com/smashub/choco/blob/5fe168fd55be5c84512abcfbc4e6f1b1f8f0092a/partitions/rock-corpus/raw/rs200_harmony/1999_dt.har",
+        "https://github.com/smashub/choco/blob/5fe168fd55be5c84512abcfbc4e6f1b1f8f0092a/partitions/rock-corpus/raw/rs200_harmony/1999_tdc.har",
+        "https://github.com/smashub/choco/blob/5fe168fd55be5c84512abcfbc4e6f1b1f8f0092a/partitions/rock-corpus/choco/jams/rock-corpus_0.jams"
+      ]
+    },
+    {
+      "id": "rock-empty-bars-and-compound-meter",
+      "finding": "1999 raw begins R plus six empty bars before I64/V11, but JAMS moves fromN at1.1 duration4 directly toI64 at2.1. Parser increments measure_no only for nonempty measures. sample1 12/8 has onsets1.1,1.4,1.7,2.0,2.1; beat10 collides with next integer measure under measure+beat/10. duration3 here denotes three denominator-note units, unlike Nottingham compound-beat units. Simple floor(time) decoding is unsafe.",
+      "sources": [
+        "https://github.com/smashub/choco/blob/5fe168fd55be5c84512abcfbc4e6f1b1f8f0092a/choco/parsers/harm_parser.py",
+        "https://github.com/smashub/choco/blob/5fe168fd55be5c84512abcfbc4e6f1b1f8f0092a/partitions/rock-corpus/choco/jams/rock-corpus_0.jams",
+        "https://github.com/smashub/choco/blob/5fe168fd55be5c84512abcfbc4e6f1b1f8f0092a/partitions/rock-corpus/choco/jams/rock-corpus_1.jams"
+      ]
+    },
+    {
+      "id": "converted-duplicates",
+      "finding": "Nottingham0 original60 ABC chords and converted60 Harte chords have exactly equal time/duration arrays. Rock0 converted retains exact344-row Roman annotation and appends344 Harte rows plus duplicated timesig. Original/converted and Roman/Harte are alternate representations, not independent songs or teachers.",
+      "sources": [
+        "https://github.com/smashub/choco/blob/5fe168fd55be5c84512abcfbc4e6f1b1f8f0092a/partitions/nottingham/choco/jams/nottingham_0.jams",
+        "https://github.com/smashub/choco/blob/5fe168fd55be5c84512abcfbc4e6f1b1f8f0092a/partitions/nottingham/choco/jams-converted/nottingham_0.jams",
+        "https://github.com/smashub/choco/blob/5fe168fd55be5c84512abcfbc4e6f1b1f8f0092a/partitions/rock-corpus/choco/jams/rock-corpus_0.jams",
+        "https://github.com/smashub/choco/blob/5fe168fd55be5c84512abcfbc4e6f1b1f8f0092a/partitions/rock-corpus/choco/jams-converted/rock-corpus_0.jams"
+      ]
+    },
+    {
+      "id": "family-and-musicbrainz",
+      "finding": "Current Winterreise directories list24 score JAMS and216 audio JAMS. Group all score/audio/transposed performances by original workID Schubert_D911-XX, not distinct JAMS IDs. Audio0 Gute Nacht and audio1 Die Wetterfahne share the same MusicBrainz release URL: releaseID is not a work/recording key. Rock/Nottingham inspected examples have empty identifiers. Winterreise overlaps the earlier OpenScore D911 source family and must not be called unseen.",
+      "sources": [
+        "https://github.com/smashub/choco/blob/5fe168fd55be5c84512abcfbc4e6f1b1f8f0092a/partitions/schubert-winterreise/choco/score/meta.csv",
+        "https://github.com/smashub/choco/blob/5fe168fd55be5c84512abcfbc4e6f1b1f8f0092a/partitions/schubert-winterreise/choco/audio/meta.csv",
+        "https://github.com/smashub/choco/blob/5fe168fd55be5c84512abcfbc4e6f1b1f8f0092a/partitions/schubert-winterreise/choco/audio/jams/schubert-winterreise-audio_1.jams"
+      ]
+    },
+    {
+      "id": "melody-scope",
+      "finding": "The9 inspected JAMS contain chord/key/meter/structure namespaces, no note-level melody stream. Nottingham raw ABC contains melodic pitches and rhythms; the ChoCo conversion extracts harmonic annotations rather than retaining note events. Rock selected .har files are harmonic macros/analyses; original work audio/lyrics were not retrieved. Winterreise inspected raw directories contain annotation CSVs, not score-note MIDI.",
+      "sources": [
+        "https://github.com/smashub/choco/blob/5fe168fd55be5c84512abcfbc4e6f1b1f8f0092a/partitions/nottingham/raw/ashover.abc",
+        "https://github.com/smashub/choco/blob/5fe168fd55be5c84512abcfbc4e6f1b1f8f0092a/choco/parsers/m21_parser.py",
+        "https://github.com/smashub/choco/blob/5fe168fd55be5c84512abcfbc4e6f1b1f8f0092a/partitions/rock-corpus/raw/rs200_harmony/1999_dt.har"
+      ]
+    }
+  ],
+  "recommendation": "Do not train from converted Rock JAMS in this task. For any future intake, pin original annotations, preserve annotator/source lineage and per-parser timing semantics; group derivative representations and all performances by work before splitting. This is a schema audit, not a fresh licensing clearance or whole-corpus validation."
+}

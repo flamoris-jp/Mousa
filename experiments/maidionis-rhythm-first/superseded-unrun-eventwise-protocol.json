@@ -1,0 +1,39 @@
+{
+  "schema": "mousa.rhythm-first-protocol.experimental.v1",
+  "frozen_before_fit": true,
+  "arms": [
+    "independent",
+    "rhythm_first"
+  ],
+  "change": "Both models same54token shape and initialization; independent suffix padding; rhythm_first degree query sees current IOI/duration/rest. Timing queries in both see past history only.",
+  "data": "Exact prior8train/4historical-observed families; no new source/eval access, split changes or tuning",
+  "training": {
+    "seed": 314,
+    "steps_per_arm": 60,
+    "batch_size": 32,
+    "learning_rate": 0.0003,
+    "cpu_threads": 1,
+    "cpu_limit_seconds_per_arm": 180,
+    "backbone": "same PR17 v2 exact50 tensors",
+    "optimizer": "fresh AdamW"
+  },
+  "generation": {
+    "seeds": [
+      101,
+      102,
+      103
+    ],
+    "bars": 8,
+    "bpm": 100,
+    "scale": "major_12tet",
+    "key": "C4",
+    "notes_cap": 384,
+    "retries": 0,
+    "order": "sample IOI and legal duration/rest, accent/phrase, then degree; separate seeded timing and degree RNG streams shared across arms"
+  },
+  "evaluation": "Per-task observed before/after; degree evaluation includes true current timing for rhythm_first (oracle timing diagnostic, not free-generation superiority). Both end-to-end outputs bounded-meter/copy checked, descriptors not quality. Human listening pending.",
+  "copy_guard": "unchanged128family first2048 references; pitch run>=12 or paired run>=8 blocks export without retries",
+  "limits": "One training seed,3generation seeds,already-observed evaluation,weak/sparse rest/phrase labels. Histories diverge after samples; common seeds not paired causal draws beyond equal RNG budgets. Conditioning changes learning throughout shared backbone.",
+  "storage": "No Files connector. No raw MIDI/private notes/weights/audio in Git. No merge/deploy.",
+  "superseded_before_any_training": true
+}

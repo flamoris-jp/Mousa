@@ -1,0 +1,83 @@
+{
+  "accepted_bars": 1718,
+  "assigned_families": {
+    "test": 5,
+    "train": 17
+  },
+  "available_exact_files": 191,
+  "bars": 3854,
+  "candidate_entries": 198,
+  "exclusion_counts": {
+    "MuseScore3_only": 43,
+    "missing_exact_file": 7,
+    "missing_or_changing_key": 36,
+    "missing_or_changing_meter": 9,
+    "missing_or_unsupported_CC0_metadata": 17,
+    "unsupported_key_signature": 1,
+    "volta_span_unsupported_entire_score": 7
+  },
+  "families_after_union": 22,
+  "families_before_union": 22,
+  "families_with_windows": {
+    "test": 3,
+    "train": 6
+  },
+  "family_window_counts": {
+    "openscore-family:1c6a00e405cadb667d1af2ca": 1,
+    "openscore-family:207fb3dc0ce7524384ea50dc": 11,
+    "openscore-family:32f359d66bc5a3539d287531": 47,
+    "openscore-family:39c0993a38d765104b13b002": 2,
+    "openscore-family:5552dcbf7dc2cae25136f958": 31,
+    "openscore-family:a18525f87f3f4582f1d6b457": 10,
+    "openscore-family:bc5030dde6039f482d61b4da": 3,
+    "openscore-family:c14d8ca456603fe2310fc17e": 9,
+    "openscore-family:f99cd72c863e6d37df3b5446": 11
+  },
+  "label_counts": {
+    "test": {
+      "0": 1,
+      "3": 1,
+      "4": 1,
+      "5": 2,
+      "7": 2,
+      "8": 2,
+      "9": 3,
+      "10": 1,
+      "11": 1
+    },
+    "train": {
+      "0": 23,
+      "1": 8,
+      "2": 2,
+      "3": 6,
+      "4": 1,
+      "5": 10,
+      "7": 23,
+      "8": 3,
+      "9": 5,
+      "10": 13,
+      "11": 8,
+      "12": 7,
+      "13": 2
+    }
+  },
+  "null_bar_reasons": {
+    "ambiguous_margin": 219,
+    "fewer_than_three_pitch_classes": 47,
+    "low_coverage": 661,
+    "silent_bar": 2,
+    "structural_rejection": 1207
+  },
+  "rows": {
+    "test": 14,
+    "train": 111
+  },
+  "scores_passed_structure": 78,
+  "scores_with_windows": {
+    "test": 3,
+    "train": 14
+  },
+  "status": "prepared_not_trained",
+  "training_sha256": "d3c55d8c764b862e52a55091024e0661e9aab46b780eea32a4e0e20af94746de",
+  "run": "volta-fixed"
+}
