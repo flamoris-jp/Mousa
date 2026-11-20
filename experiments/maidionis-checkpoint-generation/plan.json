@@ -1,0 +1,89 @@
+{
+  "schema": "mousa-saved-encoder-generation-v1",
+  "status": "frozen before candidate inference",
+  "purpose": "Generate bounded8bar MIDI candidates from the actual saved pitch/rhythm encoder, without training or dataset role changes",
+  "core_commit": "c288e92979d5005742a1bc3f86b389eadbc873d3",
+  "checkpoint_version": "music-checkpoint-v2",
+  "weights_sha256": "34dd1e168367a12390d2b10c1bf534459c24413a8460e74555da63b625d5d7f7",
+  "seeds": [
+    101,
+    102,
+    103
+  ],
+  "temperature": 1.0,
+  "synthetic_primer_pitch_classes": [
+    24,
+    26,
+    26,
+    23,
+    24,
+    22,
+    26,
+    24
+  ],
+  "synthetic_primer_rhythm_classes": [
+    10,
+    10,
+    12,
+    10,
+    10,
+    12,
+    10,
+    10
+  ],
+  "primer_emitted": false,
+  "starting_pitch": 60,
+  "pitch_range": [
+    48,
+    84
+  ],
+  "maximum_absolute_interval": 12,
+  "rhythm_classes": [
+    8,
+    10,
+    12,
+    14
+  ],
+  "rhythm_gaps_ticks": [
+    120,
+    240,
+    480,
+    960
+  ],
+  "ppq": 480,
+  "meter": [
+    4,
+    4
+  ],
+  "bars": 8,
+  "end_tick": 15360,
+  "bpm": 100,
+  "velocity": 80,
+  "program": 0,
+  "duration": "0.9 * sampled gap in ticks",
+  "max_events": 128,
+  "sampling": "one shared past8interleaved pitch/rhythm history; independent task-conditioned draws for next interval and gap; mask out-of-range intervals and gap exceeding remaining bar budget; append sampled pair; no beam search, retries or seed selection",
+  "copy_screen": {
+    "references": "all128training families full first2048highest-onset projections; exact pinned source hashes/rights; no heldout/reserve references",
+    "block_pitch_interval_contiguous_match_at_least": 12,
+    "block_pitch_interval_rhythm_pair_contiguous_match_at_least": 8,
+    "transposition_invariant": true,
+    "threshold_tuning": false,
+    "limitations": "bounded heuristic, not legal clearance or guarantee of originality; does not cover all historical editions or transformations"
+  },
+  "output_policy": "retain all3candidate traces and guardresults privately; export MIDI only if structural and fixed similarity checks pass; no retries if blocked",
+  "cpu_threads": 1,
+  "cpu_seconds_max": 60,
+  "training": false,
+  "gpu": false,
+  "paid_compute": false,
+  "cantabile_changes": false,
+  "limitations": [
+    "not human-reviewed musical quality",
+    "sample constraints alter raw model distribution",
+    "synthetic primer not a learned whole-song structure",
+    "no fresh evaluation or learned longform structure claim",
+    "MIDI is for private audition,not publication"
+  ],
+  "rng": "std::mt19937(seed); one uint32/2^32 cumulative draw per task, ascending labels, pitch then rhythm, including terminal un-emitted nextpitch"
+}

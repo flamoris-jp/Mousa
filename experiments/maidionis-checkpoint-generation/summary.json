@@ -1,0 +1,53 @@
+{
+  "candidates": [
+    {
+      "blocked": false,
+      "exported": true,
+      "generated_events": 64,
+      "max_paired_interval_ioi_run": 5,
+      "max_pitch_interval_run": 6,
+      "midi_bytes": 614,
+      "midi_file": "mousa-checkpoint-seed101-8bars.mid",
+      "midi_sha256": "692520d3b1381a3f1648d507f5c94dbc341a752ac87b90790f9be574451cfae7",
+      "roundtrip_verified": true,
+      "seed": 101,
+      "structurally_valid": true
+    },
+    {
+      "blocked": false,
+      "exported": true,
+      "generated_events": 52,
+      "max_paired_interval_ioi_run": 5,
+      "max_pitch_interval_run": 10,
+      "midi_bytes": 512,
+      "midi_file": "mousa-checkpoint-seed102-8bars.mid",
+      "midi_sha256": "bb4d7c847c14d0735755cf1ea206b74d0924458c250808627aca7c12f5416fc8",
+      "roundtrip_verified": true,
+      "seed": 102,
+      "structurally_valid": true
+    },
+    {
+      "blocked": false,
+      "exported": true,
+      "generated_events": 48,
+      "max_paired_interval_ioi_run": 5,
+      "max_pitch_interval_run": 7,
+      "midi_bytes": 470,
+      "midi_file": "mousa-checkpoint-seed103-8bars.mid",
+      "midi_sha256": "f31eb218aafdc3e17206b2981924dac24e03ff9a16aa22c8fc65da9d8b5eb4f6",
+      "roundtrip_verified": true,
+      "seed": 103,
+      "structurally_valid": true
+    }
+  ],
+  "copy_thresholds": {
+    "paired_interval_ioi_run": 8,
+    "pitch_interval_run": 12
+  },
+  "limitations": "Bounded first2048-onset128-training-family exact-run screen, not broad plagiarism/copyright clearance or musical quality; no regeneration/retries",
+  "native_sha256": "ca8c89f609c06fd1c1820d04e4e3ec493a24590647359ea321af871dd189f661",
+  "no_human_audition": true,
+  "reference_families": 128,
+  "reference_sha256": "35c7eae3219aed805ed8f872290107d7067c9056690e3406d1f1ce3f80bef6b3",
+  "schema": "mousa-checkpoint-generation-export-v1"
+}
