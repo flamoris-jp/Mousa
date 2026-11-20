@@ -1,0 +1,105 @@
+{
+  "normalized_repeat_equal": true,
+  "excluded_field": "cpu_seconds",
+  "initial_cpu_seconds": 0.713369778,
+  "repeat_cpu_seconds": 0.68112187,
+  "private_notes_byte_identical": 10,
+  "originals_unchanged": true,
+  "initial_report_sha256": "5a01d4f3e55dd25ea92865e8bf508dce03afeb587f5fcaeb10c603e4622f518b",
+  "repeat_report_sha256": "abedc7c449ee74d49af883f0d1c460a8979d518389d0aba7caf6ba0d9e16f2d0",
+  "independent_audit": {
+    "normalized_repeat_equal": true,
+    "base5_exactly_matches_ten_work_run": true,
+    "beethoven_notes": 628,
+    "tchaikovsky_notes": 99,
+    "all_training_events": 3263,
+    "crosssplit_comparisons": 24,
+    "withintrain_comparisons": 66,
+    "old_supported_exact_parity": 65,
+    "long_comparisons": 25,
+    "copy_reference_count": 14,
+    "safety": [
+      {
+        "condition": "base5",
+        "seed": 0,
+        "max_polyphony": 2,
+        "tail_ticks": 288,
+        "copy_matches_recomputed": 0,
+        "private_notes_sha256": "89e8d384b8d32d52598c358ad03ea088ef560411e930b7500b0a66f609f37dfa"
+      },
+      {
+        "condition": "base5",
+        "seed": 1,
+        "max_polyphony": 2,
+        "tail_ticks": 285,
+        "copy_matches_recomputed": 0,
+        "private_notes_sha256": "1846df226268c4ef70cf7b6fc548179496fa7326af1aceb748ea54c891ed7d1d"
+      },
+      {
+        "condition": "base5",
+        "seed": 2,
+        "max_polyphony": 1,
+        "tail_ticks": 242,
+        "copy_matches_recomputed": 0,
+        "private_notes_sha256": "85cb8d1d5c6d7ab76bed01c529ea14e89104805ba9608cc0abfe3999f4f00e2d"
+      },
+      {
+        "condition": "base5",
+        "seed": 3,
+        "max_polyphony": 2,
+        "tail_ticks": 0,
+        "copy_matches_recomputed": 0,
+        "private_notes_sha256": "88501a070c643ddc21de65481e50f73e19477f54ac093c4eb3b32eef1c24af76"
+      },
+      {
+        "condition": "base5",
+        "seed": 4,
+        "max_polyphony": 3,
+        "tail_ticks": 288,
+        "copy_matches_recomputed": 0,
+        "private_notes_sha256": "bed033df3fdc048885ba9f4a268b577de6e5718ff4c8545d2bd56a2ca05455d9"
+      },
+      {
+        "condition": "expanded",
+        "seed": 0,
+        "max_polyphony": 3,
+        "tail_ticks": 192,
+        "copy_matches_recomputed": 0,
+        "private_notes_sha256": "a94b284e01050e56ee05b6a253993f0793f2d1c79ecb94c71f6f9727a9c56ffe"
+      },
+      {
+        "condition": "expanded",
+        "seed": 1,
+        "max_polyphony": 3,
+        "tail_ticks": 288,
+        "copy_matches_recomputed": 0,
+        "private_notes_sha256": "9b2c8f7ec49404423936f18ae1f339090244e16d7fe4dc6de3f376878f50d108"
+      },
+      {
+        "condition": "expanded",
+        "seed": 2,
+        "max_polyphony": 3,
+        "tail_ticks": 192,
+        "copy_matches_recomputed": 0,
+        "private_notes_sha256": "33c8d709a7d253c860467ddf2c8da86aa32b17e14c6183f757931c6cb16a758f"
+      },
+      {
+        "condition": "expanded",
+        "seed": 3,
+        "max_polyphony": 3,
+        "tail_ticks": 384,
+        "copy_matches_recomputed": 0,
+        "private_notes_sha256": "f4f0d7dc41140863fbea090202c220d1e539565af240b28b205444896922786d"
+      },
+      {
+        "condition": "expanded",
+        "seed": 4,
+        "max_polyphony": 3,
+        "tail_ticks": 384,
+        "copy_matches_recomputed": 0,
+        "private_notes_sha256": "8f152a2c32f4b82fdc1ef375e0e26057b89cd516feeb31091a66b65a1f801135"
+      }
+    ],
+    "limits": "Declared9families not independentcontributors; keyboard staff polyphony retained, outputcap3 separate. Observed diagnostics only; no musicalquality/originality claim. No originals, fixedreports or storage snapshot modified."
+  }
+}

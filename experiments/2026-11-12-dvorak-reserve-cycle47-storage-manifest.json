@@ -1,0 +1,68 @@
+{
+  "role": "rights-reviewed selected first-piece violin; 27-readable-reference screen-clear reserve; NOT admitted/fit/scored",
+  "files": [
+    {
+      "filename": "originals/dvorak-o4-mids.zip",
+      "sha256": "6bc86679f2c13c97c7b5befe5fcbad6a72cf26fa8516755146abe45ffe94899d",
+      "bytes": 21882
+    },
+    {
+      "filename": "originals/dvorak-o4-lys.zip",
+      "sha256": "2ac9cb164a7339612ff53a603acb7e307084c5e9b169a4515de18a4539a3b870",
+      "bytes": 12323
+    },
+    {
+      "filename": "selected/score.mid",
+      "sha256": "528aba0589429a468f9d51b5d4a4a1ca8018c91edb7fee1ad736964fd8ab583a",
+      "bytes": 9221
+    },
+    {
+      "filename": "metadata/research-dvorak1948-cycle47-20261112.json",
+      "sha256": "00c743ebd5fc20e0232469dfb3924386faa270265e36f79d8dfe5f02250a2851",
+      "bytes": 8388
+    },
+    {
+      "filename": "metadata/research-dvorak1948-status-cycle47-20261112.json",
+      "sha256": "5cccbaaaadb8f932d4b8c077f8a31d8d736b083c9cbad7bb744bf6d76e4c7d9b",
+      "bytes": 1317
+    },
+    {
+      "filename": "metadata/2026-11-12-dvorak1948-cycle47-screen-plan.json",
+      "sha256": "62d62b41c8d3a7e50aa72b7b07255a5c5050afad1696de7373d121fed189131c",
+      "bytes": 6100
+    },
+    {
+      "filename": "metadata/2026-11-12-dvorak1948-cycle47-screen.json",
+      "sha256": "1e56c6f9b408c35771478b6c413e43a4d8041882fba3b3c2816c65c316aea12b",
+      "bytes": 3966
+    }
+  ],
+  "source_urls": [
+    {
+      "filename": "lys.zip",
+      "url": "https://www.mutopiaproject.org/ftp/DvorakA/O4/dvorak-o4/dvorak-o4-lys.zip",
+      "sha256": "2ac9cb164a7339612ff53a603acb7e307084c5e9b169a4515de18a4539a3b870",
+      "bytes": 12323,
+      "acquired_utc": "2026-11-12T18:09:10.516586+00:00",
+      "timestamp_basis": "direct-write completion mtime"
+    },
+    {
+      "filename": "mids.zip",
+      "url": "https://www.mutopiaproject.org/ftp/DvorakA/O4/dvorak-o4/dvorak-o4-mids.zip",
+      "sha256": "6bc86679f2c13c97c7b5befe5fcbad6a72cf26fa8516755146abe45ffe94899d",
+      "bytes": 21882,
+      "acquired_utc": "2026-11-12T18:09:12.795142+00:00",
+      "timestamp_basis": "direct-write completion mtime"
+    },
+    {
+      "filename": "original-violin.pdf",
+      "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=22401&itemId=10198",
+      "sha256": "385e1a5a9c50a2e56b7c4fd6f4ca278bb4d5252c416793820dfd02a9472a4d70",
+      "bytes": 255045,
+      "acquired_utc": "2026-11-12T18:09:40.837816+00:00",
+      "timestamp_basis": "direct-write completion mtime"
+    }
+  ],
+  "raw_originals": "All voices/part variants preserved, not all individually reviewed or admitted. Historical PDF only referenced bydigest/URL, not transferred.",
+  "transfer": "Pending parent/storage confirmation, not uploaded"
+}

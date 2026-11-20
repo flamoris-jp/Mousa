@@ -1,0 +1,17 @@
+{
+  "plan_sha256": "999029a69f3fd0e329057b729317e08f8ba36947733830e0e36b83d28b9f5a08",
+  "unit_tests_passed": 3,
+  "oldhelper_parity_random_cases": 40,
+  "oldhelper_boundary_intervals": 512,
+  "long_checks": [
+    "1393intervalidentity",
+    "2048vs1024interval score.5",
+    "1000vs800interval score.8",
+    "1000vs799below.8"
+  ],
+  "memory_test": "2048vs32interval peak tracemalloc <300000bytes; not a runtime or production memory benchmark",
+  "real_source_comparisons": 0,
+  "model_fits": 0,
+  "oldhelper_unchanged": true,
+  "limits": "Larger exact resource profile only, no similarity criterion or blocked status change. Parent review required for actual sources."
+}

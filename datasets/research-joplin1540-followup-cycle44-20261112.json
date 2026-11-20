@@ -1,0 +1,43 @@
+{
+  "reviewed_utc": "2026-11-12T17:20:02.775485+00:00",
+  "candidate": "mutopia-1540",
+  "status": "pending-historical-incipit-unverified-unchanged",
+  "prior_immutable_ledger": "datasets/research-joplin1540-pending-cycle43-20261113.json",
+  "prior_sha256": "31d332e485037216ace8eb8b8df7536a78e2410ada4465cc0de6795f38452c52",
+  "date_correction": [
+    {
+      "filename": "1540.ly",
+      "sha256": "d060d0567e563df78f8d7acd9cb5e8ea4682de90c9ffa86ef1c76792bcb3b8a3",
+      "old_acquired_date_utc": "2026-11-13",
+      "corrected_acquired_utc_calendar_date": "2026-11-12",
+      "observed_local_write_mtime_utc": "2026-11-12T17:04:39.654036+00:00",
+      "basis": "Initial download code wrote received bytes directly. Retained write mtime and prior ledger reviewed_utc precedeUTC11/13. Originaldate mixed JST calendar date into UTC-labelled field. No original HTTP timestamp logged; mtime is supporting write time, not claimed exact HTTP completion time."
+    },
+    {
+      "filename": "1540.mid",
+      "sha256": "28e41b9b3d0afd3de70c0de56dba9c34e4ff05b21a14939f0fdf0b181d856fc9",
+      "old_acquired_date_utc": "2026-11-13",
+      "corrected_acquired_utc_calendar_date": "2026-11-12",
+      "observed_local_write_mtime_utc": "2026-11-12T17:04:42.073182+00:00",
+      "basis": "Initial download code wrote received bytes directly. Retained write mtime and prior ledger reviewed_utc precedeUTC11/13. Originaldate mixed JST calendar date into UTC-labelled field. No original HTTP timestamp logged; mtime is supporting write time, not claimed exact HTTP completion time."
+    }
+  ],
+  "actual_new_acquisition": {
+    "url": "https://archive.org/download/imslp-syncopations-joplin-scott/Scott_Joplin_-_Elite_Syncopations.pdf",
+    "sha256": "5171cd8d70ff2576ba0340c825065cfe303c8cdaaeffe3a2445383612437559b",
+    "bytes": 334450,
+    "actual_write_mtime_utc": "2026-11-12T17:18:44.393132+00:00",
+    "review": "Renderedfirstpage shows Klarinet1 and ScottJoplin/bew.Reinier, modernclarinetarrangement inG. Not1902Starkpianooriginal. Rejectedashistoricincipitproof; notadmitted nor usedfortraining. Itemmetadata date1902 doesnotdate eachcontainedarrangement."
+  },
+  "additional_route": {
+    "url": "https://imslp.org/images/6/6e/Joplin_-_Elite_Syncopations.pdf",
+    "catalogue": "IMSLP5450:1902Starkplate6,engraverFredGraf,reprintedDover1988; separatefrommodernVoigt1988edition withterritorialwarning",
+    "result": "Direct linked file request timedout; no scorebytes. NoCAPTCHAattempt/bypass. Facsimileextentnotvisuallyverified."
+  },
+  "rights_scope": "Exact Mutopia1540 individualPD encoding remains documented; publicdomaincomposition doesnot establish exacteditorialsource. Noaccessfailure classifiedasrightsprohibition.",
+  "fit": false,
+  "model_score": false,
+  "screen": "Notrun;rights/sourceprerequisiteincomplete. Unchanged future25-reference exact8/.80 plan stillrequired.",
+  "new_admitted_works": 0,
+  "storage": "Metadataonly; modernarrangementPDF andpendingoriginalMIDI remainprivatequarantine; nottrainingmaterials."
+}

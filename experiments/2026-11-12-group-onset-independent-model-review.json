@@ -1,0 +1,35 @@
+{
+  "reviewed_at_utc": "2026-11-12T14:30:12.864712+00:00",
+  "decision": "PASS: no blocking issue identified for fixed scoped local experiment",
+  "plan": "experiments/2026-11-12-group-onset-final2-plan.json",
+  "plan_sha256": "a02a87a014edf080d5734ee3e6f2546f9960a36146208d0ee3a815a9e1f85037",
+  "all_frozen_hashes_match": true,
+  "independent_synthetic_checks": {
+    "seed": 34917,
+    "fixtures": 20,
+    "exact_probability_comparisons": 1200,
+    "reproducible_generation_and_template_safety_cases": 120,
+    "per_work_boundary_counts": true,
+    "first_later_support_distinct": true,
+    "full_template_fields_and_member_order_reconstruction": true,
+    "polyphony_at_most_three_and_no_active_same_pitch": true,
+    "tail_and_note_attempt_bounds": true,
+    "CPU_deadline_inside_proposal_loop_confirmed": true
+  },
+  "existing_targeted_tests": {
+    "total": 6,
+    "passed": 6
+  },
+  "driver_review": [
+    "Bound clearance and frozen dependencies checked before fit.",
+    "All original sixteen training and two observed diagnostic sources supply exact-eight-note interval guard.",
+    "Generated and canonical note order are screened; flagged/failed outputs are retained.",
+    "Template exclusions affect generation only; predictive outcome is group delta, not template or full generation likelihood."
+  ],
+  "limits": [
+    "Synthetic review only; no real model fit or score performed by reviewer.",
+    "CPU deadline checks are cooperative, not hard preemption of one bounded operation.",
+    "Template reuse plus limited interval-copy screening is not broad originality or public release clearance.",
+    "Same seed is not aligned random choices across arms; partial-budget runs cannot support a fair ranking."
+  ]
+}

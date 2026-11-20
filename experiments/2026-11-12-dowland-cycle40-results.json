@@ -1,0 +1,129 @@
+{
+  "conditions": {
+    "active_horizon_binned": {
+      "complete_works": 2,
+      "equal_work_nll": 2.518445454011004,
+      "expected_works": 2,
+      "pooled_group_nll": 2.207568220559525,
+      "prediction": {
+        "1691": {
+          "first_groups": 1,
+          "first_nll": 13.980741905527937,
+          "groups": 43,
+          "independent_aggregate_absolute_error": 4.440892098500626e-16,
+          "later_groups": 42,
+          "later_nll_per_group": 3.158856189156355,
+          "later_nll_sum": 132.6719599445669,
+          "nll_per_group_delta": 3.4105279500022054,
+          "status": "complete"
+        },
+        "21": {
+          "first_groups": 1,
+          "first_nll": 0.9444594290494792,
+          "groups": 89,
+          "independent_aggregate_absolute_error": 6.661338147750939e-16,
+          "later_groups": 88,
+          "later_nll_per_group": 1.6341118617581019,
+          "later_nll_sum": 143.80184383471297,
+          "nll_per_group_delta": 1.626362958019803,
+          "status": "complete"
+        }
+      }
+    },
+    "cardinality": {
+      "complete_works": 2,
+      "equal_work_nll": 4.086068948052739,
+      "expected_works": 2,
+      "pooled_group_nll": 3.802496737212166,
+      "prediction": {
+        "1691": {
+          "first_groups": 1,
+          "first_nll": 13.980741905527937,
+          "groups": 43,
+          "independent_aggregate_absolute_error": 0.0,
+          "later_groups": 42,
+          "later_nll_per_group": 4.6835849484084475,
+          "later_nll_sum": 196.7105678331548,
+          "nll_per_group_delta": 4.899797900899599,
+          "status": "complete"
+        },
+        "21": {
+          "first_groups": 1,
+          "first_nll": 0.9444594290494792,
+          "groups": 89,
+          "independent_aggregate_absolute_error": 2.6645352591003757e-15,
+          "later_groups": 88,
+          "later_nll_per_group": 3.298793183457656,
+          "later_nll_sum": 290.29380014427375,
+          "nll_per_group_delta": 3.2723399952058787,
+          "status": "complete"
+        }
+      }
+    },
+    "global": {
+      "complete_works": 2,
+      "equal_work_nll": 3.7106999629289907,
+      "expected_works": 2,
+      "pooled_group_nll": 3.438253739503682,
+      "prediction": {
+        "1691": {
+          "first_groups": 1,
+          "first_nll": 13.980741905527937,
+          "groups": 43,
+          "independent_aggregate_absolute_error": 0.0,
+          "later_groups": 42,
+          "later_nll_per_group": 4.26659169936921,
+          "later_nll_sum": 179.1968513735068,
+          "nll_per_group_delta": 4.492502169279877,
+          "status": "complete"
+        },
+        "21": {
+          "first_groups": 1,
+          "first_nll": 0.9444594290494792,
+          "groups": 89,
+          "independent_aggregate_absolute_error": 0.0,
+          "later_groups": 88,
+          "later_nll_per_group": 2.9514481921182023,
+          "later_nll_sum": 259.7274409064018,
+          "nll_per_group_delta": 2.928897756578104,
+          "status": "complete"
+        }
+      }
+    },
+    "previous_max_gate_binned": {
+      "complete_works": 2,
+      "equal_work_nll": 2.462154105568888,
+      "expected_works": 2,
+      "pooled_group_nll": 2.1548555340424227,
+      "prediction": {
+        "1691": {
+          "first_groups": 1,
+          "first_nll": 13.980741905527937,
+          "groups": 43,
+          "independent_aggregate_absolute_error": 8.881784197001252e-16,
+          "later_groups": 42,
+          "later_nll_per_group": 3.0907108618763934,
+          "later_nll_sum": 129.80985619880852,
+          "nll_per_group_delta": 3.343967397775266,
+          "status": "complete"
+        },
+        "21": {
+          "first_groups": 1,
+          "first_nll": 0.9444594290494792,
+          "groups": 89,
+          "independent_aggregate_absolute_error": 2.220446049250313e-15,
+          "later_groups": 88,
+          "later_nll_per_group": 1.5875667381842482,
+          "later_nll_sum": 139.70587296021384,
+          "nll_per_group_delta": 1.5803408133625092,
+          "status": "complete"
+        }
+      }
+    }
+  },
+  "cpu_seconds": 0.05836501600000005,
+  "evaluation_fitted": false,
+  "limits": "Two previously unscored works in one Dowland1597/PeterChubb cohort; representation and rights previously inspected. Not two independent cohorts. Both become observed at first predictive attempt; neither enters training.640/921 remain old observed diagnostics and are not rescored here.",
+  "originals_unchanged": true,
+  "plan_sha256": "06803ea492e4849e7dba70af9aa648b399bc7af03dd802ea09f725b11e167c15"
+}

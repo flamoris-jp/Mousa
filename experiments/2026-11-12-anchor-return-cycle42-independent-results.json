@@ -1,0 +1,23 @@
+{
+  "scope": "Independent saved-output mapping, temporal preservation and all-pair pitch-overlap audit; no source fit/new generation.",
+  "results_sha256": "11f21001e0c18a2dd5ec89dbeebec83fd551dbb78ee61d21e0c3f7d93bcb589d",
+  "repeat_equal_except_cpu": true,
+  "old_candidate_parity": 5,
+  "common_complete_seeds": [
+    1,
+    3,
+    4
+  ],
+  "empty_A_failures": [
+    0,
+    2
+  ],
+  "independent_checks": 2995,
+  "non_pitch_note_fields_and_group_templates_unchanged": true,
+  "timeline_invariant_on_common_seeds": true,
+  "all_pair_pitch_overlap_oracle_pass": true,
+  "status": "PASS",
+  "limits": [
+    "Known pool, three completed edits, no listening or aesthetic evaluation."
+  ]
+}

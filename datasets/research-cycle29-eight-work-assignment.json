@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "scope": "Prospective local selected-melody exploratory reassignment; actual fit pending parent plan review",
+  "related_evaluation_exclusions": [
+    "mutopia-580"
+  ],
+  "diagnostic_families": {
+    "640": [
+      "adam-greco-grus"
+    ],
+    "921": [
+      "chopin-goretzki-scholtz-peters"
+    ]
+  },
+  "additions": [
+    {
+      "work_id": "mutopia-1578",
+      "canonical_source_id": "mutopia-1578",
+      "family_id": "schubert-breitkopf-raynaud",
+      "file": "mousa-named-source-review-20261112/1578.mid",
+      "sha256": "6cf3c60882c186ec642383caf4c5b265778d53159225b56dc121c4b595cdaf9d",
+      "track": 1,
+      "rights_evidence": "datasets/research-frozen-schubert-transfer-20261112.json",
+      "rights_evidence_sha256": "994fcc3cfbb8edc47faec4a8635b312c7c54d44ad8e575948edefb1f66b3c910",
+      "rights_approved": true,
+      "family_reviewed": true,
+      "review_reference": "Cycle29 parent reviewed exact historical rights and explicit root authorization for exploratory reassignment; not new unseen source choice",
+      "previous_role": "already predictively observed; immutable historical test ledger retained"
+    },
+    {
+      "work_id": "mutopia-1558",
+      "canonical_source_id": "mutopia-1558",
+      "family_id": "schubert-breitkopf-raynaud",
+      "file": "mousa-named-source-review-20261112/1558.mid",
+      "sha256": "50a29ba4579b984c24b2e13ec4fafb08c468c6c5db6bd9313d9134b00cf8e8c9",
+      "track": 1,
+      "rights_evidence": "datasets/research-frozen-schubert-transfer-20261112.json",
+      "rights_evidence_sha256": "994fcc3cfbb8edc47faec4a8635b312c7c54d44ad8e575948edefb1f66b3c910",
+      "rights_approved": true,
+      "family_reviewed": true,
+      "review_reference": "Cycle29 parent reviewed exact historical rights and explicit root authorization for exploratory reassignment; not new unseen source choice",
+      "previous_role": "already predictively observed; immutable historical test ledger retained"
+    },
+    {
+      "work_id": "mutopia-370",
+      "canonical_source_id": "mutopia-370",
+      "family_id": "stan-sanderson-contributor",
+      "file": "mousa-fresh-source-review-20261112/370.mid",
+      "sha256": "3235864dce0f7a59f1eb348bda55065263c0366267e32f27ce6240c9dde3f6b5",
+      "track": 1,
+      "rights_evidence": "datasets/research-frozen-foster-transfer-20261112.json",
+      "rights_evidence_sha256": "f075804c974c6987e342b62d9caf98c209c631efd8ea7bd74d434bd6ff17b4eb",
+      "rights_approved": true,
+      "family_reviewed": true,
+      "review_reference": "Cycle29 parent reviewed exact historical rights and explicit root authorization for exploratory reassignment; not new unseen source choice",
+      "previous_role": "already predictively observed; immutable historical test ledger retained"
+    }
+  ],
+  "family_groups": {
+    "stan-sanderson-contributor": [
+      "mutopia-376",
+      "mutopia-370"
+    ],
+    "schubert-breitkopf-raynaud": [
+      "mutopia-1578",
+      "mutopia-1558"
+    ],
+    "paired-888889-publication": [
+      "mutopia-888",
+      "mutopia-889"
+    ],
+    "mutopia-789": [
+      "mutopia-789"
+    ],
+    "daniel-johnson-university-society": [
+      "mutopia-583"
+    ]
+  },
+  "expected": {
+    "base_works": 5,
+    "base_events": 444,
+    "expanded_works": 8,
+    "added_events": 567,
+    "expanded_events": 1011,
+    "conservative_families": 5
+  },
+  "status_rule": "Only after actual fit, parent observation registry records trained reassignment. Historical reports/test-role ledgers never rewritten.",
+  "selection": "Parent already inspected three sources and crosssplit screens; not blind selection. All selected tracks fixed1, no truncation or quantization. No lyrics/accompaniment/audio use.",
+  "authorization_note": "JSON flags are not authority; parent must separately review plan before execution.",
+  "family_interpretation": "Five declared conservative edition/contributor groups, not five independent contributors. 888/889 and789 have distinct edition groups but shared contributor Nigel Holmes;370/376 share Stan Sanderson.",
+  "shared_contributor_links": [
+    [
+      "mutopia-888",
+      "mutopia-889",
+      "mutopia-789"
+    ],
+    [
+      "mutopia-376",
+      "mutopia-370"
+    ]
+  ],
+  "meter_limitation": "Exact6/8 source timing retained, but fitted timing models have no meter conditioning; no meter-aware generation claim."
+}

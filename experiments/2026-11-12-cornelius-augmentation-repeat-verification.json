@@ -1,0 +1,100 @@
+{
+  "scope": "Independent rerun and safety audit; no fresh evaluation",
+  "normalized_reports_identical": true,
+  "ignored_difference": "plan.created_at_utc only",
+  "initial_report_sha256": "d659471754d343d331f53fa739da243bfd5275a02e62903f35850c41e8ea2446",
+  "repeat_report_sha256": "656a951260a3edd6125858526ed6128735c5aa9211b0a2f08d294c9b63fdb1db",
+  "all_frozen_hashes_match": true,
+  "baseline_nll_matches_prior_640_921": true,
+  "diagnostics": [
+    "640",
+    "921"
+  ],
+  "excluded_related_diagnostic": "580",
+  "safety": [
+    {
+      "condition": "old4",
+      "seed": 0,
+      "notes": 31,
+      "max_polyphony": 2,
+      "tail_ticks": 384,
+      "private_notes_sha256": "cdaaab822f7bdc9aebee40129b6789ea3ce3f8a702292af6b5d2efbcec3810a8"
+    },
+    {
+      "condition": "old4",
+      "seed": 1,
+      "notes": 25,
+      "max_polyphony": 3,
+      "tail_ticks": 384,
+      "private_notes_sha256": "6065cb32ad599c3e6fcc98348390c4eac77d24dc72db78c4b86df74efbdbc6e3"
+    },
+    {
+      "condition": "old4",
+      "seed": 2,
+      "notes": 30,
+      "max_polyphony": 2,
+      "tail_ticks": 192,
+      "private_notes_sha256": "f4a7b3812c546f68f8ddbeffdab58fcbd52fe0a1a901e247e5b43f988a9b98fb"
+    },
+    {
+      "condition": "old4",
+      "seed": 3,
+      "notes": 31,
+      "max_polyphony": 2,
+      "tail_ticks": 384,
+      "private_notes_sha256": "31efd2f98eec1de2e1b92238f1ccdcf300d4d9129d49c6b139a88023eb42f7e1"
+    },
+    {
+      "condition": "old4",
+      "seed": 4,
+      "notes": 32,
+      "max_polyphony": 2,
+      "tail_ticks": 192,
+      "private_notes_sha256": "98e5126ad226f74e6d693a1157bb0923e18014f04425f56bd82bf57b882622a2"
+    },
+    {
+      "condition": "augmented5",
+      "seed": 0,
+      "notes": 28,
+      "max_polyphony": 2,
+      "tail_ticks": 288,
+      "private_notes_sha256": "89e8d384b8d32d52598c358ad03ea088ef560411e930b7500b0a66f609f37dfa"
+    },
+    {
+      "condition": "augmented5",
+      "seed": 1,
+      "notes": 23,
+      "max_polyphony": 2,
+      "tail_ticks": 285,
+      "private_notes_sha256": "1846df226268c4ef70cf7b6fc548179496fa7326af1aceb748ea54c891ed7d1d"
+    },
+    {
+      "condition": "augmented5",
+      "seed": 2,
+      "notes": 6,
+      "max_polyphony": 1,
+      "tail_ticks": 242,
+      "private_notes_sha256": "85cb8d1d5c6d7ab76bed01c529ea14e89104805ba9608cc0abfe3999f4f00e2d"
+    },
+    {
+      "condition": "augmented5",
+      "seed": 3,
+      "notes": 26,
+      "max_polyphony": 2,
+      "tail_ticks": 0,
+      "private_notes_sha256": "88501a070c643ddc21de65481e50f73e19477f54ac093c4eb3b32eef1c24af76"
+    },
+    {
+      "condition": "augmented5",
+      "seed": 4,
+      "notes": 33,
+      "max_polyphony": 3,
+      "tail_ticks": 288,
+      "private_notes_sha256": "bed033df3fdc048885ba9f4a268b577de6e5718ff4c8545d2bd56a2ca05455d9"
+    }
+  ],
+  "limitations": [
+    "Notes JSON only: target horizon and silent tail verified, no actual MIDI EOT written or inspected.",
+    "Single-pitch 583 adds content and event quantity together; no genre or attractiveness claim."
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "cycle": 37,
+  "status": "corrected-before-real-fit",
+  "issue": "Initial subclass prototype would also satisfy frozen generator isinstance checks, but that generator always updates previous cardinality; using it for gate arms would silently use wrong context.",
+  "fix": "Standalone GateContextGroupModel reuses validated initial count construction and safe probability/sampling methods, owns parameters/history state;old generator now rejects type. All4arms use new shared generator.",
+  "tests": "Old generator rejection regression plus20global/cardinality seeded-output parity checks; no real sources fitted/scored by prototype.",
+  "unrun_plan": "experiments/2026-11-12-gate-context-plan.json",
+  "current_plan": "experiments/2026-11-12-gate-context-final-plan.json"
+}

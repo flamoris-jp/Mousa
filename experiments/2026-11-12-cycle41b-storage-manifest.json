@@ -1,0 +1,11 @@
+{
+  "role": "metadata-only-pending-not-training",
+  "files": [
+    {
+      "filename": "research-alternative-source-cycle41b-20261112.json",
+      "sha256": "5f2989d0ecc74b1ca4a10376c6b7cb22da7fb4a23484a6e995cd6e79804e3bf7",
+      "bytes": 1592
+    }
+  ],
+  "raw_media_included": false
+}

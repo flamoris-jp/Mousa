@@ -1,0 +1,19 @@
+{
+  "date_utc": "2026-11-12T11:46:32.631549+00:00",
+  "prior_ledger": "datasets/research-burgmuller-pending-20261112.json",
+  "prior_ledger_sha256": "d4febfdb97e8aa9c8289c874420ea5dbfdcd00a8f9eb527c09799b5ab940f291",
+  "status": "unchanged-pending",
+  "new_evidence": [
+    {
+      "url": "https://imslp.org/wiki/Collection_Litolff",
+      "sha256": "ac097f2a5e9b6caac86777a9903914e10b0cd8dde5c5cf9f72e6463e6ef483f7",
+      "finding": "Litolff catalogue lists BurgmüllerOp100 edition2355 at1905. This is not proof it is the exact physicaledition used by Mutopia, whose source says19thCentury."
+    },
+    {
+      "url": "https://pmb.artsaucarre.be/opac_css/index.php?dcote=&id=29&lcote=&location=8&lvl=section_see&main=&nbr_lignes=9571&nc=&page=21&plettreaut=&ssub=",
+      "finding": "Search-indexed library catalogue identifies Litolff2355,35pages, editor Fred.Schultze. Exact edition scan not obtained, identity not assumed from similarity of names."
+    }
+  ],
+  "failed_step": "No exact Litolff source scan found within bounded follow-up. Derivative websites repeatingMutopia source are not independent corroboration.",
+  "decision": "Do not convert202/214 toapproved; no training/score. Keep samefamily grouped.1692similarityblockunchanged."
+}

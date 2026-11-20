@@ -1,0 +1,9 @@
+{
+  "changes": "27 original reference paths hash matched to prior screen plan; invalid supplemental values fail closed; exact fitted Counter masses and fixed config guards; full six-arm blocked reports.",
+  "final_plan_sha256": "4435659dc54822dca3259797994a6a1712440413443bf2ab253b95d7606af833",
+  "initial_v2_prepare_failure": "Safe assertion joined historical display IDs; map label mismatch caused stop before plan creation, fit, prediction, or supplemental comparison. Replaced with source-hash superset exclusion and fixed train count.",
+  "no_source_modification": true,
+  "superseded_unrun_plan_sha256": "d979984d6e36a15df7163aa4c2444732faa67169b751f0fab91c81c80facfe1a",
+  "tests": 11,
+  "tests_passed": 11
+}

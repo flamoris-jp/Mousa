@@ -1,0 +1,85 @@
+{
+  "cycle": 47,
+  "kind": "immutable_metadata_only_snapshot",
+  "files": [
+    {
+      "relative_path": "experiments/2026-11-12-constrained-return-cycle47-before-analysis.json",
+      "bytes": 141,
+      "sha256": "55b79adbf897290bc417c64cd41b270b82ffece84040a570ad8b7c2b23beacc1"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-constrained-return-cycle47-clearance.json",
+      "bytes": 239,
+      "sha256": "202626912a3957e65362251be7e3630d184725f00a23865b7bc32d01477b7646"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-constrained-return-cycle47-final-plan.json",
+      "bytes": 14445,
+      "sha256": "5b82bc058ce3139164e2a376d242202c287578c193594221625417b87b721791"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-constrained-return-cycle47-independent-profile.json",
+      "bytes": 529,
+      "sha256": "57a7ed027e88e8eaca95c0a5b823b1acb8be49fe3203ded39c39c49f5ce17cef"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-constrained-return-cycle47-independent-results.json",
+      "bytes": 1064,
+      "sha256": "62fbbb4639b130e05bbf6eb4ff146c4664aa7d8f101c5119505590e352100365"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-constrained-return-cycle47-overview.md",
+      "bytes": 4593,
+      "sha256": "09fa300ac0eec35f1f2fa1def68e85344e80668532d5211ebbb3d8342040f652"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-constrained-return-cycle47-plan.json",
+      "bytes": 14445,
+      "sha256": "26e9be918fbb14d91e753d594c0d2f480e16f19106908166faf454694b803c2e"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-constrained-return-cycle47-results.json",
+      "bytes": 86501,
+      "sha256": "a806c5e1d7202a54020fb241212748117150dd4efad4ba503a3f262b61dc4eda"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-constrained-return-cycle47-verification.json",
+      "bytes": 1828,
+      "sha256": "b3d973810e8b69ffd8d8ef5e732902ed9e9a64da7d498ae66d99b73026a6e63a"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-collision-fallback-cycle47-cause-diagnosis.json",
+      "bytes": 4025,
+      "sha256": "979c907167d8f69a591a0beb62a1e1eca0cc0b10453a2caf7e258fbf9504e28a"
+    },
+    {
+      "relative_path": "src/mousa/constrained_return_cycle47.py",
+      "bytes": 5938,
+      "sha256": "b9965870f4153d01673eb271abaae481c058ad57a646be0cff29c0389e93552e"
+    },
+    {
+      "relative_path": "tools/compare_constrained_return_cycle47.py",
+      "bytes": 8080,
+      "sha256": "43feefcabaa5771c3602da920fc19ceea1a120a2bf1be18f0ba8c65384cf7ffa"
+    },
+    {
+      "relative_path": "tests/test_constrained_return_cycle47.py",
+      "bytes": 2709,
+      "sha256": "a43d833f510fbffece3136a1f96af7032c39af4980b01ba921cd8fe9a831ecb9"
+    },
+    {
+      "relative_path": "tests/test_constrained_return_cycle47_driver.py",
+      "bytes": 820,
+      "sha256": "466e4a0afcd438ba95a949387f48eb189a1777a57425d2edcc3ee8fe81d17438"
+    }
+  ],
+  "file_count": 14,
+  "total_bytes": 145357,
+  "raw_notes_included": false,
+  "media_included": false,
+  "uploaded": false,
+  "unique_paths_asserted": true,
+  "all_hashes_verified": true,
+  "unrelated_candidate_materials_included": false,
+  "manifest_sha256": "ae68aee57d991f5e3ac71f77195c307d3367ca8d0763f986a0ec777e86ed29c4"
+}

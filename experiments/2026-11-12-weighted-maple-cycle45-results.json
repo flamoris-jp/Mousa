@@ -1,0 +1,3449 @@
+{
+  "plan_sha256": "882a6d62ec19c3400a5d2dabf9a7028f1919182b5872749168e032ab3b42864d",
+  "conditions": {
+    "17_raw": {
+      "status": "fitted",
+      "outputs": [
+        {
+          "status": "complete",
+          "reason": null,
+          "attempts": 48,
+          "rejections": {
+            "same_pitch_overlap": 3,
+            "polyphony": 6
+          },
+          "ineligible_template_occurrences": 18.0,
+          "total_template_occurrences": 3428.0,
+          "available_template_types": 122,
+          "target_ticks": 9216,
+          "actual_tail": 384,
+          "seed": 45000,
+          "copy_matches": 0,
+          "metrics": {
+            "notes": 50,
+            "overlap_onset_fraction": 0.5,
+            "mean_active_voices": 1.0741102430555556,
+            "max_active_voices": 3,
+            "mean_abs_pitch_interval": 7.408163265306122,
+            "above_octave_fraction": 0.1836734693877551,
+            "distinct_pitches": 23,
+            "repeated_pitch_fraction": 0.0,
+            "rest_ticks": 2880,
+            "rest_fraction": 0.3125
+          },
+          "timeline": {
+            "target_ticks": 9216,
+            "occupied_ticks": 6336,
+            "silence_ticks": 2880,
+            "leading_silence_ticks": 0,
+            "trailing_silence_ticks": 384,
+            "internal_silence_ticks": 2496,
+            "max_contiguous_silence_ticks": 480,
+            "internal_gap_count": 13,
+            "active_voice_tick_integral": 9899,
+            "mean_active_voices": 1.0741102430555556,
+            "polyphonic_ticks": 2795,
+            "polyphonic_time_fraction": 0.3032769097222222,
+            "empty_timeline": false,
+            "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+          },
+          "structure": {
+            "blocks": [
+              {
+                "block": "A",
+                "start": 0,
+                "end": 2304,
+                "onset_groups": 10,
+                "note_onsets": 14,
+                "sounding_notes": 14,
+                "occupied_ticks": 1248,
+                "silence_ticks": 1056,
+                "interval_status": "available",
+                "interval_count": 9
+              },
+              {
+                "block": "B",
+                "start": 2304,
+                "end": 4608,
+                "onset_groups": 9,
+                "note_onsets": 15,
+                "sounding_notes": 15,
+                "occupied_ticks": 1440,
+                "silence_ticks": 864,
+                "interval_status": "available",
+                "interval_count": 8
+              },
+              {
+                "block": "C",
+                "start": 4608,
+                "end": 6912,
+                "onset_groups": 10,
+                "note_onsets": 11,
+                "sounding_notes": 11,
+                "occupied_ticks": 1920,
+                "silence_ticks": 384,
+                "interval_status": "available",
+                "interval_count": 9
+              },
+              {
+                "block": "D",
+                "start": 6912,
+                "end": 9216,
+                "onset_groups": 10,
+                "note_onsets": 10,
+                "sounding_notes": 11,
+                "occupied_ticks": 1728,
+                "silence_ticks": 576,
+                "interval_status": "available",
+                "interval_count": 9
+              }
+            ],
+            "block_interval_pairs": [
+              {
+                "blocks": "AB",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "AC",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "AD",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "BC",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "BD",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "CD",
+                "comparable": true,
+                "equal": false
+              }
+            ],
+            "comparable_pairs": 6,
+            "equal_pairs": 0,
+            "anchor_interval_3gram": {
+              "intervals": 38,
+              "windows": 36,
+              "unique": 36,
+              "repeated_windows_after_first": 0,
+              "repeat_fraction": 0.0
+            },
+            "meaning": "Half-open2barblocks. Onset counts differ from sounding notes. Occupancy uses exact interval union clipped ONLY for measurement. Block intervals are signed consecutive minimum-pitch anchors, not melodyvoice; equality requires>=2groups, no alignment.3gram uses overlapping windows of3signed anchor intervals (4groups), repeated occurrences beyondfirst; windows notindependent."
+          },
+          "private_sha256": "1b30eeaa69a28b7631ee8a3e00a03144871ca3af359012c8a49e9fc045800b8e"
+        },
+        {
+          "status": "complete",
+          "reason": null,
+          "attempts": 2,
+          "rejections": {},
+          "ineligible_template_occurrences": 18.0,
+          "total_template_occurrences": 3428.0,
+          "available_template_types": 122,
+          "target_ticks": 9216,
+          "actual_tail": 384,
+          "seed": 45001,
+          "copy_matches": 0,
+          "metrics": {
+            "notes": 2,
+            "overlap_onset_fraction": 0.0,
+            "mean_active_voices": 0.07291666666666667,
+            "max_active_voices": 1,
+            "mean_abs_pitch_interval": 6,
+            "above_octave_fraction": 0.0,
+            "distinct_pitches": 2,
+            "repeated_pitch_fraction": 0.0,
+            "rest_ticks": 8544,
+            "rest_fraction": 0.9270833333333334
+          },
+          "timeline": {
+            "target_ticks": 9216,
+            "occupied_ticks": 672,
+            "silence_ticks": 8544,
+            "leading_silence_ticks": 7872,
+            "trailing_silence_ticks": 384,
+            "internal_silence_ticks": 288,
+            "max_contiguous_silence_ticks": 7872,
+            "internal_gap_count": 1,
+            "active_voice_tick_integral": 672,
+            "mean_active_voices": 0.07291666666666667,
+            "polyphonic_ticks": 0,
+            "polyphonic_time_fraction": 0.0,
+            "empty_timeline": false,
+            "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+          },
+          "structure": {
+            "blocks": [
+              {
+                "block": "A",
+                "start": 0,
+                "end": 2304,
+                "onset_groups": 0,
+                "note_onsets": 0,
+                "sounding_notes": 0,
+                "occupied_ticks": 0,
+                "silence_ticks": 2304,
+                "interval_status": "missing_empty",
+                "interval_count": 0
+              },
+              {
+                "block": "B",
+                "start": 2304,
+                "end": 4608,
+                "onset_groups": 0,
+                "note_onsets": 0,
+                "sounding_notes": 0,
+                "occupied_ticks": 0,
+                "silence_ticks": 2304,
+                "interval_status": "missing_empty",
+                "interval_count": 0
+              },
+              {
+                "block": "C",
+                "start": 4608,
+                "end": 6912,
+                "onset_groups": 0,
+                "note_onsets": 0,
+                "sounding_notes": 0,
+                "occupied_ticks": 0,
+                "silence_ticks": 2304,
+                "interval_status": "missing_empty",
+                "interval_count": 0
+              },
+              {
+                "block": "D",
+                "start": 6912,
+                "end": 9216,
+                "onset_groups": 2,
+                "note_onsets": 2,
+                "sounding_notes": 2,
+                "occupied_ticks": 672,
+                "silence_ticks": 1632,
+                "interval_status": "available",
+                "interval_count": 1
+              }
+            ],
+            "block_interval_pairs": [
+              {
+                "blocks": "AB",
+                "comparable": false,
+                "equal": null
+              },
+              {
+                "blocks": "AC",
+                "comparable": false,
+                "equal": null
+              },
+              {
+                "blocks": "AD",
+                "comparable": false,
+                "equal": null
+              },
+              {
+                "blocks": "BC",
+                "comparable": false,
+                "equal": null
+              },
+              {
+                "blocks": "BD",
+                "comparable": false,
+                "equal": null
+              },
+              {
+                "blocks": "CD",
+                "comparable": false,
+                "equal": null
+              }
+            ],
+            "comparable_pairs": 0,
+            "equal_pairs": 0,
+            "anchor_interval_3gram": {
+              "intervals": 1,
+              "windows": 0,
+              "unique": 0,
+              "repeated_windows_after_first": 0,
+              "repeat_fraction": null
+            },
+            "meaning": "Half-open2barblocks. Onset counts differ from sounding notes. Occupancy uses exact interval union clipped ONLY for measurement. Block intervals are signed consecutive minimum-pitch anchors, not melodyvoice; equality requires>=2groups, no alignment.3gram uses overlapping windows of3signed anchor intervals (4groups), repeated occurrences beyondfirst; windows notindependent."
+          },
+          "private_sha256": "8d5bf18f3b776976bc3227ca89d39a3e0ba73c90901d078544464e8687d008f0"
+        },
+        {
+          "status": "complete",
+          "reason": null,
+          "attempts": 66,
+          "rejections": {
+            "same_pitch_overlap": 2,
+            "polyphony": 28,
+            "gate_overflow": 1
+          },
+          "ineligible_template_occurrences": 18.0,
+          "total_template_occurrences": 3428.0,
+          "available_template_types": 122,
+          "target_ticks": 9216,
+          "actual_tail": 256,
+          "seed": 45002,
+          "copy_matches": 0,
+          "metrics": {
+            "notes": 44,
+            "overlap_onset_fraction": 0.5227272727272727,
+            "mean_active_voices": 1.1944444444444444,
+            "max_active_voices": 3,
+            "mean_abs_pitch_interval": 8.348837209302326,
+            "above_octave_fraction": 0.20930232558139536,
+            "distinct_pitches": 21,
+            "repeated_pitch_fraction": 0.0,
+            "rest_ticks": 2624,
+            "rest_fraction": 0.2847222222222222
+          },
+          "timeline": {
+            "target_ticks": 9216,
+            "occupied_ticks": 6592,
+            "silence_ticks": 2624,
+            "leading_silence_ticks": 0,
+            "trailing_silence_ticks": 256,
+            "internal_silence_ticks": 2368,
+            "max_contiguous_silence_ticks": 480,
+            "internal_gap_count": 12,
+            "active_voice_tick_integral": 11008,
+            "mean_active_voices": 1.1944444444444444,
+            "polyphonic_ticks": 2944,
+            "polyphonic_time_fraction": 0.3194444444444444,
+            "empty_timeline": false,
+            "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+          },
+          "structure": {
+            "blocks": [
+              {
+                "block": "A",
+                "start": 0,
+                "end": 2304,
+                "onset_groups": 9,
+                "note_onsets": 10,
+                "sounding_notes": 10,
+                "occupied_ticks": 1536,
+                "silence_ticks": 768,
+                "interval_status": "available",
+                "interval_count": 8
+              },
+              {
+                "block": "B",
+                "start": 2304,
+                "end": 4608,
+                "onset_groups": 9,
+                "note_onsets": 12,
+                "sounding_notes": 14,
+                "occupied_ticks": 1536,
+                "silence_ticks": 768,
+                "interval_status": "available",
+                "interval_count": 8
+              },
+              {
+                "block": "C",
+                "start": 4608,
+                "end": 6912,
+                "onset_groups": 10,
+                "note_onsets": 13,
+                "sounding_notes": 14,
+                "occupied_ticks": 2048,
+                "silence_ticks": 256,
+                "interval_status": "available",
+                "interval_count": 9
+              },
+              {
+                "block": "D",
+                "start": 6912,
+                "end": 9216,
+                "onset_groups": 7,
+                "note_onsets": 9,
+                "sounding_notes": 10,
+                "occupied_ticks": 1472,
+                "silence_ticks": 832,
+                "interval_status": "available",
+                "interval_count": 6
+              }
+            ],
+            "block_interval_pairs": [
+              {
+                "blocks": "AB",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "AC",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "AD",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "BC",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "BD",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "CD",
+                "comparable": true,
+                "equal": false
+              }
+            ],
+            "comparable_pairs": 6,
+            "equal_pairs": 0,
+            "anchor_interval_3gram": {
+              "intervals": 34,
+              "windows": 32,
+              "unique": 32,
+              "repeated_windows_after_first": 0,
+              "repeat_fraction": 0.0
+            },
+            "meaning": "Half-open2barblocks. Onset counts differ from sounding notes. Occupancy uses exact interval union clipped ONLY for measurement. Block intervals are signed consecutive minimum-pitch anchors, not melodyvoice; equality requires>=2groups, no alignment.3gram uses overlapping windows of3signed anchor intervals (4groups), repeated occurrences beyondfirst; windows notindependent."
+          },
+          "private_sha256": "e944258e17977cb319345cc912cae116b200b550adb547270089ff309ba4e657"
+        }
+      ],
+      "weighted_template_mass": {
+        "numerator": 3428,
+        "denominator": 1
+      },
+      "weighted_ineligible_mass": {
+        "numerator": 18,
+        "denominator": 1
+      },
+      "raw_ineligible_occurrences": 18,
+      "raw_groups": 3428,
+      "integer_scale_bits": {
+        "template": 1,
+        "anchor": 1
+      },
+      "status_counts": {
+        "complete": 3
+      },
+      "complete_only": {
+        "candidates": 3,
+        "means": {
+          "notes": 32,
+          "overlap_onset_fraction": 0.3409090909090909,
+          "mean_active_voices": 0.7804904513888888,
+          "max_active_voices": 2.3333333333333335,
+          "mean_abs_pitch_interval": 7.25233349153615,
+          "above_octave_fraction": 0.13099193165638348,
+          "distinct_pitches": 15.333333333333334,
+          "repeated_pitch_fraction": 0.0,
+          "rest_ticks": 4682.666666666667,
+          "rest_fraction": 0.5081018518518519
+        },
+        "metric_denominators": {
+          "notes": 3,
+          "overlap_onset_fraction": 3,
+          "mean_active_voices": 3,
+          "max_active_voices": 3,
+          "mean_abs_pitch_interval": 3,
+          "above_octave_fraction": 3,
+          "distinct_pitches": 3,
+          "repeated_pitch_fraction": 3,
+          "rest_ticks": 3,
+          "rest_fraction": 3
+        }
+      },
+      "common_success": {
+        "candidates": 3,
+        "means": {
+          "notes": 32,
+          "overlap_onset_fraction": 0.3409090909090909,
+          "mean_active_voices": 0.7804904513888888,
+          "max_active_voices": 2.3333333333333335,
+          "mean_abs_pitch_interval": 7.25233349153615,
+          "above_octave_fraction": 0.13099193165638348,
+          "distinct_pitches": 15.333333333333334,
+          "repeated_pitch_fraction": 0.0,
+          "rest_ticks": 4682.666666666667,
+          "rest_fraction": 0.5081018518518519
+        },
+        "metric_denominators": {
+          "notes": 3,
+          "overlap_onset_fraction": 3,
+          "mean_active_voices": 3,
+          "max_active_voices": 3,
+          "mean_abs_pitch_interval": 3,
+          "above_octave_fraction": 3,
+          "distinct_pitches": 3,
+          "repeated_pitch_fraction": 3,
+          "rest_ticks": 3,
+          "rest_fraction": 3
+        }
+      }
+    },
+    "18_raw": {
+      "status": "fitted",
+      "outputs": [
+        {
+          "status": "complete",
+          "reason": null,
+          "attempts": 36,
+          "rejections": {
+            "polyphony": 4,
+            "same_pitch_overlap": 1
+          },
+          "ineligible_template_occurrences": 38.45250596658711,
+          "total_template_occurrences": 3428.0,
+          "available_template_types": 149,
+          "target_ticks": 9216,
+          "actual_tail": 192,
+          "seed": 45000,
+          "copy_matches": 0,
+          "metrics": {
+            "notes": 37,
+            "overlap_onset_fraction": 0.43243243243243246,
+            "mean_active_voices": 0.76953125,
+            "max_active_voices": 3,
+            "mean_abs_pitch_interval": 11.805555555555555,
+            "above_octave_fraction": 0.4166666666666667,
+            "distinct_pitches": 22,
+            "repeated_pitch_fraction": 0.027777777777777776,
+            "rest_ticks": 4300,
+            "rest_fraction": 0.4665798611111111
+          },
+          "timeline": {
+            "target_ticks": 9216,
+            "occupied_ticks": 4916,
+            "silence_ticks": 4300,
+            "leading_silence_ticks": 1728,
+            "trailing_silence_ticks": 192,
+            "internal_silence_ticks": 2380,
+            "max_contiguous_silence_ticks": 1728,
+            "internal_gap_count": 13,
+            "active_voice_tick_integral": 7092,
+            "mean_active_voices": 0.76953125,
+            "polyphonic_ticks": 1824,
+            "polyphonic_time_fraction": 0.19791666666666666,
+            "empty_timeline": false,
+            "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+          },
+          "structure": {
+            "blocks": [
+              {
+                "block": "A",
+                "start": 0,
+                "end": 2304,
+                "onset_groups": 2,
+                "note_onsets": 3,
+                "sounding_notes": 3,
+                "occupied_ticks": 192,
+                "silence_ticks": 2112,
+                "interval_status": "available",
+                "interval_count": 1
+              },
+              {
+                "block": "B",
+                "start": 2304,
+                "end": 4608,
+                "onset_groups": 10,
+                "note_onsets": 11,
+                "sounding_notes": 11,
+                "occupied_ticks": 1536,
+                "silence_ticks": 768,
+                "interval_status": "available",
+                "interval_count": 9
+              },
+              {
+                "block": "C",
+                "start": 4608,
+                "end": 6912,
+                "onset_groups": 11,
+                "note_onsets": 13,
+                "sounding_notes": 14,
+                "occupied_ticks": 1792,
+                "silence_ticks": 512,
+                "interval_status": "available",
+                "interval_count": 10
+              },
+              {
+                "block": "D",
+                "start": 6912,
+                "end": 9216,
+                "onset_groups": 8,
+                "note_onsets": 10,
+                "sounding_notes": 10,
+                "occupied_ticks": 1396,
+                "silence_ticks": 908,
+                "interval_status": "available",
+                "interval_count": 7
+              }
+            ],
+            "block_interval_pairs": [
+              {
+                "blocks": "AB",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "AC",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "AD",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "BC",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "BD",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "CD",
+                "comparable": true,
+                "equal": false
+              }
+            ],
+            "comparable_pairs": 6,
+            "equal_pairs": 0,
+            "anchor_interval_3gram": {
+              "intervals": 30,
+              "windows": 28,
+              "unique": 28,
+              "repeated_windows_after_first": 0,
+              "repeat_fraction": 0.0
+            },
+            "meaning": "Half-open2barblocks. Onset counts differ from sounding notes. Occupancy uses exact interval union clipped ONLY for measurement. Block intervals are signed consecutive minimum-pitch anchors, not melodyvoice; equality requires>=2groups, no alignment.3gram uses overlapping windows of3signed anchor intervals (4groups), repeated occurrences beyondfirst; windows notindependent."
+          },
+          "private_sha256": "1baca2c51d598e3f59ba8b26a8fe012981cd84751e691f039cad8efeeec2ea44"
+        },
+        {
+          "status": "complete",
+          "reason": null,
+          "attempts": 40,
+          "rejections": {
+            "same_pitch_overlap": 2,
+            "polyphony": 3
+          },
+          "ineligible_template_occurrences": 38.45250596658711,
+          "total_template_occurrences": 3428.0,
+          "available_template_types": 149,
+          "target_ticks": 9216,
+          "actual_tail": 384,
+          "seed": 45001,
+          "copy_matches": 0,
+          "metrics": {
+            "notes": 47,
+            "overlap_onset_fraction": 0.574468085106383,
+            "mean_active_voices": 1.0729166666666667,
+            "max_active_voices": 3,
+            "mean_abs_pitch_interval": 7.760869565217392,
+            "above_octave_fraction": 0.10869565217391304,
+            "distinct_pitches": 23,
+            "repeated_pitch_fraction": 0.021739130434782608,
+            "rest_ticks": 3232,
+            "rest_fraction": 0.3506944444444444
+          },
+          "timeline": {
+            "target_ticks": 9216,
+            "occupied_ticks": 5984,
+            "silence_ticks": 3232,
+            "leading_silence_ticks": 0,
+            "trailing_silence_ticks": 384,
+            "internal_silence_ticks": 2848,
+            "max_contiguous_silence_ticks": 672,
+            "internal_gap_count": 13,
+            "active_voice_tick_integral": 9888,
+            "mean_active_voices": 1.0729166666666667,
+            "polyphonic_ticks": 3040,
+            "polyphonic_time_fraction": 0.3298611111111111,
+            "empty_timeline": false,
+            "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+          },
+          "structure": {
+            "blocks": [
+              {
+                "block": "A",
+                "start": 0,
+                "end": 2304,
+                "onset_groups": 10,
+                "note_onsets": 12,
+                "sounding_notes": 12,
+                "occupied_ticks": 1920,
+                "silence_ticks": 384,
+                "interval_status": "available",
+                "interval_count": 9
+              },
+              {
+                "block": "B",
+                "start": 2304,
+                "end": 4608,
+                "onset_groups": 9,
+                "note_onsets": 14,
+                "sounding_notes": 15,
+                "occupied_ticks": 1728,
+                "silence_ticks": 576,
+                "interval_status": "available",
+                "interval_count": 8
+              },
+              {
+                "block": "C",
+                "start": 4608,
+                "end": 6912,
+                "onset_groups": 9,
+                "note_onsets": 13,
+                "sounding_notes": 13,
+                "occupied_ticks": 1280,
+                "silence_ticks": 1024,
+                "interval_status": "available",
+                "interval_count": 8
+              },
+              {
+                "block": "D",
+                "start": 6912,
+                "end": 9216,
+                "onset_groups": 7,
+                "note_onsets": 8,
+                "sounding_notes": 8,
+                "occupied_ticks": 1056,
+                "silence_ticks": 1248,
+                "interval_status": "available",
+                "interval_count": 6
+              }
+            ],
+            "block_interval_pairs": [
+              {
+                "blocks": "AB",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "AC",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "AD",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "BC",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "BD",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "CD",
+                "comparable": true,
+                "equal": false
+              }
+            ],
+            "comparable_pairs": 6,
+            "equal_pairs": 0,
+            "anchor_interval_3gram": {
+              "intervals": 34,
+              "windows": 32,
+              "unique": 32,
+              "repeated_windows_after_first": 0,
+              "repeat_fraction": 0.0
+            },
+            "meaning": "Half-open2barblocks. Onset counts differ from sounding notes. Occupancy uses exact interval union clipped ONLY for measurement. Block intervals are signed consecutive minimum-pitch anchors, not melodyvoice; equality requires>=2groups, no alignment.3gram uses overlapping windows of3signed anchor intervals (4groups), repeated occurrences beyondfirst; windows notindependent."
+          },
+          "private_sha256": "bb48699688ffe1886ea882ff8ceb3cd929ff674699cc2167bc35ccd94590c2ae"
+        },
+        {
+          "status": "complete",
+          "reason": null,
+          "attempts": 39,
+          "rejections": {
+            "same_pitch_overlap": 2,
+            "polyphony": 4,
+            "gate_overflow": 1
+          },
+          "ineligible_template_occurrences": 38.45250596658711,
+          "total_template_occurrences": 3428.0,
+          "available_template_types": 149,
+          "target_ticks": 9216,
+          "actual_tail": 352,
+          "seed": 45002,
+          "copy_matches": 0,
+          "metrics": {
+            "notes": 35,
+            "overlap_onset_fraction": 0.45714285714285713,
+            "mean_active_voices": 1.0520833333333333,
+            "max_active_voices": 3,
+            "mean_abs_pitch_interval": 7.882352941176471,
+            "above_octave_fraction": 0.14705882352941177,
+            "distinct_pitches": 19,
+            "repeated_pitch_fraction": 0.058823529411764705,
+            "rest_ticks": 2752,
+            "rest_fraction": 0.2986111111111111
+          },
+          "timeline": {
+            "target_ticks": 9216,
+            "occupied_ticks": 6464,
+            "silence_ticks": 2752,
+            "leading_silence_ticks": 576,
+            "trailing_silence_ticks": 352,
+            "internal_silence_ticks": 1824,
+            "max_contiguous_silence_ticks": 576,
+            "internal_gap_count": 10,
+            "active_voice_tick_integral": 9696,
+            "mean_active_voices": 1.0520833333333333,
+            "polyphonic_ticks": 2272,
+            "polyphonic_time_fraction": 0.2465277777777778,
+            "empty_timeline": false,
+            "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+          },
+          "structure": {
+            "blocks": [
+              {
+                "block": "A",
+                "start": 0,
+                "end": 2304,
+                "onset_groups": 6,
+                "note_onsets": 6,
+                "sounding_notes": 6,
+                "occupied_ticks": 1152,
+                "silence_ticks": 1152,
+                "interval_status": "available",
+                "interval_count": 5
+              },
+              {
+                "block": "B",
+                "start": 2304,
+                "end": 4608,
+                "onset_groups": 9,
+                "note_onsets": 9,
+                "sounding_notes": 10,
+                "occupied_ticks": 1920,
+                "silence_ticks": 384,
+                "interval_status": "available",
+                "interval_count": 8
+              },
+              {
+                "block": "C",
+                "start": 4608,
+                "end": 6912,
+                "onset_groups": 5,
+                "note_onsets": 5,
+                "sounding_notes": 8,
+                "occupied_ticks": 1824,
+                "silence_ticks": 480,
+                "interval_status": "available",
+                "interval_count": 4
+              },
+              {
+                "block": "D",
+                "start": 6912,
+                "end": 9216,
+                "onset_groups": 12,
+                "note_onsets": 15,
+                "sounding_notes": 16,
+                "occupied_ticks": 1568,
+                "silence_ticks": 736,
+                "interval_status": "available",
+                "interval_count": 11
+              }
+            ],
+            "block_interval_pairs": [
+              {
+                "blocks": "AB",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "AC",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "AD",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "BC",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "BD",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "CD",
+                "comparable": true,
+                "equal": false
+              }
+            ],
+            "comparable_pairs": 6,
+            "equal_pairs": 0,
+            "anchor_interval_3gram": {
+              "intervals": 31,
+              "windows": 29,
+              "unique": 29,
+              "repeated_windows_after_first": 0,
+              "repeat_fraction": 0.0
+            },
+            "meaning": "Half-open2barblocks. Onset counts differ from sounding notes. Occupancy uses exact interval union clipped ONLY for measurement. Block intervals are signed consecutive minimum-pitch anchors, not melodyvoice; equality requires>=2groups, no alignment.3gram uses overlapping windows of3signed anchor intervals (4groups), repeated occurrences beyondfirst; windows notindependent."
+          },
+          "private_sha256": "2ef3143210d34b6b0403adfd19c6eda11e01639705c6a19b98c839aa1c8da05b"
+        }
+      ],
+      "weighted_template_mass": {
+        "numerator": 3428,
+        "denominator": 1
+      },
+      "weighted_ineligible_mass": {
+        "numerator": 80558,
+        "denominator": 2095
+      },
+      "raw_ineligible_occurrences": 47,
+      "raw_groups": 4190,
+      "integer_scale_bits": {
+        "template": 12,
+        "anchor": 12
+      },
+      "status_counts": {
+        "complete": 3
+      },
+      "complete_only": {
+        "candidates": 3,
+        "means": {
+          "notes": 39.666666666666664,
+          "overlap_onset_fraction": 0.4880144582272242,
+          "mean_active_voices": 0.96484375,
+          "max_active_voices": 3,
+          "mean_abs_pitch_interval": 9.149592687316472,
+          "above_octave_fraction": 0.22414038078999715,
+          "distinct_pitches": 21.333333333333332,
+          "repeated_pitch_fraction": 0.03611347920810836,
+          "rest_ticks": 3428,
+          "rest_fraction": 0.3719618055555555
+        },
+        "metric_denominators": {
+          "notes": 3,
+          "overlap_onset_fraction": 3,
+          "mean_active_voices": 3,
+          "max_active_voices": 3,
+          "mean_abs_pitch_interval": 3,
+          "above_octave_fraction": 3,
+          "distinct_pitches": 3,
+          "repeated_pitch_fraction": 3,
+          "rest_ticks": 3,
+          "rest_fraction": 3
+        }
+      },
+      "common_success": {
+        "candidates": 3,
+        "means": {
+          "notes": 39.666666666666664,
+          "overlap_onset_fraction": 0.4880144582272242,
+          "mean_active_voices": 0.96484375,
+          "max_active_voices": 3,
+          "mean_abs_pitch_interval": 9.149592687316472,
+          "above_octave_fraction": 0.22414038078999715,
+          "distinct_pitches": 21.333333333333332,
+          "repeated_pitch_fraction": 0.03611347920810836,
+          "rest_ticks": 3428,
+          "rest_fraction": 0.3719618055555555
+        },
+        "metric_denominators": {
+          "notes": 3,
+          "overlap_onset_fraction": 3,
+          "mean_active_voices": 3,
+          "max_active_voices": 3,
+          "mean_abs_pitch_interval": 3,
+          "above_octave_fraction": 3,
+          "distinct_pitches": 3,
+          "repeated_pitch_fraction": 3,
+          "rest_ticks": 3,
+          "rest_fraction": 3
+        }
+      }
+    },
+    "17_equal_work": {
+      "status": "fitted",
+      "outputs": [
+        {
+          "status": "complete",
+          "reason": null,
+          "attempts": 29,
+          "rejections": {
+            "same_pitch_overlap": 2
+          },
+          "ineligible_template_occurrences": 8.115404428389619,
+          "total_template_occurrences": 3428.0,
+          "available_template_types": 122,
+          "target_ticks": 9216,
+          "actual_tail": 64,
+          "seed": 45000,
+          "copy_matches": 0,
+          "metrics": {
+            "notes": 28,
+            "overlap_onset_fraction": 0.39285714285714285,
+            "mean_active_voices": 0.8090277777777778,
+            "max_active_voices": 3,
+            "mean_abs_pitch_interval": 8.296296296296296,
+            "above_octave_fraction": 0.25925925925925924,
+            "distinct_pitches": 15,
+            "repeated_pitch_fraction": 0.1111111111111111,
+            "rest_ticks": 3872,
+            "rest_fraction": 0.4201388888888889
+          },
+          "timeline": {
+            "target_ticks": 9216,
+            "occupied_ticks": 5344,
+            "silence_ticks": 3872,
+            "leading_silence_ticks": 0,
+            "trailing_silence_ticks": 64,
+            "internal_silence_ticks": 3808,
+            "max_contiguous_silence_ticks": 2304,
+            "internal_gap_count": 10,
+            "active_voice_tick_integral": 7456,
+            "mean_active_voices": 0.8090277777777778,
+            "polyphonic_ticks": 1856,
+            "polyphonic_time_fraction": 0.2013888888888889,
+            "empty_timeline": false,
+            "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+          },
+          "structure": {
+            "blocks": [
+              {
+                "block": "A",
+                "start": 0,
+                "end": 2304,
+                "onset_groups": 10,
+                "note_onsets": 11,
+                "sounding_notes": 11,
+                "occupied_ticks": 1664,
+                "silence_ticks": 640,
+                "interval_status": "available",
+                "interval_count": 9
+              },
+              {
+                "block": "B",
+                "start": 2304,
+                "end": 4608,
+                "onset_groups": 10,
+                "note_onsets": 10,
+                "sounding_notes": 13,
+                "occupied_ticks": 2016,
+                "silence_ticks": 288,
+                "interval_status": "available",
+                "interval_count": 9
+              },
+              {
+                "block": "C",
+                "start": 4608,
+                "end": 6912,
+                "onset_groups": 0,
+                "note_onsets": 0,
+                "sounding_notes": 2,
+                "occupied_ticks": 224,
+                "silence_ticks": 2080,
+                "interval_status": "missing_empty",
+                "interval_count": 0
+              },
+              {
+                "block": "D",
+                "start": 6912,
+                "end": 9216,
+                "onset_groups": 7,
+                "note_onsets": 7,
+                "sounding_notes": 7,
+                "occupied_ticks": 1440,
+                "silence_ticks": 864,
+                "interval_status": "available",
+                "interval_count": 6
+              }
+            ],
+            "block_interval_pairs": [
+              {
+                "blocks": "AB",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "AC",
+                "comparable": false,
+                "equal": null
+              },
+              {
+                "blocks": "AD",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "BC",
+                "comparable": false,
+                "equal": null
+              },
+              {
+                "blocks": "BD",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "CD",
+                "comparable": false,
+                "equal": null
+              }
+            ],
+            "comparable_pairs": 3,
+            "equal_pairs": 0,
+            "anchor_interval_3gram": {
+              "intervals": 26,
+              "windows": 24,
+              "unique": 24,
+              "repeated_windows_after_first": 0,
+              "repeat_fraction": 0.0
+            },
+            "meaning": "Half-open2barblocks. Onset counts differ from sounding notes. Occupancy uses exact interval union clipped ONLY for measurement. Block intervals are signed consecutive minimum-pitch anchors, not melodyvoice; equality requires>=2groups, no alignment.3gram uses overlapping windows of3signed anchor intervals (4groups), repeated occurrences beyondfirst; windows notindependent."
+          },
+          "private_sha256": "9b60e50dcc16d89d434b9c446f7ae70bc476546619f01f9421d441f991501172"
+        },
+        {
+          "status": "complete",
+          "reason": null,
+          "attempts": 6,
+          "rejections": {},
+          "ineligible_template_occurrences": 8.115404428389619,
+          "total_template_occurrences": 3428.0,
+          "available_template_types": 122,
+          "target_ticks": 9216,
+          "actual_tail": 384,
+          "seed": 45001,
+          "copy_matches": 0,
+          "metrics": {
+            "notes": 6,
+            "overlap_onset_fraction": 0.16666666666666666,
+            "mean_active_voices": 0.125,
+            "max_active_voices": 2,
+            "mean_abs_pitch_interval": 5.8,
+            "above_octave_fraction": 0.0,
+            "distinct_pitches": 4,
+            "repeated_pitch_fraction": 0.0,
+            "rest_ticks": 8256,
+            "rest_fraction": 0.8958333333333334
+          },
+          "timeline": {
+            "target_ticks": 9216,
+            "occupied_ticks": 960,
+            "silence_ticks": 8256,
+            "leading_silence_ticks": 7872,
+            "trailing_silence_ticks": 384,
+            "internal_silence_ticks": 0,
+            "max_contiguous_silence_ticks": 7872,
+            "internal_gap_count": 0,
+            "active_voice_tick_integral": 1152,
+            "mean_active_voices": 0.125,
+            "polyphonic_ticks": 192,
+            "polyphonic_time_fraction": 0.020833333333333332,
+            "empty_timeline": false,
+            "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+          },
+          "structure": {
+            "blocks": [
+              {
+                "block": "A",
+                "start": 0,
+                "end": 2304,
+                "onset_groups": 0,
+                "note_onsets": 0,
+                "sounding_notes": 0,
+                "occupied_ticks": 0,
+                "silence_ticks": 2304,
+                "interval_status": "missing_empty",
+                "interval_count": 0
+              },
+              {
+                "block": "B",
+                "start": 2304,
+                "end": 4608,
+                "onset_groups": 0,
+                "note_onsets": 0,
+                "sounding_notes": 0,
+                "occupied_ticks": 0,
+                "silence_ticks": 2304,
+                "interval_status": "missing_empty",
+                "interval_count": 0
+              },
+              {
+                "block": "C",
+                "start": 4608,
+                "end": 6912,
+                "onset_groups": 0,
+                "note_onsets": 0,
+                "sounding_notes": 0,
+                "occupied_ticks": 0,
+                "silence_ticks": 2304,
+                "interval_status": "missing_empty",
+                "interval_count": 0
+              },
+              {
+                "block": "D",
+                "start": 6912,
+                "end": 9216,
+                "onset_groups": 6,
+                "note_onsets": 6,
+                "sounding_notes": 6,
+                "occupied_ticks": 960,
+                "silence_ticks": 1344,
+                "interval_status": "available",
+                "interval_count": 5
+              }
+            ],
+            "block_interval_pairs": [
+              {
+                "blocks": "AB",
+                "comparable": false,
+                "equal": null
+              },
+              {
+                "blocks": "AC",
+                "comparable": false,
+                "equal": null
+              },
+              {
+                "blocks": "AD",
+                "comparable": false,
+                "equal": null
+              },
+              {
+                "blocks": "BC",
+                "comparable": false,
+                "equal": null
+              },
+              {
+                "blocks": "BD",
+                "comparable": false,
+                "equal": null
+              },
+              {
+                "blocks": "CD",
+                "comparable": false,
+                "equal": null
+              }
+            ],
+            "comparable_pairs": 0,
+            "equal_pairs": 0,
+            "anchor_interval_3gram": {
+              "intervals": 5,
+              "windows": 3,
+              "unique": 3,
+              "repeated_windows_after_first": 0,
+              "repeat_fraction": 0.0
+            },
+            "meaning": "Half-open2barblocks. Onset counts differ from sounding notes. Occupancy uses exact interval union clipped ONLY for measurement. Block intervals are signed consecutive minimum-pitch anchors, not melodyvoice; equality requires>=2groups, no alignment.3gram uses overlapping windows of3signed anchor intervals (4groups), repeated occurrences beyondfirst; windows notindependent."
+          },
+          "private_sha256": "d058669e4eb8e0a3c49cd0a16964e7ed8289348030fca51b02943234809402b1"
+        },
+        {
+          "status": "complete",
+          "reason": null,
+          "attempts": 32,
+          "rejections": {
+            "same_pitch_overlap": 2
+          },
+          "ineligible_template_occurrences": 8.115404428389619,
+          "total_template_occurrences": 3428.0,
+          "available_template_types": 122,
+          "target_ticks": 9216,
+          "actual_tail": 96,
+          "seed": 45002,
+          "copy_matches": 0,
+          "metrics": {
+            "notes": 30,
+            "overlap_onset_fraction": 0.16666666666666666,
+            "mean_active_voices": 0.6539713541666666,
+            "max_active_voices": 2,
+            "mean_abs_pitch_interval": 9.172413793103448,
+            "above_octave_fraction": 0.27586206896551724,
+            "distinct_pitches": 18,
+            "repeated_pitch_fraction": 0.0,
+            "rest_ticks": 3765,
+            "rest_fraction": 0.4085286458333333
+          },
+          "timeline": {
+            "target_ticks": 9216,
+            "occupied_ticks": 5451,
+            "silence_ticks": 3765,
+            "leading_silence_ticks": 0,
+            "trailing_silence_ticks": 96,
+            "internal_silence_ticks": 3669,
+            "max_contiguous_silence_ticks": 768,
+            "internal_gap_count": 17,
+            "active_voice_tick_integral": 6027,
+            "mean_active_voices": 0.6539713541666666,
+            "polyphonic_ticks": 576,
+            "polyphonic_time_fraction": 0.0625,
+            "empty_timeline": false,
+            "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+          },
+          "structure": {
+            "blocks": [
+              {
+                "block": "A",
+                "start": 0,
+                "end": 2304,
+                "onset_groups": 10,
+                "note_onsets": 10,
+                "sounding_notes": 10,
+                "occupied_ticks": 1675,
+                "silence_ticks": 629,
+                "interval_status": "available",
+                "interval_count": 9
+              },
+              {
+                "block": "B",
+                "start": 2304,
+                "end": 4608,
+                "onset_groups": 5,
+                "note_onsets": 5,
+                "sounding_notes": 7,
+                "occupied_ticks": 1344,
+                "silence_ticks": 960,
+                "interval_status": "available",
+                "interval_count": 4
+              },
+              {
+                "block": "C",
+                "start": 4608,
+                "end": 6912,
+                "onset_groups": 8,
+                "note_onsets": 8,
+                "sounding_notes": 8,
+                "occupied_ticks": 896,
+                "silence_ticks": 1408,
+                "interval_status": "available",
+                "interval_count": 7
+              },
+              {
+                "block": "D",
+                "start": 6912,
+                "end": 9216,
+                "onset_groups": 7,
+                "note_onsets": 7,
+                "sounding_notes": 8,
+                "occupied_ticks": 1536,
+                "silence_ticks": 768,
+                "interval_status": "available",
+                "interval_count": 6
+              }
+            ],
+            "block_interval_pairs": [
+              {
+                "blocks": "AB",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "AC",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "AD",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "BC",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "BD",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "CD",
+                "comparable": true,
+                "equal": false
+              }
+            ],
+            "comparable_pairs": 6,
+            "equal_pairs": 0,
+            "anchor_interval_3gram": {
+              "intervals": 29,
+              "windows": 27,
+              "unique": 27,
+              "repeated_windows_after_first": 0,
+              "repeat_fraction": 0.0
+            },
+            "meaning": "Half-open2barblocks. Onset counts differ from sounding notes. Occupancy uses exact interval union clipped ONLY for measurement. Block intervals are signed consecutive minimum-pitch anchors, not melodyvoice; equality requires>=2groups, no alignment.3gram uses overlapping windows of3signed anchor intervals (4groups), repeated occurrences beyondfirst; windows notindependent."
+          },
+          "private_sha256": "6299aadfe2b751d61bb10d3e0dc5f85bc992b74bc4926e4f5af502e802c37f6f"
+        }
+      ],
+      "weighted_template_mass": {
+        "numerator": 3428,
+        "denominator": 1
+      },
+      "weighted_ineligible_mass": {
+        "numerator": 21661532,
+        "denominator": 2669187
+      },
+      "raw_ineligible_occurrences": 18,
+      "raw_groups": 3428,
+      "integer_scale_bits": {
+        "template": 86,
+        "anchor": 86
+      },
+      "status_counts": {
+        "complete": 3
+      },
+      "complete_only": {
+        "candidates": 3,
+        "means": {
+          "notes": 21.333333333333332,
+          "overlap_onset_fraction": 0.24206349206349206,
+          "mean_active_voices": 0.5293330439814815,
+          "max_active_voices": 2.3333333333333335,
+          "mean_abs_pitch_interval": 7.756236696466582,
+          "above_octave_fraction": 0.1783737760749255,
+          "distinct_pitches": 12.333333333333334,
+          "repeated_pitch_fraction": 0.037037037037037035,
+          "rest_ticks": 5297.666666666667,
+          "rest_fraction": 0.5748336226851852
+        },
+        "metric_denominators": {
+          "notes": 3,
+          "overlap_onset_fraction": 3,
+          "mean_active_voices": 3,
+          "max_active_voices": 3,
+          "mean_abs_pitch_interval": 3,
+          "above_octave_fraction": 3,
+          "distinct_pitches": 3,
+          "repeated_pitch_fraction": 3,
+          "rest_ticks": 3,
+          "rest_fraction": 3
+        }
+      },
+      "common_success": {
+        "candidates": 3,
+        "means": {
+          "notes": 21.333333333333332,
+          "overlap_onset_fraction": 0.24206349206349206,
+          "mean_active_voices": 0.5293330439814815,
+          "max_active_voices": 2.3333333333333335,
+          "mean_abs_pitch_interval": 7.756236696466582,
+          "above_octave_fraction": 0.1783737760749255,
+          "distinct_pitches": 12.333333333333334,
+          "repeated_pitch_fraction": 0.037037037037037035,
+          "rest_ticks": 5297.666666666667,
+          "rest_fraction": 0.5748336226851852
+        },
+        "metric_denominators": {
+          "notes": 3,
+          "overlap_onset_fraction": 3,
+          "mean_active_voices": 3,
+          "max_active_voices": 3,
+          "mean_abs_pitch_interval": 3,
+          "above_octave_fraction": 3,
+          "distinct_pitches": 3,
+          "repeated_pitch_fraction": 3,
+          "rest_ticks": 3,
+          "rest_fraction": 3
+        }
+      }
+    },
+    "18_equal_work": {
+      "status": "fitted",
+      "outputs": [
+        {
+          "status": "complete",
+          "reason": null,
+          "attempts": 28,
+          "rejections": {},
+          "ineligible_template_occurrences": 14.912434307768965,
+          "total_template_occurrences": 3428.0,
+          "available_template_types": 149,
+          "target_ticks": 9216,
+          "actual_tail": 192,
+          "seed": 45000,
+          "copy_matches": 0,
+          "metrics": {
+            "notes": 32,
+            "overlap_onset_fraction": 0.375,
+            "mean_active_voices": 0.7013888888888888,
+            "max_active_voices": 3,
+            "mean_abs_pitch_interval": 7.645161290322581,
+            "above_octave_fraction": 0.25806451612903225,
+            "distinct_pitches": 18,
+            "repeated_pitch_fraction": 0.0,
+            "rest_ticks": 4320,
+            "rest_fraction": 0.46875
+          },
+          "timeline": {
+            "target_ticks": 9216,
+            "occupied_ticks": 4896,
+            "silence_ticks": 4320,
+            "leading_silence_ticks": 1728,
+            "trailing_silence_ticks": 192,
+            "internal_silence_ticks": 2400,
+            "max_contiguous_silence_ticks": 1728,
+            "internal_gap_count": 10,
+            "active_voice_tick_integral": 6464,
+            "mean_active_voices": 0.7013888888888888,
+            "polyphonic_ticks": 1376,
+            "polyphonic_time_fraction": 0.14930555555555555,
+            "empty_timeline": false,
+            "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+          },
+          "structure": {
+            "blocks": [
+              {
+                "block": "A",
+                "start": 0,
+                "end": 2304,
+                "onset_groups": 1,
+                "note_onsets": 2,
+                "sounding_notes": 2,
+                "occupied_ticks": 192,
+                "silence_ticks": 2112,
+                "interval_status": "missing_single_group",
+                "interval_count": 0
+              },
+              {
+                "block": "B",
+                "start": 2304,
+                "end": 4608,
+                "onset_groups": 10,
+                "note_onsets": 11,
+                "sounding_notes": 11,
+                "occupied_ticks": 2016,
+                "silence_ticks": 288,
+                "interval_status": "available",
+                "interval_count": 9
+              },
+              {
+                "block": "C",
+                "start": 4608,
+                "end": 6912,
+                "onset_groups": 10,
+                "note_onsets": 12,
+                "sounding_notes": 13,
+                "occupied_ticks": 1440,
+                "silence_ticks": 864,
+                "interval_status": "available",
+                "interval_count": 9
+              },
+              {
+                "block": "D",
+                "start": 6912,
+                "end": 9216,
+                "onset_groups": 7,
+                "note_onsets": 7,
+                "sounding_notes": 7,
+                "occupied_ticks": 1248,
+                "silence_ticks": 1056,
+                "interval_status": "available",
+                "interval_count": 6
+              }
+            ],
+            "block_interval_pairs": [
+              {
+                "blocks": "AB",
+                "comparable": false,
+                "equal": null
+              },
+              {
+                "blocks": "AC",
+                "comparable": false,
+                "equal": null
+              },
+              {
+                "blocks": "AD",
+                "comparable": false,
+                "equal": null
+              },
+              {
+                "blocks": "BC",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "BD",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "CD",
+                "comparable": true,
+                "equal": false
+              }
+            ],
+            "comparable_pairs": 3,
+            "equal_pairs": 0,
+            "anchor_interval_3gram": {
+              "intervals": 27,
+              "windows": 25,
+              "unique": 25,
+              "repeated_windows_after_first": 0,
+              "repeat_fraction": 0.0
+            },
+            "meaning": "Half-open2barblocks. Onset counts differ from sounding notes. Occupancy uses exact interval union clipped ONLY for measurement. Block intervals are signed consecutive minimum-pitch anchors, not melodyvoice; equality requires>=2groups, no alignment.3gram uses overlapping windows of3signed anchor intervals (4groups), repeated occurrences beyondfirst; windows notindependent."
+          },
+          "private_sha256": "c01dedaff14697673184e1a2a57c2adde4acdde5c54c72d58cc2e5d6d5b571fb"
+        },
+        {
+          "status": "complete",
+          "reason": null,
+          "attempts": 42,
+          "rejections": {
+            "polyphony": 7,
+            "same_pitch_overlap": 1
+          },
+          "ineligible_template_occurrences": 14.912434307768965,
+          "total_template_occurrences": 3428.0,
+          "available_template_types": 149,
+          "target_ticks": 9216,
+          "actual_tail": 224,
+          "seed": 45001,
+          "copy_matches": 0,
+          "metrics": {
+            "notes": 43,
+            "overlap_onset_fraction": 0.4883720930232558,
+            "mean_active_voices": 1.1284722222222223,
+            "max_active_voices": 3,
+            "mean_abs_pitch_interval": 6.5476190476190474,
+            "above_octave_fraction": 0.07142857142857142,
+            "distinct_pitches": 20,
+            "repeated_pitch_fraction": 0.023809523809523808,
+            "rest_ticks": 2816,
+            "rest_fraction": 0.3055555555555556
+          },
+          "timeline": {
+            "target_ticks": 9216,
+            "occupied_ticks": 6400,
+            "silence_ticks": 2816,
+            "leading_silence_ticks": 0,
+            "trailing_silence_ticks": 224,
+            "internal_silence_ticks": 2592,
+            "max_contiguous_silence_ticks": 768,
+            "internal_gap_count": 10,
+            "active_voice_tick_integral": 10400,
+            "mean_active_voices": 1.1284722222222223,
+            "polyphonic_ticks": 2848,
+            "polyphonic_time_fraction": 0.3090277777777778,
+            "empty_timeline": false,
+            "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+          },
+          "structure": {
+            "blocks": [
+              {
+                "block": "A",
+                "start": 0,
+                "end": 2304,
+                "onset_groups": 7,
+                "note_onsets": 11,
+                "sounding_notes": 11,
+                "occupied_ticks": 1248,
+                "silence_ticks": 1056,
+                "interval_status": "available",
+                "interval_count": 6
+              },
+              {
+                "block": "B",
+                "start": 2304,
+                "end": 4608,
+                "onset_groups": 9,
+                "note_onsets": 10,
+                "sounding_notes": 13,
+                "occupied_ticks": 1920,
+                "silence_ticks": 384,
+                "interval_status": "available",
+                "interval_count": 8
+              },
+              {
+                "block": "C",
+                "start": 4608,
+                "end": 6912,
+                "onset_groups": 10,
+                "note_onsets": 10,
+                "sounding_notes": 12,
+                "occupied_ticks": 1536,
+                "silence_ticks": 768,
+                "interval_status": "available",
+                "interval_count": 9
+              },
+              {
+                "block": "D",
+                "start": 6912,
+                "end": 9216,
+                "onset_groups": 8,
+                "note_onsets": 12,
+                "sounding_notes": 13,
+                "occupied_ticks": 1696,
+                "silence_ticks": 608,
+                "interval_status": "available",
+                "interval_count": 7
+              }
+            ],
+            "block_interval_pairs": [
+              {
+                "blocks": "AB",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "AC",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "AD",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "BC",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "BD",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "CD",
+                "comparable": true,
+                "equal": false
+              }
+            ],
+            "comparable_pairs": 6,
+            "equal_pairs": 0,
+            "anchor_interval_3gram": {
+              "intervals": 33,
+              "windows": 31,
+              "unique": 31,
+              "repeated_windows_after_first": 0,
+              "repeat_fraction": 0.0
+            },
+            "meaning": "Half-open2barblocks. Onset counts differ from sounding notes. Occupancy uses exact interval union clipped ONLY for measurement. Block intervals are signed consecutive minimum-pitch anchors, not melodyvoice; equality requires>=2groups, no alignment.3gram uses overlapping windows of3signed anchor intervals (4groups), repeated occurrences beyondfirst; windows notindependent."
+          },
+          "private_sha256": "10fd4aa7bf656bc93bdc3abda96a34ef95002027e76616574750cc681f79844c"
+        },
+        {
+          "status": "complete",
+          "reason": null,
+          "attempts": 39,
+          "rejections": {
+            "same_pitch_overlap": 2,
+            "polyphony": 1
+          },
+          "ineligible_template_occurrences": 14.912434307768965,
+          "total_template_occurrences": 3428.0,
+          "available_template_types": 149,
+          "target_ticks": 9216,
+          "actual_tail": 288,
+          "seed": 45002,
+          "copy_matches": 0,
+          "metrics": {
+            "notes": 38,
+            "overlap_onset_fraction": 0.39473684210526316,
+            "mean_active_voices": 0.8611111111111112,
+            "max_active_voices": 3,
+            "mean_abs_pitch_interval": 6.621621621621622,
+            "above_octave_fraction": 0.13513513513513514,
+            "distinct_pitches": 17,
+            "repeated_pitch_fraction": 0.0,
+            "rest_ticks": 3520,
+            "rest_fraction": 0.3819444444444444
+          },
+          "timeline": {
+            "target_ticks": 9216,
+            "occupied_ticks": 5696,
+            "silence_ticks": 3520,
+            "leading_silence_ticks": 576,
+            "trailing_silence_ticks": 288,
+            "internal_silence_ticks": 2656,
+            "max_contiguous_silence_ticks": 1344,
+            "internal_gap_count": 9,
+            "active_voice_tick_integral": 7936,
+            "mean_active_voices": 0.8611111111111112,
+            "polyphonic_ticks": 1760,
+            "polyphonic_time_fraction": 0.1909722222222222,
+            "empty_timeline": false,
+            "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+          },
+          "structure": {
+            "blocks": [
+              {
+                "block": "A",
+                "start": 0,
+                "end": 2304,
+                "onset_groups": 9,
+                "note_onsets": 9,
+                "sounding_notes": 9,
+                "occupied_ticks": 1440,
+                "silence_ticks": 864,
+                "interval_status": "available",
+                "interval_count": 8
+              },
+              {
+                "block": "B",
+                "start": 2304,
+                "end": 4608,
+                "onset_groups": 9,
+                "note_onsets": 11,
+                "sounding_notes": 12,
+                "occupied_ticks": 1760,
+                "silence_ticks": 544,
+                "interval_status": "available",
+                "interval_count": 8
+              },
+              {
+                "block": "C",
+                "start": 4608,
+                "end": 6912,
+                "onset_groups": 8,
+                "note_onsets": 8,
+                "sounding_notes": 8,
+                "occupied_ticks": 1056,
+                "silence_ticks": 1248,
+                "interval_status": "available",
+                "interval_count": 7
+              },
+              {
+                "block": "D",
+                "start": 6912,
+                "end": 9216,
+                "onset_groups": 10,
+                "note_onsets": 10,
+                "sounding_notes": 10,
+                "occupied_ticks": 1440,
+                "silence_ticks": 864,
+                "interval_status": "available",
+                "interval_count": 9
+              }
+            ],
+            "block_interval_pairs": [
+              {
+                "blocks": "AB",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "AC",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "AD",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "BC",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "BD",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "CD",
+                "comparable": true,
+                "equal": false
+              }
+            ],
+            "comparable_pairs": 6,
+            "equal_pairs": 0,
+            "anchor_interval_3gram": {
+              "intervals": 35,
+              "windows": 33,
+              "unique": 33,
+              "repeated_windows_after_first": 0,
+              "repeat_fraction": 0.0
+            },
+            "meaning": "Half-open2barblocks. Onset counts differ from sounding notes. Occupancy uses exact interval union clipped ONLY for measurement. Block intervals are signed consecutive minimum-pitch anchors, not melodyvoice; equality requires>=2groups, no alignment.3gram uses overlapping windows of3signed anchor intervals (4groups), repeated occurrences beyondfirst; windows notindependent."
+          },
+          "private_sha256": "a0fc7c50817e5ab4543d00677b77002c5b8d046fb584808ec2058eebe04a7189"
+        }
+      ],
+      "weighted_template_mass": {
+        "numerator": 3428,
+        "denominator": 1
+      },
+      "weighted_ineligible_mass": {
+        "numerator": 892079581,
+        "denominator": 59821191
+      },
+      "raw_ineligible_occurrences": 47,
+      "raw_groups": 4190,
+      "integer_scale_bits": {
+        "template": 87,
+        "anchor": 87
+      },
+      "status_counts": {
+        "complete": 3
+      },
+      "complete_only": {
+        "candidates": 3,
+        "means": {
+          "notes": 37.666666666666664,
+          "overlap_onset_fraction": 0.41936964504283963,
+          "mean_active_voices": 0.8969907407407408,
+          "max_active_voices": 3,
+          "mean_abs_pitch_interval": 6.938133986521083,
+          "above_octave_fraction": 0.15487607423091293,
+          "distinct_pitches": 18.333333333333332,
+          "repeated_pitch_fraction": 0.007936507936507936,
+          "rest_ticks": 3552,
+          "rest_fraction": 0.3854166666666667
+        },
+        "metric_denominators": {
+          "notes": 3,
+          "overlap_onset_fraction": 3,
+          "mean_active_voices": 3,
+          "max_active_voices": 3,
+          "mean_abs_pitch_interval": 3,
+          "above_octave_fraction": 3,
+          "distinct_pitches": 3,
+          "repeated_pitch_fraction": 3,
+          "rest_ticks": 3,
+          "rest_fraction": 3
+        }
+      },
+      "common_success": {
+        "candidates": 3,
+        "means": {
+          "notes": 37.666666666666664,
+          "overlap_onset_fraction": 0.41936964504283963,
+          "mean_active_voices": 0.8969907407407408,
+          "max_active_voices": 3,
+          "mean_abs_pitch_interval": 6.938133986521083,
+          "above_octave_fraction": 0.15487607423091293,
+          "distinct_pitches": 18.333333333333332,
+          "repeated_pitch_fraction": 0.007936507936507936,
+          "rest_ticks": 3552,
+          "rest_fraction": 0.3854166666666667
+        },
+        "metric_denominators": {
+          "notes": 3,
+          "overlap_onset_fraction": 3,
+          "mean_active_voices": 3,
+          "max_active_voices": 3,
+          "mean_abs_pitch_interval": 3,
+          "above_octave_fraction": 3,
+          "distinct_pitches": 3,
+          "repeated_pitch_fraction": 3,
+          "rest_ticks": 3,
+          "rest_fraction": 3
+        }
+      }
+    },
+    "17_equal_family": {
+      "status": "fitted",
+      "outputs": [
+        {
+          "status": "complete",
+          "reason": null,
+          "attempts": 32,
+          "rejections": {
+            "polyphony": 1
+          },
+          "ineligible_template_occurrences": 12.541988662056683,
+          "total_template_occurrences": 3428.0,
+          "available_template_types": 122,
+          "target_ticks": 9216,
+          "actual_tail": 96,
+          "seed": 45000,
+          "copy_matches": 0,
+          "metrics": {
+            "notes": 33,
+            "overlap_onset_fraction": 0.5454545454545454,
+            "mean_active_voices": 1.1909722222222223,
+            "max_active_voices": 3,
+            "mean_abs_pitch_interval": 7.4375,
+            "above_octave_fraction": 0.09375,
+            "distinct_pitches": 19,
+            "repeated_pitch_fraction": 0.09375,
+            "rest_ticks": 2112,
+            "rest_fraction": 0.22916666666666666
+          },
+          "timeline": {
+            "target_ticks": 9216,
+            "occupied_ticks": 7104,
+            "silence_ticks": 2112,
+            "leading_silence_ticks": 0,
+            "trailing_silence_ticks": 96,
+            "internal_silence_ticks": 2016,
+            "max_contiguous_silence_ticks": 576,
+            "internal_gap_count": 6,
+            "active_voice_tick_integral": 10976,
+            "mean_active_voices": 1.1909722222222223,
+            "polyphonic_ticks": 3008,
+            "polyphonic_time_fraction": 0.3263888888888889,
+            "empty_timeline": false,
+            "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+          },
+          "structure": {
+            "blocks": [
+              {
+                "block": "A",
+                "start": 0,
+                "end": 2304,
+                "onset_groups": 9,
+                "note_onsets": 10,
+                "sounding_notes": 10,
+                "occupied_ticks": 2016,
+                "silence_ticks": 288,
+                "interval_status": "available",
+                "interval_count": 8
+              },
+              {
+                "block": "B",
+                "start": 2304,
+                "end": 4608,
+                "onset_groups": 8,
+                "note_onsets": 9,
+                "sounding_notes": 9,
+                "occupied_ticks": 1632,
+                "silence_ticks": 672,
+                "interval_status": "available",
+                "interval_count": 7
+              },
+              {
+                "block": "C",
+                "start": 4608,
+                "end": 6912,
+                "onset_groups": 7,
+                "note_onsets": 7,
+                "sounding_notes": 7,
+                "occupied_ticks": 1344,
+                "silence_ticks": 960,
+                "interval_status": "available",
+                "interval_count": 6
+              },
+              {
+                "block": "D",
+                "start": 6912,
+                "end": 9216,
+                "onset_groups": 7,
+                "note_onsets": 7,
+                "sounding_notes": 9,
+                "occupied_ticks": 2112,
+                "silence_ticks": 192,
+                "interval_status": "available",
+                "interval_count": 6
+              }
+            ],
+            "block_interval_pairs": [
+              {
+                "blocks": "AB",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "AC",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "AD",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "BC",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "BD",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "CD",
+                "comparable": true,
+                "equal": false
+              }
+            ],
+            "comparable_pairs": 6,
+            "equal_pairs": 0,
+            "anchor_interval_3gram": {
+              "intervals": 30,
+              "windows": 28,
+              "unique": 28,
+              "repeated_windows_after_first": 0,
+              "repeat_fraction": 0.0
+            },
+            "meaning": "Half-open2barblocks. Onset counts differ from sounding notes. Occupancy uses exact interval union clipped ONLY for measurement. Block intervals are signed consecutive minimum-pitch anchors, not melodyvoice; equality requires>=2groups, no alignment.3gram uses overlapping windows of3signed anchor intervals (4groups), repeated occurrences beyondfirst; windows notindependent."
+          },
+          "private_sha256": "feae936ae99095d0c9fa59781c3335b7b0cfe23469f2fd0e7c16d2ba3b6bbec4"
+        },
+        {
+          "status": "complete",
+          "reason": null,
+          "attempts": 3,
+          "rejections": {},
+          "ineligible_template_occurrences": 12.541988662056683,
+          "total_template_occurrences": 3428.0,
+          "available_template_types": 122,
+          "target_ticks": 9216,
+          "actual_tail": 192,
+          "seed": 45001,
+          "copy_matches": 0,
+          "metrics": {
+            "notes": 4,
+            "overlap_onset_fraction": 0.25,
+            "mean_active_voices": 0.14583333333333334,
+            "max_active_voices": 2,
+            "mean_abs_pitch_interval": 2,
+            "above_octave_fraction": 0.0,
+            "distinct_pitches": 3,
+            "repeated_pitch_fraction": 0.0,
+            "rest_ticks": 8256,
+            "rest_fraction": 0.8958333333333334
+          },
+          "timeline": {
+            "target_ticks": 9216,
+            "occupied_ticks": 960,
+            "silence_ticks": 8256,
+            "leading_silence_ticks": 7872,
+            "trailing_silence_ticks": 192,
+            "internal_silence_ticks": 192,
+            "max_contiguous_silence_ticks": 7872,
+            "internal_gap_count": 1,
+            "active_voice_tick_integral": 1344,
+            "mean_active_voices": 0.14583333333333334,
+            "polyphonic_ticks": 384,
+            "polyphonic_time_fraction": 0.041666666666666664,
+            "empty_timeline": false,
+            "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+          },
+          "structure": {
+            "blocks": [
+              {
+                "block": "A",
+                "start": 0,
+                "end": 2304,
+                "onset_groups": 0,
+                "note_onsets": 0,
+                "sounding_notes": 0,
+                "occupied_ticks": 0,
+                "silence_ticks": 2304,
+                "interval_status": "missing_empty",
+                "interval_count": 0
+              },
+              {
+                "block": "B",
+                "start": 2304,
+                "end": 4608,
+                "onset_groups": 0,
+                "note_onsets": 0,
+                "sounding_notes": 0,
+                "occupied_ticks": 0,
+                "silence_ticks": 2304,
+                "interval_status": "missing_empty",
+                "interval_count": 0
+              },
+              {
+                "block": "C",
+                "start": 4608,
+                "end": 6912,
+                "onset_groups": 0,
+                "note_onsets": 0,
+                "sounding_notes": 0,
+                "occupied_ticks": 0,
+                "silence_ticks": 2304,
+                "interval_status": "missing_empty",
+                "interval_count": 0
+              },
+              {
+                "block": "D",
+                "start": 6912,
+                "end": 9216,
+                "onset_groups": 3,
+                "note_onsets": 4,
+                "sounding_notes": 4,
+                "occupied_ticks": 960,
+                "silence_ticks": 1344,
+                "interval_status": "available",
+                "interval_count": 2
+              }
+            ],
+            "block_interval_pairs": [
+              {
+                "blocks": "AB",
+                "comparable": false,
+                "equal": null
+              },
+              {
+                "blocks": "AC",
+                "comparable": false,
+                "equal": null
+              },
+              {
+                "blocks": "AD",
+                "comparable": false,
+                "equal": null
+              },
+              {
+                "blocks": "BC",
+                "comparable": false,
+                "equal": null
+              },
+              {
+                "blocks": "BD",
+                "comparable": false,
+                "equal": null
+              },
+              {
+                "blocks": "CD",
+                "comparable": false,
+                "equal": null
+              }
+            ],
+            "comparable_pairs": 0,
+            "equal_pairs": 0,
+            "anchor_interval_3gram": {
+              "intervals": 2,
+              "windows": 0,
+              "unique": 0,
+              "repeated_windows_after_first": 0,
+              "repeat_fraction": null
+            },
+            "meaning": "Half-open2barblocks. Onset counts differ from sounding notes. Occupancy uses exact interval union clipped ONLY for measurement. Block intervals are signed consecutive minimum-pitch anchors, not melodyvoice; equality requires>=2groups, no alignment.3gram uses overlapping windows of3signed anchor intervals (4groups), repeated occurrences beyondfirst; windows notindependent."
+          },
+          "private_sha256": "fe71497e135d3ee90b3fcc7eadc0f9a771344539cd66146e058e92e37afca2ba"
+        },
+        {
+          "status": "complete",
+          "reason": null,
+          "attempts": 9,
+          "rejections": {},
+          "ineligible_template_occurrences": 12.541988662056683,
+          "total_template_occurrences": 3428.0,
+          "available_template_types": 122,
+          "target_ticks": 9216,
+          "actual_tail": 384,
+          "seed": 45002,
+          "copy_matches": 0,
+          "metrics": {
+            "notes": 12,
+            "overlap_onset_fraction": 0.3333333333333333,
+            "mean_active_voices": 0.34375,
+            "max_active_voices": 3,
+            "mean_abs_pitch_interval": 8.909090909090908,
+            "above_octave_fraction": 0.2727272727272727,
+            "distinct_pitches": 11,
+            "repeated_pitch_fraction": 0.0,
+            "rest_ticks": 7200,
+            "rest_fraction": 0.78125
+          },
+          "timeline": {
+            "target_ticks": 9216,
+            "occupied_ticks": 2016,
+            "silence_ticks": 7200,
+            "leading_silence_ticks": 0,
+            "trailing_silence_ticks": 384,
+            "internal_silence_ticks": 6816,
+            "max_contiguous_silence_ticks": 6336,
+            "internal_gap_count": 4,
+            "active_voice_tick_integral": 3168,
+            "mean_active_voices": 0.34375,
+            "polyphonic_ticks": 768,
+            "polyphonic_time_fraction": 0.08333333333333333,
+            "empty_timeline": false,
+            "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+          },
+          "structure": {
+            "blocks": [
+              {
+                "block": "A",
+                "start": 0,
+                "end": 2304,
+                "onset_groups": 8,
+                "note_onsets": 11,
+                "sounding_notes": 11,
+                "occupied_ticks": 1824,
+                "silence_ticks": 480,
+                "interval_status": "available",
+                "interval_count": 7
+              },
+              {
+                "block": "B",
+                "start": 2304,
+                "end": 4608,
+                "onset_groups": 0,
+                "note_onsets": 0,
+                "sounding_notes": 0,
+                "occupied_ticks": 0,
+                "silence_ticks": 2304,
+                "interval_status": "missing_empty",
+                "interval_count": 0
+              },
+              {
+                "block": "C",
+                "start": 4608,
+                "end": 6912,
+                "onset_groups": 0,
+                "note_onsets": 0,
+                "sounding_notes": 0,
+                "occupied_ticks": 0,
+                "silence_ticks": 2304,
+                "interval_status": "missing_empty",
+                "interval_count": 0
+              },
+              {
+                "block": "D",
+                "start": 6912,
+                "end": 9216,
+                "onset_groups": 1,
+                "note_onsets": 1,
+                "sounding_notes": 1,
+                "occupied_ticks": 192,
+                "silence_ticks": 2112,
+                "interval_status": "missing_single_group",
+                "interval_count": 0
+              }
+            ],
+            "block_interval_pairs": [
+              {
+                "blocks": "AB",
+                "comparable": false,
+                "equal": null
+              },
+              {
+                "blocks": "AC",
+                "comparable": false,
+                "equal": null
+              },
+              {
+                "blocks": "AD",
+                "comparable": false,
+                "equal": null
+              },
+              {
+                "blocks": "BC",
+                "comparable": false,
+                "equal": null
+              },
+              {
+                "blocks": "BD",
+                "comparable": false,
+                "equal": null
+              },
+              {
+                "blocks": "CD",
+                "comparable": false,
+                "equal": null
+              }
+            ],
+            "comparable_pairs": 0,
+            "equal_pairs": 0,
+            "anchor_interval_3gram": {
+              "intervals": 8,
+              "windows": 6,
+              "unique": 6,
+              "repeated_windows_after_first": 0,
+              "repeat_fraction": 0.0
+            },
+            "meaning": "Half-open2barblocks. Onset counts differ from sounding notes. Occupancy uses exact interval union clipped ONLY for measurement. Block intervals are signed consecutive minimum-pitch anchors, not melodyvoice; equality requires>=2groups, no alignment.3gram uses overlapping windows of3signed anchor intervals (4groups), repeated occurrences beyondfirst; windows notindependent."
+          },
+          "private_sha256": "d5f1b4bf96bca51612011807e8ad841dad3f5c047ebc1ae972f7973e883ef0ad"
+        }
+      ],
+      "weighted_template_mass": {
+        "numerator": 3428,
+        "denominator": 1
+      },
+      "weighted_ineligible_mass": {
+        "numerator": 21661532,
+        "denominator": 1727121
+      },
+      "raw_ineligible_occurrences": 18,
+      "raw_groups": 3428,
+      "integer_scale_bits": {
+        "template": 74,
+        "anchor": 74
+      },
+      "status_counts": {
+        "complete": 3
+      },
+      "complete_only": {
+        "candidates": 3,
+        "means": {
+          "notes": 16.333333333333332,
+          "overlap_onset_fraction": 0.37626262626262624,
+          "mean_active_voices": 0.5601851851851852,
+          "max_active_voices": 2.6666666666666665,
+          "mean_abs_pitch_interval": 6.115530303030303,
+          "above_octave_fraction": 0.1221590909090909,
+          "distinct_pitches": 11,
+          "repeated_pitch_fraction": 0.03125,
+          "rest_ticks": 5856,
+          "rest_fraction": 0.6354166666666666
+        },
+        "metric_denominators": {
+          "notes": 3,
+          "overlap_onset_fraction": 3,
+          "mean_active_voices": 3,
+          "max_active_voices": 3,
+          "mean_abs_pitch_interval": 3,
+          "above_octave_fraction": 3,
+          "distinct_pitches": 3,
+          "repeated_pitch_fraction": 3,
+          "rest_ticks": 3,
+          "rest_fraction": 3
+        }
+      },
+      "common_success": {
+        "candidates": 3,
+        "means": {
+          "notes": 16.333333333333332,
+          "overlap_onset_fraction": 0.37626262626262624,
+          "mean_active_voices": 0.5601851851851852,
+          "max_active_voices": 2.6666666666666665,
+          "mean_abs_pitch_interval": 6.115530303030303,
+          "above_octave_fraction": 0.1221590909090909,
+          "distinct_pitches": 11,
+          "repeated_pitch_fraction": 0.03125,
+          "rest_ticks": 5856,
+          "rest_fraction": 0.6354166666666666
+        },
+        "metric_denominators": {
+          "notes": 3,
+          "overlap_onset_fraction": 3,
+          "mean_active_voices": 3,
+          "max_active_voices": 3,
+          "mean_abs_pitch_interval": 3,
+          "above_octave_fraction": 3,
+          "distinct_pitches": 3,
+          "repeated_pitch_fraction": 3,
+          "rest_ticks": 3,
+          "rest_fraction": 3
+        }
+      }
+    },
+    "18_equal_family": {
+      "status": "fitted",
+      "outputs": [
+        {
+          "status": "complete",
+          "reason": null,
+          "attempts": 41,
+          "rejections": {
+            "polyphony": 7,
+            "same_pitch_overlap": 1
+          },
+          "ineligible_template_occurrences": 17.592644071420935,
+          "total_template_occurrences": 3428.0,
+          "available_template_types": 149,
+          "target_ticks": 9216,
+          "actual_tail": 336,
+          "seed": 45000,
+          "copy_matches": 0,
+          "metrics": {
+            "notes": 36,
+            "overlap_onset_fraction": 0.3333333333333333,
+            "mean_active_voices": 0.9131944444444444,
+            "max_active_voices": 3,
+            "mean_abs_pitch_interval": 8.714285714285714,
+            "above_octave_fraction": 0.22857142857142856,
+            "distinct_pitches": 22,
+            "repeated_pitch_fraction": 0.05714285714285714,
+            "rest_ticks": 2896,
+            "rest_fraction": 0.3142361111111111
+          },
+          "timeline": {
+            "target_ticks": 9216,
+            "occupied_ticks": 6320,
+            "silence_ticks": 2896,
+            "leading_silence_ticks": 0,
+            "trailing_silence_ticks": 336,
+            "internal_silence_ticks": 2560,
+            "max_contiguous_silence_ticks": 576,
+            "internal_gap_count": 11,
+            "active_voice_tick_integral": 8416,
+            "mean_active_voices": 0.9131944444444444,
+            "polyphonic_ticks": 1568,
+            "polyphonic_time_fraction": 0.1701388888888889,
+            "empty_timeline": false,
+            "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+          },
+          "structure": {
+            "blocks": [
+              {
+                "block": "A",
+                "start": 0,
+                "end": 2304,
+                "onset_groups": 9,
+                "note_onsets": 9,
+                "sounding_notes": 9,
+                "occupied_ticks": 1680,
+                "silence_ticks": 624,
+                "interval_status": "available",
+                "interval_count": 8
+              },
+              {
+                "block": "B",
+                "start": 2304,
+                "end": 4608,
+                "onset_groups": 9,
+                "note_onsets": 11,
+                "sounding_notes": 11,
+                "occupied_ticks": 2112,
+                "silence_ticks": 192,
+                "interval_status": "available",
+                "interval_count": 8
+              },
+              {
+                "block": "C",
+                "start": 4608,
+                "end": 6912,
+                "onset_groups": 9,
+                "note_onsets": 10,
+                "sounding_notes": 10,
+                "occupied_ticks": 1376,
+                "silence_ticks": 928,
+                "interval_status": "available",
+                "interval_count": 8
+              },
+              {
+                "block": "D",
+                "start": 6912,
+                "end": 9216,
+                "onset_groups": 6,
+                "note_onsets": 6,
+                "sounding_notes": 6,
+                "occupied_ticks": 1152,
+                "silence_ticks": 1152,
+                "interval_status": "available",
+                "interval_count": 5
+              }
+            ],
+            "block_interval_pairs": [
+              {
+                "blocks": "AB",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "AC",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "AD",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "BC",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "BD",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "CD",
+                "comparable": true,
+                "equal": false
+              }
+            ],
+            "comparable_pairs": 6,
+            "equal_pairs": 0,
+            "anchor_interval_3gram": {
+              "intervals": 32,
+              "windows": 30,
+              "unique": 30,
+              "repeated_windows_after_first": 0,
+              "repeat_fraction": 0.0
+            },
+            "meaning": "Half-open2barblocks. Onset counts differ from sounding notes. Occupancy uses exact interval union clipped ONLY for measurement. Block intervals are signed consecutive minimum-pitch anchors, not melodyvoice; equality requires>=2groups, no alignment.3gram uses overlapping windows of3signed anchor intervals (4groups), repeated occurrences beyondfirst; windows notindependent."
+          },
+          "private_sha256": "607e7500db2a0a807f3176af5f812662575e7064414f91b6f6960253acf1fbb0"
+        },
+        {
+          "status": "complete",
+          "reason": null,
+          "attempts": 6,
+          "rejections": {},
+          "ineligible_template_occurrences": 17.592644071420935,
+          "total_template_occurrences": 3428.0,
+          "available_template_types": 149,
+          "target_ticks": 9216,
+          "actual_tail": 256,
+          "seed": 45001,
+          "copy_matches": 0,
+          "metrics": {
+            "notes": 6,
+            "overlap_onset_fraction": 0.3333333333333333,
+            "mean_active_voices": 0.10416666666666667,
+            "max_active_voices": 2,
+            "mean_abs_pitch_interval": 5.8,
+            "above_octave_fraction": 0.0,
+            "distinct_pitches": 4,
+            "repeated_pitch_fraction": 0.0,
+            "rest_ticks": 8416,
+            "rest_fraction": 0.9131944444444444
+          },
+          "timeline": {
+            "target_ticks": 9216,
+            "occupied_ticks": 800,
+            "silence_ticks": 8416,
+            "leading_silence_ticks": 7872,
+            "trailing_silence_ticks": 256,
+            "internal_silence_ticks": 288,
+            "max_contiguous_silence_ticks": 7872,
+            "internal_gap_count": 2,
+            "active_voice_tick_integral": 960,
+            "mean_active_voices": 0.10416666666666667,
+            "polyphonic_ticks": 160,
+            "polyphonic_time_fraction": 0.017361111111111112,
+            "empty_timeline": false,
+            "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+          },
+          "structure": {
+            "blocks": [
+              {
+                "block": "A",
+                "start": 0,
+                "end": 2304,
+                "onset_groups": 0,
+                "note_onsets": 0,
+                "sounding_notes": 0,
+                "occupied_ticks": 0,
+                "silence_ticks": 2304,
+                "interval_status": "missing_empty",
+                "interval_count": 0
+              },
+              {
+                "block": "B",
+                "start": 2304,
+                "end": 4608,
+                "onset_groups": 0,
+                "note_onsets": 0,
+                "sounding_notes": 0,
+                "occupied_ticks": 0,
+                "silence_ticks": 2304,
+                "interval_status": "missing_empty",
+                "interval_count": 0
+              },
+              {
+                "block": "C",
+                "start": 4608,
+                "end": 6912,
+                "onset_groups": 0,
+                "note_onsets": 0,
+                "sounding_notes": 0,
+                "occupied_ticks": 0,
+                "silence_ticks": 2304,
+                "interval_status": "missing_empty",
+                "interval_count": 0
+              },
+              {
+                "block": "D",
+                "start": 6912,
+                "end": 9216,
+                "onset_groups": 6,
+                "note_onsets": 6,
+                "sounding_notes": 6,
+                "occupied_ticks": 800,
+                "silence_ticks": 1504,
+                "interval_status": "available",
+                "interval_count": 5
+              }
+            ],
+            "block_interval_pairs": [
+              {
+                "blocks": "AB",
+                "comparable": false,
+                "equal": null
+              },
+              {
+                "blocks": "AC",
+                "comparable": false,
+                "equal": null
+              },
+              {
+                "blocks": "AD",
+                "comparable": false,
+                "equal": null
+              },
+              {
+                "blocks": "BC",
+                "comparable": false,
+                "equal": null
+              },
+              {
+                "blocks": "BD",
+                "comparable": false,
+                "equal": null
+              },
+              {
+                "blocks": "CD",
+                "comparable": false,
+                "equal": null
+              }
+            ],
+            "comparable_pairs": 0,
+            "equal_pairs": 0,
+            "anchor_interval_3gram": {
+              "intervals": 5,
+              "windows": 3,
+              "unique": 3,
+              "repeated_windows_after_first": 0,
+              "repeat_fraction": 0.0
+            },
+            "meaning": "Half-open2barblocks. Onset counts differ from sounding notes. Occupancy uses exact interval union clipped ONLY for measurement. Block intervals are signed consecutive minimum-pitch anchors, not melodyvoice; equality requires>=2groups, no alignment.3gram uses overlapping windows of3signed anchor intervals (4groups), repeated occurrences beyondfirst; windows notindependent."
+          },
+          "private_sha256": "563e62f600b0a94cae6c7424282f7b543bf35d0e48c9f03be1347c3891627d1d"
+        },
+        {
+          "status": "complete",
+          "reason": null,
+          "attempts": 36,
+          "rejections": {
+            "polyphony": 6
+          },
+          "ineligible_template_occurrences": 17.592644071420935,
+          "total_template_occurrences": 3428.0,
+          "available_template_types": 149,
+          "target_ticks": 9216,
+          "actual_tail": 288,
+          "seed": 45002,
+          "copy_matches": 0,
+          "metrics": {
+            "notes": 33,
+            "overlap_onset_fraction": 0.45454545454545453,
+            "mean_active_voices": 1.0104166666666667,
+            "max_active_voices": 3,
+            "mean_abs_pitch_interval": 10.0625,
+            "above_octave_fraction": 0.28125,
+            "distinct_pitches": 23,
+            "repeated_pitch_fraction": 0.0,
+            "rest_ticks": 2784,
+            "rest_fraction": 0.3020833333333333
+          },
+          "timeline": {
+            "target_ticks": 9216,
+            "occupied_ticks": 6432,
+            "silence_ticks": 2784,
+            "leading_silence_ticks": 0,
+            "trailing_silence_ticks": 288,
+            "internal_silence_ticks": 2496,
+            "max_contiguous_silence_ticks": 1056,
+            "internal_gap_count": 8,
+            "active_voice_tick_integral": 9312,
+            "mean_active_voices": 1.0104166666666667,
+            "polyphonic_ticks": 2112,
+            "polyphonic_time_fraction": 0.22916666666666666,
+            "empty_timeline": false,
+            "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+          },
+          "structure": {
+            "blocks": [
+              {
+                "block": "A",
+                "start": 0,
+                "end": 2304,
+                "onset_groups": 5,
+                "note_onsets": 5,
+                "sounding_notes": 5,
+                "occupied_ticks": 1728,
+                "silence_ticks": 576,
+                "interval_status": "available",
+                "interval_count": 4
+              },
+              {
+                "block": "B",
+                "start": 2304,
+                "end": 4608,
+                "onset_groups": 10,
+                "note_onsets": 12,
+                "sounding_notes": 12,
+                "occupied_ticks": 1536,
+                "silence_ticks": 768,
+                "interval_status": "available",
+                "interval_count": 9
+              },
+              {
+                "block": "C",
+                "start": 4608,
+                "end": 6912,
+                "onset_groups": 6,
+                "note_onsets": 7,
+                "sounding_notes": 8,
+                "occupied_ticks": 1248,
+                "silence_ticks": 1056,
+                "interval_status": "available",
+                "interval_count": 5
+              },
+              {
+                "block": "D",
+                "start": 6912,
+                "end": 9216,
+                "onset_groups": 9,
+                "note_onsets": 9,
+                "sounding_notes": 10,
+                "occupied_ticks": 1920,
+                "silence_ticks": 384,
+                "interval_status": "available",
+                "interval_count": 8
+              }
+            ],
+            "block_interval_pairs": [
+              {
+                "blocks": "AB",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "AC",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "AD",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "BC",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "BD",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "CD",
+                "comparable": true,
+                "equal": false
+              }
+            ],
+            "comparable_pairs": 6,
+            "equal_pairs": 0,
+            "anchor_interval_3gram": {
+              "intervals": 29,
+              "windows": 27,
+              "unique": 27,
+              "repeated_windows_after_first": 0,
+              "repeat_fraction": 0.0
+            },
+            "meaning": "Half-open2barblocks. Onset counts differ from sounding notes. Occupancy uses exact interval union clipped ONLY for measurement. Block intervals are signed consecutive minimum-pitch anchors, not melodyvoice; equality requires>=2groups, no alignment.3gram uses overlapping windows of3signed anchor intervals (4groups), repeated occurrences beyondfirst; windows notindependent."
+          },
+          "private_sha256": "80a92e83ad4e8f2d1aba8318a242768d389f0941be0d744795f16c369956681e"
+        }
+      ],
+      "weighted_template_mass": {
+        "numerator": 3428,
+        "denominator": 1
+      },
+      "weighted_ineligible_mass": {
+        "numerator": 164544,
+        "denominator": 9353
+      },
+      "raw_ineligible_occurrences": 47,
+      "raw_groups": 4190,
+      "integer_scale_bits": {
+        "template": 75,
+        "anchor": 75
+      },
+      "status_counts": {
+        "complete": 3
+      },
+      "complete_only": {
+        "candidates": 3,
+        "means": {
+          "notes": 25,
+          "overlap_onset_fraction": 0.3737373737373737,
+          "mean_active_voices": 0.6759259259259259,
+          "max_active_voices": 2.6666666666666665,
+          "mean_abs_pitch_interval": 8.192261904761905,
+          "above_octave_fraction": 0.1699404761904762,
+          "distinct_pitches": 16.333333333333332,
+          "repeated_pitch_fraction": 0.019047619047619046,
+          "rest_ticks": 4698.666666666667,
+          "rest_fraction": 0.5098379629629629
+        },
+        "metric_denominators": {
+          "notes": 3,
+          "overlap_onset_fraction": 3,
+          "mean_active_voices": 3,
+          "max_active_voices": 3,
+          "mean_abs_pitch_interval": 3,
+          "above_octave_fraction": 3,
+          "distinct_pitches": 3,
+          "repeated_pitch_fraction": 3,
+          "rest_ticks": 3,
+          "rest_fraction": 3
+        }
+      },
+      "common_success": {
+        "candidates": 3,
+        "means": {
+          "notes": 25,
+          "overlap_onset_fraction": 0.3737373737373737,
+          "mean_active_voices": 0.6759259259259259,
+          "max_active_voices": 2.6666666666666665,
+          "mean_abs_pitch_interval": 8.192261904761905,
+          "above_octave_fraction": 0.1699404761904762,
+          "distinct_pitches": 16.333333333333332,
+          "repeated_pitch_fraction": 0.019047619047619046,
+          "rest_ticks": 4698.666666666667,
+          "rest_fraction": 0.5098379629629629
+        },
+        "metric_denominators": {
+          "notes": 3,
+          "overlap_onset_fraction": 3,
+          "mean_active_voices": 3,
+          "max_active_voices": 3,
+          "mean_abs_pitch_interval": 3,
+          "above_octave_fraction": 3,
+          "distinct_pitches": 3,
+          "repeated_pitch_fraction": 3,
+          "rest_ticks": 3,
+          "rest_fraction": 3
+        }
+      }
+    },
+    "18_natural_raw": {
+      "status": "fitted",
+      "outputs": [
+        {
+          "status": "complete",
+          "reason": null,
+          "attempts": 42,
+          "rejections": {
+            "polyphony": 3
+          },
+          "ineligible_template_occurrences": 47.0,
+          "total_template_occurrences": 4190.0,
+          "available_template_types": 149,
+          "target_ticks": 9216,
+          "actual_tail": 336,
+          "seed": 45000,
+          "copy_matches": 0,
+          "metrics": {
+            "notes": 48,
+            "overlap_onset_fraction": 0.5833333333333334,
+            "mean_active_voices": 1.0555555555555556,
+            "max_active_voices": 3,
+            "mean_abs_pitch_interval": 7.9787234042553195,
+            "above_octave_fraction": 0.14893617021276595,
+            "distinct_pitches": 21,
+            "repeated_pitch_fraction": 0.02127659574468085,
+            "rest_ticks": 3312,
+            "rest_fraction": 0.359375
+          },
+          "timeline": {
+            "target_ticks": 9216,
+            "occupied_ticks": 5904,
+            "silence_ticks": 3312,
+            "leading_silence_ticks": 1728,
+            "trailing_silence_ticks": 336,
+            "internal_silence_ticks": 1248,
+            "max_contiguous_silence_ticks": 1728,
+            "internal_gap_count": 7,
+            "active_voice_tick_integral": 9728,
+            "mean_active_voices": 1.0555555555555556,
+            "polyphonic_ticks": 2768,
+            "polyphonic_time_fraction": 0.3003472222222222,
+            "empty_timeline": false,
+            "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+          },
+          "structure": {
+            "blocks": [
+              {
+                "block": "A",
+                "start": 0,
+                "end": 2304,
+                "onset_groups": 2,
+                "note_onsets": 2,
+                "sounding_notes": 2,
+                "occupied_ticks": 576,
+                "silence_ticks": 1728,
+                "interval_status": "available",
+                "interval_count": 1
+              },
+              {
+                "block": "B",
+                "start": 2304,
+                "end": 4608,
+                "onset_groups": 16,
+                "note_onsets": 18,
+                "sounding_notes": 18,
+                "occupied_ticks": 2208,
+                "silence_ticks": 96,
+                "interval_status": "available",
+                "interval_count": 15
+              },
+              {
+                "block": "C",
+                "start": 4608,
+                "end": 6912,
+                "onset_groups": 14,
+                "note_onsets": 19,
+                "sounding_notes": 22,
+                "occupied_ticks": 2112,
+                "silence_ticks": 192,
+                "interval_status": "available",
+                "interval_count": 13
+              },
+              {
+                "block": "D",
+                "start": 6912,
+                "end": 9216,
+                "onset_groups": 7,
+                "note_onsets": 9,
+                "sounding_notes": 11,
+                "occupied_ticks": 1008,
+                "silence_ticks": 1296,
+                "interval_status": "available",
+                "interval_count": 6
+              }
+            ],
+            "block_interval_pairs": [
+              {
+                "blocks": "AB",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "AC",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "AD",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "BC",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "BD",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "CD",
+                "comparable": true,
+                "equal": false
+              }
+            ],
+            "comparable_pairs": 6,
+            "equal_pairs": 0,
+            "anchor_interval_3gram": {
+              "intervals": 38,
+              "windows": 36,
+              "unique": 36,
+              "repeated_windows_after_first": 0,
+              "repeat_fraction": 0.0
+            },
+            "meaning": "Half-open2barblocks. Onset counts differ from sounding notes. Occupancy uses exact interval union clipped ONLY for measurement. Block intervals are signed consecutive minimum-pitch anchors, not melodyvoice; equality requires>=2groups, no alignment.3gram uses overlapping windows of3signed anchor intervals (4groups), repeated occurrences beyondfirst; windows notindependent."
+          },
+          "private_sha256": "bf9336b57f35409123632bef3a945b03cc7f43d4f41b7315afe43aa381844b46"
+        },
+        {
+          "status": "complete",
+          "reason": null,
+          "attempts": 41,
+          "rejections": {
+            "polyphony": 1
+          },
+          "ineligible_template_occurrences": 47.0,
+          "total_template_occurrences": 4190.0,
+          "available_template_types": 149,
+          "target_ticks": 9216,
+          "actual_tail": 32,
+          "seed": 45001,
+          "copy_matches": 0,
+          "metrics": {
+            "notes": 48,
+            "overlap_onset_fraction": 0.5416666666666666,
+            "mean_active_voices": 1.1423611111111112,
+            "max_active_voices": 3,
+            "mean_abs_pitch_interval": 9.936170212765957,
+            "above_octave_fraction": 0.2978723404255319,
+            "distinct_pitches": 26,
+            "repeated_pitch_fraction": 0.0425531914893617,
+            "rest_ticks": 2464,
+            "rest_fraction": 0.2673611111111111
+          },
+          "timeline": {
+            "target_ticks": 9216,
+            "occupied_ticks": 6752,
+            "silence_ticks": 2464,
+            "leading_silence_ticks": 0,
+            "trailing_silence_ticks": 32,
+            "internal_silence_ticks": 2432,
+            "max_contiguous_silence_ticks": 576,
+            "internal_gap_count": 9,
+            "active_voice_tick_integral": 10528,
+            "mean_active_voices": 1.1423611111111112,
+            "polyphonic_ticks": 2752,
+            "polyphonic_time_fraction": 0.2986111111111111,
+            "empty_timeline": false,
+            "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+          },
+          "structure": {
+            "blocks": [
+              {
+                "block": "A",
+                "start": 0,
+                "end": 2304,
+                "onset_groups": 11,
+                "note_onsets": 15,
+                "sounding_notes": 15,
+                "occupied_ticks": 1920,
+                "silence_ticks": 384,
+                "interval_status": "available",
+                "interval_count": 10
+              },
+              {
+                "block": "B",
+                "start": 2304,
+                "end": 4608,
+                "onset_groups": 9,
+                "note_onsets": 10,
+                "sounding_notes": 10,
+                "occupied_ticks": 1536,
+                "silence_ticks": 768,
+                "interval_status": "available",
+                "interval_count": 8
+              },
+              {
+                "block": "C",
+                "start": 4608,
+                "end": 6912,
+                "onset_groups": 9,
+                "note_onsets": 9,
+                "sounding_notes": 9,
+                "occupied_ticks": 1568,
+                "silence_ticks": 736,
+                "interval_status": "available",
+                "interval_count": 8
+              },
+              {
+                "block": "D",
+                "start": 6912,
+                "end": 9216,
+                "onset_groups": 11,
+                "note_onsets": 14,
+                "sounding_notes": 15,
+                "occupied_ticks": 1728,
+                "silence_ticks": 576,
+                "interval_status": "available",
+                "interval_count": 10
+              }
+            ],
+            "block_interval_pairs": [
+              {
+                "blocks": "AB",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "AC",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "AD",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "BC",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "BD",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "CD",
+                "comparable": true,
+                "equal": false
+              }
+            ],
+            "comparable_pairs": 6,
+            "equal_pairs": 0,
+            "anchor_interval_3gram": {
+              "intervals": 39,
+              "windows": 37,
+              "unique": 37,
+              "repeated_windows_after_first": 0,
+              "repeat_fraction": 0.0
+            },
+            "meaning": "Half-open2barblocks. Onset counts differ from sounding notes. Occupancy uses exact interval union clipped ONLY for measurement. Block intervals are signed consecutive minimum-pitch anchors, not melodyvoice; equality requires>=2groups, no alignment.3gram uses overlapping windows of3signed anchor intervals (4groups), repeated occurrences beyondfirst; windows notindependent."
+          },
+          "private_sha256": "1eec7b41c97a0c35e55b3e513e625c3988d1d356746a4cd3d7ec44b31da4c47a"
+        },
+        {
+          "status": "complete",
+          "reason": null,
+          "attempts": 32,
+          "rejections": {
+            "polyphony": 1
+          },
+          "ineligible_template_occurrences": 47.0,
+          "total_template_occurrences": 4190.0,
+          "available_template_types": 149,
+          "target_ticks": 9216,
+          "actual_tail": 384,
+          "seed": 45002,
+          "copy_matches": 0,
+          "metrics": {
+            "notes": 39,
+            "overlap_onset_fraction": 0.46153846153846156,
+            "mean_active_voices": 0.7951388888888888,
+            "max_active_voices": 3,
+            "mean_abs_pitch_interval": 9.078947368421053,
+            "above_octave_fraction": 0.2631578947368421,
+            "distinct_pitches": 23,
+            "repeated_pitch_fraction": 0.0,
+            "rest_ticks": 4480,
+            "rest_fraction": 0.4861111111111111
+          },
+          "timeline": {
+            "target_ticks": 9216,
+            "occupied_ticks": 4736,
+            "silence_ticks": 4480,
+            "leading_silence_ticks": 960,
+            "trailing_silence_ticks": 384,
+            "internal_silence_ticks": 3136,
+            "max_contiguous_silence_ticks": 960,
+            "internal_gap_count": 11,
+            "active_voice_tick_integral": 7328,
+            "mean_active_voices": 0.7951388888888888,
+            "polyphonic_ticks": 2112,
+            "polyphonic_time_fraction": 0.22916666666666666,
+            "empty_timeline": false,
+            "silence_accounting": "Empty timeline leading/trailing both describe same whole interval; do not sum them. Otherwise categories are disjoint."
+          },
+          "structure": {
+            "blocks": [
+              {
+                "block": "A",
+                "start": 0,
+                "end": 2304,
+                "onset_groups": 5,
+                "note_onsets": 5,
+                "sounding_notes": 5,
+                "occupied_ticks": 768,
+                "silence_ticks": 1536,
+                "interval_status": "available",
+                "interval_count": 4
+              },
+              {
+                "block": "B",
+                "start": 2304,
+                "end": 4608,
+                "onset_groups": 7,
+                "note_onsets": 7,
+                "sounding_notes": 7,
+                "occupied_ticks": 896,
+                "silence_ticks": 1408,
+                "interval_status": "available",
+                "interval_count": 6
+              },
+              {
+                "block": "C",
+                "start": 4608,
+                "end": 6912,
+                "onset_groups": 13,
+                "note_onsets": 19,
+                "sounding_notes": 19,
+                "occupied_ticks": 1632,
+                "silence_ticks": 672,
+                "interval_status": "available",
+                "interval_count": 12
+              },
+              {
+                "block": "D",
+                "start": 6912,
+                "end": 9216,
+                "onset_groups": 6,
+                "note_onsets": 8,
+                "sounding_notes": 8,
+                "occupied_ticks": 1440,
+                "silence_ticks": 864,
+                "interval_status": "available",
+                "interval_count": 5
+              }
+            ],
+            "block_interval_pairs": [
+              {
+                "blocks": "AB",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "AC",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "AD",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "BC",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "BD",
+                "comparable": true,
+                "equal": false
+              },
+              {
+                "blocks": "CD",
+                "comparable": true,
+                "equal": false
+              }
+            ],
+            "comparable_pairs": 6,
+            "equal_pairs": 0,
+            "anchor_interval_3gram": {
+              "intervals": 30,
+              "windows": 28,
+              "unique": 28,
+              "repeated_windows_after_first": 0,
+              "repeat_fraction": 0.0
+            },
+            "meaning": "Half-open2barblocks. Onset counts differ from sounding notes. Occupancy uses exact interval union clipped ONLY for measurement. Block intervals are signed consecutive minimum-pitch anchors, not melodyvoice; equality requires>=2groups, no alignment.3gram uses overlapping windows of3signed anchor intervals (4groups), repeated occurrences beyondfirst; windows notindependent."
+          },
+          "private_sha256": "786bd7e9051b8a5dabfbb4b7c88a14027338340d1ef7282f67116c5f18112c50"
+        }
+      ],
+      "weighted_template_mass": {
+        "numerator": 4190,
+        "denominator": 1
+      },
+      "weighted_ineligible_mass": {
+        "numerator": 47,
+        "denominator": 1
+      },
+      "raw_ineligible_occurrences": 47,
+      "raw_groups": 4190,
+      "integer_scale_bits": {
+        "template": 1,
+        "anchor": 1
+      },
+      "status_counts": {
+        "complete": 3
+      },
+      "complete_only": {
+        "candidates": 3,
+        "means": {
+          "notes": 45,
+          "overlap_onset_fraction": 0.5288461538461539,
+          "mean_active_voices": 0.9976851851851852,
+          "max_active_voices": 3,
+          "mean_abs_pitch_interval": 8.997946995147442,
+          "above_octave_fraction": 0.23665546845837998,
+          "distinct_pitches": 23.333333333333332,
+          "repeated_pitch_fraction": 0.02127659574468085,
+          "rest_ticks": 3418.6666666666665,
+          "rest_fraction": 0.37094907407407407
+        },
+        "metric_denominators": {
+          "notes": 3,
+          "overlap_onset_fraction": 3,
+          "mean_active_voices": 3,
+          "max_active_voices": 3,
+          "mean_abs_pitch_interval": 3,
+          "above_octave_fraction": 3,
+          "distinct_pitches": 3,
+          "repeated_pitch_fraction": 3,
+          "rest_ticks": 3,
+          "rest_fraction": 3
+        }
+      },
+      "common_success": {
+        "candidates": 3,
+        "means": {
+          "notes": 45,
+          "overlap_onset_fraction": 0.5288461538461539,
+          "mean_active_voices": 0.9976851851851852,
+          "max_active_voices": 3,
+          "mean_abs_pitch_interval": 8.997946995147442,
+          "above_octave_fraction": 0.23665546845837998,
+          "distinct_pitches": 23.333333333333332,
+          "repeated_pitch_fraction": 0.02127659574468085,
+          "rest_ticks": 3418.6666666666665,
+          "rest_fraction": 0.37094907407407407
+        },
+        "metric_denominators": {
+          "notes": 3,
+          "overlap_onset_fraction": 3,
+          "mean_active_voices": 3,
+          "max_active_voices": 3,
+          "mean_abs_pitch_interval": 3,
+          "above_octave_fraction": 3,
+          "distinct_pitches": 3,
+          "repeated_pitch_fraction": 3,
+          "rest_ticks": 3,
+          "rest_fraction": 3
+        }
+      }
+    }
+  },
+  "common_complete_seeds": [
+    45000,
+    45001,
+    45002
+  ],
+  "cpu_seconds": 0.48497359799999995,
+  "originals_unchanged": true,
+  "limitations": [
+    "Naturalraw18 changes prior concentration aswellascomposition; masscontrolled comparisons holdpoolmass only.",
+    "First/later normalization is not one universal perworkweight.",
+    "Family internal longwork dominance remains;11linkedseries notindependentcontributors.",
+    "Fixed order underCPUbudget can leave laterconditions unattempted; no fairquality ranking then.",
+    "Weighted ESS is algebraic eventdispersion, not independentobservations.",
+    "Maple original2/4 and all original meter/time remain intact. Generator has no meter conditioning;9216 is an8x6/8 output convention, not learned6/8phrase understanding. Fixed block descriptors are output measurements, not source phrase annotations.",
+    "Natural18 and controlledraw18 template/anchor laws are exact-proportion equivalent but integer scaling changes randrange bit consumption. Same seed does not align draws; output differences cannot be attributed solely to timing prior strength from3seeds."
+  ]
+}

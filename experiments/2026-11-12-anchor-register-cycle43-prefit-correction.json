@@ -1,0 +1,11 @@
+{
+  "status": "prefit_bug_fixed_no_real_fit_or_generation",
+  "discovered_by": "parent code review",
+  "original_unrun_plan_sha256": "1c8306d0b16ba94560fe9a01b5307cfafd3d2e20aff08af655099ec2001e7159",
+  "corrected_plan_sha256": "15893d65656bb6fd8cc3dadf421fd51d985707d26291df5e7091180200a7b22f",
+  "bug": "Per-seed CPU-skipped row used old two-arm schema; three-arm aggregation would raise KeyError for fixed_plus2/nearest_octave.",
+  "fix": "Shared cpu_skipped_row emits all three fixed condition statuses; no change to anchor selection/formula/conditions.",
+  "regression": "Synthetic no-source test checks all skipped rows, downstream condition/status/common-success handling and independent status dictionaries.",
+  "tests_passed": 5,
+  "original_plan_retained": true
+}

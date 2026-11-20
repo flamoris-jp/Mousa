@@ -1,0 +1,176 @@
+{
+  "plan_sha256": "62d62b41c8d3a7e50aa72b7b07255a5c5050afad1696de7373d121fed189131c",
+  "rows": [
+    {
+      "reference": "mutopia-376",
+      "exact8": 0,
+      "global_similarity": 0.2784810126582279,
+      "flagged": false
+    },
+    {
+      "reference": "mutopia-888",
+      "exact8": 0,
+      "global_similarity": 0.21311475409836067,
+      "flagged": false
+    },
+    {
+      "reference": "mutopia-889",
+      "exact8": 0,
+      "global_similarity": 0.2295081967213115,
+      "flagged": false
+    },
+    {
+      "reference": "mutopia-789",
+      "exact8": 0,
+      "global_similarity": 0.20491803278688525,
+      "flagged": false
+    },
+    {
+      "reference": "mutopia-583",
+      "exact8": 0,
+      "global_similarity": 0.15573770491803274,
+      "flagged": false
+    },
+    {
+      "reference": "mutopia-1578",
+      "exact8": 0,
+      "global_similarity": 0.2603550295857988,
+      "flagged": false
+    },
+    {
+      "reference": "mutopia-1558",
+      "exact8": 0,
+      "global_similarity": 0.22916666666666663,
+      "flagged": false
+    },
+    {
+      "reference": "mutopia-370",
+      "exact8": 0,
+      "global_similarity": 0.2704918032786885,
+      "flagged": false
+    },
+    {
+      "reference": "mutopia-98-legacy",
+      "exact8": 0,
+      "global_similarity": 0.1384615384615384,
+      "flagged": false
+    },
+    {
+      "reference": "mutopia-263-legacy",
+      "exact8": 0,
+      "global_similarity": 0.06173725771715721,
+      "flagged": false
+    },
+    {
+      "reference": "mutopia-904",
+      "exact8": 0,
+      "global_similarity": 0.11961722488038273,
+      "flagged": false
+    },
+    {
+      "reference": "mutopia-2080",
+      "exact8": 0,
+      "global_similarity": 0.25409836065573765,
+      "flagged": false
+    },
+    {
+      "reference": "mutopia-2060",
+      "exact8": 0,
+      "global_similarity": 0.16393442622950816,
+      "flagged": false
+    },
+    {
+      "reference": "mutopia-2061",
+      "exact8": 0,
+      "global_similarity": 0.21311475409836067,
+      "flagged": false
+    },
+    {
+      "reference": "mutopia-186",
+      "exact8": 0,
+      "global_similarity": 0.17277486910994766,
+      "flagged": false
+    },
+    {
+      "reference": "mutopia-487",
+      "exact8": 0,
+      "global_similarity": 0.20192307692307687,
+      "flagged": false
+    },
+    {
+      "reference": "mutopia-2243",
+      "exact8": 0,
+      "global_similarity": 0.1964285714285714,
+      "flagged": false
+    },
+    {
+      "reference": "640",
+      "exact8": 0,
+      "global_similarity": 0.24590163934426235,
+      "flagged": false
+    },
+    {
+      "reference": "921",
+      "exact8": 0,
+      "global_similarity": 0.24590163934426235,
+      "flagged": false
+    },
+    {
+      "reference": "21",
+      "exact8": 0,
+      "global_similarity": 0.2786885245901639,
+      "flagged": false
+    },
+    {
+      "reference": "1691",
+      "exact8": 0,
+      "global_similarity": 0.20491803278688525,
+      "flagged": false
+    },
+    {
+      "reference": "blocked-1692",
+      "exact8": 0,
+      "global_similarity": 0.1934426229508197,
+      "flagged": false
+    },
+    {
+      "reference": "blocked-804",
+      "exact8": 0,
+      "global_similarity": 0.17368421052631577,
+      "flagged": false
+    },
+    {
+      "reference": "blocked-1741",
+      "exact8": 0,
+      "global_similarity": 0.22499999999999998,
+      "flagged": false
+    },
+    {
+      "reference": "blocked-532",
+      "exact8": 0,
+      "global_similarity": 0.25,
+      "flagged": false
+    },
+    {
+      "reference": "23",
+      "exact8": 0,
+      "global_similarity": 0.06208053691275173,
+      "flagged": false
+    },
+    {
+      "reference": "blocked-38",
+      "exact8": 0,
+      "global_similarity": 0.13442622950819672,
+      "flagged": false
+    }
+  ],
+  "flagged": false,
+  "source_notes": 123,
+  "groups": 123,
+  "first_delta": 0,
+  "eot": 69120,
+  "cpu_seconds": 0.205491459000001,
+  "fit": false,
+  "score": false,
+  "all_reference_bytes_unchanged": true
+}

@@ -1,0 +1,239 @@
+{
+  "scope": "Read-only source and already-observed Cycle45 output diagnosis, no new fit/scoring or altered source",
+  "source_first_ticks": {
+    "mutopia-376": 1536,
+    "mutopia-888": 0,
+    "mutopia-889": 2304,
+    "mutopia-789": 1728,
+    "mutopia-583": 1728,
+    "mutopia-1578": 960,
+    "mutopia-1558": 7872,
+    "mutopia-370": 9216,
+    "mutopia-98-legacy": 576,
+    "mutopia-263-legacy": 0,
+    "mutopia-904": 0,
+    "mutopia-2080": 0,
+    "mutopia-2060": 0,
+    "mutopia-2061": 96,
+    "mutopia-186": 0,
+    "mutopia-487": 0,
+    "mutopia-2243": 12672,
+    "mutopia-23": 288
+  },
+  "zero_first_count": 7,
+  "first_at_or_beyond_8bar_target": {
+    "mutopia-370": 9216,
+    "mutopia-2243": 12672
+  },
+  "source_group_counts": {
+    "mutopia-376": 159,
+    "mutopia-888": 38,
+    "mutopia-889": 47,
+    "mutopia-789": 120,
+    "mutopia-583": 80,
+    "mutopia-1578": 170,
+    "mutopia-1558": 289,
+    "mutopia-370": 108,
+    "mutopia-98-legacy": 127,
+    "mutopia-263-legacy": 789,
+    "mutopia-904": 398,
+    "mutopia-2080": 96,
+    "mutopia-2060": 121,
+    "mutopia-2061": 68,
+    "mutopia-186": 336,
+    "mutopia-487": 313,
+    "mutopia-2243": 169,
+    "mutopia-23": 762
+  },
+  "prior_report_sha256": "dc4ba78e6d1e5146a7c6fa0275c77383f982b49f1da6832348d125f1253abed8",
+  "observed18_output_rows": [
+    {
+      "condition": "18_raw",
+      "seed": 45000,
+      "notes": 37,
+      "leading_silence_ticks": 1728,
+      "internal_silence_ticks": 2380,
+      "trailing_silence_ticks": 192,
+      "total_silence_ticks": 4300,
+      "block_silence_ticks": [
+        2112,
+        768,
+        512,
+        908
+      ]
+    },
+    {
+      "condition": "18_raw",
+      "seed": 45001,
+      "notes": 47,
+      "leading_silence_ticks": 0,
+      "internal_silence_ticks": 2848,
+      "trailing_silence_ticks": 384,
+      "total_silence_ticks": 3232,
+      "block_silence_ticks": [
+        384,
+        576,
+        1024,
+        1248
+      ]
+    },
+    {
+      "condition": "18_raw",
+      "seed": 45002,
+      "notes": 35,
+      "leading_silence_ticks": 576,
+      "internal_silence_ticks": 1824,
+      "trailing_silence_ticks": 352,
+      "total_silence_ticks": 2752,
+      "block_silence_ticks": [
+        1152,
+        384,
+        480,
+        736
+      ]
+    },
+    {
+      "condition": "18_equal_work",
+      "seed": 45000,
+      "notes": 32,
+      "leading_silence_ticks": 1728,
+      "internal_silence_ticks": 2400,
+      "trailing_silence_ticks": 192,
+      "total_silence_ticks": 4320,
+      "block_silence_ticks": [
+        2112,
+        288,
+        864,
+        1056
+      ]
+    },
+    {
+      "condition": "18_equal_work",
+      "seed": 45001,
+      "notes": 43,
+      "leading_silence_ticks": 0,
+      "internal_silence_ticks": 2592,
+      "trailing_silence_ticks": 224,
+      "total_silence_ticks": 2816,
+      "block_silence_ticks": [
+        1056,
+        384,
+        768,
+        608
+      ]
+    },
+    {
+      "condition": "18_equal_work",
+      "seed": 45002,
+      "notes": 38,
+      "leading_silence_ticks": 576,
+      "internal_silence_ticks": 2656,
+      "trailing_silence_ticks": 288,
+      "total_silence_ticks": 3520,
+      "block_silence_ticks": [
+        864,
+        544,
+        1248,
+        864
+      ]
+    },
+    {
+      "condition": "18_equal_family",
+      "seed": 45000,
+      "notes": 36,
+      "leading_silence_ticks": 0,
+      "internal_silence_ticks": 2560,
+      "trailing_silence_ticks": 336,
+      "total_silence_ticks": 2896,
+      "block_silence_ticks": [
+        624,
+        192,
+        928,
+        1152
+      ]
+    },
+    {
+      "condition": "18_equal_family",
+      "seed": 45001,
+      "notes": 6,
+      "leading_silence_ticks": 7872,
+      "internal_silence_ticks": 288,
+      "trailing_silence_ticks": 256,
+      "total_silence_ticks": 8416,
+      "block_silence_ticks": [
+        2304,
+        2304,
+        2304,
+        1504
+      ]
+    },
+    {
+      "condition": "18_equal_family",
+      "seed": 45002,
+      "notes": 33,
+      "leading_silence_ticks": 0,
+      "internal_silence_ticks": 2496,
+      "trailing_silence_ticks": 288,
+      "total_silence_ticks": 2784,
+      "block_silence_ticks": [
+        576,
+        768,
+        1056,
+        384
+      ]
+    },
+    {
+      "condition": "18_natural_raw",
+      "seed": 45000,
+      "notes": 48,
+      "leading_silence_ticks": 1728,
+      "internal_silence_ticks": 1248,
+      "trailing_silence_ticks": 336,
+      "total_silence_ticks": 3312,
+      "block_silence_ticks": [
+        1728,
+        96,
+        192,
+        1296
+      ]
+    },
+    {
+      "condition": "18_natural_raw",
+      "seed": 45001,
+      "notes": 48,
+      "leading_silence_ticks": 0,
+      "internal_silence_ticks": 2432,
+      "trailing_silence_ticks": 32,
+      "total_silence_ticks": 2464,
+      "block_silence_ticks": [
+        384,
+        768,
+        736,
+        576
+      ]
+    },
+    {
+      "condition": "18_natural_raw",
+      "seed": 45002,
+      "notes": 39,
+      "leading_silence_ticks": 960,
+      "internal_silence_ticks": 3136,
+      "trailing_silence_ticks": 384,
+      "total_silence_ticks": 4480,
+      "block_silence_ticks": [
+        1536,
+        1408,
+        672,
+        864
+      ]
+    }
+  ],
+  "interpretation": [
+    "Total note density combines first silence, internal silence, sustained-note duration and overlap; total note count alone is not a phrase-quality measure.",
+    "An18-equal-family candidate has7872 leading silent ticks and6notes; its first three2bar blocks are silent. This is legal generation, not evidence that it meets a listener musical goal.",
+    "The retained Schubert1558 first onset is7872; Foster370 first9216 and Purcell2243 first12672 remain in source data. No trimming or movement of original notes.",
+    "Current generation conditions first onset to remaining target; that changes the source initial-rest law, not its stored original.",
+    "The next pitch-only rest-segment intervention cannot improve silence amount or note density because it preserves every temporal field. It tests using silence as a segmentation cue, not inferred semantic phrases.",
+    "Meter-agnostic model and group minimum pitches do not identify vocal voices or musical phrase meaning. Human feedback remains unobserved."
+  ]
+}

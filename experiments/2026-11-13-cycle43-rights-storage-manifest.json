@@ -1,0 +1,11 @@
+{
+  "role": "pending-rights-metadata-only-not-training",
+  "files": [
+    {
+      "filename": "research-joplin1540-pending-cycle43-20261113.json",
+      "sha256": "31d332e485037216ace8eb8b8df7536a78e2410ada4465cc0de6795f38452c52",
+      "bytes": 3101
+    }
+  ],
+  "raw_originals_excluded": true
+}

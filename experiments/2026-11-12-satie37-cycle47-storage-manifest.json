@@ -1,0 +1,41 @@
+{
+  "schema": "satie37-cycle47-storage-v1",
+  "role": "derived technical research only, not admitted/training/evaluation",
+  "source_sha256": "09ce7337b4bf42ba12e1aa64b4c7dc7fcfa6455f1070cb12f8880a755df97384",
+  "original": "Previously preserved Cycle46; original unchanged and not duplicated here",
+  "files": [
+    {
+      "filename": "derived-not-admitted/37-derived-redundant-offs.mid",
+      "sha256": "e6e0bc5e23c16ec55aedb0e5f1e5e521201df2552851342f90ca92628b1fe3ea",
+      "bytes": 2389
+    },
+    {
+      "filename": "metadata/transform-plan.json",
+      "sha256": "770eff76c563bd19ff1ca6ba2469c9405a1bf5fdf22effa80c0e662f026d5d4f",
+      "bytes": 1886
+    },
+    {
+      "filename": "metadata/code-binding.json",
+      "sha256": "7bf515623e23e43cd399e2f079df9ef2451385e7f17678b99524b5513017ff02",
+      "bytes": 531
+    },
+    {
+      "filename": "metadata/transform-report.json",
+      "sha256": "a25b9aa7cefb83fb3ebb9110f9ac2ccdfda89e77da0bc774fafc3227fcb620b3",
+      "bytes": 1361
+    },
+    {
+      "filename": "metadata/audit_satie37_cycle47.py",
+      "sha256": "bb2ea2a8d7ff6e1e139d1b58f14c9fc56e3c84367105da206d975910df787981",
+      "bytes": 4375
+    },
+    {
+      "filename": "metadata/test_satie37_cycle47.py",
+      "sha256": "7807793a5fe074cc211e442cb58cbd586fb5daf5626e206450deb9261b29c92f",
+      "bytes": 1042
+    }
+  ],
+  "transfer": "Await parent review; no upload performed",
+  "test_result": "3tests pass with venv and dependency-free python-S",
+  "new_rights_search": "Not performed in this bounded pass; technical investigation prioritized"
+}

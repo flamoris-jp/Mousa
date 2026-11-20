@@ -1,0 +1,27 @@
+{
+  "created_at_utc": "2026-11-12T11:33:34.211605+00:00",
+  "scope": "Cycle19 exploratory reanalysis of cycle18same20outputs; not new independent samples",
+  "hypothesis": "Bar-scale recurrence/variation can carry information distinct from adjacent same-pitch rate; timingcontext may change those descriptors without guaranteeing appeal.",
+  "bar_partition": "8bars6/8,PPQ384,1152ticks/bar,9216tick total. Assign by onset; keep actual gate acrossboundaries without clipping.",
+  "metrics": "For eachnonemptybarpair: exact rhythm(offset,gate), exact relativepitch sequence(p-firstpitch), exact full(offset,gate,p-firstpitch), normalized Levenshtein relativepitch similarity; also onsetcountCV acrossall8bars.",
+  "denominators": "Exclude anypair with anemptybar; report countandrate, nonadjacentpairs separately. Empty/single-onset bars explicitly counted. No empty-empty recurrence.",
+  "note_order": "Original modeledchannel note-on order, notnote-off order. Simultaneous pitches/overlap are not voice-disambiguated.",
+  "analysis": "Per-output values, equal-output condition means with denominators, pairedseed differences, exploratory Pearson with adjacent samepitch. No statistical significance or outcome selection.",
+  "no_generation": true,
+  "no_model_fitting": true,
+  "no_predictive_evaluation": true,
+  "limitations": [
+    "Exacttick equality is sensitive tosmallrhythmchanges; no quantization/tolerance.",
+    "Relativepitch removesglobaltransposition, not harmonic/function/key differences.",
+    "Singleonset bars trivially share relativepitch0; counts disclose this.",
+    "Bar boundaries assume generated6/8start atzero, not inferred phrase boundaries.",
+    "Pitchsequence edit similarity ignoresrhythm; report alongside strictrhythm/fullmetrics.",
+    "No human appeal labels; recurrence can be appealing or monotonous dependingcontext."
+  ],
+  "source_report_sha256": "32cb417338bc3436c221533d44d711593887c321a846e2c189b0f301f97913e0",
+  "code_sha256": {
+    "tools/analyze_bar_recurrence.py": "95f200dd9d932a039d66a4ae33a79ae80d65dbff1cef99522477a38d5d34bf4b",
+    "src/mousa/overlap_midi.py": "1afc11bf6b6985a2eb22ebe5302b707d39378291e27b6299fde82564c167c867",
+    "tools/compare_context_onset_gate.py": "a4838f8c1e38b591e9366269ecabaabcc0a66bffab1031b68beddc942980f78a"
+  }
+}

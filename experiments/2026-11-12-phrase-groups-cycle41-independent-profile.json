@@ -1,0 +1,11 @@
+{
+  "scope": "Independent synthetic-only immutable edit/crossing checks; no original source fit or real generation in this audit.",
+  "seed": 41001,
+  "cases": 100,
+  "checks": 700,
+  "module_sha256": "324e1e14a7538a7c8de0835271e8d152e2112faf502e6b3b975cd8a050d5aa30",
+  "status": "PASS",
+  "limits": [
+    "Does not measure musical appeal or corpus independence."
+  ]
+}

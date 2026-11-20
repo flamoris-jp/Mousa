@@ -1,0 +1,218 @@
+{
+  "scope": "Synthetic fixture validation only; no human feedback collected or model training",
+  "fixtures": [
+    {
+      "id": "observed-source",
+      "source": {
+        "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "kind": "synthetic"
+      },
+      "artifact": {
+        "sha256": "1111111111111111111111111111111111111111111111111111111111111111",
+        "kind": "synthetic"
+      },
+      "segment": {
+        "track": 1,
+        "start_tick": 0,
+        "end_tick": 384,
+        "ppq": 384,
+        "artifact_total_ticks": 768,
+        "render_ref": "fictional-render-settings-120bpm"
+      },
+      "evidence": {
+        "kind": "observed-source",
+        "perspective": "symbolic-measurement",
+        "wording": "Fictional example: a rest spans 384 ticks.",
+        "language": "en",
+        "proposed_tag": null
+      },
+      "provenance": {
+        "fictional": true,
+        "actor_role": "synthetic-observer",
+        "reference": "invented-fixture-not-a-conversation"
+      },
+      "review": {
+        "state": "pending",
+        "reference": null
+      },
+      "permitted_use": "synthetic-schema-test"
+    },
+    {
+      "id": "human-report",
+      "source": {
+        "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "kind": "synthetic"
+      },
+      "artifact": {
+        "sha256": "1111111111111111111111111111111111111111111111111111111111111111",
+        "kind": "synthetic"
+      },
+      "segment": {
+        "track": 1,
+        "start_tick": 0,
+        "end_tick": 384,
+        "ppq": 384,
+        "artifact_total_ticks": 768,
+        "render_ref": "fictional-render-settings-120bpm"
+      },
+      "evidence": {
+        "kind": "human-report",
+        "perspective": "cannot-judge",
+        "wording": "Fictional role-play only: I cannot judge this invented clip.",
+        "language": "en",
+        "proposed_tag": null
+      },
+      "provenance": {
+        "fictional": true,
+        "actor_role": "fictional-listener",
+        "reference": "invented-fixture-not-a-conversation"
+      },
+      "review": {
+        "state": "approved",
+        "reference": null
+      },
+      "permitted_use": "synthetic-schema-test"
+    },
+    {
+      "id": "hypothesis",
+      "source": {
+        "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "kind": "synthetic"
+      },
+      "artifact": {
+        "sha256": "1111111111111111111111111111111111111111111111111111111111111111",
+        "kind": "synthetic"
+      },
+      "segment": {
+        "track": 1,
+        "start_tick": 0,
+        "end_tick": 384,
+        "ppq": 384,
+        "artifact_total_ticks": 768,
+        "render_ref": "fictional-render-settings-120bpm"
+      },
+      "evidence": {
+        "kind": "hypothesis",
+        "perspective": "interpretation",
+        "wording": "Synthetic hypothesis: this rest might divide two phrases.",
+        "language": "en",
+        "proposed_tag": null
+      },
+      "provenance": {
+        "fictional": true,
+        "actor_role": "synthetic-researcher",
+        "reference": "invented-fixture-not-a-conversation"
+      },
+      "review": {
+        "state": "pending",
+        "reference": null
+      },
+      "permitted_use": "synthetic-schema-test"
+    },
+    {
+      "id": "human-report",
+      "source": {
+        "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "kind": "synthetic"
+      },
+      "artifact": {
+        "sha256": "1111111111111111111111111111111111111111111111111111111111111111",
+        "kind": "synthetic"
+      },
+      "segment": {
+        "track": 1,
+        "start_tick": 0,
+        "end_tick": 384,
+        "ppq": 384,
+        "artifact_total_ticks": 768,
+        "render_ref": "fictional-render-settings-120bpm"
+      },
+      "evidence": {
+        "kind": "human-report",
+        "perspective": "cannot-judge",
+        "wording": "Fictional role-play only: I cannot judge this invented clip.",
+        "language": "en",
+        "proposed_tag": null
+      },
+      "provenance": {
+        "fictional": true,
+        "actor_role": "fictional-listener",
+        "reference": "invented-fixture-not-a-conversation"
+      },
+      "review": {
+        "state": "approved",
+        "reference": null
+      },
+      "permitted_use": "train"
+    },
+    {
+      "id": "hypothesis",
+      "source": {
+        "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "kind": "synthetic"
+      },
+      "artifact": {
+        "sha256": "1111111111111111111111111111111111111111111111111111111111111111",
+        "kind": "synthetic"
+      },
+      "segment": {
+        "track": 1,
+        "start_tick": 0,
+        "end_tick": 384,
+        "ppq": 384,
+        "artifact_total_ticks": 768,
+        "render_ref": "fictional-render-settings-120bpm"
+      },
+      "evidence": {
+        "kind": "human-report",
+        "perspective": "interpretation",
+        "wording": "Synthetic hypothesis: this rest might divide two phrases.",
+        "language": "en",
+        "proposed_tag": null
+      },
+      "provenance": {
+        "fictional": true,
+        "actor_role": "synthetic-researcher",
+        "reference": "invented-fixture-not-a-conversation"
+      },
+      "review": {
+        "state": "pending",
+        "reference": null
+      },
+      "permitted_use": "synthetic-schema-test"
+    }
+  ],
+  "summary": {
+    "submitted": 5,
+    "accepted": 3,
+    "rejected": 2,
+    "evidence_counts": {
+      "observed-source": 1,
+      "human-report": 1,
+      "hypothesis": 1
+    },
+    "review_counts": {
+      "pending": 2,
+      "approved": 1
+    },
+    "rejection_counts": {
+      "unsupported_use": 1,
+      "evidence_perspective": 1
+    },
+    "training_eligible": 0,
+    "actual_human_reports": 0,
+    "interpretation": "Synthetic schema counts only; not semantic accuracy, consent, independent listeners or appeal."
+  },
+  "tests": "5 unittest cases passed",
+  "sha256": {
+    "src/mousa/semantic_evidence.py": "af6f7efba9c630a959aa81bfc778d493433e59a03b05f31e12d7725ecd83fa47",
+    "tests/test_semantic_evidence.py": "a760ff7e1bf750be372c2b774fcf3e03dd35e5918c02e09c5a3e3973860e5428",
+    "experiments/2026-11-12-semantic-schema-plan.json": "b3da4938f886d477b12273bb9aa6b50d687fe61de3d8ff4346ddac9cc6f63710"
+  },
+  "limitations": [
+    "Schema validates declared structure, not truth or verified identity.",
+    "No authorization mechanism; every record remains training-ineligible.",
+    "No semantic accuracy or preference measurement, no independent listeners.",
+    "A proposed tag is not a reviewed interpretation; wording remains unchanged."
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "scope": "Descriptive content composition of prospectively selected pilot, not model conditioning or outcome-based selection. Source style labels are performer supplied, not aesthetic judgments. Archive-wide18styles are not claimed as training coverage.",
+  "splits": {
+    "train": {
+      "performances": 12,
+      "top_level_source_style_labels": {
+        "rock": 9,
+        "blues": 1,
+        "latin": 1,
+        "reggae": 1
+      },
+      "source_time_signature_labels": {
+        "4-4": 11,
+        "6-8": 1
+      },
+      "events": 5034
+    },
+    "validation": {
+      "performances": 4,
+      "top_level_source_style_labels": {
+        "pop": 1,
+        "hiphop": 1,
+        "rock": 1,
+        "afrobeat": 1
+      },
+      "source_time_signature_labels": {
+        "4-4": 4
+      },
+      "events": 2758
+    },
+    "test": {
+      "performances": 4,
+      "top_level_source_style_labels": {
+        "jazz": 2,
+        "rock": 2
+      },
+      "source_time_signature_labels": {
+        "4-4": 4
+      },
+      "events": 3850
+    }
+  }
+}

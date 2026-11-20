@@ -1,0 +1,28 @@
+[
+  {
+    "work_id": "mutopia-1578",
+    "ppq": 384,
+    "selected_end_tick": 52992,
+    "full_source_end_tick": 54144,
+    "selected_seconds": "18262959/250000",
+    "full_source_seconds": "18825459/250000",
+    "volume_events": 18,
+    "modeled_channel_events": 362,
+    "original_midi_untouched": true,
+    "tempo_map_entries_including_initial": 17,
+    "program_map_entries_including_implicit_initial": 5
+  },
+  {
+    "work_id": "mutopia-1558",
+    "ppq": 384,
+    "selected_end_tick": 127104,
+    "full_source_end_tick": 134016,
+    "selected_seconds": "1011/8",
+    "full_source_seconds": "535/4",
+    "volume_events": 8,
+    "modeled_channel_events": 587,
+    "original_midi_untouched": true,
+    "tempo_map_entries_including_initial": 5,
+    "program_map_entries_including_implicit_initial": 2
+  }
+]

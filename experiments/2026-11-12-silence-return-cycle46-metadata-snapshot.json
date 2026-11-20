@@ -1,0 +1,115 @@
+{
+  "cycle": 46,
+  "kind": "immutable_metadata_only_snapshot",
+  "files": [
+    {
+      "relative_path": "experiments/2026-11-12-silence-return-cycle46-before-fit.json",
+      "bytes": 469,
+      "sha256": "64a5158717f1b68f5e0b44e051e8091d29a82e4ab5bd31ceceaf37bd088afae1"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-silence-return-cycle46-clearance.json",
+      "bytes": 224,
+      "sha256": "ad34d96b0fb9390fbc2d9e8db6bb9492a161b653bea7e939f9fbc784365a635a"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-silence-return-cycle46-final-plan.json",
+      "bytes": 13241,
+      "sha256": "e769ff378d452234ca97f79a4dfd775f9ca39029f89cd52a41bf8072ff08cb3e"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-silence-return-cycle46-fit-journal.json",
+      "bytes": 416,
+      "sha256": "4279f7ae9b3b2f4b01429f90838ac222b5704ec0798edfddc9d883828ef5408b"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-silence-return-cycle46-independent-profile.json",
+      "bytes": 380,
+      "sha256": "8a0d43305a6dc3a98bc314d514727dd084947778ebf5ead23ce7ee9152be058e"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-silence-return-cycle46-independent-results.json",
+      "bytes": 1698,
+      "sha256": "52165f938ee7a22926a2852bee9b29675db34e66a8601982a2157481bc117d33"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-silence-return-cycle46-overview.md",
+      "bytes": 4338,
+      "sha256": "43d4b13ae151771601b67faeee0733b650109b419a8c0505b0aab5092a22110e"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-silence-return-cycle46-plan.json",
+      "bytes": 13241,
+      "sha256": "b1833aa3ee622e213b5f86f4991c0c284c0f1acfc070c416abcb297903691982"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-silence-return-cycle46-results.json",
+      "bytes": 57266,
+      "sha256": "d4a2e009d8f9f0c63fc7dd0130dd9fa36fb455fb9fb72706e9b55858d79d9b28"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-silence-return-cycle46-verification.json",
+      "bytes": 2219,
+      "sha256": "c79379158c77874fcd52f2724b7b03e650cab69d186bdf0a0bca6a5272f9a113"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-silence-cycle46-diagnosis.json",
+      "bytes": 46381,
+      "sha256": "8d25488f5dfa9a2b7914e547ff431884c86a3d007ca72776fc49a577c908e76b"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-rest-segment-cycle46-density-diagnosis.json",
+      "bytes": 6255,
+      "sha256": "acfeee3b0e6ae7bafe6c77e368f20b660541e1e087f2fbad6e4ba92b83c68264"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-rest-segment-cycle46-seed-audit.json",
+      "bytes": 460,
+      "sha256": "7cbb502bcd1d4f3850c342da7eec61821a567b0fb0b96d98973da576ecfd9377"
+    },
+    {
+      "relative_path": "src/mousa/silence_segments_cycle46.py",
+      "bytes": 1476,
+      "sha256": "96061ae4099ce36062fa3b0ccb5dcfcd1040010072e5e81536f19f40780f2f42"
+    },
+    {
+      "relative_path": "src/mousa/silence_return_cycle46.py",
+      "bytes": 3809,
+      "sha256": "12e231c4caf6d4898f3c377dff31ea048a6f60c4089c0831e6ec69db9bee3d35"
+    },
+    {
+      "relative_path": "tools/diagnose_silence_cycle46.py",
+      "bytes": 2511,
+      "sha256": "40f739c4a584f1d6c8dbbd3cf9fd414aa96670fa55d42e1a54bb9b7b3e8ce451"
+    },
+    {
+      "relative_path": "tools/compare_silence_return_cycle46.py",
+      "bytes": 8520,
+      "sha256": "eef61085cb0e1634de88db53a2a2fa14273bf21afd6839033d44cfdfa272f704"
+    },
+    {
+      "relative_path": "tests/test_silence_segments_cycle46.py",
+      "bytes": 1382,
+      "sha256": "7dd0d693d92fd838fcf53100261bd9109d3be629bdc171b667c2b70c89515fa9"
+    },
+    {
+      "relative_path": "tests/test_silence_return_cycle46.py",
+      "bytes": 1700,
+      "sha256": "3314406e27beae2e1e15b19bd8c6b7f9dc92a07084d605e1662321c8ac85b95f"
+    },
+    {
+      "relative_path": "tests/test_silence_return_cycle46_driver.py",
+      "bytes": 793,
+      "sha256": "22ab6c0324db25f6336ad27aa7db896778c908eb1855aec2e8d2c8afa28436dc"
+    }
+  ],
+  "file_count": 20,
+  "total_bytes": 166779,
+  "raw_notes_included": false,
+  "media_included": false,
+  "uploaded": false,
+  "unique_paths_asserted": true,
+  "all_hashes_verified": true,
+  "diagnosis_scope": "Worker18sources/21knownoutputs and parent18sources/12known18workoutputs overlap; not independent cohorts.",
+  "manifest_sha256": "50b637f63fc3933486a76b471bdb1b168a7bf72eb261132deeec59730063e36d"
+}

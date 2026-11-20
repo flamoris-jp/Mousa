@@ -1,0 +1,32 @@
+{
+  "status": "pass",
+  "scope": "Independent synthetic math/count/generation and note-only reversibility audit; no original model fit or score",
+  "exact_probability_checks": 630,
+  "old_seed_output_parity_checks": 48,
+  "work_counts": [
+    1,
+    5,
+    12,
+    14,
+    16,
+    25,
+    32
+  ],
+  "onset_roundtrip_sizes": [
+    0,
+    1,
+    100,
+    4096
+  ],
+  "checked_sha256": {
+    "src/mousa/bounded_context_model.py": "058220437656c3b3c0449f1e90f48433efd1600fcff1f9115b204ddf72022c5c",
+    "tools/compare_bounded_corpus_expansion.py": "7f6f6ae8ca6fefbe52b2735f5dab56c0b9f653ccc77dbc95f40d52bc784d66f6",
+    "tests/test_bounded_context_model.py": "ab2f1d0ba3248d9f00a1aecc956e79b90e9ad864811d6c9f4fdd4375a3e45b61",
+    "src/mousa/onset_groups.py": "428a2ae3afb7bd75cc067c67188df02b94626d41dd19c1496e3e6ff4f866737d"
+  },
+  "limitations": [
+    "Chunk merges preserve boundaries and exact integer counts, not a new probability model.",
+    "Onset view preserves note fields and original note tuple order only, not complete MIDI metadata/control/event serialization.",
+    "Read-only actual16 prepare is separate; no run approval implied."
+  ]
+}

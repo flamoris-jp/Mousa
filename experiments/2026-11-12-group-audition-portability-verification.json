@@ -1,0 +1,73 @@
+{
+  "checks": [
+    {
+      "filename": "A.mid",
+      "sha256": "fdb5d76f62dd48eeee62644617b0cf03f3a0070428c29b50d8d35f124a4ae704",
+      "bytes": 233,
+      "byte_identical": true
+    },
+    {
+      "filename": "A.wav",
+      "sha256": "098c5425b725e68c301ba2898088c5a726725faa261200a6227069065206a0d2",
+      "bytes": 529244,
+      "byte_identical": true
+    },
+    {
+      "filename": "B.mid",
+      "sha256": "1ad6df919a5d27c899686c8a061b7ff84f251ad1815e0d2405a388acff51cd5c",
+      "bytes": 350,
+      "byte_identical": true
+    },
+    {
+      "filename": "B.wav",
+      "sha256": "d8dc12c8b31a053555af57fc97ff33246bff974a811346028ebcf6eaf03d1eb4",
+      "bytes": 529244,
+      "byte_identical": true
+    },
+    {
+      "filename": "C.mid",
+      "sha256": "b4b51c4dd97c2ffa4e957125a630bd7bce277912ae8cc61965a95a339b595e6a",
+      "bytes": 329,
+      "byte_identical": true
+    },
+    {
+      "filename": "C.wav",
+      "sha256": "bb0545efde532047a9a6f7679a0a650f64ad29de23b4ab2d18b57a4cb65c16bc",
+      "bytes": 529244,
+      "byte_identical": true
+    },
+    {
+      "filename": "D.mid",
+      "sha256": "a890d85cb2ddf77692c879966d969e5c09635c0000f100151ad5bf5e29562815",
+      "bytes": 350,
+      "byte_identical": true
+    },
+    {
+      "filename": "D.wav",
+      "sha256": "e8091630f0058e30095364def0e0bf2129bc3fa6c20fae8a9ad65b8a5d7c4055",
+      "bytes": 529244,
+      "byte_identical": true
+    }
+  ],
+  "all_four_clip_verifications_identical": true,
+  "old_plan_sha256": "5eee4c832dc05d246cf380f6e37228f18e927ae69d9bc971a9221f2ea4775cf8",
+  "new_plan_sha256": "8ab74aeba771479b8856b18008965d56ae8452fe867416d14349cbd7c34f8567",
+  "new_cpu_seconds": 2.917160223,
+  "status": "pass",
+  "fullsuite_with_mido": {
+    "tests": 364,
+    "passed": 363,
+    "skipped": 1
+  },
+  "fullsuite_without_site_packages": {
+    "tests": 364,
+    "passed": 323,
+    "skipped": 41
+  },
+  "focused_without_mido": {
+    "tests": 3,
+    "passed": 2,
+    "skipped": 1
+  },
+  "old_snapshots_unchanged": true
+}

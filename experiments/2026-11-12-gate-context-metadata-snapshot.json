@@ -1,0 +1,55 @@
+{
+  "cycle": 37,
+  "kind": "metadata-only",
+  "files": [
+    {
+      "filename": "2026-11-12-gate-context-final-plan.json",
+      "sha256": "d2ea15dce6facbcba71f7cd3327ac74899eb0e48e90cfca5137575bc4a4bc836",
+      "bytes": 11964
+    },
+    {
+      "filename": "2026-11-12-gate-context-clearance.json",
+      "sha256": "439d3e04b280ac652a786709e02360cff84a584a524f685c7895768b62d3479d",
+      "bytes": 562
+    },
+    {
+      "filename": "2026-11-12-gate-context-independent-review.json",
+      "sha256": "5ff2e43705e698af38a8f3d2b23adb1de38d3a15df5603bb44ceb9ac30710929",
+      "bytes": 1643
+    },
+    {
+      "filename": "2026-11-12-gate-context-results.json",
+      "sha256": "4629c88963e86c1381c989a8295748ca690bf70f5c30d8b0902af94a19acb433",
+      "bytes": 53792
+    },
+    {
+      "filename": "2026-11-12-gate-context-repeat-verification.json",
+      "sha256": "4efe86e2f4fc007e04d9e4987470f3c1669ccc5cbc7819f1afe757d768772ca2",
+      "bytes": 6556
+    },
+    {
+      "filename": "research-gate-context-usage-cycle37.json",
+      "sha256": "edd583962dd03113e0787d4a65de8e2a23de6094188593fdba27cc5ea5e1ef14",
+      "bytes": 1005
+    },
+    {
+      "filename": "research-cycle36-seventeen-work-assignment.json",
+      "sha256": "4812808f5b333e813de315e41ba595e451a8c512e7c54b46f96e40ce6d323b3b",
+      "bytes": 16637
+    },
+    {
+      "filename": "2026-11-12-gate-context-final-design.json",
+      "sha256": "9d658f796cf6ab4f9745afeae4b80389a170139c5ce6138bf69ff8de319b9f9c",
+      "bytes": 3305
+    },
+    {
+      "filename": "2026-11-12-gate-context-prefit-correction.json",
+      "sha256": "19482a68f3c54aa7e21de89be1c0bb1bcba5984978ab7ff2b9cceb164a7bf4a4",
+      "bytes": 778
+    }
+  ],
+  "raw_originals_included": false,
+  "generated_notes_included": false,
+  "new_source_admission": false,
+  "upload_performed": false
+}

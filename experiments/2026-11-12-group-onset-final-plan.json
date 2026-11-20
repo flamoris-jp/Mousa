@@ -1,0 +1,174 @@
+{
+  "created_at_utc": "2026-11-12T14:27:33.230188+00:00",
+  "assignment_sha256": "94a2fa8d97c9978c6f6991fb5589a2c5fccf179ebb7e19b5d32d01584fbb6c2e",
+  "prior_intake_screen_sha256": "9069a199d7478fdf8e5dc9fa1fcd38b6a10f984dfc161cb9b999744812b607ac",
+  "prior_intake_plan_sha256": "e5c6b43592cfd89d4efe995dd01a0f001c10726bd329f2d3a56f9cbc9f162c30",
+  "train_ids": [
+    "mutopia-376",
+    "mutopia-888",
+    "mutopia-889",
+    "mutopia-789",
+    "mutopia-583",
+    "mutopia-1578",
+    "mutopia-1558",
+    "mutopia-370",
+    "mutopia-98-legacy",
+    "mutopia-263-legacy",
+    "mutopia-904",
+    "mutopia-2080",
+    "mutopia-2060",
+    "mutopia-2061",
+    "mutopia-186",
+    "mutopia-487"
+  ],
+  "diagnostic_ids": [
+    "640",
+    "921"
+  ],
+  "source_sha256": [
+    "112c3b61dab55f58bc44d9f3522ef21b3479ffa1953097783ff8c4f10e40175d",
+    "13ec851eb00ca9aba345cad50f03bdb3b189f566f38d094a1e6b839765b3d678",
+    "2e1c2f560c5fecf1646a9435f03f1efe377fc63ca1b1137a8f6192ae1dc921f9",
+    "3235864dce0f7a59f1eb348bda55065263c0366267e32f27ce6240c9dde3f6b5",
+    "37b97075c873529760c96539f9894ec6eb99cc1065d76344f7b1fc397d6b63d4",
+    "4592e80dbc7e4bb76c9f8009e488774ccd751f08bf9f09cb3da83665471d345d",
+    "50a29ba4579b984c24b2e13ec4fafb08c468c6c5db6bd9313d9134b00cf8e8c9",
+    "556a50d0f00433f6973076704677eeb2b44c8dc81b1763b3b6d1dc0b716d3d5b",
+    "631bcd481e09c1493191959ec3264c3513c4a93177ffc6d833dea4f4952b659b",
+    "64cf1e5040bb857a7aba4b733fbd04c888b128998fce325fedea259c095e94fb",
+    "6cf3c60882c186ec642383caf4c5b265778d53159225b56dc121c4b595cdaf9d",
+    "6e097cb82d30524335a19a2adb1cbf79cf6b070f7059182f0dc9d34ca3fc3848",
+    "80f94141dff97aabb3cf37e1ccc3f6ac41563dd4421d0a648786a8f8e36efc68",
+    "873b2934c4daaedae780d6a0adf0b43fb5302ec5499bfe5ff8d4a95d5efad5bf",
+    "b02e65def39bab988838d3d2e82ad9763f1b5b6b71b5a4c70e8f7b6d12eece8c",
+    "b19f8e0d783915e80e33cc4f622ef9623994ab89f114a53983c3f628265b798b",
+    "cc45d10d7c21e858f37d4096979d4706bcfcaec400ef89abc1ac66378d51faa1",
+    "f849eace28acf450e306803203499aed4830cfba1a5cb8fe0953f594be15ffb9"
+  ],
+  "frozen_hashes": {
+    "tools/compare_cornelius_augmentation.py": "cbca22666e8ae6a3125174fcee64c013a83263a2cf3f684d33d3e0dbc56c9981",
+    "src/mousa/context_onset_gate.py": "32ff6404caf451e18649c85462f32c1bcca8389b434a23d9c4ec1d6d09f8af0c",
+    "src/mousa/onset_gate_model.py": "6cfafbcb5f7cdcb9d3279b460b66bdf88b1f4a3f918312639cdb69cc0a89c92d",
+    "src/mousa/optimized_feasible_generation.py": "fb1a5298b344c375e49f0abf6bdd39b400178a0b869624cce3c6ceb94f4ea121",
+    "src/mousa/feasible_context_generation.py": "57ff1dabc40a05af14f585701a9852dc6e699ba508cdadd00b8754ff1b24d783",
+    "tools/compare_context_onset_gate.py": "a4838f8c1e38b591e9366269ecabaabcc0a66bffab1031b68beddc942980f78a",
+    "tools/compare_onset_gate_models.py": "07a2bfaf79bc8e3b37c0982657056e34d8e6bd117ba03c5fa913bfaad17c4784",
+    "datasets/research-exploratory-multifamily-20261112.json": "bfcb2777ca6af1fbf41e957809a0fd35c6291e9bb3ae14182fd7ba1c9a86f6d7",
+    "datasets/research-cornelius583-training-assignment.json": "9ef48d43a1aa6670a0c1ae0824b03fcf0c894f6d299679cb820c0ff27e283d09",
+    "datasets/research-cornelius583-reserved-20261112.json": "dfa52be1c8c70cb967b468d2c970b0b4a53b4bba8ca6fd97c029bf16ce2e8bf7",
+    "src/mousa/overlap_midi.py": "1afc11bf6b6985a2eb22ebe5302b707d39378291e27b6299fde82564c167c867",
+    "datasets/research-frozen-schubert-transfer-20261112.json": "994fcc3cfbb8edc47faec4a8635b312c7c54d44ad8e575948edefb1f66b3c910",
+    "datasets/research-frozen-foster-transfer-20261112.json": "f075804c974c6987e342b62d9caf98c209c631efd8ea7bd74d434bd6ff17b4eb",
+    "datasets/research-new-cohorts-cycle29-20261112.json": "2b5461f5f81681c1aba50d5bc0b937d0d1411bb694e111cf6d541080fae997ef",
+    "datasets/research-new-cohorts-cycle30-20261112.json": "d3816534636fb4eb67a1f6d966456dc6752e4a5643be43a087c35fbebfd9b790",
+    "datasets/research-new-cohorts-cycle32-20261112.json": "4e7763e89e1844fbc5ce445029b3a08e266fa52365c9cccb36895c0ba1b66636",
+    "datasets/research-new-cohorts-cycle33-20261112.json": "c5ace67d664cb7c547e079d954da3704f61e51c6388622c6f19a76eae7e2a122",
+    "experiments/2026-11-12-sixteen-work-expansion-plan.json": "e5c6b43592cfd89d4efe995dd01a0f001c10726bd329f2d3a56f9cbc9f162c30",
+    "experiments/2026-11-12-sixteen-work-expansion-screen.json": "9069a199d7478fdf8e5dc9fa1fcd38b6a10f984dfc161cb9b999744812b607ac",
+    "src/mousa/group_onset_model.py": "c00116f530ae7ed8588f14f29825171f182916f6c1c8112a2ea5e2dcbe59c55b",
+    "src/mousa/onset_groups.py": "428a2ae3afb7bd75cc067c67188df02b94626d41dd19c1496e3e6ff4f866737d",
+    "tests/test_group_onset_model.py": "e12de8b5097cd8be0baaf58d76ef788a18875da0ddebe545761a505d440f369a",
+    "tools/compare_group_onsets.py": "14acce2edfe7db54928eec161e74fcd8342389873204111a91fb5a01ef9b375c",
+    "tools/compare_bounded_corpus_expansion.py": "7f6f6ae8ca6fefbe52b2735f5dab56c0b9f653ccc77dbc95f40d52bc784d66f6",
+    "tools/compare_approved_expansion.py": "ce34f58f67d1947697a80610cc48b6850380c5f1884260f6c78e4a8fc6fb459b"
+  },
+  "outcome": "Group-onset delta only. Initial0..12288, later1..12288; separate first/later pools. All sourcegroups retained for fit.",
+  "arms": [
+    "global",
+    "previous_cardinality_k4"
+  ],
+  "formula": "Uniform prior total1. Context=(local_count+4*global_smoothed_probability)/(local_count_total+4); unseencontext global.",
+  "generation": "Botharms empirical <=3note templates frequencyweighted, empirical anchor frequencyweighted, same RNG call policy. Template fields=(relativepitch,gate,velocity,releasevelocity) in originalgroupmember order. Count implicit. Groupdelta draw truncated to remaining support then template/anchor stages;64 whole-group rejection attempts,256totalnotes/groups,9216ticks,tail<=384,seeds0..4. No clipping or quantization.",
+  "generation_likelihood": "Timing teacher-forced NLL is NOT joint template/pitch/gate probability and NOT feasibility-conditioned generation likelihood.",
+  "template_exclusions": ">3note templates excluded from generation only; full counts and fraction reported. Pitchrange/gateoverflow/activepolyphony/samepitch/note-budget rejects counted. No template-only copy waiver.",
+  "copy_guard": "All16 training plus observed640/921. Exact8interval check on generated and canonical note order. Allflags/failures retained, no retries or selection.",
+  "cpu_seconds": 60,
+  "cpu_policy": "Shared process CPU budget checked before bounded fits/evaluations/generation, not hardpreemption. Missingarms/seeds explicit; incomplete runs preclude fair outcome ranking.",
+  "metrics": "Equal-work groupdeltaNLL and groupcounts, generated note metrics complete-only means with denominators, matchedseed statuses, distinctonset validation, exacttemplate retention and events/group distribution.",
+  "synthetic_preflight": {
+    "works": 16,
+    "botharms": true,
+    "real_fit": false
+  },
+  "data_summary": {
+    "mutopia-376": {
+      "notes": 159,
+      "groups": 159
+    },
+    "mutopia-888": {
+      "notes": 38,
+      "groups": 38
+    },
+    "mutopia-889": {
+      "notes": 47,
+      "groups": 47
+    },
+    "mutopia-789": {
+      "notes": 120,
+      "groups": 120
+    },
+    "mutopia-583": {
+      "notes": 80,
+      "groups": 80
+    },
+    "mutopia-1578": {
+      "notes": 170,
+      "groups": 170
+    },
+    "mutopia-1558": {
+      "notes": 289,
+      "groups": 289
+    },
+    "mutopia-370": {
+      "notes": 108,
+      "groups": 108
+    },
+    "mutopia-98-legacy": {
+      "notes": 131,
+      "groups": 127
+    },
+    "mutopia-263-legacy": {
+      "notes": 1394,
+      "groups": 789
+    },
+    "mutopia-904": {
+      "notes": 628,
+      "groups": 398
+    },
+    "mutopia-2080": {
+      "notes": 99,
+      "groups": 96
+    },
+    "mutopia-2060": {
+      "notes": 121,
+      "groups": 121
+    },
+    "mutopia-2061": {
+      "notes": 70,
+      "groups": 68
+    },
+    "mutopia-186": {
+      "notes": 383,
+      "groups": 336
+    },
+    "mutopia-487": {
+      "notes": 313,
+      "groups": 313
+    },
+    "640": {
+      "notes": 98,
+      "groups": 98
+    },
+    "921": {
+      "notes": 92,
+      "groups": 83
+    }
+  },
+  "limitations": [
+    "No raw eventNLL comparison: group and event outcomes differ.",
+    "Alreadyobserved diagnostics, not fresh test; withintrain links from intake retained.",
+    "No truevoice, chordfunction, melody or human quality labels.",
+    "Raw template reuse yields private research candidates only, not public-release clearance.",
+    "Same seeds do not align later random decisions after different groupdelta draws/rejections."
+  ]
+}

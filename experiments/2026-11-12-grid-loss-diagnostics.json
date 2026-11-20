@@ -1,0 +1,65 @@
+[
+  {
+    "work_id": "mutopia-1040",
+    "original_sha256": "c23c9ad4a9604cc0cdd502689c37c95a194c5b1d0bd21dd75ad6e6832bf0d692",
+    "grid": {
+      "boundary_count": 99,
+      "off_grid_count": 5,
+      "max_tick_error": "44",
+      "mean_tick_error": "134/99",
+      "collapsed_notes_if_rounded": 2,
+      "min_exact_steps_per_quarter": 384,
+      "rounding_rule": "nearest sixteenth; ties upward; diagnostic only",
+      "tempo_map_ignored_by_rhythm_tokens": true,
+      "volume_map_ignored_by_rhythm_tokens": true,
+      "program_map_ignored_by_rhythm_tokens": true
+    },
+    "training_used": false,
+    "scored": false,
+    "projection": "rejected",
+    "reason": "off-grid timing; no quantization",
+    "exact_selected_roundtrip": true
+  },
+  {
+    "work_id": "mutopia-1585",
+    "original_sha256": "b0f8bb73e26ceaf153ce333468f4f41e3279760a3f9d3c551fda7ea496f3590f",
+    "grid": {
+      "boundary_count": 201,
+      "off_grid_count": 6,
+      "max_tick_error": "22",
+      "mean_tick_error": "30/67",
+      "collapsed_notes_if_rounded": 2,
+      "min_exact_steps_per_quarter": 384,
+      "rounding_rule": "nearest sixteenth; ties upward; diagnostic only",
+      "tempo_map_ignored_by_rhythm_tokens": true,
+      "volume_map_ignored_by_rhythm_tokens": true,
+      "program_map_ignored_by_rhythm_tokens": true
+    },
+    "training_used": false,
+    "scored": false,
+    "projection": "rejected",
+    "reason": "off-grid timing; no quantization",
+    "exact_selected_roundtrip": true
+  },
+  {
+    "work_id": "mutopia-1587",
+    "original_sha256": "ead79c2eaca7f75bc6cfbc7a141c62d873cd7a4fca217fc31c056945fde1c46e",
+    "grid": {
+      "boundary_count": 217,
+      "off_grid_count": 18,
+      "max_tick_error": "22",
+      "mean_tick_error": "270/217",
+      "collapsed_notes_if_rounded": 6,
+      "min_exact_steps_per_quarter": 384,
+      "rounding_rule": "nearest sixteenth; ties upward; diagnostic only",
+      "tempo_map_ignored_by_rhythm_tokens": true,
+      "volume_map_ignored_by_rhythm_tokens": true,
+      "program_map_ignored_by_rhythm_tokens": true
+    },
+    "training_used": false,
+    "scored": false,
+    "projection": "rejected",
+    "reason": "off-grid timing; no quantization",
+    "exact_selected_roundtrip": true
+  }
+]

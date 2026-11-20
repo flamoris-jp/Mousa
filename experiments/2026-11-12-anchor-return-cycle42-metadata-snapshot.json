@@ -1,0 +1,80 @@
+{
+  "cycle": 42,
+  "kind": "immutable_metadata_only_snapshot",
+  "files": [
+    {
+      "relative_path": "experiments/2026-11-12-anchor-return-cycle41-next-proposal.json",
+      "bytes": 5194,
+      "sha256": "81f561a1fea459be7247435a657f530eb451d5660a0624bc4601f16d556b7ef4"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-anchor-return-cycle42-before-fit.json",
+      "bytes": 867,
+      "sha256": "9f6f50fae04b845ee1545fa55959a837f9c914c48970f666917fd1530ec2d7da"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-anchor-return-cycle42-clearance.json",
+      "bytes": 223,
+      "sha256": "cf52cd79b2c28e2b7ba37514af1ea7b1b7dd2ad6da67397da16b9e274d8cd7d6"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-anchor-return-cycle42-fit-journal.json",
+      "bytes": 404,
+      "sha256": "339e935ee029746141f83f08ca5070005d5e2be483675f3acdb81cada2ec30af"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-anchor-return-cycle42-independent-profile.json",
+      "bytes": 441,
+      "sha256": "0229d030fcf96126775ba64d1d4a1bc3864d8d9954738cbd465393843cf8f245"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-anchor-return-cycle42-independent-results.json",
+      "bytes": 688,
+      "sha256": "c3c3391cdb51604d4fec66c588227ae251ba69664fd9057660e661d07173dcf8"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-anchor-return-cycle42-overview.md",
+      "bytes": 3907,
+      "sha256": "89efcf59f302db5c11e8de12f5f375489be55cf6b064b7471d1c77463098b4e4"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-anchor-return-cycle42-plan.json",
+      "bytes": 16140,
+      "sha256": "b7c701198d906b335e3f5524f3c9bf4310592d668b75c0ad7e92ce55fd80599a"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-anchor-return-cycle42-results.json",
+      "bytes": 16413,
+      "sha256": "11f21001e0c18a2dd5ec89dbeebec83fd551dbb78ee61d21e0c3f7d93bcb589d"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-anchor-return-cycle42-verification.json",
+      "bytes": 2120,
+      "sha256": "17d233254cd23d048dc8e6a7009ca1faf762b3f6577d30cb0f3622a9665bf00a"
+    },
+    {
+      "relative_path": "src/mousa/anchor_return_cycle42.py",
+      "bytes": 3043,
+      "sha256": "e806c8ab0e19971b1d46334d1a339e98bce72336adca68eb48b6846573644c9a"
+    },
+    {
+      "relative_path": "tests/test_anchor_return_cycle42.py",
+      "bytes": 2891,
+      "sha256": "f84c9580975a2861009fc97dea85b8725c11f641f04ac9f809a84108da99d12f"
+    },
+    {
+      "relative_path": "tools/compare_anchor_return_cycle42.py",
+      "bytes": 7775,
+      "sha256": "ed09ee7f0c9349d6567a412ceffa27a6576059f2925f04f5eb8cc041ca186aeb"
+    }
+  ],
+  "file_count": 13,
+  "total_bytes": 60106,
+  "raw_notes_included": false,
+  "media_included": false,
+  "uploaded": false,
+  "unique_paths_asserted": true,
+  "all_hashes_verified": true,
+  "independent_profile_and_results_included": true,
+  "manifest_sha256": "2a2b46c909d1133cc9308a4d331594bcab0ae8537e2c8347c9dc10d7a655e0c7"
+}

@@ -1,0 +1,28 @@
+{
+  "role": "human-review-only-screen-blocked-unchanged",
+  "files": [
+    {
+      "filename": "2026-11-13-motif-cycle43-review-plan.json",
+      "sha256": "d64a2c90e33af1447246796dc0a314a50663df51a9c751258fbc28b6806b877a",
+      "bytes": 2250
+    },
+    {
+      "filename": "2026-11-13-motif-cycle43-evidence.json",
+      "sha256": "37b7406d140d0c4eb28bf02e81dad15d98018ecc4d2751e7d2c8cda1d561b859",
+      "bytes": 24374
+    },
+    {
+      "filename": "2026-11-13-motif-cycle43-human-review.md",
+      "sha256": "089ba31720048e19354eddfc10fb966d6ab24ef985d888436637ab75fd8ed84d",
+      "bytes": 4468
+    },
+    {
+      "filename": "2026-11-13-motif-cycle43-blank-review.json",
+      "sha256": "36780de6dfd01dad30055468c1eae05bbbbedd29c50d109586efd2eea8bcac60",
+      "bytes": 324
+    }
+  ],
+  "raw_media_included": false,
+  "human_ratings": null,
+  "training_authorized": false
+}

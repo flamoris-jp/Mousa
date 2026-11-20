@@ -1,0 +1,35 @@
+{
+  "cycle": 35,
+  "created_at_utc": "2026-11-12T14:51:47.885158+00:00",
+  "status": "immutable-storage-snapshot-prepared-not-uploaded",
+  "files": [
+    {
+      "relative_filename": "originals/mutopia-2243.mid",
+      "sha256": "cbcb7f97c501d0e1e7eb4694cd7fe3f132870e187a2374dd0023ffe31f836706",
+      "bytes": 13006,
+      "role": "rights-reviewed reserve, not fitted, not scored"
+    },
+    {
+      "relative_filename": "metadata/research-new-cohorts-cycle35-20261112.json",
+      "sha256": "dc3f8c935e2a29b87b7f362bd9b5c8ac5d756b26f1eeda25314b88e7646693dd",
+      "bytes": 11888,
+      "role": "immutable rights/source review; pending139/141 references do not authorize their upload"
+    }
+  ],
+  "original_count": 1,
+  "original_bytes": 13006,
+  "selected_track": 1,
+  "selected_notes": 169,
+  "original_preservation": "Exact original MIDI bytes, all tracks, rests, EOT and controls unchanged. No cropped or converted source.",
+  "rights_role": "Rights-reviewed reserve, not fitted and not scored; not part of current16 training assignment.",
+  "support_blocker": "First onset12672 exceeds existing model support12288. Exact reader acceptance does not admit source to model; do not trim the silence.",
+  "independence_limit": "Anonymous contributor identity cannot establish person-level independence. Keep all PurcellKingArthur/MacfarrenChappell1843 sibling arrangements and tracks linked.",
+  "excluded_from_transfer": [
+    "mutopia-139 original MIDI",
+    "mutopia-141 original MIDI",
+    "historical scan PDF",
+    "rendered image evidence"
+  ],
+  "no_public_redistribution": true,
+  "no_usage_ledger_created": true
+}

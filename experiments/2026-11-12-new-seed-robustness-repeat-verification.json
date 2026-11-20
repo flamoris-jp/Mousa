@@ -1,0 +1,304 @@
+{
+  "initial_repeat_metrics_identical": true,
+  "final_replay_metrics_identical": true,
+  "all40_notes_bytes_identical": true,
+  "report_digests": {
+    "initial": "f7b10acede8eb5387e23c56591fb70b8e35dc961febffdb931e416dc194e34c2",
+    "repeat": "d0f01ce27248088dc53c66419f44c2515bd43346b90f91503b95271b095ead42",
+    "final": "9aa246dda116590e3f07fa2ba11c3bfe7581f92af90f8d01daa40af2b725ccdc",
+    "final_exact_exclusions": "3db5bcae9a41cf10bc958960a775f914da2183d1a5bf2968726adf56e379b01f"
+  },
+  "excluded_fields": [
+    "cpu_seconds",
+    "plan.created_at_utc",
+    "plan.new_code_sha256 driver only"
+  ],
+  "driver_change": "After initial results, historical audit excludes only four exact own experiment filenames: initial-plan, results, replay-plan, repeat-verification. No other seed records excluded. Model, generation and metrics unchanged; final code rerun all40 note bytes and metrics identical.",
+  "safety": [
+    {
+      "condition": "timing0_pitch0",
+      "seed": 100,
+      "max_polyphony": 2,
+      "tail_ticks": 7,
+      "sha256": "4e94afdb7bf5d41aa7df3478902319183feb258f96b80eb897b62927c63a1d39"
+    },
+    {
+      "condition": "timing0_pitch0",
+      "seed": 101,
+      "max_polyphony": 2,
+      "tail_ticks": 384,
+      "sha256": "5dda63329c367c0ce7bc264ecb73335fa5631be40b3d37f092a59b4001d2e48e"
+    },
+    {
+      "condition": "timing0_pitch0",
+      "seed": 102,
+      "max_polyphony": 3,
+      "tail_ticks": 384,
+      "sha256": "dabcfd52fc1e93990e68591e2b8e16c05dcf866943f0f11b6a2c2c13f990b158"
+    },
+    {
+      "condition": "timing0_pitch0",
+      "seed": 103,
+      "max_polyphony": 2,
+      "tail_ticks": 343,
+      "sha256": "dbe899bc41a7fdcd29cc20560683d51a6966b3987d15278deeb24efe2357665f"
+    },
+    {
+      "condition": "timing0_pitch0",
+      "seed": 104,
+      "max_polyphony": 2,
+      "tail_ticks": 384,
+      "sha256": "95b2511bdfbd76b10d9b99f576d64dc84265757171fe5253d2b5ef2f44a0b53a"
+    },
+    {
+      "condition": "timing0_pitch0",
+      "seed": 105,
+      "max_polyphony": 2,
+      "tail_ticks": 288,
+      "sha256": "f552462ebb7edc524e5f5e59dc6ac59bae7425d1dcb5b2682ef533b94c645a18"
+    },
+    {
+      "condition": "timing0_pitch0",
+      "seed": 106,
+      "max_polyphony": 2,
+      "tail_ticks": 288,
+      "sha256": "633446ea3f5ae44b87551cb45b2ffb12c6b0dc84000183bee694897e420ae3b6"
+    },
+    {
+      "condition": "timing0_pitch0",
+      "seed": 107,
+      "max_polyphony": 2,
+      "tail_ticks": 96,
+      "sha256": "e8269b0ef40fe9115585af2636de2ecc8cbd544e96740787bc17932edcd7ba65"
+    },
+    {
+      "condition": "timing0_pitch0",
+      "seed": 108,
+      "max_polyphony": 2,
+      "tail_ticks": 199,
+      "sha256": "d37b35071feb841873453b138a5817bbc2ad833f571b9fb6a8fb64a95743cc74"
+    },
+    {
+      "condition": "timing0_pitch0",
+      "seed": 109,
+      "max_polyphony": 3,
+      "tail_ticks": 0,
+      "sha256": "2d16c2ca92716191a613dcd4967297cda3db4baae35a884054d76470b2451376"
+    },
+    {
+      "condition": "timing0_pitch1",
+      "seed": 100,
+      "max_polyphony": 2,
+      "tail_ticks": 192,
+      "sha256": "f884b61f66ee5a13976e0a53155b1ba8e4a03d3281ac16a13b323bb4651b9cf3"
+    },
+    {
+      "condition": "timing0_pitch1",
+      "seed": 101,
+      "max_polyphony": 2,
+      "tail_ticks": 0,
+      "sha256": "769be08e0ba75ae39dfc0476f7cb0d5c3d1b256e93f3b608c9f1fba989b3eb30"
+    },
+    {
+      "condition": "timing0_pitch1",
+      "seed": 102,
+      "max_polyphony": 2,
+      "tail_ticks": 384,
+      "sha256": "7a98ac2f66abb6614ffa3c2e852047142adfdaccc23e67f5feda39d9d3970793"
+    },
+    {
+      "condition": "timing0_pitch1",
+      "seed": 103,
+      "max_polyphony": 2,
+      "tail_ticks": 192,
+      "sha256": "9a4fce91714dbc2b406f575d4b8120c5cbc208327dabea83a7fd294da609d1d3"
+    },
+    {
+      "condition": "timing0_pitch1",
+      "seed": 104,
+      "max_polyphony": 3,
+      "tail_ticks": 96,
+      "sha256": "22992f002ed6b45c85177f88c13453bcbfd1c501322d54f86ae9d9fcea3b83d9"
+    },
+    {
+      "condition": "timing0_pitch1",
+      "seed": 105,
+      "max_polyphony": 2,
+      "tail_ticks": 313,
+      "sha256": "a4e3d3f57732c9f4292eca6ad0de07e4b5ae7c9420d04a052c422a7839752da4"
+    },
+    {
+      "condition": "timing0_pitch1",
+      "seed": 106,
+      "max_polyphony": 2,
+      "tail_ticks": 384,
+      "sha256": "59adc8ffb86883962881a5f585aa3c1adca79f7d39b2111d725a3588eb240a75"
+    },
+    {
+      "condition": "timing0_pitch1",
+      "seed": 107,
+      "max_polyphony": 2,
+      "tail_ticks": 288,
+      "sha256": "18be3d0774f69a0767c298cc9e787a07ec82ea4a33558661689bd52c7f8c9d51"
+    },
+    {
+      "condition": "timing0_pitch1",
+      "seed": 108,
+      "max_polyphony": 2,
+      "tail_ticks": 384,
+      "sha256": "356a49e45e3bd3ccbbd086927c0f098f9316e552fbc9ce243aa046685ab3c5a4"
+    },
+    {
+      "condition": "timing0_pitch1",
+      "seed": 109,
+      "max_polyphony": 2,
+      "tail_ticks": 288,
+      "sha256": "3149176c00bdc5c50a4beb6a90560d463379cb189711db62fbaabc32e0fa5c2d"
+    },
+    {
+      "condition": "timing1_pitch0",
+      "seed": 100,
+      "max_polyphony": 2,
+      "tail_ticks": 96,
+      "sha256": "1bc05b64c1340aea884eb3d1236e25d54f841cce21687379fc0c3707e914698f"
+    },
+    {
+      "condition": "timing1_pitch0",
+      "seed": 101,
+      "max_polyphony": 3,
+      "tail_ticks": 384,
+      "sha256": "aad72a9e8d4967e523344bd03c0048f5b857a34f6f598787308dd62ab7eb4bf1"
+    },
+    {
+      "condition": "timing1_pitch0",
+      "seed": 102,
+      "max_polyphony": 3,
+      "tail_ticks": 384,
+      "sha256": "ce0238abebe9f974712e2c75ec751b6ec4f3f629bd35397f821653f1505111f9"
+    },
+    {
+      "condition": "timing1_pitch0",
+      "seed": 103,
+      "max_polyphony": 2,
+      "tail_ticks": 53,
+      "sha256": "c5697ed39ac8d8f24d98a454dd59bcd25f3aa61f67c2c2e965faf2037f0f8858"
+    },
+    {
+      "condition": "timing1_pitch0",
+      "seed": 104,
+      "max_polyphony": 2,
+      "tail_ticks": 288,
+      "sha256": "a441852f53effebd653f0be210a806eae2e24a4b4081a65db583d783738de05e"
+    },
+    {
+      "condition": "timing1_pitch0",
+      "seed": 105,
+      "max_polyphony": 2,
+      "tail_ticks": 384,
+      "sha256": "8ab77f7e762293c3f398c46ea526640ef53b7fee616feaa6f7b3351b6e987cca"
+    },
+    {
+      "condition": "timing1_pitch0",
+      "seed": 106,
+      "max_polyphony": 2,
+      "tail_ticks": 96,
+      "sha256": "52c15f13c93afb51d57577ee82841ef6d8263c5f1e88438636608d845227de2d"
+    },
+    {
+      "condition": "timing1_pitch0",
+      "seed": 107,
+      "max_polyphony": 2,
+      "tail_ticks": 288,
+      "sha256": "8da4a45dda0b8019a46ab96b3d4815b3804abadcea7e9ff65c484702255948ab"
+    },
+    {
+      "condition": "timing1_pitch0",
+      "seed": 108,
+      "max_polyphony": 2,
+      "tail_ticks": 384,
+      "sha256": "63463cfcf517c0f45b5ae8d5251e99872eb2cd3175d93fd7308343aa9147f7bb"
+    },
+    {
+      "condition": "timing1_pitch0",
+      "seed": 109,
+      "max_polyphony": 1,
+      "tail_ticks": 384,
+      "sha256": "925c30dbc85a68bed186dfa9d5f3dfcabd438b84edc9d3698e7955d2485936f9"
+    },
+    {
+      "condition": "timing1_pitch1",
+      "seed": 100,
+      "max_polyphony": 2,
+      "tail_ticks": 224,
+      "sha256": "8a4dcfbf9a9367d46c9c13b99456abdf0cb76380ba0a88c231beefb6b493aef6"
+    },
+    {
+      "condition": "timing1_pitch1",
+      "seed": 101,
+      "max_polyphony": 3,
+      "tail_ticks": 221,
+      "sha256": "99818519a04cc48f57f05c6840faff0984e3d04476770003307066caab1b7023"
+    },
+    {
+      "condition": "timing1_pitch1",
+      "seed": 102,
+      "max_polyphony": 3,
+      "tail_ticks": 384,
+      "sha256": "50ba1d3338a3135afc467885dddd58a1e459a369f7bf92598c10a397ef1fabe7"
+    },
+    {
+      "condition": "timing1_pitch1",
+      "seed": 103,
+      "max_polyphony": 2,
+      "tail_ticks": 192,
+      "sha256": "06e16d0a9f44671ed2bf14ea579614faa312010d90e544770dce67f3a819d104"
+    },
+    {
+      "condition": "timing1_pitch1",
+      "seed": 104,
+      "max_polyphony": 2,
+      "tail_ticks": 384,
+      "sha256": "2692ced3064063165c4e92f7bc1a8b68c12241e8908a526c61c3fb1578085dd9"
+    },
+    {
+      "condition": "timing1_pitch1",
+      "seed": 105,
+      "max_polyphony": 2,
+      "tail_ticks": 288,
+      "sha256": "3a7d364ff8c03c00acbadbd0494cc4dcfd02c9103a698b7f45589fe3406187d7"
+    },
+    {
+      "condition": "timing1_pitch1",
+      "seed": 106,
+      "max_polyphony": 2,
+      "tail_ticks": 192,
+      "sha256": "aba24dbe93ae51009242930791bad2ca655160cbdf8b69b52314753211a9e062"
+    },
+    {
+      "condition": "timing1_pitch1",
+      "seed": 107,
+      "max_polyphony": 2,
+      "tail_ticks": 384,
+      "sha256": "d22bc3176dfde0c770d5cfce65385762d13dbe02c0fbaab199889b3af76c27be"
+    },
+    {
+      "condition": "timing1_pitch1",
+      "seed": 108,
+      "max_polyphony": 2,
+      "tail_ticks": 384,
+      "sha256": "33f09b87a56eaa10349964e3033662448b8690e67b207a205f8b7df6a6aff344"
+    },
+    {
+      "condition": "timing1_pitch1",
+      "seed": 109,
+      "max_polyphony": 2,
+      "tail_ticks": 384,
+      "sha256": "2bbb25d451a7c1062270d556ec64aebf3668ca1adb7b07b1b0a792559e2cd88e"
+    }
+  ],
+  "limits": "New random draws only, not new music data or independent works; paired seeds do not align RNG paths.",
+  "driver_sha256": {
+    "initial": "60159224e0d62ba03075c841dad923e10536e7d4befe544a4013eef2aa083365",
+    "final": "6f9a0bd99e39f7b4747e9fd5df6b94008d52a7ce7787dffb09b7d139b4455c8d"
+  }
+}

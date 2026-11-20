@@ -1,0 +1,16 @@
+{
+  "scope": "Cycle23 exploratory four-versus-five-work comparison; supersedes historical reserved status only for this explicit training assignment",
+  "work_id": "mutopia-583",
+  "source_sha256": "631bcd481e09c1493191959ec3264c3513c4a93177ffc6d833dea4f4952b659b",
+  "rights_evidence": "datasets/research-cornelius583-reserved-20261112.json",
+  "technical_evidence": "datasets/research-cornelius583-technical-20261112.json",
+  "family_id": "daniel-johnson-university-society",
+  "training_role": "explicit exploratory augmentation after prior representation inspection; no previous predictive score",
+  "source_constraints": "Exact selected track1,80notes,original timing/velocity preserved in source. No lyrics, accompaniment or audio used in model.",
+  "related_evaluation_exclusions": ["mutopia-580"],
+  "exclusion_reason": "580shares contributor/publisher family. Prior580results remain historical; never report580as independent evaluation of the augmented model.",
+  "diagnostic_ids": ["mutopia-640", "mutopia-921"],
+  "diagnostic_status": "Both previously observed, not fresh or blind. Not reassigned to training.",
+  "quantity_limit": "Old4works/3conservativefamilies become5works/4families,364to444events. One single-pitch composition, not large-scale or general genre coverage.",
+  "publication": "No raw source MIDI, lyrics, weights or audio released; immutable prior rights/split snapshots remain unchanged."
+}

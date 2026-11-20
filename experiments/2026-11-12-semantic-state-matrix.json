@@ -1,0 +1,42 @@
+{
+  "scope": "Exhaustive216fictional schema-state combinations; no actualfeedback, modeltraining or semanticaccuracy labels",
+  "axes": {
+    "evidence_layers": 3,
+    "review_states": 4,
+    "actor_roles": 3,
+    "fictional_flags": 2,
+    "use_strings": 3
+  },
+  "summary": {
+    "submitted": 216,
+    "accepted": 24,
+    "rejected": 192,
+    "evidence_counts": {
+      "observed-source": 8,
+      "human-report": 8,
+      "hypothesis": 8
+    },
+    "review_counts": {
+      "missing": 6,
+      "pending": 6,
+      "rejected": 6,
+      "approved": 6
+    },
+    "rejection_counts": {
+      "synthetic_only": 108,
+      "unsupported_use": 12,
+      "evidence_provenance": 72
+    },
+    "training_eligible": 0,
+    "actual_human_reports": 0,
+    "interpretation": "Synthetic schema counts only; not semantic accuracy, consent, independent listeners or appeal."
+  },
+  "expected_valid": 24,
+  "expected_invalid": 192,
+  "interpretation": "Onlyfictionalmatching-role records withnone/schema-test usepass; evenapprovednevereligiblefortraining. Counts are combinatorial testcases,not listeners.",
+  "code_sha256": {
+    "src/mousa/semantic_evidence.py": "af6f7efba9c630a959aa81bfc778d493433e59a03b05f31e12d7725ecd83fa47",
+    "tests/test_semantic_evidence.py": "a760ff7e1bf750be372c2b774fcf3e03dd35e5918c02e09c5a3e3973860e5428",
+    "tests/test_semantic_state_matrix.py": "74cb2e592250b354915b4c0607cf39135596d0fdd907029768a10e7fa6d6449e"
+  }
+}

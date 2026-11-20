@@ -1,0 +1,24 @@
+{
+  "cycle": 30,
+  "state": "exploratory-training-used",
+  "assignment": "datasets/research-cycle30-twelve-work-assignment.json",
+  "result": "experiments/2026-11-12-twelve-work-expansion-results.json",
+  "result_sha256": "5a01d4f3e55dd25ea92865e8bf508dce03afeb587f5fcaeb10c603e4622f518b",
+  "added_works": [
+    {
+      "id": "mutopia-904",
+      "notes": 628,
+      "track": 1,
+      "source_sha256": "64cf1e5040bb857a7aba4b733fbd04c888b128998fce325fedea259c095e94fb"
+    },
+    {
+      "id": "mutopia-2080",
+      "notes": 99,
+      "track": 1,
+      "source_sha256": "112c3b61dab55f58bc44d9f3522ef21b3479ffa1953097783ff8c4f10e40175d"
+    }
+  ],
+  "rights_snapshot": "datasets/research-new-cohorts-cycle30-20261112.json",
+  "status_rule": "Supersedes historical reserved/unfitted snapshot only for actualtrainingstatus; underlyingrights/versionlimits remain. 640/921remainobserveduntraineddiagnostics, notfreshholdouts.",
+  "no_public_release": true
+}

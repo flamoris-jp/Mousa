@@ -1,0 +1,290 @@
+{
+  "mutopia-376": {
+    "dropped_notes": 0,
+    "dropped_summed_gate_ticks": 0,
+    "lost_sounding_union_ticks": 0,
+    "before": {
+      "notes": 159,
+      "summed_gate_ticks": 50112,
+      "sounding_union_ticks": 50112,
+      "overlap_timeline_ticks": 0,
+      "max_polyphony": 1,
+      "rest_ticks": 12480,
+      "total_ticks": 62592
+    },
+    "after": {
+      "notes": 159,
+      "summed_gate_ticks": 50112,
+      "sounding_union_ticks": 50112,
+      "overlap_timeline_ticks": 0,
+      "max_polyphony": 1,
+      "rest_ticks": 12480,
+      "total_ticks": 62592
+    },
+    "interpretation": "Deterministic lossy note selection, not verified melody. Original selected gates preserved; remaining overlaps allowed."
+  },
+  "mutopia-888": {
+    "dropped_notes": 0,
+    "dropped_summed_gate_ticks": 0,
+    "lost_sounding_union_ticks": 0,
+    "before": {
+      "notes": 38,
+      "summed_gate_ticks": 11520,
+      "sounding_union_ticks": 11520,
+      "overlap_timeline_ticks": 0,
+      "max_polyphony": 1,
+      "rest_ticks": 0,
+      "total_ticks": 11520
+    },
+    "after": {
+      "notes": 38,
+      "summed_gate_ticks": 11520,
+      "sounding_union_ticks": 11520,
+      "overlap_timeline_ticks": 0,
+      "max_polyphony": 1,
+      "rest_ticks": 0,
+      "total_ticks": 11520
+    },
+    "interpretation": "Deterministic lossy note selection, not verified melody. Original selected gates preserved; remaining overlaps allowed."
+  },
+  "mutopia-889": {
+    "dropped_notes": 0,
+    "dropped_summed_gate_ticks": 0,
+    "lost_sounding_union_ticks": 0,
+    "before": {
+      "notes": 47,
+      "summed_gate_ticks": 9216,
+      "sounding_union_ticks": 9216,
+      "overlap_timeline_ticks": 0,
+      "max_polyphony": 1,
+      "rest_ticks": 2304,
+      "total_ticks": 11520
+    },
+    "after": {
+      "notes": 47,
+      "summed_gate_ticks": 9216,
+      "sounding_union_ticks": 9216,
+      "overlap_timeline_ticks": 0,
+      "max_polyphony": 1,
+      "rest_ticks": 2304,
+      "total_ticks": 11520
+    },
+    "interpretation": "Deterministic lossy note selection, not verified melody. Original selected gates preserved; remaining overlaps allowed."
+  },
+  "mutopia-789": {
+    "dropped_notes": 0,
+    "dropped_summed_gate_ticks": 0,
+    "lost_sounding_union_ticks": 0,
+    "before": {
+      "notes": 120,
+      "summed_gate_ticks": 31680,
+      "sounding_union_ticks": 31680,
+      "overlap_timeline_ticks": 0,
+      "max_polyphony": 1,
+      "rest_ticks": 6144,
+      "total_ticks": 37824
+    },
+    "after": {
+      "notes": 120,
+      "summed_gate_ticks": 31680,
+      "sounding_union_ticks": 31680,
+      "overlap_timeline_ticks": 0,
+      "max_polyphony": 1,
+      "rest_ticks": 6144,
+      "total_ticks": 37824
+    },
+    "interpretation": "Deterministic lossy note selection, not verified melody. Original selected gates preserved; remaining overlaps allowed."
+  },
+  "mutopia-583": {
+    "dropped_notes": 0,
+    "dropped_summed_gate_ticks": 0,
+    "lost_sounding_union_ticks": 0,
+    "before": {
+      "notes": 80,
+      "summed_gate_ticks": 27840,
+      "sounding_union_ticks": 27840,
+      "overlap_timeline_ticks": 0,
+      "max_polyphony": 1,
+      "rest_ticks": 8256,
+      "total_ticks": 36096
+    },
+    "after": {
+      "notes": 80,
+      "summed_gate_ticks": 27840,
+      "sounding_union_ticks": 27840,
+      "overlap_timeline_ticks": 0,
+      "max_polyphony": 1,
+      "rest_ticks": 8256,
+      "total_ticks": 36096
+    },
+    "interpretation": "Deterministic lossy note selection, not verified melody. Original selected gates preserved; remaining overlaps allowed."
+  },
+  "mutopia-1578": {
+    "dropped_notes": 0,
+    "dropped_summed_gate_ticks": 0,
+    "lost_sounding_union_ticks": 0,
+    "before": {
+      "notes": 170,
+      "summed_gate_ticks": 49152,
+      "sounding_union_ticks": 49152,
+      "overlap_timeline_ticks": 0,
+      "max_polyphony": 1,
+      "rest_ticks": 3840,
+      "total_ticks": 52992
+    },
+    "after": {
+      "notes": 170,
+      "summed_gate_ticks": 49152,
+      "sounding_union_ticks": 49152,
+      "overlap_timeline_ticks": 0,
+      "max_polyphony": 1,
+      "rest_ticks": 3840,
+      "total_ticks": 52992
+    },
+    "interpretation": "Deterministic lossy note selection, not verified melody. Original selected gates preserved; remaining overlaps allowed."
+  },
+  "mutopia-1558": {
+    "dropped_notes": 0,
+    "dropped_summed_gate_ticks": 0,
+    "lost_sounding_union_ticks": 0,
+    "before": {
+      "notes": 289,
+      "summed_gate_ticks": 97344,
+      "sounding_union_ticks": 97344,
+      "overlap_timeline_ticks": 0,
+      "max_polyphony": 1,
+      "rest_ticks": 29760,
+      "total_ticks": 127104
+    },
+    "after": {
+      "notes": 289,
+      "summed_gate_ticks": 97344,
+      "sounding_union_ticks": 97344,
+      "overlap_timeline_ticks": 0,
+      "max_polyphony": 1,
+      "rest_ticks": 29760,
+      "total_ticks": 127104
+    },
+    "interpretation": "Deterministic lossy note selection, not verified melody. Original selected gates preserved; remaining overlaps allowed."
+  },
+  "mutopia-370": {
+    "dropped_notes": 0,
+    "dropped_summed_gate_ticks": 0,
+    "lost_sounding_union_ticks": 0,
+    "before": {
+      "notes": 108,
+      "summed_gate_ticks": 26880,
+      "sounding_union_ticks": 26880,
+      "overlap_timeline_ticks": 0,
+      "max_polyphony": 1,
+      "rest_ticks": 9984,
+      "total_ticks": 36864
+    },
+    "after": {
+      "notes": 108,
+      "summed_gate_ticks": 26880,
+      "sounding_union_ticks": 26880,
+      "overlap_timeline_ticks": 0,
+      "max_polyphony": 1,
+      "rest_ticks": 9984,
+      "total_ticks": 36864
+    },
+    "interpretation": "Deterministic lossy note selection, not verified melody. Original selected gates preserved; remaining overlaps allowed."
+  },
+  "mutopia-98-legacy": {
+    "dropped_notes": 4,
+    "dropped_summed_gate_ticks": 3456,
+    "lost_sounding_union_ticks": 0,
+    "before": {
+      "notes": 131,
+      "summed_gate_ticks": 30336,
+      "sounding_union_ticks": 26688,
+      "overlap_timeline_ticks": 2112,
+      "max_polyphony": 3,
+      "rest_ticks": 2496,
+      "total_ticks": 29184
+    },
+    "after": {
+      "notes": 127,
+      "summed_gate_ticks": 26880,
+      "sounding_union_ticks": 26688,
+      "overlap_timeline_ticks": 192,
+      "max_polyphony": 2,
+      "rest_ticks": 2496,
+      "total_ticks": 29184
+    },
+    "interpretation": "Deterministic lossy note selection, not verified melody. Original selected gates preserved; remaining overlaps allowed."
+  },
+  "mutopia-263-legacy": {
+    "dropped_notes": 605,
+    "dropped_summed_gate_ticks": 105600,
+    "lost_sounding_union_ticks": 0,
+    "before": {
+      "notes": 1394,
+      "summed_gate_ticks": 224160,
+      "sounding_union_ticks": 113952,
+      "overlap_timeline_ticks": 69120,
+      "max_polyphony": 4,
+      "rest_ticks": 2592,
+      "total_ticks": 116544
+    },
+    "after": {
+      "notes": 789,
+      "summed_gate_ticks": 118560,
+      "sounding_union_ticks": 113952,
+      "overlap_timeline_ticks": 4608,
+      "max_polyphony": 2,
+      "rest_ticks": 2592,
+      "total_ticks": 116544
+    },
+    "interpretation": "Deterministic lossy note selection, not verified melody. Original selected gates preserved; remaining overlaps allowed."
+  },
+  "mutopia-904": {
+    "dropped_notes": 230,
+    "dropped_summed_gate_ticks": 97536,
+    "lost_sounding_union_ticks": 384,
+    "before": {
+      "notes": 628,
+      "summed_gate_ticks": 224270,
+      "sounding_union_ticks": 112768,
+      "overlap_timeline_ticks": 69888,
+      "max_polyphony": 4,
+      "rest_ticks": 27392,
+      "total_ticks": 140160
+    },
+    "after": {
+      "notes": 398,
+      "summed_gate_ticks": 126734,
+      "sounding_union_ticks": 112384,
+      "overlap_timeline_ticks": 14350,
+      "max_polyphony": 2,
+      "rest_ticks": 27776,
+      "total_ticks": 140160
+    },
+    "interpretation": "Deterministic lossy note selection, not verified melody. Original selected gates preserved; remaining overlaps allowed."
+  },
+  "mutopia-2080": {
+    "dropped_notes": 3,
+    "dropped_summed_gate_ticks": 1728,
+    "lost_sounding_union_ticks": 0,
+    "before": {
+      "notes": 99,
+      "summed_gate_ticks": 26880,
+      "sounding_union_ticks": 24768,
+      "overlap_timeline_ticks": 2112,
+      "max_polyphony": 2,
+      "rest_ticks": 0,
+      "total_ticks": 24768
+    },
+    "after": {
+      "notes": 96,
+      "summed_gate_ticks": 25152,
+      "sounding_union_ticks": 24768,
+      "overlap_timeline_ticks": 384,
+      "max_polyphony": 2,
+      "rest_ticks": 0,
+      "total_ticks": 24768
+    },
+    "interpretation": "Deterministic lossy note selection, not verified melody. Original selected gates preserved; remaining overlaps allowed."
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "schema": "mousa.research-source-observations.v1",
+  "authority": "These observation records supersede historical reserved/predictive-unscored labels in immutable provenance snapshots. They do not change underlying rights or grant new training permission.",
+  "observations": [
+    {
+      "work_id": "mutopia-640",
+      "state": "predictive-observed",
+      "training_used": false,
+      "first_evaluation_cycle": 17,
+      "first_result_saved_at_utc": "2026-11-12T11:16:12.242517+00:00",
+      "source_sha256": "13ec851eb00ca9aba345cad50f03bdb3b189f566f38d094a1e6b839765b3d678",
+      "rights_snapshot": "datasets/research-adam640-reserved-20261112.json",
+      "frozen_plan": "experiments/2026-11-12-adam640-frozen-plan.json",
+      "result": "experiments/2026-11-12-adam640-results.json",
+      "result_sha256": "a6e08324a25301206500e1c408b807f06030ceca5c97820ccdd617faa08d9d37",
+      "future_use": "Observed diagnostic only unless explicitly reassigned to exploratory training with a new split ledger. Never call it fresh again. Retained rights snapshot is historical, not current evaluation status."
+    },
+    {
+      "work_id": "mutopia-1578",
+      "state": "predictive-observed",
+      "training_used": true,
+      "first_evaluation_cycle": 7,
+      "source_sha256": "6cf3c60882c186ec642383caf4c5b265778d53159225b56dc121c4b595cdaf9d",
+      "result": "experiments/2026-11-12-frozen-transfer-results.json",
+      "result_sha256": "a2e5a4b20ccc62b842ad32fba433e637f20f402efb7e918d9a2268f5a2bf2a27",
+      "record_note": "Backfilled in cycle 18 from immutable historical result, not a new evaluation or timestamp claim.",
+      "future_use": "Previously observed and now explicitly fitted in cycle29 exploratory expansion. Never use as independent evaluation of this augmented model; never fresh again.",
+      "training_reassignment": {
+        "cycle": 29,
+        "assignment": "datasets/research-cycle29-eight-work-assignment.json",
+        "assignment_sha256": "0637b2e26cf9cdffcf5930f0a516fc6d8f214f5f603340b58f874482be5ddbb4",
+        "clearance": "experiments/2026-11-12-eight-work-expansion-clearance.json",
+        "result": "experiments/2026-11-12-eight-work-expansion-results.json",
+        "result_sha256": "1a473495a2109f18430dd363cea12b28020fed6e4c2933c3f42abb7eb6e3a1c3",
+        "use": "Actual selected-track exploratory model fit; original historical evaluation result and source hash retained"
+      },
+      "subsequent_training_use": {
+        "cycle": 29,
+        "assignment": "datasets/research-cycle29-nine-work-assignment.json",
+        "result": "experiments/2026-11-12-nine-work-expansion-results.json",
+        "result_sha256": "9efe947a1b33fbdb370bf3398280a7e42aa4726bf565bbb2eba25a357c9a23b3",
+        "interpretation": "Also fitted in9work exploratory condition; immutable historical tests are not evaluation of this trained model."
+      }
+    },
+    {
+      "work_id": "mutopia-1558",
+      "state": "predictive-observed",
+      "training_used": true,
+      "first_evaluation_cycle": 7,
+      "source_sha256": "50a29ba4579b984c24b2e13ec4fafb08c468c6c5db6bd9313d9134b00cf8e8c9",
+      "result": "experiments/2026-11-12-frozen-transfer-results.json",
+      "result_sha256": "a2e5a4b20ccc62b842ad32fba433e637f20f402efb7e918d9a2268f5a2bf2a27",
+      "record_note": "Backfilled in cycle 18 from immutable historical result, not a new evaluation or timestamp claim.",
+      "future_use": "Previously observed and now explicitly fitted in cycle29 exploratory expansion. Never use as independent evaluation of this augmented model; never fresh again.",
+      "training_reassignment": {
+        "cycle": 29,
+        "assignment": "datasets/research-cycle29-eight-work-assignment.json",
+        "assignment_sha256": "0637b2e26cf9cdffcf5930f0a516fc6d8f214f5f603340b58f874482be5ddbb4",
+        "clearance": "experiments/2026-11-12-eight-work-expansion-clearance.json",
+        "result": "experiments/2026-11-12-eight-work-expansion-results.json",
+        "result_sha256": "1a473495a2109f18430dd363cea12b28020fed6e4c2933c3f42abb7eb6e3a1c3",
+        "use": "Actual selected-track exploratory model fit; original historical evaluation result and source hash retained"
+      },
+      "subsequent_training_use": {
+        "cycle": 29,
+        "assignment": "datasets/research-cycle29-nine-work-assignment.json",
+        "result": "experiments/2026-11-12-nine-work-expansion-results.json",
+        "result_sha256": "9efe947a1b33fbdb370bf3398280a7e42aa4726bf565bbb2eba25a357c9a23b3",
+        "interpretation": "Also fitted in9work exploratory condition; immutable historical tests are not evaluation of this trained model."
+      }
+    },
+    {
+      "work_id": "mutopia-370",
+      "state": "predictive-observed",
+      "training_used": true,
+      "first_evaluation_cycle": 8,
+      "source_sha256": "3235864dce0f7a59f1eb348bda55065263c0366267e32f27ce6240c9dde3f6b5",
+      "result": "experiments/2026-11-12-foster-transfer-results.json",
+      "result_sha256": "54ef1d6f4c406e70eefd62507dcb067ca12b5a245240bef98f28c645402f8fe5",
+      "record_note": "Backfilled in cycle 18 from immutable historical result, not a new evaluation or timestamp claim.",
+      "future_use": "Previously observed and now explicitly fitted in cycle29 exploratory expansion. Never use as independent evaluation of this augmented model; never fresh again.",
+      "training_reassignment": {
+        "cycle": 29,
+        "assignment": "datasets/research-cycle29-eight-work-assignment.json",
+        "assignment_sha256": "0637b2e26cf9cdffcf5930f0a516fc6d8f214f5f603340b58f874482be5ddbb4",
+        "clearance": "experiments/2026-11-12-eight-work-expansion-clearance.json",
+        "result": "experiments/2026-11-12-eight-work-expansion-results.json",
+        "result_sha256": "1a473495a2109f18430dd363cea12b28020fed6e4c2933c3f42abb7eb6e3a1c3",
+        "use": "Actual selected-track exploratory model fit; original historical evaluation result and source hash retained"
+      },
+      "subsequent_training_use": {
+        "cycle": 29,
+        "assignment": "datasets/research-cycle29-nine-work-assignment.json",
+        "result": "experiments/2026-11-12-nine-work-expansion-results.json",
+        "result_sha256": "9efe947a1b33fbdb370bf3398280a7e42aa4726bf565bbb2eba25a357c9a23b3",
+        "interpretation": "Also fitted in9work exploratory condition; immutable historical tests are not evaluation of this trained model."
+      }
+    },
+    {
+      "work_id": "mutopia-580",
+      "state": "predictive-observed",
+      "training_used": false,
+      "first_evaluation_cycle": 12,
+      "source_sha256": "dcd5efac22b5e91b7c87685058784396adb9ec5d69915764265ad68158dbb6e1",
+      "result": "experiments/2026-11-12-onset-gate-results.json",
+      "result_sha256": "1ded283490fd43f29dd316bf27eaab4efe3f2fb1873e564561b087512ae426c4",
+      "record_note": "Backfilled in cycle 18 from immutable historical result, not a new evaluation or timestamp claim.",
+      "future_use": "Observed diagnostic only; never fresh again. No reassignment to training in this cycle.",
+      "related_training_change": {
+        "cycle": 23,
+        "related_work": "mutopia-583",
+        "family": "Daniel Johnson / University Society",
+        "assignment": "datasets/research-cornelius583-training-assignment.json",
+        "consequence": "580isexcluded from augmented5model evaluation. Historical old4results remain valid as their own frozen observed diagnostics; do not claim580independent for583-trained models."
+      }
+    },
+    {
+      "work_id": "mutopia-921",
+      "state": "predictive-observed",
+      "training_used": false,
+      "first_evaluation_cycle": 22,
+      "source_sha256": "b19f8e0d783915e80e33cc4f622ef9623994ab89f114a53983c3f628265b798b",
+      "rights_snapshot": "datasets/research-chopin921-reserved-20261112.json",
+      "frozen_plan": "experiments/2026-11-12-chopin921-plan.json",
+      "independent_clearance": "experiments/2026-11-12-chopin921-independent-screen.json",
+      "result": "experiments/2026-11-12-chopin921-results.json",
+      "result_sha256": "ae5743799b173af101faf701f3e7fa72e09988c8f4eabbfc917e90e80be34458",
+      "future_use": "Observed diagnostic only, never fresh again. No reassignment to training. Immutable reserved-rights snapshot remains historical; this record supersedes its predictive-unscored status."
+    }
+  ],
+  "coverage_note": "This registry records the newer held-out works only. It is not a complete source inventory or a permission oracle. Older observed/training works retain their roles in the historical split manifests and reports."
+}

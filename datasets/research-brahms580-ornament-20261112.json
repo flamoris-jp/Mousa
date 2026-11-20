@@ -1,0 +1,34 @@
+{
+  "id": 580,
+  "reviewed_at": "2026-11-12T10:33:52.860692+00:00",
+  "source_line": 42,
+  "source_bar": 12,
+  "bar_start_tick": 18432,
+  "ppq": 384,
+  "notation": "f'2\\(\\melisma e'4 \\grace {f'16([ e']} d'8[) e'8]\\)\\melismaEnd",
+  "historical_evidence": "UniversitySociety volume7 PDFpage86 printed370 secondsystem: sequential vocalhalfF, quarterE, smallgraceF/E, thenD/Eeighths. No vocalchord or secondvoice.",
+  "midi_notes": [
+    {
+      "pitch": 64,
+      "start": 19200,
+      "end": 19655
+    },
+    {
+      "pitch": 65,
+      "start": 19534,
+      "end": 19630
+    },
+    {
+      "pitch": 62,
+      "start": 19584,
+      "end": 19776
+    }
+  ],
+  "verified": "Rendered MIDI has genuine overlapping channel1 notes: tripleactive19584..19630. Source notation is sequential monophonicgraceornament.",
+  "hypothesis_only": "OldLilyPond grace timing/slur playback, possibly merge of repeatedsamepitchE, causes durations extending over adjacent notes. Not proven without controlled originalversion render.",
+  "decision": "Retain originalMIDI; reject strictmonophonic model intake. Do not truncate, quantize, synthesize replacement, or reinterpret as intendedvocalpolyphony. Rightsconfirmation unaffected.",
+  "files": {
+    "ly_sha256": "f189cd3a2b6e6ac7af3c10935c928d02d27d0e9d989c9c22313306e33d0c9f0c",
+    "pdf_sha256": "c8fa55fafce82f31b95395d8a38a27b5f141c8b7034d18cf402dfb6bd623d37f"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "reviewed_at_utc": "2026-11-12T15:22:29.065072+00:00",
+  "decision": "PASS for fixed scoped experiment; no blocking issue found",
+  "plan": "experiments/2026-11-12-gate-context-final-plan.json",
+  "plan_sha256": "d2ea15dce6facbcba71f7cd3327ac74899eb0e48e90cfca5137575bc4a4bc836",
+  "all_frozen_hashes_match": true,
+  "independent_checks": {
+    "seed": 3771,
+    "random_fixtures": 12,
+    "exact_formula_comparisons": 1440,
+    "whole_template_generation_safety_and_repeat_cases": 144,
+    "old_global_cardinality_generation_exact_parities": 72,
+    "initial_full65537_support_normalization": true,
+    "work_reset_and_absolute_end_oracle_horizon_counts": true,
+    "CPU_stop_inside_proposal_loop": true,
+    "tick_oracle_timeline_cases": 200
+  },
+  "existing_targeted_tests": {
+    "total": 9,
+    "passed": 9
+  },
+  "causality_review": "Timing probability uses prior group context; only after current group is observed/accepted are its delta and gates used to form the next context. Absolute-end oracle confirms surviving earlier sustain. Rejected generation proposals never advance state.",
+  "limits": [
+    "Template gates are available in offline symbolic history, not inferred online note-off knowledge. No causal performance-learning claim.",
+    "CPU checks are cooperative, not hard interruption within a bounded fit/evaluation/draw.",
+    "Timeline union measures occupied note intervals, not perceptual sound after rendering or sustain controls.",
+    "Timing likelihood is not joint pitch/template/gate likelihood, and limited exact interval guard is not public release clearance."
+  ],
+  "real_source_fit_or_score": false
+}

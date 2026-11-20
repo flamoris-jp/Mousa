@@ -1,0 +1,18 @@
+{
+  "scope": "Descriptive existing14 training works; no fitting, unseen score or melody labels.",
+  "operation": "Group every selected note by exact original onset, retaining input index and all note fields. Restore exact input order.",
+  "limits": "Note-only view. Original metadata, channel-event order and MIDI bytes remain outside view. No voice assignment or chord-function inference.",
+  "metrics": [
+    "note_count",
+    "onset_group_count",
+    "multi_note_onset_groups",
+    "largest_onset_group",
+    "exact_note_state_roundtrip"
+  ],
+  "frozen_hashes": {
+    "datasets/research-cycle32-fourteen-work-assignment.json": "59988983a063e5355dd17a519fb25e3259baa348263a64c939a06f7a5fd3fbaa",
+    "src/mousa/onset_groups.py": "428a2ae3afb7bd75cc067c67188df02b94626d41dd19c1496e3e6ff4f866737d",
+    "tools/audit_onset_group_view.py": "76fd51fff8c2b0a3fc223788d95226ea1f7da0670d7e0ff76f80b7aeb3469959",
+    "tests/test_onset_groups.py": "f9a2eacdc700aa00d9fe3b9bb747b9b2655c96525cd776f5a708faa1e8221347"
+  }
+}

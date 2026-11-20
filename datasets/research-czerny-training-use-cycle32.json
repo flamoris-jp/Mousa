@@ -1,0 +1,23 @@
+{
+  "cycle": 32,
+  "state": "partial-factorized-training-used-not-evaluated",
+  "assignment": "datasets/research-cycle32-fourteen-work-assignment.json",
+  "failure_record": "experiments/2026-11-12-fourteen-work-initial-failure.json",
+  "added_works": [
+    {
+      "id": "mutopia-2060",
+      "track": 1,
+      "source_sha256": "4592e80dbc7e4bb76c9f8009e488774ccd751f08bf9f09cb3da83665471d345d",
+      "notes": 121
+    },
+    {
+      "id": "mutopia-2061",
+      "track": 2,
+      "source_sha256": "2e1c2f560c5fecf1646a9435f03f1efe377fc63ca1b1137a8f6192ae1dc921f9",
+      "notes": 70
+    }
+  ],
+  "scope": "New sources entered expanded factorized counts; subsequent expanded context constructor failed. Do not report complete14work fit/evaluation or treat as untouched. No full result exists.",
+  "rights_snapshot": "datasets/research-new-cohorts-cycle32-20261112.json",
+  "no_public_release": true
+}

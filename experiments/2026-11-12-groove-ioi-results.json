@@ -1,0 +1,328 @@
+{
+  "plan_sha256": "9d5c95249f51aa8f89b54ff4902513ac2d3129f971318caee8f0f07f3286519a",
+  "clearance_sha256": "f31d0427f70257b9d9b2bd87d6bfaa80d235de46f3de48c4395ecc761ca725ec",
+  "fit_performed": true,
+  "train_ids": [
+    "drummer1/session1/236",
+    "drummer1/session1/225",
+    "drummer2/session2/15",
+    "drummer2/session2/13",
+    "drummer3/session2/36",
+    "drummer3/session2/13",
+    "drummer4/session1/8",
+    "drummer4/session1/4",
+    "drummer5/session2/5",
+    "drummer5/session2/12",
+    "drummer6/session1/2",
+    "drummer6/session3/7"
+  ],
+  "diagnostics_now_predictively_observed": true,
+  "all_source_hashes_unchanged": true,
+  "results": {
+    "unigram": {
+      "train_events": 5034,
+      "train_performances": 12,
+      "context_transition_events": 5022,
+      "split_results": {
+        "validation": {
+          "performances": 4,
+          "events": 2758,
+          "per_performance": [
+            {
+              "id": "drummer7/session3/23",
+              "drummer": "drummer7",
+              "events": 144,
+              "sum_nll_nats": 808.2009623252275,
+              "mean_nll_nats": 5.61250668281408,
+              "initial_context_events": 1,
+              "unseen_previous_instrument_events": 0
+            },
+            {
+              "id": "drummer7/session3/26",
+              "drummer": "drummer7",
+              "events": 16,
+              "sum_nll_nats": 106.15502651558707,
+              "mean_nll_nats": 6.634689157224192,
+              "initial_context_events": 1,
+              "unseen_previous_instrument_events": 0
+            },
+            {
+              "id": "drummer8/session2/40",
+              "drummer": "drummer8",
+              "events": 1061,
+              "sum_nll_nats": 5440.052595096486,
+              "mean_nll_nats": 5.127288025538629,
+              "initial_context_events": 1,
+              "unseen_previous_instrument_events": 0
+            },
+            {
+              "id": "drummer8/session2/13",
+              "drummer": "drummer8",
+              "events": 1537,
+              "sum_nll_nats": 7891.064243512597,
+              "mean_nll_nats": 5.134069123950941,
+              "initial_context_events": 1,
+              "unseen_previous_instrument_events": 0
+            }
+          ],
+          "pooled_mean_nll_nats": 5.165146057813596,
+          "macro_mean_nll_nats": 5.627138247381961,
+          "drummer_count": 2,
+          "per_drummer": [
+            {
+              "drummer": "drummer7",
+              "performances": 2,
+              "events": 160,
+              "pooled_mean_nll_nats": 5.714724930255091,
+              "macro_mean_nll_nats": 6.123597920019136
+            },
+            {
+              "drummer": "drummer8",
+              "performances": 2,
+              "events": 2598,
+              "pooled_mean_nll_nats": 5.131299783914197,
+              "macro_mean_nll_nats": 5.130678574744785
+            }
+          ]
+        },
+        "test": {
+          "performances": 4,
+          "events": 3850,
+          "per_performance": [
+            {
+              "id": "drummer10/session1/10",
+              "drummer": "drummer10",
+              "events": 1413,
+              "sum_nll_nats": 8077.322819922243,
+              "mean_nll_nats": 5.716435116717794,
+              "initial_context_events": 1,
+              "unseen_previous_instrument_events": 0
+            },
+            {
+              "id": "drummer10/session1/9",
+              "drummer": "drummer10",
+              "events": 1229,
+              "sum_nll_nats": 7065.190281027796,
+              "mean_nll_nats": 5.748730904009598,
+              "initial_context_events": 1,
+              "unseen_previous_instrument_events": 0
+            },
+            {
+              "id": "drummer9/session1/20",
+              "drummer": "drummer9",
+              "events": 1154,
+              "sum_nll_nats": 9033.260047521995,
+              "mean_nll_nats": 7.827781670296356,
+              "initial_context_events": 1,
+              "unseen_previous_instrument_events": 0
+            },
+            {
+              "id": "drummer9/session1/16",
+              "drummer": "drummer9",
+              "events": 54,
+              "sum_nll_nats": 284.4819238075516,
+              "mean_nll_nats": 5.268183774213918,
+              "initial_context_events": 1,
+              "unseen_previous_instrument_events": 0
+            }
+          ],
+          "pooled_mean_nll_nats": 6.353313005786905,
+          "macro_mean_nll_nats": 6.140282866309416,
+          "drummer_count": 2,
+          "per_drummer": [
+            {
+              "drummer": "drummer10",
+              "performances": 2,
+              "events": 2642,
+              "pooled_mean_nll_nats": 5.731458403084799,
+              "macro_mean_nll_nats": 5.732583010363696
+            },
+            {
+              "drummer": "drummer9",
+              "performances": 2,
+              "events": 1208,
+              "pooled_mean_nll_nats": 7.7133625590476385,
+              "macro_mean_nll_nats": 6.547982722255137
+            }
+          ]
+        }
+      }
+    },
+    "previous_instrument_count_shrinkage_k4": {
+      "train_events": 5034,
+      "train_performances": 12,
+      "context_transition_events": 5022,
+      "split_results": {
+        "validation": {
+          "performances": 4,
+          "events": 2758,
+          "per_performance": [
+            {
+              "id": "drummer7/session3/23",
+              "drummer": "drummer7",
+              "events": 144,
+              "sum_nll_nats": 899.6183274466437,
+              "mean_nll_nats": 6.2473494961572476,
+              "initial_context_events": 1,
+              "unseen_previous_instrument_events": 0
+            },
+            {
+              "id": "drummer7/session3/26",
+              "drummer": "drummer7",
+              "events": 16,
+              "sum_nll_nats": 106.3504215772028,
+              "mean_nll_nats": 6.646901348575175,
+              "initial_context_events": 1,
+              "unseen_previous_instrument_events": 0
+            },
+            {
+              "id": "drummer8/session2/40",
+              "drummer": "drummer8",
+              "events": 1061,
+              "sum_nll_nats": 5660.879454107689,
+              "mean_nll_nats": 5.335418901138255,
+              "initial_context_events": 1,
+              "unseen_previous_instrument_events": 0
+            },
+            {
+              "id": "drummer8/session2/13",
+              "drummer": "drummer8",
+              "events": 1537,
+              "sum_nll_nats": 8398.120303624342,
+              "mean_nll_nats": 5.463968967875304,
+              "initial_context_events": 1,
+              "unseen_previous_instrument_events": 0
+            }
+          ],
+          "pooled_mean_nll_nats": 5.462280096720767,
+          "macro_mean_nll_nats": 5.923409678436496,
+          "drummer_count": 2,
+          "per_drummer": [
+            {
+              "drummer": "drummer7",
+              "performances": 2,
+              "events": 160,
+              "pooled_mean_nll_nats": 6.287304681399041,
+              "macro_mean_nll_nats": 6.447125422366211
+            },
+            {
+              "drummer": "drummer8",
+              "performances": 2,
+              "events": 2598,
+              "pooled_mean_nll_nats": 5.411470268565062,
+              "macro_mean_nll_nats": 5.39969393450678
+            }
+          ]
+        },
+        "test": {
+          "performances": 4,
+          "events": 3850,
+          "per_performance": [
+            {
+              "id": "drummer10/session1/10",
+              "drummer": "drummer10",
+              "events": 1413,
+              "sum_nll_nats": 9054.34086057621,
+              "mean_nll_nats": 6.407884543932209,
+              "initial_context_events": 1,
+              "unseen_previous_instrument_events": 0
+            },
+            {
+              "id": "drummer10/session1/9",
+              "drummer": "drummer10",
+              "events": 1229,
+              "sum_nll_nats": 8094.687313648407,
+              "mean_nll_nats": 6.5864013943437,
+              "initial_context_events": 1,
+              "unseen_previous_instrument_events": 0
+            },
+            {
+              "id": "drummer9/session1/20",
+              "drummer": "drummer9",
+              "events": 1154,
+              "sum_nll_nats": 9083.631524703613,
+              "mean_nll_nats": 7.871431130592385,
+              "initial_context_events": 1,
+              "unseen_previous_instrument_events": 0
+            },
+            {
+              "id": "drummer9/session1/16",
+              "drummer": "drummer9",
+              "events": 54,
+              "sum_nll_nats": 328.3066137227582,
+              "mean_nll_nats": 6.079752105977003,
+              "initial_context_events": 1,
+              "unseen_previous_instrument_events": 0
+            }
+          ],
+          "pooled_mean_nll_nats": 6.898952289000256,
+          "macro_mean_nll_nats": 6.736367293711324,
+          "drummer_count": 2,
+          "per_drummer": [
+            {
+              "drummer": "drummer10",
+              "performances": 2,
+              "events": 2642,
+              "pooled_mean_nll_nats": 6.490926636723929,
+              "macro_mean_nll_nats": 6.497142969137954
+            },
+            {
+              "drummer": "drummer9",
+              "performances": 2,
+              "events": 1208,
+              "pooled_mean_nll_nats": 7.791339518564876,
+              "macro_mean_nll_nats": 6.975591618284694
+            }
+          ]
+        }
+      }
+    }
+  },
+  "paired_performance_differences": {
+    "validation": [
+      {
+        "id": "drummer7/session3/23",
+        "context_minus_control_mean_nll": 0.6348428133431678
+      },
+      {
+        "id": "drummer7/session3/26",
+        "context_minus_control_mean_nll": 0.012212191350982948
+      },
+      {
+        "id": "drummer8/session2/40",
+        "context_minus_control_mean_nll": 0.20813087559962629
+      },
+      {
+        "id": "drummer8/session2/13",
+        "context_minus_control_mean_nll": 0.32989984392436256
+      }
+    ],
+    "test": [
+      {
+        "id": "drummer10/session1/10",
+        "context_minus_control_mean_nll": 0.6914494272144145
+      },
+      {
+        "id": "drummer10/session1/9",
+        "context_minus_control_mean_nll": 0.8376704903341023
+      },
+      {
+        "id": "drummer9/session1/20",
+        "context_minus_control_mean_nll": 0.04364946029602912
+      },
+      {
+        "id": "drummer9/session1/16",
+        "context_minus_control_mean_nll": 0.8115683317630848
+      }
+    ]
+  },
+  "cpu_seconds": 0.252602185,
+  "limitations": [
+    "Original release splits are historical only. Performer groups separate but residual common-pattern overlap is not ruled out.",
+    "Metadata and screening already observed; no model scores observed before this plan. Tiny pilot and unequal performance lengths/styles preclude broad generalization claims.",
+    "Previous-instrument context depends on source ordering for simultaneous hits; not causal groove learning.",
+    "Note-on/off pairing, gates, velocity/controller semantics are not modeled or verified by this prediction task.",
+    "Drum keys are instrument labels, not melodic pitches. No generation or musical attractiveness evaluation.",
+    "Rights snapshot remains historical prospective reserve; actual parent clearance authorizes this scoped fit, not arbitrary schema flags or public release."
+  ]
+}

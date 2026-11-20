@@ -1,0 +1,7 @@
+{
+  "scope": "Synthetic-only evidence-record and descriptive-summary prototype; no semantic model or human labels",
+  "fixtures": "Fictional source/artifact digests, synthetic symbolic observation, fictional listener-role report, researcher hypothesis; no real MIDI or comments",
+  "predeclared_checks": ["strict schema and evidence-kind separation", "source/artifact/segment binding", "original wording distinct from proposed tag", "review and permitted-use states separate", "approved string never grants training", "synthetic-human examples never human-approved training eligible", "descriptive counts and invalid-record rejections only"],
+  "limits": "No real authorization verification implemented: training eligibility always false. Counters are not semantic accuracy, musical quality or consent evidence.",
+  "existing_data_and_models": "unchanged"
+}

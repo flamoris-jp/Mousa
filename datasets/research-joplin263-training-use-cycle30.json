@@ -1,0 +1,22 @@
+{
+  "cycle": 30,
+  "work_id": "mutopia-263-legacy",
+  "canonical_source_id": "mutopia-263",
+  "source_sha256": "80f94141dff97aabb3cf37e1ccc3f6ac41563dd4421d0a648786a8f8e36efc68",
+  "state": "exploratory-training-used",
+  "first_training_result": "experiments/2026-11-12-ten-work-expansion-results.json",
+  "result_sha256": "ead8e9bf03c0cd1667a7a28e6974eaa5b6f2b9b0ed31e1a369e109ad46178ac5",
+  "assignment": "datasets/research-cycle30-ten-work-assignment.json",
+  "assignment_sha256": "803cc8b1fb0f7832c0e66d549ff554f245bcacdbedd55331e05e2695ef7c5541",
+  "rights_snapshot": "datasets/research-new-cohorts-cycle29-20261112.json",
+  "clearance": "experiments/2026-11-12-ten-work-expansion-clearance.json",
+  "selected_track": 1,
+  "events": 1394,
+  "historical_status": "Immutable source snapshot was reserved at creation; this actual-fit record supersedes training status only, not rights/version limitations.",
+  "limits": [
+    "Full selected keyboard staff, not isolated melody; no note truncation or quantization.",
+    "1394of2536training events from this work; source dominance is a confound.",
+    "No fresh heldout or human quality claim;640/921 remain untrained observed diagnostics.",
+    "Original source performance retained privately, timing model ignores meter/tempo/CC7/program."
+  ]
+}

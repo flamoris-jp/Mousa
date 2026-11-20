@@ -1,0 +1,124 @@
+{
+  "scope": "Cycle39 fixed35-versus58 Groove predictive expansion, saved12 score reference, provenance/use journals and independent reviews. Metadata/code only; no raw MIDI/audio, fitted count arrays, new public release or original retransmission.",
+  "files": [
+    {
+      "relative_path": "src/mousa/drum_ioi_60work_profile.py",
+      "bytes": 2538,
+      "sha256": "e0ce2e458d4ef98ef6dbe97c1c04288861e2efdc7bc89aa016a077251de297ed"
+    },
+    {
+      "relative_path": "tools/groove_cycle39_prepare.py",
+      "bytes": 10467,
+      "sha256": "555547f9098bbfc6e56e7aed8e5c8c9405593320befeeb153f962bf49fd72dd7"
+    },
+    {
+      "relative_path": "tools/groove_cycle39_fit.py",
+      "bytes": 12437,
+      "sha256": "b2c4cb9d1f882b892805846b0bde22b87a71c85030ffbf1fd0a50e58bf5f5904"
+    },
+    {
+      "relative_path": "tests/test_groove_cycle39_prepare.py",
+      "bytes": 1130,
+      "sha256": "52da2b98292dd3dd2d8aa221ad0e975e23b81ab1ab67a3e977873afc166e6323"
+    },
+    {
+      "relative_path": "tests/test_groove_cycle39_profile.py",
+      "bytes": 1674,
+      "sha256": "4c03b9572c444e7fb62723c100302e7150e69a54fc9a58f65a5e64437f52b0c9"
+    },
+    {
+      "relative_path": "tests/test_groove_cycle39_fit.py",
+      "bytes": 2336,
+      "sha256": "e72d82ba335240d85cd9c8736e3311aaab4d904355a75732e7df15907c9986e3"
+    },
+    {
+      "relative_path": "datasets/research-groove-rights-cycle32-20261112.json",
+      "bytes": 5043,
+      "sha256": "de6f14f3b6f38398f1d419e7a5b3fcf0f0d943adcadd914826629641fa4f0bbc"
+    },
+    {
+      "relative_path": "datasets/research-groove-usage-cycle39-20261112.json",
+      "bytes": 22742,
+      "sha256": "b391fb84fe6741b85f8339e1eb6f6fcb5a154ba69d676904251a1c9a814c997b"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-cycle39-before-fit.json",
+      "bytes": 246,
+      "sha256": "2968a51346bf0370e42ef3b1d2cbc15413fbc6b124d20e74ed29461617898cc6"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-cycle39-clearance.json",
+      "bytes": 548,
+      "sha256": "ca2f525a8cc2245c6cc8c0958858ba58e2b9461844bc21f31234648729670cb7"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-cycle39-coverage-overview.md",
+      "bytes": 5467,
+      "sha256": "a250c4e5af2b24c37603e41175632ce0067140315831a7677e4d572377523839"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-cycle39-fit-journal.json",
+      "bytes": 20999,
+      "sha256": "e9588e20f2dcdee2c4e3998541909e878ea2a43aecac7e8808bf9b8e66f5d659"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-cycle39-fit-plan.json",
+      "bytes": 56173,
+      "sha256": "0828f82f0ced7ddb69be1a6a5a568dec3fdcbceffd0058700233999a0f5f26e3"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-cycle39-independent-profile.json",
+      "bytes": 794,
+      "sha256": "934fe73f3dcaf5db5fef86a8408cfa88f482029005c398feaf10c77c6124c015"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-cycle39-independent-results.json",
+      "bytes": 633,
+      "sha256": "e741c710679b5cb0ac503c51c32a54109d33eba87eafb35b58997b22013d5926"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-cycle39-independent-selection.json",
+      "bytes": 886,
+      "sha256": "d2d112a1913a5f0b76c180d03624488abe3f81dd96f001653df28d6a5fb3ce11"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-cycle39-pattern-evidence.json",
+      "bytes": 122111,
+      "sha256": "a3b23708e63758d45ff1107cc9212c1cc49c87fa6383f4e7af46dd023954592b"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-cycle39-prepare-plan.json",
+      "bytes": 41663,
+      "sha256": "4e4ed762ac0dcd5433a5d3af3ecb3b80f1b8b6ac208798c221839fe6882d2d02"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-cycle39-prototype-test-correction.json",
+      "bytes": 371,
+      "sha256": "fde636bcb7f2a0ab43c39353a9765d2685e60e3dfba2928e6874428ce69ad042"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-cycle39-results.json",
+      "bytes": 129166,
+      "sha256": "c3269bdb580b1cd5160c06a0c27b70687ebb7e59311268bcd24a5e6de0bfd00f"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-cycle39-screen.json",
+      "bytes": 2759,
+      "sha256": "b9c506952a07b0c92efcdaf02d9523f213ee79ed9832e2a4a452948915568a76"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-cycle39-three-quantity-summary.json",
+      "bytes": 3344,
+      "sha256": "5fedd7b2d13c3eaf1c8c5fed827e63cbe6b2c9cb6473f5ab4a46fad648d3d306"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-cycle39-verification.json",
+      "bytes": 1214,
+      "sha256": "3b39435e48403606ac8a93e8c40c8bd9ce7013bceaddf676893f403868a680a1"
+    }
+  ],
+  "file_count": 23,
+  "total_bytes": 444741,
+  "uploaded": false,
+  "manifest_sha256": "8f8bf158c13398c992d0e24e8bf11365c80532261caf14fcb701651db5d3d746"
+}

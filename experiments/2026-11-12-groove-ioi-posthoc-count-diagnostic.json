@@ -1,0 +1,375 @@
+{
+  "scope": "Posthoc decomposition of the already observed fixed result; original source-derived sufficient counts reconstructed for audit only, no model constructor, refit, retune or new evaluation cohort.",
+  "plan_sha256": "9d5c95249f51aa8f89b54ff4902513ac2d3129f971318caee8f0f07f3286519a",
+  "results_sha256": "f00ee4e508c38d2696ced9495937c50c1c8c2178b5c412ffc107b3edbfbe2067",
+  "per_performance_original_nll_reproduced": true,
+  "exact_float_sum_equality_all_16_work_condition_checks": true,
+  "train_events": 5034,
+  "context_transition_events": 5022,
+  "category_definition": "Mutually exclusive cross-tab of initial/unknown/known previous-instrument context, global IOI membership, and local IOI membership (None when context unavailable). Exact integer IOIs, no timing bins.",
+  "split_categories": [
+    {
+      "split": "test",
+      "category": "context=initial;global_seen=False;local_seen=None",
+      "events": 2,
+      "control_sum_nll": 37.713741087935595,
+      "context_sum_nll": 37.713741087935595,
+      "context_minus_control_sum_nll": 0.0,
+      "context_minus_control_mean_nll": 0.0
+    },
+    {
+      "split": "test",
+      "category": "context=initial;global_seen=True;local_seen=None",
+      "events": 2,
+      "control_sum_nll": 8.20891520081936,
+      "context_sum_nll": 8.20891520081936,
+      "context_minus_control_sum_nll": 0.0,
+      "context_minus_control_mean_nll": 0.0
+    },
+    {
+      "split": "test",
+      "category": "context=known;global_seen=False;local_seen=False",
+      "events": 252,
+      "control_sum_nll": 4751.931377079885,
+      "context_sum_nll": 4108.445799981855,
+      "context_minus_control_sum_nll": -643.4855770980303,
+      "context_minus_control_mean_nll": -2.553514194833453
+    },
+    {
+      "split": "test",
+      "category": "context=known;global_seen=True;local_seen=False",
+      "events": 853,
+      "control_sum_nll": 5315.807831076347,
+      "context_sum_nll": 8604.18883307115,
+      "context_minus_control_sum_nll": 3288.3810019948032,
+      "context_minus_control_mean_nll": 3.8550773763127824
+    },
+    {
+      "split": "test",
+      "category": "context=known;global_seen=True;local_seen=True",
+      "events": 2741,
+      "control_sum_nll": 14346.5932078346,
+      "context_sum_nll": 13802.40902330923,
+      "context_minus_control_sum_nll": -544.1841845253693,
+      "context_minus_control_mean_nll": -0.19853490861925185
+    },
+    {
+      "split": "validation",
+      "category": "context=initial;global_seen=False;local_seen=None",
+      "events": 2,
+      "control_sum_nll": 37.713741087935595,
+      "context_sum_nll": 37.713741087935595,
+      "context_minus_control_sum_nll": 0.0,
+      "context_minus_control_mean_nll": 0.0
+    },
+    {
+      "split": "validation",
+      "category": "context=initial;global_seen=True;local_seen=None",
+      "events": 2,
+      "control_sum_nll": 9.467126290181898,
+      "context_sum_nll": 9.467126290181898,
+      "context_minus_control_sum_nll": 0.0,
+      "context_minus_control_mean_nll": 0.0
+    },
+    {
+      "split": "validation",
+      "category": "context=known;global_seen=False;local_seen=False",
+      "events": 19,
+      "control_sum_nll": 358.28054033538814,
+      "context_sum_nll": 315.10134404874407,
+      "context_minus_control_sum_nll": -43.17919628664407,
+      "context_minus_control_mean_nll": -2.272589278244425
+    },
+    {
+      "split": "validation",
+      "category": "context=known;global_seen=True;local_seen=False",
+      "events": 306,
+      "control_sum_nll": 1748.0430220431856,
+      "context_sum_nll": 2934.80744056457,
+      "context_minus_control_sum_nll": 1186.7644185213842,
+      "context_minus_control_mean_nll": 3.8783150932071377
+    },
+    {
+      "split": "validation",
+      "category": "context=known;global_seen=True;local_seen=True",
+      "events": 2429,
+      "control_sum_nll": 12091.968397693206,
+      "context_sum_nll": 11767.878854764447,
+      "context_minus_control_sum_nll": -324.08954292875933,
+      "context_minus_control_mean_nll": -0.13342508971953862
+    }
+  ],
+  "per_performance": [
+    {
+      "id": "drummer10/session1/10",
+      "split": "test",
+      "drummer": "drummer10",
+      "categories": {
+        "context=initial;global_seen=False;local_seen=None": {
+          "events": 1,
+          "control_sum_nll": 18.856870543967798,
+          "context_sum_nll": 18.856870543967798,
+          "context_minus_control_sum_nll": 0.0,
+          "context_minus_control_mean_nll": 0.0
+        },
+        "context=known;global_seen=False;local_seen=False": {
+          "events": 22,
+          "control_sum_nll": 414.85115196729157,
+          "context_sum_nll": 366.38877672407443,
+          "context_minus_control_sum_nll": -48.46237524321714,
+          "context_minus_control_mean_nll": -2.202835238328052
+        },
+        "context=known;global_seen=True;local_seen=False": {
+          "events": 333,
+          "control_sum_nll": 2016.519210390167,
+          "context_sum_nll": 3274.0316167149776,
+          "context_minus_control_sum_nll": 1257.5124063248106,
+          "context_minus_control_mean_nll": 3.776313532506939
+        },
+        "context=known;global_seen=True;local_seen=True": {
+          "events": 1057,
+          "control_sum_nll": 5627.095587020816,
+          "context_sum_nll": 5395.0635965931915,
+          "context_minus_control_sum_nll": -232.0319904276248,
+          "context_minus_control_mean_nll": -0.2195193854565987
+        }
+      }
+    },
+    {
+      "id": "drummer10/session1/9",
+      "split": "test",
+      "drummer": "drummer10",
+      "categories": {
+        "context=initial;global_seen=True;local_seen=None": {
+          "events": 1,
+          "control_sum_nll": 4.31947569992564,
+          "context_sum_nll": 4.31947569992564,
+          "context_minus_control_sum_nll": 0.0,
+          "context_minus_control_mean_nll": 0.0
+        },
+        "context=known;global_seen=False;local_seen=False": {
+          "events": 11,
+          "control_sum_nll": 207.42557598364579,
+          "context_sum_nll": 181.93693733691796,
+          "context_minus_control_sum_nll": -25.48863864672782,
+          "context_minus_control_mean_nll": -2.3171489678843473
+        },
+        "context=known;global_seen=True;local_seen=False": {
+          "events": 310,
+          "control_sum_nll": 1965.7283136093288,
+          "context_sum_nll": 3248.068914907611,
+          "context_minus_control_sum_nll": 1282.3406012982823,
+          "context_minus_control_mean_nll": 4.136582584833168
+        },
+        "context=known;global_seen=True;local_seen=True": {
+          "events": 907,
+          "control_sum_nll": 4887.716915734896,
+          "context_sum_nll": 4660.361985703952,
+          "context_minus_control_sum_nll": -227.35493003094416,
+          "context_minus_control_mean_nll": -0.2506669570352196
+        }
+      }
+    },
+    {
+      "id": "drummer7/session3/23",
+      "split": "validation",
+      "drummer": "drummer7",
+      "categories": {
+        "context=initial;global_seen=False;local_seen=None": {
+          "events": 1,
+          "control_sum_nll": 18.856870543967798,
+          "context_sum_nll": 18.856870543967798,
+          "context_minus_control_sum_nll": 0.0,
+          "context_minus_control_mean_nll": 0.0
+        },
+        "context=known;global_seen=False;local_seen=False": {
+          "events": 5,
+          "control_sum_nll": 94.28435271983899,
+          "context_sum_nll": 82.14702672825803,
+          "context_minus_control_sum_nll": -12.137325991580965,
+          "context_minus_control_mean_nll": -2.427465198316193
+        },
+        "context=known;global_seen=True;local_seen=False": {
+          "events": 43,
+          "control_sum_nll": 238.01106817015076,
+          "context_sum_nll": 362.58422800442906,
+          "context_minus_control_sum_nll": 124.5731598342783,
+          "context_minus_control_mean_nll": 2.8970502287041464
+        },
+        "context=known;global_seen=True;local_seen=True": {
+          "events": 95,
+          "control_sum_nll": 457.0486708912699,
+          "context_sum_nll": 436.0302021699888,
+          "context_minus_control_sum_nll": -21.018468721281124,
+          "context_minus_control_mean_nll": -0.22124703917138025
+        }
+      }
+    },
+    {
+      "id": "drummer7/session3/26",
+      "split": "validation",
+      "drummer": "drummer7",
+      "categories": {
+        "context=initial;global_seen=False;local_seen=None": {
+          "events": 1,
+          "control_sum_nll": 18.856870543967798,
+          "context_sum_nll": 18.856870543967798,
+          "context_minus_control_sum_nll": 0.0,
+          "context_minus_control_mean_nll": 0.0
+        },
+        "context=known;global_seen=True;local_seen=False": {
+          "events": 4,
+          "control_sum_nll": 23.75686009763006,
+          "context_sum_nll": 33.639219864434395,
+          "context_minus_control_sum_nll": 9.882359766804335,
+          "context_minus_control_mean_nll": 2.4705899417010837
+        },
+        "context=known;global_seen=True;local_seen=True": {
+          "events": 11,
+          "control_sum_nll": 63.54129587398921,
+          "context_sum_nll": 53.854331168800606,
+          "context_minus_control_sum_nll": -9.686964705188608,
+          "context_minus_control_mean_nll": -0.8806331550171461
+        }
+      }
+    },
+    {
+      "id": "drummer8/session2/40",
+      "split": "validation",
+      "drummer": "drummer8",
+      "categories": {
+        "context=initial;global_seen=True;local_seen=None": {
+          "events": 1,
+          "control_sum_nll": 4.55387627743047,
+          "context_sum_nll": 4.55387627743047,
+          "context_minus_control_sum_nll": 0.0,
+          "context_minus_control_mean_nll": 0.0
+        },
+        "context=known;global_seen=False;local_seen=False": {
+          "events": 9,
+          "control_sum_nll": 169.71183489571018,
+          "context_sum_nll": 149.830962751678,
+          "context_minus_control_sum_nll": -19.880872144032196,
+          "context_minus_control_mean_nll": -2.208985793781355
+        },
+        "context=known;global_seen=True;local_seen=False": {
+          "events": 124,
+          "control_sum_nll": 704.0112129998579,
+          "context_sum_nll": 1160.0057348598127,
+          "context_minus_control_sum_nll": 455.99452185995483,
+          "context_minus_control_mean_nll": 3.6773751762899582
+        },
+        "context=known;global_seen=True;local_seen=True": {
+          "events": 927,
+          "control_sum_nll": 4561.775670923486,
+          "context_sum_nll": 4346.488880218767,
+          "context_minus_control_sum_nll": -215.28679070471935,
+          "context_minus_control_mean_nll": -0.23224033517229703
+        }
+      }
+    },
+    {
+      "id": "drummer8/session2/13",
+      "split": "validation",
+      "drummer": "drummer8",
+      "categories": {
+        "context=initial;global_seen=True;local_seen=None": {
+          "events": 1,
+          "control_sum_nll": 4.913250012751427,
+          "context_sum_nll": 4.913250012751427,
+          "context_minus_control_sum_nll": 0.0,
+          "context_minus_control_mean_nll": 0.0
+        },
+        "context=known;global_seen=False;local_seen=False": {
+          "events": 5,
+          "control_sum_nll": 94.28435271983899,
+          "context_sum_nll": 83.12335456880803,
+          "context_minus_control_sum_nll": -11.160998151030967,
+          "context_minus_control_mean_nll": -2.2321996302061935
+        },
+        "context=known;global_seen=True;local_seen=False": {
+          "events": 135,
+          "control_sum_nll": 782.2638807755468,
+          "context_sum_nll": 1378.5782578358933,
+          "context_minus_control_sum_nll": 596.3143770603465,
+          "context_minus_control_mean_nll": 4.417143533780345
+        },
+        "context=known;global_seen=True;local_seen=True": {
+          "events": 1396,
+          "control_sum_nll": 7009.60276000446,
+          "context_sum_nll": 6931.50544120689,
+          "context_minus_control_sum_nll": -78.09731879756964,
+          "context_minus_control_mean_nll": -0.05594363810714158
+        }
+      }
+    },
+    {
+      "id": "drummer9/session1/20",
+      "split": "test",
+      "drummer": "drummer9",
+      "categories": {
+        "context=initial;global_seen=False;local_seen=None": {
+          "events": 1,
+          "control_sum_nll": 18.856870543967798,
+          "context_sum_nll": 18.856870543967798,
+          "context_minus_control_sum_nll": 0.0,
+          "context_minus_control_mean_nll": 0.0
+        },
+        "context=known;global_seen=False;local_seen=False": {
+          "events": 219,
+          "control_sum_nll": 4129.654649128947,
+          "context_sum_nll": 3560.1200859208625,
+          "context_minus_control_sum_nll": -569.5345632080848,
+          "context_minus_control_mean_nll": -2.6006144438725336
+        },
+        "context=known;global_seen=True;local_seen=False": {
+          "events": 197,
+          "control_sum_nll": 1256.4177990831483,
+          "context_sum_nll": 1957.6375421327546,
+          "context_minus_control_sum_nll": 701.2197430496062,
+          "context_minus_control_mean_nll": 3.559491081470082
+        },
+        "context=known;global_seen=True;local_seen=True": {
+          "events": 737,
+          "control_sum_nll": 3628.330728765931,
+          "context_sum_nll": 3547.017026106028,
+          "context_minus_control_sum_nll": -81.3137026599029,
+          "context_minus_control_mean_nll": -0.11033066846662537
+        }
+      }
+    },
+    {
+      "id": "drummer9/session1/16",
+      "split": "test",
+      "drummer": "drummer9",
+      "categories": {
+        "context=initial;global_seen=True;local_seen=None": {
+          "events": 1,
+          "control_sum_nll": 3.88943950089372,
+          "context_sum_nll": 3.88943950089372,
+          "context_minus_control_sum_nll": 0.0,
+          "context_minus_control_mean_nll": 0.0
+        },
+        "context=known;global_seen=True;local_seen=False": {
+          "events": 13,
+          "control_sum_nll": 77.14250799370237,
+          "context_sum_nll": 124.4507593158061,
+          "context_minus_control_sum_nll": 47.30825132210373,
+          "context_minus_control_mean_nll": 3.639096255546441
+        },
+        "context=known;global_seen=True;local_seen=True": {
+          "events": 40,
+          "control_sum_nll": 203.4499763129555,
+          "context_sum_nll": 199.9664149060584,
+          "context_minus_control_sum_nll": -3.4835614068971097,
+          "context_minus_control_mean_nll": -0.08708903517242775
+        }
+      }
+    }
+  ],
+  "limitations": [
+    "Post-result explanatory bookkeeping, not causal evidence or a new independent test.",
+    "Drummer, style labels, recording length, instrument distributions and finite exact-tick counts are confounded; no label is established as the cause.",
+    "No parameter or candidate selection changes are authorized by these categories."
+  ]
+}

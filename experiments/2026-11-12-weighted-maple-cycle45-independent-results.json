@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "checks": 2301,
+  "generated_outputs": 21,
+  "copy_reference_count": 22,
+  "method": "Independent exact pool mass/family totals, event sweep and pitch guards, literal seven-interval copy windows, per-tick occupancy and 3-interval windows; no model refit",
+  "initial_report_sha256": "dc4ba78e6d1e5146a7c6fa0275c77383f982b49f1da6832348d125f1253abed8",
+  "human_evaluation": "not performed"
+}

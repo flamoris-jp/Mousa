@@ -1,0 +1,7 @@
+{
+  "stage": "Pre-fit synthetic driver import test",
+  "failure": "Missing LATER constant while adapting saved-cohort reference loading; import NameError caught by tests.",
+  "resolution": "Defined both historical report constants before final code/plan freeze; all six targeted tests passed.",
+  "actual_source_fit_before_fix": false,
+  "model_formula_changed": false
+}

@@ -1,0 +1,58 @@
+{
+  "reviewed_at_utc": "2026-11-12T12:03:10.788972+00:00",
+  "id": 804,
+  "title": "Sonatina Op36No1, firstmovement Spiritoso",
+  "composer": "Muzio Clementi (1752-1832)",
+  "contributor": "Brian D. Rude",
+  "prior_ledger": "datasets/research-clementi804-pending-20261112.json",
+  "prior_ledger_sha256": "b8f222e7f5bc84c6f8fd441c01b500a5494c81f2d5fa231c5e8388d6996a91ce",
+  "composition_rights": {
+    "status": "historical-PD-supported",
+    "basis": "Composer died1832; work explicitly identified Op36No1 in originalsource and independent historical1893album."
+  },
+  "edition_rights": {
+    "status": "historical-edition-supported",
+    "source": "Sonatina Album, SchirmerLibrary vol51, copyright1893",
+    "editors": "Louis Köhler (1820-1886), Ludwig Klee (1846-1920), and others as credited by repository/titlepage; not assert all unnamed editors identified.",
+    "evidence": "UniversityRochesterSibley catalogue explicitly publicdomain, originalpublication1893, Köhler/Klee editors. PDFcovervol51; titlepage editedandfingeredLudwigKleeandothers, copyright1893Schirmer; printedp33 Op36No1 Spiritoso matches opening of exactcontribution.",
+    "incipit": "Cmajor cuttime, C5quarter E5/C5eighths G4quarter G4quarter; next C5quarter E5/C5eighths G4quarter G5quarter. No pickup, fullmeasure start.",
+    "limitation": "Historical album/incipit corroborated; no claim exhaustive note-levelcollation or exactphysicalreprint usedbycontributor. Current scan has plate17134 and1893copyright, printdate not independentlydetermined. Separate publishers neweditions not covered."
+  },
+  "encoding_rights": {
+    "status": "PD-dedication-supported",
+    "license": "LegacyPublicDomain, notCC0",
+    "basis": "Exact source header licensePublicDomain and copyrightfooter Placed in publicdomain bytypesetter, free to distribute modifyandperform; maintainerBrianD.Rude. Linked original MIDIzip preserved."
+  },
+  "technical": {
+    "status": "firstmovement-track1-accepted",
+    "track": 1,
+    "notes": 227,
+    "ppq": 384,
+    "meter": [
+      2,
+      2
+    ],
+    "first_onset": 0,
+    "score_origin_ticks_mod_bar": 0,
+    "total_ticks": 57216,
+    "source_total_ticks": 57984,
+    "note": "Includes some chords; not inferred singlevoice. Original score contains repeats, MIDI behavior retained, no unfolding or repair."
+  },
+  "urls": {
+    "page": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=804",
+    "source": "https://www.mutopiaproject.org/ftp/ClementiM/O36/sonatina-1/sonatina-1.ly",
+    "midi_zip": "https://www.mutopiaproject.org/ftp/ClementiM/O36/sonatina-1/sonatina-1-mids.zip",
+    "historical_catalog": "https://urresearch.rochester.edu/institutionalPublicationPublicView.action?institutionalItemId=22282&versionNumber=1",
+    "historical_scan": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=22749&itemFileId=72298"
+  },
+  "sha256": {
+    "selected_midi": "365dc51f22f89c005d71343df592d9b08fdc314042027989557f1eebcd8bc107",
+    "source_ly": "788160d26cfc5d637bd531124607d3136df105004ece2c2b1154629226751e04",
+    "midi_zip": "d13263b200c89478ac167a97b617fd31747b292df9a8ddbe947c8c8d07d066ae",
+    "historical_catalog": "38a0314f27c490fecdaf07b0d67fcb4103eb2b9de6173f9c13a533be8d123690",
+    "historical_scan": "dc58875b26adee845e593b1eb2074f3db18842ff5efbfc53b4540f6ce91b6244"
+  },
+  "status": "reserved; no model fit/score or similarity clearance",
+  "family_split": "All3movements, bothhands, alternateeditions and transformations stay same ClementiOp36No1/Rude/Schirmerfamily. Schirmer sharedpublisher with old2247/2245 is a confound; cannot claim independentpublisher. Other Clementi works grouped bycomposer before futuresplits.",
+  "unchanged_restrictions": "921 is already predictivelyobserved,1692remainsblocked,Burgmuller202/214remainpending. No rawmedia inGit."
+}

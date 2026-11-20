@@ -1,0 +1,157 @@
+{
+  "scope": "Read-only diagnosis of all6 previously generated candidates; formerly new_random cohort is now observed. No refit/regeneration/parameter change.",
+  "rows": [
+    {
+      "previous_cohort": "known",
+      "seed": 45000,
+      "now_observed": true,
+      "old_status": "source_segment_too_short",
+      "segment_group_counts": [
+        1,
+        5,
+        1,
+        9,
+        7,
+        3,
+        5
+      ],
+      "first_group_note_count": 2,
+      "first_group_max_gate": 96,
+      "first_boundary": {
+        "previous_end": 1824,
+        "next_start": 2112,
+        "silence_ticks": 288
+      },
+      "private_sha256": "97758752585215dddd30628b673beec29d252ad22e2268abd49d518a8dfc7e56"
+    },
+    {
+      "previous_cohort": "known",
+      "seed": 45001,
+      "now_observed": true,
+      "old_status": "safety_blocked",
+      "segment_group_counts": [
+        5,
+        6,
+        8,
+        1,
+        2,
+        6,
+        3,
+        4
+      ],
+      "first_group_note_count": 1,
+      "first_group_max_gate": 192,
+      "first_boundary": {
+        "previous_end": 1248,
+        "next_start": 1440,
+        "silence_ticks": 192
+      },
+      "private_sha256": "565d5c9439c800930f64cc05c77170ff382abfdaab94162b6ad9aabe925151a0",
+      "collisions": [
+        {
+          "first_group": 12,
+          "second_group": 13,
+          "pitch": 71,
+          "overlap_ticks": 192
+        }
+      ]
+    },
+    {
+      "previous_cohort": "known",
+      "seed": 45002,
+      "now_observed": true,
+      "old_status": "complete",
+      "segment_group_counts": [
+        4,
+        5,
+        6,
+        1,
+        13,
+        3
+      ],
+      "first_group_note_count": 1,
+      "first_group_max_gate": 96,
+      "first_boundary": {
+        "previous_end": 1536,
+        "next_start": 1920,
+        "silence_ticks": 384
+      },
+      "private_sha256": "583fda6c5832562da5a28a4c6a6dcebc785c28610e841c324715b6a7eb028881"
+    },
+    {
+      "previous_cohort": "new_random",
+      "seed": 46600,
+      "now_observed": true,
+      "old_status": "complete",
+      "segment_group_counts": [
+        6,
+        3,
+        6,
+        2,
+        3,
+        4,
+        2,
+        7
+      ],
+      "first_group_note_count": 2,
+      "first_group_max_gate": 192,
+      "first_boundary": {
+        "previous_end": 864,
+        "next_start": 1152,
+        "silence_ticks": 288
+      },
+      "private_sha256": "735d554a48d9bcb7d86ec9cedf77966d51e1a7349ea34db567346c3b57d8debd"
+    },
+    {
+      "previous_cohort": "new_random",
+      "seed": 46601,
+      "now_observed": true,
+      "old_status": "complete",
+      "segment_group_counts": [
+        3,
+        3,
+        4,
+        6,
+        1,
+        4,
+        2,
+        3,
+        9
+      ],
+      "first_group_note_count": 3,
+      "first_group_max_gate": 384,
+      "first_boundary": {
+        "previous_end": 672,
+        "next_start": 960,
+        "silence_ticks": 288
+      },
+      "private_sha256": "ded5231f3b60c3afa8c67a35296671a197f175c5a007c329e22e56c22452c043"
+    },
+    {
+      "previous_cohort": "new_random",
+      "seed": 46602,
+      "now_observed": true,
+      "old_status": "source_segment_too_short",
+      "segment_group_counts": [
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "first_group_note_count": 1,
+      "first_group_max_gate": 192,
+      "first_boundary": {
+        "previous_end": 192,
+        "next_start": 384,
+        "silence_ticks": 192
+      },
+      "private_sha256": "941ee84e8863fbcf1bed550b36f990963336c09d4cce913e92301df96da4a071"
+    }
+  ],
+  "interpretation": [
+    "First segment is determined by fixed192tick actual full-sound silence; a single onset group may contain multiple notes but is still not a two-anchor phrase.",
+    "Preserving per-group offsets/gates is insufficient to prevent cross-group pitch collisions after revoicing.",
+    "A one-anchor fallback tests repeated pitch class rather than reproducing a melodic contour; it must have separate eligibility/success counts."
+  ]
+}

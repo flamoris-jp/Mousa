@@ -1,0 +1,16 @@
+{
+  "created_at_utc": "2026-11-12T12:59:32.511603+00:00",
+  "scope": "Prospective exact similarity resource profile before real Joplin comparisons",
+  "max_intervals": 2048,
+  "algorithm": "exact Levenshtein over pitch intervals; score1-distance/maxlength; no approximation",
+  "memory": "two DP rows O(minlength) plus O(n+m) interval arrays",
+  "threshold": 0.8,
+  "local_rule": "exact7interval/8note matches unchanged",
+  "test_plan": "40random short parity cases seed3001 plus supported512boundary; constructed longidentity/lengthdifference/.80boundary and shortside-memory check",
+  "real_source_rule": "No Joplin comparison or fit before this plan saved; rights/assignment actual parent review required; no truncation or blocked-source release",
+  "code_sha256": {
+    "tools/bounded_interval_similarity.py": "cee9b4745740bd679dbb9d75fffff79a91782d73d832c0c4b136cce4e614a47b",
+    "tools/compare_long_approved_expansion.py": "da94d01cb1bba29bee2ad7945f1dd93f0a8e7ca47721a245ab45938172429870",
+    "tests/test_bounded_interval_similarity.py": "c9c0804666e70310e8071dbbacd186d81073507e42d61ec48f69d8bc42e81f2f"
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "normalized_repeat_equal": true,
+  "excluded_fields": [
+    "plan.created_at_utc",
+    "conditions.*.generation_wall_seconds"
+  ],
+  "report_sha256": {
+    "initial": "7c6728e1b305e1d45becc092a0b0ca1631cbac0eb575f92859d3258058a008fe",
+    "repeat": "6c9dfe4abd916bc1d29734f2c89dfcc725d4437b3803ba6d3f77bb74302cefbd"
+  },
+  "frozen_hashes_match": true,
+  "endpoint_controls_match_cycle23": true,
+  "safety": [
+    {
+      "condition": "timing0_pitch0",
+      "seed": 0,
+      "notes": 31,
+      "max_polyphony": 2,
+      "tail_ticks": 384,
+      "sha256": "cdaaab822f7bdc9aebee40129b6789ea3ce3f8a702292af6b5d2efbcec3810a8"
+    },
+    {
+      "condition": "timing0_pitch0",
+      "seed": 1,
+      "notes": 25,
+      "max_polyphony": 3,
+      "tail_ticks": 384,
+      "sha256": "6065cb32ad599c3e6fcc98348390c4eac77d24dc72db78c4b86df74efbdbc6e3"
+    },
+    {
+      "condition": "timing0_pitch0",
+      "seed": 2,
+      "notes": 30,
+      "max_polyphony": 2,
+      "tail_ticks": 192,
+      "sha256": "f4a7b3812c546f68f8ddbeffdab58fcbd52fe0a1a901e247e5b43f988a9b98fb"
+    },
+    {
+      "condition": "timing0_pitch0",
+      "seed": 3,
+      "notes": 31,
+      "max_polyphony": 2,
+      "tail_ticks": 384,
+      "sha256": "31efd2f98eec1de2e1b92238f1ccdcf300d4d9129d49c6b139a88023eb42f7e1"
+    },
+    {
+      "condition": "timing0_pitch0",
+      "seed": 4,
+      "notes": 32,
+      "max_polyphony": 2,
+      "tail_ticks": 192,
+      "sha256": "98e5126ad226f74e6d693a1157bb0923e18014f04425f56bd82bf57b882622a2"
+    },
+    {
+      "condition": "timing0_pitch1",
+      "seed": 0,
+      "notes": 25,
+      "max_polyphony": 1,
+      "tail_ticks": 384,
+      "sha256": "7ba4c8fab77859de6e5700a416a9dac30e1ceb6c6623f29824a28971cf916528"
+    },
+    {
+      "condition": "timing0_pitch1",
+      "seed": 1,
+      "notes": 32,
+      "max_polyphony": 2,
+      "tail_ticks": 288,
+      "sha256": "cb34a19ff3b5a0300f002bfb9164d0149b0115f6b3236d380d4b23b93d3887b6"
+    },
+    {
+      "condition": "timing0_pitch1",
+      "seed": 2,
+      "notes": 28,
+      "max_polyphony": 2,
+      "tail_ticks": 192,
+      "sha256": "fc3e8d7b1df290340b48496c8201266fb42da666a4de390087940a7cc406765b"
+    },
+    {
+      "condition": "timing0_pitch1",
+      "seed": 3,
+      "notes": 33,
+      "max_polyphony": 2,
+      "tail_ticks": 384,
+      "sha256": "60303787053e8fc48e4a794b6114597769297507013d1412e80e801c82adea34"
+    },
+    {
+      "condition": "timing0_pitch1",
+      "seed": 4,
+      "notes": 33,
+      "max_polyphony": 2,
+      "tail_ticks": 192,
+      "sha256": "70e75d31d2a86d055adb439e63fcd30e07acd3362a95bf26489a4df20a31dfa7"
+    },
+    {
+      "condition": "timing1_pitch0",
+      "seed": 0,
+      "notes": 30,
+      "max_polyphony": 2,
+      "tail_ticks": 81,
+      "sha256": "1f3d695d02c5857962f61cc6c37fec473005a976b8de812d79d9421449bb9a58"
+    },
+    {
+      "condition": "timing1_pitch0",
+      "seed": 1,
+      "notes": 36,
+      "max_polyphony": 3,
+      "tail_ticks": 384,
+      "sha256": "a30e2e250fb9b82969fc5c7077baa6d649713d913674c13b60819248fa05d5db"
+    },
+    {
+      "condition": "timing1_pitch0",
+      "seed": 2,
+      "notes": 32,
+      "max_polyphony": 2,
+      "tail_ticks": 288,
+      "sha256": "9d962168f7acc2bbb686612fd96ae8abb97e0199a304cc908c726af9a4faa9a6"
+    },
+    {
+      "condition": "timing1_pitch0",
+      "seed": 3,
+      "notes": 19,
+      "max_polyphony": 3,
+      "tail_ticks": 384,
+      "sha256": "a751d8773b68c8846596aeb94b0c53effe72b48fa25969d9c9c39b3ebe4a535f"
+    },
+    {
+      "condition": "timing1_pitch0",
+      "seed": 4,
+      "notes": 36,
+      "max_polyphony": 2,
+      "tail_ticks": 288,
+      "sha256": "c83315bd59b52a830c553891f15e8f7ff0f64754bac68cb6c0a88b8d555e95c4"
+    },
+    {
+      "condition": "timing1_pitch1",
+      "seed": 0,
+      "notes": 28,
+      "max_polyphony": 2,
+      "tail_ticks": 288,
+      "sha256": "89e8d384b8d32d52598c358ad03ea088ef560411e930b7500b0a66f609f37dfa"
+    },
+    {
+      "condition": "timing1_pitch1",
+      "seed": 1,
+      "notes": 23,
+      "max_polyphony": 2,
+      "tail_ticks": 285,
+      "sha256": "1846df226268c4ef70cf7b6fc548179496fa7326af1aceb748ea54c891ed7d1d"
+    },
+    {
+      "condition": "timing1_pitch1",
+      "seed": 2,
+      "notes": 6,
+      "max_polyphony": 1,
+      "tail_ticks": 242,
+      "sha256": "85cb8d1d5c6d7ab76bed01c529ea14e89104805ba9608cc0abfe3999f4f00e2d"
+    },
+    {
+      "condition": "timing1_pitch1",
+      "seed": 3,
+      "notes": 26,
+      "max_polyphony": 2,
+      "tail_ticks": 0,
+      "sha256": "88501a070c643ddc21de65481e50f73e19477f54ac093c4eb3b32eef1c24af76"
+    },
+    {
+      "condition": "timing1_pitch1",
+      "seed": 4,
+      "notes": 33,
+      "max_polyphony": 3,
+      "tail_ticks": 288,
+      "sha256": "bed033df3fdc048885ba9f4a268b577de6e5718ff4c8545d2bd56a2ca05455d9"
+    }
+  ],
+  "tests": "3 unit tests passed",
+  "limitations": "Only notes JSON horizon checked, no MIDI EOT. All20 copy checks passed fixed exact8 test; no proof of originality or musical appeal."
+}

@@ -1,0 +1,7 @@
+{
+  "status": "approved-for-local-experiment",
+  "plan_sha256": "33fb39802333d66aa17d87b529b86700c4e8db139d4ac561161ee4aecae63c4c",
+  "assignment_sha256": "59988983a063e5355dd17a519fb25e3259baa348263a64c939a06f7a5fd3fbaa",
+  "screen_sha256": "80b39b006ec5e823f5ee127649a773a7a1be13fcf7138e0c54fe75b09e3043bf",
+  "review_reference": "Cycle32 parent explicitly reviewed code, plan, screen and rights and authorized local run/repeat bound to33fb39802333d66aa17d87b529b86700c4e8db139d4ac561161ee4aecae63c4c. Withintrain904/2061 and2060/2061 exact8 links retained for future splits, no complete independence claim. Preserve original EOT, observed640/921, excluded580, fixed base5vs14 comparison; old12 has different copy reference set."
+}

@@ -1,0 +1,230 @@
+{
+  "checked_at_utc": "2026-11-12T11:27:48.505407+00:00",
+  "scope": "Independent re-read of exported selected MIDI; integer endpoint sweep, not a musical appeal test",
+  "inputs_report_sha256": "32cb417338bc3436c221533d44d711593887c321a846e2c189b0f301f97913e0",
+  "reader_sha256": "1afc11bf6b6985a2eb22ebe5302b707d39378291e27b6299fde82564c167c867",
+  "profile_limits": "Modeled selected-track fields only; does not assert Cantabile playback or full-project preservation",
+  "count": 20,
+  "files": [
+    {
+      "file": "timing0-0.mid",
+      "sha256": "302d47ce75c2089d800eb4afb17f5d1d52189f6ff3d67ca3f83569193753d49a",
+      "notes": 34,
+      "eot_ticks": 9216,
+      "silent_tail_ticks": 0,
+      "max_simultaneous_notes": 3,
+      "no_same_pitch_overlap": true,
+      "repeat_byte_identical": true,
+      "cycle15_baseline_sha256": null
+    },
+    {
+      "file": "timing0-1.mid",
+      "sha256": "82dc859910a1e1b17c5a868c92aad55d8bfb71a83736ccfe2d6b000554ab5d41",
+      "notes": 27,
+      "eot_ticks": 9216,
+      "silent_tail_ticks": 288,
+      "max_simultaneous_notes": 3,
+      "no_same_pitch_overlap": true,
+      "repeat_byte_identical": true,
+      "cycle15_baseline_sha256": null
+    },
+    {
+      "file": "timing0-2.mid",
+      "sha256": "1adad3fcab9c19b1dc5435c96e3521b742f1c98d6acf9817e808892b4d4b7555",
+      "notes": 20,
+      "eot_ticks": 9216,
+      "silent_tail_ticks": 384,
+      "max_simultaneous_notes": 3,
+      "no_same_pitch_overlap": true,
+      "repeat_byte_identical": true,
+      "cycle15_baseline_sha256": null
+    },
+    {
+      "file": "timing0-3.mid",
+      "sha256": "5d9334e7bd37314a3c32ce18fc5a2f2acefd76c4abb5429154354ca6380a7a62",
+      "notes": 30,
+      "eot_ticks": 9216,
+      "silent_tail_ticks": 384,
+      "max_simultaneous_notes": 3,
+      "no_same_pitch_overlap": true,
+      "repeat_byte_identical": true,
+      "cycle15_baseline_sha256": null
+    },
+    {
+      "file": "timing0-4.mid",
+      "sha256": "688c964220e43cd0260226d8b3ca76833a9ce48285df451d3accaeba7f372169",
+      "notes": 32,
+      "eot_ticks": 9216,
+      "silent_tail_ticks": 0,
+      "max_simultaneous_notes": 2,
+      "no_same_pitch_overlap": true,
+      "repeat_byte_identical": true,
+      "cycle15_baseline_sha256": null
+    },
+    {
+      "file": "timing0-5.mid",
+      "sha256": "e6e460eee3b88d4a830abcbe96693f744a458dcfaeb585ffbb8727fb03f6dbce",
+      "notes": 25,
+      "eot_ticks": 9216,
+      "silent_tail_ticks": 96,
+      "max_simultaneous_notes": 3,
+      "no_same_pitch_overlap": true,
+      "repeat_byte_identical": true,
+      "cycle15_baseline_sha256": null
+    },
+    {
+      "file": "timing0-6.mid",
+      "sha256": "c5ab3073cfccb17692892a2b995f3ba66a287be76aa5cb6d80997f30d24a0b54",
+      "notes": 23,
+      "eot_ticks": 9216,
+      "silent_tail_ticks": 288,
+      "max_simultaneous_notes": 3,
+      "no_same_pitch_overlap": true,
+      "repeat_byte_identical": true,
+      "cycle15_baseline_sha256": null
+    },
+    {
+      "file": "timing0-7.mid",
+      "sha256": "ef72e5b27b425b28d565efb5d48e5c369cffb23d4b23f43d7aa0a299bb67ebb9",
+      "notes": 37,
+      "eot_ticks": 9216,
+      "silent_tail_ticks": 192,
+      "max_simultaneous_notes": 3,
+      "no_same_pitch_overlap": true,
+      "repeat_byte_identical": true,
+      "cycle15_baseline_sha256": null
+    },
+    {
+      "file": "timing0-8.mid",
+      "sha256": "a8fed356b797daa891b7f3119edf73a2137e950967695aa0ab75c7a20b34f9ac",
+      "notes": 27,
+      "eot_ticks": 9216,
+      "silent_tail_ticks": 384,
+      "max_simultaneous_notes": 2,
+      "no_same_pitch_overlap": true,
+      "repeat_byte_identical": true,
+      "cycle15_baseline_sha256": null
+    },
+    {
+      "file": "timing0-9.mid",
+      "sha256": "31821c1885aeceeeb9d1162775eb2a844502d766baeb02c6f2d15ddf6b867358",
+      "notes": 26,
+      "eot_ticks": 9216,
+      "silent_tail_ticks": 192,
+      "max_simultaneous_notes": 2,
+      "no_same_pitch_overlap": true,
+      "repeat_byte_identical": true,
+      "cycle15_baseline_sha256": null
+    },
+    {
+      "file": "timing1-0.mid",
+      "sha256": "6ccab2e4ce90f4db44175ceed97d4dbad234c7ac39d1649af838218a6bb76f6b",
+      "notes": 31,
+      "eot_ticks": 9216,
+      "silent_tail_ticks": 384,
+      "max_simultaneous_notes": 2,
+      "no_same_pitch_overlap": true,
+      "repeat_byte_identical": true,
+      "cycle15_baseline_sha256": "6ccab2e4ce90f4db44175ceed97d4dbad234c7ac39d1649af838218a6bb76f6b"
+    },
+    {
+      "file": "timing1-1.mid",
+      "sha256": "01debf0bc1ce94d721b5eabae22e29bb47cba9033d31aec9177c517217f63874",
+      "notes": 25,
+      "eot_ticks": 9216,
+      "silent_tail_ticks": 384,
+      "max_simultaneous_notes": 3,
+      "no_same_pitch_overlap": true,
+      "repeat_byte_identical": true,
+      "cycle15_baseline_sha256": "01debf0bc1ce94d721b5eabae22e29bb47cba9033d31aec9177c517217f63874"
+    },
+    {
+      "file": "timing1-2.mid",
+      "sha256": "cce949645720f74f2d79081761c1793692aed89e1b0668a613c2791d932a0f8f",
+      "notes": 30,
+      "eot_ticks": 9216,
+      "silent_tail_ticks": 192,
+      "max_simultaneous_notes": 2,
+      "no_same_pitch_overlap": true,
+      "repeat_byte_identical": true,
+      "cycle15_baseline_sha256": "cce949645720f74f2d79081761c1793692aed89e1b0668a613c2791d932a0f8f"
+    },
+    {
+      "file": "timing1-3.mid",
+      "sha256": "5c3043c77f8d5cd518aa21a1216af3f5366f10bbab46a7d36ca4f77d49d1aadc",
+      "notes": 31,
+      "eot_ticks": 9216,
+      "silent_tail_ticks": 384,
+      "max_simultaneous_notes": 2,
+      "no_same_pitch_overlap": true,
+      "repeat_byte_identical": true,
+      "cycle15_baseline_sha256": "5c3043c77f8d5cd518aa21a1216af3f5366f10bbab46a7d36ca4f77d49d1aadc"
+    },
+    {
+      "file": "timing1-4.mid",
+      "sha256": "165b3c82186d656c08ef945be7e4d320cb001cec011229ed3368b69b9744bbe7",
+      "notes": 32,
+      "eot_ticks": 9216,
+      "silent_tail_ticks": 192,
+      "max_simultaneous_notes": 2,
+      "no_same_pitch_overlap": true,
+      "repeat_byte_identical": true,
+      "cycle15_baseline_sha256": "165b3c82186d656c08ef945be7e4d320cb001cec011229ed3368b69b9744bbe7"
+    },
+    {
+      "file": "timing1-5.mid",
+      "sha256": "48ba7815352772308555132fe797e526c31ee59d7b425bac69b33c62da2bc34c",
+      "notes": 29,
+      "eot_ticks": 9216,
+      "silent_tail_ticks": 384,
+      "max_simultaneous_notes": 2,
+      "no_same_pitch_overlap": true,
+      "repeat_byte_identical": true,
+      "cycle15_baseline_sha256": "48ba7815352772308555132fe797e526c31ee59d7b425bac69b33c62da2bc34c"
+    },
+    {
+      "file": "timing1-6.mid",
+      "sha256": "7dfe521dbf63e32603956d8df21a63237a6be84adb5bbe85b5e3c83d83e08a1d",
+      "notes": 30,
+      "eot_ticks": 9216,
+      "silent_tail_ticks": 192,
+      "max_simultaneous_notes": 2,
+      "no_same_pitch_overlap": true,
+      "repeat_byte_identical": true,
+      "cycle15_baseline_sha256": "7dfe521dbf63e32603956d8df21a63237a6be84adb5bbe85b5e3c83d83e08a1d"
+    },
+    {
+      "file": "timing1-7.mid",
+      "sha256": "5e703d457e2d5749a2e80dc3490d1a58e2729e0af09c1b43e15060f92d753196",
+      "notes": 33,
+      "eot_ticks": 9216,
+      "silent_tail_ticks": 192,
+      "max_simultaneous_notes": 2,
+      "no_same_pitch_overlap": true,
+      "repeat_byte_identical": true,
+      "cycle15_baseline_sha256": "5e703d457e2d5749a2e80dc3490d1a58e2729e0af09c1b43e15060f92d753196"
+    },
+    {
+      "file": "timing1-8.mid",
+      "sha256": "ef603e9fc0c31758ebada1ab9a7accbf8a3d83dfbc5c60df0d644673b00f1c8d",
+      "notes": 34,
+      "eot_ticks": 9216,
+      "silent_tail_ticks": 96,
+      "max_simultaneous_notes": 2,
+      "no_same_pitch_overlap": true,
+      "repeat_byte_identical": true,
+      "cycle15_baseline_sha256": "ef603e9fc0c31758ebada1ab9a7accbf8a3d83dfbc5c60df0d644673b00f1c8d"
+    },
+    {
+      "file": "timing1-9.mid",
+      "sha256": "1b67ba123f18bb63293ae509a0a39f3f7673a70d367e7f959f432185a074028a",
+      "notes": 35,
+      "eot_ticks": 9216,
+      "silent_tail_ticks": 0,
+      "max_simultaneous_notes": 2,
+      "no_same_pitch_overlap": true,
+      "repeat_byte_identical": true,
+      "cycle15_baseline_sha256": "1b67ba123f18bb63293ae509a0a39f3f7673a70d367e7f959f432185a074028a"
+    }
+  ]
+}

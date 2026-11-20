@@ -1,0 +1,14 @@
+{
+  "exact_replay_excluding_cpu": true,
+  "cpu_seconds": [
+    1.4023087669999998,
+    1.406561538
+  ],
+  "rows": 414,
+  "journal_byte_equal": true,
+  "tests": {
+    "total": 457,
+    "passed": 456,
+    "skipped": 1
+  }
+}

@@ -1,0 +1,841 @@
+{
+  "conditions": {
+    "equal_family": {
+      "anchor3gram_repeat_fraction": {
+        "maximum": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "minimum": 0.0,
+        "missing": 0,
+        "n": 12
+      },
+      "attempts": {
+        "maximum": 55,
+        "mean": 32.083333333333336,
+        "median": 34.0,
+        "minimum": 4,
+        "missing": 0,
+        "n": 12
+      },
+      "block_pair_comparable_total": 63,
+      "block_pair_equal_total": 0,
+      "copy_matches": {
+        "maximum": 0,
+        "mean": 0,
+        "median": 0.0,
+        "minimum": 0,
+        "missing": 0,
+        "n": 12
+      },
+      "density": {
+        "distinct_pitch_per_note": {
+          "maximum": 1.0,
+          "mean": 0.5950512738456789,
+          "median": 0.5762867647058824,
+          "minimum": 0.4444444444444444,
+          "missing": 0,
+          "n": 12
+        },
+        "first_onset": {
+          "maximum": 7872,
+          "mean": 1064,
+          "median": 192.0,
+          "minimum": 0,
+          "missing": 0,
+          "n": 12
+        },
+        "notes_per_quarter_full": {
+          "maximum": 1.7083333333333333,
+          "mean": 1.2847222222222223,
+          "median": 1.375,
+          "minimum": 0.16666666666666666,
+          "missing": 0,
+          "n": 12
+        },
+        "notes_per_quarter_postfirst": {
+          "maximum": 1.7204301075268817,
+          "mean": 1.429893445704142,
+          "median": 1.4375,
+          "minimum": 1.0222222222222221,
+          "missing": 0,
+          "n": 12
+        },
+        "postfirst_available_ticks": {
+          "maximum": 9216,
+          "mean": 8152,
+          "median": 9024.0,
+          "minimum": 1344,
+          "missing": 0,
+          "n": 12
+        }
+      },
+      "expected": 12,
+      "metrics": {
+        "above_octave_fraction": {
+          "maximum": 0.3235294117647059,
+          "mean": 0.15598232023876532,
+          "median": 0.14636752136752137,
+          "minimum": 0.0,
+          "missing": 0,
+          "n": 12
+        },
+        "distinct_pitches": {
+          "maximum": 27,
+          "mean": 17.333333333333332,
+          "median": 17.5,
+          "minimum": 4,
+          "missing": 0,
+          "n": 12
+        },
+        "max_active_voices": {
+          "maximum": 3,
+          "mean": 2.9166666666666665,
+          "median": 3.0,
+          "minimum": 2,
+          "missing": 0,
+          "n": 12
+        },
+        "mean_abs_pitch_interval": {
+          "maximum": 9.676470588235293,
+          "mean": 7.477469890890031,
+          "median": 7.967741935483871,
+          "minimum": 4.333333333333333,
+          "missing": 0,
+          "n": 12
+        },
+        "mean_active_voices": {
+          "maximum": 1.2338324652777777,
+          "mean": 0.8755244502314815,
+          "median": 0.9172634548611112,
+          "minimum": 0.15625,
+          "missing": 0,
+          "n": 12
+        },
+        "notes": {
+          "maximum": 41,
+          "mean": 30.833333333333332,
+          "median": 33.0,
+          "minimum": 4,
+          "missing": 0,
+          "n": 12
+        },
+        "overlap_onset_fraction": {
+          "maximum": 0.7,
+          "mean": 0.4536008225671342,
+          "median": 0.4417344173441734,
+          "minimum": 0.30434782608695654,
+          "missing": 0,
+          "n": 12
+        },
+        "repeated_pitch_fraction": {
+          "maximum": 0.11538461538461539,
+          "mean": 0.02853003478003478,
+          "median": 0.02532051282051282,
+          "minimum": 0.0,
+          "missing": 0,
+          "n": 12
+        },
+        "rest_fraction": {
+          "maximum": 0.8611111111111112,
+          "mean": 0.3963939525462963,
+          "median": 0.3433702256944444,
+          "minimum": 0.1684027777777778,
+          "missing": 0,
+          "n": 12
+        },
+        "rest_ticks": {
+          "maximum": 7936,
+          "mean": 3653.1666666666665,
+          "median": 3164.5,
+          "minimum": 1552,
+          "missing": 0,
+          "n": 12
+        }
+      },
+      "status_counts": {
+        "complete": 12
+      },
+      "timeline": {
+        "active_voice_tick_integral": {
+          "maximum": 11371,
+          "mean": 8068.833333333333,
+          "median": 8453.5,
+          "minimum": 1440,
+          "missing": 0,
+          "n": 12
+        },
+        "internal_gap_count": {
+          "maximum": 11,
+          "mean": 8.75,
+          "median": 9.5,
+          "minimum": 0,
+          "missing": 0,
+          "n": 12
+        },
+        "internal_silence_ticks": {
+          "maximum": 4800,
+          "mean": 2349.75,
+          "median": 2368.0,
+          "minimum": 0,
+          "missing": 0,
+          "n": 12
+        },
+        "leading_silence_ticks": {
+          "maximum": 7872,
+          "mean": 1064,
+          "median": 192.0,
+          "minimum": 0,
+          "missing": 0,
+          "n": 12
+        },
+        "max_contiguous_silence_ticks": {
+          "maximum": 7872,
+          "mean": 1760,
+          "median": 816.0,
+          "minimum": 384,
+          "missing": 0,
+          "n": 12
+        },
+        "mean_active_voices": {
+          "maximum": 1.2338324652777777,
+          "mean": 0.8755244502314815,
+          "median": 0.9172634548611112,
+          "minimum": 0.15625,
+          "missing": 0,
+          "n": 12
+        },
+        "occupied_ticks": {
+          "maximum": 7664,
+          "mean": 5562.833333333333,
+          "median": 6051.5,
+          "minimum": 1280,
+          "missing": 0,
+          "n": 12
+        },
+        "polyphonic_ticks": {
+          "maximum": 4064,
+          "mean": 2102.6666666666665,
+          "median": 2064.0,
+          "minimum": 160,
+          "missing": 0,
+          "n": 12
+        },
+        "polyphonic_time_fraction": {
+          "maximum": 0.4409722222222222,
+          "mean": 0.22815393518518517,
+          "median": 0.22395833333333331,
+          "minimum": 0.017361111111111112,
+          "missing": 0,
+          "n": 12
+        },
+        "silence_ticks": {
+          "maximum": 7936,
+          "mean": 3653.1666666666665,
+          "median": 3164.5,
+          "minimum": 1552,
+          "missing": 0,
+          "n": 12
+        },
+        "target_ticks": {
+          "maximum": 9216,
+          "mean": 9216,
+          "median": 9216.0,
+          "minimum": 9216,
+          "missing": 0,
+          "n": 12
+        },
+        "trailing_silence_ticks": {
+          "maximum": 384,
+          "mean": 239.41666666666666,
+          "median": 282.5,
+          "minimum": 64,
+          "missing": 0,
+          "n": 12
+        }
+      }
+    },
+    "equal_work": {
+      "anchor3gram_repeat_fraction": {
+        "maximum": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "minimum": 0.0,
+        "missing": 0,
+        "n": 12
+      },
+      "attempts": {
+        "maximum": 60,
+        "mean": 32,
+        "median": 30.0,
+        "minimum": 6,
+        "missing": 0,
+        "n": 12
+      },
+      "block_pair_comparable_total": 60,
+      "block_pair_equal_total": 0,
+      "copy_matches": {
+        "maximum": 0,
+        "mean": 0,
+        "median": 0.0,
+        "minimum": 0,
+        "missing": 0,
+        "n": 12
+      },
+      "density": {
+        "distinct_pitch_per_note": {
+          "maximum": 1.0,
+          "mean": 0.6066187787623663,
+          "median": 0.569047619047619,
+          "minimum": 0.4883720930232558,
+          "missing": 0,
+          "n": 12
+        },
+        "first_onset": {
+          "maximum": 7872,
+          "mean": 1784,
+          "median": 1728.0,
+          "minimum": 0,
+          "missing": 0,
+          "n": 12
+        },
+        "notes_per_quarter_full": {
+          "maximum": 1.7916666666666667,
+          "mean": 1.2881944444444444,
+          "median": 1.25,
+          "minimum": 0.20833333333333334,
+          "missing": 0,
+          "n": 12
+        },
+        "notes_per_quarter_postfirst": {
+          "maximum": 2.1025641025641026,
+          "mean": 1.5789389245325598,
+          "median": 1.5384615384615385,
+          "minimum": 1.1282051282051282,
+          "missing": 0,
+          "n": 12
+        },
+        "postfirst_available_ticks": {
+          "maximum": 9216,
+          "mean": 7432,
+          "median": 7488.0,
+          "minimum": 1344,
+          "missing": 0,
+          "n": 12
+        }
+      },
+      "expected": 12,
+      "metrics": {
+        "above_octave_fraction": {
+          "maximum": 0.3448275862068966,
+          "mean": 0.19461091487090681,
+          "median": 0.22413793103448276,
+          "minimum": 0.0,
+          "missing": 0,
+          "n": 12
+        },
+        "distinct_pitches": {
+          "maximum": 24,
+          "mean": 17.666666666666668,
+          "median": 19.5,
+          "minimum": 5,
+          "missing": 0,
+          "n": 12
+        },
+        "max_active_voices": {
+          "maximum": 3,
+          "mean": 2.9166666666666665,
+          "median": 3.0,
+          "minimum": 2,
+          "missing": 0,
+          "n": 12
+        },
+        "mean_abs_pitch_interval": {
+          "maximum": 11.448275862068966,
+          "mean": 8.380856360692587,
+          "median": 8.337837837837839,
+          "minimum": 4.5,
+          "missing": 0,
+          "n": 12
+        },
+        "mean_active_voices": {
+          "maximum": 1.1284722222222223,
+          "mean": 0.7742513020833334,
+          "median": 0.8237847222222222,
+          "minimum": 0.16666666666666666,
+          "missing": 0,
+          "n": 12
+        },
+        "notes": {
+          "maximum": 43,
+          "mean": 30.916666666666668,
+          "median": 30.0,
+          "minimum": 5,
+          "missing": 0,
+          "n": 12
+        },
+        "overlap_onset_fraction": {
+          "maximum": 0.5348837209302325,
+          "mean": 0.3858370553899258,
+          "median": 0.41428571428571426,
+          "minimum": 0.2,
+          "missing": 0,
+          "n": 12
+        },
+        "repeated_pitch_fraction": {
+          "maximum": 0.08695652173913043,
+          "mean": 0.029524627969155705,
+          "median": 0.02541827541827542,
+          "minimum": 0.0,
+          "missing": 0,
+          "n": 12
+        },
+        "rest_fraction": {
+          "maximum": 0.8958333333333334,
+          "mean": 0.4490559895833333,
+          "median": 0.4123263888888889,
+          "minimum": 0.2765842013888889,
+          "missing": 0,
+          "n": 12
+        },
+        "rest_ticks": {
+          "maximum": 8256,
+          "mean": 4138.5,
+          "median": 3800.0,
+          "minimum": 2549,
+          "missing": 0,
+          "n": 12
+        }
+      },
+      "status_counts": {
+        "complete": 12
+      },
+      "timeline": {
+        "active_voice_tick_integral": {
+          "maximum": 10400,
+          "mean": 7135.5,
+          "median": 7592.0,
+          "minimum": 1536,
+          "missing": 0,
+          "n": 12
+        },
+        "internal_gap_count": {
+          "maximum": 16,
+          "mean": 10.333333333333334,
+          "median": 10.5,
+          "minimum": 2,
+          "missing": 0,
+          "n": 12
+        },
+        "internal_silence_ticks": {
+          "maximum": 3264,
+          "mean": 2111.8333333333335,
+          "median": 2266.5,
+          "minimum": 288,
+          "missing": 0,
+          "n": 12
+        },
+        "leading_silence_ticks": {
+          "maximum": 7872,
+          "mean": 1784,
+          "median": 1728.0,
+          "minimum": 0,
+          "missing": 0,
+          "n": 12
+        },
+        "max_contiguous_silence_ticks": {
+          "maximum": 7872,
+          "mean": 1909.3333333333333,
+          "median": 1728.0,
+          "minimum": 256,
+          "missing": 0,
+          "n": 12
+        },
+        "mean_active_voices": {
+          "maximum": 1.1284722222222223,
+          "mean": 0.7742513020833334,
+          "median": 0.8237847222222222,
+          "minimum": 0.16666666666666666,
+          "missing": 0,
+          "n": 12
+        },
+        "occupied_ticks": {
+          "maximum": 6667,
+          "mean": 5077.5,
+          "median": 5416.0,
+          "minimum": 960,
+          "missing": 0,
+          "n": 12
+        },
+        "polyphonic_ticks": {
+          "maximum": 2912,
+          "mean": 1610,
+          "median": 1888.0,
+          "minimum": 384,
+          "missing": 0,
+          "n": 12
+        },
+        "polyphonic_time_fraction": {
+          "maximum": 0.3159722222222222,
+          "mean": 0.17469618055555555,
+          "median": 0.2048611111111111,
+          "minimum": 0.041666666666666664,
+          "missing": 0,
+          "n": 12
+        },
+        "silence_ticks": {
+          "maximum": 8256,
+          "mean": 4138.5,
+          "median": 3800.0,
+          "minimum": 2549,
+          "missing": 0,
+          "n": 12
+        },
+        "target_ticks": {
+          "maximum": 9216,
+          "mean": 9216,
+          "median": 9216.0,
+          "minimum": 9216,
+          "missing": 0,
+          "n": 12
+        },
+        "trailing_silence_ticks": {
+          "maximum": 384,
+          "mean": 242.66666666666666,
+          "median": 272.0,
+          "minimum": 0,
+          "missing": 0,
+          "n": 12
+        }
+      }
+    },
+    "raw": {
+      "anchor3gram_repeat_fraction": {
+        "maximum": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "minimum": 0.0,
+        "missing": 1,
+        "n": 11
+      },
+      "attempts": {
+        "maximum": 48,
+        "mean": 30.75,
+        "median": 31.0,
+        "minimum": 4,
+        "missing": 0,
+        "n": 12
+      },
+      "block_pair_comparable_total": 63,
+      "block_pair_equal_total": 0,
+      "copy_matches": {
+        "maximum": 0,
+        "mean": 0,
+        "median": 0.0,
+        "minimum": 0,
+        "missing": 0,
+        "n": 12
+      },
+      "density": {
+        "distinct_pitch_per_note": {
+          "maximum": 1.0,
+          "mean": 0.5907690450473073,
+          "median": 0.575187969924812,
+          "minimum": 0.45454545454545453,
+          "missing": 0,
+          "n": 12
+        },
+        "first_onset": {
+          "maximum": 7872,
+          "mean": 1784,
+          "median": 1728.0,
+          "minimum": 0,
+          "missing": 0,
+          "n": 12
+        },
+        "notes_per_quarter_full": {
+          "maximum": 2.0416666666666665,
+          "mean": 1.4548611111111112,
+          "median": 1.5416666666666665,
+          "minimum": 0.25,
+          "missing": 0,
+          "n": 12
+        },
+        "notes_per_quarter_postfirst": {
+          "maximum": 2.4444444444444446,
+          "mean": 1.808333644686154,
+          "median": 1.7802197802197801,
+          "minimum": 1.2820512820512822,
+          "missing": 0,
+          "n": 12
+        },
+        "postfirst_available_ticks": {
+          "maximum": 9216,
+          "mean": 7432,
+          "median": 7488.0,
+          "minimum": 1344,
+          "missing": 0,
+          "n": 12
+        }
+      },
+      "expected": 12,
+      "metrics": {
+        "above_octave_fraction": {
+          "maximum": 0.2857142857142857,
+          "mean": 0.18984564912591761,
+          "median": 0.18928571428571428,
+          "minimum": 0.06976744186046512,
+          "missing": 0,
+          "n": 12
+        },
+        "distinct_pitches": {
+          "maximum": 23,
+          "mean": 19.25,
+          "median": 20.5,
+          "minimum": 6,
+          "missing": 0,
+          "n": 12
+        },
+        "max_active_voices": {
+          "maximum": 3,
+          "mean": 3,
+          "median": 3.0,
+          "minimum": 3,
+          "missing": 0,
+          "n": 12
+        },
+        "mean_abs_pitch_interval": {
+          "maximum": 10.485714285714286,
+          "mean": 8.691454457400674,
+          "median": 8.603571428571428,
+          "minimum": 6.534883720930233,
+          "missing": 0,
+          "n": 12
+        },
+        "mean_active_voices": {
+          "maximum": 1.1631944444444444,
+          "mean": 0.7774974681712963,
+          "median": 0.8125,
+          "minimum": 0.16666666666666666,
+          "missing": 0,
+          "n": 12
+        },
+        "notes": {
+          "maximum": 49,
+          "mean": 34.916666666666664,
+          "median": 37.0,
+          "minimum": 6,
+          "missing": 0,
+          "n": 12
+        },
+        "overlap_onset_fraction": {
+          "maximum": 0.5714285714285714,
+          "mean": 0.43869242301063877,
+          "median": 0.4159090909090909,
+          "minimum": 0.34375,
+          "missing": 0,
+          "n": 12
+        },
+        "repeated_pitch_fraction": {
+          "maximum": 0.03571428571428571,
+          "mean": 0.014191342453816353,
+          "median": 0.011627906976744186,
+          "minimum": 0.0,
+          "missing": 0,
+          "n": 12
+        },
+        "rest_fraction": {
+          "maximum": 0.8958333333333334,
+          "mean": 0.4754503038194445,
+          "median": 0.4131944444444444,
+          "minimum": 0.3472222222222222,
+          "missing": 0,
+          "n": 12
+        },
+        "rest_ticks": {
+          "maximum": 8256,
+          "mean": 4381.75,
+          "median": 3808.0,
+          "minimum": 3200,
+          "missing": 0,
+          "n": 12
+        }
+      },
+      "status_counts": {
+        "complete": 12
+      },
+      "timeline": {
+        "active_voice_tick_integral": {
+          "maximum": 10720,
+          "mean": 7165.416666666667,
+          "median": 7488.0,
+          "minimum": 1536,
+          "missing": 0,
+          "n": 12
+        },
+        "internal_gap_count": {
+          "maximum": 16,
+          "mean": 10.416666666666666,
+          "median": 11.0,
+          "minimum": 0,
+          "missing": 0,
+          "n": 12
+        },
+        "internal_silence_ticks": {
+          "maximum": 3616,
+          "mean": 2348.4166666666665,
+          "median": 2848.0,
+          "minimum": 0,
+          "missing": 0,
+          "n": 12
+        },
+        "leading_silence_ticks": {
+          "maximum": 7872,
+          "mean": 1784,
+          "median": 1728.0,
+          "minimum": 0,
+          "missing": 0,
+          "n": 12
+        },
+        "max_contiguous_silence_ticks": {
+          "maximum": 7872,
+          "mean": 1936,
+          "median": 1728.0,
+          "minimum": 576,
+          "missing": 0,
+          "n": 12
+        },
+        "mean_active_voices": {
+          "maximum": 1.1631944444444444,
+          "mean": 0.7774974681712963,
+          "median": 0.8125,
+          "minimum": 0.16666666666666666,
+          "missing": 0,
+          "n": 12
+        },
+        "occupied_ticks": {
+          "maximum": 6016,
+          "mean": 4834.25,
+          "median": 5408.0,
+          "minimum": 960,
+          "missing": 0,
+          "n": 12
+        },
+        "polyphonic_ticks": {
+          "maximum": 3296,
+          "mean": 1756.8333333333333,
+          "median": 1696.0,
+          "minimum": 384,
+          "missing": 0,
+          "n": 12
+        },
+        "polyphonic_time_fraction": {
+          "maximum": 0.3576388888888889,
+          "mean": 0.19062861689814817,
+          "median": 0.1840277777777778,
+          "minimum": 0.041666666666666664,
+          "missing": 0,
+          "n": 12
+        },
+        "silence_ticks": {
+          "maximum": 8256,
+          "mean": 4381.75,
+          "median": 3808.0,
+          "minimum": 3200,
+          "missing": 0,
+          "n": 12
+        },
+        "target_ticks": {
+          "maximum": 9216,
+          "mean": 9216,
+          "median": 9216.0,
+          "minimum": 9216,
+          "missing": 0,
+          "n": 12
+        },
+        "trailing_silence_ticks": {
+          "maximum": 384,
+          "mean": 249.33333333333334,
+          "median": 272.0,
+          "minimum": 32,
+          "missing": 0,
+          "n": 12
+        }
+      }
+    }
+  },
+  "notes": "All36 complete in this run; means/medians descriptive, not statistically independent samples or attractiveness. Ratios and unique counts depend on output length.",
+  "pair_strata": {
+    "across_equal_family_equal_work": {
+      "anchor3gram_jaccard": {
+        "maximum": 0.018518518518518517,
+        "mean": 0.00012860082304526747,
+        "median": 0.0,
+        "minimum": 0.0,
+        "missing": 0,
+        "n": 144
+      },
+      "exact_note_event_equal": 0,
+      "pairs": 144
+    },
+    "across_equal_family_raw": {
+      "anchor3gram_jaccard": {
+        "maximum": 0.022222222222222223,
+        "mean": 0.0005841696182605274,
+        "median": 0.0,
+        "minimum": 0.0,
+        "missing": 12,
+        "n": 132
+      },
+      "exact_note_event_equal": 0,
+      "pairs": 144
+    },
+    "across_equal_work_raw": {
+      "anchor3gram_jaccard": {
+        "maximum": 0.017857142857142856,
+        "mean": 0.00038426910732945215,
+        "median": 0.0,
+        "minimum": 0.0,
+        "missing": 12,
+        "n": 132
+      },
+      "exact_note_event_equal": 0,
+      "pairs": 144
+    },
+    "within_equal_family": {
+      "anchor3gram_jaccard": {
+        "maximum": 0.01639344262295082,
+        "mean": 0.00024838549428713363,
+        "median": 0.0,
+        "minimum": 0.0,
+        "missing": 0,
+        "n": 66
+      },
+      "exact_note_event_equal": 0,
+      "pairs": 66
+    },
+    "within_equal_work": {
+      "anchor3gram_jaccard": {
+        "maximum": 0.015151515151515152,
+        "mean": 0.0002295684113865932,
+        "median": 0.0,
+        "minimum": 0.0,
+        "missing": 0,
+        "n": 66
+      },
+      "exact_note_event_equal": 0,
+      "pairs": 66
+    },
+    "within_raw": {
+      "anchor3gram_jaccard": {
+        "maximum": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "minimum": 0.0,
+        "missing": 11,
+        "n": 55
+      },
+      "exact_note_event_equal": 0,
+      "pairs": 66
+    }
+  }
+}

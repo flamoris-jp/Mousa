@@ -1,0 +1,33 @@
+{
+  "cycle": 36,
+  "recorded_at_utc": "2026-11-12T15:04:31.966493+00:00",
+  "status": "completed-exploratory-training-used",
+  "work_id": "mutopia-2243",
+  "source_sha256": "cbcb7f97c501d0e1e7eb4694cd7fe3f132870e187a2374dd0023ffe31f836706",
+  "track": 1,
+  "notes": 169,
+  "first_onset_ticks": 12672,
+  "selected_eot_ticks": 53760,
+  "source_eot_ticks": 54528,
+  "raw_bytes_changed": false,
+  "original_first_silence_retained": true,
+  "conditions_fitted": [
+    "works17_first65536_global",
+    "works17_first65536_context"
+  ],
+  "repeated_runs": 2,
+  "total_training_works": 17,
+  "total_training_notes": 4319,
+  "total_training_groups": 3428,
+  "assignment": "datasets/research-cycle36-seventeen-work-assignment.json",
+  "assignment_sha256": "4812808f5b333e813de315e41ba595e451a8c512e7c54b46f96e40ce6d323b3b",
+  "rights_snapshot": "datasets/research-new-cohorts-cycle35-20261112.json",
+  "rights_snapshot_sha256": "dc3f8c935e2a29b87b7f362bd9b5c8ac5d756b26f1eeda25314b88e7646693dd",
+  "plan_sha256": "362b37be07143d863d962e1e9de1a11a6d709a627f1bb48d40f6706334fd395d",
+  "results_sha256": "da089e80bce65013698111a86b8ad49d396e4834a396074bb317d6e9c5764e7f",
+  "previous_role": "Rights-reviewed reserved snapshot remains immutable; this appended record establishes subsequent training use.",
+  "diagnostics": "640/921 remain observed untrained; no fresh holdout claim.",
+  "family_links": "583\u21942243 exact8 motif link retained;anonymous contributor identity unknown;allKingArthur/Macfarren edition siblings linked.",
+  "failures": "No runtime failures in these two bound runs; all30candidates complete,copyflags0.",
+  "generated_material": "Private only, not source training materials or public-release clearance."
+}

@@ -1,0 +1,558 @@
+{
+  "archive_sha256": "651cbc524ffb891be1a3e46d89dc82a1cecb09a57c748c7b45b844c4841dcc1e",
+  "archive_bytes": 3260318,
+  "archive_entries": 1225,
+  "archive_uncompressed_bytes": 5479882,
+  "midi_files": 1150,
+  "unique_midi_hashes": 1149,
+  "midi_bytes": 5273095,
+  "csv_exact_inventory_match": true,
+  "all_original_hashes_verified": true,
+  "ignored_zero_byte_decorations": 36,
+  "split_counts": {
+    "test": 129,
+    "train": 897,
+    "validation": 124
+  },
+  "style_label_counts": {
+    "funk/groove1": 4,
+    "soul/groove10": 4,
+    "funk/groove2": 4,
+    "soul/groove3": 4,
+    "soul/groove4": 4,
+    "funk/groove5": 4,
+    "hiphop/groove6": 4,
+    "pop/groove7": 4,
+    "rock/groove8": 4,
+    "soul/groove9": 4,
+    "funk": 77,
+    "jazz/funk": 24,
+    "neworleans/secondline": 3,
+    "dance/disco": 5,
+    "funk/fast": 19,
+    "latin/brazilian-baiao": 32,
+    "afrocuban": 9,
+    "reggae": 19,
+    "reggae/slow": 1,
+    "rock/halftime": 37,
+    "funk/purdieshuffle": 30,
+    "latin/samba": 19,
+    "jazz": 46,
+    "rock/shuffle": 4,
+    "jazz/mediumfast": 2,
+    "jazz/fast": 1,
+    "latin/reggaeton": 1,
+    "dance/breakbeat": 2,
+    "neworleans/funk": 48,
+    "latin/chacarera": 3,
+    "country": 29,
+    "funk/rock": 20,
+    "rock/prog": 3,
+    "afrocuban/bembe": 30,
+    "gospel": 19,
+    "afrocuban/rhumba": 19,
+    "rock": 281,
+    "punk": 58,
+    "jazz/march": 3,
+    "rock/folk": 1,
+    "afrobeat": 13,
+    "latin/bomba": 1,
+    "afrocuban/calypso": 2,
+    "jazz/swing": 11,
+    "rock/rockabilly": 1,
+    "jazz/linear": 2,
+    "hiphop": 91,
+    "jazz/klezmer": 1,
+    "latin/brazilian": 4,
+    "blues/shuffle": 4,
+    "latin/merengue": 1,
+    "latin/brazilian-bossa": 2,
+    "latin/brazilian-sambareggae": 3,
+    "latin/brazilian-songo": 5,
+    "middleeastern": 1,
+    "latin/brazilian-samba": 5,
+    "latin/brazilian-maracatu": 2,
+    "latin/venezuelan-merengue": 1,
+    "latin/dominican-merengue": 1,
+    "latin/venezuelan-sangueo": 1,
+    "soul": 31,
+    "latin/venezuelan-joropo": 1,
+    "latin/ando": 1,
+    "latin/brazilian-ijexa": 3,
+    "latin/brazilian-frevo": 1,
+    "neworleans/chacha": 1,
+    "neworleans/shuffle": 1,
+    "pop": 10,
+    "soul/motown": 16,
+    "jazz/fusion": 11,
+    "pop/soft": 13,
+    "rock/indie": 10,
+    "latin": 8,
+    "funk/latin": 2,
+    "latin/bounce": 2,
+    "highlife": 2
+  },
+  "top_level_style_counts": {
+    "funk": 160,
+    "soul": 63,
+    "hiphop": 95,
+    "pop": 27,
+    "rock": 341,
+    "jazz": 101,
+    "neworleans": 53,
+    "dance": 7,
+    "latin": 97,
+    "afrocuban": 60,
+    "reggae": 20,
+    "country": 29,
+    "gospel": 19,
+    "punk": 58,
+    "afrobeat": 13,
+    "blues": 4,
+    "middleeastern": 1,
+    "highlife": 2
+  },
+  "drummer_splits": {
+    "drummer1": [
+      "test",
+      "train",
+      "validation"
+    ],
+    "drummer10": [
+      "train"
+    ],
+    "drummer2": [
+      "train",
+      "validation"
+    ],
+    "drummer3": [
+      "test",
+      "train",
+      "validation"
+    ],
+    "drummer4": [
+      "train",
+      "validation"
+    ],
+    "drummer5": [
+      "test",
+      "train",
+      "validation"
+    ],
+    "drummer6": [
+      "train",
+      "validation"
+    ],
+    "drummer7": [
+      "test",
+      "train",
+      "validation"
+    ],
+    "drummer8": [
+      "test",
+      "train",
+      "validation"
+    ],
+    "drummer9": [
+      "test",
+      "train",
+      "validation"
+    ]
+  },
+  "sessions": 25,
+  "session_splits": {
+    "drummer1/eval_session": [
+      "test"
+    ],
+    "drummer1/session1": [
+      "test",
+      "train",
+      "validation"
+    ],
+    "drummer1/session2": [
+      "test",
+      "train",
+      "validation"
+    ],
+    "drummer1/session3": [
+      "train",
+      "validation"
+    ],
+    "drummer10/session1": [
+      "train"
+    ],
+    "drummer2/session1": [
+      "train"
+    ],
+    "drummer3/session1": [
+      "test",
+      "train",
+      "validation"
+    ],
+    "drummer3/session2": [
+      "test",
+      "train",
+      "validation"
+    ],
+    "drummer4/session1": [
+      "train",
+      "validation"
+    ],
+    "drummer5/eval_session": [
+      "test"
+    ],
+    "drummer5/session1": [
+      "test",
+      "train",
+      "validation"
+    ],
+    "drummer5/session2": [
+      "test",
+      "train",
+      "validation"
+    ],
+    "drummer6/session1": [
+      "train",
+      "validation"
+    ],
+    "drummer6/session2": [
+      "train"
+    ],
+    "drummer6/session3": [
+      "train",
+      "validation"
+    ],
+    "drummer7/eval_session": [
+      "test"
+    ],
+    "drummer7/session1": [
+      "test",
+      "train",
+      "validation"
+    ],
+    "drummer7/session2": [
+      "test",
+      "train",
+      "validation"
+    ],
+    "drummer7/session3": [
+      "test",
+      "train",
+      "validation"
+    ],
+    "drummer8/eval_session": [
+      "test"
+    ],
+    "drummer8/session1": [
+      "test",
+      "train",
+      "validation"
+    ],
+    "drummer8/session2": [
+      "test",
+      "train",
+      "validation"
+    ],
+    "drummer9/session1": [
+      "test",
+      "train",
+      "validation"
+    ],
+    "drummer2/session3": [
+      "train"
+    ],
+    "drummer2/session2": [
+      "train",
+      "validation"
+    ]
+  },
+  "drummer_cross_split": [
+    "drummer1",
+    "drummer2",
+    "drummer3",
+    "drummer4",
+    "drummer5",
+    "drummer6",
+    "drummer7",
+    "drummer8",
+    "drummer9"
+  ],
+  "session_cross_split": [
+    "drummer1/session1",
+    "drummer1/session2",
+    "drummer1/session3",
+    "drummer3/session1",
+    "drummer3/session2",
+    "drummer4/session1",
+    "drummer5/session1",
+    "drummer5/session2",
+    "drummer6/session1",
+    "drummer6/session3",
+    "drummer7/session1",
+    "drummer7/session2",
+    "drummer7/session3",
+    "drummer8/session1",
+    "drummer8/session2",
+    "drummer9/session1",
+    "drummer2/session2"
+  ],
+  "exact_byte_duplicate_groups": [
+    {
+      "sha256": "4000bbae1dbb14da5458b103a84d4b4a77757af5281564df5bf939780c193020",
+      "ids": [
+        "drummer2/session2/7",
+        "drummer2/session2/8"
+      ],
+      "splits": [
+        "train"
+      ]
+    }
+  ],
+  "eval_pattern_series": {
+    "funk/groove1": [
+      {
+        "id": "drummer1/eval_session/1",
+        "drummer": "drummer1",
+        "split": "test"
+      },
+      {
+        "id": "drummer5/eval_session/1",
+        "drummer": "drummer5",
+        "split": "test"
+      },
+      {
+        "id": "drummer7/eval_session/1",
+        "drummer": "drummer7",
+        "split": "test"
+      },
+      {
+        "id": "drummer8/eval_session/1",
+        "drummer": "drummer8",
+        "split": "test"
+      }
+    ],
+    "soul/groove10": [
+      {
+        "id": "drummer1/eval_session/10",
+        "drummer": "drummer1",
+        "split": "test"
+      },
+      {
+        "id": "drummer5/eval_session/10",
+        "drummer": "drummer5",
+        "split": "test"
+      },
+      {
+        "id": "drummer7/eval_session/10",
+        "drummer": "drummer7",
+        "split": "test"
+      },
+      {
+        "id": "drummer8/eval_session/10",
+        "drummer": "drummer8",
+        "split": "test"
+      }
+    ],
+    "funk/groove2": [
+      {
+        "id": "drummer1/eval_session/2",
+        "drummer": "drummer1",
+        "split": "test"
+      },
+      {
+        "id": "drummer5/eval_session/2",
+        "drummer": "drummer5",
+        "split": "test"
+      },
+      {
+        "id": "drummer7/eval_session/2",
+        "drummer": "drummer7",
+        "split": "test"
+      },
+      {
+        "id": "drummer8/eval_session/2",
+        "drummer": "drummer8",
+        "split": "test"
+      }
+    ],
+    "soul/groove3": [
+      {
+        "id": "drummer1/eval_session/3",
+        "drummer": "drummer1",
+        "split": "test"
+      },
+      {
+        "id": "drummer5/eval_session/3",
+        "drummer": "drummer5",
+        "split": "test"
+      },
+      {
+        "id": "drummer7/eval_session/3",
+        "drummer": "drummer7",
+        "split": "test"
+      },
+      {
+        "id": "drummer8/eval_session/3",
+        "drummer": "drummer8",
+        "split": "test"
+      }
+    ],
+    "soul/groove4": [
+      {
+        "id": "drummer1/eval_session/4",
+        "drummer": "drummer1",
+        "split": "test"
+      },
+      {
+        "id": "drummer5/eval_session/4",
+        "drummer": "drummer5",
+        "split": "test"
+      },
+      {
+        "id": "drummer7/eval_session/4",
+        "drummer": "drummer7",
+        "split": "test"
+      },
+      {
+        "id": "drummer8/eval_session/4",
+        "drummer": "drummer8",
+        "split": "test"
+      }
+    ],
+    "funk/groove5": [
+      {
+        "id": "drummer1/eval_session/5",
+        "drummer": "drummer1",
+        "split": "test"
+      },
+      {
+        "id": "drummer5/eval_session/5",
+        "drummer": "drummer5",
+        "split": "test"
+      },
+      {
+        "id": "drummer7/eval_session/5",
+        "drummer": "drummer7",
+        "split": "test"
+      },
+      {
+        "id": "drummer8/eval_session/5",
+        "drummer": "drummer8",
+        "split": "test"
+      }
+    ],
+    "hiphop/groove6": [
+      {
+        "id": "drummer1/eval_session/6",
+        "drummer": "drummer1",
+        "split": "test"
+      },
+      {
+        "id": "drummer5/eval_session/6",
+        "drummer": "drummer5",
+        "split": "test"
+      },
+      {
+        "id": "drummer7/eval_session/6",
+        "drummer": "drummer7",
+        "split": "test"
+      },
+      {
+        "id": "drummer8/eval_session/6",
+        "drummer": "drummer8",
+        "split": "test"
+      }
+    ],
+    "pop/groove7": [
+      {
+        "id": "drummer1/eval_session/7",
+        "drummer": "drummer1",
+        "split": "test"
+      },
+      {
+        "id": "drummer5/eval_session/7",
+        "drummer": "drummer5",
+        "split": "test"
+      },
+      {
+        "id": "drummer7/eval_session/7",
+        "drummer": "drummer7",
+        "split": "test"
+      },
+      {
+        "id": "drummer8/eval_session/7",
+        "drummer": "drummer8",
+        "split": "test"
+      }
+    ],
+    "rock/groove8": [
+      {
+        "id": "drummer1/eval_session/8",
+        "drummer": "drummer1",
+        "split": "test"
+      },
+      {
+        "id": "drummer5/eval_session/8",
+        "drummer": "drummer5",
+        "split": "test"
+      },
+      {
+        "id": "drummer7/eval_session/8",
+        "drummer": "drummer7",
+        "split": "test"
+      },
+      {
+        "id": "drummer8/eval_session/8",
+        "drummer": "drummer8",
+        "split": "test"
+      }
+    ],
+    "soul/groove9": [
+      {
+        "id": "drummer1/eval_session/9",
+        "drummer": "drummer1",
+        "split": "test"
+      },
+      {
+        "id": "drummer5/eval_session/9",
+        "drummer": "drummer5",
+        "split": "test"
+      },
+      {
+        "id": "drummer7/eval_session/9",
+        "drummer": "drummer7",
+        "split": "test"
+      },
+      {
+        "id": "drummer8/eval_session/9",
+        "drummer": "drummer8",
+        "split": "test"
+      }
+    ]
+  },
+  "metrics": {
+    "note_on_positive": 446312,
+    "note_off_equivalent": 446312,
+    "ppq_values": [
+      480
+    ],
+    "note_channels": [
+      9
+    ]
+  },
+  "metadata_duration_seconds_sum": 48895.031629,
+  "limitations": [
+    "Separate drum corpus, never combined with pitched melody12training; model fits0/audio downloads0.",
+    "Original split recorded, not independent unseen drummer/session/pattern validation.",
+    "Eval sessions share10named patterns; cross-performer series explicitly grouped, near-duplicate timing/pattern analysis still pending.",
+    "Exact bytes only deduplication; not composition independence or musical originality.",
+    "Style labels are source metadata, not verified genre diversity; anonymous drummer IDs retained."
+  ],
+  "official_vs_measured_hits": {
+    "official_page_reported_hits": 445494,
+    "measured_positive_velocity_note_on": 446312,
+    "difference": 818,
+    "counting_rule": "All tracks/all1150original MIDI files: mido note_on messages with velocity>0. Excludes meta, note_off and zero-velocity note_on. No deduplication of repeated/overlapping strikes or exactduplicate files.",
+    "interpretation": "Unresolved definition/version/counting difference. Independent measured total retained; not adjusted to website claim."
+  }
+}

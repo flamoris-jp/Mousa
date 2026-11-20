@@ -1,0 +1,109 @@
+{
+  "scope": "Initial vs repeat normalized comparison; original files retained unchanged",
+  "initial_report_sha256": "32cb417338bc3436c221533d44d711593887c321a846e2c189b0f301f97913e0",
+  "repeat_report_sha256": "367b8626f0b62a984b4b010e016bbd1f0d5f1f0128b4bcbca672c82c96770a64",
+  "initial_plan_sha256": "6c964265eb896ab5322787279107ee2552ab4b66325c2081ee93bd5589462267",
+  "repeat_plan_sha256": "0b906d41fe66414e812f7c2643de80a405e0e00f57c79da3ecc453302c48c610",
+  "normalization": "Remove generation_timing from conditions only; compare full remaining condition objects and common_accepted_seed_analysis exactly",
+  "normalized_conditions_equal": true,
+  "common_seed_analysis_equal": true,
+  "all20_midi_byte_identical": true,
+  "dependency_hash_changes": {
+    "datasets/research-source-observations.json": {
+      "initial": "a10040ec71cc7ab71f0f9e898a62eac2781025197ce9239e5c3129ce166ba808",
+      "repeat": "63e5784af14e8f96e3cee721a75c2dc65ae2e5168adbe81b960dcb571e464d26"
+    }
+  },
+  "change_explanation": "Parent backfilled historical observed1578/1558/370/580 entries in observation registry. No model, training source, generator or evaluation logic changed.",
+  "excluded_metadata": "Plan creation timestamp, plan digest and observation-registry digest naturally differ; initial plan not rewritten.",
+  "repeat_summary": {
+    "timing0": {
+      "statuses": {
+        "complete": 10
+      },
+      "rejections": 0,
+      "timing_draws": 281,
+      "generation_timing": {
+        "wall_seconds": 0.46026059500036354,
+        "cpu_seconds": 0.4589638290000001
+      },
+      "complete_only_means": {
+        "notes": 28.1,
+        "overlap_onset_fraction": 0.3833797868299147,
+        "mean_active_voices": 0.825,
+        "max_active_voices": 2.7,
+        "mean_abs_pitch_interval": 3.3056244031420836,
+        "above_octave_fraction": 0.031330314875686924,
+        "distinct_pitches": 12.6,
+        "repeated_pitch_fraction": 0.1902411408787792,
+        "rest_ticks": 3427.2,
+        "rest_fraction": 0.371875,
+        "short_gate_count": 0,
+        "last_quarter_onsets": 0.5,
+        "actual_silent_tail_ticks": 220.8
+      },
+      "metric_denominators": {
+        "notes": 10,
+        "overlap_onset_fraction": 10,
+        "mean_active_voices": 10,
+        "max_active_voices": 10,
+        "mean_abs_pitch_interval": 10,
+        "above_octave_fraction": 10,
+        "distinct_pitches": 10,
+        "repeated_pitch_fraction": 10,
+        "rest_ticks": 10,
+        "rest_fraction": 10,
+        "short_gate_count": 10,
+        "last_quarter_onsets": 10,
+        "actual_silent_tail_ticks": 10
+      }
+    },
+    "timing1": {
+      "statuses": {
+        "complete": 10
+      },
+      "rejections": 0,
+      "timing_draws": 310,
+      "generation_timing": {
+        "wall_seconds": 0.5173966669972287,
+        "cpu_seconds": 0.5173855920000002
+      },
+      "complete_only_means": {
+        "notes": 31,
+        "overlap_onset_fraction": 0.15275133321606527,
+        "mean_active_voices": 0.9364583333333334,
+        "max_active_voices": 2.1,
+        "mean_abs_pitch_interval": 3.3896895664424127,
+        "above_octave_fraction": 0.03011300098459851,
+        "distinct_pitches": 13.3,
+        "repeated_pitch_fraction": 0.22670407418706182,
+        "rest_ticks": 1584,
+        "rest_fraction": 0.171875,
+        "short_gate_count": 0,
+        "last_quarter_onsets": 0.1,
+        "actual_silent_tail_ticks": 240
+      },
+      "metric_denominators": {
+        "notes": 10,
+        "overlap_onset_fraction": 10,
+        "mean_active_voices": 10,
+        "max_active_voices": 10,
+        "mean_abs_pitch_interval": 10,
+        "above_octave_fraction": 10,
+        "distinct_pitches": 10,
+        "repeated_pitch_fraction": 10,
+        "rest_ticks": 10,
+        "rest_fraction": 10,
+        "short_gate_count": 10,
+        "last_quarter_onsets": 10,
+        "actual_silent_tail_ticks": 10
+      }
+    }
+  },
+  "tests": {
+    "total": 208,
+    "passed": 207,
+    "skipped": 1,
+    "compileall": "passed"
+  }
+}

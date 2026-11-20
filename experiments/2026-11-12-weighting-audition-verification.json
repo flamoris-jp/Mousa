@@ -1,0 +1,82 @@
+{
+  "scope": "Three private generatedMIDI/analytic-audio previews, preselectedseed0 allconditions. Private key and note/MIDIcondition mapping notcommitted.",
+  "clips": [
+    {
+      "clip": "A",
+      "audio_sha256": "7d3491b3f02421e8ff25ac62f154958143eddb74adfb91098743e4c353e480ce",
+      "frames": 264600,
+      "duration_seconds": 12.0,
+      "clipped_samples": 0,
+      "repeat_identical": true,
+      "midi_roundtrip": true,
+      "native": {
+        "isolated_native_cli_import_validate_export": true,
+        "notes_gates_meter_tempo_eot_preserved": true,
+        "byte_identical": false,
+        "live_project_touched": false,
+        "actual_audio_audition": false,
+        "decoded_all_message_streams_equal": true,
+        "byte_difference_interpretation": "Different serialization bytes, same decoded messages and headers; not byte-identical native export."
+      }
+    },
+    {
+      "clip": "B",
+      "audio_sha256": "fe6bfca63530397c5dbb268e7bea434d1332c772bda28501549297831bdf1e6f",
+      "frames": 264600,
+      "duration_seconds": 12.0,
+      "clipped_samples": 0,
+      "repeat_identical": true,
+      "midi_roundtrip": true,
+      "native": {
+        "isolated_native_cli_import_validate_export": true,
+        "notes_gates_meter_tempo_eot_preserved": true,
+        "byte_identical": false,
+        "live_project_touched": false,
+        "actual_audio_audition": false,
+        "decoded_all_message_streams_equal": true,
+        "byte_difference_interpretation": "Different serialization bytes, same decoded messages and headers; not byte-identical native export."
+      }
+    },
+    {
+      "clip": "C",
+      "audio_sha256": "31ac4a67f8651d9e1d8c981561f229c6bcacfc221bd39e8826774c06e26ef805",
+      "frames": 264600,
+      "duration_seconds": 12.0,
+      "clipped_samples": 0,
+      "repeat_identical": true,
+      "midi_roundtrip": true,
+      "native": {
+        "isolated_native_cli_import_validate_export": true,
+        "notes_gates_meter_tempo_eot_preserved": true,
+        "byte_identical": false,
+        "live_project_touched": false,
+        "actual_audio_audition": false,
+        "decoded_all_message_streams_equal": true,
+        "byte_difference_interpretation": "Different serialization bytes, same decoded messages and headers; not byte-identical native export."
+      }
+    }
+  ],
+  "meter_export": "6/8fixedheader8bars,notlearnedmeter",
+  "human_ratings": 0,
+  "delivery_claimed": false,
+  "publication_cleared": false,
+  "native_cli_binary_sha256": "384205abc782f532dfeeb437985fab0b42dadee3d8e6d21a4af0c876c4af34de",
+  "independent_audit": {
+    "clips_verified": 3,
+    "preselected_seed0_all_conditions": true,
+    "private_source_hash_and_event_order_binding_verified": true,
+    "exact_note_on_off_velocity_gates_and_eot": true,
+    "decoded_native_all_message_streams_equal": true,
+    "native_bytes_differ_serialization_only": true,
+    "isolated_project_note_events_and_end_ticks_verified": true,
+    "independently_reconstructed_pcm_exact": true,
+    "all_headers_mono_pcm16_22050hz": true,
+    "frames_each": 264600,
+    "duration_seconds_each": 12,
+    "clipping_samples": 0,
+    "trailing_silence_verified": true,
+    "human_ratings": 0,
+    "private_mapping_published": false,
+    "limits": "Analytic tone verification, not native audio rendering, listening or aesthetic judgment. Read-only audit of isolated native artifacts; no live project or snapshot modified."
+  }
+}

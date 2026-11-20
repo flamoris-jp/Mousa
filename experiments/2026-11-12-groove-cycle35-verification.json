@@ -1,0 +1,22 @@
+{
+  "repeat_equal_excluding_only_cpu": true,
+  "initial_cpu_seconds": 0.585723707,
+  "repeat_cpu_seconds": 0.581957329,
+  "initial_sha256": "77e6b3570f7920ec2fa51d5c14c68a4c9ca779e729c4e16267687bd61ecd6aec",
+  "repeat_sha256": "992526830aa4c0dde0b6079a22282717eaa4ad4183da28e5631391639733b77d",
+  "historical_work_NLL_exact_checks": 48,
+  "independent_report_arithmetic_checks": 192,
+  "check_method": "Separate report-only verification against stored Cycle34 per-drummer means and partition-sum accounting; no new source/model fitting. Floats sum within1e-9; historical per-recording sums exact.",
+  "targeted_tests": {
+    "total": 2,
+    "passed": 2
+  },
+  "source_bytes_unchanged": true,
+  "new_conditions_fit": false,
+  "full_suite": {
+    "tests": 327,
+    "passed": 326,
+    "skipped": 1,
+    "command": "PYTHONPATH=src python -m unittest discover -s tests"
+  }
+}

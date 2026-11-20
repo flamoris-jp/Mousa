@@ -1,0 +1,102 @@
+{
+  "repeat_equal_except_measured_cpu_time": true,
+  "private_note_files_byte_identical": 10,
+  "initial_cpu_seconds": 0.5362985789999999,
+  "repeat_cpu_seconds": 0.510714833,
+  "originals_unchanged": true,
+  "plan_sha256": "035c152b8af4e7fea1fe63fbed8f4be65a935e50a93c64fc2365c5ce876fa496",
+  "initial_report_sha256": "9efe947a1b33fbdb370bf3398280a7e42aa4726bf565bbb2eba25a357c9a23b3",
+  "repeat_report_sha256": "3aad40a12142d43bb9de621b5eb8f64cb70e7c1a87115ceefa299011f8f38b38",
+  "independent_audit": {
+    "normalized_repeat_equal": true,
+    "base5_exactly_matches_eight_work_run": true,
+    "base5_prediction_and_note_hashes_match_cycle23": true,
+    "handel_notes": 131,
+    "all_training_events": 1142,
+    "copy_reference_count": 11,
+    "safety": [
+      {
+        "condition": "base5",
+        "seed": 0,
+        "max_polyphony": 2,
+        "tail_ticks": 288,
+        "copy_matches_recomputed": 0,
+        "private_notes_sha256": "89e8d384b8d32d52598c358ad03ea088ef560411e930b7500b0a66f609f37dfa"
+      },
+      {
+        "condition": "base5",
+        "seed": 1,
+        "max_polyphony": 2,
+        "tail_ticks": 285,
+        "copy_matches_recomputed": 0,
+        "private_notes_sha256": "1846df226268c4ef70cf7b6fc548179496fa7326af1aceb748ea54c891ed7d1d"
+      },
+      {
+        "condition": "base5",
+        "seed": 2,
+        "max_polyphony": 1,
+        "tail_ticks": 242,
+        "copy_matches_recomputed": 0,
+        "private_notes_sha256": "85cb8d1d5c6d7ab76bed01c529ea14e89104805ba9608cc0abfe3999f4f00e2d"
+      },
+      {
+        "condition": "base5",
+        "seed": 3,
+        "max_polyphony": 2,
+        "tail_ticks": 0,
+        "copy_matches_recomputed": 0,
+        "private_notes_sha256": "88501a070c643ddc21de65481e50f73e19477f54ac093c4eb3b32eef1c24af76"
+      },
+      {
+        "condition": "base5",
+        "seed": 4,
+        "max_polyphony": 3,
+        "tail_ticks": 288,
+        "copy_matches_recomputed": 0,
+        "private_notes_sha256": "bed033df3fdc048885ba9f4a268b577de6e5718ff4c8545d2bd56a2ca05455d9"
+      },
+      {
+        "condition": "expanded",
+        "seed": 0,
+        "max_polyphony": 1,
+        "tail_ticks": 192,
+        "copy_matches_recomputed": 0,
+        "private_notes_sha256": "09ef192e1fa11dc2b817e7318adca1088df56f5f2842116c3b5edfb1b42f2bb0"
+      },
+      {
+        "condition": "expanded",
+        "seed": 1,
+        "max_polyphony": 2,
+        "tail_ticks": 384,
+        "copy_matches_recomputed": 0,
+        "private_notes_sha256": "3c8eb2f570716aa0e3c77ba940900d8b5be2bdddf78b8836c3a5a747d206bcc5"
+      },
+      {
+        "condition": "expanded",
+        "seed": 2,
+        "max_polyphony": 2,
+        "tail_ticks": 96,
+        "copy_matches_recomputed": 0,
+        "private_notes_sha256": "8c45c6904c0d674960af93c4eb6242272852bc1e484004ad337290ad4b8b1a8a"
+      },
+      {
+        "condition": "expanded",
+        "seed": 3,
+        "max_polyphony": 2,
+        "tail_ticks": 96,
+        "copy_matches_recomputed": 0,
+        "private_notes_sha256": "64bc87cd02de5c9d02079072beb5c0bd97fbf3fe366f8879f1d83431dea8fd03"
+      },
+      {
+        "condition": "expanded",
+        "seed": 4,
+        "max_polyphony": 2,
+        "tail_ticks": 0,
+        "copy_matches_recomputed": 0,
+        "private_notes_sha256": "00a0c3f4ba171fda3aec2a28bae0e37ec78afda5dc6e42a649fbfd734c5b7ee6"
+      }
+    ],
+    "assignment_text_correction": "family_groups and expected correctly show6 groups; family_interpretation retains stale Five wording from8work snapshot. Snapshot retained; interpret as6declaredgroups, not independentcontributors.",
+    "limitations": "Notes JSON safety only, no MIDI EOT; exact8 checks not originality proof. Handel keyboard staff includes chords, not extracted monophonic voice."
+  }
+}

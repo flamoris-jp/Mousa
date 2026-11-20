@@ -1,0 +1,14 @@
+{
+  "status": "prototype bug found and corrected before real fit or score",
+  "initial_unrun_plan_sha256": "6218ea5b3437fd8602c438e4e3515b0435b27830de71ffc36a2c7a47772706af",
+  "corrected_plan_sha256": "c607b7dd3a840cba7b256298ccd08968828bee179cd6ad01ad005f877a18c474",
+  "discovery": "Independent review reproduced inherited sample_pair with Fraction counts and stale raw gate prefix yielding out-of-support fractional gate338406/25 for tinyfixture weight1/100.",
+  "cause": "Weighted model inherited ContextOnsetGateModel sampling APIs that assume raw integer counts, while only dedicated sampler supported fractions. External optimized generator also admitted the subtype.",
+  "fix": "Standalone WeightedContextModel, not legacy-model subclass. Explicit reuse limited to delta-count/likelihood/evaluation methods. Legacy sample_pair/generate explicitly reject; historical external generators reject type. Dedicated exact weighted sampler remains.",
+  "regression_tests": "5 tests passed, including original tiny counterexample, old public generator route rejection, exact likelihood and accepted-joint mass parity.",
+  "real_model_fits": 0,
+  "real_predictive_scores": 0,
+  "limits": "Initial plan retained as unexecuted history, no result silently rewritten. Corrected plan awaits parent review.",
+  "final_plan_sha256": "03bafe327beea4761881cb8e8e134070d5300326abcd8dcb481241cc4a5d598c",
+  "final_reporting_addition": "Gate scale bitlength, max cached deltaweight bits, vocabsize recorded; fixed-order globalCPU caveat added before any real fit."
+}

@@ -1,0 +1,126 @@
+{
+  "schema": "mousa-rights-bounded-followup-v1",
+  "cycle": 49,
+  "reviewed_utc": "2026-11-12T19:09:09.927563+00:00",
+  "scope": "Two previously pending candidates only; no new work admitted, no fit/prediction/similarity screen, no original mutation.",
+  "prior_immutable_ledgers": [
+    {
+      "path": "datasets/research-joplin1540-pending-cycle43-20261113.json",
+      "sha256": "31d332e485037216ace8eb8b8df7536a78e2410ada4465cc0de6795f38452c52"
+    },
+    {
+      "path": "datasets/research-joplin1540-followup-cycle44-20261112.json",
+      "sha256": "1fc12af2029356ce0d25c178c203a6987b1ee0f16fa36f884c21f62ce4986daf"
+    },
+    {
+      "path": "datasets/research-pending-sources-cycle41-20261112.json",
+      "sha256": "0755747c57685daa0c5d9a0761ab4a80a4af2af687f77ad0b6f967957be94d01"
+    }
+  ],
+  "original_hash_recheck": [
+    {
+      "filename": "1540.mid",
+      "sha256": "28e41b9b3d0afd3de70c0de56dba9c34e4ff05b21a14939f0fdf0b181d856fc9",
+      "bytes": 18843,
+      "unchanged": true,
+      "redownloaded": false
+    },
+    {
+      "filename": "1540.ly",
+      "sha256": "d060d0567e563df78f8d7acd9cb5e8ea4682de90c9ffa86ef1c76792bcb3b8a3",
+      "bytes": 11868,
+      "unchanged": true,
+      "redownloaded": false
+    },
+    {
+      "filename": "246.mid",
+      "sha256": "eb0b5f5b76894fe4140f4ab98616472db87e9501827bc92fec144c6253e8375f",
+      "bytes": 7532,
+      "unchanged": true,
+      "redownloaded": false
+    },
+    {
+      "filename": "246.ly",
+      "sha256": "097d51ca2264a32d3d22d90f1faaaf27fd932cf3116fbf9923f452556a17f90b",
+      "bytes": 8355,
+      "unchanged": true,
+      "redownloaded": false
+    }
+  ],
+  "candidates": [
+    {
+      "id": "mutopia-1540",
+      "title": "Elite Syncopations",
+      "composer": "Scott Joplin (1868-1917)",
+      "contributor": "Benjamin Bloomfield",
+      "composition": "1902 composition; institutional historical catalogue supports Joplin/Stark identity.",
+      "encoding": "Existing individual LilyPond PD header/footer re-read; linked MIDI byte hash unchanged. Legacy public-domain dedication, not CC0. No new permission inferred.",
+      "edition": "John Stark & Son,1902 plate6; historic score incipit remains unverified.",
+      "status": "pending-historical-incipit-unverified; not admitted/fitted/scored",
+      "source_page": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1540",
+      "source_midi": "https://www.mutopiaproject.org/ftp/JoplinS/EliteSyncopations/EliteSyncopations.mid",
+      "acquisition_date_reference": "Original acquisition UTC date2026-11-12 as separately corrected in Cycle44, not fresh download.",
+      "checks": [
+        {
+          "url": "https://scholarsjunction.msstate.edu/cht-sheet-music/2555/",
+          "result": "Official catalogue re-read:1902Stark piano score, physical32278011445388,box137folder3. Catalogue is not score incipit proof."
+        },
+        {
+          "url": "https://scholarsjunction.msstate.edu/cgi/viewcontent.cgi?article=3555&context=cht-sheet-music",
+          "result": "Linked web-reader download403; no PDF."
+        },
+        {
+          "url": "https://imslp.org/wiki/Elite_Syncopations_(Joplin,_Scott)",
+          "result": "Catalogue distinguishes original1902Stark plate6/Dover1988 facsimile from modernVoigt/Weymouth/Brigham/Galloway editions; do not substitute those for historic evidence."
+        },
+        {
+          "url": "https://imslp.org/images/6/6e/Joplin_-_Elite_Syncopations.pdf",
+          "final_url": "https://imslp.org/friendlytest.html",
+          "acquired_utc": "2026-11-12T19:07:45.919979+00:00",
+          "bytes": 1410,
+          "sha256": "f3e200808fff616a60414bf88c4052cb9d98d58e24d9f49759910867f7b0cc75",
+          "content_type": "text/html; gzip wire encoding",
+          "pdf_magic": false,
+          "result": "Redirected to bot-check HTML, NOT score PDF. Challenge not executed/solved. The downloaded filename suffix did not establish content type.",
+          "decoded_html_sha256": "f70dc9367e205ca76d667baf4b8952610aa6de6f118710326d984449a7422650"
+        },
+        {
+          "url": "https://s9.imslp.org/files/imglnks/usimg/6/6e/Joplin_-_Elite_Syncopations.pdf",
+          "result": "Alternative official media-host path returned404; no score bytes. Not claimed valid source URL."
+        }
+      ],
+      "family": "Same Joplin/Stark series as training263/23, different typesetter; not independent-composer expansion."
+    },
+    {
+      "id": "mutopia-246",
+      "title": "Ases Tod Op46No2",
+      "composer": "Edvard Grieg(1843-1907)",
+      "contributor": "Deborah Lowrey",
+      "encoding": "Existing individual PD source header and MIDI hashes preserved; legacy PD,notCC0.",
+      "edition": "Kunkel Brothers1891 / Kunkel Musical Review May1893 claimed by existing source; original edition/arranger and incipit still unverified.",
+      "status": "pending-original-edition-verification; not admitted/fitted/scored",
+      "source_page": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=246",
+      "source_midi": "https://www.mutopiaproject.org/ftp/GriegE/O46/02-lamortdase/02-lamortdase.mid",
+      "acquisition_date_utc": "2026-11-12; original Cycle41 acquisition, not re-downloaded",
+      "checks": [
+        {
+          "url": "https://www.assettoritmo.com/library/grieg-ases-tod/",
+          "result": "Page explicitly cites Mutopia246 for score and licence; therefore circular provenance, not independentKunkel historical scan. No score or MIDI collected from this site."
+        },
+        {
+          "query": "Kunkel May1893 Grieg scan",
+          "result": "No independent historical score located in bounded search; returned Mutopia/derivative metadata and unrelated records. Not evidence that none exists."
+        }
+      ],
+      "limits": "Contributor altered slurs/fingerings/dynamics in original contributed encoding. Do not call it untouched historic performance. No reinterpretation of prior quarantinedLowrey sources."
+    }
+  ],
+  "new_admitted_works": 0,
+  "rights_threshold_changed": false,
+  "similarity_threshold_changed": false,
+  "fit": false,
+  "predictive_score": false,
+  "new_training_or_evaluation_roles": false,
+  "storage": "Metadata only. Existing pending raw MIDI/LY remain private quarantine; HTML response is not a music asset and is not part of training archive.",
+  "next": "ForJoplin inspect institutional historical scan via a supported permitted route; forGrieg locate actual1891/1893 edition and arranger. Do not repeat known failures as new progress; CAPTCHA interaction would need owner approval. New independent clear series may be more efficient than these pending editions."
+}

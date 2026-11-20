@@ -1,0 +1,12 @@
+{
+  "scope": "Independent synthetic-only mass/probability reconstruction before real fitting.",
+  "seed": 40039,
+  "profile_sha256": "a9c9f5e816e554791c96c8233215a11d0468375adb27bc33c7ff743c11d129e6",
+  "synthetic_works": 12,
+  "groups": 6,
+  "manual_equal_group_mass_and_exact_probability_checks": 216,
+  "status": "PASS",
+  "limitations": [
+    "No corpus fitting, heldout scoring, aesthetic assessment or claim that correlated events are independent."
+  ]
+}

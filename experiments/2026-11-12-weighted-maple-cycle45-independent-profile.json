@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "seed": 450004,
+  "synthetic_datasets": 40,
+  "weight_modes": 3,
+  "checks": 1794,
+  "module_sha256": "e20fb010b009bfea85988ece6cc108f0941cd892b15439fbfb0d12747c42503f",
+  "method": "Independent per-work and per-family rational posterior construction, explicit prior mass1, integer sampler masses compared as normalized ratios; no original source fit."
+}

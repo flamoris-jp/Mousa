@@ -1,0 +1,578 @@
+{
+  "plan_sha256": "035c152b8af4e7fea1fe63fbed8f4be65a935e50a93c64fc2365c5ce876fa496",
+  "conditions": {
+    "base5": {
+      "training_events": 444,
+      "work_count": 5,
+      "predictions": {
+        "factorized": {
+          "works": {
+            "640": {
+              "events": 98,
+              "nll_per_event": 7.7775469163772035,
+              "support_size": 151007232,
+              "ppq": 384,
+              "conditional_generation_masks_applied": false
+            },
+            "921": {
+              "events": 92,
+              "nll_per_event": 9.76226341211879,
+              "support_size": 151007232,
+              "ppq": 384,
+              "conditional_generation_masks_applied": false
+            }
+          },
+          "equal_work_nll": 8.769905164247996
+        },
+        "contextk4": {
+          "works": {
+            "640": {
+              "events": 98,
+              "nll_per_event": 6.617490386534412,
+              "support_size": 151007232,
+              "conditional_generation_masks_applied": false
+            },
+            "921": {
+              "events": 92,
+              "nll_per_event": 9.101329869100583,
+              "support_size": 151007232,
+              "conditional_generation_masks_applied": false
+            }
+          },
+          "equal_work_nll": 7.8594101278174975
+        }
+      },
+      "outputs": [
+        {
+          "status": "complete",
+          "rejections": 0,
+          "rejection_reasons": {
+            "active_pitch": 0,
+            "polyphony": 0,
+            "no_legal_pitch": 0
+          },
+          "timing_draws": 28,
+          "pitch_draws": 28,
+          "target_ticks": 9216,
+          "last_accepted_state": {
+            "onset": 8736,
+            "gate": 192,
+            "pitch": 69,
+            "remaining_ticks": 480
+          },
+          "last_proposal": {
+            "start": 8736,
+            "end": 8928,
+            "active_pitches": [],
+            "pitch": 69
+          },
+          "endpoint_policy": {
+            "max_trailing_rest_ticks": 384,
+            "actual_silent_tail_ticks": 288
+          },
+          "seed": 0,
+          "metrics": {
+            "notes": 28,
+            "overlap_onset_fraction": 0.10714285714285714,
+            "mean_active_voices": 0.9166666666666666,
+            "max_active_voices": 2,
+            "mean_abs_pitch_interval": 3.1481481481481484,
+            "above_octave_fraction": 0.0,
+            "distinct_pitches": 11,
+            "repeated_pitch_fraction": 0.2962962962962963,
+            "rest_ticks": 1536,
+            "rest_fraction": 0.16666666666666666
+          },
+          "copy_matches": 0,
+          "private_notes_sha256": "89e8d384b8d32d52598c358ad03ea088ef560411e930b7500b0a66f609f37dfa"
+        },
+        {
+          "status": "complete",
+          "rejections": 0,
+          "rejection_reasons": {
+            "active_pitch": 0,
+            "polyphony": 0,
+            "no_legal_pitch": 0
+          },
+          "timing_draws": 23,
+          "pitch_draws": 23,
+          "target_ticks": 9216,
+          "last_accepted_state": {
+            "onset": 8739,
+            "gate": 192,
+            "pitch": 76,
+            "remaining_ticks": 477
+          },
+          "last_proposal": {
+            "start": 8739,
+            "end": 8931,
+            "active_pitches": [],
+            "pitch": 76
+          },
+          "endpoint_policy": {
+            "max_trailing_rest_ticks": 384,
+            "actual_silent_tail_ticks": 285
+          },
+          "seed": 1,
+          "metrics": {
+            "notes": 23,
+            "overlap_onset_fraction": 0.043478260869565216,
+            "mean_active_voices": 0.6666666666666666,
+            "max_active_voices": 2,
+            "mean_abs_pitch_interval": 2.9545454545454546,
+            "above_octave_fraction": 0.0,
+            "distinct_pitches": 13,
+            "repeated_pitch_fraction": 0.18181818181818182,
+            "rest_ticks": 3264,
+            "rest_fraction": 0.3541666666666667
+          },
+          "copy_matches": 0,
+          "private_notes_sha256": "1846df226268c4ef70cf7b6fc548179496fa7326af1aceb748ea54c891ed7d1d"
+        },
+        {
+          "status": "complete",
+          "rejections": 0,
+          "rejection_reasons": {
+            "active_pitch": 0,
+            "polyphony": 0,
+            "no_legal_pitch": 0
+          },
+          "timing_draws": 6,
+          "pitch_draws": 6,
+          "target_ticks": 9216,
+          "last_accepted_state": {
+            "onset": 8686,
+            "gate": 288,
+            "pitch": 76,
+            "remaining_ticks": 530
+          },
+          "last_proposal": {
+            "start": 8686,
+            "end": 8974,
+            "active_pitches": [],
+            "pitch": 76
+          },
+          "endpoint_policy": {
+            "max_trailing_rest_ticks": 384,
+            "actual_silent_tail_ticks": 242
+          },
+          "seed": 2,
+          "metrics": {
+            "notes": 6,
+            "overlap_onset_fraction": 0.0,
+            "mean_active_voices": 0.14583333333333334,
+            "max_active_voices": 1,
+            "mean_abs_pitch_interval": 2.6,
+            "above_octave_fraction": 0.0,
+            "distinct_pitches": 3,
+            "repeated_pitch_fraction": 0.6,
+            "rest_ticks": 7872,
+            "rest_fraction": 0.8541666666666666
+          },
+          "copy_matches": 0,
+          "private_notes_sha256": "85cb8d1d5c6d7ab76bed01c529ea14e89104805ba9608cc0abfe3999f4f00e2d"
+        },
+        {
+          "status": "complete",
+          "rejections": 0,
+          "rejection_reasons": {
+            "active_pitch": 0,
+            "polyphony": 0,
+            "no_legal_pitch": 0
+          },
+          "timing_draws": 26,
+          "pitch_draws": 26,
+          "target_ticks": 9216,
+          "last_accepted_state": {
+            "onset": 8640,
+            "gate": 576,
+            "pitch": 71,
+            "remaining_ticks": 576
+          },
+          "last_proposal": {
+            "start": 8640,
+            "end": 9216,
+            "active_pitches": [],
+            "pitch": 71
+          },
+          "endpoint_policy": {
+            "max_trailing_rest_ticks": 384,
+            "actual_silent_tail_ticks": 0
+          },
+          "seed": 3,
+          "metrics": {
+            "notes": 26,
+            "overlap_onset_fraction": 0.11538461538461539,
+            "mean_active_voices": 0.8958333333333334,
+            "max_active_voices": 2,
+            "mean_abs_pitch_interval": 2.6,
+            "above_octave_fraction": 0.0,
+            "distinct_pitches": 11,
+            "repeated_pitch_fraction": 0.28,
+            "rest_ticks": 1632,
+            "rest_fraction": 0.17708333333333334
+          },
+          "copy_matches": 0,
+          "private_notes_sha256": "88501a070c643ddc21de65481e50f73e19477f54ac093c4eb3b32eef1c24af76"
+        },
+        {
+          "status": "complete",
+          "rejections": 0,
+          "rejection_reasons": {
+            "active_pitch": 0,
+            "polyphony": 0,
+            "no_legal_pitch": 0
+          },
+          "timing_draws": 33,
+          "pitch_draws": 33,
+          "target_ticks": 9216,
+          "last_accepted_state": {
+            "onset": 8640,
+            "gate": 288,
+            "pitch": 66,
+            "remaining_ticks": 576
+          },
+          "last_proposal": {
+            "start": 8640,
+            "end": 8928,
+            "active_pitches": [],
+            "pitch": 66
+          },
+          "endpoint_policy": {
+            "max_trailing_rest_ticks": 384,
+            "actual_silent_tail_ticks": 288
+          },
+          "seed": 4,
+          "metrics": {
+            "notes": 33,
+            "overlap_onset_fraction": 0.3939393939393939,
+            "mean_active_voices": 1.2083333333333333,
+            "max_active_voices": 3,
+            "mean_abs_pitch_interval": 4.03125,
+            "above_octave_fraction": 0.0625,
+            "distinct_pitches": 12,
+            "repeated_pitch_fraction": 0.1875,
+            "rest_ticks": 1056,
+            "rest_fraction": 0.11458333333333333
+          },
+          "copy_matches": 0,
+          "private_notes_sha256": "bed033df3fdc048885ba9f4a268b577de6e5718ff4c8545d2bd56a2ca05455d9"
+        }
+      ],
+      "complete_only_means": {
+        "notes": 23.2,
+        "overlap_onset_fraction": 0.13198902546728633,
+        "mean_active_voices": 0.7666666666666666,
+        "max_active_voices": 2,
+        "mean_abs_pitch_interval": 3.0667887205387205,
+        "above_octave_fraction": 0.0125,
+        "distinct_pitches": 10,
+        "repeated_pitch_fraction": 0.30912289562289563,
+        "rest_ticks": 3072,
+        "rest_fraction": 0.3333333333333333
+      },
+      "metric_denominators": {
+        "notes": 5,
+        "overlap_onset_fraction": 5,
+        "mean_active_voices": 5,
+        "max_active_voices": 5,
+        "mean_abs_pitch_interval": 5,
+        "above_octave_fraction": 5,
+        "distinct_pitches": 5,
+        "repeated_pitch_fraction": 5,
+        "rest_ticks": 5,
+        "rest_fraction": 5
+      }
+    },
+    "expanded": {
+      "training_events": 1142,
+      "work_count": 9,
+      "predictions": {
+        "factorized": {
+          "works": {
+            "640": {
+              "events": 98,
+              "nll_per_event": 8.771937771153812,
+              "support_size": 151007232,
+              "ppq": 384,
+              "conditional_generation_masks_applied": false
+            },
+            "921": {
+              "events": 92,
+              "nll_per_event": 10.211767656162253,
+              "support_size": 151007232,
+              "ppq": 384,
+              "conditional_generation_masks_applied": false
+            }
+          },
+          "equal_work_nll": 9.491852713658034
+        },
+        "contextk4": {
+          "works": {
+            "640": {
+              "events": 98,
+              "nll_per_event": 7.378828630453951,
+              "support_size": 151007232,
+              "conditional_generation_masks_applied": false
+            },
+            "921": {
+              "events": 92,
+              "nll_per_event": 9.479282018356429,
+              "support_size": 151007232,
+              "conditional_generation_masks_applied": false
+            }
+          },
+          "equal_work_nll": 8.42905532440519
+        }
+      },
+      "outputs": [
+        {
+          "status": "complete",
+          "rejections": 0,
+          "rejection_reasons": {
+            "active_pitch": 0,
+            "polyphony": 0,
+            "no_legal_pitch": 0
+          },
+          "timing_draws": 27,
+          "pitch_draws": 27,
+          "target_ticks": 9216,
+          "last_accepted_state": {
+            "onset": 8640,
+            "gate": 384,
+            "pitch": 65,
+            "remaining_ticks": 576
+          },
+          "last_proposal": {
+            "start": 8640,
+            "end": 9024,
+            "active_pitches": [],
+            "pitch": 65
+          },
+          "endpoint_policy": {
+            "max_trailing_rest_ticks": 384,
+            "actual_silent_tail_ticks": 192
+          },
+          "seed": 0,
+          "metrics": {
+            "notes": 27,
+            "overlap_onset_fraction": 0.0,
+            "mean_active_voices": 0.8229166666666666,
+            "max_active_voices": 1,
+            "mean_abs_pitch_interval": 5.346153846153846,
+            "above_octave_fraction": 0.15384615384615385,
+            "distinct_pitches": 17,
+            "repeated_pitch_fraction": 0.11538461538461539,
+            "rest_ticks": 1632,
+            "rest_fraction": 0.17708333333333334
+          },
+          "copy_matches": 0,
+          "private_notes_sha256": "09ef192e1fa11dc2b817e7318adca1088df56f5f2842116c3b5edfb1b42f2bb0"
+        },
+        {
+          "status": "complete",
+          "rejections": 0,
+          "rejection_reasons": {
+            "active_pitch": 0,
+            "polyphony": 0,
+            "no_legal_pitch": 0
+          },
+          "timing_draws": 27,
+          "pitch_draws": 27,
+          "target_ticks": 9216,
+          "last_accepted_state": {
+            "onset": 8640,
+            "gate": 192,
+            "pitch": 62,
+            "remaining_ticks": 576
+          },
+          "last_proposal": {
+            "start": 8640,
+            "end": 8832,
+            "active_pitches": [],
+            "pitch": 62
+          },
+          "endpoint_policy": {
+            "max_trailing_rest_ticks": 384,
+            "actual_silent_tail_ticks": 384
+          },
+          "seed": 1,
+          "metrics": {
+            "notes": 27,
+            "overlap_onset_fraction": 0.1111111111111111,
+            "mean_active_voices": 0.875,
+            "max_active_voices": 2,
+            "mean_abs_pitch_interval": 4.3076923076923075,
+            "above_octave_fraction": 0.11538461538461539,
+            "distinct_pitches": 13,
+            "repeated_pitch_fraction": 0.15384615384615385,
+            "rest_ticks": 1632,
+            "rest_fraction": 0.17708333333333334
+          },
+          "copy_matches": 0,
+          "private_notes_sha256": "3c8eb2f570716aa0e3c77ba940900d8b5be2bdddf78b8836c3a5a747d206bcc5"
+        },
+        {
+          "status": "complete",
+          "rejections": 0,
+          "rejection_reasons": {
+            "active_pitch": 0,
+            "polyphony": 0,
+            "no_legal_pitch": 0
+          },
+          "timing_draws": 24,
+          "pitch_draws": 24,
+          "target_ticks": 9216,
+          "last_accepted_state": {
+            "onset": 8736,
+            "gate": 384,
+            "pitch": 82,
+            "remaining_ticks": 480
+          },
+          "last_proposal": {
+            "start": 8736,
+            "end": 9120,
+            "active_pitches": [],
+            "pitch": 82
+          },
+          "endpoint_policy": {
+            "max_trailing_rest_ticks": 384,
+            "actual_silent_tail_ticks": 96
+          },
+          "seed": 2,
+          "metrics": {
+            "notes": 24,
+            "overlap_onset_fraction": 0.041666666666666664,
+            "mean_active_voices": 0.8229166666666666,
+            "max_active_voices": 2,
+            "mean_abs_pitch_interval": 3,
+            "above_octave_fraction": 0.043478260869565216,
+            "distinct_pitches": 13,
+            "repeated_pitch_fraction": 0.17391304347826086,
+            "rest_ticks": 2016,
+            "rest_fraction": 0.21875
+          },
+          "copy_matches": 0,
+          "private_notes_sha256": "8c45c6904c0d674960af93c4eb6242272852bc1e484004ad337290ad4b8b1a8a"
+        },
+        {
+          "status": "complete",
+          "rejections": 0,
+          "rejection_reasons": {
+            "active_pitch": 0,
+            "polyphony": 0,
+            "no_legal_pitch": 0
+          },
+          "timing_draws": 34,
+          "pitch_draws": 34,
+          "target_ticks": 9216,
+          "last_accepted_state": {
+            "onset": 8736,
+            "gate": 384,
+            "pitch": 63,
+            "remaining_ticks": 480
+          },
+          "last_proposal": {
+            "start": 8736,
+            "end": 9120,
+            "active_pitches": [],
+            "pitch": 63
+          },
+          "endpoint_policy": {
+            "max_trailing_rest_ticks": 384,
+            "actual_silent_tail_ticks": 96
+          },
+          "seed": 3,
+          "metrics": {
+            "notes": 34,
+            "overlap_onset_fraction": 0.14705882352941177,
+            "mean_active_voices": 1.0129123263888888,
+            "max_active_voices": 2,
+            "mean_abs_pitch_interval": 4.242424242424242,
+            "above_octave_fraction": 0.15151515151515152,
+            "distinct_pitches": 18,
+            "repeated_pitch_fraction": 0.21212121212121213,
+            "rest_ticks": 576,
+            "rest_fraction": 0.0625
+          },
+          "copy_matches": 0,
+          "private_notes_sha256": "64bc87cd02de5c9d02079072beb5c0bd97fbf3fe366f8879f1d83431dea8fd03"
+        },
+        {
+          "status": "complete",
+          "rejections": 0,
+          "rejection_reasons": {
+            "active_pitch": 0,
+            "polyphony": 0,
+            "no_legal_pitch": 0
+          },
+          "timing_draws": 35,
+          "pitch_draws": 35,
+          "target_ticks": 9216,
+          "last_accepted_state": {
+            "onset": 8640,
+            "gate": 576,
+            "pitch": 69,
+            "remaining_ticks": 576
+          },
+          "last_proposal": {
+            "start": 8640,
+            "end": 9216,
+            "active_pitches": [],
+            "pitch": 69
+          },
+          "endpoint_policy": {
+            "max_trailing_rest_ticks": 384,
+            "actual_silent_tail_ticks": 0
+          },
+          "seed": 4,
+          "metrics": {
+            "notes": 35,
+            "overlap_onset_fraction": 0.02857142857142857,
+            "mean_active_voices": 0.96875,
+            "max_active_voices": 2,
+            "mean_abs_pitch_interval": 2.2941176470588234,
+            "above_octave_fraction": 0.0,
+            "distinct_pitches": 17,
+            "repeated_pitch_fraction": 0.3235294117647059,
+            "rest_ticks": 480,
+            "rest_fraction": 0.052083333333333336
+          },
+          "copy_matches": 0,
+          "private_notes_sha256": "00a0c3f4ba171fda3aec2a28bae0e37ec78afda5dc6e42a649fbfd734c5b7ee6"
+        }
+      ],
+      "complete_only_means": {
+        "notes": 29.4,
+        "overlap_onset_fraction": 0.06568160597572362,
+        "mean_active_voices": 0.9004991319444444,
+        "max_active_voices": 1.8,
+        "mean_abs_pitch_interval": 3.8380776086658437,
+        "above_octave_fraction": 0.0928448363230972,
+        "distinct_pitches": 15.6,
+        "repeated_pitch_fraction": 0.19575888731898963,
+        "rest_ticks": 1267.2,
+        "rest_fraction": 0.1375
+      },
+      "metric_denominators": {
+        "notes": 5,
+        "overlap_onset_fraction": 5,
+        "mean_active_voices": 5,
+        "max_active_voices": 5,
+        "mean_abs_pitch_interval": 5,
+        "above_octave_fraction": 5,
+        "distinct_pitches": 5,
+        "repeated_pitch_fraction": 5,
+        "rest_ticks": 5,
+        "rest_fraction": 5
+      }
+    }
+  },
+  "cpu_seconds": 0.5362985789999999,
+  "originals_unchanged": true,
+  "limitations": [
+    "Small natural-budget comparison confounds quantity/content/vocabulary.",
+    "Observed diagnostics not fresh, family declarations are reviewed externally not inferred by this script.",
+    "No genre/semantic/listener claims."
+  ]
+}

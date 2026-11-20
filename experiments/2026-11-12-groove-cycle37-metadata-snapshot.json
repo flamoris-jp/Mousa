@@ -1,0 +1,49 @@
+{
+  "scope": "Cycle37 fixed-count posthoc probability-mass/error accounting and unexecuted hypothesis. Metadata/code only; no raw MIDI/audio, new source admission, fitted count arrays or prior snapshot edits.",
+  "files": [
+    {
+      "relative_path": "tools/groove_cycle37_diagnose.py",
+      "bytes": 13234,
+      "sha256": "3dae3ea3358009b0c2219b81c140327b783e64088eaefe8676a128caebf5b7d5"
+    },
+    {
+      "relative_path": "tests/test_groove_cycle37.py",
+      "bytes": 1482,
+      "sha256": "7d6b36f59dd548117410e2202b4e15f06d25e51cfe9a49ccb7085defccc66816"
+    },
+    {
+      "relative_path": "datasets/research-groove-rights-cycle32-20261112.json",
+      "bytes": 5043,
+      "sha256": "de6f14f3b6f38398f1d419e7a5b3fcf0f0d943adcadd914826629641fa4f0bbc"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-cycle37-loss-mass-analysis.md",
+      "bytes": 4653,
+      "sha256": "a962f6dc732206b3334698737f176152c66fbc150bce7ba1d3ddaa3d7b12eb29"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-cycle37-plan.json",
+      "bytes": 26062,
+      "sha256": "3f80411fba42982192723adb362994ae70545ccdb039fdba68417452a71e4781"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-cycle37-prior-ratio-hypothesis.json",
+      "bytes": 1828,
+      "sha256": "c2e7fb33d91936adc381f7f1ec96cee6bc0a5d05dfdbe30b8476c857b45cdbf0"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-cycle37-results.json",
+      "bytes": 568362,
+      "sha256": "6fd3c34470fd1a18e3251f3fd787f0539757a0871c8048f5155fc33ddc197879"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-cycle37-verification.json",
+      "bytes": 792,
+      "sha256": "ba0f7bab00d2b9e3aadf78dae2557da19480837e754ba2183d89b47a17d4c440"
+    }
+  ],
+  "file_count": 8,
+  "total_bytes": 621456,
+  "uploaded": false,
+  "manifest_sha256": "d7118f8df98dd692ddac6d457d4aa5d40beaea46f6feaf79d5653af1893c6cbb"
+}

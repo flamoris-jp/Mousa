@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "new_seeds": [
+    46600,
+    46601,
+    46602
+  ],
+  "known_seeds": [
+    45000,
+    45001,
+    45002
+  ],
+  "prior_tracked_json_count": 466,
+  "matches": [],
+  "base_local_commit": "00054585c0adadb8e9598829fce1cb599dffe7ad",
+  "method": "Recursive exact integer match in seed-named scalar/list JSON fields, tracked experiments/datasets only",
+  "limits": "No assertion of unrecorded nonuse, independent music, or human evaluation."
+}

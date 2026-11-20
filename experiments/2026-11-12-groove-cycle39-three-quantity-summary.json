@@ -1,0 +1,125 @@
+{
+  "scope": "Same16 already observed recordings.12 is saved-score reference only;35/58 were fitted under fixed plan.",
+  "rows": [
+    {
+      "condition": "unigram",
+      "split": "validation",
+      "events": 5938,
+      "recordings": 8,
+      "drummers": 2,
+      "saved12_pooled": 5.330786652337191,
+      "refit35_pooled": 5.275011347687793,
+      "fit58_pooled": 5.269562252641143
+    },
+    {
+      "condition": "unigram",
+      "split": "test",
+      "events": 5449,
+      "recordings": 8,
+      "drummers": 2,
+      "saved12_pooled": 6.839173697138047,
+      "refit35_pooled": 6.595172955457373,
+      "fit58_pooled": 6.13800441035468
+    },
+    {
+      "condition": "exact_k4",
+      "split": "validation",
+      "events": 5938,
+      "recordings": 8,
+      "drummers": 2,
+      "saved12_pooled": 5.6478994240852485,
+      "refit35_pooled": 5.351005533334278,
+      "fit58_pooled": 5.280415452286162
+    },
+    {
+      "condition": "exact_k4",
+      "split": "test",
+      "events": 5449,
+      "recordings": 8,
+      "drummers": 2,
+      "saved12_pooled": 7.269450186030269,
+      "refit35_pooled": 6.942228566487175,
+      "fit58_pooled": 6.684281943721867
+    },
+    {
+      "condition": "exact_k32",
+      "split": "validation",
+      "events": 5938,
+      "recordings": 8,
+      "drummers": 2,
+      "saved12_pooled": 5.413341199812646,
+      "refit35_pooled": 5.246270965227325,
+      "fit58_pooled": 5.2126570935730685
+    },
+    {
+      "condition": "exact_k32",
+      "split": "test",
+      "events": 5449,
+      "recordings": 8,
+      "drummers": 2,
+      "saved12_pooled": 6.901768585318038,
+      "refit35_pooled": 6.709852225722457,
+      "fit58_pooled": 6.441937538815569
+    },
+    {
+      "condition": "exact_k256",
+      "split": "validation",
+      "events": 5938,
+      "recordings": 8,
+      "drummers": 2,
+      "saved12_pooled": 5.268078501878652,
+      "refit35_pooled": 5.163131616391158,
+      "fit58_pooled": 5.156139641616795
+    },
+    {
+      "condition": "exact_k256",
+      "split": "test",
+      "events": 5449,
+      "recordings": 8,
+      "drummers": 2,
+      "saved12_pooled": 6.703263372018438,
+      "refit35_pooled": 6.537764426143376,
+      "fit58_pooled": 6.231969742867236
+    },
+    {
+      "condition": "quotient_residual",
+      "split": "validation",
+      "events": 5938,
+      "recordings": 8,
+      "drummers": 2,
+      "saved12_pooled": 5.239739442559939,
+      "refit35_pooled": 5.211060484269063,
+      "fit58_pooled": 5.2168481769380035
+    },
+    {
+      "condition": "quotient_residual",
+      "split": "test",
+      "events": 5449,
+      "recordings": 8,
+      "drummers": 2,
+      "saved12_pooled": 5.921627919970679,
+      "refit35_pooled": 5.971860507972088,
+      "fit58_pooled": 5.92074441167021
+    },
+    {
+      "condition": "quotient_context_k4_residual",
+      "split": "validation",
+      "events": 5938,
+      "recordings": 8,
+      "drummers": 2,
+      "saved12_pooled": 5.219958688519901,
+      "refit35_pooled": 5.151915688308661,
+      "fit58_pooled": 5.156152529060196
+    },
+    {
+      "condition": "quotient_context_k4_residual",
+      "split": "test",
+      "events": 5449,
+      "recordings": 8,
+      "drummers": 2,
+      "saved12_pooled": 6.004550237123463,
+      "refit35_pooled": 5.963945808819812,
+      "fit58_pooled": 5.895488636027449
+    }
+  ]
+}

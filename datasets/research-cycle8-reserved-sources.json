@@ -1,0 +1,115 @@
+{
+  "bach_reserved": {
+    "id": 1534,
+    "title": "Air ('on the G string')",
+    "composer": "Johann Sebastian Bach1685-1750",
+    "opus": "BWV1068",
+    "typesetter": "Mike Blackstock",
+    "source": "New adaptation from Bach-Gesellschaft",
+    "composition_rights": "PD supported: named18th-century work by Bach, died1750; contributor identifies historical Bach-Gesellschaft edition; compositiondate notspecified onpage.",
+    "arrangement_rights": "This is a NEW flute+guitar adaptation, not historical original instrumentation. Workpage labels entire adaptationPublicDomain and exact source typesetter explicitly dedicates sheetmusicPD. No separate arranger is named; contribution understood as submitted adaptation, not proof of independently identified arranger.",
+    "encoding_rights": "Exactpage directlylinks reviewed MIDI andsource; source explicit typesetterPD dedication. LegacyPublicDomain, notCC0. Terms explain contributor dedicates contribution.",
+    "terms_url": "https://www.mutopiaproject.org/legal.html#publicdomain",
+    "phase": {
+      "origin_steps": 0,
+      "meter": [
+        4,
+        4
+      ],
+      "evidence": "Flute source starts time4/4 repeatvolta2 fis1~; score invokes flute directly. No partial orMIDIonlysilence. Firstnote tick0; no cropping."
+    },
+    "technical": "tickreader accepts track1 flute,149notes. Non-sixteenth ornament timing retained. No model fit/score or quantization.",
+    "cohort": "Bach-MikeBlackstock-adaptation; different composer+contributor from usedcorpus; onlyonecomposition, cannot establish broadgeneralization.",
+    "restrictions": [
+      "Do not infer originalorchestralarrangement ownership from adaptation",
+      "No raw corpus redistribution done",
+      "Preserve original sourcebytes; noquantization",
+      "No separate arranger name explicitlyprovided"
+    ],
+    "files": [
+      {
+        "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1534",
+        "sha256": "9b42b10f28dde66d62147e059aa326a00d325889819e16b67fd8b8163d8f0476"
+      },
+      {
+        "url": "https://www.mutopiaproject.org/ftp/BachJS/BWV1068/bach_air_bmv_1068/bach_air_bmv_1068.mid",
+        "sha256": "5f7763dd4d29f309cac6d670c22aa029aca23c8c97743a0511d4b9c6d3435f1c"
+      },
+      {
+        "url": "https://www.mutopiaproject.org/ftp/BachJS/BWV1068/bach_air_bmv_1068/bach_air_bmv_1068.ly",
+        "sha256": "2799ca9c8ff3afc1fcf33f397a884e5663ab7aac589c4bab0e698d9defa33f99",
+        "acquired": "2026-11-12T10:11:06.527378+00:00"
+      }
+    ],
+    "review_state": "pending",
+    "training_used": false,
+    "model_scored": false,
+    "decision": "Reserved: separate modern adaptation author is not explicit; verify before admission. Off-grid source cannot use frozen grid model without a separate representation/model plan."
+  },
+  "other_candidates": [
+    {
+      "id": 1536,
+      "acquired": "2026-11-12T10:09:21.518416+00:00",
+      "files": [
+        {
+          "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1536",
+          "sha256": "0f49020ea52f27504381ab4e3e464ab87438b2973e44b2d257e01c9a91d48a91"
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/FaureG/O56/faure_dolly_berceuse/faure_dolly_berceuse.ly",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/FaureG/O56/faure_dolly_berceuse/faure_dolly_berceuse.mid",
+          "sha256": "6c5903d76ebe3d60c1ccf535932f287668225a9ed2f4ae6544abd5dafabf004c"
+        }
+      ],
+      "review_state": "pending",
+      "training_used": false,
+      "model_scored": false,
+      "technical": [
+        {
+          "track": 1,
+          "accepted": false,
+          "error": "constant 4/4 or 6/8 required; meter changes are not converted"
+        },
+        {
+          "track": 2,
+          "accepted": false,
+          "error": "constant 4/4 or 6/8 required; meter changes are not converted"
+        }
+      ]
+    },
+    {
+      "id": 645,
+      "acquired": "2026-11-12T10:09:21.410395+00:00",
+      "files": [
+        {
+          "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=645",
+          "sha256": "e526c8e16663a7915c3f73ccb0467b44a1d1a25c5aee6123bc639d0b4be2e31a"
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/BachJS/BWV1030/bwv1030/bwv1030-lys.zip",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/BachJS/BWV1030/bwv1030/bwv1030-mids.zip",
+          "sha256": "ce8d6a999bb81f7d6eaf04bd1560c5480462a33d50713c6a5d1d5305a1cb5d83"
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/BachJS/BWV1030/bwv1030/bwv1030-a4-pdfs.zip",
+          "sha256": "68058df951be07739164230f8f7da422352527a6f2d029201bbc32e9087d58a9"
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/BachJS/BWV1030/bwv1030/bwv1030-let-pdfs.zip",
+          "sha256": "4a8e0e31c8746d8a30d48cf84bb794bd357431fcb6c5ab5913b799a8fea26900"
+        }
+      ],
+      "review_state": "pending",
+      "training_used": false,
+      "model_scored": false,
+      "technical": []
+    }
+  ],
+  "additional_review": "Foster371 edition mismatch remains pending; Foster370 independently corroborated but contributor overlaps train376."
+}

@@ -1,0 +1,33 @@
+{
+  "created_at_utc": "2026-11-12T14:48:00.684719+00:00",
+  "status": "PROPOSED ONLY: not implemented, fitted or scored; parent review required",
+  "question": "Does train-only local support coverage help more than fixed context mass, while separating a context smoothing-formula change?",
+  "evidence": "experiments/2026-11-12-groove-cycle35-results.json",
+  "evidence_sha256": "77e6b3570f7920ec2fa51d5c14c68a4c9ca779e729c4e16267687bd61ecd6aec",
+  "source_assignment": "Same fixed Cycle34 sources/splits only; twelve train, eight already observed diagnostics,1130 untouched.",
+  "prior_plan_sha256": "71e1949f2f82e62e3915352eb7a9d1a2426d878850227ae4c7bc2ab4edd24575",
+  "conditions": [
+    "unigram control",
+    "legacy exact_k4 control",
+    "smoothed-global interpolation k4",
+    "smoothed-global interpolation k256",
+    "train-type-count interpolation k=T_context"
+  ],
+  "formula": "Known context: P(dt|c)=(local_count(dt)+k*G(dt))/(N_context+k), where G=(global_count(dt)+1/30721)/(N_global+1). For adaptive arm k=T_context, the number of distinct exact IOIs observed in that training context. Unknown/initial context uses G.",
+  "interpretation": "Witten-Bell-style interpolated mass allocation, not a claim to reproduce every conventional Witten-Bell variant. k=T is train-derived once with no diagnostic tuning. Matched fixed-k controls isolate interpolation formula versus adaptive k. Legacy k4 adds uniform prior separately after global-empirical pseudocounts and is not algebraically identical.",
+  "support": "Same exact0..30720 integer ticks. Every outcome positive; normalized full support; no thresholding, quantization or event-dependent selection of the probability law.",
+  "preregistered_limits": {
+    "cpu_seconds": 60,
+    "generation": false,
+    "source_change": false,
+    "new_holdout_claim": false,
+    "best_condition_selection": false
+  },
+  "metrics": "All five conditions, every recording/drummer and pooled/macro NLL plus support-stratum contributions; both positive and negative results. Exact legacy control parity and all30721 rational normalization tests before fit.",
+  "next_gate": "Implement synthetic tests then bind code/rights/sources/results hashes in a separate executable plan, obtain actual parent approval before fit.",
+  "limits": [
+    "Chosen after observing these diagnostic errors; same eight cannot become fresh.",
+    "Type counts also depend on recording length, exact expressive tick variation, instrument usage and train mixture; no causal interpretation.",
+    "This proposal contains no computed new-condition predictions."
+  ]
+}

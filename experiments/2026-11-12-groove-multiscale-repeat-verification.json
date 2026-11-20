@@ -1,0 +1,19 @@
+{
+  "initial_report_sha256": "c8a34525d8b2d088c222840a187933f58f1a898e0158b8f1f42f8e5065b19cc8",
+  "repeat_report_sha256": "794644db9f8ec1987bee4df30914baece57c903a4883afe99e5e51cbdfc418e0",
+  "all_results_equal_excluding_only_cpu_seconds": true,
+  "initial_cpu_seconds": 0.47694213899999993,
+  "repeat_cpu_seconds": 0.504968372,
+  "historical_exact_work_condition_parities": 16,
+  "all_sources_unchanged_both_runs": true,
+  "conditions_completed": 6,
+  "conditions_failed": 0,
+  "new_independent_validation": false,
+  "all_conditions_retained": true,
+  "full_suite": {
+    "tests": 320,
+    "passed": 319,
+    "skipped": 1,
+    "command": "PYTHONPATH=src python -m unittest discover -s tests"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "scope": "Independent saved-result arithmetic/repeat/journal audit, no original MIDI read or model fitting.",
+  "result_sha256": "c3269bdb580b1cd5160c06a0c27b70687ebb7e59311268bcd24a5e6de0bfd00f",
+  "repeat_sha256": "482016ba77f2aed4b207e7f034a3e4f04ee86b8b252a9a8baf496399d9b55df5",
+  "repeat_equal_except_cpu": true,
+  "independent_arithmetic_checks": 276,
+  "construction_stages": 12,
+  "all_construction_stages_completed": true,
+  "historical_baseline_checks_reported": 96,
+  "status": "PASS",
+  "limits": [
+    "Arithmetic audit is not independent reimplementation of model predictions or musical quality assessment."
+  ]
+}

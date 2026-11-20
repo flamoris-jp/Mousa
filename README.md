@@ -86,7 +86,7 @@ For the current **symbolic-music** bootstrap, Python 3.11+ is sufficient; no Mai
 PYTHONPATH=src python -m unittest discover -s tests -v
 ```
 
-This command validates experimental MusicIR, stem intake and scale/key fixtures; it does **not** establish training or audio quality. CI additionally parses generated scale MIDI with a verification-only Mido dependency; see [scale/key instructions](docs/SCALE_KEY.md). Do not reuse Maidionis build commands without checking its current repository and qualification profile.
+This command validates experimental MusicIR, stem intake, research-manifest preflight and scale/key fixtures. The real AudioAnalyzer integration requires its separate environment. The fast suite does **not** establish training or audio quality. CI additionally parses generated scale MIDI with a verification-only Mido dependency; see [scale/key instructions](docs/SCALE_KEY.md). Do not reuse Maidionis build commands without checking its current repository and qualification profile.
 
 Next work is tracked in [GitHub Issues](https://github.com/flamoris-jp/Mousa/issues). See [Maidionis](https://github.com/flamoris-jp/Maidionis), [Cantabile](https://github.com/flamoris-jp/flamoris-cantabile), [AI ecosystem](https://github.com/flamoris-jp/flamoris-ai/blob/main/docs/ai-ecosystem.md), and [FLAMORIS organization map](https://github.com/flamoris-jp/.github).
 
@@ -107,3 +107,11 @@ A separate [human-annotated chord-event pilot](experiments/maidionis-annotated-e
 uses original CC0 Billboard annotations, not a wholesale ChoCo import. Its
 [results](experiments/maidionis-annotated-events/RESULTS.md) trade better held-out
 likelihood against lower top-1 accuracy than a count baseline.
+
+## Adaptive research
+
+See [the adaptive protocol](docs/ADAPTIVE_RESEARCH.md) for hypothesis-driven work,
+rights and split preflight, resource bounds, evaluation and stop conditions.
+The November 2026 window is for repeated research cycles, not one task per day.
+The [preparation record](experiments/2026-11-12-preparation.md) separates tests
+actually run from historical results and unexecuted work.

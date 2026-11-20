@@ -1,0 +1,13 @@
+{
+  "role": "new source reserve, pending parent/intake; metadata-only transfer",
+  "files": [
+    {
+      "filename": "research-dvorak1948-cycle47-20261112.json",
+      "sha256": "00c743ebd5fc20e0232469dfb3924386faa270265e36f79d8dfe5f02250a2851",
+      "bytes": 8388
+    }
+  ],
+  "raw": "Original MIDI/source ZIP retained privately, not in transfer; parent review first",
+  "fit": false,
+  "score": false
+}

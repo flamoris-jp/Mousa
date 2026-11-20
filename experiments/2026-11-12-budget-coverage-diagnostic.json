@@ -1,0 +1,93 @@
+{
+  "scope": "Post-hoc explanatory support coverage of cycle21fixed60prefix comparison; no newpredictive scores or threshold changes",
+  "conditions": {
+    "family376": {
+      "events": 60,
+      "distinct_delta_count": 7,
+      "distinct_gate_count": 7,
+      "distinct_pair_count": 13,
+      "known_diagnostic_coverage": {
+        "580": {
+          "events": 92,
+          "seen_delta_events": 86,
+          "seen_gate_events": 89,
+          "seen_pair_events": 30
+        },
+        "640": {
+          "events": 98,
+          "seen_delta_events": 78,
+          "seen_gate_events": 90,
+          "seen_pair_events": 50
+        }
+      }
+    },
+    "family888889": {
+      "events": 60,
+      "distinct_delta_count": 7,
+      "distinct_gate_count": 5,
+      "distinct_pair_count": 13,
+      "known_diagnostic_coverage": {
+        "580": {
+          "events": 92,
+          "seen_delta_events": 71,
+          "seen_gate_events": 81,
+          "seen_pair_events": 33
+        },
+        "640": {
+          "events": 98,
+          "seen_delta_events": 73,
+          "seen_gate_events": 78,
+          "seen_pair_events": 31
+        }
+      }
+    },
+    "family789": {
+      "events": 60,
+      "distinct_delta_count": 5,
+      "distinct_gate_count": 3,
+      "distinct_pair_count": 8,
+      "known_diagnostic_coverage": {
+        "580": {
+          "events": 92,
+          "seen_delta_events": 71,
+          "seen_gate_events": 79,
+          "seen_pair_events": 33
+        },
+        "640": {
+          "events": 98,
+          "seen_delta_events": 16,
+          "seen_gate_events": 23,
+          "seen_pair_events": 1
+        }
+      }
+    },
+    "balanced_three_families": {
+      "events": 60,
+      "distinct_delta_count": 10,
+      "distinct_gate_count": 6,
+      "distinct_pair_count": 19,
+      "known_diagnostic_coverage": {
+        "580": {
+          "events": 92,
+          "seen_delta_events": 86,
+          "seen_gate_events": 89,
+          "seen_pair_events": 43
+        },
+        "640": {
+          "events": 98,
+          "seen_delta_events": 79,
+          "seen_gate_events": 86,
+          "seen_pair_events": 48
+        }
+      }
+    }
+  },
+  "genre_status": "No curated genre/style labels in the training manifest. Traditional is recorded author attribution, not a genre annotation. Family count is not genre count.",
+  "limitations": [
+    "Coverage means observed in selectedtrainingprefix, not legal/similarity admission or model fullsupport.",
+    "Models retain positive probabilities for unseen outcomes; coverage is not accuracy.",
+    "Observed580/640 only; Chopin921excluded, no hiddenpeek.",
+    "This is explanatory analysis after results, not a newconfirmatory hypothesis."
+  ],
+  "source_result_sha256": "9bb12620fadd7c2d2155405ace52e5b1da4deb826cfc62a2dca665cca4fe07fc"
+}

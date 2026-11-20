@@ -1,0 +1,55 @@
+{
+  "plan_sha256": "58f9eef6bd8d254c72b044545414afa361731cdee9e5aa3ba4593f3d4d5d661a",
+  "source_sha256": "1e874885b369855fa948121e0635921a2debc6199a6fc251d85347f6678e26af",
+  "coverage": {
+    "total_events": 192,
+    "supported_events": 192,
+    "unsupported_events": []
+  },
+  "screens": [
+    {
+      "reference": "mutopia-376",
+      "training": true,
+      "exact8_interval_matches": 0,
+      "whole_interval_similarity": 0.3089005235602095,
+      "flagged": false
+    },
+    {
+      "reference": "mutopia-2247",
+      "training": false,
+      "exact8_interval_matches": 0,
+      "whole_interval_similarity": 0.1465968586387435,
+      "flagged": false
+    },
+    {
+      "reference": "mutopia-2245",
+      "training": false,
+      "exact8_interval_matches": 1,
+      "whole_interval_similarity": 0.18324607329842935,
+      "flagged": true
+    },
+    {
+      "reference": "mutopia-888",
+      "training": true,
+      "exact8_interval_matches": 1,
+      "whole_interval_similarity": 0.15706806282722519,
+      "flagged": true
+    },
+    {
+      "reference": "mutopia-889",
+      "training": true,
+      "exact8_interval_matches": 0,
+      "whole_interval_similarity": 0.17801047120418845,
+      "flagged": false
+    },
+    {
+      "reference": "mutopia-789",
+      "training": true,
+      "exact8_interval_matches": 0,
+      "whole_interval_similarity": 0.2774869109947644,
+      "flagged": false
+    }
+  ],
+  "any_flagged": true,
+  "status": "waiting_independent_family_and_allknown_similarity_clearance; no predictive scores"
+}

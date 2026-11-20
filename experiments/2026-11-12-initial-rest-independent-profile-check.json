@@ -1,0 +1,9 @@
+{
+  "synthetic_fixtures": 100,
+  "exact_fraction_checks": 1000,
+  "seed": 36,
+  "model_sha256": "349b4cc62644dd4cf95e5662231626494457d8ddae7c3818ccd3b2579e7f0b24",
+  "real_source_fit": false,
+  "scope": "Independent direct initial probability and finite output-support mass equations; includes12288/65536/2^24 bounds and both context arms.",
+  "result": "all matched"
+}

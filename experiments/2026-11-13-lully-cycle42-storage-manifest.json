@@ -1,0 +1,31 @@
+{
+  "role": "rights-reviewed-fixed-screen-blocked-reserve-not-training-not-scored",
+  "raw_originals": "Unmodified MIDI and sourceZIP preserved; no scan/audio included; do not place into active training assignment.",
+  "files": [
+    {
+      "filename": "metadata/research-lully532-cycle42-20261113.json",
+      "sha256": "ac543644e26ab709bfb21dfc5475c525f40e94d5ff15845833570d235da48061",
+      "bytes": 7743
+    },
+    {
+      "filename": "metadata/screen-plan.json",
+      "sha256": "aa44df29f2a7cee36d2918ed9011160a5439bc5d4a28e2df7ddbb1de7712d633",
+      "bytes": 2603
+    },
+    {
+      "filename": "metadata/screen.json",
+      "sha256": "12ccbce1a88b4f20cb2f3dcf5f1c8df1cd7380d58a5d748bb60d4552d67d2186",
+      "bytes": 3567
+    },
+    {
+      "filename": "originals/Armide-lys.zip",
+      "sha256": "8a538487dea57e60205bf38fd8fb3c255b8d60f2a0a2d27acfdc78bedc996256",
+      "bytes": 5958
+    },
+    {
+      "filename": "originals/Armide.mid",
+      "sha256": "0e7502655345f798478f5d77086f10c7ff82367f0630cda38bc2a3b661fc385a",
+      "bytes": 17783
+    }
+  ]
+}

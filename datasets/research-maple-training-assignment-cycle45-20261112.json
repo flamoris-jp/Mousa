@@ -1,0 +1,88 @@
+{
+  "created_utc": "2026-11-12T17:33:43.420094+00:00",
+  "status": "prospective-fixed-training-assignment-not-yet-fit",
+  "scope": "Parent authorized local17-versus18 comparison with Maple23 in the same training family, never used as independent evaluation. Activation must be recorded after first fit attempt.",
+  "base_assignment": "datasets/research-cycle36-seventeen-work-assignment.json",
+  "base_assignment_sha256": "4812808f5b333e813de315e41ba595e451a8c512e7c54b46f96e40ce6d323b3b",
+  "old_train_ids": [
+    "mutopia-376",
+    "mutopia-888",
+    "mutopia-889",
+    "mutopia-789",
+    "mutopia-583",
+    "mutopia-1578",
+    "mutopia-1558",
+    "mutopia-370",
+    "mutopia-98-legacy",
+    "mutopia-263-legacy",
+    "mutopia-904",
+    "mutopia-2080",
+    "mutopia-2060",
+    "mutopia-2061",
+    "mutopia-186",
+    "mutopia-487",
+    "mutopia-2243"
+  ],
+  "expanded_train_ids": [
+    "mutopia-376",
+    "mutopia-888",
+    "mutopia-889",
+    "mutopia-789",
+    "mutopia-583",
+    "mutopia-1578",
+    "mutopia-1558",
+    "mutopia-370",
+    "mutopia-98-legacy",
+    "mutopia-263-legacy",
+    "mutopia-904",
+    "mutopia-2080",
+    "mutopia-2060",
+    "mutopia-2061",
+    "mutopia-186",
+    "mutopia-487",
+    "mutopia-2243",
+    "mutopia-23"
+  ],
+  "addition": {
+    "id": "mutopia-23",
+    "file": "mousa-cycle44-rights/23.mid",
+    "track": 1,
+    "sha256": "3dd712a85fabd267f5a2cee5cb23af4683408c2f29b8814721844498f1ee4f66",
+    "rights_ledger": "datasets/research-maple23-reserved-cycle44-20261112.json",
+    "rights_sha256": "2b587651357ab679b82b4a021f7451c2bffac596e7363b2d5ca3cbac54b6c694",
+    "prior_role": "rights-reviewed reserved, no model fit or score",
+    "selection": "Entire original upperstaff,1193notes762groups,first288/EOT110592; raw bothstaff MIDI unchanged. Polyphonic staff, not isolated melody."
+  },
+  "family_audit": "datasets/research-linked-family-audit-cycle45-20261112.json",
+  "family_audit_sha256": "d5b77e7d10bb3ff3972d0ddac0a461f5062291d95d7ad4175aa69855ee46fa13",
+  "family_policy": "Use new explicit11-linked-source-series mapping for BOTH17 and18. NigelHolmes888/889/789 combined, Maple23 with263. Series are not independent statistical composers; publisher-only overlap and anonymous contributor uncertainty retained. Short motif links stay separate risk evidence.",
+  "expected": {
+    "old_works": 17,
+    "old_notes": 4319,
+    "old_groups": 3428,
+    "new_works": 18,
+    "new_notes": 5512,
+    "new_groups": 4190,
+    "linked_series_both": 11
+  },
+  "observed_untrained_ids": [
+    "640",
+    "921",
+    "21",
+    "1691"
+  ],
+  "blocked_not_training": [
+    "1692",
+    "804",
+    "1741",
+    "532"
+  ],
+  "pending_not_training": [
+    "1540",
+    "2167",
+    "246"
+  ],
+  "copy_guard": "Same22 references for every condition:18possible training originals plus4observed. No threshold change. This does not clear blocked sources.",
+  "evaluation": "All existing diagnostics are previously observed. New seeds are new random draws, not new held-out music. No new predictive score is needed; if old diagnostics reused label exploratory and log attempts.",
+  "preservation": "No original cropping, quantization, deletion, revoicing or source execution. No actual human ratings. Historical reserve/test/family ledgers stay immutable."
+}

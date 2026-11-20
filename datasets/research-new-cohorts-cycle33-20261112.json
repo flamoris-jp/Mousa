@@ -1,0 +1,635 @@
+{
+  "cycle": 33,
+  "created_at_utc": "2026-11-12T14:07:34.429494+00:00",
+  "scope": "Two new original-MIDI candidates reserved; no model fit/score, corpus assignment or external storage. Current14trained/oldpending/blocked/observed roles unchanged; Groove remains separate modality.",
+  "candidates": [
+    {
+      "work_id": "mutopia-186",
+      "title": "Sonate I, II Menuetto, Hob.XVI:27",
+      "composer": "Joseph Haydn (1732–1809)",
+      "contributor": "Bas Wassink",
+      "status": "rights-reviewed-reserved-pending-screen-and-assignment",
+      "source_page": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=186",
+      "original_files": [
+        {
+          "id": "186",
+          "url": "https://www.mutopiaproject.org/ftp/HaydnFJ/HOB-XVI-27/hob-xvi-27-ii-menuet-trio/hob-xvi-27-ii-menuet-trio.ly",
+          "file": "186.ly",
+          "bytes": 7262,
+          "sha256": "53245b0fdd6d0797a1593cf04eeb45a1ebdc99502b53f621312015d6c449c126",
+          "date": "2026-11-12T14:04:54.035144+00:00"
+        },
+        {
+          "id": "186",
+          "url": "https://www.mutopiaproject.org/ftp/HaydnFJ/HOB-XVI-27/hob-xvi-27-ii-menuet-trio/hob-xvi-27-ii-menuet-trio.mid",
+          "file": "186.mid",
+          "bytes": 5953,
+          "sha256": "37b97075c873529760c96539f9894ec6eb99cc1065d76344f7b1fc397d6b63d4",
+          "date": "2026-11-12T14:04:57.183589+00:00"
+        }
+      ],
+      "technical": [
+        {
+          "id": "186",
+          "track": 1,
+          "notes": 383,
+          "ppq": 384,
+          "meter": [
+            3,
+            4
+          ],
+          "total_ticks": 75648,
+          "source_total_ticks": 76032,
+          "first_notes": [
+            {
+              "start": 0,
+              "end": 384,
+              "pitch": 74,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 384,
+              "end": 512,
+              "pitch": 79,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 512,
+              "end": 640,
+              "pitch": 74,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 640,
+              "end": 768,
+              "pitch": 71,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 768,
+              "end": 896,
+              "pitch": 74,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 896,
+              "end": 1024,
+              "pitch": 71,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 1024,
+              "end": 1152,
+              "pitch": 67,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 1152,
+              "end": 1280,
+              "pitch": 67,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 1280,
+              "end": 1408,
+              "pitch": 66,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 1408,
+              "end": 1536,
+              "pitch": 62,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 1536,
+              "end": 1920,
+              "pitch": 69,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 1536,
+              "end": 1920,
+              "pitch": 72,
+              "velocity": 90,
+              "release_velocity": 0
+            }
+          ],
+          "max_polyphony": 3,
+          "tempo_map": [
+            [
+              0,
+              652173
+            ]
+          ],
+          "volume_events": 0,
+          "program_map": [
+            [
+              0,
+              6
+            ]
+          ]
+        },
+        {
+          "id": "186",
+          "track": 2,
+          "notes": 265,
+          "ppq": 384,
+          "meter": [
+            3,
+            4
+          ],
+          "total_ticks": 76032,
+          "source_total_ticks": 76032,
+          "first_notes": [
+            {
+              "start": 0,
+              "end": 384,
+              "pitch": 55,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 0,
+              "end": 384,
+              "pitch": 59,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 768,
+              "end": 1152,
+              "pitch": 59,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 768,
+              "end": 1152,
+              "pitch": 62,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 1152,
+              "end": 1536,
+              "pitch": 57,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 1152,
+              "end": 1536,
+              "pitch": 60,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 1536,
+              "end": 1920,
+              "pitch": 54,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 1920,
+              "end": 2304,
+              "pitch": 55,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 2304,
+              "end": 3456,
+              "pitch": 48,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 3456,
+              "end": 3840,
+              "pitch": 50,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 3840,
+              "end": 3968,
+              "pitch": 62,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 3968,
+              "end": 4096,
+              "pitch": 64,
+              "velocity": 90,
+              "release_velocity": 0
+            }
+          ],
+          "max_polyphony": 3,
+          "tempo_map": [
+            [
+              0,
+              652173
+            ]
+          ],
+          "volume_events": 0,
+          "program_map": [
+            [
+              0,
+              6
+            ]
+          ]
+        }
+      ],
+      "recommended_track": 1,
+      "track_selection": "Upper staff selected from score role before any similarity or model outcome. Preserve simultaneous notes; not an isolated voice extraction.",
+      "composition_rights": "Named historical composer deceased over100years; composition published before1900.",
+      "encoding_rights": {
+        "declared_license": "Public Domain",
+        "license_url": "http://creativecommons.org/licenses/publicdomain",
+        "basis": "Exact downloaded LilyPond header includes typesetter PD dedication, free to distribute, modify and perform. Original MIDI is linked by same official piece page.",
+        "limits": "Legacy PD dedication, not CC0 and not AI-specific wording. Permission relies on reviewed composition/edition and contributor encoding; no inferred authorization from mere free download."
+      },
+      "source_bytes_modified": false,
+      "source_execution": false,
+      "fit_used": false,
+      "model_score_used": false,
+      "similarity_screen_run": false,
+      "external_storage": false,
+      "family": "Haydn HobXVI27 allmovements/hands/versions; Koehler-Peters-BasWassink",
+      "family_confounds": [
+        "BasWassink also typeset pendingBurgmuller202/214, not an independent contributor versus full reserved corpus.",
+        "LouisKoehler editor also appears in blockedClementi804. Does not admit or reclassify804; future family split must retain link.",
+        "Peters publisher shared with other trained/observed materials; no complete independence claim."
+      ],
+      "edition_rights": {
+        "source_declaration": "C.F.Peters1880s",
+        "identified_editor": "Louis Koehler (1820–1886)",
+        "edition": "Sonaten von Joseph Haydn, VolII No11, plate6424; no separate modern arranger identified",
+        "catalogue_url": "https://imslp.org/wiki/Keyboard_Sonata_in_G_major,_Hob.XVI:27_(Haydn,_Joseph)",
+        "library_corroboration_url": "https://urresearch.rochester.edu/institutionalPublicationPublicView.action?institutionalItemId=17523",
+        "library_details": "Sibley catalogue: original publication1880, plates6423–6424, VolI/II Koehler, VolIII/IV F.A.Roitzsch; source edition therefore not1937Martienssen edition also listed by IMSLP.",
+        "scan": {
+          "file": "haydn-peters.pdf",
+          "url": "https://s9.imslp.org/files/imglnks/usimg/3/37/IMSLP471785-PMLP01703-101_IMSLP457528-PMLP743656-sonaten12hayd_bw.pdf",
+          "bytes": 643702,
+          "sha256": "03c3484fb4c013a22bdf986806cff02ea12245e19547ca9e13d5068750051e3e"
+        },
+        "scope": "Historical piano score and fingering edition. Not exact physical copy provenance for the typesetter; inspected incipit and plate, not full note-by-note collation."
+      },
+      "incipit": {
+        "scan_page": 4,
+        "printed_page": 6,
+        "visual_match": "Menuetto,Gmajor3/4. D5quarter with turn, tripletG5 D5 B4 thenD5 B4 G4; nextbartripletG4 F#4 D4 thenA4/C5 chord toG4/B4. LowerG3/B3 quarter chord,quarterrest,B3/D4 chord. Matches LY and MIDI upper74,79,74,71,74,71,67.",
+        "plate": "6424"
+      },
+      "meter_origin_ticks": 0,
+      "pickup": false,
+      "timing_notes": "Full-bar start. Original upper EOT75648, sourceEOT76032 preserved, no rest padding. Tuplet intervals128ticks retained exactly; no quantization."
+    },
+    {
+      "work_id": "mutopia-487",
+      "title": "Tambourin, Pieces de clavecin (1724)",
+      "composer": "Jean-Philippe Rameau (1683–1764)",
+      "contributor": "Ludovic Sardain",
+      "status": "rights-reviewed-reserved-pending-screen-and-assignment",
+      "source_page": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=487",
+      "original_files": [
+        {
+          "id": "487",
+          "url": "https://www.mutopiaproject.org/ftp/RameauJP/tambourin/tambourin.ly",
+          "file": "487.ly",
+          "bytes": 6116,
+          "sha256": "2596f4b7d95d27be427669df34dc8bd4c54758e2ddec4f8de1a4c4c369c80da3",
+          "date": "2026-11-12T14:05:00.203288+00:00"
+        },
+        {
+          "id": "487",
+          "url": "https://www.mutopiaproject.org/ftp/RameauJP/tambourin/tambourin.mid",
+          "file": "487.mid",
+          "bytes": 5124,
+          "sha256": "873b2934c4daaedae780d6a0adf0b43fb5302ec5499bfe5ff8d4a95d5efad5bf",
+          "date": "2026-11-12T14:05:02.780567+00:00"
+        }
+      ],
+      "technical": [
+        {
+          "id": "487",
+          "track": 1,
+          "notes": 313,
+          "ppq": 384,
+          "meter": [
+            2,
+            2
+          ],
+          "total_ticks": 95232,
+          "source_total_ticks": 95232,
+          "first_notes": [
+            {
+              "start": 0,
+              "end": 192,
+              "pitch": 64,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 192,
+              "end": 384,
+              "pitch": 66,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 384,
+              "end": 576,
+              "pitch": 67,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 576,
+              "end": 768,
+              "pitch": 66,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 768,
+              "end": 1152,
+              "pitch": 64,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 1152,
+              "end": 1536,
+              "pitch": 71,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 1536,
+              "end": 1920,
+              "pitch": 71,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 1920,
+              "end": 2304,
+              "pitch": 69,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 2304,
+              "end": 2688,
+              "pitch": 67,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 2688,
+              "end": 3072,
+              "pitch": 66,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 3072,
+              "end": 3264,
+              "pitch": 64,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 3264,
+              "end": 3456,
+              "pitch": 66,
+              "velocity": 90,
+              "release_velocity": 0
+            }
+          ],
+          "max_polyphony": 1,
+          "tempo_map": [
+            [
+              0,
+              750000
+            ]
+          ],
+          "volume_events": 1,
+          "program_map": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "id": "487",
+          "track": 2,
+          "notes": 248,
+          "ppq": 384,
+          "meter": [
+            2,
+            2
+          ],
+          "total_ticks": 95232,
+          "source_total_ticks": 95232,
+          "first_notes": [
+            {
+              "start": 768,
+              "end": 1536,
+              "pitch": 40,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 768,
+              "end": 1536,
+              "pitch": 47,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 768,
+              "end": 1536,
+              "pitch": 52,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 1536,
+              "end": 2304,
+              "pitch": 51,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 2304,
+              "end": 3072,
+              "pitch": 40,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 2304,
+              "end": 3072,
+              "pitch": 47,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 2304,
+              "end": 3072,
+              "pitch": 52,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 3840,
+              "end": 4608,
+              "pitch": 40,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 3840,
+              "end": 4608,
+              "pitch": 47,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 3840,
+              "end": 4608,
+              "pitch": 52,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 4608,
+              "end": 4992,
+              "pitch": 54,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 4992,
+              "end": 5376,
+              "pitch": 52,
+              "velocity": 90,
+              "release_velocity": 0
+            }
+          ],
+          "max_polyphony": 3,
+          "tempo_map": [
+            [
+              0,
+              750000
+            ]
+          ],
+          "volume_events": 4,
+          "program_map": [
+            [
+              0,
+              0
+            ]
+          ]
+        }
+      ],
+      "recommended_track": 1,
+      "track_selection": "Upper staff selected from score role before any similarity or model outcome. Preserve simultaneous notes; not an isolated voice extraction.",
+      "composition_rights": "Named historical composer deceased over100years; composition published before1900.",
+      "encoding_rights": {
+        "declared_license": "Public Domain",
+        "license_url": "http://creativecommons.org/licenses/publicdomain",
+        "basis": "Exact downloaded LilyPond header includes typesetter PD dedication, free to distribute, modify and perform. Original MIDI is linked by same official piece page.",
+        "limits": "Legacy PD dedication, not CC0 and not AI-specific wording. Permission relies on reviewed composition/edition and contributor encoding; no inferred authorization from mere free download."
+      },
+      "source_bytes_modified": false,
+      "source_execution": false,
+      "fit_used": false,
+      "model_score_used": false,
+      "similarity_screen_run": false,
+      "external_storage": false,
+      "family": "Rameau1724PiecesdeClavecin suite/related movements and allhands; Malherbe-Durand-Sardain",
+      "family_confounds": [
+        "No same composer/contributor/editor identified among current14; this is metadata review, not duplicate clearance.",
+        "All related1724suite pieces and any arrangements/transforms should remain same family; no separate movement used as fresh independent cohort."
+      ],
+      "edition_rights": {
+        "source_declaration": "Durand1895",
+        "identified_editor": "Charles Malherbe (1853–1911); complete-works series under Camille Saint-Saens (1835–1921)",
+        "edition": "Oeuvres completesVol1,pp19–59,plateD.&F.5007",
+        "catalogue_url": "https://imslp.org/wiki/Pi%C3%A8ces_de_Clavecin_(Rameau,_Jean-Philippe)",
+        "series_corroboration_url": "https://ci.nii.ac.jp/ncid/BA23218245",
+        "scan": {
+          "file": "rameau1895.pdf",
+          "url": "https://s9.imslp.org/files/imglnks/usimg/e/e5/IMSLP114239-PMLP19078-Rameau_Oeuvres_Completes_TOME_1_Broude_02_Pieces_de_Clavecin_scan.pdf",
+          "bytes": 5964437,
+          "sha256": "c8f4544a13eb262e1c36cec74195ebe62f7c16cb1bc5bb7df6f4a40fc9f1c659"
+        },
+        "scope": "Catalogue identifies1968Broude Brothers reprint of1895Durand edition, not an1895 physical copy; historical editors both deceased over100years. No separate arranger identified. No rights claimed over later cover/branding; not full-score collation."
+      },
+      "incipit": {
+        "scan_page": 14,
+        "printed_page": 32,
+        "visual_match": "Tambourin,Vif,Eminor2/2,half-note pickup: E4 F#4 G4 F#4 eighths; E4 B4 B4 A4 quarters; G4 ornament,F#4,E4 F#4 G4 A4 eighths. Matches source and MIDI64,66,67,66,64,71,71,69. Lower initialhalfrest thenE2/B2/E3 halfchord matches original lower onset768."
+      },
+      "meter_origin_ticks": 768,
+      "pickup_ticks": 768,
+      "timing_notes": "Original zero is halfbar before first full downbeat. Source and selected EOT95232 preserved, repeats remain original. Printed ornaments are not artificially realized or altered."
+    }
+  ],
+  "evidence_manifest": [
+    {
+      "file": "downloads.json",
+      "sha256": "9067ac03f5ff19cc83921916e1e7ed7251f8e7d1776dc9890844ca235f5e1d78",
+      "bytes": 1198
+    },
+    {
+      "file": "scans.json",
+      "sha256": "9857576e1fe6cf1ae8bcb551f66f1ddcc7f787f7fd4e8a1861fc54e935930fb4",
+      "bytes": 569
+    },
+    {
+      "file": "technical.json",
+      "sha256": "639a89b8a636f842a734b000bf291fb9643be0839a8242698c250d0febc5697f",
+      "bytes": 8017
+    },
+    {
+      "file": "rameau.html",
+      "sha256": "4b19bec592841eaa2586e59588cf0f69639c52b0e14f9c54e12625d50ee0de50",
+      "bytes": 309099
+    },
+    {
+      "file": "haydn.html",
+      "sha256": "45aeb0bc2c8fd2fbe920ba45a9c28b998c0e0e2870ef5b2d309b2d67681c11b3",
+      "bytes": 175708
+    },
+    {
+      "file": "haydn-rochester.html",
+      "sha256": "538ff99ae1d027e791d49bf9c59de2978ed89328679c24d6ee67e0f75a1695b5",
+      "bytes": 20003
+    }
+  ],
+  "limitations": [
+    "Rights review is bounded source research, not blanket legal warranty or worldwide original-media redistribution approval.",
+    "Both are keyboard staff data; more notes do not imply improved melodic quality.",
+    "No fixedexact8/global.80 or duplicate screen performed; any later assignment must respect those gates and modelwork-count budgets."
+  ]
+}

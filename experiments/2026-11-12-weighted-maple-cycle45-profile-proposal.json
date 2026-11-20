@@ -1,0 +1,30 @@
+{
+  "status": "synthetic_profile_ready_assignment_pending_no_real_fit",
+  "conditions": "17/18 x mass-controlled raw/equal-work/equal-family, plus natural raw18;7conditions",
+  "fixed_masses": [
+    17,
+    3411,
+    3428
+  ],
+  "natural18_masses": [
+    18,
+    4172,
+    4190
+  ],
+  "families": "pending authoritative11-series mapping, identical17/18 policy;888/889/789 linked,Maple23+263 linked",
+  "candidate_seeds": [
+    45000,
+    45001,
+    45002
+  ],
+  "seeds_status": "proposed, historical-use scan pending before finalplan",
+  "cpu_seconds": 60,
+  "pool_semantics": "first/later/template-anchor independently equalize raw events, nonempty works or nonempty declared families; first and later boundaries reset each source. Family-internal contribution proportional to pooleventcount. Emptylater work has0mass; entirelyempty pool rejected.",
+  "generation": "Dedicated standalone music-profile type, exactFraction counts integerized including prior at same scale, bitlimit2048; wholetemplates,existing bounded rejection logic;4membertemplates learned but excluded from max3 generation, weighted mass and raw occurrences to report.",
+  "synthetic_tests": 4,
+  "prototype_test_correction": "Initial synthetic target384 used defaulttail384, correctly rejected by tail<target safety bound. Test adjusted to explicittail96; no model behavior changed.",
+  "frozen_profile_hashes": {
+    "src/mousa/weighted_group_cycle45.py": "e20fb010b009bfea85988ece6cc108f0941cd892b15439fbfb0d12747c42503f",
+    "tests/test_weighted_group_cycle45.py": "c2ecd9ecfbf93626b39e32aa0ee6fa7f5a5a5345d7a4d45ae4e367dc893a271c"
+  }
+}

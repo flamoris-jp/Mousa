@@ -1,0 +1,205 @@
+{
+  "plan_sha256": "5eee4c832dc05d246cf380f6e37228f18e927ae69d9bc971a9221f2ea4775cf8",
+  "clips": [
+    {
+      "label": "A",
+      "notes": 22,
+      "source_hash_checked": true,
+      "source_unchanged": true,
+      "midi_sha256": "fdb5d76f62dd48eeee62644617b0cf03f3a0070428c29b50d8d35f124a4ae704",
+      "wav_sha256": "098c5425b725e68c301ba2898088c5a726725faa261200a6227069065206a0d2",
+      "midi_bytes": 233,
+      "wav_bytes": 529244,
+      "note_five_fields_and_order_verified": true,
+      "internal_midi_byte_parity": true,
+      "cantabile_operations": [
+        {
+          "operation": "import-midi",
+          "returncode": 0
+        },
+        {
+          "operation": "export-midi",
+          "returncode": 0
+        }
+      ],
+      "cantabile_roundtrip_fields_order_metadata_eot": true,
+      "cantabile_midi_byte_equal": false,
+      "wav_repeat_byte_equal": true,
+      "audio": {
+        "rate": 22050,
+        "channels": 1,
+        "pcm_bits": 16,
+        "frames": 264600,
+        "duration_seconds": 12,
+        "common_gain": 0.18,
+        "per_file_normalization": false,
+        "peak_linear": 0.472944455428034,
+        "rms_linear": 0.06547130467369225,
+        "peak_dbfs": -6.503797232498925,
+        "rms_dbfs": -23.678980092530093,
+        "clipped_samples": 0,
+        "nonzero_pcm_samples": 70247,
+        "max_endpoint_rounding_samples": 0.5,
+        "release_mapping": "Declared own simple timbre:release_velocity controls in-gate5..35ms ramp,not a standard instrument interpretation."
+      },
+      "role": "generated-private/listening-only/not-training",
+      "limitations": [
+        "Export6/8/8bars/120BPM convention,not learnedmeter.",
+        "Analytic own oscillator,not Cantabile audio or a real-instrument recording.",
+        "No human listening or rating performed.",
+        "Private candidate only,no public-release clearance."
+      ]
+    },
+    {
+      "label": "B",
+      "notes": 38,
+      "source_hash_checked": true,
+      "source_unchanged": true,
+      "midi_sha256": "1ad6df919a5d27c899686c8a061b7ff84f251ad1815e0d2405a388acff51cd5c",
+      "wav_sha256": "d8dc12c8b31a053555af57fc97ff33246bff974a811346028ebcf6eaf03d1eb4",
+      "midi_bytes": 350,
+      "wav_bytes": 529244,
+      "note_five_fields_and_order_verified": true,
+      "internal_midi_byte_parity": true,
+      "cantabile_operations": [
+        {
+          "operation": "import-midi",
+          "returncode": 0
+        },
+        {
+          "operation": "export-midi",
+          "returncode": 0
+        }
+      ],
+      "cantabile_roundtrip_fields_order_metadata_eot": true,
+      "cantabile_midi_byte_equal": false,
+      "wav_repeat_byte_equal": true,
+      "audio": {
+        "rate": 22050,
+        "channels": 1,
+        "pcm_bits": 16,
+        "frames": 264600,
+        "duration_seconds": 12,
+        "common_gain": 0.18,
+        "per_file_normalization": false,
+        "peak_linear": 0.47248859099923646,
+        "rms_linear": 0.09361488734069365,
+        "peak_dbfs": -6.512173475407456,
+        "rms_dbfs": -20.57310162015437,
+        "clipped_samples": 0,
+        "nonzero_pcm_samples": 180922,
+        "max_endpoint_rounding_samples": 0.5,
+        "release_mapping": "Declared own simple timbre:release_velocity controls in-gate5..35ms ramp,not a standard instrument interpretation."
+      },
+      "role": "generated-private/listening-only/not-training",
+      "limitations": [
+        "Export6/8/8bars/120BPM convention,not learnedmeter.",
+        "Analytic own oscillator,not Cantabile audio or a real-instrument recording.",
+        "No human listening or rating performed.",
+        "Private candidate only,no public-release clearance."
+      ]
+    },
+    {
+      "label": "C",
+      "notes": 35,
+      "source_hash_checked": true,
+      "source_unchanged": true,
+      "midi_sha256": "b4b51c4dd97c2ffa4e957125a630bd7bce277912ae8cc61965a95a339b595e6a",
+      "wav_sha256": "bb0545efde532047a9a6f7679a0a650f64ad29de23b4ab2d18b57a4cb65c16bc",
+      "midi_bytes": 329,
+      "wav_bytes": 529244,
+      "note_five_fields_and_order_verified": true,
+      "internal_midi_byte_parity": true,
+      "cantabile_operations": [
+        {
+          "operation": "import-midi",
+          "returncode": 0
+        },
+        {
+          "operation": "export-midi",
+          "returncode": 0
+        }
+      ],
+      "cantabile_roundtrip_fields_order_metadata_eot": true,
+      "cantabile_midi_byte_equal": false,
+      "wav_repeat_byte_equal": true,
+      "audio": {
+        "rate": 22050,
+        "channels": 1,
+        "pcm_bits": 16,
+        "frames": 264600,
+        "duration_seconds": 12,
+        "common_gain": 0.18,
+        "per_file_normalization": false,
+        "peak_linear": 0.472944455428034,
+        "rms_linear": 0.08080385363272412,
+        "peak_dbfs": -6.503797232498925,
+        "rms_dbfs": -21.851358534132423,
+        "clipped_samples": 0,
+        "nonzero_pcm_samples": 132584,
+        "max_endpoint_rounding_samples": 0.5,
+        "release_mapping": "Declared own simple timbre:release_velocity controls in-gate5..35ms ramp,not a standard instrument interpretation."
+      },
+      "role": "generated-private/listening-only/not-training",
+      "limitations": [
+        "Export6/8/8bars/120BPM convention,not learnedmeter.",
+        "Analytic own oscillator,not Cantabile audio or a real-instrument recording.",
+        "No human listening or rating performed.",
+        "Private candidate only,no public-release clearance."
+      ]
+    },
+    {
+      "label": "D",
+      "notes": 38,
+      "source_hash_checked": true,
+      "source_unchanged": true,
+      "midi_sha256": "a890d85cb2ddf77692c879966d969e5c09635c0000f100151ad5bf5e29562815",
+      "wav_sha256": "e8091630f0058e30095364def0e0bf2129bc3fa6c20fae8a9ad65b8a5d7c4055",
+      "midi_bytes": 350,
+      "wav_bytes": 529244,
+      "note_five_fields_and_order_verified": true,
+      "internal_midi_byte_parity": true,
+      "cantabile_operations": [
+        {
+          "operation": "import-midi",
+          "returncode": 0
+        },
+        {
+          "operation": "export-midi",
+          "returncode": 0
+        }
+      ],
+      "cantabile_roundtrip_fields_order_metadata_eot": true,
+      "cantabile_midi_byte_equal": false,
+      "wav_repeat_byte_equal": true,
+      "audio": {
+        "rate": 22050,
+        "channels": 1,
+        "pcm_bits": 16,
+        "frames": 264600,
+        "duration_seconds": 12,
+        "common_gain": 0.18,
+        "per_file_normalization": false,
+        "peak_linear": 0.47248859099923646,
+        "rms_linear": 0.09361565352145046,
+        "peak_dbfs": -6.512173475407456,
+        "rms_dbfs": -20.57303053173615,
+        "clipped_samples": 0,
+        "nonzero_pcm_samples": 180922,
+        "max_endpoint_rounding_samples": 0.5,
+        "release_mapping": "Declared own simple timbre:release_velocity controls in-gate5..35ms ramp,not a standard instrument interpretation."
+      },
+      "role": "generated-private/listening-only/not-training",
+      "limitations": [
+        "Export6/8/8bars/120BPM convention,not learnedmeter.",
+        "Analytic own oscillator,not Cantabile audio or a real-instrument recording.",
+        "No human listening or rating performed.",
+        "Private candidate only,no public-release clearance."
+      ]
+    }
+  ],
+  "cpu_seconds": 3.464732044,
+  "roles": "generated-private/listening-only/not-training",
+  "selection": "Deterministic seed0 chosen after existing experiment results;not preregistered before generation.",
+  "human_ratings": null
+}

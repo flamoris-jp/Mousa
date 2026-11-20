@@ -1,0 +1,250 @@
+{
+  "scope": "Quarantined candidates, not an approved intake manifest",
+  "works": [
+    {
+      "id": 1578,
+      "base_url": "https://www.mutopiaproject.org/ftp/SchubertF/D120/SchubertF-D120-TrostInThraenen/SchubertF-D120-TrostInThraenen",
+      "acquired": "2026-11-12T09:46:29.599685+00:00",
+      "files": {
+        "mid": {
+          "url": "https://www.mutopiaproject.org/ftp/SchubertF/D120/SchubertF-D120-TrostInThraenen/SchubertF-D120-TrostInThraenen.mid",
+          "sha256": "6cf3c60882c186ec642383caf4c5b265778d53159225b56dc121c4b595cdaf9d"
+        },
+        "html": {
+          "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1578",
+          "sha256": "3f3d0767e788d44e0d30f767250121308c2c44be2fab52fc5939fba2a67d36d7"
+        },
+        "ly": {
+          "url": "https://www.mutopiaproject.org/ftp/SchubertF/D120/SchubertF-D120-TrostInThraenen/SchubertF-D120-TrostInThraenen.ly",
+          "sha256": "fee41a6e361ab6f4c8cbc3b04e825fe2da4e933ef08985e0eba9ce6ca6c76855"
+        }
+      },
+      "tracks": [
+        {
+          "track": 1,
+          "name": "chant",
+          "accepted": false,
+          "error": "constant tempo at tick zero required"
+        },
+        {
+          "track": 2,
+          "name": "pianoUp",
+          "accepted": false,
+          "error": "constant tempo at tick zero required"
+        },
+        {
+          "track": 3,
+          "name": "pianoDown",
+          "accepted": false,
+          "error": "constant tempo at tick zero required"
+        }
+      ],
+      "status": "technical-reject-untrained-unscored",
+      "rights": "Source declares Public Domain and typesetter dedication. Schubert1797-1828; dated1814-1822 works. Four cite Breitkopf&Hartel1884-1897;1040 cites Indiana Edu Web. No modern arrangement separately named; not admitted due technical rejection.",
+      "training_used": false,
+      "model_scored": false,
+      "review_state": "pending",
+      "split": null
+    },
+    {
+      "id": 1040,
+      "base_url": "https://www.mutopiaproject.org/ftp/SchubertF/D498/schubert_wiegen_lied/schubert_wiegen_lied",
+      "acquired": "2026-11-12T09:46:29.600558+00:00",
+      "files": {
+        "mid": {
+          "url": "https://www.mutopiaproject.org/ftp/SchubertF/D498/schubert_wiegen_lied/schubert_wiegen_lied.mid",
+          "sha256": "c23c9ad4a9604cc0cdd502689c37c95a194c5b1d0bd21dd75ad6e6832bf0d692"
+        },
+        "html": {
+          "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1040",
+          "sha256": "ae0932301c42587ff9e8fe394be4086522cacc7f1f9d64681f8f1f96a1b3e278"
+        },
+        "ly": {
+          "url": "https://www.mutopiaproject.org/ftp/SchubertF/D498/schubert_wiegen_lied/schubert_wiegen_lied.ly",
+          "sha256": "40a1c8465eda28d74f37646535d3ba9fae0676362e41c369da58f24535272776"
+        }
+      },
+      "tracks": [
+        {
+          "track": 1,
+          "name": "\\new",
+          "accepted": false,
+          "error": "off-grid timing: exact sixteenths required, no quantization"
+        },
+        {
+          "track": 5,
+          "name": "upper",
+          "accepted": false,
+          "error": "unsupported melody control, pressure or pitch bend"
+        },
+        {
+          "track": 6,
+          "name": "lower",
+          "accepted": false,
+          "error": "polyphonic or ambiguous overlapping notes"
+        }
+      ],
+      "status": "technical-reject-untrained-unscored",
+      "rights": "Source declares Public Domain and typesetter dedication. Schubert1797-1828; dated1814-1822 works. Four cite Breitkopf&Hartel1884-1897;1040 cites Indiana Edu Web. No modern arrangement separately named; not admitted due technical rejection.",
+      "training_used": false,
+      "model_scored": false,
+      "review_state": "pending",
+      "split": null
+    },
+    {
+      "id": 1585,
+      "base_url": "https://www.mutopiaproject.org/ftp/SchubertF/D743/SchubertF-D743-SeligeWelt/SchubertF-D743-SeligeWelt",
+      "acquired": "2026-11-12T09:46:29.601405+00:00",
+      "files": {
+        "mid": {
+          "url": "https://www.mutopiaproject.org/ftp/SchubertF/D743/SchubertF-D743-SeligeWelt/SchubertF-D743-SeligeWelt.mid",
+          "sha256": "b0f8bb73e26ceaf153ce333468f4f41e3279760a3f9d3c551fda7ea496f3590f"
+        },
+        "html": {
+          "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1585",
+          "sha256": "d2bf7044f475855daa2131e7a6d63afc2802f87708822fa775128bc1a38a8e22"
+        },
+        "ly": {
+          "url": "https://www.mutopiaproject.org/ftp/SchubertF/D743/SchubertF-D743-SeligeWelt/SchubertF-D743-SeligeWelt.ly",
+          "sha256": "26f534a89f25549f48f96ecf68524cea6e4b487a196d760b061cb256a1020cd8"
+        }
+      },
+      "tracks": [
+        {
+          "track": 1,
+          "name": "chant",
+          "accepted": false,
+          "error": "constant tempo at tick zero required"
+        },
+        {
+          "track": 2,
+          "name": "pianoUp",
+          "accepted": false,
+          "error": "constant tempo at tick zero required"
+        },
+        {
+          "track": 3,
+          "name": "pianoDown",
+          "accepted": false,
+          "error": "constant tempo at tick zero required"
+        }
+      ],
+      "status": "technical-reject-untrained-unscored",
+      "rights": "Source declares Public Domain and typesetter dedication. Schubert1797-1828; dated1814-1822 works. Four cite Breitkopf&Hartel1884-1897;1040 cites Indiana Edu Web. No modern arrangement separately named; not admitted due technical rejection.",
+      "training_used": false,
+      "model_scored": false,
+      "review_state": "pending",
+      "split": null
+    },
+    {
+      "id": 1587,
+      "base_url": "https://www.mutopiaproject.org/ftp/SchubertF/D751/SchubertF-D751-DieLiebeHatGelogen/SchubertF-D751-DieLiebeHatGelogen",
+      "acquired": "2026-11-12T09:46:29.602122+00:00",
+      "files": {
+        "mid": {
+          "url": "https://www.mutopiaproject.org/ftp/SchubertF/D751/SchubertF-D751-DieLiebeHatGelogen/SchubertF-D751-DieLiebeHatGelogen.mid",
+          "sha256": "ead79c2eaca7f75bc6cfbc7a141c62d873cd7a4fca217fc31c056945fde1c46e"
+        },
+        "html": {
+          "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1587",
+          "sha256": "79233a73a1053622d2e235a1517fd8e899368b5ef8da2f176eacd1799b321a65"
+        },
+        "ly": {
+          "url": "https://www.mutopiaproject.org/ftp/SchubertF/D751/SchubertF-D751-DieLiebeHatGelogen/SchubertF-D751-DieLiebeHatGelogen.ly",
+          "sha256": "5bd453320fb5c3fc53b6add0fda7260fd977639f6518e925a1965e8d58f35ce7"
+        }
+      },
+      "tracks": [
+        {
+          "track": 1,
+          "name": "chant",
+          "accepted": false,
+          "error": "constant tempo at tick zero required"
+        },
+        {
+          "track": 2,
+          "name": "pianoUp",
+          "accepted": false,
+          "error": "constant tempo at tick zero required"
+        },
+        {
+          "track": 3,
+          "name": "pianoDown",
+          "accepted": false,
+          "error": "constant tempo at tick zero required"
+        }
+      ],
+      "status": "technical-reject-untrained-unscored",
+      "rights": "Source declares Public Domain and typesetter dedication. Schubert1797-1828; dated1814-1822 works. Four cite Breitkopf&Hartel1884-1897;1040 cites Indiana Edu Web. No modern arrangement separately named; not admitted due technical rejection.",
+      "training_used": false,
+      "model_scored": false,
+      "review_state": "pending",
+      "split": null
+    },
+    {
+      "id": 1558,
+      "base_url": "https://www.mutopiaproject.org/ftp/SchubertF/D764/SchubertF-D764-DerMusensohn/SchubertF-D764-DerMusensohn",
+      "acquired": "2026-11-12T09:46:29.603669+00:00",
+      "files": {
+        "mid": {
+          "url": "https://www.mutopiaproject.org/ftp/SchubertF/D764/SchubertF-D764-DerMusensohn/SchubertF-D764-DerMusensohn.mid",
+          "sha256": "50a29ba4579b984c24b2e13ec4fafb08c468c6c5db6bd9313d9134b00cf8e8c9"
+        },
+        "html": {
+          "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1558",
+          "sha256": "ed06a0ff81e146ad7421546e374a0418146d36379d150b81a04c9f2680368b52"
+        },
+        "ly": {
+          "url": "https://www.mutopiaproject.org/ftp/SchubertF/D764/SchubertF-D764-DerMusensohn/SchubertF-D764-DerMusensohn.ly",
+          "sha256": "f7db9d801a7f6afd291db7788f968052827ec00a3cf74f47800fe79ad83d3096"
+        }
+      },
+      "tracks": [
+        {
+          "track": 1,
+          "name": "chant",
+          "accepted": false,
+          "error": "constant tempo at tick zero required"
+        },
+        {
+          "track": 2,
+          "name": "pianoUp",
+          "accepted": false,
+          "error": "constant tempo at tick zero required"
+        },
+        {
+          "track": 3,
+          "name": "pianoDown",
+          "accepted": false,
+          "error": "constant tempo at tick zero required"
+        }
+      ],
+      "status": "technical-reject-untrained-unscored",
+      "rights": "Source declares Public Domain and typesetter dedication. Schubert1797-1828; dated1814-1822 works. Four cite Breitkopf&Hartel1884-1897;1040 cites Indiana Edu Web. No modern arrangement separately named; not admitted due technical rejection.",
+      "training_used": false,
+      "model_scored": false,
+      "review_state": "pending",
+      "split": null
+    },
+    {
+      "id": 40,
+      "status": "out-of-scope-license-and-technical-reject",
+      "composition": "Bach1685-1750 BWV772; Bach-Gesellschaft source",
+      "encoding": "CC BY-SA3.0 by Jeff Covey; NOT PD encoding; never trained",
+      "base_url": "https://www.mutopiaproject.org/ftp/BachJS/BWV772/bach-invention-01/bach-invention-01",
+      "tracks": "1 and2 rejected polyphonic or ambiguous overlapping notes",
+      "files": {
+        "mid": {
+          "sha256": "9b9a6213941932d5171d9102d85912c3c1c61f8176ce02005cd2198881823c2d"
+        },
+        "ly": {
+          "sha256": "3c01302f70efd1dd6f43becaf19b9b2aac49e25b3e89666e3e55bc576c6cd55d"
+        }
+      },
+      "training_used": false,
+      "model_scored": false,
+      "review_state": "pending",
+      "split": null
+    }
+  ]
+}

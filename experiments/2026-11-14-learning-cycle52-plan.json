@@ -1,0 +1,1374 @@
+{
+  "schema": "mousa-learning-cycle52-v1",
+  "created_utc": "2026-11-14T00:13:41.190109+00:00",
+  "source_hashes": {
+    "mousa-transfer-corpus-20261112/mutopia-376.mid": "b02e65def39bab988838d3d2e82ad9763f1b5b6b71b5a4c70e8f7b6d12eece8c",
+    "mousa-transfer-corpus-20261112/mutopia-888.mid": "6e097cb82d30524335a19a2adb1cbf79cf6b070f7059182f0dc9d34ca3fc3848",
+    "mousa-transfer-corpus-20261112/mutopia-889.mid": "cc45d10d7c21e858f37d4096979d4706bcfcaec400ef89abc1ac66378d51faa1",
+    "mousa-transfer-corpus-20261112/mutopia-789.mid": "f849eace28acf450e306803203499aed4830cfba1a5cb8fe0953f594be15ffb9",
+    "mousa-cycle10-rights-20261112/cornelius-ein-ton.mid": "631bcd481e09c1493191959ec3264c3513c4a93177ffc6d833dea4f4952b659b",
+    "mousa-named-source-review-20261112/1578.mid": "6cf3c60882c186ec642383caf4c5b265778d53159225b56dc121c4b595cdaf9d",
+    "mousa-named-source-review-20261112/1558.mid": "50a29ba4579b984c24b2e13ec4fafb08c468c6c5db6bd9313d9134b00cf8e8c9",
+    "mousa-fresh-source-review-20261112/370.mid": "3235864dce0f7a59f1eb348bda55065263c0366267e32f27ce6240c9dde3f6b5",
+    "mousa-cycle29-rights/ibiblio-sonatina-in-b-flat-major.mid": "556a50d0f00433f6973076704677eeb2b44c8dc81b1763b3b6d1dc0b716d3d5b",
+    "mousa-cycle29-rights/ibiblio-entertainer.mid": "80f94141dff97aabb3cf37e1ccc3f6ac41563dd4421d0a648786a8f8e36efc68",
+    "mousa-cycle30-rights/menuett_WoO82.mid": "64cf1e5040bb857a7aba4b733fbd04c888b128998fce325fedea259c095e94fb",
+    "mousa-cycle30-rights/16OldFrenchSong.mid": "112c3b61dab55f58bc44d9f3522ef21b3479ffa1953097783ff8c4f10e40175d",
+    "mousa-cycle32-rights/2060.mid": "4592e80dbc7e4bb76c9f8009e488774ccd751f08bf9f09cb3da83665471d345d",
+    "mousa-cycle32-rights/2061.mid": "2e1c2f560c5fecf1646a9435f03f1efe377fc63ca1b1137a8f6192ae1dc921f9",
+    "mousa-cycle33-rights/186.mid": "37b97075c873529760c96539f9894ec6eb99cc1065d76344f7b1fc397d6b63d4",
+    "mousa-cycle33-rights/487.mid": "873b2934c4daaedae780d6a0adf0b43fb5302ec5499bfe5ff8d4a95d5efad5bf",
+    "mousa-cycle35-rights/2243.mid": "cbcb7f97c501d0e1e7eb4694cd7fe3f132870e187a2374dd0023ffe31f836706",
+    "mousa-cycle16-rights-20261112/640-minuit_chretiens.mid": "13ec851eb00ca9aba345cad50f03bdb3b189f566f38d094a1e6b839765b3d678",
+    "mousa-cycle21-rights/Chop-28-4a.mid": "b19f8e0d783915e80e33cc4f622ef9623994ab89f114a53983c3f628265b798b",
+    "mousa-cycle39-rights/21.mid": "62f8a9594609932fa9c9c56f0b69d55bc0a31852ffa8012842a23a566a643e93",
+    "mousa-cycle39-rights/1691.mid": "4cc353989108ac40a7b74a40b170d331f783d7c6e4dfc9ed12f1e33e4dee59a8",
+    "mousa-cycle44-rights/23.mid": "3dd712a85fabd267f5a2cee5cb23af4683408c2f29b8814721844498f1ee4f66"
+  },
+  "frozen": {
+    "src/mousa/__init__.py": "f661fcf1877669005709b275a5bbf185cc1ffbd2b8384da2ea8a92f9308198bf",
+    "src/mousa/anchor_register_cycle43.py": "e800a34af5aba8a56c2593cb2e3afd517d9054c6e20497919c8b739517056a95",
+    "src/mousa/anchor_return_cycle42.py": "e806c8ab0e19971b1d46334d1a339e98bce72336adca68eb48b6846573644c9a",
+    "src/mousa/bounded_context_model.py": "058220437656c3b3c0449f1e90f48433efd1600fcff1f9115b204ddf72022c5c",
+    "src/mousa/constrained_return_cycle47.py": "b9965870f4153d01673eb271abaae481c058ad57a646be0cff29c0389e93552e",
+    "src/mousa/context_onset_gate.py": "32ff6404caf451e18649c85462f32c1bcca8389b434a23d9c4ec1d6d09f8af0c",
+    "src/mousa/drum_ioi_35work_profile.py": "55776f32739a3d7434a387325b1fa83cb5c6f3ccf2095a3ad85a0349541389b4",
+    "src/mousa/drum_ioi_60work_profile.py": "e0ce2e458d4ef98ef6dbe97c1c04288861e2efdc7bc89aa016a077251de297ed",
+    "src/mousa/drum_ioi_baseline.py": "03282ccb7e2c8c13429a11b09bdff4a8f25ce3af4b5708260a6344865373c833",
+    "src/mousa/drum_ioi_multiscale.py": "e2e9e15e7334265d25a9f8b7aec73c50d00a5bfbe55727d0a86eefec567bf265",
+    "src/mousa/duration_support.py": "50b10a6538a1b8cc8ec60f5e58570935bbb6c1a6e0c650ddb8944afd20516f6f",
+    "src/mousa/event_baseline.py": "4543dbe11fb0b49a23d5993b954fd090c6341140c1a97dbd101ba7d91465eaa7",
+    "src/mousa/factorized_baseline.py": "874bc5718a90576ab9a4761cada17181776fdc228ff4697cea5030bc5ddfd17d",
+    "src/mousa/feasible_context_generation.py": "57ff1dabc40a05af14f585701a9852dc6e699ba508cdadd00b8754ff1b24d783",
+    "src/mousa/fourteen_context_model.py": "ce948822b3e03cee083922aaab865eea24168b8e9687f40396e90e6d740a61d9",
+    "src/mousa/gate_context_group_model.py": "f74dcf7a54a4b07f6c8f828605327be7c307a6ab80c4e1e62c8955d24f993d08",
+    "src/mousa/groove_cycle40_weighted.py": "a9c9f5e816e554791c96c8233215a11d0468375adb27bc33c7ff743c11d129e6",
+    "src/mousa/group_onset_model.py": "3eea5e539012741a9ef1e5f5ad6bdd871b7e6dcef5731e30f0765dc137e45b54",
+    "src/mousa/group_structure.py": "a41cb5a4f6fdb4d7e5383c2eba5f4b7f0bee022d1df4a008cd116a18bd5af65c",
+    "src/mousa/group_structure_cycle45.py": "723cf3647d98c96f369cab459e9114d8dc9a7b72d46740f632d1c23956c2d8b2",
+    "src/mousa/group_timeline_metrics.py": "a058fe7b17b1d9ff6e7d0392d83459b01bbf09ecb612271ff4d2c05d3dcd2dcd",
+    "src/mousa/initial_rest_group_model.py": "349b4cc62644dd4cf95e5662231626494457d8ddae7c3818ccd3b2579e7f0b24",
+    "src/mousa/melodic_event_model.py": "a6b42a7d3d426b9cf9dfff2c1c13d11db98b81dd1907e7e095250eccf19e7483",
+    "src/mousa/meter_midi.py": "163239e5a12676b5e6160092a93d6c669eb00f8373fb0848426cdbc0a37135e1",
+    "src/mousa/midi_research_adapter.py": "d0420650c3a1cf578d472a61ecaa707d54545a087bd03d0d22ada1586d08c11c",
+    "src/mousa/music_ir.py": "0c011287b71cc6a59f804893b3ff6feaa98ac7f57ee03cc6736092deb9842f92",
+    "src/mousa/onset_gate_model.py": "6cfafbcb5f7cdcb9d3279b460b66bdf88b1f4a3f918312639cdb69cc0a89c92d",
+    "src/mousa/onset_groups.py": "428a2ae3afb7bd75cc067c67188df02b94626d41dd19c1496e3e6ff4f866737d",
+    "src/mousa/onset_upper_projection.py": "e61c3914f51167e4c20614c3e3e5b8bed87edc4cb863d455afc00bb96dba5997",
+    "src/mousa/optimized_feasible_generation.py": "fb1a5298b344c375e49f0abf6bdd39b400178a0b869624cce3c6ceb94f4ea121",
+    "src/mousa/overlap_midi.py": "1afc11bf6b6985a2eb22ebe5302b707d39378291e27b6299fde82564c167c867",
+    "src/mousa/phrase_baseline.py": "1c4c9dc3a9a3feebe785347d33707953120753dd4fcb3f1e670f662abdd8252b",
+    "src/mousa/phrase_groups_cycle41.py": "324e1e14a7538a7c8de0835271e8d152e2112faf502e6b3b975cd8a050d5aa30",
+    "src/mousa/phrasewide_register_cycle44.py": "37e309e5dca7732dc852db4ea4bf30d0cda5e7cd11eff083446a5d9c6341df1e",
+    "src/mousa/position_event_model.py": "cdfde965ee3a938f678992cf52f22dc10290e2c3853d3f5be760a431def90515",
+    "src/mousa/rational_events.py": "cc8443536cd9b2ce8d4fb9204984b51bea7d243b34950a87c4f3f63bc536261f",
+    "src/mousa/research_intake.py": "0ada117f5fdb24bc67602029dd59b8ebc6a9c724298805a58a47566fde99f59c",
+    "src/mousa/semantic_evidence.py": "af6f7efba9c630a959aa81bfc778d493433e59a03b05f31e12d7725ecd83fa47",
+    "src/mousa/semantic_split_guard.py": "5fa8ac255ddae9ce3052704c78fcf35142000dba36aa7c7c960aa5948618c67d",
+    "src/mousa/separated_count_context.py": "0e25580927402b8759d448152343a307a4caba39e02247c839e204008f0eee14",
+    "src/mousa/settling_ending.py": "9ffa6397745079c0a18348ba97478a5949fa2b14bddbeb6a4a4c508172abf55e",
+    "src/mousa/silence_return_cycle46.py": "12e231c4caf6d4898f3c377dff31ea048a6f60c4089c0831e6ec69db9bee3d35",
+    "src/mousa/silence_segments_cycle46.py": "96061ae4099ce36062fa3b0ccb5dcfcd1040010072e5e81536f19f40780f2f42",
+    "src/mousa/source_similarity.py": "a238a5a441002051da71a1dcc2fdb2893cd1a39b71314aa0ca5ce16412e064c4",
+    "src/mousa/stem_intake.py": "e8aeefe3b4c6dffa29b17e493225401456e12a7f6d87b062644cdeeb3730e55e",
+    "src/mousa/synthetic_evidence_binding.py": "005cbafa787281f0f3df7e054ed2f316c639e58a0c8647d0c147a1b3506e7a7d",
+    "src/mousa/tick_midi.py": "7272d6c6f4b9f565d0861c32be0f2aa178246932f1a52e749a5d1cb9bcee930b",
+    "src/mousa/variable_meter_midi.py": "c838a03c5f2b56fefc4179cc3a1e43231551301d44a982efc137c25c3299ed3d",
+    "src/mousa/weighted_context_generation.py": "1eea245d0eb943ef5added76b4c2dc75af0824fe398fdd1d18d71f5e991a44f6",
+    "src/mousa/weighted_group_cycle45.py": "e20fb010b009bfea85988ece6cc108f0941cd892b15439fbfb0d12747c42503f",
+    "src/mousa/weighted_timing_diagnostic.py": "f1c7232448064aeedba4f58105a5a4cd2448c58c92756e2e731e2fdf12da44e1",
+    "tools/analyze_bar_recurrence.py": "95f200dd9d932a039d66a4ae33a79ae80d65dbff1cef99522477a38d5d34bf4b",
+    "tools/analyze_training_texture.py": "7a29476c526ea5ca354a7fbba6a2793cc42944d487b8e73212f7d0c66dc022ba",
+    "tools/audit_onset_group_view.py": "76fd51fff8c2b0a3fc223788d95226ea1f7da0670d7e0ff76f80b7aeb3469959",
+    "tools/audit_satie37_cycle47.py": "bb2ea2a8d7ff6e1e139d1b58f14c9fc56e3c84367105da206d975910df787981",
+    "tools/benchmark_similarity_gate.py": "652f781741132f8ec46109a3202d063d64319a42ced2ec0710d5c32357fa0f5e",
+    "tools/bounded_interval_similarity.py": "cee9b4745740bd679dbb9d75fffff79a91782d73d832c0c4b136cce4e614a47b",
+    "tools/compare_anchor_register_cycle43.py": "ac5e8f15e0b8acc6cea159a6a3ce4bd2f511cec5e1b0cb5137a9f3cc3129527f",
+    "tools/compare_anchor_return_cycle42.py": "ed09ee7f0c9349d6567a412ceffa27a6576059f2925f04f5eb8cc041ca186aeb",
+    "tools/compare_approved_expansion.py": "ce34f58f67d1947697a80610cc48b6850380c5f1884260f6c78e4a8fc6fb459b",
+    "tools/compare_bounded_corpus_expansion.py": "7f6f6ae8ca6fefbe52b2735f5dab56c0b9f653ccc77dbc95f40d52bc784d66f6",
+    "tools/compare_candidate_smoothness.py": "94e279a6af61dba5920e6057b2682736f10ad9c1be502d68fa32ffe9a98f9abd",
+    "tools/compare_constrained_return_cycle47.py": "43feefcabaa5771c3602da920fc19ceea1a120a2bf1be18f0ba8c65384cf7ffa",
+    "tools/compare_context_onset_gate.py": "a4838f8c1e38b591e9366269ecabaabcc0a66bffab1031b68beddc942980f78a",
+    "tools/compare_cornelius_augmentation.py": "cbca22666e8ae6a3125174fcee64c013a83263a2cf3f684d33d3e0dbc56c9981",
+    "tools/compare_diversity_selection.py": "2b873996c0848fc0bb5b273683a24dbb88f126e32ad543b2255a5edbadfd2425",
+    "tools/compare_duration_support.py": "0cfab4dc32d363fe6d26ac57e0ce9cb6bb5bf1d3f47e312fb8a6b086bf5e5f08",
+    "tools/compare_ending_repetition.py": "61cd08dcdce9ea9a55bb63a7685f8fec6607bc4e20f2cd5930b506ccb4497ca5",
+    "tools/compare_event_baselines.py": "11c9870fcaa6357fca2c474c396355e1047fa8e32c67a373e319e9f83a1176fb",
+    "tools/compare_exact_time_representations.py": "2805318a5decf72e5991b09b5f557307f7dd3f07e6150fcf18b2c7e239a719eb",
+    "tools/compare_factorization.py": "b45914a3ca750fe302ec511aebd2942d630108e34b5bbe918153c4d1c54d5ad7",
+    "tools/compare_feasible_context_generation.py": "976ba00bf01ae20d81c98b3721f69423b7a0f643daafab9d71c3cf6cd7df40d4",
+    "tools/compare_fixed_event_budget.py": "55dce998ad33a06bf04c8f1ea721891ab82ac7d95293d6ed4c1a9f1f0fff3f08",
+    "tools/compare_fourteen_approved_expansion.py": "06455d2d882647de44ef48c1ced6ed25bd0cfe69f30e650d1229ab830b9169b6",
+    "tools/compare_fourteen_context_expansion.py": "497064bd5744afc77ccf7019377545bef15453c972f6f443f3eb12ebfdae02c9",
+    "tools/compare_gate_context_groups.py": "c024f951eb69d743d1a33bb751f1b438da10022e5b96f8b52e1ac2bc955f5554",
+    "tools/compare_groove_ioi.py": "511d1d4f866159a3298852877b19c335d8eface1d29c093d90de022898b36937",
+    "tools/compare_groove_multiscale.py": "831fe0f56f6d67a0059f52ffccabb3cede2f21bf42c689cae79fde9f299ea2d5",
+    "tools/compare_group_onsets.py": "721eff2ed15eecd115ddb5d3d0dc12c60f52a484746df4d92a37d7d7c61d3a64",
+    "tools/compare_initial_rest_groups.py": "24ea9017f263f2c75af26e08b7613e8502b81bc8918b8e744d33062c4f60447f",
+    "tools/compare_long_approved_expansion.py": "da94d01cb1bba29bee2ad7945f1dd93f0a8e7ca47721a245ab45938172429870",
+    "tools/compare_melodic_ablations.py": "e16a5683667f2f07cc936c96aee654b1b9c7aa899ba421f9d86006c577c20e08",
+    "tools/compare_new_seed_robustness.py": "6f9a0bd99e39f7b4747e9fd5df6b94008d52a7ce7787dffb09b7d139b4455c8d",
+    "tools/compare_onset_gate_models.py": "07a2bfaf79bc8e3b37c0982657056e34d8e6bd117ba03c5fa913bfaad17c4784",
+    "tools/compare_onset_projection.py": "6cbf2c2743b0bd9807a50dcf5484a8aae9fba4a149699e30730043cb5b2f4d1b",
+    "tools/compare_optimized_endpoint.py": "b2b681889925cea6a4a852941c45293a9a27bb67bd0a47f4ef158e18bfe6b2f9",
+    "tools/compare_origin_shrinkage.py": "f36ef5385ec484ede525c32e33401ebf6910a7afd9b71dc9811c2ae2146d5316",
+    "tools/compare_phrase_groups_cycle41.py": "d083289fa6421d9cae253ac42add3c4a93b2c3d11fbee9a0cd22fe88ec53a954",
+    "tools/compare_phrasewide_register_cycle44.py": "496f4ead13e149cbabe2817d47f81789805d7f4778bc439a94322a015e2e8f7f",
+    "tools/compare_position_generation.py": "aed499ac32c75dd322529bf09e303e5e52c2e56ca125cb317159482154ef2fe0",
+    "tools/compare_quantity_generation.py": "5242a7f0c32b2318abfdd2816268a93da243f25677057dd1eb2c7e51d47417d6",
+    "tools/compare_separated_augmentation.py": "47392ef8c6e7362e95a0f13484246b9430a42ff3a1ad3c9b5c806961c2b4aed3",
+    "tools/compare_settling_ending.py": "d995557d904bb8a251c6c6c6406b8f87708777649e52efd13907c09bf93d89d7",
+    "tools/compare_silence_return_cycle46.py": "eef61085cb0e1634de88db53a2a2fa14273bf21afd6839033d44cfdfa272f704",
+    "tools/compare_timing_generation_transfer.py": "699ab1857618ba33337317c784363b203d0b8e66f13893f24fec7925dc5decc6",
+    "tools/compare_training_quantity.py": "c40763b8f6cec160230deefb668ffbd03059339b562aa8ab43986d3aa0d6f33b",
+    "tools/compare_weighted_maple_cycle45.py": "fb96bea3aa04a4bb06e641c1fe677687acb0e15937587f2ae72aba030e544318",
+    "tools/compare_weighted_twelve.py": "d60ba5fa5e53ec744777e0aa859a21fad95eb5fde719375a75a73acfa28f6522",
+    "tools/compare_work_weights.py": "929ed8fa74598d8c46ee2970e2044675ff0649a0f6b134f31ada972f13c57f29",
+    "tools/diagnose_groove_ioi.py": "de63539f8c4fdb368e0c33f5e2a9cbb07e1647503f60892268015a2faff9ddba",
+    "tools/diagnose_group_structure.py": "132b107b3814ea82a293dd2f8b516c665204803804d8c3b042c9a4965c1a3341",
+    "tools/diagnose_silence_cycle46.py": "40f739c4a584f1d6c8dbbd3cf9fd414aa96670fa55d42e1a54bb9b7b3e8ce451",
+    "tools/diagnose_weighting_cycle49.py": "6ddb35fa555075cb95f773690581c685d025a8a1ff8d552d31884bde68505003",
+    "tools/evaluate_adam640_transfer.py": "2c9c3577d35da2cccdde61402dfb123dabcfd26aeb768bf7671f9527ed9f54c1",
+    "tools/evaluate_chopin921_transfer.py": "c0f75463d224c57f97a426bbda2c778ee0b4b6dc7c742026e0589a78f53b96b3",
+    "tools/evaluate_dowland_cycle40.py": "403ce9db8bedb92b5793ed858db82a4597e3bbdf3c173fcba084db07352678a3",
+    "tools/evaluate_dvorak_cycle48.py": "fc1218839f22ea8fc0cf40e0cf497cb5ac8b1d14069bfa112589a12bac447fff",
+    "tools/evaluate_frozen_transfer.py": "81921719c3c28609b18c6158583adfa1c57a2a68d2b2afbd39cabb1848835c5d",
+    "tools/evaluate_mendelssohn1741_transfer.py": "5012772bedc1571a351c77f9e33e0fbfa906dd7a830e934d58e6c7d3773b9cef",
+    "tools/evaluate_telemann1692_transfer.py": "10aef08e2c9f9bc2dd4de6c023429aba60dc850a161b21044fc3301231b1437f",
+    "tools/export_group_audition.py": "9945209d890a52f65b1813b86a76276d6a7fbff1602f1ab031f3342bdcc05141",
+    "tools/export_private_notes_preview.py": "bb785a1da2ca5a07f16f89af8d4b47176dad692844a0322a3a5fb2f6923b943a",
+    "tools/generate_weighting_cycle49.py": "5f38683d482ae5e01492b45ba5c2e0f6c01987a2cfb9ca9c0619594aac2750f2",
+    "tools/groove_cycle35_diagnose.py": "37217c12a82a12d01152327698e14736dc8f3df5ba0cb19e6aa4e066533bb924",
+    "tools/groove_cycle36_fit.py": "372e5e20d89469844d726875a696d7826707541218f7a89c5b877db204309b1d",
+    "tools/groove_cycle36_prepare.py": "19f0ecd7ecf9d644dc1ec0b5d721adc27765951eb82043ada56559865989baf4",
+    "tools/groove_cycle37_diagnose.py": "3dae3ea3358009b0c2219b81c140327b783e64088eaefe8676a128caebf5b7d5",
+    "tools/groove_cycle38_cohorts.py": "9a073cba052583d88129a449c37c6c77aefccc9c2979870096a7557584ed6d33",
+    "tools/groove_cycle39_fit.py": "b2c4cb9d1f882b892805846b0bde22b87a71c85030ffbf1fd0a50e58bf5f5904",
+    "tools/groove_cycle39_prepare.py": "555547f9098bbfc6e56e7aed8e5c8c9405593320befeeb153f962bf49fd72dd7",
+    "tools/groove_cycle40_compare.py": "6bc8500fd1ae00933b20451426f3eecb4763d51373c9762ab836cb175c97e6fd",
+    "tools/groove_fresh_recording_probe.py": "af8425fa2ec749ea71c44409d7df322c719661f7ea3733f011ddc7378af77929",
+    "tools/inventory_groove_midi.py": "4257d01df3a34919e0d5379dabb232450494beaf2b12f2cbfc744e5278e4be21",
+    "tools/learning_cycle52.py": "e29f87211590327fbcb0c7944cda9ca00e202670e76c1941bbf09e56f9930ff3",
+    "tools/order_cycle51.py": "6a41ef6cebc6049821d245c1dd2bd8e18f27775899672cc515e834fb4db4f824",
+    "tools/prepare_groove_split.py": "430e561781a676d63ffbeae4a322b52052ed453d8f14280a82bb84d9275b3aa8",
+    "tools/prepare_phrase_audition.py": "0151ba95f12b75c80bcc56c277cb06a2e9338e402560a116b7d77857e8b5155d",
+    "tools/probe_meter_transfer.py": "15e20d7dede0874b1b173dc53118855ae5b32dd03c7e07f9ae89b4afbbc68ca2",
+    "tools/probe_overlap_representation.py": "48a5c986afe1f95cb0d7efe92118f7bac054ee9b37b866c92bf5d4b9ff7ed26e",
+    "tools/probe_similarity_sensitivity.py": "108f02fb398fb5434f7f44da58731acf4eb7c369c880693aae10b78298e64188",
+    "tools/probe_variable_meter_intake.py": "0d72356350c337138ab9752270e9d50aacf5c264f532e654b62b16869cc42dc2",
+    "tools/rarefaction_cycle50.py": "f0b12056ea83b3243cc9a069187951b709358f86e571e24bed89b037c87200b3",
+    "tools/render_overlap_preview.py": "0736e22c8645977d59745a28a0c7878e1525429befbd9964870c86160ff56dec",
+    "tools/run_learning_cycle52.py": "a1fa290511761d2ea9dde3ffb570acbcb0bc802ee49dde5a28881fa30d0a63be",
+    "tools/run_order_cycle51.py": "81b37340e7df427d5e3be73a8c7d681f9eb26f9af5d3cad37c1c91c56b09d76e",
+    "tools/run_rarefaction_cycle50.py": "41deb914ef3d3fecc4caee7db8fb7b701f2d5140d2331d2a6d90727484e4479b",
+    "tools/screen_initial_rest_intake.py": "836680b1cad40fd835bdf5206c0051af499c9f7bcdcb76d4618f69114c7abfd6",
+    "tests/test_adam640_transfer.py": "8381a59b3afb2ce4e72114802eb3f094d3471ae7a08c0474bf9050618b9cef67",
+    "tests/test_anchor_register_cycle43.py": "1d736fd4026f80e90beb50a844b1f799b0434a669cfb3ddb432cb636422f0c63",
+    "tests/test_anchor_register_cycle43_driver.py": "62adb6a4f1b9003630a3e336ac9debe9c6f0b222e90aa9fa061da2dcd86dfec4",
+    "tests/test_anchor_return_cycle42.py": "f84c9580975a2861009fc97dea85b8725c11f641f04ac9f809a84108da99d12f",
+    "tests/test_approved_expansion.py": "b92e6be8e26a30342511e611b377a489c1a46223ebff1f4da8a141cf527401bd",
+    "tests/test_bar_recurrence.py": "caee5fb552f83974400dc9d89d23a4374ab6aa7a4e667c3ad443bcca0692f4c5",
+    "tests/test_bounded_context_model.py": "ab2f1d0ba3248d9f00a1aecc956e79b90e9ad864811d6c9f4fdd4375a3e45b61",
+    "tests/test_bounded_interval_similarity.py": "c9c0804666e70310e8071dbbacd186d81073507e42d61ec48f69d8bc42e81f2f",
+    "tests/test_candidate_smoothness.py": "df8d6350a111c42302d427da13b9c7d13669d693155b04502984b90ef3acb692",
+    "tests/test_chopin921_transfer.py": "60b4ec6b3ad989b42198be51d4a0376732bfbeb1445fa10f861327f72cade74b",
+    "tests/test_constrained_return_cycle47.py": "a43d833f510fbffece3136a1f96af7032c39af4980b01ba921cd8fe9a831ecb9",
+    "tests/test_constrained_return_cycle47_driver.py": "466e4a0afcd438ba95a949387f48eb189a1777a57425d2edcc3ee8fe81d17438",
+    "tests/test_context_onset_gate.py": "f21c7794a7e1d0ed63f4bb720b19301e907338e400b80734101e7aa4ce299bfe",
+    "tests/test_cornelius_augmentation.py": "505d24f40cfc4d4c48e77206de0d45f07f99ff85e24f97576fb481ca386dfea0",
+    "tests/test_diversity_selection.py": "a99da10f58937f3e4686f5a462deeec787032524dd8f8252eaf829a72951bd6c",
+    "tests/test_dowland_cycle40.py": "35b458e366380bcf7779a20af31cfe8cd1a6eee6f755a3347cca697bfaacb1f0",
+    "tests/test_drum_ioi_baseline.py": "3b640c2f8cf299e4af5c6f1b4ea1e40057f1e7ab85f122186a2c1b1e5f62768d",
+    "tests/test_drum_ioi_multiscale.py": "8a1595561a0f9f3e4d75260d032af5933f8795b16a709f8275eedad88abf0883",
+    "tests/test_duration_support.py": "5e03baa6e4d21928c26377519252965e6055611160c40a5a12a7594e6edc6be3",
+    "tests/test_dvorak_cycle48.py": "58b16aac33bb3378e2ac3f33e6cf5340e2ff638a2edc8c52a38f922290c7ab06",
+    "tests/test_ending_repetition.py": "2d68adcfd69ddb1f581dd934a022740b185a42afe92af11c60338fd5d8507d1c",
+    "tests/test_event_baseline.py": "1b58e36ad875544ef6bd5dd298e4f46219e6b684fc2bfa161078e2460e6374fd",
+    "tests/test_expansion_use_records.py": "dfad2313e6ae8d7930e7c7a9d3a15bd07103a637ee2f0735a7f741b332515fb5",
+    "tests/test_factorized_baseline.py": "e82a61293b03da8cc90166594ce1ce56613d15a5eae122e1c2e7361abafe153d",
+    "tests/test_feasible_context_generation.py": "78068d0cd434d1026abc5010417580e0e1b9728ab211a834563919ed600377b1",
+    "tests/test_fixed_event_budget.py": "b0805204c2c1414a8fdb275e3f1a30a5174db630d2fb2a26ba39fbd9de4d4613",
+    "tests/test_fourteen_approved_expansion.py": "62e7918ad0b892952fd542862ea29a3157874f5e7592855ca0f6d2cb51d164f9",
+    "tests/test_fourteen_context_model.py": "89117460d7114f99956519beae32677fa8f928ad32f4ac4a15d93c0618d5c736",
+    "tests/test_gate_context_group_model.py": "8955c4c446281c8933011497d5ab6a4e8dcbee930cec8cf3815d58249e84e435",
+    "tests/test_gate_context_groups_driver.py": "ec65652830a8bec36afde84022b4cd7f9a7e59f59fa3f77a92c13a124aae4bf5",
+    "tests/test_groove_cycle35.py": "4ecbc90043f51d0893bc9306763732d7a07c0017c18c731f37e360cc8f9abd9f",
+    "tests/test_groove_cycle36_fit.py": "ad00ad275fdfc35a722fca496214d98e069ba5381ee7abe5ebea65f476606bbe",
+    "tests/test_groove_cycle36_prepare.py": "0768e3a75e24c766a45f6415f3e1f4506bbb1bcc5d9415e0defe453007a3ad10",
+    "tests/test_groove_cycle36_profile.py": "332cbdeac61f8ad8ef4530190c63c597cf96f2d4e79e0dc986d27a7788105a8f",
+    "tests/test_groove_cycle37.py": "7d6b36f59dd548117410e2202b4e15f06d25e51cfe9a49ccb7085defccc66816",
+    "tests/test_groove_cycle38.py": "e13437771ccbb15a790de0ea5bf804ede32df4b167d57f9a8ca47dc20d8cabf5",
+    "tests/test_groove_cycle39_fit.py": "e72d82ba335240d85cd9c8736e3311aaab4d904355a75732e7df15907c9986e3",
+    "tests/test_groove_cycle39_prepare.py": "52da2b98292dd3dd2d8aa221ad0e975e23b81ab1ab67a3e977873afc166e6323",
+    "tests/test_groove_cycle39_profile.py": "4c03b9572c444e7fb62723c100302e7150e69a54fc9a58f65a5e64437f52b0c9",
+    "tests/test_groove_cycle40_compare.py": "a4e86bcd01bf86e48096f3d33c9f0738ea4548130ef9c13d5779fdd19a56dbaa",
+    "tests/test_groove_cycle40_weighted.py": "fdf62d259d2fbb9c76cabceaa5d224d738a16312af020c1ab0f04b06fec83b03",
+    "tests/test_groove_fresh_probe.py": "f99dc094bfa0fca2ee978400475118c2b0a1504939cac3240c5bab8d75260f1f",
+    "tests/test_groove_inventory.py": "e33e3d5f574738390aab1b8a8a8d7bf122932bbbcfc9cd3fa94e632b4ca20c0d",
+    "tests/test_groove_ioi_driver.py": "f3e947ec0bacb756b662c9070d83741d51f66214069e1e0dfea6b979b20bdd21",
+    "tests/test_groove_multiscale_driver.py": "bf4486b63c3ddd083af88a5cad71455bba15ffff8e2c6aa616a30872d97e543e",
+    "tests/test_groove_split.py": "67d5e5c8f80870ec8b9e44ff3691adafcdc02320f4327293a21d7c4b8c1ee04e",
+    "tests/test_group_audition_export.py": "391fc7abcac2fbba15d0559eb2cd17892c7184ea9b0706d75f8e03dcf8f3c9b3",
+    "tests/test_group_onset_model.py": "7d00f2373cecfaca21149d3a5c78291a1465d5007d1115b6d19470ba0b28341c",
+    "tests/test_group_structure.py": "2818b23c8cb21c84f12cba60f00722927607349ebf2f891e6999154215a9cfdd",
+    "tests/test_group_structure_cycle45.py": "979536a98d011d46d55d5d8bac283ed9d9b33f0e7da9361c4c6ee02fa7c80370",
+    "tests/test_group_structure_driver.py": "5b38caae3885433edae99994ff903e7b31110f3728ea950e454f1a1eae3b5373",
+    "tests/test_group_timeline_metrics.py": "7e867a0d516d6ccce1fa87d44ea34a553dcf309fdc2331ffc6cc5a8441c2f31b",
+    "tests/test_initial_rest_group_model.py": "b50d9b7065aaac757c52f0f0641cd03f058dce115de2d09ee026596d99c60cb5",
+    "tests/test_initial_rest_groups_driver.py": "55085e466de85dea0758a9d3054c8e72b684fa50fd8456d1a571a8a9b2c6a357",
+    "tests/test_initial_rest_intake.py": "3460311ad9b8ef9c71c1158be44c3579cc9db49f9d1f83f1c373c3a2e7696450",
+    "tests/test_learning_cycle52.py": "57387f77c6293f68c51a2f8052482db9d0ba2b4fbefdd73118885f288eda8745",
+    "tests/test_long_expansion_records.py": "a7e678900b1a4c29cb101471a10b50b27e7b87ec656ffc9a5617a62043591d4e",
+    "tests/test_melodic_event_model.py": "48ae3ad1272f8646fa7c6b83d4c2ae70749b38d8506e8e594102e00e889c7add",
+    "tests/test_mendelssohn1741_transfer.py": "85a93d368186cd371052d3f9014739d14ca7e00eec24652763c8b484e8179c2b",
+    "tests/test_meter_midi.py": "92a5de8eed210aa24f65a5b86e11e537728bd824039fa1ff2a1882e67e18d01d",
+    "tests/test_midi_research_adapter.py": "7f9b273207406c1ccd4f99f09845dd2f94c8cc99e64a79baba518cafb8dbdbcb",
+    "tests/test_music_ir.py": "91a081dc71d7a83853b7eb7ac1bc9035163c3d71c97ea05b08d5ca1e774eb682",
+    "tests/test_new_seed_robustness.py": "6cc742cc9ba2ca6c1d4278bdbc0e59290fabd2056b99751a24e8e232aa3d415b",
+    "tests/test_onset_gate_model.py": "ba045a0e72b294830688791eb7ec1de8414b25f9d65ff78665d054a3fefe0faa",
+    "tests/test_onset_groups.py": "f9a2eacdc700aa00d9fe3b9bb747b9b2655c96525cd776f5a708faa1e8221347",
+    "tests/test_onset_upper_projection.py": "b9650de690d3e89728abc6a080912e7229099b0cc5c3f2ed215caf9db5c8a2ae",
+    "tests/test_optimized_feasible_generation.py": "4af529fd96bc7d967a2140db5ef149dc2f89e03f52e2048da19cc11fdf34c187",
+    "tests/test_order_cycle51.py": "671f92ef3988acc006f7eb56e50bf0aeecfea9a530489a7f7d01e9e3bc2e0bc0",
+    "tests/test_overlap_midi.py": "97cc646d8f89c1d668a62a1db32eef8348d948d1c653dd7ebe5b126478ca3d0e",
+    "tests/test_overlap_preview.py": "1c1d94fbdc45610c5200a071b20cf6318b71fe2383aef16cdfb5dc94b1aac167",
+    "tests/test_overlap_projection.py": "8a1219658b48931ace0d80799aacaf8c4ca94cad97b27a914d62fc98f0eb9e78",
+    "tests/test_phrase_baseline.py": "00aa37fb372eaf279d15fab5c7d10ffa596aba41fbf8b91eba98e128268cb7b8",
+    "tests/test_phrase_groups_cycle41.py": "98b5ac3a8a9e1a0fb7df3fecadf772b9b798767de98895facdb851d74aef078f",
+    "tests/test_phrasewide_register_cycle44.py": "eeda6ab7824a416cc119cbadbaa48f5f4a90dabdba44e063a87b81b8841ad785",
+    "tests/test_phrasewide_register_cycle44_driver.py": "416585a6dc6d1c33e30fe49be8998ffba70be50b4c538b1c7f164d51830738f1",
+    "tests/test_position_event_model.py": "3adb80974eaa7c7e0195fcffdef299249a5042f0f4c5a1030245d396339949cd",
+    "tests/test_private_notes_preview.py": "ca29a3ca930d2d779a84dd418a12b133676a7b5bd016cb790eacc85414f2fd8c",
+    "tests/test_quantity_generation.py": "64de37a39712a96083c8316082c969cd059dbf78703c850eb29f48da03b70f34",
+    "tests/test_rarefaction_cycle50.py": "1fe8d93259fac0d296f361c276b0fb03dfe9d2fa1c408387569695bbaff9f037",
+    "tests/test_rational_events.py": "777919adff44bb96e8e571834b5e1223f8716d3d4f5b2b21faa520cd3573f0ee",
+    "tests/test_research_intake.py": "55d7b82f3802c13b6bff869772b60fa28e57105a93d238d95125cbb3244a1c97",
+    "tests/test_satie37_cycle47.py": "7807793a5fe074cc211e442cb58cbd586fb5daf5626e206450deb9261b29c92f",
+    "tests/test_semantic_evidence.py": "a760ff7e1bf750be372c2b774fcf3e03dd35e5918c02e09c5a3e3973860e5428",
+    "tests/test_semantic_split_guard.py": "ebf83df2129a65ba359daf9eb933c2530b815611058f140ae4a579adb5e0e816",
+    "tests/test_semantic_state_matrix.py": "74cb2e592250b354915b4c0607cf39135596d0fdd907029768a10e7fa6d6449e",
+    "tests/test_separated_count_context.py": "b2948f9719a2ff744789e11d3c2cc44821389b01e221766f72c25227c651c5b0",
+    "tests/test_settling_ending.py": "9530649fdc4822164083d87fb1425f13806dce6abcf904f872d836fcb6d1ddb6",
+    "tests/test_silence_return_cycle46.py": "3314406e27beae2e1e15b19bd8c6b7f9dc92a07084d605e1662321c8ac85b95f",
+    "tests/test_silence_return_cycle46_driver.py": "22ab6c0324db25f6336ad27aa7db896778c908eb1855aec2e8d2c8afa28436dc",
+    "tests/test_silence_segments_cycle46.py": "7dd0d693d92fd838fcf53100261bd9109d3be629bdc171b667c2b70c89515fa9",
+    "tests/test_similarity_gate_benchmark.py": "1b469cf340a44e096d80a3211d67bde3ef5d2286691835c59e917f4d51d1e935",
+    "tests/test_similarity_sensitivity.py": "d9475341fef3eadbb619dc37545cab43d58dff6905bb2fdd367e6e722722ced2",
+    "tests/test_source_observations.py": "eaa3a2a418f4337a793e8a272b64020185b8a0b73df286e5a90a2bc48440786c",
+    "tests/test_source_similarity.py": "b0db63a4b75e01988cf9f0b0b3a04cef5aa8a78d51b0ed2cc28d1c8821c5ed00",
+    "tests/test_stem_intake.py": "da43ca2e3ffadf46b09e8e61f9c150207b9927563b6d0ea383d73154c5359c4d",
+    "tests/test_synthetic_evidence_binding.py": "19aeaac8044f066b1720295f389f2ca4165cf60800b72eb5e42fd91abec36652",
+    "tests/test_telemann_transfer.py": "c1d3b400ff81e37175f17f8bdd4fce3540c719aa13c1b3f85e42f67b46a24100",
+    "tests/test_tick_midi.py": "15d08e5176ec717f95bccf8706f4d7f3a0b52d42e50bb30cf12c2a77268a2a7d",
+    "tests/test_timing_generation_transfer.py": "b7746e8417608334addd7aff24596b9b8233ae26a5134f364abf13f295e39a77",
+    "tests/test_training_quantity.py": "37bb7eaee8dfb53183c1f5c7024e9ca47468896f66c5278d68c6ecfaa514364e",
+    "tests/test_training_texture.py": "e6a9ef45f947e6fbc163c95443ca0a62af8f7c437df47c4e98864a94230d279b",
+    "tests/test_variable_meter_midi.py": "75f7dfcbf495750b6b521f074a626d1c0126777f4a877470242d9588fd50ab93",
+    "tests/test_weighted_context_generation.py": "ed1d0c83a4b7deee3b5d683d6a3999462188d05626305aef6e98b5df1aea2fdd",
+    "tests/test_weighted_group_cycle45.py": "c2ecd9ecfbf93626b39e32aa0ee6fa7f5a5a5345d7a4d45ae4e367dc893a271c",
+    "tests/test_weighted_maple_cycle45_driver.py": "173cbf2f91b3f78b354759989dcddb59f1e75767f3877236c5f1045b07cff4ec",
+    "tests/test_weighted_timing_diagnostic.py": "fad85a0de8a63b039a10f535554d87acb2c26881a0efb0d40d3161a8acdf9a7b",
+    "tests/test_weighting_diagnosis_cycle49.py": "f2b61fc7add51f4b9e913e4124c9608820e71ccbef6b74c56cb21ffdad698d9d",
+    "tests/test_weighting_generation_cycle49.py": "1dfd5dae6cd06867f5b970da98320078f1c08f262222679e9c7aced27876aaf1",
+    "datasets/research-adam640-prescore-screen-20261112.json": "daa72aea21ac0017cfa45335aa62e78ce398e379a470c3a139b0a53ffa64653a",
+    "datasets/research-adam640-reserved-20261112.json": "d9619b9ffc368421c3115604a4b5c95ae556dd2f4e6026847d702993b77cc0bf",
+    "datasets/research-alternative-source-cycle41b-20261112.json": "5f2989d0ecc74b1ca4a10376c6b7cb22da7fb4a23484a6e995cd6e79804e3bf7",
+    "datasets/research-bounded-rights-followup-cycle49-20261112.json": "b88659b7822ee7ad0feb8e21a26c7df060665687fe2ffba032315d65cced1121",
+    "datasets/research-brahms580-ornament-20261112.json": "91eb3821388edb756938f243140dc81ee296c7a7c9323521f989590bad3b8504",
+    "datasets/research-brahms580-rights-20261112.json": "dd25cb5023eb13a634d981fe0fd8bc3c5c02f302c1b8fe4404157e74ec4dd994",
+    "datasets/research-burgmuller-followup-20261112.json": "6d0cf70a6cc01e1f274d806a24e62067dfd96f1ad2ec24563c5463f2c8d51fe9",
+    "datasets/research-burgmuller-pending-20261112.json": "d4febfdb97e8aa9c8289c874420ea5dbfdcd00a8f9eb527c09799b5ab940f291",
+    "datasets/research-candidates-20261112.json": "a9cecdc5159d71479adcd496efaa40fc3b299a2289a1b1e5957a6038d7241400",
+    "datasets/research-chopin921-reserved-20261112.json": "1fff2a680677a2672ab9db2b290c6b59d75f0ba758b042c98809d01e72e451b2",
+    "datasets/research-clementi804-pending-20261112.json": "b8f222e7f5bc84c6f8fd441c01b500a5494c81f2d5fa231c5e8388d6996a91ce",
+    "datasets/research-clementi804-reserved-20261112.json": "6cf01b5e6d8845b23870258f712709a7f802ab4980e18b13b9ec49b01770d9c7",
+    "datasets/research-clementi804-screen-status.json": "999717c2880c5431acc4b1e2861dbbb3c99bc392a2cefc618f6bdd4c2b5a7cb0",
+    "datasets/research-cornelius583-reserved-20261112.json": "dfa52be1c8c70cb967b468d2c970b0b4a53b4bba8ca6fd97c029bf16ce2e8bf7",
+    "datasets/research-cornelius583-technical-20261112.json": "291c56641e753e73f857d424e45df1284b81632ebee3f74d451108780850d91b",
+    "datasets/research-cornelius583-training-assignment.json": "9ef48d43a1aa6670a0c1ae0824b03fcf0c894f6d299679cb820c0ff27e283d09",
+    "datasets/research-cycle12-family-screen.json": "decd67edb15d740dc2a8f2f2e16bc1278d15d6b22d7c1fc5eb2c6aa3311ad31c",
+    "datasets/research-cycle29-eight-work-assignment.json": "0637b2e26cf9cdffcf5930f0a516fc6d8f214f5f603340b58f874482be5ddbb4",
+    "datasets/research-cycle29-nine-work-assignment.json": "042f48fb4434167e851cdbb7aa83bd1ee684e5c1918a351df368013098baa316",
+    "datasets/research-cycle30-ten-work-assignment.json": "803cc8b1fb0f7832c0e66d549ff554f245bcacdbedd55331e05e2695ef7c5541",
+    "datasets/research-cycle30-twelve-work-assignment.json": "61134a4032926252df4243fc5cea4229a1fd4cd6561b74df92f5325f9867f47f",
+    "datasets/research-cycle32-fourteen-work-assignment.json": "59988983a063e5355dd17a519fb25e3259baa348263a64c939a06f7a5fd3fbaa",
+    "datasets/research-cycle33-sixteen-work-assignment.json": "94a2fa8d97c9978c6f6991fb5589a2c5fccf179ebb7e19b5d32d01584fbb6c2e",
+    "datasets/research-cycle36-seventeen-work-assignment.json": "4812808f5b333e813de315e41ba595e451a8c512e7c54b46f96e40ce6d323b3b",
+    "datasets/research-cycle8-reserved-sources.json": "31afea912d6745851645fb30b79971adfce97bc229a01100a8523e7ec9df2041",
+    "datasets/research-cycle9-reserved-sources.json": "e925e38b46f1e3fcc3d07d3b2a3c921842179bea0f557d8d8d2ed363ea86561c",
+    "datasets/research-czerny-completed-training-use-cycle32.json": "03a1ed1ebd8f15515475df6ef1cc52281f1caf33d892b284973f9ac917c17ef6",
+    "datasets/research-czerny-training-use-cycle32.json": "79771c8bea33e6bb997fa4e2273fdaacdcd951999224017e21bd9344a052b8d5",
+    "datasets/research-dowland-observation-cycle40-20261112.json": "f4a1c58d45990ce800f936931a85236ee19364660b3185dd1533a3f398168081",
+    "datasets/research-dowland-reserved-cycle39-20261112.json": "d94821f58691073208a6277317eed101c7e7bea712fdc8890d3876549b57a413",
+    "datasets/research-dvorak1948-cycle47-20261112.json": "00c743ebd5fc20e0232469dfb3924386faa270265e36f79d8dfe5f02250a2851",
+    "datasets/research-dvorak1948-observation-cycle48-20261112.json": "7c89156e890e82f3684c7b028bdf60ceab60cefe386140d41cfd2d512b8278b8",
+    "datasets/research-dvorak1948-status-cycle47-20261112.json": "5cccbaaaadb8f932d4b8c077f8a31d8d736b083c9cbad7bb744bf6d76e4c7d9b",
+    "datasets/research-dvorak1948-url-audit-cycle47-20261112.json": "08c940e9a8c0444021f2836349db2862c71d3638cb386c01eb404f586ef77de9",
+    "datasets/research-dvorak2211-pending-20261112.json": "4d469e9dc0229d8b4747387aeaf8fe4fb4ee4a734d31a0565a70ad66de6a32b0",
+    "datasets/research-exploratory-multifamily-20261112.json": "bfcb2777ca6af1fbf41e957809a0fd35c6291e9bb3ae14182fd7ba1c9a86f6d7",
+    "datasets/research-frozen-foster-transfer-20261112.json": "f075804c974c6987e342b62d9caf98c209c631efd8ea7bd74d434bd6ff17b4eb",
+    "datasets/research-frozen-schubert-transfer-20261112.json": "994fcc3cfbb8edc47faec4a8635b312c7c54d44ad8e575948edefb1f66b3c910",
+    "datasets/research-gate-context-usage-cycle37.json": "edd583962dd03113e0787d4a65de8e2a23de6094188593fdba27cc5ea5e1ef14",
+    "datasets/research-groove-fresh-observations-cycle37.json": "41d71de2cb45d08e87f4b6620c3d146ea9a0d7ee50eae149f7d12c223f1510a9",
+    "datasets/research-groove-rights-cycle32-20261112.json": "de6f14f3b6f38398f1d419e7a5b3fcf0f0d943adcadd914826629641fa4f0bbc",
+    "datasets/research-groove-usage-cycle33-20261112.json": "aa4f80586e84dc89f5772d5eba48182b9d560a34926b59463ea98c0fc0c5ec7b",
+    "datasets/research-groove-usage-cycle34-20261112.json": "bbbc0a0193886bd177aa2e8a83e4340ff4f543c0e1dcdb823a27739b40f98f68",
+    "datasets/research-groove-usage-cycle36-20261112.json": "72894b08c8d508d21c8229584f3f0915d5e5b6fa8b12d14f71280d4df5b4f42d",
+    "datasets/research-groove-usage-cycle39-20261112.json": "b391fb84fe6741b85f8339e1eb6f6fcb5a154ba69d676904251a1c9a814c997b",
+    "datasets/research-groove-usage-cycle40-20261112.json": "e82a08c3e642700725ef618317f0f13936e67c35844075d6be2a36569e01ed75",
+    "datasets/research-group-onset-usage-cycle34-20261112.json": "f19afc5ab4d05774f4444f66a58a041f7d5f6d00079df4c14b8c2af62e975aa8",
+    "datasets/research-handel98-training-use-cycle29.json": "6807bd9917ba5cb12e9cde638bd8724dce8b9720c761441a932f1d5f9219bcc1",
+    "datasets/research-historical-corroboration-20261112.json": "83609de9a75325fba9e3423a817fadee9065297c3246c0e760d4991a30a1fb32",
+    "datasets/research-joplin1540-followup-cycle44-20261112.json": "1fc12af2029356ce0d25c178c203a6987b1ee0f16fa36f884c21f62ce4986daf",
+    "datasets/research-joplin1540-pending-cycle43-20261113.json": "31d332e485037216ace8eb8b8df7536a78e2410ada4465cc0de6795f38452c52",
+    "datasets/research-joplin263-training-use-cycle30.json": "45c53c0712f58db7a41ef62cfeffbf809d454028f83c901885716392754ede8b",
+    "datasets/research-linked-family-audit-cycle45-20261112.json": "d5b77e7d10bb3ff3972d0ddac0a461f5062291d95d7ad4175aa69855ee46fa13",
+    "datasets/research-lully532-cycle42-20261113.json": "ac543644e26ab709bfb21dfc5475c525f40e94d5ff15845833570d235da48061",
+    "datasets/research-maple-training-assignment-cycle45-20261112.json": "9643b23a6385b47284f3d1a5a305a8d24f51838406a246875d341a6c69c0e12b",
+    "datasets/research-maple-training-use-cycle45-20261112.json": "8c7cf3a0a44a60311d9fce88de1ce55d2ff8a6284d217c3d450b0cfadcda59f2",
+    "datasets/research-maple23-reserved-cycle44-20261112.json": "2b587651357ab679b82b4a021f7451c2bffac596e7363b2d5ca3cbac54b6c694",
+    "datasets/research-mendelssohn-candidates-20261112.json": "a2f6aeedecb0e2aec5e32be2b8bc5e72166ac7e445d6ac0f9dc5a25313d6decd",
+    "datasets/research-mendelssohn1741-screen-status.json": "a51add3171b701977200e8e2c8893a0678d2cdb81ab0db817fa0343d5a24bf1d",
+    "datasets/research-metadata-batch-cycle28-20261112.json": "79309542730931cb577e0890343f8c99094655e7092cc29242cb4eef32a167b2",
+    "datasets/research-metrical-origins-20261112.json": "d1c2950ecfa14a087fe677a15786c129e4ade8841b8b7c925b30e9a65051c972",
+    "datasets/research-named-source-rejections-20261112.json": "da54328b717a1117d8276ccdcd56adb8ba65555b05380a98131418fbbf962e9e",
+    "datasets/research-new-cohorts-cycle29-20261112.json": "2b5461f5f81681c1aba50d5bc0b937d0d1411bb694e111cf6d541080fae997ef",
+    "datasets/research-new-cohorts-cycle30-20261112.json": "d3816534636fb4eb67a1f6d966456dc6752e4a5643be43a087c35fbebfd9b790",
+    "datasets/research-new-cohorts-cycle32-20261112.json": "4e7763e89e1844fbc5ce445029b3a08e266fa52365c9cccb36895c0ba1b66636",
+    "datasets/research-new-cohorts-cycle33-20261112.json": "c5ace67d664cb7c547e079d954da3704f61e51c6388622c6f19a76eae7e2a122",
+    "datasets/research-new-cohorts-cycle35-20261112.json": "dc3f8c935e2a29b87b7f362bd9b5c8ac5d756b26f1eeda25314b88e7646693dd",
+    "datasets/research-new-cohorts-training-use-cycle30.json": "de920bfb65b666a9d36eb5b88aadab11f6f13ea0d8ad5eb75b3ffe3f6c80969b",
+    "datasets/research-new-cohorts-training-use-cycle33.json": "3207d1b96bd11c6c8cff060e68e210113a86c070b2820014cd6f193241788d3b",
+    "datasets/research-pending-sources-cycle41-20261112.json": "0755747c57685daa0c5d9a0761ab4a80a4af2af687f77ad0b6f967957be94d01",
+    "datasets/research-purcell-training-use-cycle36.json": "3ec39f71f4f8e4fdba1fd127ec6d63ff7f84cf6a9fa0404fd7ca21a690b9361d",
+    "datasets/research-rational-source-review-20261112.json": "98a0deee2955b726991ed4bcaf17b5e4fec7f1d31293474231c0b921247a8dde",
+    "datasets/research-reserved-candidates-20261112.json": "fd63eb0b7d891d3ef556d54b515071faa17f5e21b3904cadc5a8584cb50489a1",
+    "datasets/research-satie-cycle46-20261112.json": "f2b902059ded2dd67d655f783d6fc22148808c3b61dabc4d4cffc26b5d31dc64",
+    "datasets/research-satie-status-cycle46-20261112.json": "4010f02ff16249f14c471c9b585a2c05366fe43a2151da37ccc1202820838147",
+    "datasets/research-scalable-corpora-cycle28-20261112.json": "4d1ca07e49f7548d0119cc1785dfb8fe0aa710f102720c491216f8ed70011549",
+    "datasets/research-source-audit-20261112.json": "c301326f5c163d7ef6716e4641ab33a3c6a2e5c7f9af023e772d3ad5a7d4cd27",
+    "datasets/research-source-observations.json": "4379c60d8369fb80f57f9121ae684dd0ab146c012f9a7ead7218e83e8111cd8d",
+    "datasets/research-telemann1692-reserved-20261112.json": "4dbf7274bdeee1d04d8fd22a52a8a5b0ed44674c6189ab63ffe08b922b841114",
+    "datasets/research-telemann1692-screen-status.json": "bbe094f4175cd14889c7fee0ab0974ad13d02a4f0db703d6ab4d05db60b78cba",
+    "datasets/research-transfer-probe-20261112.json": "3cae498ec95c39d3f7e61aff52bc1633f788f929463fe41fac2114a8ba9e081a"
+  },
+  "screen": [
+    {
+      "a": "mutopia-376",
+      "b": "mutopia-888",
+      "exact8": 0,
+      "global_similarity": 0.17721518987341767
+    },
+    {
+      "a": "mutopia-376",
+      "b": "mutopia-889",
+      "exact8": 0,
+      "global_similarity": 0.19620253164556967
+    },
+    {
+      "a": "mutopia-376",
+      "b": "mutopia-789",
+      "exact8": 0,
+      "global_similarity": 0.32278481012658233
+    },
+    {
+      "a": "mutopia-376",
+      "b": "mutopia-583",
+      "exact8": 0,
+      "global_similarity": 0.21518987341772156
+    },
+    {
+      "a": "mutopia-376",
+      "b": "mutopia-1578",
+      "exact8": 0,
+      "global_similarity": 0.3076923076923077
+    },
+    {
+      "a": "mutopia-376",
+      "b": "mutopia-1558",
+      "exact8": 0,
+      "global_similarity": 0.30208333333333337
+    },
+    {
+      "a": "mutopia-376",
+      "b": "mutopia-370",
+      "exact8": 0,
+      "global_similarity": 0.31645569620253167
+    },
+    {
+      "a": "mutopia-376",
+      "b": "mutopia-98-legacy",
+      "exact8": 0,
+      "global_similarity": 0.19620253164556967
+    },
+    {
+      "a": "mutopia-376",
+      "b": "mutopia-263-legacy",
+      "exact8": 0,
+      "global_similarity": 0.07250538406317297
+    },
+    {
+      "a": "mutopia-376",
+      "b": "mutopia-904",
+      "exact8": 0,
+      "global_similarity": 0.13875598086124397
+    },
+    {
+      "a": "mutopia-376",
+      "b": "mutopia-2080",
+      "exact8": 0,
+      "global_similarity": 0.2974683544303798
+    },
+    {
+      "a": "mutopia-376",
+      "b": "mutopia-2060",
+      "exact8": 0,
+      "global_similarity": 0.25316455696202533
+    },
+    {
+      "a": "mutopia-376",
+      "b": "mutopia-2061",
+      "exact8": 0,
+      "global_similarity": 0.19620253164556967
+    },
+    {
+      "a": "mutopia-376",
+      "b": "mutopia-186",
+      "exact8": 0,
+      "global_similarity": 0.20157068062827221
+    },
+    {
+      "a": "mutopia-376",
+      "b": "mutopia-487",
+      "exact8": 0,
+      "global_similarity": 0.2628205128205128
+    },
+    {
+      "a": "mutopia-376",
+      "b": "mutopia-2243",
+      "exact8": 0,
+      "global_similarity": 0.27976190476190477
+    },
+    {
+      "a": "mutopia-376",
+      "b": "mutopia-23",
+      "exact8": 0,
+      "global_similarity": 0.06291946308724827
+    },
+    {
+      "a": "mutopia-888",
+      "b": "mutopia-889",
+      "exact8": 0,
+      "global_similarity": 0.32608695652173914
+    },
+    {
+      "a": "mutopia-888",
+      "b": "mutopia-789",
+      "exact8": 0,
+      "global_similarity": 0.2016806722689075
+    },
+    {
+      "a": "mutopia-888",
+      "b": "mutopia-583",
+      "exact8": 0,
+      "global_similarity": 0.17721518987341767
+    },
+    {
+      "a": "mutopia-888",
+      "b": "mutopia-1578",
+      "exact8": 0,
+      "global_similarity": 0.18343195266272194
+    },
+    {
+      "a": "mutopia-888",
+      "b": "mutopia-1558",
+      "exact8": 0,
+      "global_similarity": 0.12152777777777779
+    },
+    {
+      "a": "mutopia-888",
+      "b": "mutopia-370",
+      "exact8": 0,
+      "global_similarity": 0.20560747663551404
+    },
+    {
+      "a": "mutopia-888",
+      "b": "mutopia-98-legacy",
+      "exact8": 0,
+      "global_similarity": 0.15384615384615385
+    },
+    {
+      "a": "mutopia-888",
+      "b": "mutopia-263-legacy",
+      "exact8": 0,
+      "global_similarity": 0.025125628140703515
+    },
+    {
+      "a": "mutopia-888",
+      "b": "mutopia-904",
+      "exact8": 0,
+      "global_similarity": 0.054226475279106845
+    },
+    {
+      "a": "mutopia-888",
+      "b": "mutopia-2080",
+      "exact8": 0,
+      "global_similarity": 0.20408163265306123
+    },
+    {
+      "a": "mutopia-888",
+      "b": "mutopia-2060",
+      "exact8": 0,
+      "global_similarity": 0.15833333333333333
+    },
+    {
+      "a": "mutopia-888",
+      "b": "mutopia-2061",
+      "exact8": 0,
+      "global_similarity": 0.10144927536231885
+    },
+    {
+      "a": "mutopia-888",
+      "b": "mutopia-186",
+      "exact8": 2,
+      "global_similarity": 0.08376963350785338
+    },
+    {
+      "a": "mutopia-888",
+      "b": "mutopia-487",
+      "exact8": 0,
+      "global_similarity": 0.09615384615384615
+    },
+    {
+      "a": "mutopia-888",
+      "b": "mutopia-2243",
+      "exact8": 0,
+      "global_similarity": 0.13095238095238093
+    },
+    {
+      "a": "mutopia-888",
+      "b": "mutopia-23",
+      "exact8": 0,
+      "global_similarity": 0.02432885906040272
+    },
+    {
+      "a": "mutopia-889",
+      "b": "mutopia-789",
+      "exact8": 0,
+      "global_similarity": 0.26890756302521013
+    },
+    {
+      "a": "mutopia-889",
+      "b": "mutopia-583",
+      "exact8": 0,
+      "global_similarity": 0.189873417721519
+    },
+    {
+      "a": "mutopia-889",
+      "b": "mutopia-1578",
+      "exact8": 0,
+      "global_similarity": 0.20710059171597628
+    },
+    {
+      "a": "mutopia-889",
+      "b": "mutopia-1558",
+      "exact8": 0,
+      "global_similarity": 0.1527777777777778
+    },
+    {
+      "a": "mutopia-889",
+      "b": "mutopia-370",
+      "exact8": 0,
+      "global_similarity": 0.2149532710280374
+    },
+    {
+      "a": "mutopia-889",
+      "b": "mutopia-98-legacy",
+      "exact8": 0,
+      "global_similarity": 0.16923076923076918
+    },
+    {
+      "a": "mutopia-889",
+      "b": "mutopia-263-legacy",
+      "exact8": 0,
+      "global_similarity": 0.03015075376884424
+    },
+    {
+      "a": "mutopia-889",
+      "b": "mutopia-904",
+      "exact8": 0,
+      "global_similarity": 0.06539074960127589
+    },
+    {
+      "a": "mutopia-889",
+      "b": "mutopia-2080",
+      "exact8": 0,
+      "global_similarity": 0.30612244897959184
+    },
+    {
+      "a": "mutopia-889",
+      "b": "mutopia-2060",
+      "exact8": 0,
+      "global_similarity": 0.17500000000000004
+    },
+    {
+      "a": "mutopia-889",
+      "b": "mutopia-2061",
+      "exact8": 0,
+      "global_similarity": 0.17391304347826086
+    },
+    {
+      "a": "mutopia-889",
+      "b": "mutopia-186",
+      "exact8": 0,
+      "global_similarity": 0.09685863874345546
+    },
+    {
+      "a": "mutopia-889",
+      "b": "mutopia-487",
+      "exact8": 0,
+      "global_similarity": 0.10897435897435892
+    },
+    {
+      "a": "mutopia-889",
+      "b": "mutopia-2243",
+      "exact8": 0,
+      "global_similarity": 0.15476190476190477
+    },
+    {
+      "a": "mutopia-889",
+      "b": "mutopia-23",
+      "exact8": 0,
+      "global_similarity": 0.031040268456375864
+    },
+    {
+      "a": "mutopia-789",
+      "b": "mutopia-583",
+      "exact8": 0,
+      "global_similarity": 0.2100840336134454
+    },
+    {
+      "a": "mutopia-789",
+      "b": "mutopia-1578",
+      "exact8": 0,
+      "global_similarity": 0.28402366863905326
+    },
+    {
+      "a": "mutopia-789",
+      "b": "mutopia-1558",
+      "exact8": 0,
+      "global_similarity": 0.23958333333333337
+    },
+    {
+      "a": "mutopia-789",
+      "b": "mutopia-370",
+      "exact8": 0,
+      "global_similarity": 0.2857142857142857
+    },
+    {
+      "a": "mutopia-789",
+      "b": "mutopia-98-legacy",
+      "exact8": 0,
+      "global_similarity": 0.15384615384615385
+    },
+    {
+      "a": "mutopia-789",
+      "b": "mutopia-263-legacy",
+      "exact8": 0,
+      "global_similarity": 0.06030150753768848
+    },
+    {
+      "a": "mutopia-789",
+      "b": "mutopia-904",
+      "exact8": 0,
+      "global_similarity": 0.12759170653907492
+    },
+    {
+      "a": "mutopia-789",
+      "b": "mutopia-2080",
+      "exact8": 0,
+      "global_similarity": 0.25210084033613445
+    },
+    {
+      "a": "mutopia-789",
+      "b": "mutopia-2060",
+      "exact8": 0,
+      "global_similarity": 0.15000000000000002
+    },
+    {
+      "a": "mutopia-789",
+      "b": "mutopia-2061",
+      "exact8": 0,
+      "global_similarity": 0.18487394957983194
+    },
+    {
+      "a": "mutopia-789",
+      "b": "mutopia-186",
+      "exact8": 0,
+      "global_similarity": 0.15706806282722519
+    },
+    {
+      "a": "mutopia-789",
+      "b": "mutopia-487",
+      "exact8": 0,
+      "global_similarity": 0.23076923076923073
+    },
+    {
+      "a": "mutopia-789",
+      "b": "mutopia-2243",
+      "exact8": 0,
+      "global_similarity": 0.2321428571428571
+    },
+    {
+      "a": "mutopia-789",
+      "b": "mutopia-23",
+      "exact8": 0,
+      "global_similarity": 0.06291946308724827
+    },
+    {
+      "a": "mutopia-583",
+      "b": "mutopia-1578",
+      "exact8": 0,
+      "global_similarity": 0.3372781065088757
+    },
+    {
+      "a": "mutopia-583",
+      "b": "mutopia-1558",
+      "exact8": 0,
+      "global_similarity": 0.2534722222222222
+    },
+    {
+      "a": "mutopia-583",
+      "b": "mutopia-370",
+      "exact8": 0,
+      "global_similarity": 0.09345794392523366
+    },
+    {
+      "a": "mutopia-583",
+      "b": "mutopia-98-legacy",
+      "exact8": 0,
+      "global_similarity": 0.0461538461538461
+    },
+    {
+      "a": "mutopia-583",
+      "b": "mutopia-263-legacy",
+      "exact8": 0,
+      "global_similarity": 0.013639626704953334
+    },
+    {
+      "a": "mutopia-583",
+      "b": "mutopia-904",
+      "exact8": 0,
+      "global_similarity": 0.06539074960127589
+    },
+    {
+      "a": "mutopia-583",
+      "b": "mutopia-2080",
+      "exact8": 0,
+      "global_similarity": 0.1428571428571429
+    },
+    {
+      "a": "mutopia-583",
+      "b": "mutopia-2060",
+      "exact8": 0,
+      "global_similarity": 0.0
+    },
+    {
+      "a": "mutopia-583",
+      "b": "mutopia-2061",
+      "exact8": 0,
+      "global_similarity": 0.0
+    },
+    {
+      "a": "mutopia-583",
+      "b": "mutopia-186",
+      "exact8": 0,
+      "global_similarity": 0.054973821989528826
+    },
+    {
+      "a": "mutopia-583",
+      "b": "mutopia-487",
+      "exact8": 0,
+      "global_similarity": 0.054487179487179516
+    },
+    {
+      "a": "mutopia-583",
+      "b": "mutopia-2243",
+      "exact8": 1,
+      "global_similarity": 0.47023809523809523
+    },
+    {
+      "a": "mutopia-583",
+      "b": "mutopia-23",
+      "exact8": 0,
+      "global_similarity": 0.010067114093959773
+    },
+    {
+      "a": "mutopia-1578",
+      "b": "mutopia-1558",
+      "exact8": 0,
+      "global_similarity": 0.29513888888888884
+    },
+    {
+      "a": "mutopia-1578",
+      "b": "mutopia-370",
+      "exact8": 0,
+      "global_similarity": 0.23668639053254437
+    },
+    {
+      "a": "mutopia-1578",
+      "b": "mutopia-98-legacy",
+      "exact8": 0,
+      "global_similarity": 0.18343195266272194
+    },
+    {
+      "a": "mutopia-1578",
+      "b": "mutopia-263-legacy",
+      "exact8": 0,
+      "global_similarity": 0.07465900933237613
+    },
+    {
+      "a": "mutopia-1578",
+      "b": "mutopia-904",
+      "exact8": 0,
+      "global_similarity": 0.14194577352472093
+    },
+    {
+      "a": "mutopia-1578",
+      "b": "mutopia-2080",
+      "exact8": 0,
+      "global_similarity": 0.2603550295857988
+    },
+    {
+      "a": "mutopia-1578",
+      "b": "mutopia-2060",
+      "exact8": 0,
+      "global_similarity": 0.1952662721893491
+    },
+    {
+      "a": "mutopia-1578",
+      "b": "mutopia-2061",
+      "exact8": 0,
+      "global_similarity": 0.15384615384615385
+    },
+    {
+      "a": "mutopia-1578",
+      "b": "mutopia-186",
+      "exact8": 0,
+      "global_similarity": 0.20418848167539272
+    },
+    {
+      "a": "mutopia-1578",
+      "b": "mutopia-487",
+      "exact8": 0,
+      "global_similarity": 0.21153846153846156
+    },
+    {
+      "a": "mutopia-1578",
+      "b": "mutopia-2243",
+      "exact8": 0,
+      "global_similarity": 0.3550295857988166
+    },
+    {
+      "a": "mutopia-1578",
+      "b": "mutopia-23",
+      "exact8": 0,
+      "global_similarity": 0.06795302013422821
+    },
+    {
+      "a": "mutopia-1558",
+      "b": "mutopia-370",
+      "exact8": 0,
+      "global_similarity": 0.24305555555555558
+    },
+    {
+      "a": "mutopia-1558",
+      "b": "mutopia-98-legacy",
+      "exact8": 0,
+      "global_similarity": 0.19791666666666663
+    },
+    {
+      "a": "mutopia-1558",
+      "b": "mutopia-263-legacy",
+      "exact8": 0,
+      "global_similarity": 0.10337401292175163
+    },
+    {
+      "a": "mutopia-1558",
+      "b": "mutopia-904",
+      "exact8": 0,
+      "global_similarity": 0.18500797448165873
+    },
+    {
+      "a": "mutopia-1558",
+      "b": "mutopia-2080",
+      "exact8": 0,
+      "global_similarity": 0.23958333333333337
+    },
+    {
+      "a": "mutopia-1558",
+      "b": "mutopia-2060",
+      "exact8": 0,
+      "global_similarity": 0.2222222222222222
+    },
+    {
+      "a": "mutopia-1558",
+      "b": "mutopia-2061",
+      "exact8": 0,
+      "global_similarity": 0.18055555555555558
+    },
+    {
+      "a": "mutopia-1558",
+      "b": "mutopia-186",
+      "exact8": 0,
+      "global_similarity": 0.2146596858638743
+    },
+    {
+      "a": "mutopia-1558",
+      "b": "mutopia-487",
+      "exact8": 0,
+      "global_similarity": 0.23717948717948723
+    },
+    {
+      "a": "mutopia-1558",
+      "b": "mutopia-2243",
+      "exact8": 0,
+      "global_similarity": 0.3159722222222222
+    },
+    {
+      "a": "mutopia-1558",
+      "b": "mutopia-23",
+      "exact8": 0,
+      "global_similarity": 0.09899328859060408
+    },
+    {
+      "a": "mutopia-370",
+      "b": "mutopia-98-legacy",
+      "exact8": 0,
+      "global_similarity": 0.1923076923076923
+    },
+    {
+      "a": "mutopia-370",
+      "b": "mutopia-263-legacy",
+      "exact8": 0,
+      "global_similarity": 0.06389088298636036
+    },
+    {
+      "a": "mutopia-370",
+      "b": "mutopia-904",
+      "exact8": 0,
+      "global_similarity": 0.11164274322169054
+    },
+    {
+      "a": "mutopia-370",
+      "b": "mutopia-2080",
+      "exact8": 0,
+      "global_similarity": 0.23364485981308414
+    },
+    {
+      "a": "mutopia-370",
+      "b": "mutopia-2060",
+      "exact8": 0,
+      "global_similarity": 0.2583333333333333
+    },
+    {
+      "a": "mutopia-370",
+      "b": "mutopia-2061",
+      "exact8": 0,
+      "global_similarity": 0.2710280373831776
+    },
+    {
+      "a": "mutopia-370",
+      "b": "mutopia-186",
+      "exact8": 0,
+      "global_similarity": 0.15706806282722519
+    },
+    {
+      "a": "mutopia-370",
+      "b": "mutopia-487",
+      "exact8": 4,
+      "global_similarity": 0.23397435897435892
+    },
+    {
+      "a": "mutopia-370",
+      "b": "mutopia-2243",
+      "exact8": 0,
+      "global_similarity": 0.1607142857142857
+    },
+    {
+      "a": "mutopia-370",
+      "b": "mutopia-23",
+      "exact8": 0,
+      "global_similarity": 0.057046979865771785
+    },
+    {
+      "a": "mutopia-98-legacy",
+      "b": "mutopia-263-legacy",
+      "exact8": 0,
+      "global_similarity": 0.06963388370423551
+    },
+    {
+      "a": "mutopia-98-legacy",
+      "b": "mutopia-904",
+      "exact8": 0,
+      "global_similarity": 0.12440191387559807
+    },
+    {
+      "a": "mutopia-98-legacy",
+      "b": "mutopia-2080",
+      "exact8": 0,
+      "global_similarity": 0.2692307692307693
+    },
+    {
+      "a": "mutopia-98-legacy",
+      "b": "mutopia-2060",
+      "exact8": 0,
+      "global_similarity": 0.23076923076923073
+    },
+    {
+      "a": "mutopia-98-legacy",
+      "b": "mutopia-2061",
+      "exact8": 0,
+      "global_similarity": 0.2692307692307693
+    },
+    {
+      "a": "mutopia-98-legacy",
+      "b": "mutopia-186",
+      "exact8": 0,
+      "global_similarity": 0.17801047120418845
+    },
+    {
+      "a": "mutopia-98-legacy",
+      "b": "mutopia-487",
+      "exact8": 0,
+      "global_similarity": 0.1923076923076923
+    },
+    {
+      "a": "mutopia-98-legacy",
+      "b": "mutopia-2243",
+      "exact8": 0,
+      "global_similarity": 0.14880952380952384
+    },
+    {
+      "a": "mutopia-98-legacy",
+      "b": "mutopia-23",
+      "exact8": 0,
+      "global_similarity": 0.07046979865771807
+    },
+    {
+      "a": "mutopia-263-legacy",
+      "b": "mutopia-904",
+      "exact8": 0,
+      "global_similarity": 0.17875089734386218
+    },
+    {
+      "a": "mutopia-263-legacy",
+      "b": "mutopia-2080",
+      "exact8": 0,
+      "global_similarity": 0.05743000717875091
+    },
+    {
+      "a": "mutopia-263-legacy",
+      "b": "mutopia-2060",
+      "exact8": 0,
+      "global_similarity": 0.06963388370423551
+    },
+    {
+      "a": "mutopia-263-legacy",
+      "b": "mutopia-2061",
+      "exact8": 0,
+      "global_similarity": 0.04737975592246946
+    },
+    {
+      "a": "mutopia-263-legacy",
+      "b": "mutopia-186",
+      "exact8": 0,
+      "global_similarity": 0.12921751615218957
+    },
+    {
+      "a": "mutopia-263-legacy",
+      "b": "mutopia-487",
+      "exact8": 1,
+      "global_similarity": 0.10337401292175163
+    },
+    {
+      "a": "mutopia-263-legacy",
+      "b": "mutopia-2243",
+      "exact8": 0,
+      "global_similarity": 0.04235463029432873
+    },
+    {
+      "a": "mutopia-263-legacy",
+      "b": "mutopia-23",
+      "exact8": 0,
+      "global_similarity": 0.1995692749461594
+    },
+    {
+      "a": "mutopia-904",
+      "b": "mutopia-2080",
+      "exact8": 0,
+      "global_similarity": 0.10366826156299835
+    },
+    {
+      "a": "mutopia-904",
+      "b": "mutopia-2060",
+      "exact8": 0,
+      "global_similarity": 0.12440191387559807
+    },
+    {
+      "a": "mutopia-904",
+      "b": "mutopia-2061",
+      "exact8": 3,
+      "global_similarity": 0.08771929824561409
+    },
+    {
+      "a": "mutopia-904",
+      "b": "mutopia-186",
+      "exact8": 0,
+      "global_similarity": 0.19776714513556615
+    },
+    {
+      "a": "mutopia-904",
+      "b": "mutopia-487",
+      "exact8": 0,
+      "global_similarity": 0.15629984051036683
+    },
+    {
+      "a": "mutopia-904",
+      "b": "mutopia-2243",
+      "exact8": 0,
+      "global_similarity": 0.10366826156299835
+    },
+    {
+      "a": "mutopia-904",
+      "b": "mutopia-23",
+      "exact8": 0,
+      "global_similarity": 0.1895973154362416
+    },
+    {
+      "a": "mutopia-2080",
+      "b": "mutopia-2060",
+      "exact8": 0,
+      "global_similarity": 0.30833333333333335
+    },
+    {
+      "a": "mutopia-2080",
+      "b": "mutopia-2061",
+      "exact8": 0,
+      "global_similarity": 0.37755102040816324
+    },
+    {
+      "a": "mutopia-2080",
+      "b": "mutopia-186",
+      "exact8": 0,
+      "global_similarity": 0.15706806282722519
+    },
+    {
+      "a": "mutopia-2080",
+      "b": "mutopia-487",
+      "exact8": 0,
+      "global_similarity": 0.23717948717948723
+    },
+    {
+      "a": "mutopia-2080",
+      "b": "mutopia-2243",
+      "exact8": 0,
+      "global_similarity": 0.2142857142857143
+    },
+    {
+      "a": "mutopia-2080",
+      "b": "mutopia-23",
+      "exact8": 0,
+      "global_similarity": 0.05033557046979864
+    },
+    {
+      "a": "mutopia-2060",
+      "b": "mutopia-2061",
+      "exact8": 4,
+      "global_similarity": 0.3583333333333333
+    },
+    {
+      "a": "mutopia-2060",
+      "b": "mutopia-186",
+      "exact8": 2,
+      "global_similarity": 0.20157068062827221
+    },
+    {
+      "a": "mutopia-2060",
+      "b": "mutopia-487",
+      "exact8": 1,
+      "global_similarity": 0.21794871794871795
+    },
+    {
+      "a": "mutopia-2060",
+      "b": "mutopia-2243",
+      "exact8": 0,
+      "global_similarity": 0.1071428571428571
+    },
+    {
+      "a": "mutopia-2060",
+      "b": "mutopia-23",
+      "exact8": 0,
+      "global_similarity": 0.06963087248322153
+    },
+    {
+      "a": "mutopia-2061",
+      "b": "mutopia-186",
+      "exact8": 2,
+      "global_similarity": 0.10994764397905754
+    },
+    {
+      "a": "mutopia-2061",
+      "b": "mutopia-487",
+      "exact8": 0,
+      "global_similarity": 0.19551282051282048
+    },
+    {
+      "a": "mutopia-2061",
+      "b": "mutopia-2243",
+      "exact8": 0,
+      "global_similarity": 0.1428571428571429
+    },
+    {
+      "a": "mutopia-2061",
+      "b": "mutopia-23",
+      "exact8": 0,
+      "global_similarity": 0.03775167785234901
+    },
+    {
+      "a": "mutopia-186",
+      "b": "mutopia-487",
+      "exact8": 0,
+      "global_similarity": 0.2225130890052356
+    },
+    {
+      "a": "mutopia-186",
+      "b": "mutopia-2243",
+      "exact8": 0,
+      "global_similarity": 0.13089005235602091
+    },
+    {
+      "a": "mutopia-186",
+      "b": "mutopia-23",
+      "exact8": 0,
+      "global_similarity": 0.13338926174496646
+    },
+    {
+      "a": "mutopia-487",
+      "b": "mutopia-2243",
+      "exact8": 0,
+      "global_similarity": 0.16666666666666663
+    },
+    {
+      "a": "mutopia-487",
+      "b": "mutopia-23",
+      "exact8": 0,
+      "global_similarity": 0.09228187919463082
+    },
+    {
+      "a": "mutopia-2243",
+      "b": "mutopia-23",
+      "exact8": 0,
+      "global_similarity": 0.025167785234899376
+    }
+  ],
+  "folds": [
+    [
+      "mutopia-1578",
+      "mutopia-1558"
+    ],
+    [
+      "mutopia-376",
+      "mutopia-888",
+      "mutopia-889",
+      "mutopia-789",
+      "mutopia-370",
+      "mutopia-263-legacy",
+      "mutopia-904",
+      "mutopia-2080",
+      "mutopia-2060",
+      "mutopia-2061",
+      "mutopia-186",
+      "mutopia-487",
+      "mutopia-23"
+    ],
+    [
+      "mutopia-583",
+      "mutopia-2243"
+    ],
+    [
+      "mutopia-98-legacy"
+    ]
+  ],
+  "ids": [
+    "mutopia-376",
+    "mutopia-888",
+    "mutopia-889",
+    "mutopia-789",
+    "mutopia-583",
+    "mutopia-1578",
+    "mutopia-1558",
+    "mutopia-370",
+    "mutopia-98-legacy",
+    "mutopia-263-legacy",
+    "mutopia-904",
+    "mutopia-2080",
+    "mutopia-2060",
+    "mutopia-2061",
+    "mutopia-186",
+    "mutopia-487",
+    "mutopia-2243",
+    "mutopia-23"
+  ],
+  "seeds": [
+    52000,
+    52001,
+    52002,
+    52003,
+    52004,
+    52005,
+    52006,
+    52007,
+    52008,
+    52009,
+    52010,
+    52011,
+    52012,
+    52013,
+    52014,
+    52015,
+    52016,
+    52017,
+    52018,
+    52019
+  ],
+  "scope": "Retrospective cross-validation on 18 historically trained/observed works, not a fresh prospective test. Each fold fits anew without its evaluation works or linked siblings. Prior research/model choice saw this corpus. No held-out/reserved work enters fit or score.",
+  "grouping": "Transitive closure of fixed11 source/editor/contributor families plus every current exact8 interval motif or global interval edit similarity>=.8 pair. All153 pairs screened before any fit. This limited screen is not proof of independence or legal originality.",
+  "conditions": [
+    "uniform_no_data",
+    "global",
+    "previous_max_gate_binned",
+    "shuffled_context_20_seeds"
+  ],
+  "hypothesis": "Does true previous-duration context transfer better than no-data, learned marginal and within-work shuffled-context controls?",
+  "shuffle": "Permute previous-max-gate-bin labels over later transitions independently within each training work; preserve timing marginal and local context totals, break alignment. Each seed fitted independently, no best-seed selection.",
+  "metrics": "Primary mean of fold work-macro later-delta NLL. Also per-work, work-macro over18, pooled over4172 later groups; first losses separate. Natural logs, lower better. Mean shuffled NLL, not likelihood of a mixture. Teacher-forced previous template only; no pitch/gate/joint quality or significance claim.",
+  "supports": {
+    "first": [
+      0,
+      65536
+    ],
+    "later": [
+      1,
+      12288
+    ],
+    "uniform_prior_total_mass": 1,
+    "local_backoff_mass": 4
+  },
+  "cpu_limit_seconds": 120,
+  "seed_policy": "All20 seeds fixed, retain failures; no tuning.",
+  "no_generation": true,
+  "no_new_admission": true,
+  "screen_cpu_seconds": 2.193354135
+}

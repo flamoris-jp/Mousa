@@ -1,0 +1,17 @@
+{
+  "repeat_equal_excluding_only_cpu": true,
+  "pair_evidence_byte_identical": true,
+  "initial_cpu_seconds": 8.67714128,
+  "repeat_cpu_seconds": 8.550113159,
+  "initial_report_sha256": "840ccb8ae190fa3c248ddc530bbcbfcd4eeffb6e4a77eb75d56b3177ddf61b5d",
+  "repeat_report_sha256": "0cd07d446eb0c428366efa81c20e38831b695f2df48d1255000c7d8d00903d95",
+  "plan_sha256": "3f3ad71266c8f43731b33eebb86d62ca9742fbce27c9d5373b173803b2d328f0",
+  "whole_sources_selected": 36,
+  "unique_training_byte_hashes": 35,
+  "same_drummer_duplicate_pairs": 1,
+  "baseline_twelve_nested": true,
+  "fit_performed": false,
+  "source_roles_changed": false,
+  "targeted_selection_test_passed": true,
+  "requires_parent_duplicate_weighting_decision_and_separate36work_profile": true
+}

@@ -1,0 +1,137 @@
+{
+  "schema": "mousa-rights-intake-cycle46-v1",
+  "reviewed_utc": "2026-11-12T17:54:41.001840+00:00",
+  "candidates": [
+    {
+      "work_id": "37",
+      "title": "Gymnopédie No. 1",
+      "composer": "Erik Satie (1866–1925)",
+      "contributor": "Evin Robertson",
+      "family": "satie-gymnopedies-original-dover-robertson",
+      "status": "rights-reviewed technical-blocked",
+      "composition": {
+        "year": 1888,
+        "publication": "No1 1888, score witness second edition deposited1895; No2 first published1895",
+        "basis": "Composer died1925; historical publication before1931. Not a blanket worldwide legal opinion."
+      },
+      "edition": {
+        "source": "Dover Edition facsimile of original",
+        "modern_material": "Source LY expressly excludes copyrighted French-to-English translations added in Dover. No modern arranger credited. Typesetter repeat encoding changes engraving, not silently reconstructed here.",
+        "historical_witness": "IMSLP03213 original score scan; Mme Prevost engraver; Paris Erik Satie1888–95. Exact Dover printing not established; incipit visual match only, not complete collation."
+      },
+      "encoding": {
+        "declared_license": "Public Domain",
+        "type": "legacy typesetter dedication, not CC0",
+        "evidence": "Individual LY header and footer explicitly place typesetting in public domain; MIDI fetched from matching official piece directory. No third-party performance used."
+      },
+      "incipit": {
+        "pdf_page": 1,
+        "verified": "Dedication/title/3-4 meter/key and four-bar accompanimental introduction visually match LY; No1 melodic F#5 A5 G5 F#5 C#5; No2 G5 dotted-half then A5 G5 F5 E5 F5 G5. Not full work transcription comparison."
+      },
+      "technical": {
+        "selected_track": 1,
+        "reader": "mousa.overlap_midi.read_midi unmodified",
+        "result": "reject unmatched note-off at tick13824 channel0 pitch66 twice",
+        "other_track": "101notes bass accepted, not substituted for rejected upper voice",
+        "interpretation": "Upper track includes accompaniment and simultaneous notes, not inferred pure melody. No notes/controllers/intro/EOT repaired or removed."
+      },
+      "files": [
+        {
+          "filename": "37.mid",
+          "url": "https://www.mutopiaproject.org/ftp/SatieE/gymnopedie_1/gymnopedie_1.mid",
+          "sha256": "09ce7337b4bf42ba12e1aa64b4c7dc7fcfa6455f1070cb12f8880a755df97384",
+          "bytes": 2892,
+          "acquired_utc": "2026-11-12T17:51:42.578679+00:00",
+          "timestamp_basis": "local direct-write completion mtime, not server timestamp"
+        },
+        {
+          "filename": "37.ly",
+          "url": "https://www.mutopiaproject.org/ftp/SatieE/gymnopedie_1/gymnopedie_1.ly",
+          "sha256": "420a52244e9fbe106dd33ba2cac84414fd66e0d01c6d472205bad39678d4ce04",
+          "bytes": 5588,
+          "acquired_utc": "2026-11-12T17:51:32.391656+00:00",
+          "timestamp_basis": "local direct-write completion mtime, not server timestamp"
+        }
+      ],
+      "fit": false,
+      "model_score": false
+    },
+    {
+      "work_id": "38",
+      "title": "Gymnopédie No. 2",
+      "composer": "Erik Satie (1866–1925)",
+      "contributor": "Evin Robertson",
+      "family": "satie-gymnopedies-original-dover-robertson",
+      "status": "rights-reviewed awaiting fixed screen; untrained/unscored",
+      "composition": {
+        "year": 1888,
+        "publication": "No1 1888, score witness second edition deposited1895; No2 first published1895",
+        "basis": "Composer died1925; historical publication before1931. Not a blanket worldwide legal opinion."
+      },
+      "edition": {
+        "source": "Dover Edition facsimile of original",
+        "modern_material": "Source LY expressly excludes copyrighted French-to-English translations added in Dover. No modern arranger credited. Typesetter repeat encoding changes engraving, not silently reconstructed here.",
+        "historical_witness": "IMSLP03213 original score scan; Mme Prevost engraver; Paris Erik Satie1888–95. Exact Dover printing not established; incipit visual match only, not complete collation."
+      },
+      "encoding": {
+        "declared_license": "Public Domain",
+        "type": "legacy typesetter dedication, not CC0",
+        "evidence": "Individual LY header and footer explicitly place typesetting in public domain; MIDI fetched from matching official piece directory. No third-party performance used."
+      },
+      "incipit": {
+        "pdf_page": 5,
+        "verified": "Dedication/title/3-4 meter/key and four-bar accompanimental introduction visually match LY; No1 melodic F#5 A5 G5 F#5 C#5; No2 G5 dotted-half then A5 G5 F5 E5 F5 G5. Not full work transcription comparison."
+      },
+      "technical": {
+        "selected_track": 1,
+        "reader": "mousa.overlap_midi.read_midi unmodified",
+        "result": "accepted306notes; first384; EOT74880; PPQ384;3/4",
+        "other_track": "65notes bass accepted; full original retained",
+        "interpretation": "Upper track includes accompaniment and simultaneous notes, not inferred pure melody. No notes/controllers/intro/EOT repaired or removed."
+      },
+      "files": [
+        {
+          "filename": "38.mid",
+          "url": "https://www.mutopiaproject.org/ftp/SatieE/gymnopedie_2/gymnopedie_2.mid",
+          "sha256": "02e8ae8d7e1f6073f12f62a61a63cf07b260a1cf49f4a9008ee4e3f8e1934d30",
+          "bytes": 3613,
+          "acquired_utc": "2026-11-12T17:53:56.885535+00:00",
+          "timestamp_basis": "local direct-write completion mtime, not server timestamp"
+        },
+        {
+          "filename": "38.ly",
+          "url": "https://www.mutopiaproject.org/ftp/SatieE/gymnopedie_2/gymnopedie_2.ly",
+          "sha256": "54182340c4be942ea2ebbe2fcefd0734bfb29d02bd76672fd3751c8600c27d8c",
+          "bytes": 4902,
+          "acquired_utc": "2026-11-12T17:53:54.002117+00:00",
+          "timestamp_basis": "local direct-write completion mtime, not server timestamp"
+        }
+      ],
+      "fit": false,
+      "model_score": false
+    }
+  ],
+  "historical_evidence": {
+    "url": "https://s9.imslp.org/files/imglnks/usimg/7/75/IMSLP03213-Satie-GymnopediesOrEd.pdf",
+    "sha256": "6f2e2db99ecc70eec2b77ee88423d9b4057cbf8f29cb6bb14a2d742ba97adc88",
+    "bytes": 359038,
+    "catalogue_url": "https://imslp.org/wiki/3_Gymnop%C3%A9dies_(Satie,_Erik)",
+    "corroboration": "https://catalogue.bnf.fr/ark:/12148/cb13918639z",
+    "visual_pages": [
+      1,
+      5
+    ]
+  },
+  "failures": [
+    "system Python requests unavailable; used standard urllib",
+    "Commons direct download403; official IMSLP mirror obtainedPDF without challenge",
+    "Archive guessed identifier empty and advancedsearch no suitable original",
+    "37 upper track unmatched offs; not repaired"
+  ],
+  "constraints": [
+    "37 and38 same source cohort; never separate split",
+    "New composer/contributor relative to18 but shared broad Dover reprint provenance may exist; no total independence claim",
+    "18train/4observed/4blocked remain unchanged",
+    "No source fit/predictive score; gate not altered"
+  ]
+}

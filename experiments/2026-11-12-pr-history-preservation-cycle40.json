@@ -1,0 +1,9 @@
+{
+  "source": "https://github.com/flamoris-jp/Mousa/pull/11",
+  "source_head": "de93ec323ecffc79d12a7e44fbfa063243c28550",
+  "archive": "docs/RESEARCH_PR_HISTORY_THROUGH_CYCLE39.md",
+  "sha256": "f68153b1d458dd95a755837a864ce7aee899c4fb722ac9339e5868c030b57311",
+  "bytes": 56272,
+  "preservation": "Exact complete prior PR body, verified character-for-character against connector read before replacement; no history, negative results or failures removed.",
+  "usage": "Historical through Cycle39, not a current-status document. The shortened PR body will link here and to newer cycle reports."
+}

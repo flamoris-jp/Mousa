@@ -1,0 +1,15 @@
+{
+  "work_id": "mutopia-1692",
+  "source_sha256": "1e874885b369855fa948121e0635921a2debc6199a6fc251d85347f6678e26af",
+  "state": "independent-evaluation-blocked-before-scoring",
+  "model_fit": false,
+  "model_score": false,
+  "rights_snapshot": "datasets/research-telemann1692-reserved-20261112.json",
+  "frozen_plan": "experiments/2026-11-12-telemann1692-frozen-plan.json",
+  "pre_score_screen": "experiments/2026-11-12-telemann1692-prescore.json",
+  "independent_screen": "experiments/2026-11-12-telemann1692-independent-screen.json",
+  "blocking_reason": "Fixed exact eight-onset interval criterion flags a training source (888) and observed diagnostic source (2245). No threshold relaxation or predictive scoring.",
+  "interpretation": "Short pattern matches are not proof of plagiarism or invalid source rights. They prevent claiming independence under this particular fixed protocol. Any later changed screening design must be prospective and cannot relabel this candidate as untouched.",
+  "family_policy": "All movements and both parts of TWV40:107/Perez stay one work/contributor cohort.",
+  "future_use": "Reserved rights-reviewed source, not admitted to training or predictive evaluation. Original and immutable prior rights snapshot retained."
+}

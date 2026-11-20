@@ -1,0 +1,48 @@
+{
+  "schema": "mousa-cycle46-satie-storage-v1",
+  "role": "rights-reviewed but technical/similarity-blocked, not training; no model score",
+  "files": [
+    {
+      "filename": "technical-blocked/37.mid",
+      "sha256": "09ce7337b4bf42ba12e1aa64b4c7dc7fcfa6455f1070cb12f8880a755df97384",
+      "bytes": 2892
+    },
+    {
+      "filename": "technical-blocked/37.ly",
+      "sha256": "420a52244e9fbe106dd33ba2cac84414fd66e0d01c6d472205bad39678d4ce04",
+      "bytes": 5588
+    },
+    {
+      "filename": "similarity-blocked/38.mid",
+      "sha256": "02e8ae8d7e1f6073f12f62a61a63cf07b260a1cf49f4a9008ee4e3f8e1934d30",
+      "bytes": 3613
+    },
+    {
+      "filename": "similarity-blocked/38.ly",
+      "sha256": "54182340c4be942ea2ebbe2fcefd0734bfb29d02bd76672fd3751c8600c27d8c",
+      "bytes": 4902
+    },
+    {
+      "filename": "metadata/research-satie-cycle46-20261112.json",
+      "sha256": "f2b902059ded2dd67d655f783d6fc22148808c3b61dabc4d4cffc26b5d31dc64",
+      "bytes": 7160
+    },
+    {
+      "filename": "metadata/research-satie-status-cycle46-20261112.json",
+      "sha256": "4010f02ff16249f14c471c9b585a2c05366fe43a2151da37ccc1202820838147",
+      "bytes": 1252
+    },
+    {
+      "filename": "metadata/2026-11-12-satie38-cycle46-screen-plan.json",
+      "sha256": "5b5bb74e7cca6d08e37d0e38eb65cce0c7c859399eede70c85b5631dc395d239",
+      "bytes": 2776
+    },
+    {
+      "filename": "metadata/2026-11-12-satie38-cycle46-screen.json",
+      "sha256": "3d5a4f0378cfe80399ada1b50fe99000df75d8be632906670216b5d5fae37b69",
+      "bytes": 3836
+    }
+  ],
+  "original_pdf": "Not in transfer; digest and public source URL in rights ledger",
+  "upload": "pending parent/storage review; not uploaded by this worker"
+}

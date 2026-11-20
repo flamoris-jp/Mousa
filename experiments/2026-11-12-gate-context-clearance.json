@@ -1,0 +1,6 @@
+{
+  "status": "approved-for-local-experiment",
+  "plan_sha256": "d2ea15dce6facbcba71f7cd3327ac74899eb0e48e90cfca5137575bc4a4bc836",
+  "review_reference": "Cycle37 coordinator reviewed fixed4arms/bin boundaries, accepted-history-only horizon, source/support/copyguard parity and independent1440probability/144generation/72control/200occupancy checks. User permits small CPU autonomous research. No source-role expansion, no claims about inferred voices/appeal.",
+  "independent_review_sha256": "5ff2e43705e698af38a8f3d2b23adb1de38d3a15df5603bb44ceb9ac30710929"
+}

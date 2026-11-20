@@ -1,0 +1,42 @@
+{
+  "created_at_utc": "2026-11-12T12:36:31.460849+00:00",
+  "scope": "New authored synthetic construction cases; not population error rates or legal/music truth",
+  "seeds": [
+    2700,
+    2701,
+    2702,
+    2703,
+    2704,
+    2705,
+    2706,
+    2707
+  ],
+  "notes": 16,
+  "cases_per_category": 8,
+  "categories": [
+    "transposition",
+    "time_scale",
+    "timing_jitter",
+    "insertions",
+    "deletions",
+    "seven_note_excerpt",
+    "independent_scale",
+    "independent_repeat",
+    "independent_alternation",
+    "independent_random"
+  ],
+  "transforms": "transpose+5;time-scale2;alternating+-1duration;insert+5afterindices3/7/11splittingduration;deleteindices3/7/11;excerpt[4:11]",
+  "independent_recipes": "Shared common-scale/repeat/alternation recipes generated separately with different pitch offsets/clocks; random-control seeds+10000",
+  "gate": "Unchanged production exact7-interval (=8note) overlap OR wholeinterval edit similarity>=.80",
+  "diagnostics": "All interval-match location pair counts; first8locations with exact and normalized onset-rhythm comparisons; rhythm never changes gate",
+  "reference_truth": "Derived transformations vs independently executed recipes are construction labels only, not plagiarism, perceptual similarity or musical independence.",
+  "prior_cycle20": "Previous15examples already observed; none reused bytewise; categories motivated by that work, not unobserved hypotheses.",
+  "no_real_source_application": true,
+  "no_threshold_tuning": true,
+  "no_blocked_candidate_release": true,
+  "code_sha256": {
+    "tools/benchmark_similarity_gate.py": "652f781741132f8ec46109a3202d063d64319a42ced2ec0710d5c32357fa0f5e",
+    "tools/compare_onset_gate_models.py": "07a2bfaf79bc8e3b37c0982657056e34d8e6bd117ba03c5fa913bfaad17c4784",
+    "tests/test_similarity_gate_benchmark.py": "1b469cf340a44e096d80a3211d67bde3ef5d2286691835c59e917f4d51d1e935"
+  }
+}

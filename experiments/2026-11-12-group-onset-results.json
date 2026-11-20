@@ -1,0 +1,460 @@
+{
+  "plan_sha256": "a02a87a014edf080d5734ee3e6f2546f9960a36146208d0ee3a815a9e1f85037",
+  "conditions": {
+    "global": {
+      "prediction": {
+        "640": {
+          "groups": 98,
+          "nll_per_group_delta": 4.360577117577521,
+          "outcome": "distinct-onset delta only; teacher-forced previous cardinality",
+          "template_pitch_gate_likelihood_included": false
+        },
+        "921": {
+          "groups": 83,
+          "nll_per_group_delta": 3.928432023229359,
+          "outcome": "distinct-onset delta only; teacher-forced previous cardinality",
+          "template_pitch_gate_likelihood_included": false
+        }
+      },
+      "equal_work_nll": 4.14450457040344,
+      "training_groups": 3259,
+      "template_types": 127,
+      "ineligible_template_occurrences": 18,
+      "ineligible_fraction": 0.005523166615526235,
+      "outputs": [
+        {
+          "status": "complete",
+          "reason": null,
+          "attempts": 44,
+          "rejections": {
+            "polyphony": 13
+          },
+          "ineligible_template_occurrences": 18,
+          "total_template_occurrences": 3259,
+          "available_template_types": 122,
+          "target_ticks": 9216,
+          "actual_tail": 96,
+          "seed": 0,
+          "copy_matches": 0,
+          "metrics": {
+            "notes": 41,
+            "overlap_onset_fraction": 0.5609756097560976,
+            "mean_active_voices": 1.1493055555555556,
+            "max_active_voices": 3,
+            "mean_abs_pitch_interval": 6.2,
+            "above_octave_fraction": 0.1,
+            "distinct_pitches": 22,
+            "repeated_pitch_fraction": 0.025,
+            "rest_ticks": 3136,
+            "rest_fraction": 0.3402777777777778
+          },
+          "group_count": 31,
+          "distinct_later_onsets": true,
+          "template_fields_preserved": true,
+          "private_sha256": "609bc9a507126a20b6141b3c6bd93dd4b141fbff36c48d329d66cecb9c94b6ac"
+        },
+        {
+          "status": "complete",
+          "reason": null,
+          "attempts": 30,
+          "rejections": {
+            "same_pitch_overlap": 1,
+            "polyphony": 2
+          },
+          "ineligible_template_occurrences": 18,
+          "total_template_occurrences": 3259,
+          "available_template_types": 122,
+          "target_ticks": 9216,
+          "actual_tail": 256,
+          "seed": 1,
+          "copy_matches": 0,
+          "metrics": {
+            "notes": 28,
+            "overlap_onset_fraction": 0.25,
+            "mean_active_voices": 0.6215277777777778,
+            "max_active_voices": 2,
+            "mean_abs_pitch_interval": 7.444444444444445,
+            "above_octave_fraction": 0.14814814814814814,
+            "distinct_pitches": 16,
+            "repeated_pitch_fraction": 0.07407407407407407,
+            "rest_ticks": 4544,
+            "rest_fraction": 0.4930555555555556
+          },
+          "group_count": 27,
+          "distinct_later_onsets": true,
+          "template_fields_preserved": true,
+          "private_sha256": "92e767fde5cbf448ee5b7c62afeb883ad0ea03f70e60ef18b1af7e9e1c4325a6"
+        },
+        {
+          "status": "complete",
+          "reason": null,
+          "attempts": 30,
+          "rejections": {
+            "same_pitch_overlap": 1
+          },
+          "ineligible_template_occurrences": 18,
+          "total_template_occurrences": 3259,
+          "available_template_types": 122,
+          "target_ticks": 9216,
+          "actual_tail": 320,
+          "seed": 2,
+          "copy_matches": 0,
+          "metrics": {
+            "notes": 36,
+            "overlap_onset_fraction": 0.3333333333333333,
+            "mean_active_voices": 0.78125,
+            "max_active_voices": 3,
+            "mean_abs_pitch_interval": 5.6571428571428575,
+            "above_octave_fraction": 0.05714285714285714,
+            "distinct_pitches": 16,
+            "repeated_pitch_fraction": 0.05714285714285714,
+            "rest_ticks": 3840,
+            "rest_fraction": 0.4166666666666667
+          },
+          "group_count": 29,
+          "distinct_later_onsets": true,
+          "template_fields_preserved": true,
+          "private_sha256": "a912eac1f8f8fcedc015b26ab2592b8a119c256fef6afc96b7ba8df347499666"
+        },
+        {
+          "status": "complete",
+          "reason": null,
+          "attempts": 27,
+          "rejections": {
+            "same_pitch_overlap": 1
+          },
+          "ineligible_template_occurrences": 18,
+          "total_template_occurrences": 3259,
+          "available_template_types": 122,
+          "target_ticks": 9216,
+          "actual_tail": 352,
+          "seed": 3,
+          "copy_matches": 0,
+          "metrics": {
+            "notes": 31,
+            "overlap_onset_fraction": 0.5161290322580645,
+            "mean_active_voices": 0.75,
+            "max_active_voices": 3,
+            "mean_abs_pitch_interval": 9.466666666666667,
+            "above_octave_fraction": 0.3333333333333333,
+            "distinct_pitches": 19,
+            "repeated_pitch_fraction": 0.06666666666666667,
+            "rest_ticks": 4480,
+            "rest_fraction": 0.4861111111111111
+          },
+          "group_count": 26,
+          "distinct_later_onsets": true,
+          "template_fields_preserved": true,
+          "private_sha256": "dcdda94663b2dfdf0af20420ca03ac825d5ec2ba4b779995d377308037f4aa9a"
+        },
+        {
+          "status": "complete",
+          "reason": null,
+          "attempts": 62,
+          "rejections": {
+            "polyphony": 27
+          },
+          "ineligible_template_occurrences": 18,
+          "total_template_occurrences": 3259,
+          "available_template_types": 122,
+          "target_ticks": 9216,
+          "actual_tail": 288,
+          "seed": 4,
+          "copy_matches": 0,
+          "metrics": {
+            "notes": 44,
+            "overlap_onset_fraction": 0.5681818181818182,
+            "mean_active_voices": 1.1875,
+            "max_active_voices": 3,
+            "mean_abs_pitch_interval": 6.348837209302325,
+            "above_octave_fraction": 0.06976744186046512,
+            "distinct_pitches": 21,
+            "repeated_pitch_fraction": 0.0,
+            "rest_ticks": 2816,
+            "rest_fraction": 0.3055555555555556
+          },
+          "group_count": 35,
+          "distinct_later_onsets": true,
+          "template_fields_preserved": true,
+          "private_sha256": "3465457ffb14ccdc09592cfc0fef2b5091205ca77d68c359a29546aaf30bf916"
+        }
+      ],
+      "complete_only_means": {
+        "notes": 36,
+        "overlap_onset_fraction": 0.44572395870586273,
+        "mean_active_voices": 0.8979166666666667,
+        "max_active_voices": 2.8,
+        "mean_abs_pitch_interval": 7.023418235511259,
+        "above_octave_fraction": 0.14167835609696075,
+        "distinct_pitches": 18.8,
+        "repeated_pitch_fraction": 0.044576719576719576,
+        "rest_ticks": 3763.2,
+        "rest_fraction": 0.4083333333333333
+      },
+      "metric_denominators": {
+        "notes": 5,
+        "overlap_onset_fraction": 5,
+        "mean_active_voices": 5,
+        "max_active_voices": 5,
+        "mean_abs_pitch_interval": 5,
+        "above_octave_fraction": 5,
+        "distinct_pitches": 5,
+        "repeated_pitch_fraction": 5,
+        "rest_ticks": 5,
+        "rest_fraction": 5
+      }
+    },
+    "previous_cardinality_k4": {
+      "prediction": {
+        "640": {
+          "groups": 98,
+          "nll_per_group_delta": 5.091107388940341,
+          "outcome": "distinct-onset delta only; teacher-forced previous cardinality",
+          "template_pitch_gate_likelihood_included": false
+        },
+        "921": {
+          "groups": 83,
+          "nll_per_group_delta": 4.507438069920395,
+          "outcome": "distinct-onset delta only; teacher-forced previous cardinality",
+          "template_pitch_gate_likelihood_included": false
+        }
+      },
+      "equal_work_nll": 4.799272729430369,
+      "training_groups": 3259,
+      "template_types": 127,
+      "ineligible_template_occurrences": 18,
+      "ineligible_fraction": 0.005523166615526235,
+      "outputs": [
+        {
+          "status": "complete",
+          "reason": null,
+          "attempts": 40,
+          "rejections": {
+            "same_pitch_overlap": 1,
+            "polyphony": 2
+          },
+          "ineligible_template_occurrences": 18,
+          "total_template_occurrences": 3259,
+          "available_template_types": 122,
+          "target_ticks": 9216,
+          "actual_tail": 352,
+          "seed": 0,
+          "copy_matches": 0,
+          "metrics": {
+            "notes": 45,
+            "overlap_onset_fraction": 0.5555555555555556,
+            "mean_active_voices": 1.2222222222222223,
+            "max_active_voices": 3,
+            "mean_abs_pitch_interval": 9.295454545454545,
+            "above_octave_fraction": 0.25,
+            "distinct_pitches": 21,
+            "repeated_pitch_fraction": 0.0,
+            "rest_ticks": 2336,
+            "rest_fraction": 0.2534722222222222
+          },
+          "group_count": 37,
+          "distinct_later_onsets": true,
+          "template_fields_preserved": true,
+          "private_sha256": "ff2e2b762c9994fc10263230f3cefad9c9036d63de56c06baa289d70b540055e"
+        },
+        {
+          "status": "complete",
+          "reason": null,
+          "attempts": 31,
+          "rejections": {
+            "polyphony": 1
+          },
+          "ineligible_template_occurrences": 18,
+          "total_template_occurrences": 3259,
+          "available_template_types": 122,
+          "target_ticks": 9216,
+          "actual_tail": 256,
+          "seed": 1,
+          "copy_matches": 0,
+          "metrics": {
+            "notes": 35,
+            "overlap_onset_fraction": 0.42857142857142855,
+            "mean_active_voices": 0.84375,
+            "max_active_voices": 3,
+            "mean_abs_pitch_interval": 7.617647058823529,
+            "above_octave_fraction": 0.17647058823529413,
+            "distinct_pitches": 18,
+            "repeated_pitch_fraction": 0.058823529411764705,
+            "rest_ticks": 3788,
+            "rest_fraction": 0.4110243055555556
+          },
+          "group_count": 30,
+          "distinct_later_onsets": true,
+          "template_fields_preserved": true,
+          "private_sha256": "f02ee9a6a9c7b79cfba29b507f1db368e5ba869e1a777e8ee32f6601ecf1568a"
+        },
+        {
+          "status": "complete",
+          "reason": null,
+          "attempts": 41,
+          "rejections": {
+            "polyphony": 5,
+            "same_pitch_overlap": 3
+          },
+          "ineligible_template_occurrences": 18,
+          "total_template_occurrences": 3259,
+          "available_template_types": 122,
+          "target_ticks": 9216,
+          "actual_tail": 288,
+          "seed": 2,
+          "copy_matches": 0,
+          "metrics": {
+            "notes": 41,
+            "overlap_onset_fraction": 0.4878048780487805,
+            "mean_active_voices": 1.1666666666666667,
+            "max_active_voices": 3,
+            "mean_abs_pitch_interval": 5.55,
+            "above_octave_fraction": 0.075,
+            "distinct_pitches": 20,
+            "repeated_pitch_fraction": 0.125,
+            "rest_ticks": 1888,
+            "rest_fraction": 0.2048611111111111
+          },
+          "group_count": 33,
+          "distinct_later_onsets": true,
+          "template_fields_preserved": true,
+          "private_sha256": "b1c023ed6d16764d0f7050cf45f8d3fb6bd6ada950aa77d4f5ad230e17798c5a"
+        },
+        {
+          "status": "complete",
+          "reason": null,
+          "attempts": 29,
+          "rejections": {
+            "same_pitch_overlap": 1,
+            "polyphony": 1
+          },
+          "ineligible_template_occurrences": 18,
+          "total_template_occurrences": 3259,
+          "available_template_types": 122,
+          "target_ticks": 9216,
+          "actual_tail": 256,
+          "seed": 3,
+          "copy_matches": 0,
+          "metrics": {
+            "notes": 28,
+            "overlap_onset_fraction": 0.35714285714285715,
+            "mean_active_voices": 0.8576388888888888,
+            "max_active_voices": 3,
+            "mean_abs_pitch_interval": 6.592592592592593,
+            "above_octave_fraction": 0.1111111111111111,
+            "distinct_pitches": 16,
+            "repeated_pitch_fraction": 0.0,
+            "rest_ticks": 3424,
+            "rest_fraction": 0.3715277777777778
+          },
+          "group_count": 27,
+          "distinct_later_onsets": true,
+          "template_fields_preserved": true,
+          "private_sha256": "0b2f2c371a551bbd2e77684fe65c9e821cc2f4e7c21ca5a3dd0e72b316d80d0e"
+        },
+        {
+          "status": "complete",
+          "reason": null,
+          "attempts": 42,
+          "rejections": {
+            "polyphony": 6,
+            "same_pitch_overlap": 3
+          },
+          "ineligible_template_occurrences": 18,
+          "total_template_occurrences": 3259,
+          "available_template_types": 122,
+          "target_ticks": 9216,
+          "actual_tail": 300,
+          "seed": 4,
+          "copy_matches": 0,
+          "metrics": {
+            "notes": 37,
+            "overlap_onset_fraction": 0.5135135135135135,
+            "mean_active_voices": 1.1539713541666667,
+            "max_active_voices": 3,
+            "mean_abs_pitch_interval": 6.027777777777778,
+            "above_octave_fraction": 0.1388888888888889,
+            "distinct_pitches": 17,
+            "repeated_pitch_fraction": 0.08333333333333333,
+            "rest_ticks": 2124,
+            "rest_fraction": 0.23046875
+          },
+          "group_count": 33,
+          "distinct_later_onsets": true,
+          "template_fields_preserved": true,
+          "private_sha256": "5b2ad831659e1b4ba3e11024c94b963b8e1db08187d9f123afc75586bae14518"
+        }
+      ],
+      "complete_only_means": {
+        "notes": 37.2,
+        "overlap_onset_fraction": 0.468517646566427,
+        "mean_active_voices": 1.048849826388889,
+        "max_active_voices": 3,
+        "mean_abs_pitch_interval": 7.016694394929689,
+        "above_octave_fraction": 0.15029411764705883,
+        "distinct_pitches": 18.4,
+        "repeated_pitch_fraction": 0.053431372549019605,
+        "rest_ticks": 2712,
+        "rest_fraction": 0.2942708333333333
+      },
+      "metric_denominators": {
+        "notes": 5,
+        "overlap_onset_fraction": 5,
+        "mean_active_voices": 5,
+        "max_active_voices": 5,
+        "mean_abs_pitch_interval": 5,
+        "above_octave_fraction": 5,
+        "distinct_pitches": 5,
+        "repeated_pitch_fraction": 5,
+        "rest_ticks": 5,
+        "rest_fraction": 5
+      }
+    }
+  },
+  "cpu_seconds": 0.21833786499999996,
+  "originals_unchanged": true,
+  "matched_seed_statuses": [
+    {
+      "seed": 0,
+      "arms": {
+        "global": "complete",
+        "previous_cardinality_k4": "complete"
+      }
+    },
+    {
+      "seed": 1,
+      "arms": {
+        "global": "complete",
+        "previous_cardinality_k4": "complete"
+      }
+    },
+    {
+      "seed": 2,
+      "arms": {
+        "global": "complete",
+        "previous_cardinality_k4": "complete"
+      }
+    },
+    {
+      "seed": 3,
+      "arms": {
+        "global": "complete",
+        "previous_cardinality_k4": "complete"
+      }
+    },
+    {
+      "seed": 4,
+      "arms": {
+        "global": "complete",
+        "previous_cardinality_k4": "complete"
+      }
+    }
+  ],
+  "limitations": [
+    "No raw eventNLL comparison: group and event outcomes differ.",
+    "Alreadyobserved diagnostics, not fresh test; withintrain links from intake retained.",
+    "No truevoice, chordfunction, melody or human quality labels.",
+    "Raw template reuse yields private research candidates only, not public-release clearance.",
+    "Same seeds do not align later random decisions after different groupdelta draws/rejections."
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "status": "approved-for-local-experiment",
+  "plan_sha256": "e5c6b43592cfd89d4efe995dd01a0f001c10726bd329f2d3a56f9cbc9f162c30",
+  "assignment_sha256": "94a2fa8d97c9978c6f6991fb5589a2c5fccf179ebb7e19b5d32d01584fbb6c2e",
+  "screen_sha256": "9069a199d7478fdf8e5dc9fa1fcd38b6a10f984dfc161cb9b999744812b607ac",
+  "review_reference": "Cycle33 parent explicitly authorized smallCPU run/repeat bound to e5c6b43592cfd89d4efe995dd01a0f001c10726bd329f2d3a56f9cbc9f162c30 after rights, independent model review and fixed crosssplit checks. All8withintrain links retained; no16independentcohort or fresh640/921 claim. Originalbytes and oldplans immutable."
+}

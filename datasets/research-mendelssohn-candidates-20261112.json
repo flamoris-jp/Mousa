@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "cycle": 25,
+  "acquired_utc_date": "2026-11-12",
+  "scope": "Three-candidate bounded source intake, no model fit/score or threshold changes, original bytes unmodified outside repository. No raw media committed.",
+  "candidates": [
+    {
+      "mutopia_id": 1741,
+      "title": "Venetianisches Gondellied, Op.30 No.6",
+      "composer": "Felix Mendelssohn Bartholdy (1809–1847)",
+      "contributor": "Ryan Prince",
+      "declared_source": "Breitkopf & Härtel, 1874–1877",
+      "status": "reserved_rights_reviewed_not_screened",
+      "source_page": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1741",
+      "artifacts": [
+        {
+          "url": "https://www.mutopiaproject.org/ftp/Mendelssohn-BartholdyF/O30/LiederOhneWorte_-_Op30_No6/LiederOhneWorte_-_Op30_No6.ly",
+          "file": "1741-LiederOhneWorte_-_Op30_No6.ly",
+          "sha256": "473e170a12e5654982a7288afcd6835d206106871b51dd8815c74f662ca22be7"
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/Mendelssohn-BartholdyF/O30/LiederOhneWorte_-_Op30_No6/LiederOhneWorte_-_Op30_No6.mid",
+          "file": "1741-LiederOhneWorte_-_Op30_No6.mid",
+          "sha256": "3de7c0dae2206d5bdd2ddb5f49c3e2851df0d218472c868c0212d0f98b19ccaf"
+        }
+      ],
+      "composition_rights": "Historical composer died 1847; composition public-domain basis, distinct from edition and encoding.",
+      "encoding_rights": {
+        "declaration": "Public Domain",
+        "exact_footer_excerpt": "This sheet music has been placed in the public domain by the typesetter",
+        "conditions": "Footer explicitly allows distribute, modify and perform. Legacy public-domain dedication, not asserted to be CC0; applies to this Mutopia typesetting and directly linked MIDI, not arbitrary arrangements."
+      },
+      "model_fit": false,
+      "model_score": false,
+      "similarity_screen_performed": false,
+      "edition_rights": {
+        "editor": "Julius Rietz (1812–1877)",
+        "catalogue": "https://imslp.org/wiki/Lieder_ohne_Worte,_Op.30_(Mendelssohn,_Felix)",
+        "catalogue_details": "Felix Mendelssohn-Bartholdys Werke, Serie11 pp14–25, Leipzig Breitkopf & Härtel 1874–82, plate M.B.76. Scan109643 identified as Gregg Press1968 reprint, catalogued Public Domain. This is historical notation reproduced in a later reprint, not a claim that 1968 is original publication.",
+        "scan_url": "https://s9.imslp.org/files/imglnks/usimg/f/f6/IMSLP109643-PMLP02672-Mendelssohn_Werke_Breitkopf_Gregg_Serie_11_Band_4_MB_76_Op_30_scan.pdf",
+        "scan_sha256": "c9eddbd1b33154f8dacf95db139f9f0b6d22a1864ee7910a2c05e2f4a286aca3",
+        "incipit": "PDF page11, printed12(24), plate M.B.76, Venetianisches Gondellied No6, Allegretto tranquillo, F-sharp minor6/8. Right staff eighth pickup rest, two full-bar rests, E-sharp4 dotted half then G-sharp4 dotted half; later A4 B4 eighths into C-sharp5 dotted quarters. Visually compared with source rightHandOne and original MIDI first pitches65,68,69,71,73,73.",
+        "limitations": "Incipit and edition tradition verified, not complete note-by-note collation or identification of the exact physical copy the contributor used. No separately credited modern arranger; original piano instrumentation. Selected right-hand track contains multiple voices, not a pure melody."
+      },
+      "technical": {
+        "reader": "mousa.overlap_midi.read_midi",
+        "track": 1,
+        "accepted": true,
+        "notes": 161,
+        "ppq": 384,
+        "meter": "6/8",
+        "max_simultaneous_notes": 3,
+        "source_total_ticks": 63552,
+        "selected_total_ticks": 63552,
+        "pickup": "Source explicit partial8; initial MIDI eighth rest192 ticks, first full downbeat192; origin_ticks_mod_bar960 of1152. First note2496 follows pickup plus2fullbarrests.",
+        "other_track": "Track2 rejected: only selected-channel CC7 volume is supported. Not repaired, not admitted; no complete piano fidelity claim."
+      },
+      "admission_scope": "Reserved for potential selected-track research only. Fixed exact8interval OR wholeintervalsimilarity>=.80 gate still required before evaluation. No model or similarity outcomes inspected."
+    },
+    {
+      "mutopia_id": 1744,
+      "title": "Lieder ohne Worte, Op.85 No.1",
+      "composer": "Felix Mendelssohn Bartholdy (1809–1847)",
+      "contributor": "Ryan Prince",
+      "declared_source": "Breitkopf & Härtel, 1874–1877",
+      "status": "pending_exact_edition_incipit",
+      "source_page": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1744",
+      "artifacts": [
+        {
+          "url": "https://www.mutopiaproject.org/ftp/Mendelssohn-BartholdyF/O85/LiederOhneWorte_-_Op85_No1/LiederOhneWorte_-_Op85_No1.ly",
+          "file": "1744-LiederOhneWorte_-_Op85_No1.ly",
+          "sha256": "e48e6ec49283c6d7722d317f20e06781a2f3d85b2ac1611da98bddad865527c6"
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/Mendelssohn-BartholdyF/O85/LiederOhneWorte_-_Op85_No1/LiederOhneWorte_-_Op85_No1.mid",
+          "file": "1744-LiederOhneWorte_-_Op85_No1.mid",
+          "sha256": "8787c94a71a6a0d847a724249ebe37e35522425d0bfe2fa6f1193ea8201c8a3b"
+        }
+      ],
+      "composition_rights": "Historical composer died 1847; composition public-domain basis, distinct from edition and encoding.",
+      "encoding_rights": {
+        "declaration": "Public Domain",
+        "exact_footer_excerpt": "This sheet music has been placed in the public domain by the typesetter",
+        "conditions": "Footer explicitly allows distribute, modify and perform. Legacy public-domain dedication, not asserted to be CC0; applies to this Mutopia typesetting and directly linked MIDI, not arbitrary arrangements."
+      },
+      "model_fit": false,
+      "model_score": false,
+      "similarity_screen_performed": false,
+      "edition_rights": {
+        "status": "pending",
+        "reason": "Historical Rietz Breitkopf edition catalogued, but exact Op85No1 incipit not visually compared. Source date1833–1834 is generic copied metadata and not relied upon for this work publication."
+      },
+      "technical": {
+        "track": 1,
+        "accepted": true,
+        "notes": 373,
+        "meter": "2/4",
+        "ppq": 384,
+        "max_simultaneous_notes": 3,
+        "other_track": "Track2 rejects unsupported controller; no repair or admission."
+      }
+    },
+    {
+      "mutopia_id": 1042,
+      "title": "Praeludium und Fuge c-Moll, Op.37",
+      "composer": "Felix Mendelssohn Bartholdy (1809–1847)",
+      "contributor": "Urs Metzger",
+      "declared_source": "C. F. Peters, ca.1880",
+      "status": "pending_editor_edition_incipit",
+      "source_page": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1042",
+      "artifacts": [
+        {
+          "url": "https://www.mutopiaproject.org/ftp/Mendelssohn-BartholdyF/O37/nr1/nr1.ly",
+          "file": "1042-nr1.ly",
+          "sha256": "8cc5bd47c6de12121014a3b393332b3b2ef78f7ec36d625b98d9785d388d9eee"
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/Mendelssohn-BartholdyF/O37/nr1/nr1.mid",
+          "file": "1042-nr1.mid",
+          "sha256": "30c6c1102b165a0a2da2be03c051cb71f5c332a06ffb784d6a8e3391af201ad6"
+        }
+      ],
+      "composition_rights": "Historical composer died 1847; composition public-domain basis, distinct from edition and encoding.",
+      "encoding_rights": {
+        "declaration": "Public Domain",
+        "exact_footer_excerpt": "This sheet music has been placed in the public domain by the typesetter",
+        "conditions": "Footer explicitly allows distribute, modify and perform. Legacy public-domain dedication, not asserted to be CC0; applies to this Mutopia typesetting and directly linked MIDI, not arbitrary arrangements."
+      },
+      "model_fit": false,
+      "model_score": false,
+      "similarity_screen_performed": false,
+      "edition_rights": {
+        "status": "pending",
+        "reason": "Peters ca1880 stated by contributor; exact editor and historical score not corroborated in bounded pass."
+      },
+      "technical": {
+        "track": 1,
+        "accepted": true,
+        "notes": 879,
+        "meter": "4/4",
+        "ppq": 384,
+        "max_simultaneous_notes": 4,
+        "limitation": "Longer than512interval screening bound; no screen run."
+      }
+    }
+  ],
+  "family_policy": [
+    "1741 and1744 share Mendelssohn/RyanPrince/Rietz/Breitkopf cohort and cannot be called two independent contributor tests. Group all parts, repeats, transpositions and editions of each composition.",
+    "Mendelssohn and RyanPrince differ from currenttrain5 (376,888,889,789,583) and reviewed observed composers/contributors; publisher Breitkopf overlaps reviewed Schubert, so no publisher-independent claim.",
+    "1042 shares Mendelssohn composer with1741/1744 and UrsMetzger contributor with pending Bach645. Not a new wholly independent contributor family.",
+    "Clementi804 and Telemann1692 remain similarity-blocked. Burgmuller202/214 remain unresolved exact edition. No earlier source status weakened."
+  ],
+  "failures": [
+    "Initial imslp.org/images link returned gzip-compressed non-PDF response; not used as historical evidence. Successfully retrieved actual s9.imslp.org scan instead.",
+    "1744 exact score incipit and1042 editor/source remain unverified; no admission inferred from old composer or PD encoding alone."
+  ],
+  "evidence_pages": [
+    {
+      "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1741",
+      "sha256": "896698a1024b9cd75795e3fb614f55804b875d84afcc321ca5597cc33f2de10c"
+    },
+    {
+      "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1744",
+      "sha256": "f474f2a6a380a3b4fb28a93c05195df996e4d39267226978dba726e0a2f19c50"
+    },
+    {
+      "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1042",
+      "sha256": "f24443095543681692121947962845237c3c4f48bec1661555b5a6bf6ef4fb40"
+    },
+    {
+      "url": "https://imslp.org/wiki/Lieder_ohne_Worte,_Op.30_(Mendelssohn,_Felix)",
+      "sha256": "9291a896daf6da5ca38484c2dc74951802db19d92a5bf1297ae7a3b4faf27b53"
+    },
+    {
+      "url": "https://imslp.org/wiki/Lieder_ohne_Worte,_Op.85_(Mendelssohn,_Felix)",
+      "sha256": "2112597f875c2994b43c357519877d3d00723d88f39c1ea79bb35cb85588562f"
+    }
+  ]
+}

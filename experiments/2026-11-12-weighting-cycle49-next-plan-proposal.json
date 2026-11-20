@@ -1,0 +1,68 @@
+{
+  "status": "proposal-only; no generation run authorized or implemented in this diagnostic driver",
+  "hypothesis": "Apparent lower output count under family weighting may be dominated by long sampled leading rests and sparse eligible windows, not a uniform diversity reduction.",
+  "train_works": 18,
+  "modes": [
+    "raw",
+    "equal_work",
+    "equal_family"
+  ],
+  "pool_masses": [
+    17,
+    3411,
+    3428
+  ],
+  "prior_mass": 1,
+  "support": {
+    "first": [
+      0,
+      65536
+    ],
+    "later": [
+      1,
+      12288
+    ]
+  },
+  "output": {
+    "target_ticks": 9216,
+    "tail_ticks": 384,
+    "max_notes": 256,
+    "max_active": 3,
+    "max_attempts": 64
+  },
+  "prospective_seeds": [
+    49000,
+    49001,
+    49002,
+    49003,
+    49004,
+    49005,
+    49006,
+    49007,
+    49008,
+    49009,
+    49010,
+    49011
+  ],
+  "seed_scope": "Proposed deterministic identifiers, not audited for previous use yet; no claim of fresh observations or independent music.",
+  "copy_policy": "Before execution, freeze current18 training plus old4 observed plus Dvorak observed as23refs identically for every arm. Keep old22ref historical results separate. Never replace failed output with another seed.",
+  "metrics": [
+    "all statuses and denominators",
+    "leading/total/internal/trailing silence",
+    "notes, distinct pitches and eligible sounding horizon",
+    "event-ordered pitch jumps with polyphony caveat",
+    "anchor interval repeated windows and valid denominators",
+    "effort, template ineligibility and copy matches"
+  ],
+  "analysis": "Report mean, median, range and every output. Long-leading-rest stratum is descriptive, retain all outputs. No significance or human appeal ranking from12seeds.",
+  "cpu_seconds": 60,
+  "fit_scope": "Only already authorized18 training sources, no new work admission. Fixed generation distribution; no source trimming or output onset forcing.",
+  "prospective_execution_requirements": [
+    "Check proposed seeds against existing recorded seed fields without calling samples statistically independent.",
+    "Freeze implementation/tests, source/role hashes, source-family mapping, all23copy refs, condition order and resource settings before any run.",
+    "Independent synthetic test and parent review before executable run.",
+    "Preserve A-D unanswered and all historical failure records."
+  ],
+  "new_generation": false,
+  "new_model_fit": false
+}

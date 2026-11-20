@@ -1,0 +1,16 @@
+{
+  "role": "Source URL evidence supplement; HTML not Git, not training",
+  "files": [
+    {
+      "filename": "source-evidence/sibley-10131.html",
+      "sha256": "1d3033d112dc5341edd05326c15ee02623d5ed030d3e8b24fe2d1ba9568fa71a",
+      "bytes": 20419
+    },
+    {
+      "filename": "metadata/research-dvorak1948-url-audit-cycle47-20261112.json",
+      "sha256": "08c940e9a8c0444021f2836349db2862c71d3638cb386c01eb404f586ef77de9",
+      "bytes": 2340
+    }
+  ],
+  "supersedes_storage_only": "Superset of metadata-only URL supplement; choose this evidence snapshot instead, no duplicate resend needed"
+}

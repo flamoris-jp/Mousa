@@ -1,0 +1,66 @@
+{
+  "initial_sha256": "fec642305803e9097cd09163228072a927d3ad1afdef3a22ccb90d3e655e69a7",
+  "repeat_sha256": "0035b053fbc7865806efa3798fbba6842f7c4abdf1d6cff4693b5213e813b565",
+  "repeat_equal_excluding": [
+    "cpu_seconds"
+  ],
+  "cpu_seconds": [
+    0.30424441199999996,
+    0.316254935
+  ],
+  "all5_private_bytes_identical": true,
+  "checks": [
+    {
+      "seed": 0,
+      "old_control_fixed_complete_state_equal": true,
+      "old_generator_equal": true,
+      "status": "empty_A_blocked",
+      "private_sha256": "9ab7cf248fa4a6acc5958f80ded44663efd8f6b6d0403ad7da3c5fafb40f0a8c"
+    },
+    {
+      "seed": 1,
+      "old_control_fixed_complete_state_equal": true,
+      "old_generator_equal": true,
+      "status": "complete",
+      "private_sha256": "1affcb4c0a0e209d678c8d6026ebed6ea630196105438672104d2c6d2e7b92a8",
+      "full_timeline_and_nonpitch_invariants": true,
+      "ordinal_pitchclass_and_minimum_tiebreak_verified": true
+    },
+    {
+      "seed": 2,
+      "old_control_fixed_complete_state_equal": true,
+      "old_generator_equal": true,
+      "status": "empty_A_blocked",
+      "private_sha256": "e444eeaf90d72af13b620fd07cf7fe24f3f061d5af2da181c80df6d78207cc63"
+    },
+    {
+      "seed": 3,
+      "old_control_fixed_complete_state_equal": true,
+      "old_generator_equal": true,
+      "status": "complete",
+      "private_sha256": "1d8fa947038c8b1d3719f65ed56d8c33eb6ecb3209f045ba5758702caaa0cc4c",
+      "full_timeline_and_nonpitch_invariants": true,
+      "ordinal_pitchclass_and_minimum_tiebreak_verified": true
+    },
+    {
+      "seed": 4,
+      "old_control_fixed_complete_state_equal": true,
+      "old_generator_equal": true,
+      "status": "complete",
+      "private_sha256": "6888f30adee1c31b1cdd888fa9d517edc1fdcde6beb155fc5a453c555f4aa7fb",
+      "full_timeline_and_nonpitch_invariants": true,
+      "ordinal_pitchclass_and_minimum_tiebreak_verified": true
+    }
+  ],
+  "exact_legal_choice_checks": 28,
+  "copy_reference_count": 21,
+  "all_sources_unchanged": true,
+  "original_roles_unchanged": true,
+  "common_complete_seeds": [
+    1,
+    3,
+    4
+  ],
+  "targeted_tests_passed": 5,
+  "execution_transport_retry": "Initial shell process creation rejected before any clearance/output; absence checked, retry succeeded. Not a model fit failure."
+}

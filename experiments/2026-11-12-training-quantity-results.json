@@ -1,0 +1,582 @@
+{
+  "plan": {
+    "created_at_utc": "2026-11-12T11:40:05.697162+00:00",
+    "scope": "Exploratory quantity curve;580and640 already predictively observed, never fresh again",
+    "families": [
+      [
+        "mutopia-376"
+      ],
+      [
+        "mutopia-888",
+        "mutopia-889"
+      ],
+      [
+        "mutopia-789"
+      ]
+    ],
+    "subsets": [
+      [
+        1,
+        [
+          0
+        ],
+        [
+          "mutopia-376"
+        ]
+      ],
+      [
+        1,
+        [
+          1
+        ],
+        [
+          "mutopia-888",
+          "mutopia-889"
+        ]
+      ],
+      [
+        1,
+        [
+          2
+        ],
+        [
+          "mutopia-789"
+        ]
+      ],
+      [
+        2,
+        [
+          0,
+          1
+        ],
+        [
+          "mutopia-376",
+          "mutopia-888",
+          "mutopia-889"
+        ]
+      ],
+      [
+        2,
+        [
+          0,
+          2
+        ],
+        [
+          "mutopia-376",
+          "mutopia-789"
+        ]
+      ],
+      [
+        2,
+        [
+          1,
+          2
+        ],
+        [
+          "mutopia-888",
+          "mutopia-889",
+          "mutopia-789"
+        ]
+      ],
+      [
+        3,
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          "mutopia-376",
+          "mutopia-888",
+          "mutopia-889",
+          "mutopia-789"
+        ]
+      ]
+    ],
+    "models": [
+      "factorized",
+      "previous_gate_context_k4"
+    ],
+    "fixed_support": "PPQ384,delta0..12288,gate1..12288; prior1 per marginal; contextk4",
+    "fixed_controls": "Same model parameters/support/task; no transposition, augmentation, resampling, tuning or generation",
+    "training": "Only existing rights-reviewed4works/3conservativefamilies;888/889inseparable",
+    "diagnostics": "Report both observed works separately plus equal-work NLL mean; no modelselection",
+    "aggregate": "Equal subset mean at each familycount; disclose work/event totals and every subset. Not independent replications.",
+    "quantity_caveat": "Familycount, workcount, eventcount and content change together; no isolated sample-size causality",
+    "resources": "14smallCPUmodel fits,28diagnostic evaluations; no GPU/fees/downloads",
+    "train_sha256": {
+      "mutopia-376": "b02e65def39bab988838d3d2e82ad9763f1b5b6b71b5a4c70e8f7b6d12eece8c",
+      "mutopia-888": "6e097cb82d30524335a19a2adb1cbf79cf6b070f7059182f0dc9d34ca3fc3848",
+      "mutopia-889": "cc45d10d7c21e858f37d4096979d4706bcfcaec400ef89abc1ac66378d51faa1",
+      "mutopia-789": "f849eace28acf450e306803203499aed4830cfba1a5cb8fe0953f594be15ffb9"
+    },
+    "diagnostic_sha256": {
+      "580": "dcd5efac22b5e91b7c87685058784396adb9ec5d69915764265ad68158dbb6e1",
+      "640": "13ec851eb00ca9aba345cad50f03bdb3b189f566f38d094a1e6b839765b3d678"
+    },
+    "code_sha256": {
+      "tools/compare_training_quantity.py": "c40763b8f6cec160230deefb668ffbd03059339b562aa8ab43986d3aa0d6f33b",
+      "src/mousa/context_onset_gate.py": "32ff6404caf451e18649c85462f32c1bcca8389b434a23d9c4ec1d6d09f8af0c",
+      "src/mousa/onset_gate_model.py": "6cfafbcb5f7cdcb9d3279b460b66bdf88b1f4a3f918312639cdb69cc0a89c92d",
+      "src/mousa/overlap_midi.py": "1afc11bf6b6985a2eb22ebe5302b707d39378291e27b6299fde82564c167c867",
+      "tools/compare_onset_gate_models.py": "07a2bfaf79bc8e3b37c0982657056e34d8e6bd117ba03c5fa913bfaad17c4784",
+      "datasets/research-exploratory-multifamily-20261112.json": "bfcb2777ca6af1fbf41e957809a0fd35c6291e9bb3ae14182fd7ba1c9a86f6d7"
+    }
+  },
+  "rows": [
+    {
+      "family_count": 1,
+      "family_indexes": [
+        0
+      ],
+      "work_ids": [
+        "mutopia-376"
+      ],
+      "work_count": 1,
+      "training_events": 159,
+      "models": {
+        "factorized": {
+          "works": {
+            "580": {
+              "events": 92,
+              "nll_per_event": 5.301501411234419,
+              "support_size": 151007232,
+              "ppq": 384,
+              "conditional_generation_masks_applied": false
+            },
+            "640": {
+              "events": 98,
+              "nll_per_event": 6.784755141636564,
+              "support_size": 151007232,
+              "ppq": 384,
+              "conditional_generation_masks_applied": false
+            }
+          },
+          "equal_work_nll": 6.043128276435492
+        },
+        "previous_gate_context_k4": {
+          "works": {
+            "580": {
+              "events": 92,
+              "nll_per_event": 4.405792986258195,
+              "support_size": 151007232,
+              "conditional_generation_masks_applied": false
+            },
+            "640": {
+              "events": 98,
+              "nll_per_event": 5.901890268766635,
+              "support_size": 151007232,
+              "conditional_generation_masks_applied": false
+            }
+          },
+          "equal_work_nll": 5.153841627512415
+        }
+      }
+    },
+    {
+      "family_count": 1,
+      "family_indexes": [
+        1
+      ],
+      "work_ids": [
+        "mutopia-888",
+        "mutopia-889"
+      ],
+      "work_count": 2,
+      "training_events": 85,
+      "models": {
+        "factorized": {
+          "works": {
+            "580": {
+              "events": 92,
+              "nll_per_event": 6.878130931770939,
+              "support_size": 151007232,
+              "ppq": 384,
+              "conditional_generation_masks_applied": false
+            },
+            "640": {
+              "events": 98,
+              "nll_per_event": 9.69242356315688,
+              "support_size": 151007232,
+              "ppq": 384,
+              "conditional_generation_masks_applied": false
+            }
+          },
+          "equal_work_nll": 8.28527724746391
+        },
+        "previous_gate_context_k4": {
+          "works": {
+            "580": {
+              "events": 92,
+              "nll_per_event": 6.1473305956503825,
+              "support_size": 151007232,
+              "conditional_generation_masks_applied": false
+            },
+            "640": {
+              "events": 98,
+              "nll_per_event": 9.056538850040305,
+              "support_size": 151007232,
+              "conditional_generation_masks_applied": false
+            }
+          },
+          "equal_work_nll": 7.6019347228453436
+        }
+      }
+    },
+    {
+      "family_count": 1,
+      "family_indexes": [
+        2
+      ],
+      "work_ids": [
+        "mutopia-789"
+      ],
+      "work_count": 1,
+      "training_events": 120,
+      "models": {
+        "factorized": {
+          "works": {
+            "580": {
+              "events": 92,
+              "nll_per_event": 7.2426743461717304,
+              "support_size": 151007232,
+              "ppq": 384,
+              "conditional_generation_masks_applied": false
+            },
+            "640": {
+              "events": 98,
+              "nll_per_event": 16.062477807740436,
+              "support_size": 151007232,
+              "ppq": 384,
+              "conditional_generation_masks_applied": false
+            }
+          },
+          "equal_work_nll": 11.652576076956084
+        },
+        "previous_gate_context_k4": {
+          "works": {
+            "580": {
+              "events": 92,
+              "nll_per_event": 6.648255403526425,
+              "support_size": 151007232,
+              "conditional_generation_masks_applied": false
+            },
+            "640": {
+              "events": 98,
+              "nll_per_event": 15.738323670477556,
+              "support_size": 151007232,
+              "conditional_generation_masks_applied": false
+            }
+          },
+          "equal_work_nll": 11.193289537001991
+        }
+      }
+    },
+    {
+      "family_count": 2,
+      "family_indexes": [
+        0,
+        1
+      ],
+      "work_ids": [
+        "mutopia-376",
+        "mutopia-888",
+        "mutopia-889"
+      ],
+      "work_count": 3,
+      "training_events": 244,
+      "models": {
+        "factorized": {
+          "works": {
+            "580": {
+              "events": 92,
+              "nll_per_event": 4.6562785465915075,
+              "support_size": 151007232,
+              "ppq": 384,
+              "conditional_generation_masks_applied": false
+            },
+            "640": {
+              "events": 98,
+              "nll_per_event": 7.121669433577291,
+              "support_size": 151007232,
+              "ppq": 384,
+              "conditional_generation_masks_applied": false
+            }
+          },
+          "equal_work_nll": 5.888973990084399
+        },
+        "previous_gate_context_k4": {
+          "works": {
+            "580": {
+              "events": 92,
+              "nll_per_event": 3.6241583472125827,
+              "support_size": 151007232,
+              "conditional_generation_masks_applied": false
+            },
+            "640": {
+              "events": 98,
+              "nll_per_event": 6.1403424809172,
+              "support_size": 151007232,
+              "conditional_generation_masks_applied": false
+            }
+          },
+          "equal_work_nll": 4.882250414064892
+        }
+      }
+    },
+    {
+      "family_count": 2,
+      "family_indexes": [
+        0,
+        2
+      ],
+      "work_ids": [
+        "mutopia-376",
+        "mutopia-789"
+      ],
+      "work_count": 2,
+      "training_events": 279,
+      "models": {
+        "factorized": {
+          "works": {
+            "580": {
+              "events": 92,
+              "nll_per_event": 4.611139417157207,
+              "support_size": 151007232,
+              "ppq": 384,
+              "conditional_generation_masks_applied": false
+            },
+            "640": {
+              "events": 98,
+              "nll_per_event": 7.217507986014299,
+              "support_size": 151007232,
+              "ppq": 384,
+              "conditional_generation_masks_applied": false
+            }
+          },
+          "equal_work_nll": 5.914323701585753
+        },
+        "previous_gate_context_k4": {
+          "works": {
+            "580": {
+              "events": 92,
+              "nll_per_event": 3.6452086518052385,
+              "support_size": 151007232,
+              "conditional_generation_masks_applied": false
+            },
+            "640": {
+              "events": 98,
+              "nll_per_event": 6.1909375707816885,
+              "support_size": 151007232,
+              "conditional_generation_masks_applied": false
+            }
+          },
+          "equal_work_nll": 4.918073111293463
+        }
+      }
+    },
+    {
+      "family_count": 2,
+      "family_indexes": [
+        1,
+        2
+      ],
+      "work_ids": [
+        "mutopia-888",
+        "mutopia-889",
+        "mutopia-789"
+      ],
+      "work_count": 3,
+      "training_events": 205,
+      "models": {
+        "factorized": {
+          "works": {
+            "580": {
+              "events": 92,
+              "nll_per_event": 7.284507891265775,
+              "support_size": 151007232,
+              "ppq": 384,
+              "conditional_generation_masks_applied": false
+            },
+            "640": {
+              "events": 98,
+              "nll_per_event": 10.710791453973842,
+              "support_size": 151007232,
+              "ppq": 384,
+              "conditional_generation_masks_applied": false
+            }
+          },
+          "equal_work_nll": 8.997649672619808
+        },
+        "previous_gate_context_k4": {
+          "works": {
+            "580": {
+              "events": 92,
+              "nll_per_event": 6.462629334003951,
+              "support_size": 151007232,
+              "conditional_generation_masks_applied": false
+            },
+            "640": {
+              "events": 98,
+              "nll_per_event": 9.967326738722067,
+              "support_size": 151007232,
+              "conditional_generation_masks_applied": false
+            }
+          },
+          "equal_work_nll": 8.214978036363009
+        }
+      }
+    },
+    {
+      "family_count": 3,
+      "family_indexes": [
+        0,
+        1,
+        2
+      ],
+      "work_ids": [
+        "mutopia-376",
+        "mutopia-888",
+        "mutopia-889",
+        "mutopia-789"
+      ],
+      "work_count": 4,
+      "training_events": 364,
+      "models": {
+        "factorized": {
+          "works": {
+            "580": {
+              "events": 92,
+              "nll_per_event": 4.613662230874974,
+              "support_size": 151007232,
+              "ppq": 384,
+              "conditional_generation_masks_applied": false
+            },
+            "640": {
+              "events": 98,
+              "nll_per_event": 7.435282092473309,
+              "support_size": 151007232,
+              "ppq": 384,
+              "conditional_generation_masks_applied": false
+            }
+          },
+          "equal_work_nll": 6.024472161674142
+        },
+        "previous_gate_context_k4": {
+          "works": {
+            "580": {
+              "events": 92,
+              "nll_per_event": 3.638074463484661,
+              "support_size": 151007232,
+              "conditional_generation_masks_applied": false
+            },
+            "640": {
+              "events": 98,
+              "nll_per_event": 6.351486687314344,
+              "support_size": 151007232,
+              "conditional_generation_masks_applied": false
+            }
+          },
+          "equal_work_nll": 4.994780575399503
+        }
+      }
+    }
+  ],
+  "summaries": [
+    {
+      "family_count": 1,
+      "subset_count": 3,
+      "event_counts": [
+        159,
+        85,
+        120
+      ],
+      "work_counts": [
+        1,
+        2,
+        1
+      ],
+      "models": {
+        "factorized": {
+          "mean_equal_work_nll": 8.660327200285161,
+          "per_subset_equal_work_nll": [
+            6.043128276435492,
+            8.28527724746391,
+            11.652576076956084
+          ]
+        },
+        "previous_gate_context_k4": {
+          "mean_equal_work_nll": 7.98302196245325,
+          "per_subset_equal_work_nll": [
+            5.153841627512415,
+            7.6019347228453436,
+            11.193289537001991
+          ]
+        }
+      }
+    },
+    {
+      "family_count": 2,
+      "subset_count": 3,
+      "event_counts": [
+        244,
+        279,
+        205
+      ],
+      "work_counts": [
+        3,
+        2,
+        3
+      ],
+      "models": {
+        "factorized": {
+          "mean_equal_work_nll": 6.933649121429987,
+          "per_subset_equal_work_nll": [
+            5.888973990084399,
+            5.914323701585753,
+            8.997649672619808
+          ]
+        },
+        "previous_gate_context_k4": {
+          "mean_equal_work_nll": 6.005100520573788,
+          "per_subset_equal_work_nll": [
+            4.882250414064892,
+            4.918073111293463,
+            8.214978036363009
+          ]
+        }
+      }
+    },
+    {
+      "family_count": 3,
+      "subset_count": 1,
+      "event_counts": [
+        364
+      ],
+      "work_counts": [
+        4
+      ],
+      "models": {
+        "factorized": {
+          "mean_equal_work_nll": 6.024472161674142,
+          "per_subset_equal_work_nll": [
+            6.024472161674142
+          ]
+        },
+        "previous_gate_context_k4": {
+          "mean_equal_work_nll": 4.994780575399503,
+          "per_subset_equal_work_nll": [
+            4.994780575399503
+          ]
+        }
+      }
+    }
+  ],
+  "unchanged": true,
+  "limits": [
+    "Only4works/3families, not large-scale learning.",
+    "Observed diagnostics informed earlier research; no sealed generalization claim.",
+    "More events and different content confounded; subset observations dependent.",
+    "Timing likelihood only, not pitch/harmony/attractiveness or originality."
+  ]
+}

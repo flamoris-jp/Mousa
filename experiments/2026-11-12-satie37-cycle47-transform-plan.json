@@ -1,0 +1,30 @@
+{
+  "schema": "satie37-redundant-off-research-v1",
+  "frozen_utc": "2026-11-12T18:06:56.495241+00:00",
+  "source_sha256": "09ce7337b4bf42ba12e1aa64b4c7dc7fcfa6455f1070cb12f8880a755df97384",
+  "ly_sha256": "420a52244e9fbe106dd33ba2cac84414fd66e0d01c6d472205bad39678d4ce04",
+  "hypothesis": "Under a single active-note-per-channel/pitch state machine, track1 events106 and109 (zero-based) are note_on velocity0 at13824/channel0/pitch66 after event105 already closed the last active66. Removing exactly these two messages preserves every paired note and all remaining absolute event timestamps/order/fields.",
+  "counterexamples": [
+    "Any same-key simultaneous active note-on in any track/channel undermines single-key interpretation",
+    "Either selected off matches an active onset",
+    "Any other unmatched off or dangling onset",
+    "Changed retained message field/order/timestamp, EOT, metadata, or controller",
+    "Source SHA mismatch"
+  ],
+  "target_track": 1,
+  "remove_indices": [
+    106,
+    109
+  ],
+  "target_tick": 13824,
+  "target_channel": 0,
+  "target_pitch": 66,
+  "scope": "MIDI key-state normalization experiment only, not recovered notated voices or proven audio equivalence. No source modification, no LilyPond execution.",
+  "score_evidence": "LY top has tied F#4 over bars9\u201312; accompaniment reiterates same pitch. Historical score page1 shows corresponding tie chain. MIDI interrupts/retriggers pitch66 within this span: preserving those events does not restore independently sustained melody.",
+  "limits": [
+    "No fit, score, admission, automatic screening, or threshold change",
+    "Original rights reviewed Cycle46, same sibling cohort38 remains similarity blocked",
+    "Removing redundant offs may affect undocumented receiver behavior; no hardware/audio equivalence claim"
+  ],
+  "derived_storage": "private local only until parent review"
+}

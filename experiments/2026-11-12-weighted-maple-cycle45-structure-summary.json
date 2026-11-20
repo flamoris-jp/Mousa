@@ -1,0 +1,146 @@
+{
+  "kind": "fixed_descriptive_aggregation_all21complete",
+  "conditions": {
+    "17_raw": {
+      "block_onset_group_means": [
+        6.333333333333333,
+        6,
+        6.666666666666667,
+        6.333333333333333
+      ],
+      "block_silence_tick_means": [
+        1376,
+        1312,
+        981.3333333333334,
+        1013.3333333333334
+      ],
+      "comparable_block_pairs": 12,
+      "equal_block_pairs": 0,
+      "ngram_windows": 68,
+      "repeated_ngram_windows": 0,
+      "ngram_per_output_macro": 0.0,
+      "ngram_macro_denominator": 2
+    },
+    "18_raw": {
+      "block_onset_group_means": [
+        6,
+        9.333333333333334,
+        8.333333333333334,
+        9
+      ],
+      "block_silence_tick_means": [
+        1216,
+        576,
+        672,
+        964
+      ],
+      "comparable_block_pairs": 18,
+      "equal_block_pairs": 0,
+      "ngram_windows": 89,
+      "repeated_ngram_windows": 0,
+      "ngram_per_output_macro": 0.0,
+      "ngram_macro_denominator": 3
+    },
+    "17_equal_work": {
+      "block_onset_group_means": [
+        6.666666666666667,
+        5,
+        2.6666666666666665,
+        6.666666666666667
+      ],
+      "block_silence_tick_means": [
+        1191,
+        1184,
+        1930.6666666666667,
+        992
+      ],
+      "comparable_block_pairs": 9,
+      "equal_block_pairs": 0,
+      "ngram_windows": 54,
+      "repeated_ngram_windows": 0,
+      "ngram_per_output_macro": 0.0,
+      "ngram_macro_denominator": 3
+    },
+    "18_equal_work": {
+      "block_onset_group_means": [
+        5.666666666666667,
+        9.333333333333334,
+        9.333333333333334,
+        8.333333333333334
+      ],
+      "block_silence_tick_means": [
+        1344,
+        405.3333333333333,
+        960,
+        842.6666666666666
+      ],
+      "comparable_block_pairs": 15,
+      "equal_block_pairs": 0,
+      "ngram_windows": 89,
+      "repeated_ngram_windows": 0,
+      "ngram_per_output_macro": 0.0,
+      "ngram_macro_denominator": 3
+    },
+    "17_equal_family": {
+      "block_onset_group_means": [
+        5.666666666666667,
+        2.6666666666666665,
+        2.3333333333333335,
+        3.6666666666666665
+      ],
+      "block_silence_tick_means": [
+        1024,
+        1760,
+        1856,
+        1216
+      ],
+      "comparable_block_pairs": 6,
+      "equal_block_pairs": 0,
+      "ngram_windows": 34,
+      "repeated_ngram_windows": 0,
+      "ngram_per_output_macro": 0.0,
+      "ngram_macro_denominator": 2
+    },
+    "18_equal_family": {
+      "block_onset_group_means": [
+        4.666666666666667,
+        6.333333333333333,
+        5,
+        7
+      ],
+      "block_silence_tick_means": [
+        1168,
+        1088,
+        1429.3333333333333,
+        1013.3333333333334
+      ],
+      "comparable_block_pairs": 12,
+      "equal_block_pairs": 0,
+      "ngram_windows": 60,
+      "repeated_ngram_windows": 0,
+      "ngram_per_output_macro": 0.0,
+      "ngram_macro_denominator": 3
+    },
+    "18_natural_raw": {
+      "block_onset_group_means": [
+        6,
+        10.666666666666666,
+        12,
+        8
+      ],
+      "block_silence_tick_means": [
+        1216,
+        757.3333333333334,
+        533.3333333333334,
+        912
+      ],
+      "comparable_block_pairs": 18,
+      "equal_block_pairs": 0,
+      "ngram_windows": 101,
+      "repeated_ngram_windows": 0,
+      "ngram_per_output_macro": 0.0,
+      "ngram_macro_denominator": 3
+    }
+  },
+  "not_musical_quality": true
+}

@@ -1,0 +1,40 @@
+{
+  "schema": "mousa.frozen-transfer-plan.v1",
+  "frozen_at_utc": "2026-11-12T09:45:23.437583+00:00",
+  "source_commit": "595bc638d88da799748fdf535f60c84983cb6024",
+  "selected_model": {
+    "relative": true,
+    "duration_prior": "empirical",
+    "meter_position": true,
+    "phrase_position": false,
+    "position_strength": 1
+  },
+  "controls": [
+    {
+      "name": "position-no-shrinkage",
+      "position_strength": 0
+    },
+    {
+      "name": "melodic-control",
+      "meter_position": false,
+      "position_strength": 0
+    }
+  ],
+  "train_ids": [
+    "mutopia-376",
+    "mutopia-888",
+    "mutopia-889",
+    "mutopia-789"
+  ],
+  "selection_basis": "Lowest exploratory source-family macro NLL cycle5; no new-source scores inspected.",
+  "evaluation": "Teacher-forced event NLL and exact pitch/duration counts per work, equal work mean per family; no attractiveness conclusion. Report all controls and failures; no retuning on fresh set.",
+  "admission": "Only fully rights-reviewed exact sources, family-grouped, strict reader accepted and duplicate screened before scoring. Candidate metadata may be inspected; no model scoring before freeze.",
+  "after_evaluation": "Mark sources observed and never call them fresh again. No training reassignment without new explicit exploratory ledger.",
+  "sha256": {
+    "src/mousa/position_event_model.py": "cdfde965ee3a938f678992cf52f22dc10290e2c3853d3f5be760a431def90515",
+    "src/mousa/melodic_event_model.py": "a6b42a7d3d426b9cf9dfff2c1c13d11db98b81dd1907e7e095250eccf19e7483",
+    "src/mousa/factorized_baseline.py": "874bc5718a90576ab9a4761cada17181776fdc228ff4697cea5030bc5ddfd17d",
+    "datasets/research-exploratory-multifamily-20261112.json": "bfcb2777ca6af1fbf41e957809a0fd35c6291e9bb3ae14182fd7ba1c9a86f6d7",
+    "datasets/research-metrical-origins-20261112.json": "d1c2950ecfa14a087fe677a15786c129e4ade8841b8b7c925b30e9a65051c972"
+  }
+}

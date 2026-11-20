@@ -1,0 +1,18 @@
+{
+  "initial_report_sha256": "86ec0e52e5cc0513ad3ad119eac339e902f625e5f62b76818435aa34b66088e6",
+  "repeat_report_sha256": "9aaa50e0c14f490b9ccf36fcf52848727d38e688d437b534d47b415e636623dc",
+  "equal_excluding": [
+    "cpu_seconds"
+  ],
+  "normalized_equal": true,
+  "cpu_seconds": [
+    1.2422211539999999,
+    1.282386606
+  ],
+  "journal_and_prefit_bytes_identical": true,
+  "completed_constructors": 4,
+  "raw_historical_exact_checks": 32,
+  "aggregate_checks": 88,
+  "all_sources_unchanged": true,
+  "fit_failures": 0
+}

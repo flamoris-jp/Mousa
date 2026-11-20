@@ -1,0 +1,18 @@
+{
+  "role": "rights-reviewed selected first-piece violin; 27-readable-reference screen-clear reserve; NOT admitted/fit/scored",
+  "screen_plan_sha256": "62d62b41c8d3a7e50aa72b7b07255a5c5050afad1696de7373d121fed189131c",
+  "screen_report_sha256": "1e56c6f9b408c35771478b6c413e43a4d8041882fba3b3c2816c65c316aea12b",
+  "rights_ledger_sha256": "00c743ebd5fc20e0232469dfb3924386faa270265e36f79d8dfe5f02250a2851",
+  "selected_member": "score.mid",
+  "selected_member_sha256": "528aba0589429a468f9d51b5d4a4a1ca8018c91edb7fee1ad736964fd8ab583a",
+  "selected_track": 1,
+  "flagged": false,
+  "references": 27,
+  "max_global_similarity": 0.2786885245901639,
+  "coverage_limit": "Satie37 original technical-blocked not compared; derived37 neither counted separately nor used. Not complete28-reference clearance.",
+  "other_members": "All4 movements/score/piano/violin ZIP members onecohort, not independently screened; no post-result substitution",
+  "fit": false,
+  "score": false,
+  "admitted": false,
+  "notes": "Initial prefreeze mapping attempt assumed track1 for everyreference and failed on empty melody; fixed mapping by exact parsed-object match across tracks before planfreeze. No comparison occurred before frozenplan. Matching all source files incurred preparation I/O; reported CPU applies comparison loop only."
+}

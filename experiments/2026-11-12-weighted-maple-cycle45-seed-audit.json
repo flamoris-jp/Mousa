@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "base_local_commit": "fd40620a5d80b10a2f2bf5130bf300c3bc50ce3c",
+  "scanned_tracked_json_files": 443,
+  "seeds": [
+    45000,
+    45001,
+    45002
+  ],
+  "matched_seed_fields": [],
+  "method": "Recursively inspect keys containing seed in tracked prior experiments/datasets JSON, only exact integer equality in scalar/list values. Non-seed numeric substrings excluded.",
+  "limits": "This only documents absence in these retained records, not unrecorded nonuse or independent held-out music. These are fixed new random draws; all existing diagnostic works remain observed."
+}

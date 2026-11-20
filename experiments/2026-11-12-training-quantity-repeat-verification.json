@@ -1,0 +1,34 @@
+{
+  "scope": "Independent code review/repeat and exhaustive post-hoc nested-subset diagnostic",
+  "initial_report_sha256": "25d95b3224ac803e6e82f8f0ba055d9fe9904cd4370ef2f788396eff6ee3821f",
+  "repeat_report_sha256": "55c689d44d763b822f0f4020ebfc9e3870a70173bdec72468e871ab748ffb7dd",
+  "initial_plan_sha256": "e2a2c968f9c105d841d4143ca473751d09db3790a435e9da1f91d43c2bfc23cc",
+  "repeat_plan_sha256": "b0f25e8adc7cd9b5fccf96fbb68f742c2daba2836fb43f7a65af4431d3150be5",
+  "exact_comparisons": [
+    "rows",
+    "summaries",
+    "unchanged",
+    "limits"
+  ],
+  "all_equal": true,
+  "plan_difference": "creation timestamp only",
+  "full_four_work_nll_matches_prior_reports": {
+    "factorized580": true,
+    "context580": true,
+    "factorized640": true,
+    "context640": true
+  },
+  "reviewed_controls": [
+    "All7 nonempty3family subsets;888/889inseparable",
+    "Frozen same support/prior/k4",
+    "No heldout fitting;580/640alreadyobserved",
+    "EqualworkNLL followedbyequal-subsetmean, not independent replications"
+  ],
+  "nested_diagnostic": "All9onefamilyadditionedges,2models,2works+equalworkmean=54descriptivecomparisons;21higherNLL, notindependenttrials",
+  "caution": "Even2workfamily hasonly85events versus159or120in singleworkfamilies; no isolatedquantity effect or universalmoredataisbetter claim",
+  "tests": {
+    "total": 222,
+    "passed": 221,
+    "skipped": 1
+  }
+}

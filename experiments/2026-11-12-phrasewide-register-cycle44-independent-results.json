@@ -1,0 +1,26 @@
+{
+  "method": "Independent backward suffix cost tables + lexicographic forward reconstruction, not production forward DP; all-pair pitch-overlap and nonpitch field audit",
+  "checks": 3082,
+  "results": [
+    {
+      "seed": 1,
+      "groups_optimized": 9,
+      "objective": 25,
+      "private_sha256": "ceb358f924da7eef4f617ec9287942926a33fac50af2a52105c3c6f9c1b3e474"
+    },
+    {
+      "seed": 3,
+      "groups_optimized": 8,
+      "objective": 29,
+      "private_sha256": "ba4ef27e8c8e15437f02dc4a4e00b731aa6cc97782a456cb471a329563437cf0"
+    },
+    {
+      "seed": 4,
+      "groups_optimized": 11,
+      "objective": 46,
+      "private_sha256": "1044a8cb38f4f85a058308493211969dcbbb14a4245e5e228a18dee05f70f51b"
+    }
+  ],
+  "status": "PASS",
+  "human_preference": "unobserved"
+}

@@ -1,0 +1,332 @@
+{
+  "before_scoring": {
+    "plan_sha256": "5a00d281c71951f58467ab166ef42804bfebac4fe4680177ee270f2a6f1adadc",
+    "train_sha256": {
+      "mutopia-376": "b02e65def39bab988838d3d2e82ad9763f1b5b6b71b5a4c70e8f7b6d12eece8c",
+      "mutopia-888": "6e097cb82d30524335a19a2adb1cbf79cf6b070f7059182f0dc9d34ca3fc3848",
+      "mutopia-889": "cc45d10d7c21e858f37d4096979d4706bcfcaec400ef89abc1ac66378d51faa1",
+      "mutopia-789": "f849eace28acf450e306803203499aed4830cfba1a5cb8fe0953f594be15ffb9"
+    },
+    "test_sha256": "dcd5efac22b5e91b7c87685058784396adb9ec5d69915764265ad68158dbb6e1",
+    "screen": [
+      {
+        "train": "mutopia-376",
+        "exact8_pitch_interval_matches": 0,
+        "whole_interval_similarity": 0.25316455696202533
+      },
+      {
+        "train": "mutopia-888",
+        "exact8_pitch_interval_matches": 0,
+        "whole_interval_similarity": 0.17582417582417587
+      },
+      {
+        "train": "mutopia-889",
+        "exact8_pitch_interval_matches": 0,
+        "whole_interval_similarity": 0.20879120879120883
+      },
+      {
+        "train": "mutopia-789",
+        "exact8_pitch_interval_matches": 0,
+        "whole_interval_similarity": 0.2184873949579832
+      }
+    ],
+    "model_sha256": "6cfafbcb5f7cdcb9d3279b460b66bdf88b1f4a3f918312639cdb69cc0a89c92d",
+    "driver_sha256": "07a2bfaf79bc8e3b37c0982657056e34d8e6bd117ba03c5fa913bfaad17c4784"
+  },
+  "training_events": 364,
+  "test_events": 92,
+  "models": {
+    "joint": {
+      "evaluation": {
+        "events": 92,
+        "nll_per_event": 12.599040812049852,
+        "support_size": 151007232,
+        "ppq": 384,
+        "conditional_generation_masks_applied": false
+      },
+      "outputs": [
+        {
+          "status": "complete",
+          "rejections": 4,
+          "target_ticks": 9216,
+          "seed": 0,
+          "attempted_note_count": 20,
+          "source_8_onset_interval_matches": 0,
+          "overlapping_onsets": 6,
+          "notes_count": 20,
+          "distinct_pitches": 13,
+          "midi_sha256": "f9f33f2b75e615ca44cc6f408b012aac39f3cc8a6a9e336da4d7ab3d0695144e",
+          "exact_roundtrip": true
+        },
+        {
+          "status": "complete",
+          "rejections": 1,
+          "target_ticks": 9216,
+          "seed": 1,
+          "attempted_note_count": 35,
+          "source_8_onset_interval_matches": 0,
+          "overlapping_onsets": 12,
+          "notes_count": 35,
+          "distinct_pitches": 14,
+          "midi_sha256": "427ee48cb85c36ebc90de0cc47586ff8e8b952ed97219f5cc71b259d6db30159",
+          "exact_roundtrip": true
+        },
+        {
+          "status": "complete",
+          "rejections": 1,
+          "target_ticks": 9216,
+          "seed": 2,
+          "attempted_note_count": 28,
+          "source_8_onset_interval_matches": 0,
+          "overlapping_onsets": 14,
+          "notes_count": 28,
+          "distinct_pitches": 14,
+          "midi_sha256": "4c7272a158ebbf207ad93f63467c8b089f2a1fcf84216f319aa75fd0dbdcb833",
+          "exact_roundtrip": true
+        },
+        {
+          "status": "complete",
+          "rejections": 0,
+          "target_ticks": 9216,
+          "seed": 3,
+          "attempted_note_count": 19,
+          "source_8_onset_interval_matches": 0,
+          "overlapping_onsets": 6,
+          "notes_count": 19,
+          "distinct_pitches": 11,
+          "midi_sha256": "a081565e1fc0879d94b78f7375d201f90b865eb8c66cc20f6806a59c849f70aa",
+          "exact_roundtrip": true
+        },
+        {
+          "status": "complete",
+          "rejections": 5,
+          "target_ticks": 9216,
+          "seed": 4,
+          "attempted_note_count": 45,
+          "source_8_onset_interval_matches": 0,
+          "overlapping_onsets": 29,
+          "notes_count": 45,
+          "distinct_pitches": 17,
+          "midi_sha256": "a5a6dc8814c769b54d6da2e5d543541d9cf772dbacb116c99d0c94bc1ed63fb5",
+          "exact_roundtrip": true
+        },
+        {
+          "status": "complete",
+          "rejections": 0,
+          "target_ticks": 9216,
+          "seed": 5,
+          "attempted_note_count": 29,
+          "source_8_onset_interval_matches": 0,
+          "overlapping_onsets": 12,
+          "notes_count": 29,
+          "distinct_pitches": 14,
+          "midi_sha256": "8c8972a416a2a2f77235616928aea3e5d9ccdc2f35d980d3dc747bde1a73a379",
+          "exact_roundtrip": true
+        },
+        {
+          "status": "complete",
+          "rejections": 2,
+          "target_ticks": 9216,
+          "seed": 6,
+          "attempted_note_count": 22,
+          "source_8_onset_interval_matches": 0,
+          "overlapping_onsets": 9,
+          "notes_count": 22,
+          "distinct_pitches": 13,
+          "midi_sha256": "d761d3caee576995df08f8378ecc707532d64653310fbbff1516d6760f0bf6c1",
+          "exact_roundtrip": true
+        },
+        {
+          "status": "complete",
+          "rejections": 1,
+          "target_ticks": 9216,
+          "seed": 7,
+          "attempted_note_count": 32,
+          "source_8_onset_interval_matches": 0,
+          "overlapping_onsets": 15,
+          "notes_count": 32,
+          "distinct_pitches": 14,
+          "midi_sha256": "0f2becd53d6790ddc897daf4d0705f17e3b30b2b71a92b827c32ede6ed172537",
+          "exact_roundtrip": true
+        },
+        {
+          "status": "complete",
+          "rejections": 2,
+          "target_ticks": 9216,
+          "seed": 8,
+          "attempted_note_count": 36,
+          "source_8_onset_interval_matches": 0,
+          "overlapping_onsets": 16,
+          "notes_count": 36,
+          "distinct_pitches": 16,
+          "midi_sha256": "5a51e6dd0267cf422dc929fc1d5170a854208387ddb452cae020f662858811fa",
+          "exact_roundtrip": true
+        },
+        {
+          "status": "complete",
+          "rejections": 0,
+          "target_ticks": 9216,
+          "seed": 9,
+          "attempted_note_count": 30,
+          "source_8_onset_interval_matches": 0,
+          "overlapping_onsets": 12,
+          "notes_count": 30,
+          "distinct_pitches": 13,
+          "midi_sha256": "91dc0efc368ea932ea573e65ce9ef89f8dd061a6a027417cc1855a219a3c0d53",
+          "exact_roundtrip": true
+        }
+      ]
+    },
+    "factorized": {
+      "evaluation": {
+        "events": 92,
+        "nll_per_event": 4.613662230874974,
+        "support_size": 151007232,
+        "ppq": 384,
+        "conditional_generation_masks_applied": false
+      },
+      "outputs": [
+        {
+          "status": "complete",
+          "rejections": 1,
+          "target_ticks": 9216,
+          "seed": 0,
+          "attempted_note_count": 23,
+          "source_8_onset_interval_matches": 0,
+          "overlapping_onsets": 4,
+          "notes_count": 23,
+          "distinct_pitches": 14,
+          "midi_sha256": "c20ef197f015711bdabfeb6c893aeb59b30a5629ca083ab7876cff4da2c60296",
+          "exact_roundtrip": true
+        },
+        {
+          "status": "blocked",
+          "rejections": 81,
+          "reason": "attempt budget exhausted",
+          "seed": 1,
+          "attempted_note_count": 14
+        },
+        {
+          "status": "complete",
+          "rejections": 1,
+          "target_ticks": 9216,
+          "seed": 2,
+          "attempted_note_count": 22,
+          "source_8_onset_interval_matches": 0,
+          "overlapping_onsets": 9,
+          "notes_count": 22,
+          "distinct_pitches": 14,
+          "midi_sha256": "fe5f3e826163897d85018df38deb0981667374e8d70b6e3fb2578c1243aa4ee6",
+          "exact_roundtrip": true
+        },
+        {
+          "status": "complete",
+          "rejections": 2,
+          "target_ticks": 9216,
+          "seed": 3,
+          "attempted_note_count": 30,
+          "source_8_onset_interval_matches": 0,
+          "overlapping_onsets": 10,
+          "notes_count": 30,
+          "distinct_pitches": 16,
+          "midi_sha256": "cf0700d7748efd1d2d710e10be0f4006ec6ac5ec82191fbc6d3e96ffcd455a94",
+          "exact_roundtrip": true
+        },
+        {
+          "status": "complete",
+          "rejections": 3,
+          "target_ticks": 9216,
+          "seed": 4,
+          "attempted_note_count": 29,
+          "source_8_onset_interval_matches": 0,
+          "overlapping_onsets": 9,
+          "notes_count": 29,
+          "distinct_pitches": 13,
+          "midi_sha256": "7936746497d95512209676f26dec7288f764da0efe0efd96b7c6bc3cf45fd62f",
+          "exact_roundtrip": true
+        },
+        {
+          "status": "complete",
+          "rejections": 0,
+          "target_ticks": 9216,
+          "seed": 5,
+          "attempted_note_count": 29,
+          "source_8_onset_interval_matches": 0,
+          "overlapping_onsets": 12,
+          "notes_count": 29,
+          "distinct_pitches": 13,
+          "midi_sha256": "b24439956364414a0647b36e0a442bb042fd918bb36cef2214f261b67604746f",
+          "exact_roundtrip": true
+        },
+        {
+          "status": "complete",
+          "rejections": 1,
+          "target_ticks": 9216,
+          "seed": 6,
+          "attempted_note_count": 27,
+          "source_8_onset_interval_matches": 0,
+          "overlapping_onsets": 7,
+          "notes_count": 27,
+          "distinct_pitches": 15,
+          "midi_sha256": "19ea1bfeecce2edfb2f06a2665c6516ef53946a0acd9a1edde085970bf752ceb",
+          "exact_roundtrip": true
+        },
+        {
+          "status": "complete",
+          "rejections": 3,
+          "target_ticks": 9216,
+          "seed": 7,
+          "attempted_note_count": 32,
+          "source_8_onset_interval_matches": 0,
+          "overlapping_onsets": 13,
+          "notes_count": 32,
+          "distinct_pitches": 15,
+          "midi_sha256": "5d644f39fd8e8deea0e6273a14cd04031751743e669e4c88f71b1808e626e0f1",
+          "exact_roundtrip": true
+        },
+        {
+          "status": "complete",
+          "rejections": 0,
+          "target_ticks": 9216,
+          "seed": 8,
+          "attempted_note_count": 33,
+          "source_8_onset_interval_matches": 0,
+          "overlapping_onsets": 17,
+          "notes_count": 33,
+          "distinct_pitches": 17,
+          "midi_sha256": "8c61303e0f509eb7c0480e4b9ac36e1a54691c96c37cd10eb708a0546f84099c",
+          "exact_roundtrip": true
+        },
+        {
+          "status": "complete",
+          "rejections": 2,
+          "target_ticks": 9216,
+          "seed": 9,
+          "attempted_note_count": 28,
+          "source_8_onset_interval_matches": 0,
+          "overlapping_onsets": 11,
+          "notes_count": 28,
+          "distinct_pitches": 16,
+          "midi_sha256": "72e78f1bd65f5911a1a0c1950143ea4dd651163dccc160cf92d581775b0f74f5",
+          "exact_roundtrip": true
+        }
+      ]
+    }
+  },
+  "test_support": {
+    "in_support": 92,
+    "unsupported": 0,
+    "seen_joint_pairs": 51,
+    "seen_deltas": 86,
+    "seen_gates": 89
+  },
+  "scope": "Timing-pair predictive comparison, one representation-inspected newcomposer/contributor family; no broad or musicalquality claim",
+  "status": "580 now predictive-observed; never relabel fresh. No fitting on580or583.",
+  "limitations": [
+    "No pitch predictive likelihood or learned phrase structure.",
+    "Generation pitches sampled from train support, not coherent pitch model.",
+    "580 used only for postgeneration copying rejection, not fitting or tuning.",
+    "Copy screen is exact8onset intervals and wholeinterval edit, not perceptual/legalclearance.",
+    "NLLtasks differ from previous REST/HOLD event reports; do not directlycompare them."
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "created_at_utc": "2026-11-12T15:36:40.890506+00:00",
+  "scope": "Posthoc comparison of saved predictions for two already observed recording cohorts; no MIDI read, fit, score or model change.",
+  "frozen_hashes": {
+    "experiments/2026-11-12-groove-cycle36-fit-final-plan.json": "2a202a6eb4730a4c97a5505a45e07d08eded19d25dd59df85b53bc877c9fe79d",
+    "experiments/2026-11-12-groove-fresh-recording-plan.json": "ddfb1daf77813e44a875fcc70def9e65367ce50aee1b18304f6535d3e199ea87",
+    "experiments/2026-11-12-groove-cycle36-results.json": "a4a1945dae98434b38bc814fd23a6be2fe86129b457aac515bd0f337099edf77",
+    "experiments/2026-11-12-groove-fresh-recording-results.json": "bfc6ddaae95c32ebbcf6f38de07fc1a3f76657abc9f40a76c6818d30b3edcd72",
+    "tools/groove_cycle38_cohorts.py": "9a073cba052583d88129a449c37c6c77aefccc9c2979870096a7557584ed6d33",
+    "tests/test_groove_cycle38.py": "e13437771ccbb15a790de0ea5bf804ede32df4b167d57f9a8ca47dc20d8cabf5",
+    "datasets/research-groove-fresh-observations-cycle37.json": "41d71de2cb45d08e87f4b6620c3d146ea9a0d7ee50eae149f7d12c223f1510a9",
+    "datasets/research-groove-usage-cycle36-20261112.json": "72894b08c8d508d21c8229584f3f0915d5e5b6fa8b12d14f71280d4df5b4f42d",
+    "datasets/research-groove-rights-cycle32-20261112.json": "de6f14f3b6f38398f1d419e7a5b3fcf0f0d943adcadd914826629641fa4f0bbc"
+  },
+  "conditions": [
+    "unigram",
+    "exact_k4",
+    "exact_k32",
+    "exact_k256",
+    "quotient_residual",
+    "quotient_context_k4_residual"
+  ],
+  "cohorts": {
+    "earlier_observed8": [
+      "drummer10/session1/10",
+      "drummer10/session1/9",
+      "drummer7/session3/23",
+      "drummer7/session3/26",
+      "drummer8/session2/13",
+      "drummer8/session2/40",
+      "drummer9/session1/16",
+      "drummer9/session1/20"
+    ],
+    "cycle37_now_observed8": [
+      "drummer10/session1/1",
+      "drummer10/session1/7",
+      "drummer7/session2/44",
+      "drummer7/session3/63",
+      "drummer8/session1/19",
+      "drummer8/session1/5",
+      "drummer9/session1/2",
+      "drummer9/session1/6"
+    ]
+  },
+  "comparisons": "Within each cohort: paired12-to35 NLL change per drummer, split and all eight recordings, pooled and macro recording means. Cross-cohort directions per same drummer/condition and split/condition, descriptive difference of differences; recordings differ, not paired across cohorts.",
+  "sign_rule": "Delta=expanded minus baseline; positive worse, negative better; abs<=1e-12 numerical tie only. Report every condition and every sign reversal, no selection.",
+  "sample_scope": "16distinct recordings from the same four drummers, not16independent performers. Two recordings per drummer per cohort; four per drummer when combined.",
+  "combined_summary": "Optional descriptive combined16 within each split/drummer, not a fresh or independent confirmation result.",
+  "fixed_training": {
+    "baseline_works": 12,
+    "baseline_events": 5034,
+    "expanded_unique_works": 35,
+    "expanded_events": 19409
+  },
+  "roles_unchanged": {
+    "training": 35,
+    "already_observed_recordings": 16,
+    "unscored_recordings": 1099
+  },
+  "cpu_seconds": 60,
+  "source_access": "Existing plan/result/ledger JSON only; no source MIDI or model constructors.",
+  "limitations": [
+    "Both cohorts now observed. The historically fresh label in original filenames does not make it fresh again.",
+    "Same drummers across cohorts, differing recordings, lengths, session/style/instrument mix and event weights.",
+    "Prediction change is not causal data-size effect, musical appeal, unobserved-condition robustness or general population effect.",
+    "No condition tuning or new model/material selection; any further analysis needs a separate prospective scope."
+  ]
+}

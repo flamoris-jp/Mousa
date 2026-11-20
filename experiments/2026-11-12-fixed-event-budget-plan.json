@@ -1,0 +1,55 @@
+{
+  "created_at_utc": "2026-11-12T11:45:38.897493+00:00",
+  "scope": "Exploratory fixed60-event composition contrast;580/640 already observed",
+  "allocations": {
+    "family376": {
+      "mutopia-376": 60
+    },
+    "family888889": {
+      "mutopia-888": 30,
+      "mutopia-889": 30
+    },
+    "family789": {
+      "mutopia-789": 60
+    },
+    "balanced_three_families": {
+      "mutopia-376": 20,
+      "mutopia-888": 10,
+      "mutopia-889": 10,
+      "mutopia-789": 20
+    }
+  },
+  "models": [
+    "factorized",
+    "previous_gate_context_k4"
+  ],
+  "support": "UnchangedPPQ384delta0..12288gate1..12288,prior1,contextk4",
+  "sampling": "FirstNoriginal onset/gate events perwork; original order and firstdelta retained; context reset at every work. No synthetic joins, no replacement, no source rewrites.",
+  "grouping": "888and889 remain samefamily; both always included together. Reserved/pending sources excluded.",
+  "purpose": "Hold totaltraining events at60; compare composition/family mix, not a causal effect of diversity.",
+  "limits": [
+    "Prefix bias and worklength differ; this isnotrandomsampling or stylebalanced calibration.",
+    "Work-boundary counts1/2/1/4 change available withinwork transitions.",
+    "Balancedmix gives fewer observations perwork, not an equivalent larger corpus.",
+    "No newholdout/selection/humanappeal inference; outcomes do not modify allocation."
+  ],
+  "code_sha256": {
+    "tools/compare_fixed_event_budget.py": "55dce998ad33a06bf04c8f1ea721891ab82ac7d95293d6ed4c1a9f1f0fff3f08",
+    "tools/compare_training_quantity.py": "c40763b8f6cec160230deefb668ffbd03059339b562aa8ab43986d3aa0d6f33b",
+    "tools/compare_onset_gate_models.py": "07a2bfaf79bc8e3b37c0982657056e34d8e6bd117ba03c5fa913bfaad17c4784",
+    "src/mousa/onset_gate_model.py": "6cfafbcb5f7cdcb9d3279b460b66bdf88b1f4a3f918312639cdb69cc0a89c92d",
+    "src/mousa/context_onset_gate.py": "32ff6404caf451e18649c85462f32c1bcca8389b434a23d9c4ec1d6d09f8af0c",
+    "src/mousa/overlap_midi.py": "1afc11bf6b6985a2eb22ebe5302b707d39378291e27b6299fde82564c167c867",
+    "datasets/research-exploratory-multifamily-20261112.json": "bfcb2777ca6af1fbf41e957809a0fd35c6291e9bb3ae14182fd7ba1c9a86f6d7"
+  },
+  "train_sha256": {
+    "mutopia-376": "b02e65def39bab988838d3d2e82ad9763f1b5b6b71b5a4c70e8f7b6d12eece8c",
+    "mutopia-888": "6e097cb82d30524335a19a2adb1cbf79cf6b070f7059182f0dc9d34ca3fc3848",
+    "mutopia-889": "cc45d10d7c21e858f37d4096979d4706bcfcaec400ef89abc1ac66378d51faa1",
+    "mutopia-789": "f849eace28acf450e306803203499aed4830cfba1a5cb8fe0953f594be15ffb9"
+  },
+  "diagnostic_sha256": {
+    "580": "dcd5efac22b5e91b7c87685058784396adb9ec5d69915764265ad68158dbb6e1",
+    "640": "13ec851eb00ca9aba345cad50f03bdb3b189f566f38d094a1e6b839765b3d678"
+  }
+}

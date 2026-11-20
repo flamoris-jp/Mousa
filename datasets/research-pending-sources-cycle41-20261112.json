@@ -1,0 +1,376 @@
+{
+  "reviewed_utc": "2026-11-12T16:40:31.973950+00:00",
+  "cycle": 41,
+  "admitted_new_works": 0,
+  "works": [
+    {
+      "id": "mutopia-2167",
+      "title": "Ave Maria / Meditation",
+      "composer": "Charles Gounod(1818-1893), underlying J.S.Bach(1685-1750)",
+      "contributor": "Yann Leprince; derivative piano input by Shay Rojansky/Han-Wen Nienhuys/Tobias Erbsland/Javier Ruiz-Alma",
+      "status": "pending-not-admitted-not-fitted-not-scored",
+      "encoding_declaration": "Exact LilyPond header Public Domain; footer placed in public domain by typesetter, notCC0.",
+      "source_page": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2167",
+      "technical": [
+        {
+          "track": 1,
+          "status": "exact-overlap-reader-accepted",
+          "notes": 211,
+          "first_onset": 6144,
+          "eot": 112512,
+          "source_eot": 112512,
+          "ppq": 384,
+          "first_three": [
+            {
+              "start": 6144,
+              "end": 7680,
+              "pitch": 76,
+              "velocity": 81,
+              "release_velocity": 0
+            },
+            {
+              "start": 7680,
+              "end": 9216,
+              "pitch": 77,
+              "velocity": 81,
+              "release_velocity": 0
+            },
+            {
+              "start": 9216,
+              "end": 10368,
+              "pitch": 79,
+              "velocity": 81,
+              "release_velocity": 0
+            }
+          ],
+          "meter_map": [
+            {
+              "tick": 0,
+              "numerator": 4,
+              "denominator": 4,
+              "clocks_per_click": 18,
+              "notated_32nd_notes_per_beat": 8
+            }
+          ],
+          "tempo_map": [
+            [
+              0,
+              909090
+            ]
+          ]
+        },
+        {
+          "track": 2,
+          "status": "exact-overlap-reader-accepted",
+          "notes": 871,
+          "first_onset": 192,
+          "eot": 112320,
+          "source_eot": 112512,
+          "ppq": 384,
+          "first_three": [
+            {
+              "start": 192,
+              "end": 288,
+              "pitch": 67,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 288,
+              "end": 384,
+              "pitch": 72,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 384,
+              "end": 480,
+              "pitch": 76,
+              "velocity": 90,
+              "release_velocity": 0
+            }
+          ],
+          "meter_map": [
+            {
+              "tick": 0,
+              "numerator": 4,
+              "denominator": 4,
+              "clocks_per_click": 18,
+              "notated_32nd_notes_per_beat": 8
+            }
+          ],
+          "tempo_map": [
+            [
+              0,
+              909090
+            ]
+          ]
+        },
+        {
+          "track": 3,
+          "status": "exact-overlap-reader-accepted",
+          "notes": 287,
+          "first_onset": 0,
+          "eot": 112320,
+          "source_eot": 112512,
+          "ppq": 384,
+          "first_three": [
+            {
+              "start": 0,
+              "end": 768,
+              "pitch": 60,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 96,
+              "end": 768,
+              "pitch": 64,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 768,
+              "end": 1536,
+              "pitch": 60,
+              "velocity": 90,
+              "release_velocity": 0
+            }
+          ],
+          "meter_map": [
+            {
+              "tick": 0,
+              "numerator": 4,
+              "denominator": 4,
+              "clocks_per_click": 18,
+              "notated_32nd_notes_per_beat": 8
+            }
+          ],
+          "tempo_map": [
+            [
+              0,
+              909090
+            ]
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "filename": "2167.ly",
+          "url": "https://www.mutopiaproject.org/ftp/GounodC/AveMaria-PianoViolin/AveMaria-PianoViolin.ly",
+          "sha256": "aaa7a4cc27e196649569da538c0f1f7383011cd523553ae06b80dc65e7dbf08e",
+          "bytes": 13182,
+          "acquired_date_utc": "2026-11-12"
+        },
+        {
+          "filename": "2167.mid",
+          "url": "https://www.mutopiaproject.org/ftp/GounodC/AveMaria-PianoViolin/AveMaria-PianoViolin.mid",
+          "sha256": "374fa21eccbaad7b994da5b8db779c65cc527a382bf819b82126dfcd678a4297",
+          "bytes": 13695,
+          "acquired_date_utc": "2026-11-12"
+        }
+      ],
+      "edition": "Heugel1856, source cites exact Gallica btv1b54000086f; independent IMSLP catalogue arrangerComposer, PlateH2274",
+      "pending": [
+        "Exact cited historical scan unavailable: Gallica IIIF403 and webreader inaccessible. IMSLP749543 catalogue confirms edition but score incipit not visually checked.",
+        "Piano derivative BWV846 contribution explicitlyPD but its edition source says Unknown. Full-original admission not cleared by derivative label alone.",
+        "Source says violin fingerings inspired by Anne-Sophie Mutter. Finger numbers appear as engraving suffixes; do not infer all performance-related MIDI choices are historical without comparison. No performance recording downloaded or transcribed."
+      ],
+      "technical_scope": "Track1 is source violin, four full opening bars rest6144ticks retained;211notes. Other piano tracks retained untouched.",
+      "links": [
+        "https://gallica.bnf.fr/ark:/12148/btv1b54000086f",
+        "https://gallica.bnf.fr/iiif/ark:/12148/btv1b54000086f/manifest.json",
+        "https://imslp.org/wiki/Ave_Maria_(Gounod,_Charles)",
+        "https://www.mutopiaproject.org/ftp/BachJS/BWV846/wtk1-prelude1/wtk1-prelude1.ly"
+      ],
+      "derived_source_sha256": "afa237b10637ca7839b4c9e98b64ba89c781e2cfc1b980679b2632a31951aacd"
+    },
+    {
+      "id": "mutopia-246",
+      "title": "Ases Tod Op46No2",
+      "composer": "Edvard Grieg(1843-1907)",
+      "contributor": "Deborah Lowrey",
+      "status": "pending-not-admitted-not-fitted-not-scored",
+      "encoding_declaration": "Exact LilyPond header Public Domain; footer placed in public domain by typesetter, notCC0.",
+      "source_page": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=246",
+      "technical": [
+        {
+          "track": 1,
+          "status": "exact-overlap-reader-accepted",
+          "notes": 376,
+          "first_onset": 0,
+          "eot": 69120,
+          "source_eot": 69120,
+          "ppq": 384,
+          "first_three": [
+            {
+              "start": 0,
+              "end": 384,
+              "pitch": 50,
+              "velocity": 69,
+              "release_velocity": 0
+            },
+            {
+              "start": 0,
+              "end": 384,
+              "pitch": 54,
+              "velocity": 69,
+              "release_velocity": 0
+            },
+            {
+              "start": 384,
+              "end": 768,
+              "pitch": 54,
+              "velocity": 84,
+              "release_velocity": 0
+            }
+          ],
+          "meter_map": [
+            {
+              "tick": 0,
+              "numerator": 4,
+              "denominator": 4,
+              "clocks_per_click": 18,
+              "notated_32nd_notes_per_beat": 8
+            }
+          ],
+          "tempo_map": [
+            [
+              0,
+              1200000
+            ]
+          ]
+        },
+        {
+          "track": 2,
+          "status": "exact-overlap-reader-accepted",
+          "notes": 228,
+          "first_onset": 0,
+          "eot": 69120,
+          "source_eot": 69120,
+          "ppq": 384,
+          "first_three": [
+            {
+              "start": 0,
+              "end": 384,
+              "pitch": 35,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 0,
+              "end": 384,
+              "pitch": 47,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 384,
+              "end": 768,
+              "pitch": 38,
+              "velocity": 90,
+              "release_velocity": 0
+            }
+          ],
+          "meter_map": [
+            {
+              "tick": 0,
+              "numerator": 4,
+              "denominator": 4,
+              "clocks_per_click": 18,
+              "notated_32nd_notes_per_beat": 8
+            }
+          ],
+          "tempo_map": [
+            [
+              0,
+              1200000
+            ]
+          ]
+        },
+        {
+          "track": 3,
+          "status": "exact-overlap-reader-accepted",
+          "notes": 142,
+          "first_onset": 192,
+          "eot": 69120,
+          "source_eot": 69120,
+          "ppq": 384,
+          "first_three": [
+            {
+              "start": 192,
+              "end": 384,
+              "pitch": 55,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 576,
+              "end": 768,
+              "pitch": 55,
+              "velocity": 90,
+              "release_velocity": 0
+            },
+            {
+              "start": 960,
+              "end": 1536,
+              "pitch": 55,
+              "velocity": 90,
+              "release_velocity": 0
+            }
+          ],
+          "meter_map": [
+            {
+              "tick": 0,
+              "numerator": 4,
+              "denominator": 4,
+              "clocks_per_click": 18,
+              "notated_32nd_notes_per_beat": 8
+            }
+          ],
+          "tempo_map": [
+            [
+              0,
+              1200000
+            ]
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "filename": "246.ly",
+          "url": "https://www.mutopiaproject.org/ftp/GriegE/O46/02-lamortdase/02-lamortdase.ly",
+          "sha256": "097d51ca2264a32d3d22d90f1faaaf27fd932cf3116fbf9923f452556a17f90b",
+          "bytes": 8355,
+          "acquired_date_utc": "2026-11-12"
+        },
+        {
+          "filename": "246.mid",
+          "url": "https://www.mutopiaproject.org/ftp/GriegE/O46/02-lamortdase/02-lamortdase.mid",
+          "sha256": "eb0b5f5b76894fe4140f4ab98616472db87e9501827bc92fec144c6253e8375f",
+          "bytes": 7532,
+          "acquired_date_utc": "2026-11-12"
+        }
+      ],
+      "edition": "Kunkel Brothers1891, reprinted Kunkel's Musical Review May1893",
+      "pending": [
+        "Historical original exact edition/incipit and any editor/arranger not independently verified. Search result AssettoRitmo repeats Mutopia metadata, not independent historical proof.",
+        "Typesetter explicitly omitted excessive slurs/fingerings and describes dynamics changes. Preserve contributed version; do not call it untouched historic performance.",
+        "Contributor overlaps previously quarantined Lowrey candidates. This contribution has explicitPD header, but no reinterpretation/release of earlier territory-warning sources."
+      ],
+      "links": [
+        "https://www.assettoritmo.com/library/grieg-ases-tod/"
+      ],
+      "retrieval_failure": "First sourceLY request timed out; later exact same officialURL succeeded. No generated replacement."
+    }
+  ],
+  "screen": {
+    "status": "not-run-rights-prerequisites-unresolved",
+    "fixed_rule_unchanged": "exact8interval OR normalized global interval similarity>=.80",
+    "required_references": "17train+observed640/921/21/1691+blocked1692/804/1741; no screening result claimed"
+  },
+  "fit": false,
+  "predictive_score": false,
+  "storage": "Raw acquired originals kept private pending review, not uploaded to training materials. Metadata-only snapshot allowed.",
+  "limits": "No catalogue label alone clears composition/arrangement/encoding. No rights thresholds relaxed to increase count."
+}

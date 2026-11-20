@@ -1,0 +1,20 @@
+{
+  "scope": "Private within-experiment weighting audition, fixed before fitting",
+  "generation_seed": 0,
+  "included_conditions": [
+    "raw",
+    "equal_work",
+    "equal_declared_family"
+  ],
+  "selection": "Include seed0 from everycondition if allthreecomplete and copyclear. Do not substitute another seed ifonefails; record unavailablecomparison instead.",
+  "order": "Opaque A/B/C fixed permutation, private method key retained outsideGit",
+  "clock": "PPQ384/120BPM,9216ticks=12seconds; fixed6/8exportheader yields8bars, notlearnedmeter",
+  "render": "Sameanalytic sine+secondharmonic atfixedgain.12,nomusicsamples/soundfont,no perclip loudnessnormalization",
+  "human_feedback": "None collected; no inventedratings/traininglabels",
+  "publication": "Private researchaudition only,not publicreleaseclearance",
+  "code_sha256": {
+    "tools/export_private_notes_preview.py": "bb785a1da2ca5a07f16f89af8d4b47176dad692844a0322a3a5fb2f6923b943a",
+    "tools/render_overlap_preview.py": "0736e22c8645977d59745a28a0c7878e1525429befbd9964870c86160ff56dec"
+  },
+  "private_plan_sha256": "b1ab763a3adcf9ee197f0bf5f30bcd3003b713fc71ab2bed4e3dbcda1fe3e48f"
+}

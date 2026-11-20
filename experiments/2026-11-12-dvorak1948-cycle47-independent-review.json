@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "selected_member": "score.mid",
+  "archive_midi_members": 12,
+  "selection_bytes_equal_original_zip_member": true,
+  "selected_sha256": "528aba0589429a468f9d51b5d4a4a1ca8018c91edb7fee1ad736964fd8ab583a",
+  "direct_event_pairing_notes": 123,
+  "first_tick": 0,
+  "eot": 69120,
+  "ppq": 384,
+  "individual_pd_header_verified": true,
+  "visual_review": "Independently viewed violin scan page1: titleRomantischeStuecke, Dvorak Op75, plate8765, Bflat-key/Cmeter, D5 dotted-half F5 quarter / F5 half F4 half opening agrees with notes1.ily. Source header erroneousOp4 preserved and annotated. No full score or piano edition collation.",
+  "provenance_caution": "Official repository link has inconsistent bibliographic itemId parameter; separate link audit required. PDF identity relies on retained linked bytes and actual score image, not treating item10198 as matching catalogue.",
+  "scope": "No fitting/scoring/admission;27-readable-reference screen coverage does not include technical-blockedSatie37;12 archive forms do not mean12 independent works."
+}

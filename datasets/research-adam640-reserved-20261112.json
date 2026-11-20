@@ -1,0 +1,82 @@
+{
+  "acquired_at_utc": "2026-11-12T11:08:48.682270+00:00",
+  "work_id": "mutopia-640",
+  "title": "Minuit Chr\u00e9tiens (Cantique de No\u00ebl)",
+  "composer": "Adolphe Adam (1803-1856)",
+  "contributor": "G\u00e9rard Gr\u00e9co",
+  "arrangement": "Voice and piano; no separate modern arranger named. Historical Grus voice incipit verified; Greco is enteredby/maintainer and independently listed as editor. No new arrangement presumed.",
+  "composition_rights": {
+    "status": "historical-public-domain-supported",
+    "evidence": "1847 composition; composer died1856. Independent Grus sixth edition catalogued ca1852 and scanned notation verified."
+  },
+  "encoding_rights": {
+    "status": "PD-dedication-supported",
+    "license": "Public Domain legacy dedication, not CC0",
+    "evidence": "LilyPond header license=Public Domain; tagline explicitly This sheet music has been placed in the public domain by the typesetter; exact MIDI linked on same Mutopia page."
+  },
+  "historical_verification": {
+    "url": "https://s9.imslp.org/files/imglnks/usimg/4/43/IMSLP416408-PMLP07252-Adam_-_Cantique_de_No%C3%ABl_-_vpf-6ed-BDH.pdf",
+    "catalog_url": "https://imslp.org/wiki/Cantique_de_No%C3%ABl_(Adam,_Adolphe)",
+    "library_catalog": "https://bdh.bne.es/bnesearch/detalle/bdh0000060491",
+    "edition": "Paris L\u00e9on Grus sixth edition, plate L.G.1365bis, undated ca1852 (catalog date, not printed date)",
+    "observed": "PDF cover names Adam and Grus and sixth edition. PDF p2 plate L.G.1365bis, C major/common-time vocal line starts full-bar rest, then quarter rest+dotted-eighth rest+E4 sixteenth, tied E4 quarter+dotted eighth, G4 sixteenth. Matches LilyPond opening. Checked incipit, not exhaustive note-by-note edition collation.",
+    "restriction": "Historic scan retained as evidence only; no scan/raw MIDI external redistribution."
+  },
+  "urls": {
+    "ly": "https://www.mutopiaproject.org/ftp/AdamA/minuit_chretiens/minuit_chretiens.ly",
+    "mid": "https://www.mutopiaproject.org/ftp/AdamA/minuit_chretiens/minuit_chretiens.mid"
+  },
+  "page_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=640",
+  "technical": {
+    "status": "accepted-existing-overlap-reader",
+    "track": 2,
+    "notes": 98,
+    "ppq": 384,
+    "meter_map": [
+      {
+        "tick": 0,
+        "numerator": 4,
+        "denominator": 4,
+        "clocks_per_click": 18,
+        "notated_32nd_notes_per_beat": 8
+      }
+    ],
+    "total_ticks": 40704,
+    "source_total_ticks": 49152,
+    "tempo_map": [
+      [
+        0,
+        535714
+      ]
+    ],
+    "volume_map": [],
+    "first_onset": 2208,
+    "origin_ticks": 0,
+    "pickup": "No partial; full bar rest then r4+r8. before first E4 at1536+672=2208. No MIDI-only leading silence inferred.",
+    "overlapping_pairs": 4,
+    "ly_graces": "acciaccatura at vocal bars10 and22 preserved in original MIDI; no cleanup.",
+    "modeled_roundtrip": true,
+    "selected_sha256": "ae1179c013196d726aa2645dc0335f4d4fe4e2cf283144cb38df37d7780a670a"
+  },
+  "recommendation": "Reserved for a separately predeclared family/similarity screen and predictive experiment. No fitting or scoring in cycle16.",
+  "excluded_candidates": {
+    "586": "Grieg but Daniel Johnson contributor overlaps580/583; not new contributor.",
+    "1361": "Alyabyev but Daniel Johnson contributor overlaps580/583, underlying source unknown prerevolutionary Russian. No admission."
+  },
+  "sha256": {
+    "586-grieg-ich-liebe-dich.ly": "e90442062f5915fbca7f3bc787ce6e1824c0650ca53e8f4dc3522adbf706ab73",
+    "640.html": "9520aea25c754c26063b1a3b8503761735f67704fe2ab8aa0bcd0fa563ca4906",
+    "voice-list.html": "2593e0e94cf47901407de1891672be48635416c5838976c2d6b004638f4a9b6b",
+    "586-grieg-ich-liebe-dich.mid": "dc758a0b481832f2f883e9b5d278046f3f21bccdb9ec92ce147ceed588143e65",
+    "586.html": "3ded55b070e08f142de2681e1a02c743b6740447cb220e54de01f53ac09649b4",
+    "adam-grus-1852.pdf": "95ab4a1825b9bfe887d7b584e1eff83654e7c3cec98a3a7875c9da0dec40bb49",
+    "1361-alyabyev-cherubic.ly": "f70a0110d2795414d49cfde57fc2a4e82b87b6dc562a28b07d67cf42931163de",
+    "historical-url.txt": "0ae89399257774aab2324f46a3720c0d265e383b3fcfa779332cdf89f3c11441",
+    "imslp-adam.html": "e1faaca6e43671ba154306b42e3cd9266bc09ddb19ff97527446255c87490aac",
+    "1361.html": "b1e80c5ea67d49f8104492db4f089192cd9999a39fd3f9cf05039d3d6440ea84",
+    "640-minuit_chretiens.ly": "87d8e75787261504ba111364d625d04bbda429d2c3e95badeab1f0ce42ab0d3d",
+    "640-minuit_chretiens.mid": "13ec851eb00ca9aba345cad50f03bdb3b189f566f38d094a1e6b839765b3d678",
+    "1361-alyabyev-cherubic.mid": "24c6c4c8deaf179571186cc71cf15186ef097174f6fcb769644d3f30701afc07"
+  },
+  "status": "rights-reviewed representation-inspected, reserved untrained predictive-unscored; not untouched"
+}

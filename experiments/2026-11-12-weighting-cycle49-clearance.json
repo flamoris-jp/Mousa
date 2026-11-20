@@ -1,0 +1,5 @@
+{
+  "approved": true,
+  "plan_sha256": "5cb0bfeebc6a684efe37898dfcbb3c8cb6b70268bbac26ad9eed2b5115e498ac",
+  "review": "18 fixed works; three weighted laws; 36 candidates; 23 identical copy-only references; source/pool laws checked, 7 synthetic tests independently rerun. CPU60, preserve all failures. Not paired RNG causality, independent music or appeal proof."
+}

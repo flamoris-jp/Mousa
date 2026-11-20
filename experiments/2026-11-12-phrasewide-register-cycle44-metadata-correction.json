@@ -1,0 +1,13 @@
+{
+  "kind": "metadata_key_label_correction_only",
+  "old_verification_sha256": "fe082914ff2d2df03e8b77b56408911dab1fa1234ab336f7a10ca8f05dc64a94",
+  "new_verification_sha256": "af32e6fa885e660ef8df9dec70837abb2148d17ba90b6421a5c3c187be9ea3b7",
+  "old_key": "old_control_fixed_complete_state_equal",
+  "new_key": "old_control_greedy_complete_state_equal",
+  "reason": "Verification actually asserts Cycle43 control and nearest_octave/greedy equality, not the fixed+2 arm.",
+  "evidence": "Audited verification script asserts current comparison.nearest_octave == prior comparison.nearest_octave for all5 seeds.",
+  "results_unchanged": true,
+  "code_and_plans_unchanged": true,
+  "original_snapshot_preserved": true,
+  "original_snapshot_manifest_sha256": "5111fe7a9ed6c2f8e3d940d34d8916c038818146a279697bc0a3c92583650162"
+}

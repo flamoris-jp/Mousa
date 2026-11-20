@@ -1,0 +1,82 @@
+{
+  "cycle": 34,
+  "kind": "metadata-only",
+  "files": [
+    {
+      "path": "experiments/2026-11-12-group-onset-final2-plan.json",
+      "sha256": "a02a87a014edf080d5734ee3e6f2546f9960a36146208d0ee3a815a9e1f85037",
+      "bytes": 8634
+    },
+    {
+      "path": "experiments/2026-11-12-group-onset-clearance.json",
+      "sha256": "41000eb012acfec16c6a67b51b320540f72ef90499e99f71364e3d8429c51672",
+      "bytes": 473
+    },
+    {
+      "path": "experiments/2026-11-12-group-onset-independent-model-review.json",
+      "sha256": "fd0cea96d2ee55b8f506d1fb0e198c7f907d71d81eb2d90a5a66c4efd80cd96d",
+      "bytes": 1730
+    },
+    {
+      "path": "experiments/2026-11-12-group-onset-results.json",
+      "sha256": "86f66318c09f85f4169e8028a3ba935f2360d1dc0f472ba4659fd5621f6e051a",
+      "bytes": 15843
+    },
+    {
+      "path": "experiments/2026-11-12-group-onset-repeat-verification.json",
+      "sha256": "8d6f4d7a2dc80a326915a35b6b5245ae1963bb6ba84c5714dbaeb2540b1c7c58",
+      "bytes": 3665
+    },
+    {
+      "path": "datasets/research-group-onset-usage-cycle34-20261112.json",
+      "sha256": "f19afc5ab4d05774f4444f66a58a041f7d5f6d00079df4c14b8c2af62e975aa8",
+      "bytes": 2957
+    }
+  ],
+  "original_media_included": false,
+  "generated_notes_included": false,
+  "upload_performed": false,
+  "training_materials_changed": false,
+  "private_candidates": [
+    {
+      "candidate": "global-0-private.json",
+      "sha256": "609bc9a507126a20b6141b3c6bd93dd4b141fbff36c48d329d66cecb9c94b6ac"
+    },
+    {
+      "candidate": "global-1-private.json",
+      "sha256": "92e767fde5cbf448ee5b7c62afeb883ad0ea03f70e60ef18b1af7e9e1c4325a6"
+    },
+    {
+      "candidate": "global-2-private.json",
+      "sha256": "a912eac1f8f8fcedc015b26ab2592b8a119c256fef6afc96b7ba8df347499666"
+    },
+    {
+      "candidate": "global-3-private.json",
+      "sha256": "dcdda94663b2dfdf0af20420ca03ac825d5ec2ba4b779995d377308037f4aa9a"
+    },
+    {
+      "candidate": "global-4-private.json",
+      "sha256": "3465457ffb14ccdc09592cfc0fef2b5091205ca77d68c359a29546aaf30bf916"
+    },
+    {
+      "candidate": "previous_cardinality_k4-0-private.json",
+      "sha256": "ff2e2b762c9994fc10263230f3cefad9c9036d63de56c06baa289d70b540055e"
+    },
+    {
+      "candidate": "previous_cardinality_k4-1-private.json",
+      "sha256": "f02ee9a6a9c7b79cfba29b507f1db368e5ba869e1a777e8ee32f6601ecf1568a"
+    },
+    {
+      "candidate": "previous_cardinality_k4-2-private.json",
+      "sha256": "b1c023ed6d16764d0f7050cf45f8d3fb6bd6ada950aa77d4f5ad230e17798c5a"
+    },
+    {
+      "candidate": "previous_cardinality_k4-3-private.json",
+      "sha256": "0b2f2c371a551bbd2e77684fe65c9e821cc2f4e7c21ca5a3dd0e72b316d80d0e"
+    },
+    {
+      "candidate": "previous_cardinality_k4-4-private.json",
+      "sha256": "5b2ad831659e1b4ba3e11024c94b963b8e1db08187d9f123afc75586bae14518"
+    }
+  ]
+}

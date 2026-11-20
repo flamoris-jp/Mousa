@@ -1,0 +1,12 @@
+{
+  "work_id": "mutopia-804",
+  "source_sha256": "365dc51f22f89c005d71343df592d9b08fdc314042027989557f1eebcd8bc107",
+  "state": "independent-evaluation-blocked-before-scoring",
+  "model_fit": false,
+  "model_score": false,
+  "rights_snapshot": "datasets/research-clementi804-reserved-20261112.json",
+  "independent_screen": "experiments/2026-11-12-clementi804-independent-screen.json",
+  "reason": "Fixed eight-onset interval screen flags training376 and observed2245, among other references. No threshold relaxation or predictive scoring.",
+  "interpretation": "Rights remain reviewed, but independent evaluation is not admitted under the fixed conservative rule. Short pattern matches are not plagiarism judgments.",
+  "family_policy": "All movements, hands and alternate editions remain one composition/contributor family. Do not substitute a sibling as a fresh unrelated evaluation work."
+}

@@ -1,0 +1,438 @@
+{
+  "created_at_utc": "2026-11-12T11:32:22.359556+00:00",
+  "scope": "Read-only source comparison, no model fit or predictive score. Includes quarantined metadata-only candidates without granting learning permission.",
+  "candidate": {
+    "id": 1692,
+    "track": 1,
+    "notes": 192,
+    "sha256": "1e874885b369855fa948121e0635921a2debc6199a6fc251d85347f6678e26af"
+  },
+  "thresholds": {
+    "exact8_interval_matches_stop": 1,
+    "whole_interval_similarity_stop": 0.8,
+    "rhythm": "Exact seven transition tuples(pitch interval, rational onset delta /PPQ); no quantization"
+  },
+  "comparisons": [
+    {
+      "reference": "376",
+      "sha256": "b02e65def39bab988838d3d2e82ad9763f1b5b6b71b5a4c70e8f7b6d12eece8c",
+      "track": 1,
+      "notes": 159,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "whole_interval_similarity": 0.3089005235602095,
+      "flagged": false
+    },
+    {
+      "reference": "888",
+      "sha256": "6e097cb82d30524335a19a2adb1cbf79cf6b070f7059182f0dc9d34ca3fc3848",
+      "track": 1,
+      "notes": 38,
+      "exact8_interval_matches": 1,
+      "exact8_interval_rational_onset_matches": 0,
+      "whole_interval_similarity": 0.15706806282722519,
+      "flagged": true
+    },
+    {
+      "reference": "889",
+      "sha256": "cc45d10d7c21e858f37d4096979d4706bcfcaec400ef89abc1ac66378d51faa1",
+      "track": 1,
+      "notes": 47,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "whole_interval_similarity": 0.17801047120418845,
+      "flagged": false
+    },
+    {
+      "reference": "789",
+      "sha256": "f849eace28acf450e306803203499aed4830cfba1a5cb8fe0953f594be15ffb9",
+      "track": 1,
+      "notes": 120,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "whole_interval_similarity": 0.2774869109947644,
+      "flagged": false
+    },
+    {
+      "reference": "2247",
+      "sha256": "bd6524f98752dd9190376e29dd0bce82d5bd5e57dcdbd549687e7836629434ff",
+      "track": 1,
+      "notes": 33,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "whole_interval_similarity": 0.1465968586387435,
+      "flagged": false
+    },
+    {
+      "reference": "2245",
+      "sha256": "f4d0789f098b122d48789f80382d4eacbc577f1a4c058a14921b3c0f96466d3d",
+      "track": 1,
+      "notes": 46,
+      "exact8_interval_matches": 1,
+      "exact8_interval_rational_onset_matches": 0,
+      "whole_interval_similarity": 0.18324607329842935,
+      "flagged": true
+    },
+    {
+      "reference": "1578",
+      "sha256": "6cf3c60882c186ec642383caf4c5b265778d53159225b56dc121c4b595cdaf9d",
+      "track": 1,
+      "notes": 170,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "whole_interval_similarity": 0.2984293193717278,
+      "flagged": false
+    },
+    {
+      "reference": "1558",
+      "sha256": "50a29ba4579b984c24b2e13ec4fafb08c468c6c5db6bd9313d9134b00cf8e8c9",
+      "track": 1,
+      "notes": 289,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "whole_interval_similarity": 0.29513888888888884,
+      "flagged": false
+    },
+    {
+      "reference": "1585",
+      "sha256": "b0f8bb73e26ceaf153ce333468f4f41e3279760a3f9d3c551fda7ea496f3590f",
+      "track": 1,
+      "notes": 100,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "whole_interval_similarity": 0.2198952879581152,
+      "flagged": false
+    },
+    {
+      "reference": "1587",
+      "sha256": "ead79c2eaca7f75bc6cfbc7a141c62d873cd7a4fca217fc31c056945fde1c46e",
+      "track": 1,
+      "notes": 108,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "whole_interval_similarity": 0.2931937172774869,
+      "flagged": false
+    },
+    {
+      "reference": "370",
+      "sha256": "3235864dce0f7a59f1eb348bda55065263c0366267e32f27ce6240c9dde3f6b5",
+      "track": 1,
+      "notes": 108,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "whole_interval_similarity": 0.2827225130890052,
+      "flagged": false
+    },
+    {
+      "reference": "580",
+      "sha256": "dcd5efac22b5e91b7c87685058784396adb9ec5d69915764265ad68158dbb6e1",
+      "track": 1,
+      "notes": 92,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "whole_interval_similarity": 0.24083769633507857,
+      "flagged": false
+    },
+    {
+      "reference": "583",
+      "sha256": "631bcd481e09c1493191959ec3264c3513c4a93177ffc6d833dea4f4952b659b",
+      "track": 1,
+      "notes": 80,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "whole_interval_similarity": 0.22513089005235598,
+      "flagged": false
+    },
+    {
+      "reference": "640",
+      "sha256": "13ec851eb00ca9aba345cad50f03bdb3b189f566f38d094a1e6b839765b3d678",
+      "track": 2,
+      "notes": 98,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "whole_interval_similarity": 0.25654450261780104,
+      "flagged": false
+    },
+    {
+      "reference": "1019",
+      "sha256": "66e827779d0f289f43d2b8bdfaeba85cc5701919cfdc9326527ac9c3b9e0cf13",
+      "track": 2,
+      "notes": 41,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "whole_interval_similarity": 0.17801047120418845,
+      "flagged": false
+    },
+    {
+      "reference": "1020",
+      "sha256": "cced946d103b67871daa4edc79a46dc68da96434b88ea9971790368e22880265",
+      "track": 2,
+      "notes": 44,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "whole_interval_similarity": 0.18324607329842935,
+      "flagged": false
+    },
+    {
+      "reference": "1534",
+      "sha256": "5f7763dd4d29f309cac6d670c22aa029aca23c8c97743a0511d4b9c6d3435f1c",
+      "track": 1,
+      "notes": 149,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "whole_interval_similarity": 0.26178010471204194,
+      "flagged": false
+    },
+    {
+      "reference": "252",
+      "sha256": "fc9128836bba01a31d93f153dc504739b8f3037c68dd7f8e89da1c51d045b3d8",
+      "track": 1,
+      "notes": 225,
+      "exact8_interval_matches": 1,
+      "exact8_interval_rational_onset_matches": 1,
+      "whole_interval_similarity": 0.2723214285714286,
+      "flagged": true
+    },
+    {
+      "reference": "1040",
+      "sha256": "c23c9ad4a9604cc0cdd502689c37c95a194c5b1d0bd21dd75ad6e6832bf0d692",
+      "track": 1,
+      "notes": 49,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "whole_interval_similarity": 0.18324607329842935,
+      "flagged": false
+    },
+    {
+      "reference": "268",
+      "sha256": "6846ff8e8ecaf7d5b5a3234e3a0261e4bf77935de14298bf8d6ab3f7e481ee39",
+      "track": 1,
+      "notes": 94,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "whole_interval_similarity": 0.24607329842931935,
+      "flagged": false
+    },
+    {
+      "reference": "586",
+      "sha256": "dc758a0b481832f2f883e9b5d278046f3f21bccdb9ec92ce147ceed588143e65",
+      "track": 1,
+      "status": "technical-screen-unavailable",
+      "reason": "conflicting same-tick volume declarations"
+    },
+    {
+      "reference": "1361",
+      "sha256": "24c6c4c8deaf179571186cc71cf15186ef097174f6fcb769644d3f30701afc07",
+      "track": 1,
+      "notes": 144,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "whole_interval_similarity": 0.33507853403141363,
+      "flagged": false
+    },
+    {
+      "reference": "885-Sonata_1-2",
+      "sha256": "023a579d2449386377a30ffde1c6e8f9e0b02b6a6fb0da11321c53b0011221ff",
+      "track": 1,
+      "notes": 137,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "whole_interval_similarity": 0.2722513089005235,
+      "flagged": false
+    },
+    {
+      "reference": "885-Sonata_1-3",
+      "sha256": "00de0e13aef487666d06f202cb4c6b685569f54a820934d0ca5598e6616efa31",
+      "track": 1,
+      "notes": 346,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "whole_interval_similarity": 0.24637681159420288,
+      "flagged": false
+    },
+    {
+      "reference": "885-Sonata_1-1",
+      "sha256": "127762afbcdbd7b34fa2b1fca97cf17de7890c687589e601a3cfc5cbc74ebadf",
+      "track": 1,
+      "notes": 427,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "whole_interval_similarity": 0.21361502347417838,
+      "flagged": false
+    },
+    {
+      "reference": "885-Sonata_1",
+      "sha256": "af210d48e2192ccaad8244b2054c78493800754640f37b998eeb19cd54bb79e2",
+      "track": 1,
+      "notes": 318,
+      "exact8_interval_matches": 0,
+      "exact8_interval_rational_onset_matches": 0,
+      "whole_interval_similarity": 0.25867507886435326,
+      "flagged": false
+    }
+  ],
+  "any_similarity_flag": true,
+  "unavailable_references": [
+    "586"
+  ],
+  "family_review": {
+    "versus_train_and_observed": "Telemann/Perez distinct from named composers and contributors in trained/observed corpus; no identified historical edition overlap.",
+    "reserved_overlap": "Pending885 is also Telemann: MUST group composer-family, not call1692 independent of885. Different contributionLaurentClaessens does not remove composer overlap.885 has no predictive model score known.",
+    "split_rule": "All1692 movements, both parts, transpositions and any885 admitted later remain same composer-family holdout; no training/selection crossing.",
+    "unknowns": "Anonymous2247/2245 contributors preclude absolute identity exclusion. SharedMutopia/LilyPond pipeline remains.",
+    "rights": "Previous exact PD-dedication plus historical recorder edition review retained; no new rights inferred for quarantined references."
+  },
+  "rights_ledger_sha256": "4dbf7274bdeee1d04d8fd22a52a8a5b0ed44674c6189ab63ffe08b922b841114",
+  "status": "blocked",
+  "flagged": true,
+  "screen_threshold": 0.8,
+  "source_sha256": "1e874885b369855fa948121e0635921a2debc6199a6fc251d85347f6678e26af",
+  "match_diagnostics": [
+    {
+      "reference": "888",
+      "seven_interval_pattern": [
+        5,
+        0,
+        -1,
+        0,
+        -2,
+        0,
+        -2
+      ],
+      "candidate_occurrences": [
+        {
+          "zero_based_onset_index": 45,
+          "start_tick": 7872,
+          "end_onset_tick": 8544,
+          "onset_deltas_in_quarters": [
+            "1/4",
+            "1/4",
+            "1/4",
+            "1/4",
+            "1/4",
+            "1/4",
+            "1/4"
+          ]
+        }
+      ],
+      "reference_occurrences": [
+        {
+          "zero_based_onset_index": 15,
+          "start_tick": 4032,
+          "end_onset_tick": 6336,
+          "onset_deltas_in_quarters": [
+            "3/2",
+            "1",
+            "1/2",
+            "1",
+            "1/2",
+            "1",
+            "1/2"
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "2245",
+      "seven_interval_pattern": [
+        -2,
+        -1,
+        -2,
+        -2,
+        -2,
+        -1,
+        -2
+      ],
+      "candidate_occurrences": [
+        {
+          "zero_based_onset_index": 17,
+          "start_tick": 2496,
+          "end_onset_tick": 3168,
+          "onset_deltas_in_quarters": [
+            "1/4",
+            "1/4",
+            "1/4",
+            "1/4",
+            "1/4",
+            "1/4",
+            "1/4"
+          ]
+        }
+      ],
+      "reference_occurrences": [
+        {
+          "zero_based_onset_index": 36,
+          "start_tick": 19200,
+          "end_onset_tick": 22272,
+          "onset_deltas_in_quarters": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "252",
+      "seven_interval_pattern": [
+        0,
+        -2,
+        0,
+        -1,
+        0,
+        -2,
+        -2
+      ],
+      "candidate_occurrences": [
+        {
+          "zero_based_onset_index": 35,
+          "start_tick": 6432,
+          "end_onset_tick": 7104,
+          "onset_deltas_in_quarters": [
+            "1/4",
+            "1/4",
+            "1/4",
+            "1/4",
+            "1/4",
+            "1/4",
+            "1/4"
+          ]
+        }
+      ],
+      "reference_occurrences": [
+        {
+          "zero_based_onset_index": 64,
+          "start_tick": 14304,
+          "end_onset_tick": 14976,
+          "onset_deltas_in_quarters": [
+            "1/4",
+            "1/4",
+            "1/4",
+            "1/4",
+            "1/4",
+            "1/4",
+            "1/4"
+          ]
+        }
+      ]
+    }
+  ],
+  "decision": "Fixed exact8 interval threshold triggers stop. No predictive clearance, no threshold relaxation. Different rhythm does not waive pitch-only stop rule; matches are not proof of copying.",
+  "rights_recheck": {
+    "verified_original_hashes": {
+      "1692/Duett-Telemann.mid": "1e874885b369855fa948121e0635921a2debc6199a6fc251d85347f6678e26af",
+      "1692/Duett-Telemann-lys.zip": "f96449648348fe4e288cb0233c43846f89d4f983e35fc7e712f8ae2a3b4112b4",
+      "1692/Duett-Telemann-mids.zip": "f2c282ddf76a7bdf2e50370890a8227b85db78dc9b26ad48f6c3c35ef5223e6e",
+      "1728-lection1-5.pdf": "9ced8fcbb70adf10296c086afb5bb4274b8ea775227cd19976dc95ca720b6dba",
+      "1692/original-tree/Duett-Telemann-lys/Duett-Telemann.ly": "96e64f37fa6fea9ed0757e838e62daa371d4645e7725b6d282bc3d9d97e7988f",
+      "1692/original-tree/Duett-Telemann-lys/1-Affetuoso/Recorder1.ly": "825403bead32ed8966787338c93d4449c7665383d2f3d4629cbbadd3d6bbef02"
+    },
+    "dedication_rechecked": "Exact original main LilyPond identifies Juanma Perez, Public Domain, and explicit typesetter dedication. Original nested Affetuoso score retains r8 d16 ees f8 f c d16 ees f8 f.",
+    "edition_evidence": "Unchanged first-edition scan printedpage12, recorder Frenchviolin-clef/Bflat option and Affettuoso incipit previously visually inspected. No newarrangement permission inferred.",
+    "result": "Rights basis unchanged; predictive admission blocked by independent similarity gate, not a claim of copyright infringement."
+  }
+}

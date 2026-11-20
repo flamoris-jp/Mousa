@@ -1,0 +1,193 @@
+{
+  "status": "pass",
+  "normalized_reports_equal_excluding_cpu": true,
+  "initial_cpu_seconds": 0.14052926600000004,
+  "repeat_cpu_seconds": 0.142135505,
+  "candidates": [
+    {
+      "candidate": "global-0-private.json",
+      "sha256": "4c5733c9d3c9f3de532d2af8927eff75f19d849ad9788a3eebed7870546fcdb4",
+      "notes": 35,
+      "groups": 27,
+      "all_fields_reconstructed": true,
+      "independent_per_tick_occupancy_oracle": true
+    },
+    {
+      "candidate": "global-1-private.json",
+      "sha256": "2a6ff0b455e4896196b118de747aab1b941af9de115c47c136748e7a400466e8",
+      "notes": 44,
+      "groups": 38,
+      "all_fields_reconstructed": true,
+      "independent_per_tick_occupancy_oracle": true
+    },
+    {
+      "candidate": "global-2-private.json",
+      "sha256": "53a13f6f8101b23b3599f155a99bfb0ce18ca12a295ee8a3bf4d9b03579d4239",
+      "notes": 33,
+      "groups": 26,
+      "all_fields_reconstructed": true,
+      "independent_per_tick_occupancy_oracle": true
+    },
+    {
+      "candidate": "global-3-private.json",
+      "sha256": "00dee332d62e385362864e109208abdb740b2b863f4b84b7901c9d37b340135a",
+      "notes": 39,
+      "groups": 35,
+      "all_fields_reconstructed": true,
+      "independent_per_tick_occupancy_oracle": true
+    },
+    {
+      "candidate": "global-4-private.json",
+      "sha256": "0f7384c3eafc2f37eeb6b559326964f939aab0da4c00861e6fdd584cd1bc440b",
+      "notes": 44,
+      "groups": 34,
+      "all_fields_reconstructed": true,
+      "independent_per_tick_occupancy_oracle": true
+    },
+    {
+      "candidate": "cardinality-0-private.json",
+      "sha256": "33a8c72b36607326cf0242aa606d7004021ee3e160ba499239ab3c9d86fe8fbc",
+      "notes": 22,
+      "groups": 15,
+      "all_fields_reconstructed": true,
+      "independent_per_tick_occupancy_oracle": true
+    },
+    {
+      "candidate": "cardinality-1-private.json",
+      "sha256": "26dea7b32290216745c2973010fbf010555512fef829ab7c12f7feac0543bb34",
+      "notes": 49,
+      "groups": 40,
+      "all_fields_reconstructed": true,
+      "independent_per_tick_occupancy_oracle": true
+    },
+    {
+      "candidate": "cardinality-2-private.json",
+      "sha256": "c5df1afd9a49855504f0db2368d2ed3c5b193e6dacd9d374d45a96a8bce0b64f",
+      "notes": 31,
+      "groups": 25,
+      "all_fields_reconstructed": true,
+      "independent_per_tick_occupancy_oracle": true
+    },
+    {
+      "candidate": "cardinality-3-private.json",
+      "sha256": "425ebfb1fa862d283fc9da61912f2c191030bc7c80433fc59a0a9e2bb245499d",
+      "notes": 46,
+      "groups": 40,
+      "all_fields_reconstructed": true,
+      "independent_per_tick_occupancy_oracle": true
+    },
+    {
+      "candidate": "cardinality-4-private.json",
+      "sha256": "7a316be8d33b1db6e383974ed1b40ab270f23fac8dbd1a71da5d02ab5c864f34",
+      "notes": 53,
+      "groups": 43,
+      "all_fields_reconstructed": true,
+      "independent_per_tick_occupancy_oracle": true
+    },
+    {
+      "candidate": "previous_max_gate_binned-0-private.json",
+      "sha256": "4a07c7aa42458fdec91693ad31fe4dcb12804f6ae1e5e5104532c6a6d6303761",
+      "notes": 38,
+      "groups": 26,
+      "all_fields_reconstructed": true,
+      "independent_per_tick_occupancy_oracle": true
+    },
+    {
+      "candidate": "previous_max_gate_binned-1-private.json",
+      "sha256": "6edc07dcc35f2ad66beb2e5ee7e7545a18a6db2c80e9872f14a22a83afb1c8c4",
+      "notes": 35,
+      "groups": 29,
+      "all_fields_reconstructed": true,
+      "independent_per_tick_occupancy_oracle": true
+    },
+    {
+      "candidate": "previous_max_gate_binned-2-private.json",
+      "sha256": "2faa553304e9cb1e5cc891025f31740db03e8f36d0b8eb67c504440fded120e1",
+      "notes": 31,
+      "groups": 24,
+      "all_fields_reconstructed": true,
+      "independent_per_tick_occupancy_oracle": true
+    },
+    {
+      "candidate": "previous_max_gate_binned-3-private.json",
+      "sha256": "725406eaadd34b010b2f6e3228bff3465ffd5b26407da38777e9be473cbacd4e",
+      "notes": 15,
+      "groups": 12,
+      "all_fields_reconstructed": true,
+      "independent_per_tick_occupancy_oracle": true
+    },
+    {
+      "candidate": "previous_max_gate_binned-4-private.json",
+      "sha256": "2f42f1d962f1dc9ec50da3a7827195db9906e9cecedb8853c1e7b8ca9a778076",
+      "notes": 37,
+      "groups": 30,
+      "all_fields_reconstructed": true,
+      "independent_per_tick_occupancy_oracle": true
+    },
+    {
+      "candidate": "active_horizon_binned-0-private.json",
+      "sha256": "ea38fbb84bbf9298650b68e671bbeefc7e24dd3cdfe25c5ce1d431b423700483",
+      "notes": 38,
+      "groups": 26,
+      "all_fields_reconstructed": true,
+      "independent_per_tick_occupancy_oracle": true
+    },
+    {
+      "candidate": "active_horizon_binned-1-private.json",
+      "sha256": "4db2bb4b02c4652b405436c63dd193d7c9e8af5fc29fb802af15208f1d9a888a",
+      "notes": 42,
+      "groups": 33,
+      "all_fields_reconstructed": true,
+      "independent_per_tick_occupancy_oracle": true
+    },
+    {
+      "candidate": "active_horizon_binned-2-private.json",
+      "sha256": "6ec8d832443987ac1c762f592f9686a2963a97c7c9ee9ee6ba8ca1adbae01a95",
+      "notes": 31,
+      "groups": 24,
+      "all_fields_reconstructed": true,
+      "independent_per_tick_occupancy_oracle": true
+    },
+    {
+      "candidate": "active_horizon_binned-3-private.json",
+      "sha256": "f135e60b14ee92483b3dac8586764ab09f5f72c02ac9ae0c455492a2f6f98eb8",
+      "notes": 34,
+      "groups": 31,
+      "all_fields_reconstructed": true,
+      "independent_per_tick_occupancy_oracle": true
+    },
+    {
+      "candidate": "active_horizon_binned-4-private.json",
+      "sha256": "ee30b3aae4094eba3ac920c1ad3bc4e7d9043a74080c68f552b9f61b8e3518a9",
+      "notes": 43,
+      "groups": 36,
+      "all_fields_reconstructed": true,
+      "independent_per_tick_occupancy_oracle": true
+    }
+  ],
+  "controls": [
+    {
+      "arm": "global",
+      "cycle36_condition": "works17_first65536_global",
+      "byte_equal_candidates": 5,
+      "prediction_abs_tolerance": 1e-12,
+      "prediction_roundoff_note": "Cardinality later NLL sums differ by <=6e-14;per-group <=1e-15;global JSON exact."
+    },
+    {
+      "arm": "cardinality",
+      "cycle36_condition": "works17_first65536_context",
+      "byte_equal_candidates": 5,
+      "prediction_abs_tolerance": 1e-12,
+      "prediction_roundoff_note": "Cardinality later NLL sums differ by <=6e-14;per-group <=1e-15;global JSON exact."
+    }
+  ],
+  "originals_unchanged_both": true,
+  "conditional_initial_allarms_equal": true,
+  "common_complete_seed_ids": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ]
+}

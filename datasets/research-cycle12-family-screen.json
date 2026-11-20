@@ -1,0 +1,137 @@
+{
+  "protocol": {
+    "created_before_computing": true,
+    "exact_match_onsets": 8,
+    "interval_window": 7,
+    "near_duplicate_global_edit_similarity_min": 0.8,
+    "similarity": "1-LevenshteinDistance/max(interval_sequence_lengths)",
+    "ordering": "canonical(start,end,pitch); reject ambiguous simultaneousonsets for thisscanner",
+    "rhythm": "exact Fraction(inter-onset ticks,PPQ),noquantization",
+    "action": "anyexact8pitchinterval or globalnearflag stopsadmission pendingreview",
+    "scope": "four frozen trainingworks vs580 only;no modelscore/supporttuning"
+  },
+  "files": {
+    "376": {
+      "sha256": "b02e65def39bab988838d3d2e82ad9763f1b5b6b71b5a4c70e8f7b6d12eece8c",
+      "track": 1,
+      "note_count": 159,
+      "ppq": 384
+    },
+    "888": {
+      "sha256": "6e097cb82d30524335a19a2adb1cbf79cf6b070f7059182f0dc9d34ca3fc3848",
+      "track": 1,
+      "note_count": 38,
+      "ppq": 384
+    },
+    "889": {
+      "sha256": "cc45d10d7c21e858f37d4096979d4706bcfcaec400ef89abc1ac66378d51faa1",
+      "track": 1,
+      "note_count": 47,
+      "ppq": 384
+    },
+    "789": {
+      "sha256": "f849eace28acf450e306803203499aed4830cfba1a5cb8fe0953f594be15ffb9",
+      "track": 1,
+      "note_count": 120,
+      "ppq": 384
+    },
+    "580": {
+      "sha256": "dcd5efac22b5e91b7c87685058784396adb9ec5d69915764265ad68158dbb6e1",
+      "track": 1,
+      "note_count": 92,
+      "ppq": 384
+    }
+  },
+  "results": [
+    {
+      "train_id": 376,
+      "test_id": 580,
+      "interval_counts": [
+        91,
+        158
+      ],
+      "exact8_pitchinterval_matches": [],
+      "exact8_pitchrhythm_matches": [],
+      "longest_contiguous_interval_match": [
+        4,
+        12,
+        49
+      ],
+      "global_edit_distance": 118,
+      "global_edit_similarity": 0.25316455696202533,
+      "near_duplicate_flag": false,
+      "stop_flag": false,
+      "parent_threshold_090_flag": false
+    },
+    {
+      "train_id": 888,
+      "test_id": 580,
+      "interval_counts": [
+        91,
+        37
+      ],
+      "exact8_pitchinterval_matches": [],
+      "exact8_pitchrhythm_matches": [],
+      "longest_contiguous_interval_match": [
+        2,
+        10,
+        14
+      ],
+      "global_edit_distance": 75,
+      "global_edit_similarity": 0.17582417582417587,
+      "near_duplicate_flag": false,
+      "stop_flag": false,
+      "parent_threshold_090_flag": false
+    },
+    {
+      "train_id": 889,
+      "test_id": 580,
+      "interval_counts": [
+        91,
+        46
+      ],
+      "exact8_pitchinterval_matches": [],
+      "exact8_pitchrhythm_matches": [],
+      "longest_contiguous_interval_match": [
+        4,
+        5,
+        28
+      ],
+      "global_edit_distance": 72,
+      "global_edit_similarity": 0.20879120879120883,
+      "near_duplicate_flag": false,
+      "stop_flag": false,
+      "parent_threshold_090_flag": false
+    },
+    {
+      "train_id": 789,
+      "test_id": 580,
+      "interval_counts": [
+        91,
+        119
+      ],
+      "exact8_pitchinterval_matches": [],
+      "exact8_pitchrhythm_matches": [],
+      "longest_contiguous_interval_match": [
+        3,
+        8,
+        39
+      ],
+      "global_edit_distance": 93,
+      "global_edit_similarity": 0.2184873949579832,
+      "near_duplicate_flag": false,
+      "stop_flag": false,
+      "parent_threshold_090_flag": false
+    }
+  ],
+  "any_stop_flag": false,
+  "limitations": [
+    "Intervalscreen ignorespitchregister,tempo,timbre,metadata.",
+    "Exactpitchintervalmatches can be conventionalphrase,falsepositivesrequirehumanreview.",
+    "Globaledit similarity may misslocalapproximatequotes;localexact8screendoesnotcatchreordered/ornamented/transformedquotes.",
+    "No allwebcorpuscomparison;no claim of originality or statisticalgeneralization.",
+    "580 previouslyrepresentationinspected,notuntouchedevaluation."
+  ],
+  "family_review": "No composer/arranger/contributor identity overlap from exactsourcecredits. 580Brahms/DanielJohnson/UniversitySociety;traintraditional/Dana,Broadwood,FullerMaitland,Holst;contributorsStanSanderson,NigelHolmes. CommonMutopia/LilyPondplatform remains;583 samecontributor/edition family reserved.",
+  "parent_predeclared_near_duplicate_threshold": 0.9
+}

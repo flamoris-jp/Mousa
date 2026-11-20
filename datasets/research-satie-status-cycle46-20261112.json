@@ -1,0 +1,34 @@
+{
+  "reviewed_utc": "2026-11-12T17:55:08.436945+00:00",
+  "rights_ledger_sha256": "f2b902059ded2dd67d655f783d6fc22148808c3b61dabc4d4cffc26b5d31dc64",
+  "screen_sha256": "3d5a4f0378cfe80399ada1b50fe99000df75d8be632906670216b5d5fae37b69",
+  "candidates": [
+    {
+      "id": "37",
+      "status": "rights-reviewed technical-blocked",
+      "reason": "track1 unmatched note-offs; no repaired replacement or alternate-track intake",
+      "fit": false,
+      "score": false,
+      "screen": "not performed; technically inadmissible"
+    },
+    {
+      "id": "38",
+      "status": "rights-reviewed fixed-screen-blocked",
+      "reason": "exact8 interval intersection1 against trained904; not a copying/copyright determination",
+      "reference_count": 26,
+      "rule_unchanged": true,
+      "fit": false,
+      "score": false
+    }
+  ],
+  "training_unchanged": {
+    "works": 18,
+    "notes": 5512
+  },
+  "cohort": "BothSatie/Robertson/Doveroriginal-reproduction; no split between siblings",
+  "limitations": [
+    "Minimal incipit verified, not complete critical edition collation",
+    "MIDI uppertrack contains accompaniment; interval event-order screen is not inferred voice comparison",
+    "No quality evaluation or human preference recorded"
+  ]
+}

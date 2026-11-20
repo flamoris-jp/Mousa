@@ -1,0 +1,16 @@
+{
+  "status": "cleared",
+  "source_sha256": "13ec851eb00ca9aba345cad50f03bdb3b189f566f38d094a1e6b839765b3d678",
+  "flagged": false,
+  "screen_threshold": 0.8,
+  "independent_screen_sha256": "43def7c6946caea681d8f36968f6410cf17c8be18f64f698b105bf7ce33cf931",
+  "independent_screen_reference": "datasets/research-adam640-prescore-screen-20261112.json",
+  "authorization": "Independent family/similarity review passed before fixed-plan scoring; no retuning.",
+  "caveats": [
+    "2247/2245 anonymous contributorunknown",
+    "sharedMutopia pipeline"
+  ],
+  "recorded_initial_clearance_sha256": "de08f781f671ff0777e64d7f8150e73a5b79b8da5737e90bf4148fa0ab1a1789",
+  "public_screen_sha256": "daa72aea21ac0017cfa45335aa62e78ce398e379a470c3a139b0a53ffa64653a",
+  "note": "Public wording/path-normalized clearance view. Reproduction with this view changes clearance metadata digest, not model scores; initial report retains the original digest."
+}

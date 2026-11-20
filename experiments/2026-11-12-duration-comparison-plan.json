@@ -1,0 +1,17 @@
+{
+  "status": "predeclared synthetic contract experiment; not a new held-out music evaluation",
+  "version": 1,
+  "task": "Predict one event duration, without splitting or rounding events",
+  "canonical_unit": "quarter note",
+  "common_support": {"ppq": 384, "minimum_ticks": 1, "maximum_ticks": 12288},
+  "prior": {"type": "uniform over the fixed common support", "total_mass": 1.0},
+  "representations": ["reduced rational quarter duration", "integer ticks at fixed PPQ 384"],
+  "comparison": "Bijective labels for the same outcomes must yield identical per-event likelihood, support coverage and seeded generated tick sequences. This is representation equivalence, not a superior musical model.",
+  "coarse_control": "Sixteenth-only durations are a restricted-support baseline. Report exact coverage and excluded outcomes; do not compare its finite conditional NLL to the full-support NLL or round excluded events.",
+  "unknown_policy": "Unseen representable duration gets positive prior mass; incompatible denominator, zero, negative and over-limit durations rejected explicitly. No UNK token is converted into an arbitrary duration.",
+  "generation": "Condition on positive durations fitting the remaining exact target length; record this as constrained distribution. Do not score held-out targets with target-dependent remaining-length masks unless the same information is supplied to all models.",
+  "future_corpus_protocol": "Freeze support, training-only counts, source-family split, prior and generation constraints before opening any genuinely unobserved eligible source. Report out-of-support rate separately; do not tune the support from test durations.",
+  "observed_do_not_relabel": ["mutopia-2247", "mutopia-2245", "mutopia-1578", "mutopia-1558", "mutopia-370"],
+  "unscored_but_correlated": ["mutopia-1585", "mutopia-1587"],
+  "nonclaims": ["musical appeal", "independent composer-and-contributor generalization", "new melody generator", "human preference", "runtime superiority from serialized byte size"]
+}

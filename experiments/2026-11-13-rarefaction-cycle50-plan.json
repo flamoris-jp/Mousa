@@ -1,0 +1,11 @@
+{
+  "schema": "mousa-exploratory-rarefaction-v1",
+  "cycle": 50,
+  "question": "How much of the Cycle49 distinct-pitch gap remains when descriptive note-count sampling size is equal?",
+  "scope": "Read only all 36 already-observed Cycle49 private outputs; no fitting, generation, held-out scoring or copy re-clearance.",
+  "sampling_sizes": [4, 8, 16],
+  "formula": "Sum over distinct exact MIDI pitch values (not octave pitch-classes): 1 - C(N-count_pitch,k)/C(N,k). This is expected distinct exact pitches in a uniform k-note subset without replacement.",
+  "missing": "N<k gives explicit ineligible status, never replaced or pooled as zero. Retain all 36 rows and report eligible denominators.",
+  "interpretation": "Exploratory post hoc descriptor, not causal estimate, model selection, inferential statistical test, melody order or attractiveness. k=4 is chosen knowing the smallest Cycle49 output had four notes. k=8/16 show eligibility effects. No new independently held-out data.",
+  "verification": "Source byte hashes must match Cycle49 reproduction ledger; check exact formula against exhaustive synthetic subsets and retain all source hashes. No generated note sequences included in report."
+}

@@ -1,0 +1,155 @@
+{
+  "cycle": 45,
+  "kind": "immutable_metadata_only_snapshot",
+  "files": [
+    {
+      "relative_path": "experiments/2026-11-12-weighted-maple-cycle45-before-fit.json",
+      "bytes": 1697,
+      "sha256": "79986ce961cbaa5faecb3f009eea488d4c742426762f5140282e5a8865601071"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-weighted-maple-cycle45-clearance.json",
+      "bytes": 233,
+      "sha256": "e96899ef5dbc6038df40d84a2b7382c0e4ec4dca6adf346d83d64ed1641d0fd9"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-weighted-maple-cycle45-final-plan.json",
+      "bytes": 56817,
+      "sha256": "156d2a29de9140f25b34f2a6025bcef63cc2b3ca5f0c63ec91d4bd05b074c6f8"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-weighted-maple-cycle45-final2-plan.json",
+      "bytes": 57458,
+      "sha256": "07e0d775fb2c26c6b41aa9fb8767afe08cea625931e7bd2789da8c0eda5fa313"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-weighted-maple-cycle45-final3-plan.json",
+      "bytes": 57713,
+      "sha256": "46a86195521dd5cd994c273535b0700573fd1dfbb5a3ccf2193a6ab1748c2660"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-weighted-maple-cycle45-final4-plan.json",
+      "bytes": 57826,
+      "sha256": "882a6d62ec19c3400a5d2dabf9a7028f1919182b5872749168e032ab3b42864d"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-weighted-maple-cycle45-fit-journal.json",
+      "bytes": 3413,
+      "sha256": "650f8177761ea593af88ce9b8f80e55a4ac230f4110e0f82f7f00aeb97285e59"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-weighted-maple-cycle45-independent-profile.json",
+      "bytes": 379,
+      "sha256": "8df9fb4b6513e00faf3d506551f262ed6cadb8fb2854d5b66990447bb83876e0"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-weighted-maple-cycle45-independent-results.json",
+      "bytes": 415,
+      "sha256": "3101373793753e665dd418c303c54fa15c0e4a3b4c418a6553d41f301eca4850"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-weighted-maple-cycle45-independent-structure.json",
+      "bytes": 317,
+      "sha256": "eaa11653a0a362a58c9dc222627ba34b5d465fa7d29b251088e40736a6c2dd8f"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-weighted-maple-cycle45-overview.md",
+      "bytes": 6093,
+      "sha256": "2b016dfcf8f1b6c004ba9a4a4572a204a24bf4d9b1580cb75a9604227a0eb26f"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-weighted-maple-cycle45-paired-diagnostic.json",
+      "bytes": 13452,
+      "sha256": "63e519e0fb2d62f6beef15386493a6edbc2f246331ef33ba7a28becdb137f27d"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-weighted-maple-cycle45-plan.json",
+      "bytes": 56556,
+      "sha256": "73f5b833d37dccc7d094c17e6c321f8d6adfd1a08cf10a52b7f7229144642eab"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-weighted-maple-cycle45-profile-proposal.json",
+      "bytes": 1614,
+      "sha256": "6817ef7e7be57a5b81c840982428e905adbe40de9874e47fd946b7f50a51a180"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-weighted-maple-cycle45-results.json",
+      "bytes": 121772,
+      "sha256": "dc4ba78e6d1e5146a7c6fa0275c77383f982b49f1da6832348d125f1253abed8"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-weighted-maple-cycle45-seed-audit.json",
+      "bytes": 599,
+      "sha256": "1a7660c363db9fa620bc9b2877f2607f21a0b151a14a7c04310f9ef3673e16f7"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-weighted-maple-cycle45-structure-amendment.json",
+      "bytes": 613,
+      "sha256": "ad36931f3662496d6303ce3bdb7ccd947ea012cb7ed1abb23205dae51879504c"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-weighted-maple-cycle45-structure-summary.json",
+      "bytes": 3447,
+      "sha256": "11add2c03b15aca914a90398f987381581abfa459dd0af9ddc27a67fc29e0fea"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-weighted-maple-cycle45-verification.json",
+      "bytes": 4942,
+      "sha256": "dc5508b5216f9bad495c36ae6e6dd513e1b2a724a9ebc8c855b9283492129c87"
+    },
+    {
+      "relative_path": "src/mousa/weighted_group_cycle45.py",
+      "bytes": 8921,
+      "sha256": "e20fb010b009bfea85988ece6cc108f0941cd892b15439fbfb0d12747c42503f"
+    },
+    {
+      "relative_path": "src/mousa/group_structure_cycle45.py",
+      "bytes": 3128,
+      "sha256": "723cf3647d98c96f369cab459e9114d8dc9a7b72d46740f632d1c23956c2d8b2"
+    },
+    {
+      "relative_path": "tools/compare_weighted_maple_cycle45.py",
+      "bytes": 12710,
+      "sha256": "fb96bea3aa04a4bb06e641c1fe677687acb0e15937587f2ae72aba030e544318"
+    },
+    {
+      "relative_path": "tests/test_weighted_group_cycle45.py",
+      "bytes": 2824,
+      "sha256": "c2ecd9ecfbf93626b39e32aa0ee6fa7f5a5a5345d7a4d45ae4e367dc893a271c"
+    },
+    {
+      "relative_path": "tests/test_group_structure_cycle45.py",
+      "bytes": 1709,
+      "sha256": "979536a98d011d46d55d5d8bac283ed9d9b33f0e7da9361c4c6ee02fa7c80370"
+    },
+    {
+      "relative_path": "tests/test_weighted_maple_cycle45_driver.py",
+      "bytes": 1717,
+      "sha256": "173cbf2f91b3f78b354759989dcddb59f1e75767f3877236c5f1045b07cff4ec"
+    },
+    {
+      "relative_path": "datasets/research-maple-training-assignment-cycle45-20261112.json",
+      "bytes": 3276,
+      "sha256": "9643b23a6385b47284f3d1a5a305a8d24f51838406a246875d341a6c69c0e12b"
+    },
+    {
+      "relative_path": "datasets/research-maple-training-use-cycle45-20261112.json",
+      "bytes": 2305,
+      "sha256": "8c7cf3a0a44a60311d9fce88de1ce55d2ff8a6284d217c3d450b0cfadcda59f2"
+    },
+    {
+      "relative_path": "datasets/research-linked-family-audit-cycle45-20261112.json",
+      "bytes": 11705,
+      "sha256": "d5b77e7d10bb3ff3972d0ddac0a461f5062291d95d7ad4175aa69855ee46fa13"
+    }
+  ],
+  "file_count": 28,
+  "total_bytes": 493651,
+  "raw_notes_included": false,
+  "media_included": false,
+  "uploaded": false,
+  "unique_paths_asserted": true,
+  "all_hashes_verified": true,
+  "original_MIDI_not_resent": true,
+  "manifest_sha256": "93a2283fdfae6e4c663ffa6b405bfb7d2d9d9871341398c81555eec67804cbbc"
+}

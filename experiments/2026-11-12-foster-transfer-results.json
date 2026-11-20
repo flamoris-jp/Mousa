@@ -1,0 +1,818 @@
+{
+  "plan": {
+    "freeze_sha256": "4e353f1c181437ecd43a44c2e23a8b2f62bd68a1cd08022a7975252037e188cc",
+    "manifest_sha256": "f075804c974c6987e342b62d9caf98c209c631efd8ea7bd74d434bd6ff17b4eb",
+    "new_intake_code_sha256": "7272d6c6f4b9f565d0861c32be0f2aa178246932f1a52e749a5d1cb9bcee930b",
+    "driver_sha256": "81921719c3c28609b18c6158583adfa1c57a2a68d2b2afbd39cabb1848835c5d",
+    "approximate_screen_sha256": "a238a5a441002051da71a1dcc2fdb2893cd1a39b71314aa0ca5ce16412e064c4",
+    "approximate_threshold": 0.9,
+    "minimum_intervals": 16,
+    "note": "No parameter selection or refitting from heldout scores."
+  },
+  "intake": {
+    "mutopia-376": {
+      "source_sha256": "b02e65def39bab988838d3d2e82ad9763f1b5b6b71b5a4c70e8f7b6d12eece8c",
+      "projection_transposition": 3,
+      "notes": 159,
+      "steps": 652,
+      "events": 173,
+      "grid_diagnostic": {
+        "boundary_count": 319,
+        "off_grid_count": 0,
+        "max_tick_error": "0",
+        "mean_tick_error": "0",
+        "collapsed_notes_if_rounded": 0,
+        "min_exact_steps_per_quarter": 4,
+        "rounding_rule": "nearest sixteenth; ties upward; diagnostic only",
+        "tempo_map_ignored_by_rhythm_tokens": true,
+        "volume_map_ignored_by_rhythm_tokens": true,
+        "program_map_ignored_by_rhythm_tokens": true
+      },
+      "exact_tick_roundtrip": true,
+      "independent_channel_event_order_equal": true,
+      "projected_performance_dimensions": "tempo/volume/program/velocity excluded from tokens; preserved in tick melody and original"
+    },
+    "mutopia-2247": {
+      "source_sha256": "bd6524f98752dd9190376e29dd0bce82d5bd5e57dcdbd549687e7836629434ff",
+      "projection_transposition": 0,
+      "notes": 33,
+      "steps": 256,
+      "events": 36,
+      "grid_diagnostic": {
+        "boundary_count": 67,
+        "off_grid_count": 0,
+        "max_tick_error": "0",
+        "mean_tick_error": "0",
+        "collapsed_notes_if_rounded": 0,
+        "min_exact_steps_per_quarter": 2,
+        "rounding_rule": "nearest sixteenth; ties upward; diagnostic only",
+        "tempo_map_ignored_by_rhythm_tokens": true,
+        "volume_map_ignored_by_rhythm_tokens": true,
+        "program_map_ignored_by_rhythm_tokens": true
+      },
+      "exact_tick_roundtrip": true,
+      "independent_channel_event_order_equal": true,
+      "projected_performance_dimensions": "tempo/volume/program/velocity excluded from tokens; preserved in tick melody and original"
+    },
+    "mutopia-2245": {
+      "source_sha256": "f4d0789f098b122d48789f80382d4eacbc577f1a4c058a14921b3c0f96466d3d",
+      "projection_transposition": 3,
+      "notes": 46,
+      "steps": 248,
+      "events": 51,
+      "grid_diagnostic": {
+        "boundary_count": 93,
+        "off_grid_count": 0,
+        "max_tick_error": "0",
+        "mean_tick_error": "0",
+        "collapsed_notes_if_rounded": 0,
+        "min_exact_steps_per_quarter": 2,
+        "rounding_rule": "nearest sixteenth; ties upward; diagnostic only",
+        "tempo_map_ignored_by_rhythm_tokens": true,
+        "volume_map_ignored_by_rhythm_tokens": true,
+        "program_map_ignored_by_rhythm_tokens": true
+      },
+      "exact_tick_roundtrip": true,
+      "independent_channel_event_order_equal": true,
+      "projected_performance_dimensions": "tempo/volume/program/velocity excluded from tokens; preserved in tick melody and original"
+    },
+    "mutopia-888": {
+      "source_sha256": "6e097cb82d30524335a19a2adb1cbf79cf6b070f7059182f0dc9d34ca3fc3848",
+      "projection_transposition": 0,
+      "notes": 38,
+      "steps": 120,
+      "events": 38,
+      "grid_diagnostic": {
+        "boundary_count": 77,
+        "off_grid_count": 0,
+        "max_tick_error": "0",
+        "mean_tick_error": "0",
+        "collapsed_notes_if_rounded": 0,
+        "min_exact_steps_per_quarter": 2,
+        "rounding_rule": "nearest sixteenth; ties upward; diagnostic only",
+        "tempo_map_ignored_by_rhythm_tokens": true,
+        "volume_map_ignored_by_rhythm_tokens": true,
+        "program_map_ignored_by_rhythm_tokens": true
+      },
+      "exact_tick_roundtrip": true,
+      "independent_channel_event_order_equal": true,
+      "projected_performance_dimensions": "tempo/volume/program/velocity excluded from tokens; preserved in tick melody and original"
+    },
+    "mutopia-889": {
+      "source_sha256": "cc45d10d7c21e858f37d4096979d4706bcfcaec400ef89abc1ac66378d51faa1",
+      "projection_transposition": -2,
+      "notes": 47,
+      "steps": 120,
+      "events": 48,
+      "grid_diagnostic": {
+        "boundary_count": 95,
+        "off_grid_count": 0,
+        "max_tick_error": "0",
+        "mean_tick_error": "0",
+        "collapsed_notes_if_rounded": 0,
+        "min_exact_steps_per_quarter": 4,
+        "rounding_rule": "nearest sixteenth; ties upward; diagnostic only",
+        "tempo_map_ignored_by_rhythm_tokens": true,
+        "volume_map_ignored_by_rhythm_tokens": true,
+        "program_map_ignored_by_rhythm_tokens": true
+      },
+      "exact_tick_roundtrip": true,
+      "independent_channel_event_order_equal": true,
+      "projected_performance_dimensions": "tempo/volume/program/velocity excluded from tokens; preserved in tick melody and original"
+    },
+    "mutopia-789": {
+      "source_sha256": "f849eace28acf450e306803203499aed4830cfba1a5cb8fe0953f594be15ffb9",
+      "projection_transposition": 1,
+      "notes": 120,
+      "steps": 394,
+      "events": 130,
+      "grid_diagnostic": {
+        "boundary_count": 241,
+        "off_grid_count": 0,
+        "max_tick_error": "0",
+        "mean_tick_error": "0",
+        "collapsed_notes_if_rounded": 0,
+        "min_exact_steps_per_quarter": 4,
+        "rounding_rule": "nearest sixteenth; ties upward; diagnostic only",
+        "tempo_map_ignored_by_rhythm_tokens": true,
+        "volume_map_ignored_by_rhythm_tokens": true,
+        "program_map_ignored_by_rhythm_tokens": true
+      },
+      "exact_tick_roundtrip": true,
+      "independent_channel_event_order_equal": true,
+      "projected_performance_dimensions": "tempo/volume/program/velocity excluded from tokens; preserved in tick melody and original"
+    },
+    "mutopia-1578": {
+      "source_sha256": "6cf3c60882c186ec642383caf4c5b265778d53159225b56dc121c4b595cdaf9d",
+      "projection_transposition": -5,
+      "notes": 170,
+      "steps": 552,
+      "events": 180,
+      "grid_diagnostic": {
+        "boundary_count": 341,
+        "off_grid_count": 0,
+        "max_tick_error": "0",
+        "mean_tick_error": "0",
+        "collapsed_notes_if_rounded": 0,
+        "min_exact_steps_per_quarter": 4,
+        "rounding_rule": "nearest sixteenth; ties upward; diagnostic only",
+        "tempo_map_ignored_by_rhythm_tokens": true,
+        "volume_map_ignored_by_rhythm_tokens": true,
+        "program_map_ignored_by_rhythm_tokens": true
+      },
+      "exact_tick_roundtrip": true,
+      "independent_channel_event_order_equal": true,
+      "projected_performance_dimensions": "tempo/volume/program/velocity excluded from tokens; preserved in tick melody and original"
+    },
+    "mutopia-1558": {
+      "source_sha256": "50a29ba4579b984c24b2e13ec4fafb08c468c6c5db6bd9313d9134b00cf8e8c9",
+      "projection_transposition": -6,
+      "notes": 289,
+      "steps": 1324,
+      "events": 304,
+      "grid_diagnostic": {
+        "boundary_count": 579,
+        "off_grid_count": 0,
+        "max_tick_error": "0",
+        "mean_tick_error": "0",
+        "collapsed_notes_if_rounded": 0,
+        "min_exact_steps_per_quarter": 2,
+        "rounding_rule": "nearest sixteenth; ties upward; diagnostic only",
+        "tempo_map_ignored_by_rhythm_tokens": true,
+        "volume_map_ignored_by_rhythm_tokens": true,
+        "program_map_ignored_by_rhythm_tokens": true
+      },
+      "exact_tick_roundtrip": true,
+      "independent_channel_event_order_equal": true,
+      "projected_performance_dimensions": "tempo/volume/program/velocity excluded from tokens; preserved in tick melody and original"
+    },
+    "mutopia-370": {
+      "source_sha256": "3235864dce0f7a59f1eb348bda55065263c0366267e32f27ce6240c9dde3f6b5",
+      "projection_transposition": -3,
+      "notes": 108,
+      "steps": 384,
+      "events": 113,
+      "grid_diagnostic": {
+        "boundary_count": 217,
+        "off_grid_count": 0,
+        "max_tick_error": "0",
+        "mean_tick_error": "0",
+        "collapsed_notes_if_rounded": 0,
+        "min_exact_steps_per_quarter": 4,
+        "rounding_rule": "nearest sixteenth; ties upward; diagnostic only",
+        "tempo_map_ignored_by_rhythm_tokens": true,
+        "volume_map_ignored_by_rhythm_tokens": true,
+        "program_map_ignored_by_rhythm_tokens": true
+      },
+      "exact_tick_roundtrip": true,
+      "independent_channel_event_order_equal": true,
+      "projected_performance_dimensions": "tempo/volume/program/velocity excluded from tokens; preserved in tick melody and original"
+    }
+  },
+  "duplicate_checks": [
+    {
+      "a": "mutopia-2247",
+      "b": "mutopia-376",
+      "full_normalized_equal": false,
+      "shared_8_note_phrases": 0,
+      "interval_edit": {
+        "left_intervals": 32,
+        "right_intervals": 158,
+        "edit_distance": 129,
+        "normalized_similarity": 0.18354430379746833,
+        "comparable": true,
+        "rhythm_ignored": true,
+        "scope": "whole pitch-interval sequence, not perceptual similarity"
+      }
+    },
+    {
+      "a": "mutopia-2245",
+      "b": "mutopia-376",
+      "full_normalized_equal": false,
+      "shared_8_note_phrases": 0,
+      "interval_edit": {
+        "left_intervals": 45,
+        "right_intervals": 158,
+        "edit_distance": 127,
+        "normalized_similarity": 0.19620253164556967,
+        "comparable": true,
+        "rhythm_ignored": true,
+        "scope": "whole pitch-interval sequence, not perceptual similarity"
+      }
+    },
+    {
+      "a": "mutopia-2245",
+      "b": "mutopia-2247",
+      "full_normalized_equal": false,
+      "shared_8_note_phrases": 0,
+      "interval_edit": {
+        "left_intervals": 45,
+        "right_intervals": 32,
+        "edit_distance": 28,
+        "normalized_similarity": 0.37777777777777777,
+        "comparable": true,
+        "rhythm_ignored": true,
+        "scope": "whole pitch-interval sequence, not perceptual similarity"
+      }
+    },
+    {
+      "a": "mutopia-888",
+      "b": "mutopia-376",
+      "full_normalized_equal": false,
+      "shared_8_note_phrases": 0,
+      "interval_edit": {
+        "left_intervals": 37,
+        "right_intervals": 158,
+        "edit_distance": 130,
+        "normalized_similarity": 0.17721518987341767,
+        "comparable": true,
+        "rhythm_ignored": true,
+        "scope": "whole pitch-interval sequence, not perceptual similarity"
+      }
+    },
+    {
+      "a": "mutopia-888",
+      "b": "mutopia-2247",
+      "full_normalized_equal": false,
+      "shared_8_note_phrases": 0,
+      "interval_edit": {
+        "left_intervals": 37,
+        "right_intervals": 32,
+        "edit_distance": 28,
+        "normalized_similarity": 0.2432432432432432,
+        "comparable": true,
+        "rhythm_ignored": true,
+        "scope": "whole pitch-interval sequence, not perceptual similarity"
+      }
+    },
+    {
+      "a": "mutopia-888",
+      "b": "mutopia-2245",
+      "full_normalized_equal": false,
+      "shared_8_note_phrases": 0,
+      "interval_edit": {
+        "left_intervals": 37,
+        "right_intervals": 45,
+        "edit_distance": 36,
+        "normalized_similarity": 0.19999999999999996,
+        "comparable": true,
+        "rhythm_ignored": true,
+        "scope": "whole pitch-interval sequence, not perceptual similarity"
+      }
+    },
+    {
+      "a": "mutopia-889",
+      "b": "mutopia-376",
+      "full_normalized_equal": false,
+      "shared_8_note_phrases": 0,
+      "interval_edit": {
+        "left_intervals": 46,
+        "right_intervals": 158,
+        "edit_distance": 127,
+        "normalized_similarity": 0.19620253164556967,
+        "comparable": true,
+        "rhythm_ignored": true,
+        "scope": "whole pitch-interval sequence, not perceptual similarity"
+      }
+    },
+    {
+      "a": "mutopia-889",
+      "b": "mutopia-2247",
+      "full_normalized_equal": false,
+      "shared_8_note_phrases": 0,
+      "interval_edit": {
+        "left_intervals": 46,
+        "right_intervals": 32,
+        "edit_distance": 32,
+        "normalized_similarity": 0.30434782608695654,
+        "comparable": true,
+        "rhythm_ignored": true,
+        "scope": "whole pitch-interval sequence, not perceptual similarity"
+      }
+    },
+    {
+      "a": "mutopia-889",
+      "b": "mutopia-2245",
+      "full_normalized_equal": false,
+      "shared_8_note_phrases": 0,
+      "interval_edit": {
+        "left_intervals": 46,
+        "right_intervals": 45,
+        "edit_distance": 34,
+        "normalized_similarity": 0.26086956521739135,
+        "comparable": true,
+        "rhythm_ignored": true,
+        "scope": "whole pitch-interval sequence, not perceptual similarity"
+      }
+    },
+    {
+      "a": "mutopia-889",
+      "b": "mutopia-888",
+      "full_normalized_equal": false,
+      "shared_8_note_phrases": 0,
+      "interval_edit": {
+        "left_intervals": 46,
+        "right_intervals": 37,
+        "edit_distance": 31,
+        "normalized_similarity": 0.32608695652173914,
+        "comparable": true,
+        "rhythm_ignored": true,
+        "scope": "whole pitch-interval sequence, not perceptual similarity"
+      }
+    },
+    {
+      "a": "mutopia-789",
+      "b": "mutopia-376",
+      "full_normalized_equal": false,
+      "shared_8_note_phrases": 0,
+      "interval_edit": {
+        "left_intervals": 119,
+        "right_intervals": 158,
+        "edit_distance": 107,
+        "normalized_similarity": 0.32278481012658233,
+        "comparable": true,
+        "rhythm_ignored": true,
+        "scope": "whole pitch-interval sequence, not perceptual similarity"
+      }
+    },
+    {
+      "a": "mutopia-789",
+      "b": "mutopia-2247",
+      "full_normalized_equal": false,
+      "shared_8_note_phrases": 0,
+      "interval_edit": {
+        "left_intervals": 119,
+        "right_intervals": 32,
+        "edit_distance": 95,
+        "normalized_similarity": 0.2016806722689075,
+        "comparable": true,
+        "rhythm_ignored": true,
+        "scope": "whole pitch-interval sequence, not perceptual similarity"
+      }
+    },
+    {
+      "a": "mutopia-789",
+      "b": "mutopia-2245",
+      "full_normalized_equal": false,
+      "shared_8_note_phrases": 0,
+      "interval_edit": {
+        "left_intervals": 119,
+        "right_intervals": 45,
+        "edit_distance": 92,
+        "normalized_similarity": 0.22689075630252098,
+        "comparable": true,
+        "rhythm_ignored": true,
+        "scope": "whole pitch-interval sequence, not perceptual similarity"
+      }
+    },
+    {
+      "a": "mutopia-789",
+      "b": "mutopia-888",
+      "full_normalized_equal": false,
+      "shared_8_note_phrases": 0,
+      "interval_edit": {
+        "left_intervals": 119,
+        "right_intervals": 37,
+        "edit_distance": 95,
+        "normalized_similarity": 0.2016806722689075,
+        "comparable": true,
+        "rhythm_ignored": true,
+        "scope": "whole pitch-interval sequence, not perceptual similarity"
+      }
+    },
+    {
+      "a": "mutopia-789",
+      "b": "mutopia-889",
+      "full_normalized_equal": false,
+      "shared_8_note_phrases": 0,
+      "interval_edit": {
+        "left_intervals": 119,
+        "right_intervals": 46,
+        "edit_distance": 87,
+        "normalized_similarity": 0.26890756302521013,
+        "comparable": true,
+        "rhythm_ignored": true,
+        "scope": "whole pitch-interval sequence, not perceptual similarity"
+      }
+    },
+    {
+      "a": "mutopia-1578",
+      "b": "mutopia-376",
+      "full_normalized_equal": false,
+      "shared_8_note_phrases": 0,
+      "interval_edit": {
+        "left_intervals": 169,
+        "right_intervals": 158,
+        "edit_distance": 117,
+        "normalized_similarity": 0.3076923076923077,
+        "comparable": true,
+        "rhythm_ignored": true,
+        "scope": "whole pitch-interval sequence, not perceptual similarity"
+      }
+    },
+    {
+      "a": "mutopia-1578",
+      "b": "mutopia-2247",
+      "full_normalized_equal": false,
+      "shared_8_note_phrases": 0,
+      "interval_edit": {
+        "left_intervals": 169,
+        "right_intervals": 32,
+        "edit_distance": 145,
+        "normalized_similarity": 0.14201183431952658,
+        "comparable": true,
+        "rhythm_ignored": true,
+        "scope": "whole pitch-interval sequence, not perceptual similarity"
+      }
+    },
+    {
+      "a": "mutopia-1578",
+      "b": "mutopia-2245",
+      "full_normalized_equal": false,
+      "shared_8_note_phrases": 0,
+      "interval_edit": {
+        "left_intervals": 169,
+        "right_intervals": 45,
+        "edit_distance": 141,
+        "normalized_similarity": 0.16568047337278102,
+        "comparable": true,
+        "rhythm_ignored": true,
+        "scope": "whole pitch-interval sequence, not perceptual similarity"
+      }
+    },
+    {
+      "a": "mutopia-1578",
+      "b": "mutopia-888",
+      "full_normalized_equal": false,
+      "shared_8_note_phrases": 0,
+      "interval_edit": {
+        "left_intervals": 169,
+        "right_intervals": 37,
+        "edit_distance": 138,
+        "normalized_similarity": 0.18343195266272194,
+        "comparable": true,
+        "rhythm_ignored": true,
+        "scope": "whole pitch-interval sequence, not perceptual similarity"
+      }
+    },
+    {
+      "a": "mutopia-1578",
+      "b": "mutopia-889",
+      "full_normalized_equal": false,
+      "shared_8_note_phrases": 0,
+      "interval_edit": {
+        "left_intervals": 169,
+        "right_intervals": 46,
+        "edit_distance": 134,
+        "normalized_similarity": 0.20710059171597628,
+        "comparable": true,
+        "rhythm_ignored": true,
+        "scope": "whole pitch-interval sequence, not perceptual similarity"
+      }
+    },
+    {
+      "a": "mutopia-1578",
+      "b": "mutopia-789",
+      "full_normalized_equal": false,
+      "shared_8_note_phrases": 0,
+      "interval_edit": {
+        "left_intervals": 169,
+        "right_intervals": 119,
+        "edit_distance": 121,
+        "normalized_similarity": 0.28402366863905326,
+        "comparable": true,
+        "rhythm_ignored": true,
+        "scope": "whole pitch-interval sequence, not perceptual similarity"
+      }
+    },
+    {
+      "a": "mutopia-1558",
+      "b": "mutopia-376",
+      "full_normalized_equal": false,
+      "shared_8_note_phrases": 0,
+      "interval_edit": {
+        "left_intervals": 288,
+        "right_intervals": 158,
+        "edit_distance": 201,
+        "normalized_similarity": 0.30208333333333337,
+        "comparable": true,
+        "rhythm_ignored": true,
+        "scope": "whole pitch-interval sequence, not perceptual similarity"
+      }
+    },
+    {
+      "a": "mutopia-1558",
+      "b": "mutopia-2247",
+      "full_normalized_equal": false,
+      "shared_8_note_phrases": 0,
+      "interval_edit": {
+        "left_intervals": 288,
+        "right_intervals": 32,
+        "edit_distance": 257,
+        "normalized_similarity": 0.10763888888888884,
+        "comparable": true,
+        "rhythm_ignored": true,
+        "scope": "whole pitch-interval sequence, not perceptual similarity"
+      }
+    },
+    {
+      "a": "mutopia-1558",
+      "b": "mutopia-2245",
+      "full_normalized_equal": false,
+      "shared_8_note_phrases": 0,
+      "interval_edit": {
+        "left_intervals": 288,
+        "right_intervals": 45,
+        "edit_distance": 246,
+        "normalized_similarity": 0.14583333333333337,
+        "comparable": true,
+        "rhythm_ignored": true,
+        "scope": "whole pitch-interval sequence, not perceptual similarity"
+      }
+    },
+    {
+      "a": "mutopia-1558",
+      "b": "mutopia-888",
+      "full_normalized_equal": false,
+      "shared_8_note_phrases": 0,
+      "interval_edit": {
+        "left_intervals": 288,
+        "right_intervals": 37,
+        "edit_distance": 253,
+        "normalized_similarity": 0.12152777777777779,
+        "comparable": true,
+        "rhythm_ignored": true,
+        "scope": "whole pitch-interval sequence, not perceptual similarity"
+      }
+    },
+    {
+      "a": "mutopia-1558",
+      "b": "mutopia-889",
+      "full_normalized_equal": false,
+      "shared_8_note_phrases": 0,
+      "interval_edit": {
+        "left_intervals": 288,
+        "right_intervals": 46,
+        "edit_distance": 244,
+        "normalized_similarity": 0.1527777777777778,
+        "comparable": true,
+        "rhythm_ignored": true,
+        "scope": "whole pitch-interval sequence, not perceptual similarity"
+      }
+    },
+    {
+      "a": "mutopia-1558",
+      "b": "mutopia-789",
+      "full_normalized_equal": false,
+      "shared_8_note_phrases": 0,
+      "interval_edit": {
+        "left_intervals": 288,
+        "right_intervals": 119,
+        "edit_distance": 219,
+        "normalized_similarity": 0.23958333333333337,
+        "comparable": true,
+        "rhythm_ignored": true,
+        "scope": "whole pitch-interval sequence, not perceptual similarity"
+      }
+    },
+    {
+      "a": "mutopia-1558",
+      "b": "mutopia-1578",
+      "full_normalized_equal": false,
+      "shared_8_note_phrases": 0,
+      "interval_edit": {
+        "left_intervals": 288,
+        "right_intervals": 169,
+        "edit_distance": 203,
+        "normalized_similarity": 0.29513888888888884,
+        "comparable": true,
+        "rhythm_ignored": true,
+        "scope": "whole pitch-interval sequence, not perceptual similarity"
+      }
+    },
+    {
+      "a": "mutopia-370",
+      "b": "mutopia-376",
+      "full_normalized_equal": false,
+      "shared_8_note_phrases": 0,
+      "interval_edit": {
+        "left_intervals": 107,
+        "right_intervals": 158,
+        "edit_distance": 108,
+        "normalized_similarity": 0.31645569620253167,
+        "comparable": true,
+        "rhythm_ignored": true,
+        "scope": "whole pitch-interval sequence, not perceptual similarity"
+      }
+    },
+    {
+      "a": "mutopia-370",
+      "b": "mutopia-2247",
+      "full_normalized_equal": false,
+      "shared_8_note_phrases": 0,
+      "interval_edit": {
+        "left_intervals": 107,
+        "right_intervals": 32,
+        "edit_distance": 81,
+        "normalized_similarity": 0.2429906542056075,
+        "comparable": true,
+        "rhythm_ignored": true,
+        "scope": "whole pitch-interval sequence, not perceptual similarity"
+      }
+    },
+    {
+      "a": "mutopia-370",
+      "b": "mutopia-2245",
+      "full_normalized_equal": false,
+      "shared_8_note_phrases": 0,
+      "interval_edit": {
+        "left_intervals": 107,
+        "right_intervals": 45,
+        "edit_distance": 79,
+        "normalized_similarity": 0.26168224299065423,
+        "comparable": true,
+        "rhythm_ignored": true,
+        "scope": "whole pitch-interval sequence, not perceptual similarity"
+      }
+    },
+    {
+      "a": "mutopia-370",
+      "b": "mutopia-888",
+      "full_normalized_equal": false,
+      "shared_8_note_phrases": 0,
+      "interval_edit": {
+        "left_intervals": 107,
+        "right_intervals": 37,
+        "edit_distance": 85,
+        "normalized_similarity": 0.20560747663551404,
+        "comparable": true,
+        "rhythm_ignored": true,
+        "scope": "whole pitch-interval sequence, not perceptual similarity"
+      }
+    },
+    {
+      "a": "mutopia-370",
+      "b": "mutopia-889",
+      "full_normalized_equal": false,
+      "shared_8_note_phrases": 0,
+      "interval_edit": {
+        "left_intervals": 107,
+        "right_intervals": 46,
+        "edit_distance": 84,
+        "normalized_similarity": 0.2149532710280374,
+        "comparable": true,
+        "rhythm_ignored": true,
+        "scope": "whole pitch-interval sequence, not perceptual similarity"
+      }
+    },
+    {
+      "a": "mutopia-370",
+      "b": "mutopia-789",
+      "full_normalized_equal": false,
+      "shared_8_note_phrases": 0,
+      "interval_edit": {
+        "left_intervals": 107,
+        "right_intervals": 119,
+        "edit_distance": 85,
+        "normalized_similarity": 0.2857142857142857,
+        "comparable": true,
+        "rhythm_ignored": true,
+        "scope": "whole pitch-interval sequence, not perceptual similarity"
+      }
+    },
+    {
+      "a": "mutopia-370",
+      "b": "mutopia-1578",
+      "full_normalized_equal": false,
+      "shared_8_note_phrases": 0,
+      "interval_edit": {
+        "left_intervals": 107,
+        "right_intervals": 169,
+        "edit_distance": 129,
+        "normalized_similarity": 0.23668639053254437,
+        "comparable": true,
+        "rhythm_ignored": true,
+        "scope": "whole pitch-interval sequence, not perceptual similarity"
+      }
+    },
+    {
+      "a": "mutopia-370",
+      "b": "mutopia-1558",
+      "full_normalized_equal": false,
+      "shared_8_note_phrases": 0,
+      "interval_edit": {
+        "left_intervals": 107,
+        "right_intervals": 288,
+        "edit_distance": 218,
+        "normalized_similarity": 0.24305555555555558,
+        "comparable": true,
+        "rhythm_ignored": true,
+        "scope": "whole pitch-interval sequence, not perceptual similarity"
+      }
+    }
+  ],
+  "models": {
+    "frozen-selected": {
+      "config": {
+        "relative": true,
+        "duration_prior": "empirical",
+        "meter_position": true,
+        "phrase_position": false,
+        "position_strength": 1
+      },
+      "works": {
+        "mutopia-370": {
+          "events": 113,
+          "correct_events": 17,
+          "correct_pitch_marginal": 26,
+          "correct_duration_marginal": 75,
+          "nll_per_event": 3.832388789463132,
+          "support_size": 3328
+        }
+      },
+      "one_correlated_family_work_mean_nll": 3.832388789463132
+    },
+    "position-no-shrinkage": {
+      "config": {
+        "relative": true,
+        "duration_prior": "empirical",
+        "meter_position": true,
+        "phrase_position": false,
+        "position_strength": 0
+      },
+      "works": {
+        "mutopia-370": {
+          "events": 113,
+          "correct_events": 10,
+          "correct_pitch_marginal": 20,
+          "correct_duration_marginal": 66,
+          "nll_per_event": 4.524360899374449,
+          "support_size": 3328
+        }
+      },
+      "one_correlated_family_work_mean_nll": 4.524360899374449
+    },
+    "melodic-control": {
+      "config": {
+        "relative": true,
+        "duration_prior": "empirical",
+        "meter_position": false,
+        "phrase_position": false,
+        "position_strength": 0
+      },
+      "works": {
+        "mutopia-370": {
+          "events": 113,
+          "correct_events": 30,
+          "correct_pitch_marginal": 42,
+          "correct_duration_marginal": 66,
+          "nll_per_event": 4.11116129277233,
+          "support_size": 3328
+        }
+      },
+      "one_correlated_family_work_mean_nll": 4.11116129277233
+    }
+  },
+  "status": "These works are now observed. No new training or parameter tuning performed.",
+  "scope": "One Foster composition; new composer, shared contributor Stan Sanderson with train376. Not unseen-contributor validation or broad generalization."
+}

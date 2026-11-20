@@ -1,0 +1,73 @@
+{
+  "reviewed_utc": "2026-11-12T17:05:51.100469+00:00",
+  "id": "mutopia-1540",
+  "title": "Elite Syncopations",
+  "composer": "Scott Joplin1868-1917",
+  "contributor": "Benjamin Bloomfield",
+  "status": "pending-historic-incipit-not-verified",
+  "rights": {
+    "composition": "1902Joplin, historicalPD supported by institutional catalogue",
+    "edition": "Source JohnStark&Son; MississippiStateUniversity CharlesHTempleton collection original1902, physical32278011445388, box137folder3; original score not obtained so incipit unverified",
+    "encoding": "ExactLY PublicDomain license and explicit publicdomain-by-typesetter footer; notCC0; individually linked MIDI acquired. Edition prerequisite still incomplete."
+  },
+  "family": "Same composer/Stark publisher as trained263, different contributor. Must link same composer/publisher cohort, not independent-composer evaluation.",
+  "evidence": [
+    {
+      "url": "https://www.mutopiaproject.org/ftp/JoplinS/EliteSyncopations/EliteSyncopations.ly",
+      "filename": "1540.ly",
+      "sha256": "d060d0567e563df78f8d7acd9cb5e8ea4682de90c9ffa86ef1c76792bcb3b8a3",
+      "bytes": 11868,
+      "acquired_date_utc": "2026-11-13"
+    },
+    {
+      "url": "https://www.mutopiaproject.org/ftp/JoplinS/EliteSyncopations/EliteSyncopations.mid",
+      "filename": "1540.mid",
+      "sha256": "28e41b9b3d0afd3de70c0de56dba9c34e4ff05b21a14939f0fdf0b181d856fc9",
+      "bytes": 18843,
+      "acquired_date_utc": "2026-11-13"
+    }
+  ],
+  "technical": [
+    {
+      "track": 1,
+      "status": "exact-reader-accepted",
+      "notes": 1159,
+      "first_onset": 0,
+      "eot": 113472,
+      "ppq": 384
+    },
+    {
+      "track": 2,
+      "status": "exact-reader-accepted",
+      "notes": 1079,
+      "first_onset": 1248,
+      "eot": 113472,
+      "ppq": 384
+    }
+  ],
+  "historical_routes": [
+    {
+      "url": "https://scholarsjunction.msstate.edu/cht-sheet-music/2555/",
+      "result": "Search reader retrieves institutional catalogue; directdownload/page403"
+    },
+    {
+      "url": "https://scholarsjunction.msstate.edu/cgi/viewcontent.cgi?article=3555&context=cht-sheet-music",
+      "result": "Webreader linkeddownload403; no score bytes received"
+    },
+    {
+      "url": "https://archive.org/metadata/imslp-syncopations-joplin-scott",
+      "result": "Archive search returned matchingitem, metadata acquisition tunnel403; original vs derivative PDF not established"
+    }
+  ],
+  "rejected_proof": "Wikimedia EliteSyncopations.pdf source describes1971/1981VeraBrodskyLawrence criticaledition; not accepted as historical1902scan or proofmoderneditionexpired.",
+  "screen": {
+    "status": "not-run-rights-prerequisites-incomplete",
+    "prospective_reference_count": 25,
+    "references": "17train+4observed640/921/21/1691+blocked1692/804/1741/532; no duplicates expected; exactset must be validated/frozen before actualscreen",
+    "threshold": "unchanged exact8 OR global>=.80"
+  },
+  "fit": false,
+  "score": false,
+  "admitted": false,
+  "storage": "metadata-only; acquired original MIDI/LY remain private pending, not training transfer"
+}

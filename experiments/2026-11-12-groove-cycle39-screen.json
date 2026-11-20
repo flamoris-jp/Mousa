@@ -1,0 +1,91 @@
+{
+  "plan_sha256": "4e4ed762ac0dcd5433a5d3af3ecb3b80f1b8b6ac208798c221839fe6882d2d02",
+  "status": "screen_clear_pending_profile_and_parent_review",
+  "fit_performed": false,
+  "new_predictive_score": false,
+  "source_roles_changed": false,
+  "inventory_count": 1150,
+  "inventory_events_verified": 446312,
+  "reserved_eval_count": 40,
+  "proposed_train_count": 59,
+  "proposed_train_events": 32504,
+  "additional_count": 24,
+  "per_training_drummer": [
+    {
+      "drummer": "drummer1",
+      "recordings": 10,
+      "events": 3693
+    },
+    {
+      "drummer": "drummer2",
+      "recordings": 10,
+      "events": 4828
+    },
+    {
+      "drummer": "drummer3",
+      "recordings": 10,
+      "events": 1162
+    },
+    {
+      "drummer": "drummer4",
+      "recordings": 9,
+      "events": 2227
+    },
+    {
+      "drummer": "drummer5",
+      "recordings": 10,
+      "events": 14401
+    },
+    {
+      "drummer": "drummer6",
+      "recordings": 10,
+      "events": 6193
+    }
+  ],
+  "unchanged_diagnostic_count": 16,
+  "unchanged_diagnostic_events": 11387,
+  "cross_comparisons": 40302,
+  "weak_or_strong_hits": 235,
+  "strong_selected_ids": [],
+  "cross_byte_groups": [],
+  "unsupported_selected_ids": [],
+  "within_training_pair_count": 1711,
+  "within_training_strong_candidates": [
+    {
+      "a": "drummer2/session2/7",
+      "b": "drummer2/session2/8",
+      "exact_byte": true,
+      "same_drummer": true,
+      "exact_onset_key": true,
+      "tempo_offset_normalized": true,
+      "shared_unique_windows": 289,
+      "a_unique_windows": 289,
+      "b_unique_windows": 289,
+      "union_unique_windows": 289,
+      "jaccard": 1.0,
+      "containment_a": 1.0,
+      "containment_b": 1.0,
+      "first_matching_event_indices": [
+        0,
+        0
+      ],
+      "matching_window_events": 8,
+      "strong_unresolved": true
+    }
+  ],
+  "model_profile_required": {
+    "work_cap": 60,
+    "event_cap": 60000,
+    "observed_training_events": 32504,
+    "existing_event_cap30000_sufficient": false,
+    "must_not_reuse_old35work30000event_constructor_silently": true
+  },
+  "cpu_seconds": 8.900569846,
+  "limitations": [
+    "This plan does not override the frozen model work/event caps. A separate reviewed profile is required before fittingup to60works/60000events.",
+    "Increasing recordings changes content/instrument/style/duration as well as counts; neither recording count nor split implies independent compositions.",
+    "Screening is bounded, not a proof of pattern independence or legal originality. Common eight-event matches need interpretation.",
+    "Same sixteen diagnostics already observed; no fresh-condition generalization claim.",
+    "No raw MIDI/audio uploaded or committed; original rights attribution remains unchanged."
+  ]
+}

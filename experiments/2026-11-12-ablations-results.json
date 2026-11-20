@@ -1,0 +1,514 @@
+{
+  "config": {
+    "order": 1,
+    "prior_mass": 1.0,
+    "duration_support": [
+      1,
+      128
+    ],
+    "pitch_tokens": [
+      -1,
+      2,
+      26
+    ],
+    "support_size": 3328,
+    "seeds": [
+      7,
+      17,
+      29
+    ],
+    "steps": 128,
+    "guard_phrase_notes": 8,
+    "manifest_sha256": "c301326f5c163d7ef6716e4641ab33a3c6a2e5c7f9af023e772d3ad5a7d4cd27",
+    "trial_commit": "83ca8d477b84a7a8ceff0d80e0af4050b5d27b37",
+    "source_hashes": {
+      "src/mousa/event_baseline.py": "4543dbe11fb0b49a23d5993b954fd090c6341140c1a97dbd101ba7d91465eaa7",
+      "src/mousa/factorized_baseline.py": "874bc5718a90576ab9a4761cada17181776fdc228ff4697cea5030bc5ddfd17d",
+      "src/mousa/midi_research_adapter.py": "d0420650c3a1cf578d472a61ecaa707d54545a087bd03d0d22ada1586d08c11c",
+      "src/mousa/melodic_event_model.py": "a6b42a7d3d426b9cf9dfff2c1c13d11db98b81dd1907e7e095250eccf19e7483",
+      "tools/compare_melodic_ablations.py": "e16a5683667f2f07cc936c96aee654b1b9c7aa899ba421f9d86006c577c20e08"
+    },
+    "role": "already-inspected three-work diagnostic, not sealed benchmark",
+    "hypothesis": "train-only duration priors prevent sparse samples; relative pitch contexts improve pitch prediction",
+    "comparison_warning": "Same fixed support as cycle 2; use marginal pitch/duration metrics, not joint-decoder components"
+  },
+  "models": {
+    "absolute-uniform": {
+      "metrics": {
+        "mutopia-376": {
+          "split": "train",
+          "events": 174,
+          "correct_events": 121,
+          "correct_pitch_marginal": 135,
+          "correct_duration_marginal": 149,
+          "nll_per_event": 1.1778969631621061,
+          "support_size": 3328
+        },
+        "mutopia-2247": {
+          "split": "dev",
+          "events": 36,
+          "correct_events": 0,
+          "correct_pitch_marginal": 2,
+          "correct_duration_marginal": 14,
+          "nll_per_event": 7.858887072741592,
+          "support_size": 3328
+        },
+        "mutopia-2245": {
+          "split": "test",
+          "events": 52,
+          "correct_events": 2,
+          "correct_pitch_marginal": 4,
+          "correct_duration_marginal": 27,
+          "nll_per_event": 8.116598955628572,
+          "support_size": 3328
+        }
+      },
+      "candidates": [
+        {
+          "seed": 7,
+          "status": "complete",
+          "rejections": 0,
+          "file": "absolute-uniform-seed-7.mid",
+          "sha256": "8787d0fdb01791da020c85aeedaff3f04a631b61b783793d4498ee2f73e0b1df",
+          "exact_roundtrip": true,
+          "steps": 128,
+          "note_onsets": 10,
+          "rest_steps": 10,
+          "distinct_pitch_tokens": 6,
+          "longest_exact_grid_run": 13,
+          "matching_8_note_phrases": 0,
+          "disposition": "research only; near-copy and human quality not cleared"
+        },
+        {
+          "seed": 17,
+          "status": "complete",
+          "rejections": 0,
+          "file": "absolute-uniform-seed-17.mid",
+          "sha256": "2534390f6d53fae906af471729c350979b2480978ac410d43af1ca0cd0d501fa",
+          "exact_roundtrip": true,
+          "steps": 128,
+          "note_onsets": 9,
+          "rest_steps": 0,
+          "distinct_pitch_tokens": 6,
+          "longest_exact_grid_run": 11,
+          "matching_8_note_phrases": 0,
+          "disposition": "research only; near-copy and human quality not cleared"
+        },
+        {
+          "seed": 29,
+          "status": "complete",
+          "rejections": 0,
+          "file": "absolute-uniform-seed-29.mid",
+          "sha256": "5ab92e7b9596eb629f55e6f882c5fcb44b64089b984a72961650f654b4010d1f",
+          "exact_roundtrip": true,
+          "steps": 128,
+          "note_onsets": 14,
+          "rest_steps": 3,
+          "distinct_pitch_tokens": 7,
+          "longest_exact_grid_run": 12,
+          "matching_8_note_phrases": 0,
+          "disposition": "research only; near-copy and human quality not cleared"
+        }
+      ],
+      "wall_seconds": 0.18844829399995433
+    },
+    "absolute-empirical": {
+      "metrics": {
+        "mutopia-376": {
+          "split": "train",
+          "events": 174,
+          "correct_events": 123,
+          "correct_pitch_marginal": 135,
+          "correct_duration_marginal": 149,
+          "nll_per_event": 1.1275440541215824,
+          "support_size": 3328
+        },
+        "mutopia-2247": {
+          "split": "dev",
+          "events": 36,
+          "correct_events": 0,
+          "correct_pitch_marginal": 2,
+          "correct_duration_marginal": 14,
+          "nll_per_event": 7.532465361608128,
+          "support_size": 3328
+        },
+        "mutopia-2245": {
+          "split": "test",
+          "events": 52,
+          "correct_events": 3,
+          "correct_pitch_marginal": 4,
+          "correct_duration_marginal": 29,
+          "nll_per_event": 7.3769354793479645,
+          "support_size": 3328
+        }
+      },
+      "candidates": [
+        {
+          "seed": 7,
+          "status": "complete",
+          "rejections": 0,
+          "file": "absolute-empirical-seed-7.mid",
+          "sha256": "fdab1db3cc31a25b51f01d2c2485be969cb14bd7c599ee14e68347bdf2b05864",
+          "exact_roundtrip": true,
+          "steps": 128,
+          "note_onsets": 37,
+          "rest_steps": 14,
+          "distinct_pitch_tokens": 12,
+          "longest_exact_grid_run": 20,
+          "matching_8_note_phrases": 0,
+          "disposition": "research only; near-copy and human quality not cleared"
+        },
+        {
+          "seed": 17,
+          "status": "complete",
+          "rejections": 0,
+          "file": "absolute-empirical-seed-17.mid",
+          "sha256": "0e41611aad6e1c199fbafff9e2f67545310b44ad9f219d7133c730437cd186d2",
+          "exact_roundtrip": true,
+          "steps": 128,
+          "note_onsets": 31,
+          "rest_steps": 8,
+          "distinct_pitch_tokens": 11,
+          "longest_exact_grid_run": 18,
+          "matching_8_note_phrases": 0,
+          "disposition": "research only; near-copy and human quality not cleared"
+        },
+        {
+          "seed": 29,
+          "status": "complete",
+          "rejections": 0,
+          "file": "absolute-empirical-seed-29.mid",
+          "sha256": "52d00fdf25c7dd4f48bb494e8dd72b0d7d548c9e9327cdf7892eb8320890e447",
+          "exact_roundtrip": true,
+          "steps": 128,
+          "note_onsets": 32,
+          "rest_steps": 15,
+          "distinct_pitch_tokens": 9,
+          "longest_exact_grid_run": 19,
+          "matching_8_note_phrases": 0,
+          "disposition": "research only; near-copy and human quality not cleared"
+        }
+      ],
+      "wall_seconds": 0.2156091220003873
+    },
+    "absolute-typed": {
+      "metrics": {
+        "mutopia-376": {
+          "split": "train",
+          "events": 174,
+          "correct_events": 123,
+          "correct_pitch_marginal": 135,
+          "correct_duration_marginal": 149,
+          "nll_per_event": 1.0562961660675323,
+          "support_size": 3328
+        },
+        "mutopia-2247": {
+          "split": "dev",
+          "events": 36,
+          "correct_events": 0,
+          "correct_pitch_marginal": 2,
+          "correct_duration_marginal": 14,
+          "nll_per_event": 9.284291863890251,
+          "support_size": 3328
+        },
+        "mutopia-2245": {
+          "split": "test",
+          "events": 52,
+          "correct_events": 1,
+          "correct_pitch_marginal": 4,
+          "correct_duration_marginal": 27,
+          "nll_per_event": 7.908949316677906,
+          "support_size": 3328
+        }
+      },
+      "candidates": [
+        {
+          "seed": 7,
+          "status": "complete",
+          "rejections": 0,
+          "file": "absolute-typed-seed-7.mid",
+          "sha256": "fd7020afd62901cddb045f46d94888cfa3c85cfb5de18fbdfdb6895911a33459",
+          "exact_roundtrip": true,
+          "steps": 128,
+          "note_onsets": 36,
+          "rest_steps": 16,
+          "distinct_pitch_tokens": 11,
+          "longest_exact_grid_run": 25,
+          "matching_8_note_phrases": 0,
+          "disposition": "research only; near-copy and human quality not cleared"
+        },
+        {
+          "seed": 17,
+          "status": "complete",
+          "rejections": 0,
+          "file": "absolute-typed-seed-17.mid",
+          "sha256": "30dac8f078f23c66ed2d54eca2b27218702e37932be49087c1f3e9bb037b3dae",
+          "exact_roundtrip": true,
+          "steps": 128,
+          "note_onsets": 15,
+          "rest_steps": 66,
+          "distinct_pitch_tokens": 7,
+          "longest_exact_grid_run": 74,
+          "matching_8_note_phrases": 0,
+          "disposition": "research only; near-copy and human quality not cleared"
+        },
+        {
+          "seed": 29,
+          "status": "complete",
+          "rejections": 0,
+          "file": "absolute-typed-seed-29.mid",
+          "sha256": "320f05b14801b4c578b5b5227f8e8cec5e7edcdd2967f48dc8ae075545be3c3c",
+          "exact_roundtrip": true,
+          "steps": 128,
+          "note_onsets": 37,
+          "rest_steps": 4,
+          "distinct_pitch_tokens": 11,
+          "longest_exact_grid_run": 24,
+          "matching_8_note_phrases": 0,
+          "disposition": "research only; near-copy and human quality not cleared"
+        }
+      ],
+      "wall_seconds": 0.20277006599962988
+    },
+    "relative-uniform": {
+      "metrics": {
+        "mutopia-376": {
+          "split": "train",
+          "events": 174,
+          "correct_events": 107,
+          "correct_pitch_marginal": 120,
+          "correct_duration_marginal": 140,
+          "nll_per_event": 1.4090416169015318,
+          "support_size": 3328
+        },
+        "mutopia-2247": {
+          "split": "dev",
+          "events": 36,
+          "correct_events": 1,
+          "correct_pitch_marginal": 5,
+          "correct_duration_marginal": 6,
+          "nll_per_event": 7.317007113605077,
+          "support_size": 3328
+        },
+        "mutopia-2245": {
+          "split": "test",
+          "events": 52,
+          "correct_events": 3,
+          "correct_pitch_marginal": 6,
+          "correct_duration_marginal": 9,
+          "nll_per_event": 7.760458490541045,
+          "support_size": 3328
+        }
+      },
+      "candidates": [
+        {
+          "seed": 7,
+          "status": "complete",
+          "rejections": 0,
+          "file": "relative-uniform-seed-7.mid",
+          "sha256": "e7719d4c3d4e9d52e48939f97a46ad3f95e53b3149a06d40dd51210ebf6515e9",
+          "exact_roundtrip": true,
+          "steps": 128,
+          "note_onsets": 30,
+          "rest_steps": 13,
+          "distinct_pitch_tokens": 12,
+          "longest_exact_grid_run": 11,
+          "matching_8_note_phrases": 0,
+          "disposition": "research only; near-copy and human quality not cleared"
+        },
+        {
+          "seed": 17,
+          "status": "complete",
+          "rejections": 0,
+          "file": "relative-uniform-seed-17.mid",
+          "sha256": "2ab48a24ad9b6e511df6d8c2f3ad0f64fc2f92eac2c59cc7e0feb6f48fe16b0b",
+          "exact_roundtrip": true,
+          "steps": 128,
+          "note_onsets": 9,
+          "rest_steps": 0,
+          "distinct_pitch_tokens": 5,
+          "longest_exact_grid_run": 11,
+          "matching_8_note_phrases": 0,
+          "disposition": "research only; near-copy and human quality not cleared"
+        },
+        {
+          "seed": 29,
+          "status": "complete",
+          "rejections": 0,
+          "file": "relative-uniform-seed-29.mid",
+          "sha256": "d8d3f05b81c221f5455119b2dd01c21f7b13d2b4752e133cdd85ce3c13d9e4c3",
+          "exact_roundtrip": true,
+          "steps": 128,
+          "note_onsets": 8,
+          "rest_steps": 0,
+          "distinct_pitch_tokens": 8,
+          "longest_exact_grid_run": 11,
+          "matching_8_note_phrases": 0,
+          "disposition": "research only; near-copy and human quality not cleared"
+        }
+      ],
+      "wall_seconds": 0.21148310100033996
+    },
+    "relative-empirical": {
+      "metrics": {
+        "mutopia-376": {
+          "split": "train",
+          "events": 174,
+          "correct_events": 109,
+          "correct_pitch_marginal": 120,
+          "correct_duration_marginal": 140,
+          "nll_per_event": 1.3532875445195167,
+          "support_size": 3328
+        },
+        "mutopia-2247": {
+          "split": "dev",
+          "events": 36,
+          "correct_events": 1,
+          "correct_pitch_marginal": 5,
+          "correct_duration_marginal": 6,
+          "nll_per_event": 6.434973317991108,
+          "support_size": 3328
+        },
+        "mutopia-2245": {
+          "split": "test",
+          "events": 52,
+          "correct_events": 3,
+          "correct_pitch_marginal": 6,
+          "correct_duration_marginal": 9,
+          "nll_per_event": 6.4516114719209,
+          "support_size": 3328
+        }
+      },
+      "candidates": [
+        {
+          "seed": 7,
+          "status": "complete",
+          "rejections": 0,
+          "file": "relative-empirical-seed-7.mid",
+          "sha256": "df49820163a5ffcf229d9a811541338a9fd5b9163fded8ae8c693c49f10d93fa",
+          "exact_roundtrip": true,
+          "steps": 128,
+          "note_onsets": 39,
+          "rest_steps": 8,
+          "distinct_pitch_tokens": 17,
+          "longest_exact_grid_run": 13,
+          "matching_8_note_phrases": 0,
+          "disposition": "research only; near-copy and human quality not cleared"
+        },
+        {
+          "seed": 17,
+          "status": "complete",
+          "rejections": 0,
+          "file": "relative-empirical-seed-17.mid",
+          "sha256": "877cdac38ac1a39bd3216eabd0caf9cc215a88e03c7a267417b5a3a66dab4573",
+          "exact_roundtrip": true,
+          "steps": 128,
+          "note_onsets": 16,
+          "rest_steps": 4,
+          "distinct_pitch_tokens": 11,
+          "longest_exact_grid_run": 15,
+          "matching_8_note_phrases": 0,
+          "disposition": "research only; near-copy and human quality not cleared"
+        },
+        {
+          "seed": 29,
+          "status": "complete",
+          "rejections": 0,
+          "file": "relative-empirical-seed-29.mid",
+          "sha256": "b4d3f2b6c8178dd4d4dc86d69deaa0791dadd3410346b5065bfd6687569d23cc",
+          "exact_roundtrip": true,
+          "steps": 128,
+          "note_onsets": 34,
+          "rest_steps": 15,
+          "distinct_pitch_tokens": 20,
+          "longest_exact_grid_run": 15,
+          "matching_8_note_phrases": 0,
+          "disposition": "research only; near-copy and human quality not cleared"
+        }
+      ],
+      "wall_seconds": 0.201380519000395
+    },
+    "relative-typed": {
+      "metrics": {
+        "mutopia-376": {
+          "split": "train",
+          "events": 174,
+          "correct_events": 116,
+          "correct_pitch_marginal": 120,
+          "correct_duration_marginal": 140,
+          "nll_per_event": 1.246123765812905,
+          "support_size": 3328
+        },
+        "mutopia-2247": {
+          "split": "dev",
+          "events": 36,
+          "correct_events": 2,
+          "correct_pitch_marginal": 5,
+          "correct_duration_marginal": 7,
+          "nll_per_event": 7.902219977586601,
+          "support_size": 3328
+        },
+        "mutopia-2245": {
+          "split": "test",
+          "events": 52,
+          "correct_events": 0,
+          "correct_pitch_marginal": 6,
+          "correct_duration_marginal": 9,
+          "nll_per_event": 7.107833467914475,
+          "support_size": 3328
+        }
+      },
+      "candidates": [
+        {
+          "seed": 7,
+          "status": "complete",
+          "rejections": 0,
+          "file": "relative-typed-seed-7.mid",
+          "sha256": "8f0f191adb497177eb1b0d00450187091a8b169f2fe5fd675b8879d514137bd1",
+          "exact_roundtrip": true,
+          "steps": 128,
+          "note_onsets": 39,
+          "rest_steps": 12,
+          "distinct_pitch_tokens": 20,
+          "longest_exact_grid_run": 17,
+          "matching_8_note_phrases": 0,
+          "disposition": "research only; near-copy and human quality not cleared"
+        },
+        {
+          "seed": 17,
+          "status": "complete",
+          "rejections": 0,
+          "file": "relative-typed-seed-17.mid",
+          "sha256": "6a3489e934d1ea4debe5f3d52c78875f865198147c7d1e8f3ddc18ee4ce3d765",
+          "exact_roundtrip": true,
+          "steps": 128,
+          "note_onsets": 15,
+          "rest_steps": 70,
+          "distinct_pitch_tokens": 8,
+          "longest_exact_grid_run": 79,
+          "matching_8_note_phrases": 0,
+          "disposition": "research only; near-copy and human quality not cleared"
+        },
+        {
+          "seed": 29,
+          "status": "complete",
+          "rejections": 0,
+          "file": "relative-typed-seed-29.mid",
+          "sha256": "68a6a8016bb498ef9c94fb88e63ead1b9e97f37fec02b8c810870dd3343f55ab",
+          "exact_roundtrip": true,
+          "steps": 128,
+          "note_onsets": 35,
+          "rest_steps": 8,
+          "distinct_pitch_tokens": 20,
+          "longest_exact_grid_run": 11,
+          "matching_8_note_phrases": 0,
+          "disposition": "research only; near-copy and human quality not cleared"
+        }
+      ],
+      "wall_seconds": 0.21533569600023839
+    }
+  },
+  "peak_rss_kib": 17396,
+  "python": "3.12.14",
+  "cpu_only": true
+}

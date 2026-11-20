@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "trial": "cycle38-four-group-methods-seed0",
+  "status": "unrated_template_not_a_human_result",
+  "audio_artifact_hashes": null,
+  "rater_reference": null,
+  "response_message_reference": null,
+  "recorded_at_utc": null,
+  "preferred_order_or_ties": null,
+  "none_preferred": null,
+  "cannot_judge": null,
+  "playback_changes": null,
+  "responses": [
+    {
+      "label": "A",
+      "listened": null,
+      "impression_verbatim": null,
+      "optional_timestamp": null
+    },
+    {
+      "label": "B",
+      "listened": null,
+      "impression_verbatim": null,
+      "optional_timestamp": null
+    },
+    {
+      "label": "C",
+      "listened": null,
+      "impression_verbatim": null,
+      "optional_timestamp": null
+    },
+    {
+      "label": "D",
+      "listened": null,
+      "impression_verbatim": null,
+      "optional_timestamp": null
+    }
+  ],
+  "observational_metrics_separate": true,
+  "researcher_inferences": [],
+  "training_eligible": false,
+  "role_note": "Populate only from actual attributed human responses in private storage; do not fabricate missing ratings or treat impressions as objective labels."
+}

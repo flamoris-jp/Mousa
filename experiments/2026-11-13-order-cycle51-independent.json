@@ -1,0 +1,6 @@
+{
+  "independent_observed_checks": 72,
+  "all_passed": true,
+  "algorithm": "Direct preceding-window equality scan; independent grouping from notes; no production import",
+  "scope": "Observed recurrence only, not independent permutation validation"
+}

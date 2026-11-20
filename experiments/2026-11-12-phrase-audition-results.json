@@ -1,0 +1,24 @@
+{
+  "scope": "Private audition preparation only, no human ratings",
+  "pairs": 3,
+  "clips": 6,
+  "complete": 6,
+  "renderer_sha256": "eaef9f3f915d3b928789d141e7ebf36f04fe12de8f82d7e352189670911fa30d",
+  "renderer_rights": "Analytic sine with second harmonic from inspected Apache-2.0 repository code; no sampled sound or commercial recording.",
+  "peak_pcm16": [
+    9805
+  ],
+  "clipped_samples": 0,
+  "shared_8_note_phrases": 0,
+  "exact_midi_roundtrip": 6,
+  "repeat_hashes_equal": true,
+  "handcrafted_form_pitch_bound_rejections": 1,
+  "human_responses_received": 0,
+  "originality": "not cleared; narrow source comparison only",
+  "note_count_means": {
+    "direct": 29.333333333333332,
+    "form": 39.0
+  },
+  "limitation": "Form changes note density and pitches as well as repetition; preference cannot isolate one causal property. Chromatic shifts do not guarantee tonal coherence.",
+  "private_key_sha256": "e867802368430115f9af2578f4dbb829f313a18b73cbb2aff8f567386382b58b"
+}

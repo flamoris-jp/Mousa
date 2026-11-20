@@ -1,0 +1,17 @@
+{
+ "scope":"Small exact onset-delta/gate timing model, predictive comparison on representation-inspected but previously predictive-unscored Brahms580",
+ "train_ids":[376,888,889,789],
+ "test_ids":[580],
+ "reserved_same_contributor_family":[583],
+ "ppq":384,
+ "delta_support_ticks":[0,12288],
+ "gate_support_ticks":[1,12288],
+ "models":["empirical joint pair with uniform joint prior","factorized empirical marginals with uniform marginal priors"],
+ "prior_mass":1,
+ "comparison":"Both assign probability to exactly the same (delta,gate) outcome space. Report timing-pair NLL per event and unsupported outcomes. No pitch likelihood, no predictive task equivalence to old REST/HOLD models.",
+ "projection":"For onset-sorted notes, delta is from previous onset (first fromtick0), gate is noteoff-onset. ExactPPQ384 conversion only; no quantization. Pitch and velocities retained separately for source preservation.",
+ "selection":"No model tuning or choosing a winner to refit after580scores. Preserve all results. Source is now inspected, not untouched or a blind benchmark.",
+ "admission":"Reviewed580composition/edition/MIDIrights, independent composer/contributor from oldtrain4. Exact/nearinterval scan before scoring; any exact8match or wholeinterval normalized similarity>=0.90 requires review and blocks scoring.",
+ "generation":"Training pitches only, target24quarters(8bars6/8), max256notes,maxpolyphony3, active samepitch exclusion, no clipping, bounded attempts and failures retained. Both models use same constraints and seeds0..9.",
+ "limits":"No human preference, copyright clearance, broader generalization, symbolic ornament understanding, or new model training on580/583. Fixedtiming distribution not a learned melody/phrase structure model. NoGPU or paid operations."
+}

@@ -1,0 +1,109 @@
+{
+  "scope": "Cycle33 Groove rhythm-only metadata snapshot. No original MIDI/audio, fitted counts/weights, private inventory or source files. Originals already stored separately; do not retransmit.",
+  "files": [
+    {
+      "relative_path": "src/mousa/drum_ioi_baseline.py",
+      "bytes": 3641,
+      "sha256": "03282ccb7e2c8c13429a11b09bdff4a8f25ce3af4b5708260a6344865373c833"
+    },
+    {
+      "relative_path": "tools/prepare_groove_split.py",
+      "bytes": 9328,
+      "sha256": "430e561781a676d63ffbeae4a322b52052ed453d8f14280a82bb84d9275b3aa8"
+    },
+    {
+      "relative_path": "tools/compare_groove_ioi.py",
+      "bytes": 9209,
+      "sha256": "511d1d4f866159a3298852877b19c335d8eface1d29c093d90de022898b36937"
+    },
+    {
+      "relative_path": "tests/test_drum_ioi_baseline.py",
+      "bytes": 2069,
+      "sha256": "3b640c2f8cf299e4af5c6f1b4ea1e40057f1e7ab85f122186a2c1b1e5f62768d"
+    },
+    {
+      "relative_path": "tests/test_groove_ioi_driver.py",
+      "bytes": 1440,
+      "sha256": "f3e947ec0bacb756b662c9070d83741d51f66214069e1e0dfea6b979b20bdd21"
+    },
+    {
+      "relative_path": "tests/test_groove_split.py",
+      "bytes": 1786,
+      "sha256": "67d5e5c8f80870ec8b9e44ff3691adafcdc02320f4327293a21d7c4b8c1ee04e"
+    },
+    {
+      "relative_path": "datasets/research-groove-rights-cycle32-20261112.json",
+      "bytes": 5043,
+      "sha256": "de6f14f3b6f38398f1d419e7a5b3fcf0f0d943adcadd914826629641fa4f0bbc"
+    },
+    {
+      "relative_path": "datasets/research-groove-usage-cycle33-20261112.json",
+      "bytes": 6472,
+      "sha256": "aa4f80586e84dc89f5772d5eba48182b9d560a34926b59463ea98c0fc0c5ec7b"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-split-baseline-final-plan.json",
+      "bytes": 4678,
+      "sha256": "79988c195f5ac3a6507730520ce1252b45b6bdd6609674add8b9b5141af92779"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-split-baseline-plan.json",
+      "bytes": 3432,
+      "sha256": "8bb8d6c994a8fb4822ccf5cf077228ef380848cf39a437d7b3de56d7b80896bf"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-split-pattern-candidates.json",
+      "bytes": 37587,
+      "sha256": "626b94121cb0e14ac59b0eb7af34fe3af65cafffb019813eb3c0a3a675f2e57a"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-split-preparation-verification.json",
+      "bytes": 758,
+      "sha256": "624c22a1fb6ba54001e7780e6388dd28e658c47f90f897ccf71ad27782744c92"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-split-preparation.json",
+      "bytes": 9147,
+      "sha256": "a27829a20169957c85e09154e72d2207b90d147a410e7a8cd00c30707e414099"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-ioi-clearance.json",
+      "bytes": 499,
+      "sha256": "f31d0427f70257b9d9b2bd87d6bfaa80d235de46f3de48c4395ecc761ca725ec"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-ioi-fit-final-plan.json",
+      "bytes": 13084,
+      "sha256": "9d5c95249f51aa8f89b54ff4902513ac2d3129f971318caee8f0f07f3286519a"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-ioi-fit-plan.json",
+      "bytes": 12927,
+      "sha256": "c599bc3b72698b273f4f1bebf90926484a3ffa219861aa42c6220088220e19ed"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-ioi-independent-review.json",
+      "bytes": 498,
+      "sha256": "0823b44f18bc67997b0a3a2cedd87104e3788da90efd569f6f48e3ace764e8c9"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-ioi-repeat-verification.json",
+      "bytes": 857,
+      "sha256": "47fa51e2df896b5384bd613d60c8fb04713b11922993ca54a23e97141c3f7c1c"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-ioi-results.json",
+      "bytes": 11394,
+      "sha256": "f00ee4e508c38d2696ced9495937c50c1c8c2178b5c412ffc107b3edbfbe2067"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-ioi-pilot.md",
+      "bytes": 4045,
+      "sha256": "4adcb9af58ee8f16815cc2afb545db5cc96e693a491543f2c4b702eebdcb11e0"
+    }
+  ],
+  "file_count": 20,
+  "total_bytes": 137894,
+  "source_archive_sha256": "651cbc524ffb891be1a3e46d89dc82a1cecb09a57c748c7b45b844c4841dcc1e",
+  "storage_uploaded": false
+}

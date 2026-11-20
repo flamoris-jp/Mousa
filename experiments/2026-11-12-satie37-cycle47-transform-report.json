@@ -1,0 +1,46 @@
+{
+  "removed": [
+    {
+      "track": 1,
+      "index": 106,
+      "absolute_tick": 13824,
+      "message": {
+        "type": "note_on",
+        "note": 66,
+        "velocity": 0,
+        "channel": 0
+      },
+      "active_key_before": false,
+      "active_key_after": false
+    },
+    {
+      "track": 1,
+      "index": 109,
+      "absolute_tick": 13824,
+      "message": {
+        "type": "note_on",
+        "note": 66,
+        "velocity": 0,
+        "channel": 0
+      },
+      "active_key_before": false,
+      "active_key_after": false
+    }
+  ],
+  "all_retained_messages_absolute_order_fields_equal": true,
+  "retained_messages": 651,
+  "source_sha256": "09ce7337b4bf42ba12e1aa64b4c7dc7fcfa6455f1070cb12f8880a755df97384",
+  "derived_sha256": "e6e0bc5e23c16ec55aedb0e5f1e5e521201df2552851342f90ca92628b1fe3ea",
+  "same_original_bytes": true,
+  "binding_sha256": "7bf515623e23e43cd399e2f079df9ef2451385e7f17678b99524b5513017ff02",
+  "fit": false,
+  "score": false,
+  "admitted": false,
+  "semantic_limit": "Only single-key MIDI event-state equivalence; not notation-voice recovery or proven audio equivalence. LY tied F#4 spans bars9-12 but accompaniment retriggers that key. No valid off or retrigger changed.",
+  "derived_reader": {
+    "notes": 181,
+    "first": 384,
+    "eot": 54144
+  },
+  "original_reader": "unmatched note-off, remains unchanged"
+}

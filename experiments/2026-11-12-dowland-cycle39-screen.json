@@ -1,0 +1,330 @@
+{
+  "plan_sha256": "129ca947fca77becb5f36ec86388b80d55e8bd112930bcc450d63e7ec690810f",
+  "comparisons": [
+    {
+      "candidate": "21",
+      "reference": "mutopia-376",
+      "exact8": 0,
+      "global_similarity": 0.28481012658227844,
+      "flagged": false
+    },
+    {
+      "candidate": "21",
+      "reference": "mutopia-888",
+      "exact8": 0,
+      "global_similarity": 0.25,
+      "flagged": false
+    },
+    {
+      "candidate": "21",
+      "reference": "mutopia-889",
+      "exact8": 0,
+      "global_similarity": 0.2954545454545454,
+      "flagged": false
+    },
+    {
+      "candidate": "21",
+      "reference": "mutopia-789",
+      "exact8": 0,
+      "global_similarity": 0.26890756302521013,
+      "flagged": false
+    },
+    {
+      "candidate": "21",
+      "reference": "mutopia-583",
+      "exact8": 0,
+      "global_similarity": 0.17045454545454541,
+      "flagged": false
+    },
+    {
+      "candidate": "21",
+      "reference": "mutopia-1578",
+      "exact8": 0,
+      "global_similarity": 0.2544378698224852,
+      "flagged": false
+    },
+    {
+      "candidate": "21",
+      "reference": "mutopia-1558",
+      "exact8": 0,
+      "global_similarity": 0.20833333333333337,
+      "flagged": false
+    },
+    {
+      "candidate": "21",
+      "reference": "mutopia-370",
+      "exact8": 0,
+      "global_similarity": 0.2710280373831776,
+      "flagged": false
+    },
+    {
+      "candidate": "21",
+      "reference": "mutopia-98-legacy",
+      "exact8": 0,
+      "global_similarity": 0.2153846153846154,
+      "flagged": false
+    },
+    {
+      "candidate": "21",
+      "reference": "mutopia-263-legacy",
+      "exact8": 0,
+      "global_similarity": 0.053840631730078914,
+      "flagged": false
+    },
+    {
+      "candidate": "21",
+      "reference": "mutopia-904",
+      "exact8": 0,
+      "global_similarity": 0.10366826156299835,
+      "flagged": false
+    },
+    {
+      "candidate": "21",
+      "reference": "mutopia-2080",
+      "exact8": 0,
+      "global_similarity": 0.2551020408163265,
+      "flagged": false
+    },
+    {
+      "candidate": "21",
+      "reference": "mutopia-2060",
+      "exact8": 0,
+      "global_similarity": 0.25,
+      "flagged": false
+    },
+    {
+      "candidate": "21",
+      "reference": "mutopia-2061",
+      "exact8": 0,
+      "global_similarity": 0.19318181818181823,
+      "flagged": false
+    },
+    {
+      "candidate": "21",
+      "reference": "mutopia-186",
+      "exact8": 0,
+      "global_similarity": 0.143979057591623,
+      "flagged": false
+    },
+    {
+      "candidate": "21",
+      "reference": "mutopia-487",
+      "exact8": 0,
+      "global_similarity": 0.16666666666666663,
+      "flagged": false
+    },
+    {
+      "candidate": "21",
+      "reference": "mutopia-2243",
+      "exact8": 0,
+      "global_similarity": 0.19047619047619047,
+      "flagged": false
+    },
+    {
+      "candidate": "21",
+      "reference": "640",
+      "exact8": 0,
+      "global_similarity": 0.20618556701030932,
+      "flagged": false
+    },
+    {
+      "candidate": "21",
+      "reference": "921",
+      "exact8": 0,
+      "global_similarity": 0.23076923076923073,
+      "flagged": false
+    },
+    {
+      "candidate": "21",
+      "reference": "blocked-1692",
+      "exact8": 0,
+      "global_similarity": 0.1934426229508197,
+      "flagged": false
+    },
+    {
+      "candidate": "21",
+      "reference": "blocked-804",
+      "exact8": 0,
+      "global_similarity": 0.19999999999999996,
+      "flagged": false
+    },
+    {
+      "candidate": "21",
+      "reference": "blocked-1741",
+      "exact8": 0,
+      "global_similarity": 0.24375000000000002,
+      "flagged": false
+    },
+    {
+      "candidate": "1691",
+      "reference": "mutopia-376",
+      "exact8": 0,
+      "global_similarity": 0.18354430379746833,
+      "flagged": false
+    },
+    {
+      "candidate": "1691",
+      "reference": "mutopia-888",
+      "exact8": 0,
+      "global_similarity": 0.26190476190476186,
+      "flagged": false
+    },
+    {
+      "candidate": "1691",
+      "reference": "mutopia-889",
+      "exact8": 0,
+      "global_similarity": 0.26086956521739135,
+      "flagged": false
+    },
+    {
+      "candidate": "1691",
+      "reference": "mutopia-789",
+      "exact8": 0,
+      "global_similarity": 0.2100840336134454,
+      "flagged": false
+    },
+    {
+      "candidate": "1691",
+      "reference": "mutopia-583",
+      "exact8": 0,
+      "global_similarity": 0.11392405063291144,
+      "flagged": false
+    },
+    {
+      "candidate": "1691",
+      "reference": "mutopia-1578",
+      "exact8": 0,
+      "global_similarity": 0.1952662721893491,
+      "flagged": false
+    },
+    {
+      "candidate": "1691",
+      "reference": "mutopia-1558",
+      "exact8": 0,
+      "global_similarity": 0.13194444444444442,
+      "flagged": false
+    },
+    {
+      "candidate": "1691",
+      "reference": "mutopia-370",
+      "exact8": 0,
+      "global_similarity": 0.26168224299065423,
+      "flagged": false
+    },
+    {
+      "candidate": "1691",
+      "reference": "mutopia-98-legacy",
+      "exact8": 0,
+      "global_similarity": 0.19999999999999996,
+      "flagged": false
+    },
+    {
+      "candidate": "1691",
+      "reference": "mutopia-263-legacy",
+      "exact8": 0,
+      "global_similarity": 0.02943287867910982,
+      "flagged": false
+    },
+    {
+      "candidate": "1691",
+      "reference": "mutopia-904",
+      "exact8": 0,
+      "global_similarity": 0.06060606060606055,
+      "flagged": false
+    },
+    {
+      "candidate": "1691",
+      "reference": "mutopia-2080",
+      "exact8": 0,
+      "global_similarity": 0.2551020408163265,
+      "flagged": false
+    },
+    {
+      "candidate": "1691",
+      "reference": "mutopia-2060",
+      "exact8": 0,
+      "global_similarity": 0.20833333333333337,
+      "flagged": false
+    },
+    {
+      "candidate": "1691",
+      "reference": "mutopia-2061",
+      "exact8": 0,
+      "global_similarity": 0.18840579710144922,
+      "flagged": false
+    },
+    {
+      "candidate": "1691",
+      "reference": "mutopia-186",
+      "exact8": 0,
+      "global_similarity": 0.09685863874345546,
+      "flagged": false
+    },
+    {
+      "candidate": "1691",
+      "reference": "mutopia-487",
+      "exact8": 0,
+      "global_similarity": 0.11217948717948723,
+      "flagged": false
+    },
+    {
+      "candidate": "1691",
+      "reference": "mutopia-2243",
+      "exact8": 0,
+      "global_similarity": 0.13690476190476186,
+      "flagged": false
+    },
+    {
+      "candidate": "1691",
+      "reference": "640",
+      "exact8": 0,
+      "global_similarity": 0.28865979381443296,
+      "flagged": false
+    },
+    {
+      "candidate": "1691",
+      "reference": "921",
+      "exact8": 0,
+      "global_similarity": 0.2417582417582418,
+      "flagged": false
+    },
+    {
+      "candidate": "1691",
+      "reference": "blocked-1692",
+      "exact8": 0,
+      "global_similarity": 0.11147540983606552,
+      "flagged": false
+    },
+    {
+      "candidate": "1691",
+      "reference": "blocked-804",
+      "exact8": 0,
+      "global_similarity": 0.14210526315789473,
+      "flagged": false
+    },
+    {
+      "candidate": "1691",
+      "reference": "blocked-1741",
+      "exact8": 0,
+      "global_similarity": 0.16874999999999996,
+      "flagged": false
+    },
+    {
+      "candidate": "21",
+      "reference": "1691",
+      "exact8": 0,
+      "global_similarity": 0.23863636363636365,
+      "flagged": false,
+      "same_reserved_family": true
+    }
+  ],
+  "cpu_seconds": 0.4972286479999999,
+  "actual_fit": false,
+  "actual_prediction": false,
+  "originals_unchanged": true,
+  "threshold": 0.8,
+  "candidate_status": {
+    "21": "reserved-screen-clear-not-fit",
+    "1691": "reserved-screen-clear-not-fit"
+  }
+}

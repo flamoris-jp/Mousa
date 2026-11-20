@@ -1,0 +1,10 @@
+{
+ "scope":"Adaptive reanalysis of already observed cycle16 candidate pool, not a fresh musical evaluation",
+ "pool":"Same40 candidate MIDIs/groups0..9/four candidates each from cycle16, no new generation",
+ "comparison":["original ending proxy plus strictly later final onset","same rule but final absolute pitch interval must be1or2, excluding repeated final pitch"],
+ "hypothesis":"Excluding final-pitch repetition may change choices and reduce endpoint stutter, but may reject legitimate repeated-tone endings and increase search failures. Neither rule represents human preference.",
+ "constants":"Keep lastgate>=384, lastonset>=8064, lastnoteoutlastsothers, sourcecopyguard and priorcomplete status. First eligible within each existing group, no retries.",
+ "metrics":["selected seeds","missing groups","candidate positions","final interval","distinct pitches","whole-line repeatedpitch fraction","whole-line aboveoctave fraction"],
+ "source_use":"Only existing generated artifacts, no source640 or583 access, no model fit or parameterselection",
+ "nonclaims":["musical appeal","fresh generalization","tonal cadence","repeatednotes are inherently bad"]
+}

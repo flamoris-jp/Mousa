@@ -1,0 +1,7 @@
+{
+  "status": "approved-for-local-experiment",
+  "plan_sha256": "a02a87a014edf080d5734ee3e6f2546f9960a36146208d0ee3a815a9e1f85037",
+  "review_reference": "experiments/2026-11-12-group-onset-independent-model-review.json",
+  "authorization": "Parent explicitly approved this bound plan for small local run and repeat; no publication or new source admission.",
+  "scope": "16 existing training works; observed 640/921 timing diagnostics; private generated candidates only"
+}

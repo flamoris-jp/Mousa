@@ -1,0 +1,14 @@
+{
+  "results_sha256": "bfc6ddaae95c32ebbcf6f38de07fc1a3f76657abc9f40a76c6818d30b3edcd72",
+  "repeat_equal_except_cpu": true,
+  "cpu_seconds": [
+    0.9723345729999999,
+    0.946738088
+  ],
+  "all12fit_stages_completed": true,
+  "all96prediction_stages_completed": true,
+  "unique_newly_observed_ids": 8,
+  "independent_aggregate_checks": 24,
+  "source_hashes_unchanged": true,
+  "new_training_sources": 0
+}

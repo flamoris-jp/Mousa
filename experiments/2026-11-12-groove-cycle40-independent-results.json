@@ -1,0 +1,13 @@
+{
+  "scope": "Independent result aggregation/mass/journal audit; no additional fit or prediction.",
+  "results_sha256": "86ec0e52e5cc0513ad3ad119eac339e902f625e5f62b76818435aa34b66088e6",
+  "repeat_equal_except_cpu": true,
+  "independent_checks": 60,
+  "constructors_completed": 4,
+  "raw_historical_exact_checks_reported": 32,
+  "all_condition_event_mass": 32141,
+  "status": "PASS",
+  "limitations": [
+    "Aggregate audit, not independent model code or evidence of musical preference."
+  ]
+}

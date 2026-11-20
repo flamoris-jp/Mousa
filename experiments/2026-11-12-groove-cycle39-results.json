@@ -1,0 +1,3739 @@
+{
+  "plan_sha256": "0828f82f0ced7ddb69be1a6a5a568dec3fdcbceffd0058700233999a0f5f26e3",
+  "clearance_sha256": "ca2f525a8cc2245c6cc8c0958858ba58e2b9461844bc21f31234648729670cb7",
+  "fit_performed": true,
+  "historical_baseline_exact_checks": 96,
+  "source_hashes_unchanged": true,
+  "duplicate_alias_fitted": false,
+  "historical12_saved_score_reference": {
+    "unigram": {
+      "drummer7/session3/23": {
+        "id": "drummer7/session3/23",
+        "drummer": "drummer7",
+        "events": 144,
+        "sum_nll_nats": 808.2009623252275,
+        "mean_nll_nats": 5.61250668281408,
+        "split": "validation"
+      },
+      "drummer7/session3/26": {
+        "id": "drummer7/session3/26",
+        "drummer": "drummer7",
+        "events": 16,
+        "sum_nll_nats": 106.15502651558707,
+        "mean_nll_nats": 6.634689157224192,
+        "split": "validation"
+      },
+      "drummer8/session2/40": {
+        "id": "drummer8/session2/40",
+        "drummer": "drummer8",
+        "events": 1061,
+        "sum_nll_nats": 5440.052595096486,
+        "mean_nll_nats": 5.127288025538629,
+        "split": "validation"
+      },
+      "drummer8/session2/13": {
+        "id": "drummer8/session2/13",
+        "drummer": "drummer8",
+        "events": 1537,
+        "sum_nll_nats": 7891.064243512597,
+        "mean_nll_nats": 5.134069123950941,
+        "split": "validation"
+      },
+      "drummer7/session2/44": {
+        "id": "drummer7/session2/44",
+        "drummer": "drummer7",
+        "split": "validation",
+        "events": 12,
+        "sum_nll_nats": 96.76346061244733,
+        "mean_nll_nats": 8.063621717703944
+      },
+      "drummer7/session3/63": {
+        "id": "drummer7/session3/63",
+        "drummer": "drummer7",
+        "split": "validation",
+        "events": 36,
+        "sum_nll_nats": 204.89480782369023,
+        "mean_nll_nats": 5.691522439546951
+      },
+      "drummer8/session1/5": {
+        "id": "drummer8/session1/5",
+        "drummer": "drummer8",
+        "split": "validation",
+        "events": 1016,
+        "sum_nll_nats": 5224.6385270975015,
+        "mean_nll_nats": 5.142360755017226
+      },
+      "drummer8/session1/19": {
+        "id": "drummer8/session1/19",
+        "drummer": "drummer8",
+        "split": "validation",
+        "events": 2116,
+        "sum_nll_nats": 11882.441518594705,
+        "mean_nll_nats": 5.615520566443623
+      },
+      "drummer10/session1/10": {
+        "id": "drummer10/session1/10",
+        "drummer": "drummer10",
+        "events": 1413,
+        "sum_nll_nats": 8077.322819922243,
+        "mean_nll_nats": 5.716435116717794,
+        "split": "test"
+      },
+      "drummer10/session1/9": {
+        "id": "drummer10/session1/9",
+        "drummer": "drummer10",
+        "events": 1229,
+        "sum_nll_nats": 7065.190281027796,
+        "mean_nll_nats": 5.748730904009598,
+        "split": "test"
+      },
+      "drummer9/session1/20": {
+        "id": "drummer9/session1/20",
+        "drummer": "drummer9",
+        "events": 1154,
+        "sum_nll_nats": 9033.260047521995,
+        "mean_nll_nats": 7.827781670296356,
+        "split": "test"
+      },
+      "drummer9/session1/16": {
+        "id": "drummer9/session1/16",
+        "drummer": "drummer9",
+        "events": 54,
+        "sum_nll_nats": 284.4819238075516,
+        "mean_nll_nats": 5.268183774213918,
+        "split": "test"
+      },
+      "drummer9/session1/6": {
+        "id": "drummer9/session1/6",
+        "drummer": "drummer9",
+        "split": "test",
+        "events": 38,
+        "sum_nll_nats": 187.89726995904374,
+        "mean_nll_nats": 4.944664998922204
+      },
+      "drummer9/session1/2": {
+        "id": "drummer9/session1/2",
+        "drummer": "drummer9",
+        "split": "test",
+        "events": 316,
+        "sum_nll_nats": 1610.5985748505204,
+        "mean_nll_nats": 5.096830933071267
+      },
+      "drummer10/session1/1": {
+        "id": "drummer10/session1/1",
+        "drummer": "drummer10",
+        "split": "test",
+        "events": 1115,
+        "sum_nll_nats": 9501.77329724462,
+        "mean_nll_nats": 8.52176977331356
+      },
+      "drummer10/session1/7": {
+        "id": "drummer10/session1/7",
+        "drummer": "drummer10",
+        "split": "test",
+        "events": 130,
+        "sum_nll_nats": 1506.133261371444,
+        "mean_nll_nats": 11.58564047208803
+      }
+    },
+    "exact_k4": {
+      "drummer7/session3/23": {
+        "id": "drummer7/session3/23",
+        "drummer": "drummer7",
+        "events": 144,
+        "sum_nll_nats": 899.6183274466437,
+        "mean_nll_nats": 6.2473494961572476,
+        "split": "validation"
+      },
+      "drummer7/session3/26": {
+        "id": "drummer7/session3/26",
+        "drummer": "drummer7",
+        "events": 16,
+        "sum_nll_nats": 106.3504215772028,
+        "mean_nll_nats": 6.646901348575175,
+        "split": "validation"
+      },
+      "drummer8/session2/40": {
+        "id": "drummer8/session2/40",
+        "drummer": "drummer8",
+        "events": 1061,
+        "sum_nll_nats": 5660.879454107689,
+        "mean_nll_nats": 5.335418901138255,
+        "split": "validation"
+      },
+      "drummer8/session2/13": {
+        "id": "drummer8/session2/13",
+        "drummer": "drummer8",
+        "events": 1537,
+        "sum_nll_nats": 8398.120303624342,
+        "mean_nll_nats": 5.463968967875304,
+        "split": "validation"
+      },
+      "drummer7/session2/44": {
+        "id": "drummer7/session2/44",
+        "drummer": "drummer7",
+        "split": "validation",
+        "events": 12,
+        "sum_nll_nats": 105.71113877869422,
+        "mean_nll_nats": 8.809261564891186
+      },
+      "drummer7/session3/63": {
+        "id": "drummer7/session3/63",
+        "drummer": "drummer7",
+        "split": "validation",
+        "events": 36,
+        "sum_nll_nats": 213.6080127708271,
+        "mean_nll_nats": 5.933555910300752
+      },
+      "drummer8/session1/5": {
+        "id": "drummer8/session1/5",
+        "drummer": "drummer8",
+        "split": "validation",
+        "events": 1016,
+        "sum_nll_nats": 5745.17435298258,
+        "mean_nll_nats": 5.6546991663214365
+      },
+      "drummer8/session1/19": {
+        "id": "drummer8/session1/19",
+        "drummer": "drummer8",
+        "split": "validation",
+        "events": 2116,
+        "sum_nll_nats": 12407.764768930223,
+        "mean_nll_nats": 5.863782972084226
+      },
+      "drummer10/session1/10": {
+        "id": "drummer10/session1/10",
+        "drummer": "drummer10",
+        "events": 1413,
+        "sum_nll_nats": 9054.34086057621,
+        "mean_nll_nats": 6.407884543932209,
+        "split": "test"
+      },
+      "drummer10/session1/9": {
+        "id": "drummer10/session1/9",
+        "drummer": "drummer10",
+        "events": 1229,
+        "sum_nll_nats": 8094.687313648407,
+        "mean_nll_nats": 6.5864013943437,
+        "split": "test"
+      },
+      "drummer9/session1/20": {
+        "id": "drummer9/session1/20",
+        "drummer": "drummer9",
+        "events": 1154,
+        "sum_nll_nats": 9083.631524703613,
+        "mean_nll_nats": 7.871431130592385,
+        "split": "test"
+      },
+      "drummer9/session1/16": {
+        "id": "drummer9/session1/16",
+        "drummer": "drummer9",
+        "events": 54,
+        "sum_nll_nats": 328.3066137227582,
+        "mean_nll_nats": 6.079752105977003,
+        "split": "test"
+      },
+      "drummer9/session1/6": {
+        "id": "drummer9/session1/6",
+        "drummer": "drummer9",
+        "split": "test",
+        "events": 38,
+        "sum_nll_nats": 213.00786696843412,
+        "mean_nll_nats": 5.605470183379845
+      },
+      "drummer9/session1/2": {
+        "id": "drummer9/session1/2",
+        "drummer": "drummer9",
+        "split": "test",
+        "events": 316,
+        "sum_nll_nats": 1711.446136511911,
+        "mean_nll_nats": 5.415968786430098
+      },
+      "drummer10/session1/1": {
+        "id": "drummer10/session1/1",
+        "drummer": "drummer10",
+        "split": "test",
+        "events": 1115,
+        "sum_nll_nats": 9649.575503139757,
+        "mean_nll_nats": 8.654327805506508
+      },
+      "drummer10/session1/7": {
+        "id": "drummer10/session1/7",
+        "drummer": "drummer10",
+        "split": "test",
+        "events": 130,
+        "sum_nll_nats": 1476.2382444078462,
+        "mean_nll_nats": 11.355678803137279
+      }
+    },
+    "exact_k32": {
+      "drummer7/session3/23": {
+        "id": "drummer7/session3/23",
+        "drummer": "drummer7",
+        "events": 144,
+        "sum_nll_nats": 834.9132915589449,
+        "mean_nll_nats": 5.79800896915934,
+        "split": "validation"
+      },
+      "drummer7/session3/26": {
+        "id": "drummer7/session3/26",
+        "drummer": "drummer7",
+        "events": 16,
+        "sum_nll_nats": 100.8182951410165,
+        "mean_nll_nats": 6.301143446313532,
+        "split": "validation"
+      },
+      "drummer8/session2/40": {
+        "id": "drummer8/session2/40",
+        "drummer": "drummer8",
+        "events": 1061,
+        "sum_nll_nats": 5449.246427424951,
+        "mean_nll_nats": 5.135953277497598,
+        "split": "validation"
+      },
+      "drummer8/session2/13": {
+        "id": "drummer8/session2/13",
+        "drummer": "drummer8",
+        "events": 1537,
+        "sum_nll_nats": 8127.5675134538305,
+        "mean_nll_nats": 5.28794242905259,
+        "split": "validation"
+      },
+      "drummer7/session2/44": {
+        "id": "drummer7/session2/44",
+        "drummer": "drummer7",
+        "split": "validation",
+        "events": 12,
+        "sum_nll_nats": 98.42253496672001,
+        "mean_nll_nats": 8.201877913893334
+      },
+      "drummer7/session3/63": {
+        "id": "drummer7/session3/63",
+        "drummer": "drummer7",
+        "split": "validation",
+        "events": 36,
+        "sum_nll_nats": 207.45945087921484,
+        "mean_nll_nats": 5.762762524422635
+      },
+      "drummer8/session1/5": {
+        "id": "drummer8/session1/5",
+        "drummer": "drummer8",
+        "split": "validation",
+        "events": 1016,
+        "sum_nll_nats": 5427.6393073604195,
+        "mean_nll_nats": 5.342164672598838
+      },
+      "drummer8/session1/19": {
+        "id": "drummer8/session1/19",
+        "drummer": "drummer8",
+        "split": "validation",
+        "events": 2116,
+        "sum_nll_nats": 11898.353223702397,
+        "mean_nll_nats": 5.623040275851794
+      },
+      "drummer10/session1/10": {
+        "id": "drummer10/session1/10",
+        "drummer": "drummer10",
+        "events": 1413,
+        "sum_nll_nats": 8457.401493536388,
+        "mean_nll_nats": 5.985422146876425,
+        "split": "test"
+      },
+      "drummer10/session1/9": {
+        "id": "drummer10/session1/9",
+        "drummer": "drummer10",
+        "events": 1229,
+        "sum_nll_nats": 7513.290295094387,
+        "mean_nll_nats": 6.113336285674847,
+        "split": "test"
+      },
+      "drummer9/session1/20": {
+        "id": "drummer9/session1/20",
+        "drummer": "drummer9",
+        "events": 1154,
+        "sum_nll_nats": 8813.339554610295,
+        "mean_nll_nats": 7.637209319419666,
+        "split": "test"
+      },
+      "drummer9/session1/16": {
+        "id": "drummer9/session1/16",
+        "drummer": "drummer9",
+        "events": 54,
+        "sum_nll_nats": 305.1083460896879,
+        "mean_nll_nats": 5.650154557216443,
+        "split": "test"
+      },
+      "drummer9/session1/6": {
+        "id": "drummer9/session1/6",
+        "drummer": "drummer9",
+        "split": "test",
+        "events": 38,
+        "sum_nll_nats": 200.82666717217583,
+        "mean_nll_nats": 5.284912294004627
+      },
+      "drummer9/session1/2": {
+        "id": "drummer9/session1/2",
+        "drummer": "drummer9",
+        "split": "test",
+        "events": 316,
+        "sum_nll_nats": 1647.1897261772424,
+        "mean_nll_nats": 5.212625715750767
+      },
+      "drummer10/session1/1": {
+        "id": "drummer10/session1/1",
+        "drummer": "drummer10",
+        "split": "test",
+        "events": 1115,
+        "sum_nll_nats": 9230.799443392621,
+        "mean_nll_nats": 8.27874389541939
+      },
+      "drummer10/session1/7": {
+        "id": "drummer10/session1/7",
+        "drummer": "drummer10",
+        "split": "test",
+        "events": 130,
+        "sum_nll_nats": 1439.7814953251898,
+        "mean_nll_nats": 11.075242271732229
+      }
+    },
+    "exact_k256": {
+      "drummer7/session3/23": {
+        "id": "drummer7/session3/23",
+        "drummer": "drummer7",
+        "events": 144,
+        "sum_nll_nats": 802.8989829180957,
+        "mean_nll_nats": 5.575687381375665,
+        "split": "validation"
+      },
+      "drummer7/session3/26": {
+        "id": "drummer7/session3/26",
+        "drummer": "drummer7",
+        "events": 16,
+        "sum_nll_nats": 100.44527694797205,
+        "mean_nll_nats": 6.277829809248253,
+        "split": "validation"
+      },
+      "drummer8/session2/40": {
+        "id": "drummer8/session2/40",
+        "drummer": "drummer8",
+        "events": 1061,
+        "sum_nll_nats": 5340.391027893871,
+        "mean_nll_nats": 5.0333562939621785,
+        "split": "validation"
+      },
+      "drummer8/session2/13": {
+        "id": "drummer8/session2/13",
+        "drummer": "drummer8",
+        "events": 1537,
+        "sum_nll_nats": 7918.37975651483,
+        "mean_nll_nats": 5.151841090770872,
+        "split": "validation"
+      },
+      "drummer7/session2/44": {
+        "id": "drummer7/session2/44",
+        "drummer": "drummer7",
+        "split": "validation",
+        "events": 12,
+        "sum_nll_nats": 94.40652423912073,
+        "mean_nll_nats": 7.86721035326006
+      },
+      "drummer7/session3/63": {
+        "id": "drummer7/session3/63",
+        "drummer": "drummer7",
+        "split": "validation",
+        "events": 36,
+        "sum_nll_nats": 202.30382368016993,
+        "mean_nll_nats": 5.619550657782498
+      },
+      "drummer8/session1/5": {
+        "id": "drummer8/session1/5",
+        "drummer": "drummer8",
+        "split": "validation",
+        "events": 1016,
+        "sum_nll_nats": 5213.056149580815,
+        "mean_nll_nats": 5.130960777146472
+      },
+      "drummer8/session1/19": {
+        "id": "drummer8/session1/19",
+        "drummer": "drummer8",
+        "split": "validation",
+        "events": 2116,
+        "sum_nll_nats": 11609.968602380557,
+        "mean_nll_nats": 5.4867526476278625
+      },
+      "drummer10/session1/10": {
+        "id": "drummer10/session1/10",
+        "drummer": "drummer10",
+        "events": 1413,
+        "sum_nll_nats": 8097.997073852319,
+        "mean_nll_nats": 5.731066577390176,
+        "split": "test"
+      },
+      "drummer10/session1/9": {
+        "id": "drummer10/session1/9",
+        "drummer": "drummer10",
+        "events": 1229,
+        "sum_nll_nats": 7123.98414586634,
+        "mean_nll_nats": 5.7965696874420995,
+        "split": "test"
+      },
+      "drummer9/session1/20": {
+        "id": "drummer9/session1/20",
+        "drummer": "drummer9",
+        "events": 1154,
+        "sum_nll_nats": 8710.833855177943,
+        "mean_nll_nats": 7.548382890102204,
+        "split": "test"
+      },
+      "drummer9/session1/16": {
+        "id": "drummer9/session1/16",
+        "drummer": "drummer9",
+        "events": 54,
+        "sum_nll_nats": 290.10127947263095,
+        "mean_nll_nats": 5.372245916159833,
+        "split": "test"
+      },
+      "drummer9/session1/6": {
+        "id": "drummer9/session1/6",
+        "drummer": "drummer9",
+        "split": "test",
+        "events": 38,
+        "sum_nll_nats": 191.3034619960725,
+        "mean_nll_nats": 5.034301631475593
+      },
+      "drummer9/session1/2": {
+        "id": "drummer9/session1/2",
+        "drummer": "drummer9",
+        "split": "test",
+        "events": 316,
+        "sum_nll_nats": 1609.762373993904,
+        "mean_nll_nats": 5.09418472782881
+      },
+      "drummer10/session1/1": {
+        "id": "drummer10/session1/1",
+        "drummer": "drummer10",
+        "split": "test",
+        "events": 1115,
+        "sum_nll_nats": 9074.991543479458,
+        "mean_nll_nats": 8.139005868591443
+      },
+      "drummer10/session1/7": {
+        "id": "drummer10/session1/7",
+        "drummer": "drummer10",
+        "split": "test",
+        "events": 130,
+        "sum_nll_nats": 1427.1083802898029,
+        "mean_nll_nats": 10.977756771460022
+      }
+    },
+    "quotient_residual": {
+      "drummer7/session3/23": {
+        "id": "drummer7/session3/23",
+        "drummer": "drummer7",
+        "events": 144,
+        "sum_nll_nats": 779.7533002656398,
+        "mean_nll_nats": 5.414953474066944,
+        "split": "validation"
+      },
+      "drummer7/session3/26": {
+        "id": "drummer7/session3/26",
+        "drummer": "drummer7",
+        "events": 16,
+        "sum_nll_nats": 103.07468835222237,
+        "mean_nll_nats": 6.442168022013898,
+        "split": "validation"
+      },
+      "drummer8/session2/40": {
+        "id": "drummer8/session2/40",
+        "drummer": "drummer8",
+        "events": 1061,
+        "sum_nll_nats": 5367.849435802009,
+        "mean_nll_nats": 5.059236037513675,
+        "split": "validation"
+      },
+      "drummer8/session2/13": {
+        "id": "drummer8/session2/13",
+        "drummer": "drummer8",
+        "events": 1537,
+        "sum_nll_nats": 7849.3990334879445,
+        "mean_nll_nats": 5.106960984702631,
+        "split": "validation"
+      },
+      "drummer7/session2/44": {
+        "id": "drummer7/session2/44",
+        "drummer": "drummer7",
+        "split": "validation",
+        "events": 12,
+        "sum_nll_nats": 82.2858289437073,
+        "mean_nll_nats": 6.857152411975608
+      },
+      "drummer7/session3/63": {
+        "id": "drummer7/session3/63",
+        "drummer": "drummer7",
+        "split": "validation",
+        "events": 36,
+        "sum_nll_nats": 199.13263518733118,
+        "mean_nll_nats": 5.531462088536977
+      },
+      "drummer8/session1/5": {
+        "id": "drummer8/session1/5",
+        "drummer": "drummer8",
+        "split": "validation",
+        "events": 1016,
+        "sum_nll_nats": 5069.6101565289155,
+        "mean_nll_nats": 4.989773776111138
+      },
+      "drummer8/session1/19": {
+        "id": "drummer8/session1/19",
+        "drummer": "drummer8",
+        "split": "validation",
+        "events": 2116,
+        "sum_nll_nats": 11662.467731353148,
+        "mean_nll_nats": 5.511563200072376
+      },
+      "drummer10/session1/10": {
+        "id": "drummer10/session1/10",
+        "drummer": "drummer10",
+        "events": 1413,
+        "sum_nll_nats": 8005.583840328649,
+        "mean_nll_nats": 5.665664430522752,
+        "split": "test"
+      },
+      "drummer10/session1/9": {
+        "id": "drummer10/session1/9",
+        "drummer": "drummer10",
+        "events": 1229,
+        "sum_nll_nats": 7011.969707567471,
+        "mean_nll_nats": 5.705426938622841,
+        "split": "test"
+      },
+      "drummer9/session1/20": {
+        "id": "drummer9/session1/20",
+        "drummer": "drummer9",
+        "events": 1154,
+        "sum_nll_nats": 6805.996121437873,
+        "mean_nll_nats": 5.897743606098676,
+        "split": "test"
+      },
+      "drummer9/session1/16": {
+        "id": "drummer9/session1/16",
+        "drummer": "drummer9",
+        "events": 54,
+        "sum_nll_nats": 285.44945051906404,
+        "mean_nll_nats": 5.286100935538223,
+        "split": "test"
+      },
+      "drummer9/session1/6": {
+        "id": "drummer9/session1/6",
+        "drummer": "drummer9",
+        "split": "test",
+        "events": 38,
+        "sum_nll_nats": 191.34744512708747,
+        "mean_nll_nats": 5.0354590822917755
+      },
+      "drummer9/session1/2": {
+        "id": "drummer9/session1/2",
+        "drummer": "drummer9",
+        "split": "test",
+        "events": 316,
+        "sum_nll_nats": 1621.3914424761738,
+        "mean_nll_nats": 5.130985577456246
+      },
+      "drummer10/session1/1": {
+        "id": "drummer10/session1/1",
+        "drummer": "drummer10",
+        "split": "test",
+        "events": 1115,
+        "sum_nll_nats": 7281.254904276268,
+        "mean_nll_nats": 6.530273456750016
+      },
+      "drummer10/session1/7": {
+        "id": "drummer10/session1/7",
+        "drummer": "drummer10",
+        "split": "test",
+        "events": 130,
+        "sum_nll_nats": 1063.957624187646,
+        "mean_nll_nats": 8.184289416828046
+      }
+    },
+    "quotient_context_k4_residual": {
+      "drummer7/session3/23": {
+        "id": "drummer7/session3/23",
+        "drummer": "drummer7",
+        "events": 144,
+        "sum_nll_nats": 801.3431985663345,
+        "mean_nll_nats": 5.564883323377323,
+        "split": "validation"
+      },
+      "drummer7/session3/26": {
+        "id": "drummer7/session3/26",
+        "drummer": "drummer7",
+        "events": 16,
+        "sum_nll_nats": 103.17085694186876,
+        "mean_nll_nats": 6.448178558866798,
+        "split": "validation"
+      },
+      "drummer8/session2/40": {
+        "id": "drummer8/session2/40",
+        "drummer": "drummer8",
+        "events": 1061,
+        "sum_nll_nats": 5302.846730746216,
+        "mean_nll_nats": 4.997970528507272,
+        "split": "validation"
+      },
+      "drummer8/session2/13": {
+        "id": "drummer8/session2/13",
+        "drummer": "drummer8",
+        "events": 1537,
+        "sum_nll_nats": 7718.578514116919,
+        "mean_nll_nats": 5.021846788625191,
+        "split": "validation"
+      },
+      "drummer7/session2/44": {
+        "id": "drummer7/session2/44",
+        "drummer": "drummer7",
+        "split": "validation",
+        "events": 12,
+        "sum_nll_nats": 85.61612279956277,
+        "mean_nll_nats": 7.134676899963565
+      },
+      "drummer7/session3/63": {
+        "id": "drummer7/session3/63",
+        "drummer": "drummer7",
+        "split": "validation",
+        "events": 36,
+        "sum_nll_nats": 198.8171872915081,
+        "mean_nll_nats": 5.522699646986336
+      },
+      "drummer8/session1/5": {
+        "id": "drummer8/session1/5",
+        "drummer": "drummer8",
+        "split": "validation",
+        "events": 1016,
+        "sum_nll_nats": 5081.736477318445,
+        "mean_nll_nats": 5.001709131218942
+      },
+      "drummer8/session1/19": {
+        "id": "drummer8/session1/19",
+        "drummer": "drummer8",
+        "split": "validation",
+        "events": 2116,
+        "sum_nll_nats": 11704.005604650314,
+        "mean_nll_nats": 5.531193574976519
+      },
+      "drummer10/session1/10": {
+        "id": "drummer10/session1/10",
+        "drummer": "drummer10",
+        "events": 1413,
+        "sum_nll_nats": 8019.731624356289,
+        "mean_nll_nats": 5.6756770165295745,
+        "split": "test"
+      },
+      "drummer10/session1/9": {
+        "id": "drummer10/session1/9",
+        "drummer": "drummer10",
+        "events": 1229,
+        "sum_nll_nats": 7077.205119634896,
+        "mean_nll_nats": 5.75850701353531,
+        "split": "test"
+      },
+      "drummer9/session1/20": {
+        "id": "drummer9/session1/20",
+        "drummer": "drummer9",
+        "events": 1154,
+        "sum_nll_nats": 6843.5810617632005,
+        "mean_nll_nats": 5.930312878477643,
+        "split": "test"
+      },
+      "drummer9/session1/16": {
+        "id": "drummer9/session1/16",
+        "drummer": "drummer9",
+        "events": 54,
+        "sum_nll_nats": 287.78068598243584,
+        "mean_nll_nats": 5.3292719626377005,
+        "split": "test"
+      },
+      "drummer9/session1/6": {
+        "id": "drummer9/session1/6",
+        "drummer": "drummer9",
+        "split": "test",
+        "events": 38,
+        "sum_nll_nats": 189.48071819621074,
+        "mean_nll_nats": 4.986334689373967
+      },
+      "drummer9/session1/2": {
+        "id": "drummer9/session1/2",
+        "drummer": "drummer9",
+        "split": "test",
+        "events": 316,
+        "sum_nll_nats": 1610.3284740929164,
+        "mean_nll_nats": 5.095976183838343
+      },
+      "drummer10/session1/1": {
+        "id": "drummer10/session1/1",
+        "drummer": "drummer10",
+        "split": "test",
+        "events": 1115,
+        "sum_nll_nats": 7488.077511240666,
+        "mean_nll_nats": 6.715764584072346
+      },
+      "drummer10/session1/7": {
+        "id": "drummer10/session1/7",
+        "drummer": "drummer10",
+        "split": "test",
+        "events": 130,
+        "sum_nll_nats": 1202.609046819136,
+        "mean_nll_nats": 9.250838821685662
+      }
+    }
+  },
+  "results": {
+    "baseline35": {
+      "unigram": {
+        "train_works": 35,
+        "train_events": 19409,
+        "context_transitions": 19374,
+        "training_support": {
+          "distinct_exact_IOIs": 367,
+          "distinct_quotients": 11,
+          "distinct_residuals": 120
+        },
+        "splits": {
+          "validation": {
+            "events": 5938,
+            "recordings": 8,
+            "drummers": 2,
+            "per_recording": [
+              {
+                "id": "drummer7/session3/23",
+                "drummer": "drummer7",
+                "events": 144,
+                "sum_nll_nats": 809.6593602480398,
+                "mean_nll_nats": 5.622634446166943,
+                "global_known_IOI_events": 140,
+                "global_unknown_IOI_events": 4
+              },
+              {
+                "id": "drummer7/session3/26",
+                "drummer": "drummer7",
+                "events": 16,
+                "sum_nll_nats": 108.73724797625343,
+                "mean_nll_nats": 6.796077998515839,
+                "global_known_IOI_events": 15,
+                "global_unknown_IOI_events": 1
+              },
+              {
+                "id": "drummer8/session2/40",
+                "drummer": "drummer8",
+                "events": 1061,
+                "sum_nll_nats": 5353.160659085589,
+                "mean_nll_nats": 5.04539176162638,
+                "global_known_IOI_events": 1056,
+                "global_unknown_IOI_events": 5
+              },
+              {
+                "id": "drummer8/session2/13",
+                "drummer": "drummer8",
+                "events": 1537,
+                "sum_nll_nats": 7891.211538369035,
+                "mean_nll_nats": 5.134164956648689,
+                "global_known_IOI_events": 1533,
+                "global_unknown_IOI_events": 4
+              },
+              {
+                "id": "drummer7/session2/44",
+                "drummer": "drummer7",
+                "events": 12,
+                "sum_nll_nats": 79.46919431328749,
+                "mean_nll_nats": 6.622432859440624,
+                "global_known_IOI_events": 12,
+                "global_unknown_IOI_events": 0
+              },
+              {
+                "id": "drummer7/session3/63",
+                "drummer": "drummer7",
+                "events": 36,
+                "sum_nll_nats": 198.86841716714505,
+                "mean_nll_nats": 5.524122699087362,
+                "global_known_IOI_events": 35,
+                "global_unknown_IOI_events": 1
+              },
+              {
+                "id": "drummer8/session1/5",
+                "drummer": "drummer8",
+                "events": 1016,
+                "sum_nll_nats": 5141.6799653267435,
+                "mean_nll_nats": 5.060708627290102,
+                "global_known_IOI_events": 1008,
+                "global_unknown_IOI_events": 8
+              },
+              {
+                "id": "drummer8/session1/19",
+                "drummer": "drummer8",
+                "events": 2116,
+                "sum_nll_nats": 11740.231000084024,
+                "mean_nll_nats": 5.548313327071845,
+                "global_known_IOI_events": 2094,
+                "global_unknown_IOI_events": 22
+              }
+            ],
+            "per_drummer": [
+              {
+                "drummer": "drummer7",
+                "performances": 4,
+                "events": 208,
+                "pooled_mean_nll_nats": 5.753529902426566,
+                "macro_mean_nll_nats": 6.141317000802692
+              },
+              {
+                "drummer": "drummer8",
+                "performances": 4,
+                "events": 5730,
+                "pooled_mean_nll_nats": 5.257641040639684,
+                "macro_mean_nll_nats": 5.197144668159254
+              }
+            ],
+            "pooled_mean_nll_nats": 5.275011347687793,
+            "macro_mean_nll_nats": 5.669230834480973
+          },
+          "test": {
+            "events": 5449,
+            "recordings": 8,
+            "drummers": 2,
+            "per_recording": [
+              {
+                "id": "drummer10/session1/10",
+                "drummer": "drummer10",
+                "events": 1413,
+                "sum_nll_nats": 8118.155030525183,
+                "mean_nll_nats": 5.745332647222352,
+                "global_known_IOI_events": 1399,
+                "global_unknown_IOI_events": 14
+              },
+              {
+                "id": "drummer10/session1/9",
+                "drummer": "drummer10",
+                "events": 1229,
+                "sum_nll_nats": 7214.915062016206,
+                "mean_nll_nats": 5.870557414171039,
+                "global_known_IOI_events": 1225,
+                "global_unknown_IOI_events": 4
+              },
+              {
+                "id": "drummer9/session1/20",
+                "drummer": "drummer9",
+                "events": 1154,
+                "sum_nll_nats": 8410.420886350787,
+                "mean_nll_nats": 7.288059693544875,
+                "global_known_IOI_events": 1017,
+                "global_unknown_IOI_events": 137
+              },
+              {
+                "id": "drummer9/session1/16",
+                "drummer": "drummer9",
+                "events": 54,
+                "sum_nll_nats": 290.17536955967347,
+                "mean_nll_nats": 5.373617954808768,
+                "global_known_IOI_events": 54,
+                "global_unknown_IOI_events": 0
+              },
+              {
+                "id": "drummer9/session1/6",
+                "drummer": "drummer9",
+                "events": 38,
+                "sum_nll_nats": 194.66936652611705,
+                "mean_nll_nats": 5.122878066476765,
+                "global_known_IOI_events": 38,
+                "global_unknown_IOI_events": 0
+              },
+              {
+                "id": "drummer9/session1/2",
+                "drummer": "drummer9",
+                "events": 316,
+                "sum_nll_nats": 1636.6206035097293,
+                "mean_nll_nats": 5.179179125030789,
+                "global_known_IOI_events": 316,
+                "global_unknown_IOI_events": 0
+              },
+              {
+                "id": "drummer10/session1/1",
+                "drummer": "drummer10",
+                "events": 1115,
+                "sum_nll_nats": 8768.326134955347,
+                "mean_nll_nats": 7.863969627762643,
+                "global_known_IOI_events": 966,
+                "global_unknown_IOI_events": 149
+              },
+              {
+                "id": "drummer10/session1/7",
+                "drummer": "drummer10",
+                "events": 130,
+                "sum_nll_nats": 1303.8149808441804,
+                "mean_nll_nats": 10.029346006493695,
+                "global_known_IOI_events": 99,
+                "global_unknown_IOI_events": 31
+              }
+            ],
+            "per_drummer": [
+              {
+                "drummer": "drummer10",
+                "performances": 4,
+                "events": 3887,
+                "pooled_mean_nll_nats": 6.535943197412121,
+                "macro_mean_nll_nats": 7.3773014239124315
+              },
+              {
+                "drummer": "drummer9",
+                "performances": 4,
+                "events": 1562,
+                "pooled_mean_nll_nats": 6.742564805343346,
+                "macro_mean_nll_nats": 5.740933709965299
+              }
+            ],
+            "pooled_mean_nll_nats": 6.595172955457373,
+            "macro_mean_nll_nats": 6.559117566938865
+          }
+        }
+      },
+      "exact_k4": {
+        "train_works": 35,
+        "train_events": 19409,
+        "context_transitions": 19374,
+        "training_support": {
+          "distinct_exact_IOIs": 367,
+          "distinct_quotients": 11,
+          "distinct_residuals": 120
+        },
+        "splits": {
+          "validation": {
+            "events": 5938,
+            "recordings": 8,
+            "drummers": 2,
+            "per_recording": [
+              {
+                "id": "drummer7/session3/23",
+                "drummer": "drummer7",
+                "events": 144,
+                "sum_nll_nats": 897.9423599888396,
+                "mean_nll_nats": 6.235710833255831,
+                "global_known_IOI_events": 140,
+                "global_unknown_IOI_events": 4
+              },
+              {
+                "id": "drummer7/session3/26",
+                "drummer": "drummer7",
+                "events": 16,
+                "sum_nll_nats": 119.32880594181333,
+                "mean_nll_nats": 7.458050371363333,
+                "global_known_IOI_events": 15,
+                "global_unknown_IOI_events": 1
+              },
+              {
+                "id": "drummer8/session2/40",
+                "drummer": "drummer8",
+                "events": 1061,
+                "sum_nll_nats": 5395.586402558132,
+                "mean_nll_nats": 5.085378324748476,
+                "global_known_IOI_events": 1056,
+                "global_unknown_IOI_events": 5
+              },
+              {
+                "id": "drummer8/session2/13",
+                "drummer": "drummer8",
+                "events": 1537,
+                "sum_nll_nats": 7978.390111832861,
+                "mean_nll_nats": 5.190884913359051,
+                "global_known_IOI_events": 1533,
+                "global_unknown_IOI_events": 4
+              },
+              {
+                "id": "drummer7/session2/44",
+                "drummer": "drummer7",
+                "events": 12,
+                "sum_nll_nats": 110.19600651503772,
+                "mean_nll_nats": 9.18300054291981,
+                "global_known_IOI_events": 12,
+                "global_unknown_IOI_events": 0
+              },
+              {
+                "id": "drummer7/session3/63",
+                "drummer": "drummer7",
+                "events": 36,
+                "sum_nll_nats": 200.26308132092072,
+                "mean_nll_nats": 5.562863370025576,
+                "global_known_IOI_events": 35,
+                "global_unknown_IOI_events": 1
+              },
+              {
+                "id": "drummer8/session1/5",
+                "drummer": "drummer8",
+                "events": 1016,
+                "sum_nll_nats": 5230.773355327166,
+                "mean_nll_nats": 5.1483989717787075,
+                "global_known_IOI_events": 1008,
+                "global_unknown_IOI_events": 8
+              },
+              {
+                "id": "drummer8/session1/19",
+                "drummer": "drummer8",
+                "events": 2116,
+                "sum_nll_nats": 11841.79073345417,
+                "mean_nll_nats": 5.596309420346961,
+                "global_known_IOI_events": 2094,
+                "global_unknown_IOI_events": 22
+              }
+            ],
+            "per_drummer": [
+              {
+                "drummer": "drummer7",
+                "performances": 4,
+                "events": 208,
+                "pooled_mean_nll_nats": 6.383318527724094,
+                "macro_mean_nll_nats": 7.109906279391137
+              },
+              {
+                "drummer": "drummer8",
+                "performances": 4,
+                "events": 5730,
+                "pooled_mean_nll_nats": 5.313532391478592,
+                "macro_mean_nll_nats": 5.255242907558299
+              }
+            ],
+            "pooled_mean_nll_nats": 5.351005533334278,
+            "macro_mean_nll_nats": 6.182574593474718
+          },
+          "test": {
+            "events": 5449,
+            "recordings": 8,
+            "drummers": 2,
+            "per_recording": [
+              {
+                "id": "drummer10/session1/10",
+                "drummer": "drummer10",
+                "events": 1413,
+                "sum_nll_nats": 8674.634330647028,
+                "mean_nll_nats": 6.139160885100515,
+                "global_known_IOI_events": 1399,
+                "global_unknown_IOI_events": 14
+              },
+              {
+                "id": "drummer10/session1/9",
+                "drummer": "drummer10",
+                "events": 1229,
+                "sum_nll_nats": 7768.43986178551,
+                "mean_nll_nats": 6.320943744333206,
+                "global_known_IOI_events": 1225,
+                "global_unknown_IOI_events": 4
+              },
+              {
+                "id": "drummer9/session1/20",
+                "drummer": "drummer9",
+                "events": 1154,
+                "sum_nll_nats": 8631.286510288353,
+                "mean_nll_nats": 7.479451048776736,
+                "global_known_IOI_events": 1017,
+                "global_unknown_IOI_events": 137
+              },
+              {
+                "id": "drummer9/session1/16",
+                "drummer": "drummer9",
+                "events": 54,
+                "sum_nll_nats": 322.4973742974145,
+                "mean_nll_nats": 5.972173598100269,
+                "global_known_IOI_events": 54,
+                "global_unknown_IOI_events": 0
+              },
+              {
+                "id": "drummer9/session1/6",
+                "drummer": "drummer9",
+                "events": 38,
+                "sum_nll_nats": 202.13911513128443,
+                "mean_nll_nats": 5.319450398191695,
+                "global_known_IOI_events": 38,
+                "global_unknown_IOI_events": 0
+              },
+              {
+                "id": "drummer9/session1/2",
+                "drummer": "drummer9",
+                "events": 316,
+                "sum_nll_nats": 1660.7246597296464,
+                "mean_nll_nats": 5.2554577839545775,
+                "global_known_IOI_events": 316,
+                "global_unknown_IOI_events": 0
+              },
+              {
+                "id": "drummer10/session1/1",
+                "drummer": "drummer10",
+                "events": 1115,
+                "sum_nll_nats": 9177.584185025022,
+                "mean_nll_nats": 8.231017206300468,
+                "global_known_IOI_events": 966,
+                "global_unknown_IOI_events": 149
+              },
+              {
+                "id": "drummer10/session1/7",
+                "drummer": "drummer10",
+                "events": 130,
+                "sum_nll_nats": 1390.8974218843578,
+                "mean_nll_nats": 10.699210937571983,
+                "global_known_IOI_events": 99,
+                "global_unknown_IOI_events": 31
+              }
+            ],
+            "per_drummer": [
+              {
+                "drummer": "drummer10",
+                "performances": 4,
+                "events": 3887,
+                "pooled_mean_nll_nats": 6.949203961755059,
+                "macro_mean_nll_nats": 7.847583193326543
+              },
+              {
+                "drummer": "drummer9",
+                "performances": 4,
+                "events": 1562,
+                "pooled_mean_nll_nats": 6.924870460593277,
+                "macro_mean_nll_nats": 6.0066332072558195
+              }
+            ],
+            "pooled_mean_nll_nats": 6.942228566487175,
+            "macro_mean_nll_nats": 6.9271082002911815
+          }
+        }
+      },
+      "exact_k32": {
+        "train_works": 35,
+        "train_events": 19409,
+        "context_transitions": 19374,
+        "training_support": {
+          "distinct_exact_IOIs": 367,
+          "distinct_quotients": 11,
+          "distinct_residuals": 120
+        },
+        "splits": {
+          "validation": {
+            "events": 5938,
+            "recordings": 8,
+            "drummers": 2,
+            "per_recording": [
+              {
+                "id": "drummer7/session3/23",
+                "drummer": "drummer7",
+                "events": 144,
+                "sum_nll_nats": 854.3295823997418,
+                "mean_nll_nats": 5.932844322220429,
+                "global_known_IOI_events": 140,
+                "global_unknown_IOI_events": 4
+              },
+              {
+                "id": "drummer7/session3/26",
+                "drummer": "drummer7",
+                "events": 16,
+                "sum_nll_nats": 111.60519400154999,
+                "mean_nll_nats": 6.975324625096874,
+                "global_known_IOI_events": 15,
+                "global_unknown_IOI_events": 1
+              },
+              {
+                "id": "drummer8/session2/40",
+                "drummer": "drummer8",
+                "events": 1061,
+                "sum_nll_nats": 5304.492591886961,
+                "mean_nll_nats": 4.999521764266693,
+                "global_known_IOI_events": 1056,
+                "global_unknown_IOI_events": 5
+              },
+              {
+                "id": "drummer8/session2/13",
+                "drummer": "drummer8",
+                "events": 1537,
+                "sum_nll_nats": 7897.742195781742,
+                "mean_nll_nats": 5.138413920482591,
+                "global_known_IOI_events": 1533,
+                "global_unknown_IOI_events": 4
+              },
+              {
+                "id": "drummer7/session2/44",
+                "drummer": "drummer7",
+                "events": 12,
+                "sum_nll_nats": 98.31004034446912,
+                "mean_nll_nats": 8.192503362039092,
+                "global_known_IOI_events": 12,
+                "global_unknown_IOI_events": 0
+              },
+              {
+                "id": "drummer7/session3/63",
+                "drummer": "drummer7",
+                "events": 36,
+                "sum_nll_nats": 200.07005728757449,
+                "mean_nll_nats": 5.557501591321514,
+                "global_known_IOI_events": 35,
+                "global_unknown_IOI_events": 1
+              },
+              {
+                "id": "drummer8/session1/5",
+                "drummer": "drummer8",
+                "events": 1016,
+                "sum_nll_nats": 5098.23236162678,
+                "mean_nll_nats": 5.0179452378216345,
+                "global_known_IOI_events": 1008,
+                "global_unknown_IOI_events": 8
+              },
+              {
+                "id": "drummer8/session1/19",
+                "drummer": "drummer8",
+                "events": 2116,
+                "sum_nll_nats": 11587.574968191033,
+                "mean_nll_nats": 5.476169644702757,
+                "global_known_IOI_events": 2094,
+                "global_unknown_IOI_events": 22
+              }
+            ],
+            "per_drummer": [
+              {
+                "drummer": "drummer7",
+                "performances": 4,
+                "events": 208,
+                "pooled_mean_nll_nats": 6.078436894391036,
+                "macro_mean_nll_nats": 6.664543475169477
+              },
+              {
+                "drummer": "drummer8",
+                "performances": 4,
+                "events": 5730,
+                "pooled_mean_nll_nats": 5.216063196769026,
+                "macro_mean_nll_nats": 5.158012641818419
+              }
+            ],
+            "pooled_mean_nll_nats": 5.246270965227325,
+            "macro_mean_nll_nats": 5.911278058493949
+          },
+          "test": {
+            "events": 5449,
+            "recordings": 8,
+            "drummers": 2,
+            "per_recording": [
+              {
+                "id": "drummer10/session1/10",
+                "drummer": "drummer10",
+                "events": 1413,
+                "sum_nll_nats": 8386.006828441577,
+                "mean_nll_nats": 5.9348951369013285,
+                "global_known_IOI_events": 1399,
+                "global_unknown_IOI_events": 14
+              },
+              {
+                "id": "drummer10/session1/9",
+                "drummer": "drummer10",
+                "events": 1229,
+                "sum_nll_nats": 7496.354014351454,
+                "mean_nll_nats": 6.099555748048376,
+                "global_known_IOI_events": 1225,
+                "global_unknown_IOI_events": 4
+              },
+              {
+                "id": "drummer9/session1/20",
+                "drummer": "drummer9",
+                "events": 1154,
+                "sum_nll_nats": 8377.76284252601,
+                "mean_nll_nats": 7.259759828878692,
+                "global_known_IOI_events": 1017,
+                "global_unknown_IOI_events": 137
+              },
+              {
+                "id": "drummer9/session1/16",
+                "drummer": "drummer9",
+                "events": 54,
+                "sum_nll_nats": 308.4179477107824,
+                "mean_nll_nats": 5.7114434761256,
+                "global_known_IOI_events": 54,
+                "global_unknown_IOI_events": 0
+              },
+              {
+                "id": "drummer9/session1/6",
+                "drummer": "drummer9",
+                "events": 38,
+                "sum_nll_nats": 199.7188884667561,
+                "mean_nll_nats": 5.255760222809371,
+                "global_known_IOI_events": 38,
+                "global_unknown_IOI_events": 0
+              },
+              {
+                "id": "drummer9/session1/2",
+                "drummer": "drummer9",
+                "events": 316,
+                "sum_nll_nats": 1631.0421312772896,
+                "mean_nll_nats": 5.161525731890157,
+                "global_known_IOI_events": 316,
+                "global_unknown_IOI_events": 0
+              },
+              {
+                "id": "drummer10/session1/1",
+                "drummer": "drummer10",
+                "events": 1115,
+                "sum_nll_nats": 8828.962569591784,
+                "mean_nll_nats": 7.918352080351376,
+                "global_known_IOI_events": 966,
+                "global_unknown_IOI_events": 149
+              },
+              {
+                "id": "drummer10/session1/7",
+                "drummer": "drummer10",
+                "events": 130,
+                "sum_nll_nats": 1333.719555596018,
+                "mean_nll_nats": 10.259381196892445,
+                "global_known_IOI_events": 99,
+                "global_unknown_IOI_events": 31
+              }
+            ],
+            "per_drummer": [
+              {
+                "drummer": "drummer10",
+                "performances": 4,
+                "events": 3887,
+                "pooled_mean_nll_nats": 6.70055131669175,
+                "macro_mean_nll_nats": 7.553046040548381
+              },
+              {
+                "drummer": "drummer9",
+                "performances": 4,
+                "events": 1562,
+                "pooled_mean_nll_nats": 6.732997317529346,
+                "macro_mean_nll_nats": 5.847122314925955
+              }
+            ],
+            "pooled_mean_nll_nats": 6.709852225722457,
+            "macro_mean_nll_nats": 6.7000841777371685
+          }
+        }
+      },
+      "exact_k256": {
+        "train_works": 35,
+        "train_events": 19409,
+        "context_transitions": 19374,
+        "training_support": {
+          "distinct_exact_IOIs": 367,
+          "distinct_quotients": 11,
+          "distinct_residuals": 120
+        },
+        "splits": {
+          "validation": {
+            "events": 5938,
+            "recordings": 8,
+            "drummers": 2,
+            "per_recording": [
+              {
+                "id": "drummer7/session3/23",
+                "drummer": "drummer7",
+                "events": 144,
+                "sum_nll_nats": 823.5051354784175,
+                "mean_nll_nats": 5.718785663044566,
+                "global_known_IOI_events": 140,
+                "global_unknown_IOI_events": 4
+              },
+              {
+                "id": "drummer7/session3/26",
+                "drummer": "drummer7",
+                "events": 16,
+                "sum_nll_nats": 106.31125446908896,
+                "mean_nll_nats": 6.64445340431806,
+                "global_known_IOI_events": 15,
+                "global_unknown_IOI_events": 1
+              },
+              {
+                "id": "drummer8/session2/40",
+                "drummer": "drummer8",
+                "events": 1061,
+                "sum_nll_nats": 5238.9291702474275,
+                "mean_nll_nats": 4.93772777591652,
+                "global_known_IOI_events": 1056,
+                "global_unknown_IOI_events": 5
+              },
+              {
+                "id": "drummer8/session2/13",
+                "drummer": "drummer8",
+                "events": 1537,
+                "sum_nll_nats": 7811.005877129665,
+                "mean_nll_nats": 5.0819817027518965,
+                "global_known_IOI_events": 1533,
+                "global_unknown_IOI_events": 4
+              },
+              {
+                "id": "drummer7/session2/44",
+                "drummer": "drummer7",
+                "events": 12,
+                "sum_nll_nats": 87.57234439802664,
+                "mean_nll_nats": 7.297695366502221,
+                "global_known_IOI_events": 12,
+                "global_unknown_IOI_events": 0
+              },
+              {
+                "id": "drummer7/session3/63",
+                "drummer": "drummer7",
+                "events": 36,
+                "sum_nll_nats": 199.06880403499525,
+                "mean_nll_nats": 5.52968900097209,
+                "global_known_IOI_events": 35,
+                "global_unknown_IOI_events": 1
+              },
+              {
+                "id": "drummer8/session1/5",
+                "drummer": "drummer8",
+                "events": 1016,
+                "sum_nll_nats": 4997.924058885757,
+                "mean_nll_nats": 4.919216593391494,
+                "global_known_IOI_events": 1008,
+                "global_unknown_IOI_events": 8
+              },
+              {
+                "id": "drummer8/session1/19",
+                "drummer": "drummer8",
+                "events": 2116,
+                "sum_nll_nats": 11394.358893487315,
+                "mean_nll_nats": 5.3848577001357825,
+                "global_known_IOI_events": 2094,
+                "global_unknown_IOI_events": 22
+              }
+            ],
+            "per_drummer": [
+              {
+                "drummer": "drummer7",
+                "performances": 4,
+                "events": 208,
+                "pooled_mean_nll_nats": 5.848353549906387,
+                "macro_mean_nll_nats": 6.297655858709234
+              },
+              {
+                "drummer": "drummer8",
+                "performances": 4,
+                "events": 5730,
+                "pooled_mean_nll_nats": 5.138257940619575,
+                "macro_mean_nll_nats": 5.080945943048923
+              }
+            ],
+            "pooled_mean_nll_nats": 5.163131616391158,
+            "macro_mean_nll_nats": 5.689300900879079
+          },
+          "test": {
+            "events": 5449,
+            "recordings": 8,
+            "drummers": 2,
+            "per_recording": [
+              {
+                "id": "drummer10/session1/10",
+                "drummer": "drummer10",
+                "events": 1413,
+                "sum_nll_nats": 8169.870510651129,
+                "mean_nll_nats": 5.7819324208429785,
+                "global_known_IOI_events": 1399,
+                "global_unknown_IOI_events": 14
+              },
+              {
+                "id": "drummer10/session1/9",
+                "drummer": "drummer10",
+                "events": 1229,
+                "sum_nll_nats": 7283.763578801902,
+                "mean_nll_nats": 5.926577362735478,
+                "global_known_IOI_events": 1225,
+                "global_unknown_IOI_events": 4
+              },
+              {
+                "id": "drummer9/session1/20",
+                "drummer": "drummer9",
+                "events": 1154,
+                "sum_nll_nats": 8213.336545823591,
+                "mean_nll_nats": 7.11727603624228,
+                "global_known_IOI_events": 1017,
+                "global_unknown_IOI_events": 137
+              },
+              {
+                "id": "drummer9/session1/16",
+                "drummer": "drummer9",
+                "events": 54,
+                "sum_nll_nats": 296.5840993875728,
+                "mean_nll_nats": 5.4922981368069035,
+                "global_known_IOI_events": 54,
+                "global_unknown_IOI_events": 0
+              },
+              {
+                "id": "drummer9/session1/6",
+                "drummer": "drummer9",
+                "events": 38,
+                "sum_nll_nats": 196.62711086461888,
+                "mean_nll_nats": 5.1743976543320755,
+                "global_known_IOI_events": 38,
+                "global_unknown_IOI_events": 0
+              },
+              {
+                "id": "drummer9/session1/2",
+                "drummer": "drummer9",
+                "events": 316,
+                "sum_nll_nats": 1615.886003571361,
+                "mean_nll_nats": 5.113563302441016,
+                "global_known_IOI_events": 316,
+                "global_unknown_IOI_events": 0
+              },
+              {
+                "id": "drummer10/session1/1",
+                "drummer": "drummer10",
+                "events": 1115,
+                "sum_nll_nats": 8563.895622563972,
+                "mean_nll_nats": 7.680623876738989,
+                "global_known_IOI_events": 966,
+                "global_unknown_IOI_events": 149
+              },
+              {
+                "id": "drummer10/session1/7",
+                "drummer": "drummer10",
+                "events": 130,
+                "sum_nll_nats": 1284.3148863911124,
+                "mean_nll_nats": 9.879345279931634,
+                "global_known_IOI_events": 99,
+                "global_unknown_IOI_events": 31
+              }
+            ],
+            "per_drummer": [
+              {
+                "drummer": "drummer10",
+                "performances": 4,
+                "events": 3887,
+                "pooled_mean_nll_nats": 6.5093502954484475,
+                "macro_mean_nll_nats": 7.31711973506227
+              },
+              {
+                "drummer": "drummer9",
+                "performances": 4,
+                "events": 1562,
+                "pooled_mean_nll_nats": 6.608472317315712,
+                "macro_mean_nll_nats": 5.724383782455568
+              }
+            ],
+            "pooled_mean_nll_nats": 6.537764426143376,
+            "macro_mean_nll_nats": 6.520751758758919
+          }
+        }
+      },
+      "quotient_residual": {
+        "train_works": 35,
+        "train_events": 19409,
+        "context_transitions": 19374,
+        "training_support": {
+          "distinct_exact_IOIs": 367,
+          "distinct_quotients": 11,
+          "distinct_residuals": 120
+        },
+        "splits": {
+          "validation": {
+            "events": 5938,
+            "recordings": 8,
+            "drummers": 2,
+            "per_recording": [
+              {
+                "id": "drummer7/session3/23",
+                "drummer": "drummer7",
+                "events": 144,
+                "sum_nll_nats": 776.4780640940721,
+                "mean_nll_nats": 5.392208778431057,
+                "global_known_IOI_events": 140,
+                "global_unknown_IOI_events": 4
+              },
+              {
+                "id": "drummer7/session3/26",
+                "drummer": "drummer7",
+                "events": 16,
+                "sum_nll_nats": 103.21248979996851,
+                "mean_nll_nats": 6.450780612498032,
+                "global_known_IOI_events": 15,
+                "global_unknown_IOI_events": 1
+              },
+              {
+                "id": "drummer8/session2/40",
+                "drummer": "drummer8",
+                "events": 1061,
+                "sum_nll_nats": 5314.08567870362,
+                "mean_nll_nats": 5.008563316403035,
+                "global_known_IOI_events": 1056,
+                "global_unknown_IOI_events": 5
+              },
+              {
+                "id": "drummer8/session2/13",
+                "drummer": "drummer8",
+                "events": 1537,
+                "sum_nll_nats": 7884.469810453823,
+                "mean_nll_nats": 5.129778666528186,
+                "global_known_IOI_events": 1533,
+                "global_unknown_IOI_events": 4
+              },
+              {
+                "id": "drummer7/session2/44",
+                "drummer": "drummer7",
+                "events": 12,
+                "sum_nll_nats": 79.03204235940011,
+                "mean_nll_nats": 6.586003529950009,
+                "global_known_IOI_events": 12,
+                "global_unknown_IOI_events": 0
+              },
+              {
+                "id": "drummer7/session3/63",
+                "drummer": "drummer7",
+                "events": 36,
+                "sum_nll_nats": 200.32530066687636,
+                "mean_nll_nats": 5.56459168519101,
+                "global_known_IOI_events": 35,
+                "global_unknown_IOI_events": 1
+              },
+              {
+                "id": "drummer8/session1/5",
+                "drummer": "drummer8",
+                "events": 1016,
+                "sum_nll_nats": 5038.20787129778,
+                "mean_nll_nats": 4.95886601505687,
+                "global_known_IOI_events": 1008,
+                "global_unknown_IOI_events": 8
+              },
+              {
+                "id": "drummer8/session1/19",
+                "drummer": "drummer8",
+                "events": 2116,
+                "sum_nll_nats": 11547.465898214155,
+                "mean_nll_nats": 5.457214507662644,
+                "global_known_IOI_events": 2094,
+                "global_unknown_IOI_events": 22
+              }
+            ],
+            "per_drummer": [
+              {
+                "drummer": "drummer7",
+                "performances": 4,
+                "events": 208,
+                "pooled_mean_nll_nats": 5.572345658270755,
+                "macro_mean_nll_nats": 5.998396151517527
+              },
+              {
+                "drummer": "drummer8",
+                "performances": 4,
+                "events": 5730,
+                "pooled_mean_nll_nats": 5.197945769401288,
+                "macro_mean_nll_nats": 5.138605626412684
+              }
+            ],
+            "pooled_mean_nll_nats": 5.211060484269063,
+            "macro_mean_nll_nats": 5.568500888965105
+          },
+          "test": {
+            "events": 5449,
+            "recordings": 8,
+            "drummers": 2,
+            "per_recording": [
+              {
+                "id": "drummer10/session1/10",
+                "drummer": "drummer10",
+                "events": 1413,
+                "sum_nll_nats": 8042.453012095264,
+                "mean_nll_nats": 5.691757262629345,
+                "global_known_IOI_events": 1399,
+                "global_unknown_IOI_events": 14
+              },
+              {
+                "id": "drummer10/session1/9",
+                "drummer": "drummer10",
+                "events": 1229,
+                "sum_nll_nats": 7114.615997438902,
+                "mean_nll_nats": 5.788947109388855,
+                "global_known_IOI_events": 1225,
+                "global_unknown_IOI_events": 4
+              },
+              {
+                "id": "drummer9/session1/20",
+                "drummer": "drummer9",
+                "events": 1154,
+                "sum_nll_nats": 6960.968424759737,
+                "mean_nll_nats": 6.032035030121089,
+                "global_known_IOI_events": 1017,
+                "global_unknown_IOI_events": 137
+              },
+              {
+                "id": "drummer9/session1/16",
+                "drummer": "drummer9",
+                "events": 54,
+                "sum_nll_nats": 288.3807820091265,
+                "mean_nll_nats": 5.340384852020861,
+                "global_known_IOI_events": 54,
+                "global_unknown_IOI_events": 0
+              },
+              {
+                "id": "drummer9/session1/6",
+                "drummer": "drummer9",
+                "events": 38,
+                "sum_nll_nats": 193.85011036078828,
+                "mean_nll_nats": 5.101318693704955,
+                "global_known_IOI_events": 38,
+                "global_unknown_IOI_events": 0
+              },
+              {
+                "id": "drummer9/session1/2",
+                "drummer": "drummer9",
+                "events": 316,
+                "sum_nll_nats": 1638.9070441840465,
+                "mean_nll_nats": 5.186414696784957,
+                "global_known_IOI_events": 316,
+                "global_unknown_IOI_events": 0
+              },
+              {
+                "id": "drummer10/session1/1",
+                "drummer": "drummer10",
+                "events": 1115,
+                "sum_nll_nats": 7288.615324927263,
+                "mean_nll_nats": 6.536874730876469,
+                "global_known_IOI_events": 966,
+                "global_unknown_IOI_events": 149
+              },
+              {
+                "id": "drummer10/session1/7",
+                "drummer": "drummer10",
+                "events": 130,
+                "sum_nll_nats": 1012.8772121647817,
+                "mean_nll_nats": 7.791363170498321,
+                "global_known_IOI_events": 99,
+                "global_unknown_IOI_events": 31
+              }
+            ],
+            "per_drummer": [
+              {
+                "drummer": "drummer10",
+                "performances": 4,
+                "events": 3887,
+                "pooled_mean_nll_nats": 6.035132890822282,
+                "macro_mean_nll_nats": 6.4522355683482475
+              },
+              {
+                "drummer": "drummer9",
+                "performances": 4,
+                "events": 1562,
+                "pooled_mean_nll_nats": 5.814408682019012,
+                "macro_mean_nll_nats": 5.415038318157966
+              }
+            ],
+            "pooled_mean_nll_nats": 5.971860507972088,
+            "macro_mean_nll_nats": 5.933636943253107
+          }
+        }
+      },
+      "quotient_context_k4_residual": {
+        "train_works": 35,
+        "train_events": 19409,
+        "context_transitions": 19374,
+        "training_support": {
+          "distinct_exact_IOIs": 367,
+          "distinct_quotients": 11,
+          "distinct_residuals": 120
+        },
+        "splits": {
+          "validation": {
+            "events": 5938,
+            "recordings": 8,
+            "drummers": 2,
+            "per_recording": [
+              {
+                "id": "drummer7/session3/23",
+                "drummer": "drummer7",
+                "events": 144,
+                "sum_nll_nats": 775.2869169385058,
+                "mean_nll_nats": 5.383936923184068,
+                "global_known_IOI_events": 140,
+                "global_unknown_IOI_events": 4
+              },
+              {
+                "id": "drummer7/session3/26",
+                "drummer": "drummer7",
+                "events": 16,
+                "sum_nll_nats": 103.33123970162674,
+                "mean_nll_nats": 6.458202481351671,
+                "global_known_IOI_events": 15,
+                "global_unknown_IOI_events": 1
+              },
+              {
+                "id": "drummer8/session2/40",
+                "drummer": "drummer8",
+                "events": 1061,
+                "sum_nll_nats": 5262.503984542106,
+                "mean_nll_nats": 4.959947205034973,
+                "global_known_IOI_events": 1056,
+                "global_unknown_IOI_events": 5
+              },
+              {
+                "id": "drummer8/session2/13",
+                "drummer": "drummer8",
+                "events": 1537,
+                "sum_nll_nats": 7714.865339924271,
+                "mean_nll_nats": 5.019430930334594,
+                "global_known_IOI_events": 1533,
+                "global_unknown_IOI_events": 4
+              },
+              {
+                "id": "drummer7/session2/44",
+                "drummer": "drummer7",
+                "events": 12,
+                "sum_nll_nats": 80.8560095462191,
+                "mean_nll_nats": 6.738000795518258,
+                "global_known_IOI_events": 12,
+                "global_unknown_IOI_events": 0
+              },
+              {
+                "id": "drummer7/session3/63",
+                "drummer": "drummer7",
+                "events": 36,
+                "sum_nll_nats": 202.1755984026037,
+                "mean_nll_nats": 5.615988844516769,
+                "global_known_IOI_events": 35,
+                "global_unknown_IOI_events": 1
+              },
+              {
+                "id": "drummer8/session1/5",
+                "drummer": "drummer8",
+                "events": 1016,
+                "sum_nll_nats": 4978.461565766033,
+                "mean_nll_nats": 4.900060596226411,
+                "global_known_IOI_events": 1008,
+                "global_unknown_IOI_events": 8
+              },
+              {
+                "id": "drummer8/session1/19",
+                "drummer": "drummer8",
+                "events": 2116,
+                "sum_nll_nats": 11474.594702355462,
+                "mean_nll_nats": 5.422776324364585,
+                "global_known_IOI_events": 2094,
+                "global_unknown_IOI_events": 22
+              }
+            ],
+            "per_drummer": [
+              {
+                "drummer": "drummer7",
+                "performances": 4,
+                "events": 208,
+                "pooled_mean_nll_nats": 5.584854637446901,
+                "macro_mean_nll_nats": 6.049032261142692
+              },
+              {
+                "drummer": "drummer8",
+                "performances": 4,
+                "events": 5730,
+                "pooled_mean_nll_nats": 5.136199928898407,
+                "macro_mean_nll_nats": 5.075553763990141
+              }
+            ],
+            "pooled_mean_nll_nats": 5.151915688308661,
+            "macro_mean_nll_nats": 5.562293012566416
+          },
+          "test": {
+            "events": 5449,
+            "recordings": 8,
+            "drummers": 2,
+            "per_recording": [
+              {
+                "id": "drummer10/session1/10",
+                "drummer": "drummer10",
+                "events": 1413,
+                "sum_nll_nats": 8012.688974931627,
+                "mean_nll_nats": 5.670692834346516,
+                "global_known_IOI_events": 1399,
+                "global_unknown_IOI_events": 14
+              },
+              {
+                "id": "drummer10/session1/9",
+                "drummer": "drummer10",
+                "events": 1229,
+                "sum_nll_nats": 7056.059396345454,
+                "mean_nll_nats": 5.741301380264812,
+                "global_known_IOI_events": 1225,
+                "global_unknown_IOI_events": 4
+              },
+              {
+                "id": "drummer9/session1/20",
+                "drummer": "drummer9",
+                "events": 1154,
+                "sum_nll_nats": 6948.817537919684,
+                "mean_nll_nats": 6.0215056654416665,
+                "global_known_IOI_events": 1017,
+                "global_unknown_IOI_events": 137
+              },
+              {
+                "id": "drummer9/session1/16",
+                "drummer": "drummer9",
+                "events": 54,
+                "sum_nll_nats": 289.9205000670276,
+                "mean_nll_nats": 5.3688981493894,
+                "global_known_IOI_events": 54,
+                "global_unknown_IOI_events": 0
+              },
+              {
+                "id": "drummer9/session1/6",
+                "drummer": "drummer9",
+                "events": 38,
+                "sum_nll_nats": 191.99516193227274,
+                "mean_nll_nats": 5.052504261375598,
+                "global_known_IOI_events": 38,
+                "global_unknown_IOI_events": 0
+              },
+              {
+                "id": "drummer9/session1/2",
+                "drummer": "drummer9",
+                "events": 316,
+                "sum_nll_nats": 1616.5884343523337,
+                "mean_nll_nats": 5.115786184659284,
+                "global_known_IOI_events": 316,
+                "global_unknown_IOI_events": 0
+              },
+              {
+                "id": "drummer10/session1/1",
+                "drummer": "drummer10",
+                "events": 1115,
+                "sum_nll_nats": 7259.867246700114,
+                "mean_nll_nats": 6.511091701076336,
+                "global_known_IOI_events": 966,
+                "global_unknown_IOI_events": 149
+              },
+              {
+                "id": "drummer10/session1/7",
+                "drummer": "drummer10",
+                "events": 130,
+                "sum_nll_nats": 1121.6034600106432,
+                "mean_nll_nats": 8.627718923158794,
+                "global_known_IOI_events": 99,
+                "global_unknown_IOI_events": 31
+              }
+            ],
+            "per_drummer": [
+              {
+                "drummer": "drummer10",
+                "performances": 4,
+                "events": 3887,
+                "pooled_mean_nll_nats": 6.032986642137339,
+                "macro_mean_nll_nats": 6.637701209711614
+              },
+              {
+                "drummer": "drummer9",
+                "performances": 4,
+                "events": 1562,
+                "pooled_mean_nll_nats": 5.79213933051941,
+                "macro_mean_nll_nats": 5.389673565216487
+              }
+            ],
+            "pooled_mean_nll_nats": 5.963945808819812,
+            "macro_mean_nll_nats": 6.013687387464051
+          }
+        }
+      }
+    },
+    "deduplicated58": {
+      "unigram": {
+        "train_works": 58,
+        "train_events": 32141,
+        "context_transitions": 32083,
+        "training_support": {
+          "distinct_exact_IOIs": 437,
+          "distinct_quotients": 15,
+          "distinct_residuals": 120
+        },
+        "splits": {
+          "validation": {
+            "events": 5938,
+            "recordings": 8,
+            "drummers": 2,
+            "per_recording": [
+              {
+                "id": "drummer7/session3/23",
+                "drummer": "drummer7",
+                "events": 144,
+                "sum_nll_nats": 796.6084412256284,
+                "mean_nll_nats": 5.532003064066864,
+                "global_known_IOI_events": 142,
+                "global_unknown_IOI_events": 2
+              },
+              {
+                "id": "drummer7/session3/26",
+                "drummer": "drummer7",
+                "events": 16,
+                "sum_nll_nats": 106.29186344869838,
+                "mean_nll_nats": 6.643241465543649,
+                "global_known_IOI_events": 15,
+                "global_unknown_IOI_events": 1
+              },
+              {
+                "id": "drummer8/session2/40",
+                "drummer": "drummer8",
+                "events": 1061,
+                "sum_nll_nats": 5384.969940580197,
+                "mean_nll_nats": 5.075372234288593,
+                "global_known_IOI_events": 1056,
+                "global_unknown_IOI_events": 5
+              },
+              {
+                "id": "drummer8/session2/13",
+                "drummer": "drummer8",
+                "events": 1537,
+                "sum_nll_nats": 7967.44181043819,
+                "mean_nll_nats": 5.183761750447749,
+                "global_known_IOI_events": 1533,
+                "global_unknown_IOI_events": 4
+              },
+              {
+                "id": "drummer7/session2/44",
+                "drummer": "drummer7",
+                "events": 12,
+                "sum_nll_nats": 78.59952915476967,
+                "mean_nll_nats": 6.549960762897473,
+                "global_known_IOI_events": 12,
+                "global_unknown_IOI_events": 0
+              },
+              {
+                "id": "drummer7/session3/63",
+                "drummer": "drummer7",
+                "events": 36,
+                "sum_nll_nats": 199.69446504411792,
+                "mean_nll_nats": 5.54706847344772,
+                "global_known_IOI_events": 35,
+                "global_unknown_IOI_events": 1
+              },
+              {
+                "id": "drummer8/session1/5",
+                "drummer": "drummer8",
+                "events": 1016,
+                "sum_nll_nats": 5158.119276541827,
+                "mean_nll_nats": 5.076889051714397,
+                "global_known_IOI_events": 1012,
+                "global_unknown_IOI_events": 4
+              },
+              {
+                "id": "drummer8/session1/19",
+                "drummer": "drummer8",
+                "events": 2116,
+                "sum_nll_nats": 11598.935329749678,
+                "mean_nll_nats": 5.4815384356094885,
+                "global_known_IOI_events": 2101,
+                "global_unknown_IOI_events": 15
+              }
+            ],
+            "per_drummer": [
+              {
+                "drummer": "drummer7",
+                "performances": 4,
+                "events": 208,
+                "pooled_mean_nll_nats": 5.678818744582761,
+                "macro_mean_nll_nats": 6.0680684414889265
+              },
+              {
+                "drummer": "drummer8",
+                "performances": 4,
+                "events": 5730,
+                "pooled_mean_nll_nats": 5.2547061705601905,
+                "macro_mean_nll_nats": 5.204390368015057
+              }
+            ],
+            "pooled_mean_nll_nats": 5.269562252641143,
+            "macro_mean_nll_nats": 5.636229404751991
+          },
+          "test": {
+            "events": 5449,
+            "recordings": 8,
+            "drummers": 2,
+            "per_recording": [
+              {
+                "id": "drummer10/session1/10",
+                "drummer": "drummer10",
+                "events": 1413,
+                "sum_nll_nats": 8062.978046850368,
+                "mean_nll_nats": 5.706283118790069,
+                "global_known_IOI_events": 1402,
+                "global_unknown_IOI_events": 11
+              },
+              {
+                "id": "drummer10/session1/9",
+                "drummer": "drummer10",
+                "events": 1229,
+                "sum_nll_nats": 7160.660956108605,
+                "mean_nll_nats": 5.826412494799516,
+                "global_known_IOI_events": 1227,
+                "global_unknown_IOI_events": 2
+              },
+              {
+                "id": "drummer9/session1/20",
+                "drummer": "drummer9",
+                "events": 1154,
+                "sum_nll_nats": 7158.498832905941,
+                "mean_nll_nats": 6.203205227821439,
+                "global_known_IOI_events": 1133,
+                "global_unknown_IOI_events": 21
+              },
+              {
+                "id": "drummer9/session1/16",
+                "drummer": "drummer9",
+                "events": 54,
+                "sum_nll_nats": 288.6923809406601,
+                "mean_nll_nats": 5.346155202604816,
+                "global_known_IOI_events": 54,
+                "global_unknown_IOI_events": 0
+              },
+              {
+                "id": "drummer9/session1/6",
+                "drummer": "drummer9",
+                "events": 38,
+                "sum_nll_nats": 195.06009490311476,
+                "mean_nll_nats": 5.13316039218723,
+                "global_known_IOI_events": 38,
+                "global_unknown_IOI_events": 0
+              },
+              {
+                "id": "drummer9/session1/2",
+                "drummer": "drummer9",
+                "events": 316,
+                "sum_nll_nats": 1644.8318420996545,
+                "mean_nll_nats": 5.205164057277388,
+                "global_known_IOI_events": 316,
+                "global_unknown_IOI_events": 0
+              },
+              {
+                "id": "drummer10/session1/1",
+                "drummer": "drummer10",
+                "events": 1115,
+                "sum_nll_nats": 7711.365557746039,
+                "mean_nll_nats": 6.916022921745326,
+                "global_known_IOI_events": 1063,
+                "global_unknown_IOI_events": 52
+              },
+              {
+                "id": "drummer10/session1/7",
+                "drummer": "drummer10",
+                "events": 130,
+                "sum_nll_nats": 1223.8983204682677,
+                "mean_nll_nats": 9.41460246514052,
+                "global_known_IOI_events": 108,
+                "global_unknown_IOI_events": 22
+              }
+            ],
+            "per_drummer": [
+              {
+                "drummer": "drummer10",
+                "performances": 4,
+                "events": 3887,
+                "pooled_mean_nll_nats": 6.215308176273033,
+                "macro_mean_nll_nats": 6.965830250118858
+              },
+              {
+                "drummer": "drummer9",
+                "performances": 4,
+                "events": 1562,
+                "pooled_mean_nll_nats": 5.945635820005998,
+                "macro_mean_nll_nats": 5.471921219972718
+              }
+            ],
+            "pooled_mean_nll_nats": 6.13800441035468,
+            "macro_mean_nll_nats": 6.218875735045788
+          }
+        }
+      },
+      "exact_k4": {
+        "train_works": 58,
+        "train_events": 32141,
+        "context_transitions": 32083,
+        "training_support": {
+          "distinct_exact_IOIs": 437,
+          "distinct_quotients": 15,
+          "distinct_residuals": 120
+        },
+        "splits": {
+          "validation": {
+            "events": 5938,
+            "recordings": 8,
+            "drummers": 2,
+            "per_recording": [
+              {
+                "id": "drummer7/session3/23",
+                "drummer": "drummer7",
+                "events": 144,
+                "sum_nll_nats": 862.2652495782672,
+                "mean_nll_nats": 5.9879531220713,
+                "global_known_IOI_events": 142,
+                "global_unknown_IOI_events": 2
+              },
+              {
+                "id": "drummer7/session3/26",
+                "drummer": "drummer7",
+                "events": 16,
+                "sum_nll_nats": 118.1116302482404,
+                "mean_nll_nats": 7.381976890515025,
+                "global_known_IOI_events": 15,
+                "global_unknown_IOI_events": 1
+              },
+              {
+                "id": "drummer8/session2/40",
+                "drummer": "drummer8",
+                "events": 1061,
+                "sum_nll_nats": 5354.0215434653055,
+                "mean_nll_nats": 5.046203151239685,
+                "global_known_IOI_events": 1056,
+                "global_unknown_IOI_events": 5
+              },
+              {
+                "id": "drummer8/session2/13",
+                "drummer": "drummer8",
+                "events": 1537,
+                "sum_nll_nats": 7929.773006632772,
+                "mean_nll_nats": 5.159253745369403,
+                "global_known_IOI_events": 1533,
+                "global_unknown_IOI_events": 4
+              },
+              {
+                "id": "drummer7/session2/44",
+                "drummer": "drummer7",
+                "events": 12,
+                "sum_nll_nats": 97.96262881522743,
+                "mean_nll_nats": 8.163552401268953,
+                "global_known_IOI_events": 12,
+                "global_unknown_IOI_events": 0
+              },
+              {
+                "id": "drummer7/session3/63",
+                "drummer": "drummer7",
+                "events": 36,
+                "sum_nll_nats": 199.1423607797293,
+                "mean_nll_nats": 5.531732243881369,
+                "global_known_IOI_events": 35,
+                "global_unknown_IOI_events": 1
+              },
+              {
+                "id": "drummer8/session1/5",
+                "drummer": "drummer8",
+                "events": 1016,
+                "sum_nll_nats": 5193.105882769671,
+                "mean_nll_nats": 5.111324687765424,
+                "global_known_IOI_events": 1012,
+                "global_unknown_IOI_events": 4
+              },
+              {
+                "id": "drummer8/session1/19",
+                "drummer": "drummer8",
+                "events": 2116,
+                "sum_nll_nats": 11600.724653386018,
+                "mean_nll_nats": 5.482384051694716,
+                "global_known_IOI_events": 2101,
+                "global_unknown_IOI_events": 15
+              }
+            ],
+            "per_drummer": [
+              {
+                "drummer": "drummer7",
+                "performances": 4,
+                "events": 208,
+                "pooled_mean_nll_nats": 6.141739756833963,
+                "macro_mean_nll_nats": 6.766303664434162
+              },
+              {
+                "drummer": "drummer8",
+                "performances": 4,
+                "events": 5730,
+                "pooled_mean_nll_nats": 5.2491492297127,
+                "macro_mean_nll_nats": 5.1997914090173065
+              }
+            ],
+            "pooled_mean_nll_nats": 5.280415452286162,
+            "macro_mean_nll_nats": 5.983047536725734
+          },
+          "test": {
+            "events": 5449,
+            "recordings": 8,
+            "drummers": 2,
+            "per_recording": [
+              {
+                "id": "drummer10/session1/10",
+                "drummer": "drummer10",
+                "events": 1413,
+                "sum_nll_nats": 8529.370374027958,
+                "mean_nll_nats": 6.036355537174775,
+                "global_known_IOI_events": 1402,
+                "global_unknown_IOI_events": 11
+              },
+              {
+                "id": "drummer10/session1/9",
+                "drummer": "drummer10",
+                "events": 1229,
+                "sum_nll_nats": 7593.214048516185,
+                "mean_nll_nats": 6.178367818158002,
+                "global_known_IOI_events": 1227,
+                "global_unknown_IOI_events": 2
+              },
+              {
+                "id": "drummer9/session1/20",
+                "drummer": "drummer9",
+                "events": 1154,
+                "sum_nll_nats": 8178.955864314097,
+                "mean_nll_nats": 7.087483417949824,
+                "global_known_IOI_events": 1133,
+                "global_unknown_IOI_events": 21
+              },
+              {
+                "id": "drummer9/session1/16",
+                "drummer": "drummer9",
+                "events": 54,
+                "sum_nll_nats": 316.8344378696419,
+                "mean_nll_nats": 5.8673044049933685,
+                "global_known_IOI_events": 54,
+                "global_unknown_IOI_events": 0
+              },
+              {
+                "id": "drummer9/session1/6",
+                "drummer": "drummer9",
+                "events": 38,
+                "sum_nll_nats": 195.38559051347,
+                "mean_nll_nats": 5.1417260661439474,
+                "global_known_IOI_events": 38,
+                "global_unknown_IOI_events": 0
+              },
+              {
+                "id": "drummer9/session1/2",
+                "drummer": "drummer9",
+                "events": 316,
+                "sum_nll_nats": 1642.009989556384,
+                "mean_nll_nats": 5.196234144165772,
+                "global_known_IOI_events": 316,
+                "global_unknown_IOI_events": 0
+              },
+              {
+                "id": "drummer10/session1/1",
+                "drummer": "drummer10",
+                "events": 1115,
+                "sum_nll_nats": 8618.671915390358,
+                "mean_nll_nats": 7.729750596762653,
+                "global_known_IOI_events": 1063,
+                "global_unknown_IOI_events": 52
+              },
+              {
+                "id": "drummer10/session1/7",
+                "drummer": "drummer10",
+                "events": 130,
+                "sum_nll_nats": 1348.2100911523617,
+                "mean_nll_nats": 10.370846855018167,
+                "global_known_IOI_events": 108,
+                "global_unknown_IOI_events": 22
+              }
+            ],
+            "per_drummer": [
+              {
+                "drummer": "drummer10",
+                "performances": 4,
+                "events": 3887,
+                "pooled_mean_nll_nats": 6.711980043500608,
+                "macro_mean_nll_nats": 7.578830201778399
+              },
+              {
+                "drummer": "drummer9",
+                "performances": 4,
+                "events": 1562,
+                "pooled_mean_nll_nats": 6.6153558785234265,
+                "macro_mean_nll_nats": 5.823187008313228
+              }
+            ],
+            "pooled_mean_nll_nats": 6.684281943721867,
+            "macro_mean_nll_nats": 6.701008605045813
+          }
+        }
+      },
+      "exact_k32": {
+        "train_works": 58,
+        "train_events": 32141,
+        "context_transitions": 32083,
+        "training_support": {
+          "distinct_exact_IOIs": 437,
+          "distinct_quotients": 15,
+          "distinct_residuals": 120
+        },
+        "splits": {
+          "validation": {
+            "events": 5938,
+            "recordings": 8,
+            "drummers": 2,
+            "per_recording": [
+              {
+                "id": "drummer7/session3/23",
+                "drummer": "drummer7",
+                "events": 144,
+                "sum_nll_nats": 830.8004200550976,
+                "mean_nll_nats": 5.769447361493733,
+                "global_known_IOI_events": 142,
+                "global_unknown_IOI_events": 2
+              },
+              {
+                "id": "drummer7/session3/26",
+                "drummer": "drummer7",
+                "events": 16,
+                "sum_nll_nats": 111.98211944042242,
+                "mean_nll_nats": 6.998882465026401,
+                "global_known_IOI_events": 15,
+                "global_unknown_IOI_events": 1
+              },
+              {
+                "id": "drummer8/session2/40",
+                "drummer": "drummer8",
+                "events": 1061,
+                "sum_nll_nats": 5291.549621162341,
+                "mean_nll_nats": 4.9873229228674285,
+                "global_known_IOI_events": 1056,
+                "global_unknown_IOI_events": 5
+              },
+              {
+                "id": "drummer8/session2/13",
+                "drummer": "drummer8",
+                "events": 1537,
+                "sum_nll_nats": 7888.997384064707,
+                "mean_nll_nats": 5.132724387810479,
+                "global_known_IOI_events": 1533,
+                "global_unknown_IOI_events": 4
+              },
+              {
+                "id": "drummer7/session2/44",
+                "drummer": "drummer7",
+                "events": 12,
+                "sum_nll_nats": 92.13292813845693,
+                "mean_nll_nats": 7.677744011538078,
+                "global_known_IOI_events": 12,
+                "global_unknown_IOI_events": 0
+              },
+              {
+                "id": "drummer7/session3/63",
+                "drummer": "drummer7",
+                "events": 36,
+                "sum_nll_nats": 199.10653450019672,
+                "mean_nll_nats": 5.530737069449909,
+                "global_known_IOI_events": 35,
+                "global_unknown_IOI_events": 1
+              },
+              {
+                "id": "drummer8/session1/5",
+                "drummer": "drummer8",
+                "events": 1016,
+                "sum_nll_nats": 5099.306048745653,
+                "mean_nll_nats": 5.019002016481942,
+                "global_known_IOI_events": 1012,
+                "global_unknown_IOI_events": 4
+              },
+              {
+                "id": "drummer8/session1/19",
+                "drummer": "drummer8",
+                "events": 2116,
+                "sum_nll_nats": 11438.882765530005,
+                "mean_nll_nats": 5.405899227566165,
+                "global_known_IOI_events": 2101,
+                "global_unknown_IOI_events": 15
+              }
+            ],
+            "per_drummer": [
+              {
+                "drummer": "drummer7",
+                "performances": 4,
+                "events": 208,
+                "pooled_mean_nll_nats": 5.932798087183527,
+                "macro_mean_nll_nats": 6.49420272687703
+              },
+              {
+                "drummer": "drummer8",
+                "performances": 4,
+                "events": 5730,
+                "pooled_mean_nll_nats": 5.186515849825952,
+                "macro_mean_nll_nats": 5.136237138681504
+              }
+            ],
+            "pooled_mean_nll_nats": 5.2126570935730685,
+            "macro_mean_nll_nats": 5.815219932779267
+          },
+          "test": {
+            "events": 5449,
+            "recordings": 8,
+            "drummers": 2,
+            "per_recording": [
+              {
+                "id": "drummer10/session1/10",
+                "drummer": "drummer10",
+                "events": 1413,
+                "sum_nll_nats": 8307.794927602938,
+                "mean_nll_nats": 5.879543473179715,
+                "global_known_IOI_events": 1402,
+                "global_unknown_IOI_events": 11
+              },
+              {
+                "id": "drummer10/session1/9",
+                "drummer": "drummer10",
+                "events": 1229,
+                "sum_nll_nats": 7386.271035329211,
+                "mean_nll_nats": 6.009984569022954,
+                "global_known_IOI_events": 1227,
+                "global_unknown_IOI_events": 2
+              },
+              {
+                "id": "drummer9/session1/20",
+                "drummer": "drummer9",
+                "events": 1154,
+                "sum_nll_nats": 7781.419092389547,
+                "mean_nll_nats": 6.742997480406887,
+                "global_known_IOI_events": 1133,
+                "global_unknown_IOI_events": 21
+              },
+              {
+                "id": "drummer9/session1/16",
+                "drummer": "drummer9",
+                "events": 54,
+                "sum_nll_nats": 306.6753900761483,
+                "mean_nll_nats": 5.679173890299042,
+                "global_known_IOI_events": 54,
+                "global_unknown_IOI_events": 0
+              },
+              {
+                "id": "drummer9/session1/6",
+                "drummer": "drummer9",
+                "events": 38,
+                "sum_nll_nats": 195.19092696565465,
+                "mean_nll_nats": 5.136603341201439,
+                "global_known_IOI_events": 38,
+                "global_unknown_IOI_events": 0
+              },
+              {
+                "id": "drummer9/session1/2",
+                "drummer": "drummer9",
+                "events": 316,
+                "sum_nll_nats": 1620.4670715700279,
+                "mean_nll_nats": 5.128060353069708,
+                "global_known_IOI_events": 316,
+                "global_unknown_IOI_events": 0
+              },
+              {
+                "id": "drummer10/session1/1",
+                "drummer": "drummer10",
+                "events": 1115,
+                "sum_nll_nats": 8215.738148026081,
+                "mean_nll_nats": 7.368375020651194,
+                "global_known_IOI_events": 1063,
+                "global_unknown_IOI_events": 52
+              },
+              {
+                "id": "drummer10/session1/7",
+                "drummer": "drummer10",
+                "events": 130,
+                "sum_nll_nats": 1288.5610570464316,
+                "mean_nll_nats": 9.912008131126397,
+                "global_known_IOI_events": 108,
+                "global_unknown_IOI_events": 22
+              }
+            ],
+            "per_drummer": [
+              {
+                "drummer": "drummer10",
+                "performances": 4,
+                "events": 3887,
+                "pooled_mean_nll_nats": 6.482728368408711,
+                "macro_mean_nll_nats": 7.2924777984950655
+              },
+              {
+                "drummer": "drummer9",
+                "performances": 4,
+                "events": 1562,
+                "pooled_mean_nll_nats": 6.340430525609077,
+                "macro_mean_nll_nats": 5.671708766244269
+              }
+            ],
+            "pooled_mean_nll_nats": 6.441937538815569,
+            "macro_mean_nll_nats": 6.482093282369667
+          }
+        }
+      },
+      "exact_k256": {
+        "train_works": 58,
+        "train_events": 32141,
+        "context_transitions": 32083,
+        "training_support": {
+          "distinct_exact_IOIs": 437,
+          "distinct_quotients": 15,
+          "distinct_residuals": 120
+        },
+        "splits": {
+          "validation": {
+            "events": 5938,
+            "recordings": 8,
+            "drummers": 2,
+            "per_recording": [
+              {
+                "id": "drummer7/session3/23",
+                "drummer": "drummer7",
+                "events": 144,
+                "sum_nll_nats": 808.0259773838725,
+                "mean_nll_nats": 5.611291509610226,
+                "global_known_IOI_events": 142,
+                "global_unknown_IOI_events": 2
+              },
+              {
+                "id": "drummer7/session3/26",
+                "drummer": "drummer7",
+                "events": 16,
+                "sum_nll_nats": 106.46326220182418,
+                "mean_nll_nats": 6.653953887614011,
+                "global_known_IOI_events": 15,
+                "global_unknown_IOI_events": 1
+              },
+              {
+                "id": "drummer8/session2/40",
+                "drummer": "drummer8",
+                "events": 1061,
+                "sum_nll_nats": 5247.195741357064,
+                "mean_nll_nats": 4.945519077622115,
+                "global_known_IOI_events": 1056,
+                "global_unknown_IOI_events": 5
+              },
+              {
+                "id": "drummer8/session2/13",
+                "drummer": "drummer8",
+                "events": 1537,
+                "sum_nll_nats": 7845.062041920028,
+                "mean_nll_nats": 5.104139259544585,
+                "global_known_IOI_events": 1533,
+                "global_unknown_IOI_events": 4
+              },
+              {
+                "id": "drummer7/session2/44",
+                "drummer": "drummer7",
+                "events": 12,
+                "sum_nll_nats": 85.97844731215136,
+                "mean_nll_nats": 7.164870609345947,
+                "global_known_IOI_events": 12,
+                "global_unknown_IOI_events": 0
+              },
+              {
+                "id": "drummer7/session3/63",
+                "drummer": "drummer7",
+                "events": 36,
+                "sum_nll_nats": 198.86814593796544,
+                "mean_nll_nats": 5.524115164943485,
+                "global_known_IOI_events": 35,
+                "global_unknown_IOI_events": 1
+              },
+              {
+                "id": "drummer8/session1/5",
+                "drummer": "drummer8",
+                "events": 1016,
+                "sum_nll_nats": 5024.066350285182,
+                "mean_nll_nats": 4.944947195162581,
+                "global_known_IOI_events": 1012,
+                "global_unknown_IOI_events": 4
+              },
+              {
+                "id": "drummer8/session1/19",
+                "drummer": "drummer8",
+                "events": 2116,
+                "sum_nll_nats": 11301.49722552244,
+                "mean_nll_nats": 5.340972223781872,
+                "global_known_IOI_events": 2101,
+                "global_unknown_IOI_events": 15
+              }
+            ],
+            "per_drummer": [
+              {
+                "drummer": "drummer7",
+                "performances": 4,
+                "events": 208,
+                "pooled_mean_nll_nats": 5.766037657864488,
+                "macro_mean_nll_nats": 6.238557792878417
+              },
+              {
+                "drummer": "drummer8",
+                "performances": 4,
+                "events": 5730,
+                "pooled_mean_nll_nats": 5.13400023718756,
+                "macro_mean_nll_nats": 5.083894439027788
+              }
+            ],
+            "pooled_mean_nll_nats": 5.156139641616795,
+            "macro_mean_nll_nats": 5.661226115953102
+          },
+          "test": {
+            "events": 5449,
+            "recordings": 8,
+            "drummers": 2,
+            "per_recording": [
+              {
+                "id": "drummer10/session1/10",
+                "drummer": "drummer10",
+                "events": 1413,
+                "sum_nll_nats": 8121.575871258725,
+                "mean_nll_nats": 5.747753624386925,
+                "global_known_IOI_events": 1402,
+                "global_unknown_IOI_events": 11
+              },
+              {
+                "id": "drummer10/session1/9",
+                "drummer": "drummer10",
+                "events": 1229,
+                "sum_nll_nats": 7213.865041514194,
+                "mean_nll_nats": 5.8697030443565446,
+                "global_known_IOI_events": 1227,
+                "global_unknown_IOI_events": 2
+              },
+              {
+                "id": "drummer9/session1/20",
+                "drummer": "drummer9",
+                "events": 1154,
+                "sum_nll_nats": 7442.225851290344,
+                "mean_nll_nats": 6.449069195225601,
+                "global_known_IOI_events": 1133,
+                "global_unknown_IOI_events": 21
+              },
+              {
+                "id": "drummer9/session1/16",
+                "drummer": "drummer9",
+                "events": 54,
+                "sum_nll_nats": 297.52477529126423,
+                "mean_nll_nats": 5.5097180609493375,
+                "global_known_IOI_events": 54,
+                "global_unknown_IOI_events": 0
+              },
+              {
+                "id": "drummer9/session1/6",
+                "drummer": "drummer9",
+                "events": 38,
+                "sum_nll_nats": 194.35529539744118,
+                "mean_nll_nats": 5.1146130367747675,
+                "global_known_IOI_events": 38,
+                "global_unknown_IOI_events": 0
+              },
+              {
+                "id": "drummer9/session1/2",
+                "drummer": "drummer9",
+                "events": 316,
+                "sum_nll_nats": 1610.7412068698773,
+                "mean_nll_nats": 5.0972823002211305,
+                "global_known_IOI_events": 316,
+                "global_unknown_IOI_events": 0
+              },
+              {
+                "id": "drummer10/session1/1",
+                "drummer": "drummer10",
+                "events": 1115,
+                "sum_nll_nats": 7846.057430995084,
+                "mean_nll_nats": 7.03682280806734,
+                "global_known_IOI_events": 1063,
+                "global_unknown_IOI_events": 52
+              },
+              {
+                "id": "drummer10/session1/7",
+                "drummer": "drummer10",
+                "events": 130,
+                "sum_nll_nats": 1231.6576562666394,
+                "mean_nll_nats": 9.474289663589534,
+                "global_known_IOI_events": 108,
+                "global_unknown_IOI_events": 22
+              }
+            ],
+            "per_drummer": [
+              {
+                "drummer": "drummer10",
+                "performances": 4,
+                "events": 3887,
+                "pooled_mean_nll_nats": 6.280719320821879,
+                "macro_mean_nll_nats": 7.032142285100086
+              },
+              {
+                "drummer": "drummer9",
+                "performances": 4,
+                "events": 1562,
+                "pooled_mean_nll_nats": 6.110657572886636,
+                "macro_mean_nll_nats": 5.5426706482927095
+              }
+            ],
+            "pooled_mean_nll_nats": 6.231969742867236,
+            "macro_mean_nll_nats": 6.287406466696398
+          }
+        }
+      },
+      "quotient_residual": {
+        "train_works": 58,
+        "train_events": 32141,
+        "context_transitions": 32083,
+        "training_support": {
+          "distinct_exact_IOIs": 437,
+          "distinct_quotients": 15,
+          "distinct_residuals": 120
+        },
+        "splits": {
+          "validation": {
+            "events": 5938,
+            "recordings": 8,
+            "drummers": 2,
+            "per_recording": [
+              {
+                "id": "drummer7/session3/23",
+                "drummer": "drummer7",
+                "events": 144,
+                "sum_nll_nats": 776.7466103402021,
+                "mean_nll_nats": 5.39407368291807,
+                "global_known_IOI_events": 142,
+                "global_unknown_IOI_events": 2
+              },
+              {
+                "id": "drummer7/session3/26",
+                "drummer": "drummer7",
+                "events": 16,
+                "sum_nll_nats": 100.28120398331687,
+                "mean_nll_nats": 6.2675752489573044,
+                "global_known_IOI_events": 15,
+                "global_unknown_IOI_events": 1
+              },
+              {
+                "id": "drummer8/session2/40",
+                "drummer": "drummer8",
+                "events": 1061,
+                "sum_nll_nats": 5338.1783729794415,
+                "mean_nll_nats": 5.031270851064507,
+                "global_known_IOI_events": 1056,
+                "global_unknown_IOI_events": 5
+              },
+              {
+                "id": "drummer8/session2/13",
+                "drummer": "drummer8",
+                "events": 1537,
+                "sum_nll_nats": 7954.047144484526,
+                "mean_nll_nats": 5.175046938506523,
+                "global_known_IOI_events": 1533,
+                "global_unknown_IOI_events": 4
+              },
+              {
+                "id": "drummer7/session2/44",
+                "drummer": "drummer7",
+                "events": 12,
+                "sum_nll_nats": 77.51797857320653,
+                "mean_nll_nats": 6.4598315477672115,
+                "global_known_IOI_events": 12,
+                "global_unknown_IOI_events": 0
+              },
+              {
+                "id": "drummer7/session3/63",
+                "drummer": "drummer7",
+                "events": 36,
+                "sum_nll_nats": 195.96575349663007,
+                "mean_nll_nats": 5.443493152684169,
+                "global_known_IOI_events": 35,
+                "global_unknown_IOI_events": 1
+              },
+              {
+                "id": "drummer8/session1/5",
+                "drummer": "drummer8",
+                "events": 1016,
+                "sum_nll_nats": 5068.037094066419,
+                "mean_nll_nats": 4.988225486285845,
+                "global_known_IOI_events": 1012,
+                "global_unknown_IOI_events": 4
+              },
+              {
+                "id": "drummer8/session1/19",
+                "drummer": "drummer8",
+                "events": 2116,
+                "sum_nll_nats": 11466.870316734123,
+                "mean_nll_nats": 5.419125858570001,
+                "global_known_IOI_events": 2101,
+                "global_unknown_IOI_events": 15
+              }
+            ],
+            "per_drummer": [
+              {
+                "drummer": "drummer7",
+                "performances": 4,
+                "events": 208,
+                "pooled_mean_nll_nats": 5.531305511506517,
+                "macro_mean_nll_nats": 5.891243408081689
+              },
+              {
+                "drummer": "drummer8",
+                "performances": 4,
+                "events": 5730,
+                "pooled_mean_nll_nats": 5.20543332081405,
+                "macro_mean_nll_nats": 5.15341728360672
+              }
+            ],
+            "pooled_mean_nll_nats": 5.2168481769380035,
+            "macro_mean_nll_nats": 5.522330345844204
+          },
+          "test": {
+            "events": 5449,
+            "recordings": 8,
+            "drummers": 2,
+            "per_recording": [
+              {
+                "id": "drummer10/session1/10",
+                "drummer": "drummer10",
+                "events": 1413,
+                "sum_nll_nats": 7980.935194886708,
+                "mean_nll_nats": 5.64822023700404,
+                "global_known_IOI_events": 1402,
+                "global_unknown_IOI_events": 11
+              },
+              {
+                "id": "drummer10/session1/9",
+                "drummer": "drummer10",
+                "events": 1229,
+                "sum_nll_nats": 7065.178339890767,
+                "mean_nll_nats": 5.74872118786881,
+                "global_known_IOI_events": 1227,
+                "global_unknown_IOI_events": 2
+              },
+              {
+                "id": "drummer9/session1/20",
+                "drummer": "drummer9",
+                "events": 1154,
+                "sum_nll_nats": 6894.839659135676,
+                "mean_nll_nats": 5.974731073774416,
+                "global_known_IOI_events": 1133,
+                "global_unknown_IOI_events": 21
+              },
+              {
+                "id": "drummer9/session1/16",
+                "drummer": "drummer9",
+                "events": 54,
+                "sum_nll_nats": 287.8144402224209,
+                "mean_nll_nats": 5.3298970411559425,
+                "global_known_IOI_events": 54,
+                "global_unknown_IOI_events": 0
+              },
+              {
+                "id": "drummer9/session1/6",
+                "drummer": "drummer9",
+                "events": 38,
+                "sum_nll_nats": 194.69626140170013,
+                "mean_nll_nats": 5.12358582636053,
+                "global_known_IOI_events": 38,
+                "global_unknown_IOI_events": 0
+              },
+              {
+                "id": "drummer9/session1/2",
+                "drummer": "drummer9",
+                "events": 316,
+                "sum_nll_nats": 1646.9408625900687,
+                "mean_nll_nats": 5.2118381727533825,
+                "global_known_IOI_events": 316,
+                "global_unknown_IOI_events": 0
+              },
+              {
+                "id": "drummer10/session1/1",
+                "drummer": "drummer10",
+                "events": 1115,
+                "sum_nll_nats": 7184.767731409011,
+                "mean_nll_nats": 6.443737875703149,
+                "global_known_IOI_events": 1063,
+                "global_unknown_IOI_events": 52
+              },
+              {
+                "id": "drummer10/session1/7",
+                "drummer": "drummer10",
+                "events": 130,
+                "sum_nll_nats": 1006.963809654621,
+                "mean_nll_nats": 7.7458754588817,
+                "global_known_IOI_events": 108,
+                "global_unknown_IOI_events": 22
+              }
+            ],
+            "per_drummer": [
+              {
+                "drummer": "drummer10",
+                "performances": 4,
+                "events": 3887,
+                "pooled_mean_nll_nats": 5.978349646473142,
+                "macro_mean_nll_nats": 6.3966386898644245
+              },
+              {
+                "drummer": "drummer9",
+                "performances": 4,
+                "events": 1562,
+                "pooled_mean_nll_nats": 5.77739514939172,
+                "macro_mean_nll_nats": 5.4100130285110675
+              }
+            ],
+            "pooled_mean_nll_nats": 5.92074441167021,
+            "macro_mean_nll_nats": 5.903325859187746
+          }
+        }
+      },
+      "quotient_context_k4_residual": {
+        "train_works": 58,
+        "train_events": 32141,
+        "context_transitions": 32083,
+        "training_support": {
+          "distinct_exact_IOIs": 437,
+          "distinct_quotients": 15,
+          "distinct_residuals": 120
+        },
+        "splits": {
+          "validation": {
+            "events": 5938,
+            "recordings": 8,
+            "drummers": 2,
+            "per_recording": [
+              {
+                "id": "drummer7/session3/23",
+                "drummer": "drummer7",
+                "events": 144,
+                "sum_nll_nats": 769.7649950937092,
+                "mean_nll_nats": 5.345590243706314,
+                "global_known_IOI_events": 142,
+                "global_unknown_IOI_events": 2
+              },
+              {
+                "id": "drummer7/session3/26",
+                "drummer": "drummer7",
+                "events": 16,
+                "sum_nll_nats": 100.39061896582938,
+                "mean_nll_nats": 6.274413685364336,
+                "global_known_IOI_events": 15,
+                "global_unknown_IOI_events": 1
+              },
+              {
+                "id": "drummer8/session2/40",
+                "drummer": "drummer8",
+                "events": 1061,
+                "sum_nll_nats": 5276.350754162019,
+                "mean_nll_nats": 4.972997883281828,
+                "global_known_IOI_events": 1056,
+                "global_unknown_IOI_events": 5
+              },
+              {
+                "id": "drummer8/session2/13",
+                "drummer": "drummer8",
+                "events": 1537,
+                "sum_nll_nats": 7817.768520593765,
+                "mean_nll_nats": 5.086381600906809,
+                "global_known_IOI_events": 1533,
+                "global_unknown_IOI_events": 4
+              },
+              {
+                "id": "drummer7/session2/44",
+                "drummer": "drummer7",
+                "events": 12,
+                "sum_nll_nats": 78.0948306326573,
+                "mean_nll_nats": 6.5079025527214425,
+                "global_known_IOI_events": 12,
+                "global_unknown_IOI_events": 0
+              },
+              {
+                "id": "drummer7/session3/63",
+                "drummer": "drummer7",
+                "events": 36,
+                "sum_nll_nats": 197.14164210935385,
+                "mean_nll_nats": 5.4761567252598295,
+                "global_known_IOI_events": 35,
+                "global_unknown_IOI_events": 1
+              },
+              {
+                "id": "drummer8/session1/5",
+                "drummer": "drummer8",
+                "events": 1016,
+                "sum_nll_nats": 5004.54638890573,
+                "mean_nll_nats": 4.925734634749734,
+                "global_known_IOI_events": 1012,
+                "global_unknown_IOI_events": 4
+              },
+              {
+                "id": "drummer8/session1/19",
+                "drummer": "drummer8",
+                "events": 2116,
+                "sum_nll_nats": 11373.175967096378,
+                "mean_nll_nats": 5.374846865357457,
+                "global_known_IOI_events": 2101,
+                "global_unknown_IOI_events": 15
+              }
+            ],
+            "per_drummer": [
+              {
+                "drummer": "drummer7",
+                "performances": 4,
+                "events": 208,
+                "pooled_mean_nll_nats": 5.506692725007451,
+                "macro_mean_nll_nats": 5.901015801762981
+              },
+              {
+                "drummer": "drummer8",
+                "performances": 4,
+                "events": 5730,
+                "pooled_mean_nll_nats": 5.143427858771011,
+                "macro_mean_nll_nats": 5.089990246073957
+              }
+            ],
+            "pooled_mean_nll_nats": 5.156152529060196,
+            "macro_mean_nll_nats": 5.495503023918468
+          },
+          "test": {
+            "events": 5449,
+            "recordings": 8,
+            "drummers": 2,
+            "per_recording": [
+              {
+                "id": "drummer10/session1/10",
+                "drummer": "drummer10",
+                "events": 1413,
+                "sum_nll_nats": 7980.1998945445275,
+                "mean_nll_nats": 5.647699854596269,
+                "global_known_IOI_events": 1402,
+                "global_unknown_IOI_events": 11
+              },
+              {
+                "id": "drummer10/session1/9",
+                "drummer": "drummer10",
+                "events": 1229,
+                "sum_nll_nats": 6998.260259106888,
+                "mean_nll_nats": 5.694271976490552,
+                "global_known_IOI_events": 1227,
+                "global_unknown_IOI_events": 2
+              },
+              {
+                "id": "drummer9/session1/20",
+                "drummer": "drummer9",
+                "events": 1154,
+                "sum_nll_nats": 6849.487498282544,
+                "mean_nll_nats": 5.935431107697179,
+                "global_known_IOI_events": 1133,
+                "global_unknown_IOI_events": 21
+              },
+              {
+                "id": "drummer9/session1/16",
+                "drummer": "drummer9",
+                "events": 54,
+                "sum_nll_nats": 288.4579725618467,
+                "mean_nll_nats": 5.341814306700865,
+                "global_known_IOI_events": 54,
+                "global_unknown_IOI_events": 0
+              },
+              {
+                "id": "drummer9/session1/6",
+                "drummer": "drummer9",
+                "events": 38,
+                "sum_nll_nats": 191.91119864518333,
+                "mean_nll_nats": 5.050294701189035,
+                "global_known_IOI_events": 38,
+                "global_unknown_IOI_events": 0
+              },
+              {
+                "id": "drummer9/session1/2",
+                "drummer": "drummer9",
+                "events": 316,
+                "sum_nll_nats": 1622.0811252538826,
+                "mean_nll_nats": 5.133168117892033,
+                "global_known_IOI_events": 316,
+                "global_unknown_IOI_events": 0
+              },
+              {
+                "id": "drummer10/session1/1",
+                "drummer": "drummer10",
+                "events": 1115,
+                "sum_nll_nats": 7080.176785826073,
+                "mean_nll_nats": 6.349934337063742,
+                "global_known_IOI_events": 1063,
+                "global_unknown_IOI_events": 52
+              },
+              {
+                "id": "drummer10/session1/7",
+                "drummer": "drummer10",
+                "events": 130,
+                "sum_nll_nats": 1113.9428434926233,
+                "mean_nll_nats": 8.56879110378941,
+                "global_known_IOI_events": 108,
+                "global_unknown_IOI_events": 22
+              }
+            ],
+            "per_drummer": [
+              {
+                "drummer": "drummer10",
+                "performances": 4,
+                "events": 3887,
+                "pooled_mean_nll_nats": 5.96155898712892,
+                "macro_mean_nll_nats": 6.565174317984994
+              },
+              {
+                "drummer": "drummer9",
+                "performances": 4,
+                "events": 1562,
+                "pooled_mean_nll_nats": 5.731074132358167,
+                "macro_mean_nll_nats": 5.3651770583697775
+              }
+            ],
+            "pooled_mean_nll_nats": 5.895488636027449,
+            "macro_mean_nll_nats": 5.965175688177386
+          }
+        }
+      }
+    }
+  },
+  "expanded_minus_baseline": {
+    "unigram": {
+      "validation": {
+        "pooled_delta_expanded_minus_baseline": -0.005449095046650143,
+        "per_recording": [
+          {
+            "id": "drummer7/session3/23",
+            "mean_nll_delta": -0.09063138210007882
+          },
+          {
+            "id": "drummer7/session3/26",
+            "mean_nll_delta": -0.15283653297219058
+          },
+          {
+            "id": "drummer8/session2/40",
+            "mean_nll_delta": 0.0299804726622126
+          },
+          {
+            "id": "drummer8/session2/13",
+            "mean_nll_delta": 0.04959679379905957
+          },
+          {
+            "id": "drummer7/session2/44",
+            "mean_nll_delta": -0.07247209654315157
+          },
+          {
+            "id": "drummer7/session3/63",
+            "mean_nll_delta": 0.022945774360357163
+          },
+          {
+            "id": "drummer8/session1/5",
+            "mean_nll_delta": 0.016180424424295126
+          },
+          {
+            "id": "drummer8/session1/19",
+            "mean_nll_delta": -0.06677489146235693
+          }
+        ]
+      },
+      "test": {
+        "pooled_delta_expanded_minus_baseline": -0.457168545102693,
+        "per_recording": [
+          {
+            "id": "drummer10/session1/10",
+            "mean_nll_delta": -0.039049528432282266
+          },
+          {
+            "id": "drummer10/session1/9",
+            "mean_nll_delta": -0.04414491937152221
+          },
+          {
+            "id": "drummer9/session1/20",
+            "mean_nll_delta": -1.0848544657234367
+          },
+          {
+            "id": "drummer9/session1/16",
+            "mean_nll_delta": -0.027462752203952334
+          },
+          {
+            "id": "drummer9/session1/6",
+            "mean_nll_delta": 0.010282325710465834
+          },
+          {
+            "id": "drummer9/session1/2",
+            "mean_nll_delta": 0.025984932246599257
+          },
+          {
+            "id": "drummer10/session1/1",
+            "mean_nll_delta": -0.9479467060173166
+          },
+          {
+            "id": "drummer10/session1/7",
+            "mean_nll_delta": -0.6147435413531745
+          }
+        ]
+      }
+    },
+    "exact_k4": {
+      "validation": {
+        "pooled_delta_expanded_minus_baseline": -0.07059008104811593,
+        "per_recording": [
+          {
+            "id": "drummer7/session3/23",
+            "mean_nll_delta": -0.24775771118453083
+          },
+          {
+            "id": "drummer7/session3/26",
+            "mean_nll_delta": -0.0760734808483079
+          },
+          {
+            "id": "drummer8/session2/40",
+            "mean_nll_delta": -0.03917517350879063
+          },
+          {
+            "id": "drummer8/session2/13",
+            "mean_nll_delta": -0.031631167989647935
+          },
+          {
+            "id": "drummer7/session2/44",
+            "mean_nll_delta": -1.019448141650857
+          },
+          {
+            "id": "drummer7/session3/63",
+            "mean_nll_delta": -0.031131126144206434
+          },
+          {
+            "id": "drummer8/session1/5",
+            "mean_nll_delta": -0.03707428401328361
+          },
+          {
+            "id": "drummer8/session1/19",
+            "mean_nll_delta": -0.11392536865224567
+          }
+        ]
+      },
+      "test": {
+        "pooled_delta_expanded_minus_baseline": -0.25794662276530733,
+        "per_recording": [
+          {
+            "id": "drummer10/session1/10",
+            "mean_nll_delta": -0.10280534792573981
+          },
+          {
+            "id": "drummer10/session1/9",
+            "mean_nll_delta": -0.14257592617520398
+          },
+          {
+            "id": "drummer9/session1/20",
+            "mean_nll_delta": -0.3919676308269118
+          },
+          {
+            "id": "drummer9/session1/16",
+            "mean_nll_delta": -0.10486919310690013
+          },
+          {
+            "id": "drummer9/session1/6",
+            "mean_nll_delta": -0.17772433204774796
+          },
+          {
+            "id": "drummer9/session1/2",
+            "mean_nll_delta": -0.05922363978880529
+          },
+          {
+            "id": "drummer10/session1/1",
+            "mean_nll_delta": -0.5012666095378151
+          },
+          {
+            "id": "drummer10/session1/7",
+            "mean_nll_delta": -0.32836408255381677
+          }
+        ]
+      }
+    },
+    "exact_k32": {
+      "validation": {
+        "pooled_delta_expanded_minus_baseline": -0.03361387165425622,
+        "per_recording": [
+          {
+            "id": "drummer7/session3/23",
+            "mean_nll_delta": -0.16339696072669607
+          },
+          {
+            "id": "drummer7/session3/26",
+            "mean_nll_delta": 0.02355783992952709
+          },
+          {
+            "id": "drummer8/session2/40",
+            "mean_nll_delta": -0.012198841399264637
+          },
+          {
+            "id": "drummer8/session2/13",
+            "mean_nll_delta": -0.00568953267211203
+          },
+          {
+            "id": "drummer7/session2/44",
+            "mean_nll_delta": -0.5147593505010146
+          },
+          {
+            "id": "drummer7/session3/63",
+            "mean_nll_delta": -0.026764521871604607
+          },
+          {
+            "id": "drummer8/session1/5",
+            "mean_nll_delta": 0.0010567786603079554
+          },
+          {
+            "id": "drummer8/session1/19",
+            "mean_nll_delta": -0.07027041713659177
+          }
+        ]
+      },
+      "test": {
+        "pooled_delta_expanded_minus_baseline": -0.267914686906888,
+        "per_recording": [
+          {
+            "id": "drummer10/session1/10",
+            "mean_nll_delta": -0.0553516637216136
+          },
+          {
+            "id": "drummer10/session1/9",
+            "mean_nll_delta": -0.08957117902542144
+          },
+          {
+            "id": "drummer9/session1/20",
+            "mean_nll_delta": -0.5167623484718051
+          },
+          {
+            "id": "drummer9/session1/16",
+            "mean_nll_delta": -0.032269585826558256
+          },
+          {
+            "id": "drummer9/session1/6",
+            "mean_nll_delta": -0.1191568816079327
+          },
+          {
+            "id": "drummer9/session1/2",
+            "mean_nll_delta": -0.03346537882044842
+          },
+          {
+            "id": "drummer10/session1/1",
+            "mean_nll_delta": -0.5499770597001818
+          },
+          {
+            "id": "drummer10/session1/7",
+            "mean_nll_delta": -0.3473730657660479
+          }
+        ]
+      }
+    },
+    "exact_k256": {
+      "validation": {
+        "pooled_delta_expanded_minus_baseline": -0.0069919747743627525,
+        "per_recording": [
+          {
+            "id": "drummer7/session3/23",
+            "mean_nll_delta": -0.10749415343434077
+          },
+          {
+            "id": "drummer7/session3/26",
+            "mean_nll_delta": 0.009500483295950879
+          },
+          {
+            "id": "drummer8/session2/40",
+            "mean_nll_delta": 0.007791301705594833
+          },
+          {
+            "id": "drummer8/session2/13",
+            "mean_nll_delta": 0.022157556792688382
+          },
+          {
+            "id": "drummer7/session2/44",
+            "mean_nll_delta": -0.13282475715627395
+          },
+          {
+            "id": "drummer7/session3/63",
+            "mean_nll_delta": -0.0055738360286055055
+          },
+          {
+            "id": "drummer8/session1/5",
+            "mean_nll_delta": 0.025730601771087436
+          },
+          {
+            "id": "drummer8/session1/19",
+            "mean_nll_delta": -0.04388547635391049
+          }
+        ]
+      },
+      "test": {
+        "pooled_delta_expanded_minus_baseline": -0.30579468327614023,
+        "per_recording": [
+          {
+            "id": "drummer10/session1/10",
+            "mean_nll_delta": -0.03417879645605382
+          },
+          {
+            "id": "drummer10/session1/9",
+            "mean_nll_delta": -0.05687431837893353
+          },
+          {
+            "id": "drummer9/session1/20",
+            "mean_nll_delta": -0.668206841016679
+          },
+          {
+            "id": "drummer9/session1/16",
+            "mean_nll_delta": 0.017419924142433985
+          },
+          {
+            "id": "drummer9/session1/6",
+            "mean_nll_delta": -0.05978461755730802
+          },
+          {
+            "id": "drummer9/session1/2",
+            "mean_nll_delta": -0.01628100221988582
+          },
+          {
+            "id": "drummer10/session1/1",
+            "mean_nll_delta": -0.6438010686716487
+          },
+          {
+            "id": "drummer10/session1/7",
+            "mean_nll_delta": -0.40505561634209997
+          }
+        ]
+      }
+    },
+    "quotient_residual": {
+      "validation": {
+        "pooled_delta_expanded_minus_baseline": 0.005787692668940636,
+        "per_recording": [
+          {
+            "id": "drummer7/session3/23",
+            "mean_nll_delta": 0.0018649044870135967
+          },
+          {
+            "id": "drummer7/session3/26",
+            "mean_nll_delta": -0.18320536354072736
+          },
+          {
+            "id": "drummer8/session2/40",
+            "mean_nll_delta": 0.022707534661472017
+          },
+          {
+            "id": "drummer8/session2/13",
+            "mean_nll_delta": 0.04526827197833683
+          },
+          {
+            "id": "drummer7/session2/44",
+            "mean_nll_delta": -0.12617198218279757
+          },
+          {
+            "id": "drummer7/session3/63",
+            "mean_nll_delta": -0.12109853250684122
+          },
+          {
+            "id": "drummer8/session1/5",
+            "mean_nll_delta": 0.02935947122897531
+          },
+          {
+            "id": "drummer8/session1/19",
+            "mean_nll_delta": -0.03808864909264287
+          }
+        ]
+      },
+      "test": {
+        "pooled_delta_expanded_minus_baseline": -0.05111609630187797,
+        "per_recording": [
+          {
+            "id": "drummer10/session1/10",
+            "mean_nll_delta": -0.04353702562530515
+          },
+          {
+            "id": "drummer10/session1/9",
+            "mean_nll_delta": -0.04022592152004467
+          },
+          {
+            "id": "drummer9/session1/20",
+            "mean_nll_delta": -0.05730395634667307
+          },
+          {
+            "id": "drummer9/session1/16",
+            "mean_nll_delta": -0.010487810864918679
+          },
+          {
+            "id": "drummer9/session1/6",
+            "mean_nll_delta": 0.022267132655574784
+          },
+          {
+            "id": "drummer9/session1/2",
+            "mean_nll_delta": 0.025423475968425535
+          },
+          {
+            "id": "drummer10/session1/1",
+            "mean_nll_delta": -0.09313685517332004
+          },
+          {
+            "id": "drummer10/session1/7",
+            "mean_nll_delta": -0.04548771161662124
+          }
+        ]
+      }
+    },
+    "quotient_context_k4_residual": {
+      "validation": {
+        "pooled_delta_expanded_minus_baseline": 0.004236840751534743,
+        "per_recording": [
+          {
+            "id": "drummer7/session3/23",
+            "mean_nll_delta": -0.03834667947775383
+          },
+          {
+            "id": "drummer7/session3/26",
+            "mean_nll_delta": -0.18378879598733544
+          },
+          {
+            "id": "drummer8/session2/40",
+            "mean_nll_delta": 0.013050678246854908
+          },
+          {
+            "id": "drummer8/session2/13",
+            "mean_nll_delta": 0.06695067057221493
+          },
+          {
+            "id": "drummer7/session2/44",
+            "mean_nll_delta": -0.23009824279681546
+          },
+          {
+            "id": "drummer7/session3/63",
+            "mean_nll_delta": -0.1398321192569396
+          },
+          {
+            "id": "drummer8/session1/5",
+            "mean_nll_delta": 0.02567403852332273
+          },
+          {
+            "id": "drummer8/session1/19",
+            "mean_nll_delta": -0.047929459007128195
+          }
+        ]
+      },
+      "test": {
+        "pooled_delta_expanded_minus_baseline": -0.06845717279236307,
+        "per_recording": [
+          {
+            "id": "drummer10/session1/10",
+            "mean_nll_delta": -0.0229929797502475
+          },
+          {
+            "id": "drummer10/session1/9",
+            "mean_nll_delta": -0.04702940377425957
+          },
+          {
+            "id": "drummer9/session1/20",
+            "mean_nll_delta": -0.08607455774448791
+          },
+          {
+            "id": "drummer9/session1/16",
+            "mean_nll_delta": -0.027083842688535142
+          },
+          {
+            "id": "drummer9/session1/6",
+            "mean_nll_delta": -0.002209560186563486
+          },
+          {
+            "id": "drummer9/session1/2",
+            "mean_nll_delta": 0.01738193323274917
+          },
+          {
+            "id": "drummer10/session1/1",
+            "mean_nll_delta": -0.16115736401259362
+          },
+          {
+            "id": "drummer10/session1/7",
+            "mean_nll_delta": -0.05892781936938363
+          }
+        ]
+      }
+    }
+  },
+  "cpu_seconds": 2.032017815,
+  "new_independent_validation": false,
+  "limitations": [
+    "This plan does not override the frozen model work/event caps. A separate reviewed profile is required before fittingup to60works/60000events.",
+    "Increasing recordings changes content/instrument/style/duration as well as counts; neither recording count nor split implies independent compositions.",
+    "Screening is bounded, not a proof of pattern independence or legal originality. Common eight-event matches need interpretation.",
+    "Same sixteen diagnostics already observed; no fresh-condition generalization claim.",
+    "No raw MIDI/audio uploaded or committed; original rights attribution remains unchanged.",
+    "Fifty-eight unique bytes are not fifty-eight independent compositions or performers; six training drummers unchanged.",
+    "Coverage changes instrument/style/duration mix as well as event counts; this is not an isolated data-volume causal estimate.",
+    "The same sixteen recordings have guided prior research. No unobserved-condition or population generalization conclusion.",
+    "Separate profile raises explicit caps to60works/60000events, required by32141events; old35/30000profile stays unchanged. No raw MIDI/audio or fitted counts are published."
+  ]
+}

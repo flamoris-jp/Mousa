@@ -1,0 +1,42 @@
+{
+  "reviewed_at_utc": "2026-11-12T13:53:00.908999+00:00",
+  "decision": "PASS: corrected bounded fourteen-work context profile is ready for parent-authorized execution",
+  "plan": "experiments/2026-11-12-fourteen-work-final2-plan.json",
+  "plan_sha256": "7037388e94f36b4248288d2253c732ea5e0536dcdbcbda28741f8580103076aa",
+  "frozen_file_hashes_all_match": true,
+  "frozen_file_count": 27,
+  "independent_synthetic_review": {
+    "random_fixture_seed": 1432,
+    "fixture_count": 30,
+    "work_counts": [
+      1,
+      5,
+      12,
+      13,
+      14
+    ],
+    "timing_context_and_pitch_continuity_flag_combinations": 4,
+    "exact_fraction_probability_comparisons": 1800,
+    "integer_generation_and_supported_original_parity_cases": 240,
+    "checks": [
+      "Per-work context and pitch-interval counts reset at every work, including the twelve/remainder chunk boundary.",
+      "Delta, gate, pitch counts, total events, vocabulary and cumulative gate prefix match independent counts.",
+      "Exact probability formula checked with previous gate absent, observed and unobserved; support edges included.",
+      "At most twelve works use the original constructor path and preserve generated output dictionaries for matched fixtures/seeds.",
+      "Thirteen/fourteen works retain integer sampler compatibility and bounded generated note fields.",
+      "Wrapper restoration occurs in finally, including synthetic exceptions."
+    ]
+  },
+  "final_targeted_tests": {
+    "command": "PYTHONPATH=src python -m unittest discover -s tests -p test_fourteen*py -v",
+    "tests": 8,
+    "passed": 8,
+    "failed": 0
+  },
+  "resolved_review_issue": "Isolated wrapper tests previously depended on other tests adding tools to sys.path; both now scope their own import path. Model and wrapper mathematics were unchanged; earlier unrun plans retained.",
+  "scope_limits": [
+    "This review used synthetic fixtures and code/hash inspection; it did not perform the corrected real-corpus fit or score.",
+    "Original fourteen-work failure and partial fit remain historical evidence, not erased by this review.",
+    "This is a bounded profile extension, not proof of musical quality, rights clearance or independent-work generalization."
+  ]
+}

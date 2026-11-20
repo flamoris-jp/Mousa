@@ -1,0 +1,71 @@
+{
+  "cpu_seconds": 0.12624023100000004,
+  "evaluation_fitted": false,
+  "not_original_clearance": true,
+  "original_bytes_unchanged": true,
+  "plan_sha256": "4435659dc54822dca3259797994a6a1712440413443bf2ab253b95d7606af833",
+  "prediction_attempted": true,
+  "results": {
+    "17_equal_family": {
+      "first_nll": 0.8456137995694791,
+      "groups": 123,
+      "independent_error": 0.0,
+      "later_groups": 122,
+      "later_mean_nll": 3.0302764995436764,
+      "later_nll_sum": 369.69373294432853,
+      "nll_per_group_delta": 3.0125150141780326,
+      "status": "complete"
+    },
+    "17_equal_work": {
+      "first_nll": 0.9444594290494792,
+      "groups": 123,
+      "independent_error": 4.440892098500626e-16,
+      "later_groups": 122,
+      "later_mean_nll": 3.0732293597023927,
+      "later_nll_sum": 374.9339818836919,
+      "nll_per_group_delta": 3.0559222870954583,
+      "status": "complete"
+    },
+    "17_raw": {
+      "first_nll": 0.9444594290494792,
+      "groups": 123,
+      "independent_error": 0.0,
+      "later_groups": 122,
+      "later_mean_nll": 2.9910610208369404,
+      "later_nll_sum": 364.9094445421067,
+      "nll_per_group_delta": 2.974421983505335,
+      "status": "complete"
+    },
+    "18_equal_family": {
+      "first_nll": 0.9509740958236861,
+      "groups": 123,
+      "independent_error": 0.0,
+      "later_groups": 122,
+      "later_mean_nll": 3.024891630493241,
+      "later_nll_sum": 369.0367789201754,
+      "nll_per_group_delta": 3.008030512325196,
+      "status": "complete"
+    },
+    "18_equal_work": {
+      "first_nll": 1.001617714666554,
+      "groups": 123,
+      "independent_error": 0.0,
+      "later_groups": 122,
+      "later_mean_nll": 3.0996110395271463,
+      "later_nll_sum": 378.1525468223119,
+      "nll_per_group_delta": 3.082554183227467,
+      "status": "complete"
+    },
+    "18_raw": {
+      "first_nll": 1.001617714666554,
+      "groups": 123,
+      "independent_error": 4.440892098500626e-16,
+      "later_groups": 122,
+      "later_mean_nll": 3.087531571097407,
+      "later_nll_sum": 376.6788516738836,
+      "nll_per_group_delta": 3.0705729218581315,
+      "status": "complete"
+    }
+  },
+  "status": "completed_with_explicit_condition_statuses"
+}

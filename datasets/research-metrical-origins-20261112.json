@@ -1,0 +1,78 @@
+{
+  "unit": "sixteenth-grid steps",
+  "scope": "Manual source-linked annotations, not MIDI-derived inference; four-bar phrase origin remains unreviewed",
+  "works": [
+    {
+      "id": 376,
+      "url": "https://www.mutopiaproject.org/ftp/Traditional/fleebird/fleebird.ly",
+      "sha256": "bf75e931d36d02b5a8f094ce8adc517ae74372574b53179de756ca8d1b45de29",
+      "melody_definition_line": 40,
+      "explicit_partial": false,
+      "start": "r1; d4 a'8. a16",
+      "pickup_length_sixteenth_steps": 0,
+      "warning": "Late melody entry is not itself pickup; absence of partial is source evidence, not universal guarantee of score identity.",
+      "origin_steps": 0,
+      "basis": "Explicit source time signature and full opening durations; no partial declaration in reviewed score."
+    },
+    {
+      "id": 2247,
+      "url": "https://www.mutopiaproject.org/ftp/AbtF/Vocalise1/Vocalise1.ly",
+      "sha256": "aa50b699783d99604572a4137094d447b999fa6cd56c12fc2b827de3153276c6",
+      "melody_definition_line": 42,
+      "explicit_partial": false,
+      "start": "e2 d2",
+      "pickup_length_sixteenth_steps": 0,
+      "warning": "Late melody entry is not itself pickup; absence of partial is source evidence, not universal guarantee of score identity.",
+      "origin_steps": 0,
+      "basis": "Explicit source time signature and full opening durations; no partial declaration in reviewed score."
+    },
+    {
+      "id": 2245,
+      "url": "https://www.mutopiaproject.org/ftp/VaccaiN/LessonI/LessonI.ly",
+      "sha256": "8ba0c5acde9f79b8ff59ebb4827718961e7e8c582c4f6c4e47aaea5a845d2ebf",
+      "melody_definition_line": 39,
+      "explicit_partial": false,
+      "start": "a2 b4 cis4",
+      "pickup_length_sixteenth_steps": 0,
+      "warning": "Late melody entry is not itself pickup; absence of partial is source evidence, not universal guarantee of score identity.",
+      "origin_steps": 0,
+      "basis": "Explicit source time signature and full opening durations; no partial declaration in reviewed score."
+    },
+    {
+      "id": 888,
+      "url": "https://www.mutopiaproject.org/ftp/Traditional/oatsandbeans/oatsandbeans.ly",
+      "sha256": "3a9e932c3137714caa8f4d7fabb2eb3dc1470be3f333b16ee1e07d8470246f8f",
+      "melody_definition_line": 33,
+      "explicit_partial": false,
+      "start": "g4 g8 e4 c8",
+      "pickup_length_sixteenth_steps": 0,
+      "warning": "Late melody entry is not itself pickup; absence of partial is source evidence, not universal guarantee of score identity.",
+      "origin_steps": 0,
+      "basis": "Explicit source time signature and full opening durations; no partial declaration in reviewed score."
+    },
+    {
+      "id": 889,
+      "url": "https://www.mutopiaproject.org/ftp/Traditional/wateroftyne/wateroftyne.ly",
+      "sha256": "5fd7e2b1ad9301a31ec418fbc1ad26493cb7937893334767b597e3e0e2c99aa4",
+      "melody_definition_line": 31,
+      "explicit_partial": true,
+      "start": "\\partial 8; r8 r2. r4 r8 r4 a8",
+      "pickup_length_sixteenth_steps": 2,
+      "warning": "Late melody entry is not itself pickup; absence of partial is source evidence, not universal guarantee of score identity.",
+      "origin_steps": 10,
+      "basis": "Explicit score partial eighth; MIDI begins at pickup rest. First full downbeat MIDI step2; first melody onset step24 is another pickup at barphase10."
+    },
+    {
+      "id": 789,
+      "url": "https://www.mutopiaproject.org/ftp/Traditional/SingIvy/SingIvy.ly",
+      "sha256": "634c519d812741410572cdb76066a25af68c9c554c87ea21231460cee3d150e6",
+      "melody_definition_line": 44,
+      "explicit_partial": false,
+      "start": "r2.; r4 r8; b4.",
+      "pickup_length_sixteenth_steps": 0,
+      "warning": "Late melody entry is not itself pickup; absence of partial is source evidence, not universal guarantee of score identity.",
+      "origin_steps": 0,
+      "basis": "Explicit source time signature and full opening durations; no partial declaration in reviewed score."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "scope": "Independent saved-result arithmetic and append-journal ordering audit; no additional source fitting or predictive call.",
+  "results_sha256": "fdcf46673b267037eb83a7e6d0e7b81d4bf634a3c347e2c6451533b3fdecbf4f",
+  "repeat_equal_except_cpu": true,
+  "checks": 54,
+  "prediction_attempts_each_run": 8,
+  "prediction_completed_each_run": 8,
+  "new_evaluation_ids_absent_from_fit_journals": true,
+  "status": "PASS",
+  "limits": [
+    "Independent aggregate/journal audit, not independent model reimplementation or listening evidence."
+  ]
+}

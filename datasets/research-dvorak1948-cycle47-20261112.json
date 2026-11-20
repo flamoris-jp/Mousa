@@ -1,0 +1,209 @@
+{
+  "schema": "mousa-cycle47-dvorak-intake-v1",
+  "reviewed_utc": "2026-11-12T18:10:30.291399+00:00",
+  "work_id": "1948",
+  "status": "rights-reviewed selected violin incipit; reserve pending split screen and parent review; not admitted",
+  "title": "4 Romantic Pieces, Op.75 B.150, first piece",
+  "original_metadata_title": "4 Romantic Pieces, Op.4",
+  "catalogue_discrepancy": "Mutopia and header.ily label Op.4. Historical scanned violin part explicitly Op.75; plate8765/B150/title and first-piece incipit agree. Preserve original metadata/bytes, annotate discrepancy rather than silently rewrite.",
+  "composer": "Antonín Dvořák (1841–1904)",
+  "contributor": "Felix Janda",
+  "composition": {
+    "date": 1887,
+    "arrangement": "Composer violin-and-piano version, related Miniatures Op75a family should remain linked; no modern arranger credited",
+    "rights": "Historic1887publication; author died1904; public-domain composition in ordinary life70 jurisdictions and US pre1931 publication; not universal legal guarantee"
+  },
+  "edition": {
+    "publisher": "N. Simrock, Berlin, plate8765",
+    "publication": 1887,
+    "editor": "No separate modern editor identified on selected original violin part",
+    "evidence": [
+      "https://urresearch.rochester.edu/institutionalPublicationPublicView.action?institutionalItemId=10131",
+      "https://catalog.freelibrary.org/Record/2001256"
+    ],
+    "institution_terms": "Sibley item explicitly public domain; archive scan used for provenance, not training",
+    "limits": "Selected violin incipit and plate checked, not full critical collation or piano-source comparison. Handwritten library markings not used."
+  },
+  "encoding": {
+    "license": "Public Domain, legacy individual typesetter dedication (notCC0)",
+    "source": "header.ily license and footer with FelixJanda attribution; matching official MIDI ZIP",
+    "constraints": "No underlying modern arrangement inferred. Individual MIDI metadata and source provenance reviewed, not blanket website licensing."
+  },
+  "incipit": {
+    "file": "original-violin.pdf",
+    "page": 1,
+    "checked": "Violine, Op75, Allegromoderato,2flats/common time; D5 dottedhalf F5 quarter; F5 half F4 half; Bb4 dottedhalf D5 quarter; D5 half D4 half matches notes1.ily; first note MIDI74 at0. Plate8765 atfoot.",
+    "ly_sha256": "d5599dcd0bcc517c692946cfd010f8b3deb020773d592528d0be776911d176b8"
+  },
+  "technical": {
+    "selected_original": "score.mid",
+    "sha256": "528aba0589429a468f9d51b5d4a4a1ca8018c91edb7fee1ad736964fd8ab583a",
+    "track": 1,
+    "notes": 123,
+    "first_tick": 0,
+    "eot": 69120,
+    "ppq": 384,
+    "reader": "unmodified overlap_midi",
+    "other_tracks": "track2 piano585notes accepted; track3 rejected unsupported CC, not repaired",
+    "all_voices": "Original score.mid and entire MIDI ZIP kept unchanged. No accompaniment removal or rewritten replacement. Selected analysis is violin track projection only."
+  },
+  "family": {
+    "id": "dvorak-op75-b150-simrock-janda",
+    "members": "All4 pieces, score/violin/piano forms and Op75a related material grouped; separate files not independent pieces for split",
+    "independence": "New composer and named contributor relative current18. Publisher overlap alone not proof of identical editorial source. Exact duplicate checks pending."
+  },
+  "split_background": {
+    "training": 18,
+    "observed_untrained": 4,
+    "blocked": 6,
+    "total_original_reference_works": 28,
+    "special_case": "Satie37 original rejected reader; do not repair or substitute derived as independent reference. Future all-reference clearance must explicitly resolve diagnostic-only pitch projection or remain blocked."
+  },
+  "files": [
+    {
+      "filename": "lys.zip",
+      "url": "https://www.mutopiaproject.org/ftp/DvorakA/O4/dvorak-o4/dvorak-o4-lys.zip",
+      "sha256": "2ac9cb164a7339612ff53a603acb7e307084c5e9b169a4515de18a4539a3b870",
+      "bytes": 12323,
+      "acquired_utc": "2026-11-12T18:09:10.516586+00:00",
+      "timestamp_basis": "direct-write completion mtime"
+    },
+    {
+      "filename": "mids.zip",
+      "url": "https://www.mutopiaproject.org/ftp/DvorakA/O4/dvorak-o4/dvorak-o4-mids.zip",
+      "sha256": "6bc86679f2c13c97c7b5befe5fcbad6a72cf26fa8516755146abe45ffe94899d",
+      "bytes": 21882,
+      "acquired_utc": "2026-11-12T18:09:12.795142+00:00",
+      "timestamp_basis": "direct-write completion mtime"
+    },
+    {
+      "filename": "original-violin.pdf",
+      "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=22401&itemId=10198",
+      "sha256": "385e1a5a9c50a2e56b7c4fd6f4ca278bb4d5252c416793820dfd02a9472a4d70",
+      "bytes": 255045,
+      "acquired_utc": "2026-11-12T18:09:40.837816+00:00",
+      "timestamp_basis": "direct-write completion mtime"
+    }
+  ],
+  "extracted_files": [
+    {
+      "filename": "global.ily",
+      "sha256": "e32aba9f3974a882aa26ec9f6f69b796e842708f216049e50107a72b2e1d7699",
+      "bytes": 443
+    },
+    {
+      "filename": "header.ily",
+      "sha256": "6d74d32d36b0d2b8cbc802c49ad48c8fec5eabdf052eb0941a8ca97426466007",
+      "bytes": 1307
+    },
+    {
+      "filename": "notes1.ily",
+      "sha256": "d5599dcd0bcc517c692946cfd010f8b3deb020773d592528d0be776911d176b8",
+      "bytes": 6406
+    },
+    {
+      "filename": "notes2.ily",
+      "sha256": "5cc7f1009662d8cabf35e7164a6f8472e04a5842ea99a91a274ef2917b8694a5",
+      "bytes": 9017
+    },
+    {
+      "filename": "notes3.ily",
+      "sha256": "e1c947e85b2be44069aec4cf79cef2ed405f905733554d786992a4850128c490",
+      "bytes": 5020
+    },
+    {
+      "filename": "notes4.ily",
+      "sha256": "271e1e253216741898065e4e7843db6d4e5642db4cd73b68e825b260a1d64d79",
+      "bytes": 9400
+    },
+    {
+      "filename": "piano-1.mid",
+      "sha256": "107a86459996c7d13bb4be9055f1e5b13b09d1d9791d37a9a7442a0e557ce12a",
+      "bytes": 9275
+    },
+    {
+      "filename": "piano-2.mid",
+      "sha256": "51730075f9f3ec30387e9000a8f127c123df2c04e9145c7373401840b4435829",
+      "bytes": 6734
+    },
+    {
+      "filename": "piano-3.mid",
+      "sha256": "2b1d0527f58d5ee9dfd8774aafd6130f8d103e7c1b167c2f307c3a3d0a112d0b",
+      "bytes": 7250
+    },
+    {
+      "filename": "piano.ily",
+      "sha256": "ff592689c58dec0f2ed187446f5e26729dfbe1aeb0014228f27e91895005451f",
+      "bytes": 264
+    },
+    {
+      "filename": "piano.ly",
+      "sha256": "22d6764b2c7580d2dd11da732ed5b9615f433fd75a9a8ca2414ab251ce440745",
+      "bytes": 495
+    },
+    {
+      "filename": "piano.mid",
+      "sha256": "6a3323c3a9926a4ed94c88a82b81303b8b9d56ddb593a04860a6ed6efe146374",
+      "bytes": 6913
+    },
+    {
+      "filename": "score-1.mid",
+      "sha256": "feb87bc51fa60d77abab9e81eeb1ef86100d6887e33b2c75130808269aeec113",
+      "bytes": 13126
+    },
+    {
+      "filename": "score-2.mid",
+      "sha256": "4e11779a946083a8f552b39fec5534d5e0539a7751912141c92bfb06f0a87182",
+      "bytes": 9304
+    },
+    {
+      "filename": "score-3.mid",
+      "sha256": "8b0e05e6b8bc5e0a1db4266fb4476d51542dfe3d01057ee3621e84196e500edf",
+      "bytes": 12494
+    },
+    {
+      "filename": "score.ly",
+      "sha256": "1826e4723ec54bf810654c56c04a99e20faa7b5fb3613604e2469594d2ef3c80",
+      "bytes": 498
+    },
+    {
+      "filename": "score.mid",
+      "sha256": "528aba0589429a468f9d51b5d4a4a1ca8018c91edb7fee1ad736964fd8ab583a",
+      "bytes": 9221
+    },
+    {
+      "filename": "violin-1.mid",
+      "sha256": "d452b5328248298ae24be7b557f81d0c703187c25711653417a1b8d5ab5306e2",
+      "bytes": 3867
+    },
+    {
+      "filename": "violin-2.mid",
+      "sha256": "db755720e682babd32eefc4ec09a903fbccff400cc75559d06938e721ef9d142",
+      "bytes": 1848
+    },
+    {
+      "filename": "violin-3.mid",
+      "sha256": "b1f5802534e90987ced7c84cfe2c7f532f1831e174264361c3fac3b103cac3f3",
+      "bytes": 5128
+    },
+    {
+      "filename": "violin.ily",
+      "sha256": "08f1f9479f85de70917fa588db37ae6d57f3d7941b9dfb8d5a03315b75806402",
+      "bytes": 136
+    },
+    {
+      "filename": "violin.ly",
+      "sha256": "03d4a7039186bf746394aa98b45a0df9e9ac95d1eefbb4886f31f196b622c6f3",
+      "bytes": 516
+    },
+    {
+      "filename": "violin.mid",
+      "sha256": "48674675ee860b86002c969ec3461a609ff066d7aa04e9d29c0fb697bfa9a66a",
+      "bytes": 1618
+    }
+  ],
+  "screen": "not performed; currenttask reserve only",
+  "fit": false,
+  "model_score": false,
+  "uploaded": false
+}

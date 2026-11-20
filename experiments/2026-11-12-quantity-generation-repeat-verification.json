@@ -1,0 +1,245 @@
+{
+  "scope": "Independent re-read of20MIDI and initial/repeat generation comparison",
+  "initial_report_sha256": "0eb9929cfe216ead5a2ddc9be339dcc924dbe169c64e5b246836d8393c54999b",
+  "repeat_report_sha256": "e8c481dbd63b5f696de67b04c423feddcd05974dfc0687319628a530388c5809",
+  "normalized_conditions_equal": true,
+  "common_seed_analysis_equal": true,
+  "excluded_comparison_fields": [
+    "generation_timing"
+  ],
+  "plan_difference": "creationtimestamp only",
+  "all20_outputs_verified": [
+    {
+      "file": "family0-0.mid",
+      "sha256": "955949bde2b8db29d4cc75712501fddb6dc6459a8e6b4e3dd94a61ca154237ee",
+      "notes": 28,
+      "eot_ticks": 9216,
+      "silent_tail_ticks": 96,
+      "max_polyphony": 3,
+      "same_pitch_overlap": false,
+      "repeat_byte_identical": true,
+      "old_fullbaseline_byte_identical": null
+    },
+    {
+      "file": "family0-1.mid",
+      "sha256": "d45643361fb21f2eb30d8cdc22023316ecc1bddd6ade1a80ba73f5dc7cfc60a4",
+      "notes": 25,
+      "eot_ticks": 9216,
+      "silent_tail_ticks": 96,
+      "max_polyphony": 2,
+      "same_pitch_overlap": false,
+      "repeat_byte_identical": true,
+      "old_fullbaseline_byte_identical": null
+    },
+    {
+      "file": "family0-2.mid",
+      "sha256": "3eec2e08aad23a6838d2238e6a72e349a01c8a72d4de3c5e14c02ff049660188",
+      "notes": 7,
+      "eot_ticks": 9216,
+      "silent_tail_ticks": 295,
+      "max_polyphony": 1,
+      "same_pitch_overlap": false,
+      "repeat_byte_identical": true,
+      "old_fullbaseline_byte_identical": null
+    },
+    {
+      "file": "family0-3.mid",
+      "sha256": "1d76f3804dfd433d984bcdc5c94b04239da83163d364bcdbeb270333a24c3497",
+      "notes": 17,
+      "eot_ticks": 9216,
+      "silent_tail_ticks": 28,
+      "max_polyphony": 2,
+      "same_pitch_overlap": false,
+      "repeat_byte_identical": true,
+      "old_fullbaseline_byte_identical": null
+    },
+    {
+      "file": "family0-4.mid",
+      "sha256": "d8b2d28312c8f6dc27c5779694754a3f94978fc0328dcf04fbf7e0ef6f5e87cf",
+      "notes": 31,
+      "eot_ticks": 9216,
+      "silent_tail_ticks": 288,
+      "max_polyphony": 2,
+      "same_pitch_overlap": false,
+      "repeat_byte_identical": true,
+      "old_fullbaseline_byte_identical": null
+    },
+    {
+      "file": "family1-0.mid",
+      "sha256": "04bfb2f08df58ccc931676920be47b4d0898c1f6af0b266a4926d495251e895d",
+      "notes": 12,
+      "eot_ticks": 9216,
+      "silent_tail_ticks": 254,
+      "max_polyphony": 2,
+      "same_pitch_overlap": false,
+      "repeat_byte_identical": true,
+      "old_fullbaseline_byte_identical": null
+    },
+    {
+      "file": "family1-1.mid",
+      "sha256": "c19b193afdf9dc47acc289d2c9ed69e3678d1026ae88b5d36c948576c18a4df2",
+      "notes": 21,
+      "eot_ticks": 9216,
+      "silent_tail_ticks": 176,
+      "max_polyphony": 3,
+      "same_pitch_overlap": false,
+      "repeat_byte_identical": true,
+      "old_fullbaseline_byte_identical": null
+    },
+    {
+      "file": "family1-2.mid",
+      "sha256": "1556ace6b8788e77829cea9c5474151f2f2064416f553ad0669afc275f89500e",
+      "notes": 25,
+      "eot_ticks": 9216,
+      "silent_tail_ticks": 384,
+      "max_polyphony": 1,
+      "same_pitch_overlap": false,
+      "repeat_byte_identical": true,
+      "old_fullbaseline_byte_identical": null
+    },
+    {
+      "file": "family1-3.mid",
+      "sha256": "be5ae83237c81ffd97887e127fd061ea2ff6823c2c33bb169c69da46d6f0824c",
+      "notes": 38,
+      "eot_ticks": 9216,
+      "silent_tail_ticks": 384,
+      "max_polyphony": 2,
+      "same_pitch_overlap": false,
+      "repeat_byte_identical": true,
+      "old_fullbaseline_byte_identical": null
+    },
+    {
+      "file": "family1-4.mid",
+      "sha256": "11940642c8f65c282035ac11dcaa70a499b615aab7aad70f20634de4f8a44a62",
+      "notes": 35,
+      "eot_ticks": 9216,
+      "silent_tail_ticks": 384,
+      "max_polyphony": 2,
+      "same_pitch_overlap": false,
+      "repeat_byte_identical": true,
+      "old_fullbaseline_byte_identical": null
+    },
+    {
+      "file": "family2-0.mid",
+      "sha256": "1cf4652805f5ba356467b005d4d081d9060ee39f55a4840e6f7c97fec73badc2",
+      "notes": 34,
+      "eot_ticks": 9216,
+      "silent_tail_ticks": 384,
+      "max_polyphony": 3,
+      "same_pitch_overlap": false,
+      "repeat_byte_identical": true,
+      "old_fullbaseline_byte_identical": null
+    },
+    {
+      "file": "family2-1.mid",
+      "sha256": "2525db37a4650aefcd8d886674e21be2770b3474313d451f12e0d555f93dcf02",
+      "notes": 36,
+      "eot_ticks": 9216,
+      "silent_tail_ticks": 384,
+      "max_polyphony": 2,
+      "same_pitch_overlap": false,
+      "repeat_byte_identical": true,
+      "old_fullbaseline_byte_identical": null
+    },
+    {
+      "file": "family2-2.mid",
+      "sha256": "bea546c8902417e0ae415fda228a99faf9b88fb47290bdf6007cfb677bb9cebe",
+      "notes": 30,
+      "eot_ticks": 9216,
+      "silent_tail_ticks": 384,
+      "max_polyphony": 2,
+      "same_pitch_overlap": false,
+      "repeat_byte_identical": true,
+      "old_fullbaseline_byte_identical": null
+    },
+    {
+      "file": "family2-3.mid",
+      "sha256": "731d973a9c1115645b76a9991c43d061214e664a3bd27ec7372b525d1a160852",
+      "notes": 23,
+      "eot_ticks": 9216,
+      "silent_tail_ticks": 384,
+      "max_polyphony": 2,
+      "same_pitch_overlap": false,
+      "repeat_byte_identical": true,
+      "old_fullbaseline_byte_identical": null
+    },
+    {
+      "file": "family2-4.mid",
+      "sha256": "aa735ccf4999f96644e20622988d48f660646334fa494c0daaf55e430b840eb1",
+      "notes": 33,
+      "eot_ticks": 9216,
+      "silent_tail_ticks": 384,
+      "max_polyphony": 3,
+      "same_pitch_overlap": false,
+      "repeat_byte_identical": true,
+      "old_fullbaseline_byte_identical": null
+    },
+    {
+      "file": "full-0.mid",
+      "sha256": "6ccab2e4ce90f4db44175ceed97d4dbad234c7ac39d1649af838218a6bb76f6b",
+      "notes": 31,
+      "eot_ticks": 9216,
+      "silent_tail_ticks": 384,
+      "max_polyphony": 2,
+      "same_pitch_overlap": false,
+      "repeat_byte_identical": true,
+      "old_fullbaseline_byte_identical": true
+    },
+    {
+      "file": "full-1.mid",
+      "sha256": "01debf0bc1ce94d721b5eabae22e29bb47cba9033d31aec9177c517217f63874",
+      "notes": 25,
+      "eot_ticks": 9216,
+      "silent_tail_ticks": 384,
+      "max_polyphony": 3,
+      "same_pitch_overlap": false,
+      "repeat_byte_identical": true,
+      "old_fullbaseline_byte_identical": true
+    },
+    {
+      "file": "full-2.mid",
+      "sha256": "cce949645720f74f2d79081761c1793692aed89e1b0668a613c2791d932a0f8f",
+      "notes": 30,
+      "eot_ticks": 9216,
+      "silent_tail_ticks": 192,
+      "max_polyphony": 2,
+      "same_pitch_overlap": false,
+      "repeat_byte_identical": true,
+      "old_fullbaseline_byte_identical": true
+    },
+    {
+      "file": "full-3.mid",
+      "sha256": "5c3043c77f8d5cd518aa21a1216af3f5366f10bbab46a7d36ca4f77d49d1aadc",
+      "notes": 31,
+      "eot_ticks": 9216,
+      "silent_tail_ticks": 384,
+      "max_polyphony": 2,
+      "same_pitch_overlap": false,
+      "repeat_byte_identical": true,
+      "old_fullbaseline_byte_identical": true
+    },
+    {
+      "file": "full-4.mid",
+      "sha256": "165b3c82186d656c08ef945be7e4d320cb001cec011229ed3368b69b9744bbe7",
+      "notes": 32,
+      "eot_ticks": 9216,
+      "silent_tail_ticks": 192,
+      "max_polyphony": 2,
+      "same_pitch_overlap": false,
+      "repeat_byte_identical": true,
+      "old_fullbaseline_byte_identical": true
+    }
+  ],
+  "fullsubset_seed0to4_matches_previous_cycle15_bytes": true,
+  "tests": {
+    "total": 226,
+    "passed": 225,
+    "skipped": 1,
+    "compileall": "passed"
+  },
+  "independent_fixed60_audit": {
+    "allconditions_exactly_match": true,
+    "report_sha256": "e47c9efe3833f36035c209ee9e29107447b5a3cc6a09454db9ab1a04243a1e3a",
+    "finding": "No substantiveissue;1/2/1/4 workboundaries produce59/58/59/56 transitions despite fixed60events, explicitly disclosed. Prefix andcontentconfounds remain."
+  }
+}

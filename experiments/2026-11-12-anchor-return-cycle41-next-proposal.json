@@ -1,0 +1,71 @@
+{
+  "status": "post_result_exploratory_proposal_not_implemented_not_executed",
+  "motivation": "All5 fixed whole-fragment replacements were blocked by sustained notes crossing fixed boundaries. Test a different intervention that preserves all temporal structure, rather than relaxing or rewriting that failed experiment.",
+  "prior_evidence_sha256": {
+    "2026-11-12-phrase-groups-cycle41-plan.json": "5f6e62034a10b4bc68d6609ee631ef28a1f8760921598f547880a6b9485fdd57",
+    "2026-11-12-phrase-groups-cycle41-results.json": "5a84503520c20d421d826661ee2d2d6eab94469cb6aa271b3d2c9f0bb0b6af7f"
+  },
+  "hypothesis": "Reusing an earlier group-anchor contour may introduce pitch recurrence without cutting held notes; validity, tonal coherence and listener preference are not guaranteed.",
+  "control": "Unmodified whole8bar output from the same previously observed global5-seed pool, if separately approved. Both arms share the same generated candidate; no seed substitution.",
+  "fixed_windows": {
+    "A_half_open_ticks": [
+      0,
+      2304
+    ],
+    "C_half_open_ticks": [
+      4608,
+      6912
+    ],
+    "target_ticks": 9216,
+    "ppq": 384
+  },
+  "mapping": "Sort original groups by strictly increasing onset. Enumerate C groups j=0..len(C)-1. Replace C[j].anchor by ORIGINAL A[j mod len(A)].anchor+2. Do not use modified anchors recursively. A and C need not have equal counts. C shorter consumes only a prefix; C longer cycles A. No interpolation, matching by score, resampling or phase search.",
+  "preserved_fields": [
+    "every note start and end tick",
+    "every note gate duration",
+    "every velocity and release velocity",
+    "every group onset and delta",
+    "group count and member order",
+    "all within-group pitch offsets relative to anchor",
+    "all notes and their ordering",
+    "target EOT9216",
+    "leading/internal/trailing silence and occupancy timeline"
+  ],
+  "changed_fields": "Only C-group anchors and corresponding note absolute pitches. Relative intervals between successive groups, register and transitions entering/leaving C can change.",
+  "empty_cases": {
+    "A_empty": "intervention blocked: no source anchors; never call silence a melodic return",
+    "C_empty": "intervention blocked: no target groups; never count unchanged output as successful intervention"
+  },
+  "no_op_case": "If every mapped C anchor equals its original anchor, record no_effect rather than successful nontrivial recurrence. Keep candidate in all-status denominator.",
+  "sustained_boundary_semantics": "Do not cut or retime any note crossing2304/4608/6912. Membership follows onset only. A note starting before C and sounding inside it keeps its original pitch; a C note sounding into D keeps its mapped pitch until its original end. Validate overlap with ALL original earlier/later groups, not only adjacent groups. Half-open intervals allow end==nextstart.",
+  "fail_closed_checks": [
+    "Exact full-template reconstruction and unchanged ordered temporal/velocity fields",
+    "MIDI pitch0..127 after mapping; reject, do not clip or choose alternate shift",
+    "No equal-pitch overlapping note intervals, including sustained notes entering/leaving C",
+    "Max3 active voices and max256 notes, inherited temporal shape must remain valid",
+    "All note endpoints inside9216 and original tail<=384",
+    "Identical complete-output exact8-note interval screen against original17train+observed640/921+Dowland21/1691, generated and canonical ordering; joins included, no internal-repeat exemption"
+  ],
+  "reporting": [
+    "Every candidate and rejection reason, including collisions, pitch range, copy, empty and no_effect",
+    "Number and fraction of changed anchors/notes, original and mapped anchor range",
+    "A/C group counts, cycle count and remainder in ordinal mapping",
+    "Exact preservation assertions for timing, gates, velocities, note/group count, silence and polyphony",
+    "All-seed statuses plus complete-only and common-success denominators; no failed-candidate metric imputation",
+    "Source/plan/code hashes and old candidate parity if later implemented"
+  ],
+  "interpretation_limits": [
+    "The proposal follows inspection of Cycle41 failures; not prospective evidence on unseen outputs.",
+    "Ordinal group number is not metrical, melodic-voice or phrase alignment.",
+    "Group minimum-pitch anchor is not a verified melody voice; preserving chord offsets does not preserve harmonic function.",
+    "+2 chromatic shift and cycling may create collisions, large leaps or inappropriate harmony.",
+    "Pitch recurrence is imposed by construction; numeric recurrence gain is not evidence of attraction.",
+    "Different A/C group counts change contour sampling. No direct claim comparable to successful whole-fragment copying, of which there were zero.",
+    "This is not a learned phrase model, new human preference label, or adopted production behavior."
+  ],
+  "future_permission": "A separate frozen implementation/tests/plan and parent review are required before any fit or generation. No change to Cycle41 frozen artifacts or snapshot.",
+  "implemented": false,
+  "real_fit": false,
+  "real_generation": false,
+  "human_ratings": false
+}

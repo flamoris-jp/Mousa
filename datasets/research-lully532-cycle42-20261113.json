@@ -1,0 +1,257 @@
+{
+  "reviewed_utc": "2026-11-12T16:53:41.433920+00:00",
+  "id": "mutopia-532",
+  "title": "Armide LWV71, ActeII SceneIII, Renaud seul",
+  "composer": "Jean-Baptiste Lully (1632-1687)",
+  "text_author": "Philippe Quinault (1635-1688)",
+  "contributor": "Björn Sothmann",
+  "source_page": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=532",
+  "rights_status": "historical-composition-edition-and-individual-PD-contribution-supported",
+  "admission_status": "fixed-screen-blocked-not-fit-not-scored",
+  "composition": "1686 opera; historical score title explicitly Lully, Christophe Ballard Paris MDCLXXXVI. Original vocal text Quinault separately historical.",
+  "edition": "Ballard1686; scanned copy bears Conservatoire Royal Bibliotheque Bruxelles stamp, InternetArchive armidetragedie00lull. No modern arranger identified in source; modern engraving Sothmann individually dedicated.",
+  "encoding": "score.ly copyrightPublicDomain and explicit placed-in-public-domain-by-typesetter footer. Original MIDI is directly linked beside sourceZIP for this piece, not inferred from free availability. LegacyPublicDomain dedication, notCC0.",
+  "incipit": "Printed page81 image page/n146.jpg visually inspected: Renaud vocal staff above Basse-Continue, after orchestral prelude rests, quarter rest then B-flat3 G3 D4 D4 A3 B-flat3 rest B-flat3; lyric Plus j'observe ces lieux. Matches Renaud.ly and track5. Full-source equality not claimed.",
+  "timing": "Source R2.*20 then r4 yields first23424 ticks atPPQ384. Source starts declared2/2 but rendered MIDI meter changes are retained exactly; no historical meter normalization or silence removal. Full six-staff MIDI preserved.",
+  "voice_mapping": "score.ly MIDI staff order Dessus/Haute/Taille/Quinte/Renaud/Basse corresponds note tracks1..6; selected5 is explicitly vocal Renaud, instrument-program oboe not proof of literal oboe performance.",
+  "technical": [
+    {
+      "track": 1,
+      "notes": 384,
+      "first_onset": 0,
+      "eot": 103680,
+      "source_eot": 103680,
+      "ppq": 384,
+      "meter_map": [
+        {
+          "tick": 0,
+          "numerator": 3,
+          "denominator": 4,
+          "clocks_per_click": 18,
+          "notated_32nd_notes_per_beat": 8
+        }
+      ],
+      "tempo_map": [
+        [
+          0,
+          750000
+        ]
+      ],
+      "volume_map": [],
+      "program_map": [
+        [
+          0,
+          40
+        ]
+      ]
+    },
+    {
+      "track": 2,
+      "notes": 318,
+      "first_onset": 0,
+      "eot": 103680,
+      "source_eot": 103680,
+      "ppq": 384,
+      "meter_map": [
+        {
+          "tick": 0,
+          "numerator": 3,
+          "denominator": 4,
+          "clocks_per_click": 18,
+          "notated_32nd_notes_per_beat": 8
+        }
+      ],
+      "tempo_map": [
+        [
+          0,
+          750000
+        ]
+      ],
+      "volume_map": [],
+      "program_map": [
+        [
+          0,
+          40
+        ]
+      ]
+    },
+    {
+      "track": 3,
+      "notes": 321,
+      "first_onset": 2304,
+      "eot": 103680,
+      "source_eot": 103680,
+      "ppq": 384,
+      "meter_map": [
+        {
+          "tick": 0,
+          "numerator": 3,
+          "denominator": 4,
+          "clocks_per_click": 18,
+          "notated_32nd_notes_per_beat": 8
+        }
+      ],
+      "tempo_map": [
+        [
+          0,
+          750000
+        ]
+      ],
+      "volume_map": [],
+      "program_map": [
+        [
+          0,
+          40
+        ]
+      ]
+    },
+    {
+      "track": 4,
+      "notes": 311,
+      "first_onset": 3072,
+      "eot": 103680,
+      "source_eot": 103680,
+      "ppq": 384,
+      "meter_map": [
+        {
+          "tick": 0,
+          "numerator": 3,
+          "denominator": 4,
+          "clocks_per_click": 18,
+          "notated_32nd_notes_per_beat": 8
+        }
+      ],
+      "tempo_map": [
+        [
+          0,
+          750000
+        ]
+      ],
+      "volume_map": [],
+      "program_map": [
+        [
+          0,
+          40
+        ]
+      ]
+    },
+    {
+      "track": 5,
+      "notes": 157,
+      "first_onset": 23424,
+      "eot": 103680,
+      "source_eot": 103680,
+      "ppq": 384,
+      "meter_map": [
+        {
+          "tick": 0,
+          "numerator": 3,
+          "denominator": 4,
+          "clocks_per_click": 18,
+          "notated_32nd_notes_per_beat": 8
+        }
+      ],
+      "tempo_map": [
+        [
+          0,
+          750000
+        ]
+      ],
+      "volume_map": [],
+      "program_map": [
+        [
+          0,
+          68
+        ]
+      ]
+    },
+    {
+      "track": 6,
+      "notes": 447,
+      "first_onset": 3456,
+      "eot": 103680,
+      "source_eot": 103680,
+      "ppq": 384,
+      "meter_map": [
+        {
+          "tick": 0,
+          "numerator": 3,
+          "denominator": 4,
+          "clocks_per_click": 18,
+          "notated_32nd_notes_per_beat": 8
+        }
+      ],
+      "tempo_map": [
+        [
+          0,
+          750000
+        ]
+      ],
+      "volume_map": [],
+      "program_map": [
+        [
+          0,
+          6
+        ]
+      ]
+    }
+  ],
+  "support": "157notes/groups; first23424 fits existingfirst65536, later/gate validate passed. Old shortfirstcap would fail; no model fit or evaluation performed.",
+  "family": "All Armide arrangements/voices and Ballard1686/Sothmann derivatives must stay grouped. Composer/contributor distinct current17, but short interval collisions prevent current admission.",
+  "screen": "experiments/2026-11-13-lully-cycle42-screen.json",
+  "screen_result": {
+    "comparisons": 24,
+    "flagged_references": {
+      "mutopia-98-legacy": 1,
+      "mutopia-2243": 2,
+      "21": 1
+    },
+    "rule": "exact8interval OR global normalized edit>=.80 unchanged",
+    "meaning": "Flagged motifs are not evidence of copyright infringement; rights and corpus split clearance are different. No adoption or independent-evaluation claim."
+  },
+  "evidence": [
+    {
+      "filename": "lully.mid",
+      "url": "https://www.mutopiaproject.org/ftp/LullyJB/LWV71/Armide/Armide.mid",
+      "sha256": "0e7502655345f798478f5d77086f10c7ff82367f0630cda38bc2a3b661fc385a",
+      "bytes": 17783,
+      "acquired_date_utc": "2026-11-13"
+    },
+    {
+      "filename": "lully.zip",
+      "url": "https://www.mutopiaproject.org/ftp/LullyJB/LWV71/Armide/Armide-lys.zip",
+      "sha256": "8a538487dea57e60205bf38fd8fb3c255b8d60f2a0a2d27acfdc78bedc996256",
+      "bytes": 5958,
+      "acquired_date_utc": "2026-11-13"
+    },
+    {
+      "filename": "archive-metadata.json",
+      "url": "https://archive.org/metadata/armidetragedie00lull",
+      "sha256": "1f3bb0cfc80fdd357728f8179467133430b12cbf6509d4eeac175e592245c335",
+      "bytes": 66572,
+      "acquired_date_utc": "2026-11-13"
+    },
+    {
+      "filename": "leaf2.jpg",
+      "url": "https://archive.org/download/armidetragedie00lull/page/n2.jpg",
+      "sha256": "440b06baba92228ba2b3a7846269980ea2b12d76214a562441fcb8b931ea0cf5",
+      "bytes": 1528087,
+      "acquired_date_utc": "2026-11-13"
+    },
+    {
+      "filename": "leaf146.jpg",
+      "url": "https://archive.org/download/armidetragedie00lull/page/n146.jpg",
+      "sha256": "27616a6e6e20db4afbf87bc1c8879c20cfbe26e71069e39a0d7b36e67df28fb2",
+      "bytes": 1622013,
+      "acquired_date_utc": "2026-11-13"
+    }
+  ],
+  "limitations": [
+    "Catalogue and title plus vocal incipit corroborated, not exhaustive note collation.",
+    "Historic scan retained privately, not training MIDI or Git media.",
+    "Full six-staff original retained; selected-track analysis does not reconstruct complete Cantabile project."
+  ],
+  "other_searches": "Satie/Schumann metadata-only index probe; no new admission or original acquisition there.",
+  "fit": false,
+  "model_score": false
+}

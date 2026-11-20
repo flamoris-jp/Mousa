@@ -1,0 +1,842 @@
+{
+  "plan_sha256": "d64a2c90e33af1447246796dc0a314a50663df51a9c751258fbc28b6806b877a",
+  "status": "human-review-only-screen-blocked-unchanged",
+  "comparisons": [
+    {
+      "reference": "mutopia-98-legacy",
+      "role": "training",
+      "reference_total_notes": 131,
+      "lully_total_notes": 157,
+      "distinct_exact8_patterns": 1,
+      "occurrence_pairs": 1,
+      "lully_union_note_coverage": 8,
+      "lully_union_note_fraction": 0.050955414012738856,
+      "reference_union_note_coverage": 8,
+      "reference_union_note_fraction": 0.061068702290076333,
+      "matches": [
+        {
+          "intervals_semitones": [
+            -2,
+            -2,
+            -1,
+            -2,
+            -2,
+            -1,
+            8
+          ],
+          "lully": {
+            "start_note_index_0based": 14,
+            "end_note_index_inclusive": 21,
+            "start_tick": 28800,
+            "last_note_end_tick": 30912,
+            "ppq": 384,
+            "pitches": [
+              67,
+              65,
+              63,
+              62,
+              60,
+              58,
+              57,
+              65
+            ],
+            "gate_ticks": [
+              192,
+              192,
+              192,
+              192,
+              192,
+              192,
+              768,
+              192
+            ],
+            "ioi_ticks": [
+              192,
+              192,
+              192,
+              192,
+              192,
+              192,
+              768
+            ],
+            "note_fraction": 0.050955414012738856,
+            "onset_span_fraction_of_eot": 0.018518518518518517,
+            "ordering_diagnostics": {
+              "same_onset_pairs_inside_window": 0,
+              "overlapping_pairs_inside_window": 0,
+              "window_notes_sharing_onset_with_any_other_source_note": 0,
+              "minimum_gate_ticks": 192,
+              "order": "overlap reader canonical(start,end,pitch), not inferred voice",
+              "grace_status": "positive-duration MIDI notes; no reliable grace-note semantic label inferred"
+            }
+          },
+          "reference": {
+            "start_note_index_0based": 94,
+            "end_note_index_inclusive": 101,
+            "start_tick": 20928,
+            "last_note_end_tick": 22272,
+            "ppq": 384,
+            "pitches": [
+              79,
+              77,
+              75,
+              74,
+              72,
+              70,
+              69,
+              77
+            ],
+            "gate_ticks": [
+              96,
+              96,
+              96,
+              96,
+              96,
+              96,
+              384,
+              192
+            ],
+            "ioi_ticks": [
+              96,
+              96,
+              96,
+              96,
+              96,
+              96,
+              576
+            ],
+            "note_fraction": 0.061068702290076333,
+            "onset_span_fraction_of_eot": 0.039473684210526314,
+            "ordering_diagnostics": {
+              "same_onset_pairs_inside_window": 0,
+              "overlapping_pairs_inside_window": 0,
+              "window_notes_sharing_onset_with_any_other_source_note": 0,
+              "minimum_gate_ticks": 96,
+              "order": "overlap reader canonical(start,end,pitch), not inferred voice",
+              "grace_status": "positive-duration MIDI notes; no reliable grace-note semantic label inferred"
+            }
+          },
+          "same_rational_gates": false,
+          "same_rational_iois": false,
+          "same_absolute_pitches": false,
+          "motif_structure": {
+            "repeated_pitch_steps": 0,
+            "ascending_steps": 1,
+            "descending_steps": 6,
+            "max_absolute_step": 8
+          }
+        }
+      ]
+    },
+    {
+      "reference": "mutopia-2243",
+      "role": "training",
+      "reference_total_notes": 169,
+      "lully_total_notes": 157,
+      "distinct_exact8_patterns": 2,
+      "occurrence_pairs": 5,
+      "lully_union_note_coverage": 26,
+      "lully_union_note_fraction": 0.16560509554140126,
+      "reference_union_note_coverage": 16,
+      "reference_union_note_fraction": 0.09467455621301775,
+      "matches": [
+        {
+          "intervals_semitones": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            -2
+          ],
+          "lully": {
+            "start_note_index_0based": 79,
+            "end_note_index_inclusive": 86,
+            "start_tick": 61440,
+            "last_note_end_tick": 64704,
+            "ppq": 384,
+            "pitches": [
+              69,
+              69,
+              69,
+              69,
+              69,
+              69,
+              69,
+              67
+            ],
+            "gate_ticks": [
+              384,
+              384,
+              384,
+              576,
+              192,
+              768,
+              192,
+              192
+            ],
+            "ioi_ticks": [
+              384,
+              384,
+              384,
+              576,
+              192,
+              960,
+              192
+            ],
+            "note_fraction": 0.050955414012738856,
+            "onset_span_fraction_of_eot": 0.02962962962962963,
+            "ordering_diagnostics": {
+              "same_onset_pairs_inside_window": 0,
+              "overlapping_pairs_inside_window": 0,
+              "window_notes_sharing_onset_with_any_other_source_note": 0,
+              "minimum_gate_ticks": 192,
+              "order": "overlap reader canonical(start,end,pitch), not inferred voice",
+              "grace_status": "positive-duration MIDI notes; no reliable grace-note semantic label inferred"
+            }
+          },
+          "reference": {
+            "start_note_index_0based": 52,
+            "end_note_index_inclusive": 59,
+            "start_tick": 23232,
+            "last_note_end_tick": 28032,
+            "ppq": 384,
+            "pitches": [
+              60,
+              60,
+              60,
+              60,
+              60,
+              60,
+              60,
+              58
+            ],
+            "gate_ticks": [
+              192,
+              384,
+              192,
+              192,
+              192,
+              192,
+              192,
+              192
+            ],
+            "ioi_ticks": [
+              192,
+              3456,
+              192,
+              192,
+              192,
+              192,
+              192
+            ],
+            "note_fraction": 0.047337278106508875,
+            "onset_span_fraction_of_eot": 0.08571428571428572,
+            "ordering_diagnostics": {
+              "same_onset_pairs_inside_window": 0,
+              "overlapping_pairs_inside_window": 0,
+              "window_notes_sharing_onset_with_any_other_source_note": 0,
+              "minimum_gate_ticks": 192,
+              "order": "overlap reader canonical(start,end,pitch), not inferred voice",
+              "grace_status": "positive-duration MIDI notes; no reliable grace-note semantic label inferred"
+            }
+          },
+          "same_rational_gates": false,
+          "same_rational_iois": false,
+          "same_absolute_pitches": false,
+          "motif_structure": {
+            "repeated_pitch_steps": 6,
+            "ascending_steps": 0,
+            "descending_steps": 1,
+            "max_absolute_step": 2
+          }
+        },
+        {
+          "intervals_semitones": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            -2
+          ],
+          "lully": {
+            "start_note_index_0based": 125,
+            "end_note_index_inclusive": 132,
+            "start_tick": 84480,
+            "last_note_end_tick": 87744,
+            "ppq": 384,
+            "pitches": [
+              65,
+              65,
+              65,
+              65,
+              65,
+              65,
+              65,
+              63
+            ],
+            "gate_ticks": [
+              384,
+              384,
+              384,
+              384,
+              384,
+              768,
+              192,
+              192
+            ],
+            "ioi_ticks": [
+              384,
+              384,
+              384,
+              384,
+              384,
+              960,
+              192
+            ],
+            "note_fraction": 0.050955414012738856,
+            "onset_span_fraction_of_eot": 0.02962962962962963,
+            "ordering_diagnostics": {
+              "same_onset_pairs_inside_window": 0,
+              "overlapping_pairs_inside_window": 0,
+              "window_notes_sharing_onset_with_any_other_source_note": 0,
+              "minimum_gate_ticks": 192,
+              "order": "overlap reader canonical(start,end,pitch), not inferred voice",
+              "grace_status": "positive-duration MIDI notes; no reliable grace-note semantic label inferred"
+            }
+          },
+          "reference": {
+            "start_note_index_0based": 52,
+            "end_note_index_inclusive": 59,
+            "start_tick": 23232,
+            "last_note_end_tick": 28032,
+            "ppq": 384,
+            "pitches": [
+              60,
+              60,
+              60,
+              60,
+              60,
+              60,
+              60,
+              58
+            ],
+            "gate_ticks": [
+              192,
+              384,
+              192,
+              192,
+              192,
+              192,
+              192,
+              192
+            ],
+            "ioi_ticks": [
+              192,
+              3456,
+              192,
+              192,
+              192,
+              192,
+              192
+            ],
+            "note_fraction": 0.047337278106508875,
+            "onset_span_fraction_of_eot": 0.08571428571428572,
+            "ordering_diagnostics": {
+              "same_onset_pairs_inside_window": 0,
+              "overlapping_pairs_inside_window": 0,
+              "window_notes_sharing_onset_with_any_other_source_note": 0,
+              "minimum_gate_ticks": 192,
+              "order": "overlap reader canonical(start,end,pitch), not inferred voice",
+              "grace_status": "positive-duration MIDI notes; no reliable grace-note semantic label inferred"
+            }
+          },
+          "same_rational_gates": false,
+          "same_rational_iois": false,
+          "same_absolute_pitches": false,
+          "motif_structure": {
+            "repeated_pitch_steps": 6,
+            "ascending_steps": 0,
+            "descending_steps": 1,
+            "max_absolute_step": 2
+          }
+        },
+        {
+          "intervals_semitones": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            -2
+          ],
+          "lully": {
+            "start_note_index_0based": 145,
+            "end_note_index_inclusive": 152,
+            "start_tick": 98304,
+            "last_note_end_tick": 101568,
+            "ppq": 384,
+            "pitches": [
+              62,
+              62,
+              62,
+              62,
+              62,
+              62,
+              62,
+              60
+            ],
+            "gate_ticks": [
+              384,
+              384,
+              384,
+              384,
+              384,
+              768,
+              192,
+              192
+            ],
+            "ioi_ticks": [
+              384,
+              384,
+              384,
+              384,
+              384,
+              960,
+              192
+            ],
+            "note_fraction": 0.050955414012738856,
+            "onset_span_fraction_of_eot": 0.02962962962962963,
+            "ordering_diagnostics": {
+              "same_onset_pairs_inside_window": 0,
+              "overlapping_pairs_inside_window": 0,
+              "window_notes_sharing_onset_with_any_other_source_note": 0,
+              "minimum_gate_ticks": 192,
+              "order": "overlap reader canonical(start,end,pitch), not inferred voice",
+              "grace_status": "positive-duration MIDI notes; no reliable grace-note semantic label inferred"
+            }
+          },
+          "reference": {
+            "start_note_index_0based": 52,
+            "end_note_index_inclusive": 59,
+            "start_tick": 23232,
+            "last_note_end_tick": 28032,
+            "ppq": 384,
+            "pitches": [
+              60,
+              60,
+              60,
+              60,
+              60,
+              60,
+              60,
+              58
+            ],
+            "gate_ticks": [
+              192,
+              384,
+              192,
+              192,
+              192,
+              192,
+              192,
+              192
+            ],
+            "ioi_ticks": [
+              192,
+              3456,
+              192,
+              192,
+              192,
+              192,
+              192
+            ],
+            "note_fraction": 0.047337278106508875,
+            "onset_span_fraction_of_eot": 0.08571428571428572,
+            "ordering_diagnostics": {
+              "same_onset_pairs_inside_window": 0,
+              "overlapping_pairs_inside_window": 0,
+              "window_notes_sharing_onset_with_any_other_source_note": 0,
+              "minimum_gate_ticks": 192,
+              "order": "overlap reader canonical(start,end,pitch), not inferred voice",
+              "grace_status": "positive-duration MIDI notes; no reliable grace-note semantic label inferred"
+            }
+          },
+          "same_rational_gates": false,
+          "same_rational_iois": false,
+          "same_absolute_pitches": false,
+          "motif_structure": {
+            "repeated_pitch_steps": 6,
+            "ascending_steps": 0,
+            "descending_steps": 1,
+            "max_absolute_step": 2
+          }
+        },
+        {
+          "intervals_semitones": [
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "lully": {
+            "start_note_index_0based": 124,
+            "end_note_index_inclusive": 131,
+            "start_tick": 84096,
+            "last_note_end_tick": 87552,
+            "ppq": 384,
+            "pitches": [
+              60,
+              65,
+              65,
+              65,
+              65,
+              65,
+              65,
+              65
+            ],
+            "gate_ticks": [
+              384,
+              384,
+              384,
+              384,
+              384,
+              384,
+              768,
+              192
+            ],
+            "ioi_ticks": [
+              384,
+              384,
+              384,
+              384,
+              384,
+              384,
+              960
+            ],
+            "note_fraction": 0.050955414012738856,
+            "onset_span_fraction_of_eot": 0.03148148148148148,
+            "ordering_diagnostics": {
+              "same_onset_pairs_inside_window": 0,
+              "overlapping_pairs_inside_window": 0,
+              "window_notes_sharing_onset_with_any_other_source_note": 0,
+              "minimum_gate_ticks": 192,
+              "order": "overlap reader canonical(start,end,pitch), not inferred voice",
+              "grace_status": "positive-duration MIDI notes; no reliable grace-note semantic label inferred"
+            }
+          },
+          "reference": {
+            "start_note_index_0based": 93,
+            "end_note_index_inclusive": 100,
+            "start_tick": 34368,
+            "last_note_end_tick": 37824,
+            "ppq": 384,
+            "pitches": [
+              48,
+              53,
+              53,
+              53,
+              53,
+              53,
+              53,
+              53
+            ],
+            "gate_ticks": [
+              192,
+              192,
+              192,
+              192,
+              192,
+              192,
+              192,
+              192
+            ],
+            "ioi_ticks": [
+              192,
+              192,
+              192,
+              192,
+              2112,
+              192,
+              192
+            ],
+            "note_fraction": 0.047337278106508875,
+            "onset_span_fraction_of_eot": 0.060714285714285714,
+            "ordering_diagnostics": {
+              "same_onset_pairs_inside_window": 0,
+              "overlapping_pairs_inside_window": 0,
+              "window_notes_sharing_onset_with_any_other_source_note": 0,
+              "minimum_gate_ticks": 192,
+              "order": "overlap reader canonical(start,end,pitch), not inferred voice",
+              "grace_status": "positive-duration MIDI notes; no reliable grace-note semantic label inferred"
+            }
+          },
+          "same_rational_gates": false,
+          "same_rational_iois": false,
+          "same_absolute_pitches": false,
+          "motif_structure": {
+            "repeated_pitch_steps": 6,
+            "ascending_steps": 1,
+            "descending_steps": 0,
+            "max_absolute_step": 5
+          }
+        },
+        {
+          "intervals_semitones": [
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "lully": {
+            "start_note_index_0based": 144,
+            "end_note_index_inclusive": 151,
+            "start_tick": 97920,
+            "last_note_end_tick": 101376,
+            "ppq": 384,
+            "pitches": [
+              57,
+              62,
+              62,
+              62,
+              62,
+              62,
+              62,
+              62
+            ],
+            "gate_ticks": [
+              384,
+              384,
+              384,
+              384,
+              384,
+              384,
+              768,
+              192
+            ],
+            "ioi_ticks": [
+              384,
+              384,
+              384,
+              384,
+              384,
+              384,
+              960
+            ],
+            "note_fraction": 0.050955414012738856,
+            "onset_span_fraction_of_eot": 0.03148148148148148,
+            "ordering_diagnostics": {
+              "same_onset_pairs_inside_window": 0,
+              "overlapping_pairs_inside_window": 0,
+              "window_notes_sharing_onset_with_any_other_source_note": 0,
+              "minimum_gate_ticks": 192,
+              "order": "overlap reader canonical(start,end,pitch), not inferred voice",
+              "grace_status": "positive-duration MIDI notes; no reliable grace-note semantic label inferred"
+            }
+          },
+          "reference": {
+            "start_note_index_0based": 93,
+            "end_note_index_inclusive": 100,
+            "start_tick": 34368,
+            "last_note_end_tick": 37824,
+            "ppq": 384,
+            "pitches": [
+              48,
+              53,
+              53,
+              53,
+              53,
+              53,
+              53,
+              53
+            ],
+            "gate_ticks": [
+              192,
+              192,
+              192,
+              192,
+              192,
+              192,
+              192,
+              192
+            ],
+            "ioi_ticks": [
+              192,
+              192,
+              192,
+              192,
+              2112,
+              192,
+              192
+            ],
+            "note_fraction": 0.047337278106508875,
+            "onset_span_fraction_of_eot": 0.060714285714285714,
+            "ordering_diagnostics": {
+              "same_onset_pairs_inside_window": 0,
+              "overlapping_pairs_inside_window": 0,
+              "window_notes_sharing_onset_with_any_other_source_note": 0,
+              "minimum_gate_ticks": 192,
+              "order": "overlap reader canonical(start,end,pitch), not inferred voice",
+              "grace_status": "positive-duration MIDI notes; no reliable grace-note semantic label inferred"
+            }
+          },
+          "same_rational_gates": false,
+          "same_rational_iois": false,
+          "same_absolute_pitches": false,
+          "motif_structure": {
+            "repeated_pitch_steps": 6,
+            "ascending_steps": 1,
+            "descending_steps": 0,
+            "max_absolute_step": 5
+          }
+        }
+      ]
+    },
+    {
+      "reference": "21",
+      "role": "observed-evaluation-not-fit",
+      "reference_total_notes": 89,
+      "lully_total_notes": 157,
+      "distinct_exact8_patterns": 1,
+      "occurrence_pairs": 1,
+      "lully_union_note_coverage": 8,
+      "lully_union_note_fraction": 0.050955414012738856,
+      "reference_union_note_coverage": 8,
+      "reference_union_note_fraction": 0.0898876404494382,
+      "matches": [
+        {
+          "intervals_semitones": [
+            0,
+            0,
+            1,
+            -1,
+            -2,
+            -2,
+            -1
+          ],
+          "lully": {
+            "start_note_index_0based": 46,
+            "end_note_index_inclusive": 53,
+            "start_tick": 45504,
+            "last_note_end_tick": 47232,
+            "ppq": 384,
+            "pitches": [
+              67,
+              67,
+              67,
+              68,
+              67,
+              65,
+              63,
+              62
+            ],
+            "gate_ticks": [
+              192,
+              192,
+              192,
+              192,
+              192,
+              192,
+              192,
+              384
+            ],
+            "ioi_ticks": [
+              192,
+              192,
+              192,
+              192,
+              192,
+              192,
+              192
+            ],
+            "note_fraction": 0.050955414012738856,
+            "onset_span_fraction_of_eot": 0.012962962962962963,
+            "ordering_diagnostics": {
+              "same_onset_pairs_inside_window": 0,
+              "overlapping_pairs_inside_window": 0,
+              "window_notes_sharing_onset_with_any_other_source_note": 0,
+              "minimum_gate_ticks": 192,
+              "order": "overlap reader canonical(start,end,pitch), not inferred voice",
+              "grace_status": "positive-duration MIDI notes; no reliable grace-note semantic label inferred"
+            }
+          },
+          "reference": {
+            "start_note_index_0based": 0,
+            "end_note_index_inclusive": 7,
+            "start_tick": 0,
+            "last_note_end_tick": 5952,
+            "ppq": 384,
+            "pitches": [
+              74,
+              74,
+              74,
+              75,
+              74,
+              72,
+              70,
+              69
+            ],
+            "gate_ticks": [
+              768,
+              384,
+              384,
+              1536,
+              768,
+              768,
+              384,
+              576
+            ],
+            "ioi_ticks": [
+              768,
+              384,
+              384,
+              1920,
+              768,
+              768,
+              384
+            ],
+            "note_fraction": 0.0898876404494382,
+            "onset_span_fraction_of_eot": 0.109375,
+            "ordering_diagnostics": {
+              "same_onset_pairs_inside_window": 0,
+              "overlapping_pairs_inside_window": 0,
+              "window_notes_sharing_onset_with_any_other_source_note": 0,
+              "minimum_gate_ticks": 384,
+              "order": "overlap reader canonical(start,end,pitch), not inferred voice",
+              "grace_status": "positive-duration MIDI notes; no reliable grace-note semantic label inferred"
+            }
+          },
+          "same_rational_gates": false,
+          "same_rational_iois": false,
+          "same_absolute_pitches": false,
+          "motif_structure": {
+            "repeated_pitch_steps": 2,
+            "ascending_steps": 1,
+            "descending_steps": 4,
+            "max_absolute_step": 2
+          }
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Short interval equality is transposition invariant and not proof of copying.",
+    "Different rhythms or composers do not automatically clear fixed gate.",
+    "No whole melody arrays or raw media included; excerpts minimal eight-note evidence only.",
+    "Modern note order is reader canonical order; full original MIDI retained privately.",
+    "Handel98 upperstaff can contain polyphony. Interval matches compare ordered events, not inferred melodic voice; local simultaneous/overlap diagnostics included."
+  ],
+  "fit": false,
+  "score": false,
+  "admit": false
+}

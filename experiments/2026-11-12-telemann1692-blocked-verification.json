@@ -1,0 +1,10 @@
+{
+  "status": "blocked-as-designed",
+  "score_command_exit_code": 1,
+  "error": "independent explicit clearance missing or flagged",
+  "output_directory_created": false,
+  "model_fit": false,
+  "model_score": false,
+  "source_sha256": "1e874885b369855fa948121e0635921a2debc6199a6fc251d85347f6678e26af",
+  "note": "Actual frozen score entrypoint invoked with independent blocked decision; exits before output creation and model construction. Unit test separately verifies local flagged prescreen overrides nominal external clearance."
+}

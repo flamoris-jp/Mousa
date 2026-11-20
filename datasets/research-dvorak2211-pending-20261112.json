@@ -1,0 +1,77 @@
+{
+  "cycle": 27,
+  "reviewed_at_utc": "2026-11-12T12:36:59.125309+00:00",
+  "status": "pending_original_midi_and_historical_incipit",
+  "candidate": {
+    "mutopia_id": 2211,
+    "title": "String Quartet No.12, Op.96",
+    "composer": "Antonín Dvořák (1841–1904)",
+    "contributor": "Sébastien Manen",
+    "source_page": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2211",
+    "declared_source": "N. Simrock,1894",
+    "declared_license": "Public Domain",
+    "instrumentation": "Violin,viola,cello; original string quartet, no adaptation established"
+  },
+  "rights_separation": {
+    "composition": "Composer death1904 and firstpublication1894 historical evidence. Official workcatalogue confirms Simrock1894Berlin.",
+    "edition": "IMSLP catalogue identifies First edition, Berlin N.Simrock1894 plate10,133, PublicDomain. Actual score scan/incipit not inspected, no exact-source confirmation.",
+    "encoding": "Official MutopiaProject GitHub source at commit2144afd6f52d56c5b6995b8b589ef1268b3139f0, header.ily confirms2211 title/maintainer/source/licensePublicDomain and explicit typesetter dedication: Placed in the Public Domain by the typesetter — free to distribute, modify, and perform. Original downloadableMIDI unavailable, so no hash identity to website MIDI asserted."
+  },
+  "urls": {
+    "ly_archive": "https://www.mutopiaproject.org/ftp/DvorakA/O96/dvorak-o96/dvorak-o96-lys.zip",
+    "midi_archive": "https://www.mutopiaproject.org/ftp/DvorakA/O96/dvorak-o96/dvorak-o96-mids.zip",
+    "historical_catalogue": "https://imslp.org/wiki/String_Quartet_No.12,_Op.96_(Dvo%C5%99%C3%A1k,_Anton%C3%ADn)",
+    "composer_work_catalogue": "https://www.antonin-dvorak.cz/en/work/string-quartet-no-12-in-f-major/"
+  },
+  "source_sha256": null,
+  "evidence_artifacts": [
+    {
+      "filename": "imslp.html",
+      "sha256": "dea82aebb5a410b3574f8663668e7da8d13db473d4191758e7d5c05ef4dabf86",
+      "description": "Downloaded catalogueHTML, not score or MIDI."
+    },
+    {
+      "filename": "dvorak-o96.ly",
+      "sha256": "ce1f00fea136c8d134b82554e918b2bc10c544ad91bab78b6f7dfc12aba710c5",
+      "url": "https://raw.githubusercontent.com/MutopiaProject/MutopiaProject/2144afd6f52d56c5b6995b8b589ef1268b3139f0/ftp/DvorakA/O96/dvorak-o96/dvorak-o96-lys/dvorak-o96.ly"
+    },
+    {
+      "filename": "header.ily",
+      "sha256": "dd08d86b44a8d89e76536e04307a67c86a35b91696b9b6c7f01b99cc56ffe3b0",
+      "url": "https://raw.githubusercontent.com/MutopiaProject/MutopiaProject/2144afd6f52d56c5b6995b8b589ef1268b3139f0/ftp/DvorakA/O96/dvorak-o96/dvorak-o96-lys/header.ily"
+    }
+  ],
+  "retrieval_failures": [
+    "Direct Mutopia2211page HTTP503 twice; read-only web tool retrieved cached page metadata.",
+    "Original linked LilyPond ZIP direct download HTTP503. No MIDI originalbytes downloaded.",
+    "ibiblio legacy page did not contain piece; exact mirrored LilyPond and MIDI ZIP URLs HTTP404.",
+    "Web link discovery reports archive content unsupported by that viewer, not a licensing restriction."
+  ],
+  "family_review": {
+    "new_named_composer_and_contributor": "Dvořák and SébastienManen distinct from currenttrain5 and prior observed names in reviewed ledgers.",
+    "limitations": "Not a comprehensive contributor identity or shared editorial ancestry investigation. Same Mutopia/LilyPond infrastructure remains. Simrock historically shared across many classical publications; no blanket publisher-independent claim.",
+    "split": "All Op96movements,all four parts,alternativeeditions/transpositions must remain one compositionfamily. No movement counts as a second independent work."
+  },
+  "technical_status": "Not inspected; no notes, chosen track, supported controllers or meter established.",
+  "model_fit": false,
+  "model_score": false,
+  "similarity_screen": false,
+  "admission": "None. Encodingdedication now corroborated in pinnedofficialsource, but originalMIDIbytes and exacthistoricalincipit missing. Do not manufacture replacementMIDI or infer technicalacceptance. Fixedscreen required later.",
+  "scope": "One promising newcandidate investigated; no source modifications, no rawmedia uploaded or committed.",
+  "alternate_source_followup": {
+    "repository": "https://github.com/MutopiaProject/MutopiaProject",
+    "commit": "2144afd6f52d56c5b6995b8b589ef1268b3139f0",
+    "directory": "ftp/DvorakA/O96/dvorak-o96/dvorak-o96-lys",
+    "api_result": "HTTP403; publicGitHubtreeHTML succeeded.",
+    "source_executed": false,
+    "downloaded_only": [
+      "dvorak-o96.ly",
+      "header.ily"
+    ],
+    "not_completed": [
+      "includedparts notdownloaded",
+      "originalMIDI notobtained",
+      "historicincipit notverified"
+    ]
+  }
+}

@@ -1,0 +1,267 @@
+{
+  "cycle": 29,
+  "acquired_at_utc": "2026-11-12T12:49:49.213932+00:00",
+  "scope": "Threecomposer/contributorcohorts investigated. TwoactualoriginalMIDI acquisitions andpairedlegacyly, nottrainingcorpusupdates. No modelsfit/scored.",
+  "candidates": [
+    {
+      "id": 98,
+      "title": "Sonatina in B-flat major HWV585",
+      "composer": "George Frideric Handel (1685–1759)",
+      "contributor": "David Maddock",
+      "status": "rights_reviewed_reserved_unfitted_unscreened",
+      "source_page": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=98",
+      "original_artifacts": [
+        {
+          "file": "ibiblio-sonatina-in-b-flat-major.ly",
+          "url": "https://www.ibiblio.org/mutopia/ftp/HandelGF/HWV585/sonatina-in-b-flat-major/sonatina-in-b-flat-major.ly",
+          "sha256": "5e563efc96807843e4b0a804b63dd3617a5185ab50fce36bbe42c293873f7b80",
+          "bytes": 2601
+        },
+        {
+          "file": "ibiblio-sonatina-in-b-flat-major.mid",
+          "url": "https://www.ibiblio.org/mutopia/ftp/HandelGF/HWV585/sonatina-in-b-flat-major/sonatina-in-b-flat-major.mid",
+          "sha256": "556a50d0f00433f6973076704677eeb2b44c8dc81b1763b3b6d1dc0b716d3d5b",
+          "bytes": 2539
+        }
+      ],
+      "latest_source_reference": [
+        {
+          "file": "github-sonatina-in-b-flat-major.ly",
+          "url": "https://raw.githubusercontent.com/MutopiaProject/MutopiaProject/2144afd6f52d56c5b6995b8b589ef1268b3139f0/ftp/HandelGF/HWV585/sonatina-in-b-flat-major/sonatina-in-b-flat-major.ly",
+          "sha256": "529f79232d0d008a9502fc8e6d05ff8b75f5ec84e7d67d6e9c04dae21e0ebf63"
+        }
+      ],
+      "version_caution": "FetchedlegacyibiblioMutopiamirror originalMIDI andpairedsource, not generatedreplacement. Legacylyhash differs latestofficialGitHubly. No claim latestwebsiteMIDI byteidentity. Use exactlegacyhashonly.",
+      "composition_rights": "Namedhistoricalcomposer andpublication; compositionPD basis separatefromeditionandencoding.",
+      "edition_evidence": {
+        "source": "HandelsWerkeBand2,Chrysander1826–1901,plateH.W.2; IMSLPdates1858 versusMutopia1859; ibiblioheader identifiesDover1982reprint",
+        "scan_url": "https://s9.imslp.org/files/imglnks/usimg/0/08/IMSLP402681-PMLP481322-Handel%2C_Georg_Friedrich-Werke_2_29_HWV_585_scan.pdf",
+        "scan_sha256": "af56e0ca2217333b6f29e7729a22c07c6201da16099bee00aa41195ad31f3322",
+        "catalogue_url": "https://imslp.org/wiki/Keyboard_Sonatina_in_B-flat_major,_HWV_585_(Handel,_George_Frideric)",
+        "catalogue_sha256": "d0735c64ebd00d9b07f44942e31065e47950d731fb7182aa5f6a55e3bbae898b",
+        "incipit_verified": "PDFp1printed150,No10Sonatina,B-flat4/4,quarter+eighthrestthenF5D5C5D5Bb4. MatcheslegacylyandMIDI firstnoteF5tick576. BottomBb2Bb3A3G3matchestrack2.",
+        "limitations": "Historicalnotationincipitverified, notwholepiececollation or exactphysicalreprintidentity. Laterreprintdate not originalcopyrightdate; no modernarranger intervention identified."
+      },
+      "encoding_rights": {
+        "license": "Legacy PublicDomain dedication, notCC0",
+        "evidence": "Legacy2001ly expressly typeset/placedPD byDavidMaddock, unrestrictedmodificationandredistribution.",
+        "paired_source_sha256": "5e563efc96807843e4b0a804b63dd3617a5185ab50fce36bbe42c293873f7b80"
+      },
+      "technical": {
+        "reader": "mousa.overlap_midi.read_midi",
+        "selected_track": 1,
+        "accepted": true,
+        "notes": 131,
+        "ppq": 384,
+        "meter": "4/4",
+        "origin_ticks": 0,
+        "first_note_tick": 576,
+        "total_ticks": 29184,
+        "source_total_ticks": 29184,
+        "max_simultaneous_notes": 3,
+        "track2_notes": 100,
+        "interpretation": "Keyboardstaff includeschords/polyphony; notisolatedmonophonicmelody. No extraction,quantization,repairorMIDIrewrite."
+      },
+      "source_sha256": "556a50d0f00433f6973076704677eeb2b44c8dc81b1763b3b6d1dc0b716d3d5b",
+      "similarity_screen": false,
+      "fit": false,
+      "score": false,
+      "family": "All hands,editions,transpositions/repeats grouped bycomposition; namedcomposer/contributor newagainst reviewedtrain5 andobservedset. Legacyandlatestversions notindependent."
+    },
+    {
+      "id": 263,
+      "title": "The Entertainer",
+      "composer": "Scott Joplin (1868–1917)",
+      "contributor": "Chris Sawer",
+      "status": "rights_reviewed_reserved_unfitted_unscreened",
+      "source_page": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=263",
+      "original_artifacts": [
+        {
+          "file": "ibiblio-entertainer.ly",
+          "url": "https://www.ibiblio.org/mutopia/ftp/JoplinS/entertainer/entertainer.ly",
+          "sha256": "76dde162e10820c91800b37f464aa19522ddb833d04e3382cfa1797b6c26ec0a",
+          "bytes": 10464
+        },
+        {
+          "file": "ibiblio-entertainer.mid",
+          "url": "https://www.ibiblio.org/mutopia/ftp/JoplinS/entertainer/entertainer.mid",
+          "sha256": "80f94141dff97aabb3cf37e1ccc3f6ac41563dd4421d0a648786a8f8e36efc68",
+          "bytes": 21976
+        }
+      ],
+      "latest_source_reference": [
+        {
+          "file": "github-entertainer.ly",
+          "url": "https://raw.githubusercontent.com/MutopiaProject/MutopiaProject/2144afd6f52d56c5b6995b8b589ef1268b3139f0/ftp/JoplinS/entertainer/entertainer.ly",
+          "sha256": "3a07fcf4f47b6000ced3e6579ef74bebb3c15af82d542a3aa42271f797544f7d"
+        }
+      ],
+      "version_caution": "FetchedlegacyibiblioMutopiamirror originalMIDI andpairedsource, not generatedreplacement. Legacylyhash differs latestofficialGitHubly. No claim latestwebsiteMIDI byteidentity. Use exactlegacyhashonly.",
+      "composition_rights": "Namedhistoricalcomposer andpublication; compositionPD basis separatefromeditionandencoding.",
+      "edition_evidence": {
+        "source": "JohnStark&Son1902,plate10-4; IMSLPscan firsteditionreprintedBelwinMills1971",
+        "scan_url": "https://s9.imslp.org/files/imglnks/usimg/7/7a/IMSLP05451-Joplin_-_The_Entertainer_1902.pdf",
+        "scan_sha256": "6c0e1b5077b2abee1b2cd104209e8fcd03f329e5d3ac82c9881025290f682962",
+        "catalogue_url": "https://imslp.org/wiki/The_Entertainer_(Joplin,_Scott)",
+        "catalogue_sha256": "f2ce15a10d06cd374b21bae82ff49bb6d3ad9c690ba00722f5141960088bfd83",
+        "incipit_verified": "PDFp2,TheEntertainer,Notfast,2/4,Cmajor,octavedD6/E6/C6/A5 followedtieB5G5; octavepairMIDI74/86start0,76/88start96, matcheslytop+octavedvoice. Plate10-4andcopyright1902JohnStark&Sonvisible.",
+        "limitations": "Historicalnotationincipitverified, notwholepiececollation or exactphysicalreprintidentity. Laterreprintdate not originalcopyrightdate; no modernarranger intervention identified."
+      },
+      "encoding_rights": {
+        "license": "Legacy PublicDomain dedication, notCC0",
+        "evidence": "Legacy2008ly expressly placedPD bytypesetterChrisSawer; distribute,modify,performallowed.",
+        "paired_source_sha256": "76dde162e10820c91800b37f464aa19522ddb833d04e3382cfa1797b6c26ec0a"
+      },
+      "technical": {
+        "reader": "mousa.overlap_midi.read_midi",
+        "selected_track": 1,
+        "accepted": true,
+        "notes": 1394,
+        "ppq": 384,
+        "meter": "2/4",
+        "origin_ticks": 0,
+        "first_note_tick": 0,
+        "total_ticks": 116544,
+        "source_total_ticks": 116544,
+        "max_simultaneous_notes": 4,
+        "track2_notes": 1227,
+        "interpretation": "Keyboardstaff includeschords/polyphony; notisolatedmonophonicmelody. No extraction,quantization,repairorMIDIrewrite."
+      },
+      "source_sha256": "80f94141dff97aabb3cf37e1ccc3f6ac41563dd4421d0a648786a8f8e36efc68",
+      "similarity_screen": false,
+      "fit": false,
+      "score": false,
+      "family": "All hands,editions,transpositions/repeats grouped bycomposition; namedcomposer/contributor newagainst reviewedtrain5 andobservedset. Legacyandlatestversions notindependent."
+    },
+    {
+      "id": 2209,
+      "title": "Carcassi Op59 Preludes in Progressive Keys",
+      "composer": "Matteo Carcassi (1792–1853)",
+      "contributor": "Jeffrey Olson",
+      "editor": "G.C.Santisteban",
+      "status": "pending_editor_rights_and_original_midi",
+      "source_page": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2209",
+      "source": "OliverDitson1906edited/improvedmethod",
+      "source_evidence": [
+        {
+          "file": "github-CarcassiMethodPreludes.ly",
+          "url": "https://raw.githubusercontent.com/MutopiaProject/MutopiaProject/2144afd6f52d56c5b6995b8b589ef1268b3139f0/ftp/CarcassiM/O59/CarcassiMethodPreludes/CarcassiMethodPreludes.ly",
+          "sha256": "b1f42476923d13fd7f849c2275fddd55f1af2833815f7f712719dda2b0175cce"
+        }
+      ],
+      "encoding_rights": "PinnedofficiallyexplicittypesetterPublicDomaindedicationconfirmed. Doesnotclearunderlying1906editorialadditions.",
+      "unresolved": "Santistebanidentity/deathdate andhistoricalincipit uncorroborated; originalMIDIrequest503; noadmission.",
+      "source_sha256": null,
+      "fit": false,
+      "score": false
+    }
+  ],
+  "retrieval_attempts": [
+    {
+      "url": "https://www.mutopiaproject.org/ftp/JoplinS/entertainer/entertainer.ly",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "https://www.mutopiaproject.org/ftp/JoplinS/entertainer/entertainer.mid",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "https://www.mutopiaproject.org/ftp/CarcassiM/O59/CarcassiMethodPreludes/CarcassiMethodPreludes.ly",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "https://www.mutopiaproject.org/ftp/CarcassiM/O59/CarcassiMethodPreludes/CarcassiMethodPreludes.mid",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "https://www.mutopiaproject.org/ftp/HandelGF/HWV585/sonatina-in-b-flat-major/sonatina-in-b-flat-major.ly",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "https://www.mutopiaproject.org/ftp/HandelGF/HWV585/sonatina-in-b-flat-major/sonatina-in-b-flat-major.mid",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "https://levysheetmusic.mse.jhu.edu/sites/default/files/collection-pdfs/levy-170-129.pdf",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "imslp-handel.html",
+      "url": "https://imslp.org/wiki/Keyboard_Sonatina_in_B-flat_major,_HWV_585_(Handel,_George_Frideric)",
+      "sha256": "d0735c64ebd00d9b07f44942e31065e47950d731fb7182aa5f6a55e3bbae898b",
+      "bytes": 89702
+    },
+    {
+      "url": "https://sca.uwaterloo.ca/Mutopia/ftp/JoplinS/entertainer/entertainer.ly",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "https://sca.uwaterloo.ca/Mutopia/ftp/JoplinS/entertainer/entertainer.mid",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "https://sca.uwaterloo.ca/Mutopia/ftp/HandelGF/HWV585/sonatina-in-b-flat-major/sonatina-in-b-flat-major.ly",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "https://sca.uwaterloo.ca/Mutopia/ftp/HandelGF/HWV585/sonatina-in-b-flat-major/sonatina-in-b-flat-major.mid",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "https://sca.uwaterloo.ca/Mutopia/ftp/CarcassiM/O59/CarcassiMethodPreludes/CarcassiMethodPreludes.ly",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "https://sca.uwaterloo.ca/Mutopia/ftp/CarcassiM/O59/CarcassiMethodPreludes/CarcassiMethodPreludes.mid",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "file": "ibiblio-entertainer.ly",
+      "url": "https://www.ibiblio.org/mutopia/ftp/JoplinS/entertainer/entertainer.ly",
+      "sha256": "76dde162e10820c91800b37f464aa19522ddb833d04e3382cfa1797b6c26ec0a",
+      "bytes": 10464
+    },
+    {
+      "file": "ibiblio-entertainer.mid",
+      "url": "https://www.ibiblio.org/mutopia/ftp/JoplinS/entertainer/entertainer.mid",
+      "sha256": "80f94141dff97aabb3cf37e1ccc3f6ac41563dd4421d0a648786a8f8e36efc68",
+      "bytes": 21976
+    },
+    {
+      "file": "ibiblio-sonatina-in-b-flat-major.ly",
+      "url": "https://www.ibiblio.org/mutopia/ftp/HandelGF/HWV585/sonatina-in-b-flat-major/sonatina-in-b-flat-major.ly",
+      "sha256": "5e563efc96807843e4b0a804b63dd3617a5185ab50fce36bbe42c293873f7b80",
+      "bytes": 2601
+    },
+    {
+      "file": "ibiblio-sonatina-in-b-flat-major.mid",
+      "url": "https://www.ibiblio.org/mutopia/ftp/HandelGF/HWV585/sonatina-in-b-flat-major/sonatina-in-b-flat-major.mid",
+      "sha256": "556a50d0f00433f6973076704677eeb2b44c8dc81b1763b3b6d1dc0b716d3d5b",
+      "bytes": 2539
+    },
+    {
+      "file": "github-entertainer.ly",
+      "url": "https://raw.githubusercontent.com/MutopiaProject/MutopiaProject/2144afd6f52d56c5b6995b8b589ef1268b3139f0/ftp/JoplinS/entertainer/entertainer.ly",
+      "sha256": "3a07fcf4f47b6000ced3e6579ef74bebb3c15af82d542a3aa42271f797544f7d"
+    },
+    {
+      "file": "github-sonatina-in-b-flat-major.ly",
+      "url": "https://raw.githubusercontent.com/MutopiaProject/MutopiaProject/2144afd6f52d56c5b6995b8b589ef1268b3139f0/ftp/HandelGF/HWV585/sonatina-in-b-flat-major/sonatina-in-b-flat-major.ly",
+      "sha256": "529f79232d0d008a9502fc8e6d05ff8b75f5ec84e7d67d6e9c04dae21e0ebf63"
+    },
+    {
+      "file": "github-CarcassiMethodPreludes.ly",
+      "url": "https://raw.githubusercontent.com/MutopiaProject/MutopiaProject/2144afd6f52d56c5b6995b8b589ef1268b3139f0/ftp/CarcassiM/O59/CarcassiMethodPreludes/CarcassiMethodPreludes.ly",
+      "sha256": "b1f42476923d13fd7f849c2275fddd55f1af2833815f7f712719dda2b0175cce"
+    }
+  ],
+  "new_reserved_selected_track_events": 1525,
+  "new_training_events": 0,
+  "intake_limits": [
+    "Currenttrain5 unchanged, reservedmaterial notsilentlytrain.",
+    "Beforeanypredictiveevaluation fixedexact8interval/.80 andfamilychecksrequired. Joplin1394notes exceedsold512/1024screenbound; prospectiveboundedresourceextensionrequired, no truncation or cherry-pickedexcerpt.",
+    "SharedMutopiaencodinginfrastructure remains; broadgenrestylelabelsnotindependentqualityevidence.",
+    "Priorblocked1692/804/1741unmodified.",
+    "MIDIandPDForiginals privateoutsideGit; onlyprovenancerecordcommittedlaterbyparent."
+  ]
+}

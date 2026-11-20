@@ -1,0 +1,48 @@
+{
+  "scope": "Independent direct MIDI event pairing and actual PCM readback; no subjective listening",
+  "clips": [
+    {
+      "label": "A",
+      "direct_mido_all5fields_match": true,
+      "meter_tempo_eot_match": true,
+      "actual_pcm_frames": 264600,
+      "actual_pcm_peak": 0.4729453413495285,
+      "actual_pcm_rms": 0.06547133744511381,
+      "actual_pcm_rms_dbfs": -23.67897574484096,
+      "post_quantization_tolerance_pass": true
+    },
+    {
+      "label": "B",
+      "direct_mido_all5fields_match": true,
+      "meter_tempo_eot_match": true,
+      "actual_pcm_frames": 264600,
+      "actual_pcm_peak": 0.47248756370738854,
+      "actual_pcm_rms": 0.09361489695397048,
+      "actual_pcm_rms_dbfs": -20.573100728203748,
+      "post_quantization_tolerance_pass": true
+    },
+    {
+      "label": "C",
+      "direct_mido_all5fields_match": true,
+      "meter_tempo_eot_match": true,
+      "actual_pcm_frames": 264600,
+      "actual_pcm_peak": 0.4729453413495285,
+      "actual_pcm_rms": 0.08080388841446122,
+      "actual_pcm_rms_dbfs": -21.85135479532231,
+      "post_quantization_tolerance_pass": true
+    },
+    {
+      "label": "D",
+      "direct_mido_all5fields_match": true,
+      "meter_tempo_eot_match": true,
+      "actual_pcm_frames": 264600,
+      "actual_pcm_peak": 0.47248756370738854,
+      "actual_pcm_rms": 0.0936156679481338,
+      "actual_pcm_rms_dbfs": -20.573029193193232,
+      "post_quantization_tolerance_pass": true
+    }
+  ],
+  "private_mapping_not_included": true,
+  "human_ratings": null,
+  "resource_limit_scope": "Exporter checks parent process CPU between bounded clips and20second timeout per native CLI operation; not a joint OS CPU quota across subprocesses. No large GPU/paid computation used."
+}

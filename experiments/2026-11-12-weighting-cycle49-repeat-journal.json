@@ -1,0 +1,618 @@
+{
+  "events": [
+    {
+      "condition": "raw",
+      "event": "fit_attempt",
+      "ids": [
+        "mutopia-376",
+        "mutopia-888",
+        "mutopia-889",
+        "mutopia-789",
+        "mutopia-583",
+        "mutopia-1578",
+        "mutopia-1558",
+        "mutopia-370",
+        "mutopia-98-legacy",
+        "mutopia-263-legacy",
+        "mutopia-904",
+        "mutopia-2080",
+        "mutopia-2060",
+        "mutopia-2061",
+        "mutopia-186",
+        "mutopia-487",
+        "mutopia-2243",
+        "mutopia-23"
+      ],
+      "utc": "2026-11-12T19:12:46.670726+00:00"
+    },
+    {
+      "condition": "raw",
+      "counter_masses": [
+        {
+          "denominator": 1,
+          "numerator": 17
+        },
+        {
+          "denominator": 1,
+          "numerator": 3411
+        },
+        {
+          "denominator": 1,
+          "numerator": 3428
+        },
+        {
+          "denominator": 1,
+          "numerator": 3428
+        }
+      ],
+      "event": "fit_complete",
+      "utc": "2026-11-12T19:12:46.690312+00:00"
+    },
+    {
+      "condition": "raw",
+      "event": "generation_attempt",
+      "seed": 49000,
+      "utc": "2026-11-12T19:12:46.691635+00:00"
+    },
+    {
+      "condition": "raw",
+      "event": "generation_complete",
+      "seed": 49000,
+      "status": "complete",
+      "utc": "2026-11-12T19:12:46.695072+00:00"
+    },
+    {
+      "condition": "raw",
+      "event": "generation_attempt",
+      "seed": 49001,
+      "utc": "2026-11-12T19:12:46.696386+00:00"
+    },
+    {
+      "condition": "raw",
+      "event": "generation_complete",
+      "seed": 49001,
+      "status": "complete",
+      "utc": "2026-11-12T19:12:46.699807+00:00"
+    },
+    {
+      "condition": "raw",
+      "event": "generation_attempt",
+      "seed": 49002,
+      "utc": "2026-11-12T19:12:46.700872+00:00"
+    },
+    {
+      "condition": "raw",
+      "event": "generation_complete",
+      "seed": 49002,
+      "status": "complete",
+      "utc": "2026-11-12T19:12:46.703289+00:00"
+    },
+    {
+      "condition": "raw",
+      "event": "generation_attempt",
+      "seed": 49003,
+      "utc": "2026-11-12T19:12:46.704622+00:00"
+    },
+    {
+      "condition": "raw",
+      "event": "generation_complete",
+      "seed": 49003,
+      "status": "complete",
+      "utc": "2026-11-12T19:12:46.707532+00:00"
+    },
+    {
+      "condition": "raw",
+      "event": "generation_attempt",
+      "seed": 49004,
+      "utc": "2026-11-12T19:12:46.711573+00:00"
+    },
+    {
+      "condition": "raw",
+      "event": "generation_complete",
+      "seed": 49004,
+      "status": "complete",
+      "utc": "2026-11-12T19:12:46.714466+00:00"
+    },
+    {
+      "condition": "raw",
+      "event": "generation_attempt",
+      "seed": 49005,
+      "utc": "2026-11-12T19:12:46.715788+00:00"
+    },
+    {
+      "condition": "raw",
+      "event": "generation_complete",
+      "seed": 49005,
+      "status": "complete",
+      "utc": "2026-11-12T19:12:46.718572+00:00"
+    },
+    {
+      "condition": "raw",
+      "event": "generation_attempt",
+      "seed": 49006,
+      "utc": "2026-11-12T19:12:46.720097+00:00"
+    },
+    {
+      "condition": "raw",
+      "event": "generation_complete",
+      "seed": 49006,
+      "status": "complete",
+      "utc": "2026-11-12T19:12:46.724110+00:00"
+    },
+    {
+      "condition": "raw",
+      "event": "generation_attempt",
+      "seed": 49007,
+      "utc": "2026-11-12T19:12:46.725928+00:00"
+    },
+    {
+      "condition": "raw",
+      "event": "generation_complete",
+      "seed": 49007,
+      "status": "complete",
+      "utc": "2026-11-12T19:12:46.728918+00:00"
+    },
+    {
+      "condition": "raw",
+      "event": "generation_attempt",
+      "seed": 49008,
+      "utc": "2026-11-12T19:12:46.732569+00:00"
+    },
+    {
+      "condition": "raw",
+      "event": "generation_complete",
+      "seed": 49008,
+      "status": "complete",
+      "utc": "2026-11-12T19:12:46.735649+00:00"
+    },
+    {
+      "condition": "raw",
+      "event": "generation_attempt",
+      "seed": 49009,
+      "utc": "2026-11-12T19:12:46.737928+00:00"
+    },
+    {
+      "condition": "raw",
+      "event": "generation_complete",
+      "seed": 49009,
+      "status": "complete",
+      "utc": "2026-11-12T19:12:46.741253+00:00"
+    },
+    {
+      "condition": "raw",
+      "event": "generation_attempt",
+      "seed": 49010,
+      "utc": "2026-11-12T19:12:46.743331+00:00"
+    },
+    {
+      "condition": "raw",
+      "event": "generation_complete",
+      "seed": 49010,
+      "status": "complete",
+      "utc": "2026-11-12T19:12:46.745146+00:00"
+    },
+    {
+      "condition": "raw",
+      "event": "generation_attempt",
+      "seed": 49011,
+      "utc": "2026-11-12T19:12:46.747539+00:00"
+    },
+    {
+      "condition": "raw",
+      "event": "generation_complete",
+      "seed": 49011,
+      "status": "complete",
+      "utc": "2026-11-12T19:12:46.750102+00:00"
+    },
+    {
+      "condition": "equal_work",
+      "event": "fit_attempt",
+      "ids": [
+        "mutopia-376",
+        "mutopia-888",
+        "mutopia-889",
+        "mutopia-789",
+        "mutopia-583",
+        "mutopia-1578",
+        "mutopia-1558",
+        "mutopia-370",
+        "mutopia-98-legacy",
+        "mutopia-263-legacy",
+        "mutopia-904",
+        "mutopia-2080",
+        "mutopia-2060",
+        "mutopia-2061",
+        "mutopia-186",
+        "mutopia-487",
+        "mutopia-2243",
+        "mutopia-23"
+      ],
+      "utc": "2026-11-12T19:12:46.752285+00:00"
+    },
+    {
+      "condition": "equal_work",
+      "counter_masses": [
+        {
+          "denominator": 1,
+          "numerator": 17
+        },
+        {
+          "denominator": 1,
+          "numerator": 3411
+        },
+        {
+          "denominator": 1,
+          "numerator": 3428
+        },
+        {
+          "denominator": 1,
+          "numerator": 3428
+        }
+      ],
+      "event": "fit_complete",
+      "utc": "2026-11-12T19:12:46.772570+00:00"
+    },
+    {
+      "condition": "equal_work",
+      "event": "generation_attempt",
+      "seed": 49000,
+      "utc": "2026-11-12T19:12:46.773891+00:00"
+    },
+    {
+      "condition": "equal_work",
+      "event": "generation_complete",
+      "seed": 49000,
+      "status": "complete",
+      "utc": "2026-11-12T19:12:46.778086+00:00"
+    },
+    {
+      "condition": "equal_work",
+      "event": "generation_attempt",
+      "seed": 49001,
+      "utc": "2026-11-12T19:12:46.781279+00:00"
+    },
+    {
+      "condition": "equal_work",
+      "event": "generation_complete",
+      "seed": 49001,
+      "status": "complete",
+      "utc": "2026-11-12T19:12:46.786268+00:00"
+    },
+    {
+      "condition": "equal_work",
+      "event": "generation_attempt",
+      "seed": 49002,
+      "utc": "2026-11-12T19:12:46.790747+00:00"
+    },
+    {
+      "condition": "equal_work",
+      "event": "generation_complete",
+      "seed": 49002,
+      "status": "complete",
+      "utc": "2026-11-12T19:12:46.794539+00:00"
+    },
+    {
+      "condition": "equal_work",
+      "event": "generation_attempt",
+      "seed": 49003,
+      "utc": "2026-11-12T19:12:46.798063+00:00"
+    },
+    {
+      "condition": "equal_work",
+      "event": "generation_complete",
+      "seed": 49003,
+      "status": "complete",
+      "utc": "2026-11-12T19:12:46.801923+00:00"
+    },
+    {
+      "condition": "equal_work",
+      "event": "generation_attempt",
+      "seed": 49004,
+      "utc": "2026-11-12T19:12:46.805666+00:00"
+    },
+    {
+      "condition": "equal_work",
+      "event": "generation_complete",
+      "seed": 49004,
+      "status": "complete",
+      "utc": "2026-11-12T19:12:46.809095+00:00"
+    },
+    {
+      "condition": "equal_work",
+      "event": "generation_attempt",
+      "seed": 49005,
+      "utc": "2026-11-12T19:12:46.813156+00:00"
+    },
+    {
+      "condition": "equal_work",
+      "event": "generation_complete",
+      "seed": 49005,
+      "status": "complete",
+      "utc": "2026-11-12T19:12:46.816361+00:00"
+    },
+    {
+      "condition": "equal_work",
+      "event": "generation_attempt",
+      "seed": 49006,
+      "utc": "2026-11-12T19:12:46.819958+00:00"
+    },
+    {
+      "condition": "equal_work",
+      "event": "generation_complete",
+      "seed": 49006,
+      "status": "complete",
+      "utc": "2026-11-12T19:12:46.823264+00:00"
+    },
+    {
+      "condition": "equal_work",
+      "event": "generation_attempt",
+      "seed": 49007,
+      "utc": "2026-11-12T19:12:46.826665+00:00"
+    },
+    {
+      "condition": "equal_work",
+      "event": "generation_complete",
+      "seed": 49007,
+      "status": "complete",
+      "utc": "2026-11-12T19:12:46.829293+00:00"
+    },
+    {
+      "condition": "equal_work",
+      "event": "generation_attempt",
+      "seed": 49008,
+      "utc": "2026-11-12T19:12:46.834809+00:00"
+    },
+    {
+      "condition": "equal_work",
+      "event": "generation_complete",
+      "seed": 49008,
+      "status": "complete",
+      "utc": "2026-11-12T19:12:46.839053+00:00"
+    },
+    {
+      "condition": "equal_work",
+      "event": "generation_attempt",
+      "seed": 49009,
+      "utc": "2026-11-12T19:12:46.842390+00:00"
+    },
+    {
+      "condition": "equal_work",
+      "event": "generation_complete",
+      "seed": 49009,
+      "status": "complete",
+      "utc": "2026-11-12T19:12:46.845608+00:00"
+    },
+    {
+      "condition": "equal_work",
+      "event": "generation_attempt",
+      "seed": 49010,
+      "utc": "2026-11-12T19:12:46.849547+00:00"
+    },
+    {
+      "condition": "equal_work",
+      "event": "generation_complete",
+      "seed": 49010,
+      "status": "complete",
+      "utc": "2026-11-12T19:12:46.851528+00:00"
+    },
+    {
+      "condition": "equal_work",
+      "event": "generation_attempt",
+      "seed": 49011,
+      "utc": "2026-11-12T19:12:46.855230+00:00"
+    },
+    {
+      "condition": "equal_work",
+      "event": "generation_complete",
+      "seed": 49011,
+      "status": "complete",
+      "utc": "2026-11-12T19:12:46.858068+00:00"
+    },
+    {
+      "condition": "equal_family",
+      "event": "fit_attempt",
+      "ids": [
+        "mutopia-376",
+        "mutopia-888",
+        "mutopia-889",
+        "mutopia-789",
+        "mutopia-583",
+        "mutopia-1578",
+        "mutopia-1558",
+        "mutopia-370",
+        "mutopia-98-legacy",
+        "mutopia-263-legacy",
+        "mutopia-904",
+        "mutopia-2080",
+        "mutopia-2060",
+        "mutopia-2061",
+        "mutopia-186",
+        "mutopia-487",
+        "mutopia-2243",
+        "mutopia-23"
+      ],
+      "utc": "2026-11-12T19:12:46.861929+00:00"
+    },
+    {
+      "condition": "equal_family",
+      "counter_masses": [
+        {
+          "denominator": 1,
+          "numerator": 17
+        },
+        {
+          "denominator": 1,
+          "numerator": 3411
+        },
+        {
+          "denominator": 1,
+          "numerator": 3428
+        },
+        {
+          "denominator": 1,
+          "numerator": 3428
+        }
+      ],
+      "event": "fit_complete",
+      "utc": "2026-11-12T19:12:46.881680+00:00"
+    },
+    {
+      "condition": "equal_family",
+      "event": "generation_attempt",
+      "seed": 49000,
+      "utc": "2026-11-12T19:12:46.883321+00:00"
+    },
+    {
+      "condition": "equal_family",
+      "event": "generation_complete",
+      "seed": 49000,
+      "status": "complete",
+      "utc": "2026-11-12T19:12:46.886649+00:00"
+    },
+    {
+      "condition": "equal_family",
+      "event": "generation_attempt",
+      "seed": 49001,
+      "utc": "2026-11-12T19:12:46.890927+00:00"
+    },
+    {
+      "condition": "equal_family",
+      "event": "generation_complete",
+      "seed": 49001,
+      "status": "complete",
+      "utc": "2026-11-12T19:12:46.895028+00:00"
+    },
+    {
+      "condition": "equal_family",
+      "event": "generation_attempt",
+      "seed": 49002,
+      "utc": "2026-11-12T19:12:46.898854+00:00"
+    },
+    {
+      "condition": "equal_family",
+      "event": "generation_complete",
+      "seed": 49002,
+      "status": "complete",
+      "utc": "2026-11-12T19:12:46.901645+00:00"
+    },
+    {
+      "condition": "equal_family",
+      "event": "generation_attempt",
+      "seed": 49003,
+      "utc": "2026-11-12T19:12:46.906502+00:00"
+    },
+    {
+      "condition": "equal_family",
+      "event": "generation_complete",
+      "seed": 49003,
+      "status": "complete",
+      "utc": "2026-11-12T19:12:46.908592+00:00"
+    },
+    {
+      "condition": "equal_family",
+      "event": "generation_attempt",
+      "seed": 49004,
+      "utc": "2026-11-12T19:12:46.912579+00:00"
+    },
+    {
+      "condition": "equal_family",
+      "event": "generation_complete",
+      "seed": 49004,
+      "status": "complete",
+      "utc": "2026-11-12T19:12:46.915525+00:00"
+    },
+    {
+      "condition": "equal_family",
+      "event": "generation_attempt",
+      "seed": 49005,
+      "utc": "2026-11-12T19:12:46.920653+00:00"
+    },
+    {
+      "condition": "equal_family",
+      "event": "generation_complete",
+      "seed": 49005,
+      "status": "complete",
+      "utc": "2026-11-12T19:12:46.924328+00:00"
+    },
+    {
+      "condition": "equal_family",
+      "event": "generation_attempt",
+      "seed": 49006,
+      "utc": "2026-11-12T19:12:46.929009+00:00"
+    },
+    {
+      "condition": "equal_family",
+      "event": "generation_complete",
+      "seed": 49006,
+      "status": "complete",
+      "utc": "2026-11-12T19:12:46.932463+00:00"
+    },
+    {
+      "condition": "equal_family",
+      "event": "generation_attempt",
+      "seed": 49007,
+      "utc": "2026-11-12T19:12:46.937357+00:00"
+    },
+    {
+      "condition": "equal_family",
+      "event": "generation_complete",
+      "seed": 49007,
+      "status": "complete",
+      "utc": "2026-11-12T19:12:46.940885+00:00"
+    },
+    {
+      "condition": "equal_family",
+      "event": "generation_attempt",
+      "seed": 49008,
+      "utc": "2026-11-12T19:12:46.947228+00:00"
+    },
+    {
+      "condition": "equal_family",
+      "event": "generation_complete",
+      "seed": 49008,
+      "status": "complete",
+      "utc": "2026-11-12T19:12:46.950595+00:00"
+    },
+    {
+      "condition": "equal_family",
+      "event": "generation_attempt",
+      "seed": 49009,
+      "utc": "2026-11-12T19:12:46.956517+00:00"
+    },
+    {
+      "condition": "equal_family",
+      "event": "generation_complete",
+      "seed": 49009,
+      "status": "complete",
+      "utc": "2026-11-12T19:12:46.963079+00:00"
+    },
+    {
+      "condition": "equal_family",
+      "event": "generation_attempt",
+      "seed": 49010,
+      "utc": "2026-11-12T19:12:46.968107+00:00"
+    },
+    {
+      "condition": "equal_family",
+      "event": "generation_complete",
+      "seed": 49010,
+      "status": "complete",
+      "utc": "2026-11-12T19:12:46.971688+00:00"
+    },
+    {
+      "condition": "equal_family",
+      "event": "generation_attempt",
+      "seed": 49011,
+      "utc": "2026-11-12T19:12:46.976844+00:00"
+    },
+    {
+      "condition": "equal_family",
+      "event": "generation_complete",
+      "seed": 49011,
+      "status": "complete",
+      "utc": "2026-11-12T19:12:46.980122+00:00"
+    }
+  ],
+  "original_journal_sha256": "d7a1d77c4aad4fb85d7f67a05c39b76da0e2852a560027e6aee33cfa79bcae15",
+  "replay": true
+}

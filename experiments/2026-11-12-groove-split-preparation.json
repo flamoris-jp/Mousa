@@ -1,0 +1,262 @@
+{
+  "plan_sha256": "79988c195f5ac3a6507730520ce1252b45b6bdd6609674add8b9b5141af92779",
+  "inventory_sha256": "1c65bbb16b2c36bfd3c2f44a906bfe9efc5e8f5113677629f8b31ee010598a79",
+  "fit_performed": false,
+  "predictive_scores_observed": false,
+  "status": "prepared_pending_parent_review",
+  "reserved_eval_count": 40,
+  "inventory_count": 1150,
+  "all_inventory_events_verified": 446312,
+  "candidate_count": 20,
+  "candidate_event_count": 11642,
+  "over_event_cap_count": 8,
+  "not_selected_non_eval_count": 1082,
+  "cross_split_byte_duplicate_groups": [],
+  "within_split_byte_duplicate_groups": [
+    [
+      "drummer2/session2/7",
+      "drummer2/session2/8"
+    ]
+  ],
+  "cross_split_comparisons": 12416,
+  "weak_or_strong_pair_hits": 67,
+  "strong_unresolved_pairs": 0,
+  "candidate_status_counts": {
+    "eligible_pending_parent_review": 20
+  },
+  "candidates": [
+    {
+      "id": "drummer1/session1/236",
+      "drummer": "drummer1",
+      "session": "drummer1/session1",
+      "proposed_split": "train",
+      "original_split": "validation",
+      "sha256": "0137965a4c82d04517d916c32cd1b7629a8465d4473ccecda5f2160ba7f2d47c",
+      "event_count": 14,
+      "status": "eligible_pending_parent_review",
+      "unsupported_ioi_count": 0
+    },
+    {
+      "id": "drummer1/session1/225",
+      "drummer": "drummer1",
+      "session": "drummer1/session1",
+      "proposed_split": "train",
+      "original_split": "train",
+      "sha256": "014b25875393daa9c090dff25bc9f03144a6a5961b10786c9b3dedd64982dcc9",
+      "event_count": 6,
+      "status": "eligible_pending_parent_review",
+      "unsupported_ioi_count": 0
+    },
+    {
+      "id": "drummer10/session1/10",
+      "drummer": "drummer10",
+      "session": "drummer10/session1",
+      "proposed_split": "test",
+      "original_split": "train",
+      "sha256": "22534c40c80f20ee19685a56ad0d1f5c726858dbb31284c9e4f7577741c7786e",
+      "event_count": 1413,
+      "status": "eligible_pending_parent_review",
+      "unsupported_ioi_count": 0
+    },
+    {
+      "id": "drummer10/session1/9",
+      "drummer": "drummer10",
+      "session": "drummer10/session1",
+      "proposed_split": "test",
+      "original_split": "train",
+      "sha256": "27da7b94b20617f73e65253e464d4e87236d2f6df67aa65cccf9e2024bee23bb",
+      "event_count": 1229,
+      "status": "eligible_pending_parent_review",
+      "unsupported_ioi_count": 0
+    },
+    {
+      "id": "drummer2/session2/15",
+      "drummer": "drummer2",
+      "session": "drummer2/session2",
+      "proposed_split": "train",
+      "original_split": "train",
+      "sha256": "06c480fbce4e0a08734c8a57d73fe4db4508ff9622b235b85039e3bacbcb60da",
+      "event_count": 38,
+      "status": "eligible_pending_parent_review",
+      "unsupported_ioi_count": 0
+    },
+    {
+      "id": "drummer2/session2/13",
+      "drummer": "drummer2",
+      "session": "drummer2/session2",
+      "proposed_split": "train",
+      "original_split": "train",
+      "sha256": "244c21166a66d6d62052f802f60dc3b0715c18004ebb9c8f4d04acc150b5d8ff",
+      "event_count": 19,
+      "status": "eligible_pending_parent_review",
+      "unsupported_ioi_count": 0
+    },
+    {
+      "id": "drummer3/session2/36",
+      "drummer": "drummer3",
+      "session": "drummer3/session2",
+      "proposed_split": "train",
+      "original_split": "train",
+      "sha256": "0322a67e7fd37ed62d5ed91b27f33970ba8bfbf8faaf889d16b7a98c7442fecc",
+      "event_count": 35,
+      "status": "eligible_pending_parent_review",
+      "unsupported_ioi_count": 0
+    },
+    {
+      "id": "drummer3/session2/13",
+      "drummer": "drummer3",
+      "session": "drummer3/session2",
+      "proposed_split": "train",
+      "original_split": "train",
+      "sha256": "04cb3b758b253e97e177a5ab180e6dad46989750d70c49397d1e51396499ec2f",
+      "event_count": 118,
+      "status": "eligible_pending_parent_review",
+      "unsupported_ioi_count": 0
+    },
+    {
+      "id": "drummer4/session1/8",
+      "drummer": "drummer4",
+      "session": "drummer4/session1",
+      "proposed_split": "train",
+      "original_split": "train",
+      "sha256": "06e27dd6014956cb161013fa64830f9fbb3b918088e35ae8a84591e6ba54b8d5",
+      "event_count": 98,
+      "status": "eligible_pending_parent_review",
+      "unsupported_ioi_count": 0
+    },
+    {
+      "id": "drummer4/session1/4",
+      "drummer": "drummer4",
+      "session": "drummer4/session1",
+      "proposed_split": "train",
+      "original_split": "train",
+      "sha256": "0f5aa65ef1f7c82ef25108795dc810b69acf6028823cd526dece049221e3a68e",
+      "event_count": 215,
+      "status": "eligible_pending_parent_review",
+      "unsupported_ioi_count": 0
+    },
+    {
+      "id": "drummer5/session2/5",
+      "drummer": "drummer5",
+      "session": "drummer5/session2",
+      "proposed_split": "train",
+      "original_split": "train",
+      "sha256": "04e0de610e7ae287366dfa90ddc05dcb1f9e8468753fed39311aa68c4c9ce317",
+      "event_count": 1784,
+      "status": "eligible_pending_parent_review",
+      "unsupported_ioi_count": 0
+    },
+    {
+      "id": "drummer5/session2/12",
+      "drummer": "drummer5",
+      "session": "drummer5/session2",
+      "proposed_split": "train",
+      "original_split": "train",
+      "sha256": "09d9e40c1829890ada04c300247a43e2177b1b224e743e3ee94bfc89885e0542",
+      "event_count": 1374,
+      "status": "eligible_pending_parent_review",
+      "unsupported_ioi_count": 0
+    },
+    {
+      "id": "drummer6/session1/2",
+      "drummer": "drummer6",
+      "session": "drummer6/session1",
+      "proposed_split": "train",
+      "original_split": "train",
+      "sha256": "0610ff76209063951ec3c7b9ed798cbf0caa117a39518c721fbc10500f76ec6f",
+      "event_count": 539,
+      "status": "eligible_pending_parent_review",
+      "unsupported_ioi_count": 0
+    },
+    {
+      "id": "drummer6/session3/7",
+      "drummer": "drummer6",
+      "session": "drummer6/session3",
+      "proposed_split": "train",
+      "original_split": "train",
+      "sha256": "16eb9913be1ad678602ddb089af8ed32eccc9ca97fe4a444f5aec55db013f889",
+      "event_count": 794,
+      "status": "eligible_pending_parent_review",
+      "unsupported_ioi_count": 0
+    },
+    {
+      "id": "drummer7/session3/23",
+      "drummer": "drummer7",
+      "session": "drummer7/session3",
+      "proposed_split": "validation",
+      "original_split": "train",
+      "sha256": "01c418db0852e392fa7c91f41feeca7a80494218df6c0da214545898655f8c3e",
+      "event_count": 144,
+      "status": "eligible_pending_parent_review",
+      "unsupported_ioi_count": 0
+    },
+    {
+      "id": "drummer7/session3/26",
+      "drummer": "drummer7",
+      "session": "drummer7/session3",
+      "proposed_split": "validation",
+      "original_split": "train",
+      "sha256": "02a3d706dd1fa0289cb25486b2a50aa89aa13829edbcae377fc4e18feeedd11b",
+      "event_count": 16,
+      "status": "eligible_pending_parent_review",
+      "unsupported_ioi_count": 0
+    },
+    {
+      "id": "drummer8/session2/40",
+      "drummer": "drummer8",
+      "session": "drummer8/session2",
+      "proposed_split": "validation",
+      "original_split": "test",
+      "sha256": "0474c862ae618571738e69566c8ac22d5f945d67e41c01ff46cb3a4099514168",
+      "event_count": 1061,
+      "status": "eligible_pending_parent_review",
+      "unsupported_ioi_count": 0
+    },
+    {
+      "id": "drummer8/session2/13",
+      "drummer": "drummer8",
+      "session": "drummer8/session2",
+      "proposed_split": "validation",
+      "original_split": "train",
+      "sha256": "05a1f07916656a9d527989cc737a9c2523a1a1b0df9784c195924442db6aa18a",
+      "event_count": 1537,
+      "status": "eligible_pending_parent_review",
+      "unsupported_ioi_count": 0
+    },
+    {
+      "id": "drummer9/session1/20",
+      "drummer": "drummer9",
+      "session": "drummer9/session1",
+      "proposed_split": "test",
+      "original_split": "train",
+      "sha256": "01f6ff2ae664d13ac0c319ed09c687185eb1f4834b770b1bc042683b9dca487d",
+      "event_count": 1154,
+      "status": "eligible_pending_parent_review",
+      "unsupported_ioi_count": 0
+    },
+    {
+      "id": "drummer9/session1/16",
+      "drummer": "drummer9",
+      "session": "drummer9/session1",
+      "proposed_split": "test",
+      "original_split": "train",
+      "sha256": "15ea59f2475197b5299df592efbf095d8bc4bcaf4f4f52345a6eeea901b6f56a",
+      "event_count": 54,
+      "status": "eligible_pending_parent_review",
+      "unsupported_ioi_count": 0
+    }
+  ],
+  "prepare_cpu_seconds": 9.132311136,
+  "limitations": [
+    "Candidate matches are review evidence, not proof of copied compositions.",
+    "Only selected-versus-cross-split non-eval comparisons; near-pattern independence is not established.",
+    "Original expressive timing, velocities and controls are unchanged; comparison fingerprints omit performance dimensions.",
+    "No model fit, generation, audio or musical quality assessment."
+  ],
+  "selected_split_event_counts": {
+    "train": 5034,
+    "validation": 2758,
+    "test": 3850
+  },
+  "selection_limit": "Hash-ordered whole performances include 6- and 14-event short fills; equal performer counts do not equal event mass, duration or style representation. No post-selection replacement."
+}

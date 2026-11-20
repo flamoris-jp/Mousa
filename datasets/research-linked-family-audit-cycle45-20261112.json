@@ -1,0 +1,357 @@
+{
+  "created_utc": "2026-11-12T17:32:57.399957+00:00",
+  "status": "independent-data-audit-parent-selected11linked-source-families-no-fit-no-score",
+  "maple_source_sha256": "3dd712a85fabd267f5a2cee5cb23af4683408c2f29b8814721844498f1ee4f66",
+  "rights_ledger_sha256": "2b587651357ab679b82b4a021f7451c2bffac596e7363b2d5ca3cbac54b6c694",
+  "screen_plan_sha256": "77198fdac60ade6d72f99747c4a4921f29d265d0d2fb2a951fc5dd137f55cfca",
+  "screen_report_sha256": "31f0ee48615f073ac3b5df13e3c59f67cbab3a7b729703dd5d527ca907a1cb91",
+  "screen_recheck": {
+    "mutopia-376": {
+      "exact8": 0,
+      "global_similarity": 0.06291946308724827
+    },
+    "mutopia-888": {
+      "exact8": 0,
+      "global_similarity": 0.02432885906040272
+    },
+    "mutopia-889": {
+      "exact8": 0,
+      "global_similarity": 0.031040268456375864
+    },
+    "mutopia-789": {
+      "exact8": 0,
+      "global_similarity": 0.06291946308724827
+    },
+    "mutopia-583": {
+      "exact8": 0,
+      "global_similarity": 0.010067114093959773
+    },
+    "mutopia-1578": {
+      "exact8": 0,
+      "global_similarity": 0.06795302013422821
+    },
+    "mutopia-1558": {
+      "exact8": 0,
+      "global_similarity": 0.09899328859060408
+    },
+    "mutopia-370": {
+      "exact8": 0,
+      "global_similarity": 0.057046979865771785
+    },
+    "mutopia-98-legacy": {
+      "exact8": 0,
+      "global_similarity": 0.07046979865771807
+    },
+    "mutopia-263-legacy": {
+      "exact8": 0,
+      "global_similarity": 0.1995692749461594
+    },
+    "mutopia-904": {
+      "exact8": 0,
+      "global_similarity": 0.1895973154362416
+    },
+    "mutopia-2080": {
+      "exact8": 0,
+      "global_similarity": 0.05033557046979864
+    },
+    "mutopia-2060": {
+      "exact8": 0,
+      "global_similarity": 0.06963087248322153
+    },
+    "mutopia-2061": {
+      "exact8": 0,
+      "global_similarity": 0.03775167785234901
+    },
+    "mutopia-186": {
+      "exact8": 0,
+      "global_similarity": 0.13338926174496646
+    },
+    "mutopia-487": {
+      "exact8": 0,
+      "global_similarity": 0.09228187919463082
+    },
+    "mutopia-2243": {
+      "exact8": 0,
+      "global_similarity": 0.025167785234899376
+    },
+    "640": {
+      "exact8": 0,
+      "global_similarity": 0.06040268456375841
+    },
+    "921": {
+      "exact8": 0,
+      "global_similarity": 0.04446308724832215
+    },
+    "21": {
+      "exact8": 0,
+      "global_similarity": 0.049496644295301984
+    },
+    "1691": {
+      "exact8": 0,
+      "global_similarity": 0.027684563758389236
+    },
+    "blocked-1692": {
+      "exact8": 0,
+      "global_similarity": 0.11661073825503354
+    },
+    "blocked-804": {
+      "exact8": 0,
+      "global_similarity": 0.1023489932885906
+    },
+    "blocked-1741": {
+      "exact8": 0,
+      "global_similarity": 0.07634228187919467
+    },
+    "blocked-532": {
+      "exact8": 0,
+      "global_similarity": 0.054530201342281925
+    }
+  },
+  "references_unique": 25,
+  "fixed_rule": "exact8 OR normalizedintervaledit>=.80 unchanged",
+  "maple_notes": 1193,
+  "old_train_notes": 4319,
+  "prospective18_notes": 5512,
+  "old_frozen_family_count": 12,
+  "proposed_conservative_linked_family_count": 11,
+  "old17_proposed_groups": {
+    "stan-sanderson-contributor": [
+      "mutopia-376",
+      "mutopia-370"
+    ],
+    "daniel-johnson-university-society": [
+      "mutopia-583"
+    ],
+    "schubert-breitkopf-raynaud": [
+      "mutopia-1578",
+      "mutopia-1558"
+    ],
+    "handel-chrysander-maddock": [
+      "mutopia-98-legacy"
+    ],
+    "joplin-stark-sawer": [
+      "mutopia-263-legacy"
+    ],
+    "beethoven-breitkopf-samelis": [
+      "mutopia-904"
+    ],
+    "ruthardt-editorial-cohort": [
+      "mutopia-2080",
+      "mutopia-2060",
+      "mutopia-2061"
+    ],
+    "haydn-koehler-peters-wassink": [
+      "mutopia-186"
+    ],
+    "rameau-malherbe-durand-sardain": [
+      "mutopia-487"
+    ],
+    "purcell-macfarren-chappell-anonymous": [
+      "mutopia-2243"
+    ],
+    "nigel-holmes-linked-contributor": [
+      "mutopia-888",
+      "mutopia-889",
+      "mutopia-789"
+    ]
+  },
+  "prospective18_proposed_groups": {
+    "stan-sanderson-contributor": [
+      "mutopia-376",
+      "mutopia-370"
+    ],
+    "daniel-johnson-university-society": [
+      "mutopia-583"
+    ],
+    "schubert-breitkopf-raynaud": [
+      "mutopia-1578",
+      "mutopia-1558"
+    ],
+    "handel-chrysander-maddock": [
+      "mutopia-98-legacy"
+    ],
+    "joplin-stark-sawer": [
+      "mutopia-263-legacy",
+      "mutopia-23"
+    ],
+    "beethoven-breitkopf-samelis": [
+      "mutopia-904"
+    ],
+    "ruthardt-editorial-cohort": [
+      "mutopia-2080",
+      "mutopia-2060",
+      "mutopia-2061"
+    ],
+    "haydn-koehler-peters-wassink": [
+      "mutopia-186"
+    ],
+    "rameau-malherbe-durand-sardain": [
+      "mutopia-487"
+    ],
+    "purcell-macfarren-chappell-anonymous": [
+      "mutopia-2243"
+    ],
+    "nigel-holmes-linked-contributor": [
+      "mutopia-888",
+      "mutopia-889",
+      "mutopia-789"
+    ]
+  },
+  "family_facts": {
+    "stan-sanderson-contributor": {
+      "composer": "Traditional(376);StephenFoster(370)",
+      "contributor": "Stan Sanderson",
+      "edition": "376 O.Ditson;370 historical Foster source",
+      "notes": "Shared contributor despite distinctcomposition."
+    },
+    "nigel-holmes-linked-contributor": {
+      "composer": "Traditional",
+      "contributor": "Nigel Holmes",
+      "edition": "888/889 EnglishCountySongs1893,arrangersBroadwood/FullerMaitland;789 FolkSongsfromHampshire1909,Holst",
+      "notes": "Cross-edition contributor link previously not merged in12family assignment."
+    },
+    "daniel-johnson-university-society": {
+      "composer": "Peter Cornelius",
+      "contributor": "Daniel Johnson",
+      "edition": "UniversitySociety1909",
+      "notes": "Related Brahms580 is excludedfromtraining/evaluation for augmentedmodels."
+    },
+    "schubert-breitkopf-raynaud": {
+      "composer": "Franz Schubert",
+      "contributor": "Philippe Raynaud",
+      "edition": "Breitkopf historical edition",
+      "notes": "1578/1558 samefamily;publisher sharedwith904 is confound,not automaticallysameeditor."
+    },
+    "handel-chrysander-maddock": {
+      "composer": "G.F.Handel",
+      "contributor": "John Maddock",
+      "edition": "Chrysander",
+      "notes": "98legacy original version fixed."
+    },
+    "joplin-stark-sawer": {
+      "composer": "Scott Joplin",
+      "contributor": "Chris Sawer",
+      "edition": "JohnStark&Son originaleditions1899/1902",
+      "notes": "23reserved and263trained staytogether; newwork notnewfamily."
+    },
+    "beethoven-breitkopf-samelis": {
+      "composer": "LudwigvanBeethoven",
+      "contributor": "Samelis",
+      "edition": "Breitkopf",
+      "notes": "Publisher overlap withSchubert, no provenidenticaleditor."
+    },
+    "ruthardt-editorial-cohort": {
+      "composer": "Tchaikovsky2080;Czerny2060/2061",
+      "contributor": "McNamara2080;CastejonLimas2060/2061",
+      "edition": "SharedAdolfRuthardt editor,Schirmer/Peters;CzernyOp821 series",
+      "notes": "Group acrosscomposer throughreviewededitor;notthreeindependentfamilies."
+    },
+    "haydn-koehler-peters-wassink": {
+      "composer": "Joseph Haydn",
+      "contributor": "Bas Wassink",
+      "edition": "Koehler/Peters",
+      "notes": "Koehler linksblocked804;Wassink linkspendingBurgmuller202/214;these remainoutside."
+    },
+    "rameau-malherbe-durand-sardain": {
+      "composer": "JeanPhilippeRameau",
+      "contributor": "Ludovic Sardain",
+      "edition": "Malherbe/Durand",
+      "notes": "Whole1724suite/transforms linked."
+    },
+    "purcell-macfarren-chappell-anonymous": {
+      "composer": "Henry Purcell",
+      "contributor": "Anonymous, identityunknown",
+      "edition": "Macfarren/Chappell",
+      "notes": "Not demonstrated independentcontributor;wholeKingArthurZ628 linked."
+    }
+  },
+  "evidence_sha256": {
+    "datasets/research-cycle36-seventeen-work-assignment.json": "4812808f5b333e813de315e41ba595e451a8c512e7c54b46f96e40ce6d323b3b",
+    "datasets/research-exploratory-multifamily-20261112.json": "bfcb2777ca6af1fbf41e957809a0fd35c6291e9bb3ae14182fd7ba1c9a86f6d7",
+    "datasets/research-cornelius583-training-assignment.json": "9ef48d43a1aa6670a0c1ae0824b03fcf0c894f6d299679cb820c0ff27e283d09",
+    "datasets/research-maple23-reserved-cycle44-20261112.json": "2b587651357ab679b82b4a021f7451c2bffac596e7363b2d5ca3cbac54b6c694",
+    "datasets/research-dowland-observation-cycle40-20261112.json": "f4a1c58d45990ce800f936931a85236ee19364660b3185dd1533a3f398168081",
+    "datasets/research-new-cohorts-cycle32-20261112.json": "4e7763e89e1844fbc5ce445029b3a08e266fa52365c9cccb36895c0ba1b66636",
+    "datasets/research-frozen-foster-transfer-20261112.json": "f075804c974c6987e342b62d9caf98c209c631efd8ea7bd74d434bd6ff17b4eb",
+    "datasets/research-new-cohorts-cycle30-20261112.json": "d3816534636fb4eb67a1f6d966456dc6752e4a5643be43a087c35fbebfd9b790",
+    "datasets/research-frozen-schubert-transfer-20261112.json": "994fcc3cfbb8edc47faec4a8635b312c7c54d44ad8e575948edefb1f66b3c910",
+    "datasets/research-new-cohorts-cycle33-20261112.json": "c5ace67d664cb7c547e079d954da3704f61e51c6388622c6f19a76eae7e2a122",
+    "datasets/research-new-cohorts-cycle29-20261112.json": "2b5461f5f81681c1aba50d5bc0b937d0d1411bb694e111cf6d541080fae997ef",
+    "datasets/research-new-cohorts-cycle35-20261112.json": "dc3f8c935e2a29b87b7f362bd9b5c8ac5d756b26f1eeda25314b88e7646693dd"
+  },
+  "roles": {
+    "training": [
+      "mutopia-376",
+      "mutopia-888",
+      "mutopia-889",
+      "mutopia-789",
+      "mutopia-583",
+      "mutopia-1578",
+      "mutopia-1558",
+      "mutopia-370",
+      "mutopia-98-legacy",
+      "mutopia-263-legacy",
+      "mutopia-904",
+      "mutopia-2080",
+      "mutopia-2060",
+      "mutopia-2061",
+      "mutopia-186",
+      "mutopia-487",
+      "mutopia-2243"
+    ],
+    "candidate_reserved": [
+      "mutopia-23"
+    ],
+    "observed_untrained": [
+      "640",
+      "921",
+      "21",
+      "1691"
+    ],
+    "screenblocked_untrained": [
+      "1692",
+      "804",
+      "1741",
+      "532"
+    ],
+    "related_excluded": [
+      "580"
+    ]
+  },
+  "cautions": [
+    "Parent selected explicit11family weighting policy before fit. Frozen12family assignments/results remain unchanged.",
+    "Observed921 sharesPeters publisher withtraining, but distinct reviewededitor; broadpublisher independence notclaimed.",
+    "Anonymous identity cannotprovecontributor independence.",
+    "No cross-role exactsourceidentity found, noMaple gateflags; this is notproof all18musicallyindependent.",
+    "Existing withintrain8motiflinks904/2061 and2060/2061 persist; proposededitor grouping alreadyjoins2060/2061 butdoesnoterase904link."
+  ],
+  "fit": false,
+  "model_score": false,
+  "family_policy": "Start from frozen12 source/editor cohorts; merge concrete shared contributor NigelHolmes via transitive closure; broadpublisher and shortmotif links alone do not merge sourcefamilies. Maple23 joinsexistingJoplinSawerStark. Exact17/18sources eachcoveredonce.",
+  "motif_links_separate_from_source_family": [
+    {
+      "works": [
+        "583",
+        "2243"
+      ],
+      "kind": "previous fixedwithintrain exact8 motif link",
+      "action": "retain split/leakage review; not evidence sameauthor/editor; not merged by sourcefamilyweighting"
+    },
+    {
+      "works": [
+        "904",
+        "2061"
+      ],
+      "kind": "priorwithintrain exact8 motif link",
+      "action": "retain split/leakage review separately"
+    },
+    {
+      "works": [
+        "2060",
+        "2061"
+      ],
+      "kind": "priorwithintrain exact8 plus knownsameCzernyOp821/Ruthardt sourcefamily",
+      "action": "already merged based on provenance, not motif alone"
+    }
+  ]
+}

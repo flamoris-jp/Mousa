@@ -1,0 +1,78 @@
+{
+  "cycle": 38,
+  "role": "generated-private/listening-only/not-training",
+  "files": [
+    {
+      "relative_filename": "midi/A.mid",
+      "sha256": "fdb5d76f62dd48eeee62644617b0cf03f3a0070428c29b50d8d35f124a4ae704",
+      "bytes": 233,
+      "role": "generated-private/listening-only/not-training"
+    },
+    {
+      "relative_filename": "audio/A.wav",
+      "sha256": "098c5425b725e68c301ba2898088c5a726725faa261200a6227069065206a0d2",
+      "bytes": 529244,
+      "role": "generated-private/listening-only/not-training"
+    },
+    {
+      "relative_filename": "midi/B.mid",
+      "sha256": "1ad6df919a5d27c899686c8a061b7ff84f251ad1815e0d2405a388acff51cd5c",
+      "bytes": 350,
+      "role": "generated-private/listening-only/not-training"
+    },
+    {
+      "relative_filename": "audio/B.wav",
+      "sha256": "d8dc12c8b31a053555af57fc97ff33246bff974a811346028ebcf6eaf03d1eb4",
+      "bytes": 529244,
+      "role": "generated-private/listening-only/not-training"
+    },
+    {
+      "relative_filename": "midi/C.mid",
+      "sha256": "b4b51c4dd97c2ffa4e957125a630bd7bce277912ae8cc61965a95a339b595e6a",
+      "bytes": 329,
+      "role": "generated-private/listening-only/not-training"
+    },
+    {
+      "relative_filename": "audio/C.wav",
+      "sha256": "bb0545efde532047a9a6f7679a0a650f64ad29de23b4ab2d18b57a4cb65c16bc",
+      "bytes": 529244,
+      "role": "generated-private/listening-only/not-training"
+    },
+    {
+      "relative_filename": "midi/D.mid",
+      "sha256": "a890d85cb2ddf77692c879966d969e5c09635c0000f100151ad5bf5e29562815",
+      "bytes": 350,
+      "role": "generated-private/listening-only/not-training"
+    },
+    {
+      "relative_filename": "audio/D.wav",
+      "sha256": "e8091630f0058e30095364def0e0bf2129bc3fa6c20fae8a9ad65b8a5d7c4055",
+      "bytes": 529244,
+      "role": "generated-private/listening-only/not-training"
+    },
+    {
+      "relative_filename": "metadata/2026-11-12-group-audition-final-plan.json",
+      "sha256": "5eee4c832dc05d246cf380f6e37228f18e927ae69d9bc971a9221f2ea4775cf8",
+      "bytes": 5585,
+      "role": "private-audition-technical-metadata-not-listener-packet"
+    },
+    {
+      "relative_filename": "metadata/2026-11-12-group-audition-verification.json",
+      "sha256": "218fa51f74cc1ad326641670f0bffd3028abc532bbe0c828c39a7bc98dd6be09",
+      "bytes": 7525,
+      "role": "private-audition-technical-metadata-not-listener-packet"
+    }
+  ],
+  "original_training_files_included": false,
+  "generated_source_json_included": false,
+  "private_label_key_included": false,
+  "authorized_destination": "LIME assets/mousa/materials/{audio,midi,metadata}/private-auditions-cycle38/",
+  "transfer_performed": false,
+  "limitations": [
+    "No human listening or ratings performed.",
+    "No source/training corpus changes.",
+    "Cantabile CLI exact note/performance fields and EOT verified;MIDI serialization bytes differ.",
+    "Common gain and no normalization;RMS differences retained.",
+    "Do not deliver technical metadata or privatekey as blind listener packet."
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "cycle": 43,
+  "kind": "immutable_metadata_only_snapshot",
+  "files": [
+    {
+      "relative_path": "experiments/2026-11-12-anchor-register-cycle43-before-fit.json",
+      "bytes": 867,
+      "sha256": "712ae813575df8ac3e5dd5d7f371fbdafd2ee71635090024a4adec2cf14dbacc"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-anchor-register-cycle43-clearance.json",
+      "bytes": 243,
+      "sha256": "9c0e4f43e858f2f93c4395617d825962dfa00597d4a5f77ec6da154f7329fd78"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-anchor-register-cycle43-final-plan.json",
+      "bytes": 17879,
+      "sha256": "15893d65656bb6fd8cc3dadf421fd51d985707d26291df5e7091180200a7b22f"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-anchor-register-cycle43-fit-journal.json",
+      "bytes": 404,
+      "sha256": "339e935ee029746141f83f08ca5070005d5e2be483675f3acdb81cada2ec30af"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-anchor-register-cycle43-independent-profile.json",
+      "bytes": 435,
+      "sha256": "f4b6b0337119d8b1003b0dab40e9d885ae8498d388a90f46181d9a435fbad2a2"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-anchor-register-cycle43-independent-results.json",
+      "bytes": 646,
+      "sha256": "1f247604675e5a77ce6e65467db2e81b44302b5db259530ed5687511a387dad2"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-anchor-register-cycle43-overview.md",
+      "bytes": 4458,
+      "sha256": "7774254c76d928a139ad52d63fddecfe32b44a667ccf8c8cc3d4fbf82b599cee"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-anchor-register-cycle43-plan.json",
+      "bytes": 17759,
+      "sha256": "1c8306d0b16ba94560fe9a01b5307cfafd3d2e20aff08af655099ec2001e7159"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-anchor-register-cycle43-prefit-correction.json",
+      "bytes": 774,
+      "sha256": "8aa371200933aaebd997dfe54413b264bbbd2c86dc2ff05e2db446e28193d007"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-anchor-register-cycle43-results.json",
+      "bytes": 28692,
+      "sha256": "fec642305803e9097cd09163228072a927d3ad1afdef3a22ccb90d3e655e69a7"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-anchor-register-cycle43-verification.json",
+      "bytes": 2289,
+      "sha256": "4449ca45c5d9987cda181cbc981ace5cf66d9552f4197a41f9344e3b418be6d1"
+    },
+    {
+      "relative_path": "src/mousa/anchor_register_cycle43.py",
+      "bytes": 3755,
+      "sha256": "e800a34af5aba8a56c2593cb2e3afd517d9054c6e20497919c8b739517056a95"
+    },
+    {
+      "relative_path": "tools/compare_anchor_register_cycle43.py",
+      "bytes": 10318,
+      "sha256": "ac5e8f15e0b8acc6cea159a6a3ce4bd2f511cec5e1b0cb5137a9f3cc3129527f"
+    },
+    {
+      "relative_path": "tests/test_anchor_register_cycle43.py",
+      "bytes": 2512,
+      "sha256": "1d736fd4026f80e90beb50a844b1f799b0434a669cfb3ddb432cb636422f0c63"
+    },
+    {
+      "relative_path": "tests/test_anchor_register_cycle43_driver.py",
+      "bytes": 1494,
+      "sha256": "62adb6a4f1b9003630a3e336ac9debe9c6f0b222e90aa9fa061da2dcd86dfec4"
+    }
+  ],
+  "file_count": 15,
+  "total_bytes": 92525,
+  "raw_notes_included": false,
+  "media_included": false,
+  "uploaded": false,
+  "unique_paths_asserted": true,
+  "all_hashes_verified": true,
+  "independent_profile_and_results_included": true,
+  "manifest_sha256": "1983039f7460a494702a7639f0232ffa7504bb24b780ca32148e4c802e614146"
+}

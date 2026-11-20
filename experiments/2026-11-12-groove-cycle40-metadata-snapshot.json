@@ -1,0 +1,88 @@
+{
+  "kind": "immutable_metadata_only_snapshot",
+  "cycle": 40,
+  "files": [
+    {
+      "relative_path": "experiments/2026-11-12-groove-cycle40-before-fit.json",
+      "bytes": 206,
+      "sha256": "ff6184ef3794e98682df3b7a034b3dd98519f3a9db3f49056676dfb807348849"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-cycle40-clearance.json",
+      "bytes": 402,
+      "sha256": "e7195e82a584a68358d072777dca7660929c0e856f8ed4888310a57c1d15d3f2"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-cycle40-fit-journal.json",
+      "bytes": 8489,
+      "sha256": "af0b805fb0f24cc1a21108e70d43becf6acb15a67cda7a16be3350f31923c3bc"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-cycle40-independent-profile.json",
+      "bytes": 461,
+      "sha256": "6eb01fd023f59395045f4b21b2b2633cf9a588fdcdb0aa6a63ed307dc7a9e2bd"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-cycle40-independent-results.json",
+      "bytes": 495,
+      "sha256": "72c6fa6a4698b9db2c1b80d9e23e0f207c2c42b99545a65803d5d123be91a5bf"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-cycle40-overview.md",
+      "bytes": 3847,
+      "sha256": "3654f20ab39a213c492ca08877a9e9f06f2c62b22cc1a329be4fec0e98a00176"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-cycle40-plan.json",
+      "bytes": 68833,
+      "sha256": "16e6216e4a5094c43d9e9aea8abe06a049fd345aa89b9bdb338731b685651b02"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-cycle40-repeat-verification.json",
+      "bytes": 524,
+      "sha256": "e629748f46a1c5e13dba933ff9f8a9bb3ad293e34b9a1a5d5a2342b233c008dc"
+    },
+    {
+      "relative_path": "experiments/2026-11-12-groove-cycle40-results.json",
+      "bytes": 28030,
+      "sha256": "86ec0e52e5cc0513ad3ad119eac339e902f625e5f62b76818435aa34b66088e6"
+    },
+    {
+      "relative_path": "datasets/research-groove-usage-cycle40-20261112.json",
+      "bytes": 995,
+      "sha256": "e82a08c3e642700725ef618317f0f13936e67c35844075d6be2a36569e01ed75"
+    },
+    {
+      "relative_path": "src/mousa/groove_cycle40_weighted.py",
+      "bytes": 3238,
+      "sha256": "a9c9f5e816e554791c96c8233215a11d0468375adb27bc33c7ff743c11d129e6"
+    },
+    {
+      "relative_path": "tools/groove_cycle40_compare.py",
+      "bytes": 9954,
+      "sha256": "6bc8500fd1ae00933b20451426f3eecb4763d51373c9762ab836cb175c97e6fd"
+    },
+    {
+      "relative_path": "tests/test_groove_cycle40_weighted.py",
+      "bytes": 2380,
+      "sha256": "fdf62d259d2fbb9c76cabceaa5d224d738a16312af020c1ab0f04b06fec83b03"
+    },
+    {
+      "relative_path": "tests/test_groove_cycle40_compare.py",
+      "bytes": 1657,
+      "sha256": "a4e86bcd01bf86e48096f3d33c9f0738ea4548130ef9c13d5779fdd19a56dbaa"
+    }
+  ],
+  "file_count": 14,
+  "total_bytes": 129511,
+  "raw_originals_included": false,
+  "audio_included": false,
+  "existing_original_archive_not_resent": true,
+  "uploaded": false,
+  "roles": "58 training / 16 observed / 1076 unscored unchanged",
+  "independent_reviews_included": [
+    "profile",
+    "results"
+  ],
+  "manifest_sha256": "318479cbfed1145f9dc7263a4b887560182e6fb8f497c41968ca65450a3a9238"
+}

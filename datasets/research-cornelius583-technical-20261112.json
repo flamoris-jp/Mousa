@@ -1,0 +1,71 @@
+{
+  "id": 583,
+  "reviewed_at_utc": "2026-11-12T10:45:29.275961+00:00",
+  "status": "technicalacceptance only;reserveduntrainedunscored",
+  "reader": "mousa.overlap_midi.read_midi",
+  "track": 1,
+  "name": "melStaff",
+  "notes": 80,
+  "pitch_set": [
+    71
+  ],
+  "overlap_pairs": 0,
+  "meter": [
+    3,
+    4
+  ],
+  "meter_changes": 0,
+  "clocks_per_click": 18,
+  "notated_32nds_per_beat": 8,
+  "ppq": 384,
+  "selected_EOT": 36096,
+  "source_EOT": 48384,
+  "first_onset_tick": 1728,
+  "origin_steps": 0,
+  "score_start_evidence": "R2. fullbarfermatarest + r4. dottedquarterrest =1152+576=1728ticks beforefirstB4. No partial; source invokes sopNotes directly. Fermata isnotation,not inventedMIDIelongation.",
+  "tempo_map": [
+    [
+      0,
+      666666
+    ]
+  ],
+  "volume_map": [
+    [
+      29952,
+      62
+    ]
+  ],
+  "program_map": [
+    [
+      0,
+      0
+    ]
+  ],
+  "program_defaulted": true,
+  "unsupported_selected_semantics": "None rejected byreader; selectedstream onlynotes+CC7, no sustain/bend. Unknownarbitrarymetadata and accompaniment excluded by profile.",
+  "preservation": "Originalfiles untouched; no projection,padding,cropping,quantization,cleanup or modelscore. Reader acceptance isnot completeDAW/projectfidelity.",
+  "midi": {
+    "sha256": "631bcd481e09c1493191959ec3264c3513c4a93177ffc6d833dea4f4952b659b",
+    "unchanged_vs_prior": true
+  },
+  "ly": {
+    "sha256": "91a09b045b86d7b2fa0176bd37c14e775544ad8d6aaaeece707772414794e836"
+  },
+  "rights_ledger": "datasets/research-cornelius583-reserved-20261112.json",
+  "rights_limits": "PDcontribution and historical1909UniversitySocietyedition corroborated incipitonly. LegacyPDnotCC0. SameDanielJohnson/UniversitySocietyfamily as580; muststaygrouped. Singlepitchwork notrepresentativegeneralmelodybenchmark.",
+  "independence_review": {
+    "basis": "Parent experimentaldesign, not newcontextmodel codeaudit",
+    "training_scope": [
+      376,
+      888,
+      889,
+      789
+    ],
+    "580_status": "Nowobserved predictive diagnostic;NOTfreshindependenttest. Any contextarchitecture/hyperparameters motivated by580results render future580comparison adaptiveexploration, even iffit usesold4only.",
+    "583_status": "Reserved;do notuseforparameterselection; samecontributor/publisherfamily as580,notfreshfamilyholdout.",
+    "recommendation": "Fix supports/contexts/thresholds fromtraining-onlyrules or groupedtrainfolds beforeevaluating; record existing580feedback; ifselectingby580 callitdevelopmentdiagnostic and requirefuturefreshfamiliesforgeneralizationclaims. No newcandidateadmission merelytobolsterresults."
+  },
+  "selected_modeled_roundtrip": true,
+  "selected_sha256": "1e11cf8c9b7b263817afdd070a9f93628fc36a908c5803442bce971ea48915e3",
+  "reader_sha256": "1afc11bf6b6985a2eb22ebe5302b707d39378291e27b6299fde82564c167c867"
+}

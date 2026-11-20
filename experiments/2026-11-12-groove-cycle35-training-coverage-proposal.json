@@ -1,0 +1,22 @@
+{
+  "created_at_utc": "2026-11-12T14:49:03.040580+00:00",
+  "status": "Design proposal only; no additional source accessed for fit and no new comparison run.",
+  "decision": "Defer new adaptive-backoff estimator comparison. Prefer prospectively fixed increased training coverage using unchanged six Cycle34 conditions.",
+  "backoff_proposal_retained": "experiments/2026-11-12-groove-cycle35-backoff-proposal.json",
+  "backoff_proposal_sha256": "3ad1bcced5f5d9f46df50c9db71823d256c426693c1d88686f1f3261cbf75040",
+  "proposed_roles": "Same train drummers1\u20136; same eight already observed diagnostic recordings from drummers7\u201310. All eval_session recordings remain reserved. No new independent validation claim.",
+  "candidate_design": "Nested baseline twelve versus at most36 whole training performances (up to6 per training drummer), source-SHA then ID ordering, retain original twelve, no score-guided choice. Maximum4096events per whole performance, maximum60000total training events, no truncation. Source list and feasible bound must be frozen before any fit.",
+  "guardrails": [
+    "Metadata-first candidate selection with exact source hashes and rights attribution; do not acquire audio.",
+    "Pre-fit crosssplit exact bytes, full tempo/offset-normalized onset/instrument signatures and fixed coarse-window pattern screen; unresolved strong matches quarantine before fit with no score-driven replacement.",
+    "Withintrain duplicate/family and session relationships reported, not counted as independent compositions.",
+    "Freeze all six existing estimators, same support/priors and per-drummer/recording denominators. CPU60, no parameter search or generation.",
+    "The current model total30000-event bound must not be silently bypassed: prospectively bound/review a separate profile, or declare preparation blocked if selected complete-source total exceeds supported bound."
+  ],
+  "confounds": [
+    "More performances also change content, instrument mix, duration and style coverage; note count alone is not isolated.",
+    "Existing hash-order baseline includes very short fills and unbalanced event mass. Expanded counts need per-drummer and per-style metadata descriptions without attributing causal effects to style.",
+    "Repeatedly measuring the same eight is exploratory; new held-out material would require separately authorized pre-score screening."
+  ],
+  "next_action": "Parent may authorize metadata preparation and source-bound plan; actual expanded fit requires explicit review. No new source use is recorded by this proposal."
+}

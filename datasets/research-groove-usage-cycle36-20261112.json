@@ -1,0 +1,423 @@
+{
+  "recorded_at_utc": "2026-11-12T15:06:30.843611+00:00",
+  "scope": "Actual authorized Cycle36 fitting completed; source rights/historical prior roles remain immutable. Proposed36 deduplicated to35; no replacement.",
+  "plan": "experiments/2026-11-12-groove-cycle36-fit-final-plan.json",
+  "plan_sha256": "2a202a6eb4730a4c97a5505a45e07d08eded19d25dd59df85b53bc877c9fe79d",
+  "results": "experiments/2026-11-12-groove-cycle36-results.json",
+  "results_sha256": "a4a1945dae98434b38bc814fd23a6be2fe86129b457aac515bd0f337099edf77",
+  "fit_journal": "experiments/2026-11-12-groove-cycle36-fit-journal.json",
+  "fit_journal_sha256": "42fa0d3e56c87da993ae165c4e31f8244ccdcd408ffbcc46990bd1e95e2e1a1f",
+  "prior_usage": "datasets/research-groove-usage-cycle34-20261112.json",
+  "prior_usage_sha256": "bbbc0a0193886bd177aa2e8a83e4340ff4f543c0e1dcdb823a27739b40f98f68",
+  "roles": {
+    "train_used_recordings": 35,
+    "newly_train_used_recordings": 23,
+    "already_observed_diagnostics": 8,
+    "not_fit_recordings": 1107,
+    "not_fit_breakdown": {
+      "reserved_eval": 40,
+      "duplicate_alias_excluded": 1,
+      "other": 1066
+    }
+  },
+  "records": [
+    {
+      "id": "drummer1/session1/236",
+      "sha256": "0137965a4c82d04517d916c32cd1b7629a8465d4473ccecda5f2160ba7f2d47c",
+      "drummer": "drummer1",
+      "event_count": 14,
+      "train_used": true,
+      "previously_train_used": true,
+      "predictively_observed": false
+    },
+    {
+      "id": "drummer1/session1/225",
+      "sha256": "014b25875393daa9c090dff25bc9f03144a6a5961b10786c9b3dedd64982dcc9",
+      "drummer": "drummer1",
+      "event_count": 6,
+      "train_used": true,
+      "previously_train_used": true,
+      "predictively_observed": false
+    },
+    {
+      "id": "drummer1/session1/3",
+      "sha256": "01e63c2bc0d59351347ba53802cf55d374d4b63c46abbe0c82fbcf7daaec43be",
+      "drummer": "drummer1",
+      "event_count": 1076,
+      "train_used": true,
+      "previously_train_used": false,
+      "predictively_observed": false
+    },
+    {
+      "id": "drummer1/session1/96",
+      "sha256": "021c5190b92a151b96bfdd07931f9089dfe1438376ad4e1336491b322840b7bd",
+      "drummer": "drummer1",
+      "event_count": 25,
+      "train_used": true,
+      "previously_train_used": false,
+      "predictively_observed": false
+    },
+    {
+      "id": "drummer1/session3/11",
+      "sha256": "022dcd45815ef8e2fe0070a780f86e452783d7726841a384479b0d645f08168c",
+      "drummer": "drummer1",
+      "event_count": 2504,
+      "train_used": true,
+      "previously_train_used": false,
+      "predictively_observed": false
+    },
+    {
+      "id": "drummer1/session1/108",
+      "sha256": "03478e98124be9c6608cc2958ab5a5459032f41ad2f6bd5c5f5bb3f653193cc3",
+      "drummer": "drummer1",
+      "event_count": 16,
+      "train_used": true,
+      "previously_train_used": false,
+      "predictively_observed": false
+    },
+    {
+      "id": "drummer2/session2/15",
+      "sha256": "06c480fbce4e0a08734c8a57d73fe4db4508ff9622b235b85039e3bacbcb60da",
+      "drummer": "drummer2",
+      "event_count": 38,
+      "train_used": true,
+      "previously_train_used": true,
+      "predictively_observed": false
+    },
+    {
+      "id": "drummer2/session2/13",
+      "sha256": "244c21166a66d6d62052f802f60dc3b0715c18004ebb9c8f4d04acc150b5d8ff",
+      "drummer": "drummer2",
+      "event_count": 19,
+      "train_used": true,
+      "previously_train_used": true,
+      "predictively_observed": false
+    },
+    {
+      "id": "drummer2/session3/1",
+      "sha256": "3caf8ef1f11810a1db2bcf385f1c4b750f4539e787bfa427883dddaaf687cbb0",
+      "drummer": "drummer2",
+      "event_count": 2439,
+      "train_used": true,
+      "previously_train_used": false,
+      "predictively_observed": false
+    },
+    {
+      "id": "drummer2/session2/11",
+      "sha256": "3f8c4cffce4b95579b93e8f04a0a4d2631f42739f90528c4fd409b1e27221921",
+      "drummer": "drummer2",
+      "event_count": 18,
+      "train_used": true,
+      "previously_train_used": false,
+      "predictively_observed": false
+    },
+    {
+      "id": "drummer2/session2/7",
+      "sha256": "4000bbae1dbb14da5458b103a84d4b4a77757af5281564df5bf939780c193020",
+      "drummer": "drummer2",
+      "event_count": 363,
+      "train_used": true,
+      "previously_train_used": false,
+      "predictively_observed": false
+    },
+    {
+      "id": "drummer3/session2/36",
+      "sha256": "0322a67e7fd37ed62d5ed91b27f33970ba8bfbf8faaf889d16b7a98c7442fecc",
+      "drummer": "drummer3",
+      "event_count": 35,
+      "train_used": true,
+      "previously_train_used": true,
+      "predictively_observed": false
+    },
+    {
+      "id": "drummer3/session2/13",
+      "sha256": "04cb3b758b253e97e177a5ab180e6dad46989750d70c49397d1e51396499ec2f",
+      "drummer": "drummer3",
+      "event_count": 118,
+      "train_used": true,
+      "previously_train_used": true,
+      "predictively_observed": false
+    },
+    {
+      "id": "drummer3/session2/46",
+      "sha256": "04d6935311f0f4f9afb67e9a9c09bb7fd04669536d61d0e218bf90f23d5a992d",
+      "drummer": "drummer3",
+      "event_count": 82,
+      "train_used": true,
+      "previously_train_used": false,
+      "predictively_observed": false
+    },
+    {
+      "id": "drummer3/session1/30",
+      "sha256": "094f0b7343248feca59092105610102c7781621b7b964c8e6a3076ce8dc235f1",
+      "drummer": "drummer3",
+      "event_count": 16,
+      "train_used": true,
+      "previously_train_used": false,
+      "predictively_observed": false
+    },
+    {
+      "id": "drummer3/session2/10",
+      "sha256": "0be1e17288f823385d54d930bb2a8118700b8c3909da2bc88c3f01e78348a6d3",
+      "drummer": "drummer3",
+      "event_count": 113,
+      "train_used": true,
+      "previously_train_used": false,
+      "predictively_observed": false
+    },
+    {
+      "id": "drummer3/session2/2",
+      "sha256": "0dc4a19f164f846b86610f1c71f6ff3c6ff7cb98c8715f451947c93845075796",
+      "drummer": "drummer3",
+      "event_count": 143,
+      "train_used": true,
+      "previously_train_used": false,
+      "predictively_observed": false
+    },
+    {
+      "id": "drummer4/session1/8",
+      "sha256": "06e27dd6014956cb161013fa64830f9fbb3b918088e35ae8a84591e6ba54b8d5",
+      "drummer": "drummer4",
+      "event_count": 98,
+      "train_used": true,
+      "previously_train_used": true,
+      "predictively_observed": false
+    },
+    {
+      "id": "drummer4/session1/4",
+      "sha256": "0f5aa65ef1f7c82ef25108795dc810b69acf6028823cd526dece049221e3a68e",
+      "drummer": "drummer4",
+      "event_count": 215,
+      "train_used": true,
+      "previously_train_used": true,
+      "predictively_observed": false
+    },
+    {
+      "id": "drummer4/session1/7",
+      "sha256": "75626cf02379f4e0805771d06b8bfe0df039a92c8f83a59ab4d2d53bf0fae63b",
+      "drummer": "drummer4",
+      "event_count": 52,
+      "train_used": true,
+      "previously_train_used": false,
+      "predictively_observed": false
+    },
+    {
+      "id": "drummer4/session1/3",
+      "sha256": "7b2680bc2077020e5212cc2f210743e12179394be7d690f279c15ab9e8a80329",
+      "drummer": "drummer4",
+      "event_count": 375,
+      "train_used": true,
+      "previously_train_used": false,
+      "predictively_observed": false
+    },
+    {
+      "id": "drummer4/session1/6",
+      "sha256": "96368cdf7f528a62822c1860267781711ee86d713f5b2a5a0d6512a184c0f280",
+      "drummer": "drummer4",
+      "event_count": 84,
+      "train_used": true,
+      "previously_train_used": false,
+      "predictively_observed": false
+    },
+    {
+      "id": "drummer4/session1/5",
+      "sha256": "a3b20cd34a34d73cddb60347ab21bd54466e0904daef34afe64570edd11b8c87",
+      "drummer": "drummer4",
+      "event_count": 317,
+      "train_used": true,
+      "previously_train_used": false,
+      "predictively_observed": false
+    },
+    {
+      "id": "drummer5/session2/5",
+      "sha256": "04e0de610e7ae287366dfa90ddc05dcb1f9e8468753fed39311aa68c4c9ce317",
+      "drummer": "drummer5",
+      "event_count": 1784,
+      "train_used": true,
+      "previously_train_used": true,
+      "predictively_observed": false
+    },
+    {
+      "id": "drummer5/session2/12",
+      "sha256": "09d9e40c1829890ada04c300247a43e2177b1b224e743e3ee94bfc89885e0542",
+      "drummer": "drummer5",
+      "event_count": 1374,
+      "train_used": true,
+      "previously_train_used": true,
+      "predictively_observed": false
+    },
+    {
+      "id": "drummer5/session2/21",
+      "sha256": "0ae81d19bac83765481ddcf390fcc5784129f9fed6ce6aa998f10a8d7fcb5771",
+      "drummer": "drummer5",
+      "event_count": 878,
+      "train_used": true,
+      "previously_train_used": false,
+      "predictively_observed": false
+    },
+    {
+      "id": "drummer5/session2/2",
+      "sha256": "10b9beab568f8ed8fb14dc158c125aeeec43ea29e2094bad07161808f15950e5",
+      "drummer": "drummer5",
+      "event_count": 683,
+      "train_used": true,
+      "previously_train_used": false,
+      "predictively_observed": false
+    },
+    {
+      "id": "drummer5/session1/4",
+      "sha256": "1448ef4699d2341e5e6f9669b86295bfd7d6c7fbe0bcb26efc795d0d66d64a36",
+      "drummer": "drummer5",
+      "event_count": 2134,
+      "train_used": true,
+      "previously_train_used": false,
+      "predictively_observed": false
+    },
+    {
+      "id": "drummer5/session2/13",
+      "sha256": "1acf3d5d5414b2187414c1c2604a02ad642055178c5e92a0d079db67e006765d",
+      "drummer": "drummer5",
+      "event_count": 480,
+      "train_used": true,
+      "previously_train_used": false,
+      "predictively_observed": false
+    },
+    {
+      "id": "drummer6/session1/2",
+      "sha256": "0610ff76209063951ec3c7b9ed798cbf0caa117a39518c721fbc10500f76ec6f",
+      "drummer": "drummer6",
+      "event_count": 539,
+      "train_used": true,
+      "previously_train_used": true,
+      "predictively_observed": false
+    },
+    {
+      "id": "drummer6/session3/7",
+      "sha256": "16eb9913be1ad678602ddb089af8ed32eccc9ca97fe4a444f5aec55db013f889",
+      "drummer": "drummer6",
+      "event_count": 794,
+      "train_used": true,
+      "previously_train_used": true,
+      "predictively_observed": false
+    },
+    {
+      "id": "drummer6/session3/1",
+      "sha256": "23058c4ecb675624b4b1c20df8273e79c60ee7d0a2ac3b9e56194d35c8ce81d1",
+      "drummer": "drummer6",
+      "event_count": 439,
+      "train_used": true,
+      "previously_train_used": false,
+      "predictively_observed": false
+    },
+    {
+      "id": "drummer6/session2/1",
+      "sha256": "230f959de0aba9db8b81040725df0593b61c45fd2ca14068a28da891872b99b6",
+      "drummer": "drummer6",
+      "event_count": 1472,
+      "train_used": true,
+      "previously_train_used": false,
+      "predictively_observed": false
+    },
+    {
+      "id": "drummer6/session1/5",
+      "sha256": "240d1d5206bdd69fc3c4149fabcad50d3cb512f2a024bbfa4e1bb4bf0e3afdd2",
+      "drummer": "drummer6",
+      "event_count": 423,
+      "train_used": true,
+      "previously_train_used": false,
+      "predictively_observed": false
+    },
+    {
+      "id": "drummer6/session1/1",
+      "sha256": "365c10899943b9caceb08a4033ff335de7659a0dde56343263e3f33be5e0f0d6",
+      "drummer": "drummer6",
+      "event_count": 243,
+      "train_used": true,
+      "previously_train_used": false,
+      "predictively_observed": false
+    },
+    {
+      "id": "drummer10/session1/10",
+      "sha256": "22534c40c80f20ee19685a56ad0d1f5c726858dbb31284c9e4f7577741c7786e",
+      "drummer": "drummer10",
+      "event_count": 1413,
+      "train_used": false,
+      "predictively_observed": true,
+      "fresh": false
+    },
+    {
+      "id": "drummer10/session1/9",
+      "sha256": "27da7b94b20617f73e65253e464d4e87236d2f6df67aa65cccf9e2024bee23bb",
+      "drummer": "drummer10",
+      "event_count": 1229,
+      "train_used": false,
+      "predictively_observed": true,
+      "fresh": false
+    },
+    {
+      "id": "drummer7/session3/23",
+      "sha256": "01c418db0852e392fa7c91f41feeca7a80494218df6c0da214545898655f8c3e",
+      "drummer": "drummer7",
+      "event_count": 144,
+      "train_used": false,
+      "predictively_observed": true,
+      "fresh": false
+    },
+    {
+      "id": "drummer7/session3/26",
+      "sha256": "02a3d706dd1fa0289cb25486b2a50aa89aa13829edbcae377fc4e18feeedd11b",
+      "drummer": "drummer7",
+      "event_count": 16,
+      "train_used": false,
+      "predictively_observed": true,
+      "fresh": false
+    },
+    {
+      "id": "drummer8/session2/40",
+      "sha256": "0474c862ae618571738e69566c8ac22d5f945d67e41c01ff46cb3a4099514168",
+      "drummer": "drummer8",
+      "event_count": 1061,
+      "train_used": false,
+      "predictively_observed": true,
+      "fresh": false
+    },
+    {
+      "id": "drummer8/session2/13",
+      "sha256": "05a1f07916656a9d527989cc737a9c2523a1a1b0df9784c195924442db6aa18a",
+      "drummer": "drummer8",
+      "event_count": 1537,
+      "train_used": false,
+      "predictively_observed": true,
+      "fresh": false
+    },
+    {
+      "id": "drummer9/session1/20",
+      "sha256": "01f6ff2ae664d13ac0c319ed09c687185eb1f4834b770b1bc042683b9dca487d",
+      "drummer": "drummer9",
+      "event_count": 1154,
+      "train_used": false,
+      "predictively_observed": true,
+      "fresh": false
+    },
+    {
+      "id": "drummer9/session1/16",
+      "sha256": "15ea59f2475197b5299df592efbf095d8bc4bcaf4f4f52345a6eeea901b6f56a",
+      "drummer": "drummer9",
+      "event_count": 54,
+      "train_used": false,
+      "predictively_observed": true,
+      "fresh": false
+    },
+    {
+      "id": "drummer2/session2/8",
+      "sha256": "4000bbae1dbb14da5458b103a84d4b4a77757af5281564df5bf939780c193020",
+      "train_used": false,
+      "predictively_observed": false,
+      "role": "duplicate-alias-excluded-from-fit",
+      "retained_id": "drummer2/session2/7"
+    }
+  ],
+  "rights_snapshot": "datasets/research-groove-rights-cycle32-20261112.json",
+  "sources_unchanged": true,
+  "generation_or_audio": false
+}

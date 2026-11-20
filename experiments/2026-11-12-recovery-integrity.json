@@ -1,0 +1,10 @@
+{
+  "scope": "Local recovery integrity only, NOTdurability assurance",
+  "original_file_count": 9,
+  "original_total_bytes": 57147,
+  "archive_bytes": 38197,
+  "archive_sha256": "e1435eb066b1759bf42550230a0f9ba08b005fc37e4172d38f608c9781f829df",
+  "all_nine_extracted_hashes_verified": true,
+  "external_upload": false,
+  "limitation": "Same workspace may lose originals and package together; user-approved persistent private storage remains separate step."
+}
