@@ -37,6 +37,12 @@ weak phrase labels and no human naturalness result.
 Scale tables remain deterministic rules. The historical semitone-checkpoint
 adapter is retained separately with its existing limitations.
 
+The [recovered Melody Trial 001](specializations/melody/grid_v1/README.md)
+reproduces a three-work MIDI experiment with pinned Maidionis, checkpoint
+reload, next-token evaluation and eight-bar MIDI candidates. The
+[reproduction record](experiments/README.md#trial-001-recovery) keeps the
+archived results and the fresh native run separate.
+
 ## Musical specializations
 
 | Model | Intended role |

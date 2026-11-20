@@ -1,14 +1,14 @@
 # Mousa specializations
 
-One GitHub repository owns all music-domain specializations. Each specialization is independent at the **task/model** boundary but shares Mousa's dataset provenance, experimental MusicIR conventions and Maidionis general-purpose model infrastructure.
+One repository owns all six music domains. Each specialist has its own bounded task and learned parameters; generic education/model/checkpoint infrastructure stays in Maidionis.
 
-| Directory | Role |
-|---|---|
-| `melody/` | motive, phrase, interval movement, continuation |
-| `harmony/` | chords, tension, progression |
-| `bass/` | groove-aligned bass phrase |
-| `drums/` | beat patterns, accents, meter and swing |
-| `arrangement/` | large-scale form and dynamics |
-| `critic/` | validity, structured analysis, preference and similarity as distinct tasks |
+| Directory | Role | Current stage |
+| --- | --- | --- |
+| `melody/` | Motifs, phrases, intervals and continuation | Recovered grid-v1 offline experiment |
+| `harmony/` | Chords and tension/release | Planned |
+| `bass/` | Groove-aligned bass phrases | Planned |
+| `drums/` | Beats, accents, meter and swing | Planned |
+| `arrangement/` | Form, transitions and dynamics | Planned |
+| `critic/` | Distinct validity, feature, preference and similarity tasks | Planned |
 
-No specialized trained models are included in this bootstrap. Before introducing one, define its immutable task ID/version, bounded input/output and failure/abstention rules, dataset split and metrics, provenance, and correspondence to the current Maidionis contract. Do not copy Maidionis Core implementations here.
+The current Melody composition is not six deployed trained models. Before extending a task, define immutable identity/version, bounded inputs/outputs, dataset lineage and splits, metrics, known failures, and exact correspondence with Maidionis contracts. Preserve semantic identity on a code relocation; intentionally change it when the task meaning changes.

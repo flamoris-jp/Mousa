@@ -1,0 +1,74 @@
+name: Mousa Melody native research
+
+on:
+  pull_request:
+    paths:
+      - 'specializations/melody/grid_v1/**'
+      - 'tools/prepare_trial_corpus.py'
+      - 'tools/verify_trial_native.py'
+      - 'datasets/trial001-sources.json'
+      - '.github/workflows/melody-grid-v1.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'specializations/melody/grid_v1/**'
+      - 'tools/prepare_trial_corpus.py'
+      - 'tools/verify_trial_native.py'
+      - 'datasets/trial001-sources.json'
+      - '.github/workflows/melody-grid-v1.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  native-reproduction:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    env:
+      MOUSA_MAIDIONIS_ROOT: ${{ github.workspace }}/.deps/Maidionis
+      MOUSA_TRIAL_CORPUS: ${{ github.workspace }}/.cache/trial001-corpus
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/checkout@v4
+        with:
+          repository: flamoris-jp/Maidionis
+          ref: a987eeeea11e3971d3b9708bfff6b3545cdb601f
+          path: .deps/Maidionis
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install pinned CPU research profile
+        run: |
+          python -m pip install -r .deps/Maidionis/tools/dependencies.txt -r specializations/melody/grid_v1/requirements.txt
+          python -m pip install --no-deps --no-build-isolation .deps/Maidionis
+      - name: Fetch only reviewed and hash-pinned sources
+        run: python tools/prepare_trial_corpus.py --output "$MOUSA_TRIAL_CORPUS"
+      - name: Unit tests and dataset boundaries
+        run: |
+          PYTHONPATH=src python -m unittest discover -s tests -v
+          python -m unittest discover -s specializations/melody/grid_v1/tests -v
+      - name: Build and run 30-epoch offline experiment
+        run: |
+          python specializations/melody/grid_v1/experiment.py --corpus "$MOUSA_TRIAL_CORPUS/manifest.json" --output runs/trial001 --build-dir build/melody-grid-v1 --epochs 30
+      - name: Fresh-process resume, generation and tamper checks
+        run: python tools/verify_trial_native.py --driver build/melody-grid-v1/maidionis_music_driver --run runs/trial001
+      - name: Keep research reports and candidate previews
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: mousa-trial001-${{ github.run_id }}
+          retention-days: 14
+          if-no-files-found: warn
+          path: |
+            runs/trial001/report.json
+            runs/trial001/native-verification.json
+            runs/trial001/preregistration.json
+            runs/trial001/training-summary.json
+            runs/trial001/candidate-*.mid
+            runs/trial001/candidate-*.wav
+            runs/trial001/candidate-*-generation.json

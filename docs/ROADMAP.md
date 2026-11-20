@@ -11,10 +11,14 @@ Current stage: **bootstrap / research**. Phases below are intended work, not shi
 
 ## M1 — Reproduce the first MIDI learning trial
 
-- [ ] Locate and verify the original experiment source, licenses, model weights, exact dataset IDs, commands and hashes before migration
-- [ ] Reproduce its train/selection/held-out split and next-note baseline
-- [ ] Preserve observed failures and distinguish continuation from new-onset accuracy
-- [ ] Link experiment output/metrics rather than committing unreviewed MIDI or weights
+- [x] Recover original source archive and verify all 429 inventoried members
+- [x] Record source hashes, historical metrics and limitations separately from new runs
+- [x] Recheck exact three-work source declarations and add a hash-pinned intake catalog
+- [x] Migrate music-only source against an external pinned Maidionis checkout
+- [x] Add 22 music tests and fresh native CI for training, reload, generation and resume/tamper checks
+- [x] Fresh native CI run 43006693911 passed; exact evidence and weak-quality results recorded
+
+See [experiment evidence](../experiments/README.md). The recovered trial uses a narrow next-token task; this does not imply musical quality.
 
 ## M2 — MIDI ingestion and musical representation
 
