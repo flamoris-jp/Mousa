@@ -1,0 +1,9 @@
+{
+  "all_rows_checked": 10829,
+  "all_coalesced_events_source_replayed": 75381,
+  "family_split_disjoint": true,
+  "representative_min_id_verified": true,
+  "cap16_verified": true,
+  "training_sha256": "93a912c1578cf885c26eb1778df522b632cda29fdb1cf061dcf4f3f1098baadc",
+  "checks": "Independent artifact replay, raw time/label/source lines, causal three-event row, context and gaps, split identity; not a musical-quality evaluation."
+}
